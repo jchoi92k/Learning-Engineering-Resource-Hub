@@ -1,0 +1,16 @@
+# Learning Engineering Resource Hub
+
+> A curated referratory of learning engineering and AI-in-education resources.
+> Optimized for LLM agent consumption. All entries link to externally-hosted content.
+> Curation model: pre-curated, authoritative sources only — no title-only inference.
+
+## Full index
+- [All entries](llms-full.txt) — complete index, fetch this first
+
+## Status
+Index rebuilding under v2 curation policy (2026-05-01).
+Previous 84-entry index available at [legacy/llms-full.txt](legacy/llms-full.txt).
+
+## Schema & purpose
+- [Schema](schema.md) — field definitions, type taxonomy, provenance flags
+- [Purpose](purpose.md) — scope, audience, curation philosophy

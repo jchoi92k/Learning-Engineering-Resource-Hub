@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp / build artifacts
+*.tmp
+docs/llms-full_tmp.txt
+
+# Staging area (temp indexing work — cleared after each merge)
+docs/staging/
+
+# Claude Code local settings
+.claude/
+
+# Firecrawl scrape outputs
+.firecrawl/
+
+# Old wiki/ directory (replaced by docs/ — delete when possible)
+wiki/
+
+# Legacy content (superseded by current docs/)
+docs/legacy/
+
+# Root-level working/scratch notes (not for public repo)
+academic_debate.md
+automated_scanning_risks_and_approach.md
+oer_indexes_and_registries.md
+poc_notes.md
+policy_frameworks.md
+
+# OS
+.DS_Store
+Thumbs.db

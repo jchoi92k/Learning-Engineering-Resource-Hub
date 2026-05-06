@@ -85,6 +85,6 @@ Descriptions are **never** written from title alone. The following rules apply:
 
 `url_confirmed: false` means the URL was not directly fetched and verified; the AIMS Collaboratory discovery page is used as fallback for older entries. New entries must have `url_confirmed: true`.
 
-### Legacy entries (pre-2026-05-01)
+### Pre-2026-05-01 entries
 
 Entries 1–74 were compiled under a looser standard: ~59 descriptions are `description_inferred: true` based on title + contextual signals, not confirmed page fetches. These should be re-audited and updated or dropped under the current policy during the next scrape pass.

@@ -197,6 +197,8 @@ request rather than navigating selectively via links.
 `llms.txt` → `index.md` → individual file navigation chain. Fewer fetches,
 less latency, simpler architecture. Worth testing in the POC.
 
+**Update (2026-05-06):** Confirmed empirically. Live testing at 569 entries showed that chat-based LLMs (Claude.ai) cannot follow URLs found in fetched content — only URLs the user directly pastes. The hub-and-spoke approach (llms.txt → tag files) was tried and failed. llms-full.txt as a single self-contained file is now the recommended entry point. Mintlify's 3–4x traffic finding was independently validated by this architectural constraint.
+
 ## Value-Add: Critical Assessment
 
 The "agent-facing format" framing overstates the marginal difference between a

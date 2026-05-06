@@ -1,48 +1,21 @@
-# Learning Engineering Resource Hub
+# Learning Engineering Resource Hub — Compact Index
 
 > 569 curated evidence-based K-12 and higher education resources.
 > Last updated: 2026-05-06
 
-## How to navigate this resource (for LLM agents)
+This file lists all entries (title, URL, type, tags) without descriptions.
 
-You are reading the entry point. This file contains a compact version of
-all 569 entries (title, URL, type, source, tags) — no descriptions.
-Use this to answer discovery questions, then fetch deeper layers for detail.
+## Tags
 
-### Layers
+**Domain:** k-12 (361), learning-engineering (236), higher-ed (123), math-education (91), literacy (91), early-childhood (62), english-learners (24), school-discipline (18)
 
-| Layer | File | What you get |
-|---|---|---|
-| Compact index | **llms.txt (this file)** | All 569 entries — title, URL, type, source, tags. No descriptions. |
-| Tag detail | tags/{tag}.md | Filtered entries with full descriptions for one topic. Most are 500–5,000 tokens. |
-| Full dump | llms-full.txt | Every entry with full descriptions. ~125,771 tokens — too large for a single web fetch. |
+**Method:** longitudinal (102), computer-assisted-learning (62), meta-analysis (36), intelligent-tutoring (36), genai (28), response-to-intervention (28), coaching (26), qualitative-research (20), rct (14), nlp (14), llm-application (13), a-b-testing (7), automated-feedback (7)
 
-### Recommended flows
+**Topic:** open-datasets (105), professional-development (81), formative-assessment (59), college-access (57), digital-learning-platforms (56), personalized-learning (41), sel (37), prekindergarten (25), career-readiness (24), data-sharing (21), student-belonging (19), dropout-prevention (19), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (14), attendance (14), writing-instruction (11), math-motivation (4), genai-tutoring (3), math-word-problems (2)
 
-| User asks | What to do |
-|---|---|
-| "What resources exist?" / "What's in here?" | Answer from this file — you already have the full catalog. |
-| "What's available on [topic]?" | Search this file by tag, then optionally fetch the tag file for descriptions. |
-| "Tell me more about entry N" | Follow the entry's URL directly. |
-| "Give me everything on math education" | Fetch tags/math-education.md |
+**Affiliation:** wwc (117), aims (46), digital-promise (30), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (10), northwestern-e4 (9), assistments (9), rppl (5), carnegie-learning (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), tla (1), casel (1)
 
-Tag file URL pattern: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/{tag-name}.md
-
-### Do NOT fetch llms-full.txt via web browser tools.
-At ~491 KB / ~125,771 tokens, it will be truncated by most fetchers.
-Use this file (llms.txt) for discovery, tag files for detail.
-
-### Available tags
-
-**Domain:** [k-12](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/k-12.md) (361), [learning-engineering](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/learning-engineering.md) (236), [higher-ed](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/higher-ed.md) (123), [math-education](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/math-education.md) (91), [literacy](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/literacy.md) (91), [early-childhood](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/early-childhood.md) (62), [english-learners](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/english-learners.md) (24), [school-discipline](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/school-discipline.md) (18)
-
-**Method:** [longitudinal](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/longitudinal.md) (102), [computer-assisted-learning](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/computer-assisted-learning.md) (62), [meta-analysis](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/meta-analysis.md) (36), [intelligent-tutoring](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/intelligent-tutoring.md) (36), [genai](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/genai.md) (28), [response-to-intervention](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/response-to-intervention.md) (28), [coaching](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/coaching.md) (26), [qualitative-research](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/qualitative-research.md) (20), [rct](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/rct.md) (14), [nlp](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/nlp.md) (14), [llm-application](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/llm-application.md) (13), [a-b-testing](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/a-b-testing.md) (7), [automated-feedback](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/automated-feedback.md) (7)
-
-**Topic:** [open-datasets](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/open-datasets.md) (105), [professional-development](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/professional-development.md) (81), [formative-assessment](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/formative-assessment.md) (59), [college-access](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/college-access.md) (57), [digital-learning-platforms](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/digital-learning-platforms.md) (56), [personalized-learning](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/personalized-learning.md) (41), [sel](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/sel.md) (37), [prekindergarten](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/prekindergarten.md) (25), [career-readiness](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/career-readiness.md) (24), [data-sharing](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/data-sharing.md) (21), [student-belonging](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/student-belonging.md) (19), [dropout-prevention](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/dropout-prevention.md) (19), [math-strategies](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/math-strategies.md) (18), [ai-ethics](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/ai-ethics.md) (17), [ai-policy](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/ai-policy.md) (16), [inclusive-design](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/inclusive-design.md) (16), [pii-privacy](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/pii-privacy.md) (14), [attendance](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/attendance.md) (14), [writing-instruction](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/writing-instruction.md) (11), [math-motivation](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/math-motivation.md) (4), [genai-tutoring](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/genai-tutoring.md) (3), [math-word-problems](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/math-word-problems.md) (2)
-
-**Affiliation:** [wwc](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/wwc.md) (117), [aims](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/aims.md) (46), [digital-promise](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/digital-promise.md) (30), [jedm](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/jedm.md) (30), [lpi](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/lpi.md) (30), [edtrust](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/edtrust.md) (30), [jla](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/jla.md) (25), [tools-competition](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/tools-competition.md) (18), [cmu-learnlab](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/cmu-learnlab.md) (17), [lsu](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/lsu.md) (10), [northwestern-e4](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/northwestern-e4.md) (9), [assistments](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/assistments.md) (9), [rppl](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/rppl.md) (5), [carnegie-learning](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/carnegie-learning.md) (5), [khan-academy](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/khan-academy.md) (5), [upgrade-platform](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/upgrade-platform.md) (3), [norc](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/norc.md) (2), [duolingo](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/duolingo.md) (2), [nap](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/nap.md) (2), [tla](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/tla.md) (1), [casel](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/tags/casel.md) (1)
-
-### Entry types
+## Types
 
 - report: 305
 - dataset: 104
@@ -56,7 +29,7 @@ Use this file (llms.txt) for discovery, tag files for detail.
 
 ---
 
-## Complete index (569 entries)
+## Entries (569)
 
 ### ADL Initiative (2)
 

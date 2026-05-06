@@ -176,7 +176,7 @@ Important caveats: (1) both sidecars and benchmark questions were authored by Cl
 | Content hosting | No — metadata only | No — links + metadata |
 | Primary consumer | LLM agents | LLM agents |
 | Domain | ML/science | Education research |
-| Scale | 10,000+ | 487 |
+| Scale | 10,000+ | 569 |
 | Hosting | Centralized community hub | Self-hosted local + ngrok |
 
 **Knows is a sidecar** (attached to existing publications); our hub is standalone. Knows accompanies papers at their source URLs; our hub indexes across organizations. Different implementation, same underlying pattern.
@@ -233,7 +233,7 @@ Will built an excellent human-facing referratory. The LLM-agent-facing dimension
 |---|---|---|---|---|---|---|
 | **Purpose** | Web discoverability | Personal/project knowledge | Research metadata sidecars | Code docs | Policy tracking | LE resource index |
 | **Primary consumer** | LLM agents (WebFetch) | LLM agents (context window) | LLM agents | AI code editors (MCP) | Humans only | LLM agents (WebFetch) |
-| **Entry point** | `/llms.txt` | `CLAUDE.md` directive | Per-paper YAML sidecar | MCP server install | Navigation menu | `/llms.txt` + ngrok URL |
+| **Entry point** | `/llms.txt` | `CLAUDE.md` directive | Per-paper YAML sidecar | MCP server install | Navigation menu | `/llms-full.txt` (self-contained) |
 | **Full content fetch** | `/llms-full.txt` | Load wiki/ directory | Community hub index | `get-library-docs` | ✗ none | `/llms-full.txt` ✓ |
 | **Content format** | Clean Markdown | Markdown (LLM-generated) | YAML per entry | Vectorized + ranked | HTML (human) | Markdown flat files ✓ |
 | **Metadata per entry** | Link + description | Frontmatter (type/tags/confidence/backlinks) | YAML (claims/evidence/provenance) | Version + topic | Title + URL + partial description | YAML frontmatter ✓ |
@@ -244,7 +244,7 @@ Will built an excellent human-facing referratory. The LLM-agent-facing dimension
 | **MCP integration** | No | Emerging | No | Core feature | No | No ✗ |
 | **Human-facing layer** | Parent website | None | knows.academy UI | Context7 UI | Docusaurus site | `index.html` + `data.json` ✓ |
 | **Schema / field definitions** | None | `CLAUDE.md` (required) | KnowsRecord spec | N/A | None | `schema.md` + `purpose.md` ✓ |
-| **Hosting** | Domain root (static) | Local files | Cloud (centralized) | Cloud (Upstash) | Docusaurus / static | Local + ngrok |
+| **Hosting** | Domain root (static) | Local files | Cloud (centralized) | Cloud (Upstash) | Docusaurus / static | GitHub Pages (public) |
 | **Empirical agent accuracy** | Not measured | Not measured | Weak models: 47–67% vs. 19–25% on PDF (gains inconsistent for mid/strong models; circular eval bias — see summary doc) | Not published | N/A | Not measured |
 
 ---
@@ -254,11 +254,11 @@ Will built an excellent human-facing referratory. The LLM-agent-facing dimension
 There are four integration models in practice:
 
 ### 1. URL-based (what we use)
-Share a URL with the agent. The agent fetches `/llms.txt` to orient, then `/llms-full.txt` for full context. Works with any LLM that has WebFetch.
+Share a URL with the agent. The agent fetches `/llms-full.txt` which contains all entries with a navigation header. Single file, no multi-file navigation required — critical because chat-based LLMs (Claude.ai, ChatGPT) cannot follow URLs discovered inside fetched content.
 
 **How to tell an agent:** *"Read this first: [url]/llms-full.txt — it's a full index of learning engineering resources."*
 
-**Our implementation:** Works confirmed with Claude web UI via ngrok URL. ChatGPT unconfirmed (ngrok interstitial issue).
+**Our implementation:** GitHub Pages (public). Confirmed working with Claude web UI. See "LLM Fetch Restrictions" section below for constraints discovered during testing.
 
 ### 2. Context window injection (Karpathy pattern)
 Wiki files are loaded directly into the context window at session start via a SessionStart hook or by manually pasting content. No WebFetch required.
@@ -279,16 +279,16 @@ The wiki is publicly hosted with proper SEO and llms.txt, so agents with web sea
 
 **How to tell an agent:** Nothing — the agent finds it through search.
 
-**Our implementation:** Not viable yet (not publicly indexed). Would require GitHub Pages or equivalent.
+**Our implementation:** GitHub Pages is live. Not yet confirmed whether search engines have indexed the site.
 
 ---
 
 ## What Our Hub Does Well
 
-1. **llms-full.txt format:** Correct — single fetch loads all 487 entries with full metadata.
-2. **llms.txt discovery layer:** Correct — domain-based navigation with annotated links.
+1. **llms-full.txt format:** Correct — single fetch loads all 569 entries with full metadata and auto-generated navigation header.
+2. **Self-contained design:** No cross-file references in llms-full.txt. Header includes tag directory, source/type summaries, and usage instructions. Agent never needs to fetch a second file.
 3. **Schema documentation:** `schema.md` and `purpose.md` give agents explicit field definitions and provenance rules.
-4. **Tag navigation:** 47 per-tag files let agents navigate without loading full index.
+4. **Tag navigation:** 66 per-tag files generated for the web UI and for agents with multi-file fetch capability.
 5. **Dual layer:** Human-facing (`index.html` + `data.json`) + LLM-facing (flat files) coexist cleanly.
 6. **Metadata density:** YAML frontmatter with `url_confirmed`, `description_inferred`, `type`, `source`, `tags` per entry.
 
@@ -439,3 +439,59 @@ With per-entry fragment files, subagents write individual files to `docs/staging
 ### GitHub Pages (next step)
 
 See GitHub Pages checklist in `meta/indexing-decisions.md`.
+
+---
+
+## LLM Fetch Restrictions (discovered 2026-05-06)
+
+> Critical constraint discovered during live testing with Claude.ai. Invalidated the hub-and-spoke architecture.
+
+### The problem
+
+Chat-based LLM agents (Claude.ai, ChatGPT) have a fetch policy restriction: **they can only fetch URLs the user directly pastes in their message or URLs that appear in web search results.** They cannot follow URLs discovered inside fetched content.
+
+This means:
+- User pastes `llms.txt` URL → agent fetches it → sees tag file URLs in the content → **cannot fetch them**
+- The hub-and-spoke architecture (llms.txt → tag files → llms-full.txt) is broken for chat agents
+- The one file the user pastes must be self-sufficient
+
+### What was tested
+
+1. **llms.txt (128KB, ~32K tokens)** — loaded successfully ("The index file loaded"), but agent immediately tried to follow links to llms-full.txt and tag files, failed, and got confused
+2. **llms-full.txt (484KB)** — partially loaded in earlier test (~487 of 569 entries); agent got confused by header referencing other files
+3. Agent hallucinated "v2 curation policy" and "legacy file" references that don't exist in the content — likely from partial truncation + web search noise
+
+### What was considered and rejected
+
+| Approach | Why rejected |
+|---|---|
+| Hub-and-spoke (llms.txt → tag files) | Chat agents can't follow URLs in fetched content |
+| "Ask the user to paste tag URLs" | Terrible UX |
+| llm-min.txt compressed format (SKF) | Zero empirical benchmarks proving LLMs perform well reading it; requires companion guideline file (same fetch restriction); adoption nonexistent |
+| Slim llms.txt (~10KB navigation only) | Loses descriptions, which are the actual value-add |
+
+### What we landed on
+
+**llms-full.txt as the single self-contained entry point** with an auto-generated compact header:
+
+- ~19 lines of comment-prefixed metadata: tag directory (by category), type breakdown, source list with counts, usage instructions
+- Explicit instruction: "Do NOT attempt to fetch other files. This file is self-contained."
+- No references to llms.txt, tag files, schema.md, or any other file
+- Header is auto-generated by `build_tags.py` (`build_full_header()` function) on every build — stays in sync with entry data
+
+**llms.txt retained** as a compact index (titles, URLs, types, tags — no descriptions) for tools with multi-file fetch capability or strict size limits. Not the recommended entry point.
+
+### Why this works
+
+1. **Single file = zero navigation needed.** No permissions problem.
+2. **Frontloaded header = graceful degradation.** Even if the tail gets truncated, the LLM has the tag directory and source map. It knows what it's missing.
+3. **Chat agents paginate.** Claude.ai read ~487 entries from the file in testing — it gets through most of the content, just may not get all of it.
+4. **URLs in chat is natural UX.** The LLM presents matching entries with clickable URLs. The user clicks. Standard chat behavior.
+
+### Implication for the "Decided Architecture" above
+
+The dual-track + per-entry fragment architecture (decided 2026-05-04) remains the right scaling plan for the source of truth. But the **delivery layer** is now simplified: llms-full.txt is the single recommended fetch target, and its header must be self-contained with no cross-file references. The lean track and per-source shards are deferred until there's evidence that API-based or MCP-based agents (which CAN navigate between files) become significant consumers.
+
+### Research finding: llms-full.txt is what agents actually fetch
+
+Mintlify's CDN analysis (documented in hub-design-notes.md) found llms-full.txt receives 3–4x more visits than llms.txt, with ChatGPT driving most traffic. This independently validates the decision to make llms-full.txt the primary entry point. LLMs prefer loading complete content in one request rather than navigating selectively.

@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Build tag index, per-tag files, llms.txt, and data.json from llms-full.txt.
+Build tag index, per-tag files, llms.txt, data.json, and llms-full.txt header
+from llms-full.txt entries.
 
 Run from the docs/ directory:
     python build_tags.py
 
-Outputs:
-    llms.txt             - LLM entry point: navigation guide + compact full index
+Outputs / updates:
+    llms-full.txt header - auto-generated navigation guide prepended to entries
+    llms.txt             - compact index (title, URL, type, tags — no descriptions)
     tags/index.md        - all tags with entry counts and links
     tags/{tag-name}.md   - per-tag lightweight entry table
     data.json            - structured JSON for the human-facing site
@@ -238,85 +240,113 @@ def build_tags(entries):
 BASE_URL = "https://jchoi92k.github.io/Learning-Engineering-Resource-Hub"
 
 
-def build_llms_txt(entries):
-    today = date.today().isoformat()
-    total = len(entries)
-    sources = sorted(set(e["source"] for e in entries if e["source"]))
-
+def _tag_summary(entries):
+    """Return (tag_counts, type_counts, source_counts) dicts."""
     tag_counts = defaultdict(int)
+    type_counts = defaultdict(int)
+    source_counts = defaultdict(int)
     for e in entries:
         for t in e["tags"]:
             tag_counts[t] += 1
-
-    type_counts = defaultdict(int)
-    for e in entries:
         type_counts[e["type"]] += 1
+        source_counts[e["source"]] += 1
+    return tag_counts, type_counts, source_counts
 
-    full_size_kb = os.path.getsize(FULL_FILE) / 1024
-    full_tokens = int(os.path.getsize(FULL_FILE) / 4)
 
+def _tag_directory_lines(tag_counts, prefix="# "):
+    """Tag directory lines grouped by category, with configurable line prefix."""
     lines = []
+    for category in ["Domain", "Method", "Topic", "Affiliation"]:
+        cat_tags = [(t, tag_counts[t]) for t in TAG_CATEGORIES.get(category, []) if t in tag_counts]
+        if cat_tags:
+            cat_tags.sort(key=lambda x: -x[1])
+            tag_list = ", ".join(f"{t} ({c})" for t, c in cat_tags)
+            lines.append(f"{prefix}{category}: {tag_list}")
+    return lines
 
-    # --- Section 1: Navigation guide ---
-    lines.append("# Learning Engineering Resource Hub")
-    lines.append("")
-    lines.append(f"> {total} curated evidence-based K-12 and higher education resources.")
-    lines.append(f"> Last updated: {today}")
-    lines.append("")
-    lines.append("## How to navigate this resource (for LLM agents)")
-    lines.append("")
-    lines.append("You are reading the entry point. This file contains a compact version of")
-    lines.append(f"all {total} entries (title, URL, type, source, tags) — no descriptions.")
-    lines.append("Use this to answer discovery questions, then fetch deeper layers for detail.")
-    lines.append("")
-    lines.append("### Layers")
-    lines.append("")
-    lines.append("| Layer | File | What you get |")
-    lines.append("|---|---|---|")
-    lines.append(f"| Compact index | **llms.txt (this file)** | All {total} entries — title, URL, type, source, tags. No descriptions. |")
-    lines.append(f"| Tag detail | tags/{{tag}}.md | Filtered entries with full descriptions for one topic. Most are 500–5,000 tokens. |")
-    lines.append(f"| Full dump | llms-full.txt | Every entry with full descriptions. ~{full_tokens:,} tokens — too large for a single web fetch. |")
-    lines.append("")
-    lines.append("### Recommended flows")
-    lines.append("")
-    lines.append("| User asks | What to do |")
-    lines.append("|---|---|")
-    lines.append("| \"What resources exist?\" / \"What's in here?\" | Answer from this file — you already have the full catalog. |")
-    lines.append("| \"What's available on [topic]?\" | Search this file by tag, then optionally fetch the tag file for descriptions. |")
-    lines.append("| \"Tell me more about entry N\" | Follow the entry's URL directly. |")
-    lines.append("| \"Give me everything on math education\" | Fetch tags/math-education.md |")
-    lines.append("")
-    lines.append(f"Tag file URL pattern: {BASE_URL}/tags/{{tag-name}}.md")
-    lines.append("")
-    lines.append("### Do NOT fetch llms-full.txt via web browser tools.")
-    lines.append(f"At ~{full_size_kb:.0f} KB / ~{full_tokens:,} tokens, it will be truncated by most fetchers.")
-    lines.append("Use this file (llms.txt) for discovery, tag files for detail.")
-    lines.append("")
 
-    # --- Tag directory ---
-    lines.append("### Available tags")
+def build_full_header(entries):
+    """Auto-generate the llms-full.txt header from parsed entries."""
+    today = date.today().isoformat()
+    total = len(entries)
+    tag_counts, type_counts, source_counts = _tag_summary(entries)
+
+    lines = [
+        "# Learning Engineering Resource Hub — Full Index",
+        f"# {total} entries | Last updated: {today}",
+        "#",
+        "# HOW TO USE THIS FILE",
+        "# This file contains all entries with full descriptions — everything is here.",
+        "# 1. Use the tag directory below to identify relevant topics.",
+        "# 2. Scan entries by their tags to find matches.",
+        "# 3. Present matching entries (title, URL, description) to the user.",
+        "# Do NOT attempt to fetch other files. This file is self-contained.",
+        "#",
+    ]
+
+    lines.append("# TAGS")
+    lines.extend(_tag_directory_lines(tag_counts, prefix="# "))
+    lines.append("#")
+
+    type_list = ", ".join(f"{t} ({c})" for t, c in sorted(type_counts.items(), key=lambda x: -x[1]))
+    lines.append(f"# TYPES: {type_list}")
+    lines.append("#")
+
+    source_list = ", ".join(
+        f"{s} ({c})" for s, c in sorted(source_counts.items(), key=lambda x: -x[1])
+    )
+    lines.append(f"# SOURCES: {source_list}")
+
+    with open(FULL_FILE, encoding="utf-8") as f:
+        content = f.read()
+
+    first_entry = re.search(r"\n---\n\n### 1\.", content)
+    if not first_entry:
+        print("[build_tags] WARNING: could not find entry 1 in llms-full.txt")
+        return
+
+    new_content = "\n".join(lines) + content[first_entry.start():]
+    with open(FULL_FILE, "w", encoding="utf-8") as f:
+        f.write(new_content)
+
+    print(f"[build_tags] Updated llms-full.txt header ({total} entries)")
+
+
+def build_llms_txt(entries):
+    """Generate llms.txt — compact index with no cross-file references."""
+    today = date.today().isoformat()
+    total = len(entries)
+    tag_counts, type_counts, source_counts = _tag_summary(entries)
+
+    lines = [
+        "# Learning Engineering Resource Hub — Compact Index",
+        "",
+        f"> {total} curated evidence-based K-12 and higher education resources.",
+        f"> Last updated: {today}",
+        "",
+        "This file lists all entries (title, URL, type, tags) without descriptions.",
+        "",
+    ]
+
+    lines.append("## Tags")
     lines.append("")
     for category in ["Domain", "Method", "Topic", "Affiliation"]:
         cat_tags = [(t, tag_counts[t]) for t in TAG_CATEGORIES.get(category, []) if t in tag_counts]
         if cat_tags:
             cat_tags.sort(key=lambda x: -x[1])
-            tag_list = ", ".join(
-                f"[{t}]({BASE_URL}/tags/{t}.md) ({c})" for t, c in cat_tags
-            )
+            tag_list = ", ".join(f"{t} ({c})" for t, c in cat_tags)
             lines.append(f"**{category}:** {tag_list}")
             lines.append("")
 
-    # --- Type summary ---
-    lines.append("### Entry types")
+    lines.append("## Types")
     lines.append("")
     for t, c in sorted(type_counts.items(), key=lambda x: -x[1]):
         lines.append(f"- {t}: {c}")
     lines.append("")
 
-    # --- Section 2: Compact index ---
     lines.append("---")
     lines.append("")
-    lines.append(f"## Complete index ({total} entries)")
+    lines.append(f"## Entries ({total})")
     lines.append("")
 
     by_source = defaultdict(list)
@@ -374,6 +404,7 @@ if __name__ == "__main__":
         raise SystemExit(1)
     entries = parse_entries(FULL_FILE)
     print(f"[build_tags] Parsed {len(entries)} entries")
+    build_full_header(entries)
     build_llms_txt(entries)
     build_tags(entries)
     build_json(entries)

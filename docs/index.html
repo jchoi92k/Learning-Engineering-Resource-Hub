@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Learning Engineering Resource Hub</title>
-  <meta name="description" content="569 curated evidence-based K-12 and higher education resources. AI-agent optimized — fetch llms.txt for the complete compact index." />
-  <link rel="alternate" type="text/plain" href="llms.txt" title="LLM entry point: navigation guide + compact index (569 entries)" />
+  <meta name="description" content="569 curated evidence-based K-12 and higher education resources. AI-agent optimized — fetch llms-full.txt for the complete index with descriptions." />
+  <link rel="alternate" type="text/plain" href="llms-full.txt" title="Full index: all entries with descriptions" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232D3E6B'/><text x='16' y='22' font-size='20' text-anchor='middle' fill='%2375C7C5' font-family='sans-serif' font-weight='700'>R</text><circle cx='25' cy='7' r='3' fill='%23FFCA08'/></svg>" />
 
   <!-- Montserrat — matching tools-competition.org -->
@@ -198,8 +198,7 @@
   <noscript>
     <h1>Learning Engineering Resource Hub</h1>
     <p>569 curated evidence-based K-12 and higher education resources from WWC, AIMS, JEDM, LPI, EdTrust, Tools Competition, and more.</p>
-    <p>AI agents: fetch <a href="llms.txt">llms.txt</a> — the complete compact index with navigation guide (all 569 entries, titles, URLs, types, and tags).</p>
-    <p>For full descriptions by topic, fetch tag files linked from llms.txt.</p>
+    <p>AI agents: fetch <a href="llms-full.txt">llms-full.txt</a> — the complete index with all entries, descriptions, and a navigation guide.</p>
   </noscript>
 
   <!-- ── NAV ─────────────────────────────────────────────── -->
@@ -350,8 +349,8 @@
         <div>
           <p class="text-white font-semibold mb-2">For AI Agents</p>
           <p class="leading-relaxed mb-3">Paste this URL into your AI assistant:</p>
-          <a href="llms.txt" class="text-teal hover:underline font-mono text-xs break-all">llms.txt</a>
-          <span class="text-white/50 text-xs ml-1">— compact index + navigation guide</span>
+          <a href="llms-full.txt" class="text-teal hover:underline font-mono text-xs break-all">llms-full.txt</a>
+          <span class="text-white/50 text-xs ml-1">— complete index with descriptions</span>
         </div>
 
       </div>
@@ -392,7 +391,7 @@
     async function init() {
       // Set LLM URL dynamically
       const base = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '');
-      document.getElementById('llm-url').textContent = base + '/llms.txt';
+      document.getElementById('llm-url').textContent = base + '/llms-full.txt';
 
       try {
         const resp = await fetch('data.json');

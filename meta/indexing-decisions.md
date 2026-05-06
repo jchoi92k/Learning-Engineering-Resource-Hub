@@ -558,3 +558,59 @@ Full architecture in `meta/llm-wiki-landscape.md` under "Decided Architecture."
 7. Update `docs/llms.txt` and `meta/agent-guide.md` with the new public URL once known
 
 ---
+
+## Session: 2026-05-06
+
+---
+
+### UTF-8 encoding fix and build-time validation
+
+**Decision:** Fixed 247 lines of mojibake in llms-full.txt using ftfy (applied to title + description lines only, YAML/URL lines untouched). Added `check_encoding()` to build_tags.py that validates against 6 known mojibake patterns and refuses to build if found.
+
+**Why:** Double-encoding via CP1252 had corrupted em dashes, en dashes, ®, ™, and © characters. Root cause: Windows Python defaults to cp1252 encoding. All `open()` calls now require `encoding="utf-8"` explicitly. Policy added to CLAUDE.md.
+
+---
+
+### Benchmarks & Code entries added (559–569)
+
+**Decision:** Added 11 entries for education benchmarks, code libraries, and developer tools: TLA Leaderboard, FAB-AI, TutorBench, MathTutorBench, pyBKT, pyKT, py-irt, ADL xAPIWrapper, ADL LRS, OATutor, Learning Commons.
+
+**Why:** The hub lacked representation of developer-facing resources (code, benchmarks, leaderboards). These are well-established, actively maintained tools used in learning engineering research and practice.
+
+---
+
+### llms-full.txt header auto-generation
+
+**Decision:** `build_tags.py` now auto-generates the llms-full.txt header on every build via `build_full_header()`. Header includes tag directory (by category), type breakdown, source list with counts, and LLM usage instructions — all in comment-prefixed lines (~19 lines, ~2KB).
+
+**Why:** The header needs tag counts and source counts that change when entries are added. Manual maintenance would drift out of sync. The auto-generation reads entry data and replaces everything before the first `### 1.` entry marker.
+
+---
+
+### Architecture reversal: llms-full.txt as single entry point (not llms.txt)
+
+**Decision:** Reversed the 2026-05-06 earlier decision to make llms.txt the LLM entry point. llms-full.txt is now the recommended single entry point for all LLM agents.
+
+**Why:** Live testing with Claude.ai revealed a critical constraint: chat-based LLMs can only fetch URLs the user directly pastes — they cannot follow URLs discovered inside fetched content. This broke the hub-and-spoke architecture (llms.txt → tag files → llms-full.txt) entirely. The one file the user pastes must be self-sufficient.
+
+**What was tried and rejected:**
+- Hub-and-spoke (llms.txt → tag files): chat agents can't follow links
+- "Ask the user to paste tag URLs": terrible UX
+- llm-min.txt compressed format: no empirical evidence it works; requires companion file (same fetch restriction)
+- Navigation-only llms.txt (~10KB): loses descriptions, which are the value-add
+
+**What we landed on:** llms-full.txt with a compact auto-generated header containing tag directory, source/type counts, and explicit "do NOT fetch other files" instruction. No cross-file references anywhere in the file.
+
+**llms.txt retained** as a compact index for tools with multi-file capability. Not the recommended entry point. All human-facing references (README, index.html, meta docs) now point to llms-full.txt.
+
+Full analysis in `meta/llm-wiki-landscape.md` under "LLM Fetch Restrictions."
+
+---
+
+### "Legacy" reference removed from schema.md
+
+**Decision:** Renamed "Legacy entries (pre-2026-05-01)" heading to "Pre-2026-05-01 entries" in schema.md.
+
+**Why:** Claude.ai hallucinated a "legacy file" reference during testing, likely picking up the word "legacy" from schema.md or GitHub search results. Removing the trigger word reduces confusion for LLM agents scanning the repo.
+
+---

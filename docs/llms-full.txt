@@ -1,14 +1,22 @@
 # Learning Engineering Resource Hub — Full Index
-# Version 2.0 | Started 2026-05-01
-# Format: llms-full.txt (llmstxt.org spec)
-# LLM entry point: fetch llms.txt instead — this file is too large for most web fetchers.
+# 569 entries | Last updated: 2026-05-06
 #
-# Curation model: pre-curated sources only. Every entry derives from a collection
-# that an authoritative organization has already vetted. No inference from titles alone.
-# See schema.md for field definitions and provenance flags.
+# HOW TO USE THIS FILE
+# This file contains all entries with full descriptions — everything is here.
+# 1. Use the tag directory below to identify relevant topics.
+# 2. Scan entries by their tags to find matches.
+# 3. Present matching entries (title, URL, description) to the user.
+# Do NOT attempt to fetch other files. This file is self-contained.
 #
-# Entries: 569
-
+# TAGS
+# Domain: k-12 (361), learning-engineering (236), higher-ed (123), math-education (91), literacy (91), early-childhood (62), english-learners (24), school-discipline (18)
+# Method: longitudinal (102), computer-assisted-learning (62), meta-analysis (36), intelligent-tutoring (36), genai (28), response-to-intervention (28), coaching (26), qualitative-research (20), rct (14), nlp (14), llm-application (13), a-b-testing (7), automated-feedback (7)
+# Topic: open-datasets (105), professional-development (81), formative-assessment (59), college-access (57), digital-learning-platforms (56), personalized-learning (41), sel (37), prekindergarten (25), career-readiness (24), data-sharing (21), student-belonging (19), dropout-prevention (19), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (14), attendance (14), writing-instruction (11), math-motivation (4), genai-tutoring (3), math-word-problems (2)
+# Affiliation: wwc (117), aims (46), digital-promise (30), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (10), northwestern-e4 (9), assistments (9), rppl (5), carnegie-learning (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), tla (1), casel (1)
+#
+# TYPES: report (305), dataset (104), paper (65), framework (48), platform (30), code (9), blog-post (4), presentation (3), project-website (1)
+#
+# SOURCES: What Works Clearinghouse (126), AIMS Collaboratory (46), National Center for Education Statistics (NCES) (33), Evidence for ESSA (30), Journal of Educational Data Mining (30), Digital Promise (30), Learning Policy Institute (30), The Education Trust (30), IES Regional Education Labs (30), Journal of Learning Analytics (25), Campbell Collaboration (25), Brookings Institution (22), Tools Competition (18), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), Stanford CEPA (4), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1)
 ---
 
 ### 1. Organizing Instruction and Study to Improve Student Learning

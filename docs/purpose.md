@@ -10,9 +10,9 @@ evidence-based education sources across multiple collection rounds.
 ## How It Fits the LLM-Facing Wiki Landscape
 
 This hub follows the **llms.txt standard** (Jeremy Howard / Answer.AI, Sept 2024):
-- `/llms.txt` — LLM entry point: navigation guide + compact index of all entries (~31K tokens)
-- `/llms-full.txt` — full content dump with descriptions (~125K tokens, too large for most web fetchers)
-- `tags/*.md` — per-tag detail files (500–5,000 tokens each), linked from llms.txt
+- `/llms-full.txt` — primary file: all entries with descriptions + auto-generated navigation header
+- `/llms.txt` — compact index (titles, URLs, types, tags — no descriptions)
+- `tags/*.md` — per-tag detail files (generated, used by the web UI)
 
 This is a **static referratory**, not a Karpathy-style LLM-maintained wiki (where the LLM writes
 the pages). The content here is human-curated; the format is optimized for LLM consumption.
@@ -38,10 +38,9 @@ stable URLs) are made to minimize fetches and maximize in-context reasoning.
 
 ## What a Querying Agent Should Expect
 
-1. Fetch `llms.txt` for the compact index with navigation guide (recommended entry point)
-2. Use tag file URLs in llms.txt to drill into specific topics
-3. Every entry has: title, type, URL, source, tags
-4. Full descriptions are in `llms-full.txt` (large) or per-tag files (small)
+1. Fetch `llms-full.txt` for all entries with descriptions (recommended)
+2. The file header contains a tag directory, source list, and usage instructions
+3. Every entry has: title, type, URL, source, tags, and a 1–3 sentence description
 5. `url_confirmed: false` signals URLs not directly verified during compilation
 
 ## Maintenance Model

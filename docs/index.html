@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Learning Engineering Resource Hub</title>
-  <meta name="description" content="569 curated evidence-based K-12 and higher education resources. AI-agent optimized — fetch the full index at llms-full.txt." />
-  <link rel="alternate" type="text/plain" href="llms-full.txt" title="Full index for AI agents (569 entries)" />
+  <meta name="description" content="569 curated evidence-based K-12 and higher education resources. AI-agent optimized — fetch llms.txt for the complete compact index." />
+  <link rel="alternate" type="text/plain" href="llms.txt" title="LLM entry point: navigation guide + compact index (569 entries)" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232D3E6B'/><text x='16' y='22' font-size='20' text-anchor='middle' fill='%2375C7C5' font-family='sans-serif' font-weight='700'>R</text><circle cx='25' cy='7' r='3' fill='%23FFCA08'/></svg>" />
 
   <!-- Montserrat — matching tools-competition.org -->
@@ -198,8 +198,8 @@
   <noscript>
     <h1>Learning Engineering Resource Hub</h1>
     <p>569 curated evidence-based K-12 and higher education resources from WWC, AIMS, JEDM, LPI, EdTrust, Tools Competition, and more.</p>
-    <p>AI agents: fetch the full index at <a href="llms-full.txt">llms-full.txt</a> (all 569 entries with YAML metadata and descriptions in a single file).</p>
-    <p>Discovery layer: <a href="llms.txt">llms.txt</a></p>
+    <p>AI agents: fetch <a href="llms.txt">llms.txt</a> — the complete compact index with navigation guide (all 569 entries, titles, URLs, types, and tags).</p>
+    <p>For full descriptions by topic, fetch tag files linked from llms.txt.</p>
   </noscript>
 
   <!-- ── NAV ─────────────────────────────────────────────── -->
@@ -253,7 +253,7 @@
           <i data-lucide="bot" class="w-5 h-5 text-teal mt-0.5 shrink-0"></i>
           <div>
             <p class="text-white text-base font-semibold leading-snug">Built for AI agents, not browsers.</p>
-            <p class="text-white/60 text-sm leading-relaxed mt-1">Paste the full-index URL into your AI assistant — it can browse every entry, filter by source or tag, and pull targeted evidence in a single fetch. The web UI is a companion layer.</p>
+            <p class="text-white/60 text-sm leading-relaxed mt-1">Paste the index URL into your AI assistant — it reads the full catalog, navigates by tag, and pulls targeted evidence. The web UI is a companion layer.</p>
           </div>
         </div>
 
@@ -349,14 +349,9 @@
 
         <div>
           <p class="text-white font-semibold mb-2">For AI Agents</p>
-          <p class="leading-relaxed mb-3">Fetch the full index in one request:</p>
-          <a href="llms-full.txt" class="text-teal hover:underline font-mono text-xs break-all">llms-full.txt</a>
-          <br/>
-          <a href="llms.txt" class="text-teal hover:underline font-mono text-xs mt-1 inline-block">llms.txt</a>
-          <span class="text-white/50 text-xs ml-1">— entry point</span>
-          <br/>
-          <a href="tags/index.md" class="text-teal hover:underline font-mono text-xs mt-1 inline-block">tags/index.md</a>
-          <span class="text-white/50 text-xs ml-1">— tag index</span>
+          <p class="leading-relaxed mb-3">Paste this URL into your AI assistant:</p>
+          <a href="llms.txt" class="text-teal hover:underline font-mono text-xs break-all">llms.txt</a>
+          <span class="text-white/50 text-xs ml-1">— compact index + navigation guide</span>
         </div>
 
       </div>
@@ -397,7 +392,7 @@
     async function init() {
       // Set LLM URL dynamically
       const base = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '');
-      document.getElementById('llm-url').textContent = base + '/llms-full.txt';
+      document.getElementById('llm-url').textContent = base + '/llms.txt';
 
       try {
         const resp = await fetch('data.json');

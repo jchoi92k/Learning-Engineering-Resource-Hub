@@ -7,7 +7,7 @@
 
 ## What this is
 
-A **referratory** — links + metadata, no content hosting — of evidence-based K-12 and higher education resources, optimized for LLM consumption via WebFetch. Single-file fetch at `docs/llms-full.txt` returns all entries. Human-facing UI at `docs/index.html` (GitHub Pages or local server).
+A **referratory** — links + metadata, no content hosting — of evidence-based K-12 and higher education resources, optimized for LLM consumption via WebFetch. Entry point is `docs/llms.txt` — a compact index (~31K tokens) with navigation guide, all entries (title, URL, type, tags), and links to per-tag detail files. Full descriptions live in `docs/llms-full.txt` (~125K tokens, too large for most web fetchers). Human-facing UI at `docs/index.html` (GitHub Pages or local server).
 
 **Scope**: All evidence-based K-12 and higher education. Not limited to learning engineering methods. Sources are pre-curated organizations whose editorial judgment we trust: WWC, LPI, EdTrust, NAP, CASEL, JEDM, Evidence for ESSA, etc.
 
@@ -17,8 +17,8 @@ A **referratory** — links + metadata, no content hosting — of evidence-based
 
 ```
 docs/
-  llms-full.txt       # primary agent fetch target — all entries (THE authoritative file)
-  llms.txt            # discovery layer / entry point for cold-arriving agents
+  llms.txt            # LLM entry point — navigation guide + compact index (~31K tokens)
+  llms-full.txt       # all entries with full descriptions (~125K tokens; THE authoritative data file)
   schema.md           # field definitions, type taxonomy, full tag vocabulary
   purpose.md          # scope and audience (partially stale — this guide is authoritative)
   build_tags.py       # parses llms-full.txt → data.json + tags/*.md

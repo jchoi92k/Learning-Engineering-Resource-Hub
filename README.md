@@ -8,19 +8,13 @@ A curated, agent-first referratory of 569+ evidence-based K-12 and higher educat
 
 ## For AI agents
 
-Fetch the full index in a single request:
-
-```
-https://jchoi92k.github.io/learning-engineering-resource-hub/llms-full.txt
-```
-
-Or start with the discovery layer:
+Fetch the LLM entry point — a compact index with navigation guide, all entries (title, URL, type, tags), and links to per-tag detail files:
 
 ```
 https://jchoi92k.github.io/learning-engineering-resource-hub/llms.txt
 ```
 
-Each entry includes a URL, type, source, YAML metadata with tags, and a description written from fetched page content. A web UI for human browsing is at the GitHub Pages link above.
+For full descriptions of every entry (~125K tokens, too large for most web fetchers), the authoritative data file is `llms-full.txt`. A web UI for human browsing is at the GitHub Pages link above.
 
 ---
 
@@ -44,8 +38,8 @@ Each entry includes a URL, type, source, YAML metadata with tags, and a descript
 
 ```
 docs/                 ← GitHub Pages source
-  llms-full.txt       ← all entries, full YAML + descriptions (primary agent fetch target)
-  llms.txt            ← discovery layer / entry point
+  llms.txt            ← LLM entry point: navigation guide + compact index (~31K tokens)
+  llms-full.txt       ← all entries with full YAML + descriptions (~125K tokens)
   data.json           ← structured JSON consumed by the web UI
   index.html          ← human-facing search interface
   tags/               ← per-tag index files (generated)

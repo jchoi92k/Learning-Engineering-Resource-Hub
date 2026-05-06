@@ -1,14 +1,13 @@
 # Learning Engineering Resource Hub — Full Index
 # Version 2.0 | Started 2026-05-01
 # Format: llms-full.txt (llmstxt.org spec)
-# Entry point for LLM agents: fetch this file for the complete index
+# LLM entry point: fetch llms.txt instead — this file is too large for most web fetchers.
 #
 # Curation model: pre-curated sources only. Every entry derives from a collection
 # that an authoritative organization has already vetted. No inference from titles alone.
 # See schema.md for field definitions and provenance flags.
 #
 # Entries: 569
-# Previous 84-entry index: wiki/legacy/llms-full.txt
 
 ---
 

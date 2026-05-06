@@ -300,7 +300,9 @@ def build_llms_txt(entries):
         cat_tags = [(t, tag_counts[t]) for t in TAG_CATEGORIES.get(category, []) if t in tag_counts]
         if cat_tags:
             cat_tags.sort(key=lambda x: -x[1])
-            tag_list = ", ".join(f"{t} ({c})" for t, c in cat_tags)
+            tag_list = ", ".join(
+                f"[{t}]({BASE_URL}/tags/{t}.md) ({c})" for t, c in cat_tags
+            )
             lines.append(f"**{category}:** {tag_list}")
             lines.append("")
 

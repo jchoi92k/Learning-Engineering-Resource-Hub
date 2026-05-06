@@ -1,16 +1,24 @@
 # Learning Engineering Resource Hub
 
-> A curated referratory of learning engineering and AI-in-education resources.
-> Optimized for LLM agent consumption. All entries link to externally-hosted content.
-> Curation model: pre-curated, authoritative sources only — no title-only inference.
+> 569 curated entries of evidence-based K-12 and higher education resources.
+> Optimized for LLM consumption — fetch the full index in one request.
 
-## Full index
-- [All entries](llms-full.txt) — complete index, fetch this first
+## Full index (fetch this)
+- [llms-full.txt](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt): All 569 entries with YAML metadata and descriptions
 
-## Status
-Index rebuilding under v2 curation policy (2026-05-01).
-Previous 84-entry index available at [legacy/llms-full.txt](legacy/llms-full.txt).
+## What's in it
+Reports, papers, datasets, frameworks, code, and platforms from:
+- What Works Clearinghouse (practice guides + intervention reports)
+- AIMS Collaboratory, Tools Competition 2025, LEVI Math
+- Journal of Educational Data Mining, Journal of Learning Analytics
+- Learning Policy Institute, Education Trust, Campbell Collaboration
+- IES Regional Education Labs, Digital Promise, Brookings
+- NCES, IEA, CMU DataShop, OECD, ASSISTments datasets
+- Education AI benchmarks (TutorBench, MathTutorBench, FAB-AI)
+- Code/reference implementations (pyBKT, pyKT, OATutor, ADL xAPI)
 
-## Schema & purpose
-- [Schema](schema.md) — field definitions, type taxonomy, provenance flags
-- [Purpose](purpose.md) — scope, audience, curation philosophy
+## How to use
+Fetch llms-full.txt and query it. Each entry has a title, URL, type, source, tags, and a description written from actual page content.
+
+## Schema
+- [schema.md](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/schema.md): Field definitions, type taxonomy, tag vocabulary

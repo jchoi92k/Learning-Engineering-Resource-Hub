@@ -614,3 +614,81 @@ Full analysis in `meta/llm-wiki-landscape.md` under "LLM Fetch Restrictions."
 **Why:** Claude.ai hallucinated a "legacy file" reference during testing, likely picking up the word "legacy" from schema.md or GitHub search results. Removing the trigger word reduces confusion for LLM agents scanning the repo.
 
 ---
+
+### Cloudflare Worker API — built but not viable for web UI agents
+
+**Decision:** Built and locally tested a Cloudflare Worker (`worker/`) wrapping `data.json` with a `/search` endpoint. Supports tag, type, source, keyword filters. Works correctly. NOT deployed because the target use case (web UI chat agents) cannot use it.
+
+**Why:** Chat-based LLMs (Claude.ai, ChatGPT) cannot dynamically construct URLs. Anthropic docs confirm: "To minimize exfiltration risks, Claude is not allowed to dynamically construct URLs." Even with a working API, a chat agent can't build `/search?tag=math-education&type=report` on its own. The Worker remains useful for programmatic consumers (MCP servers, Codex, Cursor) that CAN construct URLs.
+
+**Files:** `worker/src/index.js`, `worker/wrangler.toml`, `worker/package.json`
+
+---
+
+### Delivery platform: Gemini Gem (with data.json upload)
+
+**Decision:** Use Google Gemini Gems as the primary shareable chatbot interface. Upload `data.json` (557KB) as the knowledge file. Instructions include tag directory, anti-hallucination rules, response format.
+
+**Why — platform comparison (researched 2026-05-06):**
+
+| Platform | Creator cost | Recipient friction | Verdict |
+|---|---|---|---|
+| Gemini Gems | Gemini Advanced/Pro (user has via org) | Zero — public mode, no sign-in | **Selected** |
+| ChatGPT Custom GPTs | Plus $20/mo to create | Free ChatGPT account required | Runner-up |
+| Poe | Free to create | Poe account required, ~3 msgs/day free | Too much friction |
+| Coze | Free to create | Account for store; anonymous via embed | Viable secondary |
+| Claude Projects | Pro plan to create | Org members only | Too restrictive |
+
+Gemini Gems won because: (1) user already has Gemini Pro through org — zero incremental cost; (2) public sharing mode requires no sign-in from recipients — true zero friction; (3) supports file uploads up to 100MB / 10 files; (4) Google Drive integration means future updates to data.json auto-propagate.
+
+**Knowledge file format — JSON over TXT:**
+
+Research (Medium benchmark: "MD vs JSON for GPT Knowledge Bases") found JSON provides "more reliability for structured data queries with more consistency and precision." Both Gems and GPTs use RAG under the hood — files are semantically searched, not loaded whole. JSON's key-value structure gives the retrieval engine better anchor points than unstructured markdown.
+
+Our `data.json` (557KB, 569 entries with full metadata) is well under the 100MB Gems limit and 512MB GPTs limit.
+
+**Key Gems architecture insight:** Instructions are always in context; knowledge files are gated behind RAG retrieval. Critical structural info (tag taxonomy, source list, response format rules) must go in instructions, not rely on retrieval from the knowledge file. Anti-hallucination rules placed at both start AND end of instructions (primacy/recency effect).
+
+**Sources:**
+- Gems file limits: https://support.google.com/gemini/answer/14903178
+- Gems creation guide: https://support.google.com/gemini/answer/15146780
+- Gems instruction tips: https://support.google.com/gemini/answer/15236321
+- JSON vs MD for knowledge bases: https://medium.com/@daniel.jackson04956/resmd-vs-json-for-gpt-knowledge-bases-86017b583c09
+- GPT file limits: https://help.openai.com/en/articles/8555545-file-uploads-faq
+- Anti-hallucination patterns: https://customgpt.ai/reduce-ai-hallucinations/
+- Gems RAG behavior: https://www.concret.io/blog/gemini-gem-hallucination-rag-architecture-fix
+- Gems instruction engineering: https://www.aifire.co/p/gemini-gems-guide-2025-build-ai-workflows-that-work
+- GPT knowledge base best practices: https://www.robertodiasduarte.com.br/en/boas-praticas-para-criar-uma-base-de-conhecimento-no-custom-gpt-para-otimizar-a-busca-semantica/
+- Gems sharing: https://support.google.com/gemini/answer/16504957
+- Gems free tier availability: https://www.androidpolice.com/geminis-gems-are-now-available-on-the-free-tier/
+- Poe end-user requirements: https://help.poe.com/hc/en-us/articles/19944206309524-Poe-FAQs
+- Coze deployment options: https://www.coze.com/docs/guides/store_bot
+- GPT free-tier access: https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq
+
+**Gem instructions:** `meta/gem-instructions.md`
+
+---
+
+### MCP server: deployed on Cloudflare Workers
+
+**Decision:** Deployed an MCP server (Streamable HTTP transport) on Cloudflare Workers at `https://le-resource-hub.joon-96a.workers.dev/mcp`. Four tools: `search_resources`, `list_tags`, `get_entry`, `get_full_index`. Same `data.json` as the web UI and Gem.
+
+**Why:** MCP gives programmatic LLM agents (Claude Code, Cursor, Windsurf, Codex, GitHub Copilot) structured tool-call access to the hub. Chat agents can't construct URLs, but coding agents with MCP support can invoke tools directly — this is the delivery channel the web UI and Gem don't cover.
+
+**Architecture:**
+- Pure JSON-RPC 2.0 implementation, no SDK dependency
+- `search_resources` defaults to AND logic for multi-tag queries (precise), HTTP `/search` defaults to OR (broad)
+- `get_full_index` returns all 569 entries in one call — designed for 1M+ context models. Two formats: `full` (with descriptions) and `compact` (one-line per entry)
+- Stateless: session ID is deterministic (`le-hub-${last_updated}`), no server-side state
+- Cloudflare Workers free tier: 100K requests/day
+
+**Config for Claude Code (`.mcp.json`):**
+```json
+{ "mcpServers": { "le-hub": { "type": "http", "url": "https://le-resource-hub.joon-96a.workers.dev/mcp" } } }
+```
+
+**Note:** Claude Code requires `"type": "http"` for Streamable HTTP MCP servers, not `"type": "url"` which some docs reference.
+
+**Files:** `worker/src/index.js`, `worker/wrangler.toml`, `worker/package.json`, `.mcp.json`
+
+---

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Build tag index, per-tag files, llms.txt, data.json, and llms-full.txt header
-from llms-full.txt entries.
+Build tag index, per-tag files, llms.txt, data.json, llms-full.txt header,
+and gem-knowledge.txt from llms-full.txt entries.
 
 Run from the docs/ directory:
     python build_tags.py
@@ -12,6 +12,7 @@ Outputs / updates:
     tags/index.md        - all tags with entry counts and links
     tags/{tag-name}.md   - per-tag lightweight entry table
     data.json            - structured JSON for the human-facing site
+    gem-knowledge.txt     - RAG-optimized Markdown for Gemini Gem upload
 """
 
 import re
@@ -399,6 +400,67 @@ def check_encoding(filepath):
     return True
 
 
+def build_gem_knowledge(entries):
+    """Generate gem-knowledge.txt — RAG-optimized Markdown for Gemini Gem upload."""
+    today = date.today().isoformat()
+    total = len(entries)
+    tag_counts, type_counts, source_counts = _tag_summary(entries)
+
+    lines = [
+        "# Learning Engineering Resource Hub",
+        f"# {total} curated evidence-based K-12 and higher education resources.",
+        f"# Last updated: {today}",
+        "",
+        "## Tag Directory",
+        "",
+    ]
+
+    for category in ["Domain", "Method", "Topic", "Affiliation"]:
+        cat_tags = [(t, tag_counts[t]) for t in TAG_CATEGORIES.get(category, []) if t in tag_counts]
+        if cat_tags:
+            cat_tags.sort(key=lambda x: -x[1])
+            tag_list = ", ".join(f"{t} ({c})" for t, c in cat_tags)
+            lines.append(f"**{category}:** {tag_list}")
+            lines.append("")
+
+    lines.append("## Resource Types")
+    lines.append("")
+    for t, c in sorted(type_counts.items(), key=lambda x: -x[1]):
+        lines.append(f"- {t}: {c} entries")
+    lines.append("")
+
+    lines.append("## Sources")
+    lines.append("")
+    for s, c in sorted(source_counts.items(), key=lambda x: -x[1]):
+        lines.append(f"- {s}: {c} entries")
+    lines.append("")
+
+    lines.append("---")
+    lines.append("")
+
+    for e in entries:
+        tags_str = ", ".join(e["tags"])
+        lines.append(f"### {e['num']}. {e['title']}")
+        lines.append("")
+        lines.append(f"Type: {e['type']} | Source: {e['source']}")
+        lines.append(f"Tags: {tags_str}")
+        lines.append(f"URL: {e['url']}")
+        lines.append("")
+        if e["desc"]:
+            lines.append(e["desc"])
+            lines.append("")
+        lines.append("---")
+        lines.append("")
+
+    content = "\n".join(lines)
+    out = os.path.join(WIKI_DIR, "gem-knowledge.txt")
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    size_kb = len(content.encode("utf-8")) / 1024
+    print(f"[build_tags] Written gem-knowledge.txt ({size_kb:.0f} KB, {total} entries)")
+
+
 if __name__ == "__main__":
     if not check_encoding(FULL_FILE):
         raise SystemExit(1)
@@ -408,4 +470,5 @@ if __name__ == "__main__":
     build_llms_txt(entries)
     build_tags(entries)
     build_json(entries)
+    build_gem_knowledge(entries)
     print("[build_tags] Done.")

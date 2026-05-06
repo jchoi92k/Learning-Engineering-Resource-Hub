@@ -29,6 +29,10 @@ oer_indexes_and_registries.md
 poc_notes.md
 policy_frameworks.md
 
+# Worker build artifacts
+worker/node_modules/
+worker/.wrangler/
+
 # OS
 .DS_Store
 Thumbs.db

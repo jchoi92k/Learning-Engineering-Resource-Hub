@@ -241,7 +241,7 @@ Will built an excellent human-facing referratory. The LLM-agent-facing dimension
 | **JSON data layer** | No | No | No | Yes (vectorized) | No | `data.json` ✓ |
 | **Auto-update** | Site-owner dependent | LLM ingest pipeline | Community contributions | Continuous (Upstash) | Manual weekly | Manual ✗ |
 | **Change log** | None | `log.md` (append-only) | None | Version-pinned | None | None ✗ |
-| **MCP integration** | No | Emerging | No | Core feature | No | No ✗ |
+| **MCP integration** | No | Emerging | No | Core feature | No | Cloudflare Worker ✓ |
 | **Human-facing layer** | Parent website | None | knows.academy UI | Context7 UI | Docusaurus site | `index.html` + `data.json` ✓ |
 | **Schema / field definitions** | None | `CLAUDE.md` (required) | KnowsRecord spec | N/A | None | `schema.md` + `purpose.md` ✓ |
 | **Hosting** | Domain root (static) | Local files | Cloud (centralized) | Cloud (Upstash) | Docusaurus / static | GitHub Pages (public) |
@@ -272,7 +272,7 @@ The wiki is exposed as MCP tools. The agent calls `wiki_search(query)` or `wiki_
 
 **How to tell an agent:** MCP server is installed in the agent's environment; tools appear automatically.
 
-**Our implementation:** Not implemented. Would require building an MCP server on top of `data.json`.
+**Our implementation:** ✓ Done. Cloudflare Worker at `https://le-resource-hub.joon-96a.workers.dev/mcp` with four tools: `search_resources`, `list_tags`, `get_entry`, `get_full_index`. Streamable HTTP transport, compatible with Claude Code, Cursor, Windsurf, Codex. Config: `.mcp.json` with `"type": "http"`. The `get_full_index` tool enables 1M+ context models to load the entire corpus in one call.
 
 ### 4. Search-indexed (OpenAI / Perplexity web browsing)
 The wiki is publicly hosted with proper SEO and llms.txt, so agents with web search can find it via search queries.
@@ -280,6 +280,13 @@ The wiki is publicly hosted with proper SEO and llms.txt, so agents with web sea
 **How to tell an agent:** Nothing — the agent finds it through search.
 
 **Our implementation:** GitHub Pages is live. Not yet confirmed whether search engines have indexed the site.
+
+### 5. Platform-hosted chatbot (Gemini Gem / ChatGPT GPT)
+The knowledge base is uploaded to a platform that handles RAG retrieval internally. Users interact via a shared link — no file fetching, no URL construction, no truncation.
+
+**How to tell a user:** Share the Gem/GPT link. They click it and start asking questions.
+
+**Our implementation:** Gemini Gem with `data.json` upload. Instructions in `meta/gem-instructions.md`. Public sharing = zero friction. See "Delivery Platforms" section below for full comparison.
 
 ---
 
@@ -299,9 +306,9 @@ The wiki is publicly hosted with proper SEO and llms.txt, so agents with web sea
 | No `log.md` | Append-only changelog (Karpathy) | Low — add file, update on each build |
 | No CLAUDE.md directive | SessionStart hook + directive | Low — add to CLAUDE.md |
 | No auto-update | Weekly ingest pipeline | High — OpenAlex API + GitHub Actions |
-| No MCP server | Context7 model | Medium — wrap data.json as MCP tools |
-| No public URL | GitHub Pages or similar | Medium — currently ngrok only |
-| ChatGPT incompatibility | Public static hosting | Medium — same as above |
+| No MCP server | Context7 model | ✓ Done — Cloudflare Worker with 4 tools (search, list_tags, get_entry, get_full_index) |
+| No public URL | GitHub Pages or similar | ✓ Done — GitHub Pages live |
+| Chat agent truncation | Platform-hosted chatbot | ✓ Done — Gemini Gem (data.json upload) |
 | No per-entry confidence | Karpathy frontmatter | Low — add `confidence` field to schema |
 | No backlinks | Cross-reference tracking | Medium — rebuild step in build_tags.py |
 
@@ -360,7 +367,7 @@ The Knows paper validates the metadata format directly: structured YAML per entr
 |---|---|---|---|
 | **A — Stay flat** | Single `llms-full.txt`, full-file WebFetch | Current → ~800 entries | None |
 | **B — Shard by source** | `llms-wwc.txt`, `llms-jedm.txt`, etc.; master index | ~800–5,000 entries | Low |
-| **C — MCP query layer** | MCP tools wrapping `data.json` (`filter_by_tag`, `filter_by_source`) | When interactive supervised use grows | Medium |
+| **C — MCP query layer** | MCP tools wrapping `data.json` (`search_resources`, `list_tags`, `get_entry`, `get_full_index`) | ✓ Deployed on Cloudflare Workers | Done |
 | **D — Per-entry files (general standard)** | Individual `entries/0488.yaml`; flat files generated | Multi-editor or programmatic-write use case | Medium |
 | **E — Vector DB / RAG** | Semantic search at query time | 5,000+ entries | High |
 
@@ -495,3 +502,66 @@ The dual-track + per-entry fragment architecture (decided 2026-05-04) remains th
 ### Research finding: llms-full.txt is what agents actually fetch
 
 Mintlify's CDN analysis (documented in hub-design-notes.md) found llms-full.txt receives 3–4x more visits than llms.txt, with ChatGPT driving most traffic. This independently validates the decision to make llms-full.txt the primary entry point. LLMs prefer loading complete content in one request rather than navigating selectively.
+
+---
+
+## Delivery Platforms for Chat-Based Access (researched 2026-05-06)
+
+> Context: llms-full.txt works for programmatic LLM agents but truncates at ~25% when fetched by chat agents (Claude.ai, ChatGPT). The Cloudflare Worker API works technically but chat agents can't construct query URLs. A platform that ingests the full knowledge base and exposes it via a shareable chatbot link solves both problems.
+
+### Platform comparison
+
+| Platform | Creator cost | How it works | Recipient friction | File limits | RAG? |
+|---|---|---|---|---|---|
+| **Gemini Gems** | Gemini Advanced/Pro | Upload files + write instructions | Zero (public mode = no sign-in) | 10 files, 100MB each | Yes |
+| **ChatGPT Custom GPTs** | Plus ($20/mo) | Upload files + write instructions | Free ChatGPT account | 20 files, 512MB each, 2M tokens | Yes |
+| **Poe** | Free | Upload files + write instructions | Poe account required | Varies by model | Yes |
+| **Coze** | Free | Upload files + write instructions | Account (store) or anonymous (embed) | Varies | Yes |
+| **Claude Projects** | Pro ($20/mo) | Upload files + system prompt | Org members only | 200K context window | Full context (not RAG) |
+
+### Architecture differences that matter
+
+**RAG platforms (Gems, GPTs, Poe, Coze):** Knowledge files are semantically indexed. The model receives only retrieved chunks per query, not the full file. This means:
+- Large files (503KB+) are handled fine — no truncation
+- Retrieval quality depends on file format: JSON > Markdown > PDF for structured data (Source: Medium benchmark, "MD vs JSON for GPT Knowledge Bases")
+- The model may miss entries if the semantic search doesn't match — silent failure mode
+- Anti-hallucination instructions are critical: without them, the model falls back to training data when retrieval returns empty (Source: concret.io, "Fix Gem Hallucinations")
+
+**Full-context platforms (Claude Projects):** The entire knowledge base is loaded into the context window every turn. No retrieval step. This means:
+- Perfect recall — the model sees every entry
+- Limited by context window size (~200K tokens ≈ ~150K words ≈ ~500KB text)
+- Our data.json at 557KB is right at the boundary — may need trimming
+- No sharing outside the org
+
+### Why Gemini Gems was selected
+
+1. **Zero incremental cost.** User has Gemini Pro through org.
+2. **Zero recipient friction.** Public sharing mode: share a link, anyone uses it, no sign-in.
+3. **557KB data.json fits easily.** Well under the 100MB per-file limit.
+4. **Google Drive integration.** Future: put data.json in Drive, Gem auto-updates when the file changes.
+5. **Instruction-first architecture.** Instructions are always in context (not RAG-gated). Tag taxonomy, source list, and anti-hallucination rules are always visible to the model.
+
+### Known Gems limitations
+
+- **RAG retrieval can miss entries.** Semantic search may not match entries whose descriptions don't use the user's exact terminology. Mitigation: instructions include the full tag taxonomy so the model can translate user intent → tag names → targeted search.
+- **January 2026 regression.** Users reported Gems ignoring uploaded documents entirely (Google Support thread #404592328). Status unclear — test during setup.
+- **No programmatic access.** Gems are chat-only. For API/MCP consumers, the Cloudflare Worker or a future MCP server remains the right delivery mechanism.
+- **File upload, not live sync (yet).** Google Drive integration exists but reliability varies. Manual re-upload on each build_tags.py run is the safe default.
+
+### ChatGPT GPTs as secondary channel
+
+GPTs have a larger ecosystem and longer track record for knowledge-base bots. If setting up a GPT as a secondary access point:
+- Upload `data.json` (same file)
+- GPT instructions can be adapted from `meta/gem-instructions.md` with minor adjustments
+- Recipients need a free ChatGPT account (most already have one)
+- GPTs support 20 files and 512MB — more headroom for future growth
+
+### Instruction engineering findings (cross-platform)
+
+Best practices verified through research (sources in indexing-decisions.md):
+
+1. **Critical info in instructions, not just knowledge files.** Instructions are always in context; knowledge files are behind RAG. Tag taxonomy, response format, and anti-hallucination rules go in instructions.
+2. **Anti-hallucination rules at start AND end.** LLMs attend most to the beginning and end of instructions (primacy/recency effect). The "never fabricate" rule appears twice.
+3. **JSON > Markdown for structured catalogs.** Key-value format gives the retrieval engine better anchor points for structured data.
+4. **Verbatim for specifics, summarize for context.** URLs, titles, and descriptions should be quoted exactly. Surrounding synthesis can be the model's own words.
+5. **Explicit "not found" instruction.** Without it, both Gems and GPTs silently fall back to training data when retrieval fails.

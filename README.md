@@ -1,6 +1,6 @@
 # Learning Engineering Resource Hub
 
-A curated, agent-first referratory of 487+ evidence-based K-12 and higher education research resources — optimized for LLM consumption.
+A curated, agent-first referratory of 569+ evidence-based K-12 and higher education research resources — optimized for LLM consumption.
 
 **[Browse →](https://jchoi92k.github.io/learning-engineering-resource-hub)** · Built and maintained with [Claude Code](https://claude.ai/code)
 
@@ -26,13 +26,15 @@ Each entry includes a URL, type, source, YAML metadata with tags, and a descript
 
 ## What's in it
 
-487 entries across reports, practice guides, papers, frameworks, and datasets from:
+569 entries across reports, practice guides, papers, frameworks, and datasets from:
 
-**Research & evidence** — What Works Clearinghouse (practice guides + intervention reports), Evidence for ESSA, Campbell Collaboration, IES Regional Education Labs, Brookings Institution
+**Research & evidence** — What Works Clearinghouse (practice guides + intervention reports), Evidence for ESSA, Campbell Collaboration, IES Regional Education Labs, Brookings Institution, AIMS Collaboratory
 
 **Journals** — Journal of Educational Data Mining (JEDM), Journal of Learning Analytics (JLA)
 
 **Policy & practice** — Learning Policy Institute, Education Trust, CASEL, National Academies Press
+
+**Tools & platforms** — Tools Competition 2025 winners (K-12, post-secondary, datasets), LEVI Math teams (Carnegie Learning, Khan Academy, CMU, Eedi, Rising Academies, CU Boulder)
 
 **Datasets** — NCES surveys, IEA international studies (TIMSS, PIRLS, PISA), CMU DataShop, OECD, ASSISTments, Duolingo, Stanford CEPA, and more
 

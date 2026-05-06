@@ -14,6 +14,7 @@ Outputs:
 import re
 import os
 import json
+from datetime import date
 from collections import defaultdict
 
 WIKI_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -41,7 +42,7 @@ TAG_CATEGORIES = {
     "Affiliation": [
         "rppl", "upgrade-platform", "carnegie-learning", "khan-academy", "lsu",
         "northwestern-e4", "norc", "lastinger-center", "aims",
-        "tla", "cmu-learnlab", "assistments", "cosn",
+        "tla", "cmu-learnlab", "assistments", "cosn", "tools-competition",
         "wwc", "unesco", "cast", "iste-ascd", "digital-promise", "duolingo", "jedm",
         "lpi", "nap", "edtrust", "casel", "jla", "campbell-collaboration", "brookings",
     ],
@@ -144,7 +145,7 @@ def build_json(entries):
     data = {
         "meta": {
             "total": len(entries),
-            "last_updated": "2026-05-01",
+            "last_updated": date.today().isoformat(),
             "sources": sources,
         },
         "entries": entries,
@@ -233,7 +234,36 @@ def build_tags(entries):
     print(f"[build_tags] Generated {len(tag_entries)} tag files in tags/")
 
 
+MOJIBAKE_PATTERNS = [
+    "â€”",   # em dash double-encoded via CP1252
+    "â€“",   # en dash double-encoded via CP1252
+    "Â®",         # ® double-encoded
+    "Â©",         # © double-encoded
+    "â„¢",   # ™ double-encoded
+    "﻿",               # BOM
+]
+
+
+def check_encoding(filepath):
+    with open(filepath, encoding="utf-8") as f:
+        content = f.read()
+    found = []
+    for pattern in MOJIBAKE_PATTERNS:
+        count = content.count(pattern)
+        if count:
+            found.append((repr(pattern), count))
+    if found:
+        print("[build_tags] WARNING: mojibake detected in llms-full.txt!")
+        for pat, count in found:
+            print(f"  {pat} x{count}")
+        print("[build_tags] Fix encoding before building. See meta/agent-guide.md.")
+        return False
+    return True
+
+
 if __name__ == "__main__":
+    if not check_encoding(FULL_FILE):
+        raise SystemExit(1)
     entries = parse_entries(FULL_FILE)
     print(f"[build_tags] Parsed {len(entries)} entries")
     build_tags(entries)

@@ -42,9 +42,9 @@ meta/
 
 | Metric | Value |
 |---|---|
-| **Total entries** | 487 (as of 2026-05-03) |
-| **Entry header** | `docs/llms-full.txt` line 9: `# Entries: 487` |
-| **Next entry number** | 488 |
+| **Total entries** | 569 (as of 2026-05-06) |
+| **Entry header** | `docs/llms-full.txt` line 9: `# Entries: 569` |
+| **Next entry number** | 570 |
 
 ### Sources currently indexed
 
@@ -68,6 +68,10 @@ meta/
 | IEA datasets | 437–440, 445–449 | 11 | ICCS, ICILS, TEDS-M, REDS + LaNA, TIMSS Advanced, TIMSS Longitudinal, CIVED, IELS |
 | US Dept of Ed datasets | 441–442, 469–472 | 6 | College Scorecard, ESF COVID Relief, IDEA §618, NTEWS, Condition of Education, Digest of Ed Stats |
 | Dataset survey expansion | 443–487 | 45 | ASSISTments (2), Duolingo (1), World Bank/ICPSR (3), CMU DataShop (10), OECD (5), Stanford CEPA/OI/NSC/Urban/NBER (15) |
+| Tools Competition 2025 | 488–505 | 18 | K-12 (9), post-secondary (6), dataset prize (3); all URLs verified against tool websites |
+| AIMS Collaboratory | 506–551 | 46 | Papers (13), blog posts (4), code (3), platforms (4), reports (16), frameworks (3), presentations (3) |
+| LEVI Math | 552–558 | 7 | ALTER-Math, Khanmigo, PLUS Tutoring, Eedi, MATHstream, HAT, Rori — all from LEVI team pages |
+| Benchmarks & Code | 559–569 | 11 | TLA Leaderboard, FAB-AI, TutorBench, MathTutorBench, pyBKT, pyKT, py-irt, ADL xAPI/LRS, OATutor, Learning Commons |
 
 ### Known broken entries (do not fix without new URL)
 
@@ -120,7 +124,7 @@ tags: [tag1, tag2, affiliation-tag]
 | `type` | `paper`, `report`, `framework`, `platform`, `code`, `blog-post`, `presentation`, `project-website`, `dataset` | |
 | `url_confirmed` | `true` / `false` | `true` = page was fetched and verified; `false` = URL inferred |
 | `description_inferred` | `true` / `false` | `true` = summarized from fetched content; `false` = written from full readable page |
-| `date_added` | ISO date | Use `2026-05-01` for entries added in this session |
+| `date_added` | ISO date | Use today's date (ISO format: YYYY-MM-DD) |
 
 ---
 
@@ -213,14 +217,27 @@ To add a new tag: add it to the correct category in `schema.md` AND to `TAG_CATE
 
 ---
 
+## Encoding
+
+**All files must be UTF-8 (no BOM).** `build_tags.py` validates this at build time and will refuse to generate output if mojibake patterns are detected.
+
+If mojibake is found: install `ftfy` (`pip install ftfy`) and run it on affected lines (titles and descriptions only — skip URL and YAML field lines). See the fix pattern used in the 2026-05-06 cleanup.
+
+Common cause: saving through a process that re-encodes UTF-8 as CP1252 (old Notepad, Excel, non-UTF-8 terminals). Agents writing staging files should always use `encoding="utf-8"` explicitly.
+
+---
+
 ## Build pipeline
 
 After modifying `llms-full.txt`:
 
 1. Update the `# Entries: N` header on line 9 to the new count
 2. From the `docs/` directory: `python build_tags.py`
-3. This generates `data.json` (consumed by `index.html`), `tags/*.md`, and `tags/index.md`
-4. Verify with `python -c "import json; d=json.load(open('data.json')); print(d['meta']['total'])`
+3. The build validates encoding (rejects mojibake), then generates `data.json`, `tags/*.md`, and `tags/index.md`
+4. `data.json` `last_updated` is set to today's date automatically — no manual edit needed
+5. Verify with `python -c "import json; d=json.load(open('data.json', encoding='utf-8')); print(d['meta']['total'])"`
+
+**Windows note:** Python on Windows defaults to cp1252, not UTF-8. Always pass `encoding='utf-8'` to `open()` in scripts and one-liners.
 
 To serve locally: run `python -m http.server 8765` from `docs/` — open `http://localhost:8765` in browser.
 
@@ -244,7 +261,7 @@ To serve locally: run `python -m http.server 8765` from `docs/` — open `http:/
 
 ```
 # Staging: {Source Name}
-# Date: 2026-05-01
+# Date: {today's date, YYYY-MM-DD}
 # Final number range: 149–174 (assigned before run)
 
 ### 1. Title of First Entry
@@ -255,7 +272,7 @@ type: report
 source: "Source Name"
 url_confirmed: true
 description_inferred: false
-date_added: 2026-05-01
+date_added: {today's date, YYYY-MM-DD}
 tags: [tag1, tag2]
 ```
 

@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Learning Engineering Resource Hub</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232D3E6B'/><text x='16' y='22' font-size='20' text-anchor='middle' fill='%2375C7C5' font-family='sans-serif' font-weight='700'>R</text><circle cx='25' cy='7' r='3' fill='%23FFCA08'/></svg>" />
 
   <!-- Montserrat — matching tools-competition.org -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -233,7 +234,7 @@
             <span class="ml-1 text-white/70">tags</span>
           </div>
           <div class="text-white">
-            <span class="text-2xl font-extrabold text-teal">2026-05-01</span>
+            <span id="stat-updated" class="text-2xl font-extrabold text-teal">—</span>
             <span class="ml-1 text-white/70">last updated</span>
           </div>
         </div>
@@ -351,7 +352,7 @@
 
       </div>
       <div class="border-t border-white/10 mt-8 pt-6 text-white/40 text-xs text-center">
-        Last updated 2026-05-01 · Built for <a href="https://tools-competition.org" class="hover:text-teal transition">tools-competition.org</a>
+        Last updated <span id="footer-updated">—</span> · Built for <a href="https://tools-competition.org" class="hover:text-teal transition">tools-competition.org</a>
       </div>
     </div>
   </footer>
@@ -394,8 +395,10 @@
         const data = await resp.json();
         allEntries = data.entries;
 
-        document.getElementById('stat-total').textContent   = data.meta.total;
-        document.getElementById('stat-sources').textContent = data.meta.sources.length;
+        document.getElementById('stat-total').textContent    = data.meta.total;
+        document.getElementById('stat-sources').textContent  = data.meta.sources.length;
+        document.getElementById('stat-updated').textContent  = data.meta.last_updated;
+        document.getElementById('footer-updated').textContent = data.meta.last_updated;
 
         const footerSources = document.getElementById('footer-sources');
         const MAX_FOOTER_SOURCES = 8;

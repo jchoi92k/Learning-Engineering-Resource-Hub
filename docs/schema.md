@@ -1,4 +1,6 @@
-# AIMS Collaboratory Resource Wiki — Schema
+# Learning Engineering Resource Hub — Schema
+
+> All files in this repository must be UTF-8 (no BOM). `build_tags.py` rejects builds if mojibake is detected.
 
 ## Entry Metadata Fields
 

@@ -1,23 +1,23 @@
 # Renaissance AI and Education Resource Hub — Compact Index
 
-> 655 curated evidence-based K-12 and higher education resources.
+> 915 curated evidence-based K-12 and higher education resources.
 > Last updated: 2026-05-10
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
 ## Tags
 
-**Domain:** k-12 (438), learning-engineering (236), literacy (137), higher-ed (127), math-education (118), early-childhood (82), english-learners (32), school-discipline (18)
+**Domain:** k-12 (641), learning-engineering (236), higher-ed (173), literacy (157), math-education (135), early-childhood (88), english-learners (60), school-discipline (20)
 
-**Method:** longitudinal (102), rct (100), computer-assisted-learning (85), intelligent-tutoring (38), meta-analysis (36), response-to-intervention (33), coaching (30), genai (28), qualitative-research (20), nlp (14), llm-application (13), a-b-testing (7), automated-feedback (7)
+**Method:** longitudinal (107), rct (102), computer-assisted-learning (85), coaching (44), intelligent-tutoring (38), meta-analysis (37), response-to-intervention (33), genai (28), qualitative-research (20), nlp (14), llm-application (13), a-b-testing (7), automated-feedback (7)
 
-**Topic:** open-datasets (105), professional-development (93), formative-assessment (69), college-access (62), digital-learning-platforms (57), personalized-learning (55), sel (41), prekindergarten (28), career-readiness (24), student-belonging (21), data-sharing (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (14), attendance (14), writing-instruction (13), math-motivation (4), genai-tutoring (3), math-word-problems (2)
+**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), college-access (63), personalized-learning (62), digital-learning-platforms (57), career-readiness (53), sel (49), prekindergarten (28), student-belonging (21), data-sharing (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), attendance (15), pii-privacy (14), writing-instruction (13), math-motivation (4), genai-tutoring (3), math-word-problems (2)
 
-**Affiliation:** wwc (167), aims (46), digital-promise (30), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (10), northwestern-e4 (9), assistments (9), carnegie-learning (6), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), tla (1), casel (1)
+**Affiliation:** digital-promise (254), wwc (167), aims (46), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (10), northwestern-e4 (9), assistments (9), carnegie-learning (6), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), tla (1), casel (1)
 
 ## Types
 
-- report: 391
+- report: 651
 - dataset: 104
 - paper: 65
 - framework: 48
@@ -29,7 +29,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 ---
 
-## Entries (655)
+## Entries (915)
 
 ### ADL Initiative (2)
 
@@ -169,7 +169,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 - 144. [CASEL SEL Framework](https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/) | framework | sel, learning-engineering, casel, k-12, inclusive-design
 
-### Digital Promise (30)
+### Digital Promise (254)
 
 - 18. [Breaking With the Past: Embracing Digital Transformation in Education](https://digitalpromise.dspacedirect.org/items/6559b261-d6d7-4184-9116-16eb93a9c212) | report | digital-learning-platforms, personalized-learning, learning-engineering, digital-promise
 - 19. [Computational Thinking for an Inclusive World](https://digitalpromise.dspacedirect.org/handle/20.500.12265/138) | report | k-12, computer-assisted-learning, learning-engineering, digital-promise, inclusive-design
@@ -201,6 +201,230 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 388. [Assessment During Collaborative Learning](https://digitalpromise.dspacedirect.org/items/8c0a25a2-0a7a-4ebb-be02-49a82e61e726) | report | k-12, formative-assessment, digital-promise
 - 389. [Classroom Discourse](https://digitalpromise.dspacedirect.org/items/8c56887b-c699-4999-8711-53fad39077bd) | report | k-12, formative-assessment, sel, digital-promise
 - 390. [Voices of Undergraduate Students Taking Introductory Statistics Courses](https://digitalpromise.dspacedirect.org/items/f0b7d6ee-9140-4241-8ce3-1474fd42b74e) | report | higher-ed, digital-learning-platforms, formative-assessment, student-belonging, digital-promise
+- 692. [Commentary on Interest-Driven Creator theory: a US perspective on fostering interest, creativity, and habit in school](https://digitalpromise.dspacedirect.org/items/01d8e168-631a-467e-81d9-efe3cb195ac4) | report | digital-promise, k-12
+- 693. [The IEP Project: A Strength-based, Whole Learner Teacher Guide](https://digitalpromise.dspacedirect.org/items/022acc05-90b1-41ca-8670-fbe39552bb4f) | report | digital-promise, k-12, sel
+- 694. [An Overlooked Indicator of Edtech Quality: The Use of Learning Sciences Research](https://digitalpromise.dspacedirect.org/items/03cc97df-88f6-4340-a69a-44b2b10f4440) | report | digital-promise
+- 695. [Rubrics for Examining Deeper Learning in Middle School Science Classrooms](https://digitalpromise.dspacedirect.org/items/0595ee82-f661-4f17-9003-6158bc00e74d) | report | digital-promise, k-12
+- 696. [Interview Protocol for Voices of Undergraduate Students Taking Introductory Statistics Courses](https://digitalpromise.dspacedirect.org/items/05ccd902-1e80-4c94-9cd9-f706a98d0cc0) | report | digital-promise, higher-ed, k-12
+- 697. [Designing Technology for Adult Learners: Support and Scaffolding](https://digitalpromise.dspacedirect.org/items/0b18a16a-2f1d-400b-9fed-df5675ba40cf) | report | digital-promise
+- 698. [Erasing the Look and Feel of Poverty](https://digitalpromise.dspacedirect.org/items/0b2760cd-cdc5-4905-a6b5-b30208ab2524) | report | digital-promise, early-childhood, k-12
+- 699. [Computing in rural America: Developing K-8 coding pathways for Kentucky Appalachia](https://digitalpromise.dspacedirect.org/items/0c77d3c7-12c8-4a9b-8583-040137f0fd3c) | report | digital-promise, k-12
+- 700. [Transforming Teachers’ Knowledge for Teaching Mathematics with Technologies through Online Knowledge-Building Communities](https://digitalpromise.dspacedirect.org/items/0c8f04cd-c617-4d3c-88a5-06acfbbf8d30) | report | digital-promise, k-12, math-education, professional-development
+- 701. [Equity in the Driver’s Seat: A Practice-Driven, Equity-Centered Approach for Setting R&D Agendas in Education](https://digitalpromise.dspacedirect.org/items/1185beda-6355-47f0-b3f2-980f6541172b) | report | digital-promise, k-12, literacy
+- 702. [Fostering Market Effciency in K-12 Ed-tech Procurement](https://digitalpromise.dspacedirect.org/items/16a0b353-36b4-447a-8364-912bc5b8d0a9) | report | digital-promise, higher-ed, k-12, personalized-learning
+- 703. [Intelligence Augmentation for Collaborative Learning](https://digitalpromise.dspacedirect.org/items/17b95834-7a3f-43d3-b703-6de88e3a2a9c) | report | digital-promise, k-12
+- 704. [Computational Thinking Boosters: Algorithmic Thinking 3-8](https://digitalpromise.dspacedirect.org/items/18da4883-f68f-4cdb-a276-0837b4b95868) | report | digital-promise, k-12
+- 705. [Computational Thinking for an Inclusive World: A Resource for Educators to Learn and Lead, Quick Start and Discussion Guide](https://digitalpromise.dspacedirect.org/items/19b77571-a6ab-4763-92c3-0f3b90dff6a6) | report | digital-promise, k-12
+- 706. [Unintended Impact: How the Verizon Innovative Learning Schools Program Affected Its Educators' Job Satisfaction and Career Trajectories](https://digitalpromise.dspacedirect.org/items/1eeae24c-7a57-4b21-bae8-5351199840e1) | report | digital-promise, k-12
+- 707. [Empathy Interviews for Developing Inclusive Computing Pathways](https://digitalpromise.dspacedirect.org/items/1f211a99-2af2-452e-8f6d-17c75560c0a1) | report | digital-promise, k-12
+- 708. [Micro-credentials: Driving teacher learning & leadership](https://digitalpromise.dspacedirect.org/items/1f441118-1edf-44e6-9c7e-4d387118eb2b) | report | digital-promise, k-12
+- 709. [Reimagining High School: Student Experiences Today, Hopes for Tomorrow](https://digitalpromise.dspacedirect.org/items/22bd5fad-ec7b-4ec7-a86f-0bed0800ba30) | report | digital-promise, formative-assessment, k-12
+- 710. [Implementing and scaling Differentiated Literacy System: A case of evaluators’ voices channeling outside-in and bottom-up perspectives for equity and continuous improvement](https://digitalpromise.dspacedirect.org/items/244ec2ff-be10-4063-aad1-f798a4a45369) | report | coaching, digital-promise, formative-assessment, k-12, literacy, personalized-learning, professional-development
+- 711. [How Rule Induction Data Mining Can and Cannot Be Useful for Education Research](https://digitalpromise.dspacedirect.org/items/25a027bb-6b5c-42f1-b058-c16843c06e34) | report | digital-promise, english-learners
+- 712. [Accelerating Change: How Education Technology Developers Can Jump-Start a New Adult Education Market](https://digitalpromise.dspacedirect.org/items/29f39d7d-87f2-4e1e-920e-0c1ce86035cc) | report | digital-promise
+- 713. [Pathways Unlocked: A Learner-Centered Toolkit for Usable Learning & Employment Record Technologies](https://digitalpromise.dspacedirect.org/items/2a540607-a680-4548-8524-80af4924d62b) | report | digital-promise
+- 714. [Considerations for Conducting Research in Digital Learning Platforms](https://digitalpromise.dspacedirect.org/items/2a733f13-8340-41d7-82f5-e28f1688344e) | report | digital-promise
+- 715. [The Promise of Micro-credentials and Learning and Employment Record Technologies for Youth and K-12 Schools](https://digitalpromise.dspacedirect.org/items/2a854754-2233-4d09-9112-5b2f668321e8) | report | career-readiness, digital-promise, higher-ed, k-12
+- 716. [Artificial Intelligence and the Future of Teaching and Learning](https://digitalpromise.dspacedirect.org/items/2c1db6c5-e9f4-41e4-8e45-1dce2f6497be) | report | digital-promise, literacy
+- 717. [Computational Thinking Boosters: Data & Analysis in K-2](https://digitalpromise.dspacedirect.org/items/2d859929-49a6-41ae-ab1f-c982d2726736) | report | digital-promise, k-12
+- 718. [Realizing District-Community Driven Outcomes Through Inclusive Innovation](https://digitalpromise.dspacedirect.org/items/2f8e6b7c-3a22-46f5-bc53-94154d8212a4) | report | digital-promise, k-12
+- 719. [Exploring Coaching for Powerful Technology Use in Education](https://digitalpromise.dspacedirect.org/items/2f8e7466-5d96-49c4-b8cc-5b70690e0db9) | report | coaching, digital-promise, higher-ed, k-12, professional-development
+- 720. [Improving Research and Practice through Partnership: Lessons Learned from Santa Clara Unified Schools and UC San Francisco Researchers](https://digitalpromise.dspacedirect.org/items/319db7e4-46fb-4f18-a6f0-628edf43ae9e) | report | digital-promise, k-12
+- 721. [Learning in the 21st Century: How the American Public, Parents, and Teachers View Students’ Potential and Their Learning Experience](https://digitalpromise.dspacedirect.org/items/32480546-27ed-4785-8703-bf66b74f6bfd) | report | digital-promise, k-12
+- 722. [Leveraging Community Cultural Wealth to Support K-8 CT Education in Kentucky Appalachia](https://digitalpromise.dspacedirect.org/items/327e7ce2-ba5e-4ea9-8847-aeda3b061c25) | report | career-readiness, digital-promise, k-12
+- 723. [Policies and Practices That Meet Learners Where They Are](https://digitalpromise.dspacedirect.org/items/329904d9-c36c-4781-9ed7-081f05bd9a81) | report | digital-promise, higher-ed, k-12
+- 724. [Suddenly Online: A National Survey of Undergraduates During the COVID-19 Pandemic](https://digitalpromise.dspacedirect.org/items/32aee7c4-5363-4d50-bc9c-a338e7dfac7e) | report | digital-promise, higher-ed, k-12
+- 725. [An Efficacy Study of a Digital Core Curriculum for Grade 5 Mathematics](https://digitalpromise.dspacedirect.org/items/3496dde6-adb7-4e5d-8be7-fbcbfe97f627) | report | digital-promise, formative-assessment, k-12, math-education, rct
+- 726. [CLICKSTREAM: Essential Educational Infrastructure to Promote Student Learning and Educational Theory Development](https://digitalpromise.dspacedirect.org/items/364da4aa-5808-431f-8f13-2d0af99469de) | report | digital-promise, higher-ed, k-12, personalized-learning
+- 727. [A Guide to the Adult Learning Ed-Tech Market](https://digitalpromise.dspacedirect.org/items/36eceee2-6442-4c5c-8fa1-7b9e7eab4533) | report | digital-promise
+- 728. [Rapid Cycle Pilots: Using Edtech to Support English Learners](https://digitalpromise.dspacedirect.org/items/383e02ba-587a-4192-be68-175543798661) | report | digital-promise, english-learners, k-12
+- 729. [Delivering on the Promise of Digital Equity](https://digitalpromise.dspacedirect.org/items/38939984-18ea-4af0-8081-c787ac30d48d) | report | digital-promise, k-12, professional-development
+- 730. [Ed-Tech Pilot Report:](https://digitalpromise.dspacedirect.org/items/38af8409-82b3-4f0e-baff-2a093963bada) | report | digital-promise, higher-ed, k-12
+- 731. [Understanding the Supports and Skills that Enable Successful Pathways for Black Learners and Workers into Non-Four-Year Degree Technology Careers: A Landscape Scan](https://digitalpromise.dspacedirect.org/items/3a9a4797-4e25-4850-bda8-a5721f160741) | report | digital-promise
+- 732. [An Ethical and Equitable Vision of AI in Education: Learning Across 28 Exploratory Projects](https://digitalpromise.dspacedirect.org/items/3b03e97a-15db-447e-8587-95a5f2c1d13d) | report | digital-promise, english-learners, k-12
+- 733. [The Future of Math Inclusion: The Promise of Digital Math Tools for Universally Accessible Mathematics Instruction](https://digitalpromise.dspacedirect.org/items/3bd2f5ae-832e-462a-999f-2a6e1b3411e2) | report | digital-promise, k-12, math-education
+- 734. [Foundations of Collaboration](https://digitalpromise.dspacedirect.org/items/3bf98742-efd7-4c56-8d22-cc47e53f70d4) | report | digital-promise, k-12, sel
+- 735. [Rapid Cycle Pilots: Lessons Learned from Math Trials in Six Districts](https://digitalpromise.dspacedirect.org/items/3d9bb6ec-6ef2-4b64-a130-ce9c19574443) | report | digital-promise, english-learners, k-12, math-education
+- 736. [Student Growth Through Design-Centered Learning](https://digitalpromise.dspacedirect.org/items/3f389950-08d9-4080-92ce-7d34ffbe9c4d) | report | digital-promise, k-12
+- 737. [Principios de Aprendizaje de la Transición de Diseño para los Expedientes de Aprendizaje y Empleo: Co-diseño para la Equidad](https://digitalpromise.dspacedirect.org/items/40484976-e645-42f3-b0f2-75554805f590) | report | digital-promise
+- 738. [Micro-credentials for Impact: Holding Professional Learning to High Standards](https://digitalpromise.dspacedirect.org/items/42c0f842-f4af-4960-a854-7dcf2a3b174d) | report | digital-promise
+- 739. [Tapping Data for Frontline Talent Development](https://digitalpromise.dspacedirect.org/items/44b193d2-b037-4ded-8322-61e8fb00f89b) | report | career-readiness, digital-promise
+- 740. [Understanding, Valuing, and Utilizing Skills-First Practices as an Organization Supporting Frontline Workers and Jobseekers](https://digitalpromise.dspacedirect.org/items/44bc7d23-636c-4de5-8025-5e9e41e314fc) | report | digital-promise
+- 741. [Rubrics on Historical Thinking Skills for Assignments and Student Work: Initial Validity Evidence](https://digitalpromise.dspacedirect.org/items/45109858-97c6-4f29-b3ce-2e990cf1a579) | report | digital-promise, formative-assessment, k-12
+- 742. [Empowering Education Leaders in Edtech Procurement](https://digitalpromise.dspacedirect.org/items/47852ca7-537f-4f37-84c2-47c4031ef337) | report | digital-promise, k-12
+- 743. [AI and the Future of Learning: Expert Panel Report](https://digitalpromise.dspacedirect.org/items/4b4d5758-dc24-400c-92bb-206edba192aa) | report | digital-promise, english-learners
+- 744. [Computational Thinking Boosters: Data and Analysis 3-8](https://digitalpromise.dspacedirect.org/items/4e5e5a18-4122-4c3f-93ac-9669073349b1) | report | digital-promise, k-12
+- 745. [The Art and Science of Learning: How New Mexico School for the Arts Uses Research](https://digitalpromise.dspacedirect.org/items/4e829bdc-764f-4f2e-85de-abc138e21bdd) | report | digital-promise, k-12, professional-development
+- 746. [Teaching Partner, Grading Assistant, Substitute Teacher: Three Ways Teachers Positioned an Artificial Intelligence Tool in Writing Instruction](https://digitalpromise.dspacedirect.org/items/4f2d86a3-9b66-4538-a5ad-977bb8fbacf7) | report | digital-promise, formative-assessment, k-12, literacy
+- 747. [Cultivando una Cultura de Coaching para Apoyar el Uso Poderoso de la Tecnología: Resultados del Modelo de Coaching Basado en Retos Piloto en Puerto Rico](https://digitalpromise.dspacedirect.org/items/511d82db-a4ab-4a3d-8475-ea217c22baad) | report | coaching, digital-promise, professional-development
+- 748. [Navigating the Tensions: How Could Equity-relevant Research Also Be Agile, Open, and Scalable?](https://digitalpromise.dspacedirect.org/items/5173898e-346f-45e0-8aa5-f5eead7e0016) | report | digital-promise, higher-ed, k-12
+- 749. [Research and the Promise of Personalized Learning](https://digitalpromise.dspacedirect.org/items/51dec9b9-913c-4bf8-8810-2b6601d224d8) | report | digital-promise, personalized-learning
+- 750. [Integrating Digital Tools for Adult Learners: Four Critical Factors](https://digitalpromise.dspacedirect.org/items/52ffa633-226c-445f-8113-54cc83dc76c7) | report | digital-promise
+- 751. [Rapid Cycle Pilots: Improving Ed-Tech Products through Feedback](https://digitalpromise.dspacedirect.org/items/5364ec3a-0d6d-4252-8885-4484e657fde7) | report | digital-promise, formative-assessment, higher-ed, k-12
+- 752. [Fostering Powerful Use of Technology Through Instructional Coaching](https://digitalpromise.dspacedirect.org/items/540c3325-fd5f-408e-a347-2409f57848dd) | report | coaching, digital-promise, english-learners, k-12, professional-development
+- 753. [The many faces of R: Exploring roles for researchers beyond research](https://digitalpromise.dspacedirect.org/items/5458ad55-6117-4ae5-a66a-d5ea1bbf6a2c) | report | digital-promise, k-12
+- 754. [Instructional Coaching Holds Promise as a Method to Improve Instruction with Technology](https://digitalpromise.dspacedirect.org/items/5465e54a-b290-4210-97fb-514a3aa13e21) | report | coaching, digital-promise, k-12, professional-development
+- 755. [A Series of Briefs: Implementing AI Literacy Across Learning Environments](https://digitalpromise.dspacedirect.org/items/5609b09c-a897-4112-9b9a-2d281cfd5fc7) | report | career-readiness, digital-promise, higher-ed, k-12, literacy
+- 756. [Empowering High School Communities to Evaluate Their Programs Through Alumni Surveys](https://digitalpromise.dspacedirect.org/items/561f0b70-18bb-407a-9fa2-6efe91b23718) | report | digital-promise, formative-assessment, k-12
+- 757. [Introducing Blended Learning in Low-Tech Settings: Lessons from Haiti](https://digitalpromise.dspacedirect.org/items/58ef041f-1d8d-4e15-86e4-05bfe3de75ff) | report | digital-promise, k-12, longitudinal, professional-development
+- 758. [Instructional Coherence and Shared Responsibilities: OBC's Impact on EdTech Procurement](https://digitalpromise.dspacedirect.org/items/5ab830f6-3f5d-4286-880b-bbf6b9105a19) | report | digital-promise, k-12
+- 759. [Finding kinship in a far away land: The relevance of Japanese cultural perspectives to education research in Eastern Kentucky (アメリカ・ケンタッキー州東部の教育研究:日本文化との共通性)](https://digitalpromise.dspacedirect.org/items/5b12bf9d-00c2-4c38-927e-fc96beb6f57b) | report | career-readiness, digital-promise
+- 760. [Operation Outbreak: Exploring the Affordances and Challenges of Experiential Simulations in Education for Scalability](https://digitalpromise.dspacedirect.org/items/5b9d16cb-7253-49d0-9d95-e510b6951d4b) | report | digital-promise, k-12
+- 761. [Principal Leadership in a Virtual Environment](https://digitalpromise.dspacedirect.org/items/5c6ea7aa-1c1b-416f-9d84-f15f9770d4d5) | report | digital-promise, english-learners, k-12
+- 762. [A Field-Driven, Equity-Centered Research Agenda for OpenSciEd: Updated Version](https://digitalpromise.dspacedirect.org/items/5d7559fd-9d00-451b-a429-4c9dcd15c3b4) | report | digital-promise
+- 763. [Lift Every Voice in Tech: Co-designed Recommendations to Support Black Workers and Learners Seeking to Enter and Advance in Technology Industry Career Pathways](https://digitalpromise.dspacedirect.org/items/5dcf2bc8-f40c-4942-96a4-c4a5bda965e3) | report | career-readiness, digital-promise
+- 764. [Strategic Surprise and the Future of Educational R&D](https://digitalpromise.dspacedirect.org/items/5f4a2b76-ee88-4c0c-8cfa-6712401fdb61) | report | digital-promise, k-12
+- 765. [Micro-credentials and Education Policy in the United States: Recognizing Learning and Leadership for Our Nation's Teachers](https://digitalpromise.dspacedirect.org/items/65a7d0ed-66b1-4d5b-ac51-6bcf25285dd3) | report | digital-promise, english-learners, k-12
+- 766. [Continuing the educator micro-credential movement](https://digitalpromise.dspacedirect.org/items/678357f2-9745-4f3e-89fa-5e0c23dd2f77) | report | digital-promise, k-12
+- 767. [Unveiling the Value of Exploration: Insights from NSF-Funded Research on Emerging Technologies for Teaching and Learning](https://digitalpromise.dspacedirect.org/items/69edd331-0d7f-477f-921d-14001067294a) | report | digital-promise
+- 768. [Research and Educator Micro-credentials](https://digitalpromise.dspacedirect.org/items/6a538240-80bc-442b-a60d-7f537cbc3bec) | report | digital-promise
+- 769. [Transfer for Future Learning of Fractions within Cignition’s Microtutoring Approach](https://digitalpromise.dspacedirect.org/items/6b7464c5-08a8-46c0-93df-b5abbaa56a52) | report | digital-promise, formative-assessment, k-12, math-education
+- 770. [AI Literacy: A Framework to Understand, Evaluate, and Use Emerging Technology](https://digitalpromise.dspacedirect.org/items/6d15adcd-5a84-47fa-b6d0-1310154eee02) | report | digital-promise, k-12, literacy
+- 771. [Tough As Nails and Drawing on Kinship: Rigorous and inclusive educational research in Kentucky Appalachia](https://digitalpromise.dspacedirect.org/items/6d2920af-8e76-4dc0-a480-0aa8e4a87f47) | report | digital-promise
+- 772. [Teacher’s Roles in Supporting Collaborative Learning](https://digitalpromise.dspacedirect.org/items/6dc71c9f-b523-4c36-9da8-d98b364e17e0) | report | digital-promise, k-12
+- 773. [Micro-credentials for Social Mobility in Rural Postsecondary Communities: A Landscape Report](https://digitalpromise.dspacedirect.org/items/6f82f95d-21f3-40b6-8dae-332a131cba8c) | report | career-readiness, digital-promise, english-learners, higher-ed
+- 774. [Cultivating a Culture of Coaching to Support Powerful Use of Technology: Results from the Challenge-based Coaching Model Pilot in Puerto Rico](https://digitalpromise.dspacedirect.org/items/71c26d6b-e789-4ca3-b643-dcc98422a36d) | report | coaching, digital-promise, k-12, professional-development
+- 775. [Scaling Up Design of Inquiry Environments](https://digitalpromise.dspacedirect.org/items/71fbff7d-e7b8-4926-a29b-6968fdd288ea) | report | digital-promise, k-12
+- 776. [Improving Access to Interactive, Mother-Tongue Digital Science Content for Early Grade Learners in Rural Haiti](https://digitalpromise.dspacedirect.org/items/72a65947-fd81-4fd0-a842-5895d8ca8805) | report | coaching, digital-promise, k-12, literacy, professional-development, sel
+- 777. [A New Narrative: How Unlocking the Power of R&D Through Inclusive Innovation Can Transform Education](https://digitalpromise.dspacedirect.org/items/73f2e0fa-dca8-4cd0-a8da-eb18b59453c4) | report | digital-promise, k-12
+- 778. [Designing for the future of research: Putting equity-relevant research into practice with scenarios and personas](https://digitalpromise.dspacedirect.org/items/764975ce-2824-4194-a908-6eeeb4df02d8) | report | digital-promise, higher-ed, k-12
+- 779. [Computational Thinking Boosters: Algorithmic Thinking in K-2](https://digitalpromise.dspacedirect.org/items/7685ed28-db2b-4106-8ca2-865970a62a94) | report | digital-promise, early-childhood, k-12
+- 780. [Language and Mathematics Learning: A Comparative Study of Digital Learning Platforms](https://digitalpromise.dspacedirect.org/items/77b14a60-aa1e-487b-a449-ef190b7f5719) | report | digital-promise, english-learners, math-education
+- 781. [Executive Summary: A Look at AI Literacy, and AI and Digital Equity](https://digitalpromise.dspacedirect.org/items/7827ad27-99b0-4658-a364-cb2d043761b9) | report | digital-promise, literacy, sel
+- 782. [AI-Powered Innovations in Mathematics Teaching & Learning: Initial Findings](https://digitalpromise.dspacedirect.org/items/78359471-f72b-4b52-96dd-ff08efb9fd54) | report | digital-promise, english-learners, math-education
+- 783. [STEM Courses During the COVID Pandemic: Lessons from Spring 2020](https://digitalpromise.dspacedirect.org/items/7900cb79-6ea5-44d0-aad6-34aa81e9bf4b) | report | digital-promise, higher-ed, k-12
+- 784. [Scaling Up Classroom Coaching for Impactful Technology Use](https://digitalpromise.dspacedirect.org/items/79337f05-0795-4bac-b1d7-f4758c23285c) | report | coaching, digital-promise, k-12, professional-development
+- 785. [Feedback Loops: Mapping Transformative Interactions in Education Innovation](https://digitalpromise.dspacedirect.org/items/79e4c9c0-f8e6-4d7b-8849-c5c1c178ba30) | report | digital-promise, english-learners, formative-assessment, k-12
+- 786. [Generalizability of a Technology-Based Intervention to Enhance Conceptual Understanding in Mathematics](https://digitalpromise.dspacedirect.org/items/7a123d3c-22ec-46db-b7cf-709c3aa65583) | report | digital-promise, k-12, math-education
+- 787. [Practitioners at the Center: Catalyzing Research on Problems of Practice in Realistic Settings](https://digitalpromise.dspacedirect.org/items/7a2713e4-ee47-473f-9b85-923e1654a7cb) | report | digital-promise, k-12
+- 788. [The Growing Diversity in Today’s Classroom](https://digitalpromise.dspacedirect.org/items/7acc6442-9c20-42ff-b4b2-21645832493e) | report | digital-promise, k-12
+- 789. [Market Signals for Research-Based Innovations](https://digitalpromise.dspacedirect.org/items/7c36b6fa-e221-437f-92d5-f4d3a89c0a1f) | report | digital-promise
+- 790. [Emerging Technology Adoption Framework: For PK-12 Education](https://digitalpromise.dspacedirect.org/items/7e1e8820-d035-4b01-8795-ca2de4985e4e) | report | digital-promise, english-learners, formative-assessment, k-12
+- 791. [Rapid Cycle Pilots: Summer Ed-Tech Programs](https://digitalpromise.dspacedirect.org/items/8017846c-4099-4af3-92e4-462cd5d6262d) | report | digital-promise, english-learners, k-12
+- 792. [Shifting Education with Learning Pathways: Becoming Your Portrait of a Graduate](https://digitalpromise.dspacedirect.org/items/81b0247c-2672-480e-8103-eb5a3cfce57e) | report | digital-promise, k-12, literacy
+- 793. [Centering Wellbeing: Advancing Social Emotional Learning for All](https://digitalpromise.dspacedirect.org/items/81d9f1f0-5fc2-4397-8340-5fdefb720820) | report | digital-promise, k-12, sel
+- 794. [Prevalence of Coaching and Approaches to Supporting Coaching in Education](https://digitalpromise.dspacedirect.org/items/821256d6-646b-4188-9b6f-348c6aeee6da) | report | coaching, digital-promise, professional-development
+- 795. [Integrating Science, Mathematics, and Engineering: Linking Home and School Learning for Young Learners](https://digitalpromise.dspacedirect.org/items/821a9bed-4c65-4743-bf74-114c7ada7b94) | report | digital-promise, early-childhood, k-12, math-education
+- 796. [Using Research in Ed-Tech: How Ed-Tech Companies Use Research to Make Better Products](https://digitalpromise.dspacedirect.org/items/82489735-de61-4d86-bf04-5ebdfbb15f10) | report | digital-promise, formative-assessment
+- 797. [Onboarding and Education Design Principles for Learning and Employment Records](https://digitalpromise.dspacedirect.org/items/82595f42-12d0-48ea-9137-44b64132bf03) | report | digital-promise, english-learners
+- 798. [Designing for Learner Variability: Examining the Impact of Research-based Edtech in the Classroom](https://digitalpromise.dspacedirect.org/items/82839c44-adb1-400c-b422-9bfbbca65985) | report | digital-promise, k-12, literacy
+- 799. [Resisting Edtech Colonialism through Inclusive Innovation in Kentucky Appalachia](https://digitalpromise.dspacedirect.org/items/828c99ea-1d17-4c79-836c-4ecc95ce1adc) | report | digital-promise, k-12
+- 800. [Inclusive Design Principles for Learning and Employment Records: Co-Designing for Equity](https://digitalpromise.dspacedirect.org/items/82a51030-0ea6-4fac-a596-4e8116737a4a) | report | career-readiness, digital-promise, english-learners, higher-ed
+- 801. [Evaluation of an Online Tutoring Program in Elementary Mathematics](https://digitalpromise.dspacedirect.org/items/83873e9c-c786-4edd-92df-d8dd68854483) | report | digital-promise, formative-assessment, k-12, math-education, meta-analysis, rct
+- 802. [Recruitment and Retention: Impact of Pilot Solutions Designed by Teachers of Color Phase II Report](https://digitalpromise.dspacedirect.org/items/843e2c93-ec85-499f-8d72-b0c4e92f4061) | report | career-readiness, digital-promise, k-12
+- 803. [The New Librarian: Leaders in the Digital Age](https://digitalpromise.dspacedirect.org/items/865b2f5d-2a24-42ee-961b-b45aec27af1d) | report | digital-promise, k-12
+- 804. [Nico & Nor Family Flyer](https://digitalpromise.dspacedirect.org/items/8852fd9c-c0ab-47c6-bed1-83b30057347b) | report | digital-promise, early-childhood, k-12
+- 805. [Integrating Micro-credentials into Professional Learning: Lessons from Five Districts](https://digitalpromise.dspacedirect.org/items/8960df64-de36-4121-8af2-651b343b0884) | report | digital-promise, k-12
+- 806. [Funding Coaching is Not Enough: The Role of the District Administrator in Coaching](https://digitalpromise.dspacedirect.org/items/89f20796-22b4-44c1-889c-cc2fd46a19a2) | report | coaching, digital-promise, k-12, professional-development
+- 807. [Meeting Learners Where They Are: Using Microsoft Forms to Drive Improvement in Learning Outcomes](https://digitalpromise.dspacedirect.org/items/8a12967d-b67d-404f-875f-3dc61d0cc32e) | report | digital-promise, k-12
+- 808. [The Role of Micro-Credentials in Lifelong Learning and Development: Empowering Learners, Empowering Organizations](https://digitalpromise.dspacedirect.org/items/8c5402d0-2102-43c7-844f-f88419f4618b) | report | career-readiness, digital-promise, formative-assessment, higher-ed, professional-development
+- 809. [Designing an App to Support Families’ Joint Engagement with Media: Design Principles and Lessons from Research](https://digitalpromise.dspacedirect.org/items/8d914577-9ca9-4d3d-a490-75a45c143247) | report | digital-promise, english-learners
+- 810. [Technology and Family Literacy Case Study: SPICE Family Literacy Program, Central Maine](https://digitalpromise.dspacedirect.org/items/8ecfcb7f-5585-48eb-aafb-97082e564ea2) | report | digital-promise, literacy
+- 811. [Updated Summary and Synthesis of OpenSciEd Research](https://digitalpromise.dspacedirect.org/items/8fe37fe4-cdc2-4e8e-9c17-09ed4c965de4) | report | digital-promise, formative-assessment, k-12
+- 812. [Select the Right Edtech: How to Leverage Certified Products During the Procurement Process](https://digitalpromise.dspacedirect.org/items/90635c63-b0a9-42d1-9770-505ffc36db31) | report | digital-promise, formative-assessment, k-12
+- 813. [Delivering virtual K-8 computing professional development in rural KY](https://digitalpromise.dspacedirect.org/items/90b614f8-9549-4924-a07f-400275d000db) | report | digital-promise, formative-assessment, k-12, professional-development
+- 814. [Innovating for Student Success: District-Led Innovation Showcase](https://digitalpromise.dspacedirect.org/items/9211b86f-b9e9-4c4e-adc1-c99f9aad4a79) | report | digital-promise, k-12
+- 815. [Learning by Design: How Design Tech High School Uses Research](https://digitalpromise.dspacedirect.org/items/93bddee8-5856-4faf-8758-71aae4ce8716) | report | digital-promise, k-12
+- 816. [Sustainability in Inclusive Innovation: District-Community Solutions, Mindsets, and Practices](https://digitalpromise.dspacedirect.org/items/94695da1-ad96-49e5-b461-b759d617ae25) | report | digital-promise, k-12
+- 817. [Partnering to promote equity and digital learning](https://digitalpromise.dspacedirect.org/items/94c25d90-04c6-4fb1-884b-b3b2785cd61f) | report | digital-promise, higher-ed, k-12
+- 818. [Empowering the Future: Powerful Technology for Powerful AI Teaching and Learning](https://digitalpromise.dspacedirect.org/items/950f15e9-7ca2-4f8d-b904-d7d0592756b0) | report | digital-promise, k-12, literacy
+- 819. [Continuous Improvement and Postsecondary Student Success](https://digitalpromise.dspacedirect.org/items/98c04771-dc6b-4f61-bb24-a78209c14559) | report | digital-promise, higher-ed, k-12
+- 820. [Lessons From Remote Learning During COVID-19](https://digitalpromise.dspacedirect.org/items/9a943f64-465d-4556-a661-c313d4723328) | report | digital-promise, higher-ed, k-12
+- 821. [Institutional Conditions for Integrating Emerging Technologies in Higher Education](https://digitalpromise.dspacedirect.org/items/9d233abb-c1ab-4077-9318-03aa36dcc0af) | report | career-readiness, digital-promise, higher-ed, professional-development
+- 822. [Bridging the Digital Divide for Low-Income Students](https://digitalpromise.dspacedirect.org/items/9e1875b6-73f1-471e-8bff-9fb47e56bdec) | report | digital-promise, k-12
+- 823. [How School Administrators can Serve as Productive Partners in Teacher Coaching Programs](https://digitalpromise.dspacedirect.org/items/a08ba4d8-72c1-4d8e-902c-c529eed160ac) | report | coaching, digital-promise, k-12, professional-development
+- 824. [Looking Back to Move Forward](https://digitalpromise.dspacedirect.org/items/a163f089-d74b-4500-a35e-3d6a4d89e735) | report | digital-promise, k-12
+- 825. [Preparing Teachers For Deeper Learning](https://digitalpromise.dspacedirect.org/items/a1928fce-2d47-429b-8e81-fbeb9ce079c3) | report | digital-promise, k-12
+- 826. [Improving Ed-Tech Purchasing](https://digitalpromise.dspacedirect.org/items/a21e1abc-355a-4dec-8ff4-f175ac0e6e64) | report | digital-promise, higher-ed, k-12, personalized-learning
+- 827. [Making Waves: Reflections on SEERNet’s Progress and a Vision for a New Generation of Education Research](https://digitalpromise.dspacedirect.org/items/a274989e-061c-49ca-8a7e-18db1aa12c8e) | report | digital-promise
+- 828. [Inclusive Innovation: Increasing Recruitment and Retention of Teachers of Color](https://digitalpromise.dspacedirect.org/items/a3088e5e-a21b-43e2-8780-34ed5347ae69) | report | career-readiness, digital-promise, k-12
+- 829. [Overview of Data Mining’s Potential Benefits and Limitations in Education Research](https://digitalpromise.dspacedirect.org/items/a392613d-13bb-4bae-9f71-9bc587c0236e) | report | digital-promise, english-learners
+- 830. [Review of Guidance from Seven States on AI in Education](https://digitalpromise.dspacedirect.org/items/a3d38366-be66-4908-b40a-c9cda146ca2a) | report | digital-promise
+- 831. [Technology and Family Literacy Case Study: Briya Public Charter School, Washington, D.C.](https://digitalpromise.dspacedirect.org/items/a78411b0-ae26-4690-95c6-f4408c731d64) | report | digital-promise, k-12, literacy
+- 832. [Computational Thinking for a Computational World](https://digitalpromise.dspacedirect.org/items/a84a9ab5-6541-417f-ba96-4a66715e7732) | report | career-readiness, digital-promise, k-12, school-discipline
+- 833. [Exponential Change Brings Exponential Choice: Navigating Life, Learning, and Career](https://digitalpromise.dspacedirect.org/items/a875606c-e976-4dae-929d-a9d82006aeed) | report | career-readiness, digital-promise, higher-ed, k-12
+- 834. [Driving Edtech Coherence and Intentionality: Denver Public Schools’ Innovative Procurement Process](https://digitalpromise.dspacedirect.org/items/a9060059-21bf-4394-9dba-e1c4e9f48c14) | report | digital-promise, formative-assessment, k-12
+- 835. [Pipeline and Retention of Teachers of Color: Systems and Structures Impeding Growth and Sustainability in the United States](https://digitalpromise.dspacedirect.org/items/aa33615a-ed85-48c3-a785-84ae414ed8b7) | report | career-readiness, digital-promise, k-12
+- 836. [Splash and Bubbles for Parents App: Field Study Report](https://digitalpromise.dspacedirect.org/items/aa621300-88fb-44ac-8db3-446adcc78277) | report | digital-promise
+- 837. [Challenge-Based Learning for Global Competence and Employability](https://digitalpromise.dspacedirect.org/items/aa77c0fd-c82d-4d16-8cd0-ad818f35a35f) | report | digital-promise, k-12, school-discipline
+- 838. [Splash and Bubbles for Parents App: Station Study Report](https://digitalpromise.dspacedirect.org/items/aaf25faf-4a0f-4499-9be7-40fb8863968e) | report | digital-promise
+- 839. [Every Learner Everywhere and Lighthouse Institutions: First-Year Experiences](https://digitalpromise.dspacedirect.org/items/abf8db78-dc7a-4f4f-b06a-b00d1bda63e8) | report | college-access, digital-promise, formative-assessment, higher-ed, k-12
+- 840. [Building Bridges: Cultivating Interconnectedness for STEM Pathways in San Diego](https://digitalpromise.dspacedirect.org/items/ac9c9c04-ad8c-42a5-84bd-805fbcb8fe31) | report | career-readiness, digital-promise, higher-ed, k-12
+- 841. [Understanding and Supporting District Systems Change Around Computer Science Education](https://digitalpromise.dspacedirect.org/items/aea07270-be3c-4736-bf35-9aeeceb47b99) | report | digital-promise, english-learners, formative-assessment, higher-ed, k-12
+- 842. [Outcomes of Increased Practitioner Engagement in Edtech Development: How Strong, Sustainable Research-Practice-Industry Partnerships will Build a Better Edtech Future](https://digitalpromise.dspacedirect.org/items/b01e0191-2cb9-43df-b6f3-695c2e5faffa) | report | digital-promise, formative-assessment, higher-ed, k-12
+- 843. [Civic imagination’s role in K-8 computing education in Kentucky Appalachia](https://digitalpromise.dspacedirect.org/items/b3489bc4-b585-4527-a630-b4620639c5fc) | report | digital-promise, k-12
+- 844. [Use Research Like a Champion](https://digitalpromise.dspacedirect.org/items/b3640148-4ecf-43c9-bbb6-31da612bae78) | report | digital-promise
+- 845. [Developing a System of Micro-credentials: Supporting Deeper Learning in the Classroom](https://digitalpromise.dspacedirect.org/items/b64566ae-6e75-4f9f-9665-572f77ef39c7) | report | career-readiness, digital-promise, higher-ed, k-12
+- 846. [Teacher Learner Connect Project](https://digitalpromise.dspacedirect.org/items/b675c423-a956-4e86-a124-89962f8ef1d6) | report | digital-promise, english-learners, formative-assessment, k-12
+- 847. [Ethics, Artificial Intelligence, and Digital Equity: Making Informed Decisions about the Integration of AI](https://digitalpromise.dspacedirect.org/items/b6a4cbf2-6a08-4d59-8793-40c2854113ca) | report | digital-promise
+- 848. [Hidden in Plain Sight: The Opportunity to Bridge District Equity Gaps by Fostering Collaborations with BIPOC Solution Providers](https://digitalpromise.dspacedirect.org/items/b6e86f03-55b6-4577-a7a6-927065ac9bff) | report | digital-promise, k-12
+- 849. [Learner Variability Is the Rule, Not the Exception](https://digitalpromise.dspacedirect.org/items/b7b14506-0b46-4279-9f9e-675c694b06a6) | report | career-readiness, digital-promise, k-12
+- 850. [Supporting Research-Based Personalization for Reading Success](https://digitalpromise.dspacedirect.org/items/b9340813-7b75-4a9f-a7dd-e958465b4cd9) | report | digital-promise, k-12, literacy
+- 851. [From Childcare to Educare: Inspiring Change in Early Childhood Education for Rural Tennessee](https://digitalpromise.dspacedirect.org/items/ba76a6e4-9a61-406c-ab6b-ef4337c27eaf) | report | career-readiness, digital-promise, early-childhood, higher-ed
+- 852. [Designing for Technology Adult Learners: Applying Adult Learning Theory](https://digitalpromise.dspacedirect.org/items/bb3f892f-a74d-4da1-8086-0334fd227316) | report | digital-promise
+- 853. [Recruitment and Retention: Pilot Solutions Designed by Teachers of Color (Phase I)](https://digitalpromise.dspacedirect.org/items/bbf508ca-cfde-4825-80c9-f9eedf8bfc4c) | report | career-readiness, digital-promise, k-12
+- 854. [Creating Conditions for Powerful Technology Use: Teachers’ Technology Journey in Puerto Rico](https://digitalpromise.dspacedirect.org/items/bcbf5887-7cf2-48be-b776-c19cb5ef979f) | report | coaching, digital-promise, english-learners, k-12, professional-development
+- 855. [Micro-credentials: Igniting Impact in the Ecosystem](https://digitalpromise.dspacedirect.org/items/bd6ad6c4-3903-4870-a911-6ee05ba0ae8e) | report | digital-promise, k-12
+- 856. [360 Filmmakers Challenge Key Findings from the Fall 2016 Program](https://digitalpromise.dspacedirect.org/items/bf98d40e-980c-4f54-9985-46bf5675d2fa) | report | digital-promise, k-12
+- 857. [A Framework for Digital Equity](https://digitalpromise.dspacedirect.org/items/c0246032-4c17-45d5-9bb2-a49b82b0e1e8) | report | digital-promise, higher-ed, k-12
+- 858. [Scaling Career Pathways Statewide: A Blueprint for Creating K-12 + Postsecondary + Industry Pathways](https://digitalpromise.dspacedirect.org/items/c13a8167-e5ed-44e3-889e-8fa7d02f78d4) | report | digital-promise, higher-ed, k-12
+- 859. [Shifting Mindsets: Designing Lessons for Learner Variability](https://digitalpromise.dspacedirect.org/items/c1921acf-1964-4f4d-8232-1e8af6ad7367) | report | digital-promise, k-12
+- 860. [Practitioners at the Center, Part II: Reflections on Practitioners’ Engagement with the SEERNet Hub](https://digitalpromise.dspacedirect.org/items/c1f2d43f-62cb-4931-a9b9-07abeb06bb49) | report | digital-promise, formative-assessment, k-12
+- 861. [Powerful Learning with Computational Thinking: Our Why, What, and How of Computational Thinking](https://digitalpromise.dspacedirect.org/items/c2d2e032-9498-4542-bc65-324da842ea53) | report | digital-promise, english-learners, formative-assessment, k-12
+- 862. [The “Science” of Computing: Inclusive Computing Pathways in Iowa City Community School District](https://digitalpromise.dspacedirect.org/items/c507d38f-e812-4bc7-ab2b-ca16cb0855f1) | report | digital-promise, english-learners, higher-ed, k-12
+- 863. [Unmasking Inequality: STEM Course Experience During the COVID-19 Pandemic](https://digitalpromise.dspacedirect.org/items/c978880f-6afe-4778-9df2-dac931a9c471) | report | digital-promise, higher-ed, k-12
+- 864. [Pivoting in a Pandemic: Transitioning from In-person to Virtual K-8 Computing Professional Development](https://digitalpromise.dspacedirect.org/items/cb546b74-5abf-46bb-a7e0-c5cfca52fcf6) | report | digital-promise, k-12, professional-development
+- 865. [Driving Interdisciplinary Collaboration through Adapted Conjecture Mapping: A Case Study with the PECAS Mediator](https://digitalpromise.dspacedirect.org/items/d0ab4f43-2d61-4906-8fd1-4d3a71fbef13) | report | digital-promise, k-12
+- 866. [Introduction to Culturally Responsive Assessment: A Graduate Course Design Guide](https://digitalpromise.dspacedirect.org/items/d0cb9824-9d7e-4a4f-bc4f-6b506de2575a) | report | digital-promise, formative-assessment, literacy
+- 867. [Accelerating Change: A Guide to the Adult Learning Ed-Tech Market](https://digitalpromise.dspacedirect.org/items/d14be2b4-b279-4e5a-8e24-81eec9e16509) | report | digital-promise
+- 868. [Evaluation of World History Project](https://digitalpromise.dspacedirect.org/items/d1607f1c-80cb-4338-b6c7-d1c5ebc70159) | report | digital-promise, formative-assessment, k-12, longitudinal
+- 869. [The Science of Learning: 10 Key Insights & Practices for Educators](https://digitalpromise.dspacedirect.org/items/d5550311-8f60-4d0d-9d4d-14821054e0e8) | report | digital-promise, k-12
+- 870. [Evolving Ed-Tech Procurement in School Districts](https://digitalpromise.dspacedirect.org/items/d5ac5c19-03f4-4e40-ab47-666c38a2ce5d) | report | digital-promise, k-12
+- 871. [Computational Thinking for an Inclusive World: A Resource for Educators to Learn and Lead](https://digitalpromise.dspacedirect.org/items/d5c46c87-578f-4c7e-870e-32a97866f255) | report | digital-promise, k-12
+- 872. [Designing a Process for Inclusive Innovation: A Radical Commitment to Equity](https://digitalpromise.dspacedirect.org/items/d6db3e76-2dc9-4ea6-ae68-49814c88e6b6) | report | digital-promise
+- 873. [Broadening Participation in STEM College Majors: Effects of Attending a STEM-Focused High School](https://digitalpromise.dspacedirect.org/items/d98a0d6a-5314-41f6-8e8b-c2420e005350) | report | digital-promise, higher-ed, k-12, math-education
+- 874. [Cyberlearning Community Report: The State of Cyberlearning and the Future of Learning with Technology](https://digitalpromise.dspacedirect.org/items/dafbe585-c0f8-4693-bde8-a6d847a58aad) | report | digital-promise, k-12
+- 875. [Automated Essay Scoring in Middle School Writing: Understanding Key Predictors of Students’ Growth and Comparing Artificial Intelligence- and Teacher-Generated Scores and Feedback](https://digitalpromise.dspacedirect.org/items/dc7d8bc2-90a3-4cb6-afbe-b9b92a3d4d6a) | report | digital-promise, formative-assessment, k-12, literacy, longitudinal, personalized-learning
+- 876. [From Rural Districts to Statewide Pathways: A Blueprint for Scaling Cybersecurity Workforce Development Through Regional Collaboration](https://digitalpromise.dspacedirect.org/items/dcbd9d9b-9c38-4062-aa57-b48a295782dd) | report | career-readiness, digital-promise, higher-ed, k-12
+- 877. [Designing a Process for Micro-credentials at Scale](https://digitalpromise.dspacedirect.org/items/ddd022c9-a271-4548-9667-38dbfe9bf9c6) | report | digital-promise, formative-assessment
+- 878. [Tech Talk: Co-Designing Youth Digital Well-Being Solutions](https://digitalpromise.dspacedirect.org/items/df74a9f9-b482-4224-b8f8-ce991f706d1f) | report | digital-promise, k-12, sel
+- 879. [Fulfilling the Maker Promise: Year One](https://digitalpromise.dspacedirect.org/items/dfc366e2-83b1-4b7b-8899-c7519dc364d8) | report | digital-promise, k-12
+- 880. [School Policies for Integrating AI in Classroom Practices](https://digitalpromise.dspacedirect.org/items/e18ad938-a9c8-4041-89a7-690cf47c090b) | report | career-readiness, digital-promise, k-12, literacy
+- 881. [Micro-credentials: Spurring Educator Engagement](https://digitalpromise.dspacedirect.org/items/e21db610-b75c-433c-ad69-6843a299598e) | report | digital-promise, k-12, professional-development
+- 882. [Defining Computational Thinking for a District: Inclusive Computing Pathways in Indian Prairie School District](https://digitalpromise.dspacedirect.org/items/e2ee1df1-b224-4f2e-8707-317b96eb237b) | report | digital-promise, k-12
+- 883. [Nico & Nor Teacher Flyer](https://digitalpromise.dspacedirect.org/items/e38caa38-17a6-4968-80b8-632fa8932e56) | report | digital-promise, early-childhood, k-12
+- 884. [Partnerships that Work: Tapping Research to Address Learner Variability in Young Readers](https://digitalpromise.dspacedirect.org/items/e59c6e47-4209-4187-a0ef-b8da08283ec6) | report | digital-promise, k-12, literacy, math-education
+- 885. [Edcamp Design for Learning Series: A New Bridge Between Research and Professional Learning](https://digitalpromise.dspacedirect.org/items/e72c1e0d-401a-48a7-91c0-5ded3cf5b033) | report | digital-promise, k-12, professional-development
+- 886. [Certifying Competencies and Skills with Micro-credentials in a Global Context](https://digitalpromise.dspacedirect.org/items/e78ed9ed-b337-4057-a599-7e5a3cead416) | report | career-readiness, digital-promise, english-learners, higher-ed, k-12
+- 887. [Designing Gateway Statistics and Chemistry Courses for Today’s Students: Case Studies of Postsecondary Course Innovations](https://digitalpromise.dspacedirect.org/items/e8c0a0d8-4ae6-4d6a-89a6-28b5b0106646) | report | digital-promise, higher-ed, k-12, math-education
+- 888. [Landscape of Emerging Technologies in Higher Education: A Review](https://digitalpromise.dspacedirect.org/items/e8d4304c-22c2-496e-a029-e3d468a28249) | report | digital-promise, formative-assessment, higher-ed, k-12, literacy
+- 889. [Powerful Learning with Emerging Technology](https://digitalpromise.dspacedirect.org/items/eaf41f2e-916b-4fc9-a2d8-528409da4f20) | report | digital-promise
+- 890. [Ambitious Mashups: Reflections on a Decade of Cyberlearning Research](https://digitalpromise.dspacedirect.org/items/eb0a1251-5b3e-4d5d-aa12-f9966c6b057c) | report | digital-promise, k-12
+- 891. [Learning Transition Design Principles for Learning and Employment Records: Co-designing for Equity](https://digitalpromise.dspacedirect.org/items/ebbea365-cef5-4b4d-9758-ca24426fb21a) | report | career-readiness, digital-promise, longitudinal
+- 892. [Making Professional Learning Count](https://digitalpromise.dspacedirect.org/items/ec731a91-9294-49ea-a723-ef2fcecf8a3b) | report | digital-promise, k-12, professional-development
+- 893. [Digital Promise COVID-19 Student Survey Topline Data Report](https://digitalpromise.dspacedirect.org/items/ec7d14d6-7a81-40f1-82fe-90dd7bf7eced) | report | digital-promise, higher-ed, k-12
+- 894. [Student Empathy Interviews: An Instrument For Considering More Inclusive K-12 Computing Pathways](https://digitalpromise.dspacedirect.org/items/eef4f497-cd5f-4828-8684-a129b3cd096d) | report | digital-promise, higher-ed, k-12
+- 895. [A Summary and Synthesis of Initial OpenSciEd Research](https://digitalpromise.dspacedirect.org/items/ef71b9ac-10ec-4df1-a7d5-f6d1ac89e908) | report | digital-promise, k-12
+- 896. [Innovation Starts in the Classroom](https://digitalpromise.dspacedirect.org/items/efd4f3ca-4a66-42a9-8e06-5217b4f52ccc) | report | digital-promise, k-12
+- 897. [Rubrics for Examining Historical Thinking Skills in High School World History Activities and Student Work: Construct Validity Evidence from the Literature](https://digitalpromise.dspacedirect.org/items/f0841dac-6743-4d4d-9d92-1c4028a8b2d3) | report | digital-promise, formative-assessment, k-12
+- 898. [Tensions and Reflections on Researcher-Educator Co-design of Future-oriented Research Questions that Center Equity](https://digitalpromise.dspacedirect.org/items/f21258df-d91d-4bba-9d08-9cb944e578ca) | report | digital-promise, english-learners
+- 899. [Changing a Rural Community’s Expectations Through 24/7 Learning](https://digitalpromise.dspacedirect.org/items/f22c255f-14af-4ae4-a516-39e1149f054f) | report | digital-promise, k-12
+- 900. [Using Research in Ed-Tech: What Does Research-based Product Development Mean?](https://digitalpromise.dspacedirect.org/items/f25f7b43-06d9-4732-908b-7409f79b0a91) | report | digital-promise, formative-assessment
+- 901. [Using Research on Homework to Improve Remote and Hybrid Learning](https://digitalpromise.dspacedirect.org/items/f4faafe1-ea75-434d-a1d3-284f8d058aa9) | report | digital-promise, k-12
+- 902. [Rubrics for Examining Historical Thinking Skills in High School World History Activities and Student Work](https://digitalpromise.dspacedirect.org/items/f5566e49-46f5-43e8-b24f-23233a672620) | report | digital-promise, formative-assessment, k-12
+- 903. [Enabling Analytics for Improvement: Lessons from Year 2 of Fresno’s Personalized Learning Initiative](https://digitalpromise.dspacedirect.org/items/f5ad25ac-1bc9-4a05-9a4e-24c25ab19e8d) | report | digital-promise, k-12, personalized-learning
+- 904. [AI Literacy in the Workforce](https://digitalpromise.dspacedirect.org/items/f5be6204-9238-4403-8d2b-3ada14861d35) | report | career-readiness, digital-promise, literacy
+- 905. [Putting Learners First: Broadening Access Through Technology Evaluation in California Community Colleges](https://digitalpromise.dspacedirect.org/items/f63769ee-29a0-4e7a-ae06-8256117cd4f3) | report | digital-promise, formative-assessment, higher-ed
+- 906. [El Rol de las Micro-credenciales en el Aprendizaje y el Desarrollo a lo Largo de la Vida: Empoderando Estudiantes, Empoderando Organizaciones](https://digitalpromise.dspacedirect.org/items/f7245f14-88f6-4b6c-89ba-3b19a81dd4fc) | report | career-readiness, digital-promise, formative-assessment, higher-ed, professional-development
+- 907. [Fulfilling the Maker Promise: Year Two](https://digitalpromise.dspacedirect.org/items/f800e8da-813a-4de3-a10d-fd50b74646d0) | report | digital-promise, k-12
+- 908. [Emerging Technology Responsible Use Policy Sample Language](https://digitalpromise.dspacedirect.org/items/f84dedc7-762c-460e-b9ba-eb4ba28a9b51) | report | digital-promise, formative-assessment
+- 909. [Deepening Science Engagement With Challenge Based Learning: Research Report](https://digitalpromise.dspacedirect.org/items/f928a607-e645-49d6-abbf-3d9b42cf7383) | report | coaching, digital-promise, k-12
+- 910. [Nurturing an Innovative District: Inclusive Computing Pathways in Talladega County Schools](https://digitalpromise.dspacedirect.org/items/fc0e1df9-0659-4aaf-90e6-5baa3fe14c75) | report | digital-promise, english-learners, k-12
+- 911. [Socratic Circles: Building OER Tools for Racial Equity Classroom and Community Discourse](https://digitalpromise.dspacedirect.org/items/fc323129-2497-47a1-8a09-ecfe6708edc0) | report | digital-promise, k-12
+- 912. [The Valuable Role of Edtech Coaches during the COVID-19 Pandemic: A National Survey](https://digitalpromise.dspacedirect.org/items/fd1d2f26-7b23-4dd8-9cd6-35f85e92e0c3) | report | coaching, digital-promise, k-12, professional-development
+- 913. [Understanding the Benefits of Participating in the League of Innovative Schools](https://digitalpromise.dspacedirect.org/items/fdb325e9-a262-467b-ae0e-b012c3eeb23e) | report | digital-promise, k-12, professional-development
+- 914. [Access to Powerful Technology as a Catalyst for Career Pathway Engagement](https://digitalpromise.dspacedirect.org/items/fe059e35-d0ab-4616-882a-9fe4fe33edc5) | report | career-readiness, digital-promise, k-12, math-education
+- 915. [An Initial Logic Model to Guide OpenSciEd Research: Updated Version](https://digitalpromise.dspacedirect.org/items/ff390b34-bdaf-448f-a1dd-17bb8bd9baa8) | report | digital-promise, k-12, professional-development
 
 ### Duolingo (2)
 
@@ -529,6 +753,45 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 473. [Education Recovery Project — COVID Learning Loss Data](https://edopportunity.org/recovery/data) | dataset | open-datasets, k-12, longitudinal
 - 474. [Segregation Tracking Project — School and Neighborhood Segregation Data](https://edopportunity.org/segregation/data) | dataset | open-datasets, k-12, longitudinal
 - 475. [District Court Order Desegregation Data](https://cepa.stanford.edu/data/district-court-order-data) | dataset | open-datasets, k-12, longitudinal
+
+### TNTP (36)
+
+- 656. [Coherence by Design](https://tntp.org/publication/coherence-by-design/) | report | k-12
+- 657. [Teachers’ Time Use](https://tntp.org/publication/teachers-time-use/) | report | career-readiness, higher-ed, k-12, sel
+- 658. [Unlocking Algebra](https://tntp.org/publication/unlocking-algebra/) | report | higher-ed, k-12, math-education, sel
+- 659. [The Opportunity Makers](https://tntp.org/publication/the-opportunity-makers/) | report | k-12
+- 660. [The Impacts of Teacher Expectations on Student Outcomes](https://tntp.org/publication/the-impacts-of-teacher-expectations-on-student-outcomes/) | report | k-12
+- 661. [Paths of Opportunity](https://tntp.org/publication/paths-of-opportunity/) | report | k-12
+- 662. [Moving Up](https://tntp.org/publication/moving-up/) | report | k-12
+- 663. [Unlocking Learning Acceleration for Multilingual Learners](https://tntp.org/publication/unlocking-learning-acceleration-for-multilingual-learners/) | report | english-learners, k-12
+- 664. [False Signals](https://tntp.org/publication/false-signals/) | report | attendance, k-12, math-education
+- 665. [Unlocking Acceleration](https://tntp.org/publication/unlocking-acceleration/) | report | k-12
+- 666. [Accelerate, Don’t Remediate](https://tntp.org/publication/accelerate-dont-remediate/) | report | k-12, math-education
+- 667. [Missing Out](https://tntp.org/publication/missing-out/) | report | k-12
+- 668. [Rising Together](https://tntp.org/publication/rising-together/) | report | k-12
+- 669. [A Broken Pipeline](https://tntp.org/publication/a-broken-pipeline/) | report | career-readiness, k-12
+- 670. [A Strong Foundation](https://tntp.org/publication/a-strong-foundation/) | report | k-12
+- 671. [The Opportunity Myth](https://tntp.org/publication/the-opportunity-myth/) | report | english-learners, higher-ed, k-12
+- 672. [Walking Together](https://tntp.org/publication/walking-together/) | report | higher-ed, k-12
+- 673. [Room to Run](https://tntp.org/publication/room-to-run/) | report | higher-ed, k-12
+- 674. [Accountability Under ESSA](https://tntp.org/publication/accountability-under-essa-how-states-can-design-systems-that-advance-equity/) | report | k-12
+- 675. [The Mirage](https://tntp.org/publication/the-mirage-confronting-the-truth-about-our-quest-for-teacher-development/) | report | k-12
+- 676. [Greenhouse Schools in Boston](https://tntp.org/publication/greenhouse-schools-in-boston/) | report | k-12
+- 677. [Rebalancing Teacher Tenure](https://tntp.org/publication/rebalancing-teacher-tenure-a-post-vergara-guide-for-policymakers/) | report | k-12
+- 678. [Shortchanged](https://tntp.org/publication/shortchanged-the-hidden-costs-of-lockstep-teacher-pay/) | report | k-12
+- 679. [TNTP Core Teaching Rubric](https://tntp.org/publication/tntp-core-teaching-rubric-a-tool-for-conducting-classroom-observations/) | report | formative-assessment, k-12
+- 680. [Fixing Classroom Observations](https://tntp.org/publication/fixing-classroom-observations-how-common-core-will-change-teaching/) | report | formative-assessment, k-12
+- 681. [Perspectives of Irreplaceable Teachers](https://tntp.org/publication/perspectives-of-irreplaceable-teachers-best-teachers-think-about-teaching/) | report | formative-assessment, k-12
+- 682. [Leap Year](https://tntp.org/publication/leap-year-assessing-and-supporting-effective-first-year-teachers/) | report | formative-assessment, k-12, longitudinal
+- 683. [Keeping Irreplaceables in D.C. Public Schools](https://tntp.org/publication/keeping-irreplaceables-in-d-c-public-schools-smart-teacher-retention/) | report | k-12
+- 684. [The Irreplaceables](https://tntp.org/publication/the-irreplaceables-understanding-the-real-retention-crisis/) | report | k-12
+- 685. [Greenhouse Schools](https://tntp.org/publication/greenhouse-schools-how-schools-can-build-cultures-where-teachers-thrive/) | report | k-12
+- 686. [The Case Against Quality-Blind Teacher Layoffs](https://tntp.org/publication/the-case-against-quality-blind-teacher-layoffs/) | report | k-12
+- 687. [Teacher Evaluation 2.0](https://tntp.org/publication/teacher-evaluation-2-0/) | report | formative-assessment, k-12
+- 688. [The Widget Effect](https://tntp.org/publication/the-widget-effect-failure-to-act-on-differences-in-teacher-effectiveness/) | report | formative-assessment, k-12
+- 689. [Mutual Benefits](https://tntp.org/publication/mutual-benefits-new-york-citys-shift-to-mutual-consent-in-teacher-hiring/) | report | k-12
+- 690. [Unintended Consequences](https://tntp.org/publication/unintended-consequences-the-case-for-reforming-staffing-rules/) | report | k-12
+- 691. [Missed Opportunities](https://tntp.org/publication/missed-opportunities-how-we-keep-quality-teachers-out-of-urban-classrooms/) | report | k-12
 
 ### The Education Trust (30)
 

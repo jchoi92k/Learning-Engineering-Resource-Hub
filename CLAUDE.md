@@ -1,4 +1,4 @@
-# Learning Engineering Resource Hub
+# Renaissance AI and Education Resource Hub
 
 **Full operational guide**: `meta/agent-guide.md` — read this before doing any indexing work. Contains entry format, tag schema, source URL patterns, current state, and subagent protocol.
 
@@ -24,8 +24,10 @@ OpenAlex / Semantic Scholar / CrossRef / Unpaywall are **utility APIs only** —
 
 ---
 
-## Current state (as of 2026-05-04)
+## Current state (as of 2026-05-10)
 
-- **569 entries** in `docs/llms-full.txt`
-- Sources: WWC (29 guides + ~98 intervention reports), LPI (30), EdTrust (30), JEDM (30), Evidence for ESSA (29), JLA (25), Campbell Collaboration (25), Brookings (22), IES REL (30), Digital Promise (30), Datasets (101 total), AIMS Collaboratory (53), Tools Competition (18), LEVI Math (7), Benchmarks & Code (11), NAP (2), CASEL (1), UNESCO (3), CAST (1), CMU/ETS (1)
+- **915 entries** in `docs/llms-full.txt`
+- Sources: WWC (29 guides + ~147 intervention reports), LPI (30), EdTrust (30), JEDM (30), Evidence for ESSA (65), JLA (25), Campbell Collaboration (25), Brookings (22), IES REL (30), Digital Promise (254), TNTP (36), Datasets (101 total), AIMS Collaboratory (53), Tools Competition (18), LEVI Math (7), Benchmarks & Code (11), NAP (2), CASEL (1), UNESCO (3), CAST (1), CMU/ETS (1)
+- JS-paginated sources: use `python meta/playwright-scrape.py [tntp|digital-promise]`
+- Coverage tracking: `meta/source-targets.json` + `data.json` meta.coverage
 - After any edits, run `python build_tags.py` from `docs/` to regenerate `data.json` and tag files

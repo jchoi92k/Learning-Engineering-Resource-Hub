@@ -29,9 +29,9 @@ oer_indexes_and_registries.md
 poc_notes.md
 policy_frameworks.md
 
-# Private meta notes (contain internal names / strategy — never commit)
-meta/meeting-briefing.md
-meta/post-meeting-notes.md
+# Private folder — meeting notes, PII, internal strategy. NEVER commit anything from here.
+# Put all new private/sensitive files here instead of meta/ or root.
+private/
 
 # Worker build artifacts
 worker/node_modules/

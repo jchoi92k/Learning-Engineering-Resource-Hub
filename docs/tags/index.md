@@ -5,27 +5,27 @@
 
 ## Domain
 
-- [k-12](k-12.md) — 361 entries
+- [k-12](k-12.md) — 438 entries
 - [learning-engineering](learning-engineering.md) — 236 entries
-- [higher-ed](higher-ed.md) — 123 entries
-- [literacy](literacy.md) — 91 entries
-- [math-education](math-education.md) — 91 entries
-- [early-childhood](early-childhood.md) — 62 entries
-- [english-learners](english-learners.md) — 24 entries
+- [literacy](literacy.md) — 137 entries
+- [higher-ed](higher-ed.md) — 127 entries
+- [math-education](math-education.md) — 118 entries
+- [early-childhood](early-childhood.md) — 82 entries
+- [english-learners](english-learners.md) — 32 entries
 - [school-discipline](school-discipline.md) — 18 entries
 
 ## Method
 
 - [longitudinal](longitudinal.md) — 102 entries
-- [computer-assisted-learning](computer-assisted-learning.md) — 62 entries
-- [intelligent-tutoring](intelligent-tutoring.md) — 36 entries
+- [rct](rct.md) — 100 entries
+- [computer-assisted-learning](computer-assisted-learning.md) — 85 entries
+- [intelligent-tutoring](intelligent-tutoring.md) — 38 entries
 - [meta-analysis](meta-analysis.md) — 36 entries
+- [response-to-intervention](response-to-intervention.md) — 33 entries
+- [coaching](coaching.md) — 30 entries
 - [genai](genai.md) — 28 entries
-- [response-to-intervention](response-to-intervention.md) — 28 entries
-- [coaching](coaching.md) — 26 entries
 - [qualitative-research](qualitative-research.md) — 20 entries
 - [nlp](nlp.md) — 14 entries
-- [rct](rct.md) — 14 entries
 - [llm-application](llm-application.md) — 13 entries
 - [a-b-testing](a-b-testing.md) — 7 entries
 - [automated-feedback](automated-feedback.md) — 7 entries
@@ -33,31 +33,31 @@
 ## Topic
 
 - [open-datasets](open-datasets.md) — 105 entries
-- [professional-development](professional-development.md) — 81 entries
-- [formative-assessment](formative-assessment.md) — 59 entries
-- [college-access](college-access.md) — 57 entries
-- [digital-learning-platforms](digital-learning-platforms.md) — 56 entries
-- [personalized-learning](personalized-learning.md) — 41 entries
-- [sel](sel.md) — 37 entries
-- [prekindergarten](prekindergarten.md) — 25 entries
+- [professional-development](professional-development.md) — 93 entries
+- [formative-assessment](formative-assessment.md) — 69 entries
+- [college-access](college-access.md) — 62 entries
+- [digital-learning-platforms](digital-learning-platforms.md) — 57 entries
+- [personalized-learning](personalized-learning.md) — 55 entries
+- [sel](sel.md) — 41 entries
+- [prekindergarten](prekindergarten.md) — 28 entries
 - [career-readiness](career-readiness.md) — 24 entries
 - [data-sharing](data-sharing.md) — 21 entries
-- [dropout-prevention](dropout-prevention.md) — 19 entries
-- [student-belonging](student-belonging.md) — 19 entries
+- [student-belonging](student-belonging.md) — 21 entries
+- [dropout-prevention](dropout-prevention.md) — 20 entries
 - [math-strategies](math-strategies.md) — 18 entries
 - [ai-ethics](ai-ethics.md) — 17 entries
 - [ai-policy](ai-policy.md) — 16 entries
 - [inclusive-design](inclusive-design.md) — 16 entries
 - [attendance](attendance.md) — 14 entries
 - [pii-privacy](pii-privacy.md) — 14 entries
-- [writing-instruction](writing-instruction.md) — 11 entries
+- [writing-instruction](writing-instruction.md) — 13 entries
 - [math-motivation](math-motivation.md) — 4 entries
 - [genai-tutoring](genai-tutoring.md) — 3 entries
 - [math-word-problems](math-word-problems.md) — 2 entries
 
 ## Affiliation
 
-- [wwc](wwc.md) — 117 entries
+- [wwc](wwc.md) — 167 entries
 - [aims](aims.md) — 46 entries
 - [digital-promise](digital-promise.md) — 30 entries
 - [edtrust](edtrust.md) — 30 entries
@@ -69,7 +69,7 @@
 - [lsu](lsu.md) — 10 entries
 - [assistments](assistments.md) — 9 entries
 - [northwestern-e4](northwestern-e4.md) — 9 entries
-- [carnegie-learning](carnegie-learning.md) — 5 entries
+- [carnegie-learning](carnegie-learning.md) — 6 entries
 - [khan-academy](khan-academy.md) — 5 entries
 - [rppl](rppl.md) — 5 entries
 - [upgrade-platform](upgrade-platform.md) — 3 entries

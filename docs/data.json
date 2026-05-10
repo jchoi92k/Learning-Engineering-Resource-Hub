@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 569,
-    "last_updated": "2026-05-06",
+    "total": 655,
+    "last_updated": "2026-05-10",
     "sources": [
       "ADL Initiative",
       "AI-for-Education.org",
@@ -47,6 +47,160 @@
       "Worcester Polytechnic Institute",
       "World Bank",
       "pyKT Team"
+    ],
+    "coverage": [
+      {
+        "source": "UChicago Consortium on School Research",
+        "indexed": 0,
+        "known_total": 319,
+        "pct": 0,
+        "priority": "high",
+        "status": "new"
+      },
+      {
+        "source": "Digital Promise",
+        "indexed": 30,
+        "known_total": 252,
+        "pct": 12,
+        "priority": "high",
+        "status": "active"
+      },
+      {
+        "source": "What Works Clearinghouse",
+        "indexed": 176,
+        "known_total": 648,
+        "pct": 27,
+        "priority": "high",
+        "status": "active"
+      },
+      {
+        "source": "Evidence for ESSA",
+        "indexed": 66,
+        "known_total": null,
+        "pct": null,
+        "priority": "high",
+        "status": "active"
+      },
+      {
+        "source": "TNTP",
+        "indexed": 0,
+        "known_total": 30,
+        "pct": 0,
+        "priority": "medium",
+        "status": "new"
+      },
+      {
+        "source": "Campbell Collaboration",
+        "indexed": 25,
+        "known_total": 52,
+        "pct": 48,
+        "priority": "medium",
+        "status": "active"
+      },
+      {
+        "source": "NWEA",
+        "indexed": 0,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "new"
+      },
+      {
+        "source": "Mathematica",
+        "indexed": 0,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "new"
+      },
+      {
+        "source": "WestEd",
+        "indexed": 0,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "new"
+      },
+      {
+        "source": "Journal of Educational Data Mining",
+        "indexed": 30,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "active"
+      },
+      {
+        "source": "Journal of Learning Analytics",
+        "indexed": 25,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "active"
+      },
+      {
+        "source": "Learning Policy Institute",
+        "indexed": 30,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "active"
+      },
+      {
+        "source": "The Education Trust",
+        "indexed": 30,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "active"
+      },
+      {
+        "source": "IES Regional Education Labs",
+        "indexed": 30,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "active"
+      },
+      {
+        "source": "Brookings Institution",
+        "indexed": 22,
+        "known_total": null,
+        "pct": null,
+        "priority": "medium",
+        "status": "active"
+      },
+      {
+        "source": "CREDO at Stanford",
+        "indexed": 0,
+        "known_total": 9,
+        "pct": 0,
+        "priority": "low",
+        "status": "new"
+      },
+      {
+        "source": "AIMS Collaboratory",
+        "indexed": 46,
+        "known_total": 53,
+        "pct": 87,
+        "priority": "low",
+        "status": "active"
+      },
+      {
+        "source": "Collaborative for Academic, Social, and Emotional Learning (CASEL)",
+        "indexed": 1,
+        "known_total": 1,
+        "pct": 100,
+        "priority": "low",
+        "status": "complete"
+      },
+      {
+        "source": "National Academies of Sciences, Engineering, and Medicine",
+        "indexed": 2,
+        "known_total": null,
+        "pct": null,
+        "priority": "low",
+        "status": "active"
+      }
     ]
   },
   "entries": [
@@ -9336,6 +9490,1445 @@
       ],
       "desc": "Open developer platform providing research-backed resources for building instructionally grounded AI products. Offers a Knowledge Graph API combining curriculum data, academic standards, and learning science research, plus Evaluators for assessing AI-generated educational content quality (literacy, vocabulary, grade-level appropriateness). Includes MCP server integration, playground environments, and alignment with Illustrative Math curriculum.",
       "domain": "le-practice"
+    },
+    {
+      "num": 570,
+      "title": "Pre-K Mathematics with DLM Early Childhood Express Math",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/381",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "early-childhood",
+        "math-education",
+        "prekindergarten"
+      ],
+      "desc": "Pre-K Mathematics with DLM Early Childhood Express Math is a supplemental preschool curriculum using teacher-guided, small-group activities with concrete manipulatives, combined with take-home activities to develop mathematical knowledge in young children. The WWC reviewed 2 studies meeting standards, finding strong positive effects on general mathematics achievement for preschool children in urban settings with racially and ethnically diverse populations. The program showed no discernible effects on oral language, phonological processing, or print knowledge, indicating its primary strength is mathematics readiness.",
+      "domain": "research"
+    },
+    {
+      "num": 571,
+      "title": "Literacy Express",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/288",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "early-childhood",
+        "literacy",
+        "prekindergarten",
+        "english-learners"
+      ],
+      "desc": "Literacy Express is a comprehensive preschool curriculum for ages 3–5 that delivers instruction through units covering oral language, emergent literacy, basic math, science, general knowledge, and socioemotional development, accompanied by professional development, teaching materials, and classroom management guidance. The WWC reviewed three studies meeting standards and found the program demonstrated positive effects on oral language, phonological processing, and print knowledge, but no discernible effects on cognition or general mathematics achievement. The evidence base draws primarily from implementations with English learner populations in urban settings in Florida and California.",
+      "domain": "research"
+    },
+    {
+      "num": 572,
+      "title": "Waterford Early Reading Level One",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/541",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "early-childhood",
+        "literacy",
+        "computer-assisted-learning",
+        "prekindergarten"
+      ],
+      "desc": "Waterford Early Reading Level One is a computer-based emergent literacy curriculum for preschool children that targets phonological awareness, letter recognition, and print concepts through computer tutorials, reading placement assessments, and supplementary activities. The WWC identified 2 eligible studies but only 1 met design standards, showing potentially positive effects on print knowledge and no discernible effects on oral language. The limited qualifying evidence constrains the strength of conclusions about the program's overall effectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 573,
+      "title": "SpellRead",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/481",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "SpellRead (formerly SpellRead Phonological Auditory Training) is a reading intervention for grade 2 and above that integrates auditory and visual reading processes through systematic, explicit instruction, teaching students to recognize and manipulate English sounds and practice skills using appropriately leveled texts. The WWC reviewed 2 studies meeting standards and found positive effects on alphabetics and potentially positive effects on both fluency and comprehension, with evidence evaluated at grades 5–6 in a predominantly White student sample. The program also serves special education students and English language learners who are significantly below grade level in reading.",
+      "domain": "research"
+    },
+    {
+      "num": 574,
+      "title": "Cooperative Integrated Reading and Composition (CIRC) — Adolescent Literacy",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/111",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "Cooperative Integrated Reading and Composition (CIRC) is a comprehensive reading and writing program for grades 2–8 that combines cooperative learning with literacy instruction, featuring story-related activities, direct comprehension instruction, and integrated language arts tasks completed in pairs and teams, with a Spanish version available for grades 2–5. The WWC reviewed 6 eligible studies, of which 2 met standards, and found potentially positive effects on comprehension and general literacy achievement at the Tier 3 evidence level. The adolescent literacy report covers grades 2–6, with a separate review protocol applied for this age range.",
+      "domain": "research"
+    },
+    {
+      "num": 575,
+      "title": "Lindamood Phoneme Sequencing (LiPS) — Students with Learning Disabilities",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/279",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "Lindamood Phoneme Sequencing (LiPS), formerly called Auditory Discrimination in Depth, teaches students to decode words by identifying individual sounds using the oral-motor aspects of sounds to identify and order them within words, along with instruction in letter patterns, sight words, and context clues, targeting kindergarten through grade 3 and struggling or dyslexic readers. In the review focused on students with specific learning disabilities, the WWC found potentially positive effects on alphabetics and reading fluency, and potentially negative effects on writing, based on 1 study meeting standards out of 2 eligible studies. The evidence is classified as Tier 3, reflecting a limited but informative evidence base for this population.",
+      "domain": "research"
+    },
+    {
+      "num": 576,
+      "title": "Peer-Assisted Learning Strategies — English Language Learners (Reading)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/366",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "english-learners"
+      ],
+      "desc": "Peer-Assisted Learning Strategies (PALS) is a peer-tutoring program for grades K–6 in which students alternate roles as tutor and learner during 30–35 minute sessions, coaching and correcting one another while teachers assign and regularly reassign pairs based on student needs. This intervention report focuses on reading achievement outcomes for English language learners in grades 3–6, finding potentially positive effects based on 1 study meeting standards out of 3 eligible studies reviewed, at the Tier 3 evidence level. The evidence suggests the peer-tutoring model can support reading gains for English learners in elementary settings.",
+      "domain": "research"
+    },
+    {
+      "num": 577,
+      "title": "Peer-Assisted Learning Strategies — Adolescent Literacy",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/367",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "Peer-Assisted Learning Strategies (PALS) is a peer-tutoring program for grades K–6 in which students take turns as tutor and tutee during structured sessions, coaching each other through problems while teachers manage pair assignments based on student abilities. This adolescent literacy review addresses reading comprehension outcomes, finding potentially positive effects based on 1 qualifying study out of 5 eligible studies, with evidence classified at Tier 3. The research examined students from predominantly White, suburban and urban backgrounds across grades 1–6 delivered in small-group settings.",
+      "domain": "research"
+    },
+    {
+      "num": 578,
+      "title": "Reading Apprenticeship — Grade 9 Literacy",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/414",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "professional-development"
+      ],
+      "desc": "Reading Apprenticeship is a professional development initiative that trains teachers to model reading comprehension strategies and help students develop literacy skills alongside social-emotional learning objectives such as growth mindset and self-efficacy, targeting grade 9 students. The WWC found potentially positive effects on comprehension based on 1 study meeting standards out of 3 reviewed, placing the evidence at Tier 3. The limited evidence base suggests the need for additional high-quality research to strengthen confidence in the intervention's impact on adolescent literacy.",
+      "domain": "research"
+    },
+    {
+      "num": 579,
+      "title": "Read Naturally — Students with Specific Learning Disabilities",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/409",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "Read Naturally is a supplemental reading program combining books, audiotapes, and computer software that uses repeated reading, teacher modeling, and progress monitoring to develop reading proficiency, with students working independently at appropriate reading levels in grades 2–6. In this review focused on students with specific learning disabilities, the WWC found no discernible effects on reading fluency but potentially positive effects on writing achievement, based on 2 studies meeting standards out of 3 eligible studies. The mixed findings across outcome domains highlight the importance of examining intervention effects separately by outcome type and population.",
+      "domain": "research"
+    },
+    {
+      "num": 580,
+      "title": "Reading Recovery — Grade 1 Beginning Reading",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/420",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "response-to-intervention"
+      ],
+      "desc": "Reading Recovery provides one-on-one tutoring to grade 1 students with low literacy achievement, delivered by trained teachers in daily 30-minute sessions over 12–20 weeks, incorporating instruction in phonemic awareness, phonics, vocabulary, fluency, and comprehension tailored to individual student needs. The WWC reviewed 79 eligible studies, finding 3 that met standards, and concluded the intervention demonstrated positive effects on general reading achievement and potentially positive effects on alphabetics, reading fluency, and comprehension at the Tier 3 evidence level. Despite the large number of eligible studies, the small number meeting rigorous design standards limits the confidence in the overall evidence base.",
+      "domain": "research"
+    },
+    {
+      "num": 581,
+      "title": "Peer-Assisted Learning Strategies — Students with Specific Learning Disabilities",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/569",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "math-education"
+      ],
+      "desc": "Peer-Assisted Learning Strategies (PALS) is a peer-tutoring program for grades K–6 in which students alternate as tutor and tutee during 30–35 minute structured sessions, targeting both reading and mathematics outcomes for students with specific learning disabilities. The WWC reviewed 4 studies meeting standards and found potentially positive effects on reading fluency and comprehension, and no discernible effects on mathematics achievement, with reading outcomes rated at Tier 3 evidence. The findings suggest PALS is most effective for literacy skill development within this population, with more limited impact on math.",
+      "domain": "research"
+    },
+    {
+      "num": 582,
+      "title": "The Incredible Years",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/590",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "early-childhood",
+        "sel"
+      ],
+      "desc": "The Incredible Years is a multi-component program for children ages 0–12 providing training for children, parents, and teachers, with child lessons covering feelings recognition, friendship skills, anger management, problem solving, and school behavior to build social and emotional competencies. The WWC focused on grades PK–2 and found potentially positive effects on both external behavior and social outcomes, based on 1 qualifying study out of 3 eligible studies reviewed, at the Tier 3 evidence level. The program's multi-tier design targeting children, parents, and teachers simultaneously makes it notable among early childhood social-emotional interventions.",
+      "domain": "research"
+    },
+    {
+      "num": 583,
+      "title": "Chemistry That Applies",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/595",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12"
+      ],
+      "desc": "Chemistry That Applies is a 24-lesson science instructional unit organized into four clusters in which students explore four chemical reactions — burning, rusting, the decomposition of water, and the reaction of baking soda and vinegar — through hands-on laboratory investigations to understand the law of conservation of matter, targeting grades 8–10. The WWC identified 1 eligible study that met design standards and found potentially positive effects on general science achievement, representing a limited but directionally favorable evidence base. The hands-on, inquiry-based approach distinguishes this unit curriculum from standard lecture-based chemistry instruction.",
+      "domain": "research"
+    },
+    {
+      "num": 584,
+      "title": "GEMS: The Real Reasons for Seasons",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/620",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12"
+      ],
+      "desc": "Great Explorations in Math and Science (GEMS): The Real Reasons for Seasons is a middle school science curriculum unit using models, hands-on investigations, peer-to-peer discussions, reflection, and informational readings to teach scientific concepts about the Sun-Earth connection and seasonal phenomena, targeting grades 6–8. The WWC reviewed 1 eligible study that met standards and found potentially negative effects on general science achievement, making this one of the few WWC-reviewed science programs with an adverse evidence rating. The curriculum's hands-on design contrasts with its negative outcome finding, underscoring the importance of rigorous evaluation.",
+      "domain": "research"
+    },
+    {
+      "num": 585,
+      "title": "Read Naturally — General Literacy Achievement (Adolescent)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/625",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "english-learners"
+      ],
+      "desc": "Read Naturally is a supplemental reading program combining books, audiotapes, and computer software that improves reading fluency through repeated reading, teacher modeling, and progress monitoring, serving elementary through middle school students. In this adolescent literacy review covering grades 3–5, the WWC found no discernible effects on general literacy achievement, based on 1 qualifying study out of 4 eligible studies. The reviewed sample was predominantly Hispanic (39%) and Black (35%), with 65% qualifying for free/reduced-price lunch and 35% being English learners in urban Minnesota settings.",
+      "domain": "research"
+    },
+    {
+      "num": 586,
+      "title": "Developmental Summer Bridge Programs",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/632",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "higher-ed",
+        "college-access"
+      ],
+      "desc": "Developmental Summer Bridge Programs are designed to reduce the need for developmental education in college by providing students with accelerated developmental instruction between high school and college, combining academic content with college preparation training. The WWC reviewed 10 eligible studies, with 1 meeting standards, and found no discernible effects on academic achievement, postsecondary enrollment, or credit accumulation across all three outcome domains. The absence of positive effects despite the program's intuitive appeal highlights the need for rigorous evidence before broad implementation.",
+      "domain": "policy"
+    },
+    {
+      "num": 587,
+      "title": "TAP: The System for Teacher and Student Advancement",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/637",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "professional-development"
+      ],
+      "desc": "TAP (formerly the Teacher Advancement Program) is a comprehensive educator effectiveness system for pre-K through grade 12 that aims to improve student achievement through leadership opportunities, performance-based salary increases, professional development, teacher evaluations, and performance bonuses to attract, retain, develop, and motivate effective teachers. The WWC reviewed 10 eligible studies, with 2 meeting standards, and found no discernible effects on general achievement for students after one year of implementation. The evidence tier was not assigned, indicating the research base was insufficient to establish a tier rating despite the large number of studies reviewed.",
+      "domain": "research"
+    },
+    {
+      "num": 588,
+      "title": "New Teacher Center Induction Model",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/638",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "professional-development",
+        "coaching"
+      ],
+      "desc": "The New Teacher Center (NTC) Induction Model is a comprehensive program providing one-on-one mentoring and professional development in a supportive school environment to accelerate the effectiveness of beginning teachers and improve student learning outcomes in kindergarten through grade 6. The WWC reviewed 2 eligible studies, with 1 meeting standards, and found no discernible effects across all three teacher retention outcome domains — retention at the school, in the profession, and in the school district. The findings suggest the program's mentoring approach does not have a measurable effect on teacher retention by the metrics studied.",
+      "domain": "le-practice"
+    },
+    {
+      "num": 589,
+      "title": "Saxon Algebra I",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/648",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education"
+      ],
+      "desc": "Saxon Algebra I is part of the Saxon Math textbook series covering grades K–12, based on incremental development and continual review of mathematical concepts, emphasizing explicit instruction, continuous review of prior concepts, and frequent cumulative assessments to build fluency in algebra for grades 8–9. The WWC reviewed 12 eligible studies, with 2 meeting standards, and found no discernible effects on algebra achievement, with the evidence not meeting the threshold for a tier assignment. The research sample was predominantly Hispanic (43%) and White (46%), with about 46% from economically disadvantaged backgrounds.",
+      "domain": "research"
+    },
+    {
+      "num": 590,
+      "title": "First Year Experience Courses for Developmental Education Students",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/651",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "higher-ed",
+        "college-access",
+        "dropout-prevention"
+      ],
+      "desc": "First Year Experience Courses for students in developmental education are designed to ease the college transition for students requiring remedial coursework, typically introducing campus resources, providing training in time management and study skills, and addressing student development issues — often linked with or taken concurrently with developmental courses. The WWC reviewed 19 eligible studies, with 1 meeting standards, and found no discernible effects on academic achievement, credit accumulation and persistence, or progress in developmental education across all three outcome domains. The large gap between eligible and qualifying studies reflects the challenge of rigorous evaluation in this postsecondary context.",
+      "domain": "policy"
+    },
+    {
+      "num": 591,
+      "title": "Saxon Math — High School Multiple Courses",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/653",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education"
+      ],
+      "desc": "Saxon Math is a core K–12 mathematics curriculum using an incremental approach to instruction and assessment that limits new content per day and reviews concepts cumulatively through ongoing practice rather than discrete chapters, targeting high school students across multiple courses. The WWC found no discernible effects on math achievement for high school students in this review of multiple Saxon courses, based on studies meeting standards. The findings are consistent with the separate Saxon Algebra I review and suggest limited evidence of effectiveness at the secondary level.",
+      "domain": "research"
+    },
+    {
+      "num": 592,
+      "title": "Cognitive Tutor Geometry",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/656",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education",
+        "computer-assisted-learning",
+        "carnegie-learning"
+      ],
+      "desc": "Cognitive Tutor Geometry is a mathematics curriculum combining textbooks and interactive software published by Carnegie Learning, targeting grades 9–12 students in secondary geometry. The WWC reviewed 2 eligible studies, with 1 meeting standards, and found potentially negative effects on geometry achievement, delivered as whole-class instruction in urban settings. The potentially negative finding represents an important caution for districts considering this technology-integrated curriculum for high school geometry.",
+      "domain": "research"
+    },
+    {
+      "num": 593,
+      "title": "Pivotal Response Training",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/668",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "early-childhood"
+      ],
+      "desc": "Pivotal Response Training (PRT) is an intervention for children ages 2–18 with Autism Spectrum Disorders that focuses on core affected areas including communication and responsiveness to environmental cues, using instruction, child-selected stimuli, attention-focusing, and reward-based encouragement to develop desired behaviors with increasing complexity. The WWC reviewed 40 eligible studies, with 6 meeting standards, and found no discernible effects on communication and language competencies for children and students with autism spectrum disorder. The large number of eligible studies reviewed reflects PRT's prevalence in ASD research, though relatively few met rigorous design standards.",
+      "domain": "research"
+    },
+    {
+      "num": 594,
+      "title": "Connected Mathematics Project (CMP)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/670",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education"
+      ],
+      "desc": "Connected Mathematics Project (CMP) uses interactive problems and everyday situations to explore mathematical ideas with a goal of fostering a problem-centered, inquiry-based learning environment, addressing numbers, algebra, geometry/measurement, probability, and statistics across grades 6–8. The WWC reviewed 24 eligible studies, with 2 meeting standards, and found no discernible effects on general mathematics achievement, with no evidence that the intervention had an effect on outcomes. The minimal proportion of studies meeting design standards despite the large body of research underscores the difficulty of conducting rigorous evaluations of widely used curricula.",
+      "domain": "research"
+    },
+    {
+      "num": 595,
+      "title": "Saxon Math — Primary Courses (Grades 1–8)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/673",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education"
+      ],
+      "desc": "Saxon Math is a core K–12 mathematics curriculum in which new concepts are developed, reviewed, and practiced cumulatively rather than in discrete chapters or units, with limited new content introduced per day and ongoing practice of previously learned material, reviewed here for grades 1–8. The WWC reviewed 26 eligible studies, with 5 meeting standards, and found mixed effects — inconsistent evidence of impact — on mathematics test scores in primary courses. Sample characteristics across qualifying studies included 45% White, 16% Black, and 40% Hispanic students, with 45% receiving free/reduced-price lunch.",
+      "domain": "research"
+    },
+    {
+      "num": 596,
+      "title": "TNTP Teaching Fellows",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/675",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education",
+        "professional-development"
+      ],
+      "desc": "TNTP Teaching Fellows is a selective alternative teacher certification program that recruits career changers and uncertified recent graduates, providing online coursework and 5–7 weeks of in-person training focused on foundational teaching skills, plus ongoing professional development in the first year, targeting middle and high school instruction in grades 6–12. The WWC reviewed 8 eligible studies, with 1 meeting standards, and found no discernible effects on mathematics achievement for middle and high school students. The lack of a tier assignment reflects insufficient qualifying evidence to establish a formal evidence tier.",
+      "domain": "research"
+    },
+    {
+      "num": 597,
+      "title": "I CAN Learn Algebra",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/677",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education",
+        "computer-assisted-learning"
+      ],
+      "desc": "I CAN Learn Algebra is a computer-based math curriculum for secondary students — including middle school, high school, and college — that provides mathematics instruction through a series of interactive lessons that students work on individually at their own computers. The WWC reviewed 12 eligible studies, with 1 meeting standards, and found no discernible effects on general mathematics achievement for secondary students, with a Tier 0 evidence classification indicating insufficient qualifying research. The limited qualifying evidence limits what can be concluded about the program's effectiveness compared to its wide usage.",
+      "domain": "research"
+    },
+    {
+      "num": 598,
+      "title": "Prentice Hall/Pearson Literature (2007–2015)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/682",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "Prentice Hall/Pearson Literature (2007–2015) is an English language arts curriculum for grades 6–12 using passages from fiction, nonfiction, poetry, and digital media, with online components for personalized assignments and progress monitoring to build general literacy achievement and comprehension. The WWC reviewed 3 qualifying studies and found no discernible effects on general literacy achievement and comprehension for adolescent readers, with evaluations covering grades 7–10 for comprehension and grades 7–9 for literacy achievement. The no-discernible-effects finding is notable for a widely adopted commercial ELA curriculum at the secondary level.",
+      "domain": "research"
+    },
+    {
+      "num": 599,
+      "title": "Accelerated Math — Primary Mathematics",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/684",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education",
+        "computer-assisted-learning",
+        "personalized-learning"
+      ],
+      "desc": "Accelerated Math is a software tool by Renaissance Learning for grades K–12 that provides individualized practice problems, scores student work automatically, and generates progress reports to help teachers differentiate mathematics instruction, reviewed here for primary mathematics in grades 2–9. The WWC reviewed 24 eligible studies, with 6 meeting standards, and found mixed effects on mathematics test scores in primary courses, indicating inconsistent evidence of impact. The large research base with mixed results suggests that implementation context and fidelity may play a significant role in whether the intervention produces gains.",
+      "domain": "research"
+    },
+    {
+      "num": 600,
+      "title": "NBPTS Certification — Student Achievement",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/689",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education",
+        "literacy",
+        "professional-development"
+      ],
+      "desc": "National Board for Professional Teaching Standards (NBPTS) Certification awards professional certification to educators whose teaching practices meet established standards for accomplished teaching, requiring a computer-based assessment and three portfolio entries completed over 1 to 5 years, evaluated here for effects on student achievement in grades 3–8. The WWC reviewed 39 eligible studies, with 5 meeting standards, and found no discernible effects on English language arts achievement and mixed effects on general mathematics achievement. The large number of eligible studies and varied results point to significant heterogeneity in how board certification relates to student outcomes across contexts.",
+      "domain": "research"
+    },
+    {
+      "num": 601,
+      "title": "Achieve3000 — Beginning Reading Fluency",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/692",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "computer-assisted-learning",
+        "digital-learning-platforms"
+      ],
+      "desc": "Achieve3000 is a supplemental online literacy program providing differentiated nonfiction reading content to students in grades preK–12, building phonemic awareness, phonics, fluency, comprehension, vocabulary, and writing through instruction tailored to each student's reading ability, reviewed here for beginning readers in grades 2–3. The WWC reviewed 2 eligible studies, with 1 meeting standards, and found no discernible effects on reading fluency for beginning readers. The no-discernible-effects finding in the beginning reading context suggests the program may be better suited to its adolescent literacy applications reviewed under a separate report.",
+      "domain": "research"
+    },
+    {
+      "num": 602,
+      "title": "Passport Reading Journeys",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/697",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "computer-assisted-learning"
+      ],
+      "desc": "Passport Reading Journeys is a supplemental curriculum for grades 6–12 combining teacher-led instruction with technology to enhance reading comprehension, vocabulary, word study, and writing skills for struggling readers, organized around themed two-week instructional sequences with whole-class and small-group lessons, independent reading, videos, and computer-based practice. The WWC reviewed 6 eligible studies, with 3 meeting standards, and found mixed effects on reading comprehension (grades 6–9) and no discernible effects on general literacy achievement (grades 6–9). The research sample was predominantly Black (67%) and economically disadvantaged (87% free/reduced-price lunch eligible).",
+      "domain": "research"
+    },
+    {
+      "num": 603,
+      "title": "Word Generation",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/704",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "english-learners"
+      ],
+      "desc": "Word Generation is a supplemental program for grades 4–8 that builds students' vocabulary, academic language, and perspective-taking skills through classroom discussion and debate, using interdisciplinary units with daily lessons centered on high-interest topics, with variants including WordGen Weekly and subject-specific editions in science and social studies. The WWC reviewed 5 eligible studies, with 1 meeting standards, and found no discernible effects on either reading comprehension or English language proficiency, with all qualifying studies involving 100% English learner populations. Despite its design rationale for academic language development, the program did not demonstrate measurable gains on the evaluated outcome domains.",
+      "domain": "research"
+    },
+    {
+      "num": 604,
+      "title": "Literacy Design Collaborative (LDC)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/711",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy",
+        "professional-development",
+        "writing-instruction"
+      ],
+      "desc": "Literacy Design Collaborative (LDC) provides professional development, coaching, and resources to support teachers working collaboratively in their schools to design and implement high-quality, standards-aligned literacy instruction materials focused on reading, research, and writing skills for students in grades 4–8. The WWC reviewed 5 eligible studies, with 3 meeting standards, and found mixed effects on general literacy achievement and no discernible effects on general social studies achievement. The mixed literacy finding across a relatively robust evidence base (3 qualifying studies) suggests LDC may be effective for some implementation contexts but not consistently across all schools.",
+      "domain": "research"
+    },
+    {
+      "num": 605,
+      "title": "Promoting Alternative Thinking Strategies (PATHS)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/712",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "sel"
+      ],
+      "desc": "Promoting Alternative Thinking Strategies (PATHS) is an elementary curriculum for grades 1–5 that delivers short lessons focused on self-control, emotional literacy, social competence, positive peer relations, and interpersonal problem-solving skills to enhance social-emotional competencies and reduce aggression and behavior problems. The WWC reviewed 13 eligible studies, with 2 meeting standards, and found no discernible effects on academic achievement, social interactions, observed individual behavior, or emotional status for elementary students. The null findings across all four outcome domains are notable given the program's widespread adoption in U.S. schools.",
+      "domain": "research"
+    },
+    {
+      "num": 606,
+      "title": "Xtreme Reading",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/713",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "Xtreme Reading is a supplemental literacy curriculum for struggling readers in grades 6–12 designed to improve vocabulary, decoding, fluency, and reading comprehension through teacher-led whole-group instruction, cooperative group work, paired practice, and independent practice along with social skills training and motivational components. The WWC reviewed 3 eligible studies, with 2 meeting standards, and found no discernible effects on comprehension and general literacy achievement for struggling readers in grades 6–12. The consistent null findings across both outcome domains examined suggest limited evidence of the program's effectiveness for this population.",
+      "domain": "research"
+    },
+    {
+      "num": 607,
+      "title": "Math Expressions",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/715",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education",
+        "early-childhood"
+      ],
+      "desc": "Math Expressions is a mathematics curriculum for pre-K through grade 6 that builds students' conceptual understanding through real-world situations, visual supports including drawings and manipulatives, multiple problem-solving approaches, and opportunities for students to explain their mathematical thinking. The WWC reviewed 3 eligible studies, with 1 meeting standards, and found no discernible effects on general mathematics achievement for elementary students compared with other mathematics curricula used in the comparison schools. The single qualifying study limits the strength of conclusions that can be drawn about the program's effectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 608,
+      "title": "University of Chicago School Mathematics Project (UCSMP) Transitions Math",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/717",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education"
+      ],
+      "desc": "University of Chicago School Mathematics Project (UCSMP) Transitions/Pre-Transition Math is a core mathematics curriculum for grades 6–9 featuring an inquiry-based approach with active learning, hands-on and small-group activities, covering arithmetic, algebra, geometry, probability, and statistics at progressively advanced levels across the two course variants. The WWC reviewed 4 eligible studies, with 3 meeting standards, and found no discernible effects on general mathematics achievement or algebra outcomes for students in grades 6–9 compared with other curricula used in study schools. The relatively strong evidence base (3 qualifying studies) with null findings provides a fairly confident negative conclusion about this curriculum's comparative effectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 609,
+      "title": "Social Belonging Intervention",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/720",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "higher-ed",
+        "student-belonging",
+        "college-access"
+      ],
+      "desc": "Social Belonging interventions aim to reduce the impacts of negative stereotypes that burden students from underrepresented groups — including racial and ethnic minorities, women in engineering, and first-generation college students — and affect their persistence in postsecondary education. The WWC reviewed 11 eligible studies, with 7 meeting standards, and found mixed effects on academic achievement, no discernible effects on college enrollment, and mixed effects on progression in college. The relatively large number of qualifying studies (7) makes this one of the better-evidenced postsecondary intervention reports, with the mixed findings reflecting heterogeneous outcomes across student populations and institutional contexts.",
+      "domain": "policy"
+    },
+    {
+      "num": 610,
+      "title": "LASER — Science Education Reform (Grades 3–8)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/721",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "professional-development"
+      ],
+      "desc": "Leadership and Assistance for Science Education Reform (LASER) builds capacity for implementing inquiry-based science curricula through leadership development institutes, professional development for teachers, instructional materials access, assessment support, and partnerships with scientists and community leaders, targeting grades 3–8. The WWC reviewed 2 eligible studies, with 1 meeting standards, and found no discernible effects on general science achievement compared with standard instruction. The no-discernible-effects finding for this systemic capacity-building approach suggests that regional infrastructure development alone may not translate to measurable student achievement gains.",
+      "domain": "research"
+    },
+    {
+      "num": 611,
+      "title": "Words and Concepts (Pre-K Oral Language Software)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/550",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "early-childhood",
+        "literacy",
+        "computer-assisted-learning"
+      ],
+      "desc": "Words and Concepts is a computer software program for pre-K children designed to build oral language abilities including vocabulary, comprehension, word relationships, and conceptual understanding through six units covering vocabulary, categorization, word identification by function, word association, and conceptual learning, also serving children and adults with language-learning disabilities, developmental disabilities, and other special needs. The WWC reviewed 1 eligible study that met standards and found no discernible effects on oral language outcomes for early childhood populations. The program's broad accessibility design for diverse special needs populations distinguishes it from standard early literacy software.",
+      "domain": "research"
+    },
+    {
+      "num": 612,
+      "title": "MyTeachingPartner Pre-K",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/690",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "early-childhood",
+        "professional-development",
+        "coaching",
+        "formative-assessment"
+      ],
+      "desc": "MyTeachingPartner Pre-K is a professional development program incorporating a video library of teacher-student interactions, interactive training, a three-credit college course, and web-mediated coaching focused on improving classroom instruction quality based on the Classroom Assessment Scoring System (CLASS), targeting pre-K teachers and classrooms. As of February 2018, the WWC found no studies meeting their design standards for the Teacher Training, Evaluation, and Compensation review protocol, and therefore cannot draw conclusions about the intervention's effectiveness. The program's video-based coaching approach and CLASS alignment represent a distinctive design rationale among early childhood professional development models.",
+      "domain": "le-practice"
+    },
+    {
+      "num": 613,
+      "title": "System of Least Prompts",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/685",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12"
+      ],
+      "desc": "System of Least Prompts (SLP), also known as least-to-most prompting, is an instructional practice for students with intellectual disabilities in which teachers establish a structured hierarchy of prompts starting with the least assistive and increasing support until the student performs the skill correctly. The WWC found no qualifying group design studies, and single-case design studies did not reach the threshold required for an evidence rating in any outcome domain. Despite the absence of group-design evidence, SLP is widely used in special education for skill acquisition across academic and functional tasks.",
+      "domain": "research"
+    },
+    {
+      "num": 614,
+      "title": "Harlem Children's Zone Promise Academy Charter Schools",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/687",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12"
+      ],
+      "desc": "Harlem Children's Zone (HCZ) Promise Academy Charter Schools is a non-profit initiative providing community services and operating two public K–12 charter schools featuring extended school days and years, an academic and arts focus, student progress monitoring, teacher quality initiatives, and community support services including counseling and medical care. As of January 2018, the WWC found no studies meeting their design standards and therefore cannot draw conclusions about the effectiveness or ineffectiveness of this intervention. The absence of qualifying evidence reflects the challenges of applying group design standards to unique charter school models with small catchment populations.",
+      "domain": "research"
+    },
+    {
+      "num": 615,
+      "title": "ACT Aspire — Transition to College",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/674",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "college-access",
+        "formative-assessment"
+      ],
+      "desc": "ACT Aspire is a longitudinal, systematic assessment system for grades 3 through early high school that monitors students' preparation for high school studies and readiness for college and career across five subject areas, designed to support ongoing instructional adjustment toward college and career readiness goals. As of May 2017, the WWC found no studies meeting their design standards within the Transition to College review protocol and therefore cannot draw research-based conclusions about ACT Aspire's effectiveness in improving college transition outcomes. The program's assessment-based design distinguishes it from instructional interventions, reflecting the WWC's broader interest in evaluating tools used to support educational decision-making.",
+      "domain": "policy"
+    },
+    {
+      "num": 616,
+      "title": "Prentice Hall Literature (1989–2005)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/681",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "Prentice Hall Literature (1989–2005) is an English language arts curriculum for grades 6–12 emphasizing reading, writing, listening, viewing, speaking, and language skills through thematic organization, genre-focused units, and supplementary materials for differentiated instruction. As of the WWC review, no studies were found meeting design standards within the Adolescent Literacy review protocol, preventing the WWC from drawing research-based conclusions about the program's effectiveness. The curriculum's long publication history and widespread adoption contrast with the complete absence of qualifying rigorous evaluations.",
+      "domain": "research"
+    },
+    {
+      "num": 617,
+      "title": "Reciprocal Teaching — Students with Learning Disabilities",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/626",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "Reciprocal Teaching is an interactive instructional method for improving reading comprehension in which the teacher and students take turns leading a dialogue regarding segments of the text, teaching four core strategies: generating questions, summarizing, clarifying, and predicting, reviewed here for students with specific learning disabilities. The WWC found no studies meeting their evidence standards for this population within the relevant review protocol and therefore cannot draw conclusions about the effectiveness or ineffectiveness of Reciprocal Teaching for students with learning disabilities. The lack of qualifying evidence is notable given the intervention's prominent theoretical basis and widespread discussion in the reading research literature.",
+      "domain": "research"
+    },
+    {
+      "num": 618,
+      "title": "UCSMP Advanced Algebra",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/644",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "k-12",
+        "math-education"
+      ],
+      "desc": "University of Chicago School Mathematics Project (UCSMP) Advanced Algebra is a core secondary mathematics curriculum emphasizing problem solving, real-world applications, and the use of technology, featuring a student-centered approach with active learning that incorporates reading and flexible lesson structures. As of May 2016, the WWC found no studies meeting their design standards within the Secondary Mathematics review protocol, and therefore cannot draw research-based conclusions about the program's effectiveness or ineffectiveness. The UCSMP curriculum family includes multiple courses, each reviewed separately, with none of the individual courses having qualifying evaluative evidence in the secondary mathematics protocol.",
+      "domain": "research"
+    },
+    {
+      "num": 619,
+      "title": "Residential Learning Communities",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/629",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "wwc",
+        "rct",
+        "higher-ed",
+        "student-belonging",
+        "college-access"
+      ],
+      "desc": "Residential Learning Communities (also called living-learning programs) are postsecondary programs that integrate students' academic and residential environments by having students live together in dormitories, take classes together, and participate in structured co-curricular and extracurricular activities designed to strengthen academic engagement and social connection. As of November 2014, the WWC found no studies meeting their design standards for this intervention within the Developmental Education review protocol, and therefore cannot draw research-based conclusions about its effectiveness. The absence of qualifying evidence leaves an important gap given the widespread implementation of residential learning communities across U.S. colleges and universities.",
+      "domain": "policy"
+    },
+    {
+      "num": 620,
+      "title": "Lexia Core5 Reading",
+      "url": "https://evidenceforessa.org/program/lexia-core5-reading/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood",
+        "computer-assisted-learning",
+        "personalized-learning"
+      ],
+      "desc": "Lexia Core5 Reading is a blended learning program for PreK–5 that provides explicit, systematic reading instruction through personalized learning paths adapted to individual student skill gaps, combining online instruction with embedded assessments to help educators customize and track student progress. Across four studies involving over 17,000 students, Core5 students showed an average reading achievement effect size of +0.16 compared to matched comparison groups. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 621,
+      "title": "SIPPS (Systematic Instruction in Phonological Awareness, Phonics, and Sight Words)",
+      "url": "https://evidenceforessa.org/program/sipps-systematic-instruction-in-phonological-awareness-phonics-and-sight-words-2/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "response-to-intervention"
+      ],
+      "desc": "SIPPS is a structured-literacy reading curriculum using explicit instruction in phonological awareness, phonics, and sight words to support both new and struggling readers across three developmental levels, with flexible grouping based on individual student needs. In a quasi-experimental study of over 500 first and second graders, students receiving SIPPS as a Tier 2 intervention scored significantly higher on DIBELS measures than students who did not (effect size = +0.25). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 622,
+      "title": "Expository Reading and Writing Course (ERWC)",
+      "url": "https://evidenceforessa.org/program/expository-reading-and-writing-course-erwc/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "writing-instruction",
+        "professional-development"
+      ],
+      "desc": "The Expository Reading and Writing Course (ERWC) is a 12th-grade college-readiness program designed to prepare high school seniors to enter California State University and community colleges without needing remediation in English, providing curriculum materials and several days of professional development and coaching. Teachers focus instruction on text analysis, critical thinking, discussions, oral language development, and writing across genres. A statewide evaluation found ERWC students achieved modestly higher English placement test scores than peers in traditional classrooms (effect size +0.13), earning a Moderate rating from Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 623,
+      "title": "The Superkids Reading Program",
+      "url": "https://evidenceforessa.org/program/the-superkids-reading-program/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood"
+      ],
+      "desc": "The Superkids Reading Program is a phonics-based beginning reading curriculum for grades K–2 that emphasizes phonemic awareness, phonics, vocabulary, comprehension, writing, and spelling. Two matched studies demonstrated positive effects on sound and word reading measures, with an average effect size of +0.23, and teachers reported high satisfaction with the program's ease of implementation and motivating qualities. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 624,
+      "title": "Amira",
+      "url": "https://evidenceforessa.org/program/amira/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood",
+        "intelligent-tutoring",
+        "computer-assisted-learning",
+        "personalized-learning"
+      ],
+      "desc": "Amira is an AI-powered reading tutor for grades K–4 that provides personalized instruction, assesses oral reading fluency, and generates diagnostic reports for teachers and parents. Two research studies—including a randomized trial of 178 students (effect size +0.64) and a matched study of over 15,000 kindergarten and first-grade students (effect sizes +0.26 and +0.06)—demonstrated consistent positive impacts on early reading outcomes. Rated Moderate by Evidence for ESSA.",
+      "domain": "le-practice"
+    },
+    {
+      "num": 625,
+      "title": "Imagine Español",
+      "url": "https://evidenceforessa.org/program/imagine-learning-imagine-espanol/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood",
+        "english-learners",
+        "computer-assisted-learning",
+        "personalized-learning"
+      ],
+      "desc": "Imagine Español is a personalized learning program for Pre-K through grade 6 that accelerates Spanish language and literacy development through engaging, culturally diverse content, with demonstrated gains in both Spanish and English reading proficiency. Two quasi-experimental studies found statistically significant improvements, including effect sizes of +0.25 on Spanish CIRCLE assessments for Pre-K students and +0.16 in English reading gains for grades 2–6. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 626,
+      "title": "Heggerty's Bridge to Reading Curriculum",
+      "url": "https://evidenceforessa.org/program/heggertys-bridge-to-reading-curriculum/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood"
+      ],
+      "desc": "Heggerty's Bridge to Reading Curriculum is a foundational skills program for grades K–2 that pairs explicit phonics instruction with phonemic awareness lessons in a 30-minute daily format, targeting decoding, reading fluency, and phonological awareness. Two studies showed consistently positive effects, including effect sizes of +0.16 to +0.33 on MAP Growth Reading assessments for first and second graders, with a weighted average effect size of +0.23. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 627,
+      "title": "Phonological Awareness Deluxe Package (PA Lessons)",
+      "url": "https://evidenceforessa.org/program/phonological-awareness-deluxe-package/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood",
+        "english-learners"
+      ],
+      "desc": "The Phonological Awareness Deluxe Package provides explicit, systematic small-group instruction to develop foundational phonological awareness skills in kindergarten students, with teacher-friendly lessons accessible to diverse learners including English language learners. Two studies involving 956 kindergarten students across California schools found significant improvements, with effect sizes of +0.21 and +0.74 on the Acadience Reading assessment, for a combined average of +0.49. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 628,
+      "title": "Exact Path Growth — Reading",
+      "url": "https://evidenceforessa.org/program/exact-path-reading/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "computer-assisted-learning",
+        "personalized-learning",
+        "formative-assessment"
+      ],
+      "desc": "Exact Path Growth – Reading is a personalized learning platform that accelerates and measures student reading achievement through individualized learning paths and adaptive diagnostic assessments, studied at the 6th-grade level. A quasi-experimental study of 4,367 sixth-grade students in Florida found that students completing at least one lesson significantly outperformed those completing only diagnostics, with an effect size of +0.16 on ELA achievement. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 629,
+      "title": "95 Phonics Lesson Library (PLL)",
+      "url": "https://evidenceforessa.org/program/phonics-lesson-library-basic-advanced-multisyllable/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "response-to-intervention"
+      ],
+      "desc": "The 95 Phonics Lesson Library is a comprehensive Tier 2 small-group phonics program that breaks phonics into 75 distinct subskills across three levels, providing ready-to-use lesson plans for below-benchmark readers in grades 1 and 4–5. Two studies involving 828 students demonstrated positive effects on Acadience Reading assessments, with effect sizes of +0.23 (1st grade) and +0.18 to +0.54 (4th–5th grade), averaging +0.21. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 630,
+      "title": "Just Right Reader Take-Everywhere Literacy Packs — Reading",
+      "url": "https://evidenceforessa.org/program/just-right-reader-take-everywhere-literacy-packs/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood"
+      ],
+      "desc": "Just Right Reader Take-Everywhere Literacy Packs is a kindergarten decodable book program aligned with the Science of Reading that extends classroom phonics instruction to the home, providing personalized packs with lesson plans and multilingual QR-code video guides for family support. A study of 399 kindergarten students across six Texas schools found users scored significantly higher on end-of-year DIBELS composite scores than comparison students (effect size = +0.39). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 631,
+      "title": "Lexia English Language Development",
+      "url": "https://evidenceforessa.org/program/lexia-english/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "english-learners",
+        "computer-assisted-learning",
+        "personalized-learning"
+      ],
+      "desc": "Lexia English Language Development is a blended program for grades K–6 that combines interactive student-directed online lessons with teacher-led instruction to develop English proficiency for English learners. A quasi-experimental study of 1,570 students across California districts found significant positive effects on both the Overall ELPAC language proficiency assessment (effect size = +0.23) and SBAC English Language Arts assessment (effect size = +0.22), with strongest results for lower-proficiency students. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 632,
+      "title": "Coursemojo (Mojo)",
+      "url": "https://evidenceforessa.org/program/mojo/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "intelligent-tutoring",
+        "computer-assisted-learning",
+        "personalized-learning",
+        "sel"
+      ],
+      "desc": "Coursemojo (Mojo) is an AI-powered teaching platform for 6th-grade English Language Arts that works alongside classroom teachers to provide individualized academic support to every student. Two quasi-experimental studies in Tennessee and Texas (totaling over 5,000 students) demonstrated positive impacts on reading achievement (effect sizes +0.12 and +0.11), with notable equity gains for students with disabilities and economically disadvantaged learners. Rated Moderate by Evidence for ESSA.",
+      "domain": "le-practice"
+    },
+    {
+      "num": 633,
+      "title": "Reading Go! (Formerly Reading Rescue)",
+      "url": "https://evidenceforessa.org/program/reading-rescue/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "english-learners",
+        "professional-development"
+      ],
+      "desc": "Reading Go! (formerly Reading Rescue) trains school staff to provide one-on-one tutoring to struggling first and second graders through 10 full days of professional development over two years, combining fluency building, phonological awareness, word study, and vocabulary instruction in daily 30-minute sessions. A study of language-minority, low-SES students in New York City found significantly positive results on word attack and decoding measures, with an average effect size of +0.39. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 634,
+      "title": "Exact Path Proficiency + Exact Path Growth — Reading",
+      "url": "https://evidenceforessa.org/program/exact-path-proficiency-exact-path-growth-reading/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "computer-assisted-learning",
+        "personalized-learning",
+        "formative-assessment"
+      ],
+      "desc": "Exact Path Proficiency + Exact Path Growth – Reading is a digital learning system for middle grades (6–8) combining personalized, adaptive skill-based instruction with standards-aligned formative assessment tools including practice tests and test-readiness activities. A quasi-experimental study of 3,323 middle school students in Florida found statistically significant improvements in ELA achievement on the FAST assessment (effect size = +0.14) when both components were used together. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 635,
+      "title": "Early Steps",
+      "url": "https://evidenceforessa.org/program/early-steps/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy"
+      ],
+      "desc": "Early Steps is a first-grade reading intervention providing one-to-one tutoring in 30-minute sessions five days a week throughout the entire school year, with tutors trained in structured lessons emphasizing re-reading, word study, and writing using leveled books. A study of 86 students in urban Tennessee found substantially positive effects on Woodcock Johnson Word Attack and Passage Comprehension scales, with an average effect size of +0.86. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 636,
+      "title": "Magnetic Reading Foundations",
+      "url": "https://evidenceforessa.org/program/magnetic-reading-foundations/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood"
+      ],
+      "desc": "Magnetic Reading Foundations is a comprehensive foundational skills program for grades K–2 used 30–45 minutes daily alongside an existing reading curriculum, addressing phonological awareness, phonics, letter formation, fluency, and related competencies through digital and print materials. A quasi-experimental study of 1,615 second-grade students across 41 schools found users achieved significantly higher spring i-Ready Diagnostic scores than comparable peers (effect size = +0.15). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 637,
+      "title": "CAPIT Reading",
+      "url": "https://evidenceforessa.org/program/capit-reading/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood",
+        "computer-assisted-learning"
+      ],
+      "desc": "CAPIT Reading is a blended supplemental phonics program for Pre-K through grade 3 that uses a Sound-to-Print approach to deliver explicit, systematic instruction designed to develop foundational literacy skills and close reading gaps. A 2023–2024 evaluation of 794 students in a Florida district found CAPIT students scored an average of 17.2 points higher on the FAST Star Early Literacy assessment (effect size = +0.19) and were more than twice as likely to meet kindergarten readiness benchmarks. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 638,
+      "title": "Magnetic Reading",
+      "url": "https://evidenceforessa.org/program/magnetic-reading/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy"
+      ],
+      "desc": "Magnetic Reading is a print-based supplemental reading comprehension program for grades 3–5, used 30–45 minutes per day, that supplies culturally relevant and high-interest grade-level texts along with digital educator resources for differentiated instruction. Two studies in rural Iowa schools demonstrated positive effects on spring i-Ready Diagnostic scores and Iowa state ELA tests, with effect sizes of +0.23 and +0.22 respectively across 1,968 combined students. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 639,
+      "title": "i-Ready Personalized Instruction Reading",
+      "url": "https://evidenceforessa.org/program/i-ready-personalized-instruction-reading/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "computer-assisted-learning",
+        "personalized-learning",
+        "formative-assessment"
+      ],
+      "desc": "i-Ready Personalized Instruction Reading uses diagnostic assessments to generate individualized online reading lessons for grades K–8, tailoring instruction to each student's performance level while providing comprehensive monitoring reports for educators. A quasi-experimental study of 2,132 fifth graders in Massachusetts found students using i-Ready had significantly higher ELA MCAS scores than the comparison group (effect size = +0.12), with stronger results for students meeting usage recommendations. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 640,
+      "title": "Peer-Assisted Learning Strategies (PALS) — Reading — Elementary, Struggling Readers",
+      "url": "https://evidenceforessa.org/program/peer-assisted-learning-strategies-pals-reading-elementary-struggling-readers/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy"
+      ],
+      "desc": "Peer-Assisted Learning Strategies (PALS) – Reading – Elementary, Struggling Readers is a first-grade intervention in which children work in structured pairs, alternating teacher and learner roles to develop phonemic awareness, phonics, sound blending, passage reading, and story retelling with error-correction strategies. One qualifying study of 79 students found statistically significant positive effects on Woodcock assessment scales, with an average effect size of +0.59. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 641,
+      "title": "My Reading Academy",
+      "url": "https://evidenceforessa.org/program/my-reading-academy/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood",
+        "computer-assisted-learning",
+        "personalized-learning"
+      ],
+      "desc": "My Reading Academy is an adaptive game-based curriculum for Pre-K and kindergarten that teaches foundational reading skills through explicit phonemic awareness and phonics instruction combined with engaging, interactive gameplay. A quasi-experimental study of 1,097 students across four districts found kindergarteners significantly outperformed comparison students on state end-of-year literacy assessments (effect size = +0.17), with stronger gains in Alphabetic Knowledge (effect size = +0.32) and for students with lower baseline literacy skills. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 642,
+      "title": "Imagine IM",
+      "url": "https://evidenceforessa.org/program/imagine-learning-illustrative-mathematics/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "computer-assisted-learning"
+      ],
+      "desc": "Imagine IM is an Illustrative Mathematics-certified print and digital core math curriculum for grades K–5 that delivers problem-based instruction in face-to-face, student-led whole-group settings, emphasizing conceptual understanding alongside procedural fluency. Four studies involving 8,720 students showed consistent positive impacts on student math achievement, with an average effect size of +0.11 and particularly strong results for students with disabilities and economically disadvantaged students. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 643,
+      "title": "engage2learn",
+      "url": "https://evidenceforessa.org/program/engage2learn/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "professional-development",
+        "coaching"
+      ],
+      "desc": "engage2learn (e2L) partners with public schools to provide competency-focused, job-embedded teacher coaching and administrator support in grades 6–8, using a technology platform to track teacher growth and student math outcomes. Two matched studies involving 4,282 students found positive effects on math achievement, with effect sizes of +0.19 to +0.33 on NWEA MAP and +0.13 on STAAR assessments. Rated Moderate by Evidence for ESSA.",
+      "domain": "le-practice"
+    },
+    {
+      "num": 644,
+      "title": "i-Ready Classroom Mathematics",
+      "url": "https://evidenceforessa.org/program/i-ready-classroom-mathematics/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "computer-assisted-learning",
+        "personalized-learning"
+      ],
+      "desc": "i-Ready Classroom Mathematics is a K–8 core math curriculum combining print and digital materials—including teacher guides, student workbooks, and hands-on manipulatives—that emphasizes conceptual understanding and problem-solving skills, studied primarily in grades 3–5. A multi-state quasi-experimental study found an average effect size of +0.10 on the i-Ready Diagnostic for Mathematics, with particularly strong effects for Hispanic, Black, economically disadvantaged, English learner, and special education students. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 645,
+      "title": "Math 180",
+      "url": "https://evidenceforessa.org/program/math-180-2/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "computer-assisted-learning",
+        "response-to-intervention"
+      ],
+      "desc": "Math 180 is a targeted math intervention program for grades 5–8 that builds algebra readiness using adaptive software combined with teacher-led instruction to strengthen foundational computation and reasoning skills in striving students. Two studies found significantly greater gains compared to business-as-usual instruction on NWEA MAP Mathematics assessments, with effect sizes of +0.31 and +0.23 and an average of +0.26. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 646,
+      "title": "i-Ready Personalized Instruction Math",
+      "url": "https://evidenceforessa.org/program/i-ready-personalized-instruction-math/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "computer-assisted-learning",
+        "personalized-learning",
+        "formative-assessment"
+      ],
+      "desc": "i-Ready Personalized Instruction Math uses diagnostic data to generate individualized online mathematics lessons for grades K–8, helping teachers provide targeted instruction while monitoring student progress through comprehensive reports. A quasi-experimental study of 2,256 fifth graders across six Massachusetts districts found students using i-Ready had significantly higher Mathematics MCAS scores than the comparison group (effect size = +0.23), with even stronger results for students meeting usage recommendations. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 647,
+      "title": "Bridges in Mathematics",
+      "url": "https://evidenceforessa.org/program/bridges-in-mathematics/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "early-childhood"
+      ],
+      "desc": "Bridges in Mathematics is a comprehensive Pre-K through grade 5 math curriculum from the Math Learning Center that emphasizes conceptual understanding, fluency, discourse, and problem solving through direct instruction, structured investigation, and open exploration using visual models and hands-on manipulatives. Two quasi-experimental studies—including a 2024–2025 study of over 10,000 students—demonstrated statistically significant positive results on state math tests for grades 4–5 (effect size = +0.10). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 648,
+      "title": "Exact Path Proficiency + Exact Path Growth — Math",
+      "url": "https://evidenceforessa.org/program/exact-path-proficiency-exact-path-growth-math/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "computer-assisted-learning",
+        "personalized-learning",
+        "formative-assessment"
+      ],
+      "desc": "Exact Path Proficiency + Exact Path Growth – Math is a digital program for grades 6–8 combining personalized adaptive instruction with standards-aligned formative assessment including practice tests and test-readiness activities. A quasi-experimental study of 3,632 middle school students in Florida found the bundled program produced a statistically significant positive effect on FAST Mathematics scores (effect size = +0.11). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 649,
+      "title": "Core-Plus Mathematics Project",
+      "url": "https://evidenceforessa.org/program/core-plus-mathematics-project/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education"
+      ],
+      "desc": "The Core-Plus Mathematics Project is a problem-based, inquiry-oriented four-year integrated mathematics curriculum for grades 9–12 that organizes content around connected strands of algebra/functions, geometry/trigonometry, statistics/probability, and discrete mathematics rather than traditional separate courses. Four studies involving 3,416 students showed a weighted mean effect size of +0.08, with one study demonstrating statistically significant positive outcomes on mathematical thinking and problem-solving measures. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 650,
+      "title": "Professional Learning Communities at Work (PLC at Work) — Math",
+      "url": "https://evidenceforessa.org/program/professional-learning-communities-at-work-plc-at-work/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "professional-development",
+        "coaching",
+        "formative-assessment"
+      ],
+      "desc": "Professional Learning Communities at Work (PLC at Work) is a school improvement approach for grades 3–8 that enhances student math learning through teacher collaboration guided by three core principles: focus on learning, collaborative culture, and results orientation, with recurring cycles of collaborative planning, assessment, and intervention. A quasi-experimental study of 2,500+ students in Arkansas showed a statistically significant positive effect on ACT Aspire math achievement (effect size = +0.08), with meaningful subgroup gains for economically disadvantaged students. Rated Moderate by Evidence for ESSA.",
+      "domain": "le-practice"
+    },
+    {
+      "num": 651,
+      "title": "Catapult Learning's Educational Services",
+      "url": "https://evidenceforessa.org/program/catapult-learnings-educational-services/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "literacy"
+      ],
+      "desc": "Catapult Learning's Wraparound Supplemental Educational Services delivers systematic small-group instruction in literacy and math along with counseling and special education support in a structured low-ratio environment for grades K–12, studied at the middle school level. A 2023–24 study of 388 students found intervention participants significantly outperformed matched peers on NWEA MAP Growth math assessments (effect size = +0.21), with notable gains for Hispanic, female, and Title I students. Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 652,
+      "title": "Exact Path Growth — Math",
+      "url": "https://evidenceforessa.org/program/exact-path-math/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "computer-assisted-learning",
+        "personalized-learning",
+        "formative-assessment"
+      ],
+      "desc": "Exact Path Growth – Math is a personalized learning platform that accelerates and measures student math achievement through individualized learning paths and adaptive assessments, with evidence from a 6th-grade study. A quasi-experimental study of 4,597 sixth-grade students in Duval County, Florida found that students who used the platform demonstrated significantly higher math achievement compared to those who completed only diagnostics (effect size = +0.06). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 653,
+      "title": "PAX Good Behavior Game — Math",
+      "url": "https://evidenceforessa.org/program/pax-good-behavior-game-math/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "sel"
+      ],
+      "desc": "PAX Good Behavior Game – Math is a classroom behavior management system for grades 1–2 that divides students into teams and uses group contingencies—awarding check marks for rule violations—to promote on-task behavior during math instruction. A single study of 703 students in Ohio found that students receiving PAX Good Behavior Game achieved significantly higher math scores than matched controls (effect size = +0.32). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 654,
+      "title": "Math Recovery Intervention",
+      "url": "https://evidenceforessa.org/program/math-recovery-intervention/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "math-education",
+        "response-to-intervention",
+        "formative-assessment"
+      ],
+      "desc": "Math Recovery Intervention provides targeted one-on-one math instruction in whole number concepts for first graders in intense short-term sessions of 25–30 minutes, 4–5 days per week for 12–15 weeks, using diagnostic assessment and problem-centered tasks. A matched-comparison study found positive results on math reasoning measures compared to non-tutored students (effect size = +0.30). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
+    },
+    {
+      "num": 655,
+      "title": "Just Right Reader Take-Everywhere Literacy Packs — Family Engagement",
+      "url": "https://evidenceforessa.org/program/just-right-reader-take-everywhere-literacy-packs-family-engagement/",
+      "type": "report",
+      "source": "Evidence for ESSA",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "rct",
+        "literacy",
+        "early-childhood"
+      ],
+      "desc": "Just Right Reader Take-Everywhere Literacy Packs – Family Engagement extends classroom Science of Reading–aligned phonics instruction to the home for kindergarteners through personalized decodable book packs with lesson plans and multilingual QR-code video guides that support family involvement. A quasi-experimental study of 399 kindergarten students across six Texas schools found participants scored significantly higher than comparison students on end-of-year DIBELS composite scores (effect size = +0.39). Rated Moderate by Evidence for ESSA.",
+      "domain": "research"
     }
   ]
 }

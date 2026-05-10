@@ -1,23 +1,23 @@
-# Learning Engineering Resource Hub — Compact Index
+# Renaissance AI and Education Resource Hub — Compact Index
 
-> 569 curated evidence-based K-12 and higher education resources.
-> Last updated: 2026-05-06
+> 655 curated evidence-based K-12 and higher education resources.
+> Last updated: 2026-05-10
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
 ## Tags
 
-**Domain:** k-12 (361), learning-engineering (236), higher-ed (123), math-education (91), literacy (91), early-childhood (62), english-learners (24), school-discipline (18)
+**Domain:** k-12 (438), learning-engineering (236), literacy (137), higher-ed (127), math-education (118), early-childhood (82), english-learners (32), school-discipline (18)
 
-**Method:** longitudinal (102), computer-assisted-learning (62), meta-analysis (36), intelligent-tutoring (36), genai (28), response-to-intervention (28), coaching (26), qualitative-research (20), rct (14), nlp (14), llm-application (13), a-b-testing (7), automated-feedback (7)
+**Method:** longitudinal (102), rct (100), computer-assisted-learning (85), intelligent-tutoring (38), meta-analysis (36), response-to-intervention (33), coaching (30), genai (28), qualitative-research (20), nlp (14), llm-application (13), a-b-testing (7), automated-feedback (7)
 
-**Topic:** open-datasets (105), professional-development (81), formative-assessment (59), college-access (57), digital-learning-platforms (56), personalized-learning (41), sel (37), prekindergarten (25), career-readiness (24), data-sharing (21), student-belonging (19), dropout-prevention (19), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (14), attendance (14), writing-instruction (11), math-motivation (4), genai-tutoring (3), math-word-problems (2)
+**Topic:** open-datasets (105), professional-development (93), formative-assessment (69), college-access (62), digital-learning-platforms (57), personalized-learning (55), sel (41), prekindergarten (28), career-readiness (24), student-belonging (21), data-sharing (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (14), attendance (14), writing-instruction (13), math-motivation (4), genai-tutoring (3), math-word-problems (2)
 
-**Affiliation:** wwc (117), aims (46), digital-promise (30), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (10), northwestern-e4 (9), assistments (9), rppl (5), carnegie-learning (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), tla (1), casel (1)
+**Affiliation:** wwc (167), aims (46), digital-promise (30), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (10), northwestern-e4 (9), assistments (9), carnegie-learning (6), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), tla (1), casel (1)
 
 ## Types
 
-- report: 305
+- report: 391
 - dataset: 104
 - paper: 65
 - framework: 48
@@ -29,7 +29,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 ---
 
-## Entries (569)
+## Entries (655)
 
 ### ADL Initiative (2)
 
@@ -211,7 +211,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 - 562. [MathTutorBench](https://eth-lre.github.io/mathtutorbench/) | platform | math-education, intelligent-tutoring, genai
 
-### Evidence for ESSA (30)
+### Evidence for ESSA (66)
 
 - 16. [Lenses on Literature — Evidence for ESSA](https://evidenceforessa.org/program/lenses-on-literature/) | report | k-12, computer-assisted-learning, carnegie-learning, learning-engineering, formative-assessment
 - 201. [Evidence for ESSA: Reading Partners](https://evidenceforessa.org/program/reading-partners/) | report | literacy, k-12, coaching
@@ -243,6 +243,42 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 227. [Evidence for ESSA: Building Assets Reducing Risks (BARR) — Math](https://evidenceforessa.org/program/building-assets-reducing-risks-barr-math/) | report | math-education, k-12, professional-development
 - 228. [Evidence for ESSA: Second Step — Social-Emotional Learning](https://evidenceforessa.org/program/second-step-social-emotional-learning/) | report | sel, k-12
 - 229. [Evidence for ESSA: Facing History and Ourselves](https://evidenceforessa.org/program/facing-history-and-ourselves/) | report | sel, k-12, professional-development
+- 620. [Lexia Core5 Reading](https://evidenceforessa.org/program/lexia-core5-reading/) | report | k-12, rct, literacy, early-childhood, computer-assisted-learning, personalized-learning
+- 621. [SIPPS (Systematic Instruction in Phonological Awareness, Phonics, and Sight Words)](https://evidenceforessa.org/program/sipps-systematic-instruction-in-phonological-awareness-phonics-and-sight-words-2/) | report | k-12, rct, literacy, response-to-intervention
+- 622. [Expository Reading and Writing Course (ERWC)](https://evidenceforessa.org/program/expository-reading-and-writing-course-erwc/) | report | k-12, rct, literacy, writing-instruction, professional-development
+- 623. [The Superkids Reading Program](https://evidenceforessa.org/program/the-superkids-reading-program/) | report | k-12, rct, literacy, early-childhood
+- 624. [Amira](https://evidenceforessa.org/program/amira/) | report | k-12, rct, literacy, early-childhood, intelligent-tutoring, computer-assisted-learning, personalized-learning
+- 625. [Imagine Español](https://evidenceforessa.org/program/imagine-learning-imagine-espanol/) | report | k-12, rct, literacy, early-childhood, english-learners, computer-assisted-learning, personalized-learning
+- 626. [Heggerty's Bridge to Reading Curriculum](https://evidenceforessa.org/program/heggertys-bridge-to-reading-curriculum/) | report | k-12, rct, literacy, early-childhood
+- 627. [Phonological Awareness Deluxe Package (PA Lessons)](https://evidenceforessa.org/program/phonological-awareness-deluxe-package/) | report | k-12, rct, literacy, early-childhood, english-learners
+- 628. [Exact Path Growth — Reading](https://evidenceforessa.org/program/exact-path-reading/) | report | k-12, rct, literacy, computer-assisted-learning, personalized-learning, formative-assessment
+- 629. [95 Phonics Lesson Library (PLL)](https://evidenceforessa.org/program/phonics-lesson-library-basic-advanced-multisyllable/) | report | k-12, rct, literacy, response-to-intervention
+- 630. [Just Right Reader Take-Everywhere Literacy Packs — Reading](https://evidenceforessa.org/program/just-right-reader-take-everywhere-literacy-packs/) | report | k-12, rct, literacy, early-childhood
+- 631. [Lexia English Language Development](https://evidenceforessa.org/program/lexia-english/) | report | k-12, rct, literacy, english-learners, computer-assisted-learning, personalized-learning
+- 632. [Coursemojo (Mojo)](https://evidenceforessa.org/program/mojo/) | report | k-12, rct, literacy, intelligent-tutoring, computer-assisted-learning, personalized-learning, sel
+- 633. [Reading Go! (Formerly Reading Rescue)](https://evidenceforessa.org/program/reading-rescue/) | report | k-12, rct, literacy, english-learners, professional-development
+- 634. [Exact Path Proficiency + Exact Path Growth — Reading](https://evidenceforessa.org/program/exact-path-proficiency-exact-path-growth-reading/) | report | k-12, rct, literacy, computer-assisted-learning, personalized-learning, formative-assessment
+- 635. [Early Steps](https://evidenceforessa.org/program/early-steps/) | report | k-12, rct, literacy
+- 636. [Magnetic Reading Foundations](https://evidenceforessa.org/program/magnetic-reading-foundations/) | report | k-12, rct, literacy, early-childhood
+- 637. [CAPIT Reading](https://evidenceforessa.org/program/capit-reading/) | report | k-12, rct, literacy, early-childhood, computer-assisted-learning
+- 638. [Magnetic Reading](https://evidenceforessa.org/program/magnetic-reading/) | report | k-12, rct, literacy
+- 639. [i-Ready Personalized Instruction Reading](https://evidenceforessa.org/program/i-ready-personalized-instruction-reading/) | report | k-12, rct, literacy, computer-assisted-learning, personalized-learning, formative-assessment
+- 640. [Peer-Assisted Learning Strategies (PALS) — Reading — Elementary, Struggling Readers](https://evidenceforessa.org/program/peer-assisted-learning-strategies-pals-reading-elementary-struggling-readers/) | report | k-12, rct, literacy
+- 641. [My Reading Academy](https://evidenceforessa.org/program/my-reading-academy/) | report | k-12, rct, literacy, early-childhood, computer-assisted-learning, personalized-learning
+- 642. [Imagine IM](https://evidenceforessa.org/program/imagine-learning-illustrative-mathematics/) | report | k-12, rct, math-education, computer-assisted-learning
+- 643. [engage2learn](https://evidenceforessa.org/program/engage2learn/) | report | k-12, rct, math-education, professional-development, coaching
+- 644. [i-Ready Classroom Mathematics](https://evidenceforessa.org/program/i-ready-classroom-mathematics/) | report | k-12, rct, math-education, computer-assisted-learning, personalized-learning
+- 645. [Math 180](https://evidenceforessa.org/program/math-180-2/) | report | k-12, rct, math-education, computer-assisted-learning, response-to-intervention
+- 646. [i-Ready Personalized Instruction Math](https://evidenceforessa.org/program/i-ready-personalized-instruction-math/) | report | k-12, rct, math-education, computer-assisted-learning, personalized-learning, formative-assessment
+- 647. [Bridges in Mathematics](https://evidenceforessa.org/program/bridges-in-mathematics/) | report | k-12, rct, math-education, early-childhood
+- 648. [Exact Path Proficiency + Exact Path Growth — Math](https://evidenceforessa.org/program/exact-path-proficiency-exact-path-growth-math/) | report | k-12, rct, math-education, computer-assisted-learning, personalized-learning, formative-assessment
+- 649. [Core-Plus Mathematics Project](https://evidenceforessa.org/program/core-plus-mathematics-project/) | report | k-12, rct, math-education
+- 650. [Professional Learning Communities at Work (PLC at Work) — Math](https://evidenceforessa.org/program/professional-learning-communities-at-work-plc-at-work/) | report | k-12, rct, math-education, professional-development, coaching, formative-assessment
+- 651. [Catapult Learning's Educational Services](https://evidenceforessa.org/program/catapult-learnings-educational-services/) | report | k-12, rct, math-education, literacy
+- 652. [Exact Path Growth — Math](https://evidenceforessa.org/program/exact-path-math/) | report | k-12, rct, math-education, computer-assisted-learning, personalized-learning, formative-assessment
+- 653. [PAX Good Behavior Game — Math](https://evidenceforessa.org/program/pax-good-behavior-game-math/) | report | k-12, rct, math-education, sel
+- 654. [Math Recovery Intervention](https://evidenceforessa.org/program/math-recovery-intervention/) | report | k-12, rct, math-education, response-to-intervention, formative-assessment
+- 655. [Just Right Reader Take-Everywhere Literacy Packs — Family Engagement](https://evidenceforessa.org/program/just-right-reader-take-everywhere-literacy-packs-family-engagement/) | report | k-12, rct, literacy, early-childhood
 
 ### Harvard University (9)
 
@@ -587,7 +623,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 396. [Urban Institute Education Data Explorer](https://educationdata.urban.org/) | dataset | k-12, higher-ed, open-datasets, data-sharing
 - 486. [Urban Institute Education Data Portal — API Documentation and Data Sources](https://educationdata.urban.org/documentation/) | dataset | open-datasets, k-12, higher-ed, longitudinal
 
-### What Works Clearinghouse (126)
+### What Works Clearinghouse (176)
 
 - 1. [Organizing Instruction and Study to Improve Student Learning](https://ies.ed.gov/ncee/wwc/PracticeGuide/1) | framework | learning-engineering, cognitive-science, k-12, math-strategies, formative-assessment
 - 2. [Using Student Achievement Data to Support Instructional Decision Making](https://ies.ed.gov/ncee/wwc/PracticeGuide/12) | framework | learning-engineering, formative-assessment, k-12, data-sharing, professional-development
@@ -715,6 +751,56 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 135. [New Chance](https://ies.ed.gov/ncee/wwc/InterventionReport/336) | report | higher-ed, career-readiness, dropout-prevention, learning-engineering, wwc
 - 136. [Lovaas Model of Applied Behavior Analysis](https://ies.ed.gov/ncee/wwc/InterventionReport/295) | report | early-childhood, learning-engineering, wwc
 - 137. [Accelerated Middle Schools](https://ies.ed.gov/ncee/wwc/InterventionReport/11) | report | k-12, dropout-prevention, learning-engineering, wwc
+- 570. [Pre-K Mathematics with DLM Early Childhood Express Math](https://ies.ed.gov/ncee/wwc/InterventionReport/381) | report | wwc, rct, early-childhood, math-education, prekindergarten
+- 571. [Literacy Express](https://ies.ed.gov/ncee/wwc/InterventionReport/288) | report | wwc, rct, early-childhood, literacy, prekindergarten, english-learners
+- 572. [Waterford Early Reading Level One](https://ies.ed.gov/ncee/wwc/InterventionReport/541) | report | wwc, rct, early-childhood, literacy, computer-assisted-learning, prekindergarten
+- 573. [SpellRead](https://ies.ed.gov/ncee/wwc/InterventionReport/481) | report | wwc, rct, k-12, literacy
+- 574. [Cooperative Integrated Reading and Composition (CIRC) — Adolescent Literacy](https://ies.ed.gov/ncee/wwc/InterventionReport/111) | report | wwc, rct, k-12, literacy
+- 575. [Lindamood Phoneme Sequencing (LiPS) — Students with Learning Disabilities](https://ies.ed.gov/ncee/wwc/InterventionReport/279) | report | wwc, rct, k-12, literacy
+- 576. [Peer-Assisted Learning Strategies — English Language Learners (Reading)](https://ies.ed.gov/ncee/wwc/InterventionReport/366) | report | wwc, rct, k-12, literacy, english-learners
+- 577. [Peer-Assisted Learning Strategies — Adolescent Literacy](https://ies.ed.gov/ncee/wwc/InterventionReport/367) | report | wwc, rct, k-12, literacy
+- 578. [Reading Apprenticeship — Grade 9 Literacy](https://ies.ed.gov/ncee/wwc/InterventionReport/414) | report | wwc, rct, k-12, literacy, professional-development
+- 579. [Read Naturally — Students with Specific Learning Disabilities](https://ies.ed.gov/ncee/wwc/InterventionReport/409) | report | wwc, rct, k-12, literacy
+- 580. [Reading Recovery — Grade 1 Beginning Reading](https://ies.ed.gov/ncee/wwc/InterventionReport/420) | report | wwc, rct, k-12, literacy, response-to-intervention
+- 581. [Peer-Assisted Learning Strategies — Students with Specific Learning Disabilities](https://ies.ed.gov/ncee/wwc/InterventionReport/569) | report | wwc, rct, k-12, literacy, math-education
+- 582. [The Incredible Years](https://ies.ed.gov/ncee/wwc/InterventionReport/590) | report | wwc, rct, k-12, early-childhood, sel
+- 583. [Chemistry That Applies](https://ies.ed.gov/ncee/wwc/InterventionReport/595) | report | wwc, rct, k-12
+- 584. [GEMS: The Real Reasons for Seasons](https://ies.ed.gov/ncee/wwc/InterventionReport/620) | report | wwc, rct, k-12
+- 585. [Read Naturally — General Literacy Achievement (Adolescent)](https://ies.ed.gov/ncee/wwc/InterventionReport/625) | report | wwc, rct, k-12, literacy, english-learners
+- 586. [Developmental Summer Bridge Programs](https://ies.ed.gov/ncee/wwc/InterventionReport/632) | report | wwc, rct, higher-ed, college-access
+- 587. [TAP: The System for Teacher and Student Advancement](https://ies.ed.gov/ncee/wwc/InterventionReport/637) | report | wwc, rct, k-12, professional-development
+- 588. [New Teacher Center Induction Model](https://ies.ed.gov/ncee/wwc/InterventionReport/638) | report | wwc, rct, k-12, professional-development, coaching
+- 589. [Saxon Algebra I](https://ies.ed.gov/ncee/wwc/InterventionReport/648) | report | wwc, rct, k-12, math-education
+- 590. [First Year Experience Courses for Developmental Education Students](https://ies.ed.gov/ncee/wwc/InterventionReport/651) | report | wwc, rct, higher-ed, college-access, dropout-prevention
+- 591. [Saxon Math — High School Multiple Courses](https://ies.ed.gov/ncee/wwc/InterventionReport/653) | report | wwc, rct, k-12, math-education
+- 592. [Cognitive Tutor Geometry](https://ies.ed.gov/ncee/wwc/InterventionReport/656) | report | wwc, rct, k-12, math-education, computer-assisted-learning, carnegie-learning
+- 593. [Pivotal Response Training](https://ies.ed.gov/ncee/wwc/InterventionReport/668) | report | wwc, rct, k-12, early-childhood
+- 594. [Connected Mathematics Project (CMP)](https://ies.ed.gov/ncee/wwc/InterventionReport/670) | report | wwc, rct, k-12, math-education
+- 595. [Saxon Math — Primary Courses (Grades 1–8)](https://ies.ed.gov/ncee/wwc/InterventionReport/673) | report | wwc, rct, k-12, math-education
+- 596. [TNTP Teaching Fellows](https://ies.ed.gov/ncee/wwc/InterventionReport/675) | report | wwc, rct, k-12, math-education, professional-development
+- 597. [I CAN Learn Algebra](https://ies.ed.gov/ncee/wwc/InterventionReport/677) | report | wwc, rct, k-12, math-education, computer-assisted-learning
+- 598. [Prentice Hall/Pearson Literature (2007–2015)](https://ies.ed.gov/ncee/wwc/InterventionReport/682) | report | wwc, rct, k-12, literacy
+- 599. [Accelerated Math — Primary Mathematics](https://ies.ed.gov/ncee/wwc/InterventionReport/684) | report | wwc, rct, k-12, math-education, computer-assisted-learning, personalized-learning
+- 600. [NBPTS Certification — Student Achievement](https://ies.ed.gov/ncee/wwc/InterventionReport/689) | report | wwc, rct, k-12, math-education, literacy, professional-development
+- 601. [Achieve3000 — Beginning Reading Fluency](https://ies.ed.gov/ncee/wwc/InterventionReport/692) | report | wwc, rct, k-12, literacy, computer-assisted-learning, digital-learning-platforms
+- 602. [Passport Reading Journeys](https://ies.ed.gov/ncee/wwc/InterventionReport/697) | report | wwc, rct, k-12, literacy, computer-assisted-learning
+- 603. [Word Generation](https://ies.ed.gov/ncee/wwc/InterventionReport/704) | report | wwc, rct, k-12, literacy, english-learners
+- 604. [Literacy Design Collaborative (LDC)](https://ies.ed.gov/ncee/wwc/InterventionReport/711) | report | wwc, rct, k-12, literacy, professional-development, writing-instruction
+- 605. [Promoting Alternative Thinking Strategies (PATHS)](https://ies.ed.gov/ncee/wwc/InterventionReport/712) | report | wwc, rct, k-12, sel
+- 606. [Xtreme Reading](https://ies.ed.gov/ncee/wwc/InterventionReport/713) | report | wwc, rct, k-12, literacy
+- 607. [Math Expressions](https://ies.ed.gov/ncee/wwc/InterventionReport/715) | report | wwc, rct, k-12, math-education, early-childhood
+- 608. [University of Chicago School Mathematics Project (UCSMP) Transitions Math](https://ies.ed.gov/ncee/wwc/InterventionReport/717) | report | wwc, rct, k-12, math-education
+- 609. [Social Belonging Intervention](https://ies.ed.gov/ncee/wwc/InterventionReport/720) | report | wwc, rct, higher-ed, student-belonging, college-access
+- 610. [LASER — Science Education Reform (Grades 3–8)](https://ies.ed.gov/ncee/wwc/InterventionReport/721) | report | wwc, rct, k-12, professional-development
+- 611. [Words and Concepts (Pre-K Oral Language Software)](https://ies.ed.gov/ncee/wwc/InterventionReport/550) | report | wwc, rct, early-childhood, literacy, computer-assisted-learning
+- 612. [MyTeachingPartner Pre-K](https://ies.ed.gov/ncee/wwc/InterventionReport/690) | report | wwc, rct, early-childhood, professional-development, coaching, formative-assessment
+- 613. [System of Least Prompts](https://ies.ed.gov/ncee/wwc/InterventionReport/685) | report | wwc, rct, k-12
+- 614. [Harlem Children's Zone Promise Academy Charter Schools](https://ies.ed.gov/ncee/wwc/InterventionReport/687) | report | wwc, rct, k-12
+- 615. [ACT Aspire — Transition to College](https://ies.ed.gov/ncee/wwc/InterventionReport/674) | report | wwc, rct, k-12, college-access, formative-assessment
+- 616. [Prentice Hall Literature (1989–2005)](https://ies.ed.gov/ncee/wwc/InterventionReport/681) | report | wwc, rct, k-12, literacy
+- 617. [Reciprocal Teaching — Students with Learning Disabilities](https://ies.ed.gov/ncee/wwc/InterventionReport/626) | report | wwc, rct, k-12, literacy
+- 618. [UCSMP Advanced Algebra](https://ies.ed.gov/ncee/wwc/InterventionReport/644) | report | wwc, rct, k-12, math-education
+- 619. [Residential Learning Communities](https://ies.ed.gov/ncee/wwc/InterventionReport/629) | report | wwc, rct, higher-ed, student-belonging, college-access
 
 ### Worcester Polytechnic Institute (3)
 

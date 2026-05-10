@@ -144,20 +144,63 @@ def parse_entries(filepath):
     return entries
 
 
+PRIORITY_ORDER = {"high": 0, "medium": 1, "low": 2}
+
+
+def build_coverage(entries):
+    """Build coverage list from source-targets.json + auto-counted indexed totals."""
+    targets_path = os.path.join(WIKI_DIR, "..", "meta", "source-targets.json")
+    try:
+        with open(targets_path, encoding="utf-8") as f:
+            raw = f.read()
+        # Strip _comment key before parsing
+        targets = json.loads(raw)
+        targets.pop("_comment", None)
+    except FileNotFoundError:
+        return []
+
+    indexed_counts = defaultdict(int)
+    for e in entries:
+        if e["source"]:
+            indexed_counts[e["source"]] += 1
+
+    coverage = []
+    for source, meta in targets.items():
+        indexed = indexed_counts.get(source, 0)
+        known_total = meta.get("known_total")
+        pct = round(indexed / known_total * 100) if known_total else None
+        coverage.append({
+            "source": source,
+            "indexed": indexed,
+            "known_total": known_total,
+            "pct": pct,
+            "priority": meta.get("priority", "medium"),
+            "status": meta.get("status", "active"),
+        })
+
+    coverage.sort(key=lambda x: (
+        PRIORITY_ORDER.get(x["priority"], 1),
+        (x["pct"] if x["pct"] is not None else 999),
+    ))
+    return coverage
+
+
 def build_json(entries):
     sources = sorted(set(e["source"] for e in entries if e["source"]))
+    coverage = build_coverage(entries)
     data = {
         "meta": {
             "total": len(entries),
             "last_updated": date.today().isoformat(),
             "sources": sources,
+            "coverage": coverage,
         },
         "entries": entries,
     }
     out = os.path.join(WIKI_DIR, "data.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"[build_tags] Written data.json ({len(entries)} entries)")
+    print(f"[build_tags] Written data.json ({len(entries)} entries, {len(coverage)} coverage rows)")
 
 
 def build_tags(entries):
@@ -273,7 +316,7 @@ def build_full_header(entries):
     tag_counts, type_counts, source_counts = _tag_summary(entries)
 
     lines = [
-        "# Learning Engineering Resource Hub — Full Index",
+        "# Renaissance AI and Education Resource Hub — Full Index",
         f"# {total} entries | Last updated: {today}",
         "#",
         "# HOW TO USE THIS FILE",
@@ -320,7 +363,7 @@ def build_llms_txt(entries):
     tag_counts, type_counts, source_counts = _tag_summary(entries)
 
     lines = [
-        "# Learning Engineering Resource Hub — Compact Index",
+        "# Renaissance AI and Education Resource Hub — Compact Index",
         "",
         f"> {total} curated evidence-based K-12 and higher education resources.",
         f"> Last updated: {today}",
@@ -407,7 +450,7 @@ def build_gem_knowledge(entries):
     tag_counts, type_counts, source_counts = _tag_summary(entries)
 
     lines = [
-        "# Learning Engineering Resource Hub",
+        "# Renaissance AI and Education Resource Hub",
         f"# {total} curated evidence-based K-12 and higher education resources.",
         f"# Last updated: {today}",
         "",

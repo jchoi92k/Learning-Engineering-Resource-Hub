@@ -1,4 +1,4 @@
-# Learning Engineering Resource Hub
+# Renaissance AI and Education Resource Hub
 # 569 curated evidence-based K-12 and higher education resources.
 # Last updated: 2026-05-06
 

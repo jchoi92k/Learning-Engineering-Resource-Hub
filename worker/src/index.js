@@ -78,7 +78,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "search_resources",
     description:
-      "Search the Learning Engineering Resource Hub — 569 curated evidence-based K-12 and higher education resources. Filter by tags, type, source, or keyword. Call list_tags first to see available filter values.",
+      "Search the Renaissance AI and Education Resource Hub — 569 curated evidence-based K-12 and higher education resources. Filter by tags, type, source, or keyword. Call list_tags first to see available filter values.",
     inputSchema: {
       type: "object",
       properties: {
@@ -122,7 +122,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "list_tags",
     description:
-      "List all available tags, types, and sources in the Learning Engineering Resource Hub with entry counts. Call this first to understand what filter values are available before searching.",
+      "List all available tags, types, and sources in the Renaissance AI and Education Resource Hub with entry counts. Call this first to understand what filter values are available before searching.",
     inputSchema: {
       type: "object",
       properties: {},
@@ -146,7 +146,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "get_full_index",
     description:
-      `Get the complete index of all ${data.entries.length} entries in the Learning Engineering Resource Hub. Returns every entry with metadata and descriptions. Use this when you need comprehensive coverage or want to reason over the full corpus. For targeted queries, use search_resources instead.`,
+      `Get the complete index of all ${data.entries.length} entries in the Renaissance AI and Education Resource Hub. Returns every entry with metadata and descriptions. Use this when you need comprehensive coverage or want to reason over the full corpus. For targeted queries, use search_resources instead.`,
     inputSchema: {
       type: "object",
       properties: {
@@ -194,7 +194,7 @@ function handleToolCall(name, args) {
           {
             type: "text",
             text: [
-              `Learning Engineering Resource Hub — ${data.meta.total} entries, updated ${data.meta.last_updated}`,
+              `Renaissance AI and Education Resource Hub — ${data.meta.total} entries, updated ${data.meta.last_updated}`,
               "",
               `Tags: ${sorted(getTagCounts())}`,
               "",
@@ -218,7 +218,7 @@ function handleToolCall(name, args) {
     case "get_full_index": {
       const fmt = args.format || "full";
       const lines = [
-        `# Learning Engineering Resource Hub — Full Index`,
+        `# Renaissance AI and Education Resource Hub — Full Index`,
         `> ${data.meta.total} entries | Updated: ${data.meta.last_updated}`,
         "",
       ];
@@ -262,7 +262,7 @@ function processMcpMessage(msg) {
       return jsonRpc(id, {
         protocolVersion: "2024-11-05",
         capabilities: { tools: {} },
-        serverInfo: { name: "le-resource-hub", version: "1.0.0" },
+        serverInfo: { name: "renaissance-hub", version: "1.0.0" },
       });
     case "tools/list":
       return jsonRpc(id, { tools: TOOL_DEFINITIONS });
@@ -314,7 +314,7 @@ function textResponse(body, status = 200) {
 
 function formatMarkdown({ results, total, limited }) {
   const lines = [];
-  lines.push("# Learning Engineering Resource Hub — Search Results");
+  lines.push("# Renaissance AI and Education Resource Hub — Search Results");
   lines.push("");
   lines.push(
     `> ${total} entries matched. ${limited ? `Showing first ${results.length}. Add &limit=100 for more.` : `Showing all ${results.length}.`}`,
@@ -348,7 +348,7 @@ function helpPage() {
       .map(([k, v]) => `${k} (${v})`)
       .join(", ");
 
-  return `# Learning Engineering Resource Hub — API
+  return `# Renaissance AI and Education Resource Hub — API
 
 > ${data.meta.total} curated evidence-based K-12 and higher education resources.
 > Last updated: ${data.meta.last_updated}

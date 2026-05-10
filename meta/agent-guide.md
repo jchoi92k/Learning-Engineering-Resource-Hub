@@ -1,4 +1,4 @@
-# Learning Engineering Resource Hub — Agent Guide
+# Renaissance AI and Education Resource Hub — Agent Guide
 
 > Read this first. Covers entry format, tag schema, source patterns, current state, and subagent protocol.
 > Written for a cold-starting agent with no prior conversation context.

@@ -29,6 +29,10 @@ oer_indexes_and_registries.md
 poc_notes.md
 policy_frameworks.md
 
+# Private meta notes (contain internal names / strategy — never commit)
+meta/meeting-briefing.md
+meta/post-meeting-notes.md
+
 # Worker build artifacts
 worker/node_modules/
 worker/.wrangler/

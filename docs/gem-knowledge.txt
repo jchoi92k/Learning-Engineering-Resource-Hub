@@ -1,26 +1,26 @@
 # Renaissance AI and Education Resource Hub
-# 915 curated evidence-based K-12 and higher education resources.
+# 931 curated evidence-based K-12 and higher education resources.
 # Last updated: 2026-05-10
 
 ## Tag Directory
 
-**Domain:** k-12 (641), learning-engineering (236), higher-ed (173), literacy (157), math-education (135), early-childhood (88), english-learners (60), school-discipline (20)
+**Domain:** k-12 (656), learning-engineering (236), higher-ed (173), literacy (157), math-education (140), early-childhood (88), english-learners (65), school-discipline (21)
 
-**Method:** longitudinal (107), rct (102), computer-assisted-learning (85), coaching (44), intelligent-tutoring (38), meta-analysis (37), response-to-intervention (33), genai (28), qualitative-research (20), nlp (14), llm-application (13), a-b-testing (7), automated-feedback (7)
+**Method:** longitudinal (118), rct (102), computer-assisted-learning (87), coaching (44), meta-analysis (40), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (22), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
 
-**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), college-access (63), personalized-learning (62), digital-learning-platforms (57), career-readiness (53), sel (49), prekindergarten (28), student-belonging (21), data-sharing (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), attendance (15), pii-privacy (14), writing-instruction (13), math-motivation (4), genai-tutoring (3), math-word-problems (2)
+**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), personalized-learning (64), college-access (63), digital-learning-platforms (57), career-readiness (53), sel (49), prekindergarten (28), data-sharing (22), student-belonging (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), attendance (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
 
-**Affiliation:** digital-promise (254), wwc (167), aims (46), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (10), northwestern-e4 (9), assistments (9), carnegie-learning (6), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), tla (1), casel (1)
+**Affiliation:** digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 
 ## Resource Types
 
-- report: 651 entries
+- report: 664 entries
 - dataset: 104 entries
-- paper: 65 entries
-- framework: 48 entries
+- paper: 66 entries
+- framework: 49 entries
 - platform: 30 entries
 - code: 9 entries
-- blog-post: 4 entries
+- blog-post: 5 entries
 - presentation: 3 entries
 - project-website: 1 entries
 
@@ -29,7 +29,7 @@
 - Digital Promise: 254 entries
 - What Works Clearinghouse: 176 entries
 - Evidence for ESSA: 66 entries
-- AIMS Collaboratory: 46 entries
+- AIMS Collaboratory: 53 entries
 - TNTP: 36 entries
 - National Center for Education Statistics (NCES): 33 entries
 - Journal of Educational Data Mining: 30 entries
@@ -43,6 +43,7 @@
 - Carnegie Mellon University LearnLab: 12 entries
 - IEA: 11 entries
 - Harvard University: 9 entries
+- CREDO at Stanford: 9 entries
 - OECD: 8 entries
 - LEVI Math: 7 entries
 - Stanford CEPA: 4 entries
@@ -9221,6 +9222,166 @@ Tags: digital-promise, k-12, professional-development
 URL: https://digitalpromise.dspacedirect.org/items/ff390b34-bdaf-448f-a1dd-17bb8bd9baa8
 
 This white paper supports an ongoing effort to define a research agenda and catalyze a research community around the OpenSciEd curriculum materials. Rigorous research on these materials is needed in order to answer questions about the equitable design of instructional materials, impacts on student learning, effective and equitable classroom teaching practices, teacher professional development approaches, and models for school adoption that address the diverse needs of historically marginalized students in STEM. Research findings have the potential to advance the knowledge, skills, and practices that will promote key student, teacher, and system outcomes. The research agenda stands to acceler
+
+---
+
+### 916. The Impact of Rhode Island's Charter School Performance Review System
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, meta-analysis, longitudinal
+URL: https://credo.stanford.edu/reports/item/rhode-island-2025/
+
+CREDO at Stanford conducted this research at the request of the Rhode Island Department of Education to examine how the state's charter school landscape changed following implementation of the 2017 updated Charter School Performance Review System. The study addresses how the new performance framework was developed and implemented, how it changed the charter school authorization process and quality standards, and what impact it had on the performance and quality of charter schools in Rhode Island.
+
+---
+
+### 917. National Charter School Study III
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, longitudinal
+URL: https://credo.stanford.edu/reports/item/national-charter-school-study-iii/
+
+The National Charter School Study III is CREDO's third major national examination comparing the academic progress of students enrolled in charter schools with the progress of students enrolled in traditional public schools. Published in 2023, the study employs CREDO's established empirical evaluation methods to assess education reform initiatives and student performance outcomes at primary and secondary levels, and is presented in an interactive digital format alongside downloadable full report documents.
+
+---
+
+### 918. Houston – 2022 City Studies
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, longitudinal, english-learners
+URL: https://credo.stanford.edu/reports/item/houston-tx-2022/
+
+This CREDO report examines academic performance in public K-12 schools in Houston, Texas by analyzing one-year learning gains students made between school years during the 2018-19 growth period. The study compares Houston students' progress against state averages across charter, magnet, and district schools and disaggregates findings by school sector, race/ethnicity, poverty status, English Language Learner status, special education status, and gender. Houston charter school students—including Black and Hispanic subgroups—generally outperformed state averages in both reading and mathematics.
+
+---
+
+### 919. Newark – 2022 City Studies
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, longitudinal, english-learners
+URL: https://credo.stanford.edu/reports/item/newark-nj-2022/
+
+This CREDO research report examines academic performance in Newark, New Jersey's public K-12 schools during the 2018-19 school year by measuring one-year learning gains and comparing results against state averages across charter, magnet, and district school sectors. Newark students demonstrated stronger math growth than the state average, and Black and Hispanic students in Newark charter schools showed notably stronger gains in both subjects compared to state peers. Findings are disaggregated by school sector, charter management structure, race/ethnicity, and student population including economically disadvantaged, English Language Learners, and special education students.
+
+---
+
+### 920. Fort Worth – 2022 City Studies
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, longitudinal, english-learners
+URL: https://credo.stanford.edu/reports/item/fort-worth-tx-2022/
+
+This CREDO report analyzes public K-12 school performance in Fort Worth, Texas during the 2018-19 growth period by measuring one-year learning gains and benchmarking results against state averages. Students overall demonstrated weaker learning gains in reading and similar gains in math compared to the state average, with charter schools outperforming district schools in reading. Findings are disaggregated by race/ethnicity, poverty status, English Language Learner status, special education status, and gender, with English Language Learners in charter schools outperforming both state and district counterparts in reading.
+
+---
+
+### 921. Austin – 2022 City Studies
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, longitudinal, english-learners
+URL: https://credo.stanford.edu/reports/item/austin-tx-2022/
+
+CREDO at Stanford conducted a comprehensive analysis of public school performance in Austin, Texas during the 2018-19 academic period, examining one-year learning gains across charter and district schools and benchmarking against state averages. Austin students demonstrated stronger academic progress in both reading and mathematics compared to statewide averages, with Charter Management Organization-affiliated charter schools outpacing state performance in both subjects. Findings are disaggregated by race/ethnicity, socioeconomic status, English Language Learner status, disability status, and gender.
+
+---
+
+### 922. City Studies: Project Meta-Analysis
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, meta-analysis
+URL: https://credo.stanford.edu/reports/item/city-studies-project-meta-analysis/
+
+CREDO at Stanford's City Studies Project Meta-Analysis provides periodic reports of academic performance for public K-12 schools across selected cities in the United States, offering a foundation for informed evaluation and constructive discussion among stakeholders invested in public education. The project covers two cohorts: Cohort 1 includes ten urban centers (Baton Rouge, Camden, Washington D.C., Denver, Indianapolis, Kansas City, Memphis, New Orleans, San Antonio, and St. Louis) and Cohort 2 covers Austin, Fort Worth, Houston, and Newark. Meta-analysis PDFs are available for both cohorts alongside individual city reports.
+
+---
+
+### 923. 2023 Pace of Learning Report
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, meta-analysis, longitudinal, personalized-learning
+URL: https://credo.stanford.edu/reports/item/2023-pace-of-learning-report/
+
+This CREDO report examines solutions to pandemic-related learning losses in K-12 education, presenting a meta-analysis covering sixteen states and offering empirically grounded estimates for student learning recovery. The analysis argues that conventional interventions focused solely on increased instructional time fail to account for individual student learning rates and their variability, and that addressing the pace of learning itself offers greater potential than simply extending teaching time. National Assessment of Educational Progress results showed regression comparable to pre-NCLB performance levels, underscoring the severity of learning loss across many communities.
+
+---
+
+### 924. Charter School Performance in Rhode Island – 2023
+
+Type: report | Source: CREDO at Stanford
+Tags: k-12, longitudinal
+URL: https://credo.stanford.edu/reports/item/charter-school-performance-in-rhode-island-2023/
+
+The report includes student demographic descriptions, achievement trajectories for charter school students, and charter school impact assessments covering the full sample, school level breakdowns, school quality curve analysis, and findings disaggregated by student subgroups. The findings are intended to establish a foundation for future studies in charter school evaluation and performance measurement within Rhode Island's education system.
+
+---
+
+### 925. Evaluating the Impact of a Mathematics Mastery Learning Platform on Student Achievement
+
+Type: paper | Source: AIMS Collaboratory
+Tags: math-education, k-12, longitudinal, computer-assisted-learning, personalized-learning, aims, carnegie-learning
+URL: https://link.springer.com/chapter/10.1007/978-3-031-72315-5_32
+
+Examines the impact of a mathematics mastery learning platform used by over 500,000 U.S. students in grades 3-8 using multi-year longitudinal panel data. The study improved on prior cross-sectional research by treating each student as their own control to eliminate confounding from time-invariant factors, replicating positive findings on platform usage and test scores. Positive treatment effects did not vary across demographic subgroups, and the authors discuss opportunities for enhanced measurement specificity regarding platform effectiveness. Published in EC-TEL 2024 (Technology Enhanced Learning for Inclusive and Equitable Quality Education); authors include Kodi Weatherholtz, Phillip Grimaldi, Bogdan Yamkovenko, and Kelli Millwood Hill.
+
+---
+
+### 926. GADRRS: Guidance and Agreement for Data Harmony, Responsibility, Retention, and Sharing
+
+Type: framework | Source: AIMS Collaboratory
+Tags: pii-privacy, data-sharing, aims, lastinger-center
+URL: https://lastinger.ufl.edu/data-learning-technology/gadrrs-data-sharing-agreement/
+
+GADRRS is a universal data sharing agreement developed by the UF Lastinger Center in partnership with the AIMS Collaboratory, offering standardized terms for educational data exchanges among schools, districts, researchers, and education technology providers. The framework prioritizes student privacy by establishing protocols for data security and responsible usage, and aims to increase transparency, establish consistent safety protocols, minimize administrative burden, and expand availability of anonymized datasets for research. The agreement has been reviewed by University of Florida legal counsel and enables organizations to make deliberate choices about data access authorization while maintaining rigorous privacy standards.
+
+---
+
+### 927. Motivation and Engagement in the Mathematics Classroom with Kyron Learning
+
+Type: blog-post | Source: AIMS Collaboratory
+Tags: math-education, math-motivation, k-12, english-learners, qualitative-research, llm-application, aims
+URL: https://blog.kyronlearning.com/motivation-and-engagement-in-the-mathematics-classroom-with-kyron-learning
+
+Reports findings from a 2024-2025 school year study evaluating whether AI-powered instruction by Kyron Learning could enhance motivation and engagement among middle school students, with particular focus on English Language Learners. The research involved 22 teachers and nearly 1,000 students across 17 schools, employing a four-cycle rapid iteration design with teacher-created interactive lessons compared against traditional instruction. Quantitatively, student math self-perceptions reached statistical significance favoring Kyron in the final cycle; qualitatively, teachers noted stronger emotional engagement and ELL students benefited from features like pausing, replaying, closed captioning, and vocabulary definitions.
+
+---
+
+### 928. What Kids Have to Say About Math: Results from Focus Groups with Middle Schoolers
+
+Type: report | Source: AIMS Collaboratory
+Tags: math-education, math-motivation, k-12, qualitative-research, aims, lsu
+URL: https://repository.lsu.edu/srec_reports/27/
+
+Examines middle school students' perspectives on mathematics education through focus groups with 39 students at two urban Baton Rouge schools conducted in spring 2025. Key findings show students valued their teachers highly as central to motivation, but test-related anxiety presented a significant obstacle, and many students preferred hands-on, teacher-led approaches over digital tools. Students identified perceiving real-world relevance and career connections as the strongest motivator, and advocated for normalizing mistakes, enabling grade recovery, and clarifying learning objectives. Authors: H. Colleen Sinclair, Kyle Wilson, Avery Ellis, and Norma Martinez (Louisiana State University at Baton Rouge), 2026.
+
+---
+
+### 929. Informing Change: A Final Research Report on the Findings from the Longitudinal R&D Partnership for Math Equity Project
+
+Type: report | Source: AIMS Collaboratory
+Tags: math-education, k-12, longitudinal, computer-assisted-learning, aims, lsu
+URL: https://repository.lsu.edu/srec_reports/31/
+
+Reports findings from a three-year collaborative study between LSU's Social Research and Evaluation Center, East Baton Rouge Parish Schools, and DreamBox Learning examining the effectiveness of DreamBox's technology-based math intervention on student performance. The research addressed three key questions developed with Gates Foundation guidance through longitudinal, multi-method research combining quantitative analysis with qualitative insights from teacher and student focus groups. Published January 2026; authors include H. Colleen Sinclair, Samuel Robison, Youn Kyoung Kim, Stacey R. Terrio, and Judith Lee Falgout Rhodes.
+
+---
+
+### 930. Improving School Discipline, Climate, and Culture: Interactive Guidance for Schools and Districts
+
+Type: report | Source: AIMS Collaboratory
+Tags: k-12, school-discipline, aims, lsu
+URL: https://repository.lsu.edu/srec_reports/13/
+
+An interactive guidance resource helping K-12 school administrators and district leaders foster better educational environments by reducing punitive discipline approaches and building preventive systems. The guide encourages users to think critically about school discipline and invest in data-driven, prevention-oriented systems that address problematic student behaviors while improving school climate and culture. Published June 2024 by Gwendolyn Murray at Louisiana State University at Baton Rouge.
+
+---
+
+### 931. Longitudinal Analysis of Gender Disparities in Mathematics Achievement among Elementary Students
+
+Type: report | Source: AIMS Collaboratory
+Tags: math-education, k-12, longitudinal, aims, northwestern-e4
+URL: https://e4.northwestern.edu/2026/02/18/longitudinal-analysis-of-gender-disparities-in-mathematics-achievement-among-elementary-students/
+
+Investigates how gender differences in mathematics performance develop and change throughout elementary and middle school, analyzing five years of student assessment data across two student cohorts. The research finds that female students often begin elementary school with a modest advantage in mathematics that diminishes as grade levels increase, with gender gaps varying based on district characteristics, student subgroups, and prior achievement rather than following fixed patterns. The author concludes that sustained instructional support and equitable classroom conditions are important for addressing disparities across the elementary through middle school years. Published February 18, 2026 by Kadir Bahar via the Northwestern E4 research brief series.
 
 ---
 

@@ -1,35 +1,35 @@
 # Renaissance AI and Education Resource Hub — Compact Index
 
-> 915 curated evidence-based K-12 and higher education resources.
+> 931 curated evidence-based K-12 and higher education resources.
 > Last updated: 2026-05-10
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
 ## Tags
 
-**Domain:** k-12 (641), learning-engineering (236), higher-ed (173), literacy (157), math-education (135), early-childhood (88), english-learners (60), school-discipline (20)
+**Domain:** k-12 (656), learning-engineering (236), higher-ed (173), literacy (157), math-education (140), early-childhood (88), english-learners (65), school-discipline (21)
 
-**Method:** longitudinal (107), rct (102), computer-assisted-learning (85), coaching (44), intelligent-tutoring (38), meta-analysis (37), response-to-intervention (33), genai (28), qualitative-research (20), nlp (14), llm-application (13), a-b-testing (7), automated-feedback (7)
+**Method:** longitudinal (118), rct (102), computer-assisted-learning (87), coaching (44), meta-analysis (40), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (22), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
 
-**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), college-access (63), personalized-learning (62), digital-learning-platforms (57), career-readiness (53), sel (49), prekindergarten (28), student-belonging (21), data-sharing (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), attendance (15), pii-privacy (14), writing-instruction (13), math-motivation (4), genai-tutoring (3), math-word-problems (2)
+**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), personalized-learning (64), college-access (63), digital-learning-platforms (57), career-readiness (53), sel (49), prekindergarten (28), data-sharing (22), student-belonging (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), attendance (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
 
-**Affiliation:** digital-promise (254), wwc (167), aims (46), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (10), northwestern-e4 (9), assistments (9), carnegie-learning (6), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), tla (1), casel (1)
+**Affiliation:** digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
-- report: 651
+- report: 664
 - dataset: 104
-- paper: 65
-- framework: 48
+- paper: 66
+- framework: 49
 - platform: 30
 - code: 9
-- blog-post: 4
+- blog-post: 5
 - presentation: 3
 - project-website: 1
 
 ---
 
-## Entries (915)
+## Entries (931)
 
 ### ADL Initiative (2)
 
@@ -40,7 +40,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 - 560. [FAB-AI Pedagogy Benchmark Leaderboard](https://www.fab-ai.org/initiatives/ai-for-education/edtech-quality/benchmarks) | platform | learning-engineering, higher-ed
 
-### AIMS Collaboratory (46)
+### AIMS Collaboratory (53)
 
 - 506. [Analyzing Strategies in MATHia with BERT](https://link.springer.com/chapter/10.1007/978-3-031-98465-5_15) | paper | math-strategies, nlp, aims, carnegie-learning
 - 507. ["Can A Language Model Represent Math Strategies?": Learning Math Strategies from Big Data using BERT](https://dl.acm.org/doi/10.1145/3706468.3706558) | paper | math-strategies, nlp, aims
@@ -88,6 +88,13 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 549. [Toward a Common Research Framework for Professional Learning](https://rpplpartnership.org/external-resource/toward-a-common-research-framework-for-pl/) | framework | aims, professional-development, rppl
 - 550. [Understanding the Impact of Educators' Social-Emotional Learning (SEL) Skills on Student Academic Growth](https://e4.northwestern.edu/2024/08/21/understanding-the-impact-of-educators-social-emotional-learning-sel-skills-on-student-academic-growth/) | report | aims, sel, professional-development, northwestern-e4
 - 551. [Curriculum & Learning Improvement Project (CLIP)](https://www.norc.org/research/projects/curriculum-and-learning-improvement-project-clip.html) | project-website | aims, data-sharing, norc
+- 925. [Evaluating the Impact of a Mathematics Mastery Learning Platform on Student Achievement](https://link.springer.com/chapter/10.1007/978-3-031-72315-5_32) | paper | math-education, k-12, longitudinal, computer-assisted-learning, personalized-learning, aims, carnegie-learning
+- 926. [GADRRS: Guidance and Agreement for Data Harmony, Responsibility, Retention, and Sharing](https://lastinger.ufl.edu/data-learning-technology/gadrrs-data-sharing-agreement/) | framework | pii-privacy, data-sharing, aims, lastinger-center
+- 927. [Motivation and Engagement in the Mathematics Classroom with Kyron Learning](https://blog.kyronlearning.com/motivation-and-engagement-in-the-mathematics-classroom-with-kyron-learning) | blog-post | math-education, math-motivation, k-12, english-learners, qualitative-research, llm-application, aims
+- 928. [What Kids Have to Say About Math: Results from Focus Groups with Middle Schoolers](https://repository.lsu.edu/srec_reports/27/) | report | math-education, math-motivation, k-12, qualitative-research, aims, lsu
+- 929. [Informing Change: A Final Research Report on the Findings from the Longitudinal R&D Partnership for Math Equity Project](https://repository.lsu.edu/srec_reports/31/) | report | math-education, k-12, longitudinal, computer-assisted-learning, aims, lsu
+- 930. [Improving School Discipline, Climate, and Culture: Interactive Guidance for Schools and Districts](https://repository.lsu.edu/srec_reports/13/) | report | k-12, school-discipline, aims, lsu
+- 931. [Longitudinal Analysis of Gender Disparities in Mathematics Achievement among Elementary Students](https://e4.northwestern.edu/2026/02/18/longitudinal-analysis-of-gender-disparities-in-mathematics-achievement-among-elementary-students/) | report | math-education, k-12, longitudinal, aims, northwestern-e4
 
 ### Brookings Institution (22)
 
@@ -117,6 +124,18 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 ### CAST (1)
 
 - 10. [CAST Universal Design for Learning Guidelines 3.0](https://udlguidelines.cast.org) | framework | learning-engineering, k-12, inclusive-design, cognitive-science
+
+### CREDO at Stanford (9)
+
+- 916. [The Impact of Rhode Island's Charter School Performance Review System](https://credo.stanford.edu/reports/item/rhode-island-2025/) | report | k-12, meta-analysis, longitudinal
+- 917. [National Charter School Study III](https://credo.stanford.edu/reports/item/national-charter-school-study-iii/) | report | k-12, longitudinal
+- 918. [Houston – 2022 City Studies](https://credo.stanford.edu/reports/item/houston-tx-2022/) | report | k-12, longitudinal, english-learners
+- 919. [Newark – 2022 City Studies](https://credo.stanford.edu/reports/item/newark-nj-2022/) | report | k-12, longitudinal, english-learners
+- 920. [Fort Worth – 2022 City Studies](https://credo.stanford.edu/reports/item/fort-worth-tx-2022/) | report | k-12, longitudinal, english-learners
+- 921. [Austin – 2022 City Studies](https://credo.stanford.edu/reports/item/austin-tx-2022/) | report | k-12, longitudinal, english-learners
+- 922. [City Studies: Project Meta-Analysis](https://credo.stanford.edu/reports/item/city-studies-project-meta-analysis/) | report | k-12, meta-analysis
+- 923. [2023 Pace of Learning Report](https://credo.stanford.edu/reports/item/2023-pace-of-learning-report/) | report | k-12, meta-analysis, longitudinal, personalized-learning
+- 924. [Charter School Performance in Rhode Island – 2023](https://credo.stanford.edu/reports/item/charter-school-performance-in-rhode-island-2023/) | report | k-12, longitudinal
 
 ### Campbell Collaboration (25)
 

@@ -5,26 +5,26 @@
 
 ## Domain
 
-- [k-12](k-12.md) — 656 entries
+- [k-12](k-12.md) — 671 entries
 - [learning-engineering](learning-engineering.md) — 236 entries
-- [higher-ed](higher-ed.md) — 173 entries
-- [literacy](literacy.md) — 157 entries
-- [math-education](math-education.md) — 140 entries
-- [early-childhood](early-childhood.md) — 88 entries
+- [higher-ed](higher-ed.md) — 177 entries
+- [literacy](literacy.md) — 159 entries
+- [math-education](math-education.md) — 141 entries
+- [early-childhood](early-childhood.md) — 90 entries
 - [english-learners](english-learners.md) — 65 entries
-- [school-discipline](school-discipline.md) — 21 entries
+- [school-discipline](school-discipline.md) — 25 entries
 
 ## Method
 
 - [longitudinal](longitudinal.md) — 118 entries
-- [rct](rct.md) — 102 entries
+- [rct](rct.md) — 109 entries
 - [computer-assisted-learning](computer-assisted-learning.md) — 87 entries
+- [meta-analysis](meta-analysis.md) — 60 entries
 - [coaching](coaching.md) — 44 entries
-- [meta-analysis](meta-analysis.md) — 40 entries
 - [intelligent-tutoring](intelligent-tutoring.md) — 38 entries
 - [response-to-intervention](response-to-intervention.md) — 33 entries
 - [genai](genai.md) — 28 entries
-- [qualitative-research](qualitative-research.md) — 22 entries
+- [qualitative-research](qualitative-research.md) — 23 entries
 - [llm-application](llm-application.md) — 14 entries
 - [nlp](nlp.md) — 14 entries
 - [a-b-testing](a-b-testing.md) — 7 entries
@@ -37,18 +37,18 @@
 - [open-datasets](open-datasets.md) — 105 entries
 - [personalized-learning](personalized-learning.md) — 64 entries
 - [college-access](college-access.md) — 63 entries
-- [digital-learning-platforms](digital-learning-platforms.md) — 57 entries
-- [career-readiness](career-readiness.md) — 53 entries
-- [sel](sel.md) — 49 entries
+- [digital-learning-platforms](digital-learning-platforms.md) — 59 entries
+- [career-readiness](career-readiness.md) — 55 entries
+- [sel](sel.md) — 52 entries
 - [prekindergarten](prekindergarten.md) — 28 entries
 - [data-sharing](data-sharing.md) — 22 entries
 - [student-belonging](student-belonging.md) — 21 entries
 - [dropout-prevention](dropout-prevention.md) — 20 entries
+- [attendance](attendance.md) — 19 entries
 - [math-strategies](math-strategies.md) — 18 entries
 - [ai-ethics](ai-ethics.md) — 17 entries
 - [ai-policy](ai-policy.md) — 16 entries
 - [inclusive-design](inclusive-design.md) — 16 entries
-- [attendance](attendance.md) — 15 entries
 - [pii-privacy](pii-privacy.md) — 15 entries
 - [writing-instruction](writing-instruction.md) — 13 entries
 - [math-motivation](math-motivation.md) — 6 entries
@@ -64,6 +64,7 @@
 - [jedm](jedm.md) — 30 entries
 - [lpi](lpi.md) — 30 entries
 - [jla](jla.md) — 25 entries
+- [campbell-collaboration](campbell-collaboration.md) — 20 entries
 - [tools-competition](tools-competition.md) — 18 entries
 - [cmu-learnlab](cmu-learnlab.md) — 17 entries
 - [lsu](lsu.md) — 13 entries

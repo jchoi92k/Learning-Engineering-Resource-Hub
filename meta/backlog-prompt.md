@@ -52,6 +52,9 @@ to understand how much backlog remains.
 - If a page returns 404, 403, or has no readable content: drop it, do not add.
 - `url_confirmed: true` only if you successfully fetched the page.
 
+**Scope filter — you have authority to drop out-of-scope entries:**
+This hub covers K-12 education, higher education, and learning engineering. Drop any entry whose primary subject is NOT education, even if it appears on the source's listing page. Examples of what to drop: military/veteran welfare, adult disability employment (non-educational), cancer survivor rehabilitation, agricultural extension, general labour market interventions with no school or campus component. Ask: "Is learning or teaching the central activity?" If no, drop it. Log dropped entries in the staging file header as "Dropped (out of scope): N — [brief reason]".
+
 ---
 
 ## Step 3 — Stage new entries

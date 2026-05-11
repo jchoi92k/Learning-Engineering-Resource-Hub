@@ -1,16 +1,16 @@
 # Renaissance AI and Education Resource Hub
-# 931 curated evidence-based K-12 and higher education resources.
+# 951 curated evidence-based K-12 and higher education resources.
 # Last updated: 2026-05-10
 
 ## Tag Directory
 
-**Domain:** k-12 (656), learning-engineering (236), higher-ed (173), literacy (157), math-education (140), early-childhood (88), english-learners (65), school-discipline (21)
+**Domain:** k-12 (671), learning-engineering (236), higher-ed (177), literacy (159), math-education (141), early-childhood (90), english-learners (65), school-discipline (25)
 
-**Method:** longitudinal (118), rct (102), computer-assisted-learning (87), coaching (44), meta-analysis (40), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (22), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
+**Method:** longitudinal (118), rct (109), computer-assisted-learning (87), meta-analysis (60), coaching (44), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (23), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
 
-**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), personalized-learning (64), college-access (63), digital-learning-platforms (57), career-readiness (53), sel (49), prekindergarten (28), data-sharing (22), student-belonging (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), attendance (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
+**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), personalized-learning (64), college-access (63), digital-learning-platforms (59), career-readiness (55), sel (52), prekindergarten (28), data-sharing (22), student-belonging (21), dropout-prevention (20), attendance (19), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
 
-**Affiliation:** digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
+**Affiliation:** digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), campbell-collaboration (20), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 
 ## Resource Types
 
@@ -19,6 +19,7 @@
 - paper: 66 entries
 - framework: 49 entries
 - platform: 30 entries
+- review: 20 entries
 - code: 9 entries
 - blog-post: 5 entries
 - presentation: 3 entries
@@ -30,6 +31,7 @@
 - What Works Clearinghouse: 176 entries
 - Evidence for ESSA: 66 entries
 - AIMS Collaboratory: 53 entries
+- Campbell Collaboration: 45 entries
 - TNTP: 36 entries
 - National Center for Education Statistics (NCES): 33 entries
 - Journal of Educational Data Mining: 30 entries
@@ -37,7 +39,6 @@
 - The Education Trust: 30 entries
 - IES Regional Education Labs: 30 entries
 - Journal of Learning Analytics: 25 entries
-- Campbell Collaboration: 25 entries
 - Brookings Institution: 22 entries
 - Tools Competition: 18 entries
 - Carnegie Mellon University LearnLab: 12 entries
@@ -9384,5 +9385,203 @@ URL: https://e4.northwestern.edu/2026/02/18/longitudinal-analysis-of-gender-disp
 Investigates how gender differences in mathematics performance develop and change throughout elementary and middle school, analyzing five years of student assessment data across two student cohorts. The research finds that female students often begin elementary school with a modest advantage in mathematics that diminishes as grade levels increase, with gender gaps varying based on district characteristics, student subgroups, and prior achievement rather than following fixed patterns. The author concludes that sustained instructional support and equitable classroom conditions are important for addressing disparities across the elementary through middle school years. Published February 18, 2026 by Kadir Bahar via the Northwestern E4 research brief series.
 
 ---
+
+### 932. School-Based Law Enforcement Strategies to Reduce Crime, Increase Perceptions of Safety, and Improve Learning Outcomes in Primary and Secondary Schools
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, meta-analysis, school-discipline, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/policing-schools-strategies-primary-and-secondary-schools
+
+This Campbell Collaboration systematic review examines the relationship between school-based law enforcement (SBLE) presence and school outcomes. Analysis of quantitative studies found that schools with SBLE had higher rates of crime and behavior problems than schools without SBLE, driven primarily by increased exclusionary discipline rather than improvements in actual safety. The review concludes that SBLE appears ineffective for maintaining school safety and may produce harmful consequences for students.
+
+---
+
+### 933. The Effects of Small Class Sizes on Students' Academic Achievement, Socioemotional Development and Well-Being in Special Education
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, qualitative-research, meta-analysis, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/effects-of-small-class-sizes-in-special-education
+
+This Campbell systematic review examined the impact of small class sizes in special education on student outcomes, identifying only seven studies across quantitative, qualitative, and mixed-methods designs. Smaller class sizes are the most preferred option among students with special educational needs, their teachers, and school principals due to opportunities for individualized instruction and increased teacher attention. The authors conclude that the impact of small class sizes in special education is under-researched and call for additional research to inform practitioner guidance.
+
+---
+
+### 934. The Effects of Flipped Classrooms to Improve Learning Outcomes in Undergraduate Health Professional Education
+
+Type: review | Source: Campbell Collaboration
+Tags: higher-ed, rct, meta-analysis, digital-learning-platforms, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/flipped-classrooms-undergraduate-health-professional-students
+
+This Campbell systematic review examined 45 studies (11 RCTs) involving 8,426 undergraduate health professional students to assess flipped classroom effectiveness. Findings indicate low certainty of evidence suggesting flipped classrooms, which combine pre-recorded lectures with interactive on-campus sessions, may enhance academic performance and student satisfaction compared to traditional lecture-based instruction. Well-designed studies with larger sample sizes are needed for more rigorous evaluation.
+
+---
+
+### 935. The Effects of Inclusion on Academic Achievement, Socioemotional Development and Wellbeing of Children with Special Educational Needs
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, meta-analysis, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/inclusion-children-with-special-educational-needs
+
+This Campbell Collaboration systematic review and meta-analysis examined 15 non-randomized studies to evaluate whether placing children with special needs in inclusive educational settings versus segregated settings affects their academic achievement and psychosocial adjustment. Key findings indicate that inclusion neither increases nor decreases learning and psychosocial adjustment on average, with effect sizes varying considerably across studies. The authors conclude that placement decisions should be individualized rather than following a one-size-fits-all approach.
+
+---
+
+### 936. Evidence-Informed vs Evidence-Based Practice Educational Interventions for Improving Knowledge, Attitudes, Understanding and Behaviour Among Undergraduate Students
+
+Type: review | Source: Campbell Collaboration
+Tags: higher-ed, meta-analysis, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/application-of-evidence-in-practice-health-social-care-undergradates
+
+This Campbell systematic review examined the effectiveness of evidence-informed versus evidence-based practice educational interventions for undergraduate health and social care students. The review screened 46 full-text articles but identified no studies examining the relative effectiveness of the two approaches, making it impossible to determine which better facilitates evidence application in healthcare practice. The search covered publications from 1996 through June 2019 across all languages.
+
+---
+
+### 937. Single-Track Year-Round Education for Improving Academic Achievement in US K–12 Schools
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, meta-analysis, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/single-track-year-round-k-to-12-schools-usa
+
+This Campbell systematic review synthesized 30 studies comparing student performance in single-track year-round education schools versus traditional-calendar schools. Average student achievement was higher in both reading and math at year-round schools, with gains roughly equivalent to one month of learning, similar to documented summer learning loss. Schools with shorter summer breaks of four to six weeks demonstrated larger achievement improvements than those with seven to eight week breaks.
+
+---
+
+### 938. Recovery Schools for Improving Behavioral and Academic Outcomes Among Students in Recovery from Substance Use Disorders
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, higher-ed, meta-analysis, attendance, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/recovery-schools-students-in-recovery-from-substance-use
+
+This Campbell systematic review examined the effects of recovery schools on student behavioral and academic outcomes, including one quasi-experimental study of recovery high schools with 194 participants. Findings suggest recovery high schools may reduce students' school absenteeism, marijuana use, and other drug use, though they showed no clear advantage for grades, truancy, or alcohol use. The authors concluded there is insufficient evidence to determine effectiveness and recommend additional rigorous evaluations prior to widespread implementation.
+
+---
+
+### 939. What Are the Effects of Teach For America on Math, English Language Arts, and Science Outcomes of K–12 Students in the USA?
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, meta-analysis, math-education, literacy, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/teach-for-america-math-language-arts-science-achievement-united-states
+
+This Campbell systematic review examined how Teach For America-prepared educators impact student learning across mathematics, English language arts, and science in U.S. K-12 schools. From 919 initial citations, only four studies met rigorous methodological standards; these found no significant reading improvements from first- or second-year TFA elementary teachers versus comparable non-TFA novices, though a modest positive effect emerged for early elementary reading. The authors conclude that insufficient high-quality evidence exists to draw firm policy conclusions about TFA's effectiveness.
+
+---
+
+### 940. E-Learning of Evidence-Based Healthcare to Increase Competencies in Healthcare Professionals
+
+Type: review | Source: Campbell Collaboration
+Tags: higher-ed, rct, meta-analysis, digital-learning-platforms, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/e-learning-evidence-based-competencies-healthcare-professionals
+
+This Campbell systematic review examined the effectiveness of e-learning in improving evidence-based healthcare knowledge and practice among healthcare professionals, including 24 trials with 3,825 participants across various disciplines. Pure e-learning improves knowledge and skills but not attitudes and behavior compared to no learning, while showing no advantage over face-to-face approaches; however, blended learning outperforms no learning across all outcomes and surpasses face-to-face learning in improving attitudes and behavior. The authors recommend future research focus on specific e-learning components and comprehensive intervention reporting.
+
+---
+
+### 941. Parental, Community and Familial Support Interventions to Improve Children's Literacy in Developing Countries
+
+Type: review | Source: Campbell Collaboration
+Tags: early-childhood, k-12, literacy, meta-analysis, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/parental-community-family-support-literacy
+
+This Campbell systematic review examined 13 studies assessing interventions involving parents, families, or community members to improve literacy for children aged 3-12 in developing countries. Parent training and child-to-child tutoring are not effective, with eight of nine outcomes showing no significant results; however, educational television appears to improve literacy with frequent viewing at three to five times weekly over several months. The review identifies substantial gaps in empirical evidence for most literacy models implemented by governments and NGOs globally.
+
+---
+
+### 942. Early Intensive Behavioral Intervention (EIBI) for Young Children with Autism Spectrum Disorders
+
+Type: review | Source: Campbell Collaboration
+Tags: early-childhood, rct, meta-analysis, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/early-intensive-behavioural-intervention-children-autism
+
+This systematic review examined early intensive behavioral intervention involving 20-40 hours weekly of applied behavior analysis for young children with autism, analyzing one RCT and four clinical control trials totaling 203 participants. Results showed positive effects across adaptive behavior, IQ, expressive and receptive language, socialization, and daily living skills, with effect sizes ranging from g=0.42 to g=0.76. However, the current state of evidence is limited due to reliance on non-randomized studies and was rated as low quality, indicating additional randomized trials are needed.
+
+---
+
+### 943. School-Based Interventions to Reduce Dating and Sexual Violence
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, meta-analysis, school-discipline, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/school-based-interventions-dating-and-sexual-violence
+
+This Campbell systematic review examined 23 studies on school-based programs (grades 6-12) designed to prevent teen dating and sexual violence. While interventions showed moderate improvements in knowledge about dating violence and more accepting attitudes toward conflict resolution, they have little impact on actual behavior change. The review concludes that existing programs require redesign to better support behavioral change and recommends future research emphasize measuring behaviors alongside attitudes and expand beyond North America.
+
+---
+
+### 944. Relative Effectiveness of Conditional and Unconditional Cash Transfers for Schooling Outcomes in Developing Countries
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, rct, meta-analysis, attendance, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/effectiveness-of-cash-transfers-for-schooling-outcomes
+
+This Campbell systematic review evaluated 35 studies examining conditional and unconditional cash transfer programmes' effects on education outcomes in low- and middle-income countries. Both program types increase school enrollment compared to no intervention, though effects on learning outcomes remain limited. The analysis reveals that conditions that are strictly monitored and enforced produce substantially larger enrollment gains, increasing odds by 60% versus under 20% for programmes without conditions.
+
+---
+
+### 945. Pre-Graduation Transition Services for Persons with Autism Spectrum Disorders: Effects on Employment Outcomes
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, meta-analysis, career-readiness, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/employment-outcomes-persons-with-autism
+
+This systematic review examined pre-graduation interventions for secondary school-age individuals (ages 14-22) with autism spectrum disorder designed to facilitate competitive employment. After searching 30 databases covering 1943-2011 and narrowing 5,665 citations to 85 full-text reviews, no studies were identified that met all inclusion criteria. The authors concluded that despite regulations supporting transition programming, rigorous experimental research on employment intervention effectiveness remains scarce and urgently needed.
+
+---
+
+### 946. Technical and Vocational Education and Training (TVET) Interventions to Improve the Employability and Employment of Young People in Low- and Middle-Income Countries
+
+Type: review | Source: Campbell Collaboration
+Tags: meta-analysis, career-readiness, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/technical-vocational-education-training-interventions
+
+This Campbell systematic review examined 26 studies across multiple regions to assess whether TVET interventions enhanced employment outcomes for youth aged 15-24 in developing nations. TVET interventions have a small but positive effect on all but one of the employment outcomes measured, though considerable variation existed between studies, with lower-quality research showing inflated effects. The review emphasizes the need for more rigorous future program evaluations and notes that selecting affordable and culturally suitable models may be prudent absent stronger comparative evidence.
+
+---
+
+### 947. Interventions in Developing Nations for Improving Primary and Secondary School Enrollments
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, rct, meta-analysis, attendance, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/improving-school-enrolment-developing-nations
+
+This systematic review examined 73 randomized controlled trials and quasi-experiments published through December 2009 to assess interventions in low- and middle-income countries on student enrollment, attendance, graduation, and progression. Results showed positive effects across all outcomes, with enrollment showing the largest average effect size (d=.18) and infrastructure interventions for new schools demonstrating the strongest results (d=.44). Effects were modest, representing three to nine percent increases in positive outcomes, and policymakers should evaluate whether such gains justify implementation costs.
+
+---
+
+### 948. Social Skills Groups for People Aged 6 to 21 with Autism Spectrum Disorders
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, rct, meta-analysis, sel, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/social-skills-groups-people-aged-6-to-21-autism-spectrum-disorders
+
+This systematic review examined five randomized controlled trials involving 196 participants to evaluate whether social skills groups help individuals aged 6-21 with autism spectrum disorder. Findings indicate some evidence that social skills groups improve overall social competence and friendship quality, though no significant improvements were found in emotion recognition, understanding of idioms, or most quality-of-life outcomes. The authors conclude that while social skills groups show promise for enhancing social competence, additional rigorous research is needed to establish more definitive conclusions.
+
+---
+
+### 949. School Feeding for Improving the Physical and Psychosocial Health of Disadvantaged Students
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, rct, meta-analysis, attendance, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/school-feeding-disadvantaged-students-improving-health
+
+This systematic review evaluated whether school feeding programs enhance health outcomes for economically disadvantaged pupils, analyzing 18 studies examining weight gain, height, school attendance, and academic achievement. Results indicated modest positive effects, particularly in lower-income countries where children gained approximately 0.39-0.71 kg over study periods and showed improved attendance and math performance. The reviewers concluded that school meals may provide small benefits and recommended additional well-designed research with standardized outcome reporting.
+
+---
+
+### 950. The Effects of School-Based Social Information Processing Interventions on Aggressive Behavior, Part I: Universal Programs
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, meta-analysis, school-discipline, sel, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/school-based-interventions-aggressive-behaviour-part1
+
+This systematic review analyzed 73 studies of universal classroom programs aimed at improving children's ability to interpret social situations to reduce aggressive and disruptive behaviour. Findings indicate that brief, intensive interventions of 8-16 weeks prove more effective than extended year-long programs, with social information processing interventions training children through six cognitive stages from encoding cues to behavioral enactment. The research demonstrates that emphasizing thought patterns rather than direct behavior modification strengthens children's general social competencies and reduces aggression across diverse populations.
+
+---
+
+### 951. The Effects of School-Based Social Information Processing Interventions on Aggressive Behavior, Part II: Selected/Indicated Pull-Out Programs
+
+Type: review | Source: Campbell Collaboration
+Tags: k-12, meta-analysis, school-discipline, sel, campbell-collaboration
+URL: https://www.campbellcollaboration.org/review/school-based-interventions-aggressive-behaviour-part2
+
+This Campbell systematic review examined school-based education programmes targeting children's ability to interpret social situations to reduce aggressive behaviour, covering 47 studies of interventions delivered to selected children with behavioural problems or at-risk populations. Students who participated exhibited notably reduced aggressive and disruptive conduct compared to non-participants, with particularly strong effects for pull-out programmes serving at-risk groups outside regular classrooms. This companion review to Part I focuses specifically on targeted interventions rather than universal programs and demonstrates stronger effects for higher-risk populations.
 
 ---

@@ -1,19 +1,19 @@
 # Renaissance AI and Education Resource Hub — Compact Index
 
-> 931 curated evidence-based K-12 and higher education resources.
+> 951 curated evidence-based K-12 and higher education resources.
 > Last updated: 2026-05-10
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
 ## Tags
 
-**Domain:** k-12 (656), learning-engineering (236), higher-ed (173), literacy (157), math-education (140), early-childhood (88), english-learners (65), school-discipline (21)
+**Domain:** k-12 (671), learning-engineering (236), higher-ed (177), literacy (159), math-education (141), early-childhood (90), english-learners (65), school-discipline (25)
 
-**Method:** longitudinal (118), rct (102), computer-assisted-learning (87), coaching (44), meta-analysis (40), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (22), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
+**Method:** longitudinal (118), rct (109), computer-assisted-learning (87), meta-analysis (60), coaching (44), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (23), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
 
-**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), personalized-learning (64), college-access (63), digital-learning-platforms (57), career-readiness (53), sel (49), prekindergarten (28), data-sharing (22), student-belonging (21), dropout-prevention (20), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), attendance (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
+**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), personalized-learning (64), college-access (63), digital-learning-platforms (59), career-readiness (55), sel (52), prekindergarten (28), data-sharing (22), student-belonging (21), dropout-prevention (20), attendance (19), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
 
-**Affiliation:** digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
+**Affiliation:** digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), campbell-collaboration (20), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
@@ -22,6 +22,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - paper: 66
 - framework: 49
 - platform: 30
+- review: 20
 - code: 9
 - blog-post: 5
 - presentation: 3
@@ -29,7 +30,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 ---
 
-## Entries (931)
+## Entries (951)
 
 ### ADL Initiative (2)
 
@@ -137,7 +138,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 923. [2023 Pace of Learning Report](https://credo.stanford.edu/reports/item/2023-pace-of-learning-report/) | report | k-12, meta-analysis, longitudinal, personalized-learning
 - 924. [Charter School Performance in Rhode Island – 2023](https://credo.stanford.edu/reports/item/charter-school-performance-in-rhode-island-2023/) | report | k-12, longitudinal
 
-### Campbell Collaboration (25)
+### Campbell Collaboration (45)
 
 - 284. [Targeted School-Based Interventions for Improving Reading and Mathematics for Students with or at Risk of Academic Difficulties in Grades K–6](https://www.campbellcollaboration.org/review/improving-reading-mathematics-academic-difficulties-grade-k-6) | report | k-12, literacy, meta-analysis, rct, response-to-intervention, personalized-learning
 - 285. [Targeted School-Based Interventions for Improving Reading and Mathematics for Students with or at Risk of Academic Difficulties in Grades 7–12](https://www.campbellcollaboration.org/review/improving-reading-mathematics-academic-difficulties-grade-7-12) | report | k-12, literacy, math-education, meta-analysis, rct, response-to-intervention
@@ -164,6 +165,26 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 306. ['No Excuses' Charter Schools for Increasing Math and Literacy Achievement in Primary and Secondary Education](https://www.campbellcollaboration.org/review/charter-schools-maths-and-literacy-primary-and-secondary-education) | report | k-12, meta-analysis, rct, math-education, literacy
 - 307. [Self-Management Interventions for Reducing Challenging Behaviors Among School-Age Students](https://www.campbellcollaboration.org/review/self-management-interventions-school-student-behaviour) | report | k-12, meta-analysis, sel, school-discipline, formative-assessment
 - 308. [The Effect of Linguistic Comprehension Instruction on Generalized Language and Reading Comprehension Skills](https://www.campbellcollaboration.org/review/linguistic-training-effect-on-language-and-reading-comprehension) | report | k-12, early-childhood, literacy, meta-analysis, rct
+- 932. [School-Based Law Enforcement Strategies to Reduce Crime, Increase Perceptions of Safety, and Improve Learning Outcomes in Primary and Secondary Schools](https://www.campbellcollaboration.org/review/policing-schools-strategies-primary-and-secondary-schools) | review | k-12, meta-analysis, school-discipline, campbell-collaboration
+- 933. [The Effects of Small Class Sizes on Students' Academic Achievement, Socioemotional Development and Well-Being in Special Education](https://www.campbellcollaboration.org/review/effects-of-small-class-sizes-in-special-education) | review | k-12, qualitative-research, meta-analysis, campbell-collaboration
+- 934. [The Effects of Flipped Classrooms to Improve Learning Outcomes in Undergraduate Health Professional Education](https://www.campbellcollaboration.org/review/flipped-classrooms-undergraduate-health-professional-students) | review | higher-ed, rct, meta-analysis, digital-learning-platforms, campbell-collaboration
+- 935. [The Effects of Inclusion on Academic Achievement, Socioemotional Development and Wellbeing of Children with Special Educational Needs](https://www.campbellcollaboration.org/review/inclusion-children-with-special-educational-needs) | review | k-12, meta-analysis, campbell-collaboration
+- 936. [Evidence-Informed vs Evidence-Based Practice Educational Interventions for Improving Knowledge, Attitudes, Understanding and Behaviour Among Undergraduate Students](https://www.campbellcollaboration.org/review/application-of-evidence-in-practice-health-social-care-undergradates) | review | higher-ed, meta-analysis, campbell-collaboration
+- 937. [Single-Track Year-Round Education for Improving Academic Achievement in US K–12 Schools](https://www.campbellcollaboration.org/review/single-track-year-round-k-to-12-schools-usa) | review | k-12, meta-analysis, campbell-collaboration
+- 938. [Recovery Schools for Improving Behavioral and Academic Outcomes Among Students in Recovery from Substance Use Disorders](https://www.campbellcollaboration.org/review/recovery-schools-students-in-recovery-from-substance-use) | review | k-12, higher-ed, meta-analysis, attendance, campbell-collaboration
+- 939. [What Are the Effects of Teach For America on Math, English Language Arts, and Science Outcomes of K–12 Students in the USA?](https://www.campbellcollaboration.org/review/teach-for-america-math-language-arts-science-achievement-united-states) | review | k-12, meta-analysis, math-education, literacy, campbell-collaboration
+- 940. [E-Learning of Evidence-Based Healthcare to Increase Competencies in Healthcare Professionals](https://www.campbellcollaboration.org/review/e-learning-evidence-based-competencies-healthcare-professionals) | review | higher-ed, rct, meta-analysis, digital-learning-platforms, campbell-collaboration
+- 941. [Parental, Community and Familial Support Interventions to Improve Children's Literacy in Developing Countries](https://www.campbellcollaboration.org/review/parental-community-family-support-literacy) | review | early-childhood, k-12, literacy, meta-analysis, campbell-collaboration
+- 942. [Early Intensive Behavioral Intervention (EIBI) for Young Children with Autism Spectrum Disorders](https://www.campbellcollaboration.org/review/early-intensive-behavioural-intervention-children-autism) | review | early-childhood, rct, meta-analysis, campbell-collaboration
+- 943. [School-Based Interventions to Reduce Dating and Sexual Violence](https://www.campbellcollaboration.org/review/school-based-interventions-dating-and-sexual-violence) | review | k-12, meta-analysis, school-discipline, campbell-collaboration
+- 944. [Relative Effectiveness of Conditional and Unconditional Cash Transfers for Schooling Outcomes in Developing Countries](https://www.campbellcollaboration.org/review/effectiveness-of-cash-transfers-for-schooling-outcomes) | review | k-12, rct, meta-analysis, attendance, campbell-collaboration
+- 945. [Pre-Graduation Transition Services for Persons with Autism Spectrum Disorders: Effects on Employment Outcomes](https://www.campbellcollaboration.org/review/employment-outcomes-persons-with-autism) | review | k-12, meta-analysis, career-readiness, campbell-collaboration
+- 946. [Technical and Vocational Education and Training (TVET) Interventions to Improve the Employability and Employment of Young People in Low- and Middle-Income Countries](https://www.campbellcollaboration.org/review/technical-vocational-education-training-interventions) | review | meta-analysis, career-readiness, campbell-collaboration
+- 947. [Interventions in Developing Nations for Improving Primary and Secondary School Enrollments](https://www.campbellcollaboration.org/review/improving-school-enrolment-developing-nations) | review | k-12, rct, meta-analysis, attendance, campbell-collaboration
+- 948. [Social Skills Groups for People Aged 6 to 21 with Autism Spectrum Disorders](https://www.campbellcollaboration.org/review/social-skills-groups-people-aged-6-to-21-autism-spectrum-disorders) | review | k-12, rct, meta-analysis, sel, campbell-collaboration
+- 949. [School Feeding for Improving the Physical and Psychosocial Health of Disadvantaged Students](https://www.campbellcollaboration.org/review/school-feeding-disadvantaged-students-improving-health) | review | k-12, rct, meta-analysis, attendance, campbell-collaboration
+- 950. [The Effects of School-Based Social Information Processing Interventions on Aggressive Behavior, Part I: Universal Programs](https://www.campbellcollaboration.org/review/school-based-interventions-aggressive-behaviour-part1) | review | k-12, meta-analysis, school-discipline, sel, campbell-collaboration
+- 951. [The Effects of School-Based Social Information Processing Interventions on Aggressive Behavior, Part II: Selected/Indicated Pull-Out Programs](https://www.campbellcollaboration.org/review/school-based-interventions-aggressive-behaviour-part2) | review | k-12, meta-analysis, school-discipline, sel, campbell-collaboration
 
 ### Carnegie Mellon University / Educational Testing Service (1)
 

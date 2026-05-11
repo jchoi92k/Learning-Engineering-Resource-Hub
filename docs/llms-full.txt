@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Full Index
-# 951 entries | Last updated: 2026-05-10
+# 981 entries | Last updated: 2026-05-10
 #
 # HOW TO USE THIS FILE
 # This file contains all entries with full descriptions — everything is here.
@@ -9,14 +9,14 @@
 # Do NOT attempt to fetch other files. This file is self-contained.
 #
 # TAGS
-# Domain: k-12 (671), learning-engineering (236), higher-ed (177), literacy (159), math-education (141), early-childhood (90), english-learners (65), school-discipline (25)
-# Method: longitudinal (118), rct (109), computer-assisted-learning (87), meta-analysis (60), coaching (44), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (23), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
-# Topic: professional-development (120), formative-assessment (109), open-datasets (105), personalized-learning (64), college-access (63), digital-learning-platforms (59), career-readiness (55), sel (52), prekindergarten (28), data-sharing (22), student-belonging (21), dropout-prevention (20), attendance (19), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
+# Domain: k-12 (700), learning-engineering (236), higher-ed (183), literacy (161), math-education (142), early-childhood (92), english-learners (68), school-discipline (29)
+# Method: longitudinal (137), rct (109), computer-assisted-learning (88), meta-analysis (60), coaching (44), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (27), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
+# Topic: professional-development (129), formative-assessment (120), open-datasets (105), college-access (74), personalized-learning (64), digital-learning-platforms (61), sel (61), career-readiness (57), student-belonging (32), prekindergarten (28), dropout-prevention (28), attendance (24), data-sharing (22), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
 # Affiliation: digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), campbell-collaboration (20), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 #
-# TYPES: report (664), dataset (104), paper (66), framework (49), platform (30), review (20), code (9), blog-post (5), presentation (3), project-website (1)
+# TYPES: report (693), dataset (104), paper (66), framework (50), platform (30), review (20), code (9), blog-post (5), presentation (3), project-website (1)
 #
-# SOURCES: Digital Promise (254), What Works Clearinghouse (176), Evidence for ESSA (66), AIMS Collaboratory (53), Campbell Collaboration (45), TNTP (36), National Center for Education Statistics (NCES) (33), Journal of Educational Data Mining (30), Learning Policy Institute (30), The Education Trust (30), IES Regional Education Labs (30), Journal of Learning Analytics (25), Brookings Institution (22), Tools Competition (18), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), CREDO at Stanford (9), OECD (8), LEVI Math (7), Stanford CEPA (4), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1)
+# SOURCES: Digital Promise (254), What Works Clearinghouse (176), Evidence for ESSA (66), AIMS Collaboratory (53), Campbell Collaboration (45), TNTP (36), National Center for Education Statistics (NCES) (33), Journal of Educational Data Mining (30), Learning Policy Institute (30), The Education Trust (30), IES Regional Education Labs (30), UChicago Consortium on School Research (30), Journal of Learning Analytics (25), Brookings Institution (22), Tools Competition (18), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), CREDO at Stanford (9), OECD (8), LEVI Math (7), Stanford CEPA (4), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1)
 ---
 
 ### 1. Organizing Instruction and Study to Improve Student Learning
@@ -15260,3 +15260,485 @@ tags: [k-12, meta-analysis, school-discipline, sel, campbell-collaboration]
 ```
 
 This Campbell systematic review examined school-based education programmes targeting children's ability to interpret social situations to reduce aggressive behaviour, covering 47 studies of interventions delivered to selected children with behavioural problems or at-risk populations. Students who participated exhibited notably reduced aggressive and disruptive conduct compared to non-participants, with particularly strong effects for pull-out programmes serving at-risk groups outside regular classrooms. This companion review to Part I focuses specifically on targeted interventions rather than universal programs and demonstrates stronger effects for higher-risk populations.
+
+---
+
+### 952. Understanding 5Essentials School Averages and School Climate Malleability
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/5Essentials-2026-malleability-and-student-groups"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, formative-assessment, student-belonging, sel]
+```
+
+Published May 2026. Examines the extent to which school climate is responsive to improvement efforts, the interrelationships among all five essentials, and how likely the essentials are to improve over time. Also investigates how well school averages represent the range of student experiences within Chicago Public Schools.
+
+---
+
+### 953. Research Agenda 2026–30
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/research-agenda-2026-30"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, higher-ed, professional-development]
+```
+
+Published April 2026. Sets forth a five-year research agenda continuing some Consortium studies and outlining new investigations, reflecting stakeholder input and emphasizing research that is collaborative, responsive, and rooted in the communities served. The document outlines five priority focus areas for investigations into Chicago's educational system and commits to specific methodological approaches.
+
+---
+
+### 954. Combining Early Grade Assessments to Study Literacy Skills
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/combining-early-grade-assessments-to-study-literacy-skills"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, literacy, early-childhood, english-learners, formative-assessment, longitudinal]
+```
+
+Published April 2026. Addresses considerable variability in literacy assessments taken in Kindergarten through second grade across schools, between multilingual learners and other students, and within students over time. Researchers examined several popular early grade assessments, developed latent scores of literacy development, and found that each assessment provides predictive information toward third-grade literacy outcomes with considerable overlap, enabling the production of metrics for studying school and district policies around literacy development.
+
+---
+
+### 955. Supports for Centering Student Experience
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/supports-for-centering-student-experience"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, qualitative-research, formative-assessment, student-belonging, professional-development]
+```
+
+Published March 2026. A field scan examining how educators utilize student experience data, identifying three key topics: shifting adult mindsets in shaping the use of student experience data, engaging students in data analysis, and fostering alignment across systems. Participants acknowledged technical and cultural challenges while expressing optimism about improvement potential through this work.
+
+---
+
+### 956. Co-Designing New Approaches to School Safety
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/co-designing-new-approaches-to-school-safety"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, qualitative-research, sel, school-discipline, student-belonging]
+```
+
+Published March 2026. A field scan capturing experiences of Chicago Public School officials and Community-Based Organization leaders who served on the district's Whole School Safety Steering Committee and co-developed the Whole School Safety Framework between 2020 and 2024. Community leaders viewed the co-design process as healing and restorative, finding that the framework helped ground safety plans in individual communities' perspectives, facilitated power-sharing, and supported the reimagining of safety with impact measured across student and family engagement and outcomes.
+
+---
+
+### 957. Connection, Trust, and Learning: Student Attendance in the Middle and High School Grades Following the COVID-19 Pandemic
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/connection-trust-and-learning"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, attendance, student-belonging, sel]
+```
+
+Published January 2026. Examines absenteeism in Chicago among students in grades 6–11, comparing post-pandemic to pre-pandemic years, finding that absenteeism increased significantly following COVID-19 while students' academic achievement remained strongly related to their attendance. Notably, school climate is strongly associated with attendance, and the connection is even stronger today than before the COVID-19 pandemic.
+
+---
+
+### 958. Illinois High School to Career Series: Precarious Prospects and Promising Pathways
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/illinois-high-school-to-career-series"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, higher-ed, career-readiness, college-access, longitudinal, dropout-prevention]
+```
+
+Published December 2025. Tracks Illinois high school seniors from 2008–2012 through post-secondary education and into the workforce, examining demographic characteristics, degree attainment, and career earnings variation by household income level. Finds that while higher education correlates with higher earnings across all backgrounds, students from lower-income families earned less than peers with identical credentials, and that some sub-baccalaureate pathways led to good jobs — particularly benefiting men.
+
+---
+
+### 959. The Educational Attainment of Chicago Public Schools Students (2024)
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2024"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, higher-ed, college-access, longitudinal, dropout-prevention]
+```
+
+Published December 2025. Annual report examining how CPS students progress toward and through high school and college, tracking three key milestones: high school graduation, college enrollment, and college completion. Calculates an updated Post-secondary Attainment Index representing the proportion of current CPS ninth-graders who would complete any degree or certificate from a two-year or four-year college within ten years if current attainment rates held constant.
+
+---
+
+### 960. Parent Advisory Councils
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/parent-advisory-councils"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, qualitative-research, professional-development]
+```
+
+Published November 2025. Reviews what is currently known about parent councils in the United States — both their implementation and impact — in order to provide parents, educators, and family engagement practitioners with guidance on building better parent councils. Synthesizes existing research to inform how councils can be structured and supported for greater effectiveness.
+
+---
+
+### 961. Using Data to Improve Schools
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/using-data-to-improve-schools"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, formative-assessment, professional-development, attendance, dropout-prevention]
+```
+
+Published November 2025. Addresses common myths and assumptions that divert attention from the data that matter most, and provides guidance on using systems for continuous improvement such as Early Warning Indicator (EWI) and Multi-Tiered Systems of Support (MTSS). Explains how schools can improve key performance areas — including attendance, test scores, and graduation rates — by identifying high-impact metrics and fostering a collaborative culture of improvement.
+
+---
+
+### 962. Organizing Schools for Improvement: Lessons from Chicago
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/organizing-schools-improvement-lessons-chicago"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, professional-development, math-education, literacy]
+```
+
+Published January 2010. Provides a detailed analysis of why students in 100 public elementary schools in Chicago substantially improved in reading and math over a seven-year period while students in another 100 schools did not. Identifies five essential supports for improvement — school leadership, professional capacity, parent-community ties, student-centered learning climate, and instructional guidance — and examines how community context shapes school improvement efforts.
+
+---
+
+### 963. Foundations for Young Adult Success: A Developmental Framework
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/foundations-young-adult-success-developmental-framework"
+type: framework
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, early-childhood, sel, career-readiness, college-access, student-belonging]
+```
+
+Published June 2015. Draws on wide-ranging evidence to show what young people need to develop from preschool to young adulthood to succeed in college and career, have healthy relationships, be engaged citizens, and make wise choices. Finds that rich experiences combining action and reflection help children develop critical skills, attitudes, and behaviors, while emphasizing that policies should ensure all children have consistent, supportive relationships — particularly for disadvantaged youth who face significant opportunity gaps.
+
+---
+
+### 964. Supporting Social, Emotional, and Academic Development: Research Implications for Educators
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/supporting-social-emotional-academic-development-research-implications-educators"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, sel, professional-development, student-belonging, formative-assessment]
+```
+
+Published October 2018. Designed to help teachers and principals support equitable outcomes for all students by synthesizing UChicago Consortium research on school climate's influence on student achievement alongside other education research. Emphasizes the critical role of engagement and mindsets in student success and examines how educators can create strong school climates that support students, engage families as partners, and enable all students to have strong academic engagement.
+
+---
+
+### 965. Predictive Power of Grades and Other Indicators for English Learners
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/predictive-power-of-grades-and-other-indicators-for-english-learners"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, english-learners, longitudinal, college-access, dropout-prevention, formative-assessment]
+```
+
+Published July 2025. Examines how various indicators predict high school graduation and college outcomes for different groups of English Learners who entered ninth grade between 2008–2017 in Chicago Public Schools, challenging the field's reliance on standardized test scores. Finds that GPAs were the most predictive of high school graduation, college enrollment, and degree completion for all English Learner groups, consistent with findings for non-English Learners.
+
+---
+
+### 966. Variability in the Grades Teachers Give: Teacher Grade Value-Add, Mismatch, and Long-Term Effects
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/variability-in-the-grades-teachers-give"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, formative-assessment, professional-development]
+```
+
+Published June 2025. Examines systematic differences in ninth-grade teachers' effects on students' course grades and their lasting influence on academic outcomes, finding that teacher effects are stable across years and predictive of students' long-term outcomes including eleventh-grade ACT scores, graduating GPA, and high school graduation. The analysis reveals that persistent effects from ninth-grade teachers correlate with long-term academic benefits, though the relationship between grading mismatches and outcomes shows more complex patterns.
+
+---
+
+### 967. Disparate Teacher Effects, Comparative Advantage, and Match Quality
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/disparate-teacher-effects-comparative-advantage-and-match-quality"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, professional-development]
+```
+
+Published June 2025. Addresses whether teacher impacts vary across student subgroups and how this knowledge could enhance policy effectiveness, developing a new analytical approach introducing "revealed comparative advantage" as a measure capturing how teachers affect outcome gaps between groups. The methodological framework has implications for both policy efficiency and equity in education, showing that a teacher's comparative advantage for one subgroup can yield substantial test score improvements for that group with no effect on others.
+
+---
+
+### 968. Using the Freshman On-Track Indicator to Improve High Schools in Chicago
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/using-the-freshman-on-track-indicator-to-improve-high-schools-in-chicago"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, dropout-prevention, formative-assessment, attendance, college-access]
+```
+
+Published April 2025. Explains how Chicago Public Schools improved graduation rates through an iterative research-policy-practice process over fifteen years, centering on the Freshman OnTrack indicator that signals a student's likelihood of graduating and is used for goal-setting and accountability. The system includes real-time data reports, diagnostic tools, research findings, and staff support structures designed to keep ninth-grade students on track for high school completion.
+
+---
+
+### 969. How Did Chicago Connected Broadband Access Affect Remote Learning During COVID-19?
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/how-did-chicago-connected-broadband-access-eligibility-and-participation-affect-remote-learning-engagement-and-achievement-during-the-COVID-19-pandemic"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, digital-learning-platforms, longitudinal, computer-assisted-learning]
+```
+
+Published March 2025. Examined the educational effects of Chicago Connected, a broadband internet expansion initiative, analyzing whether eligibility for and participation in the program affected engagement in remote learning during fall 2020 and GPAs in fall 2020 and spring 2021 among grades 5–8 students. Provides evidence on how home internet access shaped student academic outcomes during the COVID-19 pandemic's shift to remote instruction.
+
+---
+
+### 970. Student Experiences through the COVID-19 Pandemic: Attendance, Online Learning Platform Use, and Annual Survey Reports
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/student-experiences-through-the-COVID-19-pandemic"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, attendance, digital-learning-platforms, sel, student-belonging]
+```
+
+Published February 2025. Examines student experiences in Chicago Public Schools across grades K–12 during the remote/hybrid school year (2020–21) and two subsequent recovery years through 2022–23, addressing attendance patterns, online learning platform engagement, and 5Essentials Survey results measuring school relationships and academic engagement. Documents changes in instructional time, student-teacher relationships, social skills, perseverance, and perceived support systems during the pandemic disruption.
+
+---
+
+### 971. Early Insights from the Revalidation of the Cultivate Survey
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/early-insights-from-the-revalidation-of-the-cultivate-survey"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, formative-assessment, student-belonging, sel, qualitative-research]
+```
+
+Published January 2025. Examines whether the Cultivate Survey accurately and reliably measures students' experiences of learning conditions in Chicago Public Schools and whether improvements in those conditions predict increases in students' sense of feeling valued. Finds the survey reliably captures learning conditions across all student groups without bias, and that improving students' experiences of their learning conditions from fall to spring predicts substantial and positive changes in how valued students feel.
+
+---
+
+### 972. English Learners in Chicago Public Schools: A Spotlight on High School Students
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/english-learners-in-chicago-public-schools-a-spotlight-on-high-school-students"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, english-learners, college-access, longitudinal, dropout-prevention]
+```
+
+Published November 2024. Examines high school outcomes, college enrollment, and two-year persistence rates for English Learners in Chicago Public Schools, distinguishing between students who remained English Learners in high school and those who previously held that classification. Finds that formerly classified English Learners demonstrated higher-than-average outcomes in GPA, SAT scores, and college persistence, while long-term English Learners faced greater academic challenges and late-arriving English Learners showed mixed results.
+
+---
+
+### 973. The Educational Attainment of Chicago Public Schools Students (2023)
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2023"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, higher-ed, college-access, longitudinal, dropout-prevention]
+```
+
+Published October 2024. Annual report tracking how CPS students progress on the path to and through high school and college, examining high school graduation, college enrollment, and college completion milestones and tracking how rates have changed across time. Calculates a Post-secondary Attainment Index representing the proportion of current CPS ninth-graders projected to complete any degree or certificate from a two-year or four-year college within ten years.
+
+---
+
+### 974. Measuring Patterns of Immediate and Continued College Enrollment among CPS Graduates
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/measuring-patterns-of-immediate-and-continued-college-enrollment-among-CPSs-graduates"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, higher-ed, college-access, longitudinal]
+```
+
+Published October 2024. Examines the To&Through Project's definitions and measurement approaches for college enrollment and persistence metrics for Chicago Public Schools graduates, clarifying how immediate college enrollment is defined and how college persistence rates are calculated. Reports rates for both associate and bachelor's degree institutions and explains methodological updates to ensure accurate tracking of student pathways through post-secondary education.
+
+---
+
+### 975. Removing Police Officers from Chicago Schools: Trends and Outcomes
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/removing-police-officers-from-Chicago-schools"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, school-discipline, student-belonging]
+```
+
+Published June 2024. Examines what happened when Chicago Public Schools began removing School Resource Officers from its high schools during the 2020–21 school year, finding that schools removed SROs without detrimental changes in student disciplinary outcomes or perceptions of school climate. Research was conducted by investigators from the UChicago Consortium, University of Illinois Urbana-Champaign, and Lurie Children's Hospital's Center for Childhood Resilience.
+
+---
+
+### 976. Mitigating the Academic Impacts of Proximity to Homicide: The Role of Schools
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/mitigating-the-academic-impacts-of-proximity-to-homicide"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, sel, student-belonging, school-discipline]
+```
+
+Published June 2024. Examines how community violence affects Chicago Public Schools students and whether schools can protect them from these impacts, demonstrating that schools can and do mitigate the negative impacts of adversity that young people experience. Key findings reveal that proximity to homicide negatively affected academic performance, but schools with strong climates featuring engaging instruction and trusting relationships helped counteract these effects.
+
+---
+
+### 977. Who Benefits From Attending Effective Schools? Examining Heterogeneity in High School Impacts
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/who-benefits-from-attending-effective-schools"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, longitudinal, college-access, dropout-prevention]
+```
+
+Published May 2024. Examines how students with different educational backgrounds benefit from attending effective high schools, finding that all students benefit but the least advantaged students experience the largest improvements in high school graduation, college-going, and school-based arrests. Highlights that less advantaged students gain the most from schools' non-test-score dimensions of quality, though more advantaged students are disproportionately likely to attend the most effective schools.
+
+---
+
+### 978. The Four Years Fallacy: Four-Year vs. Six-Year Bachelor's Degree Completion Rates
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/the-four-years-fallacy"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [higher-ed, college-access, longitudinal]
+```
+
+Published December 2023. Joint study by the UChicago Consortium and the To&Through Project examining important differences between four-year and six-year completion rates for Chicago Public Schools graduates who received bachelor's degrees, investigating completion trends for 2004–14 CPS graduates across different colleges, high schools, student GPAs, ACT scores, and demographic groups. Finds that while only 30% of CPS graduates completed degrees within four years, this rate increased to 51% when measured over six years — with significant implications for how institutions and policymakers measure college success.
+
+---
+
+### 979. Family Playbook: Effective Principal Leadership
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/family-playbook-effective-principal-leadership"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, professional-development, formative-assessment]
+```
+
+Published June 2025. Helps parents and community leaders better understand what great principals do and how to work together to build strong, supportive school communities, addressing what research says effective principals do, how parents can work with principals, and how to use data to learn more about their school. Includes supplementary materials for Local School Council members on principal hiring, evaluation, and support.
+
+---
+
+### 980. Family Playbook: How Can We Understand Students' Progress in School?
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/family-playbook-how-can-we-understand-students-progress-in-school"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, formative-assessment, attendance, college-access]
+```
+
+Published March 2025. Provides families with key information and research to support informed decision-making, emphasizing that grades and attendance from pre-K through 12th grade are the most important ingredients for students' success in and after high school. Addresses what research indicates about grades, attendance, standardized tests, and on-track metrics, and how families can collaborate with Chicago Public Schools educators to access and act on this information.
+
+---
+
+### 981. Family Playbook: School Suspensions, Discipline and Restorative Justice
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/family-playbook-school-suspensions-discipline-restorative-justice"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+date_added: 2026-05-10
+tags: [k-12, school-discipline, sel, student-belonging]
+```
+
+Published June 2024. Helps parents understand discipline data and research, covering how suspensions impact all students, disparities in suspension rates, and the benefits of restorative justice approaches in schools. Provides concrete actions parents can take to learn more about their child's school's approach to school discipline and school climate.
+
+---

@@ -1,26 +1,26 @@
 # Renaissance AI and Education Resource Hub — Compact Index
 
-> 951 curated evidence-based K-12 and higher education resources.
+> 981 curated evidence-based K-12 and higher education resources.
 > Last updated: 2026-05-10
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
 ## Tags
 
-**Domain:** k-12 (671), learning-engineering (236), higher-ed (177), literacy (159), math-education (141), early-childhood (90), english-learners (65), school-discipline (25)
+**Domain:** k-12 (700), learning-engineering (236), higher-ed (183), literacy (161), math-education (142), early-childhood (92), english-learners (68), school-discipline (29)
 
-**Method:** longitudinal (118), rct (109), computer-assisted-learning (87), meta-analysis (60), coaching (44), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (23), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
+**Method:** longitudinal (137), rct (109), computer-assisted-learning (88), meta-analysis (60), coaching (44), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (27), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
 
-**Topic:** professional-development (120), formative-assessment (109), open-datasets (105), personalized-learning (64), college-access (63), digital-learning-platforms (59), career-readiness (55), sel (52), prekindergarten (28), data-sharing (22), student-belonging (21), dropout-prevention (20), attendance (19), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
+**Topic:** professional-development (129), formative-assessment (120), open-datasets (105), college-access (74), personalized-learning (64), digital-learning-platforms (61), sel (61), career-readiness (57), student-belonging (32), prekindergarten (28), dropout-prevention (28), attendance (24), data-sharing (22), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
 
 **Affiliation:** digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), campbell-collaboration (20), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
-- report: 664
+- report: 693
 - dataset: 104
 - paper: 66
-- framework: 49
+- framework: 50
 - platform: 30
 - review: 20
 - code: 9
@@ -30,7 +30,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 ---
 
-## Entries (951)
+## Entries (981)
 
 ### ADL Initiative (2)
 
@@ -910,6 +910,39 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 - 563. [pyBKT — Python Bayesian Knowledge Tracing](https://github.com/CAHLR/pyBKT) | code | learning-engineering, intelligent-tutoring
 - 568. [OATutor — Open-Source Adaptive Tutoring System](https://github.com/CAHLR/OATutor) | code | intelligent-tutoring, personalized-learning, k-12
+
+### UChicago Consortium on School Research (30)
+
+- 952. [Understanding 5Essentials School Averages and School Climate Malleability](https://consortium.uchicago.edu/publications/5Essentials-2026-malleability-and-student-groups) | report | k-12, longitudinal, formative-assessment, student-belonging, sel
+- 953. [Research Agenda 2026–30](https://consortium.uchicago.edu/publications/research-agenda-2026-30) | report | k-12, higher-ed, professional-development
+- 954. [Combining Early Grade Assessments to Study Literacy Skills](https://consortium.uchicago.edu/publications/combining-early-grade-assessments-to-study-literacy-skills) | report | k-12, literacy, early-childhood, english-learners, formative-assessment, longitudinal
+- 955. [Supports for Centering Student Experience](https://consortium.uchicago.edu/publications/supports-for-centering-student-experience) | report | k-12, qualitative-research, formative-assessment, student-belonging, professional-development
+- 956. [Co-Designing New Approaches to School Safety](https://consortium.uchicago.edu/publications/co-designing-new-approaches-to-school-safety) | report | k-12, qualitative-research, sel, school-discipline, student-belonging
+- 957. [Connection, Trust, and Learning: Student Attendance in the Middle and High School Grades Following the COVID-19 Pandemic](https://consortium.uchicago.edu/publications/connection-trust-and-learning) | report | k-12, longitudinal, attendance, student-belonging, sel
+- 958. [Illinois High School to Career Series: Precarious Prospects and Promising Pathways](https://consortium.uchicago.edu/publications/illinois-high-school-to-career-series) | report | k-12, higher-ed, career-readiness, college-access, longitudinal, dropout-prevention
+- 959. [The Educational Attainment of Chicago Public Schools Students (2024)](https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2024) | report | k-12, higher-ed, college-access, longitudinal, dropout-prevention
+- 960. [Parent Advisory Councils](https://consortium.uchicago.edu/publications/parent-advisory-councils) | report | k-12, qualitative-research, professional-development
+- 961. [Using Data to Improve Schools](https://consortium.uchicago.edu/publications/using-data-to-improve-schools) | report | k-12, formative-assessment, professional-development, attendance, dropout-prevention
+- 962. [Organizing Schools for Improvement: Lessons from Chicago](https://consortium.uchicago.edu/publications/organizing-schools-improvement-lessons-chicago) | report | k-12, longitudinal, professional-development, math-education, literacy
+- 963. [Foundations for Young Adult Success: A Developmental Framework](https://consortium.uchicago.edu/publications/foundations-young-adult-success-developmental-framework) | framework | k-12, early-childhood, sel, career-readiness, college-access, student-belonging
+- 964. [Supporting Social, Emotional, and Academic Development: Research Implications for Educators](https://consortium.uchicago.edu/publications/supporting-social-emotional-academic-development-research-implications-educators) | report | k-12, sel, professional-development, student-belonging, formative-assessment
+- 965. [Predictive Power of Grades and Other Indicators for English Learners](https://consortium.uchicago.edu/publications/predictive-power-of-grades-and-other-indicators-for-english-learners) | report | k-12, english-learners, longitudinal, college-access, dropout-prevention, formative-assessment
+- 966. [Variability in the Grades Teachers Give: Teacher Grade Value-Add, Mismatch, and Long-Term Effects](https://consortium.uchicago.edu/publications/variability-in-the-grades-teachers-give) | report | k-12, longitudinal, formative-assessment, professional-development
+- 967. [Disparate Teacher Effects, Comparative Advantage, and Match Quality](https://consortium.uchicago.edu/publications/disparate-teacher-effects-comparative-advantage-and-match-quality) | report | k-12, longitudinal, professional-development
+- 968. [Using the Freshman On-Track Indicator to Improve High Schools in Chicago](https://consortium.uchicago.edu/publications/using-the-freshman-on-track-indicator-to-improve-high-schools-in-chicago) | report | k-12, longitudinal, dropout-prevention, formative-assessment, attendance, college-access
+- 969. [How Did Chicago Connected Broadband Access Affect Remote Learning During COVID-19?](https://consortium.uchicago.edu/publications/how-did-chicago-connected-broadband-access-eligibility-and-participation-affect-remote-learning-engagement-and-achievement-during-the-COVID-19-pandemic) | report | k-12, digital-learning-platforms, longitudinal, computer-assisted-learning
+- 970. [Student Experiences through the COVID-19 Pandemic: Attendance, Online Learning Platform Use, and Annual Survey Reports](https://consortium.uchicago.edu/publications/student-experiences-through-the-COVID-19-pandemic) | report | k-12, longitudinal, attendance, digital-learning-platforms, sel, student-belonging
+- 971. [Early Insights from the Revalidation of the Cultivate Survey](https://consortium.uchicago.edu/publications/early-insights-from-the-revalidation-of-the-cultivate-survey) | report | k-12, formative-assessment, student-belonging, sel, qualitative-research
+- 972. [English Learners in Chicago Public Schools: A Spotlight on High School Students](https://consortium.uchicago.edu/publications/english-learners-in-chicago-public-schools-a-spotlight-on-high-school-students) | report | k-12, english-learners, college-access, longitudinal, dropout-prevention
+- 973. [The Educational Attainment of Chicago Public Schools Students (2023)](https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2023) | report | k-12, higher-ed, college-access, longitudinal, dropout-prevention
+- 974. [Measuring Patterns of Immediate and Continued College Enrollment among CPS Graduates](https://consortium.uchicago.edu/publications/measuring-patterns-of-immediate-and-continued-college-enrollment-among-CPSs-graduates) | report | k-12, higher-ed, college-access, longitudinal
+- 975. [Removing Police Officers from Chicago Schools: Trends and Outcomes](https://consortium.uchicago.edu/publications/removing-police-officers-from-Chicago-schools) | report | k-12, longitudinal, school-discipline, student-belonging
+- 976. [Mitigating the Academic Impacts of Proximity to Homicide: The Role of Schools](https://consortium.uchicago.edu/publications/mitigating-the-academic-impacts-of-proximity-to-homicide) | report | k-12, longitudinal, sel, student-belonging, school-discipline
+- 977. [Who Benefits From Attending Effective Schools? Examining Heterogeneity in High School Impacts](https://consortium.uchicago.edu/publications/who-benefits-from-attending-effective-schools) | report | k-12, longitudinal, college-access, dropout-prevention
+- 978. [The Four Years Fallacy: Four-Year vs. Six-Year Bachelor's Degree Completion Rates](https://consortium.uchicago.edu/publications/the-four-years-fallacy) | report | higher-ed, college-access, longitudinal
+- 979. [Family Playbook: Effective Principal Leadership](https://consortium.uchicago.edu/publications/family-playbook-effective-principal-leadership) | report | k-12, professional-development, formative-assessment
+- 980. [Family Playbook: How Can We Understand Students' Progress in School?](https://consortium.uchicago.edu/publications/family-playbook-how-can-we-understand-students-progress-in-school) | report | k-12, formative-assessment, attendance, college-access
+- 981. [Family Playbook: School Suspensions, Discipline and Restorative Justice](https://consortium.uchicago.edu/publications/family-playbook-school-suspensions-discipline-restorative-justice) | report | k-12, school-discipline, sel, student-belonging
 
 ### UNESCO (3)
 

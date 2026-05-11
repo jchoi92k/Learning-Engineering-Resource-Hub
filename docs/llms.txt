@@ -1,23 +1,23 @@
 # Renaissance AI and Education Resource Hub — Compact Index
 
-> 981 curated evidence-based K-12 and higher education resources.
+> 1011 curated evidence-based K-12 and higher education resources.
 > Last updated: 2026-05-10
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
 ## Tags
 
-**Domain:** k-12 (700), learning-engineering (236), higher-ed (183), literacy (161), math-education (142), early-childhood (92), english-learners (68), school-discipline (29)
+**Domain:** k-12 (727), learning-engineering (236), higher-ed (183), literacy (174), math-education (152), early-childhood (97), english-learners (72), school-discipline (29)
 
-**Method:** longitudinal (137), rct (109), computer-assisted-learning (88), meta-analysis (60), coaching (44), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (27), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
+**Method:** longitudinal (137), rct (109), computer-assisted-learning (90), meta-analysis (60), coaching (44), intelligent-tutoring (38), response-to-intervention (33), genai (28), qualitative-research (27), nlp (14), llm-application (14), a-b-testing (7), automated-feedback (7)
 
-**Topic:** professional-development (129), formative-assessment (120), open-datasets (105), college-access (74), personalized-learning (64), digital-learning-platforms (61), sel (61), career-readiness (57), student-belonging (32), prekindergarten (28), dropout-prevention (28), attendance (24), data-sharing (22), math-strategies (18), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
+**Topic:** professional-development (129), formative-assessment (120), open-datasets (105), college-access (75), digital-learning-platforms (64), personalized-learning (64), sel (64), career-readiness (58), student-belonging (32), prekindergarten (31), dropout-prevention (29), attendance (24), data-sharing (22), math-strategies (20), ai-ethics (17), ai-policy (16), inclusive-design (16), pii-privacy (15), writing-instruction (13), math-motivation (6), genai-tutoring (3), math-word-problems (2)
 
-**Affiliation:** digital-promise (254), wwc (167), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), campbell-collaboration (20), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
+**Affiliation:** digital-promise (254), wwc (197), aims (53), jedm (30), lpi (30), edtrust (30), jla (25), campbell-collaboration (20), tools-competition (18), cmu-learnlab (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
-- report: 693
+- report: 723
 - dataset: 104
 - paper: 66
 - framework: 50
@@ -30,7 +30,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 ---
 
-## Entries (981)
+## Entries (1011)
 
 ### ADL Initiative (2)
 
@@ -959,7 +959,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 396. [Urban Institute Education Data Explorer](https://educationdata.urban.org/) | dataset | k-12, higher-ed, open-datasets, data-sharing
 - 486. [Urban Institute Education Data Portal — API Documentation and Data Sources](https://educationdata.urban.org/documentation/) | dataset | open-datasets, k-12, higher-ed, longitudinal
 
-### What Works Clearinghouse (176)
+### What Works Clearinghouse (206)
 
 - 1. [Organizing Instruction and Study to Improve Student Learning](https://ies.ed.gov/ncee/wwc/PracticeGuide/1) | framework | learning-engineering, cognitive-science, k-12, math-strategies, formative-assessment
 - 2. [Using Student Achievement Data to Support Instructional Decision Making](https://ies.ed.gov/ncee/wwc/PracticeGuide/12) | framework | learning-engineering, formative-assessment, k-12, data-sharing, professional-development
@@ -1137,6 +1137,36 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 617. [Reciprocal Teaching — Students with Learning Disabilities](https://ies.ed.gov/ncee/wwc/InterventionReport/626) | report | wwc, rct, k-12, literacy
 - 618. [UCSMP Advanced Algebra](https://ies.ed.gov/ncee/wwc/InterventionReport/644) | report | wwc, rct, k-12, math-education
 - 619. [Residential Learning Communities](https://ies.ed.gov/ncee/wwc/InterventionReport/629) | report | wwc, rct, higher-ed, student-belonging, college-access
+- 982. [Accelerated Reader](https://ies.ed.gov/ncee/wwc/InterventionReport/12) | report | literacy, k-12, wwc
+- 983. [Accelerated Reader (English Language Learners)](https://ies.ed.gov/ncee/wwc/InterventionReport/13) | report | literacy, k-12, english-learners, computer-assisted-learning, wwc
+- 984. [AEGIS (Acquiring Ethical Guidelines for Individual Self Governance)](https://ies.ed.gov/ncee/wwc/InterventionReport/15) | report | k-12, sel, wwc
+- 985. [Active Early Learning Kit for Pre-K by Steck-Vaughn](https://ies.ed.gov/ncee/wwc/InterventionReport/16) | report | early-childhood, prekindergarten, wwc
+- 986. [Active Learning (Early Childhood)](https://ies.ed.gov/ncee/wwc/InterventionReport/17) | report | early-childhood, prekindergarten, wwc
+- 987. [Addison-Wesley Mathematics Basal Program](https://ies.ed.gov/ncee/wwc/InterventionReport/18) | report | math-education, k-12, wwc
+- 988. [AVID (Advancement via Individual Determination)](https://ies.ed.gov/ncee/wwc/InterventionReport/19) | report | literacy, k-12, college-access, career-readiness, wwc
+- 989. [Adventures of Jasper Woodbury Series](https://ies.ed.gov/ncee/wwc/InterventionReport/21) | report | math-education, k-12, digital-learning-platforms, wwc
+- 990. [ALAS (Achievement for Latinos through Academic Success)](https://ies.ed.gov/ncee/wwc/InterventionReport/22) | report | k-12, dropout-prevention, english-learners, wwc
+- 991. [Algebra Project](https://ies.ed.gov/ncee/wwc/InterventionReport/23) | report | math-education, k-12, wwc
+- 992. [Algebraic Thinking](https://ies.ed.gov/ncee/wwc/InterventionReport/24) | report | math-education, k-12, math-strategies, wwc
+- 993. [Alpha-Time](https://ies.ed.gov/ncee/wwc/InterventionReport/25) | report | literacy, k-12, wwc
+- 994. [Alphabetic Phonics](https://ies.ed.gov/ncee/wwc/InterventionReport/26) | report | literacy, k-12, wwc
+- 995. [AlphabiTunes](https://ies.ed.gov/ncee/wwc/InterventionReport/27) | report | literacy, k-12, wwc
+- 996. [Als speciale kleuter tel je ook me! (Young Children with Special Needs Count, Too!)](https://ies.ed.gov/ncee/wwc/InterventionReport/28) | report | math-education, k-12, early-childhood, wwc
+- 997. [America's Choice (Beginning Reading)](https://ies.ed.gov/ncee/wwc/InterventionReport/29) | report | literacy, k-12, wwc
+- 998. [Appalachia Model Mathematics Program](https://ies.ed.gov/ncee/wwc/InterventionReport/31) | report | math-education, k-12, wwc
+- 999. [Arthur (English Language Development)](https://ies.ed.gov/ncee/wwc/InterventionReport/32) | report | literacy, k-12, early-childhood, english-learners, digital-learning-platforms, wwc
+- 1000. [Athens Tutorial Program](https://ies.ed.gov/ncee/wwc/InterventionReport/35) | report | literacy, k-12, wwc
+- 1001. [ATTLAS (Augmenting Thinking Through Language Acquisition Skills)](https://ies.ed.gov/ncee/wwc/InterventionReport/36) | report | english-learners, k-12, wwc
+- 1002. [Concept-Oriented Reading Instruction (CORI) — Adolescent Literacy](https://ies.ed.gov/ncee/wwc/InterventionReport/103) | report | literacy, k-12, wwc
+- 1003. [Connect with Kids](https://ies.ed.gov/ncee/wwc/InterventionReport/104) | report | k-12, sel, wwc
+- 1004. [Connecting Math Concepts (CMC)](https://ies.ed.gov/ncee/wwc/InterventionReport/107) | report | math-education, k-12, math-strategies, wwc
+- 1005. [Consistency Management](https://ies.ed.gov/ncee/wwc/InterventionReport/108) | report | math-education, k-12, wwc
+- 1006. [CORD Applied Math](https://ies.ed.gov/ncee/wwc/InterventionReport/113) | report | math-education, k-12, wwc
+- 1007. [Corrective Reading](https://ies.ed.gov/ncee/wwc/InterventionReport/121) | report | literacy, k-12, wwc
+- 1008. [DaisyQuest](https://ies.ed.gov/ncee/wwc/InterventionReport/128) | report | literacy, early-childhood, prekindergarten, computer-assisted-learning, digital-learning-platforms, wwc
+- 1009. [Heartwood Ethics Curriculum (An Ethics Curriculum for Children)](https://ies.ed.gov/ncee/wwc/InterventionReport/212) | report | k-12, sel, wwc
+- 1010. [Heath Mathematics Connections](https://ies.ed.gov/ncee/wwc/InterventionReport/213) | report | math-education, k-12, wwc
+- 1011. [Herman Method](https://ies.ed.gov/ncee/wwc/InterventionReport/214) | report | literacy, k-12, wwc
 
 ### Worcester Polytechnic Institute (3)
 

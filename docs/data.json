@@ -1,6 +1,6 @@
 {
   "meta": {
-    "total": 981,
+    "total": 1011,
     "last_updated": "2026-05-10",
     "sources": [
       "ADL Initiative",
@@ -62,9 +62,9 @@
       },
       {
         "source": "What Works Clearinghouse",
-        "indexed": 176,
+        "indexed": 206,
         "known_total": 648,
-        "pct": 27,
+        "pct": 32,
         "priority": "high",
         "status": "active"
       },
@@ -15813,7 +15813,472 @@
         "sel",
         "student-belonging"
       ],
-      "desc": "Helps parents understand discipline data and research, covering how suspensions impact all students, disparities in suspension rates, and the benefits of restorative justice approaches in schools. Provides concrete actions parents can take to learn more about their child's school's approach to school discipline and school climate.\n\n---",
+      "desc": "Helps parents understand discipline data and research, covering how suspensions impact all students, disparities in suspension rates, and the benefits of restorative justice approaches in schools. Provides concrete actions parents can take to learn more about their child's school's approach to school discipline and school climate.",
+      "domain": "research"
+    },
+    {
+      "num": 982,
+      "title": "Accelerated Reader",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/12",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "Accelerated Reader is a computerized supplementary reading tool for grades 1–8 in which students select books based on interest and reading level and then take computerized comprehension quizzes. The WWC reviewed 2 studies that met standards out of 11 eligible studies. The program was found to have mixed effects on comprehension and no discernible effects on reading fluency for beginning readers.",
+      "domain": "research"
+    },
+    {
+      "num": 983,
+      "title": "Accelerated Reader (English Language Learners)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/13",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "english-learners",
+        "computer-assisted-learning",
+        "wwc"
+      ],
+      "desc": "This WWC intervention report examines Accelerated Reader, a computerized supplementary reading program for grades K–12, within the scope of the English Language Learners review protocol. No studies of the program met WWC evidence standards for this population. Consequently, the WWC was unable to draw research-based conclusions about the program's effectiveness for English learners.",
+      "domain": "research"
+    },
+    {
+      "num": 984,
+      "title": "AEGIS (Acquiring Ethical Guidelines for Individual Self Governance)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/15",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "sel",
+        "wwc"
+      ],
+      "desc": "AEGIS is a K–6 character education program that teaches ethical behavior through seven core concepts—including worth and potential, fairness and justice, and personal integrity—delivered via 35 integrated curriculum lessons using a five-step instructional process. As of June 2007, the WWC found no studies meeting its design standards and was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 985,
+      "title": "Active Early Learning Kit for Pre-K by Steck-Vaughn",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/16",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "early-childhood",
+        "prekindergarten",
+        "wwc"
+      ],
+      "desc": "This WWC report covers the Active Early Learning Kit for Pre-K by Steck-Vaughn, an early childhood education intervention. As of December 2005, no studies of this program fell within the scope of the Early Childhood Education review protocol and met WWC design standards. The WWC therefore could not draw research-based conclusions regarding the intervention's effectiveness or ineffectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 986,
+      "title": "Active Learning (Early Childhood)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/17",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "early-childhood",
+        "prekindergarten",
+        "wwc"
+      ],
+      "desc": "This WWC report examines Active Learning as an early childhood education intervention. No studies meeting WWC design standards were found as of December 2005. The organization could not draw any research-based conclusions about the effectiveness or ineffectiveness of Active Learning for improving early childhood outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 987,
+      "title": "Addison-Wesley Mathematics Basal Program",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/18",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "The Addison-Wesley Mathematics basal program is a middle school mathematics curriculum reviewed by the WWC. As of July 2007, no studies of this program fell within the scope of the Middle School Math review protocol and met WWC design standards. The WWC was unable to draw research-based conclusions about the program's effectiveness for improving middle school mathematics outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 988,
+      "title": "AVID (Advancement via Individual Determination)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/19",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "college-access",
+        "career-readiness",
+        "wwc"
+      ],
+      "desc": "AVID (Advancement via Individual Determination) is a college-readiness initiative for grades 9–12 that places middle-achieving students in advanced courses with academic support, including daily elective tutoring. The WWC reviewed 1 qualifying study out of 8 eligible studies under the Adolescent Literacy protocol. The program was found to have no discernible effects on reading comprehension for adolescent learners.",
+      "domain": "policy"
+    },
+    {
+      "num": 989,
+      "title": "Adventures of Jasper Woodbury Series",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/21",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "digital-learning-platforms",
+        "wwc"
+      ],
+      "desc": "The Adventures of Jasper Woodbury Series is a videodisc-based mathematics curriculum for grade 5 and above, consisting of 12 problem-based adventures aligned with NCTM standards and connecting to science, social studies, and literature. The WWC reviewed this program under the Elementary School Mathematics protocol and found no qualifying studies as of July 2007. The WWC was unable to draw research-based conclusions about the program's effectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 990,
+      "title": "ALAS (Achievement for Latinos through Academic Success)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/22",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "dropout-prevention",
+        "english-learners",
+        "wwc"
+      ],
+      "desc": "ALAS (Achievement for Latinos through Academic Success) is a dropout prevention program for grades 7–9 that assigns each student a counselor/mentor who monitors attendance, behavior, and grades while providing student training in problem-solving and parent training in school engagement. One qualifying study was reviewed, showing potentially positive effects on both staying in school and progressing in school through ninth grade. The sample was 96% Hispanic, 91% receiving free/reduced-price lunch, and 23% English learners in an urban California setting.",
+      "domain": "research"
+    },
+    {
+      "num": 991,
+      "title": "Algebra Project",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/23",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "The Algebra Project is a middle school mathematics curriculum reviewed by the WWC under the Middle School Math protocol. As of July 2007, no studies of the program were found that met WWC design standards within the scope of the review. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness for improving middle school mathematics outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 992,
+      "title": "Algebraic Thinking",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/24",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "math-strategies",
+        "wwc"
+      ],
+      "desc": "Algebraic Thinking is a middle school mathematics intervention reviewed under the WWC Middle School Math protocol. As of July 2007, no qualifying studies were found meeting WWC design standards. The WWC stated it was unable to draw research-based conclusions about the effectiveness or ineffectiveness of this intervention for improving middle school math outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 993,
+      "title": "Alpha-Time",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/25",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "Alpha-Time is a beginning reading intervention reviewed under the WWC Beginning Reading protocol. As of July 2007, no studies of this program were found that met WWC design standards. The WWC was unable to draw research-based conclusions about Alpha-Time's effectiveness or ineffectiveness for improving beginning reading outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 994,
+      "title": "Alphabetic Phonics",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/26",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "Alphabetic Phonics is a multisensory reading curriculum targeting students with specific learning disabilities, using simultaneous visual, auditory, and kinesthetic instruction across ten daily activities per one-hour session. The program covers reading, handwriting, spelling, verbal and written expression, and comprehension for elementary and secondary students. As of July 2010, no studies met WWC standards under the Students with a Specific Learning Disability review protocol, preventing any conclusions about effectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 995,
+      "title": "AlphabiTunes",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/27",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "AlphabiTunes is an early elementary beginning reading intervention reviewed under the WWC Beginning Reading protocol. No qualifying studies were found as of July 2007. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness for improving beginning reading outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 996,
+      "title": "Als speciale kleuter tel je ook me! (Young Children with Special Needs Count, Too!)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/28",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "early-childhood",
+        "wwc"
+      ],
+      "desc": "Als speciale kleuter tel je ook me! (Young Children with Special Needs Count, Too!) is an elementary school mathematics intervention reviewed by the WWC. No qualifying studies were found as of July 2007 within the Elementary School Mathematics review protocol. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 997,
+      "title": "America's Choice (Beginning Reading)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/29",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "America's Choice is a school reform program reviewed under the WWC Beginning Reading protocol. As of July 2007, no studies met WWC design standards within the scope of that review protocol. The WWC was therefore unable to draw research-based conclusions about the program's effectiveness or ineffectiveness for improving beginning reading outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 998,
+      "title": "Appalachia Model Mathematics Program",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/31",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "The Appalachia Model Mathematics Program is an elementary school mathematics intervention reviewed by the WWC. As of July 2007, no studies of this program were found within the scope of the Elementary School Mathematics review protocol that met WWC design standards. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 999,
+      "title": "Arthur (English Language Development)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/32",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "early-childhood",
+        "english-learners",
+        "digital-learning-platforms",
+        "wwc"
+      ],
+      "desc": "Arthur is a book-based educational television program for ages 4–8 featuring an 8-year-old aardvark character in 30-minute episodes addressing moral issues, used as a listening comprehension and language development tool for English language learners. One qualifying study was reviewed for kindergarten ELL students (100% English learners, 80% free/reduced-price lunch, urban setting), finding potentially positive effects on English language development. The program received a Tier 3 (Promising) evidence rating under the WWC English Language Learners protocol.",
+      "domain": "research"
+    },
+    {
+      "num": 1000,
+      "title": "Athens Tutorial Program",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/35",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "The Athens Tutorial Program is a beginning reading intervention reviewed by the WWC. As of July 2007, no studies of this program were found within the scope of the Beginning Reading review protocol meeting WWC design standards. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness for improving beginning reading outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 1001,
+      "title": "ATTLAS (Augmenting Thinking Through Language Acquisition Skills)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/36",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "english-learners",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "ATTLAS (Augmenting Thinking Through Language Acquisition Skills) is an English language learner intervention reviewed under the WWC English Language Learners protocol. As of July 2007, no studies of this program met WWC design standards within the scope of the review. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness for improving outcomes for English learners.",
+      "domain": "research"
+    },
+    {
+      "num": 1002,
+      "title": "Concept-Oriented Reading Instruction (CORI) — Adolescent Literacy",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/103",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "Concept-Oriented Reading Instruction (CORI) is a grades 3–9 program that integrates reading and science instruction through activities and science books, targeting reading comprehension and reading engagement. This WWC report covers CORI under the Adolescent Literacy review protocol; as of August 2010, no qualifying studies were found that met WWC design standards. A separate WWC review of CORI under the Beginning Reading protocol also found no qualifying studies.",
+      "domain": "research"
+    },
+    {
+      "num": 1003,
+      "title": "Connect with Kids",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/104",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "sel",
+        "wwc"
+      ],
+      "desc": "Connect with Kids is a character education program for grades 3–12 that uses videos, discussion questions, activities, and a website to promote prosocial attitudes and positive behavior through core character values, with implementation flexibility ranging from one semester to a full year. One qualifying study was reviewed, finding potentially positive effects on middle and high school students' behavior. The program received a Tier 3 (Promising) evidence rating under the WWC Character Education protocol.",
+      "domain": "research"
+    },
+    {
+      "num": 1004,
+      "title": "Connecting Math Concepts (CMC)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/107",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "math-strategies",
+        "wwc"
+      ],
+      "desc": "Connecting Math Concepts (CMC) is an elementary school mathematics program reviewed by the WWC. As of July 2007, no studies of this program were found that met WWC design standards within the scope of the Elementary School Mathematics review protocol. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness for improving elementary mathematics outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 1005,
+      "title": "Consistency Management",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/108",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "Consistency Management is an elementary school intervention reviewed under the WWC Elementary School Mathematics protocol. As of July 2007, no qualifying studies were found that met WWC design standards. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness for improving elementary mathematics outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 1006,
+      "title": "CORD Applied Math",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/113",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "CORD Applied Math is a middle school mathematics program reviewed under the WWC Middle School Math protocol. As of July 2007, no studies of this program were found that met WWC design standards. The WWC was unable to draw research-based conclusions about the program's effectiveness or ineffectiveness for improving middle school mathematics outcomes.",
+      "domain": "research"
+    },
+    {
+      "num": 1007,
+      "title": "Corrective Reading",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/121",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "Corrective Reading is a scripted reading intervention using 45-minute lessons delivered 4–5 times weekly in small groups or whole-class settings for grades 3–5, targeting adolescent literacy across alphabetics, reading fluency, and comprehension domains. The WWC reviewed 1 qualifying study out of 13 eligible studies under the Adolescent Literacy protocol. The program was found to have no discernible effects on alphabetics, reading fluency, or comprehension for adolescent learners.",
+      "domain": "research"
+    },
+    {
+      "num": 1008,
+      "title": "DaisyQuest",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/128",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "early-childhood",
+        "prekindergarten",
+        "computer-assisted-learning",
+        "digital-learning-platforms",
+        "wwc"
+      ],
+      "desc": "DaisyQuest is a software bundle providing computer-assisted instruction in phonological awareness for children ages 3–7 (preschool through grade 2), using activities that teach rhyming, sound recognition, and phoneme blending within a fairy tale narrative framework. The WWC reviewed 4 qualifying studies out of 4 eligible studies, finding positive effects on alphabetics under the Beginning Reading protocol. The program received a Tier 3 (Promising) evidence rating.",
+      "domain": "research"
+    },
+    {
+      "num": 1009,
+      "title": "Heartwood Ethics Curriculum (An Ethics Curriculum for Children)",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/212",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "k-12",
+        "sel",
+        "wwc"
+      ],
+      "desc": "The Heartwood Ethics Curriculum (An Ethics Curriculum for Children) is a read-aloud literature-based character education program for grades 1–6 that uses multicultural stories with optional cross-curricular integration and parental involvement components. One qualifying study was reviewed, finding no discernible effects on either behavior or knowledge, attitudes, and values. The program received no evidence tier designation under the WWC Character Education protocol.",
+      "domain": "research"
+    },
+    {
+      "num": 1010,
+      "title": "Heath Mathematics Connections",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/213",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "math-education",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "Heath Mathematics Connections is a middle school mathematics textbook series featuring teacher-led instruction supplemented with practice problems, cooperative learning activities, and multiple assessment methods including warm-up problems, chapter reviews, and standardized format tests, with materials available in Spanish. As of July 2007, no studies met WWC design standards within the Middle School Math review protocol. The WWC was unable to draw research-based conclusions about the program's effectiveness.",
+      "domain": "research"
+    },
+    {
+      "num": 1011,
+      "title": "Herman Method",
+      "url": "https://ies.ed.gov/ncee/wwc/InterventionReport/214",
+      "type": "report",
+      "source": "What Works Clearinghouse",
+      "url_confirmed": true,
+      "tags": [
+        "literacy",
+        "k-12",
+        "wwc"
+      ],
+      "desc": "The Herman Method is a reading intervention program for students with specific learning disabilities, delivered through direct instruction and drill-and-practice exercises using software, flashcards, and workbooks, targeting struggling readers, English language learners, and students with learning disabilities through fifth grade. The program covers phonemic awareness, phonics, fluency, vocabulary, reading comprehension, spelling, and writing. As of the review date, no studies met WWC design standards under the Students with a Specific Learning Disability protocol, and no conclusions about effectiveness could be drawn.\n\n---",
       "domain": "research"
     }
   ]

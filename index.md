@@ -18,6 +18,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 | Understand entry format and tag schema | `docs/schema.md` |
 | Understand scope and audience | `docs/purpose.md` |
 | Add new entries from a known source | `meta/backlog-prompt.md` (run in Claude Code) |
+| Onboard a brand-new source | `meta/new-source-prompt.md` (interactive; triggered from a `[New source]` GitHub issue) |
 | Run the weekly all-source check | `meta/automation-prompt.md` (executes end-to-end; configured as a weekly cloud routine at claude.ai/code/routines) |
 | Inspect past automated runs | `meta/automation-log.md` |
 | Onboard a new Claude Code agent | `meta/agent-guide.md` |
@@ -50,6 +51,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 - **`automation-prompt.md`** — self-contained prompt for the weekly automated source-check. Used by the scheduled cloud routine; does end-to-end discovery → stage → merge → build → commit → PR. Also runnable interactively from this terminal.
 - **`automation-log.md`** — append-only run log; each weekly run adds one entry summarizing additions, drops, failures, and a link to the cloud session transcript.
 - **`backlog-prompt.md`** — self-contained prompt for expanding coverage of a single source that already has some entries but a backlog remains.
+- **`new-source-prompt.md`** — self-contained prompt for onboarding a brand-new source (scope check → access discovery → initial pass → canonical doc updates → PR). Run interactively after triaging a `[New source]` GitHub issue.
 - **`inclusion-criteria.md`** — what qualifies for inclusion (source-level + resource-level rules).
 - **`sources-inventory.md`** — full catalog of sources with access notes and URL patterns.
 - **`source-audit.md`** — accessibility review of every source.

@@ -4,7 +4,7 @@
 
 The hub is a **referatory** — a curated index of evidence-based K-12, higher-education, and learning-engineering resources, hosted at GitHub Pages and consumable by both humans and LLM agents (via `llms.txt` and an MCP server). It does not store source content; it stores metadata + descriptions and links out.
 
-**Current state:** 1,161+ indexed entries across 20+ sources (WWC, NWEA, Mathematica, WestEd, JEDM, LPI, EdTrust, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `meta/source-targets.json`.
+**Current state:** 1,181 indexed entries across 20+ sources (WWC, NWEA, Mathematica, WestEd, JEDM, LPI, EdTrust, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `meta/source-targets.json`.
 
 ---
 
@@ -33,7 +33,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 - **`.gitignore`** — note: `private/` (internal docs, meeting notes, decision log, drafts) is gitignored.
 
 ### `docs/` — the published referatory
-- **`llms-full.txt`** — primary file. All 1,161+ entries with descriptions + auto-generated nav header. The canonical corpus.
+- **`llms-full.txt`** — primary file. All 1,181 entries with descriptions + auto-generated nav header. The canonical corpus.
 - **`llms.txt`** — compact index (titles, URLs, types, tags — no descriptions).
 - **`data.json`** — JSON view; consumed by `index.html`.
 - **`index.html`** — human-facing UI (browse by tag, source, type).
@@ -56,6 +56,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 - **`source-targets.json`** — coverage targets per source; consumed by `build_tags.py` to compute `meta.coverage`.
 - **`playwright-scrape.py`** — scraper for JS-rendered sources (TNTP, Digital Promise). Usage: `python meta/playwright-scrape.py [tntp|digital-promise]`.
 - **`source-check.py`** — utility script for source URL checking.
+- **`automation-log.md`** — run-by-run log of weekly automated source checks (new entries, failures, sources checked).
 
 ### `worker/` — Cloudflare Worker (MCP server)
 - Deployed at `https://renaissance-hub.joon-96a.workers.dev`. Exposes the hub via MCP so LLM agents can query it directly.

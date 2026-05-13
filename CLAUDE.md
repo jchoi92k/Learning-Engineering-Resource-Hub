@@ -28,6 +28,8 @@
 
 **Categorization default for new files.** Default to `private/` unless the file adds clear value to a public audience (new contributors, cold-starting agents, end users). Operational guides, source catalogs, prompts, and content standards belong in `meta/`. Strategy, positioning, research drafts, and meeting notes belong in `private/`.
 
+**Keep `meta/agent-guide.md` and `CLAUDE.md` Current state fresh.** When entry count crosses a hundred-mark (e.g. 1,200, 1,300), when a new source is added, or when a source's access method materially changes (now needs Playwright, newly blocked, etc.), update both files' Current state sections in the same commit. The per-source live counts live in `docs/data.json` (`meta.coverage`), but the agent-facing summary in CLAUDE.md and agent-guide.md needs to be kept in sync manually. Drift in these files has previously left cold-start agents reading stale context (agent-guide drifted from 569 to 1,181 before being refreshed 2026-05-13).
+
 ---
 
 ## Scope

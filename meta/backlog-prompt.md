@@ -7,11 +7,22 @@ that already has some entries indexed but still has a large backlog.
 
 ## PROMPT START
 
-You are expanding coverage for the **Renaissance AI and Education Resource Hub**
-at `C:\Users\igisb\OneDrive\Documentos\TLA\Educational resources`.
+You are expanding coverage for the **Renaissance AI and Education Resource Hub**.
 
 **Target source:** `[INSERT SOURCE NAME EXACTLY AS IT APPEARS IN llms-full.txt]`
 **Discovery URL:** `[INSERT DISCOVERY URL FROM meta/source-targets.json]`
+
+---
+
+## Step 0 — Read the source access docs
+
+Before fetching, read these two files. They document what we already know about each source — known access patterns, sources that need Playwright, sources that 403 from cloud sessions, sources with non-chronological listings:
+
+- `meta/source-audit.md` — start with the "**Routine source access matrix**" at the top. Find your target source's row. It tells you whether WebFetch works, whether Playwright is needed, and any gotchas (sitemap structure, JS rendering, listing pagination).
+- `meta/sources-log.md` — append-only log of attempts. Newest section at top is the most recent learning.
+- `meta/inclusion-criteria.md` — confirm the target source meets the bar.
+
+If the access matrix says the source needs Playwright, go straight to Playwright. Don't waste fetches re-discovering documented failures.
 
 ---
 
@@ -45,6 +56,22 @@ the source's URL pattern. Filter out any already in `existing_urls`.
 Aim to collect **at least 30 new entries** (or all remaining if fewer than 30 exist).
 Check `meta/source-targets.json` for the known total and how many are already indexed
 to understand how much backlog remains.
+
+**Playwright fallback.** If WebFetch returns 403 or empty content for the listing or for individual pages — and the access matrix in `meta/source-audit.md` flags this source as "Try Playwright" or "Yes" — retry **once** with headless Chromium:
+
+```python
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
+    page = browser.new_page()
+    page.goto(url, wait_until="networkidle", timeout=30000)
+    html = page.content()
+    browser.close()
+# Parse `html` normally with regex or BeautifulSoup.
+```
+
+If Playwright isn't installed locally, install it: `pip install playwright && playwright install chromium`. The cloud routine has it pre-installed via the setup script. Cap at one retry per URL.
 
 **No-inference policy — strictly enforced:**
 - Fetch each publication page before writing its entry.
@@ -142,20 +169,20 @@ Print a summary:
 
 ---
 
-## Source backlog reference
+## Source backlog reference (refreshed 2026-05-13)
 
 Check `meta/source-targets.json` for per-source totals and `docs/data.json`
 (`meta.coverage`) for current indexed counts. Priority sources with largest backlogs:
 
-| Source | Known Total | Priority | Notes |
-|---|---|---|---|
-| What Works Clearinghouse | 648 | high | 471+ intervention reports remaining |
-| Digital Promise | 252 | high | Playwright only — manual batches |
-| UChicago Consortium | 319 | high | Not yet indexed |
-| Evidence for ESSA | unknown | high | Promising + Demonstrates a Rationale tiers remain |
-| NWEA | 200+ | medium | Not yet indexed |
-| Mathematica | unknown | medium | Not yet indexed |
-| WestEd | unknown | medium | Not yet indexed |
+| Source | Known Total | Indexed | Priority | Notes |
+|---|---|---|---|---|
+| What Works Clearinghouse (IRs) | 648 | ~178 | high | ~470 intervention reports remain. .gov bot detection may require Playwright from cloud. |
+| Digital Promise | 252 | 254 | done | Use `meta/playwright-scrape.py digital-promise` for re-runs. |
+| Evidence for ESSA | ~300+ | 78 | high | Sitemap is non-chronological; secondary sitemaps (program-sitemap2.xml+) hold older entries. Skip "no studies met inclusion requirements" programs. |
+| NWEA Research | 200+ | 70 | medium | Use `publication-sitemap.xml`. Not strictly chronological. |
+| Mathematica | ~693 | 32 | medium | Coveo API via Playwright for full coverage; listing only sees partial. |
+| WestEd | unknown | 14 | medium | Listing works; pagination may need exploration for older items. |
+| UChicago Consortium | 319 | 31 | medium | Listing is paginated. |
 
 ## After each run
 

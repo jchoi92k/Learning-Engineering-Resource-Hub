@@ -16,14 +16,15 @@ You are running headless. There is no human in the loop until the PR opens. Be c
 
 ---
 
-## Step 0 — Read the source access docs
+## Step 0 — Read the source access matrix
 
-Before doing any fetches, read these two files. They document what we already know about each source — known access patterns, sources that need Playwright, sources that 403 from the cloud, sources with non-chronological listings, sources we've explicitly decided to skip:
+Before doing any fetches, read the **"Routine source access matrix"** at the top of `meta/source-audit.md`. That table tells you, per source: whether WebFetch works from cloud sessions, whether Playwright is needed, and any source-specific gotchas (non-chronological sitemap, JS-rendered listing, etc.).
 
-- `meta/source-audit.md` — start with the "**Routine source access matrix**" at the top. That table tells you, per source: whether WebFetch works from cloud sessions, whether Playwright is needed, and any source-specific gotchas.
-- `meta/sources-log.md` — append-only log of attempts. Newest section at top is the most recent learning.
+You do **not** need to read the rest of `meta/source-audit.md` (deep historical audit) — only consult deeper sections if a source behaves unexpectedly mid-run.
 
-**Apply this knowledge.** If the matrix says a source needs Playwright, go straight to Playwright. Don't re-discover failures we've already documented.
+You do **not** need to read `meta/sources-log.md`. The matrix is authoritative for current state; the log is write-only from the routine (Step 9 appends findings; later, a human promotes persistent findings to the matrix). Reading the full log every run wastes context as it grows.
+
+**Apply the matrix.** If a row says "Try Playwright," go straight to Playwright for that source. If it says "WebFetch ok," try WebFetch first and fall back to Playwright only on failure. Don't re-discover documented failures.
 
 ---
 
@@ -326,13 +327,13 @@ Print to the session transcript:
 
 ## Step 9 — Record access-method findings (only if new)
 
-If this run revealed anything *new* about source access — a newly-broken URL, a newly-working workaround, a Playwright-required source that used to work via WebFetch, a sub-sitemap not yet documented — append a short dated block to the top of `meta/sources-log.md` (under the existing "## YYYY-MM-DD — First cloud routine run findings" template).
+If this run revealed anything *new* about source access — a newly-broken URL, a newly-working workaround, a Playwright-required source that used to work via WebFetch, a sub-sitemap not yet documented — append a short dated block to the top of `meta/sources-log.md` (under the existing latest-date section).
 
-**Only append if the finding is new** (not already in `meta/source-audit.md`'s matrix or `meta/sources-log.md`'s existing entries). A run that hits the same 403s already documented does not need a new log entry — those are expected, recorded once, and don't need to accumulate.
+**Only append if the finding is new** (not already in `meta/source-audit.md`'s matrix). A run that hits the same 403s already in the matrix does not need a new log entry — those are expected and recorded.
 
 If you appended a new finding, also stage `meta/sources-log.md` in your `git add` (Step 7).
 
-If the finding contradicts the `meta/source-audit.md` matrix (e.g., a source the matrix says is fine started returning 403), still log it here. Do not edit `source-audit.md` mid-routine — flag it in the PR body and let the human update the matrix.
+**Never edit `meta/source-audit.md` mid-routine.** The matrix is the authoritative source state; only the maintainer promotes findings into it after reviewing log entries. If your finding contradicts the matrix (a source the matrix says is fine now 403s), log it here AND flag it prominently in the PR body so the maintainer knows the matrix needs an update.
 
 ## PROMPT END
 

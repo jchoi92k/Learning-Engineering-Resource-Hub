@@ -14,15 +14,15 @@ You are expanding coverage for the **Renaissance AI and Education Resource Hub**
 
 ---
 
-## Step 0 — Read the source access docs
+## Step 0 — Read the source access matrix
 
-Before fetching, read these two files. They document what we already know about each source — known access patterns, sources that need Playwright, sources that 403 from cloud sessions, sources with non-chronological listings:
+Before fetching, find your target source's row in the **"Routine source access matrix"** at the top of `meta/source-audit.md`. That row tells you the access method (WebFetch / Playwright / manual), known gotchas (sitemap structure, JS rendering, pagination quirks), and whether the source is cloud-blocked.
 
-- `meta/source-audit.md` — start with the "**Routine source access matrix**" at the top. Find your target source's row. It tells you whether WebFetch works, whether Playwright is needed, and any gotchas (sitemap structure, JS rendering, listing pagination).
-- `meta/sources-log.md` — append-only log of attempts. Newest section at top is the most recent learning.
-- `meta/inclusion-criteria.md` — confirm the target source meets the bar.
+You do **not** need to read the rest of `meta/source-audit.md` — only deeper sections if your source's row says "see notes" or behavior surprises you mid-run. You do **not** need to read `meta/sources-log.md`; it's archival, not action-relevant.
 
-If the access matrix says the source needs Playwright, go straight to Playwright. Don't waste fetches re-discovering documented failures.
+Also read `meta/inclusion-criteria.md`'s Level 2 (per-entry) rules — you'll apply them while staging.
+
+If the matrix row says "Try Playwright," go straight to Playwright for this source. Don't waste fetches re-discovering documented failures.
 
 ---
 

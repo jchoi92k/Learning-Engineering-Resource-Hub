@@ -34,14 +34,15 @@ You are running with the inputs at the top of this file. Apply them throughout.
 
 ---
 
-## Step 0 — Read access docs and inclusion criteria
+## Step 0 — Read access matrix and inclusion criteria
 
-Before fetching anything, read these:
+Before fetching anything, read:
 
-- `meta/source-audit.md` — the "Routine source access matrix" at the top documents access methods for sources we already index. Look for analogous sources (e.g., if you're adding another OJS journal, JEDM/JLA's rows are informative).
-- `meta/sources-log.md` — most recent attempt log entries at top. May contain notes on related sources or domains.
+- The **"Routine source access matrix"** at the top of `meta/source-audit.md` — look at analogous sources (e.g., if you're adding another OJS journal, JEDM/JLA's rows are informative for what to expect). You'll add a new row to this matrix in Step 6.
 - `meta/inclusion-criteria.md` — Level 1 (source-level) and Level 2 (resource-level) inclusion criteria. **You will apply Level 1 in Step 1.**
 - `meta/sources-inventory.md` — confirm the source isn't already cataloged under a different name.
+
+You do **not** need to read deeper sections of `meta/source-audit.md` or any of `meta/sources-log.md`. The matrix is the action-relevant lookup; the rest is historical context, only consult if surprised.
 
 ---
 

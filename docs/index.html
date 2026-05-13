@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renaissance AI and Education Resource Hub</title>
+  <meta name="description" content="569 curated evidence-based K-12 and higher education resources. AI-agent optimized — fetch llms-full.txt for the complete index with descriptions." />
+  <link rel="alternate" type="text/plain" href="llms-full.txt" title="Full index: all entries with descriptions" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232D3E6B'/><text x='16' y='22' font-size='20' text-anchor='middle' fill='%2375C7C5' font-family='sans-serif' font-weight='700'>R</text><circle cx='25' cy='7' r='3' fill='%23FFCA08'/></svg>" />
+
+  <!-- Montserrat — matching tools-competition.org -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy:  '#2D3E6B',
+            teal:  '#75C7C5',
+            yellow:'#FFCA08',
+            tc:    '#54595F',
+          },
+          fontFamily: {
+            sans: ['Montserrat', 'sans-serif'],
+          },
+          boxShadow: {
+            card: '6px 6px 9px rgba(0,0,0,0.12)',
+          },
+        },
+      },
+    }
+  </script>
+
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+  <style>
+    body { font-family: 'Montserrat', sans-serif; }
+
+    /* Type badge colours */
+    .badge-paper          { background:#DBEAFE; color:#1D4ED8; }
+    .badge-report         { background:#EDE9FE; color:#6D28D9; }
+    .badge-code           { background:#D1FAE5; color:#065F46; }
+    .badge-platform       { background:#CCFBF1; color:#0F766E; }
+    .badge-framework      { background:#FFEDD5; color:#C2410C; }
+    .badge-dataset        { background:#FEF9C3; color:#A16207; }
+    .badge-blog-post      { background:#FCE7F3; color:#9D174D; }
+    .badge-presentation   { background:#F3F4F6; color:#374151; }
+    .badge-project-website{ background:#E0E7FF; color:#3730A3; }
+
+    /* Tag pill */
+    .tag-pill {
+      display:inline-block;
+      padding:2px 8px;
+      border-radius:9999px;
+      font-size:0.68rem;
+      font-weight:500;
+      background:#F0F4FF;
+      color:#2D3E6B;
+      cursor:pointer;
+      transition:background 0.15s;
+      border:1px solid #C7D2FE;
+    }
+    .tag-pill:hover, .tag-pill.active {
+      background:#2D3E6B;
+      color:#fff;
+      border-color:#2D3E6B;
+    }
+
+    /* Domain tab */
+    .domain-tab {
+      padding:6px 16px;
+      border-radius:9999px;
+      font-size:0.82rem;
+      font-weight:600;
+      cursor:pointer;
+      border:2px solid #2D3E6B;
+      color:#2D3E6B;
+      background:white;
+      transition:all 0.15s;
+      white-space:nowrap;
+    }
+    .domain-tab.active, .domain-tab:hover {
+      background:#2D3E6B;
+      color:white;
+    }
+
+    /* Card */
+    .resource-card {
+      background:white;
+      border-radius:10px;
+      box-shadow:6px 6px 9px rgba(0,0,0,0.10);
+      padding:20px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      transition:box-shadow 0.2s, transform 0.2s;
+      border:1px solid #E5E7EB;
+      cursor:pointer;
+    }
+    .resource-card:hover {
+      box-shadow:8px 8px 16px rgba(0,0,0,0.16);
+      transform:translateY(-2px);
+    }
+
+    /* Sticky nav shadow */
+    #main-nav { box-shadow:0 2px 8px rgba(0,0,0,0.18); }
+
+    /* Card description — 3-line preview; full text in modal */
+    .card-desc {
+      display:-webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+
+    /* Type filter tab */
+    .type-tab {
+      padding:3px 10px;
+      border-radius:9999px;
+      font-size:0.75rem;
+      font-weight:600;
+      cursor:pointer;
+      border:1.5px solid #D1D5DB;
+      color:#6B7280;
+      background:white;
+      transition:all 0.15s;
+      white-space:nowrap;
+    }
+    .type-tab.active, .type-tab:hover {
+      border-color:#2D3E6B;
+      color:#2D3E6B;
+      background:#EEF2FF;
+    }
+
+    /* Scrollbar for tag row */
+    .tag-scroll::-webkit-scrollbar { height:4px; }
+    .tag-scroll::-webkit-scrollbar-thumb { background:#C7D2FE; border-radius:2px; }
+
+    /* ── Entry modal ─────────────────────────────────────── */
+    #entry-modal {
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      position:fixed;
+      inset:0;
+      z-index:60;
+      padding:1rem;
+      opacity:0;
+      pointer-events:none;
+      transition:opacity 0.18s ease;
+    }
+    #entry-modal.open {
+      opacity:1;
+      pointer-events:all;
+    }
+    #modal-backdrop {
+      position:absolute;
+      inset:0;
+      background:rgba(17,24,39,0.55);
+      backdrop-filter:blur(3px);
+    }
+    #modal-panel {
+      position:relative;
+      z-index:10;
+      width:100%;
+      max-width:520px;
+      max-height:85vh;
+      overflow-y:auto;
+      background:white;
+      border-radius:16px;
+      box-shadow:0 24px 64px rgba(0,0,0,0.22), 0 0 0 1px rgba(0,0,0,0.06);
+      transform:translateY(10px) scale(0.97);
+      opacity:0;
+      transition:transform 0.22s cubic-bezier(0.16,1,0.3,1), opacity 0.18s ease;
+    }
+    #entry-modal.open #modal-panel {
+      transform:translateY(0) scale(1);
+      opacity:1;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-tc">
+
+  <noscript>
+    <h1>Renaissance AI and Education Resource Hub</h1>
+    <p>569 curated evidence-based K-12 and higher education resources from WWC, AIMS, JEDM, LPI, EdTrust, Tools Competition, and more.</p>
+    <p>AI agents: fetch <a href="llms-full.txt">llms-full.txt</a> — the complete index with all entries, descriptions, and a navigation guide.</p>
+  </noscript>
+
+  <!-- ── NAV ─────────────────────────────────────────────── -->
+  <nav id="main-nav" class="bg-navy sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+      <span class="text-white font-bold text-base tracking-wide flex items-center gap-2">
+        Renaissance Hub
+        <span class="bg-yellow text-navy text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">beta</span>
+      </span>
+    </div>
+  </nav>
+
+  <!-- ── HERO ─────────────────────────────────────────────── -->
+  <header class="bg-navy" style="background:linear-gradient(120deg,#2D3E6B 60%,#1a2a4a 100%);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-14">
+
+      <div class="max-w-3xl">
+        <div class="inline-block bg-teal/20 text-teal text-xs font-semibold px-3 py-1 rounded-full mb-4 tracking-wider uppercase">
+          Learning Engineering
+        </div>
+        <h1 class="text-white text-3xl sm:text-4xl font-extrabold leading-tight mb-3">
+          Renaissance AI and Education Resource Hub
+        </h1>
+        <p class="text-white/75 text-base font-medium mb-8 leading-relaxed">
+          A curated, agent-readable referratory of research, tools, datasets, and policy
+          resources for learning engineering and AI in education.
+        </p>
+
+        <!-- Stats row -->
+        <div class="flex flex-wrap gap-6 mb-8 text-sm">
+          <div class="text-white">
+            <span id="stat-total" class="text-2xl font-extrabold text-teal">—</span>
+            <span class="ml-1 text-white/70">resources</span>
+          </div>
+          <div class="text-white">
+            <span id="stat-sources" class="text-2xl font-extrabold text-teal">—</span>
+            <span class="ml-1 text-white/70">sources</span>
+          </div>
+          <div class="text-white">
+            <span class="text-2xl font-extrabold text-teal">47</span>
+            <span class="ml-1 text-white/70">tags</span>
+          </div>
+          <div class="text-white">
+            <span id="stat-updated" class="text-2xl font-extrabold text-teal">—</span>
+            <span class="ml-1 text-white/70">last updated</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ── FILTERS ───────────────────────────────────────────── -->
+  <div class="bg-white border-b border-gray-200 sticky top-[52px] z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 space-y-3">
+
+      <!-- Search -->
+      <div class="relative max-w-xl">
+        <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Search titles, descriptions, tags…"
+          class="w-full pl-9 pr-4 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:border-navy focus:ring-1 focus:ring-navy"
+          oninput="handleSearch(this.value)"
+        />
+      </div>
+
+      <!-- Domain tabs -->
+      <div class="flex flex-wrap gap-2">
+        <button class="domain-tab active" data-domain="all"         onclick="setDomain('all')">All</button>
+        <button class="domain-tab"        data-domain="le-practice" onclick="setDomain('le-practice')">LE Practice</button>
+        <button class="domain-tab"        data-domain="research"    onclick="setDomain('research')">Research &amp; Evidence</button>
+        <button class="domain-tab"        data-domain="datasets"    onclick="setDomain('datasets')">Datasets</button>
+        <button class="domain-tab"        data-domain="policy"      onclick="setDomain('policy')">Policy &amp; Context</button>
+      </div>
+
+      <!-- Type filter -->
+      <div id="type-tabs" class="flex flex-wrap gap-1.5"></div>
+
+      <!-- Active tag chips -->
+      <div id="active-tags" class="flex flex-wrap gap-1 hidden"></div>
+
+    </div>
+  </div>
+
+  <!-- ── RESULTS ───────────────────────────────────────────── -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+
+    <!-- Count + popular tags -->
+    <div class="flex flex-col sm:flex-row sm:items-start gap-4 mb-6">
+      <p id="result-count" class="text-sm text-gray-500 font-medium shrink-0 pt-1"></p>
+      <div id="popular-tags" class="flex flex-wrap gap-1 tag-scroll overflow-x-auto"></div>
+    </div>
+
+    <!-- Card grid -->
+    <div id="cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="col-span-full text-center py-16 text-gray-400">
+        <i data-lucide="loader-2" class="w-8 h-8 mx-auto animate-spin mb-3"></i>
+        <p class="text-sm">Loading resources…</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── FOOTER ────────────────────────────────────────────── -->
+  <footer class="bg-navy mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-white/70 text-sm">
+
+        <div>
+          <p class="text-white font-bold mb-2">Renaissance AI and Education Resource Hub</p>
+          <p class="leading-relaxed">A curated, agent-readable index of evidence-based K-12 and higher education resources. Links only — no content is hosted here.</p>
+        </div>
+
+        <div>
+          <p class="text-white font-semibold mb-2">Sources</p>
+          <ul id="footer-sources" class="space-y-1"></ul>
+        </div>
+
+        <div>
+          <p class="text-white font-semibold mb-2">For AI Agents</p>
+          <p class="leading-relaxed mb-3">Paste this URL into your AI assistant:</p>
+          <a href="llms-full.txt" class="text-teal hover:underline font-mono text-xs break-all">llms-full.txt</a>
+          <span class="text-white/50 text-xs ml-1">— complete index with descriptions</span>
+        </div>
+
+      </div>
+      <div class="border-t border-white/10 mt-8 pt-6 text-white/40 text-xs text-center">
+        Last updated <span id="footer-updated">—</span> · Built for <a href="https://tools-competition.org" class="hover:text-teal transition">tools-competition.org</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── JAVASCRIPT ────────────────────────────────────────── -->
+  <script>
+    let allEntries = [];
+    let currentDomain = 'all';
+    let currentType = 'all';
+    let currentSearch = '';
+    let activeTags = new Set();
+
+    const TYPE_BADGE = {
+      paper:           'badge-paper',
+      report:          'badge-report',
+      code:            'badge-code',
+      platform:        'badge-platform',
+      framework:       'badge-framework',
+      dataset:         'badge-dataset',
+      'blog-post':     'badge-blog-post',
+      presentation:    'badge-presentation',
+      'project-website':'badge-project-website',
+    };
+
+    const DOMAIN_LABEL = {
+      'le-practice':     'LE Practice',
+      'research':        'Research',
+      'datasets':        'Datasets',
+      'policy':          'Policy',
+    };
+
+    // ── Init ──────────────────────────────────────────────────
+    async function init() {
+      try {
+        const resp = await fetch('data.json');
+        const data = await resp.json();
+        allEntries = data.entries;
+
+        document.getElementById('stat-total').textContent    = data.meta.total;
+        document.getElementById('stat-sources').textContent  = data.meta.sources.length;
+        document.getElementById('stat-updated').textContent  = data.meta.last_updated;
+        document.getElementById('footer-updated').textContent = data.meta.last_updated;
+
+        const footerSources = document.getElementById('footer-sources');
+        const MAX_FOOTER_SOURCES = 8;
+        data.meta.sources.slice(0, MAX_FOOTER_SOURCES).forEach(s => {
+          const li = document.createElement('li');
+          li.textContent = s;
+          footerSources.appendChild(li);
+        });
+        if (data.meta.sources.length > MAX_FOOTER_SOURCES) {
+          const li = document.createElement('li');
+          li.textContent = `+${data.meta.sources.length - MAX_FOOTER_SOURCES} more`;
+          li.style.cssText = 'color:rgba(255,255,255,0.35);font-style:italic;';
+          footerSources.appendChild(li);
+        }
+
+        renderTypeTabs();
+        renderPopularTags();
+        filter();
+      } catch (e) {
+        document.getElementById('cards-grid').innerHTML =
+          `<div class="col-span-full text-center py-16 text-red-400 text-sm">
+            Could not load data.json. Run <code>python build_tags.py</code> to generate it.
+           </div>`;
+      }
+
+      lucide.createIcons();
+    }
+
+    // ── Filtering ─────────────────────────────────────────────
+    function filter() {
+      const q = currentSearch.toLowerCase();
+      const filtered = allEntries.filter(e => {
+        if (currentDomain !== 'all' && e.domain !== currentDomain) return false;
+        if (currentType !== 'all' && e.type !== currentType) return false;
+        if (activeTags.size && ![...activeTags].every(t => e.tags.includes(t))) return false;
+        if (q) {
+          const words = q.split(/\s+/).filter(Boolean);
+          const haystack = `${e.title} ${e.desc} ${e.tags.join(' ')} ${e.source}`.toLowerCase();
+          if (!words.every(w => haystack.includes(w))) return false;
+        }
+        return true;
+      });
+      renderCards(filtered);
+      document.getElementById('result-count').textContent =
+        `${filtered.length} of ${allEntries.length} resources`;
+    }
+
+    function setDomain(domain) {
+      currentDomain = domain;
+      currentType = 'all';
+      document.querySelectorAll('.domain-tab').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.domain === domain);
+      });
+      const domainEntries = domain === 'all' ? allEntries : allEntries.filter(e => e.domain === domain);
+      renderTypeTabs(domainEntries, domain === 'datasets' ? 'dataset' : null);
+      filter();
+    }
+
+    function setType(type) {
+      currentType = type;
+      document.querySelectorAll('.type-tab').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.type === type);
+      });
+      filter();
+    }
+
+    function renderTypeTabs(sourceEntries, excludeType) {
+      const entries = sourceEntries || allEntries;
+      const freq = {};
+      entries.forEach(e => {
+        if (!excludeType || e.type !== excludeType) {
+          freq[e.type] = (freq[e.type] || 0) + 1;
+        }
+      });
+      const types = Object.entries(freq).sort((a, b) => b[1] - a[1]);
+      const container = document.getElementById('type-tabs');
+      container.innerHTML =
+        `<button class="type-tab active" data-type="all" onclick="setType('all')">All types</button>` +
+        types.map(([t, n]) =>
+          `<button class="type-tab" data-type="${t}" onclick="setType('${t}')">${t} <span class="opacity-50 font-normal">${n}</span></button>`
+        ).join('');
+    }
+
+    function handleSearch(val) {
+      currentSearch = val;
+      filter();
+    }
+
+    function toggleTag(tag) {
+      activeTags.has(tag) ? activeTags.delete(tag) : activeTags.add(tag);
+      renderActiveTags();
+      // update popular tag pill state
+      document.querySelectorAll(`.tag-pill[data-tag="${tag}"]`).forEach(el => {
+        el.classList.toggle('active', activeTags.has(tag));
+      });
+      filter();
+    }
+
+    function clearTag(tag) {
+      activeTags.delete(tag);
+      renderActiveTags();
+      document.querySelectorAll(`.tag-pill[data-tag="${tag}"]`).forEach(el => {
+        el.classList.remove('active');
+      });
+      filter();
+    }
+
+    // ── Render helpers ────────────────────────────────────────
+    function renderCards(entries) {
+      const grid = document.getElementById('cards-grid');
+      if (!entries.length) {
+        grid.innerHTML = `<div class="col-span-full text-center py-16 text-gray-400 text-sm">No resources match your filters.</div>`;
+        return;
+      }
+      grid.innerHTML = entries.map(renderCard).join('');
+      lucide.createIcons();
+    }
+
+    function renderCard(e) {
+      const badgeClass = TYPE_BADGE[e.type] || 'badge-presentation';
+      const tags = e.tags.map(t =>
+        `<span class="tag-pill${activeTags.has(t) ? ' active' : ''}" data-tag="${t}" onclick="event.stopPropagation();toggleTag('${t}')">${t}</span>`
+      ).join('');
+
+      return `
+        <div class="resource-card" onclick="openModal(${e.num})">
+          <div class="flex items-center justify-between gap-2">
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-full ${badgeClass}">${e.type}</span>
+            <span class="text-xs text-gray-400 truncate">${e.source}</span>
+          </div>
+          <h3 class="font-bold text-navy text-sm leading-snug">
+            <a href="${e.url}" target="_blank" rel="noopener"
+               class="hover:text-teal transition" onclick="event.stopPropagation()">${e.title}</a>
+          </h3>
+          <p class="card-desc text-xs text-gray-600 leading-relaxed">${e.desc || '<em class="text-gray-400">No description available.</em>'}</p>
+          <div class="flex flex-wrap gap-1 mt-auto pt-1">${tags}</div>
+        </div>`;
+    }
+
+    function renderPopularTags() {
+      // Show top tags by frequency
+      const freq = {};
+      allEntries.forEach(e => e.tags.forEach(t => { freq[t] = (freq[t] || 0) + 1; }));
+      const top = Object.entries(freq).sort((a, b) => b[1] - a[1]).slice(0, 18);
+      const container = document.getElementById('popular-tags');
+      container.innerHTML = top.map(([tag]) =>
+        `<span class="tag-pill" data-tag="${tag}" onclick="toggleTag('${tag}')">${tag}</span>`
+      ).join('');
+    }
+
+    function renderActiveTags() {
+      const container = document.getElementById('active-tags');
+      if (!activeTags.size) {
+        container.classList.add('hidden');
+        container.innerHTML = '';
+        return;
+      }
+      container.classList.remove('hidden');
+      container.innerHTML = '<span class="text-xs text-gray-500 self-center mr-1">Active filters:</span>'
+        + [...activeTags].map(t =>
+          `<span class="tag-pill active" data-tag="${t}" onclick="clearTag('${t}')">${t} ×</span>`
+        ).join('');
+    }
+
+    // ── Modal ─────────────────────────────────────────────────
+    function openModal(num) {
+      const entry = allEntries.find(e => e.num === num);
+      if (!entry) return;
+      const badgeClass = TYPE_BADGE[entry.type] || 'badge-presentation';
+      const allTags = entry.tags.map(t =>
+        `<span class="tag-pill${activeTags.has(t) ? ' active' : ''}" data-tag="${t}" onclick="toggleTag('${t}');closeModal()">${t}</span>`
+      ).join('');
+
+      document.getElementById('modal-body').innerHTML = `
+        <div class="p-6 sm:p-7">
+          <div class="flex items-start justify-between gap-3 mb-4">
+            <div class="flex flex-col gap-1.5">
+              <span class="text-xs font-semibold px-2 py-0.5 rounded-full ${badgeClass} self-start">${entry.type}</span>
+              <p class="text-xs text-gray-400">${entry.source}</p>
+            </div>
+            <button onclick="closeModal()" class="shrink-0 text-gray-300 hover:text-gray-500 transition -mt-0.5 -mr-0.5">
+              <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+          </div>
+          <h2 class="font-bold text-navy text-base leading-snug mb-3">${entry.title}</h2>
+          <p class="text-sm text-gray-600 leading-relaxed mb-5">${entry.desc || 'No description available.'}</p>
+          <div class="flex flex-wrap gap-1.5 mb-5">${allTags}</div>
+          <a href="${entry.url}" target="_blank" rel="noopener"
+             class="flex items-center justify-center gap-2 bg-navy text-white text-sm font-semibold py-2.5 rounded-xl hover:bg-teal transition w-full">
+            Open resource <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+      `;
+
+      document.getElementById('entry-modal').classList.add('open');
+      document.body.style.overflow = 'hidden';
+      lucide.createIcons();
+    }
+
+    function closeModal() {
+      document.getElementById('entry-modal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+    init();
+  </script>
+
+  <!-- ── ENTRY MODAL ──────────────────────────────────────── -->
+  <div id="entry-modal" aria-modal="true" role="dialog">
+    <div id="modal-backdrop" onclick="closeModal()"></div>
+    <div id="modal-panel">
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+</body>
+</html>

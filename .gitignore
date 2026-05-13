@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp / build artifacts
+*.tmp
+docs/llms-full_tmp.txt
+
+# Staging area (temp indexing work — cleared after each merge)
+docs/staging/
+
+# Claude Code local settings
+.claude/
+
+# Firecrawl scrape outputs
+.firecrawl/
+
+# Old wiki/ directory (replaced by docs/ — delete when possible)
+wiki/
+
+# Legacy content (superseded by current docs/)
+docs/legacy/
+
+# Private folder — meeting notes, PII, internal strategy, decisions log, research drafts.
+# NEVER commit anything from here. All new private/sensitive files go here.
+private/
+
+# Worker build artifacts
+worker/node_modules/
+worker/.wrangler/
+
+# OS
+.DS_Store
+Thumbs.db

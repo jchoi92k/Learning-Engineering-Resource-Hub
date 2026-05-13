@@ -1,0 +1,155 @@
+{
+  "_comment": "Known totals and priority for coverage tracking. Indexed counts are auto-calculated by build_tags.py from llms-full.txt — do not edit those here. Update known_total when you discover a source's actual size. Use null when unknown.",
+
+  "What Works Clearinghouse": {
+    "known_total": 648,
+    "priority": "high",
+    "status": "active",
+    "discovery_url": "https://ies.ed.gov/ncee/wwc/Search/Products?productType=2",
+    "notes": "Practice guides complete (29/29). Intervention reports: 619 total, ~471 remaining."
+  },
+
+  "Digital Promise": {
+    "known_total": 252,
+    "priority": "high",
+    "status": "active",
+    "discovery_url": "DSpace REST API — requires Playwright",
+    "notes": "222 remaining across 19 collections. Playwright-only — manual batches."
+  },
+
+  "UChicago Consortium on School Research": {
+    "known_total": 319,
+    "priority": "high",
+    "status": "new",
+    "discovery_url": "https://consortium.uchicago.edu/publications",
+    "notes": "319 publications. Not yet indexed. K-12 school improvement, equity, attendance."
+  },
+
+  "Evidence for ESSA": {
+    "known_total": null,
+    "priority": "high",
+    "status": "active",
+    "discovery_url": "https://evidenceforessa.org/sitemap.xml",
+    "notes": "Strong + Moderate tiers indexed. Promising and Demonstrates a Rationale tiers remain. Total unknown."
+  },
+
+  "NWEA": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "new",
+    "discovery_url": "https://nwea.org/research/",
+    "notes": "200+ publications confirmed (paginated). Not yet indexed. MAP Growth longitudinal research."
+  },
+
+  "Mathematica": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "new",
+    "discovery_url": "https://mathematica.org/evidence?focusArea=Education&contentType=Publication",
+    "notes": "IES-funded RCTs and quasi-experimental studies. Not yet indexed."
+  },
+
+  "WestEd": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "new",
+    "discovery_url": "https://wested.org/resources/?type=research-evaluation",
+    "notes": "Federal regional lab. Not yet indexed."
+  },
+
+  "TNTP": {
+    "known_total": 36,
+    "priority": "medium",
+    "status": "new",
+    "discovery_url": "https://tntp.org/publications/",
+    "notes": "36 publications confirmed (4 JS-rendered pages, 10+10+10+6). WebFetch only sees page 1 (30 items) — listing requires Playwright or manual pagination. Teacher effectiveness research. Not yet indexed."
+  },
+
+  "Journal of Educational Data Mining": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://jedm.educationaldatamining.org/index.php/JEDM/issue/archive",
+    "notes": "30 indexed. New issues appear quarterly. Full back-catalog not yet assessed."
+  },
+
+  "Journal of Learning Analytics": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://learning-analytics.info/index.php/JLA/issue/archive",
+    "notes": "25 indexed (vols 9-12). Earlier volumes and new issues not yet indexed."
+  },
+
+  "Campbell Collaboration": {
+    "known_total": 52,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://www.campbellcollaboration.org/education/reviews/",
+    "notes": "52 education systematic reviews total on one page. 27 remaining."
+  },
+
+  "Learning Policy Institute": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://learningpolicyinstitute.org/research/",
+    "notes": "30 indexed. Hundreds more available across topic pages."
+  },
+
+  "The Education Trust": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://edtrust.org/research/",
+    "notes": "30 indexed. Hundreds more available."
+  },
+
+  "IES Regional Education Labs": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "10 regional pages at ies.ed.gov/use-work/regional-educational-laboratories-rel/[region]/products",
+    "notes": "30 indexed (3 per region). Each region has many more publications. Listing is JS-rendered; index individual publications by ID."
+  },
+
+  "Brookings Institution": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://www.brookings.edu/sitemap_index.xml",
+    "notes": "22 indexed from Brown Center on Education Policy. Curate manually — only Brown Center articles qualify."
+  },
+
+  "CREDO at Stanford": {
+    "known_total": 9,
+    "priority": "low",
+    "status": "new",
+    "discovery_url": "https://credo.stanford.edu/research-reports/report-finder/",
+    "notes": "~9 reports total (small catalog). Charter school effectiveness research. Not yet indexed."
+  },
+
+  "AIMS Collaboratory": {
+    "known_total": 53,
+    "priority": "low",
+    "status": "active",
+    "discovery_url": "https://aimscollab.org/",
+    "notes": "46 indexed, ~7 remaining. Near-complete."
+  },
+
+  "National Academies of Sciences, Engineering, and Medicine": {
+    "known_total": null,
+    "priority": "low",
+    "status": "active",
+    "discovery_url": "https://nap.nationalacademies.org/",
+    "notes": "2 indexed (How People Learn I & II). 3-6 more landmark education reports identified."
+  },
+
+  "Collaborative for Academic, Social, and Emotional Learning (CASEL)": {
+    "known_total": 1,
+    "priority": "low",
+    "status": "complete",
+    "discovery_url": "https://casel.org/",
+    "notes": "1 entry (SEL Framework). Essentially complete for current scope."
+  }
+}

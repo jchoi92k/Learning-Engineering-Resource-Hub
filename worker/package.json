@@ -1,0 +1,13 @@
+{
+  "name": "le-resource-hub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "update-data": "copy ..\\docs\\data.json data.json"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

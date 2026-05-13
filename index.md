@@ -22,6 +22,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 | Run the weekly all-source check | `meta/automation-prompt.md` (executes end-to-end; configured as a weekly cloud routine at claude.ai/code/routines) |
 | Inspect past automated runs | `meta/automation-log.md` |
 | Onboard a new Claude Code agent | `meta/agent-guide.md` |
+| Understand deployment surfaces (Pages / MCP / Gem) and what needs manual deploy | `meta/operator-guide.md` |
 | Check what's been done recently | `git log` |
 
 ---
@@ -48,6 +49,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 
 ### `meta/` — operational docs and tooling
 - **`agent-guide.md`** — master operational reference for cold-starting Claude agents. Entry format, tag schema, source URL patterns, current state, subagent protocol.
+- **`operator-guide.md`** — how the four surfaces (GitHub Pages, MCP worker, Gemini Gem, llms.txt) are connected, what auto-updates vs. needs manual deploy, after-merge checklist, handoff notes.
 - **`automation-prompt.md`** — self-contained prompt for the weekly automated source-check. Used by the scheduled cloud routine; does end-to-end discovery → stage → merge → build → commit → PR. Also runnable interactively from this terminal.
 - **`automation-log.md`** — append-only run log; each weekly run adds one entry summarizing additions, drops, failures, and a link to the cloud session transcript.
 - **`backlog-prompt.md`** — self-contained prompt for expanding coverage of a single source that already has some entries but a backlog remains.

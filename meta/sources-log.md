@@ -1,6 +1,33 @@
 # Sources Log
 
-Tracks every source attempted for the Learning Engineering Resource Hub. Use this to make decisions about future expansion, prioritize re-attempts, and understand what access methods work.
+Tracks every source attempted for the Renaissance AI and Education Resource Hub. Use this to make decisions about future expansion, prioritize re-attempts, and understand what access methods work.
+
+> **Quick access map:** For the 14 sources used by the weekly automation routine, see the "Routine source access matrix" at the top of `meta/source-audit.md` — it's the fast lookup. This file is the running log of attempts and findings over time.
+
+---
+
+## 2026-05-13 — First cloud routine run findings
+
+The weekly automation routine fired in a Claude Code cloud session for the first time today. Discoveries about source access from the cloud environment (which differs from local Claude Code WebFetch in IP range and proxy):
+
+| Source | URL(s) tried | Access from cloud | Notes |
+|---|---|---|---|
+| WWC Intervention Reports | `ies.ed.gov/ncee/wwc/Search/Products?productType=2` | **❌ 403** | Cloud WebFetch blocked. Local WebFetch works. Likely .gov bot detection on the Anthropic WebFetch proxy IP. **Recommend Playwright fallback** (Chromium with default headers should pass). Confirmed local access in this same session for backlog runs. |
+| IES REL | `ies.ed.gov/ncee/rel/Products/Region/[region]/Publication/[id]` | **❌ 403** | Same .gov bot detection pattern as WWC. Playwright likely fix. |
+| JLA | `learning-analytics.info/index.php/JLA/issue/archive` + article view pages | **❌ 403** | Cloud blocked, local works. OJS journal; cause unclear (could be proxy IP or generic bot detection). Playwright worth trying. |
+| Campbell Collaboration | `campbellcollaboration.org/education/reviews/` | **❌ JS-rendered, blank** | Listing returns empty via WebFetch (cloud OR local — JS rendering required). Use Playwright to render listing, then individual review pages should fetch fine via WebFetch. |
+| NWEA Research | `www.nwea.org/publication-sitemap.xml` | ✅ | The publication sitemap is the right entry point (not the JS-rendered `/research/` listing). Sitemap is **not strictly chronological** — early-stop heuristic less effective; expect to surface older publications until consecutive-dupe threshold trips. |
+| Evidence for ESSA | `evidenceforessa.org/sitemap.xml` | ✅ | Sitemap is non-chronological — early-stop heuristic less effective. ~300+ program entries; ~5 secondary sitemaps (program-sitemap2.xml etc.) hold older entries. Drop programs whose page says "No studies met inclusion requirements" — no usable content per no-inference policy. |
+| LPI, EdTrust, WestEd, TNTP, Brookings (Brown Center), Mathematica, UChicago Consortium, CREDO, JEDM | (their discovery URLs) | ✅ | All worked from cloud session as expected. Early-stop fired correctly when corpus was current. |
+
+**Action items recorded for follow-up:**
+- Add Playwright to the cloud setup script (`apt install playwright deps + chromium`).
+- Update `automation-prompt.md` to instruct Playwright fallback when WebFetch returns 403/blank for sources flagged "WebFetch usually works."
+- Brookings sub-sitemap walk only partial — `sitemap55.xml` had recent items; sub-sitemaps 1–54 not exhaustively checked. Not a routine problem (recent items are surfaced) but worth noting for a future Brookings backlog pass.
+
+---
+
+## Original log (prior attempts)
 
 | Source | URL(s) tried | Access | Content type | Value | Notes | Entries added | Date |
 |---|---|---|---|---|---|---|---|

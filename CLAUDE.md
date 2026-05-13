@@ -40,8 +40,8 @@ OpenAlex / Semantic Scholar / CrossRef / Unpaywall are **utility APIs only** —
 
 ## Current state (as of 2026-05-13)
 
-- **1,161 entries** in `docs/llms-full.txt`
-- Sources: WWC (29 guides + ~178 intervention reports), LPI (35), EdTrust (31), JEDM (39), Evidence for ESSA (68), JLA (43), Campbell Collaboration (45), Brookings (22), IES REL (30), Digital Promise (254), TNTP (36), UChicago Consortium (31), Datasets (101 total), AIMS Collaboratory (53), Tools Competition (18), LEVI Math (7), Benchmarks & Code (11), NAP (2), CASEL (1), UNESCO (3), CAST (1), CMU/ETS (1), WestEd (14), NWEA (62), Mathematica (32)
+- **1,181 entries** in `docs/llms-full.txt`
+- Sources: WWC (29 guides + ~178 intervention reports), LPI (36), EdTrust (31), JEDM (39), Evidence for ESSA (78), JLA (43), Campbell Collaboration (45), Brookings (23), IES REL (30), Digital Promise (254), TNTP (36), UChicago Consortium (31), Datasets (101 total), AIMS Collaboratory (53), Tools Competition (18), LEVI Math (7), Benchmarks & Code (11), NAP (2), CASEL (1), UNESCO (3), CAST (1), CMU/ETS (1), WestEd (14), NWEA (70), Mathematica (32)
 - JS-paginated sources: use `python meta/playwright-scrape.py [tntp|digital-promise]`
 - Coverage tracking: `meta/source-targets.json` + `data.json` meta.coverage
 - After any edits, run `python build_tags.py` from `docs/` to regenerate `data.json` and tag files

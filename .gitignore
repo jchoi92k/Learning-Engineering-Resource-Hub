@@ -26,6 +26,11 @@ docs/legacy/
 # NEVER commit anything from here. All new private/sensitive files go here.
 private/
 
+# Secrets — never commit. The routine reads GH_TOKEN from its cloud env vars, not from .env.
+.env
+.env.local
+.env.*.local
+
 # Worker build artifacts
 worker/node_modules/
 worker/.wrangler/

@@ -1,8 +1,60 @@
 # Source Audit
 
 > Comprehensive accessibility review of every source in the inventory.
-> Conducted 2026-05-01 via live fetch attempts.
+> Original audit: 2026-05-01. Refreshed: 2026-05-13 with cloud-routine findings.
 > For each source: what's accessible, what's not, API key requirements, format, and recommended approach.
+>
+> **For the weekly automation routine, START with the "Routine source access matrix" below** —
+> it's a fast lookup of the 14 sources the routine touches, with the latest known access method.
+
+---
+
+## Routine source access matrix (refreshed 2026-05-13)
+
+The weekly automation prompt at `meta/automation-prompt.md` walks these 14 sources. This matrix is the agent's lookup: before fetching, check the source's row here; use the recommended method. If WebFetch fails on a source marked "WebFetch ok," try Playwright once before logging as a failure.
+
+| Source | Discovery URL | WebFetch (local) | WebFetch (cloud) | Playwright needed? | Notes |
+|---|---|---|---|---|---|
+| Evidence for ESSA | sitemap.xml | ✅ | ✅ | No | Sitemap is non-chronological — early-stop heuristic less effective. ~300+ program entries; ~5 secondary sitemaps (program-sitemap2.xml etc.) hold older entries. Drop programs whose page reads "No studies met inclusion requirements" (no usable content per no-inference policy). |
+| JEDM | issue/archive | ✅ | ✅ | No | OJS journal. Walk Vol N → article view pages. Reliable. |
+| JLA | issue/archive | ✅ | ❌ **403** | **Try Playwright** | Cloud session got 403 on issue and article view pages (2026-05-13). Local Claude Code WebFetch works. Suspected: Anthropic WebFetch proxy IP blocked by OJS host. Playwright with real Chromium headers is the likely fix. |
+| Campbell Collaboration | education/reviews/ | ✅ | ❌ **JS-rendered** | **Yes** | Listing page is JS-rendered. WebFetch returns blank. Use Playwright to render the listing, then individual review pages are usually static HTML and WebFetch works. |
+| LPI | research/ | ✅ | ✅ | No | Listing reliable. Product pages reliable. |
+| EdTrust | research/ | ✅ | ✅ | No | URL pattern: `edtrust.org/resource/[slug]` (note: legacy `/rti/` mentioned below; current is `/resource/`). |
+| Brookings (Brown Center only) | sitemap_index.xml | ✅ | ✅ | No | Sitemap is paginated (~55 sub-sitemaps). Filter Brown Center articles only. Skip Brookings Now / news / opinion. |
+| WWC Intervention Reports | Search/Products?productType=2 | ✅ | ❌ **403** | **Try Playwright** | Cloud session got 403 on the search/products listing (2026-05-13). Local WebFetch works. Individual `/InterventionReport/[id]` pages: try Playwright; .gov bot detection is the suspected cause. |
+| WestEd | resources/?type=research-evaluation | ✅ | ✅ | No | Reliable. Listing returns recent resources. |
+| TNTP | publications/ | ⚠️ partial | ⚠️ partial | Yes for full coverage | Listing is JS-paginated (4 pages, 36 total). WebFetch sees page 1 only (10 items). For routine: index what's reachable from page 1, note remainder. For backlog: use `meta/playwright-scrape.py tntp`. |
+| NWEA Research | **publication-sitemap.xml** | ✅ | ✅ | No | Use the sitemap, not the JS-rendered `/research/` listing. Sitemap is exhaustive but **not strictly chronological** — early-stop is less effective; expect to find older publications. |
+| Mathematica | evidence?focusArea=Education | ⚠️ partial | ⚠️ partial | Yes for full coverage | Listing is JS-rendered; WebFetch sees a partial set (~8 items). The full set (~693 education pubs) lives behind the Coveo search API at `mathematica.org/coveo/rest/search/v2` with filter `@mprhumanservicetopicsv2==Education`, but it needs a bearer token intercepted via Playwright — fragile. For the routine: index what's reachable from the listing; for backlog: Playwright + Coveo intercept. |
+| UChicago Consortium | publications | ✅ | ✅ | No | Reliable. Listing is paginated; recent publications on page 1. |
+| CREDO at Stanford | research-reports/report-finder/ | ✅ | ✅ | No | Reliable. |
+| IES REL (10 regions) | per-region pages | ✅ | ❌ **403** | **Try Playwright** | Cloud session got 403 on all regional `Products/Region/[region]/Publication/[id]` pages (2026-05-13). Local WebFetch works. .gov bot detection suspected. Probe approach (try recent IDs) only works if WebFetch can reach the pages. |
+
+### Sources explicitly skipped in the routine
+
+Documented here so the agent doesn't try them and waste tokens:
+
+- **Digital Promise** — requires Playwright + DSpace REST API. Use `meta/playwright-scrape.py digital-promise` manually.
+- **RAND Education** — 403 via WebFetch (confirmed 2026-05-01). Manual only.
+- **MDRC** — WAF blocks all requests. Manual only.
+- **AIMS Collaboratory** — slow publication cadence; check manually a few times a year.
+
+### Playwright fallback pattern (when WebFetch returns 403 or empty)
+
+When the matrix above marks "Try Playwright" or WebFetch returns 403/empty for a source the matrix says should work, the agent should:
+
+1. Write a short Python script using `playwright.sync_api`.
+2. Launch headless Chromium with `--no-sandbox` flag (required in sandboxed cloud session).
+3. Navigate to the target URL, wait for `networkidle`, extract `page.content()`.
+4. Parse the rendered HTML normally (BeautifulSoup or regex).
+5. Cap at one Playwright retry per URL — don't loop. If Playwright also fails, log as a non-critical failure and move on.
+
+The cloud session has Playwright installed via the setup script (Python `playwright` + `chromium` browser). Local Claude Code sessions can use `meta/playwright-scrape.py` as a reference for the pattern.
+
+### Findings recorded after each run
+
+Any new access surprises (newly-broken URLs, newly-working workarounds, source structure changes) should be appended to `meta/sources-log.md` with the date, so future runs benefit. The automation prompt's Step 9 covers this.
 
 ---
 

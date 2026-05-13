@@ -205,6 +205,16 @@ npx wrangler deploy
 4. **Update the routine's Instructions field** so next week's run includes the new source.
 5. Run the after-merge checklist (worker deploy + Gem upload).
 
+### "Want to check source accessibility before running automation manually"
+
+```bash
+python meta/source-check.py
+```
+
+Probes each source's discovery URL + a sample publication URL. Classifies each as OK / PARTIAL / DEGRADED / JS-RENDERED / BLOCKED. Good sanity-check before a manual `automation-prompt.md` run from local Claude Code (the cloud routine doesn't need this — it'll just log failures in the PR body).
+
+Note: the script's source list lives inside the script itself; it drifts from `meta/source-targets.json` over time. Update the script manually when adding/removing sources.
+
 ### "The routine didn't fire this week"
 
 - Check claude.ai/code/routines → click the routine → Runs tab.

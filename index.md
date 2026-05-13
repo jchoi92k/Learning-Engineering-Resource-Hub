@@ -61,7 +61,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 - **`gem-instructions.md`** — instructions for the Google Gemini Gem (`gem-knowledge.txt` is its knowledge file).
 - **`source-targets.json`** — coverage targets per source; consumed by `build_tags.py` to compute `meta.coverage`.
 - **`playwright-scrape.py`** — scraper for JS-rendered sources (TNTP, Digital Promise). Usage: `python meta/playwright-scrape.py [tntp|digital-promise]`.
-- **`source-check.py`** — utility script for source URL checking.
+- **`source-check.py`** — pre-flight accessibility probe. Hits each source's discovery URL + a sample publication URL and classifies the result as OK / PARTIAL / DEGRADED / JS-RENDERED / BLOCKED. Run before a manual automation pass to see what's reachable: `python meta/source-check.py`. Note: maintains its own source list (drifts from `meta/source-targets.json` — refresh manually when adding sources).
 
 ### `worker/` — Cloudflare Worker (MCP server)
 - Deployed at `https://renaissance-hub.joon-96a.workers.dev`. Exposes the hub via MCP so LLM agents can query it directly.

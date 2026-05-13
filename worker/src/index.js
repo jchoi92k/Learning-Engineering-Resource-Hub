@@ -78,7 +78,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "search_resources",
     description:
-      "Search the Renaissance AI and Education Resource Hub — 569 curated evidence-based K-12 and higher education resources. Filter by tags, type, source, or keyword. Call list_tags first to see available filter values.",
+      `Search the Renaissance AI and Education Resource Hub — ${data.entries.length} curated evidence-based K-12 and higher education resources. Filter by tags, type, source, or keyword. Call list_tags first to see available filter values.`,
     inputSchema: {
       type: "object",
       properties: {
@@ -377,7 +377,7 @@ Compatible with Claude Code, Cursor, Windsurf, Codex, GitHub Copilot.
 Tools: search_resources, list_tags, get_entry, get_full_index
 
 Add to your MCP config:
-  { "type": "http", "url": "https://le-resource-hub.joon-96a.workers.dev/mcp" }
+  { "type": "http", "url": "https://renaissance-hub.joon-96a.workers.dev/mcp" }
 
 ## Tags
 
@@ -402,7 +402,7 @@ export default {
     if (url.pathname === "/mcp") {
       if (request.method === "POST") return handleMcpPost(request);
       if (request.method === "DELETE") return mcpResponse(null, 200);
-      return mcpResponse({ name: "le-resource-hub", version: "1.0.0", tools: TOOL_DEFINITIONS.map((t) => t.name) });
+      return mcpResponse({ name: "renaissance-hub", version: "1.0.0", tools: TOOL_DEFINITIONS.map((t) => t.name) });
     }
 
     if (url.pathname === "/" || url.pathname === "") {

@@ -1,37 +1,37 @@
 # Renaissance AI and Education Resource Hub — Compact Index
 
-> 1181 curated evidence-based K-12 and higher education resources.
-> Last updated: 2026-05-13
+> 1205 curated evidence-based K-12 and higher education resources.
+> Last updated: 2026-05-27
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
 ## Tags
 
-**Domain:** k-12 (858), learning-engineering (267), higher-ed (207), literacy (205), math-education (175), early-childhood (116), english-learners (85), school-discipline (31)
+**Domain:** k-12 (877), learning-engineering (270), higher-ed (211), literacy (208), math-education (176), early-childhood (117), english-learners (85), school-discipline (31)
 
-**Method:** longitudinal (208), rct (123), computer-assisted-learning (94), meta-analysis (62), coaching (47), genai (42), intelligent-tutoring (41), response-to-intervention (40), qualitative-research (35), llm-application (26), nlp (19), automated-feedback (11), a-b-testing (7)
+**Method:** longitudinal (213), rct (123), computer-assisted-learning (95), meta-analysis (62), coaching (47), genai (44), intelligent-tutoring (42), response-to-intervention (41), qualitative-research (36), llm-application (29), nlp (20), automated-feedback (11), a-b-testing (7)
 
-**Topic:** formative-assessment (179), professional-development (164), open-datasets (106), college-access (88), sel (78), digital-learning-platforms (74), personalized-learning (71), career-readiness (66), prekindergarten (45), student-belonging (37), dropout-prevention (34), attendance (28), ai-ethics (27), data-sharing (26), math-strategies (24), ai-policy (21), pii-privacy (19), inclusive-design (19), writing-instruction (16), math-motivation (10), genai-tutoring (4), math-word-problems (2)
+**Topic:** formative-assessment (189), professional-development (168), open-datasets (106), college-access (89), sel (79), digital-learning-platforms (74), personalized-learning (71), career-readiness (66), prekindergarten (46), student-belonging (37), dropout-prevention (34), attendance (29), ai-ethics (27), data-sharing (26), math-strategies (25), ai-policy (21), pii-privacy (19), inclusive-design (19), writing-instruction (16), math-motivation (10), genai-tutoring (4), math-word-problems (2)
 
-**Affiliation:** digital-promise (254), wwc (198), aims (53), jedm (39), lpi (35), edtrust (31), jla (25), campbell-collaboration (20), cmu-learnlab (18), tools-competition (18), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
+**Affiliation:** digital-promise (254), wwc (198), aims (53), jedm (40), lpi (38), edtrust (31), jla (25), campbell-collaboration (20), cmu-learnlab (18), tools-competition (18), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
-- report: 851
+- report: 865
 - dataset: 104
 - paper: 94
 - framework: 52
 - platform: 30
 - review: 24
+- article: 18
 - code: 9
-- article: 8
 - blog-post: 5
 - presentation: 3
 - project-website: 1
 
 ---
 
-## Entries (1181)
+## Entries (1205)
 
 ### ADL Initiative (2)
 
@@ -123,9 +123,10 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 332. [Special education: Beneficial to many, harmful to others](https://www.brookings.edu/articles/special-education-beneficial-to-some-harmful-to-others/) | report | k-12, longitudinal, inclusive-design
 - 333. [Class size: What research says and what it means for state policy](https://www.brookings.edu/articles/class-size-what-research-says-and-what-it-means-for-state-policy/) | report | k-12, meta-analysis, early-childhood
 
-### Brookings Institution (Brown Center on Education Policy) (1)
+### Brookings Institution (Brown Center on Education Policy) (2)
 
 - 1173. [Why Expert Advising Matters for College Access](https://www.brookings.edu/articles/why-expert-advising-matters-for-college-access/) | article | higher-ed, college-access, coaching
+- 1204. [Addressing the 'missing middle' in college financial aid](https://www.brookings.edu/articles/addressing-the-missing-middle-in-college-financial-aid/) | article | higher-ed, college-access
 
 ### CAST (1)
 
@@ -626,7 +627,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 362. [Providing Reading Interventions for Students in Middle School Toolkit](https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/providing-reading-interventions-for-students-in-middle-school-toolkit) | framework | literacy, k-12, professional-development, response-to-intervention
 - 363. [Leading Early Childhood Achievement and Development (LEAD) Partnership](https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/leading-early-childhood-achievement-and-development) | framework | early-childhood, k-12, prekindergarten, professional-development, coaching
 
-### Journal of Educational Data Mining (39)
+### Journal of Educational Data Mining (40)
 
 - 17. [The State of Educational Data Mining in 2009: A Review and Future Visions](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/8) | paper | learning-engineering, meta-analysis, intelligent-tutoring, computer-assisted-learning, jedm
 - 230. [Principled Transformers for Predictive Performance in Knowledge Tracing](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/961) | paper | learning-engineering, intelligent-tutoring, computer-assisted-learning, jedm
@@ -667,8 +668,9 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1018. [Comparing Zero-Shot Large Language Model Prompting with Human Coding of Theory Concepts in Student Essays](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1034) | paper | learning-engineering, llm-application, genai, higher-ed, automated-feedback, jedm
 - 1019. [Seeing Is Solving: MLLMs, Reasoning, and Refusal in Visual Math](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1088) | paper | learning-engineering, llm-application, genai, math-education, intelligent-tutoring, jedm
 - 1020. [Large Language Models Generalize SRL Prediction to New Languages Within But Not Between Domains](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/856) | paper | learning-engineering, llm-application, nlp, intelligent-tutoring, jedm, cmu-learnlab
+- 1182. [Evaluating Generative AI as a Supportive Analytic Partner in Qualitative Coding of Metacognitive Student Reflections](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/981) | article | learning-engineering, higher-ed, genai, nlp, qualitative-research, llm-application, jedm
 
-### Journal of Learning Analytics (44)
+### Journal of Learning Analytics (46)
 
 - 259. [Exploring Fairness and Explainability in LLM-Generated Support for Online Learning Discussion Forums](https://learning-analytics.info/index.php/JLA/article/view/8885) | paper | learning-engineering, higher-ed, nlp, llm-application, genai, ai-ethics, digital-learning-platforms, jla
 - 260. [Towards More Transparency in Learning Analytics: Sharing Information with University Students Increases Their Awareness of Data Collection Practices](https://learning-analytics.info/index.php/JLA/article/view/8713) | paper | higher-ed, pii-privacy, data-sharing, ai-ethics, digital-learning-platforms, jla
@@ -714,6 +716,8 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1037. [Learning Analytics in Schools: Is Digital Data Use Influenced by Teacher-Level or School-Level Factors?](https://learning-analytics.info/index.php/JLA/article/view/8567) | paper | learning-engineering, k-12, professional-development, formative-assessment, longitudinal
 - 1038. [Learning Analytics for Early Identification of At-Risk Students and Feedback Intervention](https://learning-analytics.info/index.php/JLA/article/view/8735) | paper | learning-engineering, higher-ed, dropout-prevention, personalized-learning, automated-feedback
 - 1039. [Augmented Reality Enhanced Analytics for Education: A Systematic Review](https://learning-analytics.info/index.php/JLA/article/view/8447) | paper | learning-engineering, k-12, higher-ed, digital-learning-platforms, meta-analysis
+- 1183. [Advancing 21st-Century Professional Competencies with Learning Analytics in the Age of Generative AI](https://learning-analytics.info/index.php/JLA/article/view/9743) | article | learning-engineering, higher-ed, genai, llm-application
+- 1184. [Learning-Aware Reliability Estimation for Tutor Skill Assessment Using Large Language Models](https://learning-analytics.info/index.php/JLA/article/view/9133) | article | learning-engineering, intelligent-tutoring, llm-application, formative-assessment
 
 ### LEVI Math (7)
 
@@ -729,7 +733,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 - 569. [Learning Commons — AI Developer Tools for Education](https://docs.learningcommons.org/) | platform | learning-engineering, digital-learning-platforms, genai
 
-### Learning Policy Institute (36)
+### Learning Policy Institute (39)
 
 - 138. [Effective Teacher Professional Development](https://learningpolicyinstitute.org/product/effective-teacher-professional-development) | report | professional-development, learning-engineering, lpi
 - 139. [Design Principles for Teacher Preparation: Enacting the Science of Learning and Development](https://learningpolicyinstitute.org/product/sold-design-principles-teacher-preparation-report) | report | professional-development, learning-engineering, lpi, higher-ed
@@ -767,8 +771,11 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1043. [Preparing Early Childhood Teachers: Credentialing and Preparation Programs in Four States](https://learningpolicyinstitute.org/product/ece-credentialing-preparation-programs-four-states-report) | report | early-childhood, prekindergarten, professional-development, lpi
 - 1044. [Investing in a High-Quality Teacher Workforce: Lessons From Texas Teacher Preparation Programs](https://learningpolicyinstitute.org/product/texas-teacher-workforce-preparation-programs-report) | report | k-12, professional-development, coaching, longitudinal, lpi
 - 1172. [Teacher Certification in Texas: District Strategies to Recruit and Retain a Credentialed Workforce](https://learningpolicyinstitute.org/product/tx-teacher-certification-report) | report | k-12, professional-development
+- 1185. [Community Schools in Los Angeles Unified: Transforming Teaching and Learning](https://learningpolicyinstitute.org/product/ca-community-schools-los-angeles-unified-report) | report | k-12, professional-development, lpi, attendance
+- 1186. [California's Universal Prekindergarten Implementation, 2024–25](https://learningpolicyinstitute.org/product/ca-universal-prekindergarten-implementation-2024-25-report) | report | early-childhood, prekindergarten, k-12, lpi
+- 1187. [The Principal Effect: How Investing in School Leaders Is Key to Solving Education's Challenges](https://learningpolicyinstitute.org/product/prinicipal-effect-investing-school-leaders-report) | report | k-12, professional-development, lpi
 
-### Mathematica (35)
+### Mathematica (36)
 
 - 1066. [Evaluation of the Networks for School Improvement Initiative: Impacts on Students and Implementation Factors](https://www.mathematica.org/publications/evaluation-of-the-networks-for-school-improvement-initiative-student-outcomes-final-report) | report | k-12, rct, professional-development, longitudinal, college-access
 - 1067. [Trusting Your LLM: Evaluating Statistical Analysis Performance](https://www.mathematica.org/publications/trusting-your-llm) | report | learning-engineering, llm-application, genai, ai-policy
@@ -805,13 +812,14 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1159. [Missouri's Teacher Career Ladder Program](https://www.mathematica.org/publications/missouris-teacher-career-ladder-program) | report | k-12, professional-development, longitudinal
 - 1160. [Landscape Analysis of Non-Cognitive Measures](https://www.mathematica.org/publications/landscape-analysis-of-noncognitive-measures) | report | k-12, formative-assessment, sel, math-motivation
 - 1161. [Measuring Charter School Effectiveness Across States](https://www.mathematica.org/publications/measuring-charter-school-effectiveness-across-states) | report | k-12, longitudinal, formative-assessment
+- 1205. [Measuring the Economic Returns to Postsecondary Education at Scale: An Analytic Framework and Findings from Texas](https://www.mathematica.org/publications/measuring-the-economic-returns-to-postsecondary-education-at-scale) | report | higher-ed, longitudinal
 
 ### NBER (2)
 
 - 411. [NBER Education Research Data](https://www.nber.org/research/data?page=1&perPage=50&q=education) | dataset | k-12, higher-ed, open-datasets, longitudinal
 - 487. [Current Population Survey (CPS) Data at NBER](https://www.nber.org/research/data/current-population-survey-cps-data-nber) | dataset | open-datasets, k-12, higher-ed, longitudinal
 
-### NWEA (8)
+### NWEA (22)
 
 - 1174. [Positionality in Teaching: Implications for Advancing Social Justice](https://www.nwea.org/research/publication/positionality-in-teaching-implications-for-advancing-social-justice/) | article | k-12, professional-development
 - 1175. [Three Measures of Test Adaptation Based on Optimal Test Information](https://www.nwea.org/research/publication/three-measures-of-test-adaptation-based-on-optimal-test-information/) | article | learning-engineering, formative-assessment, computer-assisted-learning
@@ -821,6 +829,20 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1179. [Are Test and Academic Disengagement Related? Implications for Measurement and Practice](https://www.nwea.org/research/publication/are-test-and-academic-disengagement-related-implications-for-measurement-and-practice/) | article | k-12, formative-assessment, sel
 - 1180. [Concurrent Validity of the Independent Reading Level Assessment Framework and a State Assessment](https://www.nwea.org/research/publication/concurrent-validity-of-the-independent-reading-level-assessment-framework-and-a-state-assessment/) | article | literacy, k-12, formative-assessment, response-to-intervention
 - 1181. [MAP Growth National Dashboard](https://www.nwea.org/research/publication/map-growth-national-dashboard/) | report | k-12, formative-assessment, open-datasets
+- 1190. [2025 MAP Growth Norms Technical Manual](https://www.nwea.org/research/publication/2025-map-growth-norms-technical-manual/) | report | k-12, formative-assessment
+- 1191. [New data: How far off is COVID academic recovery?](https://www.nwea.org/research/publication/new-data-how-far-off-is-covid-academic-recovery/) | article | k-12, longitudinal
+- 1192. [Realistic vs. meaningful growth: Rethinking growth goals with 2025 MAP Growth norms](https://www.nwea.org/research/publication/realistic-vs-meaningful-growth-rethinking-growth-goals-with-2025-map-growth-norms/) | article | k-12, formative-assessment
+- 1193. [What can you do with the 2025 MAP Growth norms? Turning test results into action](https://www.nwea.org/research/publication/what-can-you-do-with-the-2025-map-growth-norms-turning-test-results-into-action/) | article | k-12, formative-assessment
+- 1194. [Same scale, new reference: What's new in the 2025 MAP Growth norms](https://www.nwea.org/research/publication/same-scale-new-reference-whats-new-in-the-2025-map-growth-norms/) | article | k-12, formative-assessment
+- 1195. [MAP Growth Universal Screening Benchmarks: Establishing MAP Growth as an Effective Universal Screener](https://www.nwea.org/research/publication/map-growth-universal-screening-benchmarks-establishing-map-growth-as-an-effective-universal-screener/) | report | k-12, formative-assessment, response-to-intervention
+- 1196. [The Impact of Severe Weather Events on Education: Revisiting Hurricane Katrina While Preparing for the Next Disaster](https://www.nwea.org/research/publication/the-impact-of-severe-weather-events-on-education-revisiting-hurricane-katrina-while-preparing-for-the-next-disaster/) | report | k-12, longitudinal
+- 1197. [The Instructional Legacy of COVID-19: Teacher Adaptation in Response to the Pandemic](https://www.nwea.org/research/publication/the-instructional-legacy-of-covid-19-teacher-adaptation-in-response-to-the-pandemic/) | article | k-12, professional-development, longitudinal
+- 1198. [Achievement and Growth Norms for Course-Specific MAP Growth Tests](https://www.nwea.org/research/publication/achievement-and-growth-norms-for-course-specific-map-growth-tests/) | report | k-12, formative-assessment
+- 1199. [Achievement and Growth Norms for English MAP Reading Fluency Foundational Skills](https://www.nwea.org/research/publication/achievement-and-growth-norms-for-english-map-reading-fluency-foundational-skills/) | report | k-12, literacy, formative-assessment
+- 1200. [MAP Growth Item Parameter Drift Study](https://www.nwea.org/research/publication/map-growth-item-parameter-drift-study/) | report | k-12, formative-assessment
+- 1201. [Technical Brief: COVID's Impact on Science Achievement Trends from 2019 Through 2024](https://www.nwea.org/research/publication/technical-brief-covids-impact-on-science-achievement-trends-from-2019-through-2024/) | report | k-12, longitudinal
+- 1202. [English MAP Reading Fluency Technical Report](https://www.nwea.org/research/publication/english-map-reading-fluency-technical-report/) | report | k-12, literacy
+- 1203. [Predicting Amira Reading Mastery Based on NWEA MAP Reading Fluency Benchmark Assessment Scores](https://www.nwea.org/research/publication/predicting-amira-reading-mastery-based-on-nwea-map-reading-fluency-benchmark-assessment-scores/) | report | k-12, literacy, computer-assisted-learning
 
 ### NWEA Research (62)
 
@@ -1127,7 +1149,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 396. [Urban Institute Education Data Explorer](https://educationdata.urban.org/) | dataset | k-12, higher-ed, open-datasets, data-sharing
 - 486. [Urban Institute Education Data Portal — API Documentation and Data Sources](https://educationdata.urban.org/documentation/) | dataset | open-datasets, k-12, higher-ed, longitudinal
 
-### WestEd (14)
+### WestEd (16)
 
 - 1047. [Legislating Literacy at the State Level: Six Considerations for Supporting Students With Disabilities](https://www.wested.org/resource/legislating-literacy-at-the-state-level/) | report | literacy, k-12, response-to-intervention, inclusive-design
 - 1048. [From AI Risk to AI Readiness](https://www.wested.org/resource/from-ai-risk-to-ai-readiness/) | report | k-12, ai-policy, ai-ethics, pii-privacy, digital-learning-platforms, genai
@@ -1143,6 +1165,8 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1058. [Youth Reimagining School Behavioral Health Systems](https://www.wested.org/resource/youth-reimagining-school-behavioral-health-systems/) | report | k-12, sel, student-belonging
 - 1059. [The California State University's AANHPI Student Achievement Program: An Evaluation of Progress From Spring 2024 Through Fall 2025](https://www.wested.org/resource/the-california-state-universitys-asian-american-native-hawaiian-and-pacific-islander-student-achievement-program/) | report | higher-ed, student-belonging, college-access, longitudinal
 - 1060. [Advancing Education Research: AERA and NCME 2026 Related Resources](https://www.wested.org/resource/advancing-education-research-aera-ncme-2026-related-resources/) | report | k-12, english-learners, genai, ai-policy, formative-assessment
+- 1188. [California Healthy Kids Survey: 10 Key Indicators to Strengthen Community School Efforts](https://www.wested.org/resource/california-healthy-kids-survey/) | report | k-12, sel, formative-assessment
+- 1189. [What Teachers Need to Know About Mathematical Content Knowledge in Grades K–5](https://www.wested.org/resource/what-teachers-need-to-know-about-mathematical-content-knowledge-in-grades-k-5/) | article | k-12, math-education, professional-development, math-strategies
 
 ### What Works Clearinghouse (207)
 

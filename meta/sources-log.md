@@ -6,6 +6,19 @@ Tracks every source attempted for the Renaissance AI and Education Resource Hub.
 
 ---
 
+## 2026-05-27 — Second cloud routine run findings
+
+New access-method findings from this run (not already in `meta/source-audit.md`):
+
+| Source | Finding | Action needed |
+|---|---|---|
+| JLA | Playwright with `--no-sandbox` alone fails: `ERR_CERT_AUTHORITY_INVALID`. Adding `--ignore-certificate-errors` to Chromium args resolves the SSL error and the issue/archive + issue/view pages then render correctly. | Update source-audit.md matrix note for JLA to specify `--ignore-certificate-errors` flag required. |
+| Campbell Collaboration | Playwright returns a robot-challenge CAPTCHA screen (`sgchallenge` JS). The WAF is now blocking headless Chromium. Previously recorded as "JS-rendered / use Playwright" but Playwright is now also blocked. | Update source-audit.md matrix: Campbell now requires manual access (CAPTCHA-protected). |
+| IES REL | No 403 via Playwright (previous run saw 403 from WebFetch). Page loads, but the publications listing at `/ncee/rel/Products/` is JS-rendered Drupal with no extractable links in the DOM. Probing sequential IDs (108211–110000 in Pacific region) all return 404 — IDs are not sequential or guessable. The two existing Pacific entries (108204, 108210) were likely found via direct URL rather than a listing scrape. | Publication IDs must be discovered from a JS-rendered Drupal search UI, not by probing. Future approach: intercept the Drupal API call via Playwright network listener. Log as "blocked — Drupal JS listing, IDs not guessable." |
+| WWC | Page loads via Playwright (no 403 / cert error), but `networkidle` is reached before search results populate. The InterventionReport URLs are fetched by a second XHR call not visible in the DOM at networkidle. | Try waiting for a specific selector (e.g., `.product-title`) or intercepting the XHR to `/ncee/wwc/api/products` in a future run. Matrix note should be updated to flag that Playwright page-load alone is insufficient. |
+
+---
+
 ## 2026-05-13 — First cloud routine run findings
 
 The weekly automation routine fired in a Claude Code cloud session for the first time today. Discoveries about source access from the cloud environment (which differs from local Claude Code WebFetch in IP range and proxy):

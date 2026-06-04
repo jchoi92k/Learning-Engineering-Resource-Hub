@@ -6,12 +6,12 @@
 ## Domain
 
 - [k-12](k-12.md) — 922 entries
-- [literacy](literacy.md) — 461 entries
+- [literacy](literacy.md) — 414 entries
 - [math-education](math-education.md) — 412 entries
 - [learning-engineering](learning-engineering.md) — 281 entries
 - [higher-ed](higher-ed.md) — 209 entries
 - [early-childhood](early-childhood.md) — 189 entries
-- [english-learners](english-learners.md) — 180 entries
+- [english-learners](english-learners.md) — 112 entries
 - [school-discipline](school-discipline.md) — 31 entries
 
 ## Method

@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "le-hub": {
+    "renaissance-hub": {
       "type": "http",
       "url": "https://renaissance-hub.joon-96a.workers.dev/mcp"
     }

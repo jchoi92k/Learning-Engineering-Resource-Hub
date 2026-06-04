@@ -1,0 +1,122 @@
+{
+  "https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=126": {
+    "num": 457,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://ies.ed.gov/ncee/wwc/InterventionReport/642": {
+    "num": 104,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://www.nwea.org/research/publication/covids-impact-on-science-achievement-trends-from-2019-through-2024": {
+    "num": 1127,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://digitalpromise.dspacedirect.org/items/ff390b34-bdaf-448f-a1dd-17bb8bd9baa8": {
+    "num": 915,
+    "status": 202,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://nces.ed.gov/surveys/mgls": {
+    "num": 420,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://www.mathematica.org/publications/using-coaching-and-navigation-to-promote-economic-mobility-how-can-programs-ensure-equity": {
+    "num": 1821,
+    "status": 404,
+    "ok": false,
+    "last_verified": "2026-06-04"
+  },
+  "https://ies.ed.gov/ncee/wwc/InterventionReport/107": {
+    "num": 1004,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://digitalpromise.dspacedirect.org/items/8c0a25a2-0a7a-4ebb-be02-49a82e61e726": {
+    "num": 388,
+    "status": 202,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://consortium.uchicago.edu/publications/research-agenda-2026-30": {
+    "num": 953,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://www.mathematica.org/publications/schools-targeted-for-improvement-are-small-sample-sizes-masking-poor-school-performance": {
+    "num": 1805,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://ies.ed.gov/ncee/wwc/InterventionReport/541": {
+    "num": 572,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://digitalpromise.dspacedirect.org/items/efd4f3ca-4a66-42a9-8e06-5217b4f52ccc": {
+    "num": 896,
+    "status": 202,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://www.mathematica.org/publications/inside-online-charter-schools": {
+    "num": 2039,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/southwest-english-learner-literacy": {
+    "num": 361,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://digitalpromise.dspacedirect.org/items/93bddee8-5856-4faf-8758-71aae4ce8716": {
+    "num": 815,
+    "status": 202,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://www.mathematica.org/publications/sustaining-effective-teacher-practice-the-impact-of-the-el-education-language-arts-curriculum": {
+    "num": 1140,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://ies.ed.gov/ncee/wwc/InterventionReport/14": {
+    "num": 132,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://digitalpromise.dspacedirect.org/items/f5ad25ac-1bc9-4a05-9a4e-24c25ab19e8d": {
+    "num": 903,
+    "status": 202,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://ies.ed.gov/ncee/wwc/InterventionReport/579": {
+    "num": 124,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  },
+  "https://ies.ed.gov/ncee/wwc/InterventionReport/57": {
+    "num": 110,
+    "status": 200,
+    "ok": true,
+    "last_verified": "2026-06-04"
+  }
+}

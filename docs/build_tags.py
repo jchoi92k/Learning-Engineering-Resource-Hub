@@ -185,9 +185,27 @@ def build_coverage(entries):
     return coverage
 
 
+def load_url_verification():
+    """Load URL verification data from meta/url-verification.json if it exists."""
+    vfile = os.path.join(os.path.dirname(WIKI_DIR), "meta", "url-verification.json")
+    if os.path.exists(vfile):
+        with open(vfile, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
 def build_json(entries):
     sources = sorted(set(e["source"] for e in entries if e["source"]))
     coverage = build_coverage(entries)
+
+    verification = load_url_verification()
+    for e in entries:
+        url_key = e["url"].rstrip("/")
+        if url_key in verification:
+            v = verification[url_key]
+            e["url_verified"] = v.get("ok", None)
+            e["last_verified"] = v.get("last_verified", None)
+
     data = {
         "meta": {
             "total": len(entries),

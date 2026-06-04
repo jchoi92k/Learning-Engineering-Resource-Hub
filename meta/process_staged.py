@@ -128,9 +128,9 @@ def infer_type(item):
 
 
 KEYWORD_TAGS = [
-    (r'\bread(ing|ers?|ability)\b|phonics|phonemic|phonological|fluency|literacy|decod(e|ing)|vocabulary|comprehension|book|text|oral reading', "literacy"),
+    (r'\breading\b|phonics|phonemic|phonological|read(ers?|ability)\b|literacy|decod(e|ing)\b|vocabulary|comprehension|oral reading|beginning reading|reading fluency|reading instruction', "literacy"),
     (r'\bmath|algebra|arithmetic|calcul|numer(acy|ical)|geometry|fraction|equation', "math-education"),
-    (r'\benglish learner|ell\b|bilingual|esl\b|english language learner|dual.language|multilingual', "english-learners"),
+    (r'\benglish learner|bilingual|esl\b|english language learner|dual.language|multilingual', "english-learners"),
     (r'\bsocial.emotional|sel\b|behavio(r|ur|ral)|social skills|emotional|self.regulation|character', "sel"),
     (r'\bdropout|graduation rate|credit recovery|staying in school|leaving school', "dropout-prevention"),
     (r'\battendance|absent|chronic absence|truancy', "attendance"),

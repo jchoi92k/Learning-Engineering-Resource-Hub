@@ -1,4 +1,4 @@
-import rawData from "../data.json";
+import rawData from "../../docs/data.json";
 const data = typeof rawData === "string" ? JSON.parse(rawData) : rawData;
 
 const CORS_HEADERS = {
@@ -9,7 +9,7 @@ const CORS_HEADERS = {
 
 // ── Data helpers (shared by HTTP API and MCP) ──
 
-function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], query = "", limit = 20 }) {
+function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], query = "", limit = 20, offset = 0, sort_by = "index" }) {
   let results = data.entries;
 
   if (tags.length > 0) {
@@ -34,10 +34,19 @@ function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], q
     });
   }
 
+  if (sort_by === "title") {
+    results = [...results].sort((a, b) => a.title.localeCompare(b.title));
+  } else if (sort_by === "source") {
+    results = [...results].sort((a, b) => a.source.localeCompare(b.source));
+  } else if (sort_by === "type") {
+    results = [...results].sort((a, b) => a.type.localeCompare(b.type));
+  }
+
   const total = results.length;
   const capped = Math.min(limit, 100);
-  results = results.slice(0, capped);
-  return { results, total, limited: total > capped };
+  const paged = results.slice(offset, offset + capped);
+  const nextOffset = offset + capped < total ? offset + capped : null;
+  return { results: paged, total, limited: total > offset + capped, nextCursor: nextOffset };
 }
 
 function getTagCounts() {
@@ -70,6 +79,28 @@ function formatEntry(e) {
     tags: e.tags,
     description: e.desc,
   };
+}
+
+function findRelated(num, limit = 10) {
+  const target = data.entries.find((e) => e.num === num);
+  if (!target) return null;
+
+  const targetTags = new Set(target.tags);
+  const scored = data.entries
+    .filter((e) => e.num !== num)
+    .map((e) => {
+      const overlap = e.tags.filter((t) => targetTags.has(t)).length;
+      return { entry: e, overlap };
+    })
+    .filter((s) => s.overlap > 0)
+    .sort((a, b) => b.overlap - a.overlap)
+    .slice(0, limit);
+
+  return scored.map((s) => ({
+    ...formatEntry(s.entry),
+    shared_tags: s.entry.tags.filter((t) => targetTags.has(t)),
+    overlap: s.overlap,
+  }));
 }
 
 // ── MCP Protocol (Streamable HTTP) ──
@@ -112,9 +143,22 @@ const TOOL_DEFINITIONS = [
           description:
             "Optional keyword search across title, description, and tags. All words must match (AND logic).",
         },
+        sort_by: {
+          type: "string",
+          enum: ["index", "title", "source", "type"],
+          description: "Sort results by field. Default: index (entry number order).",
+        },
         limit: {
           type: "number",
           description: "Maximum results to return (default 20, max 100)",
+        },
+        cursor: {
+          type: "number",
+          description: "Pagination cursor returned from a previous search. Pass to get the next page of results.",
+        },
+        count_only: {
+          type: "boolean",
+          description: "If true, return only the count of matching entries without the entries themselves. Useful for scoping queries.",
         },
       },
     },
@@ -122,7 +166,25 @@ const TOOL_DEFINITIONS = [
   {
     name: "list_tags",
     description:
-      "List all available tags, types, and sources in the Renaissance AI and Education Resource Hub with entry counts. Call this first to understand what filter values are available before searching.",
+      "List all available tags in the Renaissance AI and Education Resource Hub with entry counts. Call this first to understand what filter values are available before searching.",
+    inputSchema: {
+      type: "object",
+      properties: {},
+    },
+  },
+  {
+    name: "list_sources",
+    description:
+      "List all source organizations in the Renaissance AI and Education Resource Hub with entry counts.",
+    inputSchema: {
+      type: "object",
+      properties: {},
+    },
+  },
+  {
+    name: "get_stats",
+    description:
+      "Get a summary of the Renaissance AI and Education Resource Hub: total entries, entries per source, per type, top tags, and last updated date.",
     inputSchema: {
       type: "object",
       properties: {},
@@ -138,6 +200,41 @@ const TOOL_DEFINITIONS = [
         num: {
           type: "number",
           description: `Entry number (1–${data.entries.length})`,
+        },
+      },
+      required: ["num"],
+    },
+  },
+  {
+    name: "get_entries_batch",
+    description:
+      "Get full details of multiple entries by their numbers. More efficient than calling get_entry repeatedly.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        nums: {
+          type: "array",
+          items: { type: "number" },
+          description: "Array of entry numbers to retrieve (max 50).",
+        },
+      },
+      required: ["nums"],
+    },
+  },
+  {
+    name: "find_related",
+    description:
+      "Find entries related to a given entry, ranked by shared tag overlap. Useful for discovering similar resources.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        num: {
+          type: "number",
+          description: "Entry number to find related entries for.",
+        },
+        limit: {
+          type: "number",
+          description: "Maximum related entries to return (default 10, max 50).",
         },
       },
       required: ["num"],
@@ -164,22 +261,29 @@ const TOOL_DEFINITIONS = [
 function handleToolCall(name, args) {
   switch (name) {
     case "search_resources": {
-      const { tags = [], tag_mode = "all", type, source, query, limit = 20 } = args;
+      const { tags = [], tag_mode = "all", type, source, query, sort_by = "index", limit = 20, cursor, count_only = false } = args;
       const tagMode = tag_mode;
       const types = type ? [type] : [];
       const sources = source ? [source] : [];
-      const { results, total, limited } = filterEntries({ tags, tagMode, types, sources, query, limit });
-      return {
-        content: [
-          {
+      const offset = cursor || 0;
+      const { results, total, limited, nextCursor } = filterEntries({ tags, tagMode, types, sources, query, sort_by, limit, offset });
+
+      if (count_only) {
+        return {
+          content: [{
             type: "text",
-            text: JSON.stringify(
-              { total_matches: total, showing: results.length, limited, entries: results.map(formatEntry) },
-              null,
-              2,
-            ),
-          },
-        ],
+            text: JSON.stringify({ total_matches: total }, null, 2),
+          }],
+        };
+      }
+
+      const response = { total_matches: total, showing: results.length, limited, entries: results.map(formatEntry) };
+      if (nextCursor !== null) response.next_cursor = nextCursor;
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify(response, null, 2),
+        }],
       };
     }
 
@@ -187,23 +291,49 @@ function handleToolCall(name, args) {
       const sorted = (obj) =>
         Object.entries(obj)
           .sort((a, b) => b[1] - a[1])
-          .map(([k, v]) => `${k} (${v})`)
-          .join(", ");
+          .map(([k, v]) => ({ name: k, count: v }));
       return {
-        content: [
-          {
-            type: "text",
-            text: [
-              `Renaissance AI and Education Resource Hub — ${data.meta.total} entries, updated ${data.meta.last_updated}`,
-              "",
-              `Tags: ${sorted(getTagCounts())}`,
-              "",
-              `Types: ${sorted(getTypeCounts())}`,
-              "",
-              `Sources: ${sorted(getSourceCounts())}`,
-            ].join("\n"),
-          },
-        ],
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            total_entries: data.entries.length,
+            tags: sorted(getTagCounts()),
+            types: sorted(getTypeCounts()),
+          }, null, 2),
+        }],
+      };
+    }
+
+    case "list_sources": {
+      const counts = getSourceCounts();
+      const sources = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1])
+        .map(([name, count]) => ({ name, count }));
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({ total_entries: data.entries.length, sources }, null, 2),
+        }],
+      };
+    }
+
+    case "get_stats": {
+      const tagCounts = getTagCounts();
+      const topTags = Object.entries(tagCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 15)
+        .map(([name, count]) => ({ name, count }));
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            total_entries: data.entries.length,
+            last_updated: data.meta.last_updated,
+            sources: getSourceCounts(),
+            types: getTypeCounts(),
+            top_tags: topTags,
+          }, null, 2),
+        }],
       };
     }
 
@@ -213,6 +343,32 @@ function handleToolCall(name, args) {
         return { content: [{ type: "text", text: `No entry with number ${args.num}` }], isError: true };
       }
       return { content: [{ type: "text", text: JSON.stringify(formatEntry(entry), null, 2) }] };
+    }
+
+    case "get_entries_batch": {
+      const nums = (args.nums || []).slice(0, 50);
+      const entries = nums
+        .map((n) => data.entries.find((e) => e.num === n))
+        .filter(Boolean)
+        .map(formatEntry);
+      const missing = nums.filter((n) => !data.entries.find((e) => e.num === n));
+      const response = { found: entries.length, entries };
+      if (missing.length > 0) response.missing = missing;
+      return { content: [{ type: "text", text: JSON.stringify(response, null, 2) }] };
+    }
+
+    case "find_related": {
+      const limit = Math.min(args.limit || 10, 50);
+      const related = findRelated(args.num, limit);
+      if (related === null) {
+        return { content: [{ type: "text", text: `No entry with number ${args.num}` }], isError: true };
+      }
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({ entry: args.num, related_count: related.length, related }, null, 2),
+        }],
+      };
     }
 
     case "get_full_index": {
@@ -242,7 +398,7 @@ function handleToolCall(name, args) {
   }
 }
 
-const SESSION_ID = `le-hub-${data.meta.last_updated}`;
+const SESSION_ID = `renaissance-hub-${data.meta.last_updated}`;
 
 function jsonRpc(id, result) {
   return { jsonrpc: "2.0", id, result };
@@ -262,7 +418,7 @@ function processMcpMessage(msg) {
       return jsonRpc(id, {
         protocolVersion: "2025-03-26",
         capabilities: { tools: {} },
-        serverInfo: { name: "renaissance-hub", version: "1.0.0" },
+        serverInfo: { name: "renaissance-hub", version: "2.0.0" },
       });
     case "tools/list":
       return jsonRpc(id, { tools: TOOL_DEFINITIONS });
@@ -374,7 +530,7 @@ Fetch /search with query parameters:
 POST /mcp — Streamable HTTP transport.
 Compatible with Claude Code, Cursor, Windsurf, Codex, GitHub Copilot.
 
-Tools: search_resources, list_tags, get_entry, get_full_index
+Tools: search_resources, list_tags, list_sources, get_stats, get_entry, get_entries_batch, find_related, get_full_index
 
 Add to your MCP config:
   { "type": "http", "url": "https://renaissance-hub.joon-96a.workers.dev/mcp" }
@@ -404,7 +560,7 @@ export default {
       if (request.method === "POST") return handleMcpPost(request);
       if (request.method === "DELETE") return mcpResponse(null, 200);
       if (request.method === "GET") return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
-      return mcpResponse({ name: "renaissance-hub", version: "1.0.0", tools: TOOL_DEFINITIONS.map((t) => t.name) });
+      return mcpResponse({ name: "renaissance-hub", version: "2.0.0", tools: TOOL_DEFINITIONS.map((t) => t.name) });
     }
 
     if (url.pathname === "/" || url.pathname === "") {

@@ -32,3 +32,9 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Scraped: 258 total, 256 already indexed, 2 backlog
 - Processed: 0 new entries (source near-complete)
 - Tags: n/a
+
+## 2026-06-04 - credo
+- Source slug: `credo`
+- Scraped: 7 total, 7 ready, 0 backlog
+- Processed: 7 entries (2432-2438)
+- Tags: keyword auto-tagged

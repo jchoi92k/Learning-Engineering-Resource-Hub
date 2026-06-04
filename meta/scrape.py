@@ -210,9 +210,18 @@ def extract_cards(soup, config):
         url_el = card.select_one(sel["url"])
         type_el = card.select_one(sel.get("type", "NONE"))
 
-        # Blurb: either direct selector or loose text after a parent element
+        # Blurb extraction: three strategies
         blurb = ""
-        if "blurb_parent" in sel:
+        if sel.get("blurb_bare_text"):
+            # Bare text node: get card text minus all child element text
+            all_text = card.get_text(" ", strip=True)
+            child_text = " ".join(el.get_text(" ", strip=True) for el in card.find_all(True))
+            blurb = all_text
+            for ct in [child_text]:
+                for fragment in [el.get_text(strip=True) for el in card.find_all(True) if el.get_text(strip=True)]:
+                    blurb = blurb.replace(fragment, "", 1)
+            blurb = " ".join(blurb.split()).strip()
+        elif "blurb_parent" in sel:
             parent_el = card.select_one(sel["blurb_parent"])
             if parent_el and parent_el.parent:
                 container = parent_el.parent
@@ -455,8 +464,17 @@ def scrape_api(config, max_pages=None):
 # ── Diff against existing entries ──
 
 
+DB_PATH = SCRIPT_DIR / "hub.db"
+
+
 def load_existing_urls():
-    """Extract all URLs from llms-full.txt. Normalized to lowercase for comparison."""
+    """Load all URLs from hub.db (includes excluded entries to prevent re-scraping)."""
+    import sqlite3
+    if DB_PATH.exists():
+        conn = sqlite3.connect(DB_PATH)
+        urls = {row[0].rstrip("/").lower() for row in conn.execute("SELECT url FROM entries")}
+        conn.close()
+        return urls
     if not LLMS_FULL.exists():
         return set()
     urls = set()

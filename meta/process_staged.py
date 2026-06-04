@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 """
-Process staged JSON from scrape.py into llms-full.txt entries.
+Process staged JSON from scrape.py into hub.db.
 
-Handles mechanical tagging (source affiliation, grade level mappings)
-and entry formatting. Topic/method tags require LLM review — the script
-outputs entries with a base tag set that the LLM augments.
+Handles mechanical tagging (source affiliation, grade level, keyword matching)
+and inserts entries into the SQLite database.
 
 Usage:
     python meta/process_staged.py wwc                # process all ready items
     python meta/process_staged.py wwc --limit 5      # process first 5 items
-    python meta/process_staged.py wwc --preview       # show formatted entries without writing
+    python meta/process_staged.py wwc --preview       # show entries without writing
     python meta/process_staged.py wwc --offset 10     # skip first 10 items
 
-Output appends to docs/llms-full.txt. Run `python build_tags.py` from docs/ after.
+After processing, run `cd docs && python build_from_db.py` to regenerate published files.
 """
 import argparse
 import json
 import re
+import sqlite3
 import sys
 from datetime import date
 from pathlib import Path
@@ -24,7 +24,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 STAGING_DIR = REPO_ROOT / "docs" / "staging"
-LLMS_FULL = REPO_ROOT / "docs" / "llms-full.txt"
+DB_PATH = SCRIPT_DIR / "hub.db"
 PROCESSING_LOG = SCRIPT_DIR / "processing-log.md"
 
 TODAY = date.today().isoformat()
@@ -57,6 +57,7 @@ SOURCE_NAME_MAP = {
     "campbell-collaboration": "Campbell Collaboration",
     "evidence-for-essa": "Evidence for ESSA",
     "mathematica": "Mathematica",
+    "credo": "CREDO at Stanford",
 }
 
 TYPE_MAP = {
@@ -107,26 +108,6 @@ GRADE_TAG_MAP = {
     "postsecondary": "higher-ed",
 }
 
-
-def get_last_entry_num():
-    """Find the highest entry number in llms-full.txt."""
-    if not LLMS_FULL.exists():
-        return 0
-    highest = 0
-    with open(LLMS_FULL, encoding="utf-8") as f:
-        for line in f:
-            m = re.match(r'^### (\d+)\.', line)
-            if m:
-                highest = max(highest, int(m.group(1)))
-    return highest
-
-
-def infer_type(item):
-    """Map raw type string to schema type."""
-    raw = item.get("type", "").strip().lower()
-    return TYPE_MAP.get(raw, "report")
-
-
 KEYWORD_TAGS = [
     (r'\breading\b|phonics|phonemic|phonological|read(ers?|ability)\b|literacy|decod(e|ing)\b|vocabulary|comprehension|oral reading|beginning reading|reading fluency|reading instruction', "literacy"),
     (r'\bmath|algebra|arithmetic|calcul|numer(acy|ical)|geometry|fraction|equation', "math-education"),
@@ -149,16 +130,30 @@ KEYWORD_TAGS = [
 ]
 
 
-def infer_tags(item, source):
-    """Build tag list from mechanical signals and keyword matching."""
-    tags = []
+def get_db():
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute("PRAGMA foreign_keys=ON")
+    return conn
 
-    # Source affiliation tag
+
+def get_last_entry_num():
+    conn = get_db()
+    row = conn.execute("SELECT MAX(num) FROM entries").fetchone()
+    conn.close()
+    return row[0] or 0
+
+
+def infer_type(item):
+    raw = item.get("type", "").strip().lower()
+    return TYPE_MAP.get(raw, "report")
+
+
+def infer_tags(item, source):
+    tags = []
     src_tag = SOURCE_TAG_MAP.get(source)
     if src_tag:
         tags.append(src_tag)
 
-    # Grade level → domain tag
     grade = item.get("grade_level", "").lower().strip()
     if grade:
         for prefix, tag in GRADE_TAG_MAP.items():
@@ -170,12 +165,10 @@ def infer_tags(item, source):
             if "k-12" not in tags:
                 tags.append("k-12")
 
-    # Evidence tier (WWC-specific)
     tier = item.get("evidence_tier", "").strip()
     if tier == "1":
         tags.append("rct")
 
-    # Keyword-based topic tags from title + blurb
     text = (item.get("title", "") + " " + item.get("blurb", "")).lower()
     for pattern, tag in KEYWORD_TAGS:
         if tag not in tags and re.search(pattern, text):
@@ -184,46 +177,12 @@ def infer_tags(item, source):
     return tags
 
 
-def format_entry(num, item, source):
-    """Format a single item as an llms-full.txt entry."""
-    title = item["title"].strip()
-    url = item["url"].strip()
-    entry_type = infer_type(item)
-    source_name = SOURCE_NAME_MAP.get(source, source)
-    tags = infer_tags(item, source)
-    blurb = item.get("blurb", "").strip()
-
-    tag_str = ", ".join(tags) if tags else "TODO"
-
-    lines = [
-        f"### {num}. {title}",
-        "",
-        "```yaml",
-        f'url: "{url}"',
-        f"type: {entry_type}",
-        f'source: "{source_name}"',
-        "url_confirmed: true",
-        "description_inferred: false",
-        f"date_added: {TODAY}",
-        "doi: null",
-        "license: null",
-        f"tags: [{tag_str}]",
-        "```",
-        "",
-        blurb,
-        "",
-        "---",
-        "",
-    ]
-    return "\n".join(lines)
-
-
 def main():
-    parser = argparse.ArgumentParser(description="Process staged JSON into llms-full.txt entries")
+    parser = argparse.ArgumentParser(description="Process staged JSON into hub.db")
     parser.add_argument("source", help="Source slug matching the staged JSON filename")
     parser.add_argument("--limit", type=int, default=None, help="Process only the first N items")
     parser.add_argument("--offset", type=int, default=0, help="Skip the first N items")
-    parser.add_argument("--preview", action="store_true", help="Print entries without writing")
+    parser.add_argument("--preview", action="store_true", help="Show entries without writing to DB")
     args = parser.parse_args()
 
     staged_path = STAGING_DIR / f"{args.source}.json"
@@ -246,49 +205,64 @@ def main():
     print(f"[process] Source: {args.source}, {len(items)} items to process")
 
     start_num = get_last_entry_num() + 1
-    entries_text = ""
-
-    for i, item in enumerate(items):
-        num = start_num + i
-        entry = format_entry(num, item, args.source)
-        entries_text += entry
+    source_name = SOURCE_NAME_MAP.get(args.source, args.source)
 
     if args.preview:
-        print(entries_text)
-        print(f"\n[process] Preview: {len(items)} entries ({start_num}–{start_num + len(items) - 1})")
+        for i, item in enumerate(items[:5]):
+            num = start_num + i
+            tags = infer_tags(item, args.source)
+            print(f"  #{num} {item['title'][:60]}")
+            print(f"    type={infer_type(item)} tags={tags}")
+            print(f"    url={item['url'][:70]}")
+            print()
+        end_num = start_num + len(items) - 1
+        print(f"[process] Preview: {len(items)} entries ({start_num}-{end_num})")
         return
 
-    with open(LLMS_FULL, "a", encoding="utf-8") as f:
-        f.write(entries_text)
+    conn = get_db()
+    inserted = 0
+    for i, item in enumerate(items):
+        num = start_num + i
+        entry_type = infer_type(item)
+        tags = infer_tags(item, args.source)
+        blurb = item.get("blurb", "").strip()
 
-    end_num = start_num + len(items) - 1
-    print(f"[process] Appended {len(items)} entries ({start_num}-{end_num}) to {LLMS_FULL}")
-    print(f"[process] Next: review tags, then run `cd docs && python build_tags.py`")
+        conn.execute("""
+            INSERT INTO entries (num, title, url, type, source, url_confirmed,
+                description_inferred, date_added, doi, license, description,
+                url_status)
+            VALUES (?, ?, ?, ?, ?, 1, 0, ?, NULL, NULL, ?, 'unverified')
+        """, (num, item["title"].strip(), item["url"].strip(), entry_type,
+              source_name, TODAY, blurb))
 
-    # Auto-log
+        for tag in tags:
+            conn.execute("INSERT OR IGNORE INTO entry_tags (entry_num, tag) VALUES (?, ?)", (num, tag))
+
+        inserted += 1
+
+    conn.commit()
+    end_num = start_num + inserted - 1
+    conn.close()
+
+    print(f"[process] Inserted {inserted} entries ({start_num}-{end_num}) into hub.db")
+    print(f"[process] Next: run `cd docs && python build_from_db.py`")
+
     write_log(args.source, data, items, start_num, end_num)
 
 
 def write_log(source, staged_data, items, start_num, end_num):
-    """Append a processing record to meta/processing-log.md."""
     source_name = SOURCE_NAME_MAP.get(source, source)
     total_staged = staged_data.get("total_ready", 0) + staged_data.get("total_backlog", 0)
     ready = staged_data.get("total_ready", 0)
     backlog = staged_data.get("total_backlog", 0)
-
-    # Count tag quality
-    todo_count = sum(1 for item in items if not infer_tags(item, source))
 
     entry = (
         f"\n## {TODAY} - {source_name}\n"
         f"- Source slug: `{source}`\n"
         f"- Scraped: {total_staged} total, {ready} ready, {backlog} backlog\n"
         f"- Processed: {len(items)} entries ({start_num}-{end_num})\n"
-        f"- Tags: keyword auto-tagged"
+        f"- Tags: keyword auto-tagged\n"
     )
-    if todo_count:
-        entry += f" ({todo_count} untagged)"
-    entry += "\n"
 
     with open(PROCESSING_LOG, "a", encoding="utf-8") as f:
         f.write(entry)

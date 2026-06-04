@@ -31,6 +31,11 @@ private/
 .env.local
 .env.*.local
 
+# SQLite journal/WAL files (hub.db itself IS committed)
+meta/hub.db-journal
+meta/hub.db-wal
+meta/hub.db-shm
+
 # Worker build artifacts
 worker/node_modules/
 worker/.wrangler/

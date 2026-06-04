@@ -1,12 +1,94 @@
 {
-  "total_broken": 1,
+  "total": 10,
   "entries": [
+    {
+      "num": 291,
+      "title": "Montessori Education's Impact on Academic and Nonacademic Outcomes",
+      "url": "https://www.campbellcollaboration.org/review/montessori-impact-on-academic-and-nonacademic-outcomes",
+      "source": "Campbell Collaboration",
+      "url_status": "broken",
+      "url_http_status": "403",
+      "last_verified": "2026-06-04"
+    },
+    {
+      "num": 514,
+      "title": "Using a Multi-Agent System and Evidence-Centered Design to Integrate Educator Expertise Within Generated Feedback",
+      "url": "https://www.mdpi.com/2227-7102/15/10/1273",
+      "source": "AIMS Collaboratory",
+      "url_status": "broken",
+      "url_http_status": "403",
+      "last_verified": "2026-06-04"
+    },
     {
       "num": 1821,
       "title": "Using Coaching and Navigation to Promote Economic Mobility: How Can Programs Ensure Equity?",
       "url": "https://www.mathematica.org/publications/using-coaching-and-navigation-to-promote-economic-mobility-how-can-programs-ensure-equity",
       "source": "Mathematica",
-      "status": 404,
+      "url_status": "broken",
+      "url_http_status": "404",
+      "last_verified": "2026-06-04"
+    },
+    {
+      "num": 398,
+      "title": "PISA — Programme for International Student Assessment (Data)",
+      "url": "https://www.oecd.org/pisa/data/",
+      "source": "OECD",
+      "url_status": "flagged",
+      "url_http_status": "403",
+      "last_verified": "2026-06-04"
+    },
+    {
+      "num": 412,
+      "title": "TALIS — Teaching and Learning International Survey",
+      "url": "https://www.oecd.org/education/talis/",
+      "source": "OECD",
+      "url_status": "flagged",
+      "url_http_status": "403",
+      "last_verified": "2026-06-04"
+    },
+    {
+      "num": 413,
+      "title": "PIAAC — Programme for the International Assessment of Adult Competencies",
+      "url": "https://www.oecd.org/skills/piaac/",
+      "source": "OECD",
+      "url_status": "flagged",
+      "url_http_status": "403",
+      "last_verified": "2026-06-04"
+    },
+    {
+      "num": 464,
+      "title": "Education at a Glance (EAG)",
+      "url": "https://www.oecd.org/en/publications/serials/education-at-a-glance_g1gha6b0.html",
+      "source": "OECD",
+      "url_status": "flagged",
+      "url_http_status": "403",
+      "last_verified": "2026-06-04"
+    },
+    {
+      "num": 465,
+      "title": "PISA for Development (PISA-D)",
+      "url": "https://www.oecd.org/en/data/datasets/pisa-d-pisa-for-development.html",
+      "source": "OECD",
+      "url_status": "flagged",
+      "url_http_status": "403",
+      "last_verified": "2026-06-04"
+    },
+    {
+      "num": 466,
+      "title": "TALIS Starting Strong",
+      "url": "https://www.oecd.org/en/data/datasets/TALIS-Starting-Strong-Database.html",
+      "source": "OECD",
+      "url_status": "flagged",
+      "url_http_status": "403",
+      "last_verified": "2026-06-04"
+    },
+    {
+      "num": 467,
+      "title": "Survey on Social and Emotional Skills (SSES)",
+      "url": "https://www.oecd.org/en/about/programmes/oecd-survey-on-social-and-emotional-skills.html",
+      "source": "OECD",
+      "url_status": "flagged",
+      "url_http_status": "403",
       "last_verified": "2026-06-04"
     }
   ]

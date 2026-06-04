@@ -1,0 +1,18 @@
+{
+  "_comment": "Machine-readable config for meta/scrape.py. Human context in tntp.md.",
+
+  "discovery": "sitemap",
+  "discovery_url": "https://tntp.org/publication-sitemap.xml",
+  "sitemap": {
+    "url_pattern": "/publication/"
+  },
+
+  "robots_txt": "https://tntp.org/robots.txt",
+  "robots_disallow": ["/wp-admin/", "/wp-login.php"],
+
+  "test": {
+    "url": "https://tntp.org/publication-sitemap.xml",
+    "expected_url_contains": "/publication/",
+    "expected_min_urls": 30
+  }
+}

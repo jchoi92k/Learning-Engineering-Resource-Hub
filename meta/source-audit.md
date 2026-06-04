@@ -42,15 +42,7 @@ Documented here so the agent doesn't try them and waste tokens:
 
 ### Playwright fallback pattern (when WebFetch returns 403 or empty)
 
-When the matrix above marks "Try Playwright" or WebFetch returns 403/empty for a source the matrix says should work, the agent should:
-
-1. Write a short Python script using `playwright.sync_api`.
-2. Launch headless Chromium with `--no-sandbox` flag (required in sandboxed cloud session).
-3. Navigate to the target URL, wait for `networkidle`, extract `page.content()`.
-4. Parse the rendered HTML normally (BeautifulSoup or regex).
-5. Cap at one Playwright retry per URL — don't loop. If Playwright also fails, log as a non-critical failure and move on.
-
-The cloud session has Playwright installed via the setup script (Python `playwright` + `chromium` browser). Local Claude Code sessions can use `meta/playwright-scrape.py` as a reference for the pattern.
+When the matrix above marks "Try Playwright" or WebFetch returns 403/empty for a source the matrix says should work, follow the installation and runtime pattern in **`meta/playwright-guide.md`**. Cap at one Playwright retry per URL — don't loop. If Playwright also fails, log as a non-critical failure and move on.
 
 ### Findings recorded after each run
 

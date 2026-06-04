@@ -1,7 +1,9 @@
 # Sources Inventory
 
 > Map of reputable source hubs for the Learning Engineering Resource Hub.
-> Updated 2026-05-02.
+> Updated 2026-05-21.
+>
+> **Scope note:** The weekly automation routine (`meta/automation-prompt.md`) actively checks 14 sources. The full corpus draws on 52 distinct source values — the remainder came from manual and backlog indexing runs and are not checked automatically.
 
 ---
 
@@ -27,9 +29,9 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Why pre-curated: IES applies rigorous inclusion criteria. Every report represents a deliberate editorial decision.
 - Content types: `framework`, `report`
 - Access: Open HTML. Practice Guides at PracticeGuide/[N]. Individual Intervention Reports at Intervention/[slug] — but the listing page is JS-rendered; slugs must be discovered manually or via sitemap.
-- **Indexed so far:** All 29 accessible Practice Guides (entries 1–9, 21–39). **Intervention Reports: 98 indexed** (entries 40–137), covering all programs visible in the /Search/Products?productType=2 listing (~108 unique IDs enumerated, excluding duplicate program versions).
-- **Remaining:** ~481 intervention reports not in the visible enumeration (619 total confirmed by page counter). URL pattern `/ncee/wwc/InterventionReport/[ID]` is confirmed working; remaining IDs require systematic discovery. Candidate for automated pipeline.
-- Scale: Practice Guides complete. Intervention Reports ~16% coverage.
+- **Indexed:** 207 total entries. All 29 Practice Guides complete. ~178 intervention reports indexed.
+- **Remaining:** ~441 intervention reports (619 total confirmed by page counter). URL pattern `/ncee/wwc/InterventionReport/[ID]` confirmed working; remaining IDs require systematic discovery.
+- Scale: Practice Guides complete. Intervention Reports ~29% coverage.
 
 **IES Research Summaries / REL Products**
 - URL: https://ies.ed.gov/ncee/rel/
@@ -37,8 +39,8 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Why pre-curated: IES-commissioned, practitioner-oriented. Bridges research and practice.
 - Content types: `report`, `framework`
 - Access: ✅ Confirmed — open HTML + PDFs. URL pattern: `ies.ed.gov/ncee/rel/Products/Publication/[ID]`. Discover via regional listing pages at `ies.ed.gov/ncee/rel/regions/[region]`.
-- **Indexed:** 30 reports (entries 334–363). Coverage: all 10 REL regions; topics include math achievement, literacy, college access, chronic absenteeism, English learners, early childhood, SEL.
-- Scale: Many more REL products available. Each region publishes dozens of reports; current coverage is a curated sample.
+- **Indexed:** 30 reports. Coverage: all 10 REL regions; topics include math achievement, literacy, college access, chronic absenteeism, English learners, early childhood, SEL.
+- Scale: Active. Each region publishes dozens of reports; current coverage is a curated sample.
 
 **Learning Policy Institute (LPI)**
 - URL: https://learningpolicyinstitute.org/
@@ -46,8 +48,8 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Why pre-curated: Reports commissioned and peer-reviewed by LPI. Quality signal: major foundation funding (Gates, Hewlett, Carnegie, etc.).
 - Content types: `report`
 - Access: ✅ Confirmed — product pages load fully, PDFs freely downloadable without login. Slug pattern: `learningpolicyinstitute.org/product/[slug]` — discover slugs from listing or topic pages, not by guessing.
-- **Indexed:** 30 reports (entries 138–141, 149–174). Coverage: teacher workforce, early childhood, community schools, school funding, assessment, English learners, equity/integration, school discipline.
-- Scale: At ~30 entries. Could expand further; strong topic pages include `/topic/teaching-profession` and `/topic/broader-learning`.
+- **Indexed:** 36 reports. Coverage: teacher workforce, early childhood, community schools, school funding, assessment, English learners, equity/integration, school discipline.
+- Scale: Active. Could expand further; strong topic pages include `/topic/teaching-profession` and `/topic/broader-learning`.
 
 **National Academies Press (NAP)**
 - URL: https://www.nationalacademies.org/ (and nap.nationalacademies.org)
@@ -64,8 +66,8 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Why pre-curated: Reports are independently researched, peer-reviewed, widely cited by policymakers.
 - Content types: `report`
 - Access: ✅ Confirmed — two URL patterns: `edtrust.org/resource/[slug]` and `edtrust.org/rti/[slug]`. Slugs not predictable from titles. Best discovery: `edtrust.org/research-tools-and-i-sitemap.xml` (282 RTI URLs).
-- **Indexed:** 30 reports (entries 145–148, 175–200). Coverage: K-12 equity/access, advanced coursework, school discipline, chronic absenteeism, assessment, higher ed affordability, student debt, teacher diversity.
-- Scale: At ~30 entries. Rich source with 282+ RTI URLs available if expanding further.
+- **Indexed:** 31 reports. Coverage: K-12 equity/access, advanced coursework, school discipline, chronic absenteeism, assessment, higher ed affordability, student debt, teacher diversity.
+- Scale: Active. Rich source with 282+ RTI URLs available if expanding further.
 
 **Evidence for ESSA (Johns Hopkins University)**
 - URL: https://evidenceforessa.org/
@@ -73,9 +75,8 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Why pre-curated: Independent third-party reviews — more credible than vendor-produced efficacy claims. Used by districts for program selection decisions.
 - Content types: `report` (each page is an evidence review of a program)
 - Access: ✅ Confirmed — open HTML. URL pattern: `evidenceforessa.org/program/[slug]`. Sitemap at `evidenceforessa.org/sitemap.xml` lists 400+ program slugs. Category listings (`/programs/reading`, `/programs/math`) filter to rated programs only.
-- **Indexed:** 29 program reviews (entries 201–229). All Strong-rated. Coverage: 12 reading/literacy programs, 15 math programs, 2 SEL programs.
-- Scale: At ~29 entries. Could expand to Moderate-rated programs or add attendance/other categories. 400+ slugs available in sitemap.
-- Affiliation tag: none yet — no `evidence-for-essa` tag in schema. Add if expanding significantly.
+- **Indexed:** 79 program reviews. Strong and Moderate tiers covered. Coverage: reading/literacy, math, SEL, attendance programs.
+- Scale: Active. Promising and Demonstrates a Rationale tiers remain. 400+ slugs in sitemap.
 
 **Brookings Brown Center on Education Policy**
 - URL: https://www.brookings.edu/ (filter to Brown Center content via sitemap)
@@ -84,9 +85,8 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Content types: `report`, `paper`
 - Access: ✅ Confirmed — articles load (sitemap at `brookings.edu/sitemap_index.xml`; articles at `brookings.edu/articles/[slug]`). Earlier 403/404 errors were bad URLs, not blocking.
 - Caveat: Sitemap contains all Brookings content (not education-specific); need to curate manually from Brown Center listings.
-- **Indexed:** 22 reports (entries 309–333, with 3 gaps). Coverage: math achievement, reading, curriculum quality, test scores, teacher policy, equity.
-- Note: 3 entries (5, 11, 23 within the batch) were news reaction pieces — removed 2026-05-02.
-- Scale: At ~22 entries. Many more Brown Center briefs available; current set is a curated sample.
+- **Indexed:** 22 reports. Coverage: math achievement, reading, curriculum quality, test scores, teacher policy, equity.
+- Scale: Active. Many more Brown Center briefs available; current set is a curated sample.
 
 **Campbell Collaboration**
 - URL: https://campbellcollaboration.org/
@@ -94,8 +94,56 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Why pre-curated: Systematic reviews; meets GRADE and EPPI Centre standards. Quality signal = funded by Norwegian Research Council and multiple international governments.
 - Content types: `report` (systematic reviews)
 - Access: ✅ Confirmed — education review pages accessible. URL pattern: `campbellcollaboration.org/better-evidence/education-[slug].html`. Browse from `/our-work/education/` listing or `/better-evidence/` search.
-- **Indexed:** 25 systematic reviews (entries 284–308). Coverage: reading/literacy, math, SEL, attendance, school choice, tutoring, early childhood, professional development.
-- Scale: At ~25 entries. More education reviews available; current set covers high-priority topics.
+- **Indexed:** 45 systematic reviews. Coverage: reading/literacy, math, SEL, attendance, school choice, tutoring, early childhood, professional development.
+- Scale: Active. 52 total education reviews; 7 remaining.
+
+**TNTP**
+- URL: https://tntp.org/publications/
+- What it is: Research and advocacy org focused on teacher effectiveness, curriculum quality, and opportunity gaps for students in high-need schools.
+- Content types: `report`
+- Access: JS-paginated (4 pages, 36 total). WebFetch only sees page 1 (10 items). Use `meta/playwright-scrape.py` for full listing.
+- **Indexed:** 36 reports. Coverage: teacher effectiveness, curriculum quality, learning acceleration, equity.
+- Scale: Complete — all 36 publications indexed.
+
+**Mathematica**
+- URL: https://mathematica.org/evidence?focusArea=Education&contentType=Publication
+- What it is: IES-funded RCTs, quasi-experimental studies, and evidence reviews on K-12 and higher-education programs.
+- Content types: `report`
+- Access: JS-rendered listing (Coveo search). WebFetch sees partial set. Full catalog via Coveo API (fragile — skip in routine; use manual batches).
+- **Indexed:** 35 reports. Coverage: early childhood programs, K-12 interventions, postsecondary access, workforce-linked education.
+- Scale: Active. ~693 education publications available; current coverage is an initial sample.
+
+**WestEd**
+- URL: https://wested.org/resources/?type=research-evaluation
+- What it is: Federal regional lab. Research and evaluation on K-12 learning, educator effectiveness, and equity.
+- Content types: `report`
+- Access: ✅ Confirmed via WebFetch.
+- **Indexed:** 14 reports. Coverage: literacy, math, equity, professional development, early childhood.
+- Scale: Active. Many more publications available.
+
+**UChicago Consortium on School Research**
+- URL: https://consortium.uchicago.edu/publications
+- What it is: Independent research center focused on Chicago Public Schools and broader K-12 school improvement — attendance, college readiness, school culture, equity.
+- Content types: `report`
+- Access: ✅ Confirmed via WebFetch. Slug pattern: `consortium.uchicago.edu/publications/[slug]`.
+- **Indexed:** 31 reports. Coverage: attendance, college access, school culture, high school graduation, equity.
+- Scale: Active. 319 publications total; significant backlog remaining.
+
+**CREDO at Stanford**
+- URL: https://credo.stanford.edu/research-reports/report-finder/
+- What it is: Center for Research on Education Outcomes — charter school effectiveness studies and broader K-12 program evaluations.
+- Content types: `report`
+- Access: ✅ Confirmed.
+- **Indexed:** 9 reports. Coverage: charter school effectiveness, urban education, virtual learning.
+- Scale: Near-complete — small catalog (~9 total reports).
+
+**NWEA Research**
+- URL: https://www.nwea.org/research/ (sitemap: `nwea.org/publication-sitemap.xml`)
+- What it is: MAP Growth longitudinal research, academic recovery studies, and learning loss data. Widely cited in policy and practice.
+- Content types: `report`, `article`
+- Access: ✅ Confirmed via publication sitemap (prefer over JS-rendered listing).
+- **Indexed:** 70 entries. Corpus label: `"NWEA Research"`.
+- Scale: Active. Sitemap has 200+ publications.
 
 **AERA (American Educational Research Association) — Reviews of Research**
 - URL: https://www.aera.net/Publications/Journals/Review-of-Educational-Research
@@ -193,8 +241,8 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Access: ✅ Confirmed via Playwright — DSpace 7 Angular SPA; WebFetch returns empty body (202). Must use Playwright with `page.wait_for_selector('ds-item-page')` after `wait_until='networkidle'`.
   - Discovery: REST API at `digitalpromise.dspacedirect.org/server/api/discover/search/objects?scope=8b62a46e-6df8-4871-84f3-cf007fbb0660&dsoType=item&size=50&sort=dc.date.issued,desc` — accessible via WebFetch (returns JSON without JS rendering).
   - Item URLs: `digitalpromise.dspacedirect.org/items/[UUID]` — UUIDs from REST API response.
-- **Indexed:** 30 reports (entries 18–20, 364–390). Coverage: AI literacy, AI policy, digital learning platforms, privacy, multilingual learners, learning sciences, math instruction, R&D infrastructure, computational thinking, learner variability.
-- Scale: 252 items available; 30 indexed. Collections with remaining depth: AI, Learning Sciences Research, Learner Variability Project, Digital Equity, Dynamic Learning Project.
+- **Indexed:** 254 reports. Coverage: AI literacy, AI policy, digital learning platforms, privacy, multilingual learners, learning sciences, math instruction, R&D infrastructure, computational thinking, learner variability.
+- Scale: Active. 252+ items available; near-complete. Requires Playwright batches — use `meta/playwright-scrape.py`.
 
 **Duolingo Research**
 - URL: https://research.duolingo.com
@@ -341,8 +389,8 @@ Index landmark or highly-cited papers only — do not attempt systematic indexin
 
 | Journal | Access | URL pattern | Confirmed? | Best use |
 |---|---|---|---|---|
-| Journal of Educational Data Mining (JEDM) | Fully open access | jedm.educationaldatamining.org/index.php/JEDM/article/view/[ID] | ✅ | **30 indexed** (entries 17, 230–258). Vols 10–18 (2018–2026). BKT, hint-seeking, dropout, fairness, LLMs, affect, A/B testing. |
-| Journal of Learning Analytics (JLA) | Fully open access, CC BY 4.0 | learning-analytics.info/index.php/JLA/article/view/[ID] | ✅ | **25 indexed** (entries 259–283). Vols 9–12 (2022–2025). LA dashboards, temporal modeling, NLP, fairness, writing analytics, collaborative learning. |
+| Journal of Educational Data Mining (JEDM) | Fully open access | jedm.educationaldatamining.org/index.php/JEDM/article/view/[ID] | ✅ | **39 indexed**. Vols 10–18 (2018–2026). BKT, hint-seeking, dropout, fairness, LLMs, affect, A/B testing. |
+| Journal of Learning Analytics (JLA) | Fully open access, CC BY 4.0 | learning-analytics.info/index.php/JLA/article/view/[ID] | ✅ | **44 indexed**. Vols 9–12 (2022–2025). LA dashboards, temporal modeling, NLP, fairness, writing analytics, collaborative learning. |
 | npj Science of Learning | Fully open access (Nature) | nature.com/npjscilearn/articles | ⚠️ 303 redirect — verify URL | High-quality cognitive/neuro/learning science |
 | Computers & Education | Paywalled | — | — | Use DOI + Unpaywall/Semantic Scholar |
 | Educational Technology Research & Development | Paywalled | — | — | Same |

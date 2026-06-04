@@ -81,7 +81,7 @@ curl -s https://renaissance-hub.joon-96a.workers.dev/ | grep "curated"
 #   -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"list_tags","arguments":{}}}' | jq .
 ```
 
-**Known minor staleness in worker code:** `worker/src/index.js` line ~81 has a hardcoded "569" in the `search_resources` tool description. This is the *description string* MCP clients see when listing tools; the *actual data* returned is whatever's in the bundled data.json. Fix on the next worker edit by changing the description to dynamic interpolation against `data.entries.length`, or just bump the literal.
+The worker's tool descriptions use dynamic interpolation (`data.entries.length`), so they always reflect whatever is in the bundled `data.json`. No hardcoded counts to maintain.
 
 ### 3. Gemini Gem — manual upload
 
@@ -213,7 +213,7 @@ python meta/source-check.py
 
 Probes each source's discovery URL + a sample publication URL. Classifies each as OK / PARTIAL / DEGRADED / JS-RENDERED / BLOCKED. Good sanity-check before a manual `automation-prompt.md` run from local Claude Code (the cloud routine doesn't need this — it'll just log failures in the PR body).
 
-Note: the script's source list lives inside the script itself; it drifts from `meta/source-targets.json` over time. Update the script manually when adding/removing sources.
+The script reads its source list from `meta/source-targets.json`, so it stays in sync automatically when sources are added or removed.
 
 ### "The routine didn't fire this week"
 

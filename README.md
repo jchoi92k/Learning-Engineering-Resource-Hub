@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub
 
-A curated, agent-first referratory of 1,161+ evidence-based K-12, higher-education, and learning-engineering research resources — optimized for LLM consumption.
+A curated, agent-first referratory of 2,063+ evidence-based K-12, higher-education, and learning-engineering research resources — optimized for LLM consumption.
 
 **[Browse →](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub)** · Built and maintained with [Claude Code](https://claude.ai/code)
 
@@ -24,7 +24,7 @@ A web UI for human browsing is at the GitHub Pages link above.
 
 ## What's in it
 
-1,161+ entries across reports, practice guides, papers, frameworks, and datasets from:
+2,063+ entries across reports, practice guides, papers, frameworks, and datasets from:
 
 **Research & evidence** — What Works Clearinghouse (practice guides + intervention reports), Evidence for ESSA, Campbell Collaboration, IES Regional Education Labs, Brookings Institution, AIMS Collaboratory, NWEA, Mathematica, WestEd, UChicago Consortium, CREDO at Stanford
 
@@ -56,13 +56,13 @@ docs/                 ← GitHub Pages source (the published referatory)
 
 meta/                 ← operational docs and tooling
   agent-guide.md      ← entry format, tag schema, source URL patterns, subagent protocol
+  scrape.py           ← config-driven scraper (reads meta/sources/*.json)
+  process_staged.py   ← formats staged JSON into llms-full.txt entries with auto-tagging
+  processing-log.md   ← auto-appended log of every processing run
+  sources/            ← per-source profiles (.md), configs (.json), backlogs (-backlog.txt)
   automation-prompt.md← self-contained prompt for weekly multi-source check
   backlog-prompt.md   ← self-contained prompt for backlog expansion on a single source
-  inclusion-criteria.md
-  sources-inventory.md
-  source-audit.md, sources-log.md
-  playwright-scrape.py, source-check.py
-  source-targets.json
+  source-targets.json ← known totals and priority per source
 
 worker/               ← Cloudflare Worker (MCP server)
 ```
@@ -71,14 +71,15 @@ worker/               ← Cloudflare Worker (MCP server)
 
 ## Maintaining the hub
 
-After adding or editing entries in `docs/llms-full.txt`, regenerate derived files:
+The scraping pipeline handles discovery, staging, tagging, and integration:
 
 ```bash
-cd docs
-python build_tags.py
+python meta/scrape.py {source}            # fetch + stage to docs/staging/
+python meta/process_staged.py {source}    # tag + append to llms-full.txt
+cd docs && python build_tags.py           # rebuild data.json, llms.txt, tags/
 ```
 
-Then commit and push. See `meta/agent-guide.md` for entry format, tag taxonomy, source URL patterns, and the subagent protocol for parallel collection runs. See `index.md` for common operations.
+See `meta/sources/README.md` for conventions, `meta/agent-guide.md` for the full operational guide, and `index.md` for common operations.
 
 ---
 

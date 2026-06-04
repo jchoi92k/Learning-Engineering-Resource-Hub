@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Renaissance AI and Education Resource Hub</title>
-  <meta name="description" content="569 curated evidence-based K-12 and higher education resources. AI-agent optimized — fetch llms-full.txt for the complete index with descriptions." />
+  <meta name="description" content="Curated evidence-based K-12 and higher education resources. AI-agent optimized — fetch llms-full.txt for the complete index with descriptions." />
   <link rel="alternate" type="text/plain" href="llms-full.txt" title="Full index: all entries with descriptions" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232D3E6B'/><text x='16' y='22' font-size='20' text-anchor='middle' fill='%2375C7C5' font-family='sans-serif' font-weight='700'>R</text><circle cx='25' cy='7' r='3' fill='%23FFCA08'/></svg>" />
 
@@ -190,7 +190,7 @@
 
   <noscript>
     <h1>Renaissance AI and Education Resource Hub</h1>
-    <p>569 curated evidence-based K-12 and higher education resources from WWC, AIMS, JEDM, LPI, EdTrust, Tools Competition, and more.</p>
+    <p>Curated evidence-based K-12 and higher education resources from WWC, NWEA, JEDM, LPI, EdTrust, Digital Promise, and more.</p>
     <p>AI agents: fetch <a href="llms-full.txt">llms-full.txt</a> — the complete index with all entries, descriptions, and a navigation guide.</p>
   </noscript>
 
@@ -231,7 +231,7 @@
             <span class="ml-1 text-white/70">sources</span>
           </div>
           <div class="text-white">
-            <span class="text-2xl font-extrabold text-teal">47</span>
+            <span id="stat-tags" class="text-2xl font-extrabold text-teal">—</span>
             <span class="ml-1 text-white/70">tags</span>
           </div>
           <div class="text-white">
@@ -364,6 +364,10 @@
         document.getElementById('stat-sources').textContent  = data.meta.sources.length;
         document.getElementById('stat-updated').textContent  = data.meta.last_updated;
         document.getElementById('footer-updated').textContent = data.meta.last_updated;
+
+        const tagSet = new Set();
+        data.entries.forEach(e => e.tags.forEach(t => tagSet.add(t)));
+        document.getElementById('stat-tags').textContent = tagSet.size;
 
         const footerSources = document.getElementById('footer-sources');
         const MAX_FOOTER_SOURCES = 8;

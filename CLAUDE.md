@@ -42,8 +42,8 @@ OpenAlex / Semantic Scholar / CrossRef / Unpaywall are **utility APIs only** —
 
 ## Current state (as of 2026-05-13)
 
-- **1,181 entries** in `docs/llms-full.txt`
-- Sources: WWC (29 guides + ~178 intervention reports), LPI (36), EdTrust (31), JEDM (39), Evidence for ESSA (78), JLA (43), Campbell Collaboration (45), Brookings (23), IES REL (30), Digital Promise (254), TNTP (36), UChicago Consortium (31), Datasets (101 total), AIMS Collaboratory (53), Tools Competition (18), LEVI Math (7), Benchmarks & Code (11), NAP (2), CASEL (1), UNESCO (3), CAST (1), CMU/ETS (1), WestEd (14), NWEA (70), Mathematica (32)
-- JS-paginated sources: use `python meta/playwright-scrape.py [tntp|digital-promise]`
-- Coverage tracking: `meta/source-targets.json` + `data.json` meta.coverage
+- **2,063 entries** in `docs/llms-full.txt`
+- Sources: WWC (375), Mathematica (474), Digital Promise (258), Evidence for ESSA (221), LPI (165), NWEA Research (70), AIMS Collaboratory (53), Campbell Collaboration (45), JLA (44), JEDM (39), TNTP (36), EdTrust (31), UChicago Consortium (31), IES REL (30), Brookings (22), WestEd (14), CREDO (9), NAP (2), CASEL (1), plus Datasets (101), Tools Competition (18), LEVI Math (7), Benchmarks & Code (11), UNESCO (3), CAST (1), CMU/ETS (1)
+- Scraping pipeline: `python meta/scrape.py {source}` (config-driven, see `meta/sources/`), then `python meta/process_staged.py {source}`, then `cd docs && python build_tags.py`
+- Coverage tracking: `meta/source-targets.json` + `data.json` meta.coverage + `meta/processing-log.md`
 - After any edits, run `python build_tags.py` from `docs/` to regenerate `data.json` and tag files

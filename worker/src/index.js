@@ -260,7 +260,7 @@ function processMcpMessage(msg) {
   switch (method) {
     case "initialize":
       return jsonRpc(id, {
-        protocolVersion: "2024-11-05",
+        protocolVersion: "2025-03-26",
         capabilities: { tools: {} },
         serverInfo: { name: "renaissance-hub", version: "1.0.0" },
       });
@@ -400,8 +400,10 @@ export default {
     }
 
     if (url.pathname === "/mcp") {
+
       if (request.method === "POST") return handleMcpPost(request);
       if (request.method === "DELETE") return mcpResponse(null, 200);
+      if (request.method === "GET") return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
       return mcpResponse({ name: "renaissance-hub", version: "1.0.0", tools: TOOL_DEFINITIONS.map((t) => t.name) });
     }
 

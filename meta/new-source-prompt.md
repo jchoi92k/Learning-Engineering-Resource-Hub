@@ -68,18 +68,7 @@ Try these in order. Stop at the first one that yields a usable list of publicati
 2. **Listing page** — look for `/publications`, `/research`, `/reports`, `/our-work`, or similar. Fetch with WebFetch. If empty or near-empty, the listing is likely JS-rendered → fall back to step 5.
 3. **RSS / Atom feed** — try `/feed`, `/feed.xml`, `/rss`, `/atom.xml`. Less common but cheap to check.
 4. **API endpoint** — look for OPDS, DSpace REST, Coveo, GraphQL, JSON-LD hints in page headers or robots.txt. Document any API endpoint found.
-5. **Playwright fallback** — if WebFetch returns 403 or empty for the listing, retry once with headless Chromium:
-
-   ```python
-   from playwright.sync_api import sync_playwright
-
-   with sync_playwright() as p:
-       browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-       page = browser.new_page()
-       page.goto(HOMEPAGE_URL, wait_until="networkidle", timeout=30000)
-       html = page.content()
-       browser.close()
-   ```
+5. **Playwright fallback** — if WebFetch returns 403 or empty for the listing, retry once with headless Chromium using the pattern in `meta/playwright-guide.md`.
 
 6. **All methods failed** — document this in Step 6 (the source-audit row says "manual / no auto-access") and Step 9's PR body. Skip Steps 4–5 (no initial pass possible). Still register the source in the canonical files so it shows up in our inventory.
 

@@ -57,21 +57,7 @@ Aim to collect **at least 30 new entries** (or all remaining if fewer than 30 ex
 Check `meta/source-targets.json` for the known total and how many are already indexed
 to understand how much backlog remains.
 
-**Playwright fallback.** If WebFetch returns 403 or empty content for the listing or for individual pages — and the access matrix in `meta/source-audit.md` flags this source as "Try Playwright" or "Yes" — retry **once** with headless Chromium:
-
-```python
-from playwright.sync_api import sync_playwright
-
-with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-    page = browser.new_page()
-    page.goto(url, wait_until="networkidle", timeout=30000)
-    html = page.content()
-    browser.close()
-# Parse `html` normally with regex or BeautifulSoup.
-```
-
-If Playwright isn't installed locally, install it: `pip install playwright && playwright install chromium`. The cloud routine has it pre-installed via the setup script. Cap at one retry per URL.
+**Playwright fallback.** If WebFetch returns 403 or empty content for the listing or for individual pages — and the access matrix in `meta/source-audit.md` flags this source as "Try Playwright" or "Yes" — retry **once** with headless Chromium using the pattern in `meta/playwright-guide.md`. Cap at one retry per URL. See that guide for installation instructions (local vs. cloud).
 
 **No-inference policy — strictly enforced:**
 - Fetch each publication page before writing its entry.

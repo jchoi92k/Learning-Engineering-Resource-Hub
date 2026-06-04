@@ -52,6 +52,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 - **`operator-guide.md`** — how the four surfaces (GitHub Pages, MCP worker, Gemini Gem, llms.txt) are connected, what auto-updates vs. needs manual deploy, after-merge checklist, handoff notes.
 - **`automation-prompt.md`** — self-contained prompt for the weekly automated source-check. Used by the scheduled cloud routine; does end-to-end discovery → stage → merge → build → commit → PR. Also runnable interactively from this terminal.
 - **`automation-log.md`** — append-only run log; each weekly run adds one entry summarizing additions, drops, failures, and a link to the cloud session transcript.
+- **`processing-log.md`** — auto-appended by `process_staged.py`; records every batch of entries scraped, processed, and tagged.
 - **`backlog-prompt.md`** — self-contained prompt for expanding coverage of a single source that already has some entries but a backlog remains.
 - **`new-source-prompt.md`** — self-contained prompt for onboarding a brand-new source (scope check → access discovery → initial pass → canonical doc updates → PR). Run interactively after triaging a `[New source]` GitHub issue.
 - **`inclusion-criteria.md`** — what qualifies for inclusion (source-level + resource-level rules).
@@ -61,7 +62,9 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 - **`gem-instructions.md`** — instructions for the Google Gemini Gem (`gem-knowledge.txt` is its knowledge file).
 - **`source-targets.json`** — coverage targets per source; consumed by `build_tags.py` to compute `meta.coverage`.
 - **`playwright-scrape.py`** — scraper for JS-rendered sources (TNTP, Digital Promise). Usage: `python meta/playwright-scrape.py [tntp|digital-promise]`.
-- **`source-check.py`** — pre-flight accessibility probe. Hits each source's discovery URL + a sample publication URL and classifies the result as OK / PARTIAL / DEGRADED / JS-RENDERED / BLOCKED. Run before a manual automation pass to see what's reachable: `python meta/source-check.py`. Note: maintains its own source list (drifts from `meta/source-targets.json` — refresh manually when adding sources).
+- **`source-check.py`** — pre-flight accessibility probe. Hits each source's discovery URL + a sample publication URL and classifies the result as OK / PARTIAL / DEGRADED / JS-RENDERED / BLOCKED. Run before a manual automation pass to see what's reachable: `python meta/source-check.py`. Reads its source list from `meta/source-targets.json`.
+- **`playwright-guide.md`** — centralized Playwright installation and usage reference (local vs. cloud, `--no-sandbox` flag, which sources need it).
+- **`sources/`** — per-source scraping profiles. Each file documents discovery method, access constraints, scope, entry metadata, and step-by-step scraping instructions. Companion `{source}-backlog.txt` files track URLs that couldn't be fully indexed (missing descriptions, 404s, etc.).
 
 ### `worker/` — Cloudflare Worker (MCP server)
 - Deployed at `https://renaissance-hub.joon-96a.workers.dev`. Exposes the hub via MCP so LLM agents can query it directly.

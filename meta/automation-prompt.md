@@ -59,21 +59,7 @@ For each source below: fetch the discovery URL, extract candidate publication UR
 
 The early-stop keeps the run cheap: for sources where the recent listings are already indexed, we do one listing fetch and skip ahead. For sources with accumulated new content, we fetch only the new pages.
 
-**Playwright fallback (cloud session only).** If WebFetch returns 403 or empty/blank content for a source the access matrix in `meta/source-audit.md` flags as "Try Playwright" or "Yes" — or for a source the matrix says should work but doesn't on this run — retry **once** with headless Chromium:
-
-```python
-from playwright.sync_api import sync_playwright
-
-with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-    page = browser.new_page()
-    page.goto(url, wait_until="networkidle", timeout=30000)
-    html = page.content()
-    browser.close()
-# Parse `html` normally (regex or BeautifulSoup) to extract publication URLs or descriptions.
-```
-
-The `--no-sandbox` flag is required in the sandboxed cloud VM. Cap at one Playwright retry per URL — don't loop. If Playwright also fails, log it under non-critical failures and move on. After the run, append a line to `meta/sources-log.md` documenting what worked or didn't (Step 9).
+**Playwright fallback (cloud session only).** If WebFetch returns 403 or empty/blank content for a source the access matrix in `meta/source-audit.md` flags as "Try Playwright" or "Yes" — or for a source the matrix says should work but doesn't on this run — retry **once** with headless Chromium using the pattern in `meta/playwright-guide.md`. Cap at one Playwright retry per URL — don't loop. If Playwright also fails, log it under non-critical failures and move on. After the run, append a line to `meta/sources-log.md` documenting what worked or didn't (Step 9).
 
 ### Source list
 
@@ -351,17 +337,7 @@ Create the routine at [claude.ai/code/routines](https://claude.ai/code/routines)
 - **Network access**: **Full** (required to reach WWC, NWEA, Mathematica, WestEd, JEDM, etc. — they're not on the default Trusted allowlist)
 - **Environment variables**:
   - `GH_TOKEN` — fine-grained PAT scoped to this repo with **Contents: Read & write** and **Pull requests: Read & write** permissions
-- **Setup script** (one-time, cached after first run — ~2 min first time):
-  ```bash
-  #!/bin/bash
-  apt update && apt install -y gh
-  # Playwright (fallback for sources that 403 from cloud or are JS-rendered)
-  pip install playwright
-  npx -y playwright@latest install-deps chromium
-  npx -y playwright@latest install chromium
-  ```
-
-  The Playwright install adds ~2 minutes to the first run but is cached by the environment, so subsequent runs start with Chromium already on disk. The `--no-sandbox` flag (used by the routine, not the install) handles sandboxing in the cloud VM.
+- **Setup script** (one-time, cached after first run — ~2 min first time). See `meta/playwright-guide.md` for the cloud setup script. Includes `gh`, Playwright, and Chromium. The Playwright install adds ~2 minutes to the first run but is cached. The `--no-sandbox` flag (used at runtime, not install) handles sandboxing in the cloud VM.
 
 **First test run:** click **Run now** on the routine detail page instead of waiting for the scheduled fire. Inspect the resulting PR closely; iterate the prompt before letting the weekly schedule run unattended.
 

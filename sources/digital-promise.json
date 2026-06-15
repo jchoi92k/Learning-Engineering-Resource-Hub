@@ -1,0 +1,33 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in digital-promise.md.",
+
+  "request_delay": 2,
+  "discovery": "api",
+  "discovery_url": "https://digitalpromise.dspacedirect.org/server/api/discover/search/objects",
+  "api": {
+    "params": {"dsoType": "item", "size": 100},
+    "pagination": {"param": "page", "start": 0, "pages": 3},
+    "json_paths": {
+      "items": "_embedded/searchResult/_embedded/objects",
+      "item_root": "_embedded/indexableObject",
+      "title": "metadata/dc.title/0/value",
+      "url": "uuid",
+      "date": "metadata/dc.date.issued/0/value",
+      "description": "metadata/dc.description.abstract/0/value",
+      "description_fallback": "metadata/dc.description/0/value",
+      "type": "metadata/dc.type/0/value",
+      "authors": "metadata/dc.contributor.author/*/value",
+      "tags": "metadata/dc.subject/*/value"
+    }
+  },
+  "url_template": "https://digitalpromise.dspacedirect.org/items/{url}",
+
+  "robots_txt": "https://digitalpromise.dspacedirect.org/robots.txt",
+  "robots_disallow": ["/search", "/admin/*", "/submit"],
+
+  "test": {
+    "url": "https://digitalpromise.dspacedirect.org/server/api/discover/search/objects?dsoType=item&size=5&page=0",
+    "expected_item_count": 5,
+    "expected_first_title_contains": ""
+  }
+}

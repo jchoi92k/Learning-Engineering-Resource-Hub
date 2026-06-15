@@ -1,0 +1,51 @@
+ADL Initiative | https://github.com/adlnet | 2 | code
+AI-for-Education.org | https://ai-for-education.org/find-benchmarks/ | 1 | platform
+AIMS Collaboratory | https://aimscollab.org/ | 53 | blog-post, code, framework, paper, platform, presentation, project-website, report
+Brookings Institution | https://www.brookings.edu/ | 22 | report
+Brookings Institution (Brown Center on Education Policy) | https://www.brookings.edu/ | 1 | article
+CAST | https://udlguidelines.cast.org/ | 1 | framework
+CREDO at Stanford | https://credo.stanford.edu/research-reports/report-finder/ | 9 | report
+Campbell Collaboration | https://campbellcollaboration.org/our-work/education/ | 45 | report, review
+Carnegie Mellon University / Educational Testing Service | https://achievethecore.org/page/3367/ | 1 | report
+Carnegie Mellon University LearnLab | https://pslcdatashop.web.cmu.edu/ | 12 | dataset
+Collaborative for Academic, Social, and Emotional Learning (CASEL) | https://casel.org/ | 1 | framework
+Digital Promise | https://digitalpromise.dspacedirect.org | 254 | framework, report
+Duolingo | https://research.duolingo.com/ | 2 | dataset
+ETH Zurich | https://eth-lre.github.io/mathtutorbench/ | 1 | platform
+Evidence for ESSA | https://evidenceforessa.org/ | 79 | report, review
+Harvard University | https://opportunityinsights.org/ | 9 | dataset
+ICPSR (U. Michigan) | https://www.icpsr.umich.edu/ | 2 | dataset
+IEA | https://www.iea.nl/studies | 11 | dataset
+IES Regional Education Labs | https://ies.ed.gov/ncee/rel/ | 30 | framework, report
+Journal of Educational Data Mining | https://jedm.educationaldatamining.org/ | 39 | paper
+Journal of Learning Analytics | https://learning-analytics.info/index.php/JLA/ | 44 | paper
+LEVI Math | https://learning-engineering-virtual-institute.org/ | 7 | platform
+Learning Commons | https://learningcommons.org/ | 1 | platform
+Learning Policy Institute | https://learningpolicyinstitute.org/research/ | 36 | report
+Mathematica | https://mathematica.org/evidence?focusArea=Education&contentType=Publication | 35 | report
+NBER | https://www.nber.org/ | 2 | dataset
+NWEA Research | https://www.nwea.org/research/ | 70 | article, report
+National Academies of Sciences, Engineering, and Medicine | https://nap.nationalacademies.org/ | 2 | report
+National Center for Education Statistics (NCES) | https://nces.ed.gov/ | 33 | dataset
+National Student Clearinghouse | https://nscresearchcenter.org/ | 3 | dataset
+OECD | https://www.oecd.org/pisa/ | 8 | dataset
+Riiid | https://github.com/riiid/ednet | 1 | dataset
+Scale AI | https://labs.scale.com/leaderboard/tutorbench | 1 | platform
+Stanford CEPA | https://edopportunity.org/ | 4 | dataset
+TNTP | https://tntp.org/publications/ | 36 | report
+The Education Trust | https://edtrust.org/research/ | 31 | report
+The Learning Agency | https://www.the-learning-agency.com/ | 1 | platform
+The Open University | https://analyse.kmi.open.ac.uk/open-dataset | 1 | dataset
+Tools Competition | https://www.toolscompetition.org/ | 18 | dataset, platform
+U.S. Department of Education | https://ed.gov/data | 4 | dataset
+U.S. Department of Education Office for Civil Rights | https://civilrightsdata.ed.gov/ | 1 | dataset
+UC Berkeley CAHLR | https://github.com/CAHLR | 2 | code
+UChicago Consortium on School Research | https://consortium.uchicago.edu/publications | 31 | framework, report
+UNESCO | https://www.unesco.org/en/digital-education/artificial-intelligence | 3 | framework
+University of Notre Dame | https://github.com/nd-ball/py-irt | 1 | code
+Urban Institute | https://educationdata.urban.org/ | 2 | dataset
+WestEd | https://wested.org/resources/?type=research-evaluation | 14 | framework, report
+What Works Clearinghouse | https://ies.ed.gov/ncee/wwc/ | 207 | framework, report, review
+Worcester Polytechnic Institute | https://new.assistments.org/download | 3 | dataset
+World Bank | https://datatopics.worldbank.org/education/ | 3 | dataset
+pyKT Team | https://github.com/pykt-team/pykt-toolkit | 1 | code

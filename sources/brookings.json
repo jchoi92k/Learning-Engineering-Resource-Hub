@@ -1,0 +1,39 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in brookings.md.",
+
+  "request_delay": 2,
+  "discovery": "api",
+  "discovery_url": "https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query",
+  "api": {
+    "method": "POST",
+    "headers": {
+      "x-algolia-application-id": "XGC391W2WE",
+      "x-algolia-api-key": "52dcafdcc61d4c5885aeccd7d2e4d788"
+    },
+    "body": {
+      "query": "",
+      "hitsPerPage": 200,
+      "filters": "(post_type:article) AND (tax_ids.center_tax:24) AND (locale:en)",
+      "attributesToRetrieve": ["post_title", "permalink", "post_date_formatted", "content", "content_type", "display_authors", "primary_topic", "taxonomies"]
+    },
+    "pagination": {"param": "page", "start": 0, "max_results": 1000},
+    "json_paths": {
+      "items": "hits",
+      "title": "post_title",
+      "url": "permalink",
+      "date": "post_date_formatted",
+      "description": "content",
+      "type": "content_type",
+      "authors": "display_authors",
+      "tags": "taxonomies/topic_tax"
+    }
+  },
+
+  "robots_txt": "https://www.brookings.edu/robots.txt",
+  "robots_disallow": ["/?*qry", "/?*topics", "/search/"],
+
+  "test": {
+    "url": "https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query",
+    "expected_min_results": 100
+  }
+}

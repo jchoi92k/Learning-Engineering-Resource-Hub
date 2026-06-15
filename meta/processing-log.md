@@ -38,3 +38,33 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Scraped: 7 total, 7 ready, 0 backlog
 - Processed: 7 entries (2432-2438)
 - Tags: keyword auto-tagged
+
+## 2026-06-15 - Campbell Collaboration
+- Source slug: `campbell-collaboration`
+- Scraped: 262 total, 262 ready, 0 backlog
+- Processed: 262 entries (4661-4922)
+- Tags: keyword auto-tagged
+
+## 2026-06-15 - Learning Policy Institute
+- Source slug: `lpi-briefs`
+- Scraped: 139 total, 139 ready, 0 backlog
+- Processed: 139 entries (4923-5061)
+- Tags: keyword auto-tagged
+
+## 2026-06-15 - Learning Policy Institute
+- Source slug: `lpi-fact-sheets`
+- Scraped: 37 total, 37 ready, 0 backlog
+- Processed: 37 entries (5062-5098)
+- Tags: keyword auto-tagged
+
+## 2026-06-15 - Mathematica
+- Source slug: `mathematica`
+- Scraped: 455 total, 359 ready, 96 backlog
+- Processed: 359 entries (5099-5457)
+- Tags: keyword auto-tagged
+
+## 2026-06-15 - Digital Promise
+- Source slug: `digital-promise`
+- Scraped: 3 total, 1 ready, 2 backlog
+- Processed: 1 entries (5458-5458)
+- Tags: keyword auto-tagged

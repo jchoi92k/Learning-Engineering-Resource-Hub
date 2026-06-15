@@ -1,0 +1,18 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in edtrust.md.",
+
+  "discovery": "sitemap",
+  "discovery_url": "https://edtrust.org/research-tools-and-i-sitemap.xml",
+  "sitemap": {
+    "url_pattern": "/rti/"
+  },
+
+  "robots_txt": "https://edtrust.org/robots.txt",
+  "robots_disallow": ["/wp-admin/", "/trackback/", "/xmlrpc.php", "/feed/"],
+
+  "test": {
+    "url": "https://edtrust.org/research-tools-and-i-sitemap.xml",
+    "expected_url_contains": "/rti/",
+    "expected_min_urls": 500
+  }
+}

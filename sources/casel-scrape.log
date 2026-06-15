@@ -1,0 +1,21 @@
+[01:48:26] [casel] Starting. Crawl-delay: 60s, max consecutive failures: 3
+[01:48:26] [casel] Backoff schedule on 429/503: [10, 30, 60]
+[01:48:26]   Listing page 1: https://casel.org/news-publications/sel-publications/
+[01:48:26]   Extracted 25 items from page 1
+[01:48:26]   Listing page 2: https://casel.org/news-publications/sel-publications/page/2/
+[01:48:26]   [throttle] waiting 60s (crawl-delay=60s)
+Traceback (most recent call last):
+  File "C:\Users\igisb\OneDrive\Documentos\TLA\Educational resources\meta\scrape_casel.py", line 272, in <module>
+    main()
+  File "C:\Users\igisb\OneDrive\Documentos\TLA\Educational resources\meta\scrape_casel.py", line 209, in main
+    items = scrape_listing(max_pages=args.pages)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\igisb\OneDrive\Documentos\TLA\Educational resources\meta\scrape_casel.py", line 135, in scrape_listing
+    r = fetch(url)
+        ^^^^^^^^^^
+  File "C:\Users\igisb\OneDrive\Documentos\TLA\Educational resources\meta\scrape_casel.py", line 90, in fetch
+    throttle()
+  File "C:\Users\igisb\OneDrive\Documentos\TLA\Educational resources\meta\scrape_casel.py", line 65, in throttle
+    time.sleep(wait)
+KeyboardInterrupt
+^C

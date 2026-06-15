@@ -101,7 +101,7 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - URL: https://tntp.org/publications/
 - What it is: Research and advocacy org focused on teacher effectiveness, curriculum quality, and opportunity gaps for students in high-need schools.
 - Content types: `report`
-- Access: JS-paginated (4 pages, 36 total). WebFetch only sees page 1 (10 items). Use `meta/playwright-scrape.py` for full listing.
+- Access: JS-paginated (4 pages, 36 total). WebFetch only sees page 1 (10 items). Use `scripts/playwright_scrape.py` for full listing.
 - **Indexed:** 36 reports. Coverage: teacher effectiveness, curriculum quality, learning acceleration, equity.
 - Scale: Complete — all 36 publications indexed.
 
@@ -242,7 +242,7 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
   - Discovery: REST API at `digitalpromise.dspacedirect.org/server/api/discover/search/objects?scope=8b62a46e-6df8-4871-84f3-cf007fbb0660&dsoType=item&size=50&sort=dc.date.issued,desc` — accessible via WebFetch (returns JSON without JS rendering).
   - Item URLs: `digitalpromise.dspacedirect.org/items/[UUID]` — UUIDs from REST API response.
 - **Indexed:** 254 reports. Coverage: AI literacy, AI policy, digital learning platforms, privacy, multilingual learners, learning sciences, math instruction, R&D infrastructure, computational thinking, learner variability.
-- Scale: Active. 252+ items available; near-complete. Requires Playwright batches — use `meta/playwright-scrape.py`.
+- Scale: Active. 252+ items available; near-complete. Requires Playwright batches — use `scripts/playwright_scrape.py`.
 
 **Duolingo Research**
 - URL: https://research.duolingo.com

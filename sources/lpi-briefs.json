@@ -1,0 +1,24 @@
+{
+  "_comment": "LPI briefs listing. Human context in lpi.md.",
+
+  "discovery": "pagination",
+  "discovery_url": "https://learningpolicyinstitute.org/products/briefs",
+  "url_prefix": "https://learningpolicyinstitute.org",
+  "pagination": {"param": "page", "start": 0},
+
+  "selectors": {
+    "item": "div.node--type--product",
+    "title": "h3.h3 a",
+    "url": "h3.h3 a[href]",
+    "blurb_parent": "span.teaser__details",
+    "authors": "div.teaser__subtitle span.author",
+    "date": "span.teaser__details time"
+  },
+
+  "robots_txt": "https://learningpolicyinstitute.org/robots.txt",
+
+  "test": {
+    "url": "https://learningpolicyinstitute.org/products/briefs?page=0",
+    "expected_item_count": 8
+  }
+}

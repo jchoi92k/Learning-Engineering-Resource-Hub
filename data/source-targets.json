@@ -1,0 +1,193 @@
+{
+  "_comment": "Known totals and priority for coverage tracking. Indexed counts are auto-calculated by build_tags.py from llms-full.txt — do not edit those here. Update known_total when you discover a source's actual size. Use null when unknown. sample_url and discovery_check are used by source-check.py for accessibility probes.",
+
+  "What Works Clearinghouse": {
+    "known_total": 649,
+    "priority": "high",
+    "status": "active",
+    "discovery_url": "https://ies.ed.gov/ncee/wwc/Search/Products?productType=2",
+    "sample_url": "https://ies.ed.gov/ncee/wwc/InterventionReport/381",
+    "discovery_check": "Intervention",
+    "notes": "619 intervention reports + 30 practice guides = 649. 375 indexed. Config: sources/wwc.json."
+  },
+
+  "Digital Promise": {
+    "known_total": 258,
+    "priority": "high",
+    "status": "active",
+    "discovery_url": "https://digitalpromise.dspacedirect.org/server/api/discover/search/objects?dsoType=item",
+    "sample_url": "https://digitalpromise.dspacedirect.org/items/some-uuid",
+    "discovery_check": "items",
+    "notes": "DSpace REST API. 258 items, 256 indexed, 2 in backlog. Config: sources/digital-promise.json."
+  },
+
+  "UChicago Consortium on School Research": {
+    "known_total": 319,
+    "priority": "high",
+    "status": "new",
+    "discovery_url": "https://consortium.uchicago.edu/publications",
+    "sample_url": "https://consortium.uchicago.edu/publications/5Essentials-2026-malleability-and-student-groups",
+    "discovery_check": "publication",
+    "notes": "319 publications. Not yet indexed. K-12 school improvement, equity, attendance."
+  },
+
+  "Evidence for ESSA": {
+    "known_total": 1297,
+    "priority": "high",
+    "status": "active",
+    "discovery_url": "https://evidenceforessa.org/wp-json/wp/v2/program",
+    "sample_url": "https://evidenceforessa.org/program/lenses-on-literature/",
+    "discovery_check": "evidenceforessa.org/program",
+    "notes": "WP REST API. 1,297 programs (202 rated: 84 Strong, 36 Moderate, 82 Promising). 221 indexed. Config: sources/evidence-for-essa.json."
+  },
+
+  "NWEA Research": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://nwea.org/research/",
+    "sample_url": "https://nwea.org/research/publication/academically-diverse-classrooms-deeper-needs-what-teachers-face-after-the-pandemic/",
+    "discovery_check": "research",
+    "notes": "200+ publications confirmed (paginated). MAP Growth longitudinal research."
+  },
+
+  "Mathematica": {
+    "known_total": 925,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://mathematica.org/coveo/rest/search/v2",
+    "sample_url": "https://www.mathematica.org/publications/evaluation-of-the-networks-for-school-improvement-initiative-student-outcomes-final-report",
+    "discovery_check": "Education",
+    "notes": "Coveo API (no auth needed). ~925 unique education pubs after dedup. 474 indexed. Config: sources/mathematica.json."
+  },
+
+  "WestEd": {
+    "known_total": 1254,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://wested.org/resources/?type=research-evaluation",
+    "sample_url": "https://wested.org/resource/legislating-literacy-at-the-state-level/",
+    "discovery_check": "resource",
+    "notes": "Federal regional lab."
+  },
+
+  "TNTP": {
+    "known_total": 36,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://tntp.org/publications/",
+    "sample_url": "https://tntp.org/publication/the-widget-effect-failure-to-act-on-differences-in-teacher-effectiveness/",
+    "discovery_check": "publication",
+    "notes": "36 publications confirmed (4 JS-rendered pages). WebFetch only sees page 1. Teacher effectiveness research."
+  },
+
+  "Journal of Educational Data Mining": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://jedm.educationaldatamining.org/index.php/JEDM/issue/archive",
+    "sample_url": "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/8",
+    "discovery_check": "JEDM",
+    "notes": "New issues appear quarterly. Full back-catalog not yet assessed."
+  },
+
+  "Journal of Learning Analytics": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://learning-analytics.info/index.php/JLA/issue/archive",
+    "sample_url": "https://learning-analytics.info/index.php/JLA/article/view/8885",
+    "discovery_check": "Volume",
+    "notes": "Earlier volumes and new issues not yet indexed."
+  },
+
+  "Campbell Collaboration": {
+    "known_total": 52,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://www.campbellcollaboration.org/education/reviews/",
+    "sample_url": "https://www.campbellcollaboration.org/review/the-relationship-between-homework-time-and-academic-performance-among-k-12-a-systematic-review",
+    "discovery_check": "review",
+    "notes": "52 education systematic reviews total on one page."
+  },
+
+  "Learning Policy Institute": {
+    "known_total": 347,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://learningpolicyinstitute.org/products/reports",
+    "sample_url": "https://learningpolicyinstitute.org/product/effective-teacher-professional-development",
+    "discovery_check": "product",
+    "notes": "~347 research pubs (167 reports, 139 briefs, 41 fact sheets). 165 indexed (reports only). Briefs/fact sheets need separate configs. Config: sources/lpi.json."
+  },
+
+  "The Education Trust": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://edtrust.org/research/",
+    "sample_url": "https://edtrust.org/resource/young-learners-family-engagement",
+    "discovery_check": "resource",
+    "notes": "Hundreds available."
+  },
+
+  "IES Regional Education Labs": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/pacific/products",
+    "sample_url": "https://ies.ed.gov/ncee/rel/Products/Region/pacific/Publication/108204",
+    "discovery_check": "publication",
+    "notes": "10 regional pages. Listing is JS-rendered; index individual publications by ID."
+  },
+
+  "Brookings Institution": {
+    "known_total": null,
+    "priority": "medium",
+    "status": "active",
+    "discovery_url": "https://www.brookings.edu/sitemap_index.xml",
+    "sample_url": "https://www.brookings.edu/articles/getting-state-free-college-right-design-choices-that-matter/",
+    "discovery_check": "sitemap",
+    "notes": "Curate manually — only Brown Center on Education Policy articles qualify."
+  },
+
+  "CREDO at Stanford": {
+    "known_total": 9,
+    "priority": "low",
+    "status": "new",
+    "discovery_url": "https://credo.stanford.edu/research-reports/report-finder/",
+    "sample_url": "https://credo.stanford.edu/reports/item/national-charter-school-study-iii/",
+    "discovery_check": "report",
+    "notes": "~9 reports total (small catalog). Charter school effectiveness research."
+  },
+
+  "AIMS Collaboratory": {
+    "known_total": 53,
+    "priority": "low",
+    "status": "active",
+    "discovery_url": "https://aimscollab.org/",
+    "sample_url": "https://aimscollab.org/",
+    "discovery_check": "AIMS",
+    "notes": "Near-complete. Slow publication cadence; check manually a few times a year."
+  },
+
+  "National Academies of Sciences, Engineering, and Medicine": {
+    "known_total": null,
+    "priority": "low",
+    "status": "active",
+    "discovery_url": "https://nap.nationalacademies.org/",
+    "sample_url": "https://nap.nationalacademies.org/catalog/24783/how-people-learn-ii-learners-contexts-and-cultures",
+    "discovery_check": "education",
+    "notes": "2 indexed (How People Learn I & II). 3-6 more landmark education reports identified."
+  },
+
+  "Collaborative for Academic, Social, and Emotional Learning (CASEL)": {
+    "known_total": 1,
+    "priority": "low",
+    "status": "complete",
+    "discovery_url": "https://casel.org/",
+    "sample_url": "https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/",
+    "discovery_check": "SEL",
+    "notes": "1 entry (SEL Framework). Essentially complete for current scope."
+  }
+}

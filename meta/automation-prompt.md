@@ -16,7 +16,13 @@ You are running headless. There is no human in the loop until the PR opens. Be c
 
 ---
 
-## Step 0 — Read the source access matrix
+## Step 0 — Pre-flight checks
+
+### 0a. Robots.txt / llms.txt
+
+Before scraping each source, fetch its `robots.txt` and `llms.txt`. Respect `Disallow` rules, `Crawl-delay`, and AI bot blocks. If a source has added new restrictions since its `.md` profile was written, stop scraping that source and note the change in the PR body. See `meta/agent-guide.md` "Robots.txt / llms.txt pre-check" for full policy.
+
+### 0b. Read the source access matrix
 
 Before doing any fetches, read the **"Routine source access matrix"** at the top of `meta/source-audit.md`. That table tells you, per source: whether WebFetch works from cloud sessions, whether Playwright is needed, and any source-specific gotchas (non-chronological sitemap, JS-rendered listing, etc.).
 
@@ -145,7 +151,7 @@ Affiliation: `wwc` `rppl` `upgrade-platform` `carnegie-learning` `khan-academy` 
 #   - <source>: "<title>" — <brief reason>
 # Failures (non-critical): N
 #   - <source>: <reason>
-# Instructions (manual fallback): append to docs/llms-full.txt starting at entry [next_entry_num], run python docs/build_tags.py from docs/.
+# Instructions (manual fallback): append to docs/llms-full.txt starting at entry [next_entry_num], run python scripts/build_from_db.py.
 ```
 
 If zero new entries are found across all sources, still write the staging file with the header and a `# Result: 0 new entries.` line. The routine continues regardless.
@@ -188,7 +194,7 @@ If `entry_count == 0`, skip the merge — `llms-full.txt` is unchanged.
 ## Step 5 — Rebuild derived files
 
 ```bash
-cd docs && python build_tags.py
+python scripts/build_from_db.py
 ```
 
 This regenerates `data.json`, `llms.txt`, `tags/*.md`, and `gem-knowledge.txt`. If it exits non-zero, **this is a CRITICAL failure** — record it and continue to Step 6 anyway (do not abort), so the PR still opens and the failure is visible.
@@ -292,7 +298,7 @@ Substitute the actual values into the body before piping. If `gh` is missing or 
 - A source's URL pattern doesn't match what's actually on the page → skip, log.
 
 **Critical** (still produce a PR; flag prominently in PR body):
-- `build_tags.py` exits non-zero.
+- `build_from_db.py` exits non-zero.
 - `git push` fails.
 - `gh pr create` fails (after fallback attempt).
 - Any unhandled Python exception in the merge step.

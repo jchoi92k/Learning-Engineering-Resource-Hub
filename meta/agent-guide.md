@@ -17,7 +17,7 @@ A **referratory** — links + metadata, no content hosting — of evidence-based
 
 Don't start indexing without checking these first:
 
-- **`meta/sources/`** — per-source scraping profiles, JSON configs, and backlog files. **Read `meta/sources/README.md` for conventions** (profile format, backlog format, fetch-failure handling, post-run sniff test). Read the relevant `{source}.md` profile before scraping a source. Profiles exist for: Digital Promise, TNTP, EdTrust, WestEd, NWEA Research, Brookings, WWC, LPI, UChicago Consortium, Evidence for ESSA, Mathematica.
+- **`sources/`** — per-source scraping profiles, JSON configs, and backlog files. **Read `sources/README.md` for conventions** (profile format, backlog format, fetch-failure handling, post-run sniff test). Read the relevant `{source}.md` profile before scraping a source. Profiles exist for: Digital Promise, TNTP, EdTrust, WestEd, NWEA Research, Brookings, WWC, LPI, UChicago Consortium, Evidence for ESSA, Mathematica.
 - **`meta/source-audit.md`** — the "Routine source access matrix" at the top tells you, per source, whether WebFetch works, whether Playwright is needed, and any gotchas. Consult before fetching.
 - **`meta/sources-log.md`** — append-only log of attempts. Most recent learnings at top.
 - **`meta/inclusion-criteria.md`** — what qualifies for inclusion (source-level + resource-level rules).
@@ -34,36 +34,53 @@ For workflow:
 ## File layout
 
 ```
-docs/
-  llms-full.txt       # primary file — all entries with descriptions + auto-generated nav header
-  llms.txt            # compact index (titles, URLs, types, tags — no descriptions)
-  schema.md           # field definitions, type taxonomy, full tag vocabulary
-  purpose.md          # scope and audience (public-facing summary)
-  build_tags.py       # parses llms-full.txt → updates its header, generates llms.txt + data.json + tags/*.md
-  data.json           # generated; consumed by index.html. meta.coverage has per-source counts.
-  index.html          # human-facing UI (GitHub Pages or python -m http.server 8765)
-  tags/               # generated per-tag markdown files
-  gem-knowledge.txt   # generated artifact for the Gemini Gem
-  staging/            # gitignored temporary staging area for subagent output
-meta/
+docs/                          # published output only (GitHub Pages root)
+  llms-full.txt               # primary file — all entries with descriptions + auto-generated nav header
+  llms.txt                    # compact index (titles, URLs, types, tags — no descriptions)
+  data.json                   # generated; consumed by index.html and MCP worker
+  index.html                  # human-facing UI
+  tags/                       # generated per-tag markdown files
+  gem-knowledge.txt           # generated artifact for the Gemini Gem
+  schema.md                   # field definitions, type taxonomy, full tag vocabulary
+  purpose.md                  # scope and audience (public-facing summary)
+  staging/                    # gitignored temp staging area for scraped data
+scripts/                       # all Python tooling
+  build_from_db.py            # rebuilds all published files from hub.db
+  scrape.py                   # config-driven scraper (reads sources/*.json)
+  process_staged.py           # processes staged JSON into hub.db
+  verify_urls.py              # domain-aware URL verification
+  source_check.py             # pre-flight source accessibility probe
+  playwright_scrape.py        # scraper for JS-rendered sources (TNTP, Digital Promise)
+sources/                       # per-source configs + profiles
+  {source}.json               # machine-readable scraping config
+  {source}.md                 # human-readable source profile
+  {source}-backlog.txt        # items needing manual review
+data/                          # database and data files
+  hub.db                      # SQLite database — single source of truth
+  source-targets.json         # coverage targets per source
+  broken-urls.json            # known broken URLs from verify_urls.py
+meta/                          # operational docs, prompts, guides, logs
   agent-guide.md              # THIS FILE — operational master reference
   automation-prompt.md        # self-contained prompt for the weekly cloud routine
   automation-log.md           # append-only log of weekly automated runs
-  backlog-prompt.md           # self-contained prompt for backlog expansion on a single source
-  sources-inventory.md        # full source catalog with access notes and URL patterns
-  inclusion-criteria.md       # what qualifies for inclusion (source-level + resource-level)
-  sources-log.md              # raw access log for previously attempted sources
-  source-audit.md             # systematic audit of source accessibility, plus routine access matrix
-  source-targets.json         # coverage targets per source; consumed by build_tags.py for meta.coverage
+  backlog-prompt.md           # self-contained prompt for backlog expansion
+  sources-inventory.md        # full source catalog with access notes
+  inclusion-criteria.md       # what qualifies for inclusion
+  sources-log.md              # raw access log for source attempts
+  source-audit.md             # accessibility audit + routine access matrix
+  processing-log.md           # auto-appended by process_staged.py
   gem-instructions.md         # instructions for the Google Gemini Gem
-  playwright-scrape.py        # scraper for JS-rendered sources (TNTP, Digital Promise)
-  source-check.py             # utility script for source URL checking
-  sources/                    # per-source scraping profiles + backlog files
-worker/
-  src/, wrangler.toml         # Cloudflare Worker that exposes the hub as an MCP server
-private/                       # gitignored: meeting notes, internal strategy, drafts, decisions log
-  decisions.md                # append-only major-decisions log (replaces the old meta/indexing-decisions.md)
-  index.md                    # private file inventory
+  playwright-guide.md         # Playwright installation/usage reference
+worker/                        # Cloudflare Worker (MCP server)
+  src/, wrangler.toml         # imports docs/data.json at build time
+private/                       # gitignored: strategy, meetings, decisions, research
+  decisions.md                # append-only major-decisions log
+  session-log.md              # append-only action log
+  strategy/                   # positioning, briefs, design notes
+  research/                   # landscape analysis, comparable repos
+  meetings/                   # stakeholder notes (sensitive)
+  write-ups/                  # drafts
+  misc/                       # early scratch, legacy scripts (review for deletion)
 ```
 
 ---
@@ -72,25 +89,27 @@ private/                       # gitignored: meeting notes, internal strategy, d
 
 | Metric | Value |
 |---|---|
-| **Total entries** | 2,063 (as of 2026-06-04) |
-| **Entry header** | Auto-generated by `build_tags.py` (tag directory, source/type counts, usage instructions) |
-| **Next entry number** | parsed at run time — `max(int(n) for n in re.findall(r"^### (\d+)\.", llms_full, re.MULTILINE)) + 1` |
+| **Total entries** | 2,445 (as of 2026-06-15) |
+| **Entry header** | Auto-generated by `build_from_db.py` |
+| **Next entry number** | parsed at run time from hub.db — `SELECT MAX(num) FROM entries` + 1 |
 
 ### Where to find the live source list
 
 This file no longer maintains a hand-curated per-source entry table — it drifted between 569 and 1,181 because every batch run had to remember to update it here. Instead:
 
-- **Per-source indexed counts**: `docs/data.json`, `meta.coverage` array. Regenerated by `build_tags.py`.
-- **Per-source coverage targets** (known total, priority, status): `meta/source-targets.json`.
+- **Per-source indexed counts**: `docs/data.json`, `meta.coverage` array. Regenerated by `build_from_db.py`.
+- **Per-source coverage targets** (known total, priority, status): `data/source-targets.json`.
 - **Per-source access methods** (WebFetch ok? Playwright needed?): `meta/source-audit.md`'s "Routine source access matrix" at the top.
 - **Per-source attempt history**: `meta/sources-log.md`.
-- **Per-source scraping configs**: `meta/sources/{source}.json` — machine-readable configs for `meta/scrape.py`.
+- **Per-source scraping configs**: `sources/{source}.json` — machine-readable configs for `scripts/scrape.py`.
 - **Processing history**: `meta/processing-log.md` — auto-appended by `process_staged.py`.
 
 **Scraping pipeline** (preferred over manual agent scraping):
-1. `python meta/scrape.py {source}` — fetches listing data, outputs to `docs/staging/{source}.json` + backlog to `meta/sources/{source}-backlog.txt`
-2. `python meta/process_staged.py {source}` — formats entries, auto-tags, appends to `llms-full.txt`, logs to `processing-log.md`
-3. `cd docs && python build_tags.py` — rebuilds `data.json`, `llms.txt`, tag files
+1. `python scripts/scrape.py {source}` — fetches listing data, outputs to `docs/staging/{source}.json` + backlog to `sources/{source}-backlog.txt`
+2. `python scripts/process_staged.py {source}` — inserts entries into hub.db with auto-tagging, logs to `processing-log.md`
+3. `python scripts/build_from_db.py` — rebuilds all published files (`llms-full.txt`, `llms.txt`, `data.json`, `tags/`, `gem-knowledge.txt`) from hub.db
+
+scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption.
 
 When a source's state materially changes (new source added, indexed count crosses a hundred-mark, access method changes), update the right canonical file — `source-targets.json` for coverage, `source-audit.md` for access, `sources-log.md` for attempt history — and let `docs/data.json` regenerate. Don't try to maintain a parallel table here.
 
@@ -102,7 +121,9 @@ When a source's state materially changes (new source added, indexed count crosse
 
 ### Pending work / backlog
 
-See `meta/backlog-prompt.md`'s "Source backlog reference" table for the current priority list with indexed counts. Highest-impact backlogs as of 2026-05-13: WWC Intervention Reports (~470 remaining), Evidence for ESSA, Mathematica, NWEA.
+Major backlogs resolved (2026-06-15): WWC Tier -1 (1,088 excluded — no qualifying studies), ESSA No Evidence (1,134 excluded — empty descriptions), Mathematica no-description (97 excluded — no API summary or page content). Campbell filtered to education-only (52 active, 255 non-education excluded). JEDM/JLA removed (83 excluded — journals, not resource hubs).
+
+Remaining: CASEL (~326 in progress), NAP (needs Playwright), IES REL (needs ERIC API config).
 
 For known dead-end sources (RAND, MDRC, Child Trends WAF/robots blocks; CCSSO/US Dept of Ed structural 404s), see the "Known blocked sources" table later in this file and `meta/source-audit.md`.
 
@@ -138,6 +159,18 @@ tags: [tag1, tag2, affiliation-tag]
 | `url_confirmed` | `true` / `false` | `true` = page was fetched and verified; `false` = URL inferred |
 | `description_inferred` | `true` / `false` | `true` = summarized from fetched content; `false` = written from full readable page |
 | `date_added` | ISO date | Use today's date (ISO format: YYYY-MM-DD) |
+
+---
+
+## Robots.txt / llms.txt pre-check
+
+**Before scraping any source, check its `robots.txt` and `llms.txt` first.** This applies to both automated pipeline runs and manual agent scraping.
+
+1. Fetch `{domain}/robots.txt`. Respect `Disallow` rules for the paths you intend to crawl. If a `Crawl-delay` is specified, use it (scrape.py does this automatically via `check_robots()`). If the site blocks AI user-agents (e.g., AIMS blocks `GPTBot`, `anthropic-ai`), do not scrape — document the block in the source `.md` profile and stop.
+2. Fetch `{domain}/llms.txt`. If it exists, check for any access restrictions or preferred interaction patterns. Note findings in the source `.md` profile.
+3. Document both results in the source's `.md` profile under the Access section (`robots.txt: ...`, `llms.txt: ...`). This is already the convention — make sure it's done for every new source.
+
+These checks are non-negotiable. A source that was open last month may have added restrictions since. Re-check on each new scraping session, not just the first time.
 
 ---
 
@@ -179,7 +212,7 @@ If a description begins with "Published [date]." or "Panel: [names]." strip that
 
 ## Tag taxonomy
 
-Use only tags from this controlled vocabulary. Do not invent new tags without updating `schema.md` and `build_tags.py`.
+Use only tags from this controlled vocabulary. Do not invent new tags without updating `schema.md` and `build_from_db.py`.
 
 **Domain**
 `learning-engineering` `math-education` `literacy` `k-12` `early-childhood` `english-learners` `higher-ed` `school-discipline`
@@ -193,7 +226,7 @@ Use only tags from this controlled vocabulary. Do not invent new tags without up
 **Affiliation** (producing organization)
 `rppl` `upgrade-platform` `carnegie-learning` `khan-academy` `lsu` `northwestern-e4` `norc` `lastinger-center` `aims` `tla` `cmu-learnlab` `assistments` `cosn` `wwc` `unesco` `cast` `iste-ascd` `digital-promise` `duolingo` `jedm` `lpi` `nap` `edtrust` `casel`
 
-To add a new tag: add it to the correct category in `schema.md` AND to `TAG_CATEGORIES` in `build_tags.py`.
+To add a new tag: add it to the correct category in `schema.md` AND to `TAG_CATEGORIES` in `build_from_db.py`.
 
 ---
 
@@ -232,7 +265,7 @@ To add a new tag: add it to the correct category in `schema.md` AND to `TAG_CATE
 
 ## Encoding
 
-**All files must be UTF-8 (no BOM).** `build_tags.py` validates this at build time and will refuse to generate output if mojibake patterns are detected.
+**All files must be UTF-8 (no BOM).** `build_from_db.py` validates this at build time and will refuse to generate output if mojibake patterns are detected.
 
 If mojibake is found: install `ftfy` (`pip install ftfy`) and run it on affected lines (titles and descriptions only — skip URL and YAML field lines). See the fix pattern used in the 2026-05-06 cleanup.
 
@@ -242,15 +275,16 @@ Common cause: saving through a process that re-encodes UTF-8 as CP1252 (old Note
 
 ## Build pipeline
 
-After modifying `llms-full.txt`:
+After scraping and processing into hub.db:
 
-1. From the `docs/` directory: `python build_tags.py`
-2. The build validates encoding (rejects mojibake), then:
-   - Auto-generates the `llms-full.txt` header (tag directory, source/type counts, entry total)
-   - Generates `llms.txt` (compact index, no descriptions)
-   - Generates `data.json`, `tags/*.md`, and `tags/index.md`
-3. `data.json` `last_updated` and `llms-full.txt` header date are set to today's date automatically
-4. Verify with `python -c "import json; d=json.load(open('data.json', encoding='utf-8')); print(d['meta']['total'])"`
+1. From repo root: `python scripts/build_from_db.py`
+2. The build reads all active entries from `data/hub.db` and generates:
+   - `llms-full.txt` — all entries with descriptions and auto-generated nav header
+   - `llms.txt` — compact index (no descriptions)
+   - `data.json` — consumed by index.html, includes `meta.coverage` per-source counts
+   - `tags/*.md` — per-tag markdown files
+   - `gem-knowledge.txt` — artifact for the Gemini Gem
+3. Verify with `python -c "import json; d=json.load(open('data.json', encoding='utf-8')); print(d['meta']['total'])"`
 
 **Windows note:** Python on Windows defaults to cp1252, not UTF-8. Always pass `encoding='utf-8'` to `open()` in scripts and one-liners.
 
@@ -315,7 +349,7 @@ When spawning a collection subagent, the prompt MUST include:
 ## Adding new tags (checklist)
 
 1. Add to `schema.md` under the correct category heading
-2. Add to `TAG_CATEGORIES` dict in `build_tags.py`
+2. Add to `TAG_CATEGORIES` dict in `build_from_db.py`
 3. If it's an affiliation tag, add to the Affiliation list in both files
 4. Log the addition in `private/decisions.md` (append-only major-decisions log) with justification
 

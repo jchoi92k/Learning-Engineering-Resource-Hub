@@ -91,7 +91,7 @@ Verify the pattern matches `EXAMPLE_PUB_URL`. If it doesn't, you've found the wr
 
 ## Step 4 — Estimate known total
 
-A rough count of total publications, used for `meta/source-targets.json`'s `known_total` field. Methods:
+A rough count of total publications, used for `data/source-targets.json`'s `known_total` field. Methods:
 
 - From sitemap: `len(re.findall(r"<loc>([^<]+)</loc>", sitemap_text))` filtered by URL pattern.
 - From listing: paginate and count, or read a "showing N of M" indicator if present.
@@ -175,7 +175,7 @@ If the new source warrants its own affiliation tag (an organization with multipl
 
 Five files get updated. All five edits go into the same PR.
 
-### 6a. `meta/source-targets.json` — coverage tracking
+### 6a. `data/source-targets.json` — coverage tracking
 
 Add an entry:
 
@@ -263,7 +263,7 @@ If `entry_count == 0` (out-of-scope abort, or all-access-methods-failed), skip t
 ## Step 8 — Rebuild derived files
 
 ```bash
-cd docs && python build_tags.py
+python scripts/build_from_db.py
 ```
 
 Regenerates `data.json`, `llms.txt`, `tags/*.md`, `gem-knowledge.txt`. If it exits non-zero: **critical failure** — record it and continue to Step 9. The PR still opens.
@@ -280,7 +280,7 @@ rm -f docs/staging/new-source-$SLUG-$DATE.txt
 
 git checkout -b "claude/new-source-$SLUG-$DATE" 2>/dev/null || git checkout -b "claude/new-source-$SLUG-$DATE-2"
 git add docs/llms-full.txt docs/llms.txt docs/data.json docs/gem-knowledge.txt docs/tags/ \
-        meta/source-targets.json meta/sources-inventory.md meta/source-audit.md \
+        data/source-targets.json meta/sources-inventory.md meta/source-audit.md \
         meta/sources-log.md meta/automation-prompt.md
 git commit -m "Add new source: [SOURCE_NAME] (N entries)"
 git push -u origin HEAD
@@ -314,7 +314,7 @@ Closes #[LINKED_ISSUE]
 ## Files updated
 
 - `docs/llms-full.txt`: appended N entries (numbers M–M+N-1)
-- `meta/source-targets.json`: added "[SOURCE_NAME]" with priority [PRIORITY], known_total [N]
+- `data/source-targets.json`: added "[SOURCE_NAME]" with priority [PRIORITY], known_total [N]
 - `meta/sources-inventory.md`: catalog entry added
 - `meta/source-audit.md`: access matrix row added
 - `meta/sources-log.md`: attempt logged
@@ -349,7 +349,7 @@ If `gh` is missing, the cloud session's built-in GitHub tools should still work;
 
 **Critical** (still open the PR; flag prominently):
 - All access methods fail → no entries staged; source still registered in canonical files as "manual / no auto-access."
-- `build_tags.py` exits non-zero.
+- `build_from_db.py` exits non-zero.
 - `git push` fails.
 - PR creation fails after fallback.
 

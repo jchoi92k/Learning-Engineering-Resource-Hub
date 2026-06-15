@@ -62,20 +62,20 @@ flowchart LR
     F --> K[AI Agents]
 ```
 
-`meta/hub.db` (SQLite) is the single source of truth. Everything in `docs/` is a derived build output.
+`data/hub.db` (SQLite) is the single source of truth. Everything in `docs/` is a derived build output.
 
 ---
 
 ## Maintaining the hub
 
 ```bash
-python meta/scrape.py {source}            # fetch + stage to docs/staging/
-python meta/process_staged.py {source}    # tag + insert into hub.db
-python meta/verify_urls.py                # verify unverified URLs
-cd docs && python build_from_db.py        # rebuild all published files from hub.db
+python scripts/scrape.py {source}            # fetch + stage to docs/staging/
+python scripts/process_staged.py {source}    # tag + insert into hub.db
+python scripts/verify_urls.py                # verify unverified URLs
+python scripts/build_from_db.py              # rebuild all published files from hub.db
 ```
 
-See `meta/sources/README.md` for scraping conventions and `meta/agent-guide.md` for the full operational guide.
+See `sources/README.md` for scraping conventions and `meta/agent-guide.md` for the full operational guide.
 
 ---
 
@@ -85,22 +85,25 @@ See `meta/sources/README.md` for scraping conventions and `meta/agent-guide.md` 
 index.md              <- start here: full repo map
 CLAUDE.md             <- project instructions for Claude Code sessions
 
-docs/                 <- GitHub Pages source (published outputs)
+docs/                 <- GitHub Pages root (published outputs only)
   llms-full.txt       <- all entries with YAML + descriptions
   llms.txt            <- compact index (no descriptions)
   data.json           <- structured JSON for web UI + MCP worker
   index.html          <- human-facing search interface
-  build_from_db.py    <- regenerates all published files from hub.db
   tags/               <- per-tag index files (generated)
 
-meta/                 <- operational tooling
-  hub.db              <- SQLite database (single source of truth)
-  scrape.py           <- config-driven scraper (reads meta/sources/*.json)
+scripts/              <- Python tooling
+  build_from_db.py    <- regenerates all published files from hub.db
+  scrape.py           <- config-driven scraper (reads sources/*.json)
   process_staged.py   <- formats staged JSON + inserts into hub.db
   verify_urls.py      <- domain-aware URL verification
-  sources/            <- per-source profiles (.md) and configs (.json)
+
+sources/              <- per-source profiles (.md) and configs (.json)
+data/                 <- database and data files
+  hub.db              <- SQLite database (single source of truth)
   source-targets.json <- known totals and priority per source
 
+meta/                 <- operational docs, prompts, guides
 worker/               <- Cloudflare Worker (MCP server)
 ```
 

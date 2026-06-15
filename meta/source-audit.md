@@ -24,7 +24,7 @@ The weekly automation prompt at `meta/automation-prompt.md` walks these 14 sourc
 | Brookings (Brown Center only) | sitemap_index.xml | ✅ | ✅ | No | Sitemap is paginated (~55 sub-sitemaps). Filter Brown Center articles only. Skip Brookings Now / news / opinion. |
 | WWC Intervention Reports | Search/Products?productType=2 | ✅ | ❌ **403** | **Try Playwright** | Cloud session got 403 on the search/products listing (2026-05-13). Local WebFetch works. Individual `/InterventionReport/[id]` pages: try Playwright; .gov bot detection is the suspected cause. |
 | WestEd | resources/?type=research-evaluation | ✅ | ✅ | No | Reliable. Listing returns recent resources. |
-| TNTP | publications/ | ⚠️ partial | ⚠️ partial | Yes for full coverage | Listing is JS-paginated (4 pages, 36 total). WebFetch sees page 1 only (10 items). For routine: index what's reachable from page 1, note remainder. For backlog: use `meta/playwright-scrape.py tntp`. |
+| TNTP | publications/ | ⚠️ partial | ⚠️ partial | Yes for full coverage | Listing is JS-paginated (4 pages, 36 total). WebFetch sees page 1 only (10 items). For routine: index what's reachable from page 1, note remainder. For backlog: use `scripts/playwright_scrape.py tntp`. |
 | NWEA Research | **publication-sitemap.xml** | ✅ | ✅ | No | Use the sitemap, not the JS-rendered `/research/` listing. Sitemap is exhaustive but **not strictly chronological** — early-stop is less effective; expect to find older publications. |
 | Mathematica | evidence?focusArea=Education | ⚠️ partial | ⚠️ partial | Yes for full coverage | Listing is JS-rendered; WebFetch sees a partial set (~8 items). The full set (~693 education pubs) lives behind the Coveo search API at `mathematica.org/coveo/rest/search/v2` with filter `@mprhumanservicetopicsv2==Education`, but it needs a bearer token intercepted via Playwright — fragile. For the routine: index what's reachable from the listing; for backlog: Playwright + Coveo intercept. |
 | UChicago Consortium | publications | ✅ | ✅ | No | Reliable. Listing is paginated; recent publications on page 1. |
@@ -35,7 +35,7 @@ The weekly automation prompt at `meta/automation-prompt.md` walks these 14 sourc
 
 Documented here so the agent doesn't try them and waste tokens:
 
-- **Digital Promise** — requires Playwright + DSpace REST API. Use `meta/playwright-scrape.py digital-promise` manually.
+- **Digital Promise** — requires Playwright + DSpace REST API. Use `scripts/playwright_scrape.py digital-promise` manually.
 - **RAND Education** — 403 via WebFetch (confirmed 2026-05-01). Manual only.
 - **MDRC** — WAF blocks all requests. Manual only.
 - **AIMS Collaboratory** — slow publication cadence; check manually a few times a year.

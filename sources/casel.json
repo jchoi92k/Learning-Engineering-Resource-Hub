@@ -1,0 +1,27 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in casel.md.",
+
+  "discovery": "pagination",
+  "discovery_url": "https://casel.org/news-publications/sel-publications/",
+  "pagination": {"param": "page", "start": 1, "url_pattern": "{base}page/{page}/"},
+
+  "selectors": {
+    "item": "li.listing-article-item",
+    "title": "a span.h4",
+    "url": "a[href]",
+    "type": "span.sub-heading",
+    "date": "div.time"
+  },
+
+  "detail_fetch": {
+    "selector": "meta[property='og:description']",
+    "attr": "content"
+  },
+
+  "robots_txt": "https://casel.org/robots.txt",
+
+  "test": {
+    "url": "https://casel.org/news-publications/sel-publications/",
+    "expected_item_count": 25
+  }
+}

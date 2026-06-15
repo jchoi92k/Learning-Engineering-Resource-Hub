@@ -26,15 +26,18 @@ docs/legacy/
 # NEVER commit anything from here. All new private/sensitive files go here.
 private/
 
+# Project instructions (references private paths, logging rules, internal process)
+CLAUDE.md
+
 # Secrets — never commit. The routine reads GH_TOKEN from its cloud env vars, not from .env.
 .env
 .env.local
 .env.*.local
 
 # SQLite journal/WAL files (hub.db itself IS committed)
-meta/hub.db-journal
-meta/hub.db-wal
-meta/hub.db-shm
+data/hub.db-journal
+data/hub.db-wal
+data/hub.db-shm
 
 # Worker build artifacts
 worker/node_modules/

@@ -10,11 +10,17 @@ that already has some entries indexed but still has a large backlog.
 You are expanding coverage for the **Renaissance AI and Education Resource Hub**.
 
 **Target source:** `[INSERT SOURCE NAME EXACTLY AS IT APPEARS IN llms-full.txt]`
-**Discovery URL:** `[INSERT DISCOVERY URL FROM meta/source-targets.json]`
+**Discovery URL:** `[INSERT DISCOVERY URL FROM data/source-targets.json]`
 
 ---
 
-## Step 0 — Read the source access matrix
+## Step 0 — Pre-flight checks
+
+### 0a. Robots.txt / llms.txt
+
+Before scraping, fetch the target source's `robots.txt` and `llms.txt`. Respect `Disallow` rules, `Crawl-delay`, and AI bot blocks. If restrictions have changed since the source's `.md` profile was written, stop and report. See `meta/agent-guide.md` "Robots.txt / llms.txt pre-check" for full policy.
+
+### 0b. Read the source access matrix
 
 Before fetching, find your target source's row in the **"Routine source access matrix"** at the top of `meta/source-audit.md`. That row tells you the access method (WebFetch / Playwright / manual), known gotchas (sitemap structure, JS rendering, pagination quirks), and whether the source is cloud-blocked.
 
@@ -54,7 +60,7 @@ Fetch the discovery URL for the target source. Extract all publication URLs matc
 the source's URL pattern. Filter out any already in `existing_urls`.
 
 Aim to collect **at least 30 new entries** (or all remaining if fewer than 30 exist).
-Check `meta/source-targets.json` for the known total and how many are already indexed
+Check `data/source-targets.json` for the known total and how many are already indexed
 to understand how much backlog remains.
 
 **Playwright fallback.** If WebFetch returns 403 or empty content for the listing or for individual pages — and the access matrix in `meta/source-audit.md` flags this source as "Try Playwright" or "Yes" — retry **once** with headless Chromium using the pattern in `meta/playwright-guide.md`. Cap at one retry per URL. See that guide for installation instructions (local vs. cloud).
@@ -104,7 +110,7 @@ tags: [tag1, tag2]
 # Discovery URL: [url]
 # Entries found: N new (skipped M already indexed)
 # Instructions: Review, then append to docs/llms-full.txt starting at entry [next_num].
-#   Run: python docs/build_tags.py from docs/ after merging.
+#   Run: python scripts/build_from_db.py after merging.
 ```
 
 **Tag taxonomy — use only these:**
@@ -148,7 +154,7 @@ Print a summary:
 - How many were skipped (already indexed)
 - Any pages that failed to load
 - Path to the staging file written
-- Suggested next step: which source to expand next (check `meta/source-targets.json`
+- Suggested next step: which source to expand next (check `data/source-targets.json`
   for sources with `status: "active"` or `"new"` and lowest coverage pct)
 
 ## PROMPT END
@@ -157,13 +163,13 @@ Print a summary:
 
 ## Source backlog reference (refreshed 2026-05-13)
 
-Check `meta/source-targets.json` for per-source totals and `docs/data.json`
+Check `data/source-targets.json` for per-source totals and `docs/data.json`
 (`meta.coverage`) for current indexed counts. Priority sources with largest backlogs:
 
 | Source | Known Total | Indexed | Priority | Notes |
 |---|---|---|---|---|
 | What Works Clearinghouse (IRs) | 648 | ~178 | high | ~470 intervention reports remain. .gov bot detection may require Playwright from cloud. |
-| Digital Promise | 252 | 254 | done | Use `meta/playwright-scrape.py digital-promise` for re-runs. |
+| Digital Promise | 252 | 254 | done | Use `scripts/playwright_scrape.py digital-promise` for re-runs. |
 | Evidence for ESSA | ~300+ | 78 | high | Sitemap is non-chronological; secondary sitemaps (program-sitemap2.xml+) hold older entries. Skip "no studies met inclusion requirements" programs. |
 | NWEA Research | 200+ | 70 | medium | Use `publication-sitemap.xml`. Not strictly chronological. |
 | Mathematica | ~693 | 32 | medium | Coveo API via Playwright for full coverage; listing only sees partial. |
@@ -175,6 +181,6 @@ Check `meta/source-targets.json` for per-source totals and `docs/data.json`
 1. Check `docs/staging/` for the new `backlog-*.txt` file
 2. Review entries (spot-check descriptions, tags, URLs)
 3. Append to `docs/llms-full.txt` with correct numbering
-4. Run `python docs/build_tags.py`
+4. Run `python scripts/build_from_db.py`
 5. Delete the staging file
 6. Commit when ready

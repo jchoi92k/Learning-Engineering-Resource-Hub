@@ -146,6 +146,12 @@ Full vocabulary in `docs/schema.md`.
 
 ---
 
+## Suggest a source
+
+Want a source or resource included? Open a [New source suggestion](../../issues/new?template=new-source.md) issue.
+
+---
+
 ## Status
 
 Internal beta. We are piloting a knowledge-building library for AI agents in learning engineering. Entry count, sources, and features are actively expanding.

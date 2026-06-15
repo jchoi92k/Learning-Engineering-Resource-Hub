@@ -20,8 +20,11 @@ A curated, agent-first referratory of evidence-based K-12, higher-education, and
 **AI agents** — fetch the full index or connect via MCP:
 ```
 https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt
-MCP endpoint: https://renaissance-hub.joon-96a.workers.dev
+MCP endpoint: https://renaissance-hub.joon-96a.workers.dev/mcp
 ```
+
+**Gemini Gem** — conversational access (no setup):
+https://gemini.google.com/gem/1UCri-Go8-5nngceVAvtqFVkaHOC5sbkW?usp=sharing
 
 **Run locally / contribute:**
 ```bash
@@ -29,6 +32,8 @@ git clone https://github.com/jchoi92k/Learning-Engineering-Resource-Hub.git
 cd Learning-Engineering-Resource-Hub/docs
 python -m http.server 8765    # browse at localhost:8765
 ```
+
+For MCP setup, data.json integration, and other access options, see the [usage guide](docs/how-to-use.md).
 
 ---
 
@@ -83,8 +88,6 @@ See `sources/README.md` for scraping conventions and `meta/agent-guide.md` for t
 
 ```
 index.md              <- start here: full repo map
-CLAUDE.md             <- project instructions for Claude Code sessions
-
 docs/                 <- GitHub Pages root (published outputs only)
   llms-full.txt       <- all entries with YAML + descriptions
   llms.txt            <- compact index (no descriptions)

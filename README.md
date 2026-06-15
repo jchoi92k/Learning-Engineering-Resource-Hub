@@ -113,7 +113,7 @@ worker/               <- Cloudflare Worker (MCP server)
 
 Each entry in `llms-full.txt`:
 
-```
+````
 ### 488. Title of Resource
 
 ```yaml
@@ -128,7 +128,7 @@ tags: [tag1, tag2]
 1-3 sentence description from fetched page content.
 
 ---
-```
+````
 
 Types: `paper` `report` `framework` `platform` `code` `dataset` `blog-post` `presentation` `project-website` `review`
 

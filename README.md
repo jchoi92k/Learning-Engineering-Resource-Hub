@@ -6,7 +6,7 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-yellow?style=flat-square)](https://www.python.org/)
 [![Claude Code](https://img.shields.io/badge/built_with-Claude_Code-d97706?style=flat-square)](https://claude.ai/code)
 
-A curated, agent-first referratory of evidence-based K-12, higher-education, and learning-engineering research resources — optimized for LLM consumption.
+A curated, agent-first referatory of evidence-based K-12, higher-education, and learning-engineering research resources — optimized for LLM consumption.
 
 > New to the repo? Start with [`index.md`](index.md) for a full file map and common operations.
 
@@ -43,8 +43,6 @@ For MCP setup, data.json integration, and other access options, see the [usage g
 
 **Policy & practice** — Learning Policy Institute, Education Trust, CASEL, National Academies Press, TNTP, Digital Promise
 
-**Journals** — Journal of Educational Data Mining (JEDM), Journal of Learning Analytics (JLA)
-
 **Tools & platforms** — Tools Competition winners, LEVI Math teams (Carnegie Learning, Khan Academy, CMU, Eedi, Rising Academies, CU Boulder)
 
 **Datasets** — NCES surveys, IEA international studies (TIMSS, PIRLS, PISA), CMU DataShop, OECD, ASSISTments, Duolingo, Stanford CEPA
@@ -67,7 +65,9 @@ flowchart LR
     F --> K[AI Agents]
 ```
 
-`data/hub.db` (SQLite) is the single source of truth. Everything in `docs/` is a derived build output.
+`data/hub.db` (SQLite) is the single source of truth. Everything in `docs/` is a derived build output. Entries whose URLs fail verification are held out of published outputs but kept in the database for re-checking. The database also retains out-of-scope and no-evidence entries (marked `excluded` with a reason, largely restating the source organizations' own published ratings) so they are never re-indexed — these exclusion records are public by design.
+
+After `docs/data.json` changes, the MCP worker must be redeployed (`npx wrangler deploy` from `worker/`) — it bundles the data at deploy time.
 
 ---
 
@@ -133,7 +133,7 @@ tags: [tag1, tag2]
 ---
 ````
 
-Types: `paper` `report` `framework` `platform` `code` `dataset` `blog-post` `presentation` `project-website` `review`
+Types: `paper` `report` `framework` `platform` `code` `dataset` `blog-post` `presentation` `project-website` `review` `article` `tool`
 
 ---
 
@@ -151,7 +151,7 @@ Full vocabulary in `docs/schema.md`.
 
 ## Suggest a source
 
-Want a source or resource included? Open a [New source suggestion](../../issues/new?template=new-source.md) issue.
+Want a source or resource included? Open a [New source suggestion](../../issues/new?template=new-source.md) issue. For code and content contributions, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 

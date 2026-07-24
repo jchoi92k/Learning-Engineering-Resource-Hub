@@ -4,7 +4,7 @@
 
 The hub is a **referatory** — a curated index of evidence-based K-12, higher-education, and learning-engineering resources, hosted at GitHub Pages and consumable by both humans and LLM agents (via `llms.txt` and an MCP server). It does not store source content; it stores metadata + descriptions and links out.
 
-**Current state:** 2,445 indexed entries across 20+ sources (WWC, Mathematica, LPI, Digital Promise, Evidence for ESSA, NWEA, Campbell, AIMS, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `data/source-targets.json`.
+**Current state:** 2,317 published entries across 20+ sources (WWC, Mathematica, LPI, Digital Promise, Evidence for ESSA, NWEA, Campbell, AIMS, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `data/source-targets.json`.
 
 ---
 
@@ -58,6 +58,10 @@ repo-root/
 ### Root
 - **`README.md`** — human-facing repo description.
 - **`index.md`** — this file.
+- **`CONTRIBUTING.md`** — how to suggest sources, report problems, and submit changes.
+- **`requirements.txt`** — Python dependencies for the pipeline in `scripts/`.
+- **`tests/`** — pytest suite for the pipeline's pure helpers (tagging, typing, JSON-path). Run `python -m pytest tests/ -q`.
+- **`ruff.toml`** — lint config; run `ruff check scripts/ tests/`.
 - **`.gitignore`** — note: `wiki/`, `docs/legacy/`, `docs/staging/` are gitignored.
 
 ### `docs/` — the published referatory (GitHub Pages root)

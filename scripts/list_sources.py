@@ -6,7 +6,7 @@ Hub URL = the organization or collection page we indexed from,
 not the destination URLs of individual entries. For example,
 AIMS Collaboratory entries point to LSU/etc., but the hub is aimscollab.org.
 
-Usage: python meta/list-sources.py
+Usage: python scripts/list_sources.py
 """
 
 import csv
@@ -15,8 +15,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 DATA_JSON = ROOT / "docs" / "data.json"
-OUT_FILE = ROOT / "meta" / "sources-list.txt"
-CSV_FILE = ROOT / "meta" / "sources-list.csv"
+OUT_FILE = ROOT / "data" / "sources-list.txt"
+CSV_FILE = ROOT / "data" / "sources-list.csv"
 
 # Hub URLs keyed by exact source value as it appears in the corpus (data.json).
 # Organized loosely by category for readability.

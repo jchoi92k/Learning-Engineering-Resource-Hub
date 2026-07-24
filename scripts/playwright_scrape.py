@@ -163,14 +163,14 @@ def scrape_tntp(headless=True, max_pages=10):
                 ".ajax-list-item a[href*='/publication/']",
                 "els => [...new Set(els.map(e => e.href))]"
             )
-            new_on_page = [l for l in links if l not in all_pub_urls]
+            new_on_page = [link for link in links if link not in all_pub_urls]
             all_pub_urls.extend(new_on_page)
             print(f"[tntp] Listing page {page_num}: {len(new_on_page)} new URLs "
                   f"(running total: {len(all_pub_urls)})")
 
             next_btn = listing.query_selector("a.next.page-numbers")
             if not next_btn:
-                print(f"[tntp] No next-page button — reached last listing page.")
+                print("[tntp] No next-page button — reached last listing page.")
                 break
             next_btn.click()
             listing.wait_for_load_state("networkidle")
@@ -308,7 +308,7 @@ def scrape_digital_promise(max_items=100):
             break
 
         if not objects:
-            print(f"[digital-promise] No more results.")
+            print("[digital-promise] No more results.")
             break
 
         print(f"[digital-promise] API page {api_page}: {len(objects)} items")

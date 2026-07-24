@@ -49,25 +49,34 @@ function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], q
   return { results: paged, total, limited: total > offset + capped, nextCursor: nextOffset };
 }
 
-function getTagCounts() {
+// Aggregates are immutable per deploy — compute once at module load
+// instead of re-scanning all entries on every request.
+const TAG_COUNTS = (() => {
   const counts = {};
   for (const e of data.entries) {
     for (const t of e.tags) counts[t] = (counts[t] || 0) + 1;
   }
   return counts;
-}
+})();
 
-function getTypeCounts() {
+const TYPE_COUNTS = (() => {
   const counts = {};
   for (const e of data.entries) counts[e.type] = (counts[e.type] || 0) + 1;
   return counts;
-}
+})();
 
-function getSourceCounts() {
+const SOURCE_COUNTS = (() => {
   const counts = {};
   for (const e of data.entries) counts[e.source] = (counts[e.source] || 0) + 1;
   return counts;
-}
+})();
+
+// Derived from the data so the schema can never drift from the corpus.
+const TYPE_VALUES = Object.keys(TYPE_COUNTS).sort();
+
+function getTagCounts() { return TAG_COUNTS; }
+function getTypeCounts() { return TYPE_COUNTS; }
+function getSourceCounts() { return SOURCE_COUNTS; }
 
 function formatEntry(e) {
   return {
@@ -127,21 +136,18 @@ const TOOL_DEFINITIONS = [
         },
         type: {
           type: "string",
-          enum: [
-            "report", "dataset", "paper", "framework",
-            "platform", "code", "blog-post", "presentation", "project-website",
-          ],
+          enum: TYPE_VALUES,
           description: "Filter by resource type",
         },
         source: {
           type: "string",
           description:
-            "Filter by source organization (partial match). Examples: What Works Clearinghouse, Campbell, JEDM, Digital Promise",
+            "Filter by source organization (partial match). Examples: What Works Clearinghouse, Campbell, Mathematica, Digital Promise",
         },
         query: {
           type: "string",
           description:
-            "Optional keyword search across title, description, and tags. All words must match (AND logic).",
+            "Optional keyword search across title, description, and tags. Literal substring match — all words must appear (AND logic); no stemming or synonyms. If a query returns 0 matches, retry with synonyms or broader/alternate phrasing (e.g. 'practice test' instead of 'retrieval practice'), or browse list_tags and filter by tag instead.",
         },
         sort_by: {
           type: "string",
@@ -423,7 +429,14 @@ function processMcpMessage(msg) {
     case "tools/list":
       return jsonRpc(id, { tools: TOOL_DEFINITIONS });
     case "tools/call":
-      return jsonRpc(id, handleToolCall(params.name, params.arguments || {}));
+      if (!params || typeof params.name !== "string") {
+        return jsonRpcError(id, -32602, "Invalid params: tools/call requires params.name");
+      }
+      try {
+        return jsonRpc(id, handleToolCall(params.name, params.arguments || {}));
+      } catch (err) {
+        return jsonRpcError(id, -32603, `Internal error in tool '${params.name}': ${err.message}`);
+      }
     case "ping":
       return jsonRpc(id, {});
     default:
@@ -548,11 +561,27 @@ ${sorted(getTypeCounts())}
 // ── Router ──
 
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const url = new URL(request.url);
 
     if (request.method === "OPTIONS") {
       return new Response(null, { headers: CORS_HEADERS });
+    }
+
+    // Per-IP rate limit (binding configured in wrangler.toml; skipped if absent).
+    if (env && env.RATE_LIMITER) {
+      const ip = request.headers.get("cf-connecting-ip") || "unknown";
+      try {
+        const { success } = await env.RATE_LIMITER.limit({ key: ip });
+        if (!success) {
+          return new Response("Rate limit exceeded. Try again shortly.", {
+            status: 429,
+            headers: { "Retry-After": "60", ...CORS_HEADERS },
+          });
+        }
+      } catch {
+        // Rate limiter unavailable — serve the request rather than fail closed.
+      }
     }
 
     if (url.pathname === "/mcp") {

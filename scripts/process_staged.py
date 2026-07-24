@@ -230,6 +230,28 @@ def main():
         return
 
     conn = get_db()
+
+    # Dedup guard: never insert a URL already in hub.db (active or excluded —
+    # excluded rows are kept precisely so they aren't re-indexed), and skip
+    # within-batch repeats. scrape.py's diff normally handles this, but this
+    # guard makes re-running a staging file (or a --no-diff scrape) safe.
+    existing_urls = {r[0] for r in conn.execute("SELECT url FROM entries")}
+    seen_batch = set()
+    deduped = []
+    for item in items:
+        url = item["url"].strip()
+        if url in existing_urls or url in seen_batch:
+            continue
+        seen_batch.add(url)
+        deduped.append(item)
+    if len(deduped) < len(items):
+        print(f"[process] Skipped {len(items) - len(deduped)} duplicate URLs already in hub.db or repeated in batch")
+    items = deduped
+    if not items:
+        print("[process] Nothing new to insert.")
+        conn.close()
+        return
+
     inserted = 0
     for i, item in enumerate(items):
         num = start_num + i
@@ -255,7 +277,7 @@ def main():
     conn.close()
 
     print(f"[process] Inserted {inserted} entries ({start_num}-{end_num}) into hub.db")
-    print(f"[process] Next: run `python scripts/build_from_db.py`")
+    print("[process] Next: run `python scripts/build_from_db.py`")
 
     write_log(args.source, data, items, start_num, end_num)
 

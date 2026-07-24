@@ -8,13 +8,13 @@
 
 ## The four surfaces
 
-The same underlying corpus (`docs/llms-full.txt`) feeds four consumer surfaces. **Updates do not propagate to all of them automatically.** You need to know which ones require manual action.
+The same underlying corpus (`data/hub.db`) feeds four consumer surfaces. **Updates do not propagate to all of them automatically.** You need to know which ones require manual action.
 
 | Surface | URL | Data source | Auto-updates on `main` push? |
 |---|---|---|---|
 | **GitHub Pages web UI** | https://jchoi92k.github.io/Learning-Engineering-Resource-Hub | `docs/` directory on `main` | ✅ Yes — within ~1 min of push |
 | **`llms.txt` / `llms-full.txt`** (for LLM agents) | Same Pages URL + `/llms.txt` or `/llms-full.txt` | `docs/llms.txt`, `docs/llms-full.txt` on `main` | ✅ Yes — via GitHub Pages |
-| **MCP server** (Cloudflare Worker) | https://renaissance-hub.joon-96a.workers.dev/mcp | `worker/data.json` (bundled at deploy time) | ❌ **No** — requires `npx wrangler deploy` |
+| **MCP server** (Cloudflare Worker) | https://renaissance-hub.joon-96a.workers.dev/mcp | `docs/data.json` (bundled at deploy time) | ❌ **No** — requires `npx wrangler deploy` |
 | **Gemini Gem** | gemini.google.com (the maintainer's account) | `docs/gem-knowledge.txt` uploaded into the Gem | ❌ **No** — requires manual re-upload |
 
 ---
@@ -22,17 +22,18 @@ The same underlying corpus (`docs/llms-full.txt`) feeds four consumer surfaces. 
 ## Data pipeline (canonical → derived)
 
 ```
-docs/llms-full.txt   ← canonical source. Hand-edited by agents or the routine.
+data/hub.db          ← canonical source of truth (SQLite). Written by process_staged.py / verify_urls.py.
         |
         | `python scripts/build_from_db.py`  (run automatically by the routine; also runnable manually)
         ↓
-docs/data.json         ← consumed by web UI, copied to worker before deploy
+docs/llms-full.txt     ← full index with descriptions
+docs/data.json         ← consumed by web UI; bundled into the MCP worker at deploy time
 docs/llms.txt          ← compact index for LLM agents
 docs/tags/*.md         ← per-tag pages for the web UI
 docs/gem-knowledge.txt ← knowledge file uploaded to the Gemini Gem
 ```
 
-`build_from_db.py` is the only build step. It validates UTF-8 encoding, regenerates the auto-generated header at the top of `llms-full.txt`, and emits the four derived files above. **Always run it after editing `llms-full.txt`**, and commit the result.
+`build_from_db.py` is the only build step. It validates UTF-8 encoding and regenerates every published file in `docs/` from hub.db. Entries with `url_status='broken'` are held out of published outputs (they stay in hub.db for re-checking). **Always run it after any change to hub.db**, commit the result, and remember the MCP worker needs a redeploy afterward (next section).
 
 ---
 
@@ -53,7 +54,7 @@ Update flow:
 
 Hosted at: `https://renaissance-hub.joon-96a.workers.dev`. Code in `worker/`. Config in `worker/wrangler.toml` (name: `renaissance-hub`).
 
-The worker **bundles `worker/data.json` at deploy time** (via `import rawData from "../data.json"` in `worker/src/index.js`). This means the worker serves a frozen snapshot of data.json from whenever it was last deployed — it does *not* fetch live from GitHub Pages.
+The worker **bundles `docs/data.json` at deploy time** (via `import rawData from "../../docs/data.json"` in `worker/src/index.js` — no copy step needed). This means the worker serves a frozen snapshot of data.json from whenever it was last deployed — it does *not* fetch live from GitHub Pages.
 
 **After a routine PR or any corpus change merges to `main`, the MCP server returns stale data until you redeploy.**
 
@@ -61,9 +62,6 @@ Update flow:
 
 ```bash
 cd worker
-# Copy the latest data.json into the worker bundle
-cp ../docs/data.json data.json
-# Deploy
 npx wrangler deploy
 ```
 

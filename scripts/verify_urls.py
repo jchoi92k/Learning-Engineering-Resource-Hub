@@ -21,7 +21,6 @@ import argparse
 import json
 import random
 import sqlite3
-import sys
 import time
 from collections import defaultdict
 from datetime import date
@@ -98,7 +97,7 @@ def round_robin_check(entries, conn, auto_exclude=False):
     DOMAIN_403_THRESHOLD = 3
 
     # Show domain distribution
-    print(f"\n  Domain distribution:")
+    print("\n  Domain distribution:")
     for domain, items in sorted(by_domain.items(), key=lambda x: -len(x[1])):
         print(f"    {domain}: {len(items)} URLs")
     print()
@@ -217,6 +216,7 @@ def export_broken(conn):
 def main():
     parser = argparse.ArgumentParser(description="Verify entry URLs")
     parser.add_argument("--sample", type=int, help="Random sample size")
+    parser.add_argument("--seed", type=int, help="Optional RNG seed for a reproducible sample")
     parser.add_argument("--source", type=str, help="Verify only this source (partial match)")
     parser.add_argument("--recheck", action="store_true", help="Re-verify previously broken URLs")
     parser.add_argument("--stale", type=int, metavar="DAYS", help="Re-verify entries not checked in the last N days")
@@ -248,7 +248,8 @@ def main():
         print(f"[verify] Filtered to {len(entries)} entries from '{args.source}'")
 
     if args.sample and len(entries) > args.sample:
-        random.seed(42)
+        if args.seed is not None:
+            random.seed(args.seed)
         entries = random.sample(entries, args.sample)
 
     if not entries:
@@ -259,7 +260,7 @@ def main():
     domains = len(set(urlparse(e["url"]).netloc for e in entries))
     print(f"[verify] Checking {len(entries)} URLs across {domains} domains")
     print(f"[verify] Domain delay: {DOMAIN_DELAY}s | Timeout: {REQUEST_TIMEOUT}s")
-    print(f"[verify] Status codes: + = verified, X = broken (404/410), ? = flagged (403/timeout/other)")
+    print("[verify] Status codes: + = verified, X = broken (404/410), ? = flagged (403/timeout/other)")
 
     ok_count, broken_count, flagged_count = round_robin_check(entries, conn, args.auto_exclude)
 
@@ -267,7 +268,7 @@ def main():
 
     if flagged_count > 0:
         print(f"[verify] Note: {flagged_count} 'flagged' entries may be bot-blocked (403) or temporarily unavailable.")
-        print(f"[verify] These are NOT auto-excluded. Review manually or retry with --recheck.")
+        print("[verify] These are NOT auto-excluded. Review manually or retry with --recheck.")
 
     export_broken(conn)
 
@@ -280,8 +281,10 @@ def main():
         print("\n[verify] Problem domains:")
         for domain, counts in sorted(problem_domains.items(), key=lambda x: -(x[1]["broken"] + x[1]["flagged"])):
             parts = []
-            if counts["broken"]: parts.append(f"{counts['broken']} broken")
-            if counts["flagged"]: parts.append(f"{counts['flagged']} flagged")
+            if counts["broken"]:
+                parts.append(f"{counts['broken']} broken")
+            if counts["flagged"]:
+                parts.append(f"{counts['flagged']} flagged")
             print(f"  {domain}: {', '.join(parts)}")
 
     conn.close()

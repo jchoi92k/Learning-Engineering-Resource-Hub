@@ -34,6 +34,15 @@ CLAUDE.md
 .env.local
 .env.*.local
 
+# Scraper byproducts — transient work queues and logs, regenerated per run
+sources/*-backlog.txt
+sources/*.log
+
+# URL-verification snapshots — point-in-time outputs of verify_urls.py;
+# authoritative url_status lives in hub.db
+data/broken-urls.json
+data/url-verification.json
+
 # SQLite journal/WAL files (hub.db itself IS committed)
 data/hub.db-journal
 data/hub.db-wal

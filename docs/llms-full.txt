@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Full Index
-# 2445 entries | Last updated: 2026-06-15
+# 2317 entries | Last updated: 2026-07-24
 #
 # HOW TO USE THIS FILE
 # This file contains all entries with full descriptions — everything is here.
@@ -9,14 +9,14 @@
 # Do NOT attempt to fetch other files. This file is self-contained.
 #
 # TAGS
-# Domain: k-12 (907), literacy (415), math-education (412), early-childhood (208), learning-engineering (203), higher-ed (175), english-learners (118), school-discipline (31)
-# Method: longitudinal (197), computer-assisted-learning (189), response-to-intervention (185), rct (123), meta-analysis (56), coaching (47), genai (33), intelligent-tutoring (27), qualitative-research (23), llm-application (11), nlp (7), a-b-testing (5), automated-feedback (4)
-# Topic: professional-development (258), formative-assessment (240), college-access (225), sel (213), career-readiness (166), personalized-learning (103), open-datasets (102), inclusive-design (78), attendance (76), dropout-prevention (69), writing-instruction (59), prekindergarten (56), digital-learning-platforms (50), student-belonging (32), math-strategies (24), ai-policy (20), data-sharing (18), pii-privacy (11), ai-ethics (11), math-motivation (10), genai-tutoring (3), math-word-problems (2)
-# Affiliation: wwc (366), lpi (340), digital-promise (259), aims (53), edtrust (31), campbell-collaboration (27), tools-competition (18), cmu-learnlab (14), lsu (13), northwestern-e4 (10), carnegie-learning (7), rppl (5), khan-academy (5), assistments (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
+# Domain: k-12 (898), literacy (403), math-education (361), learning-engineering (201), early-childhood (200), higher-ed (174), english-learners (115), school-discipline (31)
+# Method: longitudinal (195), computer-assisted-learning (183), response-to-intervention (176), rct (123), meta-analysis (55), coaching (47), genai (31), intelligent-tutoring (27), qualitative-research (23), llm-application (11), nlp (7), a-b-testing (5), automated-feedback (3)
+# Topic: professional-development (247), formative-assessment (236), college-access (202), sel (198), career-readiness (152), personalized-learning (102), open-datasets (101), attendance (74), inclusive-design (72), dropout-prevention (63), prekindergarten (56), writing-instruction (56), digital-learning-platforms (50), student-belonging (32), math-strategies (24), ai-policy (20), data-sharing (18), pii-privacy (11), ai-ethics (11), math-motivation (10), genai-tutoring (3), math-word-problems (2)
+# Affiliation: wwc (366), lpi (338), digital-promise (259), aims (52), edtrust (31), campbell-collaboration (27), tools-competition (17), cmu-learnlab (14), lsu (13), northwestern-e4 (10), carnegie-learning (7), rppl (5), khan-academy (5), assistments (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 #
-# TYPES: report (2022), paper (185), dataset (101), framework (52), platform (30), review (24), code (9), article (8), presentation (7), blog-post (5), project-website (1), tool (1)
+# TYPES: report (1917), paper (167), dataset (99), framework (51), platform (29), review (24), code (9), article (8), presentation (7), blog-post (5), project-website (1)
 #
-# SOURCES: Mathematica (752), What Works Clearinghouse (375), Learning Policy Institute (341), Digital Promise (259), Evidence for ESSA (221), NWEA Research (70), AIMS Collaboratory (53), Campbell Collaboration (52), TNTP (36), The Education Trust (31), UChicago Consortium on School Research (31), IES Regional Education Labs (30), National Center for Education Statistics (NCES) (29), Brookings Institution (22), Tools Competition (18), CREDO at Stanford (16), WestEd (14), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), Stanford CEPA (4), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
+# SOURCES: Mathematica (632), What Works Clearinghouse (375), Learning Policy Institute (339), Digital Promise (259), Evidence for ESSA (221), NWEA Research (70), AIMS Collaboratory (52), Campbell Collaboration (51), TNTP (36), The Education Trust (31), UChicago Consortium on School Research (31), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), WestEd (14), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
 
 ---
 
@@ -243,7 +243,7 @@ Adopted 2021, published 2022. UNESCO's inaugural global standard on AI ethics, a
 ### 12. UNESCO AI Competency Framework for Students
 
 ```yaml
-url: "https://www.unesco.org/en/articles/what-you-need-know-about-unescos-new-ai-competency-frameworks-students-and-teachers"
+url: "https://www.unesco.org/en/articles/ai-competency-framework-students"
 type: framework
 source: "UNESCO"
 url_confirmed: true
@@ -263,7 +263,7 @@ Published 2024. Authors: Fengchun Miao, Kelly Shiohira, Natalie Lao. Four core c
 ### 13. UNESCO AI Competency Framework for Teachers
 
 ```yaml
-url: "https://www.unesco.org/en/articles/what-you-need-know-about-unescos-new-ai-competency-frameworks-students-and-teachers"
+url: "https://www.unesco.org/en/articles/ai-competency-framework-teachers"
 type: framework
 source: "UNESCO"
 url_confirmed: true
@@ -2740,46 +2740,6 @@ Learning Policy Institute research synthesis by Darling-Hammond, Hyler, and Gard
 
 ---
 
-### 139. Design Principles for Teacher Preparation: Enacting the Science of Learning and Development
-
-```yaml
-url: "https://learningpolicyinstitute.org/product/sold-design-principles-teacher-preparation-report"
-type: report
-source: "Learning Policy Institute"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-05-01
-doi: null
-license: null
-tags: [higher-ed, learning-engineering, lpi, professional-development]
-```
-
-Learning Policy Institute report by Darling-Hammond, Hyler, Wojcikiewicz, and Rushing (2025) presenting five evidence-based design principles for teacher preparation programs grounded in the science of learning and development. Principles address: curriculum grounded in developmental understanding of learners; equitable educator mindsets and skills; rich experiential learning with feedback cycles; pedagogical alignment between teacher educators and candidates; and supportive developmental relationships within programs and PreK–12 school partnerships. Draws on neuroscience, developmental psychology, and exemplary program practices.
-
----
-
----
-
-### 140. Community Schools Impact on Student Outcomes: Evidence From California
-
-```yaml
-url: "https://learningpolicyinstitute.org/product/ca-community-schools-impact-student-outcomes-report"
-type: report
-source: "Learning Policy Institute"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-05-01
-doi: null
-license: null
-tags: [attendance, k-12, learning-engineering, lpi, sel]
-```
-
-Learning Policy Institute study by Swain, Leung-Gagné, Maier, and Rubinstein (2025) evaluating California's Community Schools Partnership Program (CCSPP), a $4.1 billion state initiative. Analyzes 458 schools using matched difference-in-differences methodology across 2018–19 through 2023–24. Finds 30% greater reduction in chronic absenteeism, ~15% decline in suspensions, and academic gains of 0.06 SD in math and 0.05 SD in ELA (~43 and ~36 additional learning days). Benefits were disproportionately large for Black students, English learners, and socioeconomically disadvantaged students.
-
----
-
----
-
 ### 141. The State of the Teacher Workforce
 
 ```yaml
@@ -4700,26 +4660,6 @@ This 2024 Campbell systematic review examined 18 studies (11,126 participants) o
 
 ---
 
-### 291. Montessori Education's Impact on Academic and Nonacademic Outcomes
-
-```yaml
-url: "https://www.campbellcollaboration.org/review/montessori-impact-on-academic-and-nonacademic-outcomes"
-type: report
-source: "Campbell Collaboration"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-05-01
-doi: null
-license: null
-tags: [early-childhood, k-12, meta-analysis, personalized-learning, sel]
-```
-
-This 2023 Campbell meta-analysis examined 32 rigorous studies (1970–2020) comparing Montessori to traditional education across preschool through high school in eight countries. Students in Montessori settings scored approximately 0.25 SD higher on academic outcomes and 0.33 SD higher on non-academic outcomes (executive function, well-being, social skills, creativity). Effects were strongest at preschool/elementary levels and in randomized studies.
-
----
-
----
-
 ### 292. Small Class Sizes for Improving Student Achievement in Primary and Secondary Schools
 
 ```yaml
@@ -5840,26 +5780,6 @@ REL Northwest (REL 2025-011) examined how Alaska schools implement trauma-engage
 
 ---
 
-### 351. Applying a Cycle of Evidence-Based Continuous Improvement When Selecting Interventions and Project Components to Improve Attendance
-
-```yaml
-url: "https://ies.ed.gov/use-work/resource-library/resource/fact-sheetinfographicfaq/applying-cycle-evidence-based-continuous-improvement-when-selecting-interventions-project"
-type: framework
-source: "IES Regional Education Labs"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-05-01
-doi: null
-license: null
-tags: [attendance, formative-assessment, k-12]
-```
-
-REL West published this December 2023 fact sheet presenting an overview and worked example of how districts can apply a continuous improvement cycle when selecting attendance interventions or project components to reduce chronic absence. The resource addresses how to identify root causes of absenteeism, select appropriate evidence-based supports, and monitor implementation effectiveness using a structured, data-informed approach. It is designed for district and school leaders working to address chronic absence, which affects approximately 14.8 million students nationwide.
-
----
-
----
-
 ### 352. Principal Retention Patterns in Arizona, Nevada, and Utah
 
 ```yaml
@@ -5895,26 +5815,6 @@ tags: [career-readiness, college-access, higher-ed, k-12, longitudinal]
 ```
 
 REL Southwest (REL 2023-145) analyzed middle and high school indicators predicting postsecondary success in Arkansas using data from grade 6 cohorts from 2008/09–2009/10, examining variation by race/ethnicity, economic status, disability status, and other characteristics. Indicator attainment varied substantially across student groups, with the largest differences between students with and without a designated disability; academic indicators showed greater disparities than behavioral ones. Predictive accuracy of indicators remained largely consistent across demographic groups, though specific indicators — notably ELA and science proficiency in middle school — showed variation in predictive strength for some populations.
-
----
-
----
-
-### 354. English Language Development Among American Indian English Learner Students in New Mexico
-
-```yaml
-url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/english-language-development-american-indian-english-learner-students-new-mexico"
-type: report
-source: "IES Regional Education Labs"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-05-01
-doi: null
-license: null
-tags: [early-childhood, english-learners, k-12, longitudinal]
-```
-
-REL Southwest (REL 2022-135) tracked two cohorts of American Indian English learner students who entered kindergarten in 2013/14 or 2014/15 in New Mexico public schools, examining English proficiency progress over five years. The majority were not reclassified as English proficient within the state's ESSA-aligned five-year goal timeframe, and most did not meet grade-level standards in ELA and math in grades 3 and 4. Students attending a bilingual multicultural education program for at least four years showed higher reclassification and academic achievement rates than peers without such exposure.
 
 ---
 
@@ -8280,26 +8180,6 @@ The Digest of Education Statistics is an annual NCES compendium spanning the ful
 
 ---
 
-### 473. Education Recovery Project — COVID Learning Loss Data
-
-```yaml
-url: "https://edopportunity.org/recovery/data"
-type: dataset
-source: "Stanford CEPA"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-05-03
-doi: null
-license: null
-tags: [k-12, longitudinal, open-datasets]
-```
-
-A national dataset tracking pandemic-related learning loss and recovery across U.S. school districts in reading and math from 2019 to 2024, released by Stanford's Educational Opportunity Project (SEDA 2024.2, updated February 2026). As of spring 2024, U.S. students remained nearly half a grade level behind pre-pandemic achievement in both subjects; the data also captures the impact of remote learning policies and federal pandemic relief funding on district-level recovery trajectories. Download requires a data use agreement; raw files are available for independent analysis alongside an interactive district-level explorer.
-
----
-
----
-
 ### 474. Segregation Tracking Project — School and Neighborhood Segregation Data
 
 ```yaml
@@ -8655,26 +8535,6 @@ tags: [inclusive-design, k-12, literacy, tools-competition]
 ```
 
 AI-powered Kenyan Sign Language assessment tool from eKitabu's Studio KSL initiative. Evaluates KSL proficiency for deaf children in Kenya and East Africa, integrated with enhanced video storybooks and digital teaching materials for equitable education.
-
----
-
----
-
-### 492. Shaia (Mentu)
-
-```yaml
-url: "https://mentulabs.com/en/shaia"
-type: platform
-source: "Tools Competition"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-05-06
-doi: null
-license: null
-tags: [genai, k-12, professional-development, tools-competition]
-```
-
-AI-powered educational platform that helps teachers save time and implement better teaching practices. Offers customizable implementation for schools, professional development resources, and plans tailored for individual teachers and institutions.
 
 ---
 
@@ -9095,26 +8955,6 @@ tags: [aims, llm-application, nlp]
 ```
 
 Examines how NLP techniques can assess instructional practices across K-12 classrooms and pre-service teacher settings. Pretrained language models performed comparably to human raters when evaluating simpler, discrete teaching behaviors but struggled with more complex practices requiring higher-level inference. Notably, analyzing only teacher speech yielded strong results for measuring student-centered approaches, reducing concerns about obtaining quality student speech transcriptions.
-
----
-
----
-
-### 514. Using a Multi-Agent System and Evidence-Centered Design to Integrate Educator Expertise Within Generated Feedback
-
-```yaml
-url: "https://www.mdpi.com/2227-7102/15/10/1273"
-type: paper
-source: "AIMS Collaboratory"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-05-06
-doi: null
-license: null
-tags: [aims, automated-feedback, genai]
-```
-
-Proposes a framework for using generative AI to facilitate mathematics teacher learning through automated rehearsals where educators practice teaching skills, obtain feedback, and enhance their methods. The approach has three components: leveraging evidence-centered design modeling to create templates capturing mathematics teaching complexity, converting expertise from these templates into GenAI prompts, and employing a multi-agent system that distributes this expertise across agents to maintain sophistication while simulating rehearsals and delivering feedback.
 
 ---
 
@@ -30838,26 +30678,6 @@ Elements of Reading: Comprehension is a supplementary program designed to be use
 
 ---
 
-### 1635. Future Focused Measures for High School Math: A Measures Guide
-
-```yaml
-url: "https://www.mathematica.org/publications/future-focused-measures-for-high-school-math-a-measures-guide"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, math-education]
-```
-
-This guide offers a selection of student, teacher, and implementation measures that can support the design, improvement, and study of modernized high school math, including data science and statistics courses and data literacy and AI literacy competencies.
-
----
-
----
-
 ### 1636. Measuring the Economic Returns to Postsecondary Education at Scale
 
 ```yaml
@@ -30873,26 +30693,6 @@ tags: [college-access]
 ```
 
 This study examines the long-term economic returns of postsecondary education in Texas, finding that most students earn positive financial gains over time, with outcomes varying by degree type, institution, and field of study.
-
----
-
----
-
-### 1637. Measuring Ambitious and Inclusive Mathematics Instruction
-
-```yaml
-url: "https://www.mathematica.org/publications/measuring-ambitious-and-inclusive-mathematics-instruction"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [inclusive-design, math-education]
-```
-
-This paper introduces and explores the validity and reliability of a classroom observation tool that the team developed to measure ambitious (cognitively demanding and standards-based) and inclusive (culturally responsive, linguistically responsive, and equitable) mathematics teaching.
 
 ---
 
@@ -30918,46 +30718,6 @@ This brief shares findings from a benefit-cost analysis to determine the economi
 
 ---
 
-### 1639. Analysis of Middle School Math Systems: 2024 National Council of Teachers of Mathematics Research Conference Presentations
-
-```yaml
-url: "https://www.mathematica.org/publications/analysis-of-middle-school-math-systems-2024-national-council-of-teachers-of-mathematics-research"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access, math-education]
-```
-
-These presentations summarize findings from five studies focused on culturally-responsive math instruction conducted by Mathematica and the University of Delaware under the Analysis of Middle School Math Systems project funded by the Bill & Melinda Gates Foundation.
-
----
-
----
-
-### 1640. Practice Guide for Teachers of Multilingual Math Learners in Middle School Classrooms
-
-```yaml
-url: "https://www.mathematica.org/publications/practice-guide-for-teachers-of-multilingual-math-learners-in-middle-school-classrooms"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This guide is intended to help anyone who works with MLLs in the middle school math classroom, including math teachers, math coaches, and instructional leaders who are responsible for planning lessons that support MLLs. Although this guide was developed using middle school math examples, the strategies are generally appropriate for elementary and high school math classrooms as well.
-
----
-
----
-
 ### 1641. Mathematical Learning Progressions: A Study of Teachers’ Content Adaptations and Alignment with Mathematical Learning Progressions
 
 ```yaml
@@ -30973,86 +30733,6 @@ tags: [math-education]
 ```
 
 This study examines whether teachers’ content adaptations to middle school math curricula align with mathematical learning progressions and explores their motivations for adaptation.
-
----
-
----
-
-### 1642. The Effects of Adopting Eureka Math or Into Math on Student Achievement
-
-```yaml
-url: "https://www.mathematica.org/publications/the-effects-of-adopting-eureka-math-or-into-math-on-student-achievement"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This report focuses on curricular efficacy and presents findings on how the adoption of Eureka Math or Into Math by middle schools in the a school district affected student math achievement using an additional year of administrative data from the district.
-
----
-
----
-
-### 1643. Culturally Responsive Mathematics Teaching Practice Guide
-
-```yaml
-url: "https://www.mathematica.org/publications/culturally-responsive-mathematics-teaching-practice-guide"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This practice guide is intended to help middle school mathematics educators plan and execute culturally responsive lessons by incorporating practices in three domains: engaged student and community funds of knowledge, interdisciplinary connections, and empowered mathematical inquiry and decision making.
-
----
-
----
-
-### 1644. Promises and Pitfalls of Crafting Coherence Around a District-Wide Vision for Equity-Centered Instruction
-
-```yaml
-url: "https://www.mathematica.org/publications/promises-pitfalls-crafting-coherence-around-district-wide-vision-equity-centered-instruction"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This multiple case study uses interviews, documents, and observations to examine four districts’ efforts to craft coherence around a shared vision for equitable mathematics.
-
----
-
----
-
-### 1645. Productive Adaptations Instructional Planning Tool
-
-```yaml
-url: "https://www.mathematica.org/publications/productive-adaptations-instructional-planning-tool"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-Middle school math educators can use this guide to help get started on adapting instruction in ways that are aligned with research-based learning progressions. Instructional content can be adapted for a unit you might identify as inadequate for meeting your students’ immediate learning needs.
 
 ---
 
@@ -31118,26 +30798,6 @@ This report describes how reviewers assess scientific grant proposals. We find t
 
 ---
 
-### 1655. Culturally Responsive Math Instruction
-
-```yaml
-url: "https://www.mathematica.org/publications/culturally-responsive-math-instruction"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-Culturally responsive teaching helps meet the needs of students and provides opportunities to make math more interesting. We provide tips for teachers, publishers, and administrators to enhance math instruction and address classroom dynamics to make math more culturally responsive.
-
----
-
----
-
 ### 1657. Impacts of Blended Learning Tutoring Models on Math Achievement After COVID-19: Results from Saga Education
 
 ```yaml
@@ -31198,26 +30858,6 @@ We develop a novel simulation methodology to study the extent to which three int
 
 ---
 
-### 1662. Using Bayesian Meta-Analysis to Explore the Components of Early Literacy Interventions
-
-```yaml
-url: "https://www.mathematica.org/publications/using-bayesian-meta-analysis-to-explore-the-components-of-early-literacy-interventions"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, response-to-intervention]
-```
-
-The What Works Clearinghouse (WWC) released a report that applies two methodological approaches new to the WWC that together aim to improve researchers' understanding of how early literacy interventions may work to improve outcomes for students in grades K-3.
-
----
-
----
-
 ### 1663. Long-Term Impacts of KIPP Middle and High Schools on College Enrollment, Persistence, and Attainment
 
 ```yaml
@@ -31233,26 +30873,6 @@ tags: [college-access]
 ```
 
 This report presents the results of the second phase of a long-term tracking study that follows 2,066 students who applied to enter 21 oversubscribed KIPP middle schools through an admission lottery in 2008, 2009, or 2011.
-
----
-
----
-
-### 1664. Supporting Use of Electronic Portfolios and Education and Career Goal-Setting Within the Context of Individual Plans of Study
-
-```yaml
-url: "https://www.mathematica.org/publications/supporting-use-of-electronic-portfolios-and-education-and-career-goal-setting-within-the-context"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness]
-```
-
-This REL Central fact sheet summarizes research linking use of electronic portfolios and education and career goal-setting with student outcomes and provides examples of research-based recommendations for implementing these practices.
 
 ---
 
@@ -31298,26 +30918,6 @@ To explore the practicality of conducting virtual pre-K observations, Mathematic
 
 ---
 
-### 1670. Analyzing Middle School Mathematics Curricula: A Comparative Study Using Three Measurement Tools
-
-```yaml
-url: "https://www.mathematica.org/publications/analyzing-middle-school-mathematics-curricula"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This report seeks to understand how six middle school mathematics curricula vary along dimensions of high quality. We define high quality curricula as curricula that are aligned to state or national standards, useable, and supportive of culturally responsive instructional delivery.
-
----
-
----
-
 ### 1671. Using Automated Writing Feedback Tools in the Classroom: Research Insights for Tool Designers and Instructional Support Teams
 
 ```yaml
@@ -31333,46 +30933,6 @@ tags: [writing-instruction]
 ```
 
 The brief summarizes key implementation takeaways from studies of two automated writing feedback tools—Ecree and MI Write—in grade 7–11 English language arts classrooms during the 2021–2022 school year.
-
----
-
----
-
-### 1672. Using an Automated Writing Feedback Tool: Insights on MI Write for Students and Families
-
-```yaml
-url: "https://www.mathematica.org/publications/using-an-automated-writing-feedback-tool-insights-on-mi-write-for-students-and-families"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [writing-instruction]
-```
-
-The brief summarizes key takeaways from a study of MI Write in grades 7 and 8 English language arts classrooms during the 2021–2022 school year.
-
----
-
----
-
-### 1673. Teaching and Learning Writing with MI Write: Insights for School and District Leaders
-
-```yaml
-url: "https://www.mathematica.org/publications/teaching-and-learning-writing-with-mi-write-insights-for-school-and-district-leaders"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [writing-instruction]
-```
-
-The brief summarizes key takeaways from a study of MI Write in grades 7 and 8 English language arts classrooms during the 2021–2022 school year and provides strategies for school and district leaders to support using MI Write.
 
 ---
 
@@ -31478,46 +31038,6 @@ This guide will help researchers examine implementation when studying the effect
 
 ---
 
-### 1684. Menu of Measures: Secondary Writing
-
-```yaml
-url: "https://www.mathematica.org/publications/menu-of-measures-secondary-writing"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [response-to-intervention, writing-instruction]
-```
-
-This menu describes a set of teacher- and student-level measures and approaches to understand the extent that writing instruction and interventions change how teachers think about and teach students about writing, and what students know and how they feel about writing.
-
----
-
----
-
-### 1690. Guide to Co-Interpreting Data with Community Collaborators
-
-```yaml
-url: "https://www.mathematica.org/publications/guide-to-equitably-co-interpreting-data-with-community-collaborators"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This tool is intended to guide an organization’s approach to data interpretation, with the goal of interpreting study data collaboratively with members of the community or communities where research is taking place. It is part of Mathematica’s suite of measurement and evaluation (M&E) tools.
-
----
-
----
-
 ### 1691. The Importance of Schools in Driving Children’s Applications for Disability Benefits
 
 ```yaml
@@ -31533,46 +31053,6 @@ tags: [inclusive-design]
 ```
 
 This paper explores the role how schools affect children’s applications to Supplemental Security Income by using variation in school virtual or in-person learning options during the 2020-21 school year because of the COVID-19 pandemic.
-
----
-
----
-
-### 1692. Career Navigators in Adult Education
-
-```yaml
-url: "https://www.mathematica.org/publications/career-navigators-in-adult-education"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness]
-```
-
-Career navigators help learners explore careers and identify the skills and education needed for them. This brief shares information on exploratory research activities designed to understand the career navigator role; competencies needed for success; and hiring, support, and training considerations.
-
----
-
----
-
-### 1694. Math Corps’ Tutoring Program: Math Knowledge Impacts and Participant Math Perceptions
-
-```yaml
-url: "https://www.mathematica.org/publications/math-knowledge-impacts-and-math-perceptions-among-participants-in-math-corps-tutoring-program"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education, response-to-intervention]
-```
-
-This study measures the impact of an in-person tutoring program on the math knowledge achievement of students in grades 4-8, as well as the math perceptions of tutoring participants, at three majority-Black traditional public and charter schools.
 
 ---
 
@@ -31658,66 +31138,6 @@ This study measures the impact of a group tutoring program on the math knowledge
 
 ---
 
-### 1699. Air Tutors’ Online Tutoring: Math Knowledge Impacts and Participant Math Perceptions
-
-```yaml
-url: "https://www.mathematica.org/publications/math-knowledge-impacts-and-math-perceptions-among-participants-in-air-tutors-online-tutoring"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [computer-assisted-learning, math-education, response-to-intervention]
-```
-
-This study measures the impact of an online tutoring program on the math knowledge achievement of students in grades 4-6, as well as the math perceptions of tutoring participants. The study report is one in a series of six reports on math tutoring programs.
-
----
-
----
-
-### 1700. Championing Change: A Practitioner Guide for Leading Inclusive and Equity-Infused Rapid-Cycle Learning
-
-```yaml
-url: "https://www.mathematica.org/publications/championing-change-a-practitioner-guide-for-leading-inclusive-and-equity-infused-rapid-cycle"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [inclusive-design, math-education]
-```
-
-This guide describes how practitioners can infuse equity principles into rapid-cycle learning efforts for program improvement. The guide reflects lessons from a collaborative project between Mathematica, Agape Child & Family Services, and the Annie E. Casey Foundation.
-
----
-
----
-
-### 1701. Supporting Professional Learning to Advance Culture-Based Math Instruction in Standing Rock
-
-```yaml
-url: "https://www.mathematica.org/publications/supporting-professional-learning-to-advance-culture-based-math-instruction-in-standing-rock"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, math-education]
-```
-
-This REL Central at Mathematica fact sheet presents case studies and selected research to provide more context about how educators might work to Indigenize student learning in math classrooms.
-
----
-
----
-
 ### 1711. Measurement and Evaluation Needs Inventory
 
 ```yaml
@@ -31758,26 +31178,6 @@ Phase 1 of the Measurement and Evaluation Checklist guides users through the pro
 
 ---
 
-### 1716. Impacts of UPchieve On-Demand Tutoring on Students’ Math Knowledge and Perceptions
-
-```yaml
-url: "https://www.mathematica.org/publications/impacts-of-upchieve-on-demand-tutoring-on-students-math-knowledge-and-perceptions"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education, response-to-intervention]
-```
-
-This study measures the impact of an on-demand tutoring program on math knowledge achievement and perceptions about math for middle and high school students from low-income backgrounds. This report is one of six reports on math tutoring programs funded by the Bill & Melinda Gates Foundation.
-
----
-
----
-
 ### 1717. Pennsylvania’s 2022 Student Proficiency Rates Show Signs of Partial Recovery
 
 ```yaml
@@ -31798,46 +31198,6 @@ Proficiency rates on Pennsylvania’s statewide assessments in 2022 remain below
 
 ---
 
-### 1719. How the COVID-19 Pandemic Affected Academic Proficiency Rates in Pennsylvania in 2021
-
-```yaml
-url: "https://www.mathematica.org/publications/how-the-covid-19-pandemic-affected-academic-proficiency-rates-in-pennsylvania-in-2021"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [formative-assessment]
-```
-
-Pennsylvania’s 2021 state assessments offered the first opportunity since the pandemic began to assess whether achievement gaps had widened and how remote learning affected students. This brief provides a picture of the pandemic’s impacts on proficiency in Pennsylvania in grades 5 through 8.
-
----
-
----
-
-### 1720. Analysis of Middle School Math Systems (AMS): Further Investigation into Student Experiences, Instruction, and Context
-
-```yaml
-url: "https://www.mathematica.org/publications/analysis-of-middle-school-math-systems-ams"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, math-education]
-```
-
-This report uses administrator and teacher interview, student survey and focus group, and classroom observation data to explore student experiences in middle school math, teachers’ instructional practices to support a positive learning environment, and administrators’ visions for math instruction.
-
----
-
----
-
 ### 1721. Promoting Readiness of Minors in Supplemental Security Income (PROMISE): The Education and Work Experiences of PROMISE Youth
 
 ```yaml
@@ -31853,126 +31213,6 @@ tags: [inclusive-design]
 ```
 
 Over 12,500 youth with disabilities ages 14-16 enrolled in the Promoting Readiness of Minors in Supplemental Security Income (PROMISE) demonstration, which aimed to improve the long-term self-sufficiency of youth with disabilities receiving Supplemental Security Income and their families.
-
----
-
----
-
-### 1722. Longer-Term Educational Impacts of a Program to Promote Healthy Birth Spacing Among Adolescent Mothers
-
-```yaml
-url: "https://www.mathematica.org/publications/longer-term-educational-impacts-of-a-program-to-promote-healthy-birth-spacing-among-adolescent"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-In 2011, Mathematica conducted a randomized controlled trial to study the impact of Teen Options to Prevent Pregnancy (TOPP), a program that aims to delay repeat teen pregnancies. This study builds upon the results of the first study by examining longer-term impacts of TOPP on participants’ educational outcomes.
-
----
-
----
-
-### 1724. Large Studies Reveal How Reference Bias Limits Policy Applications of Self-Report Measures
-
-```yaml
-url: "https://www.mathematica.org/publications/large-studies-reveal-how-reference-bias-limits-policy-applications-of-self-report-measures"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-There is growing policy interest in identifying contexts that cultivate self-regulation. Doing so often entails comparing groups of individuals (e.g., from different schools).
-
----
-
----
-
-### 1725. Introducing a Partnership for Strengthening Culture-Based Elementary Math Education in Standing Rock (Infographic)
-
-```yaml
-url: "https://www.mathematica.org/publications/introducing-a-partnership-for-strengthening-culture-based-elementary-math-education-in-standing-rock"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This infographic summarizes the goals and intended outcomes of REL Central’s new partnership with the educational groups of the Standing Rock Sioux Tribe.
-
----
-
----
-
-### 1731. Analysis of Middle School Math Systems (AMS) Interim Report: Preliminary Exploration of Curriculum Characteristics, Professional Learning, and Instructional Adaptations
-
-```yaml
-url: "https://www.mathematica.org/publications/analysis-of-middle-school-math-systems-ams-interim-report"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education, sel]
-```
-
-This report examines characteristics of six middle school math curricula and their relationship to teacher and student experiences; teachers’ engagement with professional learning; and teachers’ instructional adaptations of the curriculum.
-
----
-
----
-
-### 1732. Strengthening the STEM Pipeline Through Summer Programmes for Underrepresented Minority Students
-
-```yaml
-url: "https://www.mathematica.org/publications/strengthening-the-stem-pipeline-through-summer-programmes-for-underrepresented-minority-students"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, college-access, k-12]
-```
-
-The under-representation of ethnic minorities in the STEM workforce in the US is preceded by disparities in who attains a college degree in STEM.
-
----
-
----
-
-### 1733. Education-to-Workforce Indicator Framework: Using Data to Promote Equity and Economic Security for All
-
-```yaml
-url: "https://www.mathematica.org/publications/education-to-workforce-indicator-framework-using-data-to-promote-equity-and-economic-security"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, early-childhood]
-```
-
-An evidence-based, field-driven framework that establishes a common set of metrics and data equity principles for assessing and addressing disparities along the pre-K-to-workforce continuum.
 
 ---
 
@@ -32013,66 +31253,6 @@ tags: [college-access, math-education]
 ```
 
 This brief presents rigorous evidence of the impact of Wayne State University’s Math Corps summer program on student outcomes including college enrollment, college degree completion, and encounters with the criminal justice system.
-
----
-
----
-
-### 1736. STEM Summer Programs for Underrepresented Youth Increase STEM Degrees
-
-```yaml
-url: "https://www.mathematica.org/publications/stem-summer-programs-for-underrepresented-youth-increase-stem-degrees"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [k-12]
-```
-
-The federal government and many individual organizations have invested in programs to support diversity in the STEM pipeline, including STEM summer programs for high school students, but there is little rigorous evidence of their efficacy.
-
----
-
----
-
-### 1737. Learning to Adapt: Helping Agape Child & Family Services Use Rapid-Cycle Learning to Drive Equitable Change
-
-```yaml
-url: "https://www.mathematica.org/publications/learning-to-adapt-helping-agape-child-and-family-services-use-rapid-cycle-learning-to-drive"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-Mathematica partnered with Agape Child & Family Services and the Annie E. Casey Foundation to use rapid-cycle learning and equity principles to help Agape adapt services for two of its place-based initiatives. This report describes the partners’ change efforts and lessons learned from the work.
-
----
-
----
-
-### 1738. Study of Teacher Coaching Based on Classroom Videos: Impacts on Student Achievement and Teachers’ Practices
-
-```yaml
-url: "https://www.mathematica.org/publications/study-of-teacher-coaching-based-on-classroom-videos-impacts-on-student-achievement-and-teachers"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [professional-development]
-```
-
-This study examined one promising strategy for individualized coaching: professional coaches—rather than district or school staff—providing feedback to teachers based on videos of their instruction.
 
 ---
 
@@ -32178,26 +31358,6 @@ Policy-makers are increasingly turning to behavioural science for insights about
 
 ---
 
-### 1750. Advancing Diversity, Equity, and Inclusion Through Coaching and Navigation: Insights from Convening Panelists
-
-```yaml
-url: "https://www.mathematica.org/publications/advancing-diversity-equity-and-inclusion-through-coaching-and-navigation-insights-from-convening"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [inclusive-design, professional-development]
-```
-
-This brief presents insights shared by panelists during two virtual convenings focused on advancing diversity, equity, and inclusion through coaching and navigation.
-
----
-
----
-
 ### 1752. Emergency Playbook for Federal Human Services Programs
 
 ```yaml
@@ -32293,26 +31453,6 @@ tags: [math-education]
 ```
 
 Mathematica created tools and resources to support strategic learning during the pilot Capacity Building for Strategic Learning initiative. The materials in this toolkit can serve as a useful starting point to facilitate strategic learning and are adaptable to meet the differing needs of users.
-
----
-
----
-
-### 1760. Students Attending School Remotely Suffer Socially, Emotionally, and Academically
-
-```yaml
-url: "https://www.mathematica.org/publications/students-attending-school-remotely-suffer-socially-emotionally-and-academically"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-What is the social, emotional, and academic impact of attending school remotely rather than in person?
 
 ---
 
@@ -32418,26 +31558,6 @@ This report estimates (1) how test scores and student demographics in DC changed
 
 ---
 
-### 1771. Using a Survey of Social and Emotional Learning and School Climate to Inform Decisionmaking
-
-```yaml
-url: "https://www.mathematica.org/publications/using-a-survey-of-social-and-emotional-learning-and-school-climate-to-inform-decisionmaking"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-The District of Columbia Public Schools (DCPS) has prioritized efforts to support students' social and emotional learning (SEL) competencies, such as perseverance and social awareness.
-
----
-
----
-
 ### 1776. Implementing Covid-19 Routine Testing in K-12 Schools: Lessons and Recommendations from Pilot Sites
 
 ```yaml
@@ -32533,26 +31653,6 @@ tags: [college-access, computer-assisted-learning, math-education, response-to-i
 ```
 
 Many states are redesigning their college remediation policies to increase postsecondary degree completion. In 2012, Tennessee began waiving college math remediation for high school students who completed a computer‐based remedial math course (SAILS) during their senior year.
-
----
-
----
-
-### 1783. Twelve Ideas to Promote Employment for Youth with Disabilities: An Introduction to the SSI Youth Solutions Project
-
-```yaml
-url: "https://www.mathematica.org/publications/twelve-ideas-to-promote-employment-for-youth-with-disabilities-an-introduction-to-the-ssi-youth"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [inclusive-design]
-```
-
-This document briefly introduces the papers developed under the SSI Youth Solutions project.
 
 ---
 
@@ -32698,26 +31798,6 @@ This report provides a brief look at the transition toward Every Student Succeed
 
 ---
 
-### 1804. Transforming Student Success: Moving from Insight to Action by Democratizing Data across the California State University
-
-```yaml
-url: "https://www.mathematica.org/publications/transforming-student-success-moving-from-insight-to-action-by-democratizing-data"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-This brief demonstrates how California State University practitioners have tapped into vital student data to transform their teaching, advisement, and co-curricular support structures to help more students earn the proven, lifelong benefits of a high-quality college degree.
-
----
-
----
-
 ### 1805. Schools Targeted for Improvement: Are Small Sample Sizes Masking Poor School Performance? (Infographic)
 
 ```yaml
@@ -32738,26 +31818,6 @@ We examined school accountability systems in two states and identified two featu
 
 ---
 
-### 1806. Supporting Adult Learners from Enrollment to Completion
-
-```yaml
-url: "https://www.mathematica.org/publications/supporting-adult-learners-from-enrollment-to-completion"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access, math-education]
-```
-
-In this report, Mathematica researchers share evidence from an implementation study about the Lumina Foundation’s Adult Promise initiative. The initiative provided multiyear state grants to support adult learners complete postsecondary education programs.
-
----
-
----
-
 ### 1807. Can Charter Schools Boost Civic Participation? The Impact of Democracy Prep Public Schools on Voting Behavior
 
 ```yaml
@@ -32773,26 +31833,6 @@ tags: [sel]
 ```
 
 This study examines the impact of Democracy Prep on voter registration and participation in the 2016 election.
-
----
-
----
-
-### 1808. Building Equity by Supporting the Whole Student: Findings from Case Studies of Two Colleges in the Working Students Success Network
-
-```yaml
-url: "https://www.mathematica.org/publications/building-equity-by-supporting-the-whole-student-findings-from-case-studies-of-two-colleges"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-This education issue brief provides key ways colleges, funders, and other stakeholders can build an equity framework to support students from historically underserved groups based on case studies of two community colleges participating in the Working Students Success Network.
 
 ---
 
@@ -32833,86 +31873,6 @@ tags: [math-education]
 ```
 
 To help educators make more informed decisions about the best strategy for reopening schools in their community, Mathematica ran complex models of 108 different school situations, including urban, suburban, and rural settings.
-
----
-
----
-
-### 1817. Characteristics of Preschool Special Education Services and Educators, Data Tables
-
-```yaml
-url: "https://www.mathematica.org/publications/characteristics-of-preschool-special-education-services-and-educators-data-tables"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood, inclusive-design, sel]
-```
-
-This set of tables presents national information from a study conducted by the National Center for Education Evaluation (NCEE).
-
----
-
----
-
-### 1818. Using Coaching and Navigation to Promote Economic Mobility: Insights from a Convening
-
-```yaml
-url: "https://www.mathematica.org/publications/using-coaching-and-navigation-to-promote-economic-mobility-insights-from-a-convening"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education, professional-development]
-```
-
-This issue brief provides lessons learned from a convening that Mathematica and the Bill & Melinda Gates Foundation hosted about using coaching and navigation to facilitate meaningful economic mobility.
-
----
-
----
-
-### 1819. Using Coaching and Navigation to Promote Economic Mobility: How Might Programs Provide These Services Virtually?
-
-```yaml
-url: "https://www.mathematica.org/publications/using-coaching-and-navigation-to-promote-economic-mobility-how-might-programs-provide-these-services"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education, professional-development]
-```
-
-This issue brief highlights the challenges and benefits of providing coaching and navigation services virtually. The findings are based on lessons learned from a virtual convening on coaching and navigation that was hosted by Mathematica and the Bill & Melinda Gates Foundation.
-
----
-
----
-
-### 1820. Using Coaching and Navigation to Promote Economic Mobility: What is the Evidence?
-
-```yaml
-url: "https://www.mathematica.org/publications/using-coaching-and-navigation-to-promote-economic-mobility-what-is-the-evidence"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education, professional-development]
-```
-
-This issue brief summarizes current knowledge about the features and effectiveness of coaching and navigation in facilitating economic mobility. The summary is based on lessons learned from a virtual convening hosted by Mathematica and the Bill & Melinda Gates Foundation.
 
 ---
 
@@ -33078,26 +32038,6 @@ Young children’s exposure to early math concepts is important in their develop
 
 ---
 
-### 1843. Why Equity Matters for Adult College Completion
-
-```yaml
-url: "https://www.mathematica.org/publications/why-equity-matters-for-adult-college-completion"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access, math-education]
-```
-
-In this issue brief, Mathematica researchers share findings from an evaluation of Lumina Foundation’s Adult Promise grants, which were awarded to 12 states to develop and implement programs that support adult students working to complete postsecondary education programs.
-
----
-
----
-
 ### 1844. Strategies for Improving Attendance in Pre-Kindergarten and Kindergarten: Toolkit for Districts, Schools, and Early Childhood Providers
 
 ```yaml
@@ -33233,26 +32173,6 @@ tags: [professional-development]
 ```
 
 Helping principals improve their leadership practices is a common use of federal funds and one way to improve instruction and student achievement.
-
----
-
----
-
-### 1854. The Effects of a Principal Professional Development Program Focused on Instructional Leadership
-
-```yaml
-url: "https://www.mathematica.org/publications/the-effects-of-a-principal-professional-development-program-focused-on-instructional-leadership"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [professional-development]
-```
-
-The Institute of Education Sciences conducted a random assignment study of an intensive professional development program for elementary school principals.
 
 ---
 
@@ -33578,26 +32498,6 @@ The authors analyze changes in financial aid and student enrollment at historica
 
 ---
 
-### 1878. Quality Ratings and System Characteristics: Patterns in the Round 1 Race to the Top—Early Learning Challenge States
-
-```yaml
-url: "https://www.mathematica.org/publications/quality-ratings-and-system-characteristics-patterns-in-the-round-1-race-to-the-top"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-This brief describes early learning and development programs' ratings in tiered quality rating and improvement systems (TQRIS) in the nine states that received Round 1 Race to the Top―Early Learning Challenge (RTT-ELC) grants.
-
----
-
----
-
 ### 1884. Do Charter Middle Schools Improve Students' College Outcomes? (Evaluation Brief)
 
 ```yaml
@@ -33738,26 +32638,6 @@ Increasingly, families have a choice of schools instead of just one default neig
 
 ---
 
-### 1899. Measuring School Climate Using the 2015 School Crime Supplement
-
-```yaml
-url: "https://www.mathematica.org/publications/measuring-school-climate-using-the-2015-school-crime-supplement"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [formative-assessment]
-```
-
-This report focuses on the construction, assessment, and analysis of school climate scores using items from the 2015 School Crime Supplement (SCS) to the National Crime Victimization Survey (NCVS).
-
----
-
----
-
 ### 1902. Study Snapshot: Study of Enhanced College Advising in Upward Bound: Impacts on Steps Toward College
 
 ```yaml
@@ -33893,26 +32773,6 @@ tags: [learning-engineering]
 ```
 
 Being driven by data requires more than the existence of a data infrastructure, accessible data, and a culture of data use. It also requires careful attention that data are both relevant and diagnostic for each decision maker and decision.
-
----
-
----
-
-### 1914. Working Students Success Network (WSSN): Final Outcomes Evaluation Report
-
-```yaml
-url: "https://www.mathematica.org/publications/working-students-success-network-wssn-final-outcomes-evaluation-report"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, college-access]
-```
-
-Community colleges serve as the gateway to career success for many people, yet for many low-income students and students of color, financial and other barriers can derail their efforts to complete a postsecondary credential.
 
 ---
 
@@ -34078,86 +32938,6 @@ This brief describes a continuum of research and evaluation that could help prog
 
 ---
 
-### 1935. The Academic and Behavioral Consequences of Discipline Policy Reform: Evidence from Philadelphia
-
-```yaml
-url: "https://www.mathematica.org/publications/the-academic-and-behavioral-consequences-of-discipline-policy-reform-evidence-from-philadelphia"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education, sel]
-```
-
-The School District of Philadelphia (SDP) made dramatic changes to its code of conduct in 2012–2013, prohibiting the use of out-of-school suspensions for low-level conduct offenses—such as profanity and failure to follow classroom rules—and reduced the length of suspensions for more serious infractions.
-
----
-
----
-
-### 1939. Progress and Challenges in Developing Tiered Quality Rating and Improvement Systems in the Round 1 Race to the Top—Early Learning Challenge States (In Focus Brief)
-
-```yaml
-url: "https://www.mathematica.org/publications/in-focus-brief-progress-and-challenges-in-developing-tiered-quality-rating-and-improvement-systems"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood]
-```
-
-This brief describes states’ progress in developing and implementing systems that rate early childhood education programs on quality and help them improve.
-
----
-
----
-
-### 1940. Progress and Challenges in Developing Tiered Quality Rating and Improvement Systems (TQRIS) in the Round 1 Race to the Top-Early Learning Challenge (RTT-ELC) States
-
-```yaml
-url: "https://www.mathematica.org/publications/progress-and-challenges-in-developing-tiered-quality-rating-and-improvement-systems"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood]
-```
-
-This report describes states’ progress in developing and implementing systems that rate early childhood education programs on quality and help them improve. It focuses on the nine states that received the Round 1 Race to the Top-Early Learning Challenge grants.
-
----
-
----
-
-### 1941. States That Received Race to the Top—Early Learning Challenge Grants Made Progress in Developing Tiered Quality Rating and Improvement Systems (Infographic)
-
-```yaml
-url: "https://www.mathematica.org/publications/infographic-states-that-received-race-to-the-top-early-learning-challenge-grants-made-progress"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood]
-```
-
-This infographic describes states’ progress in developing and implementing systems that rate early childhood education programs on quality and help them improve.
-
----
-
----
-
 ### 1944. Conceptual Frameworks for Intentional Approaches to Improving Economic Security and Child Well-Being
 
 ```yaml
@@ -34193,26 +32973,6 @@ tags: [career-readiness, college-access]
 ```
 
 The widespread adoption of more rigorous state guidelines for student learning, such as the Common Core State Standards (CCSS), has led to tremendous interest in how best to prepare and develop teachers to foster the skills that students need to meet the new standards and succeed in college and careers.
-
----
-
----
-
-### 1946. Youth CareerConnect: Early Implementation Findings
-
-```yaml
-url: "https://www.mathematica.org/publications/youth-careerconnect-early-implementation-findings"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness]
-```
-
-The purpose of this report is to explore implementation of Youth CareerConnect about two years after funding began.
 
 ---
 
@@ -34358,26 +33118,6 @@ Compelling research demonstrates what parents have always known—the success of
 
 ---
 
-### 1955. Implementation of a Certification Program in Supply Chain Management for Early Career Professionals
-
-```yaml
-url: "https://www.mathematica.org/publications/implementation-of-a-certification-program-in-supply-chain-management-for-early-career-professionals"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, college-access]
-```
-
-The Leveraging, Integrating, Networking, Coordinating Supplies (LINCS) Consortium of colleges and universities received a Trade Adjustment Assistance Community College and Career Training (TAACCCT) grant to develop and create certification track content, exams, and certifications in eight areas of supply chain management for early-career professionals in the industry. This study documents implementation activities.
-
----
-
----
-
 ### 1956. Virtual Classrooms: How Online College Courses Affect Student Success
 
 ```yaml
@@ -34433,26 +33173,6 @@ tags: [early-childhood, literacy]
 ```
 
 This study investigates instructional practices that hold potential promise for promoting young children’s language development and comprehension.
-
----
-
----
-
-### 1962. Connecting Math Attitudes With STEM Career Attainment: A Latent Class Analysis Approach
-
-```yaml
-url: "https://www.mathematica.org/publications/connecting-math-attitudes-with-stem-career-attainment-a-latent-class-analysis-approach"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, computer-assisted-learning, k-12, math-education]
-```
-
-For many years, there have been many job vacancies in science, technology, engineering, and mathematics (STEM), but not enough workers to fill the vacancies. This study aims to address this dilemma by understanding what may be gained by investigating students’ attitudes towards STEM in high school.
 
 ---
 
@@ -34518,26 +33238,6 @@ The purpose of this article is to explain the WWC attrition model, how that mode
 
 ---
 
-### 1969. Preparing for Life After High School: The Characteristics and Experiences of Youth in Special Education. Findings from the National Longitudinal Transition Study 2012. Volume 2: Comparisons Across Disability Groups (Full Report)
-
-```yaml
-url: "https://www.mathematica.org/publications/national-longitudinal-transition-study-2012-vol-2-comparisons-across-disability-groups-full-report"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [inclusive-design, sel]
-```
-
-Volume 2 of findings from the NLTS 2012 describes the characteristics of youth in 12 disability groups based on IDEA 2004 definitions and how these groups of youth are faring relative to one another.
-
----
-
----
-
 ### 1970. Preparing for Life After High School: The Characteristics and Experiences of Youth in Special Education. Findings from the National Longitudinal Transition Study 2012. Volume 1: Comparisons with Other Youth (Full Report)
 
 ```yaml
@@ -34593,66 +33293,6 @@ tags: [math-education]
 ```
 
 The brief describes how family engagement programs integrated early math learning into their typical activities and lays out practical tips that emerged from their experience. It can guide practitioners and other stakeholders who are interested in integrating early math into their own programs.
-
----
-
----
-
-### 1977. School Improvement Grants: Implementation and Effectiveness (In Focus Brief)
-
-```yaml
-url: "https://www.mathematica.org/publications/sig-if-implementation-and-effectiveness"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This brief summarizes findings from a new report from Mathematica’s multiyear evaluation of School Improvement Grants (SIG) for the Department of Education’s Institute of Education Sciences. It describes the practices schools used and examines the impact of SIG on student achievement.
-
----
-
----
-
-### 1978. School Improvement Grants: Implementation and Effectiveness (Executive Summary)
-
-```yaml
-url: "https://www.mathematica.org/publications/es-sig-implementation-and-effectiveness"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This executive summary describes key findings from a report from Mathematica’s multiyear evaluation of School Improvement Grants (SIG) for the Department of Education’s Institute of Education Sciences. It describes the practices schools used and examines the impact of SIG on student achievement.
-
----
-
----
-
-### 1979. School Improvement Grants: Implementation and Effectiveness (Final Report)
-
-```yaml
-url: "https://www.mathematica.org/publications/sig-implementation-and-effectiveness"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This report summarizes findings from Mathematica’s multiyear evaluation of School Improvement Grants (SIG) for the Department of Education’s Institute of Education Sciences. It describes the practices schools used and examines the impact of SIG on student achievement.
 
 ---
 
@@ -34733,46 +33373,6 @@ tags: [career-readiness, college-access]
 ```
 
 Competency-based education (CBE) has ignited a great deal of public interest in recent years because it allows students to learn and progress at a flexible pace and holds promise for filling workforce skills gaps. What makes it different?
-
----
-
----
-
-### 1990. Race to the Top: Implementation and Relationship to Student Outcomes
-
-```yaml
-url: "https://www.mathematica.org/publications/race-to-the-top-implementation-and-relationship-to-student-outcomes"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This report summarizes findings from Mathematica’s multiyear evaluation of Race to the Top (RTT) for the Department of Education’s Institute of Education Sciences.
-
----
-
----
-
-### 1991. Race to the Top: Implementation and Relationship to Student Outcomes (Executive Summary)
-
-```yaml
-url: "https://www.mathematica.org/publications/race-to-the-top-implementation-and-relationship-to-student-outcomes-executive-summary"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This executive summary describes key findings from a report from Mathematica’s multiyear evaluation of Race to the Top (RTT) for the Department of Education’s Institute of Education Sciences.
 
 ---
 
@@ -34893,26 +33493,6 @@ tags: [k-12, literacy]
 ```
 
 Field trips are an important feature of the United States’ education system, although in the current context of high-stakes tests and school accountability, many schools are shifting resources away from enrichment.
-
----
-
----
-
-### 2003. Understanding District-Charter Collaboration Grants (Final Report)
-
-```yaml
-url: "https://www.mathematica.org/publications/gates-district-charter-collaboration-final-report"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-In November 2012, the Bill & Melinda Gates Foundation invested in seven innovative district-charter partnerships with “the potential capacity and commitment to accelerate student college ready rates through deep collaboration and sharing of best practices.”
 
 ---
 
@@ -35258,106 +33838,6 @@ Services such as the National Student Clearinghouse StudentTracker for High Scho
 
 ---
 
-### 2047. Examining States' Use of Policies and Practices Promoted by Race to the Top (In Focus Brief)
-
-```yaml
-url: "https://www.mathematica.org/publications/examining-states-use-of-policies-and-practices-promoted-by-race-to-the-top"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This brief summarizes findings from a new report from Mathematica’s multi-year evaluation of Race to the Top (RTT) for the Department of Education’s Institute of Education Sciences. It describes the policies and practices states reported using in spring 2012.
-
----
-
----
-
-### 2048. In Focus: Examining Schools' Use of Practices Promoted by School Improvement Grants (In Focus Brief)
-
-```yaml
-url: "https://www.mathematica.org/publications/examining-schools-use-of-practices-promoted-by-school-improvement-grant"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This brief summarizes findings from a new report from Mathematica’s multi-year evaluation of School Improvement Grants (SIG) for the Department of Education’s Institute of Education Sciences. It describes the practices schools reported using in spring 2012.
-
----
-
----
-
-### 2049. Usage of Practices Promoted by School Improvement Grants
-
-```yaml
-url: "https://www.mathematica.org/publications/usage-of-practices-promoted-by-school-improvement-grants"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This report summarizes findings from Mathematica’s multi-year evaluation of School Improvement Grants (SIG) for the Department of Education’s Institute of Education Sciences. It describes the practices schools reported using in spring 2012.
-
----
-
----
-
-### 2050. Usage of Policies and Practices Promoted by Race to the Top
-
-```yaml
-url: "https://www.mathematica.org/publications/usage-of-policies-and-practices-promoted-by-race-to-the-top"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This report summarizes findings from Mathematica’s multi-year evaluation of Race to the Top (RTT) for the Department of Education’s Institute of Education Sciences. It describes the policies and practices states reported using in spring 2012.
-
----
-
----
-
-### 2051. Executive Summary: Usage of Policies and Practices Promoted by Race to the Top and School Improvement Grants
-
-```yaml
-url: "https://www.mathematica.org/publications/usage-of-policies-and-practices-promoted-by-race-to-the-top-and-school-improvement-grants"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This executive summary describes key findings from a two-volume report from Mathematica’s multi-year evaluation of Race to the Top (RTT) and School Improvement Grants (SIG) programs for the Department of Education’s Institute of Education Sciences.
-
----
-
----
-
 ### 2052. Implementation and Impacts of Pay-for-Performance: The 2010 Teacher Incentive Fund (TIF) Grantees After Two Years (Snapshot)
 
 ```yaml
@@ -35518,46 +33998,6 @@ New Jersey’s principal evaluation pilot, which took place in 14 diverse school
 
 ---
 
-### 2069. State Capacity to Support School Turnaround
-
-```yaml
-url: "https://www.mathematica.org/publications/state-capacity-to-support-school-turnaround"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This issue brief from Mathematica’s multi-year evaluation of Race to the Top and School Improvement Grants for the U.S. Department of Education, Institute of Education Sciences, documents states’ capacity to support school turnaround as of spring 2012 and spring 2013.
-
----
-
----
-
-### 2072. Changes in Financial Aid and Student Enrollment at Historically Black Colleges and Universities After the Tightening of PLUS Credit Standards
-
-```yaml
-url: "https://www.mathematica.org/publications/changes-in-financial-aid-and-student-enrollment-at-historically-black-colleges-and-universities"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-The federal Parent Loans for Undergraduate Students (PLUS) program provides loans to parents of dependent undergraduate students to help pay for education expenses.
-
----
-
----
-
 ### 2073. Stated Briefly: Changes in Financial Aid and Student Enrollment at Historically Black Colleges and Universities after the Tightening of PLUS Credit Standards
 
 ```yaml
@@ -35618,26 +34058,6 @@ Berea College Promise Neighborhood serves Clay, Jackson, and Owsley Counties—c
 
 ---
 
-### 2086. Race to the Top-Early Learning Challenge (RTT-ELC): Descriptive Study of Tiered Quality Rating and Improvement Systems (TQRIS)
-
-```yaml
-url: "https://www.mathematica.org/publications/race-to-the-top-early-learning-challenge-rtt-elc-descriptive-study-of-tiered-quality-rating"
-type: tool
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This master data collection protocol describes the data that Mathematica collected for the Race to the Top-Early Learning Challenge Study of Tiered Quality Rating and Improvement Systems. This study was conducted for the Department of Education’s Institute of Education Sciences.
-
----
-
----
-
 ### 2087. Impact Evaluation of the RWJF Summer Medical and Dental Education Program (SMDEP)
 
 ```yaml
@@ -35653,26 +34073,6 @@ tags: [college-access]
 ```
 
 This is the final report of the impact evaluation of the Robert Wood Johnson Foundation Summer Medical and Dental Education Program (SMDEP). SMDEP provides science enrichment opportunities to minority and disadvantaged college students interested in attending medical or dental school.
-
----
-
----
-
-### 2089. Are Low Performing Schools Adopting Practices Promoted by School Improvement Grants (SIG)?
-
-```yaml
-url: "https://www.mathematica.org/publications/are-low-performing-schools-adopting-practices-promoted-by-school-improvement-grants-sig"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-As part of Mathematica’s evaluation of Race to the Top (RTT) and School Improvement Grants (SIG), an infographic examines if low-performing schools are adopting SIG-promoted practices.
 
 ---
 
@@ -35778,46 +34178,6 @@ Mathematica Policy Research conducted a descriptive implementation study of the 
 
 ---
 
-### 2101. Are Low-Performing Schools Adopting Practices Promoted by School Improvement Grants?
-
-```yaml
-url: "https://www.mathematica.org/publications/are-lowperforming-schools-adopting-practices-promoted-by-school-improvement-grants"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This issue brief from Mathematica’s multi-year evaluation of SIG for the U.S. Department of Education, Institute of Education Sciences, sheds light on which individual SIG practices (and what combinations of practices) low-performing schools adopted.
-
----
-
----
-
-### 2102. Are Low-Performing Schools Adopting Practices Promoted by School Improvement Grants? (In Focus Brief)
-
-```yaml
-url: "https://www.mathematica.org/publications/are-lowperforming-schools-adopting-practices-promoted-by-school-improvement-grants-in-focus"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-This issue brief from Mathematica’s multi-year evaluation of SIG for the U.S. Department of Education, Institute of Education Sciences, sheds light on which individual SIG practices (and what combinations of practices) low-performing schools adopted.
-
----
-
----
-
 ### 2103. The Equity Project Charter School: Impacts on Student Achievement
 
 ```yaml
@@ -35898,26 +34258,6 @@ This report presents findings from a targeted document review and expert intervi
 
 ---
 
-### 2112. Does Student Attrition Explain KIPP's Success?
-
-```yaml
-url: "https://www.mathematica.org/publications/does-student-attrition-explain-kipps-success"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-The Knowledge Is Power Program (KIPP) is a network of charter schools designed to improve the educational opportunities available to low-income families. KIPP schools seek to boost their students’ academic achievement and ultimately prepare them to enroll and succeed in college.
-
----
-
----
-
 ### 2117. Partially Nested Randomized Controlled Trials in Education Research: A Guide to Design and Analysis
 
 ```yaml
@@ -35953,26 +34293,6 @@ tags: [personalized-learning]
 ```
 
 Responding to federal and state prompting, school districts across the country are implementing new teacher evaluation systems that aim to increase the rigor of evaluation ratings, better differentiate effective teaching, and support personnel and staff development initiatives that promote teacher effectiveness and ultimately improve student achievement.
-
----
-
----
-
-### 2121. Snapshot of KIPP Leadership Practices through 2010-2011
-
-```yaml
-url: "https://www.mathematica.org/publications/snapshot-of-kipp-leadership-practices-through-2010-2011"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-As part of the U.S. Department of Education's Investing in Innovation (i3) grant, the Knowledge Is Power Program (KIPP) Foundation commissioned Mathematica to document leadership practices at KIPP schools.
 
 ---
 
@@ -36093,26 +34413,6 @@ tags: [math-education]
 ```
 
 At the request of Pittsburgh Public Schools and the Pittsburgh Federation of Teachers, Mathematica has developed value-added models that aim to estimate the contributions of individual teachers and schools to the achievement of their students.
-
----
-
----
-
-### 2133. A Focused Look at Schools Receiving School Improvement Grants That Have Percentages of English Language Learner Students
-
-```yaml
-url: "https://www.mathematica.org/publications/a-focused-look-at-schools-receiving-school-improvement-grants-that-have-percentages-of-english"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: []
-```
-
-The Study of School Turnaround examines the improvement process in a purposive sample of 35 case study schools receiving federal funds through the School Improvement Grants (SIG) program over a three-year period (2010-11 to 2012-13 school years).
 
 ---
 
@@ -36798,26 +35098,6 @@ This working paper uses urban school district data to investigate whether includ
 
 ---
 
-### 2194. Impact and Implementation Findings from an Experimental Evaluation of Playworks: Effects on School Climate, Academic Learning, Student Social Skills and Behavior
-
-```yaml
-url: "https://www.mathematica.org/publications/impact-and-implementation-findings-from-an-experimental-evaluation-of-playworks-effects-on-school-climate-academic-learning-student-social-skills-and-behavior"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-Recess periods often lack the structure needed to support physical activity and positive social development (Robert Wood Johnson Foundation 2010).
-
----
-
----
-
 ### 2195. KIPP Middle Schools Produce Significant Achievement Gains in Reading, Math, Science, and Social Studies (In Focus Brief)
 
 ```yaml
@@ -37053,26 +35333,6 @@ tags: [literacy, math-education]
 ```
 
 Mathematica's final report on the Chicago Teacher Advancement Program (Chicago TAP) found that the program did not raise student math or reading scores, but it increased teacher retention in some schools.
-
----
-
----
-
-### 2223. Charter-School Management Organizations: Diverse Strategies and Diverse Student Impacts
-
-```yaml
-url: "https://www.mathematica.org/publications/charterschool-management-organizations-diverse-strategies-and-diverse-student-impacts"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-A new analysis from the National Study of Charter Management (CMO) Effectiveness provides the first systematic evidence available on the effects of CMOs on the critical long-term outcomes of high school graduation and college entry.
 
 ---
 
@@ -37618,46 +35878,6 @@ This report assesses the impact of two years of exposure to the school and caree
 
 ---
 
-### 2272. Compendium of Student, Teacher, and Classroom Measures Used in NCEE Evaluations of Educational Interventions, Volume I: Measures Selection Approaches and Compendium Development Methods
-
-```yaml
-url: "https://www.mathematica.org/publications/compendium-of-student-teacher-and-classroom-measures-used-in-ncee-evaluations-of-educational-interventions-volume-i-measures-selection-approaches-and-compendium-development-methods"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [response-to-intervention]
-```
-
-This report contains resources to help researchers and policymakers review measures used in NCEE evaluations of educational interventions.
-
----
-
----
-
-### 2273. Compendium of Student, Teacher, and Classroom Measures Used in NCEE Evaluations of Educational Interventions, Volume II: Technical Details, Measure Profiles, and Glossary
-
-```yaml
-url: "https://www.mathematica.org/publications/compendium-of-student-teacher-and-classroom-measures-used-in-ncee-evaluations-of-educational-interventions-volume-ii-technical-details-measure-profiles-and-glossary"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [response-to-intervention]
-```
-
-This report contains resources to help researchers and policymakers review measures used in NCEE evaluations of educational interventions.
-
----
-
----
-
 ### 2276. College Experiences Survey: Methodological Summary
 
 ```yaml
@@ -38138,26 +36358,6 @@ Unlike past charter school studies focused on student achievement, the authors a
 
 ---
 
-### 2320. Bring Them Back, Move Them Forward: Case Studies of Programs Preparing Out-of-School Youths for Further Education and Careers
-
-```yaml
-url: "https://www.mathematica.org/publications/bring-them-back-move-them-forward-case-studies-of-programs-preparing-outofschool-youths-for-further-education-and-careers"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, college-access]
-```
-
-This report summarizes the results of case studies of six programs designed to help out of school youth earn a high school diploma or GED and prepare for postsecondary education and jobs.
-
----
-
----
-
 ### 2321. Passport to Teaching: Career Choices and Experiences of American Board Certified Teachers
 
 ```yaml
@@ -38518,26 +36718,6 @@ Entrepreneurship has long been a fundamental aspect of American society, serving
 
 ---
 
-### 2349. Gender Gaps in College and High School Graduation by Race, Combining Public and Private Schools
-
-```yaml
-url: "https://www.mathematica.org/publications/gender-gaps-in-college-and-high-school-graduation-by-race-combining-public-and-private-schools"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-Each year, the U.S. college system grants twice as many bachelor’s degrees to African American females as males. Large gender gaps favoring women also exist for other groups—on average, our college system awards 35 percent more B.A.s to females than males across all racial and ethnic groups.
-
----
-
----
-
 ### 2350. Expanding Beyond Academics: Who Benefits and How?
 
 ```yaml
@@ -38798,26 +36978,6 @@ Elementary students participating in the 21st Century Community Learning Centers
 
 ---
 
-### 2369. From Kindergarten Through Third Grade: Children's Beginning School Experiences
-
-```yaml
-url: "https://www.mathematica.org/publications/from-kindergarten-through-third-grade-childrens-beginning-school-experiences"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood, literacy, math-education]
-```
-
-Using data from the Early Childhood Longitudinal Study, this report highlights children's gains in reading and math during their first four years in school and describes achievement in reading and math at the end of third grade.
-
----
-
----
-
 ### 2370. Interpreting the Evidence from Recent Federal Evaluations of Dropout-Prevention Programs: The State of Scientific Research
 
 ```yaml
@@ -38873,726 +37033,6 @@ tags: [career-readiness, college-access, computer-assisted-learning, math-educat
 ```
 
 Skill standards and certification tests have figured prominently in recent efforts to improve schools' information technology classes. Mathematica completed the first national study of high school and college information technology skill certification programs.
-
----
-
----
-
-### 2373. Factors That Influence Participation in Secondary Vocational Education
-
-```yaml
-url: "https://www.mathematica.org/publications/factors-that-influence-participation-in-secondary-vocational-education"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness]
-```
-
-Since the early 1990s, federal legislation has encouraged secondary vocational education to go beyond its traditional focus of developing narrowly defined workplace skills to a broader goal of providing career preparation.
-
----
-
----
-
-### 2374. Quality in the Classroom: How Does Teach For America Measure Up?
-
-```yaml
-url: "https://www.mathematica.org/publications/quality-in-the-classroom-how-does-teach-for-america-measure-up"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, math-education]
-```
-
-This four-page issue brief summarizes findings from Mathematica's evaluation of Teach For America. The researchers found that TFA teachers outperformed non-TFA teachers in the same schools in math and achieved the same results in reading.
-
----
-
----
-
-### 2375. The Effects of Teach For America on Students: Findings from a National Evaluation (Working Paper)
-
-```yaml
-url: "https://www.mathematica.org/publications/the-effects-of-teach-for-america-on-students-findings-from-a-national-evaluation-working-paper"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, math-education]
-```
-
-Students of Teach For America teachers outscored their schoolmates on math achievement tests, and matched their average performance in reading, according to the findings from the first national evaluation of the impact of TFA teachers on student learning.
-
----
-
----
-
-### 2376. Public Use Files from the National Evaluation of Teach For America
-
-```yaml
-url: "https://www.mathematica.org/publications/public-use-files-from-the-national-evaluation-of-teach-for-america"
-type: dataset
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-These files from Mathematica’s large-scale random assignment study are for public use by the research community.
-
----
-
----
-
-### 2377. The Effects of Teach For America on Students: Findings from a National Evaluation
-
-```yaml
-url: "https://www.mathematica.org/publications/the-effects-of-teach-for-america-on-students-findings-from-a-national-evaluation"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, math-education]
-```
-
-Students of Teach For America teachers outscored their schoolmates on math achievement tests, and matched their average performance in reading, according to the findings from the first national evaluation of the impact of TFA teachers on student learning.
-
----
-
----
-
-### 2378. Assessing the Effectiveness of Education Interventions: Issues and Recommendations for the Title I Evaluation
-
-```yaml
-url: "https://www.mathematica.org/publications/assessing-the-effectiveness-of-education-interventions-issues-and-recommendations-for-the-title-i-evaluation"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, response-to-intervention]
-```
-
-Recommends that an upcoming study on the effectiveness of education interventions focus on reading comprehension in grades 3 to 5 and allow for inferences about selected groups of students (such as students with limited English proficiency or with very low reading skills).
-
----
-
----
-
-### 2379. The Impacts of Regular Upward Bound: Results from the Third Follow-Up Data Collection
-
-```yaml
-url: "https://www.mathematica.org/publications/the-impacts-of-regular-upward-bound-results-from-the-third-followup-data-collection"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-Upward Bound is one of the largest and longest running federal programs designed to help economically disadvantaged students go to college.
-
----
-
----
-
-### 2382. Financial Aid and Students' College Decisions: Evidence from the District of Columbia's Tuition Assistance Grant Program
-
-```yaml
-url: "https://www.mathematica.org/publications/financial-aid-and-students-college-decisions-evidence-from-the-district-of-columbias-tuition-assistance-grant-program"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-How college price influences student decisions about whether and where to attend college is an important issue. The District of Columbia Tuition Assistance Grant Program allows those who qualify to attend public colleges and universities in other states at considerably lower "in-state" tuitions.
-
----
-
----
-
-### 2384. A Study of the Impact of Public School Spending on Postsecondary Educational Attainment Using Statewide School District Refinancing in Kansas
-
-```yaml
-url: "https://www.mathematica.org/publications/a-study-of-the-impact-of-public-school-spending-on-postsecondary-educational-attainment-using-statewide-school-district-refinancing-in-kansas"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-This paper uses a policy change involving statewide school district refinancing in Kansas during the early 1990s to identify the relationship between per-pupil expenditure and the probability that a student will progress to higher education.
-
----
-
----
-
-### 2385. The Effectiveness of Educational Technology: Issues and Recommendations for the National Study
-
-```yaml
-url: "https://www.mathematica.org/publications/the-effectiveness-of-educational-technology-issues-and-recommendations-for-the-national-study"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [computer-assisted-learning]
-```
-
-Recommends that an upcoming study of the effectiveness of educational technology in improving academic achievement focus on four goals: (1) defining what is meant by "educational technology," (2) deciding how to measure effectiveness, (3) clarifying what kinds of students will be studied, and (4) pinpointing how academic achievement will be defined and measured.
-
----
-
----
-
-### 2386. Identifying Alternative Certification Programs for an Impact Evaluation of Teacher Preparation
-
-```yaml
-url: "https://www.mathematica.org/publications/identifying-alternative-certification-programs-for-an-impact-evaluation-of-teacher-preparation"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [professional-development]
-```
-
-A heated debate exists over the effectiveness of a teacher preparation approach called “alternative certification.”
-
----
-
----
-
-### 2389. Preparing for Productive Careers: Students' Participation In and Use of Career-Focused Learning Activities
-
-```yaml
-url: "https://www.mathematica.org/publications/preparing-for-productive-careers-students-participation-in-and-use-of-careerfocused-learning-activities"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness]
-```
-
-Helping students formulate career goals and prepare for successful careers continues to be an important educational objective pursued by many high schools.
-
----
-
----
-
-### 2390. When Stay Open Late: The National Evaluation of the 21st-Century Community Learning Centers Program, First Year Findings
-
-```yaml
-url: "https://www.mathematica.org/publications/when-schools-stay-open-late-the-national-evaluation-of-the-21st-century-community-learning-centers-program-first-year-findings"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-The first-year findings reveal that while the 21st Century Community Learning Centers changed where and with whom students spent some of their after-school time and increased parental involvement, they had limited influence on academic performance, no influence on feelings of safety or on the number of “latchkey” children, and some negative influences on behavior.
-
----
-
----
-
-### 2393. Random Assignment in Program Evaluation and Intervention Research: Questions and Answers
-
-```yaml
-url: "https://www.mathematica.org/publications/random-assignment-in-program-evaluation-and-intervention-research-questions-and-answers"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [response-to-intervention]
-```
-
-This pamphlet, prepared for the Institute of Education Sciences, describes the purpose of education program evaluation, defines random assignment and discusses its advantages over other approaches, and looks at other issues related to use of random assignment in scientifically based education research.
-
----
-
----
-
-### 2395. Invited Commentary: First Publications from the Schools and Staffing Survey, 1999-2000
-
-```yaml
-url: "https://www.mathematica.org/publications/invited-commentary-first-publications-from-the-schools-and-staffing-survey-19992000"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [professional-development]
-```
-
-Notes the importance of these new data and reports for the education field in studying schools, administrators, and teachers, particularly in light of changes in teacher training in the past two decades.
-
----
-
----
-
-### 2398. Back to School: Federal Student Aid Policy and Adult College Enrollment
-
-```yaml
-url: "https://www.mathematica.org/publications/back-to-school-federal-student-aid-policy-and-adult-college-enrollment"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access, sel]
-```
-
-Much of the research examining the question of how federal financial aid affects decisions to enroll in college has focused on the behavior of students immediately following graduation, leaving unanswered the question of how changes in the availability of aid affects the behavior of older students.
-
----
-
----
-
-### 2402. The NIH Undergraduate Scholarship Program: Issues and Options for Recruiting and Outreach
-
-```yaml
-url: "https://www.mathematica.org/publications/the-nih-undergraduate-scholarship-program-issues-and-options-for-recruiting-and-outreach"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, college-access]
-```
-
-Provides guidance on key issues affecting the operations of this scholarship program designed to encourage undergraduates from disadvantaged backgrounds to pursue careers in biomedical research.
-
----
-
----
-
-### 2403. Are Experiments the Only Option? A Look at Dropout Prevention Programs
-
-```yaml
-url: "https://www.mathematica.org/publications/are-experiments-the-only-option-a-look-at-dropout-prevention-programs"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [dropout-prevention]
-```
-
-Explores whether propensity score methods produce unbiased estimates of program impacts, by comparing experimental and propensity score impacts of dropout prevention programs.
-
----
-
----
-
-### 2406. Monitoring School Quality: An Indicators Report
-
-```yaml
-url: "https://www.mathematica.org/publications/monitoring-school-quality-an-indicators-report"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [computer-assisted-learning, professional-development]
-```
-
-Explores why some schools may be better than others at helping students learn by identifying and critiquing national indicator data on school leadership, goals, professional community, discipline, academic environment, teacher academic skills, teaching assignment, teacher experience, professional development, course content, pedagogy, technology and class size. Notes that teachers make a difference.
-
----
-
----
-
-### 2407. Making Schools Career-Focused
-
-```yaml
-url: "https://www.mathematica.org/publications/making-schools-careerfocused"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, computer-assisted-learning]
-```
-
-Examines a group of high schools that have embraced career majors as the organizing device for school improvement efforts.
-
----
-
----
-
-### 2410. Making Do With Less: Interpreting the Evidence from Recent Federal Evaluations of Dropout-Prevention Programs
-
-```yaml
-url: "https://www.mathematica.org/publications/making-do-with-less-interpreting-the-evidence-from-recent-federal-evaluations-of-dropoutprevention-programs"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access, dropout-prevention]
-```
-
-Presentation at the Dropouts in America conference, Harvard University, January 2001.
-
----
-
----
-
-### 2412. Follow-Up Site Visit Report on Preparing Tomorrow's Teachers to Use Technology: First-Year Objectives Activities and Outcomes from a Sample of 1999 Grantees
-
-```yaml
-url: "https://www.mathematica.org/publications/followup-site-visit-report-on-preparing-tomorrows-teachers-to-use-technology-firstyear-objectives-activities-and-outcomes-from-a-sample-of-1999-grantees"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [computer-assisted-learning]
-```
-
-Describes the results of a second set of site visits to 10 grantees, highlighting common activities and challenges faced during the first year, as well as impacts at the individual and institutional levels.
-
----
-
----
-
-### 2413. Enhancing the 21st Century Community Learning Centers Evaluation: A Concept Paper
-
-```yaml
-url: "https://www.mathematica.org/publications/enhancing-the-21st-century-community-learning-centers-evaluation-a-concept-paper"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [math-education]
-```
-
-Describes how various components of Mathematica's complex study fit together and explains perspectives and principles related to 1) distinguishing implemented programs from intended ones, 2) ensuring broad coverage to explore competing theories of effective programming, 3) collecting longitudinal information on students and centers, and 4) measuring program impacts with control/comparison group designs. Also elaborates on the evaluation's conceptual framework.
-
----
-
----
-
-### 2414. Evaluation of the Federal Talent Search Program Phase II and Phase III: Feasibility Report
-
-```yaml
-url: "https://www.mathematica.org/publications/evaluation-of-the-federal-talent-search-program-phase-ii-and-phase-iii-feasibility-report"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-Assesses the feasibility of estimating the impacts of the program, which helps disadvantaged middle school and high school students prepare for, apply to, get financial aid for, and begin attending college.
-
----
-
----
-
-### 2417. Making Joint Commitments: Roles of Schools, Employers, and Students in Implementing National Skill Standards
-
-```yaml
-url: "https://www.mathematica.org/publications/making-joint-commitments-roles-of-schools-employers-and-students-in-implementing-national-skill-standards"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [career-readiness, formative-assessment]
-```
-
-Discusses the experiences of some of the first vocational education programs to adopt national skill standards, finding that curriculum and assessment changes require external support and that concrete program changes and trade association leadership can engage local employers.
-
----
-
----
-
-### 2418. An Evaluation of the Horizon Scholarship Program in the Edgewood Independent School District, San Antonio, Texas: The First Year
-
-```yaml
-url: "https://www.mathematica.org/publications/an-evaluation-of-the-horizon-scholarship-program-in-the-edgewood-independent-school-district-san-antonio-texas-the-first-year"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, math-education]
-```
-
-Looks at a privately funded voucher program, finding minimal differences in math scores and modest differences in reading scores between voucher students and their public school counterparts, while also noting that the voucher program seems to be serving the working poor.
-
----
-
----
-
-### 2419. Estimating the Payoff to Attending a More Selective College: An Application of Selection on Observables and Unobservables
-
-```yaml
-url: "https://www.mathematica.org/publications/estimating-the-payoff-to-attending-a-more-selective-college-an-application-of-selection"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access, sel]
-```
-
-There are many estimates of the effect of college quality on students' subsequent earnings. One difficulty interpreting past estimates, however, is that elite colleges admit students, in part, based on characteristics that are related to their earnings capacity.
-
----
-
----
-
-### 2421. The Impacts for Upward Bound: Final Report for Phase I of the National Evaluation
-
-```yaml
-url: "https://www.mathematica.org/publications/the-impacts-for-upward-bound-final-report-for-phase-i-of-the-national-evaluation"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [college-access]
-```
-
-Focuses on Upward Bound's effects on students during high school and the first few years of college, finding limited impacts during high school on students as a whole, but larger impacts on some groups, notably those with lower educational expectations going into the program, those with poorer academic performance as high school freshmen, and those who remain in the program for at least two years.
-
----
-
----
-
-### 2422. Addressing Literacy Needs at Work: Implementation and Impact of Workplace Literacy Programs
-
-```yaml
-url: "https://www.mathematica.org/publications/addressing-literacy-needs-at-work-implementation-and-impact-of-workplace-literacy-programs"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy]
-```
-
-This final report on the national evaluation examines program implementation and effects of workplace literacy, finding that it is possible to implement and institutionalize effective programs, but doing so presents challenges for employers, program leaders, and policymakers.
-
----
-
----
-
-### 2424. How Can We Help? What We Have Learned from Evaluations of Federal Dropout-Prevention Programs
-
-```yaml
-url: "https://www.mathematica.org/publications/how-can-we-help-what-we-have-learned-from-evaluations-of-federal-dropoutprevention-programs"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [dropout-prevention]
-```
-
-Summarizes the largest federal study ever conducted of dropout prevention programs, finding three promising models: alternative middle and high schools for those at risk of dropping out, programs aimed at helping older students earn a GED, and whole-school restructuring efforts aimed at dropout prevention.
-
----
-
----
-
-### 2425. Impacts of School Restructuring Initiatives
-
-```yaml
-url: "https://www.mathematica.org/publications/impacts-of-school-restructuring-initiatives"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [dropout-prevention]
-```
-
-A Research Report from the School Dropout Demonstration Assistance Program Evaluation.
-
----
-
----
-
-### 2426. Do We Know Whom to Serve? Issues in Using Risk Factors to Identify Dropouts
-
-```yaml
-url: "https://www.mathematica.org/publications/do-we-know-whom-to-serve-issues-in-using-risk-factors-to-identify-dropouts"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [dropout-prevention]
-```
-
-A Research Report from the School Dropout Demonstration Assistance Program Evaluation.
-
----
-
----
-
-### 2427. Impacts of Dropout Prevention Programs
-
-```yaml
-url: "https://www.mathematica.org/publications/impacts-of-dropout-prevention-programs"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [dropout-prevention]
-```
-
-A Research Report from the School Dropout Demonstration Assistance Program Evaluation.
-
----
-
----
-
-### 2428. The Short-Term Impact of Upward Bound: An Interim Report
-
-```yaml
-url: "https://www.mathematica.org/publications/the-shortterm-impact-of-upward-bound-an-interim-report"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [english-learners]
-```
-
-This report describes the impact of Upward Bound (UB) on students' education-related outcomes and course-taking during the first year or two of high school, as well as students' persistence in the UB program.
-
----
-
----
-
-### 2429. A 1990s View of Upward Bound: Programs Offered, Students Served, and Operational Issues
-
-```yaml
-url: "https://www.mathematica.org/publications/a-1990s-view-of-upward-bound-programs-offered-students-served-and-operational-issues"
-type: report
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [english-learners]
-```
-
-This report describes the impact of Upward Bound on students' education-related outcomes and course-taking during the first year or two of high school, as well as students' persistence in the Upward Bound program.
-
----
-
----
-
-### 2431. What Do Effective Teachers of Inner-City Children have in Common?
-
-```yaml
-url: "https://www.mathematica.org/publications/what-do-effective-teachers-of-innercity-children-have-in-common"
-type: paper
-source: "Mathematica"
-url_confirmed: true
-description_inferred: false
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, sel]
-```
-
-This paper investigates the extent to which variables describing the classroom behavior of teachers and variables describing teachers' backgrounds and training explain differences in the effectiveness of teachers in improving the vocabulary skills of inner-city black children in four elementary grade levels.
 
 ---
 

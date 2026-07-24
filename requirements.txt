@@ -1,0 +1,10 @@
+# Python dependencies for the scraping/build pipeline (scripts/).
+# Install: pip install -r requirements.txt
+# Playwright additionally needs a one-time browser install: playwright install chromium
+
+requests>=2.31
+beautifulsoup4>=4.12
+playwright>=1.40
+
+# Dev tools (tests and linting): pip install pytest ruff
+# Run: python -m pytest tests/ -q && ruff check scripts/ tests/

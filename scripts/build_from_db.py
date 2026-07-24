@@ -15,7 +15,6 @@ Outputs (written to docs/):
 """
 import json
 import os
-import re
 import sqlite3
 from collections import defaultdict
 from datetime import date
@@ -49,8 +48,8 @@ TAG_CATEGORIES = {
         "rppl", "upgrade-platform", "carnegie-learning", "khan-academy", "lsu",
         "northwestern-e4", "norc", "lastinger-center", "aims",
         "tla", "cmu-learnlab", "assistments", "cosn", "tools-competition",
-        "wwc", "unesco", "cast", "iste-ascd", "digital-promise", "duolingo", "jedm",
-        "lpi", "nap", "edtrust", "casel", "jla", "campbell-collaboration", "brookings",
+        "wwc", "unesco", "cast", "iste-ascd", "digital-promise", "duolingo",
+        "lpi", "nap", "edtrust", "casel", "campbell-collaboration", "brookings",
     ],
 }
 
@@ -69,10 +68,21 @@ def get_db():
 
 
 def load_entries():
-    """Load all non-excluded entries with their tags."""
+    """Load all publishable entries with their tags.
+
+    Entries with url_status='broken' stay in hub.db (for dedup and later
+    re-checking) but are held out of every published output — the hub's
+    promise is verifiable links, so known-dead ones don't ship."""
     conn = get_db()
+    held_back = conn.execute(
+        "SELECT COUNT(*) FROM entries WHERE excluded = 0 AND url_status = 'broken'"
+    ).fetchone()[0]
+    if held_back:
+        print(f"[build] Holding back {held_back} entries with broken URLs (kept in hub.db, not published)")
     entries = []
-    for row in conn.execute("SELECT * FROM entries WHERE excluded = 0 ORDER BY num"):
+    for row in conn.execute(
+        "SELECT * FROM entries WHERE excluded = 0 AND url_status != 'broken' ORDER BY num"
+    ):
         e = dict(row)
         tags = [r[0] for r in conn.execute(
             "SELECT tag FROM entry_tags WHERE entry_num = ? ORDER BY tag", (e["num"],)
@@ -98,7 +108,7 @@ def load_coverage():
     """Build coverage list from source_targets table."""
     conn = get_db()
     indexed_counts = {}
-    for row in conn.execute("SELECT source, COUNT(*) as cnt FROM entries WHERE excluded = 0 GROUP BY source"):
+    for row in conn.execute("SELECT source, COUNT(*) as cnt FROM entries WHERE excluded = 0 AND url_status != 'broken' GROUP BY source"):
         indexed_counts[row["source"]] = row["cnt"]
 
     coverage = []

@@ -1,0 +1,7 @@
+# Lint config for the pipeline scripts. Run: ruff check scripts/ tests/
+target-version = "py39"
+line-length = 120
+
+[lint]
+# Defaults (E4/E7/E9 + F) plus unused-import/variable hygiene.
+select = ["E4", "E7", "E9", "F", "W"]

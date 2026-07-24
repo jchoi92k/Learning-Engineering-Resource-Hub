@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "wrangler dev --port 8787 & sleep 5 && node test-mcp.js"
+    "test": "node test-mcp.mjs"
   },
   "devDependencies": {
     "wrangler": "^4"

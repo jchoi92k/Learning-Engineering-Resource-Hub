@@ -1,4 +1,4 @@
-# Learning Engineering Resource Hub — Schema
+# Renaissance AI and Education Resource Hub — Schema
 
 > All files in this repository must be UTF-8 (no BOM). `build_from_db.py` rejects builds if mojibake is detected.
 
@@ -12,7 +12,7 @@ url_confirmed: boolean           # true if URL was fetched and verified; false i
 doi: string|null                 # DOI for papers, if known
 license: string|null             # License if stated (e.g. BSD-3-Clause, MIT, CC-BY, open-access)
 source: string               # Producing organization or index source (e.g. "What Works Clearinghouse", "Learning Policy Institute", "Digital Promise")
-date_added: date                 # When entry was added to this wiki
+date_added: date                 # When entry was added to the hub
 last_verified: date              # When source URL was last checked
 description_inferred: boolean    # true = description derived from title/context; false = fetched directly
 tags: list[string]               # Controlled vocabulary (see below)
@@ -28,7 +28,9 @@ tags: list[string]               # Controlled vocabulary (see below)
 | `framework` | Conceptual or methodological framework, guidance document |
 | `platform` | Interactive tool, software platform, or web application |
 | `tool` | Assessment instrument, diagnostic tool, rubric, or decision-support tool (not a full software platform) |
-| `curriculum` | Instructional materials, lesson sequences, curriculum guides, or OER content |
+| `curriculum` | Instructional materials, lesson sequences, curriculum guides, or OER content (reserved; no entries currently use it) |
+| `review` | Evidence review or systematic review of an intervention or program |
+| `article` | News article, magazine piece, or explainer from a source organization |
 | `blog-post` | Blog post or informal publication |
 | `presentation` | Slide deck, poster, or video presentation |
 | `project-website` | Website for a research project or initiative |

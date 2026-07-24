@@ -1,11 +1,44 @@
 /**
  * MCP tool tests for renaissance-hub worker.
- * Run: start `npx wrangler dev --port 8787` then `node test-mcp.js`
+ *
+ * Run: node test-mcp.mjs
+ * Spawns `wrangler dev` itself and polls until ready — no manual server start,
+ * no bash-only chaining, works on Windows and POSIX alike.
+ * To test against an already-running server: node test-mcp.mjs --no-spawn
  */
-const BASE = "http://localhost:8787/mcp";
+import { spawn } from "node:child_process";
+import process from "node:process";
+
+const PORT = 8787;
+const ORIGIN = `http://localhost:${PORT}`;
+const BASE = `${ORIGIN}/mcp`;
 let passed = 0;
 let failed = 0;
 let sessionId = null;
+let server = null;
+
+async function startServer() {
+  if (process.argv.includes("--no-spawn")) return;
+  server = spawn("npx", ["wrangler", "dev", "--port", String(PORT)], {
+    cwd: import.meta.dirname,
+    shell: process.platform === "win32",
+    stdio: "ignore",
+  });
+  // Poll readiness for up to 60s instead of a fixed sleep.
+  const deadline = Date.now() + 60_000;
+  while (Date.now() < deadline) {
+    try {
+      const res = await fetch(ORIGIN, { signal: AbortSignal.timeout(2000) });
+      if (res.ok) return;
+    } catch { /* not up yet */ }
+    await new Promise((r) => setTimeout(r, 500));
+  }
+  throw new Error("wrangler dev did not become ready within 60s");
+}
+
+function stopServer() {
+  if (server) server.kill();
+}
 
 async function rpc(method, params = {}, id = 1) {
   const res = await fetch(BASE, {
@@ -40,6 +73,10 @@ async function test(name, fn) {
 
 // ── Tests ──
 
+await startServer();
+
+try {
+
 await test("initialize", async () => {
   const res = await rpc("initialize", { protocolVersion: "2025-03-26", capabilities: {}, clientInfo: { name: "test", version: "1.0" } });
   assert(res.result.serverInfo.name === "renaissance-hub", "server name is renaissance-hub");
@@ -58,6 +95,10 @@ await test("tools/list", async () => {
   assert(names.includes("find_related"), "has find_related");
   assert(names.includes("get_full_index"), "has get_full_index");
   assert(names.length === 8, `tool count is 8 (got ${names.length})`);
+  const search = res.result.tools.find(t => t.name === "search_resources");
+  const typeEnum = search.inputSchema.properties.type.enum;
+  assert(typeEnum.includes("review"), "type enum includes review");
+  assert(typeEnum.includes("article"), "type enum includes article");
 });
 
 await test("search_resources — basic keyword", async () => {
@@ -74,6 +115,17 @@ await test("search_resources — tag filter", async () => {
   for (const e of r.entries) {
     assert(e.tags.includes("attendance"), `entry ${e.num} has attendance tag`);
   }
+});
+
+await test("search_resources — tag_mode any vs all", async () => {
+  const all = await callTool("search_resources", { tags: ["literacy", "rct"], tag_mode: "all", count_only: true });
+  const any = await callTool("search_resources", { tags: ["literacy", "rct"], tag_mode: "any", count_only: true });
+  assert(any.total_matches >= all.total_matches, `any (${any.total_matches}) >= all (${all.total_matches})`);
+});
+
+await test("search_resources — type filter reaches minority types", async () => {
+  const r = await callTool("search_resources", { type: "review", count_only: true });
+  assert(r.total_matches > 0, `review entries reachable via type filter (${r.total_matches})`);
 });
 
 await test("search_resources — count_only", async () => {
@@ -171,6 +223,43 @@ await test("find_related — invalid entry", async () => {
   const res = await rpc("tools/call", { name: "find_related", arguments: { num: 999999 } });
   assert(res.result.isError === true, "returns isError for missing entry");
 });
+
+await test("error handling — tools/call without params", async () => {
+  const res = await rpc("tools/call");
+  assert(res.error !== undefined, "returns JSON-RPC error, not a crash");
+  assert(res.error.code === -32602, `error code is -32602 (${res.error?.code})`);
+});
+
+await test("error handling — unknown method", async () => {
+  const res = await rpc("no/such/method");
+  assert(res.error !== undefined, "returns JSON-RPC error");
+  assert(res.error.code === -32601, `error code is -32601 (${res.error?.code})`);
+});
+
+await test("get_full_index — compact format", async () => {
+  const text = await callTool("get_full_index", { format: "compact" });
+  assert(typeof text === "string", "returns text");
+  const lineCount = text.split("\n").length;
+  assert(lineCount > 2000, `compact index has one line per entry (${lineCount} lines)`);
+});
+
+await test("HTTP /search endpoint", async () => {
+  const res = await fetch(`${ORIGIN}/search?q=tutoring&limit=5`);
+  assert(res.ok, `/search returns 200 (${res.status})`);
+  const body = await res.text();
+  assert(body.includes("Search Results"), "returns markdown results");
+});
+
+await test("HTTP / help page", async () => {
+  const res = await fetch(ORIGIN);
+  assert(res.ok, `/ returns 200 (${res.status})`);
+  const body = await res.text();
+  assert(body.includes("MCP"), "help page mentions MCP");
+});
+
+} finally {
+  stopServer();
+}
 
 // ── Summary ──
 console.log(`\n${"=".repeat(40)}`);

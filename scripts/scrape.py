@@ -16,13 +16,11 @@ Output goes to docs/staging/{source}.json (or stdout with --stdout).
 """
 import argparse
 import json
-import os
 import re
 import sys
 import time
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -111,14 +109,17 @@ def _throttle():
     _last_fetch_time = time.time()
 
 
-def _handle_rate_limit(status_code, url):
-    """Retry with exponential backoff on 429/503. Returns response or None."""
+def _handle_rate_limit(status_code, url, method="get", request_kwargs=None):
+    """Retry with exponential backoff on 429/503, replaying the original
+    method and kwargs (params/headers/json) so paginated and POST requests
+    are not corrupted on retry. Returns response or None."""
+    request_kwargs = request_kwargs or {}
     for attempt, wait in enumerate(BACKOFF_SCHEDULE):
         print(f"  HTTP {status_code} — backing off {wait}s (attempt {attempt + 1}/{len(BACKOFF_SCHEDULE)})...",
               file=sys.stderr)
         time.sleep(wait)
         try:
-            r = SESSION.get(url, timeout=30)
+            r = SESSION.request(method, url, timeout=30, **request_kwargs)
             if r.status_code == 200:
                 return r
             if r.status_code not in (429, 503):
@@ -140,7 +141,7 @@ def fetch(url, **kwargs):
             CONSECUTIVE_FAILURES = 0
             return r
         if r.status_code in (429, 503):
-            result = _handle_rate_limit(r.status_code, url)
+            result = _handle_rate_limit(r.status_code, url, "get", kwargs)
             if result:
                 CONSECUTIVE_FAILURES = 0
                 return result
@@ -167,7 +168,8 @@ def fetch_post(url, headers=None, json_body=None):
             CONSECUTIVE_FAILURES = 0
             return r
         if r.status_code in (429, 503):
-            result = _handle_rate_limit(r.status_code, url)
+            result = _handle_rate_limit(r.status_code, url, "post",
+                                        {"headers": headers, "json": json_body})
             if result:
                 CONSECUTIVE_FAILURES = 0
                 return result
@@ -220,12 +222,9 @@ def extract_cards(soup, config):
         blurb = ""
         if sel.get("blurb_bare_text"):
             # Bare text node: get card text minus all child element text
-            all_text = card.get_text(" ", strip=True)
-            child_text = " ".join(el.get_text(" ", strip=True) for el in card.find_all(True))
-            blurb = all_text
-            for ct in [child_text]:
-                for fragment in [el.get_text(strip=True) for el in card.find_all(True) if el.get_text(strip=True)]:
-                    blurb = blurb.replace(fragment, "", 1)
+            blurb = card.get_text(" ", strip=True)
+            for fragment in [el.get_text(strip=True) for el in card.find_all(True) if el.get_text(strip=True)]:
+                blurb = blurb.replace(fragment, "", 1)
             blurb = " ".join(blurb.split()).strip()
         elif "blurb_parent" in sel:
             parent_el = card.select_one(sel["blurb_parent"])
@@ -703,7 +702,7 @@ def fetch_detail_descriptions(items, config, source):
                   if len(item.get("blurb", "")) < MIN_BLURB_LENGTH]
 
     if not need_fetch:
-        print(f"[scrape] detail_fetch: all items already have descriptions, skipping")
+        print("[scrape] detail_fetch: all items already have descriptions, skipping")
         return items
 
     est_minutes = len(need_fetch) * _request_delay // 60
@@ -727,7 +726,7 @@ def fetch_detail_descriptions(items, config, source):
             else:
                 print(f"    No match for selector: {selector}")
         else:
-            print(f"    Fetch failed")
+            print("    Fetch failed")
         _save_progress(source, items)
 
     return items
@@ -749,16 +748,26 @@ def split_by_blurb(items, threshold=MIN_BLURB_LENGTH):
 
 
 def write_backlog(source, backlog_items):
-    """Append backlog items to sources/{source}-backlog.txt."""
+    """Append backlog items to sources/{source}-backlog.txt, skipping URLs
+    already present so repeated runs don't accumulate duplicate lines."""
     if not backlog_items:
         return
     path = SOURCES_DIR / f"{source}-backlog.txt"
+    existing = set()
+    if path.exists():
+        with open(path, encoding="utf-8") as f:
+            existing = {line.split("\t", 1)[0] for line in f if line.strip()}
+    new_items = [i for i in backlog_items if i["url"] not in existing]
+    if not new_items:
+        print(f"[scrape] Backlog: 0 new items ({len(backlog_items)} already present in {path})")
+        return
     with open(path, "a", encoding="utf-8") as f:
-        for item in backlog_items:
+        for item in new_items:
             title = item.get("title", "").replace("\t", " ")
             reason = item.get("backlog_reason", "unknown")
             f.write(f"{item['url']}\t{title}\t{reason}\n")
-    print(f"[scrape] Backlog: {len(backlog_items)} items written to {path}")
+    print(f"[scrape] Backlog: {len(new_items)} new items written to {path} "
+          f"({len(backlog_items) - len(new_items)} already present)")
 
 
 def main():
@@ -789,13 +798,11 @@ def main():
 
     # Check for saved progress (from interrupted detail_fetch)
     items = None
-    resumed = False
     if not args.fresh:
         items = _load_progress(source)
     if items is not None:
         already_done = sum(1 for i in items if len(i.get("blurb", "")) >= MIN_BLURB_LENGTH)
         print(f"[scrape] RESUMING from progress file: {len(items)} items, {already_done} with descriptions")
-        resumed = True
     else:
         # Run scrape
         if discovery == "sitemap":

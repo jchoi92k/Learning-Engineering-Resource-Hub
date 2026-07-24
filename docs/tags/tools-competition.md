@@ -1,4 +1,4 @@
-# Tag: tools-competition (18 entries)
+# Tag: tools-competition (17 entries)
 
 | # | Title | Type | Description |
 |---|---|---|---|
@@ -6,7 +6,6 @@
 | 489 | [Journify Learning](https://www.journify-learning.com) | platform | AI-powered platform for special education teams that automates paperwork, integrates support providers, and enhances compliance. Enables educators to generate personalized, evidence-based instructional materials aligned with IEP goals and track student progress in real-time. Has received ESSA Tier 4 Research Certification from Digital Promise. |
 | 490 | [EdLight](https://www.edlight.com) | platform | AI-powered tool that analyzes handwritten student math work to identify misconceptions and track progress. Provides instant data analysis, recommended instructional next steps, and classroom-to-district level reporting with handwriting recognition and standards alignment. |
 | 491 | [Studio KSL Assessment (eKitabu)](https://ekitabu.com/ksl-assessment) | platform | AI-powered Kenyan Sign Language assessment tool from eKitabu's Studio KSL initiative. Evaluates KSL proficiency for deaf children in Kenya and East Africa, integrated with enhanced video storybooks and digital teaching materials for equitable education. |
-| 492 | [Shaia (Mentu)](https://mentulabs.com/en/shaia) | platform | AI-powered educational platform that helps teachers save time and implement better teaching practices. Offers customizable implementation for schools, professional development resources, and plans tailored for individual teachers and institutions. |
 | 493 | [Sing and Speak 4 Kids](https://singandspeak4kids.com) | platform | Online evidence-based music language program for young children experiencing speech delays. Features 16 gamified sing-along songs designed to build vocabulary, with progress tracking capabilities for educators and clinicians to monitor developmental advancement. |
 | 494 | [Nova Escola AI Agent for Literacy Teachers](https://novaescola.org.br) | platform | Brazilian educational platform serving teachers with BNCC-aligned lesson plans, courses, and AI-powered WhatsApp tools. Educators can describe a skill or topic and receive step-by-step lesson guidance in under a minute for personalized lesson planning and activity suggestions. |
 | 495 | [Oral Reading Fluency (Wadhwani AI)](https://wadhwaniai.org/programs/oral-reading-fluency/) | platform | AI-powered tool that listens to students read and gives teachers objective fluency insights by identifying missed words, errors, and reading speed. Uses automatic speech recognition models optimized for Indian languages and student voices, having impacted over 7.9 million learners across government schools in Gujarat and Rajasthan. |

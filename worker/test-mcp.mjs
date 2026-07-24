@@ -230,6 +230,37 @@ await test("error handling — tools/call without params", async () => {
   assert(res.error.code === -32602, `error code is -32602 (${res.error?.code})`);
 });
 
+await test("error handling — bad argument type returns isError tool result", async () => {
+  // tags must be an array; a string makes the handler throw, which per
+  // MCP SEP-1303 must surface as a tool execution error, not a protocol error
+  const res = await rpc("tools/call", { name: "search_resources", arguments: { tags: "literacy" } });
+  assert(res.error === undefined, "no protocol-level error");
+  assert(res.result.isError === true, "isError tool result");
+  assert(res.result.content[0].text.includes("search_resources"), "message names the tool");
+});
+
+await test("protocol version negotiation", async () => {
+  const known = await rpc("initialize", { protocolVersion: "2025-03-26", capabilities: {}, clientInfo: { name: "t", version: "1" } });
+  assert(known.result.protocolVersion === "2025-03-26", "echoes supported requested version");
+  const unknown = await rpc("initialize", { protocolVersion: "1999-01-01", capabilities: {}, clientInfo: { name: "t", version: "1" } });
+  assert(unknown.result.protocolVersion === "2025-06-18", `falls back to latest supported (${unknown.result.protocolVersion})`);
+});
+
+await test("invalid Origin rejected with 403", async () => {
+  const res = await fetch(BASE, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "Origin": "file://evil" },
+    body: JSON.stringify({ jsonrpc: "2.0", method: "ping", id: 1 }),
+  });
+  assert(res.status === 403, `403 for non-http(s) Origin (${res.status})`);
+  const ok = await fetch(BASE, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "Origin": "https://claude.ai" },
+    body: JSON.stringify({ jsonrpc: "2.0", method: "ping", id: 1 }),
+  });
+  assert(ok.status === 200, `https Origin passes (${ok.status})`);
+});
+
 await test("error handling — unknown method", async () => {
   const res = await rpc("no/such/method");
   assert(res.error !== undefined, "returns JSON-RPC error");

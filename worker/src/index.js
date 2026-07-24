@@ -414,18 +414,28 @@ function jsonRpcError(id, code, message) {
   return { jsonrpc: "2.0", id, error: { code, message } };
 }
 
+// Spec revisions this stateless tools-only server is compatible with.
+// We echo the client's requested version when we support it (per spec
+// version negotiation), otherwise answer with our latest supported.
+const SUPPORTED_PROTOCOL_VERSIONS = ["2025-06-18", "2025-03-26", "2024-11-05"];
+
 function processMcpMessage(msg) {
   const { method, id, params } = msg;
 
   if (id === undefined) return null;
 
   switch (method) {
-    case "initialize":
+    case "initialize": {
+      const requested = params && params.protocolVersion;
+      const negotiated = SUPPORTED_PROTOCOL_VERSIONS.includes(requested)
+        ? requested
+        : SUPPORTED_PROTOCOL_VERSIONS[0];
       return jsonRpc(id, {
-        protocolVersion: "2025-03-26",
+        protocolVersion: negotiated,
         capabilities: { tools: {} },
         serverInfo: { name: "renaissance-hub", version: "2.0.0" },
       });
+    }
     case "tools/list":
       return jsonRpc(id, { tools: TOOL_DEFINITIONS });
     case "tools/call":
@@ -435,7 +445,16 @@ function processMcpMessage(msg) {
       try {
         return jsonRpc(id, handleToolCall(params.name, params.arguments || {}));
       } catch (err) {
-        return jsonRpcError(id, -32603, `Internal error in tool '${params.name}': ${err.message}`);
+        // Per MCP SEP-1303, argument/validation failures are tool execution
+        // errors (isError results), not protocol errors — the model can read
+        // the message and self-correct on the next call.
+        return jsonRpc(id, {
+          content: [{
+            type: "text",
+            text: `Tool '${params.name}' failed: ${err.message}. Check the argument types and values against the tool's input schema, then retry.`,
+          }],
+          isError: true,
+        });
       }
     case "ping":
       return jsonRpc(id, {});
@@ -585,6 +604,12 @@ export default {
     }
 
     if (url.pathname === "/mcp") {
+      // Streamable HTTP spec: reject requests with an invalid Origin (403).
+      // Non-browser clients send no Origin and pass through untouched.
+      const origin = request.headers.get("Origin");
+      if (origin && !/^https?:\/\//.test(origin)) {
+        return new Response("Forbidden: invalid Origin", { status: 403, headers: CORS_HEADERS });
+      }
 
       if (request.method === "POST") return handleMcpPost(request);
       if (request.method === "DELETE") return mcpResponse(null, 200);

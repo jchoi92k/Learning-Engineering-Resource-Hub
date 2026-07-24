@@ -413,6 +413,35 @@ def build_gem_knowledge(entries):
     print(f"[build] Written gem-knowledge.txt ({size_kb:.0f} KB, {total} entries)")
 
 
+SITE_BASE = "https://jchoi92k.github.io/Learning-Engineering-Resource-Hub"
+
+
+def build_sitemap():
+    """Sitemap for the GitHub Pages site. AI search features (Google AI
+    Overviews etc.) retrieve from the ordinary search index, so standard
+    crawlability of the main pages is what earns visibility there."""
+    today = date.today().isoformat()
+    pages = [
+        "",  # site root (index.html)
+        "purpose.md",
+        "how-to-use.md",
+        "schema.md",
+        "llms.txt",
+        "llms-full.txt",
+        "tags/index.md",
+    ]
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for page in pages:
+        loc = f"{SITE_BASE}/{page}" if page else f"{SITE_BASE}/"
+        lines += ["  <url>", f"    <loc>{loc}</loc>", f"    <lastmod>{today}</lastmod>", "  </url>"]
+    lines.append("</urlset>")
+    out = os.path.join(WIKI_DIR, "sitemap.xml")
+    with open(out, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"[build] Written sitemap.xml ({len(pages)} URLs)")
+
+
 if __name__ == "__main__":
     if not os.path.exists(DB_PATH):
         print(f"[build] Error: {DB_PATH} not found.")
@@ -424,4 +453,5 @@ if __name__ == "__main__":
     build_tags(entries)
     build_json(entries)
     build_gem_knowledge(entries)
+    build_sitemap()
     print("[build] Done.")

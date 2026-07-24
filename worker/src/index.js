@@ -9,8 +9,34 @@ const CORS_HEADERS = {
 
 // ── Data helpers (shared by HTTP API and MCP) ──
 
-function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], query = "", limit = 20, offset = 0, sort_by = "index" }) {
-  let results = data.entries;
+const EMBEDDING_MODEL = "@cf/baai/bge-base-en-v1.5";
+
+// Embed the query and return entries nearest in the Vectorize index,
+// ordered by similarity. Returns null when semantic search is unavailable
+// (missing bindings, empty index, or a runtime error) so callers can fall
+// back to keyword matching.
+async function semanticCandidates(env, query) {
+  if (!env || !env.AI || !env.VECTORIZE) return null;
+  try {
+    const emb = await env.AI.run(EMBEDDING_MODEL, { text: [query] });
+    const vector = emb.data && emb.data[0];
+    if (!vector) return null;
+    const res = await env.VECTORIZE.query(vector, { topK: 100, returnMetadata: "none" });
+    if (!res || !res.matches || res.matches.length === 0) return null;
+    const byNum = new Map(data.entries.map((e) => [e.num, e]));
+    return res.matches
+      .map((m) => byNum.get(parseInt(m.id, 10)))
+      .filter(Boolean);
+  } catch {
+    return null;
+  }
+}
+
+function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], query = "", limit = 20, offset = 0, sort_by = "index", candidates = null }) {
+  // `candidates` (from semantic search) replaces the corpus as the result
+  // pool and carries its own relevance order; keyword `query` matching is
+  // skipped in that case.
+  let results = candidates || data.entries;
 
   if (tags.length > 0) {
     const match = tagMode === "any"
@@ -26,7 +52,7 @@ function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], q
       sources.some((s) => e.source.toLowerCase().includes(s.toLowerCase()))
     );
   }
-  if (query) {
+  if (query && !candidates) {
     const words = query.toLowerCase().split(/\s+/).filter(Boolean);
     results = results.filter((e) => {
       const text = `${e.title} ${e.desc} ${e.tags.join(" ")}`.toLowerCase();
@@ -118,7 +144,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "search_resources",
     description:
-      `Search the Renaissance AI and Education Resource Hub — ${data.entries.length} curated evidence-based K-12 and higher education resources. Filter by tags, type, source, or keyword. Call list_tags first to see available filter values.`,
+      `Search the Renaissance AI and Education Resource Hub — ${data.entries.length} curated evidence-based K-12 and higher education resources. Natural-language queries use semantic search by default; combine with tag, type, and source filters. Call list_tags first to see available filter values.`,
     inputSchema: {
       type: "object",
       properties: {
@@ -147,7 +173,13 @@ const TOOL_DEFINITIONS = [
         query: {
           type: "string",
           description:
-            "Optional keyword search across title, description, and tags. Literal substring match — all words must appear (AND logic); no stemming or synonyms. If a query returns 0 matches, retry with synonyms or broader/alternate phrasing (e.g. 'practice test' instead of 'retrieval practice'), or browse list_tags and filter by tag instead.",
+            "Natural-language search across title, description, and tags. By default uses semantic (embedding) search, so concept-level queries work even without exact word overlap. Results are ordered by relevance. If results look off, retry with different phrasing, set search_mode: 'keyword' for exact substring matching, or browse list_tags and filter by tag.",
+        },
+        search_mode: {
+          type: "string",
+          enum: ["semantic", "keyword"],
+          description:
+            "How to match the query. 'semantic' (default): embedding similarity, best for concepts and questions; returns up to the 100 nearest entries. 'keyword': literal substring match, all words must appear (AND logic); best for exact terms, names, or exhaustive matching. count_only always uses keyword so counts are corpus-wide.",
         },
         sort_by: {
           type: "string",
@@ -264,15 +296,26 @@ const TOOL_DEFINITIONS = [
   },
 ];
 
-function handleToolCall(name, args) {
+async function handleToolCall(name, args, env) {
   switch (name) {
     case "search_resources": {
-      const { tags = [], tag_mode = "all", type, source, query, sort_by = "index", limit = 20, cursor, count_only = false } = args;
+      const { tags = [], tag_mode = "all", type, source, query, sort_by = "index", limit = 20, cursor, count_only = false, search_mode = "semantic" } = args;
       const tagMode = tag_mode;
       const types = type ? [type] : [];
       const sources = source ? [source] : [];
       const offset = cursor || 0;
-      const { results, total, limited, nextCursor } = filterEntries({ tags, tagMode, types, sources, query, sort_by, limit, offset });
+
+      // Semantic search embeds the query and ranks by similarity; used by
+      // default when a query is present. count_only always uses keyword
+      // matching so the count stays an exhaustive corpus-wide number.
+      let candidates = null;
+      let modeUsed = "keyword";
+      if (query && !count_only && search_mode !== "keyword") {
+        candidates = await semanticCandidates(env, query);
+        if (candidates) modeUsed = "semantic";
+      }
+
+      const { results, total, limited, nextCursor } = filterEntries({ tags, tagMode, types, sources, query, sort_by, limit, offset, candidates });
 
       if (count_only) {
         return {
@@ -283,7 +326,7 @@ function handleToolCall(name, args) {
         };
       }
 
-      const response = { total_matches: total, showing: results.length, limited, entries: results.map(formatEntry) };
+      const response = { total_matches: total, showing: results.length, limited, search_mode: query ? modeUsed : undefined, entries: results.map(formatEntry) };
       if (nextCursor !== null) response.next_cursor = nextCursor;
       return {
         content: [{
@@ -419,7 +462,7 @@ function jsonRpcError(id, code, message) {
 // version negotiation), otherwise answer with our latest supported.
 const SUPPORTED_PROTOCOL_VERSIONS = ["2025-06-18", "2025-03-26", "2024-11-05"];
 
-function processMcpMessage(msg) {
+async function processMcpMessage(msg, env) {
   const { method, id, params } = msg;
 
   if (id === undefined) return null;
@@ -443,7 +486,7 @@ function processMcpMessage(msg) {
         return jsonRpcError(id, -32602, "Invalid params: tools/call requires params.name");
       }
       try {
-        return jsonRpc(id, handleToolCall(params.name, params.arguments || {}));
+        return jsonRpc(id, await handleToolCall(params.name, params.arguments || {}, env));
       } catch (err) {
         // Per MCP SEP-1303, argument/validation failures are tool execution
         // errors (isError results), not protocol errors — the model can read
@@ -474,7 +517,7 @@ function mcpResponse(body, status = 200) {
   });
 }
 
-async function handleMcpPost(request) {
+async function handleMcpPost(request, env) {
   let body;
   try {
     body = await request.json();
@@ -483,11 +526,11 @@ async function handleMcpPost(request) {
   }
 
   if (Array.isArray(body)) {
-    const responses = body.map(processMcpMessage).filter((r) => r !== null);
+    const responses = (await Promise.all(body.map((m) => processMcpMessage(m, env)))).filter((r) => r !== null);
     return responses.length === 0 ? mcpResponse(null, 202) : mcpResponse(responses);
   }
 
-  const response = processMcpMessage(body);
+  const response = await processMcpMessage(body, env);
   return response === null ? mcpResponse(null, 202) : mcpResponse(response);
 }
 
@@ -611,7 +654,7 @@ export default {
         return new Response("Forbidden: invalid Origin", { status: 403, headers: CORS_HEADERS });
       }
 
-      if (request.method === "POST") return handleMcpPost(request);
+      if (request.method === "POST") return handleMcpPost(request, env);
       if (request.method === "DELETE") return mcpResponse(null, 200);
       if (request.method === "GET") return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
       return mcpResponse({ name: "renaissance-hub", version: "2.0.0", tools: TOOL_DEFINITIONS.map((t) => t.name) });

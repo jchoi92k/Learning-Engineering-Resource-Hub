@@ -55,3 +55,6 @@ worker/.wrangler/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local embedding cache (embed_corpus.py incremental state)
+data/embed-cache.json

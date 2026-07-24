@@ -67,7 +67,7 @@ flowchart LR
 
 `data/hub.db` (SQLite) is the single source of truth. Everything in `docs/` is a derived build output. Entries whose URLs fail verification are held out of published outputs but kept in the database for re-checking. The database also retains out-of-scope and no-evidence entries (marked `excluded` with a reason, largely restating the source organizations' own published ratings) so they are never re-indexed — these exclusion records are public by design.
 
-After `docs/data.json` changes, the MCP worker must be redeployed (`npx wrangler deploy` from `worker/`) — it bundles the data at deploy time.
+After `docs/data.json` changes, the MCP worker must be redeployed (`npx wrangler deploy` from `worker/`) — it bundles the data at deploy time. Semantic search additionally needs `python scripts/embed_corpus.py` to sync entry embeddings into the Cloudflare Vectorize index (incremental; only new/changed entries are re-embedded). The MCP search tool uses embedding similarity by default and falls back to keyword matching if the vector index is unavailable.
 
 ---
 
@@ -78,6 +78,7 @@ python scripts/scrape.py {source}            # fetch + stage to docs/staging/
 python scripts/process_staged.py {source}    # tag + insert into hub.db
 python scripts/verify_urls.py                # verify unverified URLs
 python scripts/build_from_db.py              # rebuild all published files from hub.db
+python scripts/embed_corpus.py               # sync entry embeddings to Vectorize (semantic search)
 ```
 
 See `sources/README.md` for scraping conventions and `meta/agent-guide.md` for the full operational guide.

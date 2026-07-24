@@ -6,6 +6,17 @@ compatibility_date = "2024-01-01"
 enabled = true
 head_sampling_rate = 1
 
+# Semantic search: query embeddings via Workers AI, nearest-neighbor lookup
+# via Vectorize. The worker falls back to keyword search if either binding
+# is unavailable or the index is empty. Populate the index with
+# `python scripts/embed_corpus.py` after corpus changes.
+[ai]
+binding = "AI"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "renaissance-hub-entries"
+
 # Per-IP rate limit: 100 requests per 60s. The worker degrades gracefully
 # if this binding is absent (e.g. local `wrangler dev` without support).
 [[unsafe.bindings]]

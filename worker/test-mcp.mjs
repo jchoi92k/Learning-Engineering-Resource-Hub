@@ -101,12 +101,26 @@ await test("tools/list", async () => {
   assert(typeEnum.includes("article"), "type enum includes article");
 });
 
-await test("search_resources — basic keyword", async () => {
+await test("search_resources — basic query", async () => {
   const r = await callTool("search_resources", { query: "tutoring", limit: 5 });
   assert(r.total_matches > 0, `found matches (${r.total_matches})`);
   assert(r.entries.length <= 5, `respects limit (${r.entries.length})`);
   assert(r.entries[0].title !== undefined, "entries have titles");
   assert(r.entries[0].url !== undefined, "entries have URLs");
+  assert(["semantic", "keyword"].includes(r.search_mode), `reports search_mode (${r.search_mode})`);
+});
+
+await test("search_resources — explicit keyword mode", async () => {
+  const r = await callTool("search_resources", { query: "tutoring", search_mode: "keyword", limit: 5 });
+  assert(r.search_mode === "keyword", "keyword mode honored");
+  assert(r.total_matches > 0, `keyword matching still works (${r.total_matches})`);
+});
+
+await test("search_resources — semantic falls back gracefully when index empty", async () => {
+  // In local dev the Vectorize simulator starts empty, so semantic search
+  // must fall back to keyword rather than returning nothing.
+  const r = await callTool("search_resources", { query: "tutoring", search_mode: "semantic", limit: 5 });
+  assert(r.total_matches > 0, `results despite index state (${r.total_matches}, mode=${r.search_mode})`);
 });
 
 await test("search_resources — tag filter", async () => {

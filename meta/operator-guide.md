@@ -63,7 +63,11 @@ Update flow:
 ```bash
 cd worker
 npx wrangler deploy
+cd ..
+python scripts/embed_corpus.py --endpoint http://localhost:8788   # after starting: npx wrangler dev --remote --config worker/populate.toml --port 8788
 ```
+
+Semantic search: the search tool embeds queries via Workers AI (`@cf/baai/bge-base-en-v1.5`) and ranks against the `renaissance-hub-entries` Vectorize index (768d, cosine). `embed_corpus.py` keeps that index in sync with hub.db — run it after any corpus change (incremental: unchanged entries are skipped via `data/embed-cache.json`). Two auth options: the local populate worker (`worker/populate.toml`, uses wrangler's OAuth — no token needed) or a `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` in `.env` for direct REST calls. If the index is empty or a binding fails, the worker silently falls back to keyword search — check the `search_mode` field in responses to confirm which path served a query.
 
 Recommended cadence:
 - After every routine PR merge (or batch a couple of weeks together if you're not under demo pressure).

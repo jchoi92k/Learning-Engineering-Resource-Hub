@@ -1,0 +1,32 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in uchicago-consortium.md. Drupal views table; listing has no description (only an optional subtitle), so every new item is detail-fetched for its og:description abstract, same pattern as CASEL.",
+  "discovery": "pagination",
+  "discovery_url": "https://consortium.uchicago.edu/publications",
+  "url_prefix": "https://consortium.uchicago.edu",
+  "pagination": {
+    "param": "page",
+    "start": 0
+  },
+  "selectors": {
+    "item": "table.cols-3 tbody tr",
+    "title": "td.views-field-title a",
+    "url": "td.views-field-title a[href]",
+    "type": "td.views-field-field-publication-type",
+    "date": "td.views-field-field-date-published"
+  },
+  "detail_fetch": {
+    "selector": "meta[property='og:description']",
+    "attr": "content"
+  },
+  "robots_txt": "https://consortium.uchicago.edu/robots.txt",
+  "robots_disallow": [
+    "/search/",
+    "/node/add/",
+    "/user/"
+  ],
+  "test": {
+    "url": "https://consortium.uchicago.edu/publications?page=0",
+    "expected_item_count": 10,
+    "expected_first_title_contains": ""
+  }
+}

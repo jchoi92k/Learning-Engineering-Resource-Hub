@@ -10,7 +10,10 @@ Usage:
     python scripts/scrape.py wested                  # full scrape
     python scripts/scrape.py wested --pages 3        # limit pagination to 3 pages
     python scripts/scrape.py wested --test           # test selectors against one page
-    python scripts/scrape.py wested --diff           # show only items not in llms-full.txt
+    python scripts/scrape.py wested --no-diff        # include already-indexed items, no early-stop
+
+Paginated and API sources stop early once a page contains 3 consecutive or
+5 total already-indexed URLs (listings are newest-first). --pages is a hard cap.
 
 Output goes to docs/staging/{source}.json (or stdout with --stdout).
 """
@@ -49,6 +52,10 @@ DEFAULT_DELAY = 5  # seconds between requests (no-policy default)
 _request_delay = DEFAULT_DELAY
 _last_fetch_time = 0
 BACKOFF_SCHEDULE = [5, 10, 20]  # seconds on 429/503, then give up
+# Early-stop: stop paginating once a page shows this many already-indexed URLs.
+# Listings are newest-first, so hitting known URLs means the rest is indexed.
+EARLY_STOP_CONSECUTIVE = 3
+EARLY_STOP_TOTAL = 5
 
 
 def resolve_source(source):
@@ -286,7 +293,30 @@ def scrape_single_page(config, max_pages=None):
     return items
 
 
-def scrape_pagination(config, max_pages=None):
+def early_stop_hit(items, existing_urls, max_consecutive=EARLY_STOP_CONSECUTIVE,
+                   max_total=EARLY_STOP_TOTAL):
+    """True if a page's items contain enough already-indexed URLs to stop paginating.
+
+    Triggers on either `max_consecutive` known URLs in a row or `max_total`
+    known URLs anywhere on the page. `existing_urls` must be normalized
+    (rstrip('/'), lowercase) as produced by load_existing_urls(). Returns
+    False when existing_urls is None (diffing disabled).
+    """
+    if not existing_urls:
+        return False
+    consecutive = total = 0
+    for item in items:
+        if item.get("url", "").rstrip("/").lower() in existing_urls:
+            consecutive += 1
+            total += 1
+            if consecutive >= max_consecutive or total >= max_total:
+                return True
+        else:
+            consecutive = 0
+    return False
+
+
+def scrape_pagination(config, max_pages=None, existing_urls=None):
     """Paginate through HTML listing pages and extract items via CSS selectors.
 
     Supports two URL patterns:
@@ -294,6 +324,9 @@ def scrape_pagination(config, max_pages=None):
       - Path-based: set pagination.url_pattern, e.g. "{base}page/{page}/"
         where {base} is discovery_url and {page} is the page number.
         Page 1 uses discovery_url directly (no /page/1/).
+
+    Stops early once a page contains enough already-indexed URLs (see
+    early_stop_hit); max_pages remains a hard cap.
     """
     base_url = config["discovery_url"]
     pag = config["pagination"]
@@ -332,6 +365,9 @@ def scrape_pagination(config, max_pages=None):
 
         all_items.extend(items)
         print(f"  Extracted {len(items)} items from page {page_num}")
+        if early_stop_hit(items, existing_urls):
+            print(f"  Early stop: page {page_num} is mostly already indexed.")
+            break
         page_num += 1
 
     return all_items
@@ -398,8 +434,12 @@ def _load_url_filter(config):
     return slugs
 
 
-def scrape_api(config, max_pages=None):
-    """Fetch from a REST/search API and extract items via JSON paths."""
+def scrape_api(config, max_pages=None, existing_urls=None):
+    """Fetch from a REST/search API and extract items via JSON paths.
+
+    Stops early once a page contains enough already-indexed URLs (see
+    early_stop_hit); max_pages / pagination.pages remain hard caps.
+    """
     api = config["api"]
     paths = api["json_paths"]
     items_path = paths.get("items", "")
@@ -450,6 +490,7 @@ def scrape_api(config, max_pages=None):
             print(f"  No items at {page_param}={page_num} — reached end.")
             break
 
+        page_items = []
         for raw in raw_items:
             item_root = paths.get("item_root")
             obj = resolve_json_path(raw, item_root) if item_root else raw
@@ -496,9 +537,13 @@ def scrape_api(config, max_pages=None):
                 if val:
                     item_dict[field_name] = val
 
-            all_items.append(item_dict)
+            page_items.append(item_dict)
 
+        all_items.extend(page_items)
         print(f"  Extracted {len(raw_items)} items at {page_param}={page_num}")
+        if early_stop_hit(page_items, existing_urls):
+            print(f"  Early stop: {page_param}={page_num} is mostly already indexed.")
+            break
         page_num += page_step
         pages_fetched += 1
 
@@ -804,15 +849,18 @@ def main():
         already_done = sum(1 for i in items if len(i.get("blurb", "")) >= MIN_BLURB_LENGTH)
         print(f"[scrape] RESUMING from progress file: {len(items)} items, {already_done} with descriptions")
     else:
+        # Known URLs drive both early-stop during pagination and the post-scrape diff
+        existing = None if args.no_diff else load_existing_urls()
+
         # Run scrape
         if discovery == "sitemap":
             items = scrape_sitemap(config, args.pages)
         elif discovery == "pagination":
-            items = scrape_pagination(config, args.pages)
+            items = scrape_pagination(config, args.pages, existing_urls=existing)
         elif discovery == "single_page":
             items = scrape_single_page(config, args.pages)
         elif discovery == "api":
-            items = scrape_api(config, args.pages)
+            items = scrape_api(config, args.pages, existing_urls=existing)
         else:
             print(f"Error: unknown discovery type '{discovery}'", file=sys.stderr)
             sys.exit(1)
@@ -832,8 +880,7 @@ def main():
         print(f"[scrape] Total items extracted: {len(items)}")
 
         # Diff (on by default)
-        if not args.no_diff:
-            existing = load_existing_urls()
+        if existing is not None:
             new_items, already = diff_items(items, existing)
             print(f"[scrape] Already indexed: {len(already)}, New: {len(new_items)}")
             items = new_items

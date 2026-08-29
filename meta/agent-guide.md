@@ -109,7 +109,7 @@ This file no longer maintains a hand-curated per-source entry table — it drift
 2. `python scripts/process_staged.py {source}` — inserts entries into hub.db with auto-tagging, logs to `processing-log.md`
 3. `python scripts/build_from_db.py` — rebuilds all published files (`llms-full.txt`, `llms.txt`, `data.json`, `tags/`, `gem-knowledge.txt`) from hub.db
 
-scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption.
+scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption, early-stop (paginated/API sources stop after 3 consecutive or 5 total already-indexed URLs on a page; `--pages` is the hard cap, `--no-diff` disables).
 
 When a source's state materially changes (new source added, indexed count crosses a hundred-mark, access method changes), update the right canonical file — `source-targets.json` for coverage, `source-audit.md` for access, `sources-log.md` for attempt history — and let `docs/data.json` regenerate. Don't try to maintain a parallel table here.
 

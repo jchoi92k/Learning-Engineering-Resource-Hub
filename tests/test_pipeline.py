@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
-from scrape import diff_items, resolve_json_path, split_by_blurb, strip_html
+from scrape import diff_items, early_stop_hit, resolve_json_path, split_by_blurb, strip_html
 from process_staged import infer_tags, infer_type
 
 
@@ -133,3 +133,87 @@ def test_split_by_blurb():
     assert len(ready) == 1
     assert len(backlog) == 2
     assert all("backlog_reason" in i for i in backlog)
+
+
+# ── early_stop_hit ──
+
+def _items(*urls):
+    return [{"url": u} for u in urls]
+
+
+def test_early_stop_three_consecutive_known():
+    existing = {"https://a.org/1", "https://a.org/2", "https://a.org/3"}
+    page = _items("https://a.org/new", "https://a.org/1", "https://a.org/2", "https://a.org/3")
+    assert early_stop_hit(page, existing) is True
+
+
+def test_early_stop_not_triggered_when_known_are_interleaved():
+    existing = {"https://a.org/1", "https://a.org/2", "https://a.org/3", "https://a.org/4"}
+    page = _items("https://a.org/1", "https://a.org/n1", "https://a.org/2", "https://a.org/n2",
+                  "https://a.org/3", "https://a.org/n3", "https://a.org/4")
+    # 4 known, never 3 in a row, below the 5-total threshold
+    assert early_stop_hit(page, existing) is False
+
+
+def test_early_stop_five_total_known():
+    existing = {f"https://a.org/{i}" for i in range(1, 6)}
+    page = _items("https://a.org/1", "https://a.org/x", "https://a.org/2", "https://a.org/y",
+                  "https://a.org/3", "https://a.org/z", "https://a.org/4", "https://a.org/w",
+                  "https://a.org/5")
+    assert early_stop_hit(page, existing) is True
+
+
+def test_early_stop_normalizes_case_and_slash():
+    existing = {"https://a.org/page"}
+    page = _items("https://A.org/Page/", "https://a.org/PAGE", "https://a.org/page/")
+    assert early_stop_hit(page, existing) is True
+
+
+def test_early_stop_disabled_without_existing_urls():
+    page = _items("https://a.org/1", "https://a.org/2", "https://a.org/3")
+    assert early_stop_hit(page, None) is False
+    assert early_stop_hit(page, set()) is False
+
+
+def test_early_stop_all_new_page():
+    page = _items("https://a.org/n1", "https://a.org/n2", "https://a.org/n3")
+    assert early_stop_hit(page, {"https://a.org/old"}) is False
+
+
+def test_scrape_pagination_stops_early_and_respects_hard_cap(monkeypatch):
+    """Stub fetch: page N lists items /p{N}-1 .. /p{N}-4. Pages 2+ are all indexed."""
+    import scrape
+
+    class Resp:
+        def __init__(self, n):
+            self.text = "".join(
+                f'<div class="c"><a class="t" href="/p{n}-{i}">T{n}{i}</a><p class="b">{"x" * 40}</p></div>'
+                for i in range(1, 5)
+            )
+
+    fetched = []
+
+    def fake_fetch(url, **kw):
+        fetched.append(url)
+        return Resp(len(fetched))
+
+    monkeypatch.setattr(scrape, "fetch", fake_fetch)
+    config = {
+        "discovery_url": "https://a.org/list",
+        "url_prefix": "https://a.org",
+        "pagination": {"param": "page", "start": 1},
+        "selectors": {"item": "div.c", "title": "a.t", "url": "a.t", "blurb": "p.b"},
+    }
+    existing = {f"https://a.org/p{n}-{i}" for n in (2, 3, 4, 5) for i in range(1, 5)}
+
+    items = scrape.scrape_pagination(config, max_pages=None, existing_urls=existing)
+    assert len(fetched) == 2, "should fetch page 1 (all new) and page 2 (all known), then stop"
+    assert len(items) == 8
+
+    fetched.clear()
+    scrape.scrape_pagination(config, max_pages=1, existing_urls=existing)
+    assert len(fetched) == 1, "--pages hard cap still applies"
+
+    fetched.clear()
+    existing_none = scrape.scrape_pagination(config, max_pages=3, existing_urls=None)
+    assert len(fetched) == 3 and len(existing_none) == 12, "no early-stop when diff disabled"

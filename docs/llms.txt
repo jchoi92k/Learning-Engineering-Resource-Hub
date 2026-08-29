@@ -686,7 +686,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1596. [Incredible Years (IY) &#8211; Teacher Classroom Management Program](https://evidenceforessa.org/program/incredible-years-iy-teacher-classroom-management-program/) | report | early-childhood
 - 1597. [Adventures Aboard the S.S. Grin](https://evidenceforessa.org/program/social-skills-group-intervention-s-s-grin/) | report | computer-assisted-learning, sel
 - 1598. [Becoming a Man (BAM)](https://evidenceforessa.org/program/becoming-a-man-bam/) | report | dropout-prevention, professional-development, sel
-- 1599. [Second Step &#8211;  Attendance](https://evidenceforessa.org/program/second-step-attendance/) | report | attendance, sel
+- 1599. [Second Step &#8211; Attendance](https://evidenceforessa.org/program/second-step-attendance/) | report | attendance, sel
 - 1601. [Talent Development High School (TDHS)- Attendance](https://evidenceforessa.org/program/talent-development-high-school-tdhs-attendance/) | report | attendance, career-readiness, math-education, professional-development
 - 1602. [Big Brothers, Big Sisters (BBBS) School-Based Mentoring (SBM) Program](https://evidenceforessa.org/program/big-brothers-big-sisters-bbbs-school-based-mentoring-sbm-program/) | report | professional-development
 - 1603. [Student Success Skills (Targeted) &#8211; Social-Emotional Learning](https://evidenceforessa.org/program/student-success-skills-targeted-social-emotional-learning/) | report | sel
@@ -2429,7 +2429,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1216. [National Institute for School Leadership (NISL) (School Leadership Review Protocol )](https://ies.ed.gov/ncee/WWC/InterventionReport/710) | report | math-education, professional-development, wwc
 - 1217. [Project Based Inquiry Science (PBIScience) (Primary Science)](https://ies.ed.gov/ncee/WWC/InterventionReport/701) | report | wwc
 - 1218. [Full Option Science System (FOSS) (Primary Science)](https://ies.ed.gov/ncee/WWC/InterventionReport/700) | report | wwc
-- 1219. [Accelerated Math®  (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/683) | report | computer-assisted-learning, math-education, personalized-learning, wwc
+- 1219. [Accelerated Math® (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/683) | report | computer-assisted-learning, math-education, personalized-learning, wwc
 - 1220. [Cognitive Tutor&reg; Algebra II (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/657) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
 - 1221. [Cognitive Tutor&reg; Integrated Math I (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/658) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
 - 1222. [Cognitive Tutor&reg; Integrated Math II (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/659) | report | computer-assisted-learning, math-education, response-to-intervention, wwc

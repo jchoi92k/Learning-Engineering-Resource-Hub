@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
-from scrape import diff_items, early_stop_hit, resolve_json_path, split_by_blurb, strip_html
+from scrape import clean_text, diff_items, early_stop_hit, resolve_json_path, split_by_blurb, strip_html
 from process_staged import infer_tags, infer_type
 
 
@@ -217,3 +217,16 @@ def test_scrape_pagination_stops_early_and_respects_hard_cap(monkeypatch):
     fetched.clear()
     existing_none = scrape.scrape_pagination(config, max_pages=3, existing_urls=None)
     assert len(fetched) == 3 and len(existing_none) == 12, "no early-stop when diff disabled"
+
+
+# ── clean_text ──
+
+def test_clean_text_collapses_whitespace_and_nbsp():
+    raw = "Get\u00a0early  insights\n\tfrom\r\n the  study "
+    assert clean_text(raw) == "Get early insights from the study"
+
+
+def test_clean_text_handles_empty_and_non_str():
+    assert clean_text("") == ""
+    assert clean_text(None) == ""
+    assert clean_text(42) == "42"

@@ -253,10 +253,10 @@ def extract_cards(soup, config):
             item_url = url_prefix + item_url
 
         item = {
-            "title": title,
+            "title": clean_text(title),
             "url": item_url,
-            "type": type_el.get_text(strip=True) if type_el else "",
-            "blurb": blurb,
+            "type": clean_text(type_el.get_text(strip=True)) if type_el else "",
+            "blurb": clean_text(blurb),
         }
 
         # Extra fields (grade_level, evidence_tier, authors, date)
@@ -410,6 +410,19 @@ def strip_html(text):
     return re.sub(r'<[^>]+>', '', text).strip()
 
 
+def clean_text(text):
+    """Normalize whitespace in scraped text: NBSP and other Unicode spaces
+    become plain spaces; tabs/newlines and runs of spaces collapse to one."""
+    if not text:
+        return ""
+    if not isinstance(text, str):
+        text = str(text)
+    for ch in ("\u00a0", "\u2009", "\u202f"):  # NBSP, thin space, narrow NBSP
+        text = text.replace(ch, " ")
+    text = text.replace("\ufeff", "")  # BOM
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def _load_url_filter(config):
     """Fetch a listing page and extract allowed URL slugs for filtering API results."""
     filt = config.get("url_filter")
@@ -510,9 +523,9 @@ def scrape_api(config, max_pages=None, existing_urls=None):
             if isinstance(item_type, list):
                 item_type = item_type[0] if item_type else ""
 
-            # Strip HTML from descriptions
-            desc = strip_html(desc) if isinstance(desc, str) else str(desc)
-            title = strip_html(title) if isinstance(title, str) else str(title)
+            # Strip HTML and normalize whitespace
+            desc = clean_text(strip_html(desc) if isinstance(desc, str) else str(desc))
+            title = clean_text(strip_html(title) if isinstance(title, str) else str(title))
 
             url_str = item_url if isinstance(item_url, str) else str(item_url)
             url_template = config.get("url_template")
@@ -765,7 +778,7 @@ def fetch_detail_descriptions(items, config, source):
             soup = BeautifulSoup(r.text, "html.parser")
             el = soup.select_one(selector)
             if el:
-                desc = el.get(attr).strip() if attr else el.get_text(strip=True)
+                desc = clean_text(el.get(attr) if attr else el.get_text(" ", strip=True))
                 items[i]["blurb"] = desc
                 print(f"    OK ({len(desc)} chars)")
             else:

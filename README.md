@@ -47,6 +47,8 @@ For MCP setup, data.json integration, and other access options, see the [usage g
 
 **Datasets** — NCES surveys, IEA international studies (TIMSS, PIRLS, PISA), CMU DataShop, OECD, ASSISTments, Duolingo, Stanford CEPA
 
+**Selected methods papers** — Journal of Educational Data Mining, Journal of Learning Analytics (a small curated set, not systematic journal coverage)
+
 ---
 
 ## Architecture

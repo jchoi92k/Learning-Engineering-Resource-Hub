@@ -55,9 +55,11 @@ tags: list[string]               # Controlled vocabulary (see below)
 
 ### Affiliation (producing organization)
 `aims` `assistments` `campbell-collaboration` `carnegie-learning` `casel` `cmu-learnlab`
-`digital-promise` `duolingo` `edtrust` `khan-academy` `lastinger-center` `lpi` `lsu`
+`digital-promise` `duolingo` `edtrust` `jedm` `jla` `khan-academy` `lastinger-center` `lpi` `lsu`
 `nap` `norc` `northwestern-e4` `rppl` `tla` `tools-competition` `upgrade-platform`
 `wpi` `wwc`
+
+`jedm` / `jla` mark a small, selective set of methods papers from the Journal of Educational Data Mining and the Journal of Learning Analytics. These journals are not indexed systematically.
 
 ## Notes on Provenance
 

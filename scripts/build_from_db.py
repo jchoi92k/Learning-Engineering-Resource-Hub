@@ -50,6 +50,7 @@ TAG_CATEGORIES = {
         "tla", "cmu-learnlab", "assistments", "cosn", "tools-competition",
         "wwc", "unesco", "cast", "iste-ascd", "digital-promise", "duolingo",
         "lpi", "nap", "edtrust", "casel", "campbell-collaboration", "brookings",
+        "jedm", "jla",
     ],
 }
 

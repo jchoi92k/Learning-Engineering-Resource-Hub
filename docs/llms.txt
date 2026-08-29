@@ -1,24 +1,24 @@
 # Renaissance AI and Education Resource Hub — Compact Index
 
-> 2317 curated evidence-based K-12 and higher education resources.
-> Last updated: 2026-07-24
+> 2395 curated evidence-based K-12 and higher education resources.
+> Last updated: 2026-08-28
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
 ## Tags
 
-**Domain:** k-12 (898), literacy (403), math-education (361), learning-engineering (201), early-childhood (200), higher-ed (174), english-learners (115), school-discipline (31)
+**Domain:** k-12 (910), literacy (403), math-education (369), learning-engineering (275), higher-ed (203), early-childhood (200), english-learners (116), school-discipline (31)
 
-**Method:** longitudinal (195), computer-assisted-learning (183), response-to-intervention (176), rct (123), meta-analysis (55), coaching (47), genai (31), intelligent-tutoring (27), qualitative-research (23), llm-application (11), nlp (7), a-b-testing (5), automated-feedback (3)
+**Method:** longitudinal (201), computer-assisted-learning (200), response-to-intervention (176), rct (123), meta-analysis (61), coaching (47), intelligent-tutoring (41), genai (40), qualitative-research (35), llm-application (25), nlp (19), automated-feedback (10), a-b-testing (7)
 
-**Topic:** professional-development (247), formative-assessment (236), college-access (202), sel (198), career-readiness (152), personalized-learning (102), open-datasets (101), attendance (74), inclusive-design (72), dropout-prevention (63), prekindergarten (56), writing-instruction (56), digital-learning-platforms (50), student-belonging (32), math-strategies (24), ai-policy (20), data-sharing (18), pii-privacy (11), ai-ethics (11), math-motivation (10), genai-tutoring (3), math-word-problems (2)
+**Topic:** formative-assessment (259), professional-development (252), college-access (203), sel (199), career-readiness (152), personalized-learning (113), open-datasets (101), inclusive-design (76), digital-learning-platforms (75), attendance (74), dropout-prevention (69), writing-instruction (59), prekindergarten (56), student-belonging (37), math-strategies (24), ai-ethics (24), data-sharing (23), ai-policy (21), pii-privacy (18), math-motivation (10), genai-tutoring (4), math-word-problems (2)
 
-**Affiliation:** wwc (366), lpi (338), digital-promise (259), aims (52), edtrust (31), campbell-collaboration (27), tools-competition (17), cmu-learnlab (14), lsu (13), northwestern-e4 (10), carnegie-learning (7), rppl (5), khan-academy (5), assistments (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
+**Affiliation:** wwc (366), lpi (338), digital-promise (259), aims (52), jedm (39), edtrust (31), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
 - report: 1917
-- paper: 167
+- paper: 245
 - dataset: 99
 - framework: 51
 - platform: 29
@@ -31,7 +31,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 
 ---
 
-## Entries (2317)
+## Entries (2395)
 
 ### ADL Initiative (2)
 
@@ -782,6 +782,90 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 361. [Southwest English Learner Literacy (SWELL) Partnership](https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/southwest-english-learner-literacy) | framework | english-learners, k-12, literacy, professional-development, writing-instruction
 - 362. [Providing Reading Interventions for Students in Middle School Toolkit](https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/providing-reading-interventions-for-students-in-middle-school-toolkit) | framework | k-12, literacy, professional-development, response-to-intervention
 - 363. [Leading Early Childhood Achievement and Development (LEAD) Partnership](https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/leading-early-childhood-achievement-and-development) | framework | coaching, early-childhood, k-12, prekindergarten, professional-development
+
+### Journal of Educational Data Mining (39)
+
+- 17. [The State of Educational Data Mining in 2009: A Review and Future Visions](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/8) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering, meta-analysis
+- 230. [Principled Transformers for Predictive Performance in Knowledge Tracing](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/961) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 231. [Enhancing the De-identification of Personally Identifiable Information in Educational Data](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/936) | paper | cmu-learnlab, jedm, learning-engineering, nlp, pii-privacy
+- 232. [Deep Learning vs. Bayesian Knowledge Tracing: Student Models for Interventions](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/318) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 233. [The Continuous Hint Factory - Providing Hints in Vast and Sparsely Populated Edit Distance Spaces](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/158) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 234. [dAFM: Fusing Psychometric and Connectionist Modeling for Q-matrix Refinement](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/314) | paper | assistments, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 235. [Decision Tree Modeling of Wheel-Spinning and Productive Persistence in Skill Builders](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/210) | paper | assistments, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 236. [Who's Learning? Using Demographics in EDM Research](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/404) | paper | jedm, learning-engineering, student-belonging
+- 237. [When is Deep Learning the Best Approach to Knowledge Tracing?](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/451) | paper | cmu-learnlab, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 238. [Early Detection of Students at Risk - Predicting Student Dropouts Using Administrative Student Data from German Universities](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/389) | paper | dropout-prevention, higher-ed, jedm, learning-engineering
+- 239. [Using Demographic Data as Predictor Variables: a Questionable Choice](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/619) | paper | jedm, learning-engineering, student-belonging
+- 240. [Using Auxiliary Data to Boost Precision in the Analysis of A/B Tests on an Online Educational Platform](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/646) | paper | a-b-testing, assistments, digital-learning-platforms, jedm, learning-engineering
+- 241. [Tracing Systematic Errors to Personalize Recommendations in Single Digit Multiplication and Beyond](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/382) | paper | jedm, k-12, learning-engineering, math-education, personalized-learning
+- 242. [Using a Latent Class Forest to Identify At-Risk Students in Higher Education](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/283) | paper | dropout-prevention, higher-ed, jedm, learning-engineering
+- 243. [Statistical Consequences of using Multi-armed Bandits to Conduct Adaptive Educational Experiments](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/357) | paper | a-b-testing, digital-learning-platforms, jedm, learning-engineering
+- 244. [Analyzing Student Process Data in Game-Based Assessments with Bayesian Knowledge Tracing and Dynamic Bayesian Networks](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/397) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 245. [Extending the Hint Factory for the Assistance Dilemma: A Novel, Data-driven HelpNeed Predictor for Proactive Problem-solving Help](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/450) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 246. [Adjusting the L Statistic when Self-Transitions are Excluded in Affect Dynamics](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/478) | paper | computer-assisted-learning, jedm, learning-engineering
+- 247. [Effects of Scenario-Based Assessment on Students' Writing Processes](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/443) | paper | formative-assessment, jedm, learning-engineering, writing-instruction
+- 248. [Optimizing Financial Aid Allocation to Improve Access and Affordability to Higher Education](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/609) | paper | college-access, higher-ed, jedm, learning-engineering
+- 249. [Examining Algorithmic Fairness for First-Term College Grade Prediction Models Relying on Pre-matriculation Data](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/665) | paper | higher-ed, jedm, learning-engineering, student-belonging
+- 250. [Multi-Dimensional Performance Analysis of Large Language Models for Classroom Discussion Assessment](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/831) | paper | formative-assessment, jedm, learning-engineering, llm-application, nlp
+- 251. [Investigating Demographic Features and their Connection to Performance, Predictions, and Fairness in EDM Models](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/718) | paper | jedm, learning-engineering, student-belonging
+- 252. [A Scalable, Flexible, and Interpretable Analytic Pipeline for Stealth Assessment in Complex Digital Game-Based Learning Environments](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/761) | paper | computer-assisted-learning, formative-assessment, jedm, learning-engineering, personalized-learning
+- 253. [Automated Feedback Generation for Student Project Reports: A Data-Driven Approach](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/612) | paper | automated-feedback, jedm, learning-engineering, nlp
+- 254. [Optimizing Bayesian Knowledge Tracing with Neural Network Parameter Generation](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/758) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering
+- 255. [CLST: Cold-Start Mitigation in Knowledge Tracing by Aligning a Generative Language Model as a Students' Knowledge Tracer](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/854) | paper | intelligent-tutoring, jedm, learning-engineering, llm-application
+- 256. [Developing a Feedback Taxonomy for Math: A Synergy of Perspectives through Data Mining Methods](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/858) | paper | assistments, automated-feedback, formative-assessment, jedm, learning-engineering, math-education
+- 257. [Workload Overload? Late Enrollment Leads to Course Dropout](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/826) | paper | cmu-learnlab, dropout-prevention, higher-ed, jedm, learning-engineering
+- 258. [Using LLMs to Identify Indicators of Persistence from Students' Dialogues with a Pedagogical Agent](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1007) | paper | english-learners, jedm, learning-engineering, llm-application, nlp
+- 1012. [Leveraging Interview-Informed LLMs to Model Survey Responses: Comparative Insights from AI-Generated and Human Data](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/973) | paper | genai, jedm, learning-engineering, llm-application, qualitative-research
+- 1013. [Data Plus Theory Equals Codebook: Leveraging LLMs for Human-AI Codebook Development](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1001) | paper | automated-feedback, genai, jedm, learning-engineering, llm-application, qualitative-research
+- 1014. [Automating Self-Affirmation Essay Coding: Fine-Tuned BERT Performance Comparable to Human Coders and Comparison with GPT-4](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/974) | paper | automated-feedback, jedm, learning-engineering, llm-application, nlp, student-belonging
+- 1015. [Human-AI Collaboration for Qualitative Analysis in Participatory Design: Refining the Writing Analytics Tool](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1023) | paper | genai, jedm, learning-engineering, llm-application, qualitative-research, writing-instruction
+- 1016. [Integrating Topic Modeling and LLM Prompt Engineering into a Human-driven Approach to Analyze Interview Transcripts](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1008) | paper | jedm, learning-engineering, llm-application, nlp, qualitative-research
+- 1017. [A Framework for Considering Exploration, Interpretation, and Confirmation During Data Analysis: Computationally Assisted Analysis of Teacher-Group Interactions](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1030) | paper | genai, jedm, k-12, learning-engineering, math-education, nlp
+- 1018. [Comparing Zero-Shot Large Language Model Prompting with Human Coding of Theory Concepts in Student Essays](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1034) | paper | automated-feedback, genai, higher-ed, jedm, learning-engineering, llm-application
+- 1019. [Seeing Is Solving: MLLMs, Reasoning, and Refusal in Visual Math](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1088) | paper | genai, intelligent-tutoring, jedm, learning-engineering, llm-application, math-education
+- 1020. [Large Language Models Generalize SRL Prediction to New Languages Within But Not Between Domains](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/856) | paper | cmu-learnlab, intelligent-tutoring, jedm, learning-engineering, llm-application, nlp
+
+### Journal of Learning Analytics (39)
+
+- 259. [Exploring Fairness and Explainability in LLM-Generated Support for Online Learning Discussion Forums](https://learning-analytics.info/index.php/JLA/article/view/8885) | paper | ai-ethics, digital-learning-platforms, genai, higher-ed, jla, learning-engineering, llm-application, nlp
+- 260. [Towards More Transparency in Learning Analytics: Sharing Information with University Students Increases Their Awareness of Data Collection Practices](https://learning-analytics.info/index.php/JLA/article/view/8713) | paper | ai-ethics, data-sharing, digital-learning-platforms, higher-ed, jla, pii-privacy
+- 261. [Balancing Act: Early, Fair, and Accurate Identification of At-Risk Students](https://learning-analytics.info/index.php/JLA/article/view/8761) | paper | ai-ethics, computer-assisted-learning, dropout-prevention, formative-assessment, higher-ed, jla, personalized-learning
+- 262. [Use of Learning Analytics in K–12 Mathematics Education: Systematic Scoping Review of the Impact on Teaching and Learning](https://learning-analytics.info/index.php/JLA/article/view/8299) | paper | digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, math-education, meta-analysis
+- 263. [FATE in MMLA: A Student-Centred Exploration of Fairness, Accountability, Transparency, and Ethics in Multimodal Learning Analytics](https://learning-analytics.info/index.php/JLA/article/view/8351) | paper | ai-ethics, digital-learning-platforms, higher-ed, inclusive-design, jla, learning-engineering, qualitative-research
+- 264. [Words of Wisdom: A Journey through the Realm of NLP for Learning Analytics — A Systematic Literature Review](https://learning-analytics.info/index.php/JLA/article/view/8403) | paper | automated-feedback, digital-learning-platforms, formative-assessment, jla, learning-engineering, nlp, writing-instruction
+- 265. [Student Privacy and Learning Analytics: Investigating the Application of Privacy Within a Student Success Information System in Higher Education](https://learning-analytics.info/index.php/JLA/article/view/7975) | paper | ai-ethics, data-sharing, digital-learning-platforms, higher-ed, jla, pii-privacy, qualitative-research
+- 266. [Effectiveness of a Learning Analytics Dashboard for Increasing Student Engagement Levels](https://learning-analytics.info/index.php/JLA/article/view/7935) | paper | digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, personalized-learning
+- 267. [Privacy in LA Research: Understanding the Field to Improve the Practice](https://learning-analytics.info/index.php/JLA/article/view/7751) | paper | ai-ethics, data-sharing, jla, learning-engineering, meta-analysis, pii-privacy
+- 268. [Causal Inference and Bias in Learning Analytics: A Primer on Pitfalls Using Directed Acyclic Graphs](https://learning-analytics.info/index.php/JLA/article/view/7577) | paper | ai-ethics, jla, learning-engineering, longitudinal
+- 269. [A Participatory Approach to Designing a Student-Facing Dashboard for Online and Distance Education](https://learning-analytics.info/index.php/JLA/article/view/8481) | paper | digital-learning-platforms, formative-assessment, higher-ed, inclusive-design, jla, learning-engineering, personalized-learning
+- 270. [Unveiling Accuracy-Fairness Trade-Offs: Investigating Machine Learning Models in Student Performance Prediction](https://learning-analytics.info/index.php/JLA/article/view/8543) | paper | ai-ethics, digital-learning-platforms, dropout-prevention, higher-ed, jla, learning-engineering, personalized-learning
+- 271. [The Coming but Uneven Storm: How AI Regulation Will Impact AI and Learning Analytics Research in Different Countries](https://learning-analytics.info/index.php/JLA/article/view/8495) | paper | ai-ethics, ai-policy, data-sharing, jla, learning-engineering, pii-privacy
+- 272. [Deliberative Interactions for Socially Shared Regulation in Collaborative Learning: An AI-Driven Learning Analytics Study](https://learning-analytics.info/index.php/JLA/article/view/8393) | paper | computer-assisted-learning, jla, k-12, learning-engineering, nlp, qualitative-research
+- 273. [Uncovering Engagement Profiles of Young Learners in K–8 Education through Learning Analytics](https://learning-analytics.info/index.php/JLA/article/view/8133) | paper | computer-assisted-learning, digital-learning-platforms, jla, k-12, learning-engineering, personalized-learning
+- 274. [Towards Data-Informed Teaching Practice: A Model for Integrating Analytics with Teacher Inquiry](https://learning-analytics.info/index.php/JLA/article/view/7505) | paper | digital-learning-platforms, formative-assessment, jla, learning-engineering, professional-development, qualitative-research
+- 275. [Learning Analytics Dashboard Design and Evaluation to Support Student Self-Regulation of Study Behaviour](https://learning-analytics.info/index.php/JLA/article/view/8529) | paper | digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, personalized-learning
+- 276. [Advancing Multimodal Collaboration Analytics: A Scoping Review](https://learning-analytics.info/index.php/JLA/article/view/8625) | paper | digital-learning-platforms, jla, learning-engineering, meta-analysis, qualitative-research
+- 277. [Developing a Stealth Assessment System Using a Continuous Conjunctive Model](https://learning-analytics.info/index.php/JLA/article/view/7639) | paper | computer-assisted-learning, digital-learning-platforms, formative-assessment, intelligent-tutoring, jla, k-12, math-education
+- 278. [Network Analytics to Unveil Links of Learning Strategies, Time Management, and Academic Performance in a Flipped Classroom](https://learning-analytics.info/index.php/JLA/article/view/7843) | paper | digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, longitudinal
+- 279. [The Science Student Electronic Exit Ticket (SEET) System: Visualizations to Help Teachers Notice and Reflect on Classroom Inequalities](https://learning-analytics.info/index.php/JLA/article/view/8199) | paper | ai-ethics, formative-assessment, inclusive-design, jla, k-12, learning-engineering, professional-development
+- 280. [Interpreting Predictive Learning Sequences in a College Math Course through a Self-Regulated Learning Framework](https://learning-analytics.info/index.php/JLA/article/view/8865) | paper | computer-assisted-learning, digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, longitudinal, math-education
+- 281. [The Scope of Multimodal Learning Analytics in K–8: A Systematic Review](https://learning-analytics.info/index.php/JLA/article/view/8505) | paper | ai-ethics, digital-learning-platforms, jla, k-12, learning-engineering, meta-analysis, pii-privacy
+- 282. [The Relationship between Wellbeing and Academic Achievement: A Comprehensive Cross-Sectional Analysis of System-Wide Data From 2016–2019](https://learning-analytics.info/index.php/JLA/article/view/8357) | paper | digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, longitudinal, sel
+- 283. [Learning Analytics in Schools: Is Digital Data Use Influenced by Teacher-Level or School-Level Factors?](https://learning-analytics.info/index.php/JLA/article/view/8567) | paper | digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, professional-development, qualitative-research
+- 1021. [Evaluating 21st-Century Competencies in Postsecondary Curricula with Large Language Models: Performance Benchmarking and Reasoning-Based Prompting Strategies](https://learning-analytics.info/index.php/JLA/article/view/9127) | paper | formative-assessment, genai, higher-ed, learning-engineering, llm-application
+- 1022. [Profiling Pre-service Teachers' Computational Thinking: The Role of Metacognition and Coding Experience](https://learning-analytics.info/index.php/JLA/article/view/9077) | paper | formative-assessment, higher-ed, learning-engineering, professional-development
+- 1023. [Assessing Patterns of Students' Attainment of Professional Standards in Higher Education](https://learning-analytics.info/index.php/JLA/article/view/9035) | paper | formative-assessment, higher-ed, learning-engineering, longitudinal
+- 1024. [Assessing 21st Century Competencies: A Two-Case Study on Curriculum Analytics to Inform Continuous Improvement in Higher Education](https://learning-analytics.info/index.php/JLA/article/view/9131) | paper | formative-assessment, higher-ed, learning-engineering, qualitative-research
+- 1025. [A GAI-Based Chatbot for Scaffolding Self-Regulated Learning: Insights from a Design-Based Research Approach](https://learning-analytics.info/index.php/JLA/article/view/9143) | paper | genai, genai-tutoring, higher-ed, learning-engineering, llm-application, personalized-learning
+- 1026. [Modelability as a Strategy for Improving the Generalizability and Scalability of Predictive Models](https://learning-analytics.info/index.php/JLA/article/view/9099) | paper | digital-learning-platforms, higher-ed, learning-engineering, personalized-learning
+- 1027. [Beyond Time on Task: A Novel Analytical Framework for Assessing Student Workload and Its Relationship with Learning](https://learning-analytics.info/index.php/JLA/article/view/8725) | paper | formative-assessment, higher-ed, learning-engineering, longitudinal
+- 1028. [12 Heuristics for Learning Analytics in Simulation-Based Professional Learning](https://learning-analytics.info/index.php/JLA/article/view/9141) | paper | formative-assessment, higher-ed, learning-engineering, professional-development
+- 1029. [Learning Analytics to Uncover Ethnic Bias in Educational Texts: An Ensemble Learning Approach](https://learning-analytics.info/index.php/JLA/article/view/8905) | paper | ai-ethics, digital-learning-platforms, inclusive-design, learning-engineering, nlp
+- 1030. [Human-Centred Development of Indicators for Self-Service Learning Analytics: A Transparency through Exploration Approach](https://learning-analytics.info/index.php/JLA/article/view/8921) | paper | ai-ethics, data-sharing, higher-ed, learning-engineering, pii-privacy
+- 1031. [Temporal Network Analysis of Collaborative Prototyping from a Knowledge Creation Perspective](https://learning-analytics.info/index.php/JLA/article/view/8959) | paper | higher-ed, learning-engineering, qualitative-research
+- 1032. [Function Art: Understanding the Artistic Transformation of Mathematical Functions through Learning Analytics](https://learning-analytics.info/index.php/JLA/article/view/9037) | paper | digital-learning-platforms, k-12, learning-engineering, math-education
+- 1038. [Learning Analytics for Early Identification of At-Risk Students and Feedback Intervention](https://learning-analytics.info/index.php/JLA/article/view/8735) | paper | automated-feedback, dropout-prevention, higher-ed, learning-engineering, personalized-learning
+- 1039. [Augmented Reality Enhanced Analytics for Education: A Systematic Review](https://learning-analytics.info/index.php/JLA/article/view/8447) | paper | digital-learning-platforms, higher-ed, k-12, learning-engineering, meta-analysis
 
 ### LEVI Math (7)
 

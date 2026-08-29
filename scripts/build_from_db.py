@@ -3,7 +3,9 @@
 Build all published outputs from data/hub.db.
 
 Usage (from repo root):
-    python scripts/build_from_db.py
+    python scripts/build_from_db.py            # rebuild docs/ from hub.db
+    python scripts/build_from_db.py --check    # rebuild to a temp dir and diff against docs/;
+                                               # exit 1 if docs/ is stale or entries fail validation
 
 Outputs (written to docs/):
     llms-full.txt     - full index with YAML entries + auto-generated header
@@ -13,9 +15,13 @@ Outputs (written to docs/):
     tags/{tag}.md     - per-tag files
     gem-knowledge.txt - Gemini Gem RAG corpus
 """
+import argparse
+import filecmp
 import json
 import os
+import shutil
 import sqlite3
+import tempfile
 from collections import defaultdict
 from datetime import date
 
@@ -23,8 +29,21 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 WIKI_DIR = os.path.join(REPO_ROOT, "docs")
 DB_PATH = os.path.join(REPO_ROOT, "data", "hub.db")
+TARGETS_FILE = os.path.join(REPO_ROOT, "data", "source-targets.json")
 FULL_FILE = os.path.join(WIKI_DIR, "llms-full.txt")
 TAGS_DIR = os.path.join(WIKI_DIR, "tags")
+
+# Files that build_from_db.py owns inside docs/ (everything else there is hand-written).
+GENERATED = ["llms-full.txt", "llms.txt", "data.json", "gem-knowledge.txt", "sitemap.xml"]
+MIN_DESCRIPTION_CHARS = 30
+
+
+def set_output_dir(path):
+    """Redirect every builder to `path` (used by --check)."""
+    global WIKI_DIR, FULL_FILE, TAGS_DIR
+    WIKI_DIR = path
+    FULL_FILE = os.path.join(path, "llms-full.txt")
+    TAGS_DIR = os.path.join(path, "tags")
 
 TAG_CATEGORIES = {
     "Domain": [
@@ -105,30 +124,73 @@ def load_entries():
     return entries
 
 
+def load_targets():
+    """Coverage targets: data/source-targets.json is canonical (the source_targets
+    table in hub.db is a legacy mirror used only if the file is missing)."""
+    if os.path.exists(TARGETS_FILE):
+        with open(TARGETS_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+        return [{"source_name": k, **v} for k, v in data.items() if not k.startswith("_")]
+    conn = get_db()
+    rows = [dict(r) for r in conn.execute("SELECT * FROM source_targets")]
+    conn.close()
+    return rows
+
+
 def load_coverage():
-    """Build coverage list from source_targets table."""
+    """Per-source indexed counts (from hub.db) against known totals (from source-targets.json)."""
     conn = get_db()
     indexed_counts = {}
     for row in conn.execute("SELECT source, COUNT(*) as cnt FROM entries WHERE excluded = 0 AND url_status != 'broken' GROUP BY source"):
         indexed_counts[row["source"]] = row["cnt"]
+    conn.close()
 
     coverage = []
-    for row in conn.execute("SELECT * FROM source_targets"):
+    for row in load_targets():
         source = row["source_name"]
         indexed = indexed_counts.get(source, 0)
-        known_total = row["known_total"]
+        known_total = row.get("known_total")
         pct = round(indexed / known_total * 100) if known_total else None
         coverage.append({
             "source": source,
             "indexed": indexed,
             "known_total": known_total,
             "pct": pct,
-            "priority": row["priority"],
-            "status": row["status"],
+            "priority": row.get("priority", "medium"),
+            "status": row.get("status", "active"),
         })
     coverage.sort(key=lambda x: (PRIORITY_ORDER.get(x["priority"], 1), x["pct"] if x["pct"] is not None else 999))
-    conn.close()
     return coverage
+
+
+def validate_entries(entries):
+    """Sanity checks on what is about to be published. Returns (errors, warnings)
+    as lists of strings. Errors: missing title/description, description shorter
+    than MIN_DESCRIPTION_CHARS, non-http URL, duplicate URL (case/trailing-slash
+    insensitive). Warnings: tags outside TAG_CATEGORIES."""
+    errors, warnings = [], []
+    vocab = {t for tags in TAG_CATEGORIES.values() for t in tags}
+    seen = {}
+    for e in entries:
+        num = e["num"]
+        if not (e["title"] or "").strip():
+            errors.append(f"#{num}: empty title")
+        desc = (e["desc"] or "").strip()
+        if not desc:
+            errors.append(f"#{num}: empty description")
+        elif len(desc) < MIN_DESCRIPTION_CHARS:
+            errors.append(f"#{num}: description shorter than {MIN_DESCRIPTION_CHARS} chars ({len(desc)})")
+        url = (e["url"] or "").strip()
+        if not url.startswith(("http://", "https://")):
+            errors.append(f"#{num}: URL is not http(s): {url[:60]}")
+        k = url.rstrip("/").lower()
+        if k in seen:
+            errors.append(f"#{num}: duplicate URL of #{seen[k]}: {url[:60]}")
+        seen.setdefault(k, num)
+        for t in e["tags"]:
+            if t not in vocab:
+                warnings.append(f"#{num}: tag not in vocabulary: {t}")
+    return errors, warnings
 
 
 def _tag_summary(entries):
@@ -443,16 +505,94 @@ def build_sitemap():
     print(f"[build] Written sitemap.xml ({len(pages)} URLs)")
 
 
-if __name__ == "__main__":
-    if not os.path.exists(DB_PATH):
-        print(f"[build] Error: {DB_PATH} not found.")
-        raise SystemExit(1)
-    entries = load_entries()
-    print(f"[build] Loaded {len(entries)} entries from hub.db")
+def build_all(entries):
     build_llms_full(entries)
     build_llms_txt(entries)
     build_tags(entries)
     build_json(entries)
     build_gem_knowledge(entries)
     build_sitemap()
+
+
+VOLATILE_MARKERS = ("Last updated:", "<lastmod>", '"last_updated"')
+
+
+def _stable_lines(path):
+    """File contents minus the lines that change on every build (dates)."""
+    with open(path, encoding="utf-8") as f:
+        return [ln for ln in f if not any(m in ln for m in VOLATILE_MARKERS)]
+
+
+def check_against_docs(entries):
+    """Rebuild into a temp dir and compare with docs/. Returns a list of
+    human-readable differences (empty when docs/ is current)."""
+    real_docs = WIKI_DIR
+    tmp = tempfile.mkdtemp(prefix="hub-build-check-")
+    try:
+        set_output_dir(tmp)
+        build_all(entries)
+        set_output_dir(real_docs)
+        diffs = []
+        for rel in GENERATED:
+            a, b = os.path.join(tmp, rel), os.path.join(real_docs, rel)
+            if not os.path.exists(b):
+                diffs.append(f"missing in docs/: {rel}")
+            elif _stable_lines(a) != _stable_lines(b):
+                diffs.append(f"stale: docs/{rel}")
+        tmp_tags = sorted(os.listdir(os.path.join(tmp, "tags")))
+        real_tags_dir = os.path.join(real_docs, "tags")
+        real_tags = sorted(os.listdir(real_tags_dir)) if os.path.isdir(real_tags_dir) else []
+        for name in tmp_tags:
+            b = os.path.join(real_tags_dir, name)
+            if not os.path.exists(b):
+                diffs.append(f"missing in docs/tags/: {name}")
+            elif not filecmp.cmp(os.path.join(tmp, "tags", name), b, shallow=False):
+                diffs.append(f"stale: docs/tags/{name}")
+        for name in real_tags:
+            if name not in tmp_tags:
+                diffs.append(f"orphan (tag no longer used): docs/tags/{name}")
+        return diffs
+    finally:
+        set_output_dir(real_docs)
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Build published files from hub.db")
+    parser.add_argument("--check", action="store_true",
+                        help="Validate entries and verify docs/ matches a fresh build; write nothing")
+    args = parser.parse_args()
+
+    if not os.path.exists(DB_PATH):
+        print(f"[build] Error: {DB_PATH} not found.")
+        raise SystemExit(1)
+    entries = load_entries()
+    print(f"[build] Loaded {len(entries)} entries from hub.db")
+
+    errors, warnings = validate_entries(entries)
+    for w in warnings[:20]:
+        print(f"[build] warning: {w}")
+    if len(warnings) > 20:
+        print(f"[build] ... {len(warnings) - 20} more warnings")
+    for err in errors[:50]:
+        print(f"[build] ERROR: {err}")
+    print(f"[build] Validation: {len(errors)} errors, {len(warnings)} warnings")
+
+    if args.check:
+        diffs = check_against_docs(entries)
+        for d in diffs:
+            print(f"[build] CHECK: {d}")
+        ok = not errors and not diffs
+        print("[build] Check passed: docs/ is current and entries validate." if ok
+              else f"[build] Check FAILED: {len(errors)} validation errors, {len(diffs)} stale/missing files.")
+        raise SystemExit(0 if ok else 1)
+
+    if errors:
+        print("[build] Refusing to build with validation errors. Fix the rows above (or run with --check for details).")
+        raise SystemExit(1)
+    build_all(entries)
     print("[build] Done.")
+
+
+if __name__ == "__main__":
+    main()

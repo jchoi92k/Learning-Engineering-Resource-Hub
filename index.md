@@ -19,7 +19,7 @@ The hub is a **referatory** — a curated index of evidence-based K-12, higher-e
 | Understand scope and audience | `docs/purpose.md` |
 | Add new entries from a known source | `meta/backlog-prompt.md` (run in Claude Code) |
 | Onboard a brand-new source | `meta/new-source-prompt.md` (interactive) |
-| Run the weekly all-source check | `meta/automation-prompt.md` |
+| Run the weekly all-source check | `bash scripts/update.sh` (see `meta/operator-guide.md`) |
 | Onboard a new Claude Code agent | `meta/agent-guide.md` |
 | Understand deployment surfaces | `meta/operator-guide.md` |
 | Check what's been done recently | `git log` |
@@ -58,8 +58,10 @@ repo-root/
 ### Root
 - **`README.md`** — human-facing repo description.
 - **`index.md`** — this file.
+- **`AGENTS.md`** — instructions for coding agents (setup, pipeline commands, rules); vendor-neutral.
 - **`CONTRIBUTING.md`** — how to suggest sources, report problems, and submit changes.
 - **`requirements.txt`** — Python dependencies for the pipeline in `scripts/`.
+- **`.python-version`** — Python 3.12 pin for local and CI runs.
 - **`tests/`** — pytest suite for the pipeline's pure helpers (tagging, typing, JSON-path). Run `python -m pytest tests/ -q`.
 - **`ruff.toml`** — lint config; run `ruff check scripts/ tests/`.
 - **`.gitignore`** — note: `wiki/`, `docs/legacy/`, `docs/staging/` are gitignored.
@@ -83,12 +85,13 @@ Only published output lives here — no scripts, no build tooling.
 
 All executable scripts. Run from repo root: `python scripts/{script}.py`.
 
-- **`build_from_db.py`** — builds all published outputs (llms-full.txt, llms.txt, data.json, tags/, gem-knowledge.txt) from `data/hub.db`. **Run after every data change.**
+- **`build_from_db.py`** — builds all published outputs (llms-full.txt, llms.txt, data.json, tags/, gem-knowledge.txt) from `data/hub.db`. **Run after every data change.** `--check` validates entries and verifies `docs/` matches a fresh build (for CI).
+- **`update.sh`** — weekly wrapper: scrape → process → verify new URLs → build over the automated source list; writes `docs/staging/run-summary.md`.
 - **`scrape.py`** — config-driven scraper. Reads source configs from `sources/`, outputs to `docs/staging/`.
 - **`process_staged.py`** — processes staged JSON into `data/hub.db`. Handles tagging and DB insertion.
 - **`verify_urls.py`** — domain-aware URL checker with throttling. Writes results to `data/hub.db` and `data/broken-urls.json`.
 - **`source_check.py`** — pre-flight accessibility probe for all sources.
-- **`playwright_scrape.py`** — scraper for JS-rendered sources (TNTP, Digital Promise).
+- **`playwright_scrape.py`** — legacy Playwright scraper; no current source needs it (TNTP and Digital Promise have plain configs). Optional dependency.
 - **`list_sources.py`** — utility for listing sources from hub.db.
 
 ### `sources/` — per-source scraping configs and profiles
@@ -164,7 +167,7 @@ No scripts or data files — just documentation for operators and agents.
 
 ### Weekly automated check
 
-Runs via `meta/automation-prompt.md` (cloud routine or interactive). Checks all sources for new content, stages new entries, builds, commits, and opens a PR. Results logged to `meta/automation-log.md`.
+`bash scripts/update.sh` runs scrape → process → verify (new URLs only) → build over the automated source list and writes `docs/staging/run-summary.md` (per-source table: fetched, not-in-DB, ready, backlog, inserted, pending). `--dry-run` scrapes without writing; `--sources "lpi wwc"` limits the run. Backlog items are recorded in hub.db as excluded `no_description_pending` rows so they stop reappearing as new. A cloud workflow that runs this with an LLM review step is in progress; the earlier routine prompt (`meta/automation-prompt.md`) is retired.
 
 ### URL verification
 
@@ -192,11 +195,16 @@ Domain-aware throttling (5s between same-domain requests). Results written to `d
 ```powershell
 # Rebuild all published files from hub.db
 python scripts/build_from_db.py
+python scripts/build_from_db.py --check        # validate entries + verify docs/ is current (no writes)
+
+# Weekly run over the automated source list
+bash scripts/update.sh --dry-run               # scrape only, summary to docs/staging/run-summary.md
+bash scripts/update.sh
 
 # Scrape a source
 python scripts/scrape.py {source}              # full scrape
 python scripts/scrape.py {source} --test       # test selectors
-python scripts/scrape.py {source} --diff       # show only new items
+python scripts/scrape.py {source} --no-diff    # include already-indexed items (no early-stop)
 
 # Process staged data into hub.db
 python scripts/process_staged.py {source}

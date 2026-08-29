@@ -10,8 +10,9 @@ docs/llms-full_tmp.txt
 # Staging area (temp indexing work — cleared after each merge)
 docs/staging/
 
-# Claude Code local settings
-.claude/
+# Claude Code: local settings only. Skills, agents and shared settings under
+# .claude/ are committed so cloud runs and other maintainers get the same instructions.
+.claude/settings.local.json
 
 # Firecrawl scrape outputs
 .firecrawl/

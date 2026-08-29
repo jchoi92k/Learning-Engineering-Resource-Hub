@@ -1,12 +1,20 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in evidence-for-essa.md.",
-
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in evidence-for-essa.md. orderby/order make the newest-first assumption behind early_stop explicit.",
   "request_delay": 2,
   "discovery": "api",
   "discovery_url": "https://evidenceforessa.org/wp-json/wp/v2/program",
   "api": {
-    "params": {"per_page": 100, "_fields": "id,slug,title,link,acf"},
-    "pagination": {"param": "page", "start": 1, "pages": 13},
+    "params": {
+      "per_page": 100,
+      "_fields": "id,slug,title,link,acf",
+      "orderby": "date",
+      "order": "desc"
+    },
+    "pagination": {
+      "param": "page",
+      "start": 1,
+      "pages": 13
+    },
     "json_paths": {
       "items": "",
       "title": "title/rendered",
@@ -24,11 +32,10 @@
       "programs_designed_for": "acf/programs_designed_for"
     }
   },
-
   "robots_txt": "https://evidenceforessa.org/robots.txt",
-
   "test": {
     "url": "https://evidenceforessa.org/wp-json/wp/v2/program?per_page=5&page=1&_fields=id,slug,title,link,acf",
     "expected_item_count": 5
-  }
+  },
+  "early_stop": true
 }

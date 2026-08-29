@@ -1,11 +1,12 @@
 {
-  "_comment": "LPI fact sheets listing. Human context in lpi.md.",
-
+  "_comment": "LPI fact sheets listing. Human context in lpi.md. Listing is newest-first (site default), so early_stop is declared.",
   "discovery": "pagination",
   "discovery_url": "https://learningpolicyinstitute.org/products/fact-sheets",
   "url_prefix": "https://learningpolicyinstitute.org",
-  "pagination": {"param": "page", "start": 0},
-
+  "pagination": {
+    "param": "page",
+    "start": 0
+  },
   "selectors": {
     "item": "div.node--type--product",
     "title": "h3.h3 a",
@@ -14,11 +15,10 @@
     "authors": "div.teaser__subtitle span.author",
     "date": "span.teaser__details time"
   },
-
   "robots_txt": "https://learningpolicyinstitute.org/robots.txt",
-
   "test": {
     "url": "https://learningpolicyinstitute.org/products/fact-sheets?page=0",
     "expected_item_count": 10
-  }
+  },
+  "early_stop": true
 }

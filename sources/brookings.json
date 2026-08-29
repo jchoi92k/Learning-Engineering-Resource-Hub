@@ -1,6 +1,5 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in brookings.md.",
-
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in brookings.md. No early_stop: Algolia default ranking is unverified as newest-first and hub.db coverage is sparse (23 of ~1,239), so every run scans up to the 1,000-hit cap.",
   "request_delay": 2,
   "discovery": "api",
   "discovery_url": "https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query",
@@ -14,9 +13,22 @@
       "query": "",
       "hitsPerPage": 200,
       "filters": "(post_type:article) AND (tax_ids.center_tax:24) AND (locale:en)",
-      "attributesToRetrieve": ["post_title", "permalink", "post_date_formatted", "content", "content_type", "display_authors", "primary_topic", "taxonomies"]
+      "attributesToRetrieve": [
+        "post_title",
+        "permalink",
+        "post_date_formatted",
+        "content",
+        "content_type",
+        "display_authors",
+        "primary_topic",
+        "taxonomies"
+      ]
     },
-    "pagination": {"param": "page", "start": 0, "max_results": 1000},
+    "pagination": {
+      "param": "page",
+      "start": 0,
+      "max_results": 1000
+    },
     "json_paths": {
       "items": "hits",
       "title": "post_title",
@@ -28,10 +40,12 @@
       "tags": "taxonomies/topic_tax"
     }
   },
-
   "robots_txt": "https://www.brookings.edu/robots.txt",
-  "robots_disallow": ["/?*qry", "/?*topics", "/search/"],
-
+  "robots_disallow": [
+    "/?*qry",
+    "/?*topics",
+    "/search/"
+  ],
   "test": {
     "url": "https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query",
     "expected_min_results": 100

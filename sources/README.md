@@ -20,7 +20,7 @@ When scraping produces URLs that can't be fully indexed — missing description,
 {url}\t{title}\t{reason}
 ```
 
-Backlog items have a confirmed URL and source attribution but need individual page fetches or manual review to produce a description.
+Backlog items have a confirmed URL and source attribution but need individual page fetches or manual review to produce a description. Since 2026-08-29 they also travel in the staging JSON (`backlog_items`) and `process_staged.py` records them in hub.db as excluded rows with `exclude_reason = no_description_pending`, so they count as known on the next run; a backfill flips them active by filling the description.
 
 ## Post-run sniff test
 
@@ -38,3 +38,12 @@ When fetching individual pages for descriptions:
 1. If a fetch fails (404, 403, timeout, empty content), log it and move to the next URL.
 2. If failures repeat 3 or more times consecutively, stop fetching and log the pattern — the source may be rate-limiting or blocking. Write all remaining unfetched URLs to the backlog file.
 3. Never retry a failed URL in the same run. Backlogged URLs get retried in a future session.
+
+## Config keys (`{source-slug}.json`)
+
+- `discovery`: `sitemap` | `api` | `pagination` | `single_page`, with `discovery_url` and the matching `sitemap` / `api` / `pagination` / `selectors` block.
+- `early_stop` (bool, default false): stop paginating once a page holds 3 consecutive or 5 total already-indexed URLs. **Declare it only for listings known to be newest-first** — for an API, make the sort explicit in `api.params` (Digital Promise `sort`, WordPress `orderby`/`order`, Mathematica `sortCriteria`). Without it every page up to the cap is scanned. Sparse-coverage sources should leave it off until backfilled.
+- `detail_fetch`: `{selector, attr?}` — fetch each new item's page for a description when the listing has none (CASEL, UChicago). Allowed when the listing carries no usable blurb and the number of fetches per run is bounded by early-stop or `--pages`.
+- `url_filter`: `{url, slug_prefix}` — keep only API items whose slug appears on a listing page (Campbell education-only).
+- `request_delay` (seconds, default 5; robots.txt `Crawl-delay` overrides upward), `robots_txt`, `url_prefix`, `url_template`, `url_transform`, `test` (`--test` expectations).
+

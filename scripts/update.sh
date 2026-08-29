@@ -70,19 +70,24 @@ db_max_num() {
 START_MAX="$(db_max_num)"
 echo "[update] $TODAY | ${#SOURCES[@]} sources | dry-run=$DRY_RUN | max(num) before run: $START_MAX"
 
-# Per-source results: slug|status|scraped|new|ready|backlog|inserted|range
+# Per-source results: slug|status|scraped|new|ready|backlog|inserted|pending|range
 RESULTS=()
 FAILED_SOURCES=()
 PIPELINE_FAILED=0
+TOTAL_INSERTED=0
+TOTAL_PENDING=0
 
 for src in "${SOURCES[@]}"; do
   echo
   echo "===== $src ====="
   log="$LOG_DIR/$src.log"
   status="ok"
-  scraped=0; new=0; ready=0; backlog=0; inserted=0; range="-"
+  scraped=0; new=0; ready=0; backlog=0; inserted=0; pending=0; range="-"
 
-  # --fresh: ignore any leftover progress file from an interrupted detail_fetch.
+  # Remove any stale staging file so a failed scrape can't feed last run's items
+  # to process_staged. --fresh: ignore a leftover progress file from an
+  # interrupted detail_fetch.
+  rm -f "$STAGING/$src.json"
   if "$PY" scripts/scrape.py "$src" --fresh > "$log" 2>&1; then
     scraped="$(sed -n 's/^\[scrape\] Total items extracted: \([0-9]*\).*/\1/p' "$log" | tail -1)"
     new="$(sed -n 's/^\[scrape\] Already indexed: [0-9]*, New: \([0-9]*\).*/\1/p' "$log" | tail -1)"
@@ -103,12 +108,15 @@ for src in "${SOURCES[@]}"; do
     FAILED_SOURCES+=("$src")
   fi
 
-  if [[ $DRY_RUN -eq 0 && "$ready" != "0" && -f "$STAGING/$src.json" ]]; then
+  if [[ $DRY_RUN -eq 0 && ( "$ready" != "0" || "$backlog" != "0" ) && -f "$STAGING/$src.json" ]]; then
     if "$PY" scripts/process_staged.py "$src" >> "$log" 2>&1; then
       inserted="$(sed -n 's/^\[process\] Inserted \([0-9]*\) entries (\([0-9-]*\)).*/\1/p' "$log" | tail -1)"
       range="$(sed -n 's/^\[process\] Inserted \([0-9]*\) entries (\([0-9-]*\)).*/\2/p' "$log" | tail -1)"
-      inserted="${inserted:-0}"; range="${range:--}"
-      echo "  [process] inserted $inserted ($range)"
+      pending="$(sed -n 's/^\[process\] Backlog: \([0-9]*\) pending rows.*/\1/p' "$log" | tail -1)"
+      inserted="${inserted:-0}"; range="${range:--}"; pending="${pending:-0}"
+      TOTAL_INSERTED=$(( TOTAL_INSERTED + inserted ))
+      TOTAL_PENDING=$(( TOTAL_PENDING + pending ))
+      echo "  [process] inserted $inserted ($range), pending backlog rows $pending"
     else
       status="process_staged failed"
       PIPELINE_FAILED=1
@@ -116,11 +124,10 @@ for src in "${SOURCES[@]}"; do
     fi
   fi
 
-  RESULTS+=("$src|$status|$scraped|$new|$ready|$backlog|$inserted|$range")
+  RESULTS+=("$src|$status|$scraped|$new|$ready|$backlog|$inserted|$pending|$range")
 done
 
 END_MAX="$(db_max_num)"
-TOTAL_INSERTED=$(( END_MAX - START_MAX ))
 
 # ── Verify only the rows added in this run ──
 VERIFY_LINE="skipped"
@@ -174,19 +181,17 @@ fi
   echo "## Weekly update — $TODAY"
   echo
   if [[ $DRY_RUN -eq 1 ]]; then echo "_Dry run: scrape only, nothing written to hub.db._"; echo; fi
-  if [[ $TOTAL_INSERTED -gt 0 ]]; then
-    echo "**New entries:** $TOTAL_INSERTED (num $((START_MAX + 1))–$END_MAX)"
-  else
-    echo "**New entries:** 0"
-  fi
+  echo "**New entries:** $TOTAL_INSERTED"
+  echo "**Backlog rows recorded as pending (excluded, not published):** $TOTAL_PENDING"
+  if [[ $END_MAX -gt $START_MAX ]]; then echo "**Rows added:** num $((START_MAX + 1))–$END_MAX"; fi
   echo "**URL verification (new rows only):** $VERIFY_LINE"
   echo "**Build:** $BUILD_LINE"
   echo
-  echo "| Source | Status | Listed | New | Ready | Backlog | Inserted | Nums |"
-  echo "|---|---|---|---|---|---|---|---|"
+  echo "| Source | Status | Fetched | Not in DB | Ready | Backlog | Inserted | Pending | Nums |"
+  echo "|---|---|---|---|---|---|---|---|---|"
   for r in "${RESULTS[@]}"; do
-    IFS='|' read -r s st sc nw rd bl ins rg <<< "$r"
-    echo "| $s | $st | $sc | $nw | $rd | $bl | $ins | $rg |"
+    IFS='|' read -r s st sc nw rd bl ins pd rg <<< "$r"
+    echo "| $s | $st | $sc | $nw | $rd | $bl | $ins | $pd | $rg |"
   done
   if [[ ${#FAILED_SOURCES[@]} -gt 0 ]]; then
     echo

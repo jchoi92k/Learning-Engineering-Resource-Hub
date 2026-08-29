@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 from scrape import clean_text, diff_items, early_stop_hit, resolve_json_path, split_by_blurb, strip_html
-from process_staged import infer_tags, infer_type
+from process_staged import infer_tags, infer_type, insert_backlog_rows
 
 
 # ── resolve_json_path ──
@@ -51,7 +51,8 @@ def test_json_path_wildcard_on_non_list():
 # ── strip_html ──
 
 def test_strip_html_tags():
-    assert strip_html("<p>Hello <b>world</b></p>") == "Hello world"
+    # strip_html leaves a space per tag; clean_text collapses them
+    assert clean_text(strip_html("<p>Hello <b>world</b></p>")) == "Hello world"
 
 
 def test_strip_html_empty():
@@ -203,6 +204,7 @@ def test_scrape_pagination_stops_early_and_respects_hard_cap(monkeypatch):
         "url_prefix": "https://a.org",
         "pagination": {"param": "page", "start": 1},
         "selectors": {"item": "div.c", "title": "a.t", "url": "a.t", "blurb": "p.b"},
+        "early_stop": True,
     }
     existing = {f"https://a.org/p{n}-{i}" for n in (2, 3, 4, 5) for i in range(1, 5)}
 
@@ -218,6 +220,44 @@ def test_scrape_pagination_stops_early_and_respects_hard_cap(monkeypatch):
     existing_none = scrape.scrape_pagination(config, max_pages=3, existing_urls=None)
     assert len(fetched) == 3 and len(existing_none) == 12, "no early-stop when diff disabled"
 
+    fetched.clear()
+    undeclared = {k: v for k, v in config.items() if k != "early_stop"}
+    scrape.scrape_pagination(undeclared, max_pages=3, existing_urls=existing)
+    assert len(fetched) == 3, "no early-stop unless the config declares early_stop: true"
+
+
+def test_early_stop_requires_config_flag_in_api_path(monkeypatch):
+    """scrape_api must scan every page when the config lacks early_stop, even
+    if every item on page 0 is already indexed (Digital Promise regression)."""
+    import scrape
+
+    calls = []
+
+    class Resp:
+        def __init__(self, page):
+            self.page = page
+
+        def json(self):
+            return {"items": [{"t": f"T{self.page}{i}", "u": f"https://a.org/{self.page}-{i}"} for i in range(3)]}
+
+    def fake_fetch(url, **kw):
+        calls.append(kw["params"]["page"])
+        return Resp(kw["params"]["page"])
+
+    monkeypatch.setattr(scrape, "fetch", fake_fetch)
+    config = {
+        "discovery_url": "https://a.org/api",
+        "api": {"params": {}, "pagination": {"param": "page", "start": 0, "pages": 3},
+                "json_paths": {"items": "items", "title": "t", "url": "u"}},
+    }
+    existing = {f"https://a.org/{p}-{i}" for p in range(3) for i in range(3)}
+    scrape.scrape_api(config, existing_urls=existing)
+    assert calls == [0, 1, 2], "all three pages fetched without the flag"
+
+    calls.clear()
+    scrape.scrape_api({**config, "early_stop": True}, existing_urls=existing)
+    assert calls == [0], "early-stop after page 0 once declared"
+
 
 # ── clean_text ──
 
@@ -230,3 +270,70 @@ def test_clean_text_handles_empty_and_non_str():
     assert clean_text("") == ""
     assert clean_text(None) == ""
     assert clean_text(42) == "42"
+
+
+# ── text extraction: word boundaries, entities, invisible characters (H7) ──
+
+def test_strip_html_keeps_word_boundaries():
+    assert strip_html("<p>Ends here.</p><p>Next</p>") == "Ends here.  Next"
+    assert clean_text(strip_html("<p>Ends here.</p><p>Next</p>")) == "Ends here. Next"
+    assert clean_text(strip_html("<em>ThinkerTools</em>is a program")) == "ThinkerTools is a program"
+
+
+def test_clean_text_tightens_symbols_and_punctuation():
+    # what get_text(" ") produces for "Composition<sup>®</sup> (CIRC<sup>®</sup>)"
+    assert clean_text("Composition \u00ae (CIRC \u00ae ) is") == "Composition\u00ae (CIRC\u00ae) is"
+    assert clean_text("Packs \u2122 \u2013 Family ( Reading ) .") == "Packs\u2122 \u2013 Family (Reading)."
+    assert clean_text("a , b ; c ?") == "a, b; c?"
+
+
+def test_clean_text_decodes_entities_and_drops_invisible_chars():
+    assert clean_text("Cognitive Tutor&reg; Algebra &amp; more &#8217;s") == "Cognitive Tutor® Algebra & more ’s"
+    assert clean_text("zero​width soft­hyphen") == "zerowidth softhyphen"
+
+
+def test_extract_cards_keeps_space_between_inline_elements():
+    from bs4 import BeautifulSoup
+    from scrape import extract_cards
+    html_doc = ('<div class="c"><a class="t" href="/x"><em>Project SEED</em>is</a>'
+                '<p class="b"><em>ThinkerTools</em>is a computer-based program. It has <b>two</b>parts.</p></div>')
+    soup = BeautifulSoup(html_doc, "html.parser")
+    config = {"selectors": {"item": "div.c", "title": "a.t", "url": "a.t", "blurb": "p.b"}}
+    [item] = extract_cards(soup, config)
+    assert item["title"] == "Project SEED is"
+    assert item["blurb"] == "ThinkerTools is a computer-based program. It has two parts."
+
+
+# ── backlog rows (pending, excluded) ──
+
+ENTRIES_DDL = """
+CREATE TABLE entries (
+    num INTEGER PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, type TEXT NOT NULL,
+    source TEXT NOT NULL, url_confirmed INTEGER NOT NULL DEFAULT 1,
+    description_inferred INTEGER NOT NULL DEFAULT 0, date_added TEXT NOT NULL, doi TEXT,
+    license TEXT, description TEXT NOT NULL DEFAULT '', url_status TEXT NOT NULL DEFAULT 'unverified',
+    url_http_status TEXT, last_verified TEXT, excluded INTEGER NOT NULL DEFAULT 0,
+    exclude_reason TEXT, created_at TEXT NOT NULL DEFAULT '', updated_at TEXT NOT NULL DEFAULT ''
+);
+"""
+
+
+def test_insert_backlog_rows_marks_pending_and_dedupes():
+    import sqlite3
+    conn = sqlite3.connect(":memory:")
+    conn.executescript(ENTRIES_DDL)
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added) "
+                 "VALUES (1, 'Known', 'https://x.org/known', 'report', 'S', '2026-01-01')")
+    backlog = [
+        {"url": "https://x.org/known", "title": "already in db"},
+        {"url": "https://x.org/new", "title": "", "type": "Brief"},
+        {"url": "https://x.org/new", "title": "repeat in batch"},
+        {"url": "", "title": "no url"},
+    ]
+    n, last = insert_backlog_rows(conn, backlog, "S", 2)
+    assert (n, last) == (1, 2)
+    row = conn.execute("SELECT title, type, excluded, exclude_reason, description, url_confirmed "
+                       "FROM entries WHERE num = 2").fetchone()
+    assert row == ("https://x.org/new", "report", 1, "no_description_pending", "", 0)
+    assert conn.execute("SELECT COUNT(*) FROM entries").fetchone()[0] == 2
+

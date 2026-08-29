@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub
 # 2395 curated evidence-based K-12 and higher education resources.
-# Last updated: 2026-08-28
+# Last updated: 2026-08-29
 
 ## Tag Directory
 
@@ -7448,7 +7448,7 @@ Type: report | Source: Digital Promise
 Tags: digital-promise, personalized-learning
 URL: https://digitalpromise.dspacedirect.org/items/51dec9b9-913c-4bf8-8810-2b6601d224d8
 
-If you search online for what personalized learning is, you’ll find dozens of definitions.This lack of a common language to describe an emerging idea can hamper understanding, acceptance, and effective implementation. Compounding this are the several terms for personalized learning approaches that are, at times, used interchangeably, including individualized, differentiated, and adaptive. Yet, as personalized learning as an approach for meeting the varying needs of an increasingly diverse learner population has gained traction in the education community, definitions are emerging with more similarities than diferences.
+If you search online for what personalized learning is, you’ll find dozens of definitions. This lack of a common language to describe an emerging idea can hamper understanding, acceptance, and effective implementation. Compounding this are the several terms for personalized learning approaches that are, at times, used interchangeably, including individualized, differentiated, and adaptive. Yet, as personalized learning as an approach for meeting the varying needs of an increasingly diverse learner population has gained traction in the education community, definitions are emerging with more similarities than diferences.
 
 ---
 
@@ -11778,7 +11778,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: english-learners, k-12, literacy, response-to-intervention, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/363
 
-Peer Tutoring and Response Groupsaims to improve the language and achievement of English learners by pairing or grouping students to work on a task. The students may be grouped by age or ability, or the groups may be mixed. Peer tutoring typically consists of two students assuming the roles of tutor and tutee, or “coach and player” roles. Peer response groups give four or five students shared responsibility for a task, such as editing a passage or reading and answering comprehension questions. Both peer tutoring pairs and peer response groups emphasize peer interaction and discussion to complete a task.
+Peer Tutoring and Response Groups aims to improve the language and achievement of English learners by pairing or grouping students to work on a task. The students may be grouped by age or ability, or the groups may be mixed. Peer tutoring typically consists of two students assuming the roles of tutor and tutee, or “coach and player” roles. Peer response groups give four or five students shared responsibility for a task, such as editing a passage or reading and answering comprehension questions. Both peer tutoring pairs and peer response groups emphasize peer interaction and discussion to complete a task.
 
 ---
 
@@ -11788,7 +11788,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, literacy, response-to-intervention, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/483
 
-Start Making a Reader Today® (SMART®)is a volunteer tutoring program for students in grades K–2 who are at risk of reading failure. The program is designed to be a low-cost, easy-to-implement intervention. Volunteer tutors go into schools where at least 40% of students are eligible for free or reduced-price lunch and read one-on-one with students twice a week for 30 minutes. Typically, one volunteer works with two students on four types of activities: reading to the student, reading with the student, re-reading with the student, and asking the student questions about what has been read. The program also gives each student two new books a month to encourage families to read together.
+Start Making a Reader Today® (SMART®) is a volunteer tutoring program for students in grades K–2 who are at risk of reading failure. The program is designed to be a low-cost, easy-to-implement intervention. Volunteer tutors go into schools where at least 40% of students are eligible for free or reduced-price lunch and read one-on-one with students twice a week for 30 minutes. Typically, one volunteer works with two students on four types of activities: reading to the student, reading with the student, re-reading with the student, and asking the student questions about what has been read. The program also gives each student two new books a month to encourage families to read together.
 
 ---
 
@@ -11798,7 +11798,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: formative-assessment, k-12, literacy, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/184
 
-Fluency Formula™is a supplemental curriculum designed to promote reading fluency in grades 1–6. The program emphasizes automatic recognition of words, decoding accuracy, and oral expressiveness as the foundations for building reading fluency. A daily 10- to 15-minute lesson is delivered in the classroom. Students participate in whole-class, small-group, and individual practice activities using workbooks, read-aloud anthologies, library books, fluency activity cards, and audio CDs. The curriculum encourages at-home practice and includes aFluency Formula™ Assessment System, which allows teachers to assess student fluency using 1-minute grade-level passages and a timer.
+Fluency Formula™ is a supplemental curriculum designed to promote reading fluency in grades 1–6. The program emphasizes automatic recognition of words, decoding accuracy, and oral expressiveness as the foundations for building reading fluency. A daily 10- to 15-minute lesson is delivered in the classroom. Students participate in whole-class, small-group, and individual practice activities using workbooks, read-aloud anthologies, library books, fluency activity cards, and audio CDs. The curriculum encourages at-home practice and includes a Fluency Formula™ Assessment System, which allows teachers to assess student fluency using 1-minute grade-level passages and a timer.
 
 ---
 
@@ -11808,7 +11808,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, formative-assessment, k-12, literacy, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/484
 
-Stepping Stones to Literacy (SSL)is a supplemental curriculum designed to promote listening, print conventions, phonological awareness, phonemic awareness, and serial processing/rapid naming (quickly naming familiar visual symbols and stimuli, such as letters or colors). The program targets older preschool and kindergarten students who are considered to be underachieving readers, based on teacher’s recommendations, assessments, and systematic screening. Students participate in 10- to 20-minute daily lessons in a small group or individually. The curriculum consists of 25 lessons, for a total of 9–15 hours of instructional time.
+Stepping Stones to Literacy (SSL) is a supplemental curriculum designed to promote listening, print conventions, phonological awareness, phonemic awareness, and serial processing/rapid naming (quickly naming familiar visual symbols and stimuli, such as letters or colors). The program targets older preschool and kindergarten students who are considered to be underachieving readers, based on teacher’s recommendations, assessments, and systematic screening. Students participate in 10- to 20-minute daily lessons in a small group or individually. The curriculum consists of 25 lessons, for a total of 9–15 hours of instructional time.
 
 ---
 
@@ -11818,7 +11818,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, k-12, literacy, writing-instruction, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/413
 
-Read, Write & Type!™ Learning Systemis a software program with supporting materials designed to teach beginning reading skills by emphasizing writing as a way to learn to read. The program was developed for students ages 6–9 years who are just beginning to read, and for students who are struggling readers and writers. The main goal ofRead, Write & Type!™is to help students develop an awareness of the 40 English phonemes and the ability to associate each phoneme with a letter or a combination of letters and a finger stroke on the keyboard. Other goals of the program include identifying phonemes in words; and fluency in sounding out, typing, and reading regularly spelled words.
+Read, Write & Type!™ Learning System is a software program with supporting materials designed to teach beginning reading skills by emphasizing writing as a way to learn to read. The program was developed for students ages 6–9 years who are just beginning to read, and for students who are struggling readers and writers. The main goal of Read, Write & Type!™ is to help students develop an awareness of the 40 English phonemes and the ability to associate each phoneme with a letter or a combination of letters and a finger stroke on the keyboard. Other goals of the program include identifying phonemes in words; and fluency in sounding out, typing, and reading regularly spelled words.
 
 ---
 
@@ -11828,7 +11828,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/61
 
-Building Decision Skillsaims to raise middle and high school students’ awareness of ethics, help them gain experience developing core values, and give them strategies for dealing with ethical dilemmas.Building Decision Skillsconsists of 10 lessons that can fill 2 consecutive weeks of daily lessons or be drawn out over a longer period. Using readings, handouts, and overheads, the teacher covers key concepts. Students are encouraged to think about the key concepts through small-group activities, class discussions, and homework assignments. The program also includes schoolwide components such as group discussions, seminars, and assemblies, and can be combined with service learning.
+Building Decision Skills aims to raise middle and high school students’ awareness of ethics, help them gain experience developing core values, and give them strategies for dealing with ethical dilemmas. Building Decision Skills consists of 10 lessons that can fill 2 consecutive weeks of daily lessons or be drawn out over a longer period. Using readings, handouts, and overheads, the teacher covers key concepts. Students are encouraged to think about the key concepts through small-group activities, class discussions, and homework assignments. The program also includes schoolwide components such as group discussions, seminars, and assemblies, and can be combined with service learning.
 
 ---
 
@@ -11838,7 +11838,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/72
 
-Caring School Community™ (CSC) is a modified version of a program formerly known as theChild Development Project.CSCis a multiyear school improvement program that involves all students in grades K–6. The program aims to promote core values, prosocial behavior, and a schoolwide feeling of community. The program consists of four elements originally developed for theChild Development Project: class meeting lessons, cross-age “buddies” programs, “homeside” activities, and schoolwide community. Class lessons provide teachers and students with a forum to get to know one another, discuss issues, identify and solve problems collaboratively, and make a range of decisions that affect classroom life. Cross-age buddies activities pair whole classes of older and younger students for academic and recreational activities that build caring cross-age relationships and create a schoolwide climate of trust. Homeside activities include short conversational activities that are sent home with students for them to do with parents or caregivers and then to discuss back in their classroom. The activities incorporate the families’ perspectives, cultures, and traditions, thereby promoting interpersonal understanding. Schoolwide community-building activities bring students, parents, and school staff together to create new school traditions.
+Caring School Community™ (CSC) is a modified version of a program formerly known as the Child Development Project. CSC is a multiyear school improvement program that involves all students in grades K–6. The program aims to promote core values, prosocial behavior, and a schoolwide feeling of community. The program consists of four elements originally developed for the Child Development Project: class meeting lessons, cross-age “buddies” programs, “homeside” activities, and schoolwide community. Class lessons provide teachers and students with a forum to get to know one another, discuss issues, identify and solve problems collaboratively, and make a range of decisions that affect classroom life. Cross-age buddies activities pair whole classes of older and younger students for academic and recreational activities that build caring cross-age relationships and create a schoolwide climate of trust. Homeside activities include short conversational activities that are sent home with students for them to do with parents or caregivers and then to discuss back in their classroom. The activities incorporate the families’ perspectives, cultures, and traditions, thereby promoting interpersonal understanding. Schoolwide community-building activities bring students, parents, and school staff together to create new school traditions.
 
 ---
 
@@ -11848,7 +11848,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, literacy, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/290
 
-TheLittle Booksare a set of books designed for interactive book reading between parents and children or between teachers and students. The books use thematic topics familiar to children. They are written with high-frequency words and use simple phrases and sentences. The books also have strong links between illustrations and text.
+The Little Books are a set of books designed for interactive book reading between parents and children or between teachers and students. The books use thematic topics familiar to children. They are written with high-frequency words and use simple phrases and sentences. The books also have strong links between illustrations and text.
 
 ---
 
@@ -11858,7 +11858,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: dropout-prevention, k-12, literacy, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/217
 
-High School Redirectionis an alternative high school program for youth considered at risk of dropping out. The program emphasizes basic skills development (with a particular focus on reading skills) and offers limited extra-curricular activities. The schools operate in economically disadvantaged areas and serve students who have dropped out in the past, who are teen parents, who have poor test scores, or who are over-age for their grade. To foster a sense of community, the schools are small, and teachers are encouraged to act as mentors as well as instructors.
+High School Redirection is an alternative high school program for youth considered at risk of dropping out. The program emphasizes basic skills development (with a particular focus on reading skills) and offers limited extra-curricular activities. The schools operate in economically disadvantaged areas and serve students who have dropped out in the past, who are teen parents, who have poor test scores, or who are over-age for their grade. To foster a sense of community, the schools are small, and teachers are encouraged to act as mentors as well as instructors.
 
 ---
 
@@ -11878,7 +11878,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: college-access, dropout-prevention, k-12, professional-development, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/527
 
-Twelve Togetheris a 1-year peer support and mentoring program for middle and early high school students that offers weekly after-school discussion groups led by trained volunteer adult facilitators. Each peer discussion group consists of about 12 participants who are a mix of students at high- and low-risk of academic failure. Group discussions are based on topics of student interest, usually focusing on personal, family, and social issues. The program also offers homework assistance, trips to college campuses, and an annual weekend retreat.
+Twelve Together is a 1-year peer support and mentoring program for middle and early high school students that offers weekly after-school discussion groups led by trained volunteer adult facilitators. Each peer discussion group consists of about 12 participants who are a mix of students at high- and low-risk of academic failure. Group discussions are based on topics of student interest, usually focusing on personal, family, and social issues. The program also offers homework assistance, trips to college campuses, and an annual weekend retreat.
 
 ---
 
@@ -11898,7 +11898,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: english-learners, k-12, literacy, response-to-intervention, writing-instruction, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/47
 
-TheBilingual Cooperative Integrated Reading and Composition (BCIRC)program, an adaptation of theCooperative Integrated Reading and Composition (CIRC)program, was designed to help Spanish-speaking students succeed in reading Spanish and then making a successful transition to English reading. In the adaptation, students complete tasks that focus on reading, writing, and language activities in Spanish and English, while working in small cooperative learning groups. The intervention focuses on students in grades 2–5.
+The Bilingual Cooperative Integrated Reading and Composition (BCIRC) program, an adaptation of the Cooperative Integrated Reading and Composition (CIRC) program, was designed to help Spanish-speaking students succeed in reading Spanish and then making a successful transition to English reading. In the adaptation, students complete tasks that focus on reading, writing, and language activities in Spanish and English, while working in small cooperative learning groups. The intervention focuses on students in grades 2–5.
 
 ---
 
@@ -11908,7 +11908,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: career-readiness, college-access, dropout-prevention, k-12, response-to-intervention, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/508
 
-Talent Searchaims to help low-income and first-generation college students (those whose parents do not have 4-year college degrees) complete high school and gain access to college through a combination of services designed to improve academic achievement and increase access to financial aid. Services include test taking and study skills assistance, academic advising, tutoring, career development, college campus visits, and financial aid application assistance.
+Talent Search aims to help low-income and first-generation college students (those whose parents do not have 4-year college degrees) complete high school and gain access to college through a combination of services designed to improve academic achievement and increase access to financial aid. Services include test taking and study skills assistance, academic advising, tutoring, career development, college campus visits, and financial aid application assistance.
 
 ---
 
@@ -11928,7 +11928,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, literacy, prekindergarten, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/374
 
-Phonological Awareness Trainingis a general practice aimed at enhancing young children’s phonological awareness abilities. Phonological awareness refers to the ability to detect or manipulate the sounds in words independent of meaning and is considered a precursor to reading.Phonological Awareness Trainingcan involve various training activities that focus on teaching children to identify, detect, delete, segment, or blend segments of spoken words (i.e., words, syllables, onsets and rimes, phonemes) or that focus on teaching children to detect, identify, or produce rhyme or alliteration.
+Phonological Awareness Training is a general practice aimed at enhancing young children’s phonological awareness abilities. Phonological awareness refers to the ability to detect or manipulate the sounds in words independent of meaning and is considered a precursor to reading. Phonological Awareness Training can involve various training activities that focus on teaching children to identify, detect, delete, segment, or blend segments of spoken words (i.e., words, syllables, onsets and rimes, phonemes) or that focus on teaching children to detect, identify, or produce rhyme or alliteration.
 
 ---
 
@@ -11938,7 +11938,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, literacy, prekindergarten, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/376
 
-Phonological Awareness Training plus Letter Knowledge Trainingis a general practice aimed at enhancing young children’s phonological awareness, print awareness, and early reading abilities. Phonological awareness, the ability to detect or manipulate the sounds in words independent of meaning, is considered to be a precursor to reading. Phonological awareness training (without letter knowledge training) can involve various training activities that focus on teaching children to identify, detect, delete, segment, or blend segments of spoken words (i.e., words, syllables, onsets and rimes, phonemes) or that focus on teaching children to detect, identify, or produce rhyme or alliteration. The added letter knowledge training component includes teaching children the letters of the alphabet and making an explicit link between letters and sounds.
+Phonological Awareness Training plus Letter Knowledge Training is a general practice aimed at enhancing young children’s phonological awareness, print awareness, and early reading abilities. Phonological awareness, the ability to detect or manipulate the sounds in words independent of meaning, is considered to be a precursor to reading. Phonological awareness training (without letter knowledge training) can involve various training activities that focus on teaching children to identify, detect, delete, segment, or blend segments of spoken words (i.e., words, syllables, onsets and rimes, phonemes) or that focus on teaching children to detect, identify, or produce rhyme or alliteration. The added letter knowledge training component includes teaching children the letters of the alphabet and making an explicit link between letters and sounds.
 
 ---
 
@@ -11948,7 +11948,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, k-12, math-education, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/513
 
-The Expert Mathematicianis designed to help middle school students develop the thinking processes for mathematical applications and communication. A 3-year program of instruction,The Expert Mathematicianuses a software and print materials package with 196 lessons that teach theLogoprogramming language. Each lesson ranges from 40–120 minutes. A test of unit concepts is administered at the end of each instructional unit. The curriculum covers general mathematics, pre-algebra, and algebra I.
+The Expert Mathematician is designed to help middle school students develop the thinking processes for mathematical applications and communication. A 3-year program of instruction, The Expert Mathematician uses a software and print materials package with 196 lessons that teach the Logo programming language. Each lesson ranges from 40–120 minutes. A test of unit concepts is administered at the end of each instructional unit. The curriculum covers general mathematics, pre-algebra, and algebra I.
 
 ---
 
@@ -11958,7 +11958,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: english-learners, k-12, literacy, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/533
 
-TheVocabulary Improvement Program for English Language Learners and Their Classmates (VIP)is a vocabulary development curriculum for English language learners and native English speakers in grades 4–6. The 15-week program includes 30–45 minute whole class and small group activities that aim to increase students’ understanding of target vocabulary words included in a weekly reading assignment.
+The Vocabulary Improvement Program for English Language Learners and Their Classmates (VIP) is a vocabulary development curriculum for English language learners and native English speakers in grades 4–6. The 15-week program includes 30–45 minute whole class and small group activities that aim to increase students’ understanding of target vocabulary words included in a weekly reading assignment.
 
 ---
 
@@ -11968,7 +11968,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: english-learners, k-12, literacy, writing-instruction, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/236
 
-The goal ofInstructional Conversationsis to help English learners develop reading comprehension ability along with English language proficiency. Acting as facilitators, teachers engage students in discussions about stories, key concepts, and related personal experiences, allowing students to appreciate and build on each others’ experiences, knowledge, and understanding.Literature Logsrequire students to respond in writing to prompts or questions related to sections of stories. These responses are then shared in small groups or with a partner.
+The goal of Instructional Conversations is to help English learners develop reading comprehension ability along with English language proficiency. Acting as facilitators, teachers engage students in discussions about stories, key concepts, and related personal experiences, allowing students to appreciate and build on each others’ experiences, knowledge, and understanding. Literature Logs require students to respond in writing to prompts or questions related to sections of stories. These responses are then shared in small groups or with a partner.
 
 ---
 
@@ -11978,7 +11978,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/518
 
-Too Good for Violencepromotes character values, social-emotional skills, and healthy beliefs in elementary and middle school students. The program includes seven lessons per grade level for elementary school (K–5) and nine lessons per grade level for middle school (6–8). All lessons are scripted and engage students through role-playing and cooperative learning games, small group activities, and classroom discussions. Students are encouraged to apply these skills to different contexts.Too Good for Violencealso includes optional parental and community involvement elements.
+Too Good for Violence promotes character values, social-emotional skills, and healthy beliefs in elementary and middle school students. The program includes seven lessons per grade level for elementary school (K–5) and nine lessons per grade level for middle school (6–8). All lessons are scripted and engage students through role-playing and cooperative learning games, small group activities, and classroom discussions. Students are encouraged to apply these skills to different contexts. Too Good for Violence also includes optional parental and community involvement elements.
 
 ---
 
@@ -11998,7 +11998,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, professional-development, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/169
 
-Facing History and Ourselvesaims to promote core character education values and to help middle and high school students develop moral reasoning skills. Students examine historical events; in particular, the events that led to World War II and the Holocaust. Teachers participate in professional development seminars and apply the content and approaches to their own teaching or school program.Facing History and Ourselvesalso includes optional schoolwide components (such as guest speakers and videos).
+Facing History and Ourselves aims to promote core character education values and to help middle and high school students develop moral reasoning skills. Students examine historical events; in particular, the events that led to World War II and the Holocaust. Teachers participate in professional development seminars and apply the content and approaches to their own teaching or school program. Facing History and Ourselves also includes optional schoolwide components (such as guest speakers and videos).
 
 ---
 
@@ -12008,7 +12008,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, writing-instruction, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/270
 
-Lessons in Characteris designed to promote elementary and middle school students’ knowledge about core character education values and, through that knowledge, shape children’s positive behaviors and support academic success. It consists of 24 lessons organized around weekly themes, writing activities, and class projects. Teachers introduce the theme with a story that shows a value in action; students then engage that topic with a variety of activities. The program also includes daily oral language development and weekly writing assignments, optional parts of the program’s implementation.
+Lessons in Character is designed to promote elementary and middle school students’ knowledge about core character education values and, through that knowledge, shape children’s positive behaviors and support academic success. It consists of 24 lessons organized around weekly themes, writing activities, and class projects. Teachers introduce the theme with a story that shows a value in action; students then engage that topic with a variety of activities. The program also includes daily oral language development and weekly writing assignments, optional parts of the program’s implementation.
 
 ---
 
@@ -12018,7 +12018,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/517
 
-Too Good for Drugs™ is designed to promote elementary and middle school students’ life skills, character values, resistance skills to negative peer influence, and resistance to the use of illegal drugs, alcohol, and tobacco. The program is based on classroom discussions and structured activities that center on interactive learning and skill-building exercises. Students engage in role-play and cooperative learning games and are encouraged to apply the skills to different contexts.Too Good for Drugs™ also includes the optional elements of parental and community involvement.
+Too Good for Drugs™ is designed to promote elementary and middle school students’ life skills, character values, resistance skills to negative peer influence, and resistance to the use of illegal drugs, alcohol, and tobacco. The program is based on classroom discussions and structured activities that center on interactive learning and skill-building exercises. Students engage in role-play and cooperative learning games and are encouraged to apply the skills to different contexts. Too Good for Drugs™ also includes the optional elements of parental and community involvement.
 
 ---
 
@@ -12028,7 +12028,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, early-childhood, literacy, prekindergarten, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/130
 
-DaisyQuestis a software bundle that offers computer-assisted instruction in phonological awareness, targeting children 3–7 years old (or preschool to grade 2). The instructional activities, framed in a fairy tale involving a search for a friendly dragon named Daisy, teach children how to recognize words that rhyme; words that have the same beginning, middle, and ending sounds; and words that can be formed from a series of phonemes presented separately. Activities also teach children how to count the number of sounds in words.
+DaisyQuest is a software bundle that offers computer-assisted instruction in phonological awareness, targeting children 3–7 years old (or preschool to grade 2). The instructional activities, framed in a fairy tale involving a search for a friendly dragon named Daisy, teach children how to recognize words that rhyme; words that have the same beginning, middle, and ending sounds; and words that can be formed from a series of phonemes presented separately. Activities also teach children how to count the number of sounds in words.
 
 ---
 
@@ -12038,7 +12038,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/516
 
-Too Good for Drugs and Violenceis designed to promote high school students’ pro-social skills, positive character traits, and violence- and drug-free norms. The curriculum consists of 14 core lessons, as well as an additional 12 lessons that can be infused into other subject areas (such as English, science, and social studies). Teachers participate in 10 staff development lessons. The program includes optional elements of family and community involvement.
+Too Good for Drugs and Violence is designed to promote high school students’ pro-social skills, positive character traits, and violence- and drug-free norms. The curriculum consists of 14 core lessons, as well as an additional 12 lessons that can be infused into other subject areas (such as English, science, and social studies). Teachers participate in 10 staff development lessons. The program includes optional elements of family and community involvement.
 
 ---
 
@@ -12062,7 +12062,7 @@ Reading Mastery is designed to provide systematic reading instruction to student
 
 ---
 
-### 1216. National Institute for School Leadership (NISL) (School Leadership Review Protocol )
+### 1216. National Institute for School Leadership (NISL) (School Leadership Review Protocol)
 
 Type: report | Source: What Works Clearinghouse
 Tags: math-education, professional-development, wwc
@@ -12102,7 +12102,7 @@ Accelerated Math®, published by Renaissance Learning, is a software tool that p
 
 ---
 
-### 1220. Cognitive Tutor&reg; Algebra II (Secondary Mathematics)
+### 1220. Cognitive Tutor® Algebra II (Secondary Mathematics)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, math-education, response-to-intervention, wwc
@@ -12112,7 +12112,7 @@ Cognitive Tutor®, published by Carnegie Learning, is a math curricula that comb
 
 ---
 
-### 1221. Cognitive Tutor&reg; Integrated Math I (Secondary Mathematics)
+### 1221. Cognitive Tutor® Integrated Math I (Secondary Mathematics)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, math-education, response-to-intervention, wwc
@@ -12122,7 +12122,7 @@ Cognitive Tutor®, published by Carnegie Learning, is a math curricula that comb
 
 ---
 
-### 1222. Cognitive Tutor&reg; Integrated Math II (Secondary Mathematics)
+### 1222. Cognitive Tutor® Integrated Math II (Secondary Mathematics)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, math-education, response-to-intervention, wwc
@@ -12132,7 +12132,7 @@ Cognitive Tutor®, published by Carnegie Learning, is a math curricula that comb
 
 ---
 
-### 1223. Cognitive Tutor&reg; Integrated Math III (Secondary Mathematics)
+### 1223. Cognitive Tutor® Integrated Math III (Secondary Mathematics)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, math-education, response-to-intervention, wwc
@@ -12148,7 +12148,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: formative-assessment, math-education, personalized-learning, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/618
 
-enVisionMATHis a core curriculum for students in kindergarten through grade 6. The program seeks to help students develop an understanding of math concepts through problem-based instruction, small-group interaction, and visual learning with a focus on reasoning and modeling. Differentiated instruction and ongoing assessment are used to meet the needs of students at all ability levels.
+enVisionMATH is a core curriculum for students in kindergarten through grade 6. The program seeks to help students develop an understanding of math concepts through problem-based instruction, small-group interaction, and visual learning with a focus on reasoning and modeling. Differentiated instruction and ongoing assessment are used to meet the needs of students at all ability levels.
 
 ---
 
@@ -12212,7 +12212,7 @@ Saxon Math is a core curriculum for students in grades K–12 that uses an incre
 
 ---
 
-### 1231. Singapore Math&reg; (Primary Mathematics)
+### 1231. Singapore Math® (Primary Mathematics)
 
 Type: report | Source: What Works Clearinghouse
 Tags: math-education, wwc
@@ -12258,11 +12258,11 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, literacy, prekindergarten, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/458
 
-Shared Book Readingencompasses practices that adults can use when reading with young children to enhance language and literacy skills. During shared book reading, an adult reads a book to an individual child or to a group of children and uses one or more planned or structured interactive techniques to actively engage the children in the text. The adult may direct the children’s attention to illustrations, print, or word meanings. The adult may engage children in discussions focused on understanding the meaning or sequence of events in a story or on understanding an expository passage. Adults may ask children questions, give explanations, and draw connections between events in the text and those in the children’s own lives as a way of expanding on the text and scaffolding children’s learning experiences to support language development, emergent reading, and comprehension. Importantly, the adult engages in one or more interactive techniques to draw attention to aspects of the text being read.
+Shared Book Reading encompasses practices that adults can use when reading with young children to enhance language and literacy skills. During shared book reading, an adult reads a book to an individual child or to a group of children and uses one or more planned or structured interactive techniques to actively engage the children in the text. The adult may direct the children’s attention to illustrations, print, or word meanings. The adult may engage children in discussions focused on understanding the meaning or sequence of events in a story or on understanding an expository passage. Adults may ask children questions, give explanations, and draw connections between events in the text and those in the children’s own lives as a way of expanding on the text and scaffolding children’s learning experiences to support language development, emergent reading, and comprehension. Importantly, the adult engages in one or more interactive techniques to draw attention to aspects of the text being read.
 
 ---
 
-### 1236. Houghton Mifflin Reading&copy; (Beginning Reading)
+### 1236. Houghton Mifflin Reading© (Beginning Reading)
 
 Type: report | Source: What Works Clearinghouse
 Tags: literacy, writing-instruction, wwc
@@ -12272,7 +12272,7 @@ A reading program for instruction in grades K–6. It uses Big Books (authentic 
 
 ---
 
-### 1237. Academy of READING&reg; (Adolescent Literacy)
+### 1237. Academy of READING® (Adolescent Literacy)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, wwc
@@ -12282,7 +12282,7 @@ Academy of READING® is an online program, originally developed by AutoSkill Int
 
 ---
 
-### 1238. Carbo Reading Styles Program&reg; (Beginning Reading)
+### 1238. Carbo Reading Styles Program® (Beginning Reading)
 
 Type: report | Source: What Works Clearinghouse
 Tags: formative-assessment, literacy, response-to-intervention, wwc
@@ -12308,7 +12308,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, literacy, prekindergarten, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/271
 
-Let’s Begin with the Letter People®is an early education curriculum that uses thematic units to develop children’s language and literacy skills. A major focus is phonological awareness, including rhyming, word play, alliteration, and segmentation. Children are encouraged to learn in individual, small group, and whole-class settings. Both cognitive and socio-emotional development are presented as keys to learning.
+Let’s Begin with the Letter People® is an early education curriculum that uses thematic units to develop children’s language and literacy skills. A major focus is phonological awareness, including rhyming, word play, alliteration, and segmentation. Children are encouraged to learn in individual, small group, and whole-class settings. Both cognitive and socio-emotional development are presented as keys to learning.
 
 ---
 
@@ -12318,7 +12318,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: formative-assessment, k-12, literacy, math-education, writing-instruction, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/456
 
-Scott Foresman-Addison Wesley Elementary Mathematicsis a core curriculum for students at all ability levels in kindergarten through grade 6. The program supports students’ understanding of key math concepts and skills, and it covers a range of mathematical content across grades. The curriculum focuses on questioning strategies, problem-solving skills, embedded assessment, and exercises tailored to students of different ability levels. The program provides explicit problem-solving instruction, hands-on activities, and opportunities to extend students’ mathematical understanding through reading and writing connections.
+Scott Foresman-Addison Wesley Elementary Mathematics is a core curriculum for students at all ability levels in kindergarten through grade 6. The program supports students’ understanding of key math concepts and skills, and it covers a range of mathematical content across grades. The curriculum focuses on questioning strategies, problem-solving skills, embedded assessment, and exercises tailored to students of different ability levels. The program provides explicit problem-solving instruction, hands-on activities, and opportunities to extend students’ mathematical understanding through reading and writing connections.
 
 ---
 
@@ -12332,7 +12332,7 @@ Developed for grades K-5 by the School District of Hillsborough County, FL, in a
 
 ---
 
-### 1243. Vmath&reg; (Elementary School Math)
+### 1243. Vmath® (Elementary School Math)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, formative-assessment, math-education, wwc
@@ -12348,7 +12348,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, response-to-intervention, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/623
 
-Second Stepis a classroom-based social skills program for students in preschool through junior high (ages 4–14 years), with a distinct curriculum for each grade. It is designed to reduce impulsive, high-risk, and aggressive behaviors and increase children’s social competence and other protective factors. The program builds on cognitive behavioral intervention models integrated with social learning theory, empathy research, and social information-processing research. It is intended to teach children to identify and understand their own and others’ emotions, choose positive goals, and successfully manage reactions when emotionally aroused.
+Second Step is a classroom-based social skills program for students in preschool through junior high (ages 4–14 years), with a distinct curriculum for each grade. It is designed to reduce impulsive, high-risk, and aggressive behaviors and increase children’s social competence and other protective factors. The program builds on cognitive behavioral intervention models integrated with social learning theory, empathy research, and social information-processing research. It is intended to teach children to identify and understand their own and others’ emotions, choose positive goals, and successfully manage reactions when emotionally aroused.
 
 ---
 
@@ -12368,7 +12368,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, literacy, prekindergarten, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/260
 
-Ladders to Literacyis a supplemental early literacy curriculum published inLadders to Literacy: A Kindergarten Activity Book.The program targets children at different levels and from diverse cultural backgrounds. The activities are organized into three sections with about 20 activities each: print awareness, phonological awareness skills, and oral language skills.
+Ladders to Literacy is a supplemental early literacy curriculum published in Ladders to Literacy: A Kindergarten Activity Book. The program targets children at different levels and from diverse cultural backgrounds. The activities are organized into three sections with about 20 activities each: print awareness, phonological awareness skills, and oral language skills.
 
 ---
 
@@ -12398,11 +12398,11 @@ Type: report | Source: What Works Clearinghouse
 Tags: college-access, early-childhood, english-learners, formative-assessment, literacy, math-education, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/460
 
-TheSheltered Instruction Observation Protocol® (SIOP®)is a framework for planning and delivering instruction in content areas such as science, history, and mathematics to English language learners as well as other students. The goal ofSIOP®is to help teachers integrate academic language development into their lessons, allowing students to learn and practice English as it is used in the context of school, including the vocabulary used in textbooks and lectures in each academic discipline. Using this planning framework, teachers modify the way they teach so that the language they use to explain concepts and information is comprehensible to these students.SIOP®is intended to be applicable at levels of education from pre-K through community college. TheSIOP®model consists of instructional strategies that cover eight aspects of lesson design and delivery: lesson preparation, building background, comprehensible input, strategies, interaction, practice and application, lesson delivery, and review and assessment.
+The Sheltered Instruction Observation Protocol® (SIOP®) is a framework for planning and delivering instruction in content areas such as science, history, and mathematics to English language learners as well as other students. The goal of SIOP® is to help teachers integrate academic language development into their lessons, allowing students to learn and practice English as it is used in the context of school, including the vocabulary used in textbooks and lectures in each academic discipline. Using this planning framework, teachers modify the way they teach so that the language they use to explain concepts and information is comprehensible to these students. SIOP® is intended to be applicable at levels of education from pre-K through community college. The SIOP® model consists of instructional strategies that cover eight aspects of lesson design and delivery: lesson preparation, building background, comprehensible input, strategies, interaction, practice and application, lesson delivery, and review and assessment.
 
 ---
 
-### 1250. Words Their Way&trade; (Beginning Reading)
+### 1250. Words Their Way™ (Beginning Reading)
 
 Type: report | Source: What Works Clearinghouse
 Tags: literacy, wwc
@@ -12438,7 +12438,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: response-to-intervention, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/616
 
-Tools for Getting Alongis a 26-lesson curriculum designed to help upper elementary school teachers establish a positive, cooperative classroom atmosphere. Lessons are intended to reduce disruptive and aggressive behavior by helping students develop anger management skills. Students use problem-solving steps to generate, implement, and evaluate solutions to problems. The curriculum incorporates direct instruction, modeling, guided practice, independent practice, and skill generalization.
+Tools for Getting Along is a 26-lesson curriculum designed to help upper elementary school teachers establish a positive, cooperative classroom atmosphere. Lessons are intended to reduce disruptive and aggressive behavior by helping students develop anger management skills. Students use problem-solving steps to generate, implement, and evaluate solutions to problems. The curriculum incorporates direct instruction, modeling, guided practice, independent practice, and skill generalization.
 
 ---
 
@@ -12452,7 +12452,7 @@ Talent Development Middle Grades Program (TDMG) is a whole school reform approac
 
 ---
 
-### 1255. The Spalding Method<sup>&reg;</sup> (Beginning Reading)
+### 1255. The Spalding Method<sup>®</sup> (Beginning Reading)
 
 Type: report | Source: What Works Clearinghouse
 Tags: literacy, writing-instruction, wwc
@@ -12472,7 +12472,7 @@ Success for All (SFA®) is a whole-school reform model (that is, a model that in
 
 ---
 
-### 1257. The Spalding Method<sup>&reg;</sup> (Adolescent Literacy)
+### 1257. The Spalding Method<sup>®</sup> (Adolescent Literacy)
 
 Type: report | Source: What Works Clearinghouse
 Tags: literacy, writing-instruction, wwc
@@ -12508,11 +12508,11 @@ Type: report | Source: What Works Clearinghouse
 Tags: literacy, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/572
 
-Reading Edgeis a middle school literacy program that emphasizes cooperative learning, goal setting, feedback, classroom management techniques, and the use of metacognitive strategy, whereby students assess their own skills and learn to apply new ones. The program is a component of theSuccess for All (SFA)®whole-school reform model and provides eight levels of instruction, from beginning through eighth-grade reading levels. Students are grouped into classes based on ability, and whole-class reading instruction is delivered in daily 60-minute blocks. Instruction at the early levels uses fiction, nonfiction, and simple scripts to help students develop basic decoding skills, reading fluency, vocabulary, and comprehension. At reading level 3 and higher, students focus on developing comprehension strategies using both narrative and expository texts. All levels focus on building background knowledge and developing study skills. Although the program is often implemented in the context of theSFA®whole-school reform, this report focuses onReading Edgeas a stand-alone program in grades 4 and higher.
+Reading Edge is a middle school literacy program that emphasizes cooperative learning, goal setting, feedback, classroom management techniques, and the use of metacognitive strategy, whereby students assess their own skills and learn to apply new ones. The program is a component of the Success for All (SFA)® whole-school reform model and provides eight levels of instruction, from beginning through eighth-grade reading levels. Students are grouped into classes based on ability, and whole-class reading instruction is delivered in daily 60-minute blocks. Instruction at the early levels uses fiction, nonfiction, and simple scripts to help students develop basic decoding skills, reading fluency, vocabulary, and comprehension. At reading level 3 and higher, students focus on developing comprehension strategies using both narrative and expository texts. All levels focus on building background knowledge and developing study skills. Although the program is often implemented in the context of the SFA® whole-school reform, this report focuses on Reading Edge as a stand-alone program in grades 4 and higher.
 
 ---
 
-### 1261. The Center for Learning Technologies&nbsp;in Urban Schools (LeTUS) Program<sup>&reg;</sup> (Science)
+### 1261. The Center for Learning Technologies in Urban Schools (LeTUS) Program<sup>®</sup> (Science)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, literacy, wwc
@@ -12528,7 +12528,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/608
 
-ARIES: Exploring Motion and Forcesis a physical science curriculum for students in grades 5–8 that employs 18 inquiry-centered, hands-on lessons called “explorations.” The curriculum draws upon students’ curiosity to explore phenomena, allowing for a discovery-based learning process. Group-centered lab work is designed to help students build an understanding of inertia, friction, gravity, speed, and acceleration. Students examine their prior ideas about the phenomena, formulate questions, build and use an apparatus to observe natural phenomena, make predictions, and gather data through structured experiments.Exploring Motion and Forcesis part of theARIESsequence of eight physical science units. TheARIESsequences can be used together for an overall curriculum or independently.
+ARIES: Exploring Motion and Forces is a physical science curriculum for students in grades 5–8 that employs 18 inquiry-centered, hands-on lessons called “explorations.” The curriculum draws upon students’ curiosity to explore phenomena, allowing for a discovery-based learning process. Group-centered lab work is designed to help students build an understanding of inertia, friction, gravity, speed, and acceleration. Students examine their prior ideas about the phenomena, formulate questions, build and use an apparatus to observe natural phenomena, make predictions, and gather data through structured experiments. Exploring Motion and Forces is part of the ARIES sequence of eight physical science units. The ARIES sequences can be used together for an overall curriculum or independently.
 
 ---
 
@@ -12538,7 +12538,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, inclusive-design, prekindergarten, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/567
 
-Milieu teachingis a practice that involves manipulating or arranging stimuli in a preschool child’s natural environment to create a setting that encourages them to engage in a targeted behavior. For example, a teacher might place a desirable toy in a setting to encourage a child to request that toy (where requesting a toy is the desired target behavior). Typically,milieu teachinginvolves four strategies that a teacher will utilize to encourage a child to demonstrate a target behavior: modeling, mand-modeling, incidental teaching, and time-delay. Through adult modeling and functional consequences associated with child requests, targeted language behaviors can be improved in children who may have language delays or disabilities.
+Milieu teaching is a practice that involves manipulating or arranging stimuli in a preschool child’s natural environment to create a setting that encourages them to engage in a targeted behavior. For example, a teacher might place a desirable toy in a setting to encourage a child to request that toy (where requesting a toy is the desired target behavior). Typically, milieu teaching involves four strategies that a teacher will utilize to encourage a child to demonstrate a target behavior: modeling, mand-modeling, incidental teaching, and time-delay. Through adult modeling and functional consequences associated with child requests, targeted language behaviors can be improved in children who may have language delays or disabilities.
 
 ---
 
@@ -12548,7 +12548,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, inclusive-design, response-to-intervention, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/570
 
-Play-based interventionsare practices designed to improve socio-emotional, physical, language, and cognitive development through guided interactive play. During play sessions, an interventionist uses strategies including modeling, verbal redirection, reinforcement, and indirect instruction to sustain and encourage child play activities. Through the use of appropriate play materials and the direction of the interventionist, the goal is for young children with disabilities to be better able to explore, experiment, interact, and express themselves.
+Play-based interventions are practices designed to improve socio-emotional, physical, language, and cognitive development through guided interactive play. During play sessions, an interventionist uses strategies including modeling, verbal redirection, reinforcement, and indirect instruction to sustain and encourage child play activities. Through the use of appropriate play materials and the direction of the interventionist, the goal is for young children with disabilities to be better able to explore, experiment, interact, and express themselves.
 
 ---
 
@@ -12568,7 +12568,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: college-access, math-education, professional-development, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/398
 
-Project SEEDis a supplemental mathematics program for low-achieving students in grades 3 through 8 and is intended to prepare students to be successful in high school and college math. Based on the Socratic method, instruction is delivered through a series of questions to the class. In addition to individual responses, the instructor solicits group feedback through silent hand signals, chorus responses, and quick surveys of written work. The program is intended to encourage active student learning, develop critical thinking, and strengthen articulation skills. Student learning is assessed regularly, and instructors adapt the lessons to accommodate different ability levels. The curriculum, taught by mathematics specialists, includes topics from advanced mathematics, such as advanced algebra, pre-calculus, group theory, number theory, calculus, and geometry.Project SEEDinstruction is provided in addition to regular math instruction four times a week for 14 to 16 weeks. The program also provides professional development for classroom teachers through modeling, coaching, and workshops.
+Project SEED is a supplemental mathematics program for low-achieving students in grades 3 through 8 and is intended to prepare students to be successful in high school and college math. Based on the Socratic method, instruction is delivered through a series of questions to the class. In addition to individual responses, the instructor solicits group feedback through silent hand signals, chorus responses, and quick surveys of written work. The program is intended to encourage active student learning, develop critical thinking, and strengthen articulation skills. Student learning is assessed regularly, and instructors adapt the lessons to accommodate different ability levels. The curriculum, taught by mathematics specialists, includes topics from advanced mathematics, such as advanced algebra, pre-calculus, group theory, number theory, calculus, and geometry. Project SEED instruction is provided in addition to regular math instruction four times a week for 14 to 16 weeks. The program also provides professional development for classroom teachers through modeling, coaching, and workshops.
 
 ---
 
@@ -12588,7 +12588,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/594
 
-ThinkerToolsis a computer-based program that aims to develop students’ understanding of physics and scientific modeling. The program is composed of two curricula for middle school students,ThinkerTools InquiryandModel-Enhanced ThinkerTools.ThinkerToolsInquiry allows students to explore the physics of motion and then asks them to apply that knowledge to solve real-world problems. In theModel-Enhanced ThinkerToolscurriculum, students create computer models that express their own theories of force and motion.
+ThinkerTools is a computer-based program that aims to develop students’ understanding of physics and scientific modeling. The program is composed of two curricula for middle school students, ThinkerTools Inquiry and Model-Enhanced ThinkerTools. ThinkerTools Inquiry allows students to explore the physics of motion and then asks them to apply that knowledge to solve real-world problems. In the Model-Enhanced ThinkerTools curriculum, students create computer models that express their own theories of force and motion.
 
 ---
 
@@ -12618,7 +12618,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/588
 
-Coping Poweris based on the earlierAnger Coping Powerprogram. It emphasizes social and emotional skills that are needed during the transition to middle school. The program incorporates child and parent components. The child component consists of thirty-four 50-minute group sessions and periodic individual sessions over the course of 15–18 months, although the program can be shortened to fit into a single school year. Lessons focus on goal setting, problem solving, anger management, and peer relationships. The parent component is composed of 16 group sessions and periodic individual meetings. Lessons support the child component of the program and address setting expectations, praise, discipline, managing stress, communication, and child study skills.
+Coping Power is based on the earlier Anger Coping Power program. It emphasizes social and emotional skills that are needed during the transition to middle school. The program incorporates child and parent components. The child component consists of thirty-four 50-minute group sessions and periodic individual sessions over the course of 15–18 months, although the program can be shortened to fit into a single school year. Lessons focus on goal setting, problem solving, anger management, and peer relationships. The parent component is composed of 16 group sessions and periodic individual meetings. Lessons support the child component of the program and address setting expectations, praise, discipline, managing stress, communication, and child study skills.
 
 ---
 
@@ -12628,7 +12628,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: attendance, dropout-prevention, professional-development, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/79
 
-Check & Connectis a dropout prevention strategy that relies on close monitoring of school performance, mentoring, case management, and other supports. The program has two main components: “Check” and “Connect.” The Check component is designed to continually assess student engagement through close monitoring of student performance and progress indicators. The Connect component involves program staff giving individualized attention to students, in partnership with school personnel, family members, and community service providers. Students enrolled inCheck & Connectare assigned a “monitor” who regularly reviews their performance (in particular, whether students are having attendance, behavior, or academic problems) and intervenes when problems are identified. The monitor also advocates for students, coordinates services, provides ongoing feedback and encouragement, and emphasizes the importance of staying in school.
+Check & Connect is a dropout prevention strategy that relies on close monitoring of school performance, mentoring, case management, and other supports. The program has two main components: “Check” and “Connect.” The Check component is designed to continually assess student engagement through close monitoring of student performance and progress indicators. The Connect component involves program staff giving individualized attention to students, in partnership with school personnel, family members, and community service providers. Students enrolled in Check & Connect are assigned a “monitor” who regularly reviews their performance (in particular, whether students are having attendance, behavior, or academic problems) and intervenes when problems are identified. The monitor also advocates for students, coordinates services, provides ongoing feedback and encouragement, and emphasizes the importance of staying in school.
 
 ---
 
@@ -12638,7 +12638,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: literacy, writing-instruction, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/205
 
-Great Booksis a program that aims to improve the reading, writing, and critical thinking skills of students in kindergarten through high school. The program is implemented as a core or complementary curriculum and is based on the Shared Inquiry™ method of learning.
+Great Books is a program that aims to improve the reading, writing, and critical thinking skills of students in kindergarten through high school. The program is implemented as a core or complementary curriculum and is based on the Shared Inquiry™ method of learning.
 
 ---
 
@@ -12692,7 +12692,7 @@ Service and Conservation Corps engages young adults in full-time community servi
 
 ---
 
-### 1279. Barton Reading &amp; Spelling System&reg; (Students with Learning Disabilities)
+### 1279. Barton Reading & Spelling System® (Students with Learning Disabilities)
 
 Type: report | Source: What Works Clearinghouse
 Tags: inclusive-design, literacy, response-to-intervention, writing-instruction, wwc
@@ -12702,7 +12702,7 @@ The Barton Reading & Spelling System® is a one-to-one tutoring system designed 
 
 ---
 
-### 1280. Fundations&reg; (Students with Learning Disabilities)
+### 1280. Fundations® (Students with Learning Disabilities)
 
 Type: report | Source: What Works Clearinghouse
 Tags: inclusive-design, literacy, response-to-intervention, wwc
@@ -12778,7 +12778,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, formative-assessment, k-12, math-education, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/378
 
-PLATO® Achieve Nowis a software-based curriculum for the elementary and middle school grades that focuses on pre-algebraic concepts and includes content pertaining to rational numbers in related organizational patterns, proportion and percent, integers, probability, statistics, problem solving, geometry, measurement, and the foundational concepts of algebra I. Instructional content is delivered via the PlayStation Portable (PSP®) system, allowing students to access learning materials in various settings. Software-based assessments are used to customize individual instruction, allowing students to learn at their own pace with content appropriate for their skill level.
+PLATO® Achieve Now is a software-based curriculum for the elementary and middle school grades that focuses on pre-algebraic concepts and includes content pertaining to rational numbers in related organizational patterns, proportion and percent, integers, probability, statistics, problem solving, geometry, measurement, and the foundational concepts of algebra I. Instructional content is delivered via the PlayStation Portable (PSP®) system, allowing students to access learning materials in various settings. Software-based assessments are used to customize individual instruction, allowing students to learn at their own pace with content appropriate for their skill level.
 
 ---
 
@@ -12798,7 +12798,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: english-learners, literacy, response-to-intervention, writing-instruction, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/421
 
-Reading Recovery®is an intervention that provides one-on-one tutoring to students in grade 1 with low literacy achievement. This supplemental program aims to improve student reading and writing skills by providing one-on-one tutoring, tailoring the content of each lesson to each student based on observations and analyses of the student strengths and weaknesses from prior lessons. TrainedReading Recovery®teachers deliver tutoring daily in 30-minute one-on-one sessions over the course of 12 to 20 weeks.Reading Recovery®teachers incorporate instruction in topics such as phonemic awareness, phonics, vocabulary, fluency, comprehension, writing, oral language, and motivation depending on student needs.
+Reading Recovery® is an intervention that provides one-on-one tutoring to students in grade 1 with low literacy achievement. This supplemental program aims to improve student reading and writing skills by providing one-on-one tutoring, tailoring the content of each lesson to each student based on observations and analyses of the student strengths and weaknesses from prior lessons. Trained Reading Recovery® teachers deliver tutoring daily in 30-minute one-on-one sessions over the course of 12 to 20 weeks. Reading Recovery® teachers incorporate instruction in topics such as phonemic awareness, phonics, vocabulary, fluency, comprehension, writing, oral language, and motivation depending on student needs.
 
 ---
 
@@ -12888,7 +12888,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: career-readiness, college-access, dropout-prevention, k-12, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/318
 
-Middle College High Schoolsare alternative high schools located on college campuses that aim to help at-risk students complete high school and encourage them to attend college. The schools offer a project-centered, interdisciplinary curriculum with an emphasis on team teaching, individualized attention, and development of critical thinking skills. Students are also offered support services, including specialized counseling, peer support, and career experience opportunities.
+Middle College High Schools are alternative high schools located on college campuses that aim to help at-risk students complete high school and encourage them to attend college. The schools offer a project-centered, interdisciplinary curriculum with an emphasis on team teaching, individualized attention, and development of critical thinking skills. Students are also offered support services, including specialized counseling, peer support, and career experience opportunities.
 
 ---
 
@@ -12988,7 +12988,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: college-access, dropout-prevention, k-12, literacy, math-education, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/390
 
-Project “Graduation Really Achieves Dreams” (GRAD)is an initiative for students in economically disadvantaged communities that aims to reduce dropping out and increase rates of college enrollment and graduation by increasing reading and math skills, improving behavior in school, and providing a service safety net. At the high school level,Project GRADprovides 4-year college scholarships and summer institutes to promote attending and completing high school.Project GRADalso provides services in the elementary and middle schools that feed into the participating high schools.
+Project “Graduation Really Achieves Dreams” (GRAD) is an initiative for students in economically disadvantaged communities that aims to reduce dropping out and increase rates of college enrollment and graduation by increasing reading and math skills, improving behavior in school, and providing a service safety net. At the high school level, Project GRAD provides 4-year college scholarships and summer institutes to promote attending and completing high school. Project GRAD also provides services in the elementary and middle schools that feed into the participating high schools.
 
 ---
 
@@ -12998,7 +12998,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: dropout-prevention, k-12, professional-development, response-to-intervention, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/401
 
-TheQuantum Opportunity Program (QOP)is an intensive and comprehensive program for high school-aged youth that offers case management, mentoring, tutoring, and other education and support services. The program also offers financial incentives for participation in program activities. Participants enterQOPin grade 9 and can receive services for 4–5 years, even if they drop out of school or move to another district.
+The Quantum Opportunity Program (QOP) is an intensive and comprehensive program for high school-aged youth that offers case management, mentoring, tutoring, and other education and support services. The program also offers financial incentives for participation in program activities. Participants enter QOP in grade 9 and can receive services for 4–5 years, even if they drop out of school or move to another district.
 
 ---
 
@@ -13008,11 +13008,11 @@ Type: report | Source: What Works Clearinghouse
 Tags: attendance, career-readiness, college-access, dropout-prevention, k-12, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/506
 
-Talent Development High Schoolsis a school reform model for restructuring large high schools with persistent attendance and discipline problems, poor student achievement, and high dropout rates. The model includes both structural and curriculum reforms. It calls for schools to reorganize into small “learning communities”—including ninth-grade academies for first-year students and career academies for students in upper grades—to reduce student isolation and anonymity. It also emphasizes high academic standards and provides all students with a college preparatory academic sequence.
+Talent Development High Schools is a school reform model for restructuring large high schools with persistent attendance and discipline problems, poor student achievement, and high dropout rates. The model includes both structural and curriculum reforms. It calls for schools to reorganize into small “learning communities”—including ninth-grade academies for first-year students and career academies for students in upper grades—to reduce student isolation and anonymity. It also emphasizes high academic standards and provides all students with a college preparatory academic sequence.
 
 ---
 
-### 1311. Tribes Learning Communities&reg; (Beginning Reading)
+### 1311. Tribes Learning Communities® (Beginning Reading)
 
 Type: report | Source: What Works Clearinghouse
 Tags: formative-assessment, literacy, response-to-intervention, wwc
@@ -13092,7 +13092,7 @@ Concept-Oriented Reading Instruction is a reading comprehension instructional pr
 
 ---
 
-### 1319. Academy of READING&reg; (Beginning Reading)
+### 1319. Academy of READING® (Beginning Reading)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, literacy, wwc
@@ -13122,7 +13122,7 @@ A literacy curriculum for preschool through third grade that introduces students
 
 ---
 
-### 1322. Barton Reading &amp; Spelling System&reg; (Beginning Reading)
+### 1322. Barton Reading & Spelling System® (Beginning Reading)
 
 Type: report | Source: What Works Clearinghouse
 Tags: inclusive-design, literacy, response-to-intervention, writing-instruction, wwc
@@ -13132,7 +13132,7 @@ The Barton Reading & Spelling System® is a one-to-one tutoring system designed 
 
 ---
 
-### 1323. Digi-Block&reg; Learning System (Elementary School Math)
+### 1323. Digi-Block® Learning System (Elementary School Math)
 
 Type: report | Source: What Works Clearinghouse
 Tags: literacy, math-education, wwc
@@ -13202,7 +13202,7 @@ The Partnership for Access to Higher Mathematics (PATH Mathematics) is a partner
 
 ---
 
-### 1330. Pause, Prompt, &amp; Praise &copy; (Beginning Reading)
+### 1330. Pause, Prompt, & Praise© (Beginning Reading)
 
 Type: report | Source: What Works Clearinghouse
 Tags: literacy, response-to-intervention, wwc
@@ -13238,7 +13238,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: college-access, computer-assisted-learning, literacy, response-to-intervention, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/391
 
-Project LISTEN (Literacy Innovation that Speech Technology ENables) is a tool developed by researchers at Carnegie Mellon University aimed at improving early literacy for children First through Fourth Grade.1 It is an automated Reading Tutor (RT) that displays stories on a computer screen, and listens to children read aloud. The RT lets children choose from a list of stories from multiple sources, including user-authored stories. RT responses are modeled after expert reading teachers and adapted to fit technological capabilities and limitations. It utilizes speech recognition technology to analyze children’s oral reading and intervenes and provides help when children read incorrectly, encounter difficulty, or click for help.It is currently not a commercial product, but is utilized by many children who have participated in studies to test its effectiveness. The current version runs under Windows(TM) 2000 or XP on a computer with at least 128MB of memory.Footnote:1 Most of the information cited on this page are derived from Carnegie Mellon University’s Project LISTERN website: http://www-2.cs.cmu.edu/~listen/
+Project LISTEN (Literacy Innovation that Speech Technology ENables) is a tool developed by researchers at Carnegie Mellon University aimed at improving early literacy for children First through Fourth Grade.1 It is an automated Reading Tutor (RT) that displays stories on a computer screen, and listens to children read aloud. The RT lets children choose from a list of stories from multiple sources, including user-authored stories. RT responses are modeled after expert reading teachers and adapted to fit technological capabilities and limitations. It utilizes speech recognition technology to analyze children’s oral reading and intervenes and provides help when children read incorrectly, encounter difficulty, or click for help. It is currently not a commercial product, but is utilized by many children who have participated in studies to test its effectiveness. The current version runs under Windows(TM) 2000 or XP on a computer with at least 128MB of memory. Footnote: 1 Most of the information cited on this page are derived from Carnegie Mellon University’s Project LISTERN website: http://www-2.cs.cmu.edu/~listen/
 
 ---
 
@@ -13252,7 +13252,7 @@ Project Read® is a multisensory language arts curriculum designed for use in a 
 
 ---
 
-### 1335. Mathematics Their Way&reg; (Elementary School Math)
+### 1335. Mathematics Their Way® (Elementary School Math)
 
 Type: report | Source: What Works Clearinghouse
 Tags: math-education, wwc
@@ -13292,7 +13292,7 @@ LOGO is a computer programming language designed as a learning tool for assistin
 
 ---
 
-### 1339. MathWings by the Success for All Foundation&reg; (Elementary School Math)
+### 1339. MathWings by the Success for All Foundation® (Elementary School Math)
 
 Type: report | Source: What Works Clearinghouse
 Tags: math-education, wwc
@@ -13302,7 +13302,7 @@ MathWings is a K-6 program which emphasizes cooperative learning and is designed
 
 ---
 
-### 1340. Moving with Math&reg; Math by Topic (Middle School Math Curricula)
+### 1340. Moving with Math® Math by Topic (Middle School Math Curricula)
 
 Type: report | Source: What Works Clearinghouse
 Tags: formative-assessment, math-education, wwc
@@ -13322,7 +13322,7 @@ The Integrated Mathematics, Science, and Technology (IMaST) program is a 6th, 7t
 
 ---
 
-### 1342. Resolving Conflict Creatively Program&trade; (RCCP) (Character Education)
+### 1342. Resolving Conflict Creatively Program™ (RCCP) (Character Education)
 
 Type: report | Source: What Works Clearinghouse
 Tags: professional-development, sel, wwc
@@ -13342,13 +13342,13 @@ Direct Instruction refers to a family of interventions that includes all Direct 
 
 ---
 
-### 1344. Progress in Mathematics © 2006 (Elementary School Mathematics)
+### 1344. Progress in Mathematics© 2006 (Elementary School Mathematics)
 
 Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, formative-assessment, k-12, literacy, math-education, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/384
 
-Progress in Mathematics © 2006is a core curriculum for students in kindergarten through grade 6.Progress in Mathematics © 2006uses a sequence of systematic lesson plans to teach mathematical concepts and skills. It incorporates the following features at each grade level: explicit instruction of mathematics content; development of conceptual understanding through a three-step process that begins with hands-on activities (concrete thinking to visual thinking to symbol use); fluency in numerical computation; problem solving; development of mathematical vocabulary; practice and review; and different types of assessment. Student textbooks, student workbooks, and teacher’s editions are available for each grade level, as well as manipulatives and online practice exercises.
+Progress in Mathematics© 2006 is a core curriculum for students in kindergarten through grade 6. Progress in Mathematics© 2006 uses a sequence of systematic lesson plans to teach mathematical concepts and skills. It incorporates the following features at each grade level: explicit instruction of mathematics content; development of conceptual understanding through a three-step process that begins with hands-on activities (concrete thinking to visual thinking to symbol use); fluency in numerical computation; problem solving; development of mathematical vocabulary; practice and review; and different types of assessment. Student textbooks, student workbooks, and teacher’s editions are available for each grade level, as well as manipulatives and online practice exercises.
 
 ---
 
@@ -13358,7 +13358,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: computer-assisted-learning, formative-assessment, k-12, literacy, math-education, response-to-intervention, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/223
 
-Houghton Mifflin Mathematicsis a core mathematics curriculum for students at all ability levels in kindergarten through grade 6. At each grade level, the program focuses on basic skills development, problem solving, and vocabulary expansion to help students master key math concepts. Students practice daily math lessons through instructional software, enrichment worksheets, manipulatives, and workbooks, in addition to student textbooks. The program incorporates assessments—including lesson-level interventions to meet the needs of all learners—to monitor students’ progress.
+Houghton Mifflin Mathematics is a core mathematics curriculum for students at all ability levels in kindergarten through grade 6. At each grade level, the program focuses on basic skills development, problem solving, and vocabulary expansion to help students master key math concepts. Students practice daily math lessons through instructional software, enrichment worksheets, manipulatives, and workbooks, in addition to student textbooks. The program incorporates assessments—including lesson-level interventions to meet the needs of all learners—to monitor students’ progress.
 
 ---
 
@@ -13378,7 +13378,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: college-access, k-12, literacy, math-education, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/521
 
-Transition Mathematicsaims to increase applied arithmetic, pre-algebra, and pre-geometry skills in students in grades 7–12 . This 1-year curriculum also addresses general application to different wordings of problems, types of numbers, and contexts for problems and aims to promote mathematical reading skills. The curriculum uses the University of Chicago School Mathematics Project (UCSMP) textbook. The sequence of the topics intends to assist the transition from arithmetic to algebra and geometry.
+Transition Mathematics aims to increase applied arithmetic, pre-algebra, and pre-geometry skills in students in grades 7–12. This 1-year curriculum also addresses general application to different wordings of problems, types of numbers, and contexts for problems and aims to promote mathematical reading skills. The curriculum uses the University of Chicago School Mathematics Project (UCSMP) textbook. The sequence of the topics intends to assist the transition from arithmetic to algebra and geometry.
 
 ---
 
@@ -13388,7 +13388,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/284
 
-Lions QuestSkills for Adolescenceis a schoolwide program for middle school students (grades 6–8). The program is designed to promote good citizenship skills, core character values, social-emotional skills, and discourage the use of drugs, alcohol, and violence. The program includes a classroom curriculum, schoolwide practices to create a positive school climate, parent and family involvement, and community involvement. The curriculum may vary in scope and intensity, lasting from 9 weeks to 3 years. The lessons use cooperative group learning exercises and classroom management techniques to improve classroom climate.
+Lions Quest Skills for Adolescence is a schoolwide program for middle school students (grades 6–8). The program is designed to promote good citizenship skills, core character values, social-emotional skills, and discourage the use of drugs, alcohol, and violence. The program includes a classroom curriculum, schoolwide practices to create a positive school climate, parent and family involvement, and community involvement. The curriculum may vary in scope and intensity, lasting from 9 weeks to 3 years. The lessons use cooperative group learning exercises and classroom management techniques to improve classroom climate.
 
 ---
 
@@ -13398,7 +13398,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, literacy, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/534
 
-Voices Literature and Character Education Program (Voices LACE;formerly known as Voices of Love and Freedom and Literacy and Values) is a K–12 program that aims to promote positive character and citizenship values, literacy skills, and social skills. The program curriculum can be used over any length of time. During classroom lessons, students read books about issues such as ethnic discrimination, fighting, or bullying, and elaborate on central themes through role-playing and discussions practiced in school and at home. Emphasis is given to promoting caring relationships between teachers and students and among students, and to connecting the values taught to students’ personal stories.Voices LACEmay also be implemented as a schoolwide improvement program. Optional components of the program include schoolwide events and restructuring of school organization and practices (establishing student assemblies and creating small learning communities), parental involvement (home visits and family nights), and community support (joint campaigns with supporting organizations and business).
+Voices Literature and Character Education Program (Voices LACE; formerly known as Voices of Love and Freedom and Literacy and Values) is a K–12 program that aims to promote positive character and citizenship values, literacy skills, and social skills. The program curriculum can be used over any length of time. During classroom lessons, students read books about issues such as ethnic discrimination, fighting, or bullying, and elaborate on central themes through role-playing and discussions practiced in school and at home. Emphasis is given to promoting caring relationships between teachers and students and among students, and to connecting the values taught to students’ personal stories. Voices LACE may also be implemented as a schoolwide improvement program. Optional components of the program include schoolwide events and restructuring of school organization and practices (establishing student assemblies and creating small learning communities), parental involvement (home visits and family nights), and community support (joint campaigns with supporting organizations and business).
 
 ---
 
@@ -13408,7 +13408,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: k-12, sel, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/283
 
-Lions QuestSkills for Action, a program to build positive character values and life and citizenship skills for students in grades 9–12, includes classroom lessons and service learning. The program includes more than 100 lessons focused around 26 personal, social, and thinking skills. Program length ranges from one semester to 4 years. Students explore personal stories highlighting values and behavior through teachers’ questions, group discussion, and resource pages in the curricular materials. For service learning, students perform school-based or community-based projects and reflect on their experiences. Optional components include a student magazine, an Advisory Team, and supplemental units on drug use prevention.
+Lions Quest Skills for Action, a program to build positive character values and life and citizenship skills for students in grades 9–12, includes classroom lessons and service learning. The program includes more than 100 lessons focused around 26 personal, social, and thinking skills. Program length ranges from one semester to 4 years. Students explore personal stories highlighting values and behavior through teachers’ questions, group discussion, and resource pages in the curricular materials. For service learning, students perform school-based or community-based projects and reflect on their experiences. Optional components include a student magazine, an Advisory Team, and supplemental units on drug use prevention.
 
 ---
 
@@ -13418,7 +13418,7 @@ Type: report | Source: What Works Clearinghouse
 Tags: early-childhood, formative-assessment, literacy, wwc
 URL: https://ies.ed.gov/ncee/WWC/InterventionReport/485
 
-Stepping Stones to Literacy (SSL)is a supplemental curriculum designed to promote listening, print conventions, phonological awareness, phonemic awareness, and serial processing/rapid naming (quickly naming familiar visual symbols and stimuli, such as letters or colors). The program targets older preschool and kindergarten students who are considered to be underachieving readers, based on teacher’s recommendations, assessments, and systematic screening. Students participate in 10- to 20-minute daily lessons in a small group or individually. The curriculum consists of 25 lessons, for a total of 9–15 hours of instructional time.
+Stepping Stones to Literacy (SSL) is a supplemental curriculum designed to promote listening, print conventions, phonological awareness, phonemic awareness, and serial processing/rapid naming (quickly naming familiar visual symbols and stimuli, such as letters or colors). The program targets older preschool and kindergarten students who are considered to be underachieving readers, based on teacher’s recommendations, assessments, and systematic screening. Students participate in 10- to 20-minute daily lessons in a small group or individually. The curriculum consists of 25 lessons, for a total of 9–15 hours of instructional time.
 
 ---
 
@@ -14458,7 +14458,7 @@ Type: report | Source: Learning Policy Institute
 Tags: lpi
 URL: https://learningpolicyinstitute.org/product/california-way-equitable-excellent-education-system-report
 
-In 2013, California adopted its Local Control Funding Formula (LCFF), which has shifted billions of dollars to districts serving high-need students, created a multiple-measure accountability system, and provided all districts with broad flexibility to develop spending plans aligned to local priorities and needs. This report examines LCFF and related reforms—the decade-plus effort leading to their passage and the impact on culture, practice, opportunities, and outcomes—and explores next steps to sustain and deepen improvement. Read the report or brief &gt;
+In 2013, California adopted its Local Control Funding Formula (LCFF), which has shifted billions of dollars to districts serving high-need students, created a multiple-measure accountability system, and provided all districts with broad flexibility to develop spending plans aligned to local priorities and needs. This report examines LCFF and related reforms—the decade-plus effort leading to their passage and the impact on culture, practice, opportunities, and outcomes—and explores next steps to sustain and deepen improvement. Read the report or brief >
 
 ---
 
@@ -14842,7 +14842,7 @@ GO Tutor Corps provides high-impact tutoring during the school day that is desig
 
 ---
 
-### 1495. Learning Genie &#8211; Math
+### 1495. Learning Genie – Math
 
 Type: report | Source: Evidence for ESSA
 Tags: early-childhood, inclusive-design, math-education, personalized-learning
@@ -14852,7 +14852,7 @@ Learning Genie is an AI-supported instructional planning and documentation platf
 
 ---
 
-### 1496. Learning Genie &#8211; Reading
+### 1496. Learning Genie – Reading
 
 Type: report | Source: Evidence for ESSA
 Tags: early-childhood, inclusive-design, literacy, personalized-learning
@@ -14922,7 +14922,7 @@ Twig Science is a comprehensive, phenomena-based science curriculum for Grades K
 
 ---
 
-### 1504. Progress Learning &#8211; Science
+### 1504. Progress Learning – Science
 
 Type: report | Source: Evidence for ESSA
 Tags: computer-assisted-learning, formative-assessment, math-education
@@ -14932,7 +14932,7 @@ Progress Learning is a comprehensive, state standards-aligned instructional reso
 
 ---
 
-### 1505. NEW INSIGHTS into Children’s Temperament (INSIGHTS) &#8211; Social-Emotional Learning
+### 1505. NEW INSIGHTS into Children’s Temperament (INSIGHTS) – Social-Emotional Learning
 
 Type: report | Source: Evidence for ESSA
 Tags: professional-development, response-to-intervention, sel
@@ -14942,7 +14942,7 @@ INSIGHTS is an evidence-based intervention that helps families, educators and yo
 
 ---
 
-### 1506. NEW INSIGHTS into Children’s Temperament (INSIGHTS) &#8211; Family Engagement
+### 1506. NEW INSIGHTS into Children’s Temperament (INSIGHTS) – Family Engagement
 
 Type: report | Source: Evidence for ESSA
 Tags: professional-development, response-to-intervention, sel
@@ -14962,7 +14962,7 @@ Developed by researchers at the Nebraska Center for Research on Children, Youth,
 
 ---
 
-### 1508. Spalding&#8217;s The Writing Road to Reading
+### 1508. Spalding’s The Writing Road to Reading
 
 Type: report | Source: Evidence for ESSA
 Tags: literacy, writing-instruction
@@ -15032,7 +15032,7 @@ Renzulli Learning is an online platform that helps teachers to differentiate ins
 
 ---
 
-### 1515. Future Forward Literacy &#8211; Family Engagement
+### 1515. Future Forward Literacy – Family Engagement
 
 Type: report | Source: Evidence for ESSA
 Tags: literacy, response-to-intervention
@@ -15048,7 +15048,7 @@ Type: report | Source: Evidence for ESSA
 Tags: computer-assisted-learning
 URL: https://evidenceforessa.org/program/talkingpoints/
 
-TalkingPoints is an education technology nonprofit that drives student outcomes by facilitating effective family-school partnerships. The TalkingPoints Universal Family Engagement platform removes barriers to engaging with all families, such as technology, language, capacity, mindsets, and time. It provides educators with embedded, research-based guidance, actionable data-informed insights, and universally designed auto-translated two-way communication in families’ preferred languages. ​​
+TalkingPoints is an education technology nonprofit that drives student outcomes by facilitating effective family-school partnerships. The TalkingPoints Universal Family Engagement platform removes barriers to engaging with all families, such as technology, language, capacity, mindsets, and time. It provides educators with embedded, research-based guidance, actionable data-informed insights, and universally designed auto-translated two-way communication in families’ preferred languages.
 
 ---
 
@@ -15122,7 +15122,7 @@ No studies met inclusion requirements
 
 ---
 
-### 1527. Hoot Reading &#8211; MTSS Tier III
+### 1527. Hoot Reading – MTSS Tier III
 
 Type: report | Source: Evidence for ESSA
 Tags: computer-assisted-learning, literacy, response-to-intervention
@@ -15202,7 +15202,7 @@ Beable provides a K-12 digital platform for literacy recovery. Beable customizes
 
 ---
 
-### 1535. Parent-Teacher Home Visits &#8211; SEL
+### 1535. Parent-Teacher Home Visits – SEL
 
 Type: report | Source: Evidence for ESSA
 Tags: sel
@@ -15222,7 +15222,7 @@ The Scholastic RISE and RISE Up program is a Tier 2 intervention program designe
 
 ---
 
-### 1537. Parent Teacher Home Visits &#8211; Attendance
+### 1537. Parent Teacher Home Visits – Attendance
 
 Type: report | Source: Evidence for ESSA
 Tags: attendance
@@ -15262,7 +15262,7 @@ CharacterStrong’s PurposeFull People Elementary Curriculum is an evidence-base
 
 ---
 
-### 1541. CharacterStrong &#8211; Secondary
+### 1541. CharacterStrong – Secondary
 
 Type: report | Source: Evidence for ESSA
 Tags: sel
@@ -15302,7 +15302,7 @@ Imagine Math by Imagine Learning is a digital supplemental mathematics learning 
 
 ---
 
-### 1547. The 4Rs (Reading, Writing, Respect &#038; Resolution)
+### 1547. The 4Rs (Reading, Writing, Respect & Resolution)
 
 Type: report | Source: Evidence for ESSA
 Tags: literacy, sel, writing-instruction
@@ -15338,7 +15338,7 @@ Type: report | Source: Evidence for ESSA
 Tags: response-to-intervention, sel
 URL: https://evidenceforessa.org/program/getting-along-together/
 
-Getting Along Together, or GAT, is a schoolwide intervention for grades K-3, designed to enhance students’ social, emotional, and self-regulation skills. Getting Along Together was originally designed as a component of the Success for All whole-school reform model, but it is now also disseminated as a stand-alone program. Enhancements to GAT were researched and evaluated by Jacob, Jones, &amp; Morrison (2013) under the name SECURe, for Social, Emotional, and Cognitive Understanding and Regulatio
+Getting Along Together, or GAT, is a schoolwide intervention for grades K-3, designed to enhance students’ social, emotional, and self-regulation skills. Getting Along Together was originally designed as a component of the Success for All whole-school reform model, but it is now also disseminated as a stand-alone program. Enhancements to GAT were researched and evaluated by Jacob, Jones, & Morrison (2013) under the name SECURe, for Social, Emotional, and Cognitive Understanding and Regulatio
 
 ---
 
@@ -15402,17 +15402,17 @@ Student Success Skills (SSS) provides group counseling to students in small grou
 
 ---
 
-### 1558. Imagine Language &#038; Literacy
+### 1558. Imagine Language & Literacy
 
 Type: report | Source: Evidence for ESSA
 Tags: literacy, personalized-learning
 URL: https://evidenceforessa.org/program/imagine-language-literacy/
 
-Imagine Language &amp; Literacy is an adaptive supplemental program designed to build core reading and academic language skills among students in pre-kindergarten through sixth grade. The program provides individualized instruction with exercises tailored to each user's needs, accelerating instruction levels based on the user's rate of progress: vocabulary, comprehension, fluency, phonics and phonemic awareness. The program incorporates art, music, sports and multi-disciplinary subject matter wh
+Imagine Language & Literacy is an adaptive supplemental program designed to build core reading and academic language skills among students in pre-kindergarten through sixth grade. The program provides individualized instruction with exercises tailored to each user's needs, accelerating instruction levels based on the user's rate of progress: vocabulary, comprehension, fluency, phonics and phonemic awareness. The program incorporates art, music, sports and multi-disciplinary subject matter wh
 
 ---
 
-### 1559. Istation Reading &#8212; Elementary
+### 1559. Istation Reading — Elementary
 
 Type: report | Source: Evidence for ESSA
 Tags: computer-assisted-learning, formative-assessment, literacy, personalized-learning
@@ -15472,7 +15472,7 @@ Houghton Mifflin Harcourt Journeys is a comprehensive reading and language arts 
 
 ---
 
-### 1565. Children&#8217;s Literacy Initiative (CLI)
+### 1565. Children’s Literacy Initiative (CLI)
 
 Type: report | Source: Evidence for ESSA
 Tags: early-childhood, literacy, personalized-learning, professional-development, writing-instruction
@@ -15622,7 +15622,7 @@ Content-Focused Coaching (CFC) is a professional development approach in which d
 
 ---
 
-### 1580. Intelligent Tutoring for the Structure Strategy (ITSS) &#8211; Elementary
+### 1580. Intelligent Tutoring for the Structure Strategy (ITSS) – Elementary
 
 Type: report | Source: Evidence for ESSA
 Tags: computer-assisted-learning, literacy, response-to-intervention
@@ -15632,7 +15632,7 @@ Intelligent Tutoring for the Structure Strategy (ITSS) is a web-based approach i
 
 ---
 
-### 1581. Literacy First &#8211; UT Austin
+### 1581. Literacy First – UT Austin
 
 Type: report | Source: Evidence for ESSA
 Tags: literacy, response-to-intervention
@@ -15692,7 +15692,7 @@ Content-Focused Coaching (CFC) is a professional development approach in which d
 
 ---
 
-### 1587. READ 180 &#8211; Secondary Reading
+### 1587. READ 180 – Secondary Reading
 
 Type: report | Source: Evidence for ESSA
 Tags: computer-assisted-learning, formative-assessment, literacy, personalized-learning, professional-development
@@ -15732,7 +15732,7 @@ The Incredible Years (IY) is a set of teacher, child and parent programs designe
 
 ---
 
-### 1591. Positive Action &#8211; Social-Emotional Learning
+### 1591. Positive Action – Social-Emotional Learning
 
 Type: report | Source: Evidence for ESSA
 Tags: sel
@@ -15742,7 +15742,7 @@ Positive Action is a whole-school reform strategy designed to improve social-emo
 
 ---
 
-### 1592. Building Assets Reducing Risks (BARR) &#8211; Social-Emotional Learning
+### 1592. Building Assets Reducing Risks (BARR) – Social-Emotional Learning
 
 Type: report | Source: Evidence for ESSA
 Tags: professional-development, sel
@@ -15768,11 +15768,11 @@ Type: report | Source: Evidence for ESSA
 Tags: response-to-intervention, sel
 URL: https://evidenceforessa.org/program/check-connect-and-expect/
 
-Check, Connect, and Expect is a targeted intervention focused on students with behavior problems. The program combines principles of the Check &amp; Connect program and the Behavior Education Program, emphasizing daily monitoring for school risk factors, positive relationships with adult mentors, regular feedback on behavior, and problem solving to reach daily and weekly behavior goals. The program leverages district-employed coaches and behavior specialists as mentors and support staff.
+Check, Connect, and Expect is a targeted intervention focused on students with behavior problems. The program combines principles of the Check & Connect program and the Behavior Education Program, emphasizing daily monitoring for school risk factors, positive relationships with adult mentors, regular feedback on behavior, and problem solving to reach daily and weekly behavior goals. The program leverages district-employed coaches and behavior specialists as mentors and support staff.
 
 ---
 
-### 1595. Fast Track &#8211; Social-Emotional Learning
+### 1595. Fast Track – Social-Emotional Learning
 
 Type: report | Source: Evidence for ESSA
 Tags: sel
@@ -15782,7 +15782,7 @@ Fast Track is a program directed primarily at young children at high risk for an
 
 ---
 
-### 1596. Incredible Years (IY) &#8211; Teacher Classroom Management Program
+### 1596. Incredible Years (IY) – Teacher Classroom Management Program
 
 Type: report | Source: Evidence for ESSA
 Tags: early-childhood
@@ -15812,7 +15812,7 @@ Becoming a Man (BAM) is a school-based group counseling and mentoring program fo
 
 ---
 
-### 1599. Second Step &#8211; Attendance
+### 1599. Second Step – Attendance
 
 Type: report | Source: Evidence for ESSA
 Tags: attendance, sel
@@ -15842,7 +15842,7 @@ An extension of the Big Brothers Big Sisters (BBBS) community-based mentoring (C
 
 ---
 
-### 1603. Student Success Skills (Targeted) &#8211; Social-Emotional Learning
+### 1603. Student Success Skills (Targeted) – Social-Emotional Learning
 
 Type: report | Source: Evidence for ESSA
 Tags: sel
@@ -15882,7 +15882,7 @@ PowerSchool Attendance Intervention is intended to increase family engagement an
 
 ---
 
-### 1607. Future Forward Literacy &#8211; Attendance
+### 1607. Future Forward Literacy – Attendance
 
 Type: report | Source: Evidence for ESSA
 Tags: attendance, literacy, response-to-intervention
@@ -15892,7 +15892,7 @@ Future Forward is an early literacy intervention that provides a support system 
 
 ---
 
-### 1608. Positive Action &#8211; Attendance
+### 1608. Positive Action – Attendance
 
 Type: report | Source: Evidence for ESSA
 Tags: attendance, sel
@@ -15992,7 +15992,7 @@ Lindamood Phoneme Sequencing (LiPS), or Auditory Discrimination in Depth (ADD), 
 
 ---
 
-### 1618. A2i Professional Support System (formerly Individualizing Student Instruction (ISI) )
+### 1618. A2i Professional Support System (formerly Individualizing Student Instruction (ISI))
 
 Type: report | Source: Evidence for ESSA
 Tags: early-childhood, literacy, personalized-learning
@@ -19408,7 +19408,7 @@ Type: report | Source: Campbell Collaboration
 Tags: campbell-collaboration, career-readiness, inclusive-design, response-to-intervention, sel
 URL: https://www.campbellcollaboration.org/review/employment-assistance-services-persons-with-autism/
 
-\r\n Few studies but promising results on employment outcomes for individuals with autism spectrum disorders (ASD) \r\n Few studies evaluate interventions to improve employment outcomes for individuals with autism spectrum disorders (ASD). The available studies &ndash; which all have small sample sizes &ndash; suggest large effects. \r\n What is this review about? \r\n The incidence of ASD is on the rise, yet individuals with ASD are gainfully employed at disproportionately lower rates than individuals without a disability. Employment interventions are vocational programs that provide training associated with access and maintenance of employment such as interviewing or vocational/social skills training. \r\n This review looked at whether employment interventions and business-as-usual have different effects on the rates of employment. \r\n What is the aim of this review? \r\n This Campbell systematic review update examines the effects of employment interventions for people with autism spectrum disorders. The review summarizes evidence from three randomized controlled trials. \r\n What studies are included? \r\n This review uncovered three randomized studies from the USA that evaluate the effects of employment interventions for individuals with ASD. The studies spanned the period from 2014 to 2016. \r\n Do interventions improve employment rates for individuals with ASD? \r\n Yes. There is an overall improvement in employment rates for individuals with ASD that participate in vocational-related interventions. \r\n What do the findings of the review mean? \r\n The main policy-relevant findings include further consideration for how vocational rehabilitation is conducted among individuals with developmental disabilities such as ASD. Moreover, the relative paucity of empirical studies meeting inclusion criteria for this review points to an urgent need for greater funding for high-quality research and technical assistance to support the employment of individuals with ASD. \r\n How up-to-date is this review? \r\n The review authors searched for studies up to 2017.
+\r\n Few studies but promising results on employment outcomes for individuals with autism spectrum disorders (ASD) \r\n Few studies evaluate interventions to improve employment outcomes for individuals with autism spectrum disorders (ASD). The available studies – which all have small sample sizes – suggest large effects. \r\n What is this review about? \r\n The incidence of ASD is on the rise, yet individuals with ASD are gainfully employed at disproportionately lower rates than individuals without a disability. Employment interventions are vocational programs that provide training associated with access and maintenance of employment such as interviewing or vocational/social skills training. \r\n This review looked at whether employment interventions and business-as-usual have different effects on the rates of employment. \r\n What is the aim of this review? \r\n This Campbell systematic review update examines the effects of employment interventions for people with autism spectrum disorders. The review summarizes evidence from three randomized controlled trials. \r\n What studies are included? \r\n This review uncovered three randomized studies from the USA that evaluate the effects of employment interventions for individuals with ASD. The studies spanned the period from 2014 to 2016. \r\n Do interventions improve employment rates for individuals with ASD? \r\n Yes. There is an overall improvement in employment rates for individuals with ASD that participate in vocational-related interventions. \r\n What do the findings of the review mean? \r\n The main policy-relevant findings include further consideration for how vocational rehabilitation is conducted among individuals with developmental disabilities such as ASD. Moreover, the relative paucity of empirical studies meeting inclusion criteria for this review points to an urgent need for greater funding for high-quality research and technical assistance to support the employment of individuals with ASD. \r\n How up-to-date is this review? \r\n The review authors searched for studies up to 2017.
 
 ---
 
@@ -19428,7 +19428,7 @@ Type: report | Source: Campbell Collaboration
 Tags: campbell-collaboration, response-to-intervention, sel
 URL: https://www.campbellcollaboration.org/review/improving-youth-labour-market-outcomes/
 
-Active labour market programmes for youth increase employment and earnings but effects vary between programmes and context Youth are disproportionately victims of unemployment and low-quality jobs. Active labour market programmes increase earnings and employment. But the effects vary greatly between programmes&rsquo; type, design and context. What did the review study? Youth unemployment is much greater than the average unemployment rate for adults, in some cases over three times as high. Today, over 73 million young people are unemployed worldwide. Moreover, two out of five young people in the labour force are either working but poor or are unemployed. The youth employment challenge is not only about job creation, but especially about enhancing the quality of jobs for youth. This systematic review assesses the impact of youth employment interventions on the labour market outcomes of young people. The included interventions are training and skills development, entrepreneurship promotion, employment services and subsidized employment. Outcomes of interest include employment, earnings and business performance outcomes. What is the aim of this review? This Campbell systematic review examines the impact of youth employment interventions on the labour market outcomes of young people and business performance. The review summarises findings from 113 reports of 107 interventions in 31 countries. What studies are included? Included studies had to: (1) evaluate an active labour market programme (ALMP) which was designed for &ndash; or targeted primarily &ndash; young women and men aged between 15 and 35; (2) have an experimental and quasi-experimental design; and (3) report at least one eligible outcome variable measuring employment, earnings, or business performance. The evidence base covers 107 interventions in 31 countries, including 55 using skills training, 15 with entrepreneurship promotion, ten using employment services and 21 using subsidized employment. What are the main results in this review? Overall, youth employment interventions increase the employment and earnings of those youth who participate in them. But the effect is small with a lot of variation between programmes. There are significant effects for entrepreneurship promotion and skills training, but not for employment services and subsidised employment. Impacts on earnings were also positive but small and highly variable across programmes. Entrepreneurship promotion and skills training were effective in increasing earnings, while effects of employment services and subsidised employment were negligible or statistically insignificant. There is limited evidence of the effects of youth employment programmes on business performance outcomes, and the effect size was not statistically significant. In addition to the variation in impact across different types of programmes, some variation can be explained by country context, intervention design, and profile and characteristics of programme beneficiaries. The impacts of ALMPs are greater in magnitude in low- or middle-income countries than in high-income countries. Programmes targeting the most disadvantaged youth were associated with bigger programme effects, particularly for earnings outcomes, and effects were slightly larger for women than for men. What do the findings in this review mean? The evidence suggests that investing in youth through active labour market measures may pay off. Skills training and entrepreneurship promotion interventions appear to yield positive results on average. So, there are potential benefits from combining supply- and demand-side interventions to support youth in the labour market. The evidence indicates the need for careful design of youth employment interventions. The &ldquo;how&rdquo; seems to be more important than the &ldquo;what&rdquo; and, in this regard, targeting disadvantaged youth may act as a key factor for success. There is a need to strengthen the evidence base with more studies of promising programmes, especially in sub-Saharan Africa. Further research should investigate intermediate outcomes and soft skills, and should collect cost data. How up-to-date is this review? The review authors searched for studies published up to January 2015.
+Active labour market programmes for youth increase employment and earnings but effects vary between programmes and context Youth are disproportionately victims of unemployment and low-quality jobs. Active labour market programmes increase earnings and employment. But the effects vary greatly between programmes’ type, design and context. What did the review study? Youth unemployment is much greater than the average unemployment rate for adults, in some cases over three times as high. Today, over 73 million young people are unemployed worldwide. Moreover, two out of five young people in the labour force are either working but poor or are unemployed. The youth employment challenge is not only about job creation, but especially about enhancing the quality of jobs for youth. This systematic review assesses the impact of youth employment interventions on the labour market outcomes of young people. The included interventions are training and skills development, entrepreneurship promotion, employment services and subsidized employment. Outcomes of interest include employment, earnings and business performance outcomes. What is the aim of this review? This Campbell systematic review examines the impact of youth employment interventions on the labour market outcomes of young people and business performance. The review summarises findings from 113 reports of 107 interventions in 31 countries. What studies are included? Included studies had to: (1) evaluate an active labour market programme (ALMP) which was designed for – or targeted primarily – young women and men aged between 15 and 35; (2) have an experimental and quasi-experimental design; and (3) report at least one eligible outcome variable measuring employment, earnings, or business performance. The evidence base covers 107 interventions in 31 countries, including 55 using skills training, 15 with entrepreneurship promotion, ten using employment services and 21 using subsidized employment. What are the main results in this review? Overall, youth employment interventions increase the employment and earnings of those youth who participate in them. But the effect is small with a lot of variation between programmes. There are significant effects for entrepreneurship promotion and skills training, but not for employment services and subsidised employment. Impacts on earnings were also positive but small and highly variable across programmes. Entrepreneurship promotion and skills training were effective in increasing earnings, while effects of employment services and subsidised employment were negligible or statistically insignificant. There is limited evidence of the effects of youth employment programmes on business performance outcomes, and the effect size was not statistically significant. In addition to the variation in impact across different types of programmes, some variation can be explained by country context, intervention design, and profile and characteristics of programme beneficiaries. The impacts of ALMPs are greater in magnitude in low- or middle-income countries than in high-income countries. Programmes targeting the most disadvantaged youth were associated with bigger programme effects, particularly for earnings outcomes, and effects were slightly larger for women than for men. What do the findings in this review mean? The evidence suggests that investing in youth through active labour market measures may pay off. Skills training and entrepreneurship promotion interventions appear to yield positive results on average. So, there are potential benefits from combining supply- and demand-side interventions to support youth in the labour market. The evidence indicates the need for careful design of youth employment interventions. The “how” seems to be more important than the “what” and, in this regard, targeting disadvantaged youth may act as a key factor for success. There is a need to strengthen the evidence base with more studies of promising programmes, especially in sub-Saharan Africa. Further research should investigate intermediate outcomes and soft skills, and should collect cost data. How up-to-date is this review? The review authors searched for studies published up to January 2015.
 
 ---
 
@@ -19438,7 +19438,7 @@ Type: report | Source: Campbell Collaboration
 Tags: attendance, campbell-collaboration, career-readiness, response-to-intervention
 URL: https://www.campbellcollaboration.org/review/employment-interventions-after-brain-injury/
 
-Interventions for adults with traumatic brain injury may improve employment status Programs for adults who have suffered traumatic brain injury may improve employment status. All programs lead to employment, although no single program was more effective than the other programs. What is this review about? The unemployment rate in the USA for people who have suffered traumatic brain injury (TBI) was around 60% for 2001-10, compared to a national average of around 7%. Post-acute rehabilitation services &ndash; such as residential community reintegration programs, comprehensive day treatment programs, and community re-entry programs &#8211; focus on helping individuals adjust to ongoing impairments and to re-enter their communities, workplaces, and education. This review assesses the most effective type of intervention for returning individuals with TBI to work. What is the aim of this review? This Campbell systematic review examines the effectiveness of vocational rehabilitation interventions to help adults with traumatic brain injury get competitive employment. Three randomized controlled trials are included: two of military populations in the USA and one of the civilian population in China (Hong Kong). What studies are included? Studies are included which assess interventions focused on assisting helping working-aged adults with TBI return to competitive employment, including self-employment. Participants must have been between 18 and 65 years of age, experienced a non-penetrating TBI, been engaged in either full-time or part-time employment at time of injury, and been unemployed or on medical leave at time of receipt of the intervention.The studies must have competitive employment as an outcome. Three randomized controlled trials (RCT) are included in the analysis, two studying US military personnel and one of civilians in China (Hong Kong). All three studies compared alternative programmes. One compared an intensive in-hospital program versus an at-home program. The second study compared the CogSMART program plus supported employment with supported employment alone. And in the third study the control group received psycho-educational training with the treatment group receiving the same content via a virtual reality-based training platform. How effective are the programmes? None of the programs were better at improving employment outcomes than the comparator program to which it was compared. The intensive in-hospital program was no better than the at-home alternative, CogSMART added no value to supported employment alone, and virtual reality-based training was no better than psycho-educational training. Comparison of employment before and after the interventions showed the interventions in the United States improved employment status. The intervention in China did not improve employment status. None of the studies reported secondary employment outcomes: hours worked and wages earned. It was not possible to conduct analysis of the relative effectiveness of different types of programme because of the small number of included studies. What are the implications of this review for policy makers and decision makers? These three studies have limited implications for practice and policy. No intervention was found to be more effective than any other. In two of the studies the populations were limited to military subjects, who present with significantly different challenges such as posttraumatic stress disorder. The comparator interventions of at-home training and supported employment appear promising. What are the research implications of this review? There is a need for more RCTs on return-to-work interventions for adults with TBI, preferably separating competitive employment from school attendance. Military interventions should be conducted with civilian samples in order to determine their effectiveness in the civilian population, including on populations outside the United States. A broader range of employment outcomes should be studied, with regular follow up at standard intervals (e.g., six months, 12 months, 18 months, etc.). How up-to-date is this review? The search was completed in 2015.
+Interventions for adults with traumatic brain injury may improve employment status Programs for adults who have suffered traumatic brain injury may improve employment status. All programs lead to employment, although no single program was more effective than the other programs. What is this review about? The unemployment rate in the USA for people who have suffered traumatic brain injury (TBI) was around 60% for 2001-10, compared to a national average of around 7%. Post-acute rehabilitation services – such as residential community reintegration programs, comprehensive day treatment programs, and community re-entry programs – focus on helping individuals adjust to ongoing impairments and to re-enter their communities, workplaces, and education. This review assesses the most effective type of intervention for returning individuals with TBI to work. What is the aim of this review? This Campbell systematic review examines the effectiveness of vocational rehabilitation interventions to help adults with traumatic brain injury get competitive employment. Three randomized controlled trials are included: two of military populations in the USA and one of the civilian population in China (Hong Kong). What studies are included? Studies are included which assess interventions focused on assisting helping working-aged adults with TBI return to competitive employment, including self-employment. Participants must have been between 18 and 65 years of age, experienced a non-penetrating TBI, been engaged in either full-time or part-time employment at time of injury, and been unemployed or on medical leave at time of receipt of the intervention. The studies must have competitive employment as an outcome. Three randomized controlled trials (RCT) are included in the analysis, two studying US military personnel and one of civilians in China (Hong Kong). All three studies compared alternative programmes. One compared an intensive in-hospital program versus an at-home program. The second study compared the CogSMART program plus supported employment with supported employment alone. And in the third study the control group received psycho-educational training with the treatment group receiving the same content via a virtual reality-based training platform. How effective are the programmes? None of the programs were better at improving employment outcomes than the comparator program to which it was compared. The intensive in-hospital program was no better than the at-home alternative, CogSMART added no value to supported employment alone, and virtual reality-based training was no better than psycho-educational training. Comparison of employment before and after the interventions showed the interventions in the United States improved employment status. The intervention in China did not improve employment status. None of the studies reported secondary employment outcomes: hours worked and wages earned. It was not possible to conduct analysis of the relative effectiveness of different types of programme because of the small number of included studies. What are the implications of this review for policy makers and decision makers? These three studies have limited implications for practice and policy. No intervention was found to be more effective than any other. In two of the studies the populations were limited to military subjects, who present with significantly different challenges such as posttraumatic stress disorder. The comparator interventions of at-home training and supported employment appear promising. What are the research implications of this review? There is a need for more RCTs on return-to-work interventions for adults with TBI, preferably separating competitive employment from school attendance. Military interventions should be conducted with civilian samples in order to determine their effectiveness in the civilian population, including on populations outside the United States. A broader range of employment outcomes should be studied, with regular follow up at standard intervals (e.g., six months, 12 months, 18 months, etc.). How up-to-date is this review? The search was completed in 2015.
 
 ---
 
@@ -19448,7 +19448,7 @@ Type: report | Source: Campbell Collaboration
 Tags: campbell-collaboration, computer-assisted-learning, formative-assessment, inclusive-design, response-to-intervention, sel
 URL: https://www.campbellcollaboration.org/review/improve-labour-market-situation-adults-with-disabilities/
 
-Background Disability is a development issue, with widespread poverty, inequality and violation of human rights. Recent estimates suggest that more than one billion people are living with some form of disability. Persons with disabilities are over-represented among the world’s poor, and significant labour market disadvantage helps maintain the link between poverty and disability in many country contexts. The costs of disability are particularly acute in low- and middle-income countries (those with gross national income per capita of less than $12,616), where up to 80% of people with disabilities of working age can be unemployed, around twice that for their counterparts in high-income countries. When people with disabilities do work, they generally do so for longer hours and lower incomes, have fewer chances of promotion, are more likely to work in the informal labour market, and are at greater risk of becoming unemployed for longer periods. The barriers faced by people with disabilities globally in accessing and sustaining paid work is a profound social challenge. There is now growing recognition of employment as a key factor in the process of empowerment and inclusion into society, and the role of interventions to improve labour market outcomes for disabled people is receiving increased international attention. It is therefore both vital and timely to increase understanding of the impacts of available programmes, in order to ensure that they are effective in delivering positive outcomes for people with disabilities and provide value for money. Although several reviews have attempted to summarise the existing research in this area, there are a number of substantive and methodological limitations to these reviews. Thus, there is a need to systematically examine the evidence base to provide an overview of the types of interventions being used to improve employment outcomes, to identify those that are effective and ineffective, and to identify areas in which more research needs to be conducted. Objectives To describe the range and diversity of interventions available for addressing the low labour market participation of adults with physical and/or sensory disabilities in developing country contexts. To systematically identify, assess, and synthesise the evidence on the effects of interventions on labour market outcomes for disabled adults in low- and middle-income countries. As part of this, to critically analyse the evidence along the causal chain framework, linking interventions with intermediate outcomes and final impacts, and document the level/strength of evidence on potential pathways of impact using the framework. To assess if effects are moderated by characteristics of the participants, interventions, and/or settings. To provide an explanation for the intervention effects by examining what participants in the included studies reported about why the interventions did, or did not, work for them. Search methods To be included in the review, studies were required to meet several eligibility criteria. First, studies must have evaluated an intervention with the means to improve the labour market situation of adults with disabilities. Such interventions could take the form of a device, policy, programme, strategy, or other type of action. Second, studies must have investigated outcomes for adults aged 16-65 years with physical and/or sensory impairments associated with disability. Third, the study setting must have been a low-or middle-income country (L&amp;MIC). Fourth, studies must have utilised one of the following: (a) randomised experimental design, (b) rigorous quasi-experimental design that used robust methods for removing biases due to non-random assignment of treatment, or (c) quasi-experimental design that used less rigorous methods for constructing the counterfactual, including uncontrolled studies. Fifth, studies must have reported at least one quantitative employment-related outcome variable. Sixth, the date of publication or reporting of the study must have been within the period 1 January 1990 to 31 December 2013. Finally, no language or form of publication restrictions was applied. Search strategy A systematic and comprehensive search was used to locate both published and unpublished studies. Ten major bibliographic databases were electronically searched, along with 32 specialist databases and library catalogues, and 59 websites of relevant organisations. Six journals were manually searched and search engines used. The reference lists of previous reviews and included studies were examined, and forward citation checking exercises were conducted. Finally, information was requested from authors of included studies and other relevant stakeholders. Data collection and analysis Each study was subject to a rigorous process of data extraction and quality assessment, conducted independently by pairs of reviewers using a coding tool specifically designed for this review. Descriptive analysis was undertaken to examine and describe data related to the characteristics of the included studies and interventions. The findings from the included studies were combined descriptively using a narrative approach to synthesis. Results The literature search yielded a total of 20,417 potentially relevant reports, 479 of which were retrieved for full-text screening. A total of 14 studies met the eligibility criteria. Publication dates of included studies ranged between 1992 and 2012, with six studies published in the four-year period 2010-2013. Studies were conducted in nine different L&amp;MICs in Asia, Africa and Latin America: Bangladesh (three studies); Brazil (two studies); China (one study); India (four studies); Kenya (one study); Nigeria (one study); Philippines (one study); Vietnam (one study) and Zimbabwe (one study). The majority of studies examined outcomes for adults with physical impairments. There was variation in sample sizes. One study had a sample size greater than 500 participants, the sample size was between 251 and 500 in three studies, and the remaining ten studies had a sample size of less than 250. Different methodologies were employed to construct the counterfactual and evaluate the impacts of the interventions. The majority were uncontrolled before-and-after studies. One quasi-experiment (ex-post) utilised propensity score matching techniques and one study applied logistic regression to pre-test/post-test data. The remaining studies used a non-equivalent groups design. All 14 studies were assessed as high risk of bias. The 14 studies examined 15 different interventions grouped as follows: treatment &amp; therapy (four interventions); assistive devices and accommodations (two interventions); occupational rehabilitation services (four interventions); financial services (one intervention); and community-based rehabilitation (four interventions). Thirteen were multi-component programmes. All 15 interventions were targeted at people with disabilities, with some designed for people with a specific impairment or diagnosis. Six interventions targeted persons with specific types of physical impairment, and a further two interventions were available to adults with any type of physical impairment. Three interventions were targeted at persons with visual impairments. Finally, four interventions were available to persons with any/multiple impairments. Non-governmental organisations (NGOs) were the most common source of funding. The main aim of eight interventions was to improve employment prospects for persons with disabilities. The other interventions sought improvements in a wider range of outcomes. The interventions were designed and implemented on different scales, with the majority available over a large geographical area, such as one or more districts, provinces or regions. Information about duration of the interventions was often not reported, but typically they were available for periods of less than six months. All 14 studies measured relevant labour market outcomes and assessed the following impacts: motivation to work (one study); professional social skills (one study); employment participation (12 studies); self-employment (two studies); income (four studies) and hours worked (one study). Five studies measured additional outcomes: health-related outcome (four studies); social outcomes (five studies); and empowerment-related outcome (one study). Several studies relied solely on self-reported outcome data. The majority of study reports did not provide clear information about the timing of outcome measurement. Only one study examined longer-term outcomes, evaluating impacts after two and four years of participants entering the programme. In all 14 studies, the direction of effect was positive for the outcome variables measured. Five studies reported results of tests for statistical significance and indicated study findings were significant. Effects on motivation to work. One study measured this outcome. It investigated two interventions for visually impaired students. Effects on professional social skills. One study measured this outcome. It assessed a programme for persons with any type of physical impairment. Effects on paid employment. Twelve studies measured this outcome. Of these, seven studies evaluated different types of support for persons with physical disabilities, with five designed for people with a specific diagnosis or impairment. One study investigated an intervention for the visually impaired. The remaining four studies in this category evaluated interventions that were open to individuals with any/multiple types of impairments. Effects on self-employment. Two studies measured this outcome. Both studies evaluated interventions available to persons with any type of physical impairment. Effects on income. Four studies measured this outcome. Of these, three studies evaluated interventions designed for persons with physical disabilities. The remaining study focused on an intervention for the visually impaired. Effects on hours worked. One study measured this outcome. It evaluated a programme for persons with any type of physical impairment. Seven of the 14 included studies explored variation in treatment effects. The variables considered were gender (three studies), participants’ size of business (one study), impairment severity (one study), type of intervention (one study), and duration of follow-up (two studies). Four of the seven studies tested whether results were statistically significant. Overall, these seven studies were not sufficiently similar to detect meaningful differences in outcomes. Two studies investigating occupational rehabilitation services reported participants’ observations, experiences and views about why the intervention they received had worked for them. The following factors were cited: general health &amp; well-being; cooperation in the family/community; motivation; attitudes in the workplace; attitudes in the community; and appropriateness of the training. Three studies reported participants’ observations, experiences and views about why the intervention they received had not worked for them. Two examined occupational rehabilitation services and the other evaluated the provision of free wheelchairs. The following barriers to the success of the interventions were cited: discriminatory attitudes of prospective employers; attitudes of family members and/or wider community; health and well-being; physical inaccessibility (workplace and/or broader environment); lack of ‘start-up’ funds for self-employment; shortcomings of the training (i.e., mismatch between it and participant’s skills, abilities and financial resources); lack of education and skills; and motivation. Authors’ conclusions A key finding of this review is the overall scarcity of robust evidence, as indicated by the relatively few studies that met the inclusion criteria. Although the evidence in general showed positive results, we need to be wary of drawing strong inferences from the findings of this body of literature. Not only is the number of impact evaluations limited, but most used designs in which conclusively attributing causality is not possible. Our assessment of the evidence does not allow us to develop practical suggestions on what interventions are likely to work, for whom, and when. Clearly, there is an urgent need for investment in high quality impact evaluations of interventions to support people with disabilities in accessing the labour market in low- and middle-income settings. To build the evidence base further, it is therefore important that many more of the interventions currently in existence in low- and middle-income countries are rigorously evaluated, and the results are reported and disseminated widely. The methodological inconsistencies and weaknesses of the current evidence base, and specific knowledge gaps, suggest a number of future research priorities.
+Background Disability is a development issue, with widespread poverty, inequality and violation of human rights. Recent estimates suggest that more than one billion people are living with some form of disability. Persons with disabilities are over-represented among the world’s poor, and significant labour market disadvantage helps maintain the link between poverty and disability in many country contexts. The costs of disability are particularly acute in low- and middle-income countries (those with gross national income per capita of less than $12,616), where up to 80% of people with disabilities of working age can be unemployed, around twice that for their counterparts in high-income countries. When people with disabilities do work, they generally do so for longer hours and lower incomes, have fewer chances of promotion, are more likely to work in the informal labour market, and are at greater risk of becoming unemployed for longer periods. The barriers faced by people with disabilities globally in accessing and sustaining paid work is a profound social challenge. There is now growing recognition of employment as a key factor in the process of empowerment and inclusion into society, and the role of interventions to improve labour market outcomes for disabled people is receiving increased international attention. It is therefore both vital and timely to increase understanding of the impacts of available programmes, in order to ensure that they are effective in delivering positive outcomes for people with disabilities and provide value for money. Although several reviews have attempted to summarise the existing research in this area, there are a number of substantive and methodological limitations to these reviews. Thus, there is a need to systematically examine the evidence base to provide an overview of the types of interventions being used to improve employment outcomes, to identify those that are effective and ineffective, and to identify areas in which more research needs to be conducted. Objectives To describe the range and diversity of interventions available for addressing the low labour market participation of adults with physical and/or sensory disabilities in developing country contexts. To systematically identify, assess, and synthesise the evidence on the effects of interventions on labour market outcomes for disabled adults in low- and middle-income countries. As part of this, to critically analyse the evidence along the causal chain framework, linking interventions with intermediate outcomes and final impacts, and document the level/strength of evidence on potential pathways of impact using the framework. To assess if effects are moderated by characteristics of the participants, interventions, and/or settings. To provide an explanation for the intervention effects by examining what participants in the included studies reported about why the interventions did, or did not, work for them. Search methods To be included in the review, studies were required to meet several eligibility criteria. First, studies must have evaluated an intervention with the means to improve the labour market situation of adults with disabilities. Such interventions could take the form of a device, policy, programme, strategy, or other type of action. Second, studies must have investigated outcomes for adults aged 16-65 years with physical and/or sensory impairments associated with disability. Third, the study setting must have been a low-or middle-income country (L&MIC). Fourth, studies must have utilised one of the following: (a) randomised experimental design, (b) rigorous quasi-experimental design that used robust methods for removing biases due to non-random assignment of treatment, or (c) quasi-experimental design that used less rigorous methods for constructing the counterfactual, including uncontrolled studies. Fifth, studies must have reported at least one quantitative employment-related outcome variable. Sixth, the date of publication or reporting of the study must have been within the period 1 January 1990 to 31 December 2013. Finally, no language or form of publication restrictions was applied. Search strategy A systematic and comprehensive search was used to locate both published and unpublished studies. Ten major bibliographic databases were electronically searched, along with 32 specialist databases and library catalogues, and 59 websites of relevant organisations. Six journals were manually searched and search engines used. The reference lists of previous reviews and included studies were examined, and forward citation checking exercises were conducted. Finally, information was requested from authors of included studies and other relevant stakeholders. Data collection and analysis Each study was subject to a rigorous process of data extraction and quality assessment, conducted independently by pairs of reviewers using a coding tool specifically designed for this review. Descriptive analysis was undertaken to examine and describe data related to the characteristics of the included studies and interventions. The findings from the included studies were combined descriptively using a narrative approach to synthesis. Results The literature search yielded a total of 20,417 potentially relevant reports, 479 of which were retrieved for full-text screening. A total of 14 studies met the eligibility criteria. Publication dates of included studies ranged between 1992 and 2012, with six studies published in the four-year period 2010-2013. Studies were conducted in nine different L&MICs in Asia, Africa and Latin America: Bangladesh (three studies); Brazil (two studies); China (one study); India (four studies); Kenya (one study); Nigeria (one study); Philippines (one study); Vietnam (one study) and Zimbabwe (one study). The majority of studies examined outcomes for adults with physical impairments. There was variation in sample sizes. One study had a sample size greater than 500 participants, the sample size was between 251 and 500 in three studies, and the remaining ten studies had a sample size of less than 250. Different methodologies were employed to construct the counterfactual and evaluate the impacts of the interventions. The majority were uncontrolled before-and-after studies. One quasi-experiment (ex-post) utilised propensity score matching techniques and one study applied logistic regression to pre-test/post-test data. The remaining studies used a non-equivalent groups design. All 14 studies were assessed as high risk of bias. The 14 studies examined 15 different interventions grouped as follows: treatment & therapy (four interventions); assistive devices and accommodations (two interventions); occupational rehabilitation services (four interventions); financial services (one intervention); and community-based rehabilitation (four interventions). Thirteen were multi-component programmes. All 15 interventions were targeted at people with disabilities, with some designed for people with a specific impairment or diagnosis. Six interventions targeted persons with specific types of physical impairment, and a further two interventions were available to adults with any type of physical impairment. Three interventions were targeted at persons with visual impairments. Finally, four interventions were available to persons with any/multiple impairments. Non-governmental organisations (NGOs) were the most common source of funding. The main aim of eight interventions was to improve employment prospects for persons with disabilities. The other interventions sought improvements in a wider range of outcomes. The interventions were designed and implemented on different scales, with the majority available over a large geographical area, such as one or more districts, provinces or regions. Information about duration of the interventions was often not reported, but typically they were available for periods of less than six months. All 14 studies measured relevant labour market outcomes and assessed the following impacts: motivation to work (one study); professional social skills (one study); employment participation (12 studies); self-employment (two studies); income (four studies) and hours worked (one study). Five studies measured additional outcomes: health-related outcome (four studies); social outcomes (five studies); and empowerment-related outcome (one study). Several studies relied solely on self-reported outcome data. The majority of study reports did not provide clear information about the timing of outcome measurement. Only one study examined longer-term outcomes, evaluating impacts after two and four years of participants entering the programme. In all 14 studies, the direction of effect was positive for the outcome variables measured. Five studies reported results of tests for statistical significance and indicated study findings were significant. Effects on motivation to work. One study measured this outcome. It investigated two interventions for visually impaired students. Effects on professional social skills. One study measured this outcome. It assessed a programme for persons with any type of physical impairment. Effects on paid employment. Twelve studies measured this outcome. Of these, seven studies evaluated different types of support for persons with physical disabilities, with five designed for people with a specific diagnosis or impairment. One study investigated an intervention for the visually impaired. The remaining four studies in this category evaluated interventions that were open to individuals with any/multiple types of impairments. Effects on self-employment. Two studies measured this outcome. Both studies evaluated interventions available to persons with any type of physical impairment. Effects on income. Four studies measured this outcome. Of these, three studies evaluated interventions designed for persons with physical disabilities. The remaining study focused on an intervention for the visually impaired. Effects on hours worked. One study measured this outcome. It evaluated a programme for persons with any type of physical impairment. Seven of the 14 included studies explored variation in treatment effects. The variables considered were gender (three studies), participants’ size of business (one study), impairment severity (one study), type of intervention (one study), and duration of follow-up (two studies). Four of the seven studies tested whether results were statistically significant. Overall, these seven studies were not sufficiently similar to detect meaningful differences in outcomes. Two studies investigating occupational rehabilitation services reported participants’ observations, experiences and views about why the intervention they received had worked for them. The following factors were cited: general health & well-being; cooperation in the family/community; motivation; attitudes in the workplace; attitudes in the community; and appropriateness of the training. Three studies reported participants’ observations, experiences and views about why the intervention they received had not worked for them. Two examined occupational rehabilitation services and the other evaluated the provision of free wheelchairs. The following barriers to the success of the interventions were cited: discriminatory attitudes of prospective employers; attitudes of family members and/or wider community; health and well-being; physical inaccessibility (workplace and/or broader environment); lack of ‘start-up’ funds for self-employment; shortcomings of the training (i.e., mismatch between it and participant’s skills, abilities and financial resources); lack of education and skills; and motivation. Authors’ conclusions A key finding of this review is the overall scarcity of robust evidence, as indicated by the relatively few studies that met the inclusion criteria. Although the evidence in general showed positive results, we need to be wary of drawing strong inferences from the findings of this body of literature. Not only is the number of impact evaluations limited, but most used designs in which conclusively attributing causality is not possible. Our assessment of the evidence does not allow us to develop practical suggestions on what interventions are likely to work, for whom, and when. Clearly, there is an urgent need for investment in high quality impact evaluations of interventions to support people with disabilities in accessing the labour market in low- and middle-income settings. To build the evidence base further, it is therefore important that many more of the interventions currently in existence in low- and middle-income countries are rigorously evaluated, and the results are reported and disseminated widely. The methodological inconsistencies and weaknesses of the current evidence base, and specific knowledge gaps, suggest a number of future research priorities.
 
 ---
 
@@ -19458,7 +19458,7 @@ Type: report | Source: Campbell Collaboration
 Tags: attendance, campbell-collaboration, career-readiness, response-to-intervention, sel
 URL: https://www.campbellcollaboration.org/review/interventions-to-facilitate-employment-cancer-survivors/
 
-Employment status of cancer survivors improve with multi-component support programmes There is promising evidence that psychosocial interventions may improve employment status for cancer survivors, but don&rsquo;t have an effect on hours of work or sick leave. These interventions range from information sessions and vocational training workshops to counselling and physical therapy. What is the review about? Employment is an important stabilizing factor for cancer survivors. A study from 2009 showed that the rate of unemployment among cancer survivors is 34 percent, more than twice that of a comparable healthy population. This Campbell review estimates the effects of psychosocial interventions for adult cancer survivors. It focuses on interventions to improve employment outcomes such as employment status, return-to-work, absenteeism and time spent on sick leave. What is the aim of this review? This Campbell systematic review reports the effects of psychosocial interventions on employment outcomes for cancer survivors. The review summarises findings from 12 studies covering 2,151 cancer survivors. What studies are included? This review includes 12 studies published between 1980 and 2013 that evaluate the effects of psychosocial interventions on the employment of cancer survivors. Eight of the studies are randomised controlled trials and four are quasi-experimental studies. Due to the nature of the disease, cancer survivors tend to be older. The majority of studies had participants over the age of 50. What were the main findings of the review? What kinds of psychosocial interventions are there? Interventions include education, training, psychological support, environmental adjustments or accommodations, flexible or job-sharing work conditions, or job search and placement assistance. Most interventions include more than one component to address barriers to employment. What do the findings in this review mean? Whilst there are too few studies to provide evidence in support of specific practices, multi-component interventions that incorporate information or education training, counselling or coping skills sessions and also physical exercise may be the best way to benefit cancer survivors&rsquo; employment outcomes. Additional research should focus on trials that collect information on employment status and not solely self-reported measures of quality of life. Studies should also describe in more detail an intervention&rsquo;s features and duration. How up-to-date is this review? The review authors searched for studies published until 2013.
+Employment status of cancer survivors improve with multi-component support programmes There is promising evidence that psychosocial interventions may improve employment status for cancer survivors, but don’t have an effect on hours of work or sick leave. These interventions range from information sessions and vocational training workshops to counselling and physical therapy. What is the review about? Employment is an important stabilizing factor for cancer survivors. A study from 2009 showed that the rate of unemployment among cancer survivors is 34 percent, more than twice that of a comparable healthy population. This Campbell review estimates the effects of psychosocial interventions for adult cancer survivors. It focuses on interventions to improve employment outcomes such as employment status, return-to-work, absenteeism and time spent on sick leave. What is the aim of this review? This Campbell systematic review reports the effects of psychosocial interventions on employment outcomes for cancer survivors. The review summarises findings from 12 studies covering 2,151 cancer survivors. What studies are included? This review includes 12 studies published between 1980 and 2013 that evaluate the effects of psychosocial interventions on the employment of cancer survivors. Eight of the studies are randomised controlled trials and four are quasi-experimental studies. Due to the nature of the disease, cancer survivors tend to be older. The majority of studies had participants over the age of 50. What were the main findings of the review? What kinds of psychosocial interventions are there? Interventions include education, training, psychological support, environmental adjustments or accommodations, flexible or job-sharing work conditions, or job search and placement assistance. Most interventions include more than one component to address barriers to employment. What do the findings in this review mean? Whilst there are too few studies to provide evidence in support of specific practices, multi-component interventions that incorporate information or education training, counselling or coping skills sessions and also physical exercise may be the best way to benefit cancer survivors’ employment outcomes. Additional research should focus on trials that collect information on employment status and not solely self-reported measures of quality of life. Studies should also describe in more detail an intervention’s features and duration. How up-to-date is this review? The review authors searched for studies published until 2013.
 
 ---
 
@@ -19468,7 +19468,7 @@ Type: report | Source: Campbell Collaboration
 Tags: campbell-collaboration, response-to-intervention
 URL: https://www.campbellcollaboration.org/review/farmer-field-schools-systematic-review/
 
-Farmer field schools improve agricultural practices, yields and incomes in small pilot programmes, but not in large-scale programmes Farmer field schools improve farmers&rsquo; knowledge and adoption of better practices, and increase agricultural production and income. However, knowledge of better practices does not spread to neighbouring farmers who do not participate in the program, and large-scale programmes are not effective. What is this review about? The purpose of farmer field schools is to improve farmers&rsquo; skills to empower them to make better decisions. Different programmes have different objectives, but they often aim to reduce pesticides use, promote better farming practices and boost yields or income. Field schools use facilitators who employ participatory, experiential learning methods over an entire growing season. For example, farmer field schools use &lsquo;practice plots&rsquo; where farmers can compare results from different farming methods. In contrast to traditional agricultural extension projects, which mainly teach simple practices such as applying fertilisers, farmer field schools often teach holistic techniques, such as integrated pest management. Farmer field schools have been widely used across Asia, Africa and Latin America, reaching an estimated 10&ndash;15 million farmers. This review examines the effectiveness of farmer field schools in changing farmer knowledge and practice, and improving yields, income, environmental impact and farmer empowerment. What is the aim of this review? This Campbell systematic review examines the effectiveness of farmer field schools in improving intermediate outcomes (such as knowledge and pesticide use) and final outcomes (such as agricultural yields, incomes and empowerment) in low- and middle-income countries, as well as implementation factors associated with programme success and failure. The review sythesises evidence from 92 impact evaluations, of which 15 were of sufficient quality for policy-oriented findings, and 20 qualitative studies. What studies are included? The review includes 92 impact evaluation studies conducted in low or middle-income countries. The review also includes 20 qualitative evaluations of the barriers to and enablers of change in farmer field school projects. What are the effects of farmer field schools on agricultural and environmental outcomes? Farmer field schools improve farmers&rsquo; knowledge and adoption of beneficial practices, and reduce overuse of pesticides. This leads to positive outcomes for farmers: on average, a 13% increase in agricultural yields and a 20% increase in income. Farmer field schools also reduce pesticide use and environmental degradation. However, the evidence for these outcomes comes from short-term evaluations of pilot programmes, and no studies with a low risk of bias are available. In programmes that were delivered at a national scale, studies conducted more than two years after implementation did not show any positive outcomes from the programme. For large-scale programmes, recruiting and training appropriate facilitators was problematic. What are other outcomes of farmer field schools? Empowerment is a major objective of many farmer field schools, but few rigorous studies collected information on this outcome. A few qualitative studies suggest participating farmers feel more confident. Farmers who do not participate in farmer field schools do not learn from neighbours who do participate. The complex concepts taught in farmer field schools may be difficult to learn through conversations and self-study, so the experience gained in farmer field schools may be a key reason the intervention works. What do the findings in this review mean? Farmer field schools can be effective in specific contexts and may be suitable for gradual scale-up, but are unlikely to be suitable for large-scale problems. However, the evidence base on large-scale implementation of farmer field schools is limited. Hence more rigorous studies, examining the implementation and effectiveness of nationwide programmes, are needed. How up-to-date is this review? The review authors searched for studies published until October 2012.
+Farmer field schools improve agricultural practices, yields and incomes in small pilot programmes, but not in large-scale programmes Farmer field schools improve farmers’ knowledge and adoption of better practices, and increase agricultural production and income. However, knowledge of better practices does not spread to neighbouring farmers who do not participate in the program, and large-scale programmes are not effective. What is this review about? The purpose of farmer field schools is to improve farmers’ skills to empower them to make better decisions. Different programmes have different objectives, but they often aim to reduce pesticides use, promote better farming practices and boost yields or income. Field schools use facilitators who employ participatory, experiential learning methods over an entire growing season. For example, farmer field schools use ‘practice plots’ where farmers can compare results from different farming methods. In contrast to traditional agricultural extension projects, which mainly teach simple practices such as applying fertilisers, farmer field schools often teach holistic techniques, such as integrated pest management. Farmer field schools have been widely used across Asia, Africa and Latin America, reaching an estimated 10–15 million farmers. This review examines the effectiveness of farmer field schools in changing farmer knowledge and practice, and improving yields, income, environmental impact and farmer empowerment. What is the aim of this review? This Campbell systematic review examines the effectiveness of farmer field schools in improving intermediate outcomes (such as knowledge and pesticide use) and final outcomes (such as agricultural yields, incomes and empowerment) in low- and middle-income countries, as well as implementation factors associated with programme success and failure. The review sythesises evidence from 92 impact evaluations, of which 15 were of sufficient quality for policy-oriented findings, and 20 qualitative studies. What studies are included? The review includes 92 impact evaluation studies conducted in low or middle-income countries. The review also includes 20 qualitative evaluations of the barriers to and enablers of change in farmer field school projects. What are the effects of farmer field schools on agricultural and environmental outcomes? Farmer field schools improve farmers’ knowledge and adoption of beneficial practices, and reduce overuse of pesticides. This leads to positive outcomes for farmers: on average, a 13% increase in agricultural yields and a 20% increase in income. Farmer field schools also reduce pesticide use and environmental degradation. However, the evidence for these outcomes comes from short-term evaluations of pilot programmes, and no studies with a low risk of bias are available. In programmes that were delivered at a national scale, studies conducted more than two years after implementation did not show any positive outcomes from the programme. For large-scale programmes, recruiting and training appropriate facilitators was problematic. What are other outcomes of farmer field schools? Empowerment is a major objective of many farmer field schools, but few rigorous studies collected information on this outcome. A few qualitative studies suggest participating farmers feel more confident. Farmers who do not participate in farmer field schools do not learn from neighbours who do participate. The complex concepts taught in farmer field schools may be difficult to learn through conversations and self-study, so the experience gained in farmer field schools may be a key reason the intervention works. What do the findings in this review mean? Farmer field schools can be effective in specific contexts and may be suitable for gradual scale-up, but are unlikely to be suitable for large-scale problems. However, the evidence base on large-scale implementation of farmer field schools is limited. Hence more rigorous studies, examining the implementation and effectiveness of nationwide programmes, are needed. How up-to-date is this review? The review authors searched for studies published until October 2012.
 
 ---
 

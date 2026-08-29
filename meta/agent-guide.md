@@ -24,7 +24,7 @@ Don't start indexing without checking these first:
 - **`docs/schema.md`** — entry format and full tag vocabulary.
 
 For workflow:
-- **`meta/automation-prompt.md`** — the weekly all-source check. Runs as a cloud routine; also runnable interactively.
+- **`scripts/update.sh`** — the weekly all-source check (scrape → process → verify new URLs → build). `meta/automation-prompt.md` is the retired routine prompt, kept for history.
 - **`meta/backlog-prompt.md`** — expanding coverage for a single source that already has entries.
 - **`meta/automation-log.md`** — run-by-run log of weekly automated checks.
 - **`meta/processing-log.md`** — auto-appended by `process_staged.py`; records every batch scraped and processed.
@@ -50,7 +50,8 @@ scripts/                       # all Python tooling
   process_staged.py           # processes staged JSON into hub.db
   verify_urls.py              # domain-aware URL verification
   source_check.py             # pre-flight source accessibility probe
-  playwright_scrape.py        # scraper for JS-rendered sources (TNTP, Digital Promise)
+  playwright_scrape.py        # legacy Playwright scraper (optional dependency; no current source needs it)
+  update.sh                   # weekly wrapper: scrape -> process -> verify -> build
 sources/                       # per-source configs + profiles
   {source}.json               # machine-readable scraping config
   {source}.md                 # human-readable source profile
@@ -61,7 +62,7 @@ data/                          # database and data files
   broken-urls.json            # known broken URLs from verify_urls.py
 meta/                          # operational docs, prompts, guides, logs
   agent-guide.md              # THIS FILE — operational master reference
-  automation-prompt.md        # self-contained prompt for the weekly cloud routine
+  automation-prompt.md        # retired routine prompt (history)
   automation-log.md           # append-only log of weekly automated runs
   backlog-prompt.md           # self-contained prompt for backlog expansion
   sources-inventory.md        # full source catalog with access notes
@@ -109,7 +110,7 @@ This file no longer maintains a hand-curated per-source entry table — it drift
 2. `python scripts/process_staged.py {source}` — inserts entries into hub.db with auto-tagging, logs to `processing-log.md`
 3. `python scripts/build_from_db.py` — rebuilds all published files (`llms-full.txt`, `llms.txt`, `data.json`, `tags/`, `gem-knowledge.txt`) from hub.db
 
-scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption, early-stop (paginated/API sources stop after 3 consecutive or 5 total already-indexed URLs on a page; `--pages` is the hard cap, `--no-diff` disables).
+scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption, early-stop (opt-in per config with `"early_stop": true` for listings known to be newest-first: stop after 3 consecutive or 5 total already-indexed URLs on a page; `--pages` is the hard cap, `--no-diff` disables). Backlog items are written into the staging JSON and recorded by `process_staged.py` as excluded `no_description_pending` rows.
 
 When a source's state materially changes (new source added, indexed count crosses a hundred-mark, access method changes), update the right canonical file — `source-targets.json` for coverage, `source-audit.md` for access, `sources-log.md` for attempt history — and let `docs/data.json` regenerate. Don't try to maintain a parallel table here.
 
@@ -121,7 +122,7 @@ When a source's state materially changes (new source added, indexed count crosse
 
 ### Pending work / backlog
 
-Major backlogs resolved (2026-06-15): WWC Tier -1 (1,088 excluded — no qualifying studies), ESSA No Evidence (1,134 excluded — empty descriptions), Mathematica no-description (97 excluded — no API summary or page content). Campbell filtered to education-only (52 active, 255 non-education excluded). JEDM/JLA removed (83 excluded — journals, not resource hubs).
+Major backlogs resolved (2026-06-15): WWC Tier -1 (1,088 excluded — no qualifying studies), ESSA No Evidence (1,134 excluded — empty descriptions), Mathematica no-description (97 excluded — no API summary or page content). Campbell filtered to education-only (52 active, 255 non-education excluded). JEDM/JLA reinstated 2026-08-28 as a frozen selective set (78 active; not scraped).
 
 Remaining: CASEL (~326 in progress), NAP (needs Playwright), IES REL (needs ERIC API config).
 
@@ -224,7 +225,7 @@ Use only tags from this controlled vocabulary. Do not invent new tags without up
 `student-belonging` `math-motivation` `pii-privacy` `data-sharing` `professional-development` `formative-assessment` `digital-learning-platforms` `math-strategies` `personalized-learning` `attendance` `prekindergarten` `math-word-problems` `genai-tutoring` `open-datasets` `ai-policy` `ai-ethics` `inclusive-design` `sel` `writing-instruction` `college-access` `career-readiness` `dropout-prevention`
 
 **Affiliation** (producing organization)
-`rppl` `upgrade-platform` `carnegie-learning` `khan-academy` `lsu` `northwestern-e4` `norc` `lastinger-center` `aims` `tla` `cmu-learnlab` `assistments` `cosn` `wwc` `unesco` `cast` `iste-ascd` `digital-promise` `duolingo` `jedm` `lpi` `nap` `edtrust` `casel`
+`rppl` `upgrade-platform` `carnegie-learning` `khan-academy` `lsu` `northwestern-e4` `norc` `lastinger-center` `aims` `tla` `cmu-learnlab` `assistments` `cosn` `wwc` `unesco` `cast` `iste-ascd` `digital-promise` `duolingo` `jedm` `jla` `lpi` `nap` `edtrust` `casel` `campbell-collaboration` `brookings`
 
 To add a new tag: add it to the correct category in `schema.md` AND to `TAG_CATEGORIES` in `build_from_db.py`.
 
@@ -248,13 +249,13 @@ To add a new tag: add it to the correct category in `schema.md` AND to `TAG_CATE
 | Campbell Collaboration | `https://campbellcollaboration.org/better-evidence/education-[slug].html` | Browse `/our-work/education/` listing; also try `/better-evidence/` search |
 | Brookings (Brown Center) | `https://www.brookings.edu/articles/[slug]` | Sitemap at `brookings.edu/sitemap_index.xml`; curate manually from Brown Center listings |
 | IES REL | `https://ies.ed.gov/ncee/rel/Products/Publication/[ID]` | Regional listing pages at `ies.ed.gov/ncee/rel/regions/[region]` |
-| Digital Promise (DSpace) | `https://digitalpromise.dspacedirect.org/items/[UUID]` | REST API: `/server/api/discover/search/objects?scope=8b62a46e...&dsoType=item`; Playwright required to render |
+| Digital Promise (DSpace) | `https://digitalpromise.dspacedirect.org/items/[UUID]` | REST API `/server/api/discover/search/objects?dsoType=item&sort=dc.date.accessioned,DESC` via plain `requests` (no Playwright). Config: `sources/digital-promise.json` |
 
 ### Known blocked sources
 
 | Source | Status | Workaround |
 |---|---|---|
-| Digital Promise (DSpace via WebFetch) | Returns 202 + empty body (Angular SPA — JS not executed) | Use Playwright: `wait_for_selector('ds-item-page')` after `networkidle` |
+| Digital Promise (DSpace via WebFetch) | Returns 202 + empty body (Angular SPA — JS not executed); WebFetch's UA is also 403'd by the API | Use the REST API through `scripts/scrape.py digital-promise` (`requests` works) |
 | RAND | robots.txt returns 403 | Use Unpaywall with DOI to find OA versions |
 | MDRC | WAF blocks automated requests | Use Unpaywall + DOI |
 | Child Trends | Explicitly blocks Claude/Anthropic in robots.txt | Dead end |

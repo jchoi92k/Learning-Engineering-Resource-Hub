@@ -1,13 +1,11 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in wested.md.",
-
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in wested.md. Library listing is newest-first, so early_stop is declared.",
   "discovery": "pagination",
   "discovery_url": "https://www.wested.org/resources/library/",
   "pagination": {
     "param": "_paged",
     "start": 1
   },
-
   "selectors": {
     "item": ".item-main",
     "title": "h2 a",
@@ -15,13 +13,14 @@
     "type": ".tax-term",
     "blurb": ".excerpt"
   },
-
   "robots_txt": "https://www.wested.org/robots.txt",
-  "robots_disallow": ["/wp-admin/"],
-
+  "robots_disallow": [
+    "/wp-admin/"
+  ],
   "test": {
     "url": "https://www.wested.org/resources/library/?_paged=1",
     "expected_item_count": 9,
     "expected_first_title_contains": ""
-  }
+  },
+  "early_stop": true
 }

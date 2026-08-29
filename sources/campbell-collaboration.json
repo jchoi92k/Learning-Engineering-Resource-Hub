@@ -1,17 +1,23 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in campbell-collaboration.md.",
-
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in campbell-collaboration.md. orderby/order make the newest-first assumption behind early_stop explicit.",
   "discovery": "api",
   "discovery_url": "https://www.campbellcollaboration.org/wp-json/wp/v2/review",
-
   "url_filter": {
     "url": "https://www.campbellcollaboration.org/education/reviews/",
     "slug_prefix": "/review/"
   },
-
   "api": {
-    "params": {"per_page": 100, "_fields": "id,slug,title,link,content"},
-    "pagination": {"param": "page", "start": 1, "pages": 4},
+    "params": {
+      "per_page": 100,
+      "_fields": "id,slug,title,link,content",
+      "orderby": "date",
+      "order": "desc"
+    },
+    "pagination": {
+      "param": "page",
+      "start": 1,
+      "pages": 4
+    },
     "json_paths": {
       "items": "",
       "title": "title/rendered",
@@ -19,11 +25,10 @@
       "description": "content/rendered"
     }
   },
-
   "robots_txt": "https://www.campbellcollaboration.org/robots.txt",
-
   "test": {
     "url": "https://www.campbellcollaboration.org/wp-json/wp/v2/review?per_page=5&page=1&_fields=id,slug,title,link,content",
     "expected_min_results": 5
-  }
+  },
+  "early_stop": true
 }

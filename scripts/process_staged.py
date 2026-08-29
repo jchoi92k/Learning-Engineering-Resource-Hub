@@ -3,7 +3,11 @@
 Process staged JSON from scrape.py into hub.db.
 
 Handles mechanical tagging (source affiliation, grade level, keyword matching)
-and inserts entries into the SQLite database.
+and inserts entries into the SQLite database. Backlog items (found on the
+listing but without a usable description) are inserted as excluded rows with
+exclude_reason='no_description_pending' so scrape.py's diff and early-stop
+treat them as known and they stop showing up as "new" every run; a later
+backfill fills the description and clears `excluded`.
 
 Usage:
     python scripts/process_staged.py wwc                # process all ready items
@@ -28,6 +32,7 @@ DB_PATH = REPO_ROOT / "data" / "hub.db"
 PROCESSING_LOG = REPO_ROOT / "meta" / "processing-log.md"
 
 TODAY = date.today().isoformat()
+PENDING_REASON = "no_description_pending"
 
 SOURCE_TAG_MAP = {
     "wwc": "wwc",
@@ -161,6 +166,30 @@ def infer_type(item):
     return TYPE_MAP.get(raw, "report")
 
 
+def insert_backlog_rows(conn, backlog_items, source_name, start_num):
+    """Insert backlog items as excluded, pending rows. Skips URLs already in
+    hub.db (active or excluded) and repeats within the batch. Returns
+    (inserted_count, last_num_used)."""
+    existing = {r[0] for r in conn.execute("SELECT url FROM entries")}
+    num = start_num
+    inserted = 0
+    for item in backlog_items:
+        url = (item.get("url") or "").strip()
+        if not url or url in existing:
+            continue
+        existing.add(url)
+        title = (item.get("title") or "").strip() or url
+        conn.execute("""
+            INSERT INTO entries (num, title, url, type, source, url_confirmed,
+                description_inferred, date_added, doi, license, description,
+                url_status, excluded, exclude_reason)
+            VALUES (?, ?, ?, ?, ?, 0, 0, ?, NULL, NULL, '', 'unverified', 1, ?)
+        """, (num, title, url, infer_type(item), source_name, TODAY, PENDING_REASON))
+        num += 1
+        inserted += 1
+    return inserted, num - 1
+
+
 def infer_tags(item, source):
     tags = []
     src_tag = SOURCE_TAG_MAP.get(source)
@@ -207,8 +236,9 @@ def main():
         data = json.load(f)
 
     items = data.get("items", [])
-    if not items:
-        print("No ready items in staged file.")
+    backlog = data.get("backlog_items", [])
+    if not items and not backlog:
+        print("No ready or backlog items in staged file.")
         return
 
     items = items[args.offset:]
@@ -250,10 +280,6 @@ def main():
     if len(deduped) < len(items):
         print(f"[process] Skipped {len(items) - len(deduped)} duplicate URLs already in hub.db or repeated in batch")
     items = deduped
-    if not items:
-        print("[process] Nothing new to insert.")
-        conn.close()
-        return
 
     inserted = 0
     for i, item in enumerate(items):
@@ -275,27 +301,39 @@ def main():
 
         inserted += 1
 
-    conn.commit()
     end_num = start_num + inserted - 1
+    if inserted:
+        print(f"[process] Inserted {inserted} entries ({start_num}-{end_num}) into hub.db")
+    else:
+        print("[process] Nothing new to insert.")
+
+    pending, pending_end = insert_backlog_rows(conn, backlog, source_name, start_num + inserted)
+    if pending:
+        print(f"[process] Backlog: {pending} pending rows ({start_num + inserted}-{pending_end}) "
+              f"inserted as excluded ({PENDING_REASON})")
+    conn.commit()
     conn.close()
 
-    print(f"[process] Inserted {inserted} entries ({start_num}-{end_num}) into hub.db")
-    print("[process] Next: run `python scripts/build_from_db.py`")
+    if inserted or pending:
+        print("[process] Next: run `python scripts/build_from_db.py`")
+        write_log(args.source, data, items, start_num, end_num, pending)
 
-    write_log(args.source, data, items, start_num, end_num)
 
-
-def write_log(source, staged_data, items, start_num, end_num):
+def write_log(source, staged_data, items, start_num, end_num, pending=0):
     source_name = SOURCE_NAME_MAP.get(source, source)
     total_staged = staged_data.get("total_ready", 0) + staged_data.get("total_backlog", 0)
     ready = staged_data.get("total_ready", 0)
     backlog = staged_data.get("total_backlog", 0)
 
+    processed = f"- Processed: {len(items)} entries"
+    if items:
+        processed += f" ({start_num}-{end_num})"
     entry = (
         f"\n## {TODAY} - {source_name}\n"
         f"- Source slug: `{source}`\n"
         f"- Scraped: {total_staged} total, {ready} ready, {backlog} backlog\n"
-        f"- Processed: {len(items)} entries ({start_num}-{end_num})\n"
+        f"{processed}\n"
+        f"- Backlog rows recorded as pending (excluded): {pending}\n"
         f"- Tags: keyword auto-tagged\n"
     )
 

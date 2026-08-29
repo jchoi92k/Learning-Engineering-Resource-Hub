@@ -1,10 +1,11 @@
-# Python dependencies for the scraping/build pipeline (scripts/).
+# Python dependencies for the scraping/build pipeline (scripts/). Python 3.12 (.python-version).
 # Install: pip install -r requirements.txt
-# Playwright additionally needs a one-time browser install: playwright install chromium
 
 requests>=2.31
 beautifulsoup4>=4.12
-playwright>=1.40
+
+# Optional, only for scripts/playwright_scrape.py (no current source config needs it):
+#   pip install playwright && playwright install chromium
 
 # Dev tools (tests and linting): pip install pytest ruff
 # Run: python -m pytest tests/ -q && ruff check scripts/ tests/

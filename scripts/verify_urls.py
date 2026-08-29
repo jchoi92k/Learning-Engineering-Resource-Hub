@@ -16,7 +16,7 @@ Usage:
     python scripts/verify_urls.py --auto-exclude # auto-exclude confirmed-broken (404/410) URLs
     python scripts/verify_urls.py --min-num 5400 # only entries with num > 5400 (rows added this run)
 
-Results written directly to data/hub.db.
+Excluded rows are never checked. Results written directly to data/hub.db.
 """
 import argparse
 import json
@@ -229,20 +229,23 @@ def main():
 
     conn = get_db()
 
+    # Excluded rows (no-evidence programs, out-of-scope, pending backlog items) are
+    # kept only for dedup; they are never published, so never spend requests on them.
     if args.recheck:
-        rows = conn.execute("SELECT num, url, title, source FROM entries WHERE url_status IN ('broken', 'flagged')").fetchall()
+        rows = conn.execute("SELECT num, url, title, source FROM entries WHERE excluded = 0 AND url_status IN ('broken', 'flagged')").fetchall()
     elif args.all:
-        rows = conn.execute("SELECT num, url, title, source FROM entries").fetchall()
+        rows = conn.execute("SELECT num, url, title, source FROM entries WHERE excluded = 0").fetchall()
     elif args.stale:
         cutoff = TODAY
         rows = conn.execute("""
             SELECT num, url, title, source FROM entries
-            WHERE url_status = 'unverified'
+            WHERE excluded = 0 AND (
+                  url_status = 'unverified'
                OR last_verified IS NULL
-               OR last_verified <= date(?, '-' || ? || ' days')
+               OR last_verified <= date(?, '-' || ? || ' days'))
         """, (cutoff, args.stale)).fetchall()
     else:
-        rows = conn.execute("SELECT num, url, title, source FROM entries WHERE url_status = 'unverified'").fetchall()
+        rows = conn.execute("SELECT num, url, title, source FROM entries WHERE excluded = 0 AND url_status = 'unverified'").fetchall()
 
     entries = [dict(r) for r in rows]
 

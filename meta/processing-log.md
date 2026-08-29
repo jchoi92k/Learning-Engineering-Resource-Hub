@@ -68,3 +68,10 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Scraped: 3 total, 1 ready, 2 backlog
 - Processed: 1 entries (5458-5458)
 - Tags: keyword auto-tagged
+
+## 2026-08-29 - TNTP
+- Source slug: `tntp`
+- Scraped: 1 total, 0 ready, 1 backlog
+- Processed: 0 entries (5555-5554)
+- Backlog rows recorded as pending (excluded): 1
+- Tags: keyword auto-tagged

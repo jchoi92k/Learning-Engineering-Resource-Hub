@@ -12,12 +12,17 @@ Usage:
     python scripts/scrape.py wested --test           # test selectors against one page
     python scripts/scrape.py wested --no-diff        # include already-indexed items, no early-stop
 
-Paginated and API sources stop early once a page contains 3 consecutive or
-5 total already-indexed URLs (listings are newest-first). --pages is a hard cap.
+Early-stop: a paginated or API source whose config declares "early_stop": true
+(meaning its listing is newest-first) stops fetching once a page contains 3
+consecutive or 5 total already-indexed URLs. Configs without the flag scan
+every page up to --pages / api.pagination.pages. Declare it only for a source
+whose ordering has been checked -- Digital Promise's API returned relevance
+order until a sort param was added (2026-08-28).
 
 Output goes to docs/staging/{source}.json (or stdout with --stdout).
 """
 import argparse
+import html
 import json
 import re
 import sys
@@ -53,7 +58,8 @@ _request_delay = DEFAULT_DELAY
 _last_fetch_time = 0
 BACKOFF_SCHEDULE = [5, 10, 20]  # seconds on 429/503, then give up
 # Early-stop: stop paginating once a page shows this many already-indexed URLs.
-# Listings are newest-first, so hitting known URLs means the rest is indexed.
+# Valid only for listings the config declares newest-first ("early_stop": true);
+# with sparse coverage or unknown ordering it silently skips new items.
 EARLY_STOP_CONSECUTIVE = 3
 EARLY_STOP_TOTAL = 5
 
@@ -230,7 +236,7 @@ def extract_cards(soup, config):
         if sel.get("blurb_bare_text"):
             # Bare text node: get card text minus all child element text
             blurb = card.get_text(" ", strip=True)
-            for fragment in [el.get_text(strip=True) for el in card.find_all(True) if el.get_text(strip=True)]:
+            for fragment in [el.get_text(" ", strip=True) for el in card.find_all(True) if el.get_text(" ", strip=True)]:
                 blurb = blurb.replace(fragment, "", 1)
             blurb = " ".join(blurb.split()).strip()
         elif "blurb_parent" in sel:
@@ -239,12 +245,14 @@ def extract_cards(soup, config):
                 container = parent_el.parent
                 for child in container.find_all("span"):
                     child.decompose()
-                blurb = container.get_text(strip=True).lstrip("| ").strip()
+                blurb = container.get_text(" ", strip=True).lstrip("| ").strip()
         else:
             blurb_el = card.select_one(sel.get("blurb", "NONE"))
-            blurb = blurb_el.get_text(strip=True) if blurb_el else ""
+            blurb = blurb_el.get_text(" ", strip=True) if blurb_el else ""
 
-        title = title_el.get_text(strip=True) if title_el else ""
+        # get_text(" ") keeps a space between adjacent inline elements
+        # (e.g. <em>ThinkerTools</em>is); clean_text collapses the doubles.
+        title = title_el.get_text(" ", strip=True) if title_el else ""
         # Strip trailing date in parens, e.g. "Good Behavior Game (October 2024)"
         title = re.sub(r'\s*\([A-Z][a-z]+ \d{4}\)\s*$', '', title)
 
@@ -255,7 +263,7 @@ def extract_cards(soup, config):
         item = {
             "title": clean_text(title),
             "url": item_url,
-            "type": clean_text(type_el.get_text(strip=True)) if type_el else "",
+            "type": clean_text(type_el.get_text(" ", strip=True)) if type_el else "",
             "blurb": clean_text(blurb),
         }
 
@@ -267,13 +275,13 @@ def extract_cards(soup, config):
                     if extra == "date" and el.has_attr("datetime"):
                         item[extra] = el["datetime"]
                     else:
-                        item[extra] = el.get_text(strip=True)
+                        item[extra] = clean_text(el.get_text(" ", strip=True))
 
         # Authors as list (multiple elements)
         if "authors" in sel:
             author_els = card.select(sel["authors"])
             if author_els:
-                item["authors"] = [a.get_text(strip=True) for a in author_els]
+                item["authors"] = [clean_text(a.get_text(" ", strip=True)) for a in author_els]
 
         items.append(item)
 
@@ -326,8 +334,11 @@ def scrape_pagination(config, max_pages=None, existing_urls=None):
         Page 1 uses discovery_url directly (no /page/1/).
 
     Stops early once a page contains enough already-indexed URLs (see
-    early_stop_hit); max_pages remains a hard cap.
+    early_stop_hit) -- only when the config sets "early_stop": true;
+    max_pages remains a hard cap.
     """
+    if not config.get("early_stop"):
+        existing_urls = None
     base_url = config["discovery_url"]
     pag = config["pagination"]
     param = pag.get("param")
@@ -404,23 +415,34 @@ def resolve_json_path(obj, path):
 
 
 def strip_html(text):
-    """Remove HTML tags from a string."""
+    """Remove HTML tags, leaving a space where each tag was so adjacent
+    elements don't fuse ("</p><p>" -> " "). Callers pass the result through
+    clean_text(), which collapses the extra spaces and decodes entities."""
     if not text:
         return ""
-    return re.sub(r'<[^>]+>', '', text).strip()
+    return re.sub(r'<[^>]+>', ' ', text).strip()
 
 
 def clean_text(text):
-    """Normalize whitespace in scraped text: NBSP and other Unicode spaces
-    become plain spaces; tabs/newlines and runs of spaces collapse to one."""
+    """Normalize scraped text: decode HTML entities ("&reg;", "&#8217;" --
+    WWC and WP REST sources ship them double-encoded), turn NBSP and other
+    Unicode spaces into plain spaces, drop BOM / zero-width / soft-hyphen
+    characters, and collapse tabs, newlines and runs of spaces to one."""
     if not text:
         return ""
     if not isinstance(text, str):
         text = str(text)
+    text = html.unescape(text)
     for ch in ("\u00a0", "\u2009", "\u202f"):  # NBSP, thin space, narrow NBSP
         text = text.replace(ch, " ")
-    text = text.replace("\ufeff", "")  # BOM
-    return re.sub(r"\s+", " ", text).strip()
+    for ch in ("\ufeff", "\u200b", "\u00ad"):  # BOM, zero-width space, soft hyphen
+        text = text.replace(ch, "")
+    text = re.sub(r"\s+", " ", text)
+    # get_text(" ") separates inline elements, which also puts spaces around
+    # <sup>®</sup> and before closing punctuation; tighten those back.
+    text = re.sub(r"\s+([\u00ae\u2122\u00a9,.;:!?)\]])", r"\1", text)
+    text = re.sub(r"([(\[])\s+", r"\1", text)
+    return text.strip()
 
 
 def _load_url_filter(config):
@@ -451,8 +473,11 @@ def scrape_api(config, max_pages=None, existing_urls=None):
     """Fetch from a REST/search API and extract items via JSON paths.
 
     Stops early once a page contains enough already-indexed URLs (see
-    early_stop_hit); max_pages / pagination.pages remain hard caps.
+    early_stop_hit) -- only when the config sets "early_stop": true;
+    max_pages / pagination.pages remain hard caps.
     """
+    if not config.get("early_stop"):
+        existing_urls = None
     api = config["api"]
     paths = api["json_paths"]
     items_path = paths.get("items", "")
@@ -919,6 +944,13 @@ def main():
         "total_ready": len(ready),
         "total_backlog": len(backlog),
         "items": ready,
+        # Backlog items travel with the staging file so process_staged.py can
+        # record them as pending rows (dedup + honest "new" counts next run).
+        "backlog_items": [
+            {"title": i.get("title", ""), "url": i["url"], "type": i.get("type", ""),
+             "reason": i.get("backlog_reason", "")}
+            for i in backlog
+        ],
     }
 
     if args.stdout:

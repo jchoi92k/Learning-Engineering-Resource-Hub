@@ -1,6 +1,5 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in mathematica.md.",
-
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in mathematica.md. sortCriteria is date-descending, so early_stop is declared.",
   "request_delay": 2,
   "discovery": "api",
   "discovery_url": "https://mathematica.org/coveo/rest/search/v2",
@@ -12,7 +11,11 @@
       "enableDuplicateFiltering": "true",
       "sortCriteria": "@mprcomputedcontentdate descending"
     },
-    "pagination": {"param": "firstResult", "start": 0, "step": 10},
+    "pagination": {
+      "param": "firstResult",
+      "start": 0,
+      "step": 10
+    },
     "json_paths": {
       "items": "results",
       "title": "raw/systitle",
@@ -24,12 +27,14 @@
       "tags": "raw/mprhseducationtopicsv2"
     }
   },
-  "url_transform": {"replace": "staginginter.mathematica.net", "with": "www.mathematica.org"},
-
+  "url_transform": {
+    "replace": "staginginter.mathematica.net",
+    "with": "www.mathematica.org"
+  },
   "robots_txt": "https://mathematica.org/robots.txt",
-
   "test": {
     "url": "https://mathematica.org/coveo/rest/search/v2?q=&firstResult=0&numberOfResults=5&aq=@mprdisplaytemplatename=Publication @mprhumanservicetopicsv2=Education&enableDuplicateFiltering=true",
     "expected_min_results": 3
-  }
+  },
+  "early_stop": true
 }

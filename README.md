@@ -76,12 +76,16 @@ After `docs/data.json` changes, the MCP worker must be redeployed (`npx wrangler
 ## Maintaining the hub
 
 ```bash
+bash scripts/update.sh                       # weekly run: scrape -> process -> verify new URLs -> build
 python scripts/scrape.py {source}            # fetch + stage to docs/staging/
 python scripts/process_staged.py {source}    # tag + insert into hub.db
 python scripts/verify_urls.py                # verify unverified URLs
 python scripts/build_from_db.py              # rebuild all published files from hub.db
+python scripts/build_from_db.py --check      # validate entries + verify docs/ matches hub.db (CI)
 python scripts/embed_corpus.py               # sync entry embeddings to Vectorize (semantic search)
 ```
+
+Coding agents: see `AGENTS.md`.
 
 See `sources/README.md` for scraping conventions and `meta/agent-guide.md` for the full operational guide.
 

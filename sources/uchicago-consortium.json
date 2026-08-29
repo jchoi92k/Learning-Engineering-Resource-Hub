@@ -1,5 +1,5 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in uchicago-consortium.md. Drupal views table; listing has no description (only an optional subtitle), so every new item is detail-fetched for its og:description abstract, same pattern as CASEL.",
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in uchicago-consortium.md. Drupal views table; listing has no description (only an optional subtitle), so every new item is detail-fetched for its og:description abstract, same pattern as CASEL. Listing is newest-first, so early_stop is declared.",
   "discovery": "pagination",
   "discovery_url": "https://consortium.uchicago.edu/publications",
   "url_prefix": "https://consortium.uchicago.edu",
@@ -28,5 +28,6 @@
     "url": "https://consortium.uchicago.edu/publications?page=0",
     "expected_item_count": 10,
     "expected_first_title_contains": ""
-  }
+  },
+  "early_stop": true
 }

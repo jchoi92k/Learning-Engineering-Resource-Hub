@@ -1,7 +1,7 @@
 # Renaissance AI and Education Resource Hub — Compact Index
 
 > 2395 curated evidence-based K-12 and higher education resources.
-> Last updated: 2026-08-28
+> Last updated: 2026-08-29
 
 This file lists all entries (title, URL, type, tags) without descriptions.
 
@@ -589,26 +589,26 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1492. [Comprehensive Literacy: Making the Connections](https://evidenceforessa.org/program/comprehensive-literacy-making-the-connections/) | report | literacy, writing-instruction
 - 1493. [IMSE’s Morphology+ Program](https://evidenceforessa.org/program/imses-morphology-program/) | report | literacy, professional-development
 - 1494. [GO Tutor Corps High-Impact Math Tutoring](https://evidenceforessa.org/program/go-tutor-corps-high-impact-math-tutoring/) | report | formative-assessment, math-education, response-to-intervention
-- 1495. [Learning Genie &#8211; Math](https://evidenceforessa.org/program/learning-genie-math/) | report | early-childhood, inclusive-design, math-education, personalized-learning
-- 1496. [Learning Genie &#8211; Reading](https://evidenceforessa.org/program/learning-genie-reading/) | report | early-childhood, inclusive-design, literacy, personalized-learning
+- 1495. [Learning Genie – Math](https://evidenceforessa.org/program/learning-genie-math/) | report | early-childhood, inclusive-design, math-education, personalized-learning
+- 1496. [Learning Genie – Reading](https://evidenceforessa.org/program/learning-genie-reading/) | report | early-childhood, inclusive-design, literacy, personalized-learning
 - 1497. [Simple Solutions Learning – Standards-Based Math](https://evidenceforessa.org/program/simple-solutions-learning-standards-based-math/) | report | math-education
 - 1498. [Getting Ready](https://evidenceforessa.org/program/getting-ready/) | report | college-access, early-childhood, professional-development
 - 1499. [Waterford Upstart](https://evidenceforessa.org/program/waterford-upstart/) | report | computer-assisted-learning, literacy, math-education, personalized-learning
 - 1500. [Fueling Brains](https://evidenceforessa.org/program/fueling-brains/) | report | early-childhood
 - 1502. [STEMscopes Science](https://evidenceforessa.org/program/stemscopes-science/) | report | computer-assisted-learning, formative-assessment, k-12
 - 1503. [Twig Science](https://evidenceforessa.org/program/twig-science/) | report | 
-- 1504. [Progress Learning &#8211; Science](https://evidenceforessa.org/program/progress-learning-science/) | report | computer-assisted-learning, formative-assessment, math-education
-- 1505. [NEW INSIGHTS into Children’s Temperament (INSIGHTS) &#8211; Social-Emotional Learning](https://evidenceforessa.org/program/new-insights-into-childrens-temperament-insights-2/) | report | professional-development, response-to-intervention, sel
-- 1506. [NEW INSIGHTS into Children’s Temperament (INSIGHTS) &#8211; Family Engagement](https://evidenceforessa.org/program/new-insights-into-childrens-temperament-insights/) | report | professional-development, response-to-intervention, sel
+- 1504. [Progress Learning – Science](https://evidenceforessa.org/program/progress-learning-science/) | report | computer-assisted-learning, formative-assessment, math-education
+- 1505. [NEW INSIGHTS into Children’s Temperament (INSIGHTS) – Social-Emotional Learning](https://evidenceforessa.org/program/new-insights-into-childrens-temperament-insights-2/) | report | professional-development, response-to-intervention, sel
+- 1506. [NEW INSIGHTS into Children’s Temperament (INSIGHTS) – Family Engagement](https://evidenceforessa.org/program/new-insights-into-childrens-temperament-insights/) | report | professional-development, response-to-intervention, sel
 - 1507. [Teachers and Parents as Partners (TAPP)](https://evidenceforessa.org/program/teachers-and-parents-as-partners-tapp/) | report | college-access, computer-assisted-learning, response-to-intervention, sel
-- 1508. [Spalding&#8217;s The Writing Road to Reading](https://evidenceforessa.org/program/spaldings-the-writing-road-to-reading/) | report | literacy, writing-instruction
+- 1508. [Spalding’s The Writing Road to Reading](https://evidenceforessa.org/program/spaldings-the-writing-road-to-reading/) | report | literacy, writing-instruction
 - 1509. [ParentPowered (Ready4K!)](https://evidenceforessa.org/program/parentpowered-ready4k/) | report | early-childhood, personalized-learning
 - 1510. [National Network of Partnership Schools (NNPS)](https://evidenceforessa.org/program/national-network-of-partnership-schools-nnps/) | report | college-access, professional-development
 - 1511. [EveryDay Intervention (Family Engagement)](https://evidenceforessa.org/program/everyday-intervention-family-engagement/) | report | attendance, personalized-learning, response-to-intervention
 - 1512. [PowerSchool Attendance Intervention (Family Engagement)](https://evidenceforessa.org/program/powerschool-attendance-intervention-family-engagement/) | report | attendance, response-to-intervention
 - 1513. [Flashlight360](https://evidenceforessa.org/program/flashlight360/) | report | english-learners, writing-instruction
 - 1514. [Renzulli Learning](https://evidenceforessa.org/program/renzulli-learning-2/) | report | computer-assisted-learning, early-childhood, personalized-learning
-- 1515. [Future Forward Literacy &#8211; Family Engagement](https://evidenceforessa.org/program/future-forward-literacy-family-engagement/) | report | literacy, response-to-intervention
+- 1515. [Future Forward Literacy – Family Engagement](https://evidenceforessa.org/program/future-forward-literacy-family-engagement/) | report | literacy, response-to-intervention
 - 1517. [TalkingPoints](https://evidenceforessa.org/program/talkingpoints/) | report | computer-assisted-learning
 - 1518. [OnYourMark](https://evidenceforessa.org/program/onyourmark/) | report | literacy, professional-development, response-to-intervention
 - 1519. [BookNook](https://evidenceforessa.org/program/booknook/) | report | literacy, response-to-intervention
@@ -617,7 +617,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1523. [Family Engagement Lab’s Families and Schools Talk (FASTalk)](https://evidenceforessa.org/program/family-engagement-labs-families-and-schools-talk-fastalk-2/) | report | 
 - 1525. [WordFlight](https://evidenceforessa.org/program/wordflight/) | report | formative-assessment, literacy, response-to-intervention
 - 1526. [Edmentum Virtual Tutoring](https://evidenceforessa.org/program/edmentum-virtual-tutoring/) | report | inclusive-design, response-to-intervention
-- 1527. [Hoot Reading &#8211; MTSS Tier III](https://evidenceforessa.org/program/hoot-reading/) | report | computer-assisted-learning, literacy, response-to-intervention
+- 1527. [Hoot Reading – MTSS Tier III](https://evidenceforessa.org/program/hoot-reading/) | report | computer-assisted-learning, literacy, response-to-intervention
 - 1528. [Ignite Reading](https://evidenceforessa.org/program/ignite-reading/) | report | literacy, personalized-learning, response-to-intervention
 - 1529. [Imagine Math Facts](https://evidenceforessa.org/program/imagine-math-facts-2/) | report | computer-assisted-learning, math-education
 - 1530. [Istation Reading – Upper Elementary, Middle School](https://evidenceforessa.org/program/istation-reading-upper-elementary-middle-school/) | report | computer-assisted-learning, early-childhood, formative-assessment, literacy, personalized-learning
@@ -625,17 +625,17 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1532. [Progress Learning – Reading](https://evidenceforessa.org/program/progress-learning-reading/) | report | computer-assisted-learning, formative-assessment, literacy, math-education
 - 1533. [Alabama Math, Science, and Technology Initiative – Middle School Science](https://evidenceforessa.org/program/alabama-math-science-and-technology-initiative-middle-school-science/) | report | computer-assisted-learning, math-education, professional-development
 - 1534. [Beable One](https://evidenceforessa.org/program/beable-one/) | report | career-readiness, computer-assisted-learning, literacy, response-to-intervention
-- 1535. [Parent-Teacher Home Visits &#8211; SEL](https://evidenceforessa.org/program/parent-teacher-home-visits-sel/) | report | sel
+- 1535. [Parent-Teacher Home Visits – SEL](https://evidenceforessa.org/program/parent-teacher-home-visits-sel/) | report | sel
 - 1536. [Scholastic RISE and RISE Up](https://evidenceforessa.org/program/scholastic-rise-and-rise-up/) | report | literacy, response-to-intervention, writing-instruction
-- 1537. [Parent Teacher Home Visits &#8211; Attendance](https://evidenceforessa.org/program/parent-teacher-home-visits-attendance/) | report | attendance
+- 1537. [Parent Teacher Home Visits – Attendance](https://evidenceforessa.org/program/parent-teacher-home-visits-attendance/) | report | attendance
 - 1538. [Tutoring with the Lightning Squad](https://evidenceforessa.org/program/tutoring-with-the-lightning-squad/) | report | computer-assisted-learning, literacy, response-to-intervention
 - 1539. [Reading Horizons Discovery](https://evidenceforessa.org/program/reading-horizons-discovery-2/) | report | 
 - 1540. [CharacterStrong’s PurposeFull People Elementary Curriculum](https://evidenceforessa.org/program/characterstrongs-purposefull-people-elementary-curriculum/) | report | sel
-- 1541. [CharacterStrong &#8211; Secondary](https://evidenceforessa.org/program/characterstrong/) | report | sel
+- 1541. [CharacterStrong – Secondary](https://evidenceforessa.org/program/characterstrong/) | report | sel
 - 1542. [Readable English](https://evidenceforessa.org/program/readable-english-2/) | report | computer-assisted-learning, literacy, personalized-learning, writing-instruction
 - 1543. [Strategic Adolescent Reading Intervention (STARI)](https://evidenceforessa.org/program/strategic-adolescent-reading-intervention-stari/) | report | literacy, response-to-intervention
 - 1544. [Imagine Math](https://evidenceforessa.org/program/imagine-math-2/) | report | computer-assisted-learning, math-education, personalized-learning
-- 1547. [The 4Rs (Reading, Writing, Respect &#038; Resolution)](https://evidenceforessa.org/program/the-4rs-reading-writing-respect-resolution/) | report | literacy, sel, writing-instruction
+- 1547. [The 4Rs (Reading, Writing, Respect & Resolution)](https://evidenceforessa.org/program/the-4rs-reading-writing-respect-resolution/) | report | literacy, sel, writing-instruction
 - 1549. [Incredible Years: Child Dinosaur Curriculum](https://evidenceforessa.org/program/incredible-years-child-dinosaur-curriculum/) | report | early-childhood, literacy, sel
 - 1550. [I Can Problem Solve (ICPS)](https://evidenceforessa.org/program/i-can-problem-solve-icps/) | report | early-childhood, sel
 - 1551. [Getting Along Together](https://evidenceforessa.org/program/getting-along-together/) | report | response-to-intervention, sel
@@ -645,14 +645,14 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1555. [Talent Development High School (TDHS) — Strategic Reading and Student Team Literature](https://evidenceforessa.org/program/talent-development-high-school-tdhs-strategic-reading-and-student-team-literature/) | report | math-education
 - 1556. [Achieve3000 — Elementary (KidBiz3000)](https://evidenceforessa.org/program/achieve3000-elementary/) | report | career-readiness, college-access, computer-assisted-learning, literacy, personalized-learning, writing-instruction
 - 1557. [Student Success Skills — Reading — Elementary](https://evidenceforessa.org/program/student-success-skills-reading-elementary/) | report | literacy, professional-development, sel
-- 1558. [Imagine Language &#038; Literacy](https://evidenceforessa.org/program/imagine-language-literacy/) | report | literacy, personalized-learning
-- 1559. [Istation Reading &#8212; Elementary](https://evidenceforessa.org/program/istation-isip-early-reading-and-isip-advanced-reading-assessments/) | report | computer-assisted-learning, formative-assessment, literacy, personalized-learning
+- 1558. [Imagine Language & Literacy](https://evidenceforessa.org/program/imagine-language-literacy/) | report | literacy, personalized-learning
+- 1559. [Istation Reading — Elementary](https://evidenceforessa.org/program/istation-isip-early-reading-and-isip-advanced-reading-assessments/) | report | computer-assisted-learning, formative-assessment, literacy, personalized-learning
 - 1560. [Classworks Math](https://evidenceforessa.org/program/classworks-math/) | report | computer-assisted-learning, formative-assessment, math-education, response-to-intervention
 - 1561. [Schoolwide Enrichment Model (SEM-R)](https://evidenceforessa.org/program/schoolwide-enrichment-model-sem-r/) | report | 
 - 1562. [Reach for Reading](https://evidenceforessa.org/program/reach-for-reading/) | report | 
 - 1563. [Passport to Literacy/Voyager Passport](https://evidenceforessa.org/program/passport-to-literacy-voyager-passport/) | report | literacy, response-to-intervention
 - 1564. [Journeys](https://evidenceforessa.org/program/journeys/) | report | 
-- 1565. [Children&#8217;s Literacy Initiative (CLI)](https://evidenceforessa.org/program/childrens-literacy-initiative-cli/) | report | early-childhood, literacy, personalized-learning, professional-development, writing-instruction
+- 1565. [Children’s Literacy Initiative (CLI)](https://evidenceforessa.org/program/childrens-literacy-initiative-cli/) | report | early-childhood, literacy, personalized-learning, professional-development, writing-instruction
 - 1566. [Wilson Reading System®](https://evidenceforessa.org/program/wilson-reading-system/) | report | literacy, professional-development
 - 1567. [QuickReads — Whole Class](https://evidenceforessa.org/program/quickreads-whole-class/) | report | literacy, response-to-intervention
 - 1568. [Curiosity Corner](https://evidenceforessa.org/program/curiosity-corner/) | report | early-childhood, literacy, professional-development
@@ -667,34 +667,34 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1577. [Raz-Plus](https://evidenceforessa.org/program/raz-plus/) | report | computer-assisted-learning
 - 1578. [Early Literacy and Learning Model/Plus (ELLM/Plus)](https://evidenceforessa.org/program/early-literacy-and-learning-model-plus-ellm-plus/) | report | 
 - 1579. [Content-Focused Coaching — Whole Class](https://evidenceforessa.org/program/content-focused-coaching-whole-class/) | report | literacy, professional-development
-- 1580. [Intelligent Tutoring for the Structure Strategy (ITSS) &#8211; Elementary](https://evidenceforessa.org/program/intelligent-tutoring-for-the-structure-strategy-itss-elementary/) | report | computer-assisted-learning, literacy, response-to-intervention
-- 1581. [Literacy First &#8211; UT Austin](https://evidenceforessa.org/program/literacy-first-ut-austin/) | report | literacy, response-to-intervention
+- 1580. [Intelligent Tutoring for the Structure Strategy (ITSS) – Elementary](https://evidenceforessa.org/program/intelligent-tutoring-for-the-structure-strategy-itss-elementary/) | report | computer-assisted-learning, literacy, response-to-intervention
+- 1581. [Literacy First – UT Austin](https://evidenceforessa.org/program/literacy-first-ut-austin/) | report | literacy, response-to-intervention
 - 1582. [Lexia® Core5® Reading Program – Struggling Readers](https://evidenceforessa.org/program/lexia-core5-reading-program-struggling-readers/) | report | early-childhood, formative-assessment, literacy, personalized-learning
 - 1583. [ARC Core (Formerly Zoology One)](https://evidenceforessa.org/program/arc-core-formerly-zoology-one/) | report | literacy, writing-instruction
 - 1584. [SIM: Xtreme Reading — Struggling Readers](https://evidenceforessa.org/program/sim-xtreme-reading-struggling-readers/) | report | college-access
 - 1585. [95 Phonics Core Program](https://evidenceforessa.org/program/95-phonics-core-program/) | report | literacy
 - 1586. [Content-Focused Coaching — English Learners](https://evidenceforessa.org/program/content-focused-coaching-english-learners/) | report | english-learners, literacy, professional-development
-- 1587. [READ 180 &#8211; Secondary Reading](https://evidenceforessa.org/program/read-180-secondary-reading/) | report | computer-assisted-learning, formative-assessment, literacy, personalized-learning, professional-development
+- 1587. [READ 180 – Secondary Reading](https://evidenceforessa.org/program/read-180-secondary-reading/) | report | computer-assisted-learning, formative-assessment, literacy, personalized-learning, professional-development
 - 1588. [Strategic Instruction Model (SIM)](https://evidenceforessa.org/program/strategic-instruction-model-sim/) | report | college-access, literacy, response-to-intervention
 - 1589. [Reading Edge](https://evidenceforessa.org/program/reading-edge-whole-class/) | report | formative-assessment, literacy, writing-instruction
 - 1590. [Incredible Years (IY): Classroom Curriculum + Parent Training Program](https://evidenceforessa.org/program/incredible-years-iy-classroom-curriculum-parent-training-program/) | report | early-childhood, sel
-- 1591. [Positive Action &#8211; Social-Emotional Learning](https://evidenceforessa.org/program/positive-action-social-emotional-learning/) | report | sel
-- 1592. [Building Assets Reducing Risks (BARR) &#8211; Social-Emotional Learning](https://evidenceforessa.org/program/building-assets-reducing-risks-barr-social-emotional-learning/) | report | professional-development, sel
+- 1591. [Positive Action – Social-Emotional Learning](https://evidenceforessa.org/program/positive-action-social-emotional-learning/) | report | sel
+- 1592. [Building Assets Reducing Risks (BARR) – Social-Emotional Learning](https://evidenceforessa.org/program/building-assets-reducing-risks-barr-social-emotional-learning/) | report | professional-development, sel
 - 1593. [Coping Power](https://evidenceforessa.org/program/coping-power/) | report | response-to-intervention, sel
 - 1594. [Check, Connect, and Expect](https://evidenceforessa.org/program/check-connect-and-expect/) | report | response-to-intervention, sel
-- 1595. [Fast Track &#8211; Social-Emotional Learning](https://evidenceforessa.org/program/fast-track-social-emotional-learning/) | report | sel
-- 1596. [Incredible Years (IY) &#8211; Teacher Classroom Management Program](https://evidenceforessa.org/program/incredible-years-iy-teacher-classroom-management-program/) | report | early-childhood
+- 1595. [Fast Track – Social-Emotional Learning](https://evidenceforessa.org/program/fast-track-social-emotional-learning/) | report | sel
+- 1596. [Incredible Years (IY) – Teacher Classroom Management Program](https://evidenceforessa.org/program/incredible-years-iy-teacher-classroom-management-program/) | report | early-childhood
 - 1597. [Adventures Aboard the S.S. Grin](https://evidenceforessa.org/program/social-skills-group-intervention-s-s-grin/) | report | computer-assisted-learning, sel
 - 1598. [Becoming a Man (BAM)](https://evidenceforessa.org/program/becoming-a-man-bam/) | report | dropout-prevention, professional-development, sel
-- 1599. [Second Step &#8211; Attendance](https://evidenceforessa.org/program/second-step-attendance/) | report | attendance, sel
+- 1599. [Second Step – Attendance](https://evidenceforessa.org/program/second-step-attendance/) | report | attendance, sel
 - 1601. [Talent Development High School (TDHS)- Attendance](https://evidenceforessa.org/program/talent-development-high-school-tdhs-attendance/) | report | attendance, career-readiness, math-education, professional-development
 - 1602. [Big Brothers, Big Sisters (BBBS) School-Based Mentoring (SBM) Program](https://evidenceforessa.org/program/big-brothers-big-sisters-bbbs-school-based-mentoring-sbm-program/) | report | professional-development
-- 1603. [Student Success Skills (Targeted) &#8211; Social-Emotional Learning](https://evidenceforessa.org/program/student-success-skills-targeted-social-emotional-learning/) | report | sel
+- 1603. [Student Success Skills (Targeted) – Social-Emotional Learning](https://evidenceforessa.org/program/student-success-skills-targeted-social-emotional-learning/) | report | sel
 - 1604. [Tools of the Mind](https://evidenceforessa.org/program/tools-of-the-mind/) | report | early-childhood, literacy, math-education, professional-development, sel, writing-instruction
 - 1605. [Absenteeism and Truancy: Interventions and Universal Procedures (ATI-UP)](https://evidenceforessa.org/program/absenteeism-and-truancy-interventions-and-universal-procedures-ati-up/) | report | attendance, response-to-intervention, sel
 - 1606. [PowerSchool Attendance Intervention](https://evidenceforessa.org/program/powerschool-unified-operations-attendance-intervention-suite-formerly-kinvolved/) | report | attendance, response-to-intervention
-- 1607. [Future Forward Literacy &#8211; Attendance](https://evidenceforessa.org/program/future-forward-literacy-attendance/) | report | attendance, literacy, response-to-intervention
-- 1608. [Positive Action &#8211; Attendance](https://evidenceforessa.org/program/positive-action-attendance/) | report | attendance, sel
+- 1607. [Future Forward Literacy – Attendance](https://evidenceforessa.org/program/future-forward-literacy-attendance/) | report | attendance, literacy, response-to-intervention
+- 1608. [Positive Action – Attendance](https://evidenceforessa.org/program/positive-action-attendance/) | report | attendance, sel
 - 1609. [EveryDay Intervention (Formerly InClass Today and EveryDay Labs)](https://evidenceforessa.org/program/everyday-intervention-formerly-inclass-today-and-everyday-labs/) | report | attendance, personalized-learning, response-to-intervention
 - 1610. [Early Warning Intervention and Monitoring System (EWIMS)](https://evidenceforessa.org/program/early-warning-intervention-and-monitoring-system-ewims/) | report | attendance, response-to-intervention, sel
 - 1611. [Class-Wide Function-Related Intervention Teams (CW-FIT)](https://evidenceforessa.org/program/class-wide-function-related-intervention-teams-cw-fit/) | report | response-to-intervention, sel
@@ -704,7 +704,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1615. [Lectura Proactiva/ Intervenciones tempranas de la lectura](https://evidenceforessa.org/program/lectura-proactiva-intervenciones-tempranas-de-la-lectura/) | report | english-learners, literacy, response-to-intervention
 - 1616. [Chapter One (Formerly Innovations for Learning High Impact Tutoring)](https://evidenceforessa.org/program/chapter-one-formerly-innovations-for-learning-high-impact-tutoring/) | report | computer-assisted-learning, literacy, personalized-learning, response-to-intervention
 - 1617. [Lindamood Phoneme Sequencing (LiPS)](https://evidenceforessa.org/program/lindamood-phoneme-sequencing-lips/) | report | literacy, response-to-intervention
-- 1618. [A2i Professional Support System (formerly Individualizing Student Instruction (ISI) )](https://evidenceforessa.org/program/a2i-professional-support-system-formerly-individualizing-student-instruction-isi/) | report | early-childhood, literacy, personalized-learning
+- 1618. [A2i Professional Support System (formerly Individualizing Student Instruction (ISI))](https://evidenceforessa.org/program/a2i-professional-support-system-formerly-individualizing-student-instruction-isi/) | report | early-childhood, literacy, personalized-learning
 - 1619. [Symphony Math](https://evidenceforessa.org/program/symphony-math/) | report | computer-assisted-learning, math-education, response-to-intervention
 - 1620. [Alabama Math, Science, and Technology Initiative (AMSTI)](https://evidenceforessa.org/program/alabama-math-science-and-technology-initiative/) | report | computer-assisted-learning, math-education, professional-development
 - 1621. [Early Learning in Mathematics](https://evidenceforessa.org/program/early-learning-in-mathematics/) | report | math-education
@@ -2426,14 +2426,14 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1213. [Too Good for Drugs and Violence (TGFD & V) (Character Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/516) | report | k-12, sel, wwc
 - 1214. [Fast ForWord® (English Language Learners)](https://ies.ed.gov/ncee/WWC/InterventionReport/174) | report | computer-assisted-learning, english-learners, k-12, literacy, wwc
 - 1215. [Reading Mastery (English Language Learners)](https://ies.ed.gov/ncee/WWC/InterventionReport/417) | report | english-learners, k-12, literacy, response-to-intervention, wwc
-- 1216. [National Institute for School Leadership (NISL) (School Leadership Review Protocol )](https://ies.ed.gov/ncee/WWC/InterventionReport/710) | report | math-education, professional-development, wwc
+- 1216. [National Institute for School Leadership (NISL) (School Leadership Review Protocol)](https://ies.ed.gov/ncee/WWC/InterventionReport/710) | report | math-education, professional-development, wwc
 - 1217. [Project Based Inquiry Science (PBIScience) (Primary Science)](https://ies.ed.gov/ncee/WWC/InterventionReport/701) | report | wwc
 - 1218. [Full Option Science System (FOSS) (Primary Science)](https://ies.ed.gov/ncee/WWC/InterventionReport/700) | report | wwc
 - 1219. [Accelerated Math® (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/683) | report | computer-assisted-learning, math-education, personalized-learning, wwc
-- 1220. [Cognitive Tutor&reg; Algebra II (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/657) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
-- 1221. [Cognitive Tutor&reg; Integrated Math I (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/658) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
-- 1222. [Cognitive Tutor&reg; Integrated Math II (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/659) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
-- 1223. [Cognitive Tutor&reg; Integrated Math III (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/660) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
+- 1220. [Cognitive Tutor® Algebra II (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/657) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
+- 1221. [Cognitive Tutor® Integrated Math I (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/658) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
+- 1222. [Cognitive Tutor® Integrated Math II (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/659) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
+- 1223. [Cognitive Tutor® Integrated Math III (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/660) | report | computer-assisted-learning, math-education, response-to-intervention, wwc
 - 1224. [enVisionMATH (Primary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/618) | report | formative-assessment, math-education, personalized-learning, wwc
 - 1225. [University of Chicago School Mathematics Project (UCSMP) Functions, Statistics, and Trigonometry (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/645) | report | college-access, computer-assisted-learning, literacy, math-education, wwc
 - 1226. [University of Chicago School Mathematics Project (UCSMP) Geometry (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/643) | report | college-access, computer-assisted-learning, literacy, math-education, wwc
@@ -2441,37 +2441,37 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1228. [Saxon Geometry (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/650) | report | formative-assessment, math-education, wwc
 - 1229. [Saxon Advanced Math (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/647) | report | formative-assessment, math-education, wwc
 - 1230. [Saxon Algebra II (Secondary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/649) | report | formative-assessment, math-education, wwc
-- 1231. [Singapore Math&reg; (Primary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/464) | report | math-education, wwc
+- 1231. [Singapore Math® (Primary Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/464) | report | math-education, wwc
 - 1232. [SuccessMaker® (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/502) | report | computer-assisted-learning, k-12, literacy, personalized-learning, wwc
 - 1233. [Reconnecting Youth (Dropout Prevention)](https://ies.ed.gov/ncee/WWC/InterventionReport/633) | report | attendance, dropout-prevention, wwc
 - 1234. [Credit Recovery Programs (Dropout Prevention)](https://ies.ed.gov/ncee/WWC/InterventionReport/634) | report | computer-assisted-learning, dropout-prevention, wwc
 - 1235. [Shared Book Reading (Early Childhood Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/458) | report | early-childhood, literacy, prekindergarten, wwc
-- 1236. [Houghton Mifflin Reading&copy; (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/225) | report | literacy, writing-instruction, wwc
-- 1237. [Academy of READING&reg; (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/631) | report | computer-assisted-learning, wwc
-- 1238. [Carbo Reading Styles Program&reg; (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/68) | report | formative-assessment, literacy, response-to-intervention, wwc
+- 1236. [Houghton Mifflin Reading© (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/225) | report | literacy, writing-instruction, wwc
+- 1237. [Academy of READING® (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/631) | report | computer-assisted-learning, wwc
+- 1238. [Carbo Reading Styles Program® (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/68) | report | formative-assessment, literacy, response-to-intervention, wwc
 - 1239. [Reading Mastery (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/416) | report | literacy, response-to-intervention, wwc
 - 1240. [Let's Begin with the Letter People® (Early Childhood Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/271) | report | early-childhood, literacy, prekindergarten, sel, wwc
 - 1241. [Scott Foresman-Addison Wesley Elementary Mathematics (Elementary School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/456) | report | formative-assessment, k-12, literacy, math-education, writing-instruction, wwc
 - 1242. [Voyages (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/539) | report | formative-assessment, math-education, wwc
-- 1243. [Vmath&reg; (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/624) | report | computer-assisted-learning, formative-assessment, math-education, wwc
+- 1243. [Vmath® (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/624) | report | computer-assisted-learning, formative-assessment, math-education, wwc
 - 1244. [Second Step (Interventions for Children Identified With or at Risk for an Emotional Disturbance)](https://ies.ed.gov/ncee/WWC/InterventionReport/623) | report | early-childhood, response-to-intervention, sel, wwc
 - 1245. [The Creative Curriculum® for Preschool, Fourth Edition (Early Childhood Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/512) | report | early-childhood, prekindergarten, sel, wwc
 - 1246. [Ladders to Literacy (Early Childhood Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/260) | report | early-childhood, literacy, prekindergarten, wwc
 - 1247. [Fast ForWord® (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/172) | report | computer-assisted-learning, k-12, literacy, wwc
 - 1248. [LANGUAGE!® (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/621) | report | k-12, literacy, response-to-intervention, writing-instruction, wwc
 - 1249. [Sheltered Instruction Observation Protocol® (SIOP®) (English Language Learners)](https://ies.ed.gov/ncee/WWC/InterventionReport/460) | report | college-access, early-childhood, english-learners, formative-assessment, literacy, math-education, wwc
-- 1250. [Words Their Way&trade; (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/622) | report | literacy, wwc
+- 1250. [Words Their Way™ (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/622) | report | literacy, wwc
 - 1251. [Investigations in Number, Data, and Space® (Elementary School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/242) | report | computer-assisted-learning, k-12, literacy, math-education, wwc
 - 1252. [Peer-Assisted Learning Strategies (Elementary School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/619) | report | k-12, math-education, professional-development, response-to-intervention, wwc
 - 1253. [Tools for Getting Along (Interventions for Children Identified With or at Risk for an Emotional Disturbance)](https://ies.ed.gov/ncee/WWC/InterventionReport/616) | report | response-to-intervention, sel, wwc
 - 1254. [Talent Development Middle Grades Program (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/617) | report | attendance, computer-assisted-learning, k-12, literacy, math-education, professional-development, wwc
-- 1255. [The Spalding Method<sup>&reg;</sup> (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/614) | report | literacy, writing-instruction, wwc
+- 1255. [The Spalding Method<sup>®</sup> (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/614) | report | literacy, writing-instruction, wwc
 - 1256. [Success for All® (English Language Learners)](https://ies.ed.gov/ncee/WWC/InterventionReport/497) | report | computer-assisted-learning, early-childhood, english-learners, formative-assessment, literacy, response-to-intervention, sel, wwc
-- 1257. [The Spalding Method<sup>&reg;</sup> (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/613) | report | literacy, writing-instruction, wwc
+- 1257. [The Spalding Method<sup>®</sup> (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/613) | report | literacy, writing-instruction, wwc
 - 1258. [Open Court Reading© (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/568) | report | computer-assisted-learning, k-12, literacy, writing-instruction, wwc
 - 1259. [Reading Mastery (Students with Learning Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/573) | report | inclusive-design, k-12, literacy, response-to-intervention, wwc
 - 1260. [Reading Edge (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/572) | report | literacy, wwc
-- 1261. [The Center for Learning Technologies&nbsp;in Urban Schools (LeTUS) Program<sup>&reg;</sup> (Science)](https://ies.ed.gov/ncee/WWC/InterventionReport/607) | report | computer-assisted-learning, literacy, wwc
+- 1261. [The Center for Learning Technologies in Urban Schools (LeTUS) Program<sup>®</sup> (Science)](https://ies.ed.gov/ncee/WWC/InterventionReport/607) | report | computer-assisted-learning, literacy, wwc
 - 1262. [Astronomy Resources for Intercurricular Elementary Science (ARIES): Exploring Motion and Forces (Science)](https://ies.ed.gov/ncee/WWC/InterventionReport/608) | report | k-12, wwc
 - 1263. [Milieu Teaching (Early Childhood Education for Children with Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/567) | report | early-childhood, inclusive-design, prekindergarten, sel, wwc
 - 1264. [Play-Based Interventions (Early Childhood Education for Children with Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/570) | report | early-childhood, inclusive-design, response-to-intervention, sel, wwc
@@ -2489,8 +2489,8 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1276. [Book clubs (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/49) | report | literacy, wwc
 - 1277. [Reciprocal Teaching (Adolescent Literacy)](https://ies.ed.gov/ncee/WWC/InterventionReport/434) | report | k-12, literacy, wwc
 - 1278. [Service and Conservation Corps (Dropout Prevention)](https://ies.ed.gov/ncee/WWC/InterventionReport/457) | report | dropout-prevention, k-12, wwc
-- 1279. [Barton Reading &amp; Spelling System&reg; (Students with Learning Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/40) | report | inclusive-design, literacy, response-to-intervention, writing-instruction, wwc
-- 1280. [Fundations&reg; (Students with Learning Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/196) | report | inclusive-design, literacy, response-to-intervention, wwc
+- 1279. [Barton Reading & Spelling System® (Students with Learning Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/40) | report | inclusive-design, literacy, response-to-intervention, writing-instruction, wwc
+- 1280. [Fundations® (Students with Learning Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/196) | report | inclusive-design, literacy, response-to-intervention, wwc
 - 1281. [Dyslexia Training Program (Students with Learning Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/155) | report | inclusive-design, literacy, response-to-intervention, wwc
 - 1282. [Read 180® (Students with Learning Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/406) | report | computer-assisted-learning, formative-assessment, inclusive-design, literacy, personalized-learning, professional-development, wwc
 - 1283. [Wilson Reading System® (Students with Learning Disabilities)](https://ies.ed.gov/ncee/WWC/InterventionReport/547) | report | inclusive-design, literacy, writing-instruction, wwc
@@ -2521,7 +2521,7 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1308. [Project GRAD (Dropout Prevention)](https://ies.ed.gov/ncee/WWC/InterventionReport/390) | report | college-access, dropout-prevention, k-12, literacy, math-education, sel, wwc
 - 1309. [Quantum Opportunity Program (Dropout Prevention)](https://ies.ed.gov/ncee/WWC/InterventionReport/401) | report | dropout-prevention, k-12, professional-development, response-to-intervention, wwc
 - 1310. [Talent Development High Schools (Dropout Prevention)](https://ies.ed.gov/ncee/WWC/InterventionReport/506) | report | attendance, career-readiness, college-access, dropout-prevention, k-12, wwc
-- 1311. [Tribes Learning Communities&reg; (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/522) | report | formative-assessment, literacy, response-to-intervention, wwc
+- 1311. [Tribes Learning Communities® (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/522) | report | formative-assessment, literacy, response-to-intervention, wwc
 - 1312. [Successmaker (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/583) | report | computer-assisted-learning, literacy, math-education, personalized-learning, wwc
 - 1313. [SuccessMaker® (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/501) | report | computer-assisted-learning, literacy, personalized-learning, wwc
 - 1314. [SuccessMaker® (Elementary School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/500) | report | computer-assisted-learning, literacy, math-education, personalized-learning, wwc
@@ -2529,32 +2529,32 @@ This file lists all entries (title, URL, type, tags) without descriptions.
 - 1316. [Sound Foundations (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/473) | report | literacy, wwc
 - 1317. [Cognitive Academic Language Learning Approach (CALLA) (English Language Learners)](https://ies.ed.gov/ncee/WWC/InterventionReport/86) | report | english-learners, inclusive-design, wwc
 - 1318. [Concept-Oriented Reading Instruction (CORI) (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/102) | report | literacy, wwc
-- 1319. [Academy of READING&reg; (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/7) | report | computer-assisted-learning, literacy, wwc
+- 1319. [Academy of READING® (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/7) | report | computer-assisted-learning, literacy, wwc
 - 1320. [Barton Reading and Spelling System (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/561) | report | inclusive-design, literacy, response-to-intervention, writing-instruction, wwc
 - 1321. [Breakthrough to Literacy (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/53) | report | computer-assisted-learning, early-childhood, literacy, professional-development, wwc
-- 1322. [Barton Reading &amp; Spelling System&reg; (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/41) | report | inclusive-design, literacy, response-to-intervention, writing-instruction, wwc
-- 1323. [Digi-Block&reg; Learning System (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/138) | report | literacy, math-education, wwc
+- 1322. [Barton Reading & Spelling System® (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/41) | report | inclusive-design, literacy, response-to-intervention, writing-instruction, wwc
+- 1323. [Digi-Block® Learning System (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/138) | report | literacy, math-education, wwc
 - 1324. [Core-Plus Mathematics (Middle School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/117) | report | computer-assisted-learning, math-education, wwc
 - 1325. [Headsprout Early Reading (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/564) | report | computer-assisted-learning, literacy, wwc
 - 1326. [Headsprout® Early Reading (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/210) | report | computer-assisted-learning, literacy, wwc
 - 1327. [Fundations (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/195) | report | literacy, response-to-intervention, wwc
 - 1328. [New Century Mathematics (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/335) | report | computer-assisted-learning, early-childhood, formative-assessment, literacy, math-education, wwc
 - 1329. [Partnership for Access to Higher Mathematics (PATH Mathematics) (Middle School Math Curricula)](https://ies.ed.gov/ncee/WWC/InterventionReport/356) | report | college-access, computer-assisted-learning, math-education, wwc
-- 1330. [Pause, Prompt, &amp; Praise &copy; (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/358) | report | literacy, response-to-intervention, wwc
+- 1330. [Pause, Prompt, & Praise© (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/358) | report | literacy, response-to-intervention, wwc
 - 1331. [Read Well® (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/410) | report | literacy, wwc
 - 1332. [Rational Number Project (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/404) | report | college-access, literacy, math-education, wwc
 - 1333. [Project LISTEN's Reading Tutor (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/391) | report | college-access, computer-assisted-learning, literacy, response-to-intervention, wwc
 - 1334. [Project Read® Phonology (Beginning Reading)](https://ies.ed.gov/ncee/WWC/InterventionReport/396) | report | literacy, writing-instruction, wwc
-- 1335. [Mathematics Their Way&reg; (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/308) | report | math-education, wwc
+- 1335. [Mathematics Their Way® (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/308) | report | math-education, wwc
 - 1336. [MathSteps by Houghton Mifflin (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/312) | report | formative-assessment, math-education, response-to-intervention, wwc
 - 1337. [Math Trailblazers (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/303) | report | computer-assisted-learning, math-education, wwc
 - 1338. [Logo (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/294) | report | computer-assisted-learning, literacy, math-education, writing-instruction, wwc
-- 1339. [MathWings by the Success for All Foundation&reg; (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/315) | report | math-education, wwc
-- 1340. [Moving with Math&reg; Math by Topic (Middle School Math Curricula)](https://ies.ed.gov/ncee/WWC/InterventionReport/324) | report | formative-assessment, math-education, wwc
+- 1339. [MathWings by the Success for All Foundation® (Elementary School Math)](https://ies.ed.gov/ncee/WWC/InterventionReport/315) | report | math-education, wwc
+- 1340. [Moving with Math® Math by Topic (Middle School Math Curricula)](https://ies.ed.gov/ncee/WWC/InterventionReport/324) | report | formative-assessment, math-education, wwc
 - 1341. [Integrated Mathematics, Science, and Technology (IMaST) (Middle School Math Curricula)](https://ies.ed.gov/ncee/WWC/InterventionReport/238) | report | computer-assisted-learning, math-education, wwc
-- 1342. [Resolving Conflict Creatively Program&trade; (RCCP) (Character Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/436) | report | professional-development, sel, wwc
+- 1342. [Resolving Conflict Creatively Program™ (RCCP) (Character Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/436) | report | professional-development, sel, wwc
 - 1343. [Direct Instruction (Early Childhood Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/139) | report | early-childhood, prekindergarten, response-to-intervention, wwc
-- 1344. [Progress in Mathematics © 2006 (Elementary School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/384) | report | computer-assisted-learning, formative-assessment, k-12, literacy, math-education, wwc
+- 1344. [Progress in Mathematics© 2006 (Elementary School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/384) | report | computer-assisted-learning, formative-assessment, k-12, literacy, math-education, wwc
 - 1345. [Houghton Mifflin Mathematics (Elementary School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/223) | report | computer-assisted-learning, formative-assessment, k-12, literacy, math-education, response-to-intervention, wwc
 - 1346. [Sound Foundations (Early Childhood Education)](https://ies.ed.gov/ncee/WWC/InterventionReport/474) | report | early-childhood, literacy, prekindergarten, wwc
 - 1347. [Transition Mathematics (Middle School Mathematics)](https://ies.ed.gov/ncee/WWC/InterventionReport/521) | report | college-access, k-12, literacy, math-education, wwc

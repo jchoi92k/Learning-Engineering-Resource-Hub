@@ -14,6 +14,7 @@ Usage:
     python scripts/verify_urls.py --stale 30     # re-verify entries not checked in 30 days
     python scripts/verify_urls.py --all          # verify everything
     python scripts/verify_urls.py --auto-exclude # auto-exclude confirmed-broken (404/410) URLs
+    python scripts/verify_urls.py --min-num 5400 # only entries with num > 5400 (rows added this run)
 
 Results written directly to data/hub.db.
 """
@@ -222,6 +223,8 @@ def main():
     parser.add_argument("--stale", type=int, metavar="DAYS", help="Re-verify entries not checked in the last N days")
     parser.add_argument("--all", action="store_true", help="Verify everything including already verified")
     parser.add_argument("--auto-exclude", action="store_true", help="Auto-exclude confirmed-broken (404/410) URLs")
+    parser.add_argument("--min-num", type=int, metavar="N",
+                        help="Only entries with num > N (e.g. rows inserted after a recorded MAX(num))")
     args = parser.parse_args()
 
     conn = get_db()
@@ -246,6 +249,10 @@ def main():
     if args.source:
         entries = [e for e in entries if args.source.lower() in e["source"].lower()]
         print(f"[verify] Filtered to {len(entries)} entries from '{args.source}'")
+
+    if args.min_num is not None:
+        entries = [e for e in entries if e["num"] > args.min_num]
+        print(f"[verify] Filtered to {len(entries)} entries with num > {args.min_num}")
 
     if args.sample and len(entries) > args.sample:
         if args.seed is not None:

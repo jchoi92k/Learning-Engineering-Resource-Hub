@@ -25,7 +25,7 @@
 - **Coverage strategy:** Research-like content types only
 - **Include types:** Research (1,007), Commentary (232)
 - **Exclude types:** Op-ed (33), Podcast (29), Testimony (6)
-- **Current indexed:** 23
+- **Current indexed:** 858 (Brown Center) after the 2026-08-30 backfill (`scrape.py brookings --backfill`: two date-window Algolia passes around the 1,000-hit cap — 727 articles before 2019, 525 after — then one page fetch per kept item for its meta description; 1,007 requests, every page once, 5 s gaps). 836 inserted (`page-meta` teasers, 31-744 chars; Algolia body kept as `page_text`, URL verified by the fetch); 161 pages with no meta description are pending rows; 231 Commentary items are excluded `type_filtered:Commentary` rows with their Algolia metadata and body text, no page fetched (user decision 2026-08-30). `type_allow` keeps Research only. Re-check the window split if either side nears 1,000.
 - **Estimated remaining:** ~1,216
 - **Scoping note:** Only Brown Center on Education Policy articles (center_tax:24). Other Brookings centers are out of scope.
 

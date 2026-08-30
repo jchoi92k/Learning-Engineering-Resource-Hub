@@ -133,7 +133,7 @@
     "discovery_url": "https://www.brookings.edu/sitemap_index.xml",
     "sample_url": "https://www.brookings.edu/articles/getting-state-free-college-right-design-choices-that-matter/",
     "discovery_check": "sitemap",
-    "notes": "Curate manually — only Brown Center on Education Policy articles qualify."
+    "notes": "1,252 Brown Center articles in the Algolia index. 858 indexed after the 2026-08-30 backfill (836 with meta-description teasers; 161 pending without one; 231 Commentary kept as excluded type_filtered rows)."
   },
   "CREDO at Stanford": {
     "known_total": null,

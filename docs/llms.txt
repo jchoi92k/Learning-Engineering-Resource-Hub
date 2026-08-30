@@ -1,12 +1,13 @@
 # Renaissance AI and Education Resource Hub
 
-> 4152 curated evidence-based K-12 and higher education resources — links with metadata and a description each, from organizations with documented review (What Works Clearinghouse, Learning Policy Institute, Mathematica, Digital Promise, Evidence for ESSA and others). Last updated: 2026-08-30
+> 4988 curated evidence-based K-12 and higher education resources — links with metadata and a description each, from organizations with documented review (What Works Clearinghouse, Learning Policy Institute, Mathematica, Digital Promise, Evidence for ESSA and others). Last updated: 2026-08-30
 
 This is the root index. Each source below links to a compact list of its entries (entry number, title, URL, type, tags); large sources are split into parts under 100,000 characters. Every source also has a file with full descriptions. For the whole corpus in one file see llms-full.txt; for search use the MCP endpoint.
 
 ## Sources
 
 - [WestEd](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt): 912 entries, 3 parts; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
+- [Brookings Institution](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-brookings-institution-1.txt): 858 entries, 2 parts; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-brookings-institution.txt
 - [Mathematica](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-mathematica-1.txt): 632 entries, 2 parts; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-mathematica.txt
 - [What Works Clearinghouse](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-what-works-clearinghouse.txt): 375 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-what-works-clearinghouse.txt
 - [The Education Trust](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt): 362 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-the-education-trust.txt
@@ -22,7 +23,6 @@ This is the root index. Each source below links to a compact list of its entries
 - [TNTP](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-tntp.txt): 36 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-tntp.txt
 - [National Center for Education Statistics (NCES)](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-national-center-for-education-statistics-nces.txt): 29 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-national-center-for-education-statistics-nces.txt
 - [IES Regional Education Labs](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-ies-regional-education-labs.txt): 28 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-ies-regional-education-labs.txt
-- [Brookings Institution](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-brookings-institution.txt): 22 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-brookings-institution.txt
 - [Tools Competition](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-tools-competition.txt): 17 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-tools-competition.txt
 - [CREDO at Stanford](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-credo-at-stanford.txt): 16 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-credo-at-stanford.txt
 - [Carnegie Mellon University LearnLab](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-carnegie-mellon-university-learnlab.txt): 12 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-carnegie-mellon-university-learnlab.txt
@@ -31,7 +31,7 @@ This is the root index. Each source below links to a compact list of its entries
 
 ## Whole corpus
 
-- [llms-full.txt](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt): all 4152 entries with descriptions in one self-contained file (large)
+- [llms-full.txt](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt): all 4988 entries with descriptions in one self-contained file (large)
 - [data.json](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/data.json): the same entries as structured JSON
 - [MCP endpoint](https://renaissance-hub.joon-96a.workers.dev/mcp): semantic search over the corpus (tools: search, fetch, search_resources, get_entries_batch, list_tags, list_sources)
 
@@ -39,17 +39,17 @@ This is the root index. Each source below links to a compact list of its entries
 
 Tag vocabulary with entry counts; filter values for the MCP tools.
 
-**Domain:** k-12 (945), math-education (591), literacy (527), learning-engineering (296), early-childhood (245), english-learners (229), higher-ed (203), school-discipline (31)
+**Domain:** k-12 (961), math-education (642), literacy (550), learning-engineering (298), early-childhood (273), english-learners (232), higher-ed (203), school-discipline (31)
 
-**Method:** computer-assisted-learning (296), response-to-intervention (221), longitudinal (201), rct (123), meta-analysis (61), coaching (47), intelligent-tutoring (41), genai (40), qualitative-research (35), llm-application (25), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+**Method:** computer-assisted-learning (319), response-to-intervention (234), longitudinal (201), rct (123), meta-analysis (61), coaching (47), intelligent-tutoring (41), genai (40), qualitative-research (35), llm-application (25), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
 
-**Topic:** college-access (453), formative-assessment (431), sel (335), professional-development (302), career-readiness (237), personalized-learning (148), inclusive-design (144), attendance (116), dropout-prevention (113), open-datasets (101), writing-instruction (80), digital-learning-platforms (75), prekindergarten (56), student-belonging (37), math-strategies (24), ai-ethics (24), data-sharing (23), ai-policy (21), pii-privacy (18), math-motivation (10), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+**Topic:** college-access (597), formative-assessment (455), sel (357), professional-development (312), career-readiness (276), personalized-learning (154), inclusive-design (150), attendance (126), dropout-prevention (123), open-datasets (101), writing-instruction (85), digital-learning-platforms (75), prekindergarten (56), student-belonging (37), math-strategies (24), ai-ethics (24), data-sharing (23), ai-policy (21), pii-privacy (18), math-motivation (10), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
 
-**Affiliation:** wwc (366), edtrust (362), lpi (338), digital-promise (259), aims (52), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), lastinger-center (1), tla (1), casel (1)
+**Affiliation:** brookings (836), wwc (366), edtrust (362), lpi (338), digital-promise (259), aims (52), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
-report (3204), paper (521), framework (166), dataset (99), presentation (66), platform (29), review (25), blog-post (14), tool (10), code (9), article (8), project-website (1)
+report (4040), paper (521), framework (166), dataset (99), presentation (66), platform (29), review (25), blog-post (14), tool (10), code (9), article (8), project-website (1)
 
 ## Optional
 

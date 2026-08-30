@@ -103,3 +103,10 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 239 entries (7481-7719)
 - Backlog rows recorded as pending (excluded): 8
 - Tags: keyword auto-tagged
+
+## 2026-08-30 - Brookings Institution
+- Source slug: `brookings`
+- Scraped: 997 total, 836 ready, 161 backlog
+- Processed: 836 entries (7728-8563)
+- Backlog rows recorded as pending (excluded): 392
+- Tags: keyword auto-tagged

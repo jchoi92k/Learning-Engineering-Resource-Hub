@@ -1,5 +1,5 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in edtrust.md. Rewritten 2026-08-30 from the sitemap (no blurbs) to the WordPress REST post type research-tools-and-i: the Yoast meta description is the description (page-meta), the article body is kept as page_text, and the type-of-content / topic taxonomies are resolved to names via one lookup each. Newest-first (orderby=date), so early_stop is declared. The site moved /resource/ to /rti/ in 2026; the API links are /rti/ form.",
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in edtrust.md. Rewritten 2026-08-30 from the sitemap (no blurbs) to the WordPress REST post type research-tools-and-i: the Yoast meta description is the description (page-meta), the article body is kept as page_text, and the type-of-content / topic taxonomies are resolved to names via one lookup each. Newest-first (orderby=date), so early_stop is declared. The site moved /resource/ to /rti/ in 2026; the API links are /rti/ form. type_allow (2026-08-30 backfill call): research outputs plus guides, podcasts and videos; State News, Campaign and Press Releases items are recorded as type_filtered rows, not indexed.",
   "request_delay": 5,
   "discovery": "api",
   "discovery_url": "https://edtrust.org/wp-json/wp/v2/research-tools-and-i",
@@ -38,15 +38,38 @@
     }
   },
   "lookups": [
-    {"field": "type", "url": "https://edtrust.org/wp-json/wp/v2/type-of-content?per_page=100"},
-    {"field": "tags", "url": "https://edtrust.org/wp-json/wp/v2/topic?per_page=100"}
+    {
+      "field": "type",
+      "url": "https://edtrust.org/wp-json/wp/v2/type-of-content?per_page=100"
+    },
+    {
+      "field": "tags",
+      "url": "https://edtrust.org/wp-json/wp/v2/topic?per_page=100"
+    }
   ],
   "robots_txt": "https://edtrust.org/robots.txt",
-  "robots_disallow": ["/wp-admin/", "/trackback/", "/xmlrpc.php", "/feed/"],
+  "robots_disallow": [
+    "/wp-admin/",
+    "/trackback/",
+    "/xmlrpc.php",
+    "/feed/"
+  ],
   "test": {
     "url": "https://edtrust.org/wp-json/wp/v2/research-tools-and-i?per_page=5&orderby=date&order=desc",
     "expected_min_results": 50,
     "_note": "The api test path runs scrape_api with the config's own params (per_page=100), so use a minimum count."
   },
-  "early_stop": true
+  "early_stop": true,
+  "type_allow": [
+    "Report",
+    "Brief",
+    "Guide",
+    "Compilation",
+    "Fact Sheet",
+    "Podcast",
+    "Video",
+    "Data Tool",
+    "Infographic",
+    "Digital Report"
+  ]
 }

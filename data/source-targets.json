@@ -115,7 +115,7 @@
     "discovery_url": "https://edtrust.org/research/",
     "sample_url": "https://edtrust.org/resource/young-learners-family-engagement",
     "discovery_check": "resource",
-    "notes": "Hundreds available."
+    "notes": "582 RTI URLs in the sitemap, 402 in the REST API. 362 indexed after the 2026-08-30 backfill (331 inserted; 14 pending without a description; 26 State News/Campaign/Press Releases kept as excluded type_filtered rows)."
   },
   "IES Regional Education Labs": {
     "known_total": null,

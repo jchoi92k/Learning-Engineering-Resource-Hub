@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Full Index
-# 3582 entries | Last updated: 2026-08-30
+# 3913 entries | Last updated: 2026-08-30
 #
 # HOW TO USE THIS FILE
 # This file contains all entries with full descriptions — everything is here.
@@ -9,14 +9,14 @@
 # Do NOT attempt to fetch other files. This file is self-contained.
 #
 # TAGS
-# Domain: k-12 (937), math-education (534), literacy (470), learning-engineering (294), early-childhood (236), english-learners (215), higher-ed (203), school-discipline (31)
-# Method: computer-assisted-learning (253), response-to-intervention (208), longitudinal (201), rct (123), meta-analysis (61), coaching (47), intelligent-tutoring (41), genai (40), qualitative-research (35), llm-application (25), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
-# Topic: formative-assessment (353), college-access (341), professional-development (297), sel (279), career-readiness (199), inclusive-design (130), personalized-learning (125), attendance (104), dropout-prevention (104), open-datasets (101), writing-instruction (78), digital-learning-platforms (75), prekindergarten (56), student-belonging (37), math-strategies (24), ai-ethics (24), data-sharing (23), ai-policy (21), pii-privacy (18), math-motivation (10), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
-# Affiliation: wwc (366), lpi (338), digital-promise (259), aims (52), jedm (39), edtrust (31), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), lastinger-center (1), tla (1), casel (1)
+# Domain: k-12 (941), math-education (542), literacy (478), learning-engineering (295), early-childhood (239), english-learners (217), higher-ed (203), school-discipline (31)
+# Method: computer-assisted-learning (258), response-to-intervention (212), longitudinal (201), rct (123), meta-analysis (61), coaching (47), intelligent-tutoring (41), genai (40), qualitative-research (35), llm-application (25), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+# Topic: college-access (442), formative-assessment (361), professional-development (300), sel (292), career-readiness (235), inclusive-design (135), personalized-learning (125), dropout-prevention (112), attendance (108), open-datasets (101), writing-instruction (78), digital-learning-platforms (75), prekindergarten (56), student-belonging (37), math-strategies (24), ai-ethics (24), data-sharing (23), ai-policy (21), pii-privacy (18), math-motivation (10), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+# Affiliation: wwc (366), edtrust (362), lpi (338), digital-promise (259), aims (52), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (7), rppl (5), khan-academy (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), lastinger-center (1), tla (1), casel (1)
 #
-# TYPES: report (2853), paper (426), framework (108), dataset (99), platform (29), review (25), blog-post (14), presentation (10), code (9), article (8), project-website (1)
+# TYPES: report (3079), paper (426), framework (163), dataset (99), presentation (50), platform (29), review (25), blog-post (14), tool (10), code (9), article (8), project-website (1)
 #
-# SOURCES: WestEd (912), Mathematica (632), What Works Clearinghouse (375), Learning Policy Institute (339), UChicago Consortium on School Research (320), Digital Promise (259), Evidence for ESSA (221), NWEA Research (70), AIMS Collaboratory (52), Campbell Collaboration (51), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), The Education Trust (31), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
+# SOURCES: WestEd (912), Mathematica (632), What Works Clearinghouse (375), The Education Trust (362), Learning Policy Institute (339), UChicago Consortium on School Research (320), Digital Promise (259), Evidence for ESSA (221), NWEA Research (70), AIMS Collaboratory (52), Campbell Collaboration (51), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
 
 ---
 
@@ -75237,5 +75237,6956 @@ tags: []
 ```
 
 Every teacher knows the special student who overcomes the hazards of a risk-filled environment—poverty, violence, drugs—to become a healthy, competent young adult. This research synthesis...
+
+---
+
+---
+
+### 7110. Building Better Futures: 5 Policy Principles for Equitable College and Career Advising and Pathways
+
+```yaml
+url: "https://edtrust.org/rti/building-better-futures-5-policy-principles-for-equitable-college-and-career-advising-and-pathways/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+Every student deserves access to high-quality advising and pathways. This brief outlines five policy principles to expand opportunity and student success
+
+---
+
+---
+
+### 7111. Higher Education Policymakers Are Focused on Preparing Students for AI. They Should Also Focus on Protecting Them
+
+```yaml
+url: "https://edtrust.org/rti/higher-education-policymakers-are-focused-on-preparing-students-for-ai-they-should-also-focus-on-protecting-them/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+How will students be protected as AI becomes embedded throughout postsecondary education and training?
+
+---
+
+---
+
+### 7112. Protect Public Schools: An Advocacy Toolkit to Fight School Voucher Programs
+
+```yaml
+url: "https://edtrust.org/rti/advocacy-toolkit-to-fight-school-voucher-programs/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Here are resources communities can use to launch effective advocacy campaigns against school voucher programs.
+
+---
+
+---
+
+### 7113. Accreditation Needs Reform. ED’s Forthcoming Proposed Rule Misses the Mark
+
+```yaml
+url: "https://edtrust.org/rti/accreditation-needs-reform-eds-forthcoming-proposed-rule-misses-the-mark/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+The Department of Education's forthcoming proposed rule on accreditation would weaken accountability, erode academic freedom, and expand political influence over higher education
+
+---
+
+---
+
+### 7114. What Happens When Grad PLUS Loans Disappear?
+
+```yaml
+url: "https://edtrust.org/rti/what-happens-when-grad-plus-loans-disappear/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+State fact sheets show how ending Grad PLUS loans will widen funding gaps, increase private borrowing, and strain graduate education and workforce pipelines
+
+---
+
+---
+
+### 7115. Beyond the Early Grades: The State of Adolescent Literacy in Massachusetts
+
+```yaml
+url: "https://edtrust.org/rti/beyond-the-early-grades-the-state-of-adolescent-literacy-in-massachusetts/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, literacy]
+```
+
+Despite the state’s top national ranking, about half of middle and high schoolers lack the support needed to read at grade level
+
+---
+
+---
+
+### 7116. Youth Participatory Action Research (YPAR)
+
+```yaml
+url: "https://edtrust.org/rti/youth-participatory-action-research-ypar/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Unlike traditional research led by adult experts, Youth Participatory Action Research (YPAR) engages those most impacted as co-researchers
+
+---
+
+---
+
+### 7117. FY27 Federal Budget Proposal Cuts Billions from Education Funding
+
+```yaml
+url: "https://edtrust.org/rti/federal-funding-budget-proposal-cuts-education/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+EdTrust’s Federal Funding at Risk tool highlights what’s at stake if either the president’s or the House’s budget proposal is implemented
+
+---
+
+---
+
+### 7118. New Loan Limits Threaten Graduate Education Access and Affordability
+
+```yaml
+url: "https://edtrust.org/rti/new-loan-limits-threaten-graduate-education-access-and-affordability/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The elimination of Grad PLUS loans will limit access to advanced degrees and drive many students toward riskier private loans
+
+---
+
+---
+
+### 7119. Reading & Representation: Confronting America’s Literacy Crisis
+
+```yaml
+url: "https://edtrust.org/rti/reading-representation-confronting-americas-literacy-crisis/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, literacy]
+```
+
+In this episode, we explore the science of reading, the importance of structured literacy, and how culturally responsive literacy instruction can transform the lives of students.
+
+---
+
+---
+
+### 7120. Accurate History vs. Patriotic Education
+
+```yaml
+url: "https://edtrust.org/rti/accurate-history-vs-patriotic-education/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The Trump administration is trying to control what’s taught in classrooms
+
+---
+
+---
+
+### 7121. AI, Access, and the Educational Divide
+
+```yaml
+url: "https://edtrust.org/rti/ai-access-and-the-educational-divide/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+Artificial intelligence (AI) is rapidly reshaping education and the workforce, but at what cost?
+
+---
+
+---
+
+### 7122. Can You Tell Us How to Get to Sesame Street?
+
+```yaml
+url: "https://edtrust.org/rti/can-you-tell-us-how-to-get-to-sesame-street/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In this episode, discuss the show’s powerful legacy and its ongoing mission to provide free, high-quality educational content to all children, especially those in under-resourced communities
+
+---
+
+---
+
+### 7123. Unlocking Students’ Pathways to College & Career Part 2
+
+```yaml
+url: "https://edtrust.org/rti/unlocking-students-pathways-to-college-career-part-2/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+We dive deeper and explore what it looks like when pathways work
+
+---
+
+---
+
+### 7124. Unlocking Students’ Pathways to College & Career Part 1
+
+```yaml
+url: "https://edtrust.org/rti/unlocking-students-pathways-to-college-career-part-1/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+An honest look at how unclear pathways are leaving graduates unprepared for what comes next
+
+---
+
+---
+
+### 7125. Ready for Rigor: Expanding Access to Rigorous Coursework in Michigan
+
+```yaml
+url: "https://edtrust.org/rti/ready-for-rigor-expanding-access-to-rigorous-coursework-in-michigan/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Our report examines where Michigan is falling short in preparing students for postsecondary pathways and what state and district leaders can do to expand access for students
+
+---
+
+---
+
+### 7126. Meet us in the Principal’s Office: What Public Education Leaders Want You to Know Part 2
+
+```yaml
+url: "https://edtrust.org/rti/meet-us-in-the-principals-office-what-public-education-leaders-want-you-to-know-part-2/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Part 2 of this two-part episode features a principal supervisor, will explore how the principal role has evolved, what’s being asked of school leaders that no one talks about, and what’s at stake if they continue to be unsupported
+
+---
+
+---
+
+### 7127. Meet us in the Principal’s Office: What Public Education Leaders Want You to Know Part 1
+
+```yaml
+url: "https://edtrust.org/rti/meet-us-in-the-principals-office-part-1/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Part 1 of this two-part episode, two principals offer a behind-the-scenes look at the challenges facing public school principals today in their communities
+
+---
+
+---
+
+### 7128. How to Strengthen the Emergency Safety Net for Today’s Students
+
+```yaml
+url: "https://edtrust.org/rti/strengthening-the-emergency-student-safety-net/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Many college students struggle to cover basic needs like food and rent. Here’s how colleges can improve their emergency aid programs to better support students in times of crisis
+
+---
+
+---
+
+### 7129. Explore the Updated Opportunity for All Website
+
+```yaml
+url: "https://edtrust.org/rti/explore-the-updated-opportunity-for-all-website/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Michigan families, educators, and advocates deserve clear, accessible information about how our education system is serving students, and where we must do better
+
+---
+
+---
+
+### 7130. The Hidden Bias in College ROI Frameworks
+
+```yaml
+url: "https://edtrust.org/rti/hidden-bias-in-college-roi-frameworks/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Most ROI models underestimate the value of colleges serving high proportions of students of color and those from low-income backgrounds by focusing solely on graduate earnings and ignoring factors like race, income, and local job markets. But there’s a fairer way to evaluate colleges’ true worth
+
+---
+
+---
+
+### 7131. Protecting Students Amid Federal Attacks on Higher Education Opportunities
+
+```yaml
+url: "https://edtrust.org/rti/protecting-students-amid-federal-attacks-on-higher-education-opportunities/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Given the impending threats to the future of higher education, there are opportunities for states to make policy and resource decisions that can reduce the potential impact and scope of cuts
+
+---
+
+---
+
+### 7132. A Guide for States on Implementing Workforce Pell Grants
+
+```yaml
+url: "https://edtrust.org/rti/guide-to-implementing-workforce-pell-grants/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+A new guide explains how Workforce Pell expands federal financial aid to short-term, career-focused programs and how states and stakeholders can implement it effectively
+
+---
+
+---
+
+### 7133. Good Teaching Matters: How Well-Qualified Teachers Can Close the Gap
+
+```yaml
+url: "https://edtrust.org/rti/good-teaching-matters-how-well-qualified-teachers-can-close-the-gap-reissue/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Part of EdTrust’s 30th Anniversary: Reflecting on the Work That Still Matters
+
+---
+
+---
+
+### 7134. Advancing College & Career Readiness: A Blueprint for School Board Policy
+
+```yaml
+url: "https://edtrust.org/rti/advancing-college-career-readiness-a-blueprint-for-school-board-policy/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+Local school systems must adopt strong, lasting policies that help ensure that all students have access to clear pathways to college, careers, and well-paying jobs after graduation
+
+---
+
+---
+
+### 7135. Understanding the Implementation of Universal FAFSA Completion Policies in Colorado, Illinois, Indiana, and Louisiana
+
+```yaml
+url: "https://edtrust.org/rti/universal-fafsa-implementation-in-colorado-illinois-louisiana/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [attendance, college-access, edtrust]
+```
+
+A study of universal FAFSA policies in four states finds that they are most effective and equitable when combined with dedicated funding, opt-out flexibility, strong support networks, accountability systems, and policies that promote college attendance
+
+---
+
+---
+
+### 7136. Indiana’s “Future Accountability Model” is Bad for Hoosier Students
+
+```yaml
+url: "https://edtrust.org/rti/indianas-future-accountability-model-is-bad-for-hoosier-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The Indiana Department of Education is asking the U.S. Department of Education for a waiver to let a new system which violates federal accountability rules replace its federally compliant system
+
+---
+
+---
+
+### 7137. Examining State Education Agency Perspectives on School Improvement Supports
+
+```yaml
+url: "https://edtrust.org/rti/examining-state-education-agency-perspectives-on-school-improvement-supports/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+State education agencies are responsible for investing resources, dismantling barriers, and championing long-term, systemwide change to ensure school improvement
+
+---
+
+---
+
+### 7138. Strong Start, Strong Teachers: Supporting Teacher Preparation Programs for a Brighter Future
+
+```yaml
+url: "https://edtrust.org/rti/strong-start-strong-teachers-supporting-teacher-preparation-programs-for-a-brighter-future/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, professional-development]
+```
+
+Our report examines Michigan's teacher preparation landscape, identify gaps in the pipeline, and outline clear, equity-focused policy solutions to ensure aspiring educators not only enroll but complete, succeed, and stay in the profession
+
+---
+
+---
+
+### 7139. How Land-Grant Institutions Can Better Serve Indigenous Students
+
+```yaml
+url: "https://edtrust.org/rti/how-land-grant-institutions-can-better-serve-indigenous-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+These institutions were founded on the premise of accessible education, but how accessible are they to Indigenous students?
+
+---
+
+---
+
+### 7140. Protecting Students While Public Education is Under Attack
+
+```yaml
+url: "https://edtrust.org/rti/protecting-students-while-public-education-is-under-attack/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Here are five urgent threats posed by the Trump administration’s retreat from public education & the dismantling of the Department of Education
+
+---
+
+---
+
+### 7141. Federal Rulemaking Recap for Postsecondary Program Accountability: What Changed and What It Means for Higher Education
+
+```yaml
+url: "https://edtrust.org/rti/federal-rulemaking-recap-for-postsecondary-program-accountability-what-changed-and-what-it-means-for-higher-education/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+The U.S. Department of Education (ED), signed off on regulations that would require all postsecondary programs to pass a single earnings test to remain eligible for federal student loans
+
+---
+
+---
+
+### 7142. From First-Gen to First-of-Many: How TRIO Changes What’s Possible
+
+```yaml
+url: "https://edtrust.org/rti/from-first-gen-to-first-of-many-how-trio-changes-whats-possible/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+TRIO programs open college pathways for students who are first-generation, low-income, and from groups historically excluded from higher education
+
+---
+
+---
+
+### 7143. Consensus Reached, Questions Remain: The Workforce Pell Rulemaking Recap
+
+```yaml
+url: "https://edtrust.org/rti/consensus-reached-questions-remain-the-workforce-pell-rulemaking-recap/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+US Department of Education has concluded the first week of negotiated rulemaking to implement the new Workforce Pell Grant program
+
+---
+
+---
+
+### 7144. How the Elimination of Grad PLUS Loans and Classification of Professional Degrees Harm Women and Students of Color
+
+```yaml
+url: "https://edtrust.org/rti/eliminating-grad-plus-loans-professional-degrees-harms-women-students-of-color/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+OBBBA’s new regulations impose a lifetime limit on all federal student loans, including undergraduate. This means many students may reach their borrowing limit before completing their degree
+
+---
+
+---
+
+### 7145. The State of Math Instruction: Equity, Access, and Outcomes
+
+```yaml
+url: "https://edtrust.org/rti/the-state-of-math-instruction-equity-access-and-outcomes/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, math-education]
+```
+
+This research brief illuminates two foundational pillars of effective math education in Massachusetts: the adoption and implementation of high-quality math curricula, and the availability of educators capable of delivering rigorous and engaging math instruction
+
+---
+
+---
+
+### 7146. Hope and Hard Work Ahead: Building a Strong and Diverse Teacher Workforce for Michigan’s Students
+
+```yaml
+url: "https://edtrust.org/rti/hope-and-hard-work-ahead-building-a-strong-and-diverse-teacher-workforce-for-michigans-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+As part of a series on how to build a strong teacher workforce that supports student success and tackles Michigan’s teacher shortage problem, this report examines how Michigan struggles to attract and retain teacher candidates of color
+
+---
+
+---
+
+### 7147. New Roadmap Charts Bold Path for Equitable Public Higher Education in Massachusetts
+
+```yaml
+url: "https://edtrust.org/rti/new-roadmap-charts-bold-path-for-equitable-public-higher-education-in-massachusetts/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+A new report outlines a strategic blueprint to expand access, improve student outcomes, and strengthen the public higher education system in Massachusetts
+
+---
+
+---
+
+### 7148. Raising the Cost of Borrowing, Reducing Access: How the One Big Beautiful Bill Reshapes Financial Aid and Repayment
+
+```yaml
+url: "https://edtrust.org/rti/raising-the-cost-of-borrowing-reducing-access-how-the-one-big-beautiful-bill-reshapes-financial-aid-and-repayment/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+The One Big Beautiful Bill Act (OBBBA) cuts key federal financial aid programs for undergraduate and graduate students and consumer protections for student loan repayment
+
+---
+
+---
+
+### 7149. Implementing the PREP Allotment: Interactive Resources for School System Leaders
+
+```yaml
+url: "https://edtrust.org/rti/implementing-the-prep-allotment-an-interactive-budget-workbook-for-school-system-leaders/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, professional-development]
+```
+
+Texas has made historic policy shifts to expand and incentivize high-quality teacher preparation
+
+---
+
+---
+
+### 7150. An Overview of State Financial Aid in Illinois, Indiana, and Minnesota
+
+```yaml
+url: "https://edtrust.org/rti/state-financial-aid-illinois-indiana-minnesota/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+As federal financial aid shrinks, college access and affordability will hinge on how states distribute student aid and set eligibility requirements. A new EdTrust report examines state financial aid programs in three Midwestern states.
+
+---
+
+---
+
+### 7151. Building Futures: Strengthening the Educator Workforce Through Teacher Apprenticeships
+
+```yaml
+url: "https://edtrust.org/rti/building-futures-strengthening-the-educator-workforce-through-teacher-apprenticeships/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+An excellent teacher is integral for student success, and most states have turned to registered teacher apprenticeship programs to widen their pool of educators
+
+---
+
+---
+
+### 7152. Mapping Postsecondary Pathways: Understanding State Student College Enrollment Trends
+
+```yaml
+url: "https://edtrust.org/rti/mapping-postsecondary-pathways-understanding-state-student-college-enrollment-trends/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+More students are attending college, and some are seeking more affordable routes to good jobs through community colleges, short-term credentials, and apprenticeships
+
+---
+
+---
+
+### 7153. The Educational Aide Exemption Program: A Missing Link to Increase Texas’ Teacher Pipeline
+
+```yaml
+url: "https://edtrust.org/rti/the-educational-aide-exemption-program-the-key-to-increasing-texas-teacher-pipeline/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Texas is facing a dire teacher shortage, yet most classroom-ready educational aides remain locked out of pathways to certification
+
+---
+
+---
+
+### 7154. Chronic Absenteeism
+
+```yaml
+url: "https://edtrust.org/rti/chronic-absenteeism/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [attendance, edtrust]
+```
+
+EdTrust created an interactive package designed to equip policymakers, advocates, and education leaders with policy analyses, guidance, and insight
+
+---
+
+---
+
+### 7155. Making the New Higher Education Accountability Framework Pay Off
+
+```yaml
+url: "https://edtrust.org/rti/making-the-new-higher-education-accountability-framework-pay-off/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Without stronger accountability, students from low- and middle-income backgrounds risk being burdened by debt with little chance of advancing up the economic ladder
+
+---
+
+---
+
+### 7156. FY26 Federal Funding at Risk for America’s Schools
+
+```yaml
+url: "https://edtrust.org/rti/fy26-federal-funding-at-risk-for-americas-schools/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+EdTrust has created an interactive tool that shows what’s at stake for states if the budget proposal from Trump or the House is adopted for school districts across the country, including high-poverty, urban, and rural districts
+
+---
+
+---
+
+### 7157. FY26 Budget: What’s at Stake for Students, Schools, & Higher Education
+
+```yaml
+url: "https://edtrust.org/rti/fy26-budget-whats-at-stake-for-students-schools-higher-education/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+The President, the House, and the Senate all have budget proposals for this fiscal year (FY). Find out which budget does more harm to students and families
+
+---
+
+---
+
+### 7158. Supporting Student-Parents at Two-Year Colleges: Addressing the Affordability Gap
+
+```yaml
+url: "https://edtrust.org/rti/supporting-student-parents-at-two-year-colleges-addressing-the-affordability-gap/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [attendance, college-access, edtrust]
+```
+
+Student-parents at community colleges pay at least $13,000 more per year, on average, than their peers without children once the full cost of attendance is factored in, an EdTrust brief finds
+
+---
+
+---
+
+### 7159. An Equitable Approach to Improving Literacy
+
+```yaml
+url: "https://edtrust.org/rti/an-equitable-approach-to-improving-literacy/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, literacy]
+```
+
+How to ensure more equitable reading opportunities and outcomes for all students
+
+---
+
+---
+
+### 7160. State Fact Sheet: 2025 Budget Reconciliation
+
+```yaml
+url: "https://edtrust.org/rti/state-fact-sheet-2025-budget-reconciliation/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Spending and tax changes proposed in the “One Big Beautiful Bill Act” will have devastating impacts on students and their families
+
+---
+
+---
+
+### 7161. VIDEO: Trump’s Chaotic Carnival Ride for Students
+
+```yaml
+url: "https://edtrust.org/rti/video-trumps-chaotic-carnival-ride-for-students/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Ever since Donald Trump took office on January 20, 2025, he and his administration have enacted harmful education policies that put our nation’s students at risk
+
+---
+
+---
+
+### 7162. 5 Ways to Create Fair School Funding Formulas
+
+```yaml
+url: "https://edtrust.org/rti/5-ways-to-create-fair-school-funding-formulas/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+EdTrust believes that state school funding systems should provide adequate and equitable funding levels to address students’ individual needs
+
+---
+
+---
+
+### 7163. P-12 School Funding Glossary
+
+```yaml
+url: "https://edtrust.org/rti/p-12-school-funding-glossary/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+School funding can be complex. We have compiled a list of common terms to help you understand how state school funding systems work
+
+---
+
+---
+
+### 7164. New Analyses: Michigan in Bottom Ten in Nation for School Funding Weights for Students from Low-Income Backgrounds Amid Greatest Threat to Public Education in Decades
+
+```yaml
+url: "https://edtrust.org/rti/new-analyses-michigan-in-bottom-ten-in-nation-for-school-funding-weights-for-students-from-low-income-backgrounds-amid-greatest-threat-to-public-education-in-decades/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Amid unprecedented threats to public education and sluggish post-pandemic learning recovery, a bipartisan coalition of Michigan organizations is calling on state leaders to prioritize investments and strategies that improve outcomes for vulnerable students
+
+---
+
+---
+
+### 7165. The State of Math in Massachusetts: A Data-Driven Look at Massachusetts’ Math Crisis and What Can Be Done
+
+```yaml
+url: "https://edtrust.org/rti/the-state-of-math-in-massachusetts-a-data-driven-look-at-massachusetts-math-crisis-and-what-can-be-done/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust, learning-engineering, math-education]
+```
+
+Math proficiency has sharply declined across the nation, and recent data shows that many Massachusetts students are entering higher education unprepared for the mathematical demands of college, careers, and beyond
+
+---
+
+---
+
+### 7166. Why Environmental Justice Is Educational Justice
+
+```yaml
+url: "https://edtrust.org/rti/why-environmental-justice-is-educational-justice/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Without education and action on climate change, students of color and students from low-income backgrounds will bear the brunt of its effects
+
+---
+
+---
+
+### 7167. The Next Threat to Education: Congress’ Budget Reconciliation
+
+```yaml
+url: "https://edtrust.org/rti/the-next-threat-to-education-congress-budget-reconciliation/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Here’s what families, advocates, and education leaders need to know — and what we can do about it
+
+---
+
+---
+
+### 7168. The Department of Education’s Newest Broken Promise: Cutting Pandemic Relief Funding
+
+```yaml
+url: "https://edtrust.org/rti/the-department-of-educations-newest-broken-promise-cutting-pandemic-relief-funding/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The Dept of Ed is taking back $3 billion in pandemic relief funding that Congress already promised to states. What’s at stake?
+
+---
+
+---
+
+### 7169. Invest in Need-Based Financial Aid to Achieve a Talent Strong Texas
+
+```yaml
+url: "https://edtrust.org/rti/invest-in-need-based-financial-aid-to-achieve-a-talent-strong-texas/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+The Texas Legislature has the opportunity to strategically invest in financial aid programs to support low-income students to advance the state’s workforce goals
+
+---
+
+---
+
+### 7170. How Emergency Relief Funding Helped Students Stay in College During the Pandemic
+
+```yaml
+url: "https://edtrust.org/rti/how-emergency-relief-funding-helped-students-stay-in-college-during-the-pandemic/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Two EdTrust briefs paint a clearer picture of how federal emergency relief funding impacted college students and provide recommendations for improving future aid funding
+
+---
+
+---
+
+### 7171. VIDEO: Explainers on the Attacks on Education
+
+```yaml
+url: "https://edtrust.org/rti/video-explainers-on-the-attacks-on-education/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Watch EdTrust experts explain the complicated education policies being enacted by the White House and hear from teachers who are affected
+
+---
+
+---
+
+### 7172. Find Out How Much Federal Education Aid Your State Could Lose
+
+```yaml
+url: "https://edtrust.org/rti/find-out-how-much-federal-education-aid-your-state-could-lose/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+A 50-state scan of 2025 state budgets and the estimated new budget without federal education funding
+
+---
+
+---
+
+### 7173. #SaveOurStudents: Advocacy Toolkit to Organize for Success
+
+```yaml
+url: "https://edtrust.org/rti/saving-our-students-communications-toolkit-to-organizing-for-success/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This toolkit equips advocates with the resources to mobilize state and local communities to resist these attacks and protect public education for current and future generations
+
+---
+
+---
+
+### 7174. The Impacts of the Los Angeles Wildfires: Lessons for Schools Nationwide
+
+```yaml
+url: "https://edtrust.org/rti/the-impacts-of-the-los-angeles-wildfires-lessons-for-schools-nationwide/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Devastating wildfires in Southern California in early January 2025 were historic in scale and impact
+
+---
+
+---
+
+### 7175. Press Conference on Dismantling the Department of Education
+
+```yaml
+url: "https://edtrust.org/rti/press-conference-on-dismantling-the-department-of-education/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Highlights from a press conference held by EdTrust about a pending Executive Order to dismantle the Department of Education
+
+---
+
+---
+
+### 7176. A Scan of State Universal FAFSA Policies
+
+```yaml
+url: "https://edtrust.org/rti/a-scan-of-state-universal-fafsa-policies/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Our new report looks at the policies of states that have had, currently have, or will soon implement universal FAFSA policies and examines the impact of these policies on FAFSA submission and completion rates and enrollment among Pell Grant recipients
+
+---
+
+---
+
+### 7177. Opening Doors for More Americans – a Toolkit for State Advocates
+
+```yaml
+url: "https://edtrust.org/rti/standing-for-dei-programs-in-your-state/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust, inclusive-design]
+```
+
+Despite the ongoing threats to diversity, equity, and inclusion, college DEI programs are important for students of color to feel like they belong.
+
+---
+
+---
+
+### 7178. How District Leaders and Advocates Can Build Parent Support for Statewide Assessments
+
+```yaml
+url: "https://edtrust.org/rti/how-district-leaders-and-advocates-can-build-parent-support-for-statewide-assessments/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, formative-assessment]
+```
+
+Addressing inequities in educational outcomes cannot happen without data from statewide summative assessments.
+
+---
+
+---
+
+### 7179. EdTrust at the Texas Legislature
+
+```yaml
+url: "https://edtrust.org/rti/edtrust-at-the-texas-legislature/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+EdTrust in Texas is driven by a bold vision: a future where every Texas child has the freedom to chase their dreams in classrooms that are safe, supportive, and led by skilled educators from diverse backgrounds. We imagine public schools that are well-resourced and accountable to the communities they serve—where parents and schools work together to […]
+
+---
+
+---
+
+### 7180. Closing the Opportunity Divide: Addressing Michigan’s Teacher Shortage Problem for Students Most in Need
+
+```yaml
+url: "https://edtrust.org/rti/closing-the-opportunity-divide-addressing-michigans-teacher-shortage-problem-for-students-most-in-need/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Michigan’s students who are the most underserved face the highest rates of inexperienced teachers, teachers who have emergency or temporary credentials, and educators who are teaching classes that are not in their field of expertise
+
+---
+
+---
+
+### 7181. Registered Teacher Apprenticeship Programs: A 50-State Scan
+
+```yaml
+url: "https://edtrust.org/rti/registered-teacher-apprenticeship-programs/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Registered Teacher Apprenticeship Programs let candidates earn a salary, train with a mentor & work toward teaching licensure.
+
+---
+
+---
+
+### 7182. 5 Things to Know About Learning Loss and Recovery in Massachusetts
+
+```yaml
+url: "https://edtrust.org/rti/5-things-to-know-about-learning-loss-and-recovery-in-massachusetts/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+On average, Massachusetts had worse pandemic ‘learning losses’ than the rest of the country.
+
+---
+
+---
+
+### 7183. Designing Equitable Through-Year Assessments
+
+```yaml
+url: "https://edtrust.org/rti/designing-equitable-through-year-assessments/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, formative-assessment]
+```
+
+This resource highlights crucial technical considerations for advocates and state administrators.
+
+---
+
+---
+
+### 7184. 5 Things Every Equity Advocate Should Know About Through-Year Assessments
+
+```yaml
+url: "https://edtrust.org/rti/5-things-every-equity-advocate-should-know-about-through-year-assessments/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, formative-assessment]
+```
+
+This brief looks at how equitable and thoughtfully designed through-year assessments can enhance summative assessment systems to better meet the academic needs of all students.
+
+---
+
+---
+
+### 7185. Understanding the Full Cost of Short-Term Credentials
+
+```yaml
+url: "https://edtrust.org/rti/understanding-the-full-cost-of-short-term-credentials/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Interest in short-term credentials is surging but their value is mixed. More research is needed to assess their effectiveness.
+
+---
+
+---
+
+### 7186. Teacher Preparation and House Bill 8: Unlocking Community College Funding to Support Aspiring Educators
+
+```yaml
+url: "https://edtrust.org/rti/teacher-preparation-and-house-bill-8/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust, professional-development]
+```
+
+Texas education advocates and policymakers are seeking innovative solutions to address the state’s alarming reliance on uncertified teachers.
+
+---
+
+---
+
+### 7187. Updating the Higher Education Act to Better Serve Students of Color
+
+```yaml
+url: "https://edtrust.org/rti/updating-the-higher-education-act-to-better-serve-students-of-color/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+It’s time to amend Titles III and V of the Higher Education Act to better meet the needs of 21st-century students of color and low-income students. Here’s how.
+
+---
+
+---
+
+### 7188. Social, Emotional, and Academic Development (SEAD) Assessments: A Framework for State and District Leaders
+
+```yaml
+url: "https://edtrust.org/rti/sead-assessments-a-framework-for-state-and-district-leaders/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, formative-assessment, sel]
+```
+
+Schools should use assessments to measure whether they are meeting students’ social and emotional development needs
+
+---
+
+---
+
+### 7189. Advanced Coursework Resources
+
+```yaml
+url: "https://edtrust.org/rti/advanced-coursework-resources/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+As states and districts consider the best ways to expand access to advanced coursework, they may consider these resources.
+
+---
+
+---
+
+### 7190. A Vision for Equitable Pathways: Enhancing Support and Innovation in College and Career Counseling
+
+```yaml
+url: "https://edtrust.org/rti/a-vision-for-equitable-pathways/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+Pathways help students move from P-12 to college & career more seamlessly. EdTrust & All4Ed report explains the ideal system.
+
+---
+
+---
+
+### 7191. How to Prioritize Funding for Students’ Social, Emotional, and Academic Development
+
+```yaml
+url: "https://edtrust.org/rti/esser-funding-social-emotional-development/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+Students’ social & emotional well-being are linked to academic learning. States should prioritize funding programs that holistically support students’ needs.
+
+---
+
+---
+
+### 7192. Community Mobilization Guide
+
+```yaml
+url: "https://edtrust.org/rti/community-mobilization-guide/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+EdTrust reached out to Measure for guidance on how to implement a community-led approach to evaluating and addressing challenges with Dallas Independent School District’s (Dallas ISD) disciplinary practices.
+
+---
+
+---
+
+### 7193. Higher Education in Texas Prisons
+
+```yaml
+url: "https://edtrust.org/rti/higher-education-in-texas-prisons/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+This brief looks at Higher Education in Prison (HEP) in Texas as it relates to programs provided inside the Texas Department of Criminal Justice (TDCJ).
+
+---
+
+---
+
+### 7194. Common Questions About Automatic Enrollment Policies for Advanced Courses
+
+```yaml
+url: "https://edtrust.org/rti/questions-automatic-enrollment-policies/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Automatic enrollment is a policy that ensures all students who are ready for advanced courses have access to them.
+
+---
+
+---
+
+### 7195. 2024 State of Michigan Education Report: Seven Decades after Brown – Devastating Inequities, Unfair School Funding – and Reasons for Hope
+
+```yaml
+url: "https://edtrust.org/rti/2024-state-of-michigan-education-report-seven-decades-after-brown-devastating-inequities-unfair-school-funding-and-reasons-for-hope/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Seven decades after the landmark U.S. Supreme Court case Brown vs. Board of Education, Michigan students of color continue to face devastating educational inequities in deeply under-resourced public schools
+
+---
+
+---
+
+### 7196. The State of Advanced Coursework in Washington
+
+```yaml
+url: "https://edtrust.org/rti/the-state-of-advanced-coursework-in-washington/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Washington has done exciting work in the past few years to broaden access to advanced coursework opportunities.
+
+---
+
+---
+
+### 7197. Higher Education Emergency Aid in Texas
+
+```yaml
+url: "https://edtrust.org/rti/higher-education-emergency-aid-in-texas/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+An EdTrust in Texas deep dive into the pandemic funding awarded to postsecondary students and recommendations moving forward.
+
+---
+
+---
+
+### 7198. Straight From the Source: Texas Students & Practitioners Share Their Experiences With Higher Ed Emergency Relief Funds
+
+```yaml
+url: "https://edtrust.org/rti/texas-students-practitioners-share-experiences-higher-ed-emergency-relief-funds/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This report spotlights challenges that various Texas institutions faced and the creative ways in which these institutions confronted them and offers recommendations organized around key findings.
+
+---
+
+---
+
+### 7199. Family Engagement State Policy Recommendations
+
+```yaml
+url: "https://edtrust.org/rti/family-engagement-state-policy-recommendations/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+State leaders play a key role in supporting districts and schools in engaging families in their work to support the social, emotional, and academic needs of their students.
+
+---
+
+---
+
+### 7200. Model Individual Score Report for State Summative Assessments
+
+```yaml
+url: "https://edtrust.org/rti/score-report-state-summative-assessments/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, formative-assessment]
+```
+
+The report demonstrates how to incorporate the design elements discussed in EdTrust’s report “Making Assessment Reports More Meaningful for Students & Families.”
+
+---
+
+---
+
+### 7201. Automatic Enrollment Policies for Advanced Coursework
+
+```yaml
+url: "https://edtrust.org/rti/automatic-enrollment-policies-for-advanced-coursework/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Examples of States’ Opt-Out Policy Approaches Automatic Enrollment: Building on Success at the Local Level Many of the states that adopted automatic enrollment policies focused on early signs of success in districts or regions. The earliest example of this was in 2010, when Federal Way School District in Washington State passed an automatic enrollment policy and immediately […]
+
+---
+
+---
+
+### 7202. What are Automatic Enrollment (Opt-Out) Policies?
+
+```yaml
+url: "https://edtrust.org/rti/what-are-automatic-enrollment-opt-out-policies/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Automatic enrollment in advanced coursework policies, also called “opt-out” policies, are a potent policy lever to extend access to rigorous and potentially college-credit bearing courses for underserved students.
+
+---
+
+---
+
+### 7203. Who Deserves State Financial Aid? Exploring the Eligibility Criteria for Students Entering Higher Education
+
+```yaml
+url: "https://edtrust.org/rti/who-deserves-state-financial-aid/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+High tuition costs prevent many young people from attending college. EdTrust analyses 10 state financial aid programs.
+
+---
+
+---
+
+### 7204. Early Literacy or Children’s Right to Read
+
+```yaml
+url: "https://edtrust.org/rti/early-literacy-or-childrens-right-to-read/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, literacy]
+```
+
+Policymakers and education leaders must adopt policies and practices that ensure all students learn to read and have access to high-quality, diverse, and culturally responsive literacy instruction
+
+---
+
+---
+
+### 7205. Navigating the Better FAFSA
+
+```yaml
+url: "https://edtrust.org/rti/navigating-the-better-fafsa/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In December 2020, Congress passed the bipartisan FAFSA Simplification Act that mandated a new, simpler Free Application for Federal Student Aid (FAFSA), which overhauled the federal financial aid formula.
+
+---
+
+---
+
+### 7206. Literacy Matters: Addressing the Crisis in Massachusetts Education
+
+```yaml
+url: "https://edtrust.org/rti/literacy-matters-addressing-the-crisis-in-massachusetts-education/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, literacy]
+```
+
+In Massachusetts, many students lack access to high-quality and culturally responsive reading instruction and materials, which has led to a literacy crisis that disproportionately impacts students from underserved communities.
+
+---
+
+---
+
+### 7207. ‘Segregation Forever’? Private Universities Haven’t Increased Diversity in the Past 20 Years. What Now?
+
+```yaml
+url: "https://edtrust.org/rti/private-universities-havent-increased-diversity/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+As an accompaniment to our analysis of Black student enrollment, EdTrust explored enrollment for Latino students at the nation’s 122 most selective private four-year colleges and universities.
+
+---
+
+---
+
+### 7208. Educational Recovery and Acceleration through Equitable Funding: How Michigan’s Budget Can Improve Outcomes for all Students
+
+```yaml
+url: "https://edtrust.org/rti/educational-recovery-and-acceleration-through-equitable-funding-how-michigans-budget-can-improve-outcomes-for-all-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This document highlights key pieces of Governor Whitmer’s education budget recommendation and explore how these priorities, as well as other strategies, can advance equity and excellence in Michigan schools
+
+---
+
+---
+
+### 7209. Increasing Access to Advanced Coursework in Texas
+
+```yaml
+url: "https://edtrust.org/rti/increasing-access-to-advanced-coursework-in-texas/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This brief provides data analyses and a scan of policies and practices in Texas for advocates, educators, and policymakers who are leading the work at the state level to increase access to advanced coursework for Black and Latino students.
+
+---
+
+---
+
+### 7210. Advocating for Funding and Resource Equity as Federal COVID Relief Ends
+
+```yaml
+url: "https://edtrust.org/rti/advocating-for-funding-and-resource-equity-as-federal-covid-relief-ends/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The last of the $190 billion in federal COVID-19 relief funds, distributed to states and school districts through the Elementary and Secondary School Emergency Relief (ESSER) funds, will end in September 2024. While this one-time emergency funding was intended to primarily address the immediate impact of the pandemic on student learning, districts used ESSER funds […]
+
+---
+
+---
+
+### 7211. Advocates’ Guide to Demanding Racially and Culturally Inclusive State Assessments
+
+```yaml
+url: "https://edtrust.org/rti/guide-to-demanding-inclusive-state-assessments/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, formative-assessment, inclusive-design]
+```
+
+EdTrust argues for annual federally required assessments to be more inclusive, explaining why these changes are necessary, how they can provide more accurate data, and how policymakers can exert consumer pressure on vendors to create more inclusive assessments.
+
+---
+
+---
+
+### 7212. Leading with Excellence
+
+```yaml
+url: "https://edtrust.org/rti/leading-with-excellence/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In today’s environment, schools and universities have become the epicenter of cultural and political conflict.
+
+---
+
+---
+
+### 7213. Increasing Access to Advanced Coursework in Massachusetts
+
+```yaml
+url: "https://edtrust.org/rti/increasing-access-to-advanced-coursework-in-massachusetts/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+These resources are designed to help advocates, educators, and policymakers compare best practices and make informed decisions at the state level on advanced coursework for students.
+
+---
+
+---
+
+### 7214. Increasing Access to Advanced Coursework in Kentucky
+
+```yaml
+url: "https://edtrust.org/rti/increasing-access-to-advanced-coursework-in-kentucky/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This brief provides data analyses and a scan of policies and practices for advocates, educators, and policymakers who are leading the work to increase access to advanced coursework for Black and Latino students.
+
+---
+
+---
+
+### 7215. Increasing Access to Advanced Coursework in Washington
+
+```yaml
+url: "https://edtrust.org/rti/increasing-access-to-advanced-coursework-in-washington/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This brief provides data analyses and a scan of policies and practices in Washington for advocates, educators, and policymakers who are leading the work at the state level to increase access to advanced coursework for Black and Latino students.
+
+---
+
+---
+
+### 7216. Improving Students’ Access to Advanced Coursework
+
+```yaml
+url: "https://edtrust.org/rti/improving-students-access-to-advanced-coursework/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This series of work highlights EdTrust’s efforts in ensuring that Black and Latino students and students from low-income backgrounds have access to advanced coursework, because research shows that when they do have access, they thrive.
+
+---
+
+---
+
+### 7217. A Map of Anti-DEI Efforts on College Campuses Across the U.S.
+
+```yaml
+url: "https://edtrust.org/rti/a-map-of-anti-dei-efforts-on-college-campuses-across-the-u-s/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Threats to DEI are only growing stronger, with continued plans to introduce bills in the next legislative session, and attacks occurring on the accreditation front. Use our interactive dashboard to keep track of the evolving attacks on DEI across the states.
+
+---
+
+---
+
+### 7218. Who Received Federal Emergency Aid Funding in Texas? A Closer Look at the Pandemic Funding Awarded to Postsecondary Students
+
+```yaml
+url: "https://edtrust.org/rti/who-received-federal-emergency-aid-funding-in-texas-a-closer-look-at-the-pandemic-funding-awarded-to-postsecondary-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Based on reporting from calendar year 2021, our findings reflect the flow of pandemic emergency funds from the Department of Education to postsecondary institutions in Texas and ultimately to students.
+
+---
+
+---
+
+### 7219. Creating Safer Schools: A Case Study
+
+```yaml
+url: "https://edtrust.org/rti/creating-safer-schools-a-case-study/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This mixed-methods case study examines two urban school districts in the United States. After public calls to end policing in schools, leaders in these districts reformed both policy and practice to support student safety.
+
+---
+
+---
+
+### 7220. Budgeting for Equity Beyond ESSER: A Guide to Actionable State and District Policy Responses to the Fiscal Cliff
+
+```yaml
+url: "https://edtrust.org/rti/budgeting-for-equity-beyond-esser-a-guide-to-actionable-state-and-district-policy-responses-to-the-fiscal-cliff/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This guide provides key recommendations for how state and district leaders can equitably approach budgeting beyond ESSER.
+
+---
+
+---
+
+### 7221. A Seat at the Policymaking Table: Supporting the Advocacy of Ed Prep Leaders at Minority-Serving Institutions`
+
+```yaml
+url: "https://edtrust.org/rti/a-seat-at-the-policymaking-table-supporting-the-advocacy-of-ed-prep-leaders-at-minority-serving-institutions/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+This scan is intended to guide conversations with district board members and administration leaders to ensure their policies and practices lead to improved College, Career, and Military Readiness outcomes for students.
+
+---
+
+---
+
+### 7222. Educator Diversity State Profile: New York
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-new-york/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+A new report released by the New York Equity Coalition shows school level leadership does not represent the racial and ethnic diversity of the student population in New York State public schools.
+
+---
+
+---
+
+### 7223. College and Career Readiness District-Level Policy Scan
+
+```yaml
+url: "https://edtrust.org/rti/college-and-career-readiness-district-level-policy-scan/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+This scan is intended to guide conversations with district board members and administration leaders to ensure their policies and practices lead to...
+
+---
+
+---
+
+### 7224. The Search for More Complex Racial and Ethnic Representation in Grade School Books
+
+```yaml
+url: "https://edtrust.org/rti/the-search-for-more-complex-racial-and-ethnic-representation-in-grade-school-books/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+In a study of 300 children's books, Ed Trust identified large disparities in characters and topics describing White people vs. people of color in curricula
+
+---
+
+---
+
+### 7225. How Colleges’ Anti-DEI Policies Affect Campus Racial Climate
+
+```yaml
+url: "https://edtrust.org/rti/how-colleges-anti-dei-policies-affect-campus-racial-climate/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust, inclusive-design]
+```
+
+In the wake of the Supreme Court’s limitation on the use of affirmative action, some states and colleges are doing away with their diversity, equity, and inclusion (DEI) programs (see the map below). However, we argue that there needs to be even greater efforts on college campuses to support the belonging and success of students […]
+
+---
+
+---
+
+### 7226. Advocating for Education Equity as ESSER Spending Winds Down
+
+```yaml
+url: "https://edtrust.org/rti/watch-out-for-the-fiscal-cliff-advocating-for-education-equity-as-esser-spending-winds-down/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+New Ed Trust brief on how school emergency relief fund investments can have long-term, positive outcomes for underserved students.
+
+---
+
+---
+
+### 7227. VIDEO: Equitable School Spending Using COVID Relief Funds
+
+```yaml
+url: "https://edtrust.org/rti/video-equitable-school-spending-using-covid-relief-funds/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+State & district leaders have a deadline to spend federal pandemic relief funds (#ESSER) for schools
+
+---
+
+---
+
+### 7228. A.S.P.I.I.R.E.S: State Policy Review Framework
+
+```yaml
+url: "https://edtrust.org/rti/aspiires-state-policy-review-framework/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Every state wants its residents to be able to compete in the 21st-century economy. That’s why several state leaders…
+
+---
+
+---
+
+### 7229. How Certain States Are Supporting Social, Emotional, and Academic Development (SEAD)
+
+```yaml
+url: "https://edtrust.org/rti/how-certain-states-are-supporting-social-emotional-and-academic-development-sead/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+Social, emotional, and academic development (SEAD) is a holistic approach to supporting students’ development and learning that is integral…
+
+---
+
+---
+
+### 7230. Leading with Excellence Video Series
+
+```yaml
+url: "https://edtrust.org/rti/leading-with-equity-video-series/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+We have launched this Leading with Excellence video series to amplify the voices of women leaders.
+
+---
+
+---
+
+### 7231. Affirmative Action in Higher Education: Moving the Conversation Forward
+
+```yaml
+url: "https://edtrust.org/rti/affirmative-action/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Affirmative action has historically been an instrument that colleges can use to ensure that students of color receive fair consideration for admissions.
+
+---
+
+---
+
+### 7232. Tool for Representational Balance in Books
+
+```yaml
+url: "https://edtrust.org/rti/tool-for-representational-balance/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The Tool for Representational Balance in Books was created to provide curriculum publishers a framework for closely reviewing the books that make up curricular units so they may better understand how people, groups, and topics are represented. We have adapted this tool for general use by anyone, including students, parents, teachers, and community members interested in understanding what representation looks like across materials given to students.
+
+---
+
+---
+
+### 7233. 5 State Policy Recommendations Fostering STEM Aspirations for Students of Color in Middle School
+
+```yaml
+url: "https://edtrust.org/rti/5-state-policy-recommendations-fostering-stem-aspirations-for-students-of-color-in-middle-school/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, k-12, math-education]
+```
+
+Math and science are for everyone. But unfortunately, many students, and especially Black and Latino students, don’t receive that…
+
+---
+
+---
+
+### 7234. Eliminating the Opportunity Gaps: Creating a Truly Fair and Equitable Funding System
+
+```yaml
+url: "https://edtrust.org/rti/eliminating-the-opportunity-gaps-creating-a-truly-fair-and-equitable-funding-system/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Michigan has long had one of the most regressive school funding formulas, according to state and national research
+
+---
+
+---
+
+### 7235. How Does Tennessee Support Students Social, Emotional, and Academic Development (SEAD)?
+
+```yaml
+url: "https://edtrust.org/rti/how-does-tennessee-support-students-social-emotional-and-academic-development-sead/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+Social, emotional, and academic development (SEAD) is a holistic approach to supporting students' development and learning that is integral…
+
+---
+
+---
+
+### 7236. How Does Massachusetts Support Students Social, Emotional, and Academic Development (SEAD)?
+
+```yaml
+url: "https://edtrust.org/rti/how-does-massachusetts-support-students-social-emotional-and-academic-development-sead/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+Social, emotional, and academic development (SEAD) is a holistic approach to supporting students' development and learning that is integral…
+
+---
+
+---
+
+### 7237. 5 Things Equity Advocates Should Know About…. Changes to the FAFSA for Fall 2023
+
+```yaml
+url: "https://edtrust.org/rti/5-things-equity-advocates-should-know-about-changes-to-the-fafsa-for-fall-2023/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The new FAFSA, or Free Application for Federal Student Aid (FAFSA), has been delayed until December 2023. As a…
+
+---
+
+---
+
+### 7238. Are Harris County Students Prepared for Success After High School?
+
+```yaml
+url: "https://edtrust.org/rti/are-harris-county-students-prepared-for-success-after-high-school/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+What happens when a student graduates from high school but is not ready for college or a career? The…
+
+---
+
+---
+
+### 7239. How Does Texas Support Students’ Social, Emotional, and Academic Development (SEAD)?
+
+```yaml
+url: "https://edtrust.org/rti/how-does-texas-support-students-social-emotional-and-academic-development-sead/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+Social, emotional, and academic development (SEAD) is a holistic approach to supporting students' development and learning that is integral…
+
+---
+
+---
+
+### 7240. How Does Louisiana Support Student’s Social, Emotional, and Academic Development (SEAD)?
+
+```yaml
+url: "https://edtrust.org/rti/how-does-louisiana-support-students-social-emotional-and-academic-development-sead-2/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+This brief highlights how Louisiana is supporting students’ SEAD and areas for growth across six policy issues, as well as questions to ask district leaders about local implementation.
+
+---
+
+---
+
+### 7241. Black Joy Consortium for Reimagining Education 2023 Platform Priorities
+
+```yaml
+url: "https://edtrust.org/rti/black-joy-consortium-for-reimagining-education-2023-platform-priorities/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The Black Joy Consortium is aligned to a vision for a reimagined education system that fully prepares Black students…
+
+---
+
+---
+
+### 7242. 5 Questions to Ask District and School Leaders About Access to Advanced STEM Coursework in High School
+
+```yaml
+url: "https://edtrust.org/rti/5-questions-to-ask-district-and-school-leaders-about-access-to-advanced-stem-coursework-in-high-school/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, computer-assisted-learning, edtrust, k-12]
+```
+
+Although many Black and Latino students aspire to go to college and are interested in science, technology, engineering, and…
+
+---
+
+---
+
+### 7243. Key Criteria for Undocumented Student Higher Education Access and Success
+
+```yaml
+url: "https://edtrust.org/rti/key-criteria-for-undocumented-student-higher-education-access-and-success/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Ed Trust researchers analyzed nine criteria in the 15 states with the largest shares of undocumented college students to determine whether state policies are helping or hurting undocumented students’ ability to attend college and how access and success for this underserved student population could be improved.
+
+---
+
+---
+
+### 7244. Completing the Cycle: Supporting and Retaining Teachers of Color in Houston
+
+```yaml
+url: "https://edtrust.org/rti/completing-the-cycle-supporting-and-retaining-teachers-of-color-in-houston/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Houston-area teachers told us what they need in order to succeed and stay in challenging academic environments. Amid teacher…
+
+---
+
+---
+
+### 7245. How Does Washington Support Students’ Social, Emotional, and Academic Development (SEAD)?
+
+```yaml
+url: "https://edtrust.org/rti/how-does-washington-support-students-social-emotional-and-academic-development-sead/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+Social, emotional, and academic development (SEAD) is a holistic approach to supporting students' development and learning that is integral…
+
+---
+
+---
+
+### 7246. Want More High-Quality Teachers in Texas? Focus on Teacher Diversity
+
+```yaml
+url: "https://edtrust.org/rti/want-more-high-quality-teachers-in-texas-focus-on-teacher-diversity/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+73% of Texas students are children of color. However, only 41% of teachers are people of color.
+
+---
+
+---
+
+### 7247. 2023 State of Michigan Education Report: Beyond the Pandemic
+
+```yaml
+url: "https://edtrust.org/rti/2023-state-of-michigan-education-report-beyond-the-pandemic/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Our report presents ten research-based steps that Michigan must take to make our state a Top 10 Education State by 2030
+
+---
+
+---
+
+### 7248. 5 Things State and District Leaders Can Do to Advance Strong and Diverse School Leadership
+
+```yaml
+url: "https://edtrust.org/rti/5-things-state-and-district-leaders-can-do-to-advance-strong-and-diverse-school-leadership/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+School leaders really matter. School leaders play a fundamental role in recruiting and supporting strong educators, driving rigorous instruction,…
+
+---
+
+---
+
+### 7249. Increasing School Leader Diversity in Georgia
+
+```yaml
+url: "https://edtrust.org/rti/increasing-school-leader-diversity-in-georgia/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Why School Leader Diversity MattersAll students, regardless of race or ethnicity, benefit from having teachers and school leaders of…
+
+---
+
+---
+
+### 7250. Equal is not Good Enough: ADVOCACY BRIEF
+
+```yaml
+url: "https://edtrust.org/rti/equal-is-not-good-enough-advocacy-brief/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+When it comes to providing children with a high-quality education, money matters. Research shows that sustained and significant increases…
+
+---
+
+---
+
+### 7251. Faculty Diversity and Student Success Go Hand in Hand, So Why Are University Faculties So White?
+
+```yaml
+url: "https://edtrust.org/rti/faculty-diversity-and-student-success-go-hand-in-hand-so-why-are-university-faculties-so-white/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Faculty diversity plays a key role in college student completion and can have a major impact on students’ sense…
+
+---
+
+---
+
+### 7252. Equal Is Not Good Enough
+
+```yaml
+url: "https://edtrust.org/rti/equal-is-not-good-enough/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+When it comes to providing children with a high-quality education, money matters. Yet, the U.S. education system is plagued…
+
+---
+
+---
+
+### 7253. Educators of Color Make the Case for Teacher Diversity
+
+```yaml
+url: "https://edtrust.org/rti/educators-of-color-make-the-case-for-teacher-diversity/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+While the majority of U.S students are children of color, only 20% of teachers are people of color. What’s…
+
+---
+
+---
+
+### 7254. ExtraOrdinary Districts: Discussion of Lane, Oklahoma
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-discussion-of-lane-oklahoma/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust, literacy]
+```
+
+To discuss episode #2, in which we heard from educators in Lane and Cottonwood Oklahoma, are reading researcher Timothy Shanahan, University of Illinois-Chicago’s Steve Tozer, and Todd Hughes of the Choctaw Nation.
+
+---
+
+---
+
+### 7255. A School District Guide to Advocating for Equity in American Rescue Plan Spending
+
+```yaml
+url: "https://edtrust.org/rti/a-school-district-guide-to-advocating-for-equity-in-american-rescue-plan-spending/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Since March 2021, school district leaders have been developing and implementing plans to spend their “ARP dollars,” that is,…
+
+---
+
+---
+
+### 7256. Holding Colleges Accountable for Advancing Education Equity
+
+```yaml
+url: "https://edtrust.org/rti/holding-colleges-accountable-for-advancing-education-equity/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+The cost of college continues to rise, making a college degree out of reach for millions of people — especially students of color and students from low-income backgrounds. All colleges and universities should put people over profits. Accountability in higher ed means making sure that state and federal governments adopt higher education policies that protect […]
+
+---
+
+---
+
+### 7257. Increasing Resource Equity
+
+```yaml
+url: "https://edtrust.org/rti/increasing-resource-equity/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+In recent decades, states generally have disinvested from higher education. Every year, a disproportionate share of more than $290 billion that states spend on higher education goes to the colleges that already have the most resources — primarily state flagships, which under-enroll Black students, Latino students, and students from low-income backgrounds. So, the colleges that […]
+
+---
+
+---
+
+### 7258. Expanding College Access
+
+```yaml
+url: "https://edtrust.org/rti/expanding-college-access/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+College should be available and accessible to everyone who seeks a postsecondary degree. However, the unfortunate truth is that race, ethnicity, and family income factor into a college student’s ability to earn a college degree. Ed Trust seeks to level the playing field and pushes state and institutional leaders to keep education equity at the […]
+
+---
+
+---
+
+### 7259. Improving College Graduation Rates
+
+```yaml
+url: "https://edtrust.org/rti/improving-college-graduation-rates/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, dropout-prevention, edtrust]
+```
+
+Getting to college is generally a cause for great celebration. But unfortunately, many college students start their college journey without ever earning their degree. Ed Trust analyzes campus racial climates and factors like food insecurity, homelessness, and other barriers that college students face while attending college. We also examine what student success looks like for […]
+
+---
+
+---
+
+### 7260. Advocating for Underserved College Students
+
+```yaml
+url: "https://edtrust.org/rti/advocating-for-underserved-college-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+At their founding, universities were reserved exclusively for White men. Fortunately, that is no longer the case. However, centuries later, there are still huge racial and ethnic disparities in who is allowed to attend college. As the United States population becomes more diverse, colleges and universities should reflect today’s population. That means creating higher learning […]
+
+---
+
+---
+
+### 7261. How States Can Use American Rescue Plan Funding and Federal Grants to Support Teacher Diversity
+
+```yaml
+url: "https://edtrust.org/rti/how-states-can-use-american-rescue-plan-funding-and-federal-grants-to-support-teacher-diversity/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+All students, regardless of race or ethnicity, benefit from having a racially and culturally diverse teacher workforce, and the…
+
+---
+
+---
+
+### 7262. Improving Rigor & Representation in P-12 Curriculum
+
+```yaml
+url: "https://edtrust.org/rti/improving-rigor-representation-in-p-12-curriculum/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Every student in America deserves to have access to a high-quality and culturally relevant curriculum, coursework, books, and other materials in order to perform at their maximum potential. The majority of today’s K-12 student body is racially, ethnically, and culturally diverse, and students thrive when they feel seen. Ed Trust’s P-12 practice team works to […]
+
+---
+
+---
+
+### 7263. Using Federal & COVID-19 Relief Funds to Address Long-Standing Inequities
+
+```yaml
+url: "https://edtrust.org/rti/using-federal-covid-19-relief-funds-to-address-long-standing-inequities/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The COVID-19 pandemic that began in 2020 has had and will continue to have rippling repercussions that affect students, families, and educators for years to come. The pandemic also exacerbated and exposed long-standing inequities in the U.S. public school system that directly affect Black and Latino students. Thanks to the American Rescue Plan (ARP) enacted […]
+
+---
+
+---
+
+### 7264. Ensuring Whole Child Well-Being Through Social, Emotional, & Academic Development
+
+```yaml
+url: "https://edtrust.org/rti/ensuring-whole-child-well-being-through-social-emotional-academic-development/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+Children need more than just learning a specific set of skills and information. They are growing human beings with developing emotions and social skills that need support too. The two go hand in hand: When students’ mental health needs are supported by school counselors, school psychiatrists, and strong relationships with their teachers, they do better […]
+
+---
+
+---
+
+### 7265. Ensuring Fair Funding for Student Success
+
+```yaml
+url: "https://edtrust.org/rti/ensuring-fair-need-based-funding-for-underserved-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+State funding systems need to be fairer by directing significantly more resources to students and communities facing the steepest barriers to learning and opportunity
+
+---
+
+---
+
+### 7266. Expanding Access, Affordability, & Quality of Early Childhood Education
+
+```yaml
+url: "https://edtrust.org/rti/expanding-access-affordability-quality-of-early-childhood-education/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [early-childhood, edtrust, response-to-intervention]
+```
+
+Parents are a baby’s first teacher, but every child needs support along the way — that includes early intervention services for babies and toddlers and high-quality child care, preschool, and pre-K. Unfortunately, the disparities between children of color and children from low-income backgrounds and their White, more affluent counterparts start even at this young age, […]
+
+---
+
+---
+
+### 7267. Preparing All Students for College and Career Success
+
+```yaml
+url: "https://edtrust.org/rti/preparing-all-students-for-college-and-career-success/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust, math-education]
+```
+
+Advanced coursework opportunities can place students on the path toward college and career success. However, Black and Latino students across the country are often denied access to gifted and talented programs in elementary school and Algebra I in middle school. Then, in high school, Black students, Latino students, and students from low-income backgrounds are not […]
+
+---
+
+---
+
+### 7268. Holding States, Districts, & Schools Accountable for Student Opportunities & Performance
+
+```yaml
+url: "https://edtrust.org/rti/holding-states-districts-schools-accountable-for-student-opportunities-performance/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, english-learners, formative-assessment, inclusive-design]
+```
+
+Not too long ago, students from low-income families, students of color, English learners, and students with disabilities — who had long gone underserved in our nation’s schools — were invisible, hidden behind averages. But in 2002, federal legislation changed all that by requiring that each state have robust systems of standards, assessments, and accountability to […]
+
+---
+
+---
+
+### 7269. Educator Diversity State Profiles
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profiles/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Research says that teacher diversity benefits all students, regardless of race or ethnicity. However, while the majority of students…
+
+---
+
+---
+
+### 7270. Educator Diversity State Profile: Louisiana
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-louisiana/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Louisiana Demographic Data (2019-20) - Research says that teacher diversity benefits all students, regardless of race or ethnicity. However, while the majority of students in the u.s. Are of color, only about 20% of teachers are of color.
+
+---
+
+---
+
+### 7271. Educator Diversity State Profile: Tennessee
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-tennessee/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+Increasing the racial and cultural diversity of the teacher workforce takes a statewide commitment to collecting and analyzing educator workforce data and leading targeted, data-informed efforts to develop policies..,Increasing the racial and cultural diversity of the teacher workforce takes a statewide commitment to collecting and analyzing educator workforce data and leading targeted, data-informed efforts to develop policies that recruit, support, and retain a high-quality and diverse educator workforce. This brief is designed to support these efforts by providing data analyses and a landscape of policies and practices in each state for advocates, educators, and policymakers leading this work at the state level. See how Texas fares.
+
+---
+
+---
+
+### 7272. Educator Diversity State Profile: North Carolina
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-north-carolina/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Research says that teacher diversity benefits all students, regardless or race or ethnicity. However, while the majority of students in…
+
+---
+
+---
+
+### 7273. Educator Diversity State Profile: Pennsylvania
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-pennsylvania/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+Increasing the racial and cultural diversity of the teacher workforce takes a statewide commitment to collecting and analyzing educator workforce data and leading targeted, data-informed efforts to develop policies that recruit, support, and retain a high-quality and diverse educator workforce. This brief is designed to support these efforts by providing data analyses and a landscape of policies and practices in each state for advocates, educators, and policymakers leading this work at the state level. See how Texas fares.
+
+---
+
+---
+
+### 7274. Educator Diversity State Profile: Texas
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-texas/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+Increasing the racial and cultural diversity of the teacher workforce takes a statewide commitment to collecting and analyzing educator workforce data and leading targeted, data-informed efforts to develop policies that recruit, support, and retain a high-quality and diverse educator workforce. This brief is designed to support these efforts by providing data analyses and a landscape of policies and practices in each state for advocates, educators, and policymakers leading this work at the state level. See how Texas fares.
+
+---
+
+---
+
+### 7275. Educator Diversity State Profile: Michigan
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-michigan/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+Increasing the racial and cultural diversity of the teacher workforce takes a statewide commitment to collecting and analyzing educator workforce data and leading targeted, data-informed efforts to develop policies that recruit, support, and retain a high-quality and diverse educator workforce. This brief is designed to support these efforts by providing data analyses and a landscape of policies and practices in each state for advocates, educators, and policymakers leading this work at the state level. See how Texas fares.
+
+---
+
+---
+
+### 7276. Educator Diversity State Profile: California
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-california/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+Increasing the racial and cultural diversity of the teacher workforce takes a statewide commitment to collecting and analyzing educator workforce data and leading targeted, data-informed efforts to develop policies that recruit, support, and retain a high-quality and diverse educator workforce. This brief is designed to support these efforts by providing data analyses and a landscape of policies and practices in each state for advocates, educators, and policymakers leading this work at the state level. See how Texas fares.
+
+---
+
+---
+
+### 7277. Educator Diversity State Profile: Illinois
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-illinois/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+Increasing the racial and cultural diversity of the teacher workforce takes a statewide commitment to collecting and analyzing educator workforce data and leading targeted, data-informed efforts to develop policies that recruit, support, and retain a high-quality and diverse educator workforce. This brief is designed to support these efforts by providing data analyses and a landscape of policies and practices in each state for advocates, educators, and policymakers leading this work at the state level. See how Texas fares.
+
+---
+
+---
+
+### 7278. Six Pillars of an Equitable Higher Education Nutrition Policy
+
+```yaml
+url: "https://edtrust.org/rti/six-pillars-of-an-equitable-higher-education-nutrition-policy/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Between the rising cost of college, insufficient financial assistance, and the ongoing pandemic, college students are being forced to…
+
+---
+
+---
+
+### 7279. ExtraOrdinary Districts Season 5: Where Are All Those Dollars Going?
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-season-5/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+ExtraOrdinary Districts returns for a fifth season to look at how educators are using the $189 billion the federal government sent to schools to help them cope with the effects of the pandemic.
+
+---
+
+---
+
+### 7280. Still Stalled: 2022 State of Michigan Education Report
+
+```yaml
+url: "https://edtrust.org/rti/still-stalled-2022-state-of-michigan-education-report/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, literacy]
+```
+
+Michigan’s education performance is projected to position the state’s youngest students farther behind other states’ students for early reading by 2030 if the state does not change its performance trajectory
+
+---
+
+---
+
+### 7281. Estudiantes en en la escuela secundario se pueden matricular en cursos del nivel universitario en Luisiana
+
+```yaml
+url: "https://edtrust.org/rti/estudiantes-en-en-la-escuela-secundario-se-pueden-matricular-en-cursos-del-nivel-universitario-en-luisiana/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Los estudiantes pueden matricular en cursos del nivel universitario en la escuela secundario por un programa que se llama…
+
+---
+
+---
+
+### 7282. Addressing Teacher Shortages in the Short- & Long-Term
+
+```yaml
+url: "https://edtrust.org/rti/addressing-teacher-shortages-in-the-short-long-term/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The pandemic has wreaked havoc on American lives and our nation’s schools, causing disruptions that have compromised their ability…
+
+---
+
+---
+
+### 7283. EQUITY FIRST: Priorities for Higher Education Partnerships and Investments
+
+```yaml
+url: "https://edtrust.org/rti/equity-first-priorities-for-higher-education-partnerships-and-investments/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Universal approaches have not sufficiently improved higher education outcomes for Black, Latino, and Indigenous students, and students from low-income…
+
+---
+
+---
+
+### 7284. Why Are Black and Latino Students Shut Out of AP STEM Courses?
+
+```yaml
+url: "https://edtrust.org/rti/why-are-black-and-latino-students-shut-out-of-ap-stem-courses/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, edtrust, k-12, math-education]
+```
+
+2 in 5 Black and Latino students say they really enjoy STEM (science, technology, engineering, and math) courses and…
+
+---
+
+---
+
+### 7285. VIDEO: Shut Out: Why Black and Latino Students Are Under Enrolled in AP STEM Courses
+
+```yaml
+url: "https://edtrust.org/rti/video-shut-out-why-black-and-latino-students-are-under-enrolled-in-ap-stem-courses/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust, k-12]
+```
+
+Although many Black and Latino students aspire to go to college and are interested in STEM subjects, very few are actually enrolled in AP STEM courses that would prepare them for college and a STEM career
+
+---
+
+---
+
+### 7286. Beyond the Ban
+
+```yaml
+url: "https://edtrust.org/rti/beyond-the-ban/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Correctional education programs are an essential strategy for breaking the cycles of incarceration and poverty and helping formerly incarcerated individuals to reintegrate into society.
+
+---
+
+---
+
+### 7287. A Toolkit for Advancing College Opportunity for Justice-Impacted Students – Texas
+
+```yaml
+url: "https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-texas/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Letter From the Fellows“Education is freedom.” — Paulo Freire, Pedagogy of the Oppressed“As a society, our decision to heap…
+
+---
+
+---
+
+### 7288. A Toolkit for Advancing College Opportunity for Justice-Impacted Students – Tennessee
+
+```yaml
+url: "https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-tennessee/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Letter From the Fellows“Education is freedom.” — Paulo Freire, Pedagogy of the Oppressed“As a society, our decision to heap…
+
+---
+
+---
+
+### 7289. A Toolkit for Advancing College Opportunity for Justice-Impacted Students – Ohio
+
+```yaml
+url: "https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-ohio/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Letter From the Fellows “Education is freedom.” — Paulo Freire, Pedagogy of the Oppressed“ As a society, our decision to heap…
+
+---
+
+---
+
+### 7290. A Toolkit for Advancing College Opportunity for Justice-Impacted Students – New York
+
+```yaml
+url: "https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-new-york/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Letter From the Fellows “Education is freedom.” — Paulo Freire, Pedagogy of the Oppressed “As a society, our decision to heap…
+
+---
+
+---
+
+### 7291. A Toolkit for Advancing College Opportunity for Justice-Impacted Students – Michigan
+
+```yaml
+url: "https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-michigan/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Letter From the Fellows “Education is freedom.” — Paulo Freire, Pedagogy of the Oppressed “As a society, our decision to heap…
+
+---
+
+---
+
+### 7292. A Toolkit for Advancing College Opportunity for Justice-Impacted Students – Louisiana
+
+```yaml
+url: "https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-louisiana/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Letter From the Fellows “Education is freedom.” — Paulo Freire, Pedagogy of the Oppressed “As a society, our decision to heap…
+
+---
+
+---
+
+### 7293. A Toolkit for Advancing College Opportunity for Justice-Impacted Students – Illinois
+
+```yaml
+url: "https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-illinois/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Letter From the Fellows “Education is freedom.” — Paulo Freire, Pedagogy of the Oppressed “As a society, our decision to heap…
+
+---
+
+---
+
+### 7294. A Toolkit for Advancing College Opportunity for Justice-Impacted Students – California
+
+```yaml
+url: "https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-california/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Letter From the Fellows “Education is freedom.” — Paulo Freire, Pedagogy of the Oppressed “As a society, our decision to heap…
+
+---
+
+---
+
+### 7295. Equity in Child Care is Everyone’s Business
+
+```yaml
+url: "https://edtrust.org/rti/equity-in-child-care-is-everyones-business/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Families across the country rely on high-quality child care programs, so that children can learn while parents work. Before…
+
+---
+
+---
+
+### 7296. Getting Black Students Better Access to Non-Novice Teachers
+
+```yaml
+url: "https://edtrust.org/rti/getting-black-students-better-access-to-non-novice-teachers/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Every year, thousands of individuals take on one of the most important jobs: TEACHING. While new teachers bring energy…
+
+---
+
+---
+
+### 7297. Getting Latino Students Better Access to Non-Novice Teachers
+
+```yaml
+url: "https://edtrust.org/rti/getting-latino-students-better-access-to-non-novice-teachers/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Every year, thousands of individuals take on one of the most important jobs: TEACHING. While new teachers bring energy…
+
+---
+
+---
+
+### 7298. 5 Things for Advocates to Know About Equitable School Nutrition
+
+```yaml
+url: "https://edtrust.org/rti/5-things-for-advocates-to-know-about-equitable-school-nutrition/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [attendance, edtrust, literacy, math-education]
+```
+
+Access to adequate and nutritious food for students and their families is fundamental to educational equity. A critical part of reliable access to food is school meals, one of the best sources of nutritious food for students. Adequate school nutrition is linked to improve d literacy and math scores, improved cognitive function, reduced absenteeism, and long-term positive educational outcomes.
+
+---
+
+---
+
+### 7299. Engine of Inequality: Michigan’s Education System
+
+```yaml
+url: "https://edtrust.org/rti/engine-of-inequality-michigans-education-system/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Michigan’s education system has served as an engine of inequality when it should be providing opportunities for all kids to learn
+
+---
+
+---
+
+### 7300. VIDEO: A Natural Fit: Supporting After-School Staff of Color in Teacher Pipelines
+
+```yaml
+url: "https://edtrust.org/rti/video-a-natural-fit-supporting-after-school-staff-of-color-in-teacher-pipelines/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+One underutilized strategy for increasing the racial diversity of the teacher workforce is to recruit those who have experience working in after-school programs
+
+---
+
+---
+
+### 7301. A Natural Fit: Supporting After-School Staff of Color in Teacher Pipelines
+
+```yaml
+url: "https://edtrust.org/rti/a-natural-fit-supporting-after-school-staff-of-color-in-teacher-pipelines/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+The need to provide a strong and diverse teacher workforce for all students is particularly relevant now as school…
+
+---
+
+---
+
+### 7302. State Guidance for High-Impact Tutoring
+
+```yaml
+url: "https://edtrust.org/rti/state-guidance-for-high-impact-tutoring/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, response-to-intervention]
+```
+
+The recent passage of the American Rescue Plan Act (ARPA) is infusing America’s K12 public schools with unprecedented, desperately…
+
+---
+
+---
+
+### 7303. Action Guide: Targeting Resources from the American Rescue Plan to Address the Needs of English Learners
+
+```yaml
+url: "https://edtrust.org/rti/action-guide-targeting-resources-from-the-american-rescue-plan-to-address-the-needs-of-english-learners/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, english-learners]
+```
+
+For more than 15 months, students, families, and educators across the country have been adjusting to new ways of…
+
+---
+
+---
+
+### 7304. Increasing Equity in Early Intervention
+
+```yaml
+url: "https://edtrust.org/rti/increasing-equity-in-early-intervention/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, inclusive-design, response-to-intervention]
+```
+
+Early intervention is the key to setting children with delays and disabilities on a path to long-term success. Yet children of color face barriers to accessing these services.
+
+---
+
+---
+
+### 7305. Recommendations for State Leaders to Advance Equity Using Funds from the American Rescue Plan
+
+```yaml
+url: "https://edtrust.org/rti/recommendations-for-state-leaders-to-advance-equity-using-funds-from-the-american-rescue-plan/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The COVID-19 crisis has disrupted education for all students, but has hit students from vulnerable and systemically neglected populations…
+
+---
+
+---
+
+### 7306. 5 Questions to Ask Districts About How They Will Use New Federal Funding to Support Students
+
+```yaml
+url: "https://edtrust.org/rti/5-questions-to-ask-districts-about-how-they-will-use-new-federal-funding-to-support-students/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The American Rescue Plan (ARP) Act provides almost $125 billion for education, including at least $109 billion that goes…
+
+---
+
+---
+
+### 7307. Lessons Learned: Avoiding Inequitable Teacher Layoffs
+
+```yaml
+url: "https://edtrust.org/rti/lessons-learned-avoiding-inequitable-teacher-layoffs/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Actions for State and District LeadersThe economic recession brought on by the COVID-19 pandemic has left states with unprecedented…
+
+---
+
+---
+
+### 7308. Re-Imagining Outcomes-Based Funding
+
+```yaml
+url: "https://edtrust.org/rti/re-imagining-outcomes-based-funding/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+College students, staff, and faculty all across the country are demanding greater racial and socioeconomic justice in higher education,…
+
+---
+
+---
+
+### 7309. How Dual Enrollment Programs Can Help Close Equity Gaps in Louisiana
+
+```yaml
+url: "https://edtrust.org/rti/how-dual-enrollment-programs-can-help-close-equity-gaps-in-louisiana/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+Inequitable policies, practices, and systems make college and career opportunities inaccessible for many students who wish to engage in more advanced coursework, while often leaving those students who manage to matriculate woefully underprepared for success.
+
+---
+
+---
+
+### 7310. What the American Rescue Plan Act of 2021 Means for Texas
+
+```yaml
+url: "https://edtrust.org/rti/what-the-american-rescue-plan-act-of-2021-means-for-texas/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+On March 11, President Biden signed the American Rescue Plan Act of 2021 (ARP) into law, providing $1.9 trillion…
+
+---
+
+---
+
+### 7311. The American Rescue Plan Act of 2021 – What’s in It for Equity
+
+```yaml
+url: "https://edtrust.org/rti/the-american-rescue-plan-act-of-2021-whats-in-it-for-equity/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+President Biden signed the American Rescue Plan Act of 2021 into law on March 11, 2021. The law disperses $1.9T in…
+
+---
+
+---
+
+### 7312. Targeted Intensive Tutoring
+
+```yaml
+url: "https://edtrust.org/rti/targeted-intensive-tutoring/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, response-to-intervention]
+```
+
+As the nation continues to battle the COVID-19 pandemic and at-home learning continues, there will be a need to…
+
+---
+
+---
+
+### 7313. The Importance of Strong Relationships Between Teachers & Students
+
+```yaml
+url: "https://edtrust.org/rti/the-importance-of-strong-relationships/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Anxiety, stress, and in some cases, trauma are prevalent as we live through the COVID-19 pandemic. Students are facing…
+
+---
+
+---
+
+### 7314. Expanded Learning Time
+
+```yaml
+url: "https://edtrust.org/rti/expanded-learning-time/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+As the nation continues to battle the COVID-19 pandemic and at-home learning continues, there will be a need to…
+
+---
+
+---
+
+### 7315. Explaining the Federal COVID-19 Relief and Year-End Funding Package
+
+```yaml
+url: "https://edtrust.org/rti/explaining-the-federal-covid-19-relief-and-year-end-funding-package/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The federal government passed a substantial year-end funding package in late December 2020. One part of that package contains $900 billion…
+
+---
+
+---
+
+### 7316. Using Professional Judgment in Financial Aid to Advance Racial Justice & Equity
+
+```yaml
+url: "https://edtrust.org/rti/using-professional-judgment-in-financial-aid/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Public higher education has long been unaffordable for many students, especially for Black and Latino students, who have substantially…
+
+---
+
+---
+
+### 7317. Educator Diversity State Profile: OHIO
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-ohio/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+RESEARCH SAYS THAT TEACHER DIVERSITY BENEFITS ALL STUDENTS, REGARDLESS OF RACE OR ETHNICITY. HOWEVER, WHILE THE MAJORITY OF STUDENTS IN THE U.S. ARE OF COLOR, ONLY ABOUT 20% OF TEACHERS ARE OF COLOR. Increasing the racial and cultural diversity of the teacher workforce takes a statewide commitment to collecting and analyzing educator workforce data and […]
+
+---
+
+---
+
+### 7318. Educator Diversity State Profile: Massachusetts
+
+```yaml
+url: "https://edtrust.org/rti/educator-diversity-state-profile-massachusetts/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Research says that teacher diversity benefits all students, regardless or race or ethnicity. However, while the majority of students in…
+
+---
+
+---
+
+### 7319. ExtraOrdinary Districts in ExtraOrdinary Times – Season Four
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-in-extraordinary-times-season-four/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In ExtraOrdinary Districts in Extraordinary Times, Karin Chenoweth interviews expert educators about the problems they face, the solutions they fashion, and what they hope will come out of this time.
+
+---
+
+---
+
+### 7320. Right Direction. Miles to Go.
+
+```yaml
+url: "https://edtrust.org/rti/right-direction-miles-to-go/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Over the past few years, Washington has experienced significant job growth — so much so that Washington had the…
+
+---
+
+---
+
+### 7321. Ensuring Safe and Supportive School Climates in Texas
+
+```yaml
+url: "https://edtrust.org/rti/ensuring-safe-and-supportive-school-climates-in-texas/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Disparities in opportunities to learn have left thousands of Texas students — particularly Black, Latino, and students from low-income backgrounds — disconnected from school.
+
+---
+
+---
+
+### 7322. Improving Equity In College And Career Readiness Outcomes In Texas
+
+```yaml
+url: "https://edtrust.org/rti/improving-equity-in-college-and-career-readiness-outcomes-in-texas/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+TEXAS BOASTS THE SECOND LARGEST ECONOMY IN THE UNITED STATES AND HAS HAD THE LONGEST SUSTAINED ECONOMIC EXPANSION IN AMERICAN HISTORY.[1] But today, around 65% of jobs nationwide require at least some postsecondary education. And like all states, Texas has current average attainment levels below those required for the jobs of the future.[2] The increasing […]
+
+---
+
+---
+
+### 7323. COVID-19 Education Equity Guide: Expanding Learning Time
+
+```yaml
+url: "https://edtrust.org/rti/covid-19-education-equity-guide-expanding-learning-time/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Increasing time and attention for students based on their needs can significantly boost learning for students who are behind.…
+
+---
+
+---
+
+### 7324. COVID-19 Education Equity Guide: Supportive School Climates That Foster Students’ Social, Emotional, and Academic Development
+
+```yaml
+url: "https://edtrust.org/rti/covid-19-education-equity-guide-supportive-school-climates-that-foster-students-social-emotional-and-academic-development/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+Existing research shows that all learning is inherently social and emotional, and resources that support the holistic development of…
+
+---
+
+---
+
+### 7325. COVID-19 Education Equity Guide: Equity-Driven Approaches To Measure Student Learning
+
+```yaml
+url: "https://edtrust.org/rti/covid-19-education-equity-guide-equity-driven-approaches-to-measure-student-learning/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+COVID-19 has not only widened existing educational disparities – e.g., in access to strong and diverse teachers, a high-quality curriculum, and grade-level content – between White students and students of color and affluent students and students from low-income backgrounds, but health and economic disparities as well. Recent data show that the most vulnerable students, particularly […]
+
+---
+
+---
+
+### 7326. COVID-19 Education Equity Guide: Teacher Equity and Diversity
+
+```yaml
+url: "https://edtrust.org/rti/covid-19-education-equity-guide-teacher-equity-and-diversity/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Teaching quality can impact student learning more than any other in-school factor, especially for students who are further behind.…
+
+---
+
+---
+
+### 7327. COVID-19 Education Equity Guide: Graduation and College and Career Readiness
+
+```yaml
+url: "https://edtrust.org/rti/covid-19-education-equity-guide-graduation-and-college-and-career-readiness/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+Curriculum and instructional materials that are aligned to high standards, appropriately challenging for students’ grade level, and culturally responsive…
+
+---
+
+---
+
+### 7328. COVID-19 Education Equity Guide: Digital Access
+
+```yaml
+url: "https://edtrust.org/rti/covid-19-education-equity-guide-digital-access/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, edtrust]
+```
+
+Across the country, many districts and schools have moved learning completely or partially online for at least the fall…
+
+---
+
+---
+
+### 7329. COVID-19 Education Equity Guide: School Funding
+
+```yaml
+url: "https://edtrust.org/rti/covid-19-education-equity-guide-school-funding/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [dropout-prevention, edtrust]
+```
+
+Research shows that increased school spending leads to higher graduation rates, higher wages, and a reduction in adult poverty,…
+
+---
+
+---
+
+### 7330. A Promise Worth Keeping
+
+```yaml
+url: "https://edtrust.org/rti/a-promise-worth-keeping/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Free college programs have been around for some time, but they have proliferated in recent years, prompted by rising…
+
+---
+
+---
+
+### 7331. VIDEO: Stop Criminalizing and Excluding Black, Latina, and Native Girls in Schools
+
+```yaml
+url: "https://edtrust.org/rti/video-stop-criminalizing-and-excluding-black-latina-and-native-girls-in-schools/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Girls of color are excluded from school for subjective offenses, missing out on critical class time and opportunities to learn
+
+---
+
+---
+
+### 7332. “And they cared”: How to Create Better, Safer Learning Environments for Girls of Color
+
+```yaml
+url: "https://edtrust.org/rti/and-they-cared-how-to-create-better-safer-learning-environments-for-girls-of-color/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+All across the country, girls of color are excluded from school for subjective offenses like these, missing out on…
+
+---
+
+---
+
+### 7333. Segregation Forever?
+
+```yaml
+url: "https://edtrust.org/rti/segregation-forever/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+While the COVID-19 pandemic and the police killings of Breonna Taylor, George Floyd, and Rayshard Brooks have shined a…
+
+---
+
+---
+
+### 7334. Education Tele-Town Hall: Early Childhood Education – Taking Care of the Caretakers
+
+```yaml
+url: "https://edtrust.org/rti/education-tele-town-hall-early-childhood-education-taking-care-of-the-caretakers/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [early-childhood, edtrust]
+```
+
+As advocates and providers of Early Childhood Education, the Urban League of Louisiana and The Education Trust hosted a…
+
+---
+
+---
+
+### 7335. Tele-Townhall Responding & Returning to Schools: Parents’ Perspectives on the Summer and Fall
+
+```yaml
+url: "https://edtrust.org/rti/tele-townhall-responding-returning-to-schools-parents-perspectives-on-the-summer-and-fall/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In April and May 2020, the Urban League of Louisiana and The Education Trust released a survey for parents…
+
+---
+
+---
+
+### 7336. When Schools Close…Harnessing the Power of Summer America’s Students
+
+```yaml
+url: "https://edtrust.org/rti/when-schools-close-harnessing-the-power-of-summer-americas-students/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+"What will summer hold for America’s students? This virtual press conference, broadcast on May 27, 2020 brought together leading…
+
+---
+
+---
+
+### 7337. 11 Ways Governors Can Use Their Federal Stimulus Funds to Prioritize Education Equity
+
+```yaml
+url: "https://edtrust.org/rti/11-ways-governors-can-use-their-federal-stimulus-funds-to-prioritize-education-equity/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+The CARES Act (S.3548) allocates nearly $31 billion to P-12 and higher education as part of an education stabilization…
+
+---
+
+---
+
+### 7338. 10 Questions for Equity Advocates to Ask About Distance Learning
+
+```yaml
+url: "https://edtrust.org/rti/10-questions-for-equity-advocates-to-ask-about-distance-learning/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Across the country, school buildings remain closed due to the COVID-19 pandemic. These school closures are a stark reminder…
+
+---
+
+---
+
+### 7339. A P-12 Education Agenda in Response to COVID-19
+
+```yaml
+url: "https://edtrust.org/rti/a-p-12-education-agenda-in-response-to-covid-19/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Over the past several weeks, The Education Trust has monitored states’ tireless efforts to support districts, schools, educators, and…
+
+---
+
+---
+
+### 7340. A Higher Education Equity Agenda in Response to COVID-19
+
+```yaml
+url: "https://edtrust.org/rti/a-higher-education-equity-agenda-in-response-to-covid-19/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+The federal government responded to the tremendous strain the coronavirus has put on students and families, faculty, administrators, staff,…
+
+---
+
+---
+
+### 7341. ExtraOrdinary Districts in ExtraOrdinary Times
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-in-extraordinary-times/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In ExtraOrdinary Districts in Extraordinary Times, Karin Chenoweth interviews expert educators about the problems they face, the solutions they fashion, and what they hope will come out of this time.
+
+---
+
+---
+
+### 7342. Louisiana COVID-19 Supplemental SNAP Benefits
+
+```yaml
+url: "https://edtrust.org/rti/louisiana-covid-19-supplemental-snap-benefits/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+For many students, especially those from low-income backgrounds, school may be the only place where they can get meals.…
+
+---
+
+---
+
+### 7343. The Coronavirus Aid, Relief, and Economic Security (CARES) Act (S. 3548) Education Fact Sheet
+
+```yaml
+url: "https://edtrust.org/rti/the-coronavirus-aid-relief-and-economic-security-cares-act-s-3548/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Congress has passed three coronavirus relief bills: the Coronavirus Preparedness and Response Supplemental Appropriations Act of 2020 (H.R.6074), the…
+
+---
+
+---
+
+### 7344. Child Hunger and the Coronavirus Pandemic
+
+```yaml
+url: "https://edtrust.org/rti/child-hunger-and-the-coronavirus-pandemic/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Getting Food to Students From Low-Income Backgrounds During School Closures
+
+---
+
+---
+
+### 7345. VIDEO: Why Only Race-Conscious Policies Can Fix Racism in Higher Education
+
+```yaml
+url: "https://edtrust.org/rti/video-why-only-race-conscious-policies-can-fix-racism-in-higher-education/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Income, the most commonly used substitute for race in policies, does not result in achieving racial justice
+
+---
+
+---
+
+### 7346. Advanced Coursework in Your State
+
+```yaml
+url: "https://edtrust.org/rti/advanced-coursework-tool/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The data in this tool examines whether Black and Latino students are fairly represented in advanced courses, in each…
+
+---
+
+---
+
+### 7347. ExtraOrdinary Districts: Discussion of Seaford, Delaware
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-discussion-of-seaford-delaware/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+To talk about the progress Seaford has made in the last few years Ed Trust brought together Sonja Santelises, CEO of Baltimore City Public Schools, author Richard Kahlenberg, and Sharon Brittingham, a Seaford native who is a former principal and today coaches principals throughout Delaware.
+
+---
+
+---
+
+### 7348. 5 Things to Advance Equity in Access to and Success in Advanced Coursework
+
+```yaml
+url: "https://edtrust.org/rti/5-things-to-advance-equity-in-access-to-and-success-in-advanced-coursework/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Use data to identify the barriers that prevent students of color and students from low-income families from enrolling in…
+
+---
+
+---
+
+### 7349. 5 Things to Advance Equity in State Accountability Systems, School Improvement, and Reporting
+
+```yaml
+url: "https://edtrust.org/rti/5-things-to-advance-equity-in-state-accountability-systems-school-improvement-and-reporting/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Only include indicators in state accountability systems that keep student learning front and center Ensure…
+
+---
+
+---
+
+### 7350. 5 Things to Advance Equity in Access to Strong and Diverse Educators
+
+```yaml
+url: "https://edtrust.org/rti/5-things-to-advance-equity-in-access-to-strong-and-diverse-educators/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Set – then meet – clear goals at the state and district level to increase access to strong and…
+
+---
+
+---
+
+### 7351. ExtraOrdinary Districts: Seaford, Delaware
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-seaford-delaware/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Seaford, Delaware, was the “Nylon Capital of the World” until DuPont closed its plant. Today it has twice the rate of poverty as the rest of the state.
+
+---
+
+---
+
+### 7352. 5 Things to Advance Equity in State Funding Systems
+
+```yaml
+url: "https://edtrust.org/rti/5-things-to-advance-equity-in-state-funding-systems/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+equity in state funding systems
+
+---
+
+---
+
+### 7353. ExtraOrdinary Districts: Lane, Oklahoma
+
+```yaml
+url: "https://edtrust.org/rti/lane-oklahoma/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+A small, kindergarten-through-8th-grade district in rural Oklahoma, Lane was identified by Sean Reardon, Professor of Poverty and Inequality at Stanford University, as one of the few districts in the country that “grow” its students almost six academic years in five calendar years.
+
+---
+
+---
+
+### 7354. ExtraOrdinary Districts: Live!
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-live/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+To kick off Season 2 of ExtraOrdinary Districts, we brought together an all-star panel to discuss school district improvement. Janice Jackson, CEO of Chicago Public Schools, Harvard University’s Ronald F. Ferguson, and University of Michigan’s Nell Duke.
+
+---
+
+---
+
+### 7355. Young Learners, Missed Opportunities
+
+```yaml
+url: "https://edtrust.org/rti/young-learners-missed-opportunities/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [early-childhood, edtrust]
+```
+
+High-quality early childhood education (ECE) is important to the rapid development that happens in the first five years of…
+
+---
+
+---
+
+### 7356. ExtraOrdinary Districts Season 2
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-season-2/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In season two we travel to two rural districts and one suburban district to talk with thoughtful educators about the hard work they have put in to develop systems and ways of operating to continuously improve the learning of students.
+
+---
+
+---
+
+### 7357. Creating Accountability for College Access and Success: Recommendations for the Higher Education Act and Beyond
+
+```yaml
+url: "https://edtrust.org/rti/creating-accountability-for-college-access-and-success-recommendations-for-the-higher-education-act-and-beyond/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+There are not many issues that the public and policymakers from diverse backgrounds and political beliefs can agree on,…
+
+---
+
+---
+
+### 7358. Broken Mirrors
+
+```yaml
+url: "https://edtrust.org/rti/broken-mirrors-latino-representation-spanish/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Como entidades exentas de impuestos y respaldadas por los contribuyentes, las universidades y los institutos superiores públicos de EE.…
+
+---
+
+---
+
+### 7359. Broken Mirrors: Latino Representation at Public Colleges
+
+```yaml
+url: "https://edtrust.org/rti/broken-mirrors-latino-representation-english/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+As tax-exempt, taxpayer-supported entities, U.S. public colleges and universities should advance the public interest by ensuring all U.S. residents…
+
+---
+
+---
+
+### 7360. Special Edition: Segregation, Integration and the Milford 11
+
+```yaml
+url: "https://edtrust.org/rti/special-edition-segregation-integration-and-the-milford-11/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+To mark the 65th anniversary of the Brown versus Board of Education ruling, Ed Trust created a special edition of ExtraOrdinary Districts.
+
+---
+
+---
+
+### 7361. Broken Mirrors: Black Representation at Public Colleges
+
+```yaml
+url: "https://edtrust.org/rti/broken-mirrors-black-representation/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+If America’s public colleges and universities are supposed to be true democratic engines of opportunity and social mobility, their…
+
+---
+
+---
+
+### 7362. School Counselors Matter
+
+```yaml
+url: "https://edtrust.org/rti/school-counselors-matter/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, sel]
+```
+
+As part of a school support team, school counselors provide critical social-emotional and academic supports. Through a comprehensive school…
+
+---
+
+---
+
+### 7363. Aiming for Equity
+
+```yaml
+url: "https://edtrust.org/rti/aiming-for-equity/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+A college education has never been more important. Over 99 percent of all jobs created during the recovery from…
+
+---
+
+---
+
+### 7364. VIDEO: What is Dual Enrollment?
+
+```yaml
+url: "https://edtrust.org/rti/video-what-is-dual-enrollment/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Have you heard about dual enrollment programs for high school students but not sure what they are?
+
+---
+
+---
+
+### 7365. Motivation and Engagement in Student Assignments
+
+```yaml
+url: "https://edtrust.org/rti/motivation-and-engagement-in-student-assignments/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+When students have the opportunity to attend classes that are engaging, creative, and relatable to their lives, they are…
+
+---
+
+---
+
+### 7366. A Promise Fulfilled
+
+```yaml
+url: "https://edtrust.org/rti/a-promise-fulfilled/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Each fall, millions of college students across the country start classes in hopes of earning their degree. However, the…
+
+---
+
+---
+
+### 7367. National & State Trends in Degree Attainment for Latino Adults
+
+```yaml
+url: "https://edtrust.org/rti/national-state-trends-in-degree-attainment-latino-adults/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+The U.S. requires a well-educated workforce to grow our economy, strengthen our democracy, and solve big problems at home…
+
+---
+
+---
+
+### 7368. Special Edition: ExtraOrdinary Districts Need Extraordinary School Leaders. How Do We Get More of Them?
+
+```yaml
+url: "https://edtrust.org/rti/special-edition-extraordinary-districts-need-extraordinary-school-leaders-get/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+One of the key lessons that emerged in Education Trust’s podcast, “ExtraOrdinary Districts,” is that improvement requires leadership at the school level.
+
+---
+
+---
+
+### 7369. Checking In: Are Math Assignments Measuring Up?
+
+```yaml
+url: "https://edtrust.org/rti/checking-math-assignments-measuring-2/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust, math-education]
+```
+
+Nearly every state includes measures of college- and career-readiness in their accountability plans under the Every Student Succeeds Act,…
+
+---
+
+---
+
+### 7370. Equity-Focused Priorities for a Reauthorized Higher Education Act (HEA)
+
+```yaml
+url: "https://edtrust.org/rti/equity-focused-priorities-for-a-reauthorized-higher-education-act-hea/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+The Higher Education Act (HEA) was signed into law in 1965 in the spirit of expanding opportunity so that…
+
+---
+
+---
+
+### 7371. Ed Trust Higher Education Act (HEA) Priorities
+
+```yaml
+url: "https://edtrust.org/rti/ed-trust-higher-education-act-hea-priorities/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Strengthen the Pell Grant program by restoring annual inflation adjustments and increasing maximum awards provide postsecondary education programs…
+
+---
+
+---
+
+### 7372. Equity Matters in the Higher Education Act
+
+```yaml
+url: "https://edtrust.org/rti/equity-matters-in-the-higher-education-act/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+"Higher education is a powerful engine of social mobility, and the benefits to society of more people earning postsecondary…"
+
+---
+
+---
+
+### 7373. Accountability for Access and Success in the Higher Education Act
+
+```yaml
+url: "https://edtrust.org/rti/accountability-for-access-and-success-in-the-higher-education-act/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Equity-focused accountability has the potential to refocus our higher education system on its most important purpose: successful outcomes for…
+
+---
+
+---
+
+### 7374. Investing in the Development and Scaling of Evidence-Based Practices for Improve Student Success
+
+```yaml
+url: "https://edtrust.org/rti/investing-in-the-development-and-scaling-of-evidence-based-practices-for-improve-student-success/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Research from The Education Trust has consistently shown that, with dedicated and intentional effort, institutions can close access and…
+
+---
+
+---
+
+### 7375. Investing in Pell is Investing in the American Dream
+
+```yaml
+url: "https://edtrust.org/rti/investing-in-pell-is-investing-in-the-american-dream/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Pell Grants help make higher education accessible for over 7.5 million students. Over one-third of White students, two-thirds of…
+
+---
+
+---
+
+### 7376. Investing in Second Chances: Lifting the Ban on Pell Access for Incarcerated Students
+
+```yaml
+url: "https://edtrust.org/rti/investing-in-second-chances-lifting-the-ban-on-pell-access-for-incarcerated-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+As our country continues to grapple with how to best reform the criminal justice system, there is bipartisan momentum…
+
+---
+
+---
+
+### 7377. Nuestras historias, nuestras luchas, nuestras fortalezas
+
+```yaml
+url: "https://edtrust.org/rti/nuestras-historias-nuestras-luchas-nuestras-fortalezas/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Los Estados Unidos está atravesando un cambio cultural diverso y el personal docente se está quedando rezagado: si bien…
+
+---
+
+---
+
+### 7378. Our Stories, Our Struggles, Our Strengths
+
+```yaml
+url: "https://edtrust.org/rti/our-stories-our-struggles-our-strengths/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+America is experiencing a diverse, cultural shift and the teacher workforce is lagging behind: While Latino students make up…
+
+---
+
+---
+
+### 7379. Equality Isn’t Equity: Every Student Needs A Great School Counselor
+
+```yaml
+url: "https://edtrust.org/rti/equality-isnt-equity-every-student-needs-a-great-school-counselor/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+High-quality school counselors are critical to our young people. As educational advisers, they guide students through their educational journeys,…
+
+---
+
+---
+
+### 7380. A Look at Latino Success Tool
+
+```yaml
+url: "https://edtrust.org/rti/look-latino-success-tool/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Use the set of charts below to see how individual colleges and universities compare to their peers serving similar…
+
+---
+
+---
+
+### 7381. Trends in State ESSA Plans
+
+```yaml
+url: "https://edtrust.org/rti/trends-in-state-essa-plans/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Strong school accountability systems can send a clear message that the achievement of all groups of students matters and…
+
+---
+
+---
+
+### 7382. A Look at Latino Student Success
+
+```yaml
+url: "https://edtrust.org/rti/look-latino-student-success/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+More Latino students are enrolling in four-year colleges and universities than ever before. But what happens to these students…
+
+---
+
+---
+
+### 7383. ExtraOrdinary Districts: Season 1, Episode 4: Chicago, Illinois
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-episode-4-chicago-illinois/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+One of the districts that surprised Sean Reardon the most is Chicago – the nation’s third largest district with about 400,000 students.
+
+---
+
+---
+
+### 7384. ExtraOrdinary Districts: Season 1, Episode 3: Steubenville, Ohio
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-episode-3-steubenville-ohio/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+What are they doing in Steubenville do be so high performing in elementary school? And how are they addressing the fact that their students don’t continue to perform at the top of the country as they move into secondary grades?
+
+---
+
+---
+
+### 7385. ExtraOrdinary Districts: Season 1, Episode 2: Lexington, Massachusetts
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-episode-2-lexington-massachusetts/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In Episode 2 of Extra-Ordinary Districts, we go to Lexington to find out how it became so high-performing.
+
+---
+
+---
+
+### 7386. ExtraOrdinary Districts: Ordinary School Districts That get Extraordinary Results
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Across the nation, many school districts are asking themselves, “What can we do to better serve our students of color and those from low-income communities?”
+
+---
+
+---
+
+### 7387. ExtraOrdinary Districts: Season 1, Episode 1 – How Do We Know Which Districts are Extra-Ordinary?
+
+```yaml
+url: "https://edtrust.org/rti/episode-1-know-districts-extra-ordinary/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Anyone who wants to identify “extra-ordinary districts” has a problem: The United States has more than 14,000 school districts and they vary widely.
+
+---
+
+---
+
+### 7388. ExtraOrdinary Districts Season 1
+
+```yaml
+url: "https://edtrust.org/rti/extraordinary-districts-season-1/"
+type: presentation
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Anyone who wants to identify “extraordinary districts” has a daunting challenge: The United States has more than 14,000 school districts and they vary widely.
+
+---
+
+---
+
+### 7389. Tackling Gaps in Access to Strong Teachers
+
+```yaml
+url: "https://edtrust.org/rti/tackling-gaps-access-strong-teachers/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Of the many inequities in our education system, gaps in access to strong teaching have proven to be among…
+
+---
+
+---
+
+### 7390. Systems for Success: Thinking Beyond Access to AP
+
+```yaml
+url: "https://edtrust.org/rti/systems-success-thinking-beyond-access-ap/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The national data are clear: more students of color are taking AP exams, but success rates for these students…
+
+---
+
+---
+
+### 7391. For Equity-Oriented State Leaders: 9 Ideas for Stimulating School Improvement Under ESSA
+
+```yaml
+url: "https://edtrust.org/rti/equity-oriented-state-leaders-9-ideas-stimulating-school-improvement-essa/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+s state education leaders redesign their school accountability systems under the Every Student Succeeds Act (ESSA), there’s been a…
+
+---
+
+---
+
+### 7392. A Look at Black Student Success
+
+```yaml
+url: "https://edtrust.org/rti/blackstudentsuccess/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+More Black students are enrolling in four-year colleges and universities than ever before. But what happens to these students…
+
+---
+
+---
+
+### 7393. Through Our Eyes: Perspectives and Reflections From Black Teachers
+
+```yaml
+url: "https://edtrust.org/rti/through-our-eyes/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, edtrust]
+```
+
+Federal, state, and district leaders have recognized the need to diversify the teaching workforce, and many are already working…
+
+---
+
+---
+
+### 7394. A Glimpse Inside the Coffers: Endowment Spending at Wealthy Colleges and Universities
+
+```yaml
+url: "https://edtrust.org/rti/a-glimpse-inside-the-coffersendowment-spending-at-wealthy-colleges-and-universities/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Amid intense national conversations on income inequality, A Glimpse Inside the Coffers finds that extreme wealth stratification is occurring…
+
+---
+
+---
+
+### 7395. Using Data to Improve Student Outcomes: Learning From Leading Colleges
+
+```yaml
+url: "https://edtrust.org/rti/using-data-to-improve-student-outcomes/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Using Data to Improve Student Outcomes: Learning From Leading Colleges is a guide to inform university leaders and others…
+
+---
+
+---
+
+### 7396. Rising Tide II: Do Black Students Benefit as Grad Rates Increase?
+
+```yaml
+url: "https://edtrust.org/rti/risingtideii/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [dropout-prevention, edtrust]
+```
+
+Rising Tide II: Do Black Students Benefit as Grad Rates Increase? looks at a decade of graduation rates for…
+
+---
+
+---
+
+### 7397. The Every Student Succeeds Act: What’s in It? What Does It Mean for Equity?
+
+```yaml
+url: "https://edtrust.org/rti/the-every-student-succeeds-act-whats-in-it-what-does-it-mean-for-equity/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+On December 10, President Obama signed the Every Student Succeeds Act (ESSA) into law. ESSA is the most recent version of the federal government’s biggest K-12 law, the Elementary and Secondary Education Act, which came into effect in 1965. ESSA contains a number of meaningful levers that education leaders, parents, members of the business and civil rights communities, […]
+
+---
+
+---
+
+### 7398. Rising Tide: Do College Grad Rate Gains Benefit All Students?
+
+```yaml
+url: "https://edtrust.org/rti/rising-tide/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, dropout-prevention, edtrust]
+```
+
+Today, we released a new analysis, looking at a decade of graduation rates at four-year, public institutions. The report…
+
+---
+
+---
+
+### 7399. The Pell Partnership: Ensuring a Shared Responsibility for Low-Income Student Success
+
+```yaml
+url: "https://edtrust.org/rti/pellgradrates/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Several organizations reporting on higher education issues have estimated a significant gap in the college completion rates of the…
+
+---
+
+---
+
+### 7400. Checking In: Do Classroom Assignments Reflect Today’s Higher Standards?
+
+```yaml
+url: "https://edtrust.org/rti/checking-in-do-classroom-assignments-reflect-todays-higher-standards/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access, edtrust]
+```
+
+Nearly every state has adopted new, more rigorous standards for college and career readiness over the past five years.…
+
+---
+
+---
+
+### 7401. Breaking the Glass Ceiling of Achievement for Low-Income Students and Students of Color
+
+```yaml
+url: "https://edtrust.org/rti/breaking-the-glass-ceiling-of-achievement-for-low-income-students-and-students-of-color-2/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+National Association of Black Journalists; Inaugural Institute on EducationCharlotte, NC Download Presentation
+
+---
+
+---
+
+### 7402. Beyond Pell: A Next-Generation Design for Federal Financial Aid
+
+```yaml
+url: "https://edtrust.org/rti/beyond-pell-a-next-generation-design-for-federal-financial-aid/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Our current financial aid system focuses on helping students after they enroll, but does nothing for students who cannot…
+
+---
+
+---
+
+### 7403. Report: Tough Love: Bottom-Line Quality Standards for Colleges
+
+```yaml
+url: "https://edtrust.org/rti/tough-love-bottom-line-quality-standards-for-colleges/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+With roughly $180 billion in federal student aid and tax benefits provided each year to colleges and universities with…
+
+---
+
+---
+
+### 7404. Falling Out of the Lead: Tracking High-Achievers Through High School and Beyond
+
+```yaml
+url: "https://edtrust.org/rti/falling-out-of-the-lead-tracking-high-achievers-through-high-school-and-beyond/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Marni Bromberg and Christina Theokas Young Education Professionals (YEP) DC Conference Presented…
+
+---
+
+---
+
+### 7405. Higher Education Practice Guide: Learning From High-Performing and Fast-Gaining Institutions
+
+```yaml
+url: "https://edtrust.org/rti/education-trust-higher-education-practice-guide-learning-from-high-performing-and-fast-gaining-institutions/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+With growing concern for postsecondary degree attainment sweeping public discourse in state and national circles…
+
+---
+
+---
+
+### 7406. Preparing and Advancing Teachers and School Leaders: A New Approach for Federal Policy
+
+```yaml
+url: "https://edtrust.org/rti/preparing-and-advancing-teachers-and-school-leaders/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Preparing and Advancing Teachers and School Leaders: A New Approach for Federal Policy | Education Trust The failure of many teacher and leader preparation programs to address the demands educators will face upon graduation, or the needs of districts who will hire them, is unfair to teachers and devastating to students, especially the low-income students […]
+
+---
+
+---
+
+### 7407. Intentionally Successful: Improving Minority Student College Graduation Rates
+
+```yaml
+url: "https://edtrust.org/rti/intentionally-successful-improving-minority-student-college-graduation-rates/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, dropout-prevention, edtrust]
+```
+
+Employing new data reported to the U.S. Department of Education, The Education Trust finds encouraging news for those concerned…
+
+---
+
+---
+
+### 7408. Uneven at the Start: Differences in State Track Records Foreshadow Challenges and Opportunities for Common Core
+
+```yaml
+url: "https://edtrust.org/rti/uneven-at-the-start-differences-in-state-track-records-foreshadow-challenges-and-opportunities-for-common-core/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, formative-assessment]
+```
+
+In this report, EdTrust uses data from the National Assessment of Educational Progress (NAEP) to examine how states performed and improved over the last decade—both overall and for low-income students and students of color
+
+---
+
+---
+
+### 7409. Finding America’s Missing AP and IB Students
+
+```yaml
+url: "https://edtrust.org/rti/finding-americas-missing-ap-and-ib-students-2/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Programs like Advanced Placement (AP) and International Baccalaureate (IB) are designed to provide high school students with challenging…
+
+---
+
+---
+
+### 7410. Breaking the Glass Ceiling of Achievement for Low-Income Students and Students of Color
+
+```yaml
+url: "https://edtrust.org/rti/breaking-the-glass-ceiling-of-achievement-for-low-income-students-and-students-of-color/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+While gaps between student groups have narrowed over time at the below basic level of performance, gaps at the advanced level have widened. And among higher income groups, gap-widening between white students and students of color is more pronounced. Educators seeking to close gaps must raise the bar for all students. This is the first report in the Shattering […]
+
+---
+
+---
+
+### 7411. Doing Away With Debt: Using Existing Resources to Ensure College Affordability for Low and Middle-Income Families
+
+```yaml
+url: "https://edtrust.org/rti/doing-away-with-debt-using-existing-resources-to-ensure-college-affordability-for-low-and-middle-income-families/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+America has some of the finest colleges in the world, but the promise of higher education...
+
+---
+
+---
+
+### 7412. A Step Forward or a Step Back? State Accountability in the Waiver Era
+
+```yaml
+url: "https://edtrust.org/rti/a-step-forward-or-a-step-back-state-accountability-in-the-waiver-era/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+NCLB waivers have opened the door to innovation but also a lot of backsliding when it comes to using…
+
+---
+
+---
+
+### 7413. Advancing to Completion: Increasing degree attainment by improving graduation rates and closing gaps for Hispanic students
+
+```yaml
+url: "https://edtrust.org/rti/advancing-to-completion-increasing-degree-attainment-by-improving-graduation-rates-and-closing-gaps-for-hispanic-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, dropout-prevention, edtrust]
+```
+
+Some U.S. colleges are making the grade for Latino students. Instead of settling for lower success rates, they are…
+
+---
+
+---
+
+### 7414. Advancing to Completion: Increasing degree attainment by improving graduation rates and closing gaps for African-American students
+
+```yaml
+url: "https://edtrust.org/rti/advancing-to-completion-increasing-degree-attainment-by-improving-graduation-rates-and-closing-gaps-for-african-american-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, dropout-prevention, edtrust]
+```
+
+Some U.S. colleges are making the grade for African-American students. Instead of settling for lower success rates, they are…
+
+---
+
+---
+
+### 7415. Building and Sustaining Talent: Creating Conditions in High-Poverty Schools That Support Effective Teaching and Learning
+
+```yaml
+url: "https://edtrust.org/rti/building-and-sustaining-talent-creating-conditions-in-high-poverty-schools-that-support-effective-teaching-and-learning/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Improving public education depends on attracting, nurturing, and retaining talented teachers in schools...
+
+---
+
+---
+
+### 7416. Lifting the Fog on Inequitable Financial-Aid Policies
+
+```yaml
+url: "https://edtrust.org/rti/lifting-the-fog-on-inequitable-financial-aid-policies/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+At every level, from the federal government to the campus, spending has shifted away from the students who most…
+
+---
+
+---
+
+### 7417. Getting it Right: Crafting Federal Accountability for Higher Student Performance and a Stronger America
+
+```yaml
+url: "https://edtrust.org/rti/getting-it-right-crafting-federal-accountability-for-higher-student-performance-and-a-stronger-america/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Whether through reauthorizing the Elementary and Secondary Education Act or using the Department of Education’s waiver authority, federal policymakers…
+
+---
+
+---
+
+### 7418. Priced Out: How the Wrong Financial-Aid Policies Hurt Low-Income Students
+
+```yaml
+url: "https://edtrust.org/rti/priced-out-how-the-wrong-financial-aid-policies-hurt-low-income-students/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+In “Priced Out: How the Wrong Financial-Aid Policies Hurt Low-Income Students,” The Education Trust demonstrates how much low-income students must stretch to pay for college, even after all sources of grant aid are taken into account. The report finds that just five of nearly 1,200 four-year colleges and universities have student bodies that are at […]
+
+---
+
+---
+
+### 7419. Getting It Done
+
+```yaml
+url: "https://edtrust.org/rti/getting-it-done/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Getting It Done turns to the crucial issue of school leadership, exploring how school principals have led improvements in…
+
+---
+
+---
+
+### 7420. Subprime Opportunity: The Unfulfilled Promise of For-Profit Colleges and Universities*
+
+```yaml
+url: "https://edtrust.org/rti/subprime-opportunity-the-unfulfilled-promise-of-for-profit-colleges-and-universities/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+Three years after the U.S. housing market collapse, our country continues to suffer the effects of misplaced priorities and weak regulation of subprime mortgage lenders. Meanwhile, as Ed Trust’s report “Subprime Opportunity” warns, the most vulnerable Americans are being targeted by yet another set of corporations peddling access to the American dream but delivering little […]
+
+---
+
+---
+
+### 7421. Close the Hidden Funding Gaps in Our Schools
+
+```yaml
+url: "https://edtrust.org/rti/close-the-hidden-funding-gaps-in-our-schools/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+“Close the Hidden Funding Gaps in Our Schools” shines a light on widespread and unjust district budgeting practices and…
+
+---
+
+---
+
+### 7422. College Results Online Brief: Top Gap Closers*
+
+```yaml
+url: "https://edtrust.org/rti/college-results-online-brief-top-gap-closers/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, computer-assisted-learning, edtrust]
+```
+
+"Some public four-year colleges and universities have made good progress in closing graduation-rate gaps. Published: January 28, 2010 …
+
+---
+
+---
+
+### 7423. College Results Online Brief: Top Gainers*
+
+```yaml
+url: "https://edtrust.org/rti/college-results-online-brief-top-gainers/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, computer-assisted-learning, dropout-prevention, edtrust]
+```
+
+Some public four-year colleges and universities make big improvements in minority graduation rates. Published: January 28, 2010 Interested…
+
+---
+
+---
+
+### 7424. Opportunity Adrift: Our Flagship Universities Are Straying From Their Public Mission
+
+```yaml
+url: "https://edtrust.org/rti/opportunity-adrift-our-flagship-universities-are-straying-from-their-public-mission/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Public flagship and research universities spend millions of dollars every year to aid wealthy students who don't need it...
+
+---
+
+---
+
+### 7425. Charting a Necessary Path: The Baseline Report of the Access to Success Initiative
+
+```yaml
+url: "https://edtrust.org/rti/charting-a-necessary-path-the-baseline-report-of-the-access-to-success-initiative/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The baseline report of the Access to Success Initiative shows that low-income and minority students enroll in and graduate...
+
+---
+
+---
+
+### 7426. Fighting for Quality and Equality, Too
+
+```yaml
+url: "https://edtrust.org/rti/fighting-for-quality-and-equality-too/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+If state leaders invest resources and energy wisely, they don’t have to choose between excellence and equity. This paper…
+
+---
+
+---
+
+### 7427. Ten Essential Elements for Change in School Counselor Preparation Programs
+
+```yaml
+url: "https://edtrust.org/rti/ten-essential-elements-for-change-in-school-counselor-preparation-programs/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+The Transforming School Counseling (TSC) Initiative seeks to change the school counseling profession by changing the master’s degree programs…
+
+---
+
+---
+
+### 7428. How It’s Being Done
+
+```yaml
+url: "https://edtrust.org/rti/how-its-being-done-2/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+In addition to a careful analysis of why Massachusetts leads the nation in academic performance, How It's Being Done…
+
+---
+
+---
+
+### 7429. Yes We Can: Telling Truths and Dispelling Myths About Race and Education in America
+
+```yaml
+url: "https://edtrust.org/rti/yes-we-can-telling-truths-and-dispelling-myths-about-race-and-education-in-america/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This report examines the educational practices and policies that have raised academic achievement for low-income and minority students, and…
+
+---
+
+---
+
+### 7430. Making Data Work: A Parent and Community Data Guide
+
+```yaml
+url: "https://edtrust.org/rti/parent-and-community-data-guide/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This easy-to-use guide gives parents and the public the tools to collect and analyze school data to improve student achievement. Published: January 1, 2004 Permissions Policy Interested in using The Education Trust’s publications or presentations? Check out our policy.
+
+---
+
+---
+
+### 7431. No Child Left Behind User Guide
+
+```yaml
+url: "https://edtrust.org/rti/no-child-left-behind-user-guide/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+School accountability systems have the potential to be a powerful tool to help close the long-standing gaps in achievement…
+
+---
+
+---
+
+### 7432. No Child Left Behind Fact Sheets
+
+```yaml
+url: "https://edtrust.org/rti/no-child-left-behind-fact-sheets/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+These quick easy one page fact sheets provide vital information on key provisions of NCLB. Published: October 1, 2003…
+
+---
+
+---
+
+### 7433. Questions to Ask About NCLB
+
+```yaml
+url: "https://edtrust.org/rti/questions-to-ask-about-nclb/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Public reporting of school, district, and state data is one of the cornerstones of No Child Left Behind (NCLB).…
+
+---
+
+---
+
+### 7434. Latino Achievement in America
+
+```yaml
+url: "https://edtrust.org/rti/latino-achievement-in-america/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This brief two-pager and PowerPoint documents the current status of Latino Achievement in America, high-performing schools, and ways communities…
+
+---
+
+---
+
+### 7435. African American Achievement in America
+
+```yaml
+url: "https://edtrust.org/rti/african-american-achievement-in-america/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This brief two-pager documents the current status of African American Achievement in America…
+
+---
+
+---
+
+### 7436. Still At Risk: Mathematics in the US
+
+```yaml
+url: "https://edtrust.org/rti/still-at-risk-mathematics-in-the-us/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust, math-education]
+```
+
+Published: May 1, 2002 Permissions Policy Interested in using The Education Trust’s publications or presentations? Check out our policy.
+
+---
+
+---
+
+### 7437. Honor in the Boxcar: Equalizing Teacher Quality
+
+```yaml
+url: "https://edtrust.org/rti/honor-in-the-boxcar-equalizing-teacher-quality/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Some of the country’s best minds grapple with a question at the heart of education reform: How do we…
+
+---
+
+---
+
+### 7438. Ticket to Nowhere: The Gap Between Leaving High School and Entering College and High-Performance Jobs
+
+```yaml
+url: "https://edtrust.org/rti/ticket-to-nowhere-the-gap-between-leaving-high-school-and-entering-college-and-high-performance-jobs/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [college-access, edtrust]
+```
+
+This report documents significant gaps between the course and testing requirements for high school graduation and those for admission…
+
+---
+
+---
+
+### 7439. Not Good Enough: A Content Analysis of Teacher Licensing Examinations
+
+```yaml
+url: "https://edtrust.org/rti/not-good-enough-a-content-analysis-of-teacher-licensing-examinations/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This report shows that many states grant teaching licenses without requiring that individuals demonstrate knowledge of the subject area that they intend to teach. Published: May 1, 1999 Permissions Policy Interested in using The Education Trust’s publications or presentations? Check out our policy.
+
+---
+
+---
+
+### 7440. Good Teaching Matters: How Well-Qualified Teachers Can Close the Gap
+
+```yaml
+url: "https://edtrust.org/rti/good-teaching-matters-how-well-qualified-teachers-can-close-the-gap/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This report marshals findings from several recent large-scale studies of student achievement to argue that policy makers hoping to…
 
 ---

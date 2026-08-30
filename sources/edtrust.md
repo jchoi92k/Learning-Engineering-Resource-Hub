@@ -22,7 +22,7 @@
 - **Coverage strategy:** Research-like content only (~318 items)
 - **Include types:** Report (110), Brief (74), Guide (58), Compilation (32), Fact Sheet (25), Data Tool (11), Digital Report (4), Infographic (4)
 - **Exclude types:** Blog Post (755), Press Releases (250), Public Statements (188), Public Letters (102), Public Comments (94), Op-Ed (22), Podcast (29), Video (39), State News (18), Public Testimony (23), Campaign (7)
-- **Current indexed:** 31
+- **Current indexed:** 362 after the 2026-08-30 backfill via the WordPress REST post type `research-tools-and-i` (`scrape.py edtrust --backfill`: 5 API pages of 100, 402 items, 10 requests, 5 s gaps): 331 inserted with the Yoast meta description (`page-meta`), article body kept as `page_text`, `type-of-content` and `topic` taxonomies resolved to names (`lookups`); 14 items without a description are pending rows; 26 (State News 18, Campaign 7, Press Releases 1) are excluded `type_filtered` rows. `type_allow` keeps Report, Brief, Guide, Compilation, Fact Sheet, Podcast, Video, Data Tool, Infographic, Digital Report. The June note that the API caps at 6 items per page did not hold: `per_page=100` is honoured. Five pre-2026 rows were re-pointed from `/resource/` to `/rti/` URLs.
 - **Estimated remaining:** ~287
 - **Type taxonomy:** `type-of-content` (19 terms). API endpoint: `https://edtrust.org/wp-json/wp/v2/type-of-content?per_page=100`
 

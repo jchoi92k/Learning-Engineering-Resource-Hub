@@ -89,3 +89,10 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 898 entries (5848-6745)
 - Backlog rows recorded as pending (excluded): 364
 - Tags: keyword auto-tagged
+
+## 2026-08-30 - The Education Trust
+- Source slug: `edtrust`
+- Scraped: 345 total, 331 ready, 14 backlog
+- Processed: 331 entries (7110-7440)
+- Backlog rows recorded as pending (excluded): 40
+- Tags: keyword auto-tagged

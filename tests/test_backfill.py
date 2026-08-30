@@ -47,10 +47,12 @@ def test_audit_passes_clean_run_and_ignores_retries():
         (110.0, "get", "200", "https://a.org/p1", True),    # retry after 503 is allowed
         (115.2, "get", "200", "https://b.org/p9", False),
     ]
+    reqs.append((125.2, "post", "200", "https://api.example/query", False))
+    reqs.append((130.4, "post", "200", "https://api.example/query", False))   # POST pagination: same URL, different body
     a = audit_request_log(reqs, expected_delay=5)
     assert a["duplicates_ok"] is True and a["throttle_ok"] is True
     assert a["retries"] == 1
-    assert a["statuses"] == {"200": 3, "503": 1}
+    assert a["statuses"] == {"200": 5, "503": 1}
     assert a["min_gap_by_host"]["https://a.org".split("//")[1]] == 5.0
 
 
@@ -284,3 +286,51 @@ def test_extract_page_text_honours_selector():
     soup = BeautifulSoup(html, "html.parser")
     assert scrape.extract_page_text(soup, selector="div.txtcol") == "Description The abstract."
     assert scrape.extract_page_text(soup, selector="div.missing") == "Menu Description The abstract. Elsewhere".replace("Menu ", "")
+
+
+def test_scrape_api_windows_run_separate_passes(monkeypatch):
+    import scrape
+    bodies = []
+
+    class Resp:
+        status_code = 200
+        url = "https://x.org/api"
+
+        def __init__(self, body):
+            self.body = body
+
+        def json(self):
+            tag = self.body.get("numericFilters", ["all"])[0]
+            return {"hits": [{"post_title": f"T-{tag}", "permalink": f"https://x.org/{tag}"}]}
+
+    def fake_post(url, headers=None, json_body=None):
+        bodies.append(dict(json_body))
+        return Resp(json_body)
+
+    monkeypatch.setattr(scrape, "fetch_post", fake_post)
+    monkeypatch.setattr(scrape, "_load_url_filter", lambda config: None)
+    cfg = {"discovery_url": "https://x.org/api",
+           "api": {"method": "POST", "body": {"query": ""}, "params": {},
+                   "pagination": {"param": "page", "start": 0, "pages": 1},
+                   "windows": [{"numericFilters": ["a"]}, {"numericFilters": ["b"]}],
+                   "json_paths": {"items": "hits", "title": "post_title", "url": "permalink"}}}
+    items = scrape.scrape_api(cfg)
+    assert [b.get("numericFilters") for b in bodies] == [["a"], ["b"]]
+    assert [i["url"] for i in items] == ["https://x.org/a", "https://x.org/b"]
+
+
+def test_detail_fetch_keeps_richer_existing_page_text(monkeypatch):
+    import scrape
+
+    class Resp:
+        status_code = 200
+        text = "<html><body><main><p>Short page text.</p></main></body></html>"
+
+    monkeypatch.setattr(scrape, "fetch", lambda url, **kw: Resp())
+    monkeypatch.setattr(scrape, "_save_progress", lambda *a, **kw: None)
+    rich = "An already-supplied body text from the API that is much longer than the page extraction. " * 3
+    cfg = {"detail_fetch": {"selector": "main p"}}
+    out = scrape.fetch_detail_descriptions([{"title": "T", "url": "https://x.org/t", "blurb": "", "page_text": rich}], cfg, "x")
+    assert out[0]["page_text"] == rich
+    out2 = scrape.fetch_detail_descriptions([{"title": "T", "url": "https://x.org/t", "blurb": ""}], cfg, "x")
+    assert out2[0]["page_text"] == "Short page text."

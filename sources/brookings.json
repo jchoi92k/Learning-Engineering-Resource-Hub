@@ -1,8 +1,9 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in brookings.md. No early_stop: Algolia default ranking is unverified as newest-first and hub.db coverage is sparse (23 of ~1,239), so every run scans up to the 1,000-hit cap.",
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in brookings.md. Rewritten 2026-08-30: the Algolia 'content' field is the article body truncated mid-sentence, so it is no longer used as the description — every kept item's page is fetched for its meta description (page-meta) and readable text; the truncated body is kept as page_text until then. Two date windows work around Algolia's 1,000-result cap (1,252 Brown Center articles: 727 before 2019, 525 after; re-check the split if either side nears 1,000). type_allow keeps Research; Commentary items become excluded type_filtered rows with the Algolia metadata and no page fetch (user decision 2026-08-30). No early_stop: Algolia's default ranking is not date-ordered.",
   "request_delay": 5,
   "discovery": "api",
   "discovery_url": "https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query",
+  "description_source": "page-meta",
   "api": {
     "method": "POST",
     "headers": {
@@ -16,6 +17,7 @@
       "attributesToRetrieve": [
         "post_title",
         "permalink",
+        "post_date",
         "post_date_formatted",
         "content",
         "content_type",
@@ -24,21 +26,35 @@
         "taxonomies"
       ]
     },
+    "windows": [
+      {"numericFilters": ["post_date < 1546300800"]},
+      {"numericFilters": ["post_date >= 1546300800"]}
+    ],
     "pagination": {
       "param": "page",
       "start": 0,
-      "max_results": 1000
+      "pages": 6
     },
     "json_paths": {
       "items": "hits",
       "title": "post_title",
       "url": "permalink",
       "date": "post_date_formatted",
-      "description": "content",
       "type": "content_type",
       "authors": "display_authors",
       "tags": "taxonomies/topic_tax"
+    },
+    "extra_fields": {
+      "post_date": "post_date",
+      "primary_topic": "primary_topic",
+      "page_text": "content"
     }
+  },
+  "type_allow": ["Research"],
+  "detail_fetch": {
+    "selector": "meta[name='description']",
+    "attr": "content",
+    "description_source": "page-meta"
   },
   "robots_txt": "https://www.brookings.edu/robots.txt",
   "robots_disallow": [

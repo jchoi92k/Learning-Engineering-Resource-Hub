@@ -90,7 +90,9 @@ def audit_request_log(requests_list, expected_delay):
     from collections import Counter
     from urllib.parse import urlsplit
     reqs = sorted(requests_list, key=lambda r: r[0])
-    urls = Counter(r[3] for r in reqs if not r[4])
+    # POST pagination reuses one URL with the page in the body, and retries are
+    # deliberate — neither counts as a repeated fetch of the same page.
+    urls = Counter(r[3] for r in reqs if not r[4] and r[1] != "post")
     repeated = {u: n for u, n in urls.items() if n > 1}
     gaps = [b[0] - a[0] for a, b in zip(reqs, reqs[1:])]
     by_host = {}
@@ -625,7 +627,26 @@ def scrape_api(config, max_pages=None, existing_urls=None):
     Stops early once a page contains enough already-indexed URLs (see
     early_stop_hit) -- only when the config sets "early_stop": true;
     max_pages / pagination.pages remain hard caps.
+
+    "api.windows": a list of body/params patches (e.g. Algolia numericFilters
+    date ranges) run as separate passes, for indexes that cap total results;
+    duplicates across windows are removed by the URL dedup in main.
     """
+    windows = config.get("api", {}).get("windows")
+    if windows:
+        out = []
+        for i, patch in enumerate(windows, 1):
+            print(f"  Window {i}/{len(windows)}: {patch}")
+            sub = dict(config)
+            sub_api = dict(config["api"])
+            sub_api.pop("windows", None)
+            if "body" in patch or config["api"].get("method", "GET").upper() == "POST":
+                sub_api["body"] = {**sub_api.get("body", {}), **patch.get("body", patch)}
+            else:
+                sub_api["params"] = {**sub_api.get("params", {}), **patch.get("params", patch)}
+            sub["api"] = sub_api
+            out.extend(scrape_api(sub, max_pages, existing_urls))
+        return out
     if not config.get("early_stop"):
         existing_urls = None
     api = config["api"]
@@ -975,7 +996,9 @@ def fetch_detail_descriptions(items, config, source):
             items[i]["fetched_status"] = getattr(r, "status_code", None)
             items[i]["fetched_at"] = time.strftime("%Y-%m-%d")
             items[i]["page_meta"] = extract_page_meta(soup)
-            items[i]["page_text"] = extract_page_text(soup, selector=detail.get("text_selector"))
+            page_text = extract_page_text(soup, selector=detail.get("text_selector"))
+            if len(page_text) > len(item.get("page_text") or ""):
+                items[i]["page_text"] = page_text   # keep the richer text (an API may have supplied more)
             for field, spec in (detail.get("extra_fields") or {}).items():
                 fel = soup.select_one(spec["selector"])
                 if fel:
@@ -1146,6 +1169,13 @@ def write_backlog(source, backlog_items):
 
 
 def main():
+    # Windows consoles and redirected output default to cp1252; titles carry
+    # characters outside it (non-breaking hyphens, curly quotes). Never let a
+    # print kill a run.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(description="Scrape a source for the Renaissance Hub")
     parser.add_argument("source", help="Source slug (e.g., wested, tntp, digital-promise)")
     parser.add_argument("--pages", type=int, default=None, help="Limit pagination to N pages")

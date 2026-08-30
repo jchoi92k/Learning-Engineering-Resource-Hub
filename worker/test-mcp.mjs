@@ -16,6 +16,10 @@ let passed = 0;
 let failed = 0;
 let sessionId = null;
 let server = null;
+// Every tool response must stay well inside a model's context: 100,000
+// characters is roughly the 25k-token cap Claude Code applies to tool results.
+const MAX_RESPONSE_CHARS = 100_000;
+let largestResponse = { chars: 0, tool: null };
 
 async function startServer() {
   if (process.argv.includes("--no-spawn")) return;
@@ -50,7 +54,12 @@ async function rpc(method, params = {}, id = 1) {
     body: JSON.stringify({ jsonrpc: "2.0", method, params, id }),
   });
   if (!sessionId) sessionId = res.headers.get("Mcp-Session-Id");
-  return res.json();
+  const json = await res.json();
+  if (method === "tools/call" && json.result) {
+    const chars = JSON.stringify(json.result).length;
+    if (chars > largestResponse.chars) largestResponse = { chars, tool: params.name };
+  }
+  return json;
 }
 
 async function callTool(name, args = {}) {
@@ -93,8 +102,12 @@ await test("tools/list", async () => {
   assert(names.includes("get_entry"), "has get_entry");
   assert(names.includes("get_entries_batch"), "has get_entries_batch");
   assert(names.includes("find_related"), "has find_related");
-  assert(names.includes("get_full_index"), "has get_full_index");
-  assert(names.length === 8, `tool count is 8 (got ${names.length})`);
+  assert(names.includes("search"), "has search");
+  assert(names.includes("fetch"), "has fetch");
+  assert(!names.includes("get_full_index"), "get_full_index is gone");
+  assert(names.length === 9, `tool count is 9 (got ${names.length})`);
+  const fetchTool = res.result.tools.find(t => t.name === "fetch");
+  assert(fetchTool.outputSchema && fetchTool.outputSchema.required.includes("text"), "fetch declares an outputSchema with text");
   const search = res.result.tools.find(t => t.name === "search_resources");
   const typeEnum = search.inputSchema.properties.type.enum;
   assert(typeEnum.includes("review"), "type enum includes review");
@@ -281,11 +294,49 @@ await test("error handling — unknown method", async () => {
   assert(res.error.code === -32601, `error code is -32601 (${res.error?.code})`);
 });
 
-await test("get_full_index — compact format", async () => {
-  const text = await callTool("get_full_index", { format: "compact" });
-  assert(typeof text === "string", "returns text");
-  const lineCount = text.split("\n").length;
-  assert(lineCount > 2000, `compact index has one line per entry (${lineCount} lines)`);
+await test("search — id/title/url results", async () => {
+  const r = await callTool("search", { query: "tutoring" });
+  assert(Array.isArray(r.results) && r.results.length > 0, `results array (${r.results?.length})`);
+  const first = r.results[0];
+  assert(typeof first.id === "string" && typeof first.title === "string" && typeof first.url === "string", "result has string id, title, url");
+  assert(Object.keys(first).length === 3, "result carries only id, title, url");
+  assert(r.results.length <= 20, `at most 20 results (${r.results.length})`);
+});
+
+await test("search — structuredContent mirrors the text block", async () => {
+  const res = await rpc("tools/call", { name: "search", arguments: { query: "tutoring" } });
+  assert(res.result.structuredContent && Array.isArray(res.result.structuredContent.results), "structuredContent.results present");
+  assert(JSON.stringify(res.result.structuredContent) === JSON.stringify(JSON.parse(res.result.content[0].text)), "structuredContent equals the text block");
+});
+
+await test("search — empty query is a tool error", async () => {
+  const res = await rpc("tools/call", { name: "search", arguments: { query: "   " } });
+  assert(res.result.isError === true, "isError for empty query");
+});
+
+await test("fetch — full entry by id", async () => {
+  const s = await callTool("search", { query: "tutoring" });
+  const id = s.results[0].id;
+  const r = await callTool("fetch", { id });
+  assert(r.id === id, "same id back");
+  assert(typeof r.text === "string" && r.text.length >= 30, `text is the description (${r.text?.length} chars)`);
+  assert(typeof r.url === "string" && r.url.startsWith("http"), "url present");
+  assert(r.metadata && typeof r.metadata.source === "string" && Array.isArray(r.metadata.tags), "metadata has source and tags");
+});
+
+await test("fetch — unknown id is a tool error", async () => {
+  const res = await rpc("tools/call", { name: "fetch", arguments: { id: "999999" } });
+  assert(res.result.isError === true, "isError for unknown id");
+});
+
+await test("search_resources — structuredContent present", async () => {
+  const res = await rpc("tools/call", { name: "search_resources", arguments: { query: "tutoring", limit: 3 } });
+  assert(res.result.structuredContent && Array.isArray(res.result.structuredContent.entries), "structuredContent.entries present");
+});
+
+await test("get_full_index — removed", async () => {
+  const res = await rpc("tools/call", { name: "get_full_index", arguments: {} });
+  assert(res.error !== undefined || res.result?.isError === true, "calling the removed tool is an error, not a dump");
 });
 
 await test("HTTP /search endpoint", async () => {
@@ -300,6 +351,11 @@ await test("HTTP / help page", async () => {
   assert(res.ok, `/ returns 200 (${res.status})`);
   const body = await res.text();
   assert(body.includes("MCP"), "help page mentions MCP");
+});
+
+await test("response size — every tool response stayed under the cap", async () => {
+  assert(largestResponse.chars > 0, "at least one tool response was measured");
+  assert(largestResponse.chars < MAX_RESPONSE_CHARS, `largest response ${largestResponse.chars} chars from ${largestResponse.tool} (cap ${MAX_RESPONSE_CHARS})`);
 });
 
 } finally {

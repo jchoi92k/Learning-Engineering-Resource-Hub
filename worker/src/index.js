@@ -117,6 +117,20 @@ function formatEntry(e) {
   };
 }
 
+// Results that carry both a text block and structuredContent (MCP spec:
+// "a tool that returns structured content SHOULD also return the serialized
+// JSON in a TextContent block").
+function structured(payload) {
+  return {
+    content: [{ type: "text", text: JSON.stringify(payload, null, 2) }],
+    structuredContent: payload,
+  };
+}
+
+// search/fetch follow the two-tool interface ChatGPT deep research and
+// company knowledge require (search -> ids/titles/urls, fetch(id) -> document).
+const SEARCH_FETCH_LIMIT = 20;
+
 function findRelated(num, limit = 10) {
   const target = data.entries.find((e) => e.num === num);
   if (!target) return null;
@@ -280,19 +294,56 @@ const TOOL_DEFINITIONS = [
     },
   },
   {
-    name: "get_full_index",
+    name: "search",
     description:
-      `Get the complete index of all ${data.entries.length} entries in the Renaissance AI and Education Resource Hub. Returns every entry with metadata and descriptions. Use this when you need comprehensive coverage or want to reason over the full corpus. For targeted queries, use search_resources instead.`,
+      `Search the Renaissance AI and Education Resource Hub (${data.entries.length} curated evidence-based education resources) and get the ids, titles and URLs of the best matches — semantic search, keyword fallback, up to ${SEARCH_FETCH_LIMIT} results. Follow up with fetch(id) for an entry's description and metadata. This is the search/fetch interface used by ChatGPT deep research and company knowledge; for filters, pagination and counts use search_resources.`,
     inputSchema: {
       type: "object",
       properties: {
-        format: {
-          type: "string",
-          enum: ["full", "compact"],
-          description:
-            "'full' (default) returns all entries with descriptions. 'compact' returns title, URL, type, source, and tags only — useful for scanning before fetching specific entries with get_entry.",
+        query: { type: "string", description: "Natural-language search query." },
+      },
+      required: ["query"],
+    },
+    outputSchema: {
+      type: "object",
+      properties: {
+        results: {
+          type: "array",
+          items: {
+            type: "object",
+            properties: {
+              id: { type: "string", description: "Entry id — pass to fetch" },
+              title: { type: "string" },
+              url: { type: "string", description: "Canonical URL of the resource, for citation" },
+            },
+            required: ["id", "title", "url"],
+          },
         },
       },
+      required: ["results"],
+    },
+  },
+  {
+    name: "fetch",
+    description:
+      "Fetch one hub entry by the id returned from search (the entry number as a string): its title, canonical URL, description and metadata (type, source organization, tags, description provenance).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        id: { type: "string", description: "Entry id from search results, e.g. \"1234\"" },
+      },
+      required: ["id"],
+    },
+    outputSchema: {
+      type: "object",
+      properties: {
+        id: { type: "string" },
+        title: { type: "string" },
+        text: { type: "string", description: "The entry's description" },
+        url: { type: "string" },
+        metadata: { type: "object" },
+      },
+      required: ["id", "title", "text", "url"],
     },
   },
 ];
@@ -319,22 +370,12 @@ async function handleToolCall(name, args, env) {
       const { results, total, limited, nextCursor } = filterEntries({ tags, tagMode, types, sources, query, sort_by, limit, offset, candidates });
 
       if (count_only) {
-        return {
-          content: [{
-            type: "text",
-            text: JSON.stringify({ total_matches: total }, null, 2),
-          }],
-        };
+        return structured({ total_matches: total });
       }
 
       const response = { total_matches: total, showing: results.length, limited, search_mode: query ? modeUsed : undefined, entries: results.map(formatEntry) };
       if (nextCursor !== null) response.next_cursor = nextCursor;
-      return {
-        content: [{
-          type: "text",
-          text: JSON.stringify(response, null, 2),
-        }],
-      };
+      return structured(response);
     }
 
     case "list_tags": {
@@ -421,26 +462,40 @@ async function handleToolCall(name, args, env) {
       };
     }
 
-    case "get_full_index": {
-      const fmt = args.format || "full";
-      const lines = [
-        `# Renaissance AI and Education Resource Hub — Full Index`,
-        `> ${data.meta.total} entries | Updated: ${data.meta.last_updated}`,
-        "",
-      ];
-      for (const e of data.entries) {
-        if (fmt === "compact") {
-          lines.push(`${e.num}. ${e.title} | ${e.type} | ${e.source} | ${e.tags.join(", ")} | ${e.url}`);
-        } else {
-          lines.push(`### ${e.num}. ${e.title}`);
-          lines.push(`- URL: ${e.url}`);
-          lines.push(`- Type: ${e.type} | Source: ${e.source}`);
-          lines.push(`- Tags: ${e.tags.join(", ")}`);
-          if (e.desc) lines.push(`\n${e.desc}`);
-          lines.push("\n---\n");
-        }
+    case "search": {
+      const query = typeof args.query === "string" ? args.query.trim() : "";
+      if (!query) {
+        return { content: [{ type: "text", text: "search needs a non-empty query string." }], isError: true };
       }
-      return { content: [{ type: "text", text: lines.join("\n") }] };
+      const candidates = await semanticCandidates(env, query);
+      const { results } = filterEntries({ query, limit: SEARCH_FETCH_LIMIT, candidates });
+      return structured({
+        results: results.map((e) => ({ id: String(e.num), title: e.title, url: e.url })),
+      });
+    }
+
+    case "fetch": {
+      const num = parseInt(args.id, 10);
+      const entry = Number.isFinite(num) ? data.entries.find((e) => e.num === num) : undefined;
+      if (!entry) {
+        return {
+          content: [{ type: "text", text: `No entry with id ${args.id}. Ids are the entry numbers returned by search.` }],
+          isError: true,
+        };
+      }
+      return structured({
+        id: String(entry.num),
+        title: entry.title,
+        text: entry.desc || "",
+        url: entry.url,
+        metadata: {
+          num: entry.num,
+          type: entry.type,
+          source: entry.source,
+          tags: entry.tags,
+          description_source: entry.description_source || null,
+        },
+      });
     }
 
     default:
@@ -606,7 +661,7 @@ Fetch /search with query parameters:
 POST /mcp — Streamable HTTP transport.
 Compatible with Claude Code, Cursor, Windsurf, Codex, GitHub Copilot.
 
-Tools: search_resources, list_tags, list_sources, get_stats, get_entry, get_entries_batch, find_related, get_full_index
+Tools: search, fetch (the ChatGPT deep-research search/fetch interface), search_resources, list_tags, list_sources, get_stats, get_entry, get_entries_batch, find_related
 
 Add to your MCP config:
   { "type": "http", "url": "https://renaissance-hub.joon-96a.workers.dev/mcp" }

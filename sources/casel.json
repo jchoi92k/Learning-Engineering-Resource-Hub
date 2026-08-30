@@ -19,6 +19,7 @@
     "attr": "content",
     "description_source": "page-abstract"
   },
+  "request_delay": 60,
   "robots_txt": "https://casel.org/robots.txt",
   "test": {
     "url": "https://casel.org/news-publications/sel-publications/",

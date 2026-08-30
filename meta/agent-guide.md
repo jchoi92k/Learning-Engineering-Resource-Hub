@@ -80,7 +80,7 @@ worker/                        # Cloudflare Worker (MCP server)
   src/, wrangler.toml         # imports docs/data.json at build time
 private/                       # gitignored: strategy, meetings, decisions, research
   decisions.md                # append-only major-decisions log
-  session-log.md              # append-only action log
+  session-log.md              # append-only action log, newest first
   strategy/                   # positioning, briefs, design notes
   research/                   # landscape analysis, comparable repos
   meetings/                   # stakeholder notes (sensitive)

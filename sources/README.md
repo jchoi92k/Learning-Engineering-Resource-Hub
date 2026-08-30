@@ -43,7 +43,7 @@ When fetching individual pages for descriptions:
 
 - `discovery`: `sitemap` | `api` | `pagination` | `single_page`, with `discovery_url` and the matching `sitemap` / `api` / `pagination` / `selectors` block.
 - `early_stop` (bool, default false): stop paginating once a page holds 3 consecutive or 5 total already-indexed URLs. **Declare it only for listings known to be newest-first** — for an API, make the sort explicit in `api.params` (Digital Promise `sort`, WordPress `orderby`/`order`, Mathematica `sortCriteria`). Without it every page up to the cap is scanned. Sparse-coverage sources should leave it off until backfilled.
-- `detail_fetch`: `{selector, attr?}` — fetch each new item's page for a description when the listing has none (CASEL, UChicago). Allowed when the listing carries no usable blurb and the number of fetches per run is bounded by early-stop or `--pages`.
+- `detail_fetch`: `{selector, attr?, description_source?}` — fetch each new item's page for a description when the listing has none (CASEL, UChicago). `description_source` labels the rows it fills (`page-meta` for a one-sentence teaser, `page-abstract` for a full abstract); without it, meta tags count as `page-meta` and anything else as `page-abstract`. Allowed when the listing carries no usable blurb and the number of fetches per run is bounded by early-stop or `--pages`.
 - `url_filter`: `{url, slug_prefix}` — keep only API items whose slug appears on a listing page (Campbell education-only).
 - `request_delay` (seconds, default 5, floor 5 - lower values are raised to the floor with a warning; robots.txt `Crawl-delay` overrides upward), `robots_txt`, `url_prefix`, `url_template`, `url_transform`, `test` (`--test` expectations).
 

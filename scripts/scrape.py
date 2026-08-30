@@ -786,10 +786,14 @@ def fetch_detail_descriptions(items, config, source):
     Uses the 'detail_fetch' config block:
         "detail_fetch": {
             "selector": "meta[property='og:description']",
-            "attr": "content"
+            "attr": "content",
+            "description_source": "page-abstract"
         }
     If selector matches an element, extracts text via 'attr' (if set) or
-    get_text(). Only fetches items with empty/short blurbs.
+    get_text(). Only fetches items with empty/short blurbs. Each filled item
+    gets blurb_source = the config's description_source ('page-meta' for a
+    one-sentence teaser, 'page-abstract' for a full abstract); without it,
+    meta tags count as page-meta and anything else as page-abstract.
     """
     detail = config.get("detail_fetch")
     if not detail:
@@ -797,6 +801,8 @@ def fetch_detail_descriptions(items, config, source):
 
     selector = detail["selector"]
     attr = detail.get("attr")
+    label = detail.get("description_source") or (
+        "page-meta" if selector.lstrip().startswith("meta") else "page-abstract")
 
     need_fetch = [(i, item) for i, item in enumerate(items)
                   if len(item.get("blurb", "")) < MIN_BLURB_LENGTH]
@@ -822,6 +828,7 @@ def fetch_detail_descriptions(items, config, source):
             if el:
                 desc = clean_text(el.get(attr) if attr else el.get_text(" ", strip=True))
                 items[i]["blurb"] = desc
+                items[i]["blurb_source"] = label
                 print(f"    OK ({len(desc)} chars)")
             else:
                 print(f"    No match for selector: {selector}")
@@ -939,6 +946,12 @@ def main():
             new_items, already = diff_items(items, existing)
             print(f"[scrape] Already indexed: {len(already)}, New: {len(new_items)}")
             items = new_items
+
+    # Provenance: text from the listing/API is 'listing'; detail_fetch relabels
+    # the items it fills. process_staged.py stores it as description_source.
+    for item in items:
+        if item.get("blurb") and not item.get("blurb_source"):
+            item["blurb_source"] = "listing"
 
     # Detail fetch: fill in descriptions from individual pages if configured
     if config.get("detail_fetch"):

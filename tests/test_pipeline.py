@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 from scrape import clean_text, diff_items, early_stop_hit, resolve_json_path, split_by_blurb, strip_html
-from process_staged import infer_tags, infer_type, insert_backlog_rows
+from process_staged import infer_tags, infer_type, insert_backlog_rows, insert_items
 
 
 # ── resolve_json_path ──
@@ -313,8 +313,10 @@ CREATE TABLE entries (
     description_inferred INTEGER NOT NULL DEFAULT 0, date_added TEXT NOT NULL, doi TEXT,
     license TEXT, description TEXT NOT NULL DEFAULT '', url_status TEXT NOT NULL DEFAULT 'unverified',
     url_http_status TEXT, last_verified TEXT, excluded INTEGER NOT NULL DEFAULT 0,
-    exclude_reason TEXT, created_at TEXT NOT NULL DEFAULT '', updated_at TEXT NOT NULL DEFAULT ''
+    exclude_reason TEXT, created_at TEXT NOT NULL DEFAULT '', updated_at TEXT NOT NULL DEFAULT '',
+    description_source TEXT
 );
+CREATE TABLE entry_tags (entry_num INTEGER, tag TEXT, PRIMARY KEY (entry_num, tag));
 """
 
 
@@ -383,3 +385,41 @@ def test_backoff_retry_restarts_the_throttle_clock(monkeypatch):
     monkeypatch.setattr(scrape, "_last_fetch_time", 0)
     assert scrape._handle_rate_limit(429, "https://x.org/p") is not None
     assert scrape._last_fetch_time > 0
+
+
+# ── description_source provenance ──
+
+def test_insert_items_records_description_source():
+    import sqlite3
+    conn = sqlite3.connect(":memory:")
+    conn.executescript(ENTRIES_DDL)
+    items = [
+        {"title": "A", "url": "https://x.org/a", "type": "Report", "blurb": "From the listing",
+         "blurb_source": "listing"},
+        {"title": "B", "url": "https://x.org/b", "type": "Brief", "blurb": "From the page",
+         "blurb_source": "page-abstract"},
+        {"title": "C", "url": "https://x.org/c", "type": "", "blurb": "Old staging file, no label"},
+        {"title": "D", "url": "https://x.org/d", "type": "", "blurb": "Bad label", "blurb_source": "guess"},
+    ]
+    assert insert_items(conn, items, "wwc", "What Works Clearinghouse", 10) == 4
+    rows = conn.execute("SELECT num, description_source FROM entries ORDER BY num").fetchall()
+    assert rows == [(10, "listing"), (11, "page-abstract"), (12, None), (13, None)]
+    assert conn.execute("SELECT excluded, description FROM entries WHERE num = 11").fetchone() == (0, "From the page")
+    assert conn.execute("SELECT COUNT(*) FROM entry_tags WHERE entry_num = 10 AND tag = 'wwc'").fetchone()[0] == 1
+
+
+def test_detail_fetch_labels_description_source(monkeypatch):
+    import scrape
+
+    class Resp:
+        text = '<html><head><meta name="description" content="Teaser sentence from the page."></head></html>'
+
+    monkeypatch.setattr(scrape, "fetch", lambda url, **kw: Resp())
+    monkeypatch.setattr(scrape, "_save_progress", lambda *a, **kw: None)
+    cfg = {"detail_fetch": {"selector": "meta[name='description']", "attr": "content"}}
+    out = scrape.fetch_detail_descriptions([{"title": "T", "url": "https://x.org/t", "blurb": ""}], cfg, "x")
+    assert out[0]["blurb"] == "Teaser sentence from the page."
+    assert out[0]["blurb_source"] == "page-meta", "meta tags default to page-meta"
+    cfg["detail_fetch"]["description_source"] = "page-abstract"
+    out = scrape.fetch_detail_descriptions([{"title": "T", "url": "https://x.org/t", "blurb": ""}], cfg, "x")
+    assert out[0]["blurb_source"] == "page-abstract", "config label wins"

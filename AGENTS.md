@@ -27,7 +27,7 @@ python scripts/embed_corpus.py               # sync embeddings to Cloudflare Vec
 
 ## Rules
 
-- **Descriptions come from the source.** Listing blurbs, page abstracts or meta descriptions — never written from a title alone. If a page cannot be fetched, drop the entry.
+- **Descriptions come from the source.** Listing blurbs, page abstracts or meta descriptions — never written from a title alone. If a page cannot be fetched, drop the entry. Each row's `description_source` (`listing` / `page-meta` / `page-abstract` / `llm-summary` / `manual`) records which kind of text it holds; see `docs/schema.md`.
 - **Only scripts write `hub.db`.** Do not hand-edit `docs/` (it is regenerated) and do not edit `data/hub.db` outside `process_staged.py` / `verify_urls.py` / a reviewed one-off script.
 - **UTF-8 everywhere**; always pass `encoding="utf-8"`.
 - **Throttle.** `scrape.py` and `verify_urls.py` already wait ≥ 5 s between requests and honour robots.txt `Crawl-delay`; do not add ad-hoc HTTP calls elsewhere.

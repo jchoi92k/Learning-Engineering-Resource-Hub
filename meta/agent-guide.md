@@ -110,7 +110,7 @@ This file no longer maintains a hand-curated per-source entry table — it drift
 2. `python scripts/process_staged.py {source}` — inserts entries into hub.db with auto-tagging, logs to `processing-log.md`
 3. `python scripts/build_from_db.py` — rebuilds all published files (`llms-full.txt`, `llms.txt`, `data.json`, `tags/`, `gem-knowledge.txt`) from hub.db
 
-scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption, early-stop (opt-in per config with `"early_stop": true` for listings known to be newest-first: stop after 3 consecutive or 5 total already-indexed URLs on a page; `--pages` is the hard cap, `--no-diff` disables). Backlog items are written into the staging JSON and recorded by `process_staged.py` as excluded `no_description_pending` rows.
+scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption, early-stop (opt-in per config with `"early_stop": true` for listings known to be newest-first: stop after 3 consecutive or 5 total already-indexed URLs on a page; `--pages` is the hard cap, `--no-diff` disables). Backlog items are written into the staging JSON and recorded by `process_staged.py` as excluded `no_description_pending` rows. Each inserted row records `description_source` (`listing`, or the `detail_fetch` label `page-meta` / `page-abstract`; see `docs/schema.md`). `request_delay` has a 5 s floor.
 
 When a source's state materially changes (new source added, indexed count crosses a hundred-mark, access method changes), update the right canonical file — `source-targets.json` for coverage, `source-audit.md` for access, `sources-log.md` for attempt history — and let `docs/data.json` regenerate. Don't try to maintain a parallel table here.
 
@@ -143,6 +143,7 @@ type: report
 source: "Producing Organization Name"
 url_confirmed: true
 description_inferred: false
+description_source: llm-summary
 date_added: 2026-05-01
 tags: [tag1, tag2, affiliation-tag]
 ```
@@ -159,6 +160,7 @@ tags: [tag1, tag2, affiliation-tag]
 | `type` | `paper`, `report`, `framework`, `platform`, `code`, `blog-post`, `presentation`, `project-website`, `dataset` | |
 | `url_confirmed` | `true` / `false` | `true` = page was fetched and verified; `false` = URL inferred |
 | `description_inferred` | `true` / `false` | `true` = summarized from fetched content; `false` = written from full readable page |
+| `description_source` | `listing`, `page-meta`, `page-abstract`, `llm-summary`, `manual`, `null` | What kind of text the description is (`docs/schema.md`); set by `process_staged.py` from the staged item |
 | `date_added` | ISO date | Use today's date (ISO format: YYYY-MM-DD) |
 
 ---

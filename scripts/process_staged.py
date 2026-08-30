@@ -7,7 +7,9 @@ and inserts entries into the SQLite database. Backlog items (found on the
 listing but without a usable description) are inserted as excluded rows with
 exclude_reason='no_description_pending' so scrape.py's diff and early-stop
 treat them as known and they stop showing up as "new" every run; a later
-backfill fills the description and clears `excluded`.
+backfill fills the description and clears `excluded`. Each active row records
+description_source (listing / page-meta / page-abstract) from the staged
+item's blurb_source, written by scrape.py.
 
 Usage:
     python scripts/process_staged.py wwc                # process all ready items
@@ -190,6 +192,34 @@ def insert_backlog_rows(conn, backlog_items, source_name, start_num):
     return inserted, num - 1
 
 
+DESCRIPTION_SOURCES = ("listing", "page-meta", "page-abstract", "llm-summary", "manual")
+
+
+def insert_items(conn, items, source_slug, source_name, start_num):
+    """Insert ready items as active rows numbered from start_num; returns the
+    count inserted. description_source comes from the item's blurb_source
+    (scrape.py writes 'listing' or the detail_fetch label); a staging file
+    without it, or with an unknown value, gets NULL rather than a guess."""
+    inserted = 0
+    for i, item in enumerate(items):
+        num = start_num + i
+        blurb = item.get("blurb", "").strip()
+        desc_source = item.get("blurb_source")
+        if desc_source not in DESCRIPTION_SOURCES:
+            desc_source = None
+        conn.execute("""
+            INSERT INTO entries (num, title, url, type, source, url_confirmed,
+                description_inferred, date_added, doi, license, description,
+                url_status, description_source)
+            VALUES (?, ?, ?, ?, ?, 1, 0, ?, NULL, NULL, ?, 'unverified', ?)
+        """, (num, item["title"].strip(), item["url"].strip(), infer_type(item),
+              source_name, TODAY, blurb, desc_source))
+        for tag in infer_tags(item, source_slug):
+            conn.execute("INSERT OR IGNORE INTO entry_tags (entry_num, tag) VALUES (?, ?)", (num, tag))
+        inserted += 1
+    return inserted
+
+
 def infer_tags(item, source):
     tags = []
     src_tag = SOURCE_TAG_MAP.get(source)
@@ -281,26 +311,7 @@ def main():
         print(f"[process] Skipped {len(items) - len(deduped)} duplicate URLs already in hub.db or repeated in batch")
     items = deduped
 
-    inserted = 0
-    for i, item in enumerate(items):
-        num = start_num + i
-        entry_type = infer_type(item)
-        tags = infer_tags(item, args.source)
-        blurb = item.get("blurb", "").strip()
-
-        conn.execute("""
-            INSERT INTO entries (num, title, url, type, source, url_confirmed,
-                description_inferred, date_added, doi, license, description,
-                url_status)
-            VALUES (?, ?, ?, ?, ?, 1, 0, ?, NULL, NULL, ?, 'unverified')
-        """, (num, item["title"].strip(), item["url"].strip(), entry_type,
-              source_name, TODAY, blurb))
-
-        for tag in tags:
-            conn.execute("INSERT OR IGNORE INTO entry_tags (entry_num, tag) VALUES (?, ?)", (num, tag))
-
-        inserted += 1
-
+    inserted = insert_items(conn, items, args.source, source_name, start_num)
     end_num = start_num + inserted - 1
     if inserted:
         print(f"[process] Inserted {inserted} entries ({start_num}-{end_num}) into hub.db")

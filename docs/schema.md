@@ -15,6 +15,7 @@ source: string               # Producing organization or index source (e.g. "Wha
 date_added: date                 # When entry was added to the hub
 last_verified: date              # When source URL was last checked
 description_inferred: boolean    # true = description derived from title/context; false = fetched directly
+description_source: string|null  # What kind of text the description is — see "Description provenance" below
 tags: list[string]               # Controlled vocabulary (see below)
 ```
 
@@ -78,3 +79,16 @@ Descriptions are **never** written from title alone. The following rules apply:
 `description_inferred: true` means "summarized from fetched content, not validated against full source." It does **not** mean "guessed from title."
 
 `url_confirmed: false` means the URL was not directly fetched and verified. New entries must have `url_confirmed: true`.
+
+### Description provenance (`description_source`)
+
+| Value | Meaning |
+|---|---|
+| `listing` | Verbatim blurb from the source's listing page or API: every row the scripted pipeline inserts (June 2026 onward), plus the May 2026 Digital Promise rows, which are the DSpace API abstracts. Some early rows are cut at 500 (Evidence for ESSA) or 700 (Digital Promise) characters. |
+| `page-meta` | Verbatim one-sentence teaser from the item page's meta description (e.g. Brookings) |
+| `page-abstract` | Verbatim abstract or opening text from the item page (e.g. NWEA, UChicago Consortium, CASEL `detail_fetch`; the May 2026 TNTP rows, some cut at 700 characters) |
+| `llm-summary` | Written by an agent from the fetched page: the May 2026 hand-indexed entries (other than Digital Promise and TNTP), and weekly-run upgrades of `page-meta` teasers. Labels were checked against site text on a per-source sample in August 2026. |
+| `manual` | Written or edited by a maintainer |
+| `null` | Not recorded |
+
+`description_source` says what kind of text the description is. `description_inferred` keeps the meaning in the table above. New rows get the value from the staged item (`listing`, or the `detail_fetch` label); only `scripts/process_staged.py` and `scripts/curate.py` set it.

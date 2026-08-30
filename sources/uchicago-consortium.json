@@ -16,7 +16,8 @@
   },
   "detail_fetch": {
     "selector": "meta[property='og:description']",
-    "attr": "content"
+    "attr": "content",
+    "description_source": "page-abstract"
   },
   "robots_txt": "https://consortium.uchicago.edu/robots.txt",
   "robots_disallow": [

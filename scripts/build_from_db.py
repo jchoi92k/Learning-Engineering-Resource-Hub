@@ -36,6 +36,8 @@ TAGS_DIR = os.path.join(WIKI_DIR, "tags")
 # Files that build_from_db.py owns inside docs/ (everything else there is hand-written).
 GENERATED = ["llms-full.txt", "llms.txt", "data.json", "gem-knowledge.txt", "sitemap.xml"]
 MIN_DESCRIPTION_CHARS = 30
+# Provenance of the description text (nullable in hub.db; NULL = not recorded)
+DESCRIPTION_SOURCES = {"listing", "page-meta", "page-abstract", "llm-summary", "manual"}
 
 
 def set_output_dir(path):
@@ -167,7 +169,8 @@ def validate_entries(entries):
     """Sanity checks on what is about to be published. Returns (errors, warnings)
     as lists of strings. Errors: missing title/description, description shorter
     than MIN_DESCRIPTION_CHARS, non-http URL, duplicate URL (case/trailing-slash
-    insensitive). Warnings: tags outside TAG_CATEGORIES."""
+    insensitive), description_source outside DESCRIPTION_SOURCES. Warnings:
+    tags outside TAG_CATEGORIES."""
     errors, warnings = [], []
     vocab = {t for tags in TAG_CATEGORIES.values() for t in tags}
     seen = {}
@@ -187,6 +190,9 @@ def validate_entries(entries):
         if k in seen:
             errors.append(f"#{num}: duplicate URL of #{seen[k]}: {url[:60]}")
         seen.setdefault(k, num)
+        ds = e.get("description_source")
+        if ds is not None and ds not in DESCRIPTION_SOURCES:
+            errors.append(f"#{num}: unknown description_source: {ds}")
         for t in e["tags"]:
             if t not in vocab:
                 warnings.append(f"#{num}: tag not in vocabulary: {t}")
@@ -263,6 +269,7 @@ def build_llms_full(entries):
         lines.append(f'source: "{e["source"]}"')
         lines.append(f"url_confirmed: {url_confirmed}")
         lines.append(f"description_inferred: {desc_inferred}")
+        lines.append(f"description_source: {e.get('description_source') or 'null'}")
         lines.append(f"date_added: {e['date_added']}")
         lines.append(f"doi: {doi}")
         lines.append(f"license: {lic}")
@@ -353,6 +360,7 @@ def build_json(entries):
             "type": e["type"],
             "source": e["source"],
             "url_confirmed": bool(e["url_confirmed"]),
+            "description_source": e.get("description_source"),
             "tags": e["tags"],
             "desc": e["desc"],
             "domain": e["domain"],

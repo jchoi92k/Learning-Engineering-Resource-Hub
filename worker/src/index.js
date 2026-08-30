@@ -113,6 +113,7 @@ function formatEntry(e) {
     source: e.source,
     tags: e.tags,
     description: e.desc,
+    description_source: e.description_source || null,
   };
 }
 

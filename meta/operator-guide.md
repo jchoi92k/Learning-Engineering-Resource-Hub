@@ -22,7 +22,7 @@ The same underlying corpus (`data/hub.db`) feeds four consumer surfaces. **Updat
 ## Data pipeline (canonical → derived)
 
 ```
-data/hub.db          ← canonical source of truth (SQLite). Written by process_staged.py / verify_urls.py.
+data/hub.db          ← canonical source of truth (SQLite). Written by process_staged.py / verify_urls.py / curate.py.
         |
         | `python scripts/build_from_db.py`  (run automatically by the routine; also runnable manually)
         ↓

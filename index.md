@@ -89,6 +89,7 @@ All executable scripts. Run from repo root: `python scripts/{script}.py`.
 - **`update.sh`** — weekly wrapper: scrape → process → verify new URLs → build over the automated source list; writes `docs/staging/run-summary.md`.
 - **`scrape.py`** — config-driven scraper. Reads source configs from `sources/`, outputs to `docs/staging/`.
 - **`process_staged.py`** — processes staged JSON into `data/hub.db`. Handles tagging and DB insertion.
+- **`curate.py`** — single-entry edits to `data/hub.db`: `show`, `recent`, `exclude`, `reactivate`, `set-description`, `set-tags`. Validates against the controlled vocabularies, bumps `updated_at`, prints before/after.
 - **`verify_urls.py`** — domain-aware URL checker with throttling. Writes results to `data/hub.db` and `data/broken-urls.json`.
 - **`source_check.py`** — pre-flight accessibility probe for all sources.
 - **`playwright_scrape.py`** — legacy Playwright scraper; no current source needs it (TNTP and Digital Promise have plain configs). Optional dependency.

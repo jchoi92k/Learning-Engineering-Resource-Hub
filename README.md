@@ -58,6 +58,7 @@ flowchart LR
     A[scrape.py] -->|staged JSON| B[process_staged.py]
     B -->|INSERT| C[(hub.db)]
     D[verify_urls.py] -->|UPDATE| C
+    K[curate.py] -->|UPDATE| C
     C --> E[build_from_db.py]
     E --> F[llms-full.txt]
     E --> G[data.json]
@@ -80,6 +81,7 @@ bash scripts/update.sh                       # weekly run: scrape -> process -> 
 python scripts/scrape.py {source}            # fetch + stage to docs/staging/
 python scripts/process_staged.py {source}    # tag + insert into hub.db
 python scripts/verify_urls.py                # verify unverified URLs
+python scripts/curate.py show {num}          # single-entry edits: exclude / reactivate / set-description / set-tags
 python scripts/build_from_db.py              # rebuild all published files from hub.db
 python scripts/build_from_db.py --check      # validate entries + verify docs/ matches hub.db (CI)
 python scripts/embed_corpus.py               # sync entry embeddings to Vectorize (semantic search)
@@ -107,6 +109,7 @@ scripts/              <- Python tooling
   scrape.py           <- config-driven scraper (reads sources/*.json)
   process_staged.py   <- formats staged JSON + inserts into hub.db
   verify_urls.py      <- domain-aware URL verification
+  curate.py           <- single-entry edits to hub.db (validated, before/after printed)
 
 sources/              <- per-source profiles (.md) and configs (.json)
 data/                 <- database and data files

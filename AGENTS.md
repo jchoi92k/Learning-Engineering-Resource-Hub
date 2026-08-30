@@ -28,7 +28,7 @@ python scripts/embed_corpus.py               # sync embeddings to Cloudflare Vec
 ## Rules
 
 - **Descriptions come from the source.** Listing blurbs, page abstracts or meta descriptions — never written from a title alone. If a page cannot be fetched, drop the entry. Each row's `description_source` (`listing` / `page-meta` / `page-abstract` / `llm-summary` / `manual`) records which kind of text it holds; see `docs/schema.md`.
-- **Only scripts write `hub.db`.** Do not hand-edit `docs/` (it is regenerated) and do not edit `data/hub.db` outside `process_staged.py` / `verify_urls.py` / a reviewed one-off script.
+- **Only scripts write `hub.db`.** Do not hand-edit `docs/` (it is regenerated) and do not edit `data/hub.db` outside `process_staged.py` / `verify_urls.py` / `curate.py` / a reviewed one-off script. `curate.py` is the tool for single-entry changes (exclude, reactivate, set-description, set-tags); it validates tags, description sources and exclude reasons and prints the before/after.
 - **UTF-8 everywhere**; always pass `encoding="utf-8"`.
 - **Throttle.** `scrape.py` and `verify_urls.py` already wait ≥ 5 s between requests and honour robots.txt `Crawl-delay`; do not add ad-hoc HTTP calls elsewhere.
 - **Edit surface for automated runs:** `sources/*.json` (scraper configs) and, through the scripts, `hub.db` and `docs/`. Do not modify `scripts/`, `.github/`, `.claude/`, `AGENTS.md` or `CLAUDE.md` in an unattended run; propose those changes in the PR body instead.

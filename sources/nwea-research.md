@@ -2,12 +2,12 @@
 
 ## Discovery
 
-- **Method:** Sitemap
-- **Primary URL:** `https://www.nwea.org/publication-sitemap.xml` (547 URLs)
-- **Fallback:** Listing page at `https://www.nwea.org/research/all-research/` (pagination breaks after page 9 — only ~63 items accessible)
-- **Pagination:** Sitemap is single-page. Listing uses `/page/{N}/` but 404s after page 9.
-- **Total items:** 547 (per sitemap, as of 2026-06-04)
-- **Items per request:** All 547 from one sitemap fetch
+- **Method:** WordPress REST API, post type `publications`, plus one page fetch per new item for the abstract (since 2026-08-30; the sitemap route below carries no metadata)
+- **Primary URL:** `https://www.nwea.org/wp-json/wp/v2/publications?per_page=100&orderby=date&order=desc` (317 items in 4 pages on 2026-08-30)
+- **Alternative:** `https://www.nwea.org/publication-sitemap.xml` (547 URLs as of 2026-06-04) — discovery only. The listing at `/research/all-research/` 404s after page 9.
+- **Pagination:** API `?page=N`; `per_page=100` is honoured and the run stops on a short page. Newest-first, so `early_stop` is declared.
+- **Total items:** 317 publications in the API (2026-08-30); `research_type`, `research_theme`, `research_product`, `research_center` and `bio_link` are resolved to names via `lookups`
+- **Items per request:** 100 from the API; the abstract needs the item page (`detail_fetch`)
 
 ## Access
 
@@ -56,20 +56,7 @@
 
 ## Scraping instructions
 
-```
-1. Fetch https://www.nwea.org/publication-sitemap.xml
-2. Extract all <loc> URLs (547 publication paths)
-3. Compare against existing entries in llms-full.txt
-4. For new URLs, fetch each individual page and extract:
-   - Title (h1)
-   - Type (badge/label)
-   - Description (abstract paragraph)
-   - Authors
-   - Date (month + year)
-   - Topics (tag links)
-   - Products (if any)
-5. Stage new entries in docs/staging/nwea-research.txt
-```
+Config-driven: `python scripts/scrape.py nwea-research` (config in `nwea-research.json`, rewritten 2026-08-30): WordPress REST post type `publications`, newest-first with `early_stop`; taxonomies resolved to names via `lookups`; `type_allow` is checked before any page is fetched; each new item's page is then fetched for the abstract (`detail_fetch`: `div.description_wrap`, or the paragraph after the Description heading; `page-abstract`) and its publication block is kept as `page_text` (`text_selector: div.txtcol`). Backfilled 2026-08-30 with `--backfill`. Run modes and the request audit: `sources/README.md`.
 
 ## Quirks
 

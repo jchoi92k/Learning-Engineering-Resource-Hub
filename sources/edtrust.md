@@ -2,12 +2,12 @@
 
 ## Discovery
 
-- **Method:** Sitemap + type filtering
-- **Primary URL:** `https://edtrust.org/research-tools-and-i-sitemap.xml` (582 `/rti/` URLs)
-- **Alternative:** WP REST API at `https://edtrust.org/wp-json/wp/v2/research-tools-and-i` (caps at ~6 items/page, ~64 pages, returns fewer items than sitemap)
-- **Pagination:** Sitemap is single-page. API uses `?page=N`.
-- **Total items:** 582 RTI URLs in sitemap; ~318 are research-like
-- **Items per request:** All 582 URLs from one sitemap fetch
+- **Method:** WordPress REST API, post type `research-tools-and-i` (since 2026-08-30; the sitemap route below carries no descriptions)
+- **Primary URL:** `https://edtrust.org/wp-json/wp/v2/research-tools-and-i?per_page=100&orderby=date&order=desc` (402 items in 5 pages on 2026-08-30)
+- **Alternative:** `https://edtrust.org/research-tools-and-i-sitemap.xml` (582 `/rti/` URLs, no metadata) — discovery only
+- **Pagination:** API `?page=N`; `per_page=100` is honoured and the run stops on a short page. Newest-first, so `early_stop` is declared.
+- **Total items:** 402 in the API (2026-08-30); the `type-of-content` and `topic` taxonomies are resolved to names via `lookups`
+- **Items per request:** 100
 
 ## Access
 
@@ -47,23 +47,7 @@
 
 ## Scraping instructions
 
-```
-1. Fetch https://edtrust.org/research-tools-and-i-sitemap.xml
-2. Extract all <loc> URLs (582 /rti/ paths)
-3. For each URL, fetch the page and extract:
-   - Title
-   - Date
-   - Description (first paragraph of content)
-   - Content type (breadcrumb label)
-   - Topics
-   - Authors
-   - PDF link (if present)
-4. Filter: keep only items where content type is one of:
-   Report, Brief, Guide, Compilation, Fact Sheet, Data Tool,
-   Digital Report, Infographic
-5. Compare against existing entries in llms-full.txt
-6. Stage new entries in docs/staging/edtrust.txt
-```
+Config-driven: `python scripts/scrape.py edtrust` (config in `edtrust.json`, rewritten 2026-08-30): WordPress REST post type `research-tools-and-i`, newest-first with `early_stop`; the Yoast meta description is the description (`page-meta`), the article body is kept as `page_text`, `lookups` resolve `type-of-content` and `topic` to names, and `type_allow` keeps Report, Brief, Guide, Compilation, Fact Sheet, Podcast, Video, Data Tool, Infographic and Digital Report (State News, Campaign and Press Releases become `type_filtered` rows). Backfilled 2026-08-30 with `--backfill`. Run modes and the request audit: `sources/README.md`.
 
 ## Quirks
 

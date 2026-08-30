@@ -45,36 +45,7 @@
 
 ## Scraping instructions
 
-```
-1. Fetch 3 pages of the discovery API:
-   GET https://digitalpromise.dspacedirect.org/server/api/discover/search/objects?dsoType=item&size=100&page=0
-   GET ...&page=1
-   GET ...&page=2
-
-2. For each item in _embedded.searchResult._embedded.objects[]:
-   - Navigate to _embedded.indexableObject
-   - Extract:
-     title:   metadata["dc.title"][0].value
-     url:     metadata["dc.identifier.uri"][0].value
-     date:    metadata["dc.date.issued"][0].value
-     desc:    metadata["dc.description.abstract"][0].value
-              (fallback: metadata["dc.description"][0].value)
-     authors: metadata["dc.contributor.author"][*].value
-     type:    metadata["dc.type"][0].value
-     tags:    metadata["dc.subject"][*].value
-     uuid:    uuid (top-level)
-
-3. Map dc.type to our type taxonomy:
-   "Report" → report
-   "Presentation" → presentation
-   "Article" → paper
-   "Book Section" → paper
-   "Dataset" → dataset
-   (default) → report
-
-4. Compare URLs against existing entries in llms-full.txt.
-   Stage new entries in docs/staging/digital-promise.txt.
-```
+Config-driven: `python scripts/scrape.py digital-promise` (config in `digital-promise.json`): the DSpace discovery API sorted newest-first (`sort=dc.date.accessioned,DESC`) with `early_stop` declared; title, URL, date, abstract (`listing`), authors, type and subjects come from the item metadata via `json_paths`. Type labels are mapped in `process_staged.py` (`TYPE_MAP`). Run modes: `sources/README.md`.
 
 ## Quirks
 

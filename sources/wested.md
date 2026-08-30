@@ -56,25 +56,7 @@
 
 ## Scraping instructions
 
-```
-1. Paginate through the library:
-   GET https://www.wested.org/resources/library/?_paged=1
-   GET ...?_paged=2
-   ...through _paged=140
-
-2. From each page, extract all resource cards:
-   - Title (link text)
-   - URL (href, pattern: /resource/{slug}/)
-   - Type label
-   - Blurb (description text)
-
-3. Compare URLs against existing entries in llms-full.txt
-
-4. For new entries, the listing blurb is usually sufficient.
-   If richer description needed, fetch individual page.
-
-5. Stage new entries in docs/staging/wested.txt
-```
+Config-driven: `python scripts/scrape.py wested` (config in `wested.json`): server-rendered library pagination (`?_paged=N`), newest-first with `early_stop`; the listing blurb is the description (`listing`). `type_allow` keeps research outputs plus guides, collections, WestEd Perspectives and audiocasts; Training and Professional Development, Tool, Curriculum and Assessment Resource items are recorded as `type_filtered` rows. Backfilled 2026-08-30 with `--backfill --pages 150`. Run modes and the request audit: `sources/README.md`.
 
 ## Quirks
 

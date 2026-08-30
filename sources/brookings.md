@@ -55,46 +55,7 @@
 
 ## Scraping instructions
 
-```
-1. Query Algolia for Brown Center articles:
-   POST https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query
-   Headers:
-     x-algolia-application-id: XGC391W2WE
-     x-algolia-api-key: 52dcafdcc61d4c5885aeccd7d2e4d788
-   Body:
-     {
-       "query": "",
-       "hitsPerPage": 200,
-       "page": 0,
-       "filters": "(post_type:article) AND (tax_ids.center_tax:24) AND (locale:en)",
-       "attributesToRetrieve": ["post_title","permalink","post_date_formatted","content","content_type","display_authors","primary_topic","taxonomies"]
-     }
-
-2. Algolia caps at 1,000 results. To get all 1,239:
-   - First query: no date filter (gets 1,000 most relevant)
-   - Then window by date: add filter AND (post_date < {earliest_date_from_first_batch})
-   - Or use numericFilters on post_date (Unix timestamp)
-
-3. Filter results: keep only content_type containing "Research" or "Commentary"
-
-4. For each article, extract:
-   - Title: post_title
-   - URL: permalink
-   - Date: post_date_formatted
-   - Description: first 2 sentences of content field
-   - Topics: taxonomies.topic_tax
-   - Authors: display_authors
-   - Type: map content_type → our taxonomy
-     "Research" → report
-     "Commentary" → blog-post
-
-5. Optionally enrich descriptions via WP REST API:
-   GET https://www.brookings.edu/wp-json/wp/v2/article?slug={slug}&_fields=yoast_head_json
-   Use yoast_head_json.description as description.
-
-6. Compare against existing entries in llms-full.txt
-7. Stage new entries in docs/staging/brookings.txt
-```
+Config-driven: `python scripts/scrape.py brookings` (config in `brookings.json`, rewritten 2026-08-30). Two date-window Algolia passes (`api.windows`, split at 2019-01-01) cover the Brown Center around Algolia's 1,000-hit cap; `type_allow` keeps Research items and records Commentary as `type_filtered` rows; each kept item's page supplies its meta description (`detail_fetch`, `page-meta`) and the Algolia body is kept as `page_text`. `early_stop` is not declared, so every page up to the cap is scanned each run. Backfilled 2026-08-30 with `--backfill`. Run modes and the request audit: `sources/README.md`.
 
 ## Quirks
 

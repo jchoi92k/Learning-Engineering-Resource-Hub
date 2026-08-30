@@ -43,17 +43,7 @@
 
 ## Scraping instructions
 
-```
-1. Fetch https://tntp.org/publication-sitemap.xml
-2. Extract all <loc> URLs matching /publication/*
-3. Compare against existing entries in llms-full.txt
-4. For new URLs, fetch each individual page and extract:
-   - Title (h1)
-   - Description (opening paragraph or meta description)
-   - Date
-   - Topics (tag links)
-5. Stage new entries in docs/staging/tntp.txt
-```
+Config-driven: `python scripts/scrape.py tntp` (config in `tntp.json`): sitemap discovery restricted to `/publication/` URLs. The sitemap carries no blurb and the config has no `detail_fetch`, so each new item is staged as backlog and inserted as an excluded `no_description_pending` row for a later description pass (the May 2026 rows were described from the page openings, `page-abstract`). Run modes: `sources/README.md`.
 
 ## Quirks
 

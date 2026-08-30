@@ -498,8 +498,23 @@ async function handleToolCall(name, args, env) {
       });
     }
 
-    default:
-      return { content: [{ type: "text", text: `Unknown tool: ${name}` }], isError: true };
+    default: {
+      // A client that cached the tool list before a deploy may still call a tool that is gone.
+      // Tell the model what replaced it and that its list is stale, so the session can recover.
+      const available = TOOL_DEFINITIONS.map((t) => t.name).join(", ");
+      const hint = name === "get_full_index"
+        ? "get_full_index was removed on 2026-08-30: the corpus no longer fits in one response. "
+          + "Use search(query) then fetch(id), or search_resources for filtered semantic search. "
+        : "";
+      return {
+        content: [{
+          type: "text",
+          text: `Unknown tool: ${name}. ${hint}If your client still lists this tool, its tool list is stale - `
+            + `reconnect to refresh it. Available tools: ${available}.`,
+        }],
+        isError: true,
+      };
+    }
   }
 }
 

@@ -39,6 +39,8 @@ https://renaissance-hub.joon-96a.workers.dev/mcp
 
 Available tools: `search` and `fetch` (the search/fetch pair that ChatGPT deep research and company knowledge require: `search(query)` returns ids, titles and URLs; `fetch(id)` returns the entry with its description), plus `search_resources` (filters, pagination, counts), `get_entry`, `get_entries_batch`, `list_tags`, `list_sources`, `get_stats`, `find_related`.
 
+The tool list changed on 2026-08-30: `get_full_index` was removed (the corpus outgrew a single response). If your client still shows it, reconnect so it refreshes its tool list; calling it returns an error that names the replacements.
+
 **Client setup** — add to your MCP config (e.g. `claude_desktop_config.json`):
 
 ```json

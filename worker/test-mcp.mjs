@@ -337,6 +337,18 @@ await test("search_resources — structuredContent present", async () => {
 await test("get_full_index — removed", async () => {
   const res = await rpc("tools/call", { name: "get_full_index", arguments: {} });
   assert(res.error !== undefined || res.result?.isError === true, "calling the removed tool is an error, not a dump");
+  const text = res.result?.content?.[0]?.text || res.error?.message || "";
+  assert(text.includes("search(query)") && text.includes("fetch(id)"), "the error names the replacement tools");
+  assert(text.includes("reconnect"), "the error tells a stale client to reconnect");
+  assert(text.includes("search_resources"), "the error lists the current tools");
+});
+
+await test("unknown tool — lists current tools", async () => {
+  const res = await rpc("tools/call", { name: "no_such_tool", arguments: {} });
+  assert(res.result?.isError === true, "unknown tool is an isError result");
+  const text = res.result?.content?.[0]?.text || "";
+  assert(text.includes("Unknown tool: no_such_tool") && text.includes("Available tools:"), "names the tool and lists the current ones");
+  assert(!text.includes("get_full_index was removed"), "the removal hint is specific to get_full_index");
 });
 
 await test("HTTP /search endpoint", async () => {

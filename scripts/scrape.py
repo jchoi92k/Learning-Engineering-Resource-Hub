@@ -271,6 +271,9 @@ def _handle_rate_limit(status_code, url, method="get", request_kwargs=None):
     global _last_fetch_time
     request_kwargs = request_kwargs or {}
     for attempt, wait in enumerate(BACKOFF_SCHEDULE):
+        # Never retry faster than the host's delay: a 429 on a 60 s crawl-delay
+        # host must not be answered with a retry 5 s later.
+        wait = max(wait, _request_delay)
         print(f"  HTTP {status_code} — backing off {wait}s (attempt {attempt + 1}/{len(BACKOFF_SCHEDULE)})...",
               file=sys.stderr)
         time.sleep(wait)

@@ -1496,7 +1496,7 @@ CASEL framework (updated 2020) defining the five core social-emotional competenc
 
 Type: report | Source: The Education Trust
 Tags: early-childhood, edtrust, k-12, learning-engineering
-URL: https://edtrust.org/resource/young-learners-family-engagement
+URL: https://edtrust.org/rti/young-learners-family-engagement/
 
 EdTrust research brief by Ivy Morgan (2024) examining family-school partnerships for early elementary learners based on nationally representative surveys of 600 parents/caregivers and 300 teachers of first and second graders during 2022–23. Finds broadly positive communication overall but significant gaps: only ~two-thirds of parents had access to parent-teacher conferences; low-income and multilingual families faced greater barriers including unwelcoming school staff. Part of EdTrust's broader SEAD research program.
 
@@ -1506,7 +1506,7 @@ EdTrust research brief by Ivy Morgan (2024) examining family-school partnerships
 
 Type: report | Source: The Education Trust
 Tags: edtrust, formative-assessment, k-12, learning-engineering
-URL: https://edtrust.org/resource/assessment-reports-family-engagement
+URL: https://edtrust.org/rti/assessment-reports-family-engagement/
 
 EdTrust report by Munyan-Penney and Levitan (2024) providing guidance for schools on improving communication of federally required annual assessment results to students and families. Advocates for integrating score reports into existing family communications, identifies best practices for accessible report design, and offers policy recommendations for advocates and state leaders to improve assessment reporting at scale.
 
@@ -1516,7 +1516,7 @@ EdTrust report by Munyan-Penney and Levitan (2024) providing guidance for school
 
 Type: report | Source: The Education Trust
 Tags: edtrust, k-12, learning-engineering, sel
-URL: https://edtrust.org/resource/student-family-community-engagement-sead
+URL: https://edtrust.org/rti/student-family-community-engagement-sead/
 
 EdTrust report by Duchesneau and Wriston (2024) examining how school, family, and community engagement supports students' social, emotional, and academic development (SEAD). Identifies obstacles to meaningful engagement and provides policy recommendations for federal, state, and local decision-makers. Part of EdTrust's broader research on whole-child development and the role of family-school partnerships in student wellbeing and academic outcomes.
 
@@ -1526,7 +1526,7 @@ EdTrust report by Duchesneau and Wriston (2024) examining how school, family, an
 
 Type: report | Source: The Education Trust
 Tags: edtrust, k-12, learning-engineering
-URL: https://edtrust.org/resource/funding-gaps-2018/
+URL: https://edtrust.org/rti/funding-gaps-2018/
 
 EdTrust report by Morgan and Amerikaner (2018) documenting school funding disparities across U.S. states and districts. Finds districts serving predominantly students of color receive ~$1,800 (13%) less per student in state and local funding than majority-white districts; high-poverty districts receive ~$1,000 (7%) less than low-poverty districts. Gap widens to $2,000 per student (16%) when adjusted for additional costs of supporting low-income students. Documents state-by-state variation and highlights states achieving more equitable funding.
 
@@ -10356,7 +10356,7 @@ This research examines three high-quality educator preparation programs at Texas
 
 Type: report | Source: The Education Trust
 Tags: edtrust, formative-assessment, k-12, sel
-URL: https://edtrust.org/resource/schools-family-engagement/
+URL: https://edtrust.org/rti/the-importance-of-family-engagement/
 
 Authentic family and community engagement serves as a key strategy for enhancing students' social-emotional and academic outcomes. This EdTrust resource presents three reports addressing parental perceptions of school engagement post-pandemic, policy changes for better family-community involvement, and improvements in how assessment results are communicated to families. However, schools still need to improve their equitable engagement with all families, particularly those from historically underserved communities. Published April 11, 2024.
 

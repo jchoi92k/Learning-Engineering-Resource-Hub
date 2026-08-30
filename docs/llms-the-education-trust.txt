@@ -4,10 +4,10 @@
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-the-education-trust.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
-- 145. [Engaging First: Supporting Young Learners Through Family Engagement](https://edtrust.org/resource/young-learners-family-engagement) | report | early-childhood, edtrust, k-12, learning-engineering
-- 146. [Making Assessment Reports More Meaningful for Students & Families](https://edtrust.org/resource/assessment-reports-family-engagement) | report | edtrust, formative-assessment, k-12, learning-engineering
-- 147. [How Student, Family, and Community Engagement Impacts Students' SEAD](https://edtrust.org/resource/student-family-community-engagement-sead) | report | edtrust, k-12, learning-engineering, sel
-- 148. [Funding Gaps 2018](https://edtrust.org/resource/funding-gaps-2018/) | report | edtrust, k-12, learning-engineering
+- 145. [Engaging First: Supporting Young Learners Through Family Engagement](https://edtrust.org/rti/young-learners-family-engagement/) | report | early-childhood, edtrust, k-12, learning-engineering
+- 146. [Making Assessment Reports More Meaningful for Students & Families](https://edtrust.org/rti/assessment-reports-family-engagement/) | report | edtrust, formative-assessment, k-12, learning-engineering
+- 147. [How Student, Family, and Community Engagement Impacts Students' SEAD](https://edtrust.org/rti/student-family-community-engagement-sead/) | report | edtrust, k-12, learning-engineering, sel
+- 148. [Funding Gaps 2018](https://edtrust.org/rti/funding-gaps-2018/) | report | edtrust, k-12, learning-engineering
 - 175. [Opportunities Denied: High-Achieving Black and Latino Students Lack Access to Advanced Math](https://edtrust.org/rti/opportunities-denied-high-achieving-black-and-latino-students-lack-access-to-advanced-math/) | report | edtrust, english-learners, k-12, math-education
 - 176. [Social, Emotional, and Academic Development Through an Equity Lens](https://edtrust.org/rti/social-emotional-and-academic-development-through-an-equity-lens/) | report | edtrust, k-12, sel, student-belonging
 - 177. [Hard Truths: Why Only Race-Conscious Policies Can Fix Racism in Higher Education](https://edtrust.org/rti/hard-truths/) | report | college-access, edtrust, higher-ed
@@ -34,4 +34,4 @@
 - 198. [How Student Debt Harms Black Borrowers' Mental Health](https://edtrust.org/rti/how-student-debt-harms-black-borrowers-mental-health/) | report | edtrust, higher-ed, student-belonging
 - 199. [How Black Women Experience Student Debt](https://edtrust.org/rti/how-black-women-experience-student-debt/) | report | college-access, edtrust, higher-ed
 - 200. [Making College Affordable](https://edtrust.org/rti/making-college-affordable/) | report | college-access, edtrust, higher-ed
-- 1045. [The Importance of Family Engagement](https://edtrust.org/resource/schools-family-engagement/) | report | edtrust, formative-assessment, k-12, sel
+- 1045. [The Importance of Family Engagement](https://edtrust.org/rti/the-importance-of-family-engagement/) | report | edtrust, formative-assessment, k-12, sel

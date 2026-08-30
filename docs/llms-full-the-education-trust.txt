@@ -7,7 +7,7 @@
 ### 145. Engaging First: Supporting Young Learners Through Family Engagement
 
 ```yaml
-url: "https://edtrust.org/resource/young-learners-family-engagement"
+url: "https://edtrust.org/rti/young-learners-family-engagement/"
 type: report
 source: "The Education Trust"
 url_confirmed: true
@@ -28,7 +28,7 @@ EdTrust research brief by Ivy Morgan (2024) examining family-school partnerships
 ### 146. Making Assessment Reports More Meaningful for Students & Families
 
 ```yaml
-url: "https://edtrust.org/resource/assessment-reports-family-engagement"
+url: "https://edtrust.org/rti/assessment-reports-family-engagement/"
 type: report
 source: "The Education Trust"
 url_confirmed: true
@@ -49,7 +49,7 @@ EdTrust report by Munyan-Penney and Levitan (2024) providing guidance for school
 ### 147. How Student, Family, and Community Engagement Impacts Students' SEAD
 
 ```yaml
-url: "https://edtrust.org/resource/student-family-community-engagement-sead"
+url: "https://edtrust.org/rti/student-family-community-engagement-sead/"
 type: report
 source: "The Education Trust"
 url_confirmed: true
@@ -70,7 +70,7 @@ EdTrust report by Duchesneau and Wriston (2024) examining how school, family, an
 ### 148. Funding Gaps 2018
 
 ```yaml
-url: "https://edtrust.org/resource/funding-gaps-2018/"
+url: "https://edtrust.org/rti/funding-gaps-2018/"
 type: report
 source: "The Education Trust"
 url_confirmed: true
@@ -637,7 +637,7 @@ EdTrust advocates for reducing college costs and student debt through policy ini
 ### 1045. The Importance of Family Engagement
 
 ```yaml
-url: "https://edtrust.org/resource/schools-family-engagement/"
+url: "https://edtrust.org/rti/the-importance-of-family-engagement/"
 type: report
 source: "The Education Trust"
 url_confirmed: true

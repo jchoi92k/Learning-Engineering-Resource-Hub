@@ -3,7 +3,7 @@
 [![Entries](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fjchoi92k.github.io%2FLearning-Engineering-Resource-Hub%2Fdata.json&query=%24.meta.total&label=entries&color=blue&style=flat-square)](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub)
 [![Last Commit](https://img.shields.io/github/last-commit/jchoi92k/Learning-Engineering-Resource-Hub?style=flat-square)](https://github.com/jchoi92k/Learning-Engineering-Resource-Hub/commits/main)
 [![Status](https://img.shields.io/badge/status-internal_beta-orange?style=flat-square)](#status)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-yellow?style=flat-square)](https://www.python.org/)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-yellow?style=flat-square)](https://www.python.org/)
 [![Claude Code](https://img.shields.io/badge/built_with-Claude_Code-d97706?style=flat-square)](https://claude.ai/code)
 
 A curated, agent-first referatory of evidence-based K-12, higher-education, and learning-engineering research resources — optimized for LLM consumption.
@@ -137,6 +137,8 @@ url: "https://exact-url"
 type: report
 source: "Publishing Organization"
 url_confirmed: true
+description_inferred: false
+description_source: listing
 date_added: 2026-05-04
 tags: [tag1, tag2]
 ```

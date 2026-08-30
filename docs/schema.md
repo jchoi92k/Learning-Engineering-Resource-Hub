@@ -84,9 +84,9 @@ Descriptions are **never** written from title alone. The following rules apply:
 
 | Value | Meaning |
 |---|---|
-| `listing` | Verbatim blurb from the source's listing page or API: every row the scripted pipeline inserts (June 2026 onward), plus the May 2026 Digital Promise rows, which are the DSpace API abstracts. Some early rows are cut at 500 (Evidence for ESSA) or 700 (Digital Promise) characters. |
+| `listing` | Verbatim blurb from the source's listing page or API: every row the scripted pipeline inserts (June 2026 onward), plus the May 2026 Digital Promise rows, which are the DSpace API abstracts. A few early Evidence for ESSA rows are cut at 500 characters; the rest were restored to the full source text in August 2026. |
 | `page-meta` | Verbatim one-sentence teaser from the item page's meta description (e.g. Brookings) |
-| `page-abstract` | Verbatim abstract or opening text from the item page (e.g. NWEA, UChicago Consortium, CASEL `detail_fetch`; the May 2026 TNTP rows, some cut at 700 characters) |
+| `page-abstract` | Verbatim abstract or opening text from the item page (e.g. NWEA, UChicago Consortium, CASEL `detail_fetch`; the May 2026 TNTP rows, restored to the full opening text in August 2026 except #683) |
 | `llm-summary` | Written by an agent from the fetched page: the May 2026 hand-indexed entries (other than Digital Promise and TNTP), and weekly-run upgrades of `page-meta` teasers. Labels were checked against site text on a per-source sample in August 2026. |
 | `manual` | Written or edited by a maintainer |
 | `null` | Not recorded |

@@ -30800,7 +30800,7 @@ license: null
 tags: [response-to-intervention]
 ```
 
-Once is a school-embedded early literacy tutoring program serving PreK through first grade students. Existing school staff, primarily paraprofessionals, are trained to deliver daily, 15-minute, one-on-one structured literacy sessions during the school day. The curriculum is grounded in the science of reading and addresses both decoding and language comprehension through systematic phonics instruction, phonemic awareness, sight word instruction, and vocabulary development. Lessons are scripted an
+Once is a school-embedded early literacy tutoring program serving PreK through first grade students. Existing school staff, primarily paraprofessionals, are trained to deliver daily, 15-minute, one-on-one structured literacy sessions during the school day. The curriculum is grounded in the science of reading and addresses both decoding and language comprehension through systematic phonics instruction, phonemic awareness, sight word instruction, and vocabulary development. Lessons are scripted and delivered via a laptop interface, enabling staff without specialized reading instruction backgrounds to deliver sequenced lessons with fidelity. Tutors receive weekly 30-minute coaching sessions from a consistent Once coach who reviews session recordings and provides targeted feedback. A real-time data portal allows tutors, coaches, and administrators to monitor student progress. The program is designed as a supplemental tier to core classroom instruction, embedded within the school day.
 
 ---
 
@@ -30821,7 +30821,7 @@ license: null
 tags: [computer-assisted-learning]
 ```
 
-PeerLearning.net is a web-based platform that helps teachers design and deliver cooperative learning (CL) lessons with fidelity to best practices across any subject and grade level. Teachers use the platform to build structured small-group lessons from their existing curricula using lesson templates such as jigsaw or group projects. During lesson delivery, the platform manages student grouping and lesson logistics, including distributing materials to student devices, directing activities accordi
+PeerLearning.net is a web-based platform that helps teachers design and deliver cooperative learning (CL) lessons with fidelity to best practices across any subject and grade level. Teachers use the platform to build structured small-group lessons from their existing curricula using lesson templates such as jigsaw or group projects. During lesson delivery, the platform manages student grouping and lesson logistics, including distributing materials to student devices, directing activities according to a timed sequence, supporting teacher observations of student taskwork and teamwork, and guiding post-lesson group reflection. PeerLearning.net removes the planning and management tasks that typically prevent teachers from implementing CL with fidelity to best practices. PeerLearning.net is designed for use in standard academic instruction in any subject and can be implemented at any grade level as long as students are capable of reading instructions on their devices (typically 4th/5th grade and up). Any teacher can use PeerLearning.net, either on their own or in collaboration with colleagues. Lessons developed within PeerLearning.net can be shared with other teachers through the global library, which has hundreds of lessons created by teachers in various subjects throughout middle and high school, including core subjects (e.g., math, social studies, ELA), as well as social-emotional learning (SEL), organizational/study skills, career preparation, and financial literacy.
 
 ---
 
@@ -30842,7 +30842,7 @@ license: null
 tags: [formative-assessment, literacy, response-to-intervention]
 ```
 
-Education Corps partners with school districts to provide in-person high-dosage literacy tutoring to low-performing K-5 students. Its program is designed primarily for students in grades K-3 who score below grade-level benchmarks on early literacy skills. Education Corps assists schools in implementing in-person high-dosage literacy tutoring, including: recruiting and screening tutors (who are then selected and hired by schools); aligning and scheduling tutoring to complement core instruction wi
+Education Corps partners with school districts to provide in-person high-dosage literacy tutoring to low-performing K-5 students. Its program is designed primarily for students in grades K-3 who score below grade-level benchmarks on early literacy skills. Education Corps assists schools in implementing in-person high-dosage literacy tutoring, including: recruiting and screening tutors (who are then selected and hired by schools); aligning and scheduling tutoring to complement core instruction within schools; providing pre-service tutor training and coaching to tutors throughout the school year; providing progress monitoring and impact evaluation support to schools throughout the school year and after; and advising schools on how to find funding to pay for tutoring. Prior to the start and throughout the course of each school year, Education Corps’ team members work with school-based MTSS coordinators and/or instructional leaders to ensure effective program implementation. These school-based “Tutoring Leads” work with Ed Corps staff to identify eligible students and coordinate scheduling for tutoring. Ed Corps recruits tutors from the local community, requiring only a high school diploma or equivalent based on district policies, and trains them using a 16-hour asynchronous course aligned to the science of reading, followed by a 2-hour synchronous capstone session before tutoring begins. Tutors are hired directly by the district based on Ed Corps recommendations and receive ongoing support from a designated Ed Corps Learning Coach throughout the year. Ed Corps’ Learning Coaches are all former classroom teachers. Tutors provide in-person, in-school tutoring to small groups of up to 4 students at a time, at least 3 times per week, in 30-minute sessions. The program supports a minimum of 30 sessions per student per year. Ed Corps supports tutors who use the mClass intervention curriculum or equivalent researched-backed curriculums. Lessons target specific foundational literacy skills identified for each student at the start of the year based on mClass DIBELS Eighth Edition or equivalent screeners, including phonemic awareness, phonics, oral reading fluency, high-frequency words, and word fluency.
 
 ---
 
@@ -30863,7 +30863,7 @@ license: null
 tags: [computer-assisted-learning, math-education, personalized-learning]
 ```
 
-Magma Math is a digital math platform designed to support student-centered mathematical learning and discourse in grades 4–8. Students solve problems on a digital canvas using keyboard or stylus input, showing their full problem-solving process rather than just a final answer. Teachers assign problems, view student work in real time through heatmaps and data dashboards, and use student solutions to drive classroom discussion and differentiated instruction. Magma Math is grounded in research on m
+Magma Math is a digital math platform designed to support student-centered mathematical learning and discourse in grades 4–8. Students solve problems on a digital canvas using keyboard or stylus input, showing their full problem-solving process rather than just a final answer. Teachers assign problems, view student work in real time through heatmaps and data dashboards, and use student solutions to drive classroom discussion and differentiated instruction. Magma Math is grounded in research on mathematical discourse and formative assessment, and is accessible on any internet-connected device.
 
 ---
 
@@ -30926,7 +30926,7 @@ license: null
 tags: [computer-assisted-learning, math-education, personalized-learning, response-to-intervention]
 ```
 
-STEMscopes Math is a comprehensive, standards-aligned core mathematics curriculum for grades K through Algebra 1, developed by Accelerate Learning. Built around the 5E+IA instructional model (Engage, Explore, Explain, Elaborate, Evaluate, plus Intervention and Acceleration pathways), the program supports whole-group instruction, small-group differentiation, and blended learning. It follows a Concrete-Representational-Abstract progression and integrates digital tools, including virtual manipulati
+STEMscopes Math is a comprehensive, standards-aligned core mathematics curriculum for grades K through Algebra 1, developed by Accelerate Learning. Built around the 5E+IA instructional model (Engage, Explore, Explain, Elaborate, Evaluate, plus Intervention and Acceleration pathways), the program supports whole-group instruction, small-group differentiation, and blended learning. It follows a Concrete-Representational-Abstract progression and integrates digital tools, including virtual manipulatives and PhET simulations, alongside print materials. All student resources are available in English and Spanish. Professional learning is offered in on-site, virtual, blended, and individual coaching formats.
 
 ---
 
@@ -30947,7 +30947,7 @@ license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, math-education]
 ```
 
-Classtime is a digital formative assessment platform designed to support mathematics, English Language Arts, and science instruction through interactive practice and real-time feedback. Teachers assign problem sets aligned with state standards and use dashboards that display student responses instantly, allowing them to identify misconceptions and adjust instruction during or after lessons. The platform includes activities intended to develop strategic thinking and familiarize students with ques
+Classtime is a digital formative assessment platform designed to support mathematics, English Language Arts, and science instruction through interactive practice and real-time feedback. Teachers assign problem sets aligned with state standards and use dashboards that display student responses instantly, allowing them to identify misconceptions and adjust instruction during or after lessons. The platform includes activities intended to develop strategic thinking and familiarize students with question formats commonly used on state assessments.
 
 ---
 
@@ -30968,7 +30968,7 @@ license: null
 tags: [literacy, writing-instruction]
 ```
 
-Greenfield Learning’s Comprehensive Literacy: Making the Connections is a 10-session (15-hour) professional learning series delivered over 6–8 months. The participants receive literacy instruction that debunks common misconceptions and provides practical strategies for effective teaching. Divided into ten to twelve parts, this course offers a comprehensive exploration of reading research, phonological awareness, phonics, fluency, language comprehension, and writing, equipping educators with the
+Greenfield Learning’s Comprehensive Literacy: Making the Connections is a 10-session (15-hour) professional learning series delivered over 6–8 months. The participants receive literacy instruction that debunks common misconceptions and provides practical strategies for effective teaching. Divided into ten to twelve parts, this course offers a comprehensive exploration of reading research, phonological awareness, phonics, fluency, language comprehension, and writing, equipping educators with the knowledge and tools to support multilingual and neurodivergent learners on their literacy journey. This course is designed for educators, literacy specialists, curriculum developers, and anyone involved in literacy instruction. It is suitable for both new and experienced practitioners seeking to deepen their understanding of literacy acquisition and enhance their instructional practices. Since the completion of the study, Greenfield Learning has added additional sessions to the course and a professional learning platform to support customized depth and ongoing learning for all educators.
 
 ---
 
@@ -31010,7 +31010,7 @@ license: null
 tags: [formative-assessment, math-education, response-to-intervention]
 ```
 
-GO Tutor Corps provides high-impact tutoring during the school day that is designed to accelerate student learning through targeted academic support. The program offers individualized or small-group tutoring to students identified as needing additional help in mathematics. Tutoring is intended to supplement regular classroom instruction and focuses on improving student progress over the school year through consistent sessions and progress monitoring. Implementation occurs within participating sc
+GO Tutor Corps provides high-impact tutoring during the school day that is designed to accelerate student learning through targeted academic support. The program offers individualized or small-group tutoring to students identified as needing additional help in mathematics. Tutoring is intended to supplement regular classroom instruction and focuses on improving student progress over the school year through consistent sessions and progress monitoring. Implementation occurs within participating schools, and the program emphasizes structured delivery and use of student performance data to guide instruction.
 
 ---
 
@@ -31031,7 +31031,7 @@ license: null
 tags: [early-childhood, inclusive-design, math-education, personalized-learning]
 ```
 
-Learning Genie is an AI-supported instructional planning and documentation platform for preschool through grade 12 that helps educators design and implement research-based, standards-aligned instruction using Universal Design for Learning (UDL) principles. The system provides AI-assisted unit design and lesson-planning tools that support differentiation, inclusion, and alignment with high-quality instructional materials (HQIM), while enabling teachers to integrate student evidence, contextual le
+Learning Genie is an AI-supported instructional planning and documentation platform for preschool through grade 12 that helps educators design and implement research-based, standards-aligned instruction using Universal Design for Learning (UDL) principles. The system provides AI-assisted unit design and lesson-planning tools that support differentiation, inclusion, and alignment with high-quality instructional materials (HQIM), while enabling teachers to integrate student evidence, contextual learning needs, and learner profiles into planning. Learning Genie’s digital portfolios, DRDP-aligned assessment tools, and multimodal documentation features promote student-centered learning by capturing student voice and supporting the development of student agency. The platform also facilitates collaboration, bilingual family communication, and consistent reporting through data-system integrations.
 
 ---
 
@@ -31052,7 +31052,7 @@ license: null
 tags: [early-childhood, inclusive-design, literacy, personalized-learning]
 ```
 
-Learning Genie is an AI-supported instructional planning and documentation platform for preschool through grade 12 that helps educators design and implement research-based, standards-aligned instruction using Universal Design for Learning (UDL) principles. The system provides AI-assisted unit design and lesson-planning tools that support differentiation, inclusion, and alignment with high-quality instructional materials (HQIM), while enabling teachers to integrate student evidence, contextual le
+Learning Genie is an AI-supported instructional planning and documentation platform for preschool through grade 12 that helps educators design and implement research-based, standards-aligned instruction using Universal Design for Learning (UDL) principles. The system provides AI-assisted unit design and lesson-planning tools that support differentiation, inclusion, and alignment with high-quality instructional materials (HQIM), while enabling teachers to integrate student evidence, contextual learning needs, and learner profiles into planning. Learning Genie’s digital portfolios, DRDP-aligned assessment tools, and multimodal documentation features promote student-centered learning by capturing student voice and supporting the development of student agency. The platform also facilitates collaboration, bilingual family communication, and consistent reporting through data-system integrations.
 
 ---
 
@@ -31073,7 +31073,7 @@ license: null
 tags: [math-education]
 ```
 
-Simple Solutions is a spiral review program designed to build long-term mastery of key math skills through daily distributed practice. Students complete short, standards-aligned lessons that revisit previously taught skills, promoting cumulative learning and retention. Each lesson includes ten to fifteen review problems, typically completed in about 10–15 minutes per day. Teachers use the program alongside the core math curriculum to reinforce procedural fluency, problem-solving, and multi-st
+Simple Solutions is a spiral review program designed to build long-term mastery of key math skills through daily distributed practice. Students complete short, standards-aligned lessons that revisit previously taught skills, promoting cumulative learning and retention. Each lesson includes ten to fifteen review problems, typically completed in about 10–15 minutes per day. Teachers use the program alongside the core math curriculum to reinforce procedural fluency, problem-solving, and multi-step reasoning. The program’s spiral structure is designed to strengthen recall and reduce learning loss by continually reintroducing previously covered content. Simple Solutions can be implemented in grades K–8 for any subject (math, reading, science, or social studies) as a supplement to regular classroom instruction and integrates with online resources and automated scoring options that support data-driven review.
 
 ---
 
@@ -31094,7 +31094,7 @@ license: null
 tags: [college-access, early-childhood, professional-development]
 ```
 
-Getting Ready is a program developed by researchers at the University of Nebraska-Lincoln to increase school readiness among children ages five and younger who participate in home visitation or center-based early childhood programs. Getting Ready trains educators in eight evidence-based strategies to enhance their partnerships with families and offers guidance and ongoing coaching on how to conduct meetings with families through home visits, conferences and informal interactions. Through these i
+Getting Ready is a program developed by researchers at the University of Nebraska-Lincoln to increase school readiness among children ages five and younger who participate in home visitation or center-based early childhood programs. Getting Ready trains educators in eight evidence-based strategies to enhance their partnerships with families and offers guidance and ongoing coaching on how to conduct meetings with families through home visits, conferences and informal interactions. Through these interactions, educators and families collaboratively set goals to position each other for success. Educators can learn the Getting Ready approach through two virtual formats: initial training and ongoing coaching to build program capacity.
 
 ---
 
@@ -31115,7 +31115,7 @@ license: null
 tags: [computer-assisted-learning, literacy, math-education, personalized-learning]
 ```
 
-Waterford Upstart is an early learning program for children in PreK–2 that delivers daily 15–20 minute online lessons in reading, math, and science. The core instructional component is the Waterford Early Learning (WEL) software, which sequences adaptive lessons, digital books, songs, and practice activities based on each child’s progress. The program is designed to be used consistently throughout the week and adjusts the level of support and difficulty as children demonstrate new skills. Fam
+Waterford Upstart is an early learning program for children in PreK–2 that delivers daily 15–20 minute online lessons in reading, math, and science. The core instructional component is the Waterford Early Learning (WEL) software, which sequences adaptive lessons, digital books, songs, and practice activities based on each child’s progress. The program is designed to be used consistently throughout the week and adjusts the level of support and difficulty as children demonstrate new skills. Families play an active role in implementation. They receive weekly progress updates, simple at-home learning tips, and access to a bilingual resource library (English/Spanish) to help reinforce skills offline. Each family is also assigned a coach who provides onboarding, routine-building guidance, and ongoing check-ins throughout the program period.
 
 ---
 
@@ -31136,7 +31136,7 @@ license: null
 tags: [early-childhood]
 ```
 
-Fueling Brains is an early childhood program that integrates executive function development into pre-kindergarten instruction. Grounded in research on neuroplasticity and whole-child development, the program blends guided and open-ended play with hands-on, interactive learning. It targets core cognitive skills such as working memory, cognitive flexibility, and inhibitory control—abilities linked to long-term academic and social outcomes. Instruction is designed to be ecologically authentic, allo
+Fueling Brains is an early childhood program that integrates executive function development into pre-kindergarten instruction. Grounded in research on neuroplasticity and whole-child development, the program blends guided and open-ended play with hands-on, interactive learning. It targets core cognitive skills such as working memory, cognitive flexibility, and inhibitory control—abilities linked to long-term academic and social outcomes. Instruction is designed to be ecologically authentic, allowing children to apply learned skills in meaningful, real-world contexts. The program also emphasizes data-informed instruction, using ongoing assessments to tailor learning experiences.
 
 ---
 
@@ -31157,7 +31157,7 @@ license: null
 tags: [computer-assisted-learning, formative-assessment, k-12]
 ```
 
-STEMscopes is a comprehensive digital science curriculum that uses a hands-on, inquiry-based approach aligned to state standards. It is grounded in the 5E instructional model (Engage, Explore, Explain, Elaborate, Evaluate) and is designed to promote student engagement through interactive investigations, real-world problem solving, and embedded formative assessments. The program includes digital and print resources as well as hands-on materials to support science instruction across diverse classr
+STEMscopes is a comprehensive digital science curriculum that uses a hands-on, inquiry-based approach aligned to state standards. It is grounded in the 5E instructional model (Engage, Explore, Explain, Elaborate, Evaluate) and is designed to promote student engagement through interactive investigations, real-world problem solving, and embedded formative assessments. The program includes digital and print resources as well as hands-on materials to support science instruction across diverse classrooms.
 
 ---
 
@@ -31199,7 +31199,7 @@ license: null
 tags: [computer-assisted-learning, formative-assessment, math-education]
 ```
 
-Progress Learning is a comprehensive, state standards-aligned instructional resource and content solution designed for Grades K-12 in multiple subjects (e.g., ELA, Math Science, Social Studies). The program provides every student with a learning path or plan featuring specific standards uniquely aligned to their individual learning needs. The platform can be accessed from anywhere on any Wi-Fi-enabled device. It is designed so that teachers can easily create and share assessments and assignments
+Progress Learning is a comprehensive, state standards-aligned instructional resource and content solution designed for Grades K-12 in multiple subjects (e.g., ELA, Math Science, Social Studies). The program provides every student with a learning path or plan featuring specific standards uniquely aligned to their individual learning needs. The platform can be accessed from anywhere on any Wi-Fi-enabled device. It is designed so that teachers can easily create and share assessments and assignments, and track progress. The classroom resources include videos, bellringers, printables, and videos. Diagnostics and progress monitoring help educators understand which students are not performing at grade level so that they can provide the resources they need to catch up. District and school dashboards allow teachers to monitor the progress of students across subjects and grade levels. The data provided helps everyone better understand where students need remediation and identify trends that may inform curriculum and teaching strategies. Progress Learning offers integrations with Clever, Classlink, Canvas, and Google Classroom.
 
 ---
 
@@ -31220,7 +31220,7 @@ license: null
 tags: [professional-development, response-to-intervention, sel]
 ```
 
-INSIGHTS is an evidence-based intervention that helps families, educators and young children identify how young children’s personalities and temperaments affect their behavior. The program has three components that promote student social-emotional development and academic learning. For Educators: NEW INSIGHTS for Elementary School Educators is a professional development program featuring six self-paced lessons, each followed by a remote facilitated session. Designed for teachers, counselors,
+INSIGHTS is an evidence-based intervention that helps families, educators and young children identify how young children’s personalities and temperaments affect their behavior. The program has three components that promote student social-emotional development and academic learning. For Educators: NEW INSIGHTS for Elementary School Educators is a professional development program featuring six self-paced lessons, each followed by a remote facilitated session. Designed for teachers, counselors, psychologists and administrators, this program helps educators recognize children’s temperaments/personalities and implement strategies to reduce behavior problems and enhance social skills. For Classrooms: Children participate in 10 weekly 30-minute sessions in their own classrooms led by their teachers to help the class gain empathy and resolve dilemmas through mitten puppets, videos and activities. For Parents: NEW INSIGHTS for Parents offers six self-paced, one-hour lessons, each followed by a remote facilitated session for groups of eight. These sessions help parents recognize their children’s temperaments/personalities and learn strategies to reduce behavior problems and enhance social skills.
 
 ---
 
@@ -31241,7 +31241,7 @@ license: null
 tags: [professional-development, response-to-intervention, sel]
 ```
 
-INSIGHTS is an evidence-based intervention that helps families, educators and young children identify how young children’s personalities and temperaments affect their behavior. The program has three components that promote student social-emotional development and academic learning. For Educators: NEW INSIGHTS for Elementary School Educators is a professional development program featuring six self-paced lessons, each followed by a remote facilitated session. Designed for teachers, counselors,
+INSIGHTS is an evidence-based intervention that helps families, educators and young children identify how young children’s personalities and temperaments affect their behavior. The program has three components that promote student social-emotional development and academic learning. For Educators: NEW INSIGHTS for Elementary School Educators is a professional development program featuring six self-paced lessons, each followed by a remote facilitated session. Designed for teachers, counselors, psychologists and administrators, this program helps educators recognize children’s temperaments/personalities and implement strategies to reduce behavior problems and enhance social skills. For Classrooms: Children participate in 10 weekly 30-minute sessions in their own classrooms led by their teachers to help the class gain empathy and resolve dilemmas through mitten puppets, videos and activities. For Parents: NEW INSIGHTS for Parents offers six self-paced, one-hour lessons, each followed by a remote facilitated session for groups of eight. These sessions help parents recognize their children’s temperaments/personalities and learn strategies to reduce behavior problems and enhance social skills.
 
 ---
 
@@ -31262,7 +31262,7 @@ license: null
 tags: [college-access, computer-assisted-learning, response-to-intervention, sel]
 ```
 
-Developed by researchers at the Nebraska Center for Research on Children, Youth, Families and Schools at the University of Nebraska-Lincoln, Teachers and Parents as Partners (TAPP) is a family-school partnership intervention to help solve children’s behavioral and academic challenges through an individualized approach. Also referred to as Conjoint Behavioral Consultation, implementation of TAPP involves three meetings between an identified school specialist (e.g., school counselor, school psycho
+Developed by researchers at the Nebraska Center for Research on Children, Youth, Families and Schools at the University of Nebraska-Lincoln, Teachers and Parents as Partners (TAPP) is a family-school partnership intervention to help solve children’s behavioral and academic challenges through an individualized approach. Also referred to as Conjoint Behavioral Consultation, implementation of TAPP involves three meetings between an identified school specialist (e.g., school counselor, school psychologist, instructional specialist, trauma specialist, administrator, special education teacher, etc.), teacher and parent with each meeting averaging 45-50 minutes. School specialists lead the TAPP process, where they work with parents and their child’s teachers to: - Identify and prioritize a student’s learning and behavioral needs. - Select goals and strategies to be used cooperatively at home and school. - Implement a joint plan at home and school. - Evaluate the plan and monitor the student’s progress. TAPP has been extensively studied and implemented in rural communities, where specialized support services are often difficult for families to access.
 
 ---
 
@@ -31283,7 +31283,7 @@ license: null
 tags: [literacy, writing-instruction]
 ```
 
-Spalding’s The Writing Road to Reading is a comprehensive literacy program designed for K-6 students. It is implemented as a whole-class literacy program, typically used daily during dedicated literacy blocks. It integrates explicit, systematic, and multi-modal instruction in phonemic awareness, phonics, spelling, writing, and reading comprehension. The program follows a speech-to-print approach, helping students connect spoken language with written text through structured, diagnostic teaching m
+Spalding’s The Writing Road to Reading is a comprehensive literacy program designed for K-6 students. It is implemented as a whole-class literacy program, typically used daily during dedicated literacy blocks. It integrates explicit, systematic, and multi-modal instruction in phonemic awareness, phonics, spelling, writing, and reading comprehension. The program follows a speech-to-print approach, helping students connect spoken language with written text through structured, diagnostic teaching methods. A key component of the program is its professional development for teachers, equipping them with Spalding Method strategies to deliver sequential and interactive instruction. Teachers model skills, provide guided practice, and scaffold student learning, ensuring mastery of foundational literacy concepts. The program’s structured format supports differentiated instruction, making it effective for diverse learners, including struggling readers and English learners.
 
 ---
 
@@ -31304,7 +31304,7 @@ license: null
 tags: [early-childhood, personalized-learning]
 ```
 
-ParentPowered delivers three text messages to family members per week for fifty-two weeks, tailored to their student’s age or grade and available in more than ten languages. These text messages contain age-differentiated insights, activities and learning-expansions aligned to the learning standards of all 50 states, ESSER, Title I, III, IV and V, the Head Start Early Learning Outcomes Framework, PFCE Framework and Quality Improvement initiatives. The whole child curriculum covered in these messa
+ParentPowered delivers three text messages to family members per week for fifty-two weeks, tailored to their student’s age or grade and available in more than ten languages. These text messages contain age-differentiated insights, activities and learning-expansions aligned to the learning standards of all 50 states, ESSER, Title I, III, IV and V, the Head Start Early Learning Outcomes Framework, PFCE Framework and Quality Improvement initiatives. The whole child curriculum covered in these messages includes language and literacy, math and science, social and emotional learning, physical development and health and safety. ParentPowered allows schools and districts to craft their own text messages with local resources, upcoming events and program reminders. Districts and schools have on demand access to family engagement data and analytics from the text messages, the ability to deliver quarterly family engagement surveys to families and produce end-of-year impact reports through the ParentPowered Dashboard. Additionally, ParentPowered provides targeted support through shareable guides to help with home learning.
 
 ---
 
@@ -31325,7 +31325,7 @@ license: null
 tags: [college-access, professional-development]
 ```
 
-Established at Johns Hopkins University in 1996 by Dr. Joyce Epstein, the National Network of Partnership Schools (NNPS) guides schools, districts, and states to implement research-based partnership programs. NNPS uses a framework of six types of involvement and an action team approach, Members of NNPS receive coaching, training, and planning materials to help them implement the program. Since its founding, NNPS has partnered with over 5,000 schools and districts to improve their approach to fam
+Established at Johns Hopkins University in 1996 by Dr. Joyce Epstein, the National Network of Partnership Schools (NNPS) guides schools, districts, and states to implement research-based partnership programs. NNPS uses a framework of six types of involvement and an action team approach, Members of NNPS receive coaching, training, and planning materials to help them implement the program. Since its founding, NNPS has partnered with over 5,000 schools and districts to improve their approach to family engagement. Through the model, an Action Team for Partnerships is assembled and writes a One-Year Action Plan for Partnerships to select and schedule activities for family and community engagement over the school year. The activities in the Action Plan must be connected to goals for a welcoming climate and for student success that are included in the School Improvement Plan. The One-Year Action Plan focuses on two academic goals, one behavioral goal and one overall goal for a welcoming school climate. ATP members meet monthly, work together, share leadership and conduct activities that engage all families in their children’s education. The team evaluates the quality of each activity implemented to continually improve outreach to all families. NNPS helps each team assess the quality and progress of its work on partnerships at the end of each school year.
 
 ---
 
@@ -31346,7 +31346,7 @@ license: null
 tags: [attendance, personalized-learning, response-to-intervention]
 ```
 
-The EveryDay Intevention (formerly InClassToday) Absence Reports Intervention partners with schools and districts to reduce absenteeism by delivering Absence Reports to parents and guardians with actionable, personalized information about their student’s attendance. After establishing a district partnership and securely receiving attendance data, EveryDay Intervention runs analyses to identify students who are at risk of being chronically absent and most likely to benefit from the program. They
+The EveryDay Intevention (formerly InClassToday) Absence Reports Intervention partners with schools and districts to reduce absenteeism by delivering Absence Reports to parents and guardians with actionable, personalized information about their student’s attendance. After establishing a district partnership and securely receiving attendance data, EveryDay Intervention runs analyses to identify students who are at risk of being chronically absent and most likely to benefit from the program. They generate personalized Absence Reports with content tailored for each student and mail them directly to the parents/guardians.
 
 ---
 
@@ -31367,7 +31367,7 @@ license: null
 tags: [attendance, response-to-intervention]
 ```
 
-PowerSchool Attendance Intervention is intended to increase family engagement and support student attendance. The solution helps educators monitor daily and period-level attendance as well as chronic absenteeism data for each student. Educators can also engage in two-way messaging with families via texts to the families’ personal phones and email. The solution gathers data from a school or district’s administrative system to provide attendance dashboards, customized messaging templates, and opti
+PowerSchool Attendance Intervention is intended to increase family engagement and support student attendance. The solution helps educators monitor daily and period-level attendance as well as chronic absenteeism data for each student. Educators can also engage in two-way messaging with families via texts to the families’ personal phones and email. The solution gathers data from a school or district’s administrative system to provide attendance dashboards, customized messaging templates, and options for administrators and teachers to communicate with families. It includes auto-translation features that help administrators and treatment teachers reach parents from diverse backgrounds. The ability to automatically populate a parent or student’s name and real-time attendance data into communication templates greatly reduces the time burden for school staff.
 
 ---
 
@@ -31388,7 +31388,7 @@ license: null
 tags: [english-learners, writing-instruction]
 ```
 
-Flashlight360 is a tool designed to monitor and assess progress in speaking and writing for multilingual students. It provides scoring and feedback across five areas of speaking and three areas of writing, helping students demonstrate their language skills. By delivering actionable data, Flashlight360 supports teachers in offering constructive feedback, a proven approach to accelerating language development. This tool aims to guide both teachers and students in their efforts toward language prof
+Flashlight360 is a tool designed to monitor and assess progress in speaking and writing for multilingual students. It provides scoring and feedback across five areas of speaking and three areas of writing, helping students demonstrate their language skills. By delivering actionable data, Flashlight360 supports teachers in offering constructive feedback, a proven approach to accelerating language development. This tool aims to guide both teachers and students in their efforts toward language proficiency, fostering growth through focused and meaningful feedback.
 
 ---
 
@@ -31430,7 +31430,7 @@ license: null
 tags: [literacy, response-to-intervention]
 ```
 
-Future Forward is an early literacy intervention that provides a support system for kindergarten through third grade students struggling with reading that integrates one-on-one tutoring and family engagement. FF leverages a school-community-family partnership strategy to address the literacy needs of both students and families. Within FF program sites, each building has an assigned site manager, who is typically a certified teacher, and a family engagement coordinator (FEC). The site manager man
+Future Forward is an early literacy intervention that provides a support system for kindergarten through third grade students struggling with reading that integrates one-on-one tutoring and family engagement. FF leverages a school-community-family partnership strategy to address the literacy needs of both students and families. Within FF program sites, each building has an assigned site manager, who is typically a certified teacher, and a family engagement coordinator (FEC). The site manager manages the tutoring activities, which includes the hiring of, generally paraprofessional, tutors to conduct one-on- one tutoring and coordinates with the school and teachers to schedule sessions around core instruction classes. The FEC is responsible for family outreach and communication, which involves monthly family events and ongoing contacts to help facilitate literacy development outside of school. The individual tutoring sessions vary based on the skills and interests of the students. Areas of focus during the sessions can include a focus on letter sounds, phonological awareness, shared readings, tutor read aloud, leveled/instructional readings, and writing activities. FF sites are expected to provide students with a minimum of three 30-minute tutoring sessions per week and to communicate with families at least two times per month. Future Forward is a freestanding program, using customized curriculum and dedicated staff, with the full collaboration of school administrators and classroom teachers. Future Forward staff work with a child’s home and learning community toward the ultimate goal for all students to read at grade level by the end of third grade.
 
 ---
 
@@ -31472,7 +31472,7 @@ license: null
 tags: [literacy, professional-development, response-to-intervention]
 ```
 
-OnYourMark is an early literacy tutoring service providing virtual, individualized, high dosage instruction focused on foundational early literacy skills. The program is grounded in the science of reading and partners with schools as a complement to the literacy instruction already in place. OnYourMark recruits and hires tutors, as well as provides the initial tutoring training and ongoing professional development focused on content knowledge, building relationships, and effective delivery of th
+OnYourMark is an early literacy tutoring service providing virtual, individualized, high dosage instruction focused on foundational early literacy skills. The program is grounded in the science of reading and partners with schools as a complement to the literacy instruction already in place. OnYourMark recruits and hires tutors, as well as provides the initial tutoring training and ongoing professional development focused on content knowledge, building relationships, and effective delivery of the intervention. The curriculum focuses on foundational literacy skills such as phonics, phonological awareness, and fluency and is delivered in 1:1 or 2:1 sessions embedded into the school day. The program facilitates positive tutor-student relationships through a small student-tutor ratio and by pairing students with a consistent tutor for the duration of the program.
 
 ---
 
@@ -31493,7 +31493,7 @@ license: null
 tags: [literacy, response-to-intervention]
 ```
 
-BookNook is a virtual tutoring provider focused on reading intervention solutions. BookNook uses a synchronous teaching platform and curriculum grounded in the science of reading to deliver high-dosage tutoring services to K-8 students. Students meet with the same tutor and small group of students to build relationships and to facilitate the tutor to develop an understanding of each student’s strengths and skill gaps. Tutoring is delivered to students through BookNook’s virtual platform. At the
+BookNook is a virtual tutoring provider focused on reading intervention solutions. BookNook uses a synchronous teaching platform and curriculum grounded in the science of reading to deliver high-dosage tutoring services to K-8 students. Students meet with the same tutor and small group of students to build relationships and to facilitate the tutor to develop an understanding of each student’s strengths and skill gaps. Tutoring is delivered to students through BookNook’s virtual platform. At the core of every BookNook lesson is a text and their model features lessons that support students in building phonological awareness, phonics, fluency, vocabulary, and comprehension skills.
 
 ---
 
@@ -31514,7 +31514,7 @@ license: null
 tags: [literacy, professional-development]
 ```
 
-Springboard Collaborative coaches educators and parents to help kids learn to read by 4th grade. Springboard Collaborative does this through coaching district teachers (PK-3) to run their 5-10 week playbook, which combines: Small group literacy instruction using lessons that align to the Science of Reading Workshops that support families to become confident at-home reading coaches Professional development for teachers that boosts their ability to engage families as partners in teachin
+Springboard Collaborative coaches educators and parents to help kids learn to read by 4th grade. Springboard Collaborative does this through coaching district teachers (PK-3) to run their 5-10 week playbook, which combines: Small group literacy instruction using lessons that align to the Science of Reading Workshops that support families to become confident at-home reading coaches Professional development for teachers that boosts their ability to engage families as partners in teaching and learning.
 
 ---
 
@@ -31535,7 +31535,7 @@ license: null
 tags: [college-access, early-childhood, professional-development]
 ```
 
-Developed by New York University Langone Health's Center for Early Childhood Health and Development, ParentCorps works with schools and parents/caregivers to help pre-kindergarten children develop foundational skills. ParentCorps is available in multiple languages and its program model is deeply rooted in racial equity, including an emphasis on honoring families’ expertise and cultures. Three programmatic components include: Professional development to help staff build strong, culturally re
+Developed by New York University Langone Health's Center for Early Childhood Health and Development, ParentCorps works with schools and parents/caregivers to help pre-kindergarten children develop foundational skills. ParentCorps is available in multiple languages and its program model is deeply rooted in racial equity, including an emphasis on honoring families’ expertise and cultures. Three programmatic components include: Professional development to help staff build strong, culturally responsive relationships with families and promote socio-emotional wellbeing in their classrooms. The training is designed to help educators and staff reflect on their beliefs about and the lived experiences of families, as well as learning the science of early childhood development. A group-based, 14-week parenting program to support families in nurturing early childhood development. The parenting program focuses on affirming families’ experiences, building family-family connections, and equipping families with more knowledge of evidence-based parenting practices. Friends School is a classroom-based program that emphasizes the development of children’s social-emotional skills, including communicating about their thoughts and feelings, developing a positive sense of self, and building healthy relationships.
 
 ---
 
@@ -31577,7 +31577,7 @@ license: null
 tags: [formative-assessment, literacy, response-to-intervention]
 ```
 
-WordFlight is a literacy assessment and intervention solution for grades 3-8 students who have not achieved reading fluency and comprehension because of deficits in foundational skills that should have been developed by the end of grade 2. Deficit skills include phonemic awareness, decoding, and automatic word recognition, all critical components of fluency. WordFlight’s screening assessment quickly identifies those students with these skills deficits and WordFlight’s diagnostic provides deta
+WordFlight is a literacy assessment and intervention solution for grades 3-8 students who have not achieved reading fluency and comprehension because of deficits in foundational skills that should have been developed by the end of grade 2. Deficit skills include phonemic awareness, decoding, and automatic word recognition, all critical components of fluency. WordFlight’s screening assessment quickly identifies those students with these skills deficits and WordFlight’s diagnostic provides details about students’ decoding knowledge, ability to generalize that knowledge, and the extent to which the student has developed automatic word recognition. Aligned with the science of reading and based in the science of learning, WordFlight bridges the gap between phonics and fluency. WordFlight leverages adaptive technology to provide personalized, structured practice that helps students achieve fluency by moving beyond decoding to learning how to use letter-sound relationships in a way that results in automatic word recognition. WordFlight is a combination of structured student practice and teacher-led instruction.
 
 ---
 
@@ -31640,7 +31640,7 @@ license: null
 tags: [literacy, personalized-learning, response-to-intervention]
 ```
 
-Ignite Reading is a one-to-one virtual literacy tutoring program designed to address early reading skill gaps in young learners through high-dosage, individualized instruction. The program pairs students with highly-trained reading tutors for daily 15-minute sessions focused on foundational literacy skills, including phonemic awareness, phonics, decoding, and fluency, using a structured and research-based instructional sequence. Schools are supported by literacy specialists who monitor progress
+Ignite Reading is a one-to-one virtual literacy tutoring program designed to address early reading skill gaps in young learners through high-dosage, individualized instruction. The program pairs students with highly-trained reading tutors for daily 15-minute sessions focused on foundational literacy skills, including phonemic awareness, phonics, decoding, and fluency, using a structured and research-based instructional sequence. Schools are supported by literacy specialists who monitor progress and provide detailed data reports to educators. The program integrates with Multi-Tiered Systems of Support (MTSS) and aligns with Science of Reading principles.
 
 ---
 
@@ -31682,7 +31682,7 @@ license: null
 tags: [computer-assisted-learning, early-childhood, formative-assessment, literacy, personalized-learning]
 ```
 
-Istation Reading is a computer-adaptive testing system that helps track students' progress in reading from prekindergarten through 8th grade. Based on the science of reading, it assesses important areas like phonemic awareness, reading comprehension, listening comprehension, letter knowledge, alphabetic decoding, fluency, spelling, and vocabulary. Both the formative assessment and supplemental curriculum adapt to each student's ability by changing the difficulty of questions based on their answe
+Istation Reading is a computer-adaptive testing system that helps track students' progress in reading from prekindergarten through 8th grade. Based on the science of reading, it assesses important areas like phonemic awareness, reading comprehension, listening comprehension, letter knowledge, alphabetic decoding, fluency, spelling, and vocabulary. Both the formative assessment and supplemental curriculum adapt to each student's ability by changing the difficulty of questions based on their answers, ensuring a personalized experience. This helps accurately measure students' skills and provides instant, easily interpretable reports. These reports highlight students' strengths and areas for improvement, helping teachers make informed decisions for instruction and intervention. Additionally, Istation Reading's reports can alert teachers to students who need additional intervention and provide access to a wide range of teaching materials and lessons.
 
 ---
 
@@ -31703,7 +31703,7 @@ license: null
 tags: [computer-assisted-learning, formative-assessment, math-education]
 ```
 
-Progress Learning is a comprehensive, state standards-aligned instructional resource and content solution designed for Grades K-12 in multiple subjects (e.g., ELA, Math Science, Social Studies). The program provides every student with a learning path or plan featuring specific standards uniquely aligned to their individual learning needs. The platform can be accessed from anywhere on any Wi-Fi-enabled device. It is designed so that teachers can easily create and share assessments and assignments
+Progress Learning is a comprehensive, state standards-aligned instructional resource and content solution designed for Grades K-12 in multiple subjects (e.g., ELA, Math Science, Social Studies). The program provides every student with a learning path or plan featuring specific standards uniquely aligned to their individual learning needs. The platform can be accessed from anywhere on any Wi-Fi-enabled device. It is designed so that teachers can easily create and share assessments and assignments, and track progress. The classroom resources include videos, bellringers, printables, and videos. Diagnostics and progress monitoring help educators understand which students are not performing at grade level so that they can provide the resources they need to catch up. District and school dashboards allow teachers to monitor the progress of students across subjects and grade levels. The data provided helps everyone better understand where students need remediation and identify trends that may inform curriculum and teaching strategies. Progress Learning offers integrations with Clever, Classlink, Canvas, and Google Classroom.
 
 ---
 
@@ -31724,7 +31724,7 @@ license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, math-education]
 ```
 
-Progress Learning is a comprehensive, state standards-aligned instructional resource and content solution designed for Grades K-12 in multiple subjects (e.g., ELA, Math Science, Social Studies). The program provides every student with a learning path or plan featuring specific standards uniquely aligned to their individual learning needs. The platform can be accessed from anywhere on any Wi-Fi-enabled device. It is designed so that teachers can easily create and share assessments and assignments
+Progress Learning is a comprehensive, state standards-aligned instructional resource and content solution designed for Grades K-12 in multiple subjects (e.g., ELA, Math Science, Social Studies). The program provides every student with a learning path or plan featuring specific standards uniquely aligned to their individual learning needs. The platform can be accessed from anywhere on any Wi-Fi-enabled device. It is designed so that teachers can easily create and share assessments and assignments, and track progress. The classroom resources include videos, bellringers, printables, and videos. Diagnostics and progress monitoring help educators understand which students are not performing at grade level so that they can provide the resources they need to catch up. District and school dashboards allow teachers to monitor the progress of students across subjects and grade levels. The data provided helps everyone better understand where students need remediation and identify trends that may inform curriculum and teaching strategies. Progress Learning offers integrations with Clever, Classlink, Canvas, and Google Classroom.
 
 ---
 
@@ -31745,7 +31745,7 @@ license: null
 tags: [computer-assisted-learning, math-education, professional-development]
 ```
 
-The Alabama Math, Science, and Technology Initiative (AMSTI) is primarily a professional development strategy for elementary and middle school teachers and principals, who attend a 2-week training session in the summer, followed by on-site coaching during the school year. The focus of professional development is on hands-on, inquiry-based instruction in math and science. In addition to professional development, teachers are provided with all necessary materials, including teacher and student gui
+The Alabama Math, Science, and Technology Initiative (AMSTI) is primarily a professional development strategy for elementary and middle school teachers and principals, who attend a 2-week training session in the summer, followed by on-site coaching during the school year. The focus of professional development is on hands-on, inquiry-based instruction in math and science. In addition to professional development, teachers are provided with all necessary materials, including teacher and student guides, student assessments, software, manipulatives, and hands-on activities, all organized in “kits” that are rotated among schools.
 
 ---
 
@@ -31766,7 +31766,7 @@ license: null
 tags: [career-readiness, computer-assisted-learning, literacy, response-to-intervention]
 ```
 
-Beable provides a K-12 digital platform for literacy recovery. Beable customizes content to the student's reading level, interests, and career goals. It is in English and Spanish with translation support to over 100+ languages. Beable is a multi-dimensional system that integrates literacy acceleration, intervention response, English language acquisition, core content mastery, and test preparation. Beable further connects literacy with career development and essential skills development – and by
+Beable provides a K-12 digital platform for literacy recovery. Beable customizes content to the student's reading level, interests, and career goals. It is in English and Spanish with translation support to over 100+ languages. Beable is a multi-dimensional system that integrates literacy acceleration, intervention response, English language acquisition, core content mastery, and test preparation. Beable further connects literacy with career development and essential skills development – and by doing so makes literacy real and relevant while also aiming to help students become career- and life-ready. To ensure uninterrupted learning across circumstances, Beable is available to be used face-to-face, remotely, and in hybrid environments.
 
 ---
 
@@ -31787,7 +31787,7 @@ license: null
 tags: [sel]
 ```
 
-The Parent Teacher Home Visits model was co-created by parents and educators using the community organizing principles of shared leadership. Participating teachers conduct 30-40 minute home visits in which educators listen, ask questions, and make observations that they can take back to their classrooms to improve instruction for the learner. As a two-visit model, PTHV encourages the first relationship-building visit to occur in the summer or early fall, followed by ongoing communication through
+The Parent Teacher Home Visits model was co-created by parents and educators using the community organizing principles of shared leadership. Participating teachers conduct 30-40 minute home visits in which educators listen, ask questions, and make observations that they can take back to their classrooms to improve instruction for the learner. As a two-visit model, PTHV encourages the first relationship-building visit to occur in the summer or early fall, followed by ongoing communication throughout the year and a second visit that focuses on academics or any other relevant issue to the student or family. The PTHV model has five non-negotiables: Visits are voluntary and arranged in advance Teachers are trained and compensated for visits Visits focus on hopes and dreams Educators visit a cross-section of students (not a targeted intervention) Educators go in pairs and reflect
 
 ---
 
@@ -31808,7 +31808,7 @@ license: null
 tags: [literacy, response-to-intervention, writing-instruction]
 ```
 
-The Scholastic RISE and RISE Up program is a Tier 2 intervention program designed for students in grades 1-5. It provides targeted small-group instruction to address and prevent reading gaps using explicit, structured comprehension, word study, phonics instruction, and guided writing for 45-60 minutes per day. Scholastic RISE is leveled C-N and targets comprehension, word-solving, fluency, and writing. In RISE, groups of four students rotate through four instruction stations for 45-60 minutes pe
+The Scholastic RISE and RISE Up program is a Tier 2 intervention program designed for students in grades 1-5. It provides targeted small-group instruction to address and prevent reading gaps using explicit, structured comprehension, word study, phonics instruction, and guided writing for 45-60 minutes per day. Scholastic RISE is leveled C-N and targets comprehension, word-solving, fluency, and writing. In RISE, groups of four students rotate through four instruction stations for 45-60 minutes per day for six to eight weeks. RISE Up is leveled O-Z and is focused on advancing student comprehension. In RISE Up, groups of four students rotate through three instructional stations focused on comprehension strategies on a short text for 45 minutes a day for six to eight weeks. Scholastic RISE and RISE Up offer a kit with teacher resources, books, short reads, and digital access for teachers and students.
 
 ---
 
@@ -31829,7 +31829,7 @@ license: null
 tags: [attendance]
 ```
 
-The Parent Teacher Home Visits model was co-created by parents and educators using the community organizing principles of shared leadership. Participating teachers conduct 30-40 minute home visits in which educators listen, ask questions, and make observations that they can take back to their classrooms to improve instruction for the learner. As a two-visit model, PTHV encourages the first relationship-building visit to occur in the summer or early fall, followed by ongoing communication through
+The Parent Teacher Home Visits model was co-created by parents and educators using the community organizing principles of shared leadership. Participating teachers conduct 30-40 minute home visits in which educators listen, ask questions, and make observations that they can take back to their classrooms to improve instruction for the learner. As a two-visit model, PTHV encourages the first relationship-building visit to occur in the summer or early fall, followed by ongoing communication throughout the year and a second visit that focuses on academics or any other relevant issue to the student or family. The PTHV model has five non-negotiables: Visits are voluntary and arranged in advance Teachers are trained and compensated for visits Visits focus on hopes and dreams Educators visit a cross-section of students (not a targeted intervention) Educators go in pairs and reflect
 
 ---
 
@@ -31850,7 +31850,7 @@ license: null
 tags: [computer-assisted-learning, literacy, response-to-intervention]
 ```
 
-Tutoring with the Lightning Squad is a small group reading intervention for grades 1-5 that focuses on mastery of early decoding skills and development of fluency. Tutors work with groups of up to four students in daily half hour sessions. Students work in pairs using interactive, game-like, web-based activities in which students take turns as reader and coach to help each other succeed. The software tracks individual and team success, providing strong motivational support, and adapts the lesson
+Tutoring with the Lightning Squad is a small group reading intervention for grades 1-5 that focuses on mastery of early decoding skills and development of fluency. Tutors work with groups of up to four students in daily half hour sessions. Students work in pairs using interactive, game-like, web-based activities in which students take turns as reader and coach to help each other succeed. The software tracks individual and team success, providing strong motivational support, and adapts the lesson presentation based on students’ responses. Built-in assessments guide placement and monitor progress, providing reports of growth over time to students, parents, and homeroom teachers. Family connection activities, including videos and web-links tied to current individual instructional targets, allow students to show-off their progress and reinforce skills at home. In most sites, tutors are employed by the school or a community partner. Most tutors have a college degree but are not certified teachers. Training and coaching support, including periodic data reviews to insure high-quality implementation, are included as a part of a license and service contract.
 
 ---
 
@@ -31871,7 +31871,7 @@ license: null
 tags: []
 ```
 
-Reading Horizons Discovery, K–3, is a foundational reading program that uses the instructional principles of Orton-Gillingham and Structured Literacy. At the center of the curriculum is the Reading Horizons method. Instruction is systematic and cumulative, organized in a sequence that appropriately scaffolds teaching and learning. Each sound of the English language is explicitly taught along with the letter(s) representing the sound. Five Phonetic Skills are taught to help students recognize
+Reading Horizons Discovery, K–3, is a foundational reading program that uses the instructional principles of Orton-Gillingham and Structured Literacy. At the center of the curriculum is the Reading Horizons method. Instruction is systematic and cumulative, organized in a sequence that appropriately scaffolds teaching and learning. Each sound of the English language is explicitly taught along with the letter(s) representing the sound. Five Phonetic Skills are taught to help students recognize short and long vowel patterns in words and syllables. Two Decoding Skills are presented to show students how to decode multisyllabic words. The Reading Horizons method also supports learning and memory by simultaneously engaging auditory, visual, and kinesthetic modalities during instruction. A marking system is employed to draw students’ attention to the features and patterns of English and give visual cues for pronunciation. Throughout instruction, students are provided with engaging activities to practice and apply, or “transfer,” the skills learned. In addition, Reading Horizons supports districts using its print and digital Skill Check assessments to evaluate the impact of Reading Horizons Discovery on student growth.
 
 ---
 
@@ -31892,7 +31892,7 @@ license: null
 tags: [sel]
 ```
 
-CharacterStrong’s PurposeFull People Elementary Curriculum is an evidence-based PreK - 5th grade curriculum that integrates the teaching of social-emotional competencies and character strengths. PurposeFull People focuses on supporting students to acquire and apply 3 foundational social-emotional competencies: Emotion Regulation Skills, Social Skills, and Executive Functioning Skills. In addition, the social-emotional competencies are integrated with 10 foundational character traits: Kindness, C
+CharacterStrong’s PurposeFull People Elementary Curriculum is an evidence-based PreK - 5th grade curriculum that integrates the teaching of social-emotional competencies and character strengths. PurposeFull People focuses on supporting students to acquire and apply 3 foundational social-emotional competencies: Emotion Regulation Skills, Social Skills, and Executive Functioning Skills. In addition, the social-emotional competencies are integrated with 10 foundational character traits: Kindness, Courage, Respect, Responsibility, Perseverance, Empathy, Cooperation, Creativity, Honesty, and Gratitude. CharacterStrong’s PurposeFull People includes vertically-aligned curricular content with a total of 36 weekly lessons at each grade level. PurposeFull People was built to provide an adaptive and flexible approach to lesson delivery through 3 implementation plan options (flexible, daily, or weekly).
 
 ---
 
@@ -31913,7 +31913,7 @@ license: null
 tags: [sel]
 ```
 
-The CharacterStrong curriculum is a universal program designed for students in grades 6 through 12. The curriculum includes vertically-aligned content across each grade that integrates traditional SEL skills-focused instruction (e.g., emotion regulation and interpersonal skills) with character education. CharacterStrong is designed to build social and emotional competence, develop character, and cultivate strong educator-student relationships. CharacterStrong Middle School curriculum consists of
+The CharacterStrong curriculum is a universal program designed for students in grades 6 through 12. The curriculum includes vertically-aligned content across each grade that integrates traditional SEL skills-focused instruction (e.g., emotion regulation and interpersonal skills) with character education. CharacterStrong is designed to build social and emotional competence, develop character, and cultivate strong educator-student relationships. CharacterStrong Middle School curriculum consists of 35 lessons per grade level for 6th through 8th grades. CharacterStrong High School curriculum consists of 25 lessons per grade level for 9th through 12th grades. Each lesson is designed to be delivered with minimal preparation needed and no supplies to minimize implementation barriers, as well as with a strong focus on student voice and choice to maximize student responsiveness. Lessons are delivered in approximately 30 minutes with the flexibility to adapt to a variety of timing needs. CharacterStrong was constructed around five primary principles: Emotion Understanding & Regulation, Empathy & Compassion, Values & Purpose, Goals & Habits, and Leadership & Teamwork. Each of these principles focuses on building specific SEL and character competencies that support three proximal outcomes of well-being, belonging, and engagement.
 
 ---
 
@@ -31955,7 +31955,7 @@ license: null
 tags: [literacy, response-to-intervention]
 ```
 
-Strategic Adolescent Reading Intervention (STARI) is a supplemental, multicomponent reading intervention for middle school students who struggle with reading. The program incorporates components essential for skilled reading (e.g., decoding, fluency) while also teaching meaning-making strategies important for comprehension. It is designed to promote engaged reading, to connect reluctant readers with cognitively challenging texts and activities while simultaneously developing basic reading skills
+Strategic Adolescent Reading Intervention (STARI) is a supplemental, multicomponent reading intervention for middle school students who struggle with reading. The program incorporates components essential for skilled reading (e.g., decoding, fluency) while also teaching meaning-making strategies important for comprehension. It is designed to promote engaged reading, to connect reluctant readers with cognitively challenging texts and activities while simultaneously developing basic reading skills. STARI is organized into a series of thematic units chosen to be not only interesting but also of relevance and importance in young adolescents’ lives. STARI directly links work on component skills—decoding, fluency, and morphological analysis—with cognitively challenging unit themes. To promote interest and engagement, decoding and morphological analysis strategies are taught with words connected to STARI unit themes. STARI was designed to promote social interactions that foster student engagement. STARI uses four types of peer collaboration: partner-assisted fluency practice, reciprocal teaching of comprehension strategies, partner reading and responding to novels and nonfiction texts, and peer debate, in which teams gather text evidence and build arguments. In addition, peer contexts in STARI encourage students to articulate personal stances on a text and then compare their stances with those of partners or classmates.
 
 ---
 
@@ -31976,7 +31976,7 @@ license: null
 tags: [computer-assisted-learning, math-education, personalized-learning]
 ```
 
-Imagine Math by Imagine Learning is a digital supplemental mathematics learning solution designed to support Pre-Kindergarten through Geometry students of all backgrounds. The program provides adaptive and developmentally appropriate instruction that focuses on building students’ conceptual understanding of mathematics. To supplement and enhance digital lessons, scaffolded, rigorous instruction by live, certified teachers is available on-demand to ensure that every student receives timely assist
+Imagine Math by Imagine Learning is a digital supplemental mathematics learning solution designed to support Pre-Kindergarten through Geometry students of all backgrounds. The program provides adaptive and developmentally appropriate instruction that focuses on building students’ conceptual understanding of mathematics. To supplement and enhance digital lessons, scaffolded, rigorous instruction by live, certified teachers is available on-demand to ensure that every student receives timely assistance as needed.
 
 ---
 
@@ -31997,7 +31997,7 @@ license: null
 tags: [literacy, sel, writing-instruction]
 ```
 
-The 4Rs (for Reading, Writing, Respect, and Resolution) is a program intended to improve social emotional learning as well as literacy for students in grades K-5. It uses high-quality literature to help students gain skills such as handling anger, listening, assertiveness, and cooperation, among others. The 4Rs provides teachers with a literacy-based curriculum of 21-35 lessons based on social-emotional issues. Teachers follow lessons with units on skills highlighted in the readings. Teachers re
+The 4Rs (for Reading, Writing, Respect, and Resolution) is a program intended to improve social emotional learning as well as literacy for students in grades K-5. It uses high-quality literature to help students gain skills such as handling anger, listening, assertiveness, and cooperation, among others. The 4Rs provides teachers with a literacy-based curriculum of 21-35 lessons based on social-emotional issues. Teachers follow lessons with units on skills highlighted in the readings. Teachers receive 25 hours of training plus extensive coaching.
 
 ---
 
@@ -32018,7 +32018,7 @@ license: null
 tags: [early-childhood, literacy, sel]
 ```
 
-The Incredible Years (IY) is a set of teacher, child and parent programs designed to promote children’s social, emotional and academic competence including prevention and reduction of behavior problems in children ages 3-12. The IY Child Dinosaur Curriculum is designed for children ages 4-8 years and focuses on teaching children emotional literacy and self-regulation, problem solving, anger management and social skills. 60 classroom lessons are delivered 2-3 times a week by teachers for 3 sch
+The Incredible Years (IY) is a set of teacher, child and parent programs designed to promote children’s social, emotional and academic competence including prevention and reduction of behavior problems in children ages 3-12. The IY Child Dinosaur Curriculum is designed for children ages 4-8 years and focuses on teaching children emotional literacy and self-regulation, problem solving, anger management and social skills. 60 classroom lessons are delivered 2-3 times a week by teachers for 3 school levels including a curriculum for preschool, kindergarten and grades 1 and 2. Circle time lessons are generally 20-30 minutes and are followed by small group activities designed to practice the skills being taught. Teachers are encouraged to enhance this learning by reinforcing use of social and emotional skills taught throughout the school day and during recess and meal times. Note: There is also a treatment version of this program where students meet in small groups of no more than 6 children, weekly for 2 hours for a minimum of 18 weeks, ideally while their parents are in the parent 2-hour groups. A model exists for offering this small group treatment approach in schools twice weekly for 1 hour.
 
 ---
 
@@ -32039,7 +32039,7 @@ license: null
 tags: [early-childhood, sel]
 ```
 
-The I Can Problem Solve (ICPS) program, developed by Dr. Myrna B. Shure, is a prevention program that supports social and emotional learning. ICPS teaches students how to generate alternative solutions, anticipate consequences, and effectively solve problems. It is designed for use in prekindergarten through the elementary grades and is divided into three sets of lessons for prekindergarten (59 lessons), kindergarten and primary grades (83 lessons), and intermediate elementary grades (77 lessons
+The I Can Problem Solve (ICPS) program, developed by Dr. Myrna B. Shure, is a prevention program that supports social and emotional learning. ICPS teaches students how to generate alternative solutions, anticipate consequences, and effectively solve problems. It is designed for use in prekindergarten through the elementary grades and is divided into three sets of lessons for prekindergarten (59 lessons), kindergarten and primary grades (83 lessons), and intermediate elementary grades (77 lessons). ICPS can be implemented in large, mid-size and small school districts. It can be implemented as a stand-alone program or combined with other school climate initiatives or social and emotional programs (as was the case in the reviewed research, where a portion of the sample used the parent program Strengthening Families).
 
 ---
 
@@ -32060,7 +32060,7 @@ license: null
 tags: [response-to-intervention, sel]
 ```
 
-Getting Along Together, or GAT, is a schoolwide intervention for grades K-3, designed to enhance students’ social, emotional, and self-regulation skills. Getting Along Together was originally designed as a component of the Success for All whole-school reform model, but it is now also disseminated as a stand-alone program. Enhancements to GAT were researched and evaluated by Jacob, Jones, & Morrison (2013) under the name SECURe, for Social, Emotional, and Cognitive Understanding and Regulatio
+Getting Along Together, or GAT, is a schoolwide intervention for grades K-3, designed to enhance students’ social, emotional, and self-regulation skills. Getting Along Together was originally designed as a component of the Success for All whole-school reform model, but it is now also disseminated as a stand-alone program. Enhancements to GAT were researched and evaluated by Jacob, Jones, & Morrison (2013) under the name SECURe, for Social, Emotional, and Cognitive Understanding and Regulation in education. GAT provides weekly lessons that focus on skills such as feeling identification and communication, cooperative learning, win-win conflict resolution, self-regulation of attention to enhance learning, and frustration management. Strategies for effective social relationships and coping skills are presented using characters, stories, and videos to provide engaging and memorable models of desired skills for students. For example, a penguin, Chilly, has serious problems controlling his anger when things go wrong, and learns how to give himself a “Chilly Hug” and count to five when he is about to lose his composure. The children then learn how to recognize when they are frustrated and angry, and learn to give themselves “Chilly Hugs.” Animal characters learn to solve interpersonal problems, and lessons for students are built around discussions about how the animals can learn to manage their own behavior. GAT also has a strong emphasis on cooperative learning, and develops schoolwide structures such as a “Peace Path” to set expectation for a positive school climate and conflict resolution. Teachers receive 1 ½ days of training each year and are visited by coaches who give them feedback and new ideas.
 
 ---
 
@@ -32081,7 +32081,7 @@ license: null
 tags: [computer-assisted-learning, early-childhood, professional-development, sel]
 ```
 
-The Emotional ABCs Program is a sequential, skill-building educational curriculum for children ages 4 -11 developed in collaboration with psychologists, therapists, and educators. The curriculum, which does not require teacher training, includes a set of 20 classroom workshops consisting of short modules for flexible teacher use. Each workshop uses interactive online activities, videos, printables, as well as in-classroom teacher modeling, teacher-student interactions, and student-student intera
+The Emotional ABCs Program is a sequential, skill-building educational curriculum for children ages 4 -11 developed in collaboration with psychologists, therapists, and educators. The curriculum, which does not require teacher training, includes a set of 20 classroom workshops consisting of short modules for flexible teacher use. Each workshop uses interactive online activities, videos, printables, as well as in-classroom teacher modeling, teacher-student interactions, and student-student interactions. The curriculum is divided into four units, and each workshop builds on skills introduced in previous workshops. All resources needed per workshop are provided by Emotional ABCs either as online content or as downloadable printables, and each workshop includes a clear SEL Teaching Goal, a Teaching Point with suggested modeling ideas, relevant Group Discussion and Group Activities, plus Individual Self-Reflection sections. A main feature of the curriculum is the Emotional ABCs Toolbar, which shows children how to quickly figure out what they are feeling (Pause), why they are having that emotion (Rewind), and how to make a good choice (Play).
 
 ---
 
@@ -32123,7 +32123,7 @@ license: null
 tags: []
 ```
 
-Collaborative Strategic Reading (CSR) teaches reading comprehension strategies to students working in small cooperative learning groups. Teaching focuses on metacognitive comprehension strategies such as activating prior knowledge, identifying breakdowns in understanding, finding the main idea, and generating questions. The program is used 50 minutes a day, two to three times a week, during regular English language arts or content area instruction. In secondary settings multiple teachers can imp
+Collaborative Strategic Reading (CSR) teaches reading comprehension strategies to students working in small cooperative learning groups. Teaching focuses on metacognitive comprehension strategies such as activating prior knowledge, identifying breakdowns in understanding, finding the main idea, and generating questions. The program is used 50 minutes a day, two to three times a week, during regular English language arts or content area instruction. In secondary settings multiple teachers can implement CSR so that students practice reading strategies throughout the week (e.g., one day in language arts, one day in science, and one day in social studies). Two days of initial training are followed up by school-based booster sessions and in-school coaching for teachers.
 
 ---
 
@@ -32144,7 +32144,7 @@ license: null
 tags: [math-education]
 ```
 
-The Talent Development High School (TDHS) is a whole-school reform model that focuses on reading and math. The reading approach is called Strategic Reading and Student Team Literature (or Strategic Reading for short). TDHS provides a “double dose” of reading and math to ninth graders in high-poverty schools. In reading, students take double periods of Strategic Reading (90 minutes daily) in the first semester, and then double periods of English 1 in the second semester. In Strategic Readin
+The Talent Development High School (TDHS) is a whole-school reform model that focuses on reading and math. The reading approach is called Strategic Reading and Student Team Literature (or Strategic Reading for short). TDHS provides a “double dose” of reading and math to ninth graders in high-poverty schools. In reading, students take double periods of Strategic Reading (90 minutes daily) in the first semester, and then double periods of English 1 in the second semester. In Strategic Reading, students work in small, interdependent cooperative learning groups. They do paired reading for fluency and comprehension, practice new vocabulary related to novels and plays, and help each other identify characters, plots, and informational content using structured partner discussion guides that provide background, vocabulary, and comprehension questions. Teachers model the comprehension process using “read-aloud/think-aloud” demonstrations and provide mini-lessons on specific comprehension strategies. Students are given time for self-selected reading and writing activities.
 
 ---
 
@@ -32165,7 +32165,7 @@ license: null
 tags: [career-readiness, college-access, computer-assisted-learning, literacy, personalized-learning, writing-instruction]
 ```
 
-Achieve3000 offers digital, supplemental literacy programs for grades 2-12 and includes differentiated content to build student fluency, vocabulary, comprehension, and writing across content areas. The student instructional routine is designed to build key literacy capacities and college and career level critical thinking skills. Achieve3000 has three different program options for students, depending on their grade level. Students in grades PreK-2 use Smarty Ants. In grades 2–5, students use Kid
+Achieve3000 offers digital, supplemental literacy programs for grades 2-12 and includes differentiated content to build student fluency, vocabulary, comprehension, and writing across content areas. The student instructional routine is designed to build key literacy capacities and college and career level critical thinking skills. Achieve3000 has three different program options for students, depending on their grade level. Students in grades PreK-2 use Smarty Ants. In grades 2–5, students use KidBiz3000. Students in grades 6–8, use TeenBiz3000, and those in grades 9–12 use Empower3000.
 
 ---
 
@@ -32207,7 +32207,7 @@ license: null
 tags: [literacy, personalized-learning]
 ```
 
-Imagine Language & Literacy is an adaptive supplemental program designed to build core reading and academic language skills among students in pre-kindergarten through sixth grade. The program provides individualized instruction with exercises tailored to each user's needs, accelerating instruction levels based on the user's rate of progress: vocabulary, comprehension, fluency, phonics and phonemic awareness. The program incorporates art, music, sports and multi-disciplinary subject matter wh
+Imagine Language & Literacy is an adaptive supplemental program designed to build core reading and academic language skills among students in pre-kindergarten through sixth grade. The program provides individualized instruction with exercises tailored to each user's needs, accelerating instruction levels based on the user's rate of progress: vocabulary, comprehension, fluency, phonics and phonemic awareness. The program incorporates art, music, sports and multi-disciplinary subject matter while focused on literacy skills.
 
 ---
 
@@ -32228,7 +32228,7 @@ license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, personalized-learning]
 ```
 
-Istation is based on the science of reading and covers letter knowledge, phonemic awareness, phonics, fluency, comprehension, vocabulary, and spelling. Istation Reading Formative Assessments are a computer-based adaptive testing system that provides benchmark and continuous progress monitoring of student performance. Testing occurs in a game-like and engaging environment. Scoring results are obtained and reported to teachers immediately after test completion. Key indicators include: • Asse
+Istation is based on the science of reading and covers letter knowledge, phonemic awareness, phonics, fluency, comprehension, vocabulary, and spelling. Istation Reading Formative Assessments are a computer-based adaptive testing system that provides benchmark and continuous progress monitoring of student performance. Testing occurs in a game-like and engaging environment. Scoring results are obtained and reported to teachers immediately after test completion. Key indicators include: • Assessment in critical domains of reading in all tested grades • Assessment of skills most predictive of future reading success • Assessment of progress in each area relevant to a larger domain • Provision of a comprehensive snapshot of reading ability After the assessment is complete, students are routed into an engaging online curriculum based on their performance on the Istation Reading assessment. A priority report gives teachers information for small groups, and lessons to use with struggling readers. Total usage recommendations are 30-40 minutes per week for students.
 
 ---
 
@@ -32249,7 +32249,7 @@ license: null
 tags: [computer-assisted-learning, formative-assessment, math-education, response-to-intervention]
 ```
 
-Classworks Individualized Learning is a component of Classworks tiered intervention support that is composed of online units of instruction unique to student learning needs. An Individualized Learning Path (ILP) is generated from student assessment data and instructional units include direct instruction, activities to apply learning, and a short formative test focused on strengthening a specific skill. The direct instruction introduces the subject matter with two-to-three-minute segments that te
+Classworks Individualized Learning is a component of Classworks tiered intervention support that is composed of online units of instruction unique to student learning needs. An Individualized Learning Path (ILP) is generated from student assessment data and instructional units include direct instruction, activities to apply learning, and a short formative test focused on strengthening a specific skill. The direct instruction introduces the subject matter with two-to-three-minute segments that teachers can also use in classrooms. Extended learning and practice on the unit skills are introduced in the form of interactive games and activities that differentiate by instructional strategies, followed by a formative assessment confirming mastery. Students are presented with different instructional approaches, types of interactivities, and varying 3 degrees of games and concrete instruction as they learn each skill. Activities use diverse media-rich technology including voice, text,video, graphics, photographs, and animation. To ensure the optimal impact of Classworks Individualized Learning, it is essential for teachers to actively monitor student progress and reassign assignments as needed to support student mastery. The instructional variety of Classworks Individualized Learning along with intentional classroom implementation practices ensure students encounter multiple ways to learn and practice every skill.
 
 ---
 
@@ -32312,7 +32312,7 @@ license: null
 tags: [literacy, response-to-intervention]
 ```
 
-Passport to Literacy is a reading intervention intended for K-5 students reading below grade level. In the study that validated the program, the intervention was provided by paraprofessionals with at least B.A. degrees daily in small groups of 4-7 students for 30 minutes, throughout the school year. Passport to Literacy employs explicit instruction and strategies for reasoning in foundational reading skills such as decoding and word reading, as well as reading comprehension and vocabulary. Semi-
+Passport to Literacy is a reading intervention intended for K-5 students reading below grade level. In the study that validated the program, the intervention was provided by paraprofessionals with at least B.A. degrees daily in small groups of 4-7 students for 30 minutes, throughout the school year. Passport to Literacy employs explicit instruction and strategies for reasoning in foundational reading skills such as decoding and word reading, as well as reading comprehension and vocabulary. Semi-scripted lessons are used sequentially to help students gain missing foundational reading skills and build strategies for comprehending text.
 
 ---
 
@@ -32333,7 +32333,7 @@ license: null
 tags: []
 ```
 
-Houghton Mifflin Harcourt Journeys is a comprehensive reading and language arts program designed for kindergarten to 6th grade, but it has only been evaluated in grades K-2. The program provides teachers with materials and guidelines that emphasize whole group and small group activities. Whole group activities involve a “big idea” and “essential question” for the day, a teacher read-aloud, and vocabulary, phonics, comprehension, and fluency activities. Small group activities follow up these same
+Houghton Mifflin Harcourt Journeys is a comprehensive reading and language arts program designed for kindergarten to 6th grade, but it has only been evaluated in grades K-2. The program provides teachers with materials and guidelines that emphasize whole group and small group activities. Whole group activities involve a “big idea” and “essential question” for the day, a teacher read-aloud, and vocabulary, phonics, comprehension, and fluency activities. Small group activities follow up these same skills in small, homogeneous groups. Professional development consists of a 5-6 hour training at the beginning of the year, followed by a half-day follow-up.
 
 ---
 
@@ -32354,7 +32354,7 @@ license: null
 tags: [early-childhood, literacy, personalized-learning, professional-development, writing-instruction]
 ```
 
-Children’s Literacy Initiative (CLI) provides teachers of grades pre-k to 3 with extensive professional development in early literacy instruction. Over a 3-year period, teachers could receive as much as 186 hours of professional development. Coaches provide workshops, classroom modeling, observation, and feedback focusing on vocabulary, print concepts, phonics, comprehension, and writing. Small group and individualized instruction are used to differentiate instruction for struggling learners. Se
+Children’s Literacy Initiative (CLI) provides teachers of grades pre-k to 3 with extensive professional development in early literacy instruction. Over a 3-year period, teachers could receive as much as 186 hours of professional development. Coaches provide workshops, classroom modeling, observation, and feedback focusing on vocabulary, print concepts, phonics, comprehension, and writing. Small group and individualized instruction are used to differentiate instruction for struggling learners. Selected teachers in each school are given extra coaching and then serve as resources for peers.
 
 ---
 
@@ -32438,7 +32438,7 @@ license: null
 tags: [computer-assisted-learning, literacy, math-education, response-to-intervention]
 ```
 
-Edgenuity’s Pathblazer is a supplemental, online intervention program that helps struggling learners in grades K–8 achieve grade-level proficiency in mathematics and reading. Pathblazer offers students individualized learning progression paths with content that addresses skill and concept gaps. Using existing student data or results from a screener, Pathblazer immediately identifies where students are struggling and provides the targeted instruction they need to close early learning gaps. The in
+Edgenuity’s Pathblazer is a supplemental, online intervention program that helps struggling learners in grades K–8 achieve grade-level proficiency in mathematics and reading. Pathblazer offers students individualized learning progression paths with content that addresses skill and concept gaps. Using existing student data or results from a screener, Pathblazer immediately identifies where students are struggling and provides the targeted instruction they need to close early learning gaps. The instruction in math and reading is designed to help engage students, accelerate them to grade-level mastery, and increase student self-efficacy in learning. All lessons are built around a gradual release instructional model of explicit instruction, supported practice, independent practice, and assessments. The data Pathblazer collects as students complete their work also help teachers monitor student progress and adapt their instruction. Intervention reports in Pathblazer track student progress toward standards mastery, inform small-group instruction, and help teachers plan for one-on-one time with students.
 
 ---
 
@@ -32459,7 +32459,7 @@ license: null
 tags: [literacy, response-to-intervention]
 ```
 
-Future Forward is an early literacy intervention that provides a support system for kindergarten through third grade students struggling with reading that integrates one-on-one tutoring and family engagement. FF leverages a school-community-family partnership strategy to address the literacy needs of both students and families. Within FF program sites, each building has an assigned site manager, who is typically a certified teacher, and a family engagement coordinator (FEC). The site manager man
+Future Forward is an early literacy intervention that provides a support system for kindergarten through third grade students struggling with reading that integrates one-on-one tutoring and family engagement. FF leverages a school-community-family partnership strategy to address the literacy needs of both students and families. Within FF program sites, each building has an assigned site manager, who is typically a certified teacher, and a family engagement coordinator (FEC). The site manager manages the tutoring activities, which includes the hiring of, generally paraprofessional, tutors to conduct one-on- one tutoring and coordinates with the school and teachers to schedule sessions around core instruction classes. The FEC is responsible for family outreach and communication, which involves monthly family events and ongoing contacts to help facilitate literacy development outside of school. The individual tutoring sessions vary based on the skills and interests of the students. Areas of focus during the sessions can include a focus on letter sounds, phonological awareness, shared readings, tutor read aloud, leveled/instructional readings, and writing activities. FF sites are expected to provide students with a minimum of three 30-minute tutoring sessions per week and to communicate with families at least two times per month. Future Forward is a freestanding program, using customized curriculum and dedicated staff, with the full collaboration of school administrators and classroom teachers. Future Forward staff work with a child's home and learning community toward the ultimate goal for all students to read at grade level by the end of third grade.
 
 ---
 
@@ -32522,7 +32522,7 @@ license: null
 tags: [career-readiness, college-access, computer-assisted-learning, literacy, personalized-learning, writing-instruction]
 ```
 
-Achieve3000 offers digital, supplemental literacy programs for grades 2-12 and includes differentiated content to build student fluency, vocabulary, comprehension, and writing across content areas. The student instructional routine is designed to build key literacy capacities and college and career level critical thinking skills. Achieve3000 has three different program options for students, depending on their grade level. Students in grades PreK-2 use Smarty Ants. In grades 2–5, students use Kid
+Achieve3000 offers digital, supplemental literacy programs for grades 2-12 and includes differentiated content to build student fluency, vocabulary, comprehension, and writing across content areas. The student instructional routine is designed to build key literacy capacities and college and career level critical thinking skills. Achieve3000 has three different program options for students, depending on their grade level. Students in grades PreK-2 use Smarty Ants. In grades 2–5, students use KidBiz3000. Students in grades 6–8, use TeenBiz3000, and those in grades 9–12 use Empower3000.
 
 ---
 
@@ -32543,7 +32543,7 @@ license: null
 tags: [early-childhood, literacy, response-to-intervention]
 ```
 
-AARP Foundation Experience Corps is a tutoring approach that engages volunteer tutors ages 50 or older to work with struggling readers in grades K-3. The tutors work one-to-one or in small groups of up to four students at least twice weekly for an average of 30 minutes per session. Tutors commit to providing up to 15 hours a week, and may or may not receive a stipend. In some applications Experience Corps tutors use the Reading A_Z reading literacy curriculum, while others rely on the curriculum
+AARP Foundation Experience Corps is a tutoring approach that engages volunteer tutors ages 50 or older to work with struggling readers in grades K-3. The tutors work one-to-one or in small groups of up to four students at least twice weekly for an average of 30 minutes per session. Tutors commit to providing up to 15 hours a week, and may or may not receive a stipend. In some applications Experience Corps tutors use the Reading A_Z reading literacy curriculum, while others rely on the curriculum used in the classroom, but in all cases tutors receive extensive training (usually about 25 hours) and structured materials to support their tutoring.
 
 ---
 
@@ -32585,7 +32585,7 @@ license: null
 tags: [literacy, professional-development]
 ```
 
-Reading Apprenticeship (RA) is a family of high school programs designed to improve students’ literacy by integrating metacognitive strategy instruction into content areas, especially science and social studies. All Reading Apprenticeship variations incorporate extensive reading, collaborative sense-making, and teaching of meta-cognitive skills such as prediction, summarization, graphic organizers, and clarification. Teachers receive extensive professional development and coaching, including ana
+Reading Apprenticeship (RA) is a family of high school programs designed to improve students’ literacy by integrating metacognitive strategy instruction into content areas, especially science and social studies. All Reading Apprenticeship variations incorporate extensive reading, collaborative sense-making, and teaching of meta-cognitive skills such as prediction, summarization, graphic organizers, and clarification. Teachers receive extensive professional development and coaching, including analyses of classroom video and modeling of reasoning processes. The most successfully evaluated of the RA models is Reading Apprenticeship Academic Literacy (RAAL), the only RA program targeted to struggling readers. In RAAL, students reading 2 to 5 years below grade level receive RA instruction during a daily class period, replacing non-reading electives such as art or music. Other Reading Apprenticeship variations work with whole grades or whole schools. Teachers receive ten day-long professional development sessions over a period of up to two years. Reading Apprenticeship Improving Secondary Education (RAISE) is very similar to the original RA, and iRAISE is another variation that differs only in that professional development is provided online.
 
 ---
 
@@ -32627,7 +32627,7 @@ license: null
 tags: []
 ```
 
-The Early Literacy and Learning Model (ELLM) was initially developed and evaluated as a supplemental literacy curriculum and instructional support system. The model provided the foundation for the ELLM/Plus curriculum, which is a literacy-focused, comprehensive curriculum designed to help young children from low-income families enter kindergarten ready to read and to learn. Eleven monthly theme-based instructional packets, high-quality children’s books, and a host of support materials provide te
+The Early Literacy and Learning Model (ELLM) was initially developed and evaluated as a supplemental literacy curriculum and instructional support system. The model provided the foundation for the ELLM/Plus curriculum, which is a literacy-focused, comprehensive curriculum designed to help young children from low-income families enter kindergarten ready to read and to learn. Eleven monthly theme-based instructional packets, high-quality children’s books, and a host of support materials provide teachers the resources they need to focus instruction, plan and implement activities, monitor and support children’s progress, and address the needs of a culturally diverse classroom. ELLM/Plus strengthens the home/school connection through a variety of activities designed for families to do together at home or in the community.
 
 ---
 
@@ -32648,7 +32648,7 @@ license: null
 tags: [literacy, professional-development]
 ```
 
-Content-Focused Coaching (CFC) is a professional development approach in which district coaches provide in-class demonstrations, weekly grade-level meetings, and individual monthly visits to all teachers each month for co-teaching, observation, and feedback. The coaches themselves receive extensive training in the literacy strategies and in coaching methods. The literacy strategies are drawn from Question the Author. That is, teachers learn to pose questions to students to promote understanding
+Content-Focused Coaching (CFC) is a professional development approach in which district coaches provide in-class demonstrations, weekly grade-level meetings, and individual monthly visits to all teachers each month for co-teaching, observation, and feedback. The coaches themselves receive extensive training in the literacy strategies and in coaching methods. The literacy strategies are drawn from Question the Author. That is, teachers learn to pose questions to students to promote understanding, interpretation, and active response. Students are encouraged to challenge each others’ interpretations and challenge the authors, identifying places in texts in which they want to know more.
 
 ---
 
@@ -32669,7 +32669,7 @@ license: null
 tags: [computer-assisted-learning, literacy, response-to-intervention]
 ```
 
-Intelligent Tutoring for the Structure Strategy (ITSS) is a web-based approach in which students are taught to read nonfiction texts by seeking signals within texts to guide their comprehension. For example, students would learn to look for words like “differ” and “in contrast” to know that a text is making comparisons. After identifying the text structure, students are scaffolded by the text structure patterns to select important ideas from the text to form a main idea and generate strategic hi
+Intelligent Tutoring for the Structure Strategy (ITSS) is a web-based approach in which students are taught to read nonfiction texts by seeking signals within texts to guide their comprehension. For example, students would learn to look for words like “differ” and “in contrast” to know that a text is making comparisons. After identifying the text structure, students are scaffolded by the text structure patterns to select important ideas from the text to form a main idea and generate strategic hierarchical memory structures. These text structures can also be used to generate summaries, inferences, and elaborations, and to monitor comprehension. Students work with software in which animated “tutors” model and guide the learner, using graphic organizers, highlighted text and other devices. Students practice, take regular assessments, and receive feedback, proceeding at their own pace through the material.
 
 ---
 
@@ -32690,7 +32690,7 @@ license: null
 tags: [literacy, response-to-intervention]
 ```
 
-Literacy First (formerly AmeriCorps for Community Engagement and Education, then A Community for Education) is an early literacy intervention program that provides trained tutors for students in kindergarten through grade 2, largely in the Austin, Texas area. The program identifies students reading below grade level each fall and provides tutoring across the school year. Tutors receive more than 70 hours of training in best practices and weekly visits from Literacy First experts and coaches. 50%
+Literacy First (formerly AmeriCorps for Community Engagement and Education, then A Community for Education) is an early literacy intervention program that provides trained tutors for students in kindergarten through grade 2, largely in the Austin, Texas area. The program identifies students reading below grade level each fall and provides tutoring across the school year. Tutors receive more than 70 hours of training in best practices and weekly visits from Literacy First experts and coaches. 50% of Literacy First’s tutors are bilingual, allowing the program to provide support to both Spanish- and English-speaking students. Tutors work with their students daily in 30 minutes sessions that are tailored to address individual literacy/language needs. Literacy First is data driven, with tutors using a response-to-intervention model that involves benchmark assessments and weekly progress monitoring. In addition, attendance and program fidelity and implementation data are collected to inform both individualization for students and programmatic impact.
 
 ---
 
@@ -32711,7 +32711,7 @@ license: null
 tags: [early-childhood, formative-assessment, literacy, personalized-learning]
 ```
 
-Lexia® Core5® Reading (Core5) is a blended learning program that aims to accelerate the development of fundamental literacy skills for students of all abilities in grades pre-K-5. Core5 provides explicit, systematic instruction through personalized learning paths. Core5 adapts to target skill gaps as they emerge and equips teachers with the data and instructional resources they need to personalize instruction for every student. Embedded assessment provides ongoing, actionable data to help teache
+Lexia® Core5® Reading (Core5) is a blended learning program that aims to accelerate the development of fundamental literacy skills for students of all abilities in grades pre-K-5. Core5 provides explicit, systematic instruction through personalized learning paths. Core5 adapts to target skill gaps as they emerge and equips teachers with the data and instructional resources they need to personalize instruction for every student. Embedded assessment provides ongoing, actionable data to help teachers prioritize and plan offline instruction. The online student dashboard encourages students to take ownership of their learning, for an experience that’s motivating and engaging for students and teachers alike.
 
 ---
 
@@ -32732,7 +32732,7 @@ license: null
 tags: [literacy, writing-instruction]
 ```
 
-Evaluated for Kindergarten, ARC Core is a K-12 curriculum that meets the literacy needs of students in English and Spanish in a variety of learning environments. Through extensive reading, writing, research, and analysis, students develop agency and expertise in a wide variety of disciplines. ARC Core includes knowledge-building units that integrate science content (e.g., Marine Life), social studies content (e.g., U.S. States), and literature content (e.g., Traditional Tales), while developing
+Evaluated for Kindergarten, ARC Core is a K-12 curriculum that meets the literacy needs of students in English and Spanish in a variety of learning environments. Through extensive reading, writing, research, and analysis, students develop agency and expertise in a wide variety of disciplines. ARC Core includes knowledge-building units that integrate science content (e.g., Marine Life), social studies content (e.g., U.S. States), and literature content (e.g., Traditional Tales), while developing literacy skills and vocabulary. ARC Core provides four 9-week units per grade. Teachers receive a new set of topically aligned instructional materials and texts to use with each 9-week unit, but the structures and practices that guide instructional delivery are consistent throughout the year.
 
 ---
 
@@ -32753,7 +32753,7 @@ license: null
 tags: [college-access]
 ```
 
-Xtreme Reading is a supplemental program derived from the University of Kansas Strategic Instruction Model. It is designed to teach struggling adolescent readers step-by-step strategies for word identification, vocabulary, self-questioning, visual imagery, paraphrasing, and inference, among others (recommended for students at the 4th grade level or higher, scoring 2 grades or more below grade level). Teachers are trained in highly structured methods, and are given structured materials to support
+Xtreme Reading is a supplemental program derived from the University of Kansas Strategic Instruction Model. It is designed to teach struggling adolescent readers step-by-step strategies for word identification, vocabulary, self-questioning, visual imagery, paraphrasing, and inference, among others (recommended for students at the 4th grade level or higher, scoring 2 grades or more below grade level). Teachers are trained in highly structured methods, and are given structured materials to support these strategies.
 
 ---
 
@@ -32774,7 +32774,7 @@ license: null
 tags: [literacy]
 ```
 
-The 95 Phonics Core Program (PCP) is a whole-class, supplemental phonics curriculum. This Tier I program is designed for students in grades K-5 to address and prevent reading gaps using explicit, structured phonics instruction for 20-30 minutes per day. Instruction is based on a scope and sequence with 25 lessons for Kindergarten and 30 lessons for each of Grades 1-5. For example, the First Grade Scope and Sequence includes 30 lessons disaggregated into seven topics (Introduction, Short Vowel CV
+The 95 Phonics Core Program (PCP) is a whole-class, supplemental phonics curriculum. This Tier I program is designed for students in grades K-5 to address and prevent reading gaps using explicit, structured phonics instruction for 20-30 minutes per day. Instruction is based on a scope and sequence with 25 lessons for Kindergarten and 30 lessons for each of Grades 1-5. For example, the First Grade Scope and Sequence includes 30 lessons disaggregated into seven topics (Introduction, Short Vowel CVC, Consonant Blends, Consonant Digraphs, Long Vowel Silent-e, Phonograms, and Introduction to Second-Grade Skills). Each lesson focuses on specific phonics skills, provides examples of high-frequency words, and contains information about other skills addressed within the topic. The 95 Phonics Core Program offers a kit for each grade, including a teacher’s edition, student workbooks, manipulatives, and a digital presentation. The 95 Phonics Core Program also aligns with assessments and interventions (such as Phonics Lesson Library) offered by 95 Percent Group to ensure consistency. The program includes three volumes of Teacher’s Edition, Student Manipulative Kit, Sound Spelling Cards, and four Student Workbooks (Volumes A, B, C, & D). Digital presentation files are complimentary for the initial year of implementation.
 
 ---
 
@@ -32816,7 +32816,7 @@ license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, personalized-learning, professional-development]
 ```
 
-READ 180 is a blended learning program designed for struggling readers who are reading 2 or more years below grade level. It combines online and direct instruction, student assessment, and teacher professional development. READ 180 is delivered in 45- to 90-minute sessions that include whole-group instruction, three small-group rotations, and whole-class wrap-up. Small-group rotations include individualized instruction using an adaptive computer application, small-group instruction with a teache
+READ 180 is a blended learning program designed for struggling readers who are reading 2 or more years below grade level. It combines online and direct instruction, student assessment, and teacher professional development. READ 180 is delivered in 45- to 90-minute sessions that include whole-group instruction, three small-group rotations, and whole-class wrap-up. Small-group rotations include individualized instruction using an adaptive computer application, small-group instruction with a teacher, and independent reading. READ 180 is designed for students in elementary through high school (grades 4 through 12).
 
 ---
 
@@ -32837,7 +32837,7 @@ license: null
 tags: [college-access, literacy, response-to-intervention]
 ```
 
-The Strategic Instruction Model (SIM), created by the University of Kansas Center for Research on Learning, is a multi-tiered approach to adolescent literacy. SIM emphasizes teaching routines that allow teachers to organize and present curriculum content in straightforward, easy-to-learn ways and provide students with tools to solve problems independently. In combination with SIM tools, additional interventions to affect schoolwide literacy efforts are organized through the Content Literacy Cont
+The Strategic Instruction Model (SIM), created by the University of Kansas Center for Research on Learning, is a multi-tiered approach to adolescent literacy. SIM emphasizes teaching routines that allow teachers to organize and present curriculum content in straightforward, easy-to-learn ways and provide students with tools to solve problems independently. In combination with SIM tools, additional interventions to affect schoolwide literacy efforts are organized through the Content Literacy Continuum (CLC). Instructional routines and learning strategies are applied across classes by content and support teachers. Further support and intensive instruction is provided to struggling readers through the Learning Strategies Curriculum (LSC), which is currently disseminated under the names Xtreme Reading and Fusion Reading. These provide an additional daily period of reading instruction focused on SIM Strategies. Whole Class/Whole School Content Literacy Continuum (CLC) Targeted Xtreme Reading Learning Strategies Curriculum Fusion All of the SIM approaches emphasize teaching students decoding, reading comprehension, and other reading objectives with step-by-step strategies, such as word identification, visual imagery, self-questioning, paraphrasing, vocabulary learning, and writing. In each case, students are taught mnemonics to help them remember the steps in each routine. Targeted versions of SIM focus on students reading two to five years below grade level and provide an additional daily class period for reading instruction, replacing electives such as art, music, or study hall.
 
 ---
 
@@ -32858,7 +32858,7 @@ license: null
 tags: [formative-assessment, literacy, writing-instruction]
 ```
 
-The Reading Edge, a whole-school cooperative learning approach to reading instruction, was adapted from an earlier cooperative learning approach called Student Team Reading. In both programs, students work in 4-5 member teams to help each other build reading skills. Students engage in partner reading, story retelling, story-related writing, word mastery, and story-structure activities to prepare themselves and their teammates for individual assessments. Teams are recognized based on the average
+The Reading Edge, a whole-school cooperative learning approach to reading instruction, was adapted from an earlier cooperative learning approach called Student Team Reading. In both programs, students work in 4-5 member teams to help each other build reading skills. Students engage in partner reading, story retelling, story-related writing, word mastery, and story-structure activities to prepare themselves and their teammates for individual assessments. Teams are recognized based on the average of all members’ scores on these assessments. Instruction focuses on explicit teaching of metacognitive skills, such as clarification, summarization, predication, and graphic organizers. Two days of initial training is followed by in-class coaching about once a month.
 
 ---
 
@@ -32879,7 +32879,7 @@ license: null
 tags: [early-childhood, sel]
 ```
 
-The Incredible Years (IY) is a set of teacher, child and parent programs designed to promote children’s social, emotional and academic competence including prevention and reduction of behavior problems in children ages 3-12. The IY Classroom Curriculum + Parent Training Program, as represented in the accepted research, combined a classroom child training curriculum (the Dinosaur Social Skills Program) with a parent program for students targeted due to conduct problems. The Dinosaur Social Skills
+The Incredible Years (IY) is a set of teacher, child and parent programs designed to promote children’s social, emotional and academic competence including prevention and reduction of behavior problems in children ages 3-12. The IY Classroom Curriculum + Parent Training Program, as represented in the accepted research, combined a classroom child training curriculum (the Dinosaur Social Skills Program) with a parent program for students targeted due to conduct problems. The Dinosaur Social Skills classroom program focused on classroom management strategies, pro-social behavior, and reducing conduct disorders, presented in 60 class lessons over 2 years (K-1). The parent program provided weekly sessions for parents focused on ways they could improve their children’s social behavior and academic competence. The current Basic Parent Curriculum, available in different versions based on age of child, consists of weekly 2-hour parent groups covering topics such as social, emotional, academic and persistence coaching, child-directed play, praise and incentives, effective limit setting, proactive discipline and problem solving. Themes throughout the parent program include building supportive social networks, emotional regulation and working collaboratively with teachers. Teaching methods for parents include goal setting and using video vignettes to trigger problem solving and practices. Parents are given home activities to read and practice weekly and set short term goals. The treatment version of the program is a minimum of 18-20 weeks and the prevention version is minimum of 14 weeks.
 
 ---
 
@@ -32921,7 +32921,7 @@ license: null
 tags: [professional-development, sel]
 ```
 
-Building Assets Reducing Risks (BARR) is a training and coaching model that serves K–12 schools with a structured system and tools to improve student outcomes. Grounded in two core pillars - Relationships and Data - BARR strengthens staff-student, staff-staff, and student-student relationships while embedding the consistent use of academic and non-academic data into daily practice. BARR strategies include teacher teams meeting regularly to discuss each student’s strengths and progress and ident
+Building Assets Reducing Risks (BARR) is a training and coaching model that serves K–12 schools with a structured system and tools to improve student outcomes. Grounded in two core pillars - Relationships and Data - BARR strengthens staff-student, staff-staff, and student-student relationships while embedding the consistent use of academic and non-academic data into daily practice. BARR strategies include teacher teams meeting regularly to discuss each student’s strengths and progress and identify obstacles to learning. Community Connect meetings are designed to implement comprehensive strategies to address the needs of the students who need resources outside of school for enrichment and support. Extensive professional development and coaching are provided to teachers and school leaders. Family engagement is key to BARR implementation.
 
 ---
 
@@ -32984,7 +32984,7 @@ license: null
 tags: [sel]
 ```
 
-Fast Track is a program directed primarily at young children at high risk for antisocial behavior. Children are identified as high risk by their kindergarten teachers, but the treatment is applied in first grade. In schools using Fast Track, all students receive an adaptation of the PATHS SEL approach, in lessons delivered 2-3 days each week. Selected students at high risk, the main focus of Fast Track, are then provided additional services. Parents of the at-risk children are offered parent gro
+Fast Track is a program directed primarily at young children at high risk for antisocial behavior. Children are identified as high risk by their kindergarten teachers, but the treatment is applied in first grade. In schools using Fast Track, all students receive an adaptation of the PATHS SEL approach, in lessons delivered 2-3 days each week. Selected students at high risk, the main focus of Fast Track, are then provided additional services. Parents of the at-risk children are offered parent group meetings, and the children receive social skills training and academic tutoring in weekly two-hour enrichment programs, provided after school or on weekends. Parents are paid to attend these sessions. The enrichment activities include discussions, modeling stories and videos, and role-plays in cooperative groups. The activities focus on emotional understanding, friendship building, self-control, and social problem solving. While children are engaged, parent sessions take place, focusing on parenting skills. Home visits were provided bi-weekly.
 
 ---
 
@@ -33005,7 +33005,7 @@ license: null
 tags: [early-childhood]
 ```
 
-Incredible Years Teacher Classroom Management (IY TCM) is a teacher classroom management program designed for pre-K-grade 3. Teachers learn classroom management skills through 6 full day teacher group workshops spread out monthly or bimonthly. During these trainings teachers watch video vignettes of effective classroom management strategies used to trigger discussions, problem solving and to practice the skills through role-play scenarios and participants receive feedback from fellow teachers an
+Incredible Years Teacher Classroom Management (IY TCM) is a teacher classroom management program designed for pre-K-grade 3. Teachers learn classroom management skills through 6 full day teacher group workshops spread out monthly or bimonthly. During these trainings teachers watch video vignettes of effective classroom management strategies used to trigger discussions, problem solving and to practice the skills through role-play scenarios and participants receive feedback from fellow teachers and trainers. The training includes evidence-based teaching strategies such as social, emotional, persistence, and academic coaching, behavior-specific praise and motivating incentives, clear limit setting and proactive discipline starting with the least intrusive methods. Emphases is placed on building positive student-teacher-parent relationships and developmentally appropriate teaching methods. The training is based on a collaborative and self-reflective process where teachers identify personal goals and develop behavior plans for target children. Teachers are encouraged to actively participate in group discussions, and are given reading and practice assignments between workshop days. During the periods between/after trainings, certified group leaders or teacher coaches observe teachers in the classroom, provide modeling and support and meet to review behavior plans and goals.
 
 ---
 
@@ -33026,7 +33026,7 @@ license: null
 tags: [computer-assisted-learning, sel]
 ```
 
-Adventures Aboard the S.S. GRIN is an online SEL curriculum that is student led and designed to assist students in grades 3-5, regardless of their social emotional competence. Built around an engaging narrative, Adventures Aboard the S.S. GRIN includes a series of scenes focusing on Respect, Thinking Ahead, Responsibility, Communication, Check it Out, Friendships, and Cooperation. If played once or twice per week, the program can be completed during a semester or a full year. Adventures Aboar
+Adventures Aboard the S.S. GRIN is an online SEL curriculum that is student led and designed to assist students in grades 3-5, regardless of their social emotional competence. Built around an engaging narrative, Adventures Aboard the S.S. GRIN includes a series of scenes focusing on Respect, Thinking Ahead, Responsibility, Communication, Check it Out, Friendships, and Cooperation. If played once or twice per week, the program can be completed during a semester or a full year. Adventures Aboard the S.S.GRIN can be used in classroom, clinic, and community settings.
 
 ---
 
@@ -33047,7 +33047,7 @@ license: null
 tags: [dropout-prevention, professional-development, sel]
 ```
 
-Becoming a Man (BAM) is a school-based group counseling and mentoring program for male identifying students in grades 7-12. BAM targets young men in urban schools that demonstrate risk factors associated with school dropout and justice system involvement. BAM participants engage in a series of one-hour, once-a-week sessions that help them learn, internalize, and practice social-emotional skills, make responsible decisions for their future, and become positive members of their school and communit
+Becoming a Man (BAM) is a school-based group counseling and mentoring program for male identifying students in grades 7-12. BAM targets young men in urban schools that demonstrate risk factors associated with school dropout and justice system involvement. BAM participants engage in a series of one-hour, once-a-week sessions that help them learn, internalize, and practice social-emotional skills, make responsible decisions for their future, and become positive members of their school and community. Students participate in up to 27 curriculum-based group sessions per year (each group averages 10-12 students) that are held during the school day and led by a full-time, trained BAM Counselor. The BAM Curriculum is centered on six core values that include: Integrity, Accountability, Self-Determination, Positive Anger Expression, Respect for Womanhood, and Visionary Goal Setting. Curriculum activities are grounded in principles of clinical practice (i.e. cognitive behavioral therapy), men’s rites of passage work, and incorporate engaging activities to help students see common behaviors and attitudes in new ways. The sessions include in-depth check-ins, role playing, stories, a trust walk, and other activities designed to evoke discussion and new ways of thinking.
 
 ---
 
@@ -33089,7 +33089,7 @@ license: null
 tags: [attendance, career-readiness, math-education, professional-development]
 ```
 
-The Talent Development High School is a program intended to improve achievement and attendance for 9th graders in high-poverty urban schools. It provides schools with professional development to help them implement the following: 1) small interdisciplinary learning communities within the 9th grade, 2) curricula in English and mathematics based on “double dose” English and math courses, “freshman seminars” focusing on study skills and time management, career academies, and cooperative learning, 3
+The Talent Development High School is a program intended to improve achievement and attendance for 9th graders in high-poverty urban schools. It provides schools with professional development to help them implement the following: 1) small interdisciplinary learning communities within the 9th grade, 2) curricula in English and mathematics based on “double dose” English and math courses, “freshman seminars” focusing on study skills and time management, career academies, and cooperative learning, 3) extra help for struggling students, and 4) parent and community involvement activities.
 
 ---
 
@@ -33110,7 +33110,7 @@ license: null
 tags: [professional-development]
 ```
 
-An extension of the Big Brothers Big Sisters (BBBS) community-based mentoring (CBM) program, the school-based monitoring (SBM) program pairs volunteer mentors with youth for school-based meetings with the goal of forging special relationships, decreasing drug and alcohol use, increasing self-control and cooperation, improving teacher-student relationships, and improving academic achievement. BBBS agencies partner with schools nationwide to support students. Children are usually referred to the S
+An extension of the Big Brothers Big Sisters (BBBS) community-based mentoring (CBM) program, the school-based monitoring (SBM) program pairs volunteer mentors with youth for school-based meetings with the goal of forging special relationships, decreasing drug and alcohol use, increasing self-control and cooperation, improving teacher-student relationships, and improving academic achievement. BBBS agencies partner with schools nationwide to support students. Children are usually referred to the SBM program by teachers or school staff, and mentors often come from high school, college, or businesses. Meetings between mentors and youth typically take place on school grounds (such as the cafeteria or library) and last 45 minutes or longer each week, either during the school day or after school. There is no set structure for these meetings, but schools can determine a set of recommended or requested activities from which mentors and mentees can choose. There is typically a non-academic focus to these meetings, with creative activities, games, and discussions complementing tutoring and homework assistance.
 
 ---
 
@@ -33131,7 +33131,7 @@ license: null
 tags: [sel]
 ```
 
-Student Success Skills (SSS) provides training to students in classroom lessons and through small groups counseling. Both the SSS classroom and small group focus on helping students develop academic, social, and self-management skills associated with improved student performance. Students receive five 45-minute classroom lessons spaced one week apart for middle school and high school. For elementary grades, there are five to eight 30-minute classroom lessons. For students needing additional supp
+Student Success Skills (SSS) provides training to students in classroom lessons and through small groups counseling. Both the SSS classroom and small group focus on helping students develop academic, social, and self-management skills associated with improved student performance. Students receive five 45-minute classroom lessons spaced one week apart for middle school and high school. For elementary grades, there are five to eight 30-minute classroom lessons. For students needing additional support there is the SSS group counseling program which consist of eight group sessions spaced one week apart. In both the classroom and small group sessions, teachers or counselors teach learning, social and self-management skills and encouraged students to identify issues of importance to them, set goals, and monitor progress. Peer coaching is used to teach prosocial skills.
 
 ---
 
@@ -33152,7 +33152,7 @@ license: null
 tags: [early-childhood, literacy, math-education, professional-development, sel, writing-instruction]
 ```
 
-Tools of the Mind is a professional development and comprehensive early childhood (PreK and Kindergarten) program that embeds development of executive functions and self-regulation into the design of all teaching and learning activities. The program leverages make-believe play and a classroom culture of co-regulation and peer scaffolding to build children’s foundational skills in reading, writing, mathematics, and science while at the same time promoting pro-social behaviors and positive approa
+Tools of the Mind is a professional development and comprehensive early childhood (PreK and Kindergarten) program that embeds development of executive functions and self-regulation into the design of all teaching and learning activities. The program leverages make-believe play and a classroom culture of co-regulation and peer scaffolding to build children’s foundational skills in reading, writing, mathematics, and science while at the same time promoting pro-social behaviors and positive approaches to learning. Tools of the Mind aims to empower teachers with the understandings and tools they need to create positive classroom cultures, facilitate intentional playful learning, and support the development of self-regulated learners who achieve to their full potential––closing the achievement gap for low income, minority and dual language learner students.
 
 ---
 
@@ -33173,7 +33173,7 @@ license: null
 tags: [attendance, response-to-intervention, sel]
 ```
 
-ATI-UP is a preventive, school-wide intervention that has school teams following a multi-tiered, multi-system framework intended to increase attendance for all students and reduce the number of students identified as chronically absent. These systems incorporate a problem-solving team, a parental/community engagement component, promotion of attendance in school, and motivation for improvements in behavior. The goal of ATI-UP is to instill a positive social climate in which attendance expectation
+ATI-UP is a preventive, school-wide intervention that has school teams following a multi-tiered, multi-system framework intended to increase attendance for all students and reduce the number of students identified as chronically absent. These systems incorporate a problem-solving team, a parental/community engagement component, promotion of attendance in school, and motivation for improvements in behavior. The goal of ATI-UP is to instill a positive social climate in which attendance expectations are directly taught to the students, consistently acknowledged, and actively monitored.
 
 ---
 
@@ -33194,7 +33194,7 @@ license: null
 tags: [attendance, response-to-intervention]
 ```
 
-PowerSchool Attendance Intervention is intended to increase family engagement and support student attendance. The solution helps educators monitor daily and period-level attendance as well as chronic absenteeism data for each student. Educators can also engage in two-way messaging with families via texts to the families’ personal phones and email. The solution gathers data from a school or district’s administrative system to provide attendance dashboards, customized messaging templates, and opti
+PowerSchool Attendance Intervention is intended to increase family engagement and support student attendance. The solution helps educators monitor daily and period-level attendance as well as chronic absenteeism data for each student. Educators can also engage in two-way messaging with families via texts to the families’ personal phones and email. The solution gathers data from a school or district’s administrative system to provide attendance dashboards, customized messaging templates, and options for administrators and teachers to communicate with families. It includes auto-translation features that help administrators and treatment teachers reach parents from diverse backgrounds. The ability to automatically populate a parent or student's name and real-time attendance data into communication templates greatly reduces the time burden for school staff.
 
 ---
 
@@ -33215,7 +33215,7 @@ license: null
 tags: [attendance, literacy, response-to-intervention]
 ```
 
-Future Forward is an early literacy intervention that provides a support system for kindergarten through third grade students struggling with reading that integrates one-on-one tutoring and family engagement. FF leverages a school-community-family partnership strategy to address the literacy needs of both students and families. Within FF program sites, each building has an assigned site manager, who is typically a certified teacher, and a family engagement coordinator (FEC). The site manager man
+Future Forward is an early literacy intervention that provides a support system for kindergarten through third grade students struggling with reading that integrates one-on-one tutoring and family engagement. FF leverages a school-community-family partnership strategy to address the literacy needs of both students and families. Within FF program sites, each building has an assigned site manager, who is typically a certified teacher, and a family engagement coordinator (FEC). The site manager manages the tutoring activities, which includes the hiring of, generally paraprofessional, tutors to conduct one-on- one tutoring and coordinates with the school and teachers to schedule sessions around core instruction classes. The FEC is responsible for family outreach and communication, which involves monthly family events and ongoing contacts to help facilitate literacy development outside of school. The individual tutoring sessions vary based on the skills and interests of the students. Areas of focus during the sessions can include a focus on letter sounds, phonological awareness, shared readings, tutor read aloud, leveled/instructional readings, and writing activities. FF sites are expected to provide students with a minimum of three 30-minute tutoring sessions per week and to communicate with families at least two times per month. Future Forward is a freestanding program, using customized curriculum and dedicated staff, with the full collaboration of school administrators and classroom teachers. Future Forward staff work with a child's home and learning community toward the ultimate goal for all students to read at grade level by the end of third grade.
 
 ---
 
@@ -33257,7 +33257,7 @@ license: null
 tags: [attendance, personalized-learning, response-to-intervention]
 ```
 
-The EveryDay Intevention (formerly InClassToday) Absence Reports Intervention partners with schools and districts to reduce absenteeism by delivering Absence Reports to parents and guardians with actionable, personalized information about their student’s attendance. After establishing a district partnership and securely receiving attendance data, EveryDay Intervention runs analyses to identify students who are at risk of being chronically absent and most likely to benefit from the program. They
+The EveryDay Intevention (formerly InClassToday) Absence Reports Intervention partners with schools and districts to reduce absenteeism by delivering Absence Reports to parents and guardians with actionable, personalized information about their student’s attendance. After establishing a district partnership and securely receiving attendance data, EveryDay Intervention runs analyses to identify students who are at risk of being chronically absent and most likely to benefit from the program. They generate personalized Absence Reports with content tailored for each student and mail them directly to the parents/guardians.
 
 ---
 
@@ -33278,7 +33278,7 @@ license: null
 tags: [attendance, response-to-intervention, sel]
 ```
 
-The Early Warning Intervention and Monitoring System (EWIMS) is a systematic approach used by dedicated teams of school staff to identify students at risk of not graduating on time, assign students to interventions, and monitor their progress. The indicators used to identify students at risk are engagement (attendance), behavior (suspension), and course performance (grades and credits). The EWIMS model is intended to help schools efficiently use data to both identify the at-risk population and p
+The Early Warning Intervention and Monitoring System (EWIMS) is a systematic approach used by dedicated teams of school staff to identify students at risk of not graduating on time, assign students to interventions, and monitor their progress. The indicators used to identify students at risk are engagement (attendance), behavior (suspension), and course performance (grades and credits). The EWIMS model is intended to help schools efficiently use data to both identify the at-risk population and provide targeted support, strengthening student persistence and progress in school and ultimately improving on-time graduation rates.
 
 ---
 
@@ -33299,7 +33299,7 @@ license: null
 tags: [response-to-intervention, sel]
 ```
 
-Class-Wide Function-Related Intervention Teams (CW-FIT) is a classroom program designed to increase academic, social, and behavioral success for students. The program emphasizes group contingencies and self-management. In the group contingency component, students are divided into teams. One period 3-5 days each week, the teams have an opportunity to demonstrate skills, such as gaining the teacher’s attention, staying on task, and ignoring inappropriate behaviors of classmates. Goals are set in t
+Class-Wide Function-Related Intervention Teams (CW-FIT) is a classroom program designed to increase academic, social, and behavioral success for students. The program emphasizes group contingencies and self-management. In the group contingency component, students are divided into teams. One period 3-5 days each week, the teams have an opportunity to demonstrate skills, such as gaining the teacher’s attention, staying on task, and ignoring inappropriate behaviors of classmates. Goals are set in terms of using these skills, and all teams that meet these goals earn points or small rewards. The self-management component, used with students not responding adequately to the group contingencies, uses “help cards” that cue students to use strategies such as goal-setting, self-monitoring, self-evaluation, and self-reinforcement (for example, a card might suggest that students quietly celebrate when they are able to stay on task, or when they can ignore others’ misbehavior). Teachers receive 2 hours of initial training and then visits from coaches who give feedback on program fidelity.
 
 ---
 
@@ -33341,7 +33341,7 @@ license: null
 tags: [computer-assisted-learning, literacy, personalized-learning]
 ```
 
-Lexia® PowerUp Literacy® (PowerUp) is designed to enhance English language arts instruction for struggling and non-proficient readers in grades 6–12. Blending online student-driven explicit instruction with offline teacher-delivered lessons and activities, PowerUp aims to accelerate the development of both fundamental literacy and higher-order thinking skills through adaptive learning paths. PowerUp addresses the instructional needs of a wide range of students, from struggling to nearly proficie
+Lexia® PowerUp Literacy® (PowerUp) is designed to enhance English language arts instruction for struggling and non-proficient readers in grades 6–12. Blending online student-driven explicit instruction with offline teacher-delivered lessons and activities, PowerUp aims to accelerate the development of both fundamental literacy and higher-order thinking skills through adaptive learning paths. PowerUp addresses the instructional needs of a wide range of students, from struggling to nearly proficient readers, by identifying skill gaps and providing personalized, systematic instruction in Word Study, Grammar, and Comprehension. This explicit instruction prepares students to comprehend and engage with complex texts across a range of genres. Embedded progress monitoring, actionable data, and scripted lessons empower teachers to deliver the exact instruction each student needs.
 
 ---
 
@@ -33383,7 +33383,7 @@ license: null
 tags: [english-learners, literacy, response-to-intervention]
 ```
 
-Lectura Proactiva, currently distributed as Intervenciones tempranas de la lectura, is a one-to-small group reading intervention aimed at providing Spanish-speaking early readers the skills and strategies to accelerate the transition to reading in English. Students begin with alphabetic principles, reading connected text, and reading for meaning. Later, students focus on decoding multisyllabic words, fluency, and comprehension skills. Students meet daily for 50 minutes with a bilingual certifie
+Lectura Proactiva, currently distributed as Intervenciones tempranas de la lectura, is a one-to-small group reading intervention aimed at providing Spanish-speaking early readers the skills and strategies to accelerate the transition to reading in English. Students begin with alphabetic principles, reading connected text, and reading for meaning. Later, students focus on decoding multisyllabic words, fluency, and comprehension skills. Students meet daily for 50 minutes with a bilingual certified teacher in small groups of three to five students. In its successful evaluations, Lectura Proactiva was delivered by bilingual certified teachers who received extensive professional development and coaching from the developers.
 
 ---
 
@@ -33404,7 +33404,7 @@ license: null
 tags: [computer-assisted-learning, literacy, personalized-learning, response-to-intervention]
 ```
 
-Chapter One is a one-on-one personalized tutoring program that embeds part-time tutors into the classroom to provide short bursts of instruction to individual students each week over the course of the school year. The program leverages technology and the relationship tutors build with their students to personalize instruction, dosage, and session length to meet the individual needs of each child to develop a strong foundation in phonics and build reading fluency. Chapter One uses a “push-in” mod
+Chapter One is a one-on-one personalized tutoring program that embeds part-time tutors into the classroom to provide short bursts of instruction to individual students each week over the course of the school year. The program leverages technology and the relationship tutors build with their students to personalize instruction, dosage, and session length to meet the individual needs of each child to develop a strong foundation in phonics and build reading fluency. Chapter One uses a “push-in” model that provides districts with part-time tutors, or Early Literacy Interventionists (ELIs), who meet with students one-on-one in the back of the classroom over the course of a school year. One ELI serves multiple classrooms in the school, and tutors work with individual students in 5-10 minute increment sessions during blocks of reading instruction or other opportune moments. At the end of each session, the departing student brings the next student to the ELI to minimize interruptions of classroom instruction. Students progress through stages of phonics development, learning to segment and blend short and long vowel sounds, learn sight words, and learn strategies to fluently read both decodable and noncontrolled texts. The length of each session and the number of sessions per week vary for each student based on need and rate of progress. For instance, students who are making adequate progress may only meet with their tutor once or twice a week, whereas students who the tutors identify as in need of more support may meet daily for periods of time. To provide this tailored support, the Chapter One program leverages technology to support instruction, as well as to direct student independent practice. ELIs follow a digital curriculum to conduct each session, which facilitates the assessment and tracking of student performance over time. In addition to using the technology in one-on-one sessions, students spend 15 minutes each day independently practicing using Chapter One’s software on program-provided tablets. All assessments sync in real time with individual student tablets, so that when a student uses the practice software after the one-on-one session, they practice items that are precisely aligned to their most recent tutored instruction. ELIs also regularly meet with teachers, reading coaches, and principals to review online reports of student progress.
 
 ---
 
@@ -33446,7 +33446,7 @@ license: null
 tags: [early-childhood, literacy, personalized-learning]
 ```
 
-The A2i Professional Support System is a systems-level approach intended to improve students’ reading success in Pre-K through Grade 3 classrooms. Learning Ovations serves as the partner, providing the support teachers need to ensure students are reading at, or above, grade-level by the end of 3rd grade. The focus of this support is on individualized instruction, ensuring learning experiences are tailored to account for each students’ unique needs. A2i prepares teachers to vary the content and
+The A2i Professional Support System is a systems-level approach intended to improve students’ reading success in Pre-K through Grade 3 classrooms. Learning Ovations serves as the partner, providing the support teachers need to ensure students are reading at, or above, grade-level by the end of 3rd grade. The focus of this support is on individualized instruction, ensuring learning experiences are tailored to account for each students’ unique needs. A2i prepares teachers to vary the content and form of instruction, according to students’ prior performance and needs. The approaches include quick online assessments, proven instructional recommendations, lesson planning support, and customized professional development.
 
 ---
 
@@ -33467,7 +33467,7 @@ license: null
 tags: [computer-assisted-learning, math-education, response-to-intervention]
 ```
 
-Symphony Math is a technology intervention program designed to help K-8 students develop a deep understanding of critical mathematical concepts. It is intended to be used as a complement to classroom learning and provides the opportunity for individual practice at the developmental level of each student. A student does not move on to the next concept in the Symphony Math sequence until she has mastered the current concept. The amount of time and practice that students need to understand mathemat
+Symphony Math is a technology intervention program designed to help K-8 students develop a deep understanding of critical mathematical concepts. It is intended to be used as a complement to classroom learning and provides the opportunity for individual practice at the developmental level of each student. A student does not move on to the next concept in the Symphony Math sequence until she has mastered the current concept. The amount of time and practice that students need to understand mathematical concepts is not uniform. Symphony Math allows students to spend the time they need in order to master foundational concepts. In addition, the program quickly moves students through the conceptual progression of the program to identify their area of need. Once the area of need has been identified, the program slows the progress until the necessary understanding has been achieved. In addition to adjusting the pace of progress, Symphony Math also alerts educators of the need for intervention when students show signs of struggle. For every skill covered in the program, offline Guided Practice materials are available. Educators can use these materials to structure small group or 1:1 work sessions with students. As students use Symphony Math, teachers are able to monitor their progress and provide interventions when necessary using data dashboards and recommended offline materials.
 
 ---
 
@@ -33488,7 +33488,7 @@ license: null
 tags: [computer-assisted-learning, math-education, professional-development]
 ```
 
-The Alabama Math, Science, and Technology Initiative (AMSTI) is primarily a professional development strategy for elementary and middle school teachers and principals, who attend a 2-week training session in the summer, followed by on-site coaching during the school year. The focus of professional development is hands-on, inquiry-based instruction in math and science. In addition to professional development, teachers are provided with all necessary materials, including teacher and student guides
+The Alabama Math, Science, and Technology Initiative (AMSTI) is primarily a professional development strategy for elementary and middle school teachers and principals, who attend a 2-week training session in the summer, followed by on-site coaching during the school year. The focus of professional development is hands-on, inquiry-based instruction in math and science. In addition to professional development, teachers are provided with all necessary materials, including teacher and student guides, student assessments, software, manipulatives, and hands-on activities, all organized in “kits” that are rotated among schools.
 
 ---
 
@@ -33572,7 +33572,7 @@ license: null
 tags: [math-education]
 ```
 
-JUMP Math is a highly-scaffolded, direct instruction approach that covers all strands of K to 8 math, and includes computation and problem-solving. The approach is described as “guided discovery”; teachers implement lessons contained in detailed, explicit teachers guides to help move students towards discovering target concepts. Math concepts are reduced to increasingly smaller steps until students achieve mastery, then built back up incrementally to meet the curriculum demands. Students receive
+JUMP Math is a highly-scaffolded, direct instruction approach that covers all strands of K to 8 math, and includes computation and problem-solving. The approach is described as “guided discovery”; teachers implement lessons contained in detailed, explicit teachers guides to help move students towards discovering target concepts. Math concepts are reduced to increasingly smaller steps until students achieve mastery, then built back up incrementally to meet the curriculum demands. Students receive extensive practice at each step. Assessment is ongoing and considered essential to ensure comprehension before moving on to new material. All students in a class work on the same concepts, but individual students work at their own pace, doing easier or more challenging work, or gaining more practice, relating to the lesson concept until they are ready to move on. A range of models (concrete materials, tables, diagrams) are used strategically to help students grasp abstract concepts but the models are removed as soon as students are able to work without these supports. There are no student textbooks in this program. Students complete their work in practice and assessment guides that are streamlined to limit extraneous information and contain only the essential language. Lesson details are reserved for the teachers’ guides so that teachers can control the timing and amount of information the students receive so as not to overwhelm student working memory.
 
 ---
 
@@ -33656,7 +33656,7 @@ license: null
 tags: [computer-assisted-learning, professional-development]
 ```
 
-eMINTS (enhancing Missouri’s Instructional Networked Teaching Strategies) is a professional development approach designed to promote inquiry-based learning, high-quality lesson design, and technology-rich learning environments, as well as to build community among teachers and students. Classes have interactive whiteboards, LCD projectors, and a 1:1 ratio of students to computers. Professional development is provided to principals, technology coordinators, and classroom teachers in middle schools
+eMINTS (enhancing Missouri’s Instructional Networked Teaching Strategies) is a professional development approach designed to promote inquiry-based learning, high-quality lesson design, and technology-rich learning environments, as well as to build community among teachers and students. Classes have interactive whiteboards, LCD projectors, and a 1:1 ratio of students to computers. Professional development is provided to principals, technology coordinators, and classroom teachers in middle schools. In particular, to design high-quality inquiry-based lesson plans, implement inquiry-based learning strategies, build community among teachers and students, and integrate technology into classroom teaching. The model also has a strong emphasis on helping principals understand and lead the program implementation and carry out teacher observations to support teachers’ instructional performance.
 
 ---
 
@@ -33677,7 +33677,7 @@ license: null
 tags: [math-education]
 ```
 
-Every Classroom, Every Day (ECED) is a program for literacy and math in high schools provided over two years. ECED Math is a system for teachers to deliver instruction and assess student progress targeted to local, state, and national standards. Each day, students use “I Can” statements (e.g., “I can solve quadratic equations”) to address the topic for each day’s lesson. Teachers work in teams and with IRRE members to create and give five-question benchmark tests for each topic. Students who d
+Every Classroom, Every Day (ECED) is a program for literacy and math in high schools provided over two years. ECED Math is a system for teachers to deliver instruction and assess student progress targeted to local, state, and national standards. Each day, students use “I Can” statements (e.g., “I can solve quadratic equations”) to address the topic for each day’s lesson. Teachers work in teams and with IRRE members to create and give five-question benchmark tests for each topic. Students who do not pass benchmark assessments are given additional support.
 
 ---
 
@@ -33719,7 +33719,7 @@ license: null
 tags: [literacy, math-education, response-to-intervention]
 ```
 
-Galaxy Math is a one-to-one tutoring approach for at-risk first graders. Paraprofessionals tutor students in 30-minute sessions 3 times a week for 16 weeks. The program has a space theme; for example, students can earn “moon rocks” by completing work and staying on task. The program is scripted, and tutors are expected to follow the scripts without reading them or memorizing them. Tutors receive a 2-day initial workshop and then participate in weekly meetings with project coordinators to review
+Galaxy Math is a one-to-one tutoring approach for at-risk first graders. Paraprofessionals tutor students in 30-minute sessions 3 times a week for 16 weeks. The program has a space theme; for example, students can earn “moon rocks” by completing work and staying on task. The program is scripted, and tutors are expected to follow the scripts without reading them or memorizing them. Tutors receive a 2-day initial workshop and then participate in weekly meetings with project coordinators to review the progress of each child. The content of the lessons focuses on understanding and proficiency with addition and subtraction.
 
 ---
 
@@ -33740,7 +33740,7 @@ license: null
 tags: [math-education, response-to-intervention]
 ```
 
-Pirate Math is a one-to-one tutoring program for third graders struggling with math calculations and word problems. Students receive 48 20-30 minute sessions (three per week) over 16 weeks. Tutors may be teachers or paraprofessionals, who work with students outside of ordinary math periods. The tutoring sessions focus on “counting up” strategies in which students start with the bigger number and add or subtract on their fingers. Students learn to solve word problems by finding missing numbers. S
+Pirate Math is a one-to-one tutoring program for third graders struggling with math calculations and word problems. Students receive 48 20-30 minute sessions (three per week) over 16 weeks. Tutors may be teachers or paraprofessionals, who work with students outside of ordinary math periods. The tutoring sessions focus on “counting up” strategies in which students start with the bigger number and add or subtract on their fingers. Students learn to solve word problems by finding missing numbers. Students receive gold coins for good work, and place them on a treasure map. When they reach a picture of a treasure box, they earn a small prize.
 
 ---
 

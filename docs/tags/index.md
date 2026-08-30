@@ -4,19 +4,19 @@
 
 ## Domain
 
-- [k-12](k-12.md) — 941 entries
-- [math-education](math-education.md) — 542 entries
-- [literacy](literacy.md) — 478 entries
-- [learning-engineering](learning-engineering.md) — 295 entries
-- [early-childhood](early-childhood.md) — 239 entries
-- [english-learners](english-learners.md) — 217 entries
+- [k-12](k-12.md) — 945 entries
+- [math-education](math-education.md) — 591 entries
+- [literacy](literacy.md) — 527 entries
+- [learning-engineering](learning-engineering.md) — 296 entries
+- [early-childhood](early-childhood.md) — 245 entries
+- [english-learners](english-learners.md) — 229 entries
 - [higher-ed](higher-ed.md) — 203 entries
 - [school-discipline](school-discipline.md) — 31 entries
 
 ## Method
 
-- [computer-assisted-learning](computer-assisted-learning.md) — 258 entries
-- [response-to-intervention](response-to-intervention.md) — 212 entries
+- [computer-assisted-learning](computer-assisted-learning.md) — 296 entries
+- [response-to-intervention](response-to-intervention.md) — 221 entries
 - [longitudinal](longitudinal.md) — 201 entries
 - [rct](rct.md) — 123 entries
 - [meta-analysis](meta-analysis.md) — 61 entries
@@ -32,17 +32,17 @@
 
 ## Topic
 
-- [college-access](college-access.md) — 442 entries
-- [formative-assessment](formative-assessment.md) — 361 entries
-- [professional-development](professional-development.md) — 300 entries
-- [sel](sel.md) — 292 entries
-- [career-readiness](career-readiness.md) — 235 entries
-- [inclusive-design](inclusive-design.md) — 135 entries
-- [personalized-learning](personalized-learning.md) — 125 entries
-- [dropout-prevention](dropout-prevention.md) — 112 entries
-- [attendance](attendance.md) — 108 entries
+- [college-access](college-access.md) — 453 entries
+- [formative-assessment](formative-assessment.md) — 431 entries
+- [sel](sel.md) — 335 entries
+- [professional-development](professional-development.md) — 302 entries
+- [career-readiness](career-readiness.md) — 237 entries
+- [personalized-learning](personalized-learning.md) — 148 entries
+- [inclusive-design](inclusive-design.md) — 144 entries
+- [attendance](attendance.md) — 116 entries
+- [dropout-prevention](dropout-prevention.md) — 113 entries
 - [open-datasets](open-datasets.md) — 101 entries
-- [writing-instruction](writing-instruction.md) — 78 entries
+- [writing-instruction](writing-instruction.md) — 80 entries
 - [digital-learning-platforms](digital-learning-platforms.md) — 75 entries
 - [prekindergarten](prekindergarten.md) — 56 entries
 - [student-belonging](student-belonging.md) — 37 entries

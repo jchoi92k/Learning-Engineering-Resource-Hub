@@ -43,7 +43,7 @@
     "discovery_url": "https://nwea.org/research/",
     "sample_url": "https://nwea.org/research/publication/academically-diverse-classrooms-deeper-needs-what-teachers-face-after-the-pandemic/",
     "discovery_check": "research",
-    "notes": "200+ publications confirmed (paginated). MAP Growth longitudinal research."
+    "notes": "317 publications in the WP REST API (the sitemap lists more but includes stale URLs). 309 indexed after the 2026-08-30 backfill (239 inserted with page abstracts; 8 pending without one). MAP Growth longitudinal research."
   },
   "Mathematica": {
     "known_total": 925,

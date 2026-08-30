@@ -20,7 +20,7 @@
 ## Scope
 
 - **Coverage strategy:** Index all publications
-- **Current indexed:** 70
+- **Current indexed:** 309 after the 2026-08-30 backfill via the WordPress REST post type `publications` (`scrape.py nwea-research --backfill`: 4 API pages + 5 taxonomy lookups + 247 page fetches for the abstracts, 250 requests, every URL once, 5 s gaps): 239 inserted with page abstracts (`page-abstract`; two templates — `div.description_wrap` or the paragraph after the Description heading), taxonomies resolved to names (type, themes, products, centers), the page's author line and date captured, publication block kept as `page_text`; 8 pages without an abstract are pending rows. `type_allow` lists all 15 real labels so a new label gets recorded rather than silently indexed. The API replaces the sitemap discovery; the sitemap remains a cross-check.
 - **Estimated remaining:** ~477
 - **Filters available on listing page:** Topic (28+), Researcher (26+), Type (13), Center (3), Product (3). URL params work: `?publication_type=journal-article`
 

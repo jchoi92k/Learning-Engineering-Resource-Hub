@@ -96,3 +96,10 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 331 entries (7110-7440)
 - Backlog rows recorded as pending (excluded): 40
 - Tags: keyword auto-tagged
+
+## 2026-08-30 - NWEA Research
+- Source slug: `nwea-research`
+- Scraped: 247 total, 239 ready, 8 backlog
+- Processed: 239 entries (7481-7719)
+- Backlog rows recorded as pending (excluded): 8
+- Tags: keyword auto-tagged

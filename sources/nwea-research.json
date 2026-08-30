@@ -1,18 +1,68 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in nwea-research.md.",
-
-  "discovery": "sitemap",
-  "discovery_url": "https://www.nwea.org/publication-sitemap.xml",
-  "sitemap": {
-    "url_pattern": "/research/publication/"
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in nwea-research.md. Rewritten 2026-08-30 from the sitemap (no metadata) to the WordPress REST post type publications: title, link, date and the research_type / research_theme / research_product / research_center / bio_link taxonomies come from the API (resolved to names via lookups); the API carries no description, so each new item's page is fetched for the abstract (two templates: div.description_wrap, or the paragraph after the Description heading; page-abstract) and its publication block is kept as page_text; the page's author line, date and type badge are captured too. Newest-first (orderby=date), so early_stop is declared. Types outside type_allow are recorded as type_filtered rows before any page is fetched.",
+  "request_delay": 5,
+  "discovery": "api",
+  "discovery_url": "https://www.nwea.org/wp-json/wp/v2/publications",
+  "api": {
+    "params": {
+      "per_page": 100,
+      "orderby": "date",
+      "order": "desc",
+      "_fields": "id,slug,link,title,date,modified,research_type,research_theme,research_product,research_center,research_collection,bio_link,yoast_head_json"
+    },
+    "pagination": {
+      "param": "page",
+      "start": 1,
+      "pages": 10
+    },
+    "json_paths": {
+      "title": "title/rendered",
+      "url": "link",
+      "date": "date",
+      "type": "research_type",
+      "tags": "research_theme"
+    },
+    "extra_fields": {
+      "modified": "modified",
+      "slug": "slug",
+      "wp_id": "id",
+      "products": "research_product",
+      "centers": "research_center",
+      "collections": "research_collection",
+      "authors": "bio_link",
+      "og_title": "yoast_head_json/og_title",
+      "canonical": "yoast_head_json/canonical",
+      "article_modified_time": "yoast_head_json/article_modified_time"
+    }
   },
-
+  "lookups": [
+    {"field": "type", "url": "https://www.nwea.org/wp-json/wp/v2/research_type?per_page=100"},
+    {"field": "tags", "url": "https://www.nwea.org/wp-json/wp/v2/research_theme?per_page=100"},
+    {"field": "products", "url": "https://www.nwea.org/wp-json/wp/v2/research_product?per_page=100"},
+    {"field": "centers", "url": "https://www.nwea.org/wp-json/wp/v2/research_center?per_page=100"},
+    {"field": "authors", "url": "https://www.nwea.org/wp-json/wp/v2/bio_link?per_page=100"}
+  ],
+  "type_allow": [
+    "Journal article", "Research brief", "Research report", "Technical brief", "Working paper",
+    "Blog article", "Presentation", "White paper", "Technical report", "Data visualization",
+    "Guide", "Presentation paper", "Book", "Policy brief", "Instructional resource"
+  ],
+  "detail_fetch": {
+    "selector": "div.description_wrap, h4.description + p",
+    "description_source": "page-abstract",
+    "text_selector": "div.txtcol",
+    "extra_fields": {
+      "authors_page": {"selector": ".author"},
+      "date_page": {"selector": "[class*='date']"},
+      "type_page": {"selector": ".publication-type"}
+    }
+  },
   "robots_txt": "https://www.nwea.org/robots.txt",
   "robots_disallow": ["/wp/wp-admin/"],
-
   "test": {
-    "url": "https://www.nwea.org/publication-sitemap.xml",
-    "expected_url_contains": "/research/publication/",
-    "expected_min_urls": 100
-  }
+    "url": "https://www.nwea.org/wp-json/wp/v2/publications?per_page=5&orderby=date&order=desc",
+    "expected_min_results": 50,
+    "_note": "The api test path runs scrape_api with the config's own params (per_page=100), so use a minimum count."
+  },
+  "early_stop": true
 }

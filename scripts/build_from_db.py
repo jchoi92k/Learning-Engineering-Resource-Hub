@@ -56,6 +56,7 @@ TAG_CATEGORIES = {
         "a-b-testing", "rct", "nlp", "llm-application", "genai", "coaching",
         "computer-assisted-learning", "automated-feedback", "qualitative-research",
         "meta-analysis", "longitudinal", "intelligent-tutoring", "response-to-intervention",
+        "instructional-coaching",
     ],
     "Topic": [
         "student-belonging", "math-motivation", "pii-privacy", "data-sharing",
@@ -64,6 +65,7 @@ TAG_CATEGORIES = {
         "math-word-problems", "genai-tutoring", "open-datasets", "ai-policy",
         "ai-ethics", "inclusive-design", "sel", "writing-instruction",
         "college-access", "career-readiness", "dropout-prevention",
+        "cognitive-science", "educational-systems-change",
     ],
     "Affiliation": [
         "rppl", "upgrade-platform", "carnegie-learning", "khan-academy", "lsu",
@@ -71,7 +73,7 @@ TAG_CATEGORIES = {
         "tla", "cmu-learnlab", "assistments", "cosn", "tools-competition",
         "wwc", "unesco", "cast", "iste-ascd", "digital-promise", "duolingo",
         "lpi", "nap", "edtrust", "casel", "campbell-collaboration", "brookings",
-        "jedm", "jla",
+        "jedm", "jla", "wpi",
     ],
 }
 

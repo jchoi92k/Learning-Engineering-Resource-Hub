@@ -50,8 +50,27 @@ SESSION.headers.update({
     "Accept-Language": "en-US,en;q=0.5",
 })
 
-CONSECUTIVE_FAILURES = 0
+CONSECUTIVE_FAILURES = 0     # highest current per-host consecutive-failure streak
 MAX_CONSECUTIVE_FAILURES = 3
+_FAILURES_BY_HOST = {}
+
+
+def _note_success(url):
+    """A 200 from a host clears that host's failure streak."""
+    global CONSECUTIVE_FAILURES
+    _FAILURES_BY_HOST[_host(url)] = 0
+    CONSECUTIVE_FAILURES = max(_FAILURES_BY_HOST.values(), default=0)
+
+
+def _note_failure(url):
+    """Failures count per host: three dead external links in a row say nothing
+    about the primary site, but three consecutive failures from one host mean
+    stop. Returns the failing host's streak."""
+    global CONSECUTIVE_FAILURES
+    host = _host(url)
+    _FAILURES_BY_HOST[host] = _FAILURES_BY_HOST.get(host, 0) + 1
+    CONSECUTIVE_FAILURES = max(_FAILURES_BY_HOST.values(), default=0)
+    return _FAILURES_BY_HOST[host]
 MIN_BLURB_LENGTH = 30
 DEFAULT_DELAY = 5  # seconds between requests (no-policy default)
 MIN_DELAY = 5  # hard floor: a config's request_delay cannot go below this
@@ -294,29 +313,29 @@ def _handle_rate_limit(status_code, url, method="get", request_kwargs=None):
 
 
 def fetch(url, **kwargs):
-    """Fetch a URL with throttling, backoff on 429/503, and failure tracking."""
-    global CONSECUTIVE_FAILURES
+    """Fetch a URL with throttling, backoff on 429/503, and failure tracking
+    (per host — see _note_failure)."""
     _throttle(url)
     sent = _last_fetch_time
     try:
         r = SESSION.get(url, timeout=30, **kwargs)
         _record(r.url or url, r.status_code, "get", sent=sent)   # r.url carries the query params
         if r.status_code == 200:
-            CONSECUTIVE_FAILURES = 0
+            _note_success(url)
             return r
         if r.status_code in (429, 503):
             result = _handle_rate_limit(r.status_code, url, "get", kwargs)
             if result:
-                CONSECUTIVE_FAILURES = 0
+                _note_success(url)
                 return result
-        CONSECUTIVE_FAILURES += 1
+        _note_failure(url)
         print(f"  HTTP {r.status_code}: {url}", file=sys.stderr)
         if CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
             print(f"  {MAX_CONSECUTIVE_FAILURES} consecutive failures — stopping.", file=sys.stderr)
         return None
     except Exception as e:
         _record(url, "ERR", sent=sent)
-        CONSECUTIVE_FAILURES += 1
+        _note_failure(url)
         print(f"  Fetch error: {e} — {url}", file=sys.stderr)
         if CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
             print(f"  {MAX_CONSECUTIVE_FAILURES} consecutive failures — stopping.", file=sys.stderr)
@@ -325,27 +344,26 @@ def fetch(url, **kwargs):
 
 def fetch_post(url, headers=None, json_body=None):
     """POST request for API sources, with throttling and backoff."""
-    global CONSECUTIVE_FAILURES
     _throttle(url)
     sent = _last_fetch_time
     try:
         r = SESSION.post(url, headers=headers, json=json_body, timeout=30)
         _record(url, r.status_code, "post", sent=sent)
         if r.status_code == 200:
-            CONSECUTIVE_FAILURES = 0
+            _note_success(url)
             return r
         if r.status_code in (429, 503):
             result = _handle_rate_limit(r.status_code, url, "post",
                                         {"headers": headers, "json": json_body})
             if result:
-                CONSECUTIVE_FAILURES = 0
+                _note_success(url)
                 return result
-        CONSECUTIVE_FAILURES += 1
+        _note_failure(url)
         print(f"  HTTP {r.status_code}: {url}", file=sys.stderr)
         return None
     except Exception as e:
         _record(url, "ERR", sent=sent)
-        CONSECUTIVE_FAILURES += 1
+        _note_failure(url)
         print(f"  Fetch error: {e} — {url}", file=sys.stderr)
         return None
 

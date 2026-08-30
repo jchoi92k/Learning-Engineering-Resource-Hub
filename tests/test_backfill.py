@@ -334,3 +334,18 @@ def test_detail_fetch_keeps_richer_existing_page_text(monkeypatch):
     assert out[0]["page_text"] == rich
     out2 = scrape.fetch_detail_descriptions([{"title": "T", "url": "https://x.org/t", "blurb": ""}], cfg, "x")
     assert out2[0]["page_text"] == "Short page text."
+
+
+def test_failure_streaks_count_per_host(monkeypatch):
+    import scrape
+    monkeypatch.setattr(scrape, "_FAILURES_BY_HOST", {})
+    monkeypatch.setattr(scrape, "CONSECUTIVE_FAILURES", 0)
+    scrape._note_failure("https://a.org/1")
+    scrape._note_failure("https://b.org/1")
+    scrape._note_failure("https://c.org/1")
+    assert scrape.CONSECUTIVE_FAILURES == 1, "three different hosts failing once is not a streak"
+    scrape._note_failure("https://a.org/2")
+    scrape._note_failure("https://a.org/3")
+    assert scrape.CONSECUTIVE_FAILURES == 3, "one host failing three times in a row is"
+    scrape._note_success("https://a.org/4")
+    assert scrape.CONSECUTIVE_FAILURES == 1, "a success clears that host's streak; b.org still has one"

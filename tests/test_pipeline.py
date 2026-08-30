@@ -337,3 +337,49 @@ def test_insert_backlog_rows_marks_pending_and_dedupes():
     assert row == ("https://x.org/new", "report", 1, "no_description_pending", "", 0)
     assert conn.execute("SELECT COUNT(*) FROM entries").fetchone()[0] == 2
 
+
+
+# ── throttle hardening ──
+
+def test_effective_delay_floors_config_values():
+    from scrape import DEFAULT_DELAY, MIN_DELAY, effective_delay
+    assert effective_delay({}) == DEFAULT_DELAY
+    assert effective_delay({"request_delay": 2}) == MIN_DELAY
+    assert effective_delay({"request_delay": 60}) == 60
+    assert effective_delay({"request_delay": "fast"}) == DEFAULT_DELAY
+
+
+def test_no_source_config_undercuts_the_delay_floor():
+    import json
+    from scrape import MIN_DELAY, SOURCES_DIR
+    configs = sorted(SOURCES_DIR.glob("*.json"))
+    assert configs, "no source configs found"
+    for path in configs:
+        cfg = json.loads(path.read_text(encoding="utf-8"))
+        assert cfg.get("request_delay", MIN_DELAY) >= MIN_DELAY, path.name
+
+
+def test_check_robots_starts_the_throttle_clock(monkeypatch):
+    import scrape
+
+    class Resp:
+        status_code = 200
+        text = "User-agent: *\nDisallow: /search/\n"
+
+    monkeypatch.setattr(scrape.SESSION, "get", lambda url, **kw: Resp())
+    monkeypatch.setattr(scrape, "_last_fetch_time", 0)
+    assert scrape.check_robots({"robots_txt": "https://x.org/robots.txt"})
+    assert scrape._last_fetch_time > 0, "the next fetch must wait a full delay after robots.txt"
+
+
+def test_backoff_retry_restarts_the_throttle_clock(monkeypatch):
+    import scrape
+
+    class Resp:
+        status_code = 200
+
+    monkeypatch.setattr(scrape.time, "sleep", lambda s: None)
+    monkeypatch.setattr(scrape.SESSION, "request", lambda *a, **kw: Resp())
+    monkeypatch.setattr(scrape, "_last_fetch_time", 0)
+    assert scrape._handle_rate_limit(429, "https://x.org/p") is not None
+    assert scrape._last_fetch_time > 0

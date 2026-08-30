@@ -67,6 +67,7 @@ def check_url(url):
     try:
         r = SESSION.head(url, timeout=REQUEST_TIMEOUT, allow_redirects=True)
         if r.status_code == 405 or r.status_code == 403:
+            time.sleep(DOMAIN_DELAY)  # the GET fallback is a second request to the same host
             r = SESSION.get(url, timeout=REQUEST_TIMEOUT, allow_redirects=True, stream=True)
             r.close()
             return str(r.status_code), r.status_code < 400, "GET"

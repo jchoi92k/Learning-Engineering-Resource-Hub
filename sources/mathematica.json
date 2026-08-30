@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in mathematica.md. sortCriteria is date-descending, so early_stop is declared.",
-  "request_delay": 2,
+  "request_delay": 5,
   "discovery": "api",
   "discovery_url": "https://mathematica.org/coveo/rest/search/v2",
   "api": {

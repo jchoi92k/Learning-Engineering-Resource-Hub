@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in digital-promise.md. The discovery API returns relevance order unless 'sort' is passed (checked 2026-08-28); early_stop relies on that sort.",
-  "request_delay": 2,
+  "request_delay": 5,
   "discovery": "api",
   "discovery_url": "https://digitalpromise.dspacedirect.org/server/api/discover/search/objects",
   "api": {

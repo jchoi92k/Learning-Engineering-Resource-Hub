@@ -30,6 +30,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 FULL_FILE = ROOT / "docs" / "llms-full.txt"
 STAGING_DIR = ROOT / "docs" / "staging"
+REQUEST_DELAY = 5  # seconds between page loads - same floor as scrape.py
 
 HEADERS = {
     "User-Agent": (
@@ -174,7 +175,7 @@ def scrape_tntp(headless=True, max_pages=10):
                 break
             next_btn.click()
             listing.wait_for_load_state("networkidle")
-            time.sleep(0.4)
+            time.sleep(REQUEST_DELAY)
 
         # Phase 2: fetch each publication page for title + description.
         print(f"\n[tntp] Fetching details for {len(all_pub_urls)} publications...")
@@ -236,7 +237,7 @@ def scrape_tntp(headless=True, max_pages=10):
                     "tags": tags,
                 })
                 print(f"  OK: {title[:70]}")
-                time.sleep(0.3)
+                time.sleep(REQUEST_DELAY)
 
             except PWTimeout:
                 print(f"  TIMEOUT: {url}")
@@ -360,7 +361,7 @@ def scrape_digital_promise(max_items=100):
                 continue
 
         api_page += 1
-        time.sleep(0.4)
+        time.sleep(REQUEST_DELAY)
 
         if total_elements and (api_page * PAGE_SIZE) >= total_elements:
             print(f"[digital-promise] All {total_elements} API items processed.")

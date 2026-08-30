@@ -22,6 +22,7 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 TIMEOUT = 12
+REQUEST_DELAY = 5  # seconds between checks - same floor as scrape.py
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -119,9 +120,9 @@ def main():
         pad = max(0, 38 - len(name))
         print(f"  {name}{' ' * pad}", end="", flush=True)
         disc = check_url(src["discovery_url"], src.get("discovery_check", ""))
-        time.sleep(0.4)
+        time.sleep(REQUEST_DELAY)
         sample = check_url(src["sample_url"])
-        time.sleep(0.4)
+        time.sleep(REQUEST_DELAY)
         label, detail = classify(disc, sample)
         print(f"{label:<14}  {detail}")
         rows.append({"name": name, "label": label, "notes": src.get("notes", "")})

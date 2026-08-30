@@ -9,9 +9,10 @@
 #   scripts/update.sh --sources "wwc lpi"   # limit to given source slugs
 #   scripts/update.sh --skip-verify         # skip verify_urls.py (faster local runs)
 #
-# Env: PYTHON (default: python), RUN_SUMMARY (default: docs/staging/run-summary.md).
+# Env: PYTHON (default: python), RUN_SUMMARY (default: docs/staging/run-summary.md),
+#      SOURCE_GAP (seconds to pause between sources, default 5).
 #
-# Not in the weekly list on purpose (see private/decisions.md, 2026-08-28):
+# Not in the weekly list on purpose (see meta/operator-guide.md and sources/*.md):
 #   casel (60s crawl-delay + detail fetch, run manually), jedm/jla (frozen
 #   selective set), ies-rel (no config), aims/rand/mdrc/nap (blocked or manual).
 #
@@ -45,6 +46,7 @@ WEEKLY_SOURCES=(
 
 DRY_RUN=0
 SKIP_VERIFY=0
+SOURCE_GAP="${SOURCE_GAP:-5}"  # back-to-back configs can share a host (the three LPI ones)
 SOURCES=("${WEEKLY_SOURCES[@]}")
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -125,6 +127,7 @@ for src in "${SOURCES[@]}"; do
   fi
 
   RESULTS+=("$src|$status|$scraped|$new|$ready|$backlog|$inserted|$pending|$range")
+  sleep "$SOURCE_GAP"
 done
 
 END_MAX="$(db_max_num)"

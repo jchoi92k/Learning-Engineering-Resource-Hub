@@ -54,6 +54,7 @@ CONSECUTIVE_FAILURES = 0
 MAX_CONSECUTIVE_FAILURES = 3
 MIN_BLURB_LENGTH = 30
 DEFAULT_DELAY = 5  # seconds between requests (no-policy default)
+MIN_DELAY = 5  # hard floor: a config's request_delay cannot go below this
 _request_delay = DEFAULT_DELAY
 _last_fetch_time = 0
 BACKOFF_SCHEDULE = [5, 10, 20]  # seconds on 429/503, then give up
@@ -85,6 +86,19 @@ def load_config(source):
         return json.load(f)
 
 
+def effective_delay(config, floor=MIN_DELAY, default=DEFAULT_DELAY):
+    """Per-source request delay: the config's request_delay, never below the
+    floor. robots.txt Crawl-delay can raise it further (see check_robots)."""
+    asked = config.get("request_delay", default)
+    if isinstance(asked, bool) or not isinstance(asked, (int, float)):
+        print(f"  request_delay {asked!r} is not a number - using {default}s", file=sys.stderr)
+        return default
+    if asked < floor:
+        print(f"  request_delay {asked}s is below the {floor}s floor - using {floor}s", file=sys.stderr)
+        return floor
+    return asked
+
+
 def check_robots(config):
     """Fetch robots.txt. Parse crawl-delay if present and use it as the request delay."""
     global _request_delay
@@ -92,6 +106,7 @@ def check_robots(config):
     if not url:
         return True
     try:
+        _throttle()  # robots.txt is a request to the host too: start the clock
         r = SESSION.get(url, timeout=15)
         if r.status_code != 200:
             print(f"  Warning: robots.txt returned {r.status_code}")
@@ -126,12 +141,14 @@ def _handle_rate_limit(status_code, url, method="get", request_kwargs=None):
     """Retry with exponential backoff on 429/503, replaying the original
     method and kwargs (params/headers/json) so paginated and POST requests
     are not corrupted on retry. Returns response or None."""
+    global _last_fetch_time
     request_kwargs = request_kwargs or {}
     for attempt, wait in enumerate(BACKOFF_SCHEDULE):
         print(f"  HTTP {status_code} — backing off {wait}s (attempt {attempt + 1}/{len(BACKOFF_SCHEDULE)})...",
               file=sys.stderr)
         time.sleep(wait)
         try:
+            _last_fetch_time = time.time()  # the retry is a request too: restart the clock
             r = SESSION.request(method, url, timeout=30, **request_kwargs)
             if r.status_code == 200:
                 return r
@@ -867,9 +884,9 @@ def main():
     config = load_config(source)
     discovery = config["discovery"]
 
-    # Per-source delay override (default 3s)
+    # Per-source delay override, never below MIN_DELAY (robots.txt may raise it)
     global _request_delay
-    _request_delay = config.get("request_delay", DEFAULT_DELAY)
+    _request_delay = effective_delay(config)
 
     print(f"[scrape] Source: {source} ({discovery}, {_request_delay}s delay)")
 

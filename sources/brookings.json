@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in brookings.md. No early_stop: Algolia default ranking is unverified as newest-first and hub.db coverage is sparse (23 of ~1,239), so every run scans up to the 1,000-hit cap.",
-  "request_delay": 2,
+  "request_delay": 5,
   "discovery": "api",
   "discovery_url": "https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query",
   "api": {

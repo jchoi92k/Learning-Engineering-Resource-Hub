@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in evidence-for-essa.md. orderby/order make the newest-first assumption behind early_stop explicit.",
-  "request_delay": 2,
+  "request_delay": 5,
   "discovery": "api",
   "discovery_url": "https://evidenceforessa.org/wp-json/wp/v2/program",
   "api": {

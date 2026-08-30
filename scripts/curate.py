@@ -15,6 +15,7 @@ Usage (from repo root):
     python scripts/curate.py reactivate NUM
     python scripts/curate.py set-description NUM --source SRC (--file PATH | --text TEXT)
     python scripts/curate.py set-tags NUM tag1,tag2,...
+    python scripts/curate.py set-url NUM --url NEW_URL
 
     --db PATH   use another database file (default data/hub.db)
 
@@ -183,6 +184,26 @@ def set_description(conn, num, text, source):
     return True
 
 
+def set_url(conn, num, new_url):
+    """Replace the entry's URL (site migrations). Refuses a URL already on
+    another row, so dedup stays exact."""
+    new_url = (new_url or "").strip()
+    if not new_url.startswith("http"):
+        raise CurateError(f"not a URL: {new_url!r}")
+    row = get_entry(conn, num)
+    if row["url"] == new_url:
+        print(f"#{num} url unchanged; nothing to do")
+        return False
+    other = conn.execute("SELECT num FROM entries WHERE url = ? AND num != ?", (new_url, num)).fetchone()
+    if other:
+        raise CurateError(f"url already used by entry #{other[0]}")
+    with conn:
+        conn.execute(f"UPDATE entries SET url = ?, updated_at = {NOW_SQL} WHERE num = ?", (new_url, num))
+    print(f"#{num} url set — {_short(row['title'])}")
+    _print_change("url", row["url"], new_url)
+    return True
+
+
 def set_tags(conn, num, tags):
     """Replace the entry's full tag set (validated against TAG_CATEGORIES)."""
     row = get_entry(conn, num)
@@ -295,6 +316,10 @@ def build_parser():
     s = sub.add_parser("set-tags", help="replace the entry's tags (comma-separated)")
     s.add_argument("num", type=int)
     s.add_argument("tags")
+
+    s = sub.add_parser("set-url", help="replace the entry's URL (site migrations)")
+    s.add_argument("num", type=int)
+    s.add_argument("--url", required=True)
     return p
 
 
@@ -316,6 +341,8 @@ def run(args, conn):
         set_description(conn, args.num, text, args.source)
     elif args.cmd == "set-tags":
         set_tags(conn, args.num, parse_tags(args.tags))
+    elif args.cmd == "set-url":
+        set_url(conn, args.num, args.url)
 
 
 def main(argv=None):

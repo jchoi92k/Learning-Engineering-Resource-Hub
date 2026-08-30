@@ -1,18 +1,52 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in edtrust.md.",
-
-  "discovery": "sitemap",
-  "discovery_url": "https://edtrust.org/research-tools-and-i-sitemap.xml",
-  "sitemap": {
-    "url_pattern": "/rti/"
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in edtrust.md. Rewritten 2026-08-30 from the sitemap (no blurbs) to the WordPress REST post type research-tools-and-i: the Yoast meta description is the description (page-meta), the article body is kept as page_text, and the type-of-content / topic taxonomies are resolved to names via one lookup each. Newest-first (orderby=date), so early_stop is declared. The site moved /resource/ to /rti/ in 2026; the API links are /rti/ form.",
+  "request_delay": 5,
+  "discovery": "api",
+  "discovery_url": "https://edtrust.org/wp-json/wp/v2/research-tools-and-i",
+  "description_source": "page-meta",
+  "api": {
+    "params": {
+      "per_page": 100,
+      "orderby": "date",
+      "order": "desc",
+      "_fields": "id,slug,link,title,date,modified,type-of-content,topic,tags,coauthors,yoast_head_json,content"
+    },
+    "pagination": {
+      "param": "page",
+      "start": 1,
+      "pages": 6
+    },
+    "json_paths": {
+      "title": "title/rendered",
+      "url": "link",
+      "date": "date",
+      "description": "yoast_head_json/description",
+      "description_fallback": "yoast_head_json/og_description",
+      "type": "type-of-content",
+      "tags": "topic"
+    },
+    "extra_fields": {
+      "modified": "modified",
+      "slug": "slug",
+      "wp_id": "id",
+      "tag_ids": "tags",
+      "coauthor_ids": "coauthors",
+      "og_title": "yoast_head_json/og_title",
+      "canonical": "yoast_head_json/canonical",
+      "article_modified_time": "yoast_head_json/article_modified_time",
+      "page_text": "content/rendered"
+    }
   },
-
+  "lookups": [
+    {"field": "type", "url": "https://edtrust.org/wp-json/wp/v2/type-of-content?per_page=100"},
+    {"field": "tags", "url": "https://edtrust.org/wp-json/wp/v2/topic?per_page=100"}
+  ],
   "robots_txt": "https://edtrust.org/robots.txt",
   "robots_disallow": ["/wp-admin/", "/trackback/", "/xmlrpc.php", "/feed/"],
-
   "test": {
-    "url": "https://edtrust.org/research-tools-and-i-sitemap.xml",
-    "expected_url_contains": "/rti/",
-    "expected_min_urls": 500
-  }
+    "url": "https://edtrust.org/wp-json/wp/v2/research-tools-and-i?per_page=5&orderby=date&order=desc",
+    "expected_min_results": 50,
+    "_note": "The api test path runs scrape_api with the config's own params (per_page=100), so use a minimum count."
+  },
+  "early_stop": true
 }

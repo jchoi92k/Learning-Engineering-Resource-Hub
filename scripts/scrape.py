@@ -295,7 +295,7 @@ def fetch(url, **kwargs):
     sent = _last_fetch_time
     try:
         r = SESSION.get(url, timeout=30, **kwargs)
-        _record(url, r.status_code, "get", sent=sent)
+        _record(r.url or url, r.status_code, "get", sent=sent)   # r.url carries the query params
         if r.status_code == 200:
             CONSECUTIVE_FAILURES = 0
             return r
@@ -678,6 +678,7 @@ def scrape_api(config, max_pages=None, existing_urls=None):
             print(f"  No items at {page_param}={page_num} — reached end.")
             break
 
+        per_page = params.get("per_page") if method != "POST" else None
         page_items = []
         for raw in raw_items:
             item_root = paths.get("item_root")
@@ -723,12 +724,18 @@ def scrape_api(config, max_pages=None, existing_urls=None):
             for field_name, field_path in api.get("extra_fields", {}).items():
                 val = resolve_json_path(obj, field_path)
                 if val:
+                    if field_name == "page_text" and isinstance(val, str):
+                        # an API that returns the article body: keep it as text, capped
+                        val = clean_text(strip_html(val))[:PAGE_TEXT_MAX_CHARS]
                     item_dict[field_name] = val
 
             page_items.append(item_dict)
 
         all_items.extend(page_items)
         print(f"  Extracted {len(raw_items)} items at {page_param}={page_num}")
+        if per_page and isinstance(raw_items, list) and len(raw_items) < int(per_page):
+            print(f"  Short page ({len(raw_items)} < {per_page}) — last page.")
+            break
         if early_stop_hit(page_items, existing_urls):
             print(f"  Early stop: {page_param}={page_num} is mostly already indexed.")
             break
@@ -1036,6 +1043,47 @@ def extract_page_meta(soup):
     return meta
 
 
+def resolve_lookups(items, config):
+    """For each entry in the config's "lookups" list — {field, url, id_path?,
+    name_path?, items_path?} — fetch the taxonomy once and replace the ids in
+    item[field] (a value or a list) with their names. The ids are kept as
+    item[field + "_ids"]; for "type", the first name becomes the type and all
+    names go to type_labels."""
+    lookups = config.get("lookups")
+    if not lookups or not items:
+        return items
+    for look in lookups:
+        field = look.get("field", "type")
+        r = fetch(look["url"], headers={"Accept": "application/json"})
+        if not r:
+            print(f"  WARNING: lookup for {field} failed — ids left as-is", file=sys.stderr)
+            continue
+        data = r.json()
+        terms = resolve_json_path(data, look["items_path"]) if look.get("items_path") else data
+        names = {}
+        for t in terms or []:
+            tid = resolve_json_path(t, look.get("id_path", "id"))
+            name = resolve_json_path(t, look.get("name_path", "name"))
+            if tid is not None and name:
+                names[str(tid)] = clean_text(strip_html(str(name)))
+        print(f"  lookup {field}: {len(names)} terms from {look['url']}")
+        for item in items:
+            raw_val = item.get(field)
+            ids = raw_val if isinstance(raw_val, list) else ([raw_val] if raw_val not in ("", None, []) else [])
+            ids = [str(i) for i in ids]
+            if not ids or not all(i in names for i in ids):
+                continue
+            item[field + "_ids"] = ids
+            labels = [names[i] for i in ids]
+            if field == "type":
+                item["type"] = labels[0]
+                if len(labels) > 1:
+                    item["type_labels"] = labels
+            else:
+                item[field] = labels
+    return items
+
+
 def apply_type_filter(items, config):
     """Split items by the config's "type_allow" list (source type labels,
     case-insensitive). Items with no type yet are kept — a later detail fetch
@@ -1180,11 +1228,17 @@ def main():
             print(f"[scrape] Already indexed: {len(already)}, New: {len(new_items)}")
             items = new_items
 
-    # Provenance: text from the listing/API is 'listing'; detail_fetch relabels
-    # the items it fills. process_staged.py stores it as description_source.
+    # Provenance: text from the listing/API is 'listing' unless the config says
+    # otherwise (an API that hands back a page's meta description is
+    # 'page-meta'); detail_fetch relabels the items it fills. process_staged.py
+    # stores it as description_source.
+    listing_label = config.get("description_source", "listing")
     for item in items:
         if item.get("blurb") and not item.get("blurb_source"):
-            item["blurb_source"] = "listing"
+            item["blurb_source"] = listing_label
+
+    # Taxonomy ids -> names (WordPress-style APIs return term ids)
+    items = resolve_lookups(items, config)
 
     # Type filter, pass 1: items whose listing type is out of scope are set
     # aside before any page is fetched for them.

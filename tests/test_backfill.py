@@ -207,3 +207,71 @@ def test_extract_page_text_strips_chrome_and_caps():
     text = scrape.extract_page_text(BeautifulSoup(html, "html.parser"))
     assert text == "Title First paragraph of the article. Second paragraph."
     assert scrape.extract_page_text(BeautifulSoup("<html><body>" + "word " * 100 + "</body></html>", "html.parser"), max_chars=20) == "word word word word "
+
+
+# ── lookups and set-url ──
+
+def test_resolve_lookups_maps_ids_to_names(monkeypatch):
+    import scrape
+
+    class Resp:
+        status_code = 200
+
+        @staticmethod
+        def json():
+            return [{"id": 235, "name": "Report"}, {"id": 247, "name": "Blog &amp; Commentary"}]
+
+    monkeypatch.setattr(scrape, "fetch", lambda url, **kw: Resp())
+    items = [{"type": [235], "tags": [235, 247]}, {"type": [247, 235]}, {"type": ""}, {"type": [999]}]
+    cfg = {"lookups": [{"field": "type", "url": "https://x.org/tax"}, {"field": "tags", "url": "https://x.org/tax"}]}
+    out = scrape.resolve_lookups(items, cfg)
+    assert out[0]["type"] == "Report" and out[0]["type_ids"] == ["235"]
+    assert out[0]["tags"] == ["Report", "Blog & Commentary"] and out[0]["tags_ids"] == ["235", "247"]
+    assert out[1]["type"] == "Blog & Commentary" and out[1]["type_labels"] == ["Blog & Commentary", "Report"]
+    assert out[2]["type"] == "" and out[3]["type"] == [999]
+
+
+def test_set_url_replaces_and_refuses_collisions():
+    from curate import CurateError, set_url
+    import pytest
+    conn = mem_db()
+    conn.row_factory = sqlite3.Row
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added) VALUES (1, 'A', 'https://x.org/old', 'report', 'S', '2026-01-01')")
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added) VALUES (2, 'B', 'https://x.org/b', 'report', 'S', '2026-01-01')")
+    assert set_url(conn, 1, "https://x.org/new/") is True
+    assert conn.execute("SELECT url FROM entries WHERE num = 1").fetchone()[0] == "https://x.org/new/"
+    with pytest.raises(CurateError, match="already used"):
+        set_url(conn, 1, "https://x.org/b")
+    with pytest.raises(CurateError, match="not a URL"):
+        set_url(conn, 1, "b")
+
+
+# ── API pagination stops on a short page ──
+
+def test_scrape_api_stops_after_short_page(monkeypatch):
+    import scrape
+    calls = []
+
+    class Resp:
+        status_code = 200
+
+        def __init__(self, page):
+            self.page = page
+            self.url = f"https://x.org/api?page={page}"
+
+        def json(self):
+            n = 3 if self.page == 1 else 1          # per_page=3, page 2 is short
+            return [{"title": f"T{self.page}-{i}", "link": f"https://x.org/{self.page}-{i}"} for i in range(n)]
+
+    def fake_fetch(url, **kw):
+        calls.append(kw.get("params", {}).get("page"))
+        return Resp(kw["params"]["page"])
+
+    monkeypatch.setattr(scrape, "fetch", fake_fetch)
+    monkeypatch.setattr(scrape, "_load_url_filter", lambda config: None)
+    cfg = {"discovery_url": "https://x.org/api",
+           "api": {"params": {"per_page": 3}, "pagination": {"param": "page", "start": 1, "pages": 10},
+                   "json_paths": {"title": "title", "url": "link"}}}
+    items = scrape.scrape_api(cfg)
+    assert calls == [1, 2], "stopped after the short page instead of running to the cap"
+    assert len(items) == 4

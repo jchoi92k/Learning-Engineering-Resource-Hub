@@ -931,7 +931,8 @@ def fetch_detail_descriptions(items, config, source):
     Optional "extra_fields": {"type": {"selector": ..., "attr": ...}, ...}
     fills other item fields from the same page (a page-only publication type,
     a date). Every fetched page also yields item["page_meta"] (common meta
-    tags: description, og:*, article:published_time, canonical) and
+    tags: description, og:*, article:published_time, canonical), item["page_text"]
+    (readable main text, capped at PAGE_TEXT_MAX_CHARS) and
     item["fetched_status"] / item["fetched_at"], so the row records that the
     URL was live and what the page said, without a second request later.
     """
@@ -967,6 +968,7 @@ def fetch_detail_descriptions(items, config, source):
             items[i]["fetched_status"] = getattr(r, "status_code", None)
             items[i]["fetched_at"] = time.strftime("%Y-%m-%d")
             items[i]["page_meta"] = extract_page_meta(soup)
+            items[i]["page_text"] = extract_page_text(soup)
             for field, spec in (detail.get("extra_fields") or {}).items():
                 fel = soup.select_one(spec["selector"])
                 if fel:
@@ -999,6 +1001,23 @@ PAGE_META_TAGS = {
     "citation_doi": "meta[name='citation_doi']",
     "dc.date": "meta[name='dc.date' i]",
 }
+
+
+PAGE_TEXT_MAX_CHARS = 20_000
+
+
+def extract_page_text(soup, max_chars=PAGE_TEXT_MAX_CHARS):
+    """The page's readable main text (article/main/role=main, else body) with
+    scripts, styles, navigation, headers and footers removed; whitespace
+    collapsed; capped. Stored on the row so later passes (description upgrades,
+    tagging) never need to fetch the page again."""
+    root = soup.select_one("article") or soup.select_one("main") or soup.select_one("[role='main']") or soup.body
+    if root is None:
+        return ""
+    for tag in root.select("script, style, noscript, nav, header, footer, aside, form, iframe, svg"):
+        tag.decompose()
+    text = clean_text(root.get_text(" ", strip=True))
+    return text[:max_chars]
 
 
 def extract_page_meta(soup):

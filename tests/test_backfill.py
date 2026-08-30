@@ -196,3 +196,14 @@ def test_read_request_log_returns_latest_run_by_default(tmp_path):
                    encoding='utf-8')
     assert [r[3] for r in read_request_log(log)] == ['https://a.org/2']
     assert [r[3] for r in read_request_log(log, last_run_only=False)] == ['https://a.org/1', 'https://a.org/2']
+
+
+def test_extract_page_text_strips_chrome_and_caps():
+    from bs4 import BeautifulSoup
+    import scrape
+    html = ("<html><body><nav>Menu Menu</nav><header>Site header</header>"
+            "<main><h1>Title</h1><p>First   paragraph of the article.</p><script>var x=1;</script>"
+            "<p>Second paragraph.</p><aside>Related links</aside></main><footer>Footer text</footer></body></html>")
+    text = scrape.extract_page_text(BeautifulSoup(html, "html.parser"))
+    assert text == "Title First paragraph of the article. Second paragraph."
+    assert scrape.extract_page_text(BeautifulSoup("<html><body>" + "word " * 100 + "</body></html>", "html.parser"), max_chars=20) == "word word word word "

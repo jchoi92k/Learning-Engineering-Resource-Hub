@@ -61,7 +61,7 @@
     "discovery_url": "https://www.wested.org/resources/library/",
     "sample_url": "https://wested.org/resource/legislating-literacy-at-the-state-level/",
     "discovery_check": "resource",
-    "notes": "Regional lab. ~1,254 library items; 14 indexed (sparse) — backfill or drop from weekly is an open call. Config: sources/wested.json."
+    "notes": "Regional lab. ~1,254 library items; 912 indexed after the 2026-08-30 backfill (898 inserted; 364 practitioner-resource items kept as excluded type_filtered rows); weekly runs continue from here. Config: sources/wested.json."
   },
   "TNTP": {
     "known_total": 36,

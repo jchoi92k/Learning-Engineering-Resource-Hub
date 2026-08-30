@@ -21,7 +21,7 @@
 ## Scope
 
 - **Coverage strategy:** Index all resources
-- **Current indexed:** 14
+- **Current indexed:** 912 after the 2026-08-30 backfill (`scrape.py wested --backfill --pages 150`: 143 listing pages, 144 requests, every URL once, 5 s gaps; 1,262 new items staged from listing blurbs, 898 inserted, 364 recorded as excluded `type_filtered` rows). `type_allow` in the config keeps Report, Brief, Research and Evaluation, Guide, Paper, Article, Case Study, Collection, Data Visualization and Infographic, WestEd Perspectives, Edited Volume, Audiocast; Training and Professional Development, Tool, Curriculum and Assessment Resource are set aside (reversible with `curate.py reactivate`).
 - **Estimated remaining:** ~1,240
 - **Type filtering available:** `_resource_type=report` confirmed working. Types observed: Brief, Report, Guide, Paper, Tool, Research and Evaluation, Training and Professional Development, Case Study, Randomized Controlled Trial
 

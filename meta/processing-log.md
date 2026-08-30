@@ -82,3 +82,10 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 289 entries (5556-5844)
 - Backlog rows recorded as pending (excluded): 3
 - Tags: keyword auto-tagged
+
+## 2026-08-30 - WestEd
+- Source slug: `wested`
+- Scraped: 898 total, 898 ready, 0 backlog
+- Processed: 898 entries (5848-6745)
+- Backlog rows recorded as pending (excluded): 364
+- Tags: keyword auto-tagged

@@ -1,5 +1,5 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in wested.md. Library listing is newest-first, so early_stop is declared.",
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in wested.md. Library listing is newest-first, so early_stop is declared. type_allow (2026-08-30 backfill call): research outputs plus guides, collections, perspectives and audiocasts; Training and Professional Development, Tool, Curriculum and Assessment Resource items are recorded as type_filtered rows, not indexed.",
   "discovery": "pagination",
   "discovery_url": "https://www.wested.org/resources/library/",
   "pagination": {
@@ -22,5 +22,19 @@
     "expected_item_count": 9,
     "expected_first_title_contains": ""
   },
-  "early_stop": true
+  "early_stop": true,
+  "type_allow": [
+    "Report",
+    "Brief",
+    "Research and Evaluation",
+    "Guide",
+    "Paper",
+    "Article",
+    "Case Study",
+    "Collection",
+    "Data Visualization and Infographic",
+    "WestEd Perspectives",
+    "Edited Volume",
+    "Audiocast"
+  ]
 }

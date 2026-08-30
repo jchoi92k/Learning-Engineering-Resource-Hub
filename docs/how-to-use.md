@@ -10,13 +10,19 @@ This hub indexes evidence-based K-12 and higher education resources from 20+ cur
 
 ## 2. LLM agent (llms.txt)
 
-Fetch the full corpus directly into an LLM context window:
+Agents that can follow links start from the root index:
+
+```
+https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+```
+
+It lists every source with a link to a compact per-source file (entry number, title, URL, type, tags; large sources are split into parts under 100,000 characters) and to a per-source file with full descriptions (`llms-full-<source>.txt`), plus the tag vocabulary.
+
+To load everything at once — for example when pasting one URL into a chat assistant that cannot follow links — use the self-contained full file (all entries with descriptions, about 2 MB):
 
 ```
 https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt
 ```
-
-The file starts with a tag directory and source list, followed by all entries with descriptions. A compact version without descriptions is at `llms.txt`.
 
 **Use cases:**
 - Feed it to an agent as context for answering education research questions
@@ -31,7 +37,7 @@ Connect any MCP-compatible client (Claude Desktop, Cursor, Windsurf, custom agen
 https://renaissance-hub.joon-96a.workers.dev/mcp
 ```
 
-Available tools: `search_resources`, `get_entry`, `get_entries_batch`, `list_tags`, `list_sources`, `get_stats`, `find_related`, `get_full_index`.
+Available tools: `search` and `fetch` (the search/fetch pair that ChatGPT deep research and company knowledge require: `search(query)` returns ids, titles and URLs; `fetch(id)` returns the entry with its description), plus `search_resources` (filters, pagination, counts), `get_entry`, `get_entries_batch`, `list_tags`, `list_sources`, `get_stats`, `find_related`.
 
 **Client setup** — add to your MCP config (e.g. `claude_desktop_config.json`):
 

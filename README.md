@@ -17,10 +17,11 @@ A curated, agent-first referatory of evidence-based K-12, higher-education, and 
 **Browse the collection** — no setup required:
 [jchoi92k.github.io/Learning-Engineering-Resource-Hub](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub)
 
-**AI agents** — fetch the full index or connect via MCP:
+**AI agents** — start from the index, load everything in one file, or connect via MCP:
 ```
-https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt
-MCP endpoint: https://renaissance-hub.joon-96a.workers.dev/mcp
+Index (links to per-source files): https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+Everything in one file:            https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt
+MCP endpoint:                      https://renaissance-hub.joon-96a.workers.dev/mcp
 ```
 
 **Gemini Gem** — conversational access (no setup):
@@ -98,8 +99,10 @@ See `sources/README.md` for scraping conventions and `meta/agent-guide.md` for t
 ```
 index.md              <- start here: full repo map
 docs/                 <- GitHub Pages root (published outputs only)
-  llms-full.txt       <- all entries with YAML + descriptions
-  llms.txt            <- compact index (no descriptions)
+  llms.txt            <- root index: one line per source, links to the files below
+  llms-<source>.txt   <- compact per-source lists (parts under 100,000 chars)
+  llms-full-<source>.txt <- per-source files with descriptions
+  llms-full.txt       <- all entries with YAML + descriptions in one self-contained file
   data.json           <- structured JSON for web UI + MCP worker
   index.html          <- human-facing search interface
   tags/               <- per-tag index files (generated)

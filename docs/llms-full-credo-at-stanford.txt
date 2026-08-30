@@ -1,0 +1,339 @@
+# Renaissance AI and Education Resource Hub — CREDO at Stanford (full)
+# 16 entries with descriptions | Last updated: 2026-08-30
+# Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-credo-at-stanford.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+
+---
+
+### 916. The Impact of Rhode Island's Charter School Performance Review System
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/rhode-island-2025/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal, meta-analysis]
+```
+
+CREDO at Stanford conducted this research at the request of the Rhode Island Department of Education to examine how the state's charter school landscape changed following implementation of the 2017 updated Charter School Performance Review System. The study addresses how the new performance framework was developed and implemented, how it changed the charter school authorization process and quality standards, and what impact it had on the performance and quality of charter schools in Rhode Island.
+
+---
+
+---
+
+### 917. National Charter School Study III
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/national-charter-school-study-iii/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal]
+```
+
+The National Charter School Study III is CREDO's third major national examination comparing the academic progress of students enrolled in charter schools with the progress of students enrolled in traditional public schools. Published in 2023, the study employs CREDO's established empirical evaluation methods to assess education reform initiatives and student performance outcomes at primary and secondary levels, and is presented in an interactive digital format alongside downloadable full report documents.
+
+---
+
+---
+
+### 918. Houston – 2022 City Studies
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/houston-tx-2022/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, longitudinal]
+```
+
+This CREDO report examines academic performance in public K-12 schools in Houston, Texas by analyzing one-year learning gains students made between school years during the 2018-19 growth period. The study compares Houston students' progress against state averages across charter, magnet, and district schools and disaggregates findings by school sector, race/ethnicity, poverty status, English Language Learner status, special education status, and gender. Houston charter school students—including Black and Hispanic subgroups—generally outperformed state averages in both reading and mathematics.
+
+---
+
+---
+
+### 919. Newark – 2022 City Studies
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/newark-nj-2022/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, longitudinal]
+```
+
+This CREDO research report examines academic performance in Newark, New Jersey's public K-12 schools during the 2018-19 school year by measuring one-year learning gains and comparing results against state averages across charter, magnet, and district school sectors. Newark students demonstrated stronger math growth than the state average, and Black and Hispanic students in Newark charter schools showed notably stronger gains in both subjects compared to state peers. Findings are disaggregated by school sector, charter management structure, race/ethnicity, and student population including economically disadvantaged, English Language Learners, and special education students.
+
+---
+
+---
+
+### 920. Fort Worth – 2022 City Studies
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/fort-worth-tx-2022/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, longitudinal]
+```
+
+This CREDO report analyzes public K-12 school performance in Fort Worth, Texas during the 2018-19 growth period by measuring one-year learning gains and benchmarking results against state averages. Students overall demonstrated weaker learning gains in reading and similar gains in math compared to the state average, with charter schools outperforming district schools in reading. Findings are disaggregated by race/ethnicity, poverty status, English Language Learner status, special education status, and gender, with English Language Learners in charter schools outperforming both state and district counterparts in reading.
+
+---
+
+---
+
+### 921. Austin – 2022 City Studies
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/austin-tx-2022/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, longitudinal]
+```
+
+CREDO at Stanford conducted a comprehensive analysis of public school performance in Austin, Texas during the 2018-19 academic period, examining one-year learning gains across charter and district schools and benchmarking against state averages. Austin students demonstrated stronger academic progress in both reading and mathematics compared to statewide averages, with Charter Management Organization-affiliated charter schools outpacing state performance in both subjects. Findings are disaggregated by race/ethnicity, socioeconomic status, English Language Learner status, disability status, and gender.
+
+---
+
+---
+
+### 922. City Studies: Project Meta-Analysis
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/city-studies-project-meta-analysis/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, meta-analysis]
+```
+
+CREDO at Stanford's City Studies Project Meta-Analysis provides periodic reports of academic performance for public K-12 schools across selected cities in the United States, offering a foundation for informed evaluation and constructive discussion among stakeholders invested in public education. The project covers two cohorts: Cohort 1 includes ten urban centers (Baton Rouge, Camden, Washington D.C., Denver, Indianapolis, Kansas City, Memphis, New Orleans, San Antonio, and St. Louis) and Cohort 2 covers Austin, Fort Worth, Houston, and Newark. Meta-analysis PDFs are available for both cohorts alongside individual city reports.
+
+---
+
+---
+
+### 923. 2023 Pace of Learning Report
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/2023-pace-of-learning-report/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal, meta-analysis, personalized-learning]
+```
+
+This CREDO report examines solutions to pandemic-related learning losses in K-12 education, presenting a meta-analysis covering sixteen states and offering empirically grounded estimates for student learning recovery. The analysis argues that conventional interventions focused solely on increased instructional time fail to account for individual student learning rates and their variability, and that addressing the pace of learning itself offers greater potential than simply extending teaching time. National Assessment of Educational Progress results showed regression comparable to pre-NCLB performance levels, underscoring the severity of learning loss across many communities.
+
+---
+
+---
+
+### 924. Charter School Performance in Rhode Island – 2023
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/charter-school-performance-in-rhode-island-2023/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal]
+```
+
+Published in January 2023, this CREDO analysis examines charter school performance in Rhode Island, serving as a benchmark study during the COVID-19 recovery period. The report includes student demographic descriptions, achievement trajectories for charter school students, and charter school impact assessments covering the full sample, school level breakdowns, school quality curve analysis, and findings disaggregated by student subgroups. The findings are intended to establish a foundation for future studies in charter school evaluation and performance measurement within Rhode Island's education system.
+
+---
+
+---
+
+### 2432. Charter Schools’ Response to the Pandemic in California, New York and Washington State
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/charter-schools-response-to-the-pandemic-in-california-new-york-and-washington-state/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-06-04
+doi: null
+license: null
+tags: []
+```
+
+Charter schools in California, New York, and Washington state show standing capacity to adapt. New research on charter schools’ reveals a larger story of how education policy at large...
+
+---
+
+---
+
+### 2433. NY charter schools: Remote instruction during the COVID crisis (spring 2020)
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/report-3/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-06-04
+doi: null
+license: null
+tags: []
+```
+
+New York State charter schools adjusted rapidly to remote learning Download Full Report Press Release
+
+---
+
+---
+
+### 2434. Charter School Performance in the State of Washington
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/charter-school-performance-in-the-state-of-washington-2/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-06-04
+doi: null
+license: null
+tags: [english-learners]
+```
+
+Washington’s charter schools a plus for English language learners but neutral on average for most students.
+
+---
+
+---
+
+### 2435. Charter School Performance in South Carolina 2019
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/charter-school-performance-in-south-carolina-2019-2/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-06-04
+doi: null
+license: null
+tags: [literacy, math-education]
+```
+
+Charter school students on average fall behind peers in math 1. The typical charter school student in South Carolina experienced similar learning gains in reading and weaker growth in...
+
+---
+
+---
+
+### 2436. Charter School Performance in New Mexico
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/charter-school-performance-in-new-mexico-2/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-06-04
+doi: null
+license: null
+tags: []
+```
+
+Charter schools on average improve to the level of traditional public schools Full Report
+
+---
+
+---
+
+### 2437. Charter School Performance in Pennsylvania
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/charter-school-performance-in-pennsylvania-2/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-06-04
+doi: null
+license: null
+tags: [computer-assisted-learning]
+```
+
+Online charters serve students poorly compared to other schools
+
+---
+
+---
+
+### 2438. Charter School Impacts in Idaho
+
+```yaml
+url: "https://credo.stanford.edu/reports/item/charter-school-impacts-in-idaho-2/"
+type: report
+source: "CREDO at Stanford"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-06-04
+doi: null
+license: null
+tags: []
+```
+
+Idaho charter school successes particularly notable in rural areas
+
+---

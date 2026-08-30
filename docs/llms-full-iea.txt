@@ -1,0 +1,234 @@
+# Renaissance AI and Education Resource Hub — IEA (full)
+# 11 entries with descriptions | Last updated: 2026-08-30
+# Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-iea.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+
+---
+
+### 399. TIMSS — Trends in International Mathematics and Science Study (Databases)
+
+```yaml
+url: "https://timssandpirls.bc.edu/databases-landing.html"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [k-12, math-education, open-datasets]
+```
+
+The TIMSS and PIRLS International Databases are publicly available to researchers, analysts, and anyone interested in improving education, with the aim of supporting broad use of the data. The databases include student mathematics, science, and reading achievement data as well as student, parent, teacher, school, and curricular background data for all participating countries across multiple assessment cycles. A public use version of the datasets is available for download, covering TIMSS cycles from 1995 through 2023 and TIMSS Advanced assessments.
+
+---
+
+---
+
+### 400. PIRLS 2021 — Progress in International Reading Literacy Study (International Database)
+
+```yaml
+url: "https://timssandpirls.bc.edu/pirls2021/international-database/"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [k-12, literacy, open-datasets]
+```
+
+The PIRLS 2021 International Database includes student reading achievement data and student, home, teacher, school, and national context data for 57 countries and 8 benchmarking participants, representing the fifth PIRLS cycle since 2001 and 20 years of trend data at the fourth grade. Because data collection occurred during COVID-19 school disruptions, the database provides a uniquely rich source for researching pandemic impacts on teaching and learning reading. Data are available in R, SPSS, and SAS formats along with codebooks, item parameters, almanacs, and analysis programs; a restricted-use version is also available through the IEA Study Data Repository for variables removed from the public release.
+
+---
+
+---
+
+### 437. International Civic and Citizenship Education Study (ICCS)
+
+```yaml
+url: "https://www.iea.nl/studies/iea/iccs"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, longitudinal, open-datasets]
+```
+
+ICCS is the largest international study dedicated to civic and citizenship education, assessing Grade 8 students' civic knowledge, beliefs, attitudes, and behaviors related to democratic participation. The study also collects contextual data on curriculum, teaching practices, and school climate, with cycles in 2009, 2016, and 2022, and a fully digital 2027 cycle in progress. ICCS data serve as the primary evidence source for UN Sustainable Development Goal indicator 4.7.4 on global citizenship understanding.
+
+---
+
+---
+
+### 438. International Computer and Information Literacy Study (ICILS)
+
+```yaml
+url: "https://www.iea.nl/studies/iea/icils"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [digital-learning-platforms, k-12, longitudinal, open-datasets]
+```
+
+ICILS measures how well Grade 8 students across multiple educational systems are prepared for study, work, and life in a digital world, assessing computer and information literacy (CIL) including the knowledge and skills needed to use technology for investigation, creation, and communication. The study has run in 2013, 2018, and 2023 cycles, with a 2028 cycle currently underway, and supports monitoring of UN SDG targets and EU education priorities. Contextual data on students' home and school technology environments are collected alongside achievement scores.
+
+---
+
+---
+
+### 439. Teacher Education and Development Study in Mathematics (TEDS-M)
+
+```yaml
+url: "https://www.iea.nl/data-tools/repository/tedsm"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [math-education, open-datasets, professional-development]
+```
+
+TEDS-M examined teacher education programs and their role in developing mathematics instruction capacity, with data collection conducted in 2007-08 across 17 countries. The dataset is maintained by the IEA Research and Analysis Unit and remains publicly available for researcher access upon completion of a nondisclosure and user agreement, given the sensitive nature of participant data. The study is citable via DOI (https://doi.org/10.58150/IEA_TEDS-M_2008) and is actively used in teacher education research; documentation is available through the User Guide for the TEDS-M 2008 International Database.
+
+---
+
+---
+
+### 440. Responses to Educational Disruption Survey (REDS)
+
+```yaml
+url: "https://www.iea.nl/data-tools/repository/REDS"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, longitudinal, open-datasets]
+```
+
+REDS examined the impact of the COVID-19 pandemic on lower secondary education (Grade 8) across 11 nations including Burkina Faso, Denmark, Ethiopia, India, Kenya, Rwanda, Slovenia, the UAE, Uruguay, and Uzbekistan, with data collected between December 2020 and July 2021. The survey gathered internationally comparable responses from 21,063 students, 15,004 teachers, and 1,581 school principals, enabling cross-national analysis of pandemic-related educational disruption. The dataset is available in SAS and SPSS formats through the IEA Data Repository and is citable via DOI (https://doi.org/10.58150/REDS_2021_data).
+
+---
+
+---
+
+### 445. Literacy and Numeracy Assessment (LaNA)
+
+```yaml
+url: "https://www.iea.nl/studies/iea/LaNA"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [early-childhood, k-12, literacy, math-education, open-datasets]
+```
+
+LaNA is an international assessment of emerging mathematics and reading comprehension skills at the end of primary school (grades 4–6 depending on context), designed for countries that need timely, reliable, nationally representative, and internationally comparable education data. It is grounded in and linked to TIMSS and PIRLS, using the same benchmarks to track progress toward SDG Indicator 4.1.1b. The study collects contextual information about resources, learning experiences, and school environments alongside achievement data. Six countries have administered LaNA: Burkina Faso, Egypt, Nigeria, Pakistan, Palestinian National Authority, and Senegal, with earlier pilots in Haiti, North Macedonia, Punjab (Pakistan), and Serbia. Initial administrations occurred in 2016–2020 (pilots) and 2023 (linking study).
+
+---
+
+---
+
+### 446. TIMSS Advanced
+
+```yaml
+url: "https://www.iea.nl/data-tools/repository/timssadvanced"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, longitudinal, math-education, open-datasets]
+```
+
+TIMSS Advanced assesses students in their final year of secondary school who are enrolled in advanced mathematics and physics programs. It is the only international assessment measuring student readiness for university-level STEM studies, gathering policy-relevant data on curriculum emphasis, technology use, and teacher preparation to support education reform and STEM policy planning. Data from three cycles are available through the IEA repository in SAS and SPSS formats: 1995, 2008, and 2015. Each dataset is assigned a DOI for citation purposes.
+
+---
+
+---
+
+### 447. TIMSS Longitudinal
+
+```yaml
+url: "https://www.iea.nl/data-tools/repository/timsslongitudinal"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, longitudinal, math-education, open-datasets]
+```
+
+TIMSS Longitudinal is an optional extension of TIMSS 2023 that measures student learning gains over one year of schooling by assessing the same cohort at two points in time. It targets students in grades 4–5 and grades 8–9, capturing growth in mathematics and science achievement across a critical schooling period. Data from the 2023 and 2024 collections are publicly available in SAS, SPSS, and R formats through the IEA data repository, with DOI citations provided for academic use.
+
+---
+
+---
+
+### 448. CIVED — Civic Education Study
+
+```yaml
+url: "https://www.iea.nl/data-tools/repository/cived"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, open-datasets]
+```
+
+CIVED was an international assessment covering the content domains of democracy and citizenship, national identity, and social cohesion and diversity. Described as the largest and most rigorous study of civic education conducted internationally at the time, it assessed students at grades 8 and 12. Phase 1 of the study ran from 1996–1997 and Phase 2 from 1999–2000. Datasets for the 1999 assessment cycles at both grade levels are publicly available in SAS and SPSS formats through the IEA data repository. CIVED is the predecessor to ICCS, which continues civic education measurement in subsequent cycles.
+
+---
+
+---
+
+### 449. IELS — International Early Learning and Child Well-being Study
+
+```yaml
+url: "https://www.iea.nl/studies/additional/IELS"
+type: dataset
+source: "IEA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [early-childhood, open-datasets]
+```
+
+IELS is the first international large-scale assessment focused on five-year-old children, examining early learning, home background and learning environments, and experiences in early childhood education. It measures both cognitive domains (emergent numeracy and literacy) and non-cognitive domains (self-regulation and empathy) through tablet-based one-to-one sessions with audio recordings. The first cycle was completed in 2018 in three countries; a second cycle, IELS 2024, is currently underway. The study is coordinated by the OECD Secretariat with a consortium led by the Australian Council for Educational Research, including IEA and cApStAn as partners.
+
+---

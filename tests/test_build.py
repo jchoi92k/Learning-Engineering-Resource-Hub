@@ -1,0 +1,54 @@
+"""Tests for the llms.txt index builders in scripts/build_from_db.py.
+
+Run: python -m pytest tests/ -q
+"""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+
+from build_from_db import INDEX_CHAR_LIMIT, OTHER_SLUG, compact_line, group_by_source, source_slug, split_lines  # noqa: E402
+
+
+def entry(num, source, title="T", tags=None):
+    return {"num": num, "source": source, "title": title, "url": f"https://x.org/{num}", "type": "report",
+            "tags": tags or ["k-12"], "desc": "d", "url_confirmed": 1, "description_inferred": 0,
+            "doi": None, "license": None, "date_added": "2026-01-01", "description_source": "listing"}
+
+
+def test_source_slug():
+    assert source_slug("What Works Clearinghouse") == "what-works-clearinghouse"
+    assert source_slug("National Center for Education Statistics (NCES)") == "national-center-for-education-statistics-nces"
+    assert source_slug("U.S. Department of Education") == "u-s-department-of-education"
+
+
+def test_split_lines_respects_limit_and_order():
+    lines = [f"line-{i:04d}-" + "x" * 90 for i in range(50)]   # ~100 chars each
+    parts = split_lines(lines, header_chars=100, limit=1000)
+    assert [ln for part in parts for ln in part] == lines
+    for part in parts:
+        assert 100 + sum(len(ln) + 1 for ln in part) <= 1000
+    assert len(parts) == 7   # 8 lines fit per part under the limit
+
+
+def test_split_lines_single_part_when_small():
+    assert split_lines(["a", "b"], 10, limit=INDEX_CHAR_LIMIT) == [["a", "b"]]
+
+
+def test_group_by_source_puts_small_sources_together():
+    entries = [entry(i, "Big") for i in range(1, 13)] + [entry(20, "Tiny A"), entry(21, "Tiny B"), entry(22, "Tiny A")]
+    groups = group_by_source(entries, per_source_min=10)
+    assert [g[0] for g in groups] == ["big", OTHER_SLUG]
+    assert len(groups[0][2]) == 12
+    other = groups[1][2]
+    assert [e["num"] for e in other] == [20, 22, 21]       # sorted by source name, then num
+    assert "2 organizations" in groups[1][1]
+
+
+def test_group_by_source_orders_largest_first():
+    entries = [entry(i, "A") for i in range(1, 11)] + [entry(i, "B") for i in range(11, 31)]
+    assert [g[0] for g in group_by_source(entries, per_source_min=10)] == ["b", "a"]
+
+
+def test_compact_line_shape():
+    assert compact_line(entry(7, "S", "Title", ["rct", "k-12"])) == "- 7. [Title](https://x.org/7) | report | rct, k-12"

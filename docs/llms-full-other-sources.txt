@@ -1,0 +1,1494 @@
+# Renaissance AI and Education Resource Hub — Other sources (30 organizations) (full)
+# 71 entries with descriptions | Last updated: 2026-08-30
+# Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-other-sources.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+
+---
+
+### 566. ADL xAPI Wrapper
+
+```yaml
+url: "https://github.com/adlnet/xAPIWrapper"
+type: code
+source: "ADL Initiative"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [digital-learning-platforms, learning-engineering]
+```
+
+Official JavaScript client library from the Advanced Distributed Learning Initiative (U.S. Department of Defense) for communicating with xAPI-compliant Learning Record Stores. Handles statement creation, activity states, agent profiles, attachments, and authentication. 223 stars, Apache 2.0 license.
+
+---
+
+---
+
+### 567. ADL Learning Record Store
+
+```yaml
+url: "https://github.com/adlnet/ADL_LRS"
+type: code
+source: "ADL Initiative"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [data-sharing, digital-learning-platforms, learning-engineering]
+```
+
+Open-source reference implementation of a Learning Record Store for storing xAPI learning data, updated to align with IEEE 9274.1.1 (xAPI 2.0). Built in Python with Docker support, OAuth integration, and Nginx/uWSGI deployment options. 331 stars, Apache 2.0 license.
+
+---
+
+---
+
+### 560. FAB-AI Pedagogy Benchmark Leaderboard
+
+```yaml
+url: "https://www.fab-ai.org/initiatives/ai-for-education/edtech-quality/benchmarks"
+type: platform
+source: "AI-for-Education.org"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [higher-ed, learning-engineering]
+```
+
+Pedagogy benchmark leaderboard evaluating 220+ AI models from OpenAI, Anthropic, Google, Meta, and others on education tasks for low- and middle-income countries. Includes downloadable CSV results, a quality assurance facility, and task-specific AI evaluation capabilities. Maintained by FAB-AI through their AI-for-Education.org initiative.
+
+---
+
+---
+
+### 1173. Why Expert Advising Matters for College Access
+
+```yaml
+url: "https://www.brookings.edu/articles/why-expert-advising-matters-for-college-access/"
+type: article
+source: "Brookings Institution (Brown Center on Education Policy)"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [coaching, college-access, higher-ed]
+```
+
+This Brown Center on Education Policy article evaluates Tennessee's Advise TN program, a statewide college advising initiative that increased college enrollment by approximately 4 percentage points overall, with particularly strong results among Hispanic students and those in rural schools. The effectiveness stems from specialized advisors providing intensive, hands-on support with concrete tasks like FAFSA completion and college applications rather than general counseling. Published May 11, 2026, the research highlights how expert, task-specific college advising can drive meaningful improvements in post-secondary access.
+
+---
+
+---
+
+### 10. CAST Universal Design for Learning Guidelines 3.0
+
+```yaml
+url: "https://udlguidelines.cast.org"
+type: framework
+source: "CAST"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [cognitive-science, inclusive-design, k-12, learning-engineering]
+```
+
+Released July 30, 2024. Organization: CAST. An educational framework "based on scientific insights into how humans learn" designed as "a tool that can be applied in any discipline or domain to ensure that all learners are able to access and participate in meaningful, challenging learning opportunities." Version 3.0 specifically addresses "critical barriers rooted in biases and systems of exclusion for learners with and without disabilities." Three design principles: Engagement, Representation, and Action & Expression. Overarching goal: learner agency that is "purposeful & reflective, resourceful & authentic, strategic & action-oriented." Downloadable PDF available in 20+ languages. Audience: educators, curriculum developers, learning and instructional designers, researchers, parents.
+
+---
+
+---
+
+### 15. EMERALDS: Preparation for Success in Algebra
+
+```yaml
+url: "https://achievethecore.org/page/3367/preparation-for-success-in-algebra-exploring-math-education-relationships-by-analyzing-large-data-sets-emeralds"
+type: report
+source: "Carnegie Mellon University / Educational Testing Service"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [carnegie-learning, cmu-learnlab, k-12, learning-engineering, longitudinal, math-education, math-strategies]
+```
+
+Published June 2021. Principal Investigator: David C. Geary (University of Missouri). Institutions: Human-Computer Interaction Institute at Carnegie Mellon University and Educational Testing Service. "One of the largest longitudinal assessments of what mathematics prepares students for success in Algebra" — uses anonymized large-scale data to identify mathematical competencies in earlier grades that form critical foundations for algebraic success, with particular focus on historically underserved student populations. Report hosted at Achieve the Core; full report linked from that page.
+
+---
+
+---
+
+### 144. CASEL SEL Framework
+
+```yaml
+url: "https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/"
+type: framework
+source: "Collaborative for Academic, Social, and Emotional Learning (CASEL)"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [casel, inclusive-design, k-12, learning-engineering, sel]
+```
+
+CASEL framework (updated 2020) defining the five core social-emotional competencies — self-awareness, self-management, social awareness, relationship skills, and responsible decision-making — and their implementation across four settings: classrooms, schools, families and caregivers, and communities. The 2020 update strengthened the framework's equity orientation, emphasizing SEL's potential in promoting educational equity and excellence and its adaptability to local cultural contexts.
+
+---
+
+---
+
+### 410. Duolingo Shared Task on Second Language Acquisition Modeling (SLAM)
+
+```yaml
+url: "https://sharedtask.duolingo.com/2018.html"
+type: dataset
+source: "Duolingo"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [duolingo, english-learners, learning-engineering, longitudinal, nlp, open-datasets]
+```
+
+The 2018 Duolingo Shared Task on Second Language Acquisition Modeling (SLAM) provided participating teams with transcripts from millions of exercises completed by thousands of Duolingo learners over their first 30 days of study, annotated at the token level for mistakes, with the task of predicting future learner errors. Three tracks covered learners of English, Spanish, and French, enabling research into personalized adaptive SLA modeling and language forgetting over time; 15 teams participated and the best systems improved upon a logistic regression baseline by 12%. The task was conducted in conjunction with the 13th BEA Workshop and NAACL-HLT 2018.
+
+---
+
+---
+
+### 450. Duolingo Student Learning Traces (Spaced Repetition / Half-Life Regression)
+
+```yaml
+url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/N8XJME"
+type: dataset
+source: "Duolingo"
+url_confirmed: false
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-learning-platforms, duolingo, english-learners, learning-engineering, longitudinal, nlp, open-datasets]
+```
+
+A dataset of 13 million student learning traces from Duolingo, capturing vocabulary practice sessions across multiple language pairs. Released alongside the paper "A Trainable Spaced Repetition Model for Language Learning" (Settles & Meeder, ACL 2016), which introduced the half-life regression algorithm for modeling memory decay. Each record represents a single lesson or practice session and includes recall accuracy, timing, student and language identifiers, and word-level history of exposures and correct answers (12 columns total). The dataset is available as a 361 MB gzipped CSV and is hosted on Harvard Dataverse. Code is available at https://github.com/duolingo/halflife-regression. Descriptions sourced from research.duolingo.com and the GitHub repository README.
+
+---
+
+---
+
+### 562. MathTutorBench
+
+```yaml
+url: "https://eth-lre.github.io/mathtutorbench/"
+type: platform
+source: "ETH Zurich"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [genai, intelligent-tutoring, math-education]
+```
+
+Benchmark assessing open-ended pedagogical capabilities of LLM tutors in mathematics through seven tasks organized around three teacher competencies: problem solving, Socratic questioning, and solution correctness evaluation. Published as an EMNLP 2025 Oral paper. Key finding: subject-matter expertise does not translate to effective teaching. Code, data, and a pedagogical reward model are openly available under CC BY 4.0.
+
+---
+
+---
+
+### 403. Opportunity Insights — Education and Mobility Data Library
+
+```yaml
+url: "https://opportunityinsights.org/data/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [college-access, higher-ed, k-12, longitudinal, open-datasets]
+```
+
+Opportunity Insights publishes a publicly available data library of datasets produced alongside its research studies, enabling other researchers and practitioners to analyze social mobility, education, life expectancy, patent rates, and other outcomes by neighborhood, college, parental income level, and racial background. Datasets are provided in CSV and Stata formats with codebooks and replication code, and cover topics including college-level data for 139 selective American colleges, social capital by county, student loan balances, and cohort-level trends in outcomes from 1978 to 1992 birth cohorts. Users can filter the library by geographic level, topic, and paper title, and contact the team for technical assistance.
+
+---
+
+---
+
+### 476. Opportunity Atlas — Neighborhood-Level Economic Mobility Data
+
+```yaml
+url: "https://opportunityinsights.org/paper/the-opportunity-atlas/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, higher-ed, k-12, longitudinal, open-datasets]
+```
+
+A publicly available dataset built from anonymized longitudinal records covering nearly the entire U.S. population, tracking outcomes for children from the 1984–1989 birth cohorts (measured at approximately age 35) by Census tract, county, commuting zone, and national level. Measures include household income, incarceration rates, and neighborhood characteristics, all stratified by parental income percentile, race, and gender. Data files are downloadable in Stata and Excel formats from the Opportunity Insights website, with a full replication package on Harvard Dataverse (DOI: 10.7910/DVN/NALG3E) and an interactive tool at opportunityatlas.org.
+
+---
+
+---
+
+### 477. Mobility Report Cards — College-Level Economic Mobility Data
+
+```yaml
+url: "https://opportunityinsights.org/paper/undermatching/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, higher-ed, longitudinal, open-datasets]
+```
+
+A comprehensive college-level dataset linking anonymized federal administrative records to measure income mobility at U.S. colleges, including students' earnings in their thirties, parents' income levels, ACT/SAT scores, and IPEDS/College Scorecard institution characteristics across multiple birth cohorts. The data enable analysis of which colleges function as engines of economic mobility and at what rates, enabling comparisons of mobility rates and access patterns by income quintile. Individual data tables (15 in total) are available in Stata and Excel formats, with a full replication package on Harvard Dataverse; an interactive New York Times visualization also accompanies the release.
+
+---
+
+---
+
+### 478. College-Level Data for 139 Selective American Colleges
+
+```yaml
+url: "https://opportunityinsights.org/paper/collegeadmissions/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, higher-ed, longitudinal, open-datasets]
+```
+
+A dataset covering 139 selective U.S. colleges, linking anonymized admissions records with income tax data and SAT/ACT scores to analyze the determinants of admission and the causal effects of attendance on socioeconomic outcomes. The data support analysis of how parental income influences admission rates at elite institutions and the downstream earnings consequences of attending selective versus non-selective colleges. Freely available in CSV and Stata formats with an accompanying codebook; an interactive New York Times visualization ("How Income Influences College Attendance") accompanies the release.
+
+---
+
+---
+
+### 479. Social Capital Atlas — County, ZIP, High School, and College Data
+
+```yaml
+url: "https://opportunityinsights.org/paper/social-capital-i-measurement-and-associations-with-economic-mobility/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, higher-ed, k-12, open-datasets]
+```
+
+A dataset measuring three dimensions of social capital — economic connectedness between high- and low-SES individuals, social cohesion (clique formation in friendship networks), and civic engagement (volunteering rates) — derived from analysis of 21 billion Facebook friendships. Data are available at the county, ZIP code, high school, and college levels, including a 100×100 friending-rate matrix across socioeconomic groups, enabling research on which communities provide cross-class social ties that support upward income mobility. All files are freely downloadable in CSV format from opportunityinsights.org/data/ with an interactive Social Capital Atlas at socialcapital.org.
+
+---
+
+---
+
+### 480. Who Becomes an Inventor — Innovation Rates by Childhood Location and Demographics
+
+```yaml
+url: "https://opportunityinsights.org/paper/losteinsteins/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [higher-ed, k-12, longitudinal, open-datasets]
+```
+
+A dataset tracking more than one million U.S. inventors by linking patent records to tax records and school district records, providing innovation rates organized by childhood commuting zone and state, gender, parental income quintile, educational institution attended, and career trajectory including income distributions. The data reveal that children from high-income families are significantly more likely to become inventors, largely due to exposure to innovation rather than innate ability — the so-called "lost Einsteins" phenomenon. Available in Stata, Excel, and README formats as individual tables and a bundled ZIP, with a full replication package on Harvard Dataverse.
+
+---
+
+---
+
+### 481. Race and Economic Opportunity — Intergenerational Mobility by Race
+
+```yaml
+url: "https://opportunityinsights.org/paper/race/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, higher-ed, k-12, longitudinal, open-datasets]
+```
+
+A dataset derived from de-identified longitudinal records covering nearly the entire U.S. population from 1989 to 2015, measuring intergenerational income mobility and related outcomes disaggregated by race, gender, and parental income percentile at the national, commuting zone, and county levels. Data tables include national statistics by parent income percentile and race, income transition matrices, and estimates for second-generation immigrants by country of origin, as well as intergenerational educational attainment matrices. Files are downloadable in Stata and Excel formats; a full replication package is available on GitHub and Harvard Dataverse.
+
+---
+
+---
+
+### 482. Changing Opportunity — County and Commuting Zone Trend Data (1978–1992 Cohorts)
+
+```yaml
+url: "https://opportunityinsights.org/paper/changingopportunity/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [higher-ed, k-12, longitudinal, open-datasets]
+```
+
+A dataset covering birth cohorts from 1978 to 1992 at the county, commuting zone, and national levels, tracking trends in earnings, educational attainment, standardized test scores, and mortality rates by parental income, race, and gender over time. The data document growing class gaps and shrinking race gaps in economic opportunity across these cohorts and include a crosswalk converting income percentiles to 2023 dollars. All tables are freely downloadable in CSV and Stata formats with PDF codebooks from the Opportunity Insights website.
+
+---
+
+---
+
+### 483. Geography of Intergenerational Mobility — Commuting Zone and County Data
+
+```yaml
+url: "https://opportunityinsights.org/paper/land-of-opportunity/"
+type: dataset
+source: "Harvard University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, higher-ed, k-12, longitudinal, open-datasets]
+```
+
+A foundational dataset analyzing intergenerational income mobility using administrative records from more than 40 million children and their parents, covering commuting zones, counties, and metropolitan statistical areas across the United States. In addition to mobility statistics and income transition matrices, the dataset includes community characteristics correlated with upward mobility — school quality, segregation levels, income inequality, social capital, and family stability — supporting causal analysis of place effects on children's outcomes. Data are available in Excel and Stata formats (10 online tables) with a bundled replication package; full dataset on Harvard Dataverse (DOI: 10.7910/DVN/NALG3E).
+
+---
+
+---
+
+### 402. ICPSR — Education Research Studies
+
+```yaml
+url: "https://www.icpsr.umich.edu/web/ICPSR/search/studies?q=education&ARCHIVE=ICPSR&PUBLISH_STATUS=PUBLISHED"
+type: dataset
+source: "ICPSR (U. Michigan)"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [data-sharing, higher-ed, k-12, open-datasets]
+```
+
+ICPSR's searchable archive contains over 11,000 published education-related studies, spanning topics from early childhood and K-12 schooling to higher education finance, adult education, and special education. Studies are contributed by investigators across government agencies and universities and are available with associated variables (87,000+), series (309), and data-related publications (7,800+). The archive supports filtering by subject terms, geography, restriction type, data format, collection method, and funding agency, enabling targeted access to replication data and primary survey datasets.
+
+---
+
+---
+
+### 453. National Longitudinal Study of Adolescent to Adult Health (Add Health), 1994–2025
+
+```yaml
+url: "https://www.icpsr.umich.edu/web/ICPSR/studies/21600"
+type: dataset
+source: "ICPSR (U. Michigan)"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [higher-ed, k-12, longitudinal, open-datasets]
+```
+
+Add Health is a nationally representative longitudinal panel study tracking a cohort of U.S. adolescents from grades 7–12 (1994–95) through early midlife, with data collection across six waves extending to 2025 when participants were ages 39–51. The study combines survey data on social, economic, psychological, and physical well-being with rich contextual information on families, schools, neighborhoods, and peer and romantic relationships; later waves add biospecimens, physical measurements, and comprehensive life history data. It is one of the largest and most widely cited longitudinal datasets in U.S. education and adolescent development research, supporting studies of school transitions, educational attainment, and long-term health and socioeconomic outcomes.
+
+---
+
+---
+
+### 552. ALTER-Math: AI-augmented Learning by Teaching to Enhance and Renovate Math Learning
+
+```yaml
+url: "https://learning-engineering-virtual-institute.org/teams/alter-math/"
+type: platform
+source: "LEVI Math"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [genai, k-12, learning-engineering, math-education]
+```
+
+ALTER-Math is a platform that helps middle school students strengthen their math understanding by teaching an AI "student." As learners explain concepts, correct mistakes, and guide their virtual peer, they engage in a research-based educational approach that combines personalization, motivational strategies, and evidence-based feedback to make math learning more accessible and effective for all students.
+
+---
+
+---
+
+### 553. Khanmigo by Khan Academy
+
+```yaml
+url: "https://learning-engineering-virtual-institute.org/teams/khan-academy/"
+type: platform
+source: "LEVI Math"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [genai-tutoring, k-12, khan-academy, learning-engineering, math-education]
+```
+
+The Khan Academy LEVI team develops Khanmigo, an AI-powered tutoring system designed to help students practice math skills with personalized support and feedback. The platform addresses a critical gap in classrooms where students often lack sufficient practice opportunities and immediate guidance when they struggle. By combining AI tutoring with teacher insights and data, the team aims to significantly improve student math performance across early grades and middle school levels.
+
+---
+
+---
+
+### 554. PLUS Tutoring by Carnegie Mellon University
+
+```yaml
+url: "https://learning-engineering-virtual-institute.org/teams/carnegie-mellon-university/"
+type: platform
+source: "LEVI Math"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [intelligent-tutoring, k-12, learning-engineering, math-education]
+```
+
+PLUS (Personalized Learning Squared) Tutoring combines human tutors, student math software, and AI analytics to deliver targeted tutoring support during the school day. The platform analyzes student practice data to identify struggling students and allocate tutors strategically, reducing costs while maintaining one-on-one interaction. By focusing scarce human tutoring where it has the biggest impact, the system aims to scale high-quality instruction and improve equity in learning outcomes.
+
+---
+
+---
+
+### 555. Eedi: Misconceptions Map
+
+```yaml
+url: "https://learning-engineering-virtual-institute.org/teams/eedi/"
+type: platform
+source: "LEVI Math"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [k-12, learning-engineering, math-education, personalized-learning]
+```
+
+Eedi develops an AI-powered "Misconceptions Map" that analyzes student math errors to identify root conceptual gaps and predict future learning struggles. The system uses a knowledge graph to track how math concepts interconnect, recommending personalized learning steps for each student. A randomized controlled trial involving 3,000 students across 20 schools demonstrated that using Eedi led to 2-4 months of additional learning gain in an academic year.
+
+---
+
+---
+
+### 556. MATHstream by Carnegie Learning
+
+```yaml
+url: "https://learning-engineering-virtual-institute.org/teams/carnegie-learning/"
+type: platform
+source: "LEVI Math"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [carnegie-learning, genai, k-12, learning-engineering, math-education]
+```
+
+MATHstream is an interactive, adaptive live-video platform that pairs middle school students with expert instructors for real-time math problem-solving. The system incorporates generative AI supports for audio, video, and text chat to help students recover missed learning and build math proficiency, while also assisting teachers with lesson preparation and professional development. Districts in Massachusetts and Texas demonstrated significant gains, with students completing just 3-5 sessions achieving notable score improvements on state assessments.
+
+---
+
+---
+
+### 557. HAT: Hybrid Human-Agent Tutoring
+
+```yaml
+url: "https://learning-engineering-virtual-institute.org/teams/university-of-colorado-boulder/"
+type: platform
+source: "LEVI Math"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [intelligent-tutoring, k-12, learning-engineering, math-education]
+```
+
+HAT is an AI-powered platform developed by the University of Colorado Boulder and Saga Education that analyzes small-group tutoring sessions to provide tutors with data-driven feedback on their discourse practices. The system helps scale high-impact human tutoring while maintaining quality by giving tutors specific and directed feedback to improve their instructional techniques and ultimately enhance student math achievement in Title 1 schools.
+
+---
+
+---
+
+### 558. Rori by Rising Academies
+
+```yaml
+url: "https://learning-engineering-virtual-institute.org/teams/rising-academy-network/"
+type: platform
+source: "LEVI Math"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [genai-tutoring, k-12, learning-engineering, math-education]
+```
+
+Rori is an AI-powered WhatsApp chatbot that delivers personalized math tutoring via conversational interactions. The platform uses natural language processing and machine learning to assess student ability and deliver scaffolded lessons across Grades 1-9, enabling learning gains for under $5 per student annually without requiring high-speed internet or advanced devices. Field testing in Ghana showed the platform more than doubled learning gains among approximately 500 students over six months.
+
+---
+
+---
+
+### 569. Learning Commons — AI Developer Tools for Education
+
+```yaml
+url: "https://docs.learningcommons.org/"
+type: platform
+source: "Learning Commons"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [digital-learning-platforms, genai, learning-engineering]
+```
+
+Open developer platform providing research-backed resources for building instructionally grounded AI products. Offers a Knowledge Graph API combining curriculum data, academic standards, and learning science research, plus Evaluators for assessing AI-generated educational content quality (literacy, vocabulary, grade-level appropriateness). Includes MCP server integration, playground environments, and alignment with Illustrative Math curriculum.
+
+---
+
+---
+
+### 411. NBER Education Research Data
+
+```yaml
+url: "https://www.nber.org/research/data?page=1&perPage=50&q=education"
+type: dataset
+source: "NBER"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [higher-ed, k-12, longitudinal, open-datasets]
+```
+
+The NBER Public Use Data Archive is a repository of public-use economic, demographic, and enterprise datasets assembled to support NBER-affiliated researchers, including datasets relevant to education such as school district data, birth and natality records, and population survey files. Files are often reformatted for research convenience relative to original sources, and the archive also hosts data and code outputs from NBER research projects intended for replication. Researchers can request that the NBER host data or code from NBER-associated papers, projects, or grants via a formal submission process.
+
+---
+
+---
+
+### 487. Current Population Survey (CPS) Data at NBER
+
+```yaml
+url: "https://www.nber.org/research/data/current-population-survey-cps-data-nber"
+type: dataset
+source: "NBER"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [higher-ed, k-12, longitudinal, open-datasets]
+```
+
+The NBER's maintained archive of the U.S. Current Population Survey, the federal government's primary monthly survey of labor force participation and employment, spanning basic monthly data from 1976 to the present and CPS supplements from 1964 onward. The archive includes the Merged Outgoing Rotation Groups (MORG) files for earnings analysis, the Mare-Winship standardized subsets (1964–1992), and thematic supplement extracts covering schooling, fertility, immigration, and income — making it a key source for longitudinal analysis of educational attainment and its labor market returns. All files are freely downloadable from the NBER website with SAS, SPSS, and Stata data definition files and comprehensive methodology documentation.
+
+---
+
+---
+
+### 142. How People Learn: Brain, Mind, Experience, and School (Expanded Edition)
+
+```yaml
+url: "https://www.nationalacademies.org/read/9853/chapter/"
+type: report
+source: "National Academies of Sciences, Engineering, and Medicine"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, learning-engineering, nap]
+```
+
+National Research Council expanded edition report (2000) edited by Bransford, Brown, and Cocking synthesizing research on learning science across cognitive, developmental, and neuroscientific perspectives. Bridges theoretical findings with classroom practice by examining how expertise develops, how knowledge transfers, and how children acquire understanding. Provides evidence-based guidance for designing effective learning environments across history, mathematics, and science disciplines. Free online reading via National Academies Press.
+
+---
+
+---
+
+### 143. How People Learn II: Learners, Contexts, and Cultures
+
+```yaml
+url: "https://www.nationalacademies.org/publications/24783"
+type: report
+source: "National Academies of Sciences, Engineering, and Medicine"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [higher-ed, k-12, learning-engineering, nap]
+```
+
+National Academies consensus report (2018) chaired by Cora B. Marrett updating the influential 2000 How People Learn volume. Synthesizes findings from cognitive neuroscience, educational research, and learning technologies with emphasis on sociocultural and environmental factors shaping learning across the lifespan. Addresses learning from infancy through adulthood in both formal and informal settings. Free online reading via National Academies Press.
+
+---
+
+---
+
+### 397. National Student Clearinghouse Research Center
+
+```yaml
+url: "https://nscresearchcenter.org/"
+type: dataset
+source: "National Student Clearinghouse"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [college-access, dropout-prevention, higher-ed, longitudinal, open-datasets]
+```
+
+The National Student Clearinghouse Research Center publishes relevant, objective data on postsecondary metrics using enrollment and completion records from the majority of U.S. institutions, with publication series covering undergraduate degree earners, transfer outcomes, enrollment trends, persistence and retention, and high school benchmark data. Reports track cohort outcomes longitudinally—for example, reporting that the national 6-year college completion rate for fall 2019 starters was 61.1%—and provide comparisons by student demographics, institution type, and state. Data and reports guide policymakers and institutional leaders on issues of college access, transfer, and completion.
+
+---
+
+---
+
+### 484. NSC High School Benchmarks — Postsecondary Outcomes Data Appendix
+
+```yaml
+url: "https://nscresearchcenter.org/high-school-benchmarks/"
+type: dataset
+source: "National Student Clearinghouse"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, dropout-prevention, higher-ed, k-12, longitudinal, open-datasets]
+```
+
+An annually updated Excel data appendix accompanying the NSC High School Benchmarks report (13th edition in 2025), providing postsecondary enrollment, first-year persistence, and six-year credential completion rates for three high school graduating classes (2024, 2022, and 2018 respectively). Outcomes are disaggregated by high school characteristics including income level, minority enrollment percentage, and geographic locale, enabling comparisons between high- and low-poverty schools; for example, STEM completion rates ranged from 8.1% at high-poverty schools to 22.4% at low-poverty schools for the class of 2018. The 2025 data appendix is directly downloadable as an XLSX file from the report page, with prior-year appendices available back to at least 2022.
+
+---
+
+---
+
+### 485. NSC Some College, No Credential — National and State Outcomes Data
+
+```yaml
+url: "https://nscresearchcenter.org/some-college-no-credential/"
+type: dataset
+source: "National Student Clearinghouse"
+url_confirmed: true
+description_inferred: true
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, dropout-prevention, higher-ed, longitudinal, open-datasets]
+```
+
+Downloadable Excel appendices from the NSC Some College, No Credential (SCNC) annual report series, providing national and state-level data on the tens of millions of U.S. adults who left higher education without a postsecondary credential. The National/State Data appendix covers demographic profiles and state SCNC populations and outcomes; the National Outcomes Data appendix tracks re-enrollment rates, credential completion, and persistence across states and institutional sectors. Annual data are available for 2022, 2023, 2024, and 2025 in XLSX format, supplemented by interactive Tableau dashboards; historical reports extend back to 2014.
+
+---
+
+---
+
+### 398. PISA — Programme for International Student Assessment (Data)
+
+```yaml
+url: "https://www.oecd.org/pisa/data/"
+type: dataset
+source: "OECD"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [k-12, literacy, longitudinal, math-education, open-datasets]
+```
+
+The PISA database contains the full set of responses from individual students, school principals, and parents, available for download in SPSS and SAS formats across assessment cycles from 2000 to 2022. Designed for statisticians and professional researchers, the files include background questionnaires, codebooks, and compendia alongside analytical tools such as the PISA Education GPS for downloading full indicator sets and generating country profile reports. The OECD also provides the PISA Data Analysis Manual and IEA IDB Analyzer software to support accurate use of the complex survey methodology.
+
+---
+
+---
+
+### 412. TALIS — Teaching and Learning International Survey
+
+```yaml
+url: "https://www.oecd.org/education/talis/"
+type: dataset
+source: "OECD"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [k-12, longitudinal, open-datasets, professional-development]
+```
+
+TALIS is the world's largest international survey about teachers and school leaders. Since 2008, it has gathered information from teachers and school leaders about working conditions and learning environments in over 60 education systems. TALIS 2024 sampled approximately 280,000 teachers in 17,000 schools across 55 education systems. The survey covers ISCED 2 teachers and school leaders, with additional modules for ISCED 1 and ISCED 3, as well as a Teacher Knowledge Survey (TKS) module. A companion survey, TALIS Starting Strong, focuses on early childhood staff and centre leaders. Results are used by policymakers to improve teaching and learning around the world; the next cycle is planned for 2030.
+
+---
+
+---
+
+### 413. PIAAC — Programme for the International Assessment of Adult Competencies
+
+```yaml
+url: "https://www.oecd.org/skills/piaac/"
+type: dataset
+source: "OECD"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [higher-ed, longitudinal, open-datasets]
+```
+
+PIAAC is a programme of assessment and analysis of adult skills whose major product is the Survey of Adult Skills — an international computer-based household survey of adults aged 16–65, designed as 10-yearly cycles. The survey measures adults' proficiency in literacy, numeracy, and problem solving, and collects data on how adults use these skills at home and at work. The 1st Cycle was conducted in three rounds between 2011 and 2018 across 39 countries, interviewing approximately 245,000 adults representing 1.15 billion people. A 2nd Cycle covering 31 countries and economies completed its first round of data collection in 2022–2023, with results released in December 2024. Data support evidence-based decisions in workforce development, lifelong learning, and social inclusion.
+
+---
+
+---
+
+### 464. Education at a Glance (EAG)
+
+```yaml
+url: "https://www.oecd.org/en/publications/serials/education-at-a-glance_g1gha6b0.html"
+type: dataset
+source: "OECD"
+url_confirmed: false
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [early-childhood, higher-ed, k-12, open-datasets]
+```
+
+Education at a Glance is OECD's authoritative annual statistical compendium on education systems worldwide, published each September. Each edition provides more than 100 internationally harmonised indicators covering the output of educational institutions; the impact of learning on earnings and employment; access, participation, and progression through education levels; financial resources invested in education; and teachers, learning environments, and school organisation. Data are drawn from the joint UNESCO-OECD-Eurostat (UOE) administrative data collection and from OECD's own surveys (PISA, TALIS, PIAAC), and cover OECD member countries plus a range of partner economies. The 2025 edition (released September 2025, 542 pages) is the most recent. Researchers use EAG as the primary cross-national reference for structural and system-level education indicators.
+
+---
+
+---
+
+### 465. PISA for Development (PISA-D)
+
+```yaml
+url: "https://www.oecd.org/en/data/datasets/pisa-d-pisa-for-development.html"
+type: dataset
+source: "OECD"
+url_confirmed: false
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, open-datasets]
+```
+
+PISA for Development (PISA-D) is an adapted version of the PISA assessment designed to support low- and middle-income countries in using internationally comparable assessment data to monitor progress toward national targets and SDG 4. PISA-D uses the same proficiency scales as standard PISA but adds more granular performance descriptors at the lower end of the scale, enhanced questionnaire instruments relevant to developing-country contexts, and — uniquely — an out-of-school component assessing 14–16-year-olds who are not enrolled. Nine countries participated in the school-based assessment (Bhutan, Cambodia, Ecuador, Guatemala, Honduras, Paraguay, Senegal, Zambia); five conducted the out-of-school assessment (Guatemala, Honduras, Panama, Paraguay, Senegal). School-based results were released December 2018; out-of-school results in 2020. Public-use files in SAS and SPSS formats are freely downloadable and include student, principal, teacher, parent, and out-of-school respondent records, codebooks, questionnaires, and data compendia.
+
+---
+
+---
+
+### 466. TALIS Starting Strong
+
+```yaml
+url: "https://www.oecd.org/en/data/datasets/TALIS-Starting-Strong-Database.html"
+type: dataset
+source: "OECD"
+url_confirmed: false
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [early-childhood, open-datasets, professional-development]
+```
+
+TALIS Starting Strong is an international large-scale survey of staff and leaders in early childhood education and care (ECEC), conducted under the OECD Teaching and Learning International Survey programme. Its goal is to generate robust internationally comparable data on the ECEC workforce to inform policy on staff working conditions, professional development, pedagogical practices and beliefs, well-being, job satisfaction, and intent to remain in the profession. The survey also addresses diversity in ECEC settings, use of digital technologies, and leadership practices. The 2024 cycle collected data from approximately 17 countries and subnational entities; an earlier 2018 cycle is also available. Public-use files in CSV, Rds, and SPSS formats are downloadable for both cycles, alongside questionnaires, conceptual frameworks, technical reports, and user guides. The dataset is closely related to TALIS (which covers primary and secondary teachers) but focuses exclusively on ECEC settings.
+
+---
+
+---
+
+### 467. Survey on Social and Emotional Skills (SSES)
+
+```yaml
+url: "https://www.oecd.org/en/about/programmes/oecd-survey-on-social-and-emotional-skills.html"
+type: dataset
+source: "OECD"
+url_confirmed: false
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [formative-assessment, k-12, open-datasets]
+```
+
+The OECD Survey on Social and Emotional Skills (SSES) is the largest global initiative to gather comparable cross-national data on the social and emotional skill development of 10- and 15-year-old students. The survey measures a broad set of skills organised into five domains: task performance (persistence, responsibility, self-control, achievement motivation), emotional regulation (stress resistance, emotional control, optimism), engaging with others (assertiveness, sociability, energy), open-mindedness (curiosity, creativity, tolerance), and collaboration. Contextual data are collected from students, teachers, school principals, and (optionally) parents. Round 1 (2019) covered 10 cities/regions; Round 2 (2023) expanded to 16 sites across six countries and ten sub-national entities — including Bulgaria, Chile, Peru, Spain, Mexico, Ukraine, and cities in Colombia, India, UAE, Italy, Japan, Finland, China, Indonesia, and Brazil — surveying approximately 18,000 ten-year-olds and 52,000 fifteen-year-olds. Datasets for both rounds are available on request from OECD. The SSES 2023 database page and 2019 database page provide application and access details.
+
+---
+
+---
+
+### 468. OECD Online Education Database (UOE)
+
+```yaml
+url: "https://search.oecd.org/education/database.htm"
+type: dataset
+source: "OECD"
+url_confirmed: false
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [higher-ed, k-12, open-datasets]
+```
+
+The OECD Online Education Database is the annual administrative data collection underpinning Education at a Glance indicators. Conducted jointly by OECD, the UNESCO Institute for Statistics, and Eurostat (the UOE joint data collection), it has run in its current form since 1993. The collection comprises approximately 25 electronic questionnaires covering student enrolments (nine questionnaires), student entrants (four), graduates (three), personnel (three), education finance (three), class sizes (two), and general population data (one). Data are reported by Ministries of Education or national statistical offices according to international standards and the ISCED classification. Indicators derived from UOE cover educational outputs, access, participation and progression, human and financial resources invested in education, and structural features of national education systems. Raw UOE data are available through the OECD Education data portal and through the OECD.Stat platform; methodological guidance is provided in the UOE Data Collection Manual.
+
+---
+
+---
+
+### 409. EdNet — Large-Scale Hierarchical Dataset in Education
+
+```yaml
+url: "https://github.com/riiid/ednet"
+type: dataset
+source: "Riiid"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [digital-learning-platforms, intelligent-tutoring, k-12, learning-engineering, open-datasets]
+```
+
+EdNet is a large-scale dataset of student-system interactions collected over two years by Santa, a multi-platform AI tutoring service with more than 780,000 users in Korea, comprising 131 million interactions from 784,309 students across iOS, Android, and web platforms. The dataset records diverse student actions — including which learning materials were consumed, responses, time spent, and lecture-watching — organized into a four-level hierarchy (KT1 through KT4) of increasing interaction richness. EdNet is described as the largest publicly available education dataset in terms of total students, interactions, and interaction types, and is accompanied by a published paper (arXiv:1912.03072) and an open leaderboard.
+
+---
+
+---
+
+### 561. TutorBench
+
+```yaml
+url: "https://labs.scale.com/leaderboard/tutorbench"
+type: platform
+source: "Scale AI"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [genai, intelligent-tutoring]
+```
+
+Benchmark evaluating LLM tutoring capabilities across adaptive explanation generation, assessment and feedback, and active learning support in STEM subjects. Features 1,490 expert-curated prompts (56% multimodal) with 15,220 rubric criteria scored by an automated LLM judge achieving 78% agreement with human raters. The best-performing model scores only 55.7%, indicating tutoring remains a challenging frontier for AI.
+
+---
+
+---
+
+### 404. Stanford Education Data Archive (SEDA)
+
+```yaml
+url: "https://cepa.stanford.edu/seda/overview"
+type: dataset
+source: "Stanford CEPA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [k-12, longitudinal, math-education, open-datasets]
+```
+
+The Stanford Education Data Archive, produced by the Educational Opportunity Project at Stanford University, is the first national database of academic performance measuring educational opportunity in every community in America across reading and math. The archive supports three active projects — the 2009-2019 Educational Opportunity Project (updated February 2026 with new trend data), the Education Recovery Project tracking learning loss and pandemic recovery across districts, and the Segregation Tracking Project mapping school and neighborhood segregation over decades. Data, interactive explorers, and research papers are freely available, with the most recent update adding new opportunity, recovery, and segregation data.
+
+---
+
+---
+
+### 474. Segregation Tracking Project — School and Neighborhood Segregation Data
+
+```yaml
+url: "https://edopportunity.org/segregation/data"
+type: dataset
+source: "Stanford CEPA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, longitudinal, open-datasets]
+```
+
+A multi-decade dataset tracking racial/ethnic and economic segregation across U.S. schools and neighborhoods, available at the state, county, metropolitan area, and school-district level (version 2.0, updated February 2026). Underlying research analyzes patterns from 1991 to 2020 and finds that school segregation has increased over the past three decades, particularly in large urban districts, driven substantially by policy choices. Raw data are downloadable under a data use agreement alongside an interactive mapping explorer and peer-reviewed methods documentation.
+
+---
+
+---
+
+### 475. District Court Order Desegregation Data
+
+```yaml
+url: "https://cepa.stanford.edu/data/district-court-order-data"
+type: dataset
+source: "Stanford CEPA"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, longitudinal, open-datasets]
+```
+
+A dataset cataloging all medium-to-large U.S. school districts ever placed under a court-ordered desegregation plan, covering 358 court cases affecting 850 school districts plus 207 HEW actions since 1978. Each record includes case name, state, NCES district ID, year of initial case, current plan status, and dismissal date; data were compiled from case dockets, Department of Justice records, NAACP Legal Defense materials, and U.S. Department of Education files and verified against Westlaw. Available in Stata (versions 12 and 15), Excel, SAS 7, and SPSS formats; last updated February 2021 with revised dismissal statuses.
+
+---
+
+---
+
+### 559. TLA Educational AI Leaderboard
+
+```yaml
+url: "https://the-learning-agency.com/guides-resources/leaderboard-datasets-report/"
+type: platform
+source: "The Learning Agency"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [learning-engineering, tla]
+```
+
+Educational AI evaluation platform featuring benchmarks designed around real educational tasks with private test sets to prevent data contamination. Includes ASAP 2.0 (automated scoring of student persuasive essays) and the Eedi Misconception Annotation Project (identifying student math misconceptions), with performance, cost, and latency comparisons across models.
+
+---
+
+---
+
+### 407. Open University Learning Analytics Dataset (OULAD)
+
+```yaml
+url: "https://analyse.kmi.open.ac.uk/"
+type: dataset
+source: "The Open University"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [digital-learning-platforms, higher-ed, learning-engineering, longitudinal, open-datasets]
+```
+
+The Open University Learning Analytics Dataset (OULAD) contains anonymised data about courses, students, and their interactions with the Virtual Learning Environment (VLE) for seven selected Open University modules, with course presentations marked by start month. The dataset consists of tables stored in CSV format connected via unique identifiers, covering student demographic data and fine-grained VLE activity logs. OULAD has been used in learning analytics hackathons at multiple international conferences and received the Educational Dataset Prize from the Educational Data Mining Society in 2023.
+
+---
+
+---
+
+### 416. EDFacts Data Files
+
+```yaml
+url: "https://www2.ed.gov/about/inits/ed/edfacts/index.html"
+type: dataset
+source: "U.S. Department of Education"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [data-sharing, k-12, open-datasets]
+```
+
+EDFacts is a U.S. Department of Education initiative to collect, analyze, and promote the use of high-quality pre-kindergarten through grade 12 data. It centralizes data provided by state education agencies (SEAs), including district and school demographics, program participation, and performance data. EDFacts integrates SEA-supplied performance data with other departmental data assets (such as financial grant information) to support planning, policymaking, and budget decision-making at federal, state, and local levels. The initiative aims to place robust, timely performance data at the core of education decision-making, reduce state and district data reporting burden, and improve state data capabilities through technical assistance.
+
+---
+
+---
+
+### 441. College Scorecard Data
+
+```yaml
+url: "https://collegescorecard.ed.gov/data/"
+type: dataset
+source: "U.S. Department of Education"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [college-access, higher-ed, longitudinal, open-datasets]
+```
+
+College Scorecard Data provides downloadable institution-level files for 1996-97 through 2022-23 containing aggregate data on institutional characteristics, enrollment, student aid, costs, and student outcomes, plus field-of-study-level files covering cumulative debt at graduation and earnings one year after graduation. The dataset is updated periodically (last updated March 23, 2026) and also accessible via a public REST API with documentation available on the same site. Crosswalk files link the Department's OPEID identifiers with IPEDS UNITIDs, enabling integration with other federal higher education data sources.
+
+---
+
+---
+
+### 442. Education Stabilization Fund (ESF) COVID-19 Relief Data
+
+```yaml
+url: "https://covid-relief-data.ed.gov"
+type: dataset
+source: "U.S. Department of Education"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [higher-ed, k-12, open-datasets]
+```
+
+The Education Stabilization Fund data portal tracks over $276 billion in federal COVID-19 education relief awarded across four programs: Elementary and Secondary School Emergency Relief (ESSER, $189.5B), Higher Education Emergency Relief (HEER, $75.2B), Emergency Assistance to Non-Public Schools (EANS, $5.5B), and Governor's Emergency Education Relief (GEER, $4.3B). The portal provides grantee-level expenditure data searchable by state, district, and institution, with bulk downloads of annual performance report datasets and a public API. Data covers over 16,000 school districts and 4,500 colleges and universities through the reporting period ending January 2026.
+
+---
+
+---
+
+### 469. IDEA Section 618 Data
+
+```yaml
+url: "https://www.ed.gov/data/idea-section-618-data"
+type: dataset
+source: "U.S. Department of Education"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [early-childhood, k-12, open-datasets]
+```
+
+The IDEA Section 618 Data portal collects and publishes annual data on children and youth with disabilities receiving federally mandated special education services under the Individuals with Disabilities Education Act (IDEA). Coverage spans infants and toddlers (birth through age 2) served under Part C early intervention programs, and children ages 3–21 served under Part B special education programs. A searchable database allows users to retrieve state-submitted datasets by year and category; additional data notes and downloadable products are linked to ED's Open Data Platform at data.ed.gov.
+
+---
+
+---
+
+### 395. Civil Rights Data Collection (CRDC)
+
+```yaml
+url: "https://civilrightsdata.ed.gov/about"
+type: dataset
+source: "U.S. Department of Education Office for Civil Rights"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [data-sharing, english-learners, k-12, open-datasets, school-discipline]
+```
+
+The Civil Rights Data Collection (CRDC) has collected civil rights data related to students' access and barriers to educational opportunity from early childhood through grade 12 since 1968, and since the 2011–12 collection has been administered every two years to all public school districts and schools in the 50 states and Washington, D.C. The CRDC collects information on student enrollment, access to courses, programs, and school staff, and school climate factors such as bullying, harassment, and student discipline, with most data disaggregated by race, ethnicity, sex, disability, and English Learner status. It is a key enforcement tool under civil rights laws prohibiting discrimination based on race, color, national origin, sex, disability, and age.
+
+---
+
+---
+
+### 563. pyBKT — Python Bayesian Knowledge Tracing
+
+```yaml
+url: "https://github.com/CAHLR/pyBKT"
+type: code
+source: "UC Berkeley CAHLR"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [intelligent-tutoring, learning-engineering]
+```
+
+Python library implementing Bayesian Knowledge Tracing and variants for modeling student cognitive mastery from problem-solving sequences. Supports individual student priors, item-specific parameters, and resource-based learning rates with a scikit-learn-style API. Includes optimized C++ backend reducing fitting time from 1.5 hours to 45 seconds for 5,000 students. Published at EDM 2021, 254 stars, MIT license.
+
+---
+
+---
+
+### 568. OATutor — Open-Source Adaptive Tutoring System
+
+```yaml
+url: "https://github.com/CAHLR/OATutor"
+type: code
+source: "UC Berkeley CAHLR"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [intelligent-tutoring, k-12, personalized-learning]
+```
+
+Open-source adaptive tutoring system using Bayesian Knowledge Tracing for skill mastery estimation, with scaffolded hints and intelligent problem selection. Built in React with optional Firebase logging, deployable to static hosting without a backend. Published at CHI 2023 with learning gains documented in PLOS ONE. 199 stars, MIT license (CC BY 4.0 for content).
+
+---
+
+---
+
+### 11. Recommendation on the Ethics of Artificial Intelligence
+
+```yaml
+url: "https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence?hub=195885"
+type: framework
+source: "UNESCO"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [ai-ethics, ai-policy, higher-ed, k-12]
+```
+
+Adopted 2021, published 2022. UNESCO's inaugural global standard on AI ethics, addressed to all 194 UNESCO member states. Establishes that "the protection of human rights and dignity is the cornerstone" of the framework. Covers transparency, fairness, and human oversight of AI systems across Policy Action Areas addressing data governance, environmental concerns, gender equity, education, research, health, and social wellbeing.
+
+---
+
+---
+
+### 12. UNESCO AI Competency Framework for Students
+
+```yaml
+url: "https://www.unesco.org/en/articles/ai-competency-framework-students"
+type: framework
+source: "UNESCO"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [ai-ethics, ai-policy, higher-ed, k-12, llm-application]
+```
+
+Published 2024. Authors: Fengchun Miao, Kelly Shiohira, Natalie Lao. Four core competency areas for students (K-12 and higher education): "a human-centred mindset," "ethics of AI," "AI techniques and applications," and "AI system design." Direct PDF available in English, Arabic, French, Portuguese, Spanish, and Vietnamese at unesdoc.unesco.org (access from direct UNESDOC URL was blocked during audit; description sourced from UNESCO article page).
+
+---
+
+---
+
+### 13. UNESCO AI Competency Framework for Teachers
+
+```yaml
+url: "https://www.unesco.org/en/articles/ai-competency-framework-teachers"
+type: framework
+source: "UNESCO"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [ai-ethics, ai-policy, higher-ed, k-12, llm-application, professional-development]
+```
+
+Published 2024. Authors: Fengchun Miao, Mutlu Cukurova. Five competency areas for teachers and educators: "a human-centred mindset," "ethics of AI," "AI foundations and applications," "AI pedagogy," and "AI for professional development." Direct PDF available in English, Arabic, French, Portuguese, Spanish, and Vietnamese at unesdoc.unesco.org (access from direct UNESDOC URL was blocked during audit; description sourced from UNESCO article page).
+
+---
+
+---
+
+### 565. py-irt — Bayesian Item Response Theory
+
+```yaml
+url: "https://github.com/nd-ball/py-irt"
+type: code
+source: "University of Notre Dame"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [formative-assessment, learning-engineering]
+```
+
+Python library implementing Bayesian IRT models using variational inference, supporting 1PL (Rasch), 2PL, and 4PL models with vague or hierarchical priors. Provides CLI and programmatic interfaces for training and evaluation on scored prediction datasets. Published in INFORMS Journal on Computing 2023, 167 stars, MIT license.
+
+---
+
+---
+
+### 396. Urban Institute Education Data Explorer
+
+```yaml
+url: "https://educationdata.urban.org/"
+type: dataset
+source: "Urban Institute"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [data-sharing, higher-ed, k-12, open-datasets]
+```
+
+The Urban Institute's Education Data Explorer aggregates data from multiple federal and other education sources into a single platform, allowing users to build custom datasets by narrowing by education level, geography, timeframe, and indicator. The tool is designed to make it easier to generate rigorous, accurate, and actionable insights to improve student outcomes, with access available through an interactive explorer or a full API for programmatic use. The platform is oriented toward evidence-based policy decisions and is freely accessible under published terms of use.
+
+---
+
+---
+
+### 486. Urban Institute Education Data Portal — API Documentation and Data Sources
+
+```yaml
+url: "https://educationdata.urban.org/documentation/"
+type: dataset
+source: "Urban Institute"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [higher-ed, k-12, longitudinal, open-datasets]
+```
+
+The full API documentation for the Urban Institute's Education Data Portal, which harmonizes and provides unified programmatic access to six major federal education datasets: the Common Core of Data (CCD) school directory and enrollment data, the Civil Rights Data Collection, the Small Area Income and Poverty Estimates, IPEDS postsecondary institution data, the College Scorecard, and the National Historical Geographic Information System (NHGIS). The API supports queries by education level (schools, districts, colleges), geography, time frame, and indicator; code interfaces are available for Stata, R, Python, and JavaScript. Data are openly accessible without authentication for most endpoints; the documentation page lists all currently available endpoints and variables.
+
+---
+
+---
+
+### 408. ASSISTments Dataset
+
+```yaml
+url: "https://sites.google.com/site/assistmentsdata/"
+type: dataset
+source: "Worcester Polytechnic Institute"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [assistments, formative-assessment, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
+```
+
+The ASSISTments data repository hosts multiple publicly released datasets from the ASSISTments intelligent tutoring platform, covering student interactions, skill builder sequences, affect data, and log files from various research studies published from 2009 onward. All datasets are scrubbed of personally identifiable information and released under IRB-approved terms of use; researchers who discover residual PII are required to report and delete it. The project reflects a commitment to open science, requiring graduate students to release anonymized data and code alongside each published paper.
+
+---
+
+---
+
+### 443. ASSISTments 2012-13 School Data with Affect
+
+```yaml
+url: "https://sites.google.com/site/assistmentsdata/datasets/2012-13-school-data-with-affect"
+type: dataset
+source: "Worcester Polytechnic Institute"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [assistments, computer-assisted-learning, digital-learning-platforms, formative-assessment, intelligent-tutoring, k-12, learning-engineering, open-datasets, wpi]
+```
+
+A large-scale log of approximately 10 million student problem-solving interactions from the ASSISTments intelligent tutoring system during the 2012-2013 school year, augmented with machine-learning predictions of four affective states per interaction — frustration, confusion, engagement/concentration, and boredom — scored on a 0-to-1 scale. Records include student attempts, hint requests, response times, problem metadata, skill tags, and classroom/school identifiers, enabling research on the relationship between student affect and math learning outcomes in K-12 settings.
+
+---
+
+---
+
+### 444. ASSISTments Skill-Builder Data 2009-2010
+
+```yaml
+url: "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010"
+type: dataset
+source: "Worcester Polytechnic Institute"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [assistments, computer-assisted-learning, formative-assessment, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets, wpi]
+```
+
+Student interaction logs from ASSISTments skill-builder problem sets used in K-12 mathematics during the 2009-2010 school year, structured as one row per student-problem attempt. Each skill-builder focuses on a single mathematics skill (with optional multi-skill tagging) and requires students to answer three consecutive questions correctly before moving on; the dataset captures correctness, hint usage, and response sequences under this mastery criterion. A corrected, deduplicated version is available via Google Drive alongside the original CSV.
+
+---
+
+---
+
+### 401. World Bank EdStats — Education Statistics Portal
+
+```yaml
+url: "https://datatopics.worldbank.org/education/"
+type: dataset
+source: "World Bank"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-02
+doi: null
+license: null
+tags: [higher-ed, k-12, open-datasets]
+```
+
+The World Bank EdStats Portal provides easy access to key education indicators spanning access, completion, learning outcomes, expenditures, policy, and equity from pre-primary through tertiary levels. In addition to the core EdStats database, the portal links to specialized datasets including the Learning Poverty database, the Harmonized Learning Outcomes database, and Country Learning Outcomes (CLO) of harmonized learning assessments. The portal is currently being revamped to improve user experience and relevance, with all datasets remaining accessible via direct download links during the transition.
+
+---
+
+---
+
+### 451. STEP Skills Measurement Program
+
+```yaml
+url: "https://microdata.worldbank.org/index.php/catalog/step"
+type: dataset
+source: "World Bank"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [higher-ed, open-datasets]
+```
+
+The STEP (Skills Toward Employment and Productivity) Skills Measurement Program is the World Bank's first initiative to generate internationally comparable data on workforce skills in low- and middle-income countries. The program administers household and employer surveys across 17 countries — including Armenia, Bolivia, Colombia, Georgia, Ghana, Kenya, and Vietnam — measuring cognitive skills (reading, writing, numeracy), socio-emotional competencies, and job-specific skills, along with education and training histories. The collection of 22 studies is publicly available through the World Bank Microdata Library, with each country survey including a direct reading literacy assessment based on the Programme for the International Assessment of Adult Competencies (PIAAC) instruments.
+
+---
+
+---
+
+### 452. Service Delivery Indicators Education Survey 2014 — Tanzania
+
+```yaml
+url: "https://microdata.worldbank.org/index.php/catalog/2748"
+type: dataset
+source: "World Bank"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-03
+doi: null
+license: null
+tags: [k-12, open-datasets]
+```
+
+This World Bank dataset examines primary education service delivery quality across Tanzania through a 2014 survey of 400 primary schools. It captures three standardized indicator categories: teacher effort (school and classroom absence rates, daily teaching time), teacher knowledge (subject matter competency in English, mathematics, and pedagogy), and availability of inputs (infrastructure, textbooks, equipment, and pupil-teacher ratios). The dataset also includes direct grade-4 student assessments in language, mathematics, and non-verbal reasoning, and is harmonized to enable cross-country comparisons within the broader Service Delivery Indicators initiative covering Sub-Saharan Africa.
+
+---
+
+---
+
+### 564. pyKT — Deep Learning Knowledge Tracing Toolkit
+
+```yaml
+url: "https://github.com/pykt-team/pykt-toolkit"
+type: code
+source: "pyKT Team"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-06
+doi: null
+license: null
+tags: [intelligent-tutoring, learning-engineering]
+```
+
+PyTorch-based library providing standardized preprocessing, training, and evaluation for 29+ deep learning knowledge tracing models including DKT, DKVMN, SAKT, SAINT, and AKT across 7+ datasets. Published at NeurIPS 2022 with hyperparameter tuning results. 397 stars, MIT license.
+
+---

@@ -1,0 +1,297 @@
+# Renaissance AI and Education Resource Hub — WestEd (full)
+# 14 entries with descriptions | Last updated: 2026-08-30
+# Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+
+---
+
+### 1047. Legislating Literacy at the State Level: Six Considerations for Supporting Students With Disabilities
+
+```yaml
+url: "https://www.wested.org/resource/legislating-literacy-at-the-state-level/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [inclusive-design, k-12, literacy, response-to-intervention]
+```
+
+This WestEd Perspectives brief examines how states can better support students with disabilities through literacy policymaking. It outlines recent legislation affecting both general and special education systems and offers six key considerations for implementation. The brief addresses the intersection of structured literacy mandates with special education law, providing a resource list for policy development that helps states ensure literacy reforms reach all learners, including those with learning disabilities. Published 2025.
+
+---
+
+---
+
+### 1048. From AI Risk to AI Readiness
+
+```yaml
+url: "https://www.wested.org/resource/from-ai-risk-to-ai-readiness/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [ai-ethics, ai-policy, digital-learning-platforms, genai, k-12, pii-privacy]
+```
+
+This recorded webinar explores how educational leaders can assess their organization's readiness for AI implementation. The session covers "AI Readiness Assessment," fine-tuning approaches for large language models, privacy and governance considerations, and cost analysis for various implementation strategies. Experts Sarah Quesen and Baron Rodriguez provide frameworks for responsible AI integration while protecting student data and ensuring equitable access for students and staff. Published January 15, 2026.
+
+---
+
+---
+
+### 1049. Selecting GenAI Tools That Build Healthy Classroom Culture
+
+```yaml
+url: "https://www.wested.org/resource/selecting-genai-tools-that-build-healthy-classroom-culture/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [ai-ethics, ai-policy, digital-learning-platforms, genai, k-12, professional-development]
+```
+
+This webinar explores how to evaluate generative AI tools for classroom use through a cultural fit lens. The session covers edtech history, AI risks and benefits, procurement strategies, and human-centered design principles to ensure tools support healthy learning environments and student outcomes. The resource helps educators and administrators move beyond feature checklists toward evaluating how AI tools align with school culture and equity goals. Published January 13, 2026.
+
+---
+
+---
+
+### 1050. The Impact of NBA Math Hoops on Students' Math Achievement: A Randomized Controlled Trial
+
+```yaml
+url: "https://www.wested.org/resource/the-impact-of-nba-math-hoops-on-students-math-achievement/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [digital-learning-platforms, k-12, math-education, math-motivation, rct]
+```
+
+This study evaluated how NBA Math Hoops affects student math performance through a rigorous experimental design. The research found that "students in NBA Math Hoops classrooms scored an average of 0.19 standard deviations higher than peers in STEM enrichment classrooms" — roughly equivalent to advancing from the 50th to 58th percentile. The program demonstrated practical benefits for educators, requiring minimal training and costing under $20 per student while remaining straightforward to implement in out-of-school settings. Published 2026.
+
+---
+
+---
+
+### 1051. Advancing Achievement Through Biliteracy: Statewide Trends in Bilingual Teacher Supply, Demand, and Assignment in California
+
+```yaml
+url: "https://www.wested.org/resource/advancing-achievement-through-biliteracy-brief-1/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, longitudinal, professional-development]
+```
+
+This brief examines bilingual authorized (BLA) teacher workforce supply and demand trends in California using statewide data. The authors find that while the state has progressed toward its goal of 2,000 new bilingual authorizations annually, significant data gaps exist. The brief emphasizes the need for "improved data systems, strategic planning, and pathway investment" to support California's vision of universal bilingualism and biliteracy and ensure adequate bilingual teacher supply to serve the state's large English learner population. Published 2026.
+
+---
+
+---
+
+### 1052. Friction by Design: A Framework for Centering Learning in the Age of AI
+
+```yaml
+url: "https://www.wested.org/resource/friction-by-design/"
+type: framework
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [ai-ethics, digital-learning-platforms, genai, k-12, personalized-learning]
+```
+
+This framework helps educators integrate AI intentionally while preserving meaningful learning. It distinguishes between productive friction — the effort and struggle that enables growth — and unproductive friction that obstructs progress. The guide employs five design lenses (Cognitive Ownership, Productive Struggle, Social Sense-Making, Activation Energy, and Access Barriers) to show how AI can reduce barriers while maintaining the challenge essential to learning. Published 2025.
+
+---
+
+---
+
+### 1053. Bridging Science and Engineering for Every Learner
+
+```yaml
+url: "https://www.wested.org/resource/bridging-science-and-engineering-for-every-learner/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, inclusive-design, k-12, professional-development]
+```
+
+A recorded webinar introducing practical, research-backed strategies for creating inclusive STEM experiences in informal settings. The session focuses on serving multilingual learners, those with physical and sensory disabilities, and Indigenous learners using Universal Design for Learning principles, with examples drawn from the NASA-funded PLANETS curriculum. The resource supports educators and informal science educators seeking to expand access to rigorous STEM learning for historically underserved student populations. Published February 25, 2026.
+
+---
+
+---
+
+### 1054. DISC AI Resource Collection
+
+```yaml
+url: "https://www.wested.org/resource/disc-ai-resource-collection/"
+type: framework
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [ai-ethics, ai-policy, data-sharing, pii-privacy]
+```
+
+This collection comprises practical guidance developed by WestEd's Data Integration Support Center for secure AI implementation in public agencies. The materials address the complete lifecycle of AI deployment, including "infrastructure requirements, technical methodologies, policy frameworks, and practical decision-making tools" to help organizations build trustworthy AI capabilities while protecting sensitive data. Designed for education agencies navigating AI adoption decisions, the collection covers responsible data governance, vendor evaluation, and privacy safeguards. Published 2024–2025.
+
+---
+
+---
+
+### 1055. Improving Learning Opportunities for Multilingual Learners: CABE 2026 Related Resources
+
+```yaml
+url: "https://www.wested.org/resource/improving-learning-opportunities-for-multilingual-learners/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, literacy, professional-development]
+```
+
+This curated collection of research, tools, and strategies is designed to support educators working with multilingual learners. The collection covers strengthening professional learning communities, expanding dual language programs, engaging multilingual students in ambitious mathematics, and supporting long-term English Learners. Assembled for WestEd's participation in the California Association for Bilingual Education 2026 Annual Conference, the resources are drawn from ongoing WestEd research and practitioner-facing tools. Published early 2026.
+
+---
+
+---
+
+### 1056. Youth Mental Health Corps Implementation Reporting: Resource Collection
+
+```yaml
+url: "https://www.wested.org/resource/youth-mental-health-corps-resource-collection/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12, sel]
+```
+
+This collection documents WestEd's evaluation of the Youth Mental Health Corps, a multisector partnership launched in 2024. The materials include a Year 1 report showing how the initiative "engaged 317 members across four states, reached thousands of students and families," plus four state case studies from Colorado, Michigan, Minnesota, and Texas. The resources examine how near-peer navigators expand youth mental health support while building the behavioral health workforce, offering a model for scaling mental health services in school-linked contexts. Published September 2025.
+
+---
+
+---
+
+### 1057. What Is The Statewide BHSSA Evaluation?
+
+```yaml
+url: "https://www.wested.org/resource/what-is-the-statewide-bhssa-evaluation/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal, sel]
+```
+
+This fact sheet explains California's Behavioral Health Student Services Act (BHSSA) evaluation, which funds partnerships between county behavioral health departments and schools. WestEd and the Commission for Behavioral Health are leading the assessment "from July 2025 through June 2027" using five evaluation components to measure how BHSSA funds have been deployed and their impact on school behavioral health systems. The evaluation will track implementation quality, reach, and outcomes across California school districts. Published 2026.
+
+---
+
+---
+
+### 1058. Youth Reimagining School Behavioral Health Systems
+
+```yaml
+url: "https://www.wested.org/resource/youth-reimagining-school-behavioral-health-systems/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, sel, student-belonging]
+```
+
+This resource outlines the Youth Engagement Cohort (YEC) model, "a five-session, student-centered process" where students analyze school data, reflect on available supports, and present recommendations to school leaders. The initiative ensures young people shape California's behavioral health transformation efforts while developing leadership and evaluation competencies. The model positions students as active researchers and advocates within their school communities, contributing to California's broader BHSSA implementation goals. Published 2026.
+
+---
+
+---
+
+### 1059. The California State University's AANHPI Student Achievement Program: An Evaluation of Progress From Spring 2024 Through Fall 2025
+
+```yaml
+url: "https://www.wested.org/resource/the-california-state-universitys-asian-american-native-hawaiian-and-pacific-islander-student-achievement-program/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [college-access, higher-ed, longitudinal, student-belonging]
+```
+
+This WestEd evaluation examined how legislative funding was distributed across all 23 CSU campuses and its initial effects on AANHPI students. The report found that "ASAP-supported initiatives strengthened students' academic engagement, personal well-being, and connection to AANHPI cultures and histories." Survey results indicated participating students reported notably more positive views regarding campus climate, belonging, and self-efficacy compared to non-participants. However, implementation showed considerable variation among campuses due to differences in institutional support history, staffing, student demographics, and data systems. Published March 2026.
+
+---
+
+---
+
+### 1060. Advancing Education Research: AERA and NCME 2026 Related Resources
+
+```yaml
+url: "https://www.wested.org/resource/advancing-education-research-aera-ncme-2026-related-resources/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [ai-policy, english-learners, formative-assessment, genai, k-12]
+```
+
+A curated collection of research papers, blog articles, and websites assembled for AERA Annual Meeting and NCME concurrent sessions (April 2026), covering topics such as responsible AI integration in education, mathematics curricular resources, K–12 disciplinary literacy, technology in education, and support for multilingual learners. The collection surfaces WestEd research relevant to current debates in educational measurement, assessment, and equity-focused instruction. Published early 2026.
+
+---

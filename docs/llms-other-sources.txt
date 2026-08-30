@@ -1,0 +1,77 @@
+# Renaissance AI and Education Resource Hub — Other sources (30 organizations)
+
+> 71 entries from Other sources (30 organizations).
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-other-sources.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 566. [ADL xAPI Wrapper](https://github.com/adlnet/xAPIWrapper) | code | digital-learning-platforms, learning-engineering
+- 567. [ADL Learning Record Store](https://github.com/adlnet/ADL_LRS) | code | data-sharing, digital-learning-platforms, learning-engineering
+- 560. [FAB-AI Pedagogy Benchmark Leaderboard](https://www.fab-ai.org/initiatives/ai-for-education/edtech-quality/benchmarks) | platform | higher-ed, learning-engineering
+- 1173. [Why Expert Advising Matters for College Access](https://www.brookings.edu/articles/why-expert-advising-matters-for-college-access/) | article | coaching, college-access, higher-ed
+- 10. [CAST Universal Design for Learning Guidelines 3.0](https://udlguidelines.cast.org) | framework | cognitive-science, inclusive-design, k-12, learning-engineering
+- 15. [EMERALDS: Preparation for Success in Algebra](https://achievethecore.org/page/3367/preparation-for-success-in-algebra-exploring-math-education-relationships-by-analyzing-large-data-sets-emeralds) | report | carnegie-learning, cmu-learnlab, k-12, learning-engineering, longitudinal, math-education, math-strategies
+- 144. [CASEL SEL Framework](https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/) | framework | casel, inclusive-design, k-12, learning-engineering, sel
+- 410. [Duolingo Shared Task on Second Language Acquisition Modeling (SLAM)](https://sharedtask.duolingo.com/2018.html) | dataset | duolingo, english-learners, learning-engineering, longitudinal, nlp, open-datasets
+- 450. [Duolingo Student Learning Traces (Spaced Repetition / Half-Life Regression)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/N8XJME) | dataset | computer-assisted-learning, digital-learning-platforms, duolingo, english-learners, learning-engineering, longitudinal, nlp, open-datasets
+- 562. [MathTutorBench](https://eth-lre.github.io/mathtutorbench/) | platform | genai, intelligent-tutoring, math-education
+- 403. [Opportunity Insights — Education and Mobility Data Library](https://opportunityinsights.org/data/) | dataset | college-access, higher-ed, k-12, longitudinal, open-datasets
+- 476. [Opportunity Atlas — Neighborhood-Level Economic Mobility Data](https://opportunityinsights.org/paper/the-opportunity-atlas/) | dataset | college-access, higher-ed, k-12, longitudinal, open-datasets
+- 477. [Mobility Report Cards — College-Level Economic Mobility Data](https://opportunityinsights.org/paper/undermatching/) | dataset | college-access, higher-ed, longitudinal, open-datasets
+- 478. [College-Level Data for 139 Selective American Colleges](https://opportunityinsights.org/paper/collegeadmissions/) | dataset | college-access, higher-ed, longitudinal, open-datasets
+- 479. [Social Capital Atlas — County, ZIP, High School, and College Data](https://opportunityinsights.org/paper/social-capital-i-measurement-and-associations-with-economic-mobility/) | dataset | college-access, higher-ed, k-12, open-datasets
+- 480. [Who Becomes an Inventor — Innovation Rates by Childhood Location and Demographics](https://opportunityinsights.org/paper/losteinsteins/) | dataset | higher-ed, k-12, longitudinal, open-datasets
+- 481. [Race and Economic Opportunity — Intergenerational Mobility by Race](https://opportunityinsights.org/paper/race/) | dataset | college-access, higher-ed, k-12, longitudinal, open-datasets
+- 482. [Changing Opportunity — County and Commuting Zone Trend Data (1978–1992 Cohorts)](https://opportunityinsights.org/paper/changingopportunity/) | dataset | higher-ed, k-12, longitudinal, open-datasets
+- 483. [Geography of Intergenerational Mobility — Commuting Zone and County Data](https://opportunityinsights.org/paper/land-of-opportunity/) | dataset | college-access, higher-ed, k-12, longitudinal, open-datasets
+- 402. [ICPSR — Education Research Studies](https://www.icpsr.umich.edu/web/ICPSR/search/studies?q=education&ARCHIVE=ICPSR&PUBLISH_STATUS=PUBLISHED) | dataset | data-sharing, higher-ed, k-12, open-datasets
+- 453. [National Longitudinal Study of Adolescent to Adult Health (Add Health), 1994–2025](https://www.icpsr.umich.edu/web/ICPSR/studies/21600) | dataset | higher-ed, k-12, longitudinal, open-datasets
+- 552. [ALTER-Math: AI-augmented Learning by Teaching to Enhance and Renovate Math Learning](https://learning-engineering-virtual-institute.org/teams/alter-math/) | platform | genai, k-12, learning-engineering, math-education
+- 553. [Khanmigo by Khan Academy](https://learning-engineering-virtual-institute.org/teams/khan-academy/) | platform | genai-tutoring, k-12, khan-academy, learning-engineering, math-education
+- 554. [PLUS Tutoring by Carnegie Mellon University](https://learning-engineering-virtual-institute.org/teams/carnegie-mellon-university/) | platform | intelligent-tutoring, k-12, learning-engineering, math-education
+- 555. [Eedi: Misconceptions Map](https://learning-engineering-virtual-institute.org/teams/eedi/) | platform | k-12, learning-engineering, math-education, personalized-learning
+- 556. [MATHstream by Carnegie Learning](https://learning-engineering-virtual-institute.org/teams/carnegie-learning/) | platform | carnegie-learning, genai, k-12, learning-engineering, math-education
+- 557. [HAT: Hybrid Human-Agent Tutoring](https://learning-engineering-virtual-institute.org/teams/university-of-colorado-boulder/) | platform | intelligent-tutoring, k-12, learning-engineering, math-education
+- 558. [Rori by Rising Academies](https://learning-engineering-virtual-institute.org/teams/rising-academy-network/) | platform | genai-tutoring, k-12, learning-engineering, math-education
+- 569. [Learning Commons — AI Developer Tools for Education](https://docs.learningcommons.org/) | platform | digital-learning-platforms, genai, learning-engineering
+- 411. [NBER Education Research Data](https://www.nber.org/research/data?page=1&perPage=50&q=education) | dataset | higher-ed, k-12, longitudinal, open-datasets
+- 487. [Current Population Survey (CPS) Data at NBER](https://www.nber.org/research/data/current-population-survey-cps-data-nber) | dataset | higher-ed, k-12, longitudinal, open-datasets
+- 142. [How People Learn: Brain, Mind, Experience, and School (Expanded Edition)](https://www.nationalacademies.org/read/9853/chapter/) | report | k-12, learning-engineering, nap
+- 143. [How People Learn II: Learners, Contexts, and Cultures](https://www.nationalacademies.org/publications/24783) | report | higher-ed, k-12, learning-engineering, nap
+- 397. [National Student Clearinghouse Research Center](https://nscresearchcenter.org/) | dataset | college-access, dropout-prevention, higher-ed, longitudinal, open-datasets
+- 484. [NSC High School Benchmarks — Postsecondary Outcomes Data Appendix](https://nscresearchcenter.org/high-school-benchmarks/) | dataset | college-access, dropout-prevention, higher-ed, k-12, longitudinal, open-datasets
+- 485. [NSC Some College, No Credential — National and State Outcomes Data](https://nscresearchcenter.org/some-college-no-credential/) | dataset | college-access, dropout-prevention, higher-ed, longitudinal, open-datasets
+- 398. [PISA — Programme for International Student Assessment (Data)](https://www.oecd.org/pisa/data/) | dataset | k-12, literacy, longitudinal, math-education, open-datasets
+- 412. [TALIS — Teaching and Learning International Survey](https://www.oecd.org/education/talis/) | dataset | k-12, longitudinal, open-datasets, professional-development
+- 413. [PIAAC — Programme for the International Assessment of Adult Competencies](https://www.oecd.org/skills/piaac/) | dataset | higher-ed, longitudinal, open-datasets
+- 464. [Education at a Glance (EAG)](https://www.oecd.org/en/publications/serials/education-at-a-glance_g1gha6b0.html) | dataset | early-childhood, higher-ed, k-12, open-datasets
+- 465. [PISA for Development (PISA-D)](https://www.oecd.org/en/data/datasets/pisa-d-pisa-for-development.html) | dataset | k-12, open-datasets
+- 466. [TALIS Starting Strong](https://www.oecd.org/en/data/datasets/TALIS-Starting-Strong-Database.html) | dataset | early-childhood, open-datasets, professional-development
+- 467. [Survey on Social and Emotional Skills (SSES)](https://www.oecd.org/en/about/programmes/oecd-survey-on-social-and-emotional-skills.html) | dataset | formative-assessment, k-12, open-datasets
+- 468. [OECD Online Education Database (UOE)](https://search.oecd.org/education/database.htm) | dataset | higher-ed, k-12, open-datasets
+- 409. [EdNet — Large-Scale Hierarchical Dataset in Education](https://github.com/riiid/ednet) | dataset | digital-learning-platforms, intelligent-tutoring, k-12, learning-engineering, open-datasets
+- 561. [TutorBench](https://labs.scale.com/leaderboard/tutorbench) | platform | genai, intelligent-tutoring
+- 404. [Stanford Education Data Archive (SEDA)](https://cepa.stanford.edu/seda/overview) | dataset | k-12, longitudinal, math-education, open-datasets
+- 474. [Segregation Tracking Project — School and Neighborhood Segregation Data](https://edopportunity.org/segregation/data) | dataset | k-12, longitudinal, open-datasets
+- 475. [District Court Order Desegregation Data](https://cepa.stanford.edu/data/district-court-order-data) | dataset | k-12, longitudinal, open-datasets
+- 559. [TLA Educational AI Leaderboard](https://the-learning-agency.com/guides-resources/leaderboard-datasets-report/) | platform | learning-engineering, tla
+- 407. [Open University Learning Analytics Dataset (OULAD)](https://analyse.kmi.open.ac.uk/) | dataset | digital-learning-platforms, higher-ed, learning-engineering, longitudinal, open-datasets
+- 416. [EDFacts Data Files](https://www2.ed.gov/about/inits/ed/edfacts/index.html) | dataset | data-sharing, k-12, open-datasets
+- 441. [College Scorecard Data](https://collegescorecard.ed.gov/data/) | dataset | college-access, higher-ed, longitudinal, open-datasets
+- 442. [Education Stabilization Fund (ESF) COVID-19 Relief Data](https://covid-relief-data.ed.gov) | dataset | higher-ed, k-12, open-datasets
+- 469. [IDEA Section 618 Data](https://www.ed.gov/data/idea-section-618-data) | dataset | early-childhood, k-12, open-datasets
+- 395. [Civil Rights Data Collection (CRDC)](https://civilrightsdata.ed.gov/about) | dataset | data-sharing, english-learners, k-12, open-datasets, school-discipline
+- 563. [pyBKT — Python Bayesian Knowledge Tracing](https://github.com/CAHLR/pyBKT) | code | intelligent-tutoring, learning-engineering
+- 568. [OATutor — Open-Source Adaptive Tutoring System](https://github.com/CAHLR/OATutor) | code | intelligent-tutoring, k-12, personalized-learning
+- 11. [Recommendation on the Ethics of Artificial Intelligence](https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence?hub=195885) | framework | ai-ethics, ai-policy, higher-ed, k-12
+- 12. [UNESCO AI Competency Framework for Students](https://www.unesco.org/en/articles/ai-competency-framework-students) | framework | ai-ethics, ai-policy, higher-ed, k-12, llm-application
+- 13. [UNESCO AI Competency Framework for Teachers](https://www.unesco.org/en/articles/ai-competency-framework-teachers) | framework | ai-ethics, ai-policy, higher-ed, k-12, llm-application, professional-development
+- 565. [py-irt — Bayesian Item Response Theory](https://github.com/nd-ball/py-irt) | code | formative-assessment, learning-engineering
+- 396. [Urban Institute Education Data Explorer](https://educationdata.urban.org/) | dataset | data-sharing, higher-ed, k-12, open-datasets
+- 486. [Urban Institute Education Data Portal — API Documentation and Data Sources](https://educationdata.urban.org/documentation/) | dataset | higher-ed, k-12, longitudinal, open-datasets
+- 408. [ASSISTments Dataset](https://sites.google.com/site/assistmentsdata/) | dataset | assistments, formative-assessment, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets
+- 443. [ASSISTments 2012-13 School Data with Affect](https://sites.google.com/site/assistmentsdata/datasets/2012-13-school-data-with-affect) | dataset | assistments, computer-assisted-learning, digital-learning-platforms, formative-assessment, intelligent-tutoring, k-12, learning-engineering, open-datasets, wpi
+- 444. [ASSISTments Skill-Builder Data 2009-2010](https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010) | dataset | assistments, computer-assisted-learning, formative-assessment, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets, wpi
+- 401. [World Bank EdStats — Education Statistics Portal](https://datatopics.worldbank.org/education/) | dataset | higher-ed, k-12, open-datasets
+- 451. [STEP Skills Measurement Program](https://microdata.worldbank.org/index.php/catalog/step) | dataset | higher-ed, open-datasets
+- 452. [Service Delivery Indicators Education Survey 2014 — Tanzania](https://microdata.worldbank.org/index.php/catalog/2748) | dataset | k-12, open-datasets
+- 564. [pyKT — Deep Learning Knowledge Tracing Toolkit](https://github.com/pykt-team/pykt-toolkit) | code | intelligent-tutoring, learning-engineering

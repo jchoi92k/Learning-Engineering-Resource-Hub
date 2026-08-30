@@ -1,0 +1,37 @@
+# Renaissance AI and Education Resource Hub — The Education Trust
+
+> 31 entries from The Education Trust.
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-the-education-trust.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 145. [Engaging First: Supporting Young Learners Through Family Engagement](https://edtrust.org/resource/young-learners-family-engagement) | report | early-childhood, edtrust, k-12, learning-engineering
+- 146. [Making Assessment Reports More Meaningful for Students & Families](https://edtrust.org/resource/assessment-reports-family-engagement) | report | edtrust, formative-assessment, k-12, learning-engineering
+- 147. [How Student, Family, and Community Engagement Impacts Students' SEAD](https://edtrust.org/resource/student-family-community-engagement-sead) | report | edtrust, k-12, learning-engineering, sel
+- 148. [Funding Gaps 2018](https://edtrust.org/resource/funding-gaps-2018/) | report | edtrust, k-12, learning-engineering
+- 175. [Opportunities Denied: High-Achieving Black and Latino Students Lack Access to Advanced Math](https://edtrust.org/rti/opportunities-denied-high-achieving-black-and-latino-students-lack-access-to-advanced-math/) | report | edtrust, english-learners, k-12, math-education
+- 176. [Social, Emotional, and Academic Development Through an Equity Lens](https://edtrust.org/rti/social-emotional-and-academic-development-through-an-equity-lens/) | report | edtrust, k-12, sel, student-belonging
+- 177. [Hard Truths: Why Only Race-Conscious Policies Can Fix Racism in Higher Education](https://edtrust.org/rti/hard-truths/) | report | college-access, edtrust, higher-ed
+- 178. [If You Listen, We Will Stay: Why Teachers of Color Leave and How to Disrupt Teacher Turnover](https://edtrust.org/rti/if-you-listen-we-will-stay/) | report | edtrust, k-12, professional-development
+- 179. [National & State Trends in Degree Attainment for Black Adults](https://edtrust.org/rti/national-state-trends-degree-attainment-black-adults/) | report | college-access, edtrust, higher-ed, longitudinal
+- 180. [Inequities in Advanced Coursework](https://edtrust.org/rti/inequities-in-advanced-coursework/) | report | college-access, edtrust, k-12
+- 181. ['Segregation Forever?': The Continued Underrepresentation of Black Undergraduates at the Nation's 122 Most Selective Private Colleges and Universities](https://edtrust.org/rti/segregation-forever-the-continued-underrepresentation-of-black-undergraduates-at-the-nations-122-most-selective-private-colleges-and-universities/) | report | college-access, edtrust, higher-ed, longitudinal
+- 182. [Promising Practices: Smart State Strategies for Building Intensive Tutoring Systems](https://edtrust.org/rti/promising-practices-smart-state-strategies-for-building-intensive-tutoring-systems/) | report | edtrust, k-12, personalized-learning, response-to-intervention
+- 183. [How School Discipline Impacts Students' Social, Emotional, and Academic Development (SEAD)](https://edtrust.org/rti/how-school-discipline-impacts-students-social-emotional-and-academic-development-sead/) | report | edtrust, k-12, school-discipline, sel
+- 184. [5 Things for Advocates to Know About Chronic Absenteeism](https://edtrust.org/rti/5-things-for-advocates-to-know-about-chronic-absenteeism/) | report | attendance, edtrust, k-12
+- 185. [How Mental Health Supports Impact Social, Emotional, and Academic Development (SEAD)](https://edtrust.org/rti/how-mental-health-supports-impact-social-emotional-and-academic-development-sead/) | report | edtrust, k-12, sel, student-belonging
+- 186. [Future of Assessments: Centering Equity and the Lived Experiences of Students, Families, and Educators](https://edtrust.org/rti/future-of-assessments-centering-equity-and-the-lived-experiences-of-students-families-and-educators/) | report | edtrust, formative-assessment, k-12, qualitative-research
+- 187. [Holding Students Back: An Inequitable and Ineffective Response to Unfinished Learning](https://edtrust.org/rti/holding-students-back-an-inequitable-and-ineffective-response-to-unfinished-learning/) | report | edtrust, k-12, response-to-intervention
+- 188. [How Affordable Are Public Colleges in Your State? (Affordability Gap)](https://edtrust.org/rti/affordability-gap/) | report | college-access, edtrust, higher-ed
+- 189. [The Future of Statewide Summative Assessments](https://edtrust.org/rti/the-future-of-statewide-summative-assessments/) | report | edtrust, formative-assessment, k-12
+- 190. [Parent PLUS Loans Are a Double-Edged Sword for Black Borrowers](https://edtrust.org/rti/parent-plus-loans-are-a-double-edged-sword-for-black-borrowers/) | report | college-access, edtrust, higher-ed
+- 191. [Income-Driven Repayment Plans Fail Black Borrowers](https://edtrust.org/rti/income-driven-repayment-plans-fail-black-borrowers/) | report | college-access, edtrust, higher-ed, qualitative-research
+- 192. [For Student Parents, The Biggest Hurdles to a Higher Education Are Costs and Finding Child Care](https://edtrust.org/rti/for-student-parents-the-biggest-hurdles-to-a-higher-education-are-costs-and-finding-child-care/) | report | college-access, dropout-prevention, edtrust, higher-ed
+- 193. [Building a Diverse & Strong Educator Workforce for Students](https://edtrust.org/rti/building-a-diverse-strong-educator-workforce-for-students/) | report | edtrust, k-12, professional-development
+- 194. [Access Granted: School Funding Between Schools in Districts](https://edtrust.org/rti/access-granted-school-funding-between-schools-in-districts/) | report | edtrust, k-12
+- 195. [Reassessing ESSA Implementation: An Equity Analysis of School Accountability Systems](https://edtrust.org/rti/reassessing-essa-implementation-an-equity-analysis/) | report | edtrust, k-12, longitudinal
+- 196. [Jim Crow Debt: How Black Borrowers Experience Student Loans](https://edtrust.org/rti/jim-crow-debt/) | report | college-access, edtrust, higher-ed, qualitative-research
+- 197. [Creating Positive College Campus Racial Climates for Students of Color](https://edtrust.org/rti/college-campus-racial-climates-2/) | report | edtrust, higher-ed, qualitative-research, student-belonging
+- 198. [How Student Debt Harms Black Borrowers' Mental Health](https://edtrust.org/rti/how-student-debt-harms-black-borrowers-mental-health/) | report | edtrust, higher-ed, student-belonging
+- 199. [How Black Women Experience Student Debt](https://edtrust.org/rti/how-black-women-experience-student-debt/) | report | college-access, edtrust, higher-ed
+- 200. [Making College Affordable](https://edtrust.org/rti/making-college-affordable/) | report | college-access, edtrust, higher-ed
+- 1045. [The Importance of Family Engagement](https://edtrust.org/resource/schools-family-engagement/) | report | edtrust, formative-assessment, k-12, sel

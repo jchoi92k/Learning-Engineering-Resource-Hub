@@ -1,0 +1,759 @@
+# Renaissance AI and Education Resource Hub — TNTP (full)
+# 36 entries with descriptions | Last updated: 2026-08-30
+# Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-tntp.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+
+---
+
+### 656. Coherence by Design
+
+```yaml
+url: "https://tntp.org/publication/coherence-by-design/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Achievement and opportunity gaps were exacerbated by the pandemic, and students who were already furthest behind have struggled the most to recover. In schools across the country, instructional incoherence, particularly across core classrooms, intervention, and other academic supports, undermines learning acceleration and widens opportunity gaps. Coherence by Design: Building Instructional Systems That Help Students Catch Up makes the case that districts can transform students’ experiences and outcomes by aligning instruction, content, and goals across all learning settings. When systems create the conditions for instructional coherence, every student can engage in grade-level learning. Drawing on national data and real district practice, this publication shows what coherence looks like in classrooms and across systems, why it matters for learning acceleration, and how coherent systems of academic support help educators make better decisions that lead to improved student outcomes. Learn more about how TNTP can help you build coherent instructional systems.
+
+---
+
+---
+
+### 657. Teachers’ Time Use
+
+```yaml
+url: "https://tntp.org/publication/teachers-time-use/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [career-readiness, higher-ed, k-12, sel]
+```
+
+Teachers are the backbone of our education system, shaping not only the academic success of millions of students but also their long-term well-being and economic mobility. One out of every 12 college educated workers in the U.S. is a teacher, making educators a vital and influential part of the national workforce. Research shows that teacher quality is the single most important school-based factor in determining students’ motivation, academic achievement, and future outcomes. The impact of great teaching is both immediate and enduring. As TNTP explored in Paths of Opportunity, young people who have access to high-quality academic experiences and excel in school are also more likely to earn a living wage and report high levels of well-being in adulthood. In fact, economists have found that students who move from an average teacher to an excellent teacher in a single grade can expect to earn thousands of additional dollars over their lifetimes.
+
+---
+
+---
+
+### 658. Unlocking Algebra
+
+```yaml
+url: "https://tntp.org/publication/unlocking-algebra/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [higher-ed, k-12, math-education, sel]
+```
+
+Mathematics learning is a key part of a strong academic foundation that sets students up to thrive in PK–12 schooling and beyond. As explored in Paths of Opportunity, young people who have access to high-quality academic experiences and excel in school are more likely to earn a living wage and report high levels of well-being in adulthood. Algebra I, specifically, is an inflection point in young people’s education. The course is a gateway to the higher math courses that set students up for college and careers of their choice, including those in the growing STEM sector. Students who pass Algebra I by ninth grade are more likely to graduate high school, attend college, and earn higher salaries when they enter the workforce. Conversely, students who do not complete Algebra I are four times more likely to drop out of high school than those who pass.
+
+---
+
+---
+
+### 659. The Opportunity Makers
+
+```yaml
+url: "https://tntp.org/publication/the-opportunity-makers/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+In schools across the country, far too many students fall behind academically, and most who fall behind stay behind. If we don’t accelerate learning at scale, millions of students may never catch up. This has far-reaching implications for students’ futures: Our research has shown that a strong academic foundation is one of five factors of social and economic mobility. Without strong academic foundations, they will be less equipped to pursue chosen careers, achieve financial security, and thrive in life. How can we ensure that students’ long-term opportunities are not limited by learning losses in elementary or middle school? Of the 28,000 elementary and middle schools we studied where students start out below grade level, five percent help students gain more than 1.3 years of learning per academic year—a pace that catches the average student up to grade level by the time they leave their school. These trajectory-changing schools have maintained that growth for a decade.
+
+---
+
+---
+
+### 660. The Impacts of Teacher Expectations on Student Outcomes
+
+```yaml
+url: "https://tntp.org/publication/the-impacts-of-teacher-expectations-on-student-outcomes/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Research has shown that teacher beliefs shape classroom dynamics, influence student performance, and drive achievement disparities, especially across racial and socioeconomic lines. However, interventions can help mitigate these beliefs and empower teachers to raise expectations for all students, creating growth-focused, inclusive environments. This resource is a research base that focuses on equitable student outcomes through an exploration of teacher expectations and their profound impact on student success.
+
+---
+
+---
+
+### 661. Paths of Opportunity
+
+```yaml
+url: "https://tntp.org/publication/paths-of-opportunity/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Our world is changing. Mobility is declining, wealth gaps are growing, and employers are struggling to fill vacant positions with qualified candidates. To give all young people an equal opportunity to thrive in the 21st century workplace, we must fundamentally transform our approach to teaching and learning. It’s time to build a future in which public education truly makes it possible for all young people to thrive in life, pursue careers of their choosing, and shape our democracy. In the first report of our Paths of Opportunity series, we explore how young people’s experiences during their high school years shaped their economic and social mobility in adulthood, using data from the National Longitudinal Survey of Youth 1997. We found that:
+
+---
+
+---
+
+### 662. Moving Up
+
+```yaml
+url: "https://tntp.org/publication/moving-up/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+In 2021, TNTP published Missing Out: Arkansas’ Teacher Shortage and How to Fix It, describing teacher shortages in Arkansas, programs the state had in place to address them, and the extent to which teachers and potential teachers were aware of and interested in these programs. To address these issues, TNTP made three recommendations: In recent years, Arkansas has launched initiatives aligned to each of these recommendations. Additionally, policymakers are taking steps to audit the state’s requirements for aspiring teachers to identify and remove barriers to the profession, while maintaining relevant and rigorous teacher licensure requirements.
+
+---
+
+---
+
+### 663. Unlocking Learning Acceleration for Multilingual Learners
+
+```yaml
+url: "https://tntp.org/publication/unlocking-learning-acceleration-for-multilingual-learners/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12]
+```
+
+Multilingual Learners (MLs) represent the fastest-growing student population in our nation’s schools. With diverse cultural and linguistic backgrounds, MLs bring unique assets, or superpowers, that can propel them forward and enrich the entire educational ecosystem. But for too long, they have been among the most underserved student populations, grappling with significant resource gaps at every level. Over the last few years, the influx of Emergency Relief Funds (ESSER) has provided a much-needed lifeline for schools to accelerate learning after the pandemic. Our latest report, Unlocking Learning Acceleration for Multilingual Learners, provides a comprehensive analysis of innovative and impactful strategies deployed to support the success of MLs, largely made possible by leveraging federal funds.
+
+---
+
+---
+
+### 664. False Signals
+
+```yaml
+url: "https://tntp.org/publication/false-signals/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [attendance, k-12, math-education]
+```
+
+In the aftermath of the pandemic, public schools nationwide face profound challenges. Student test scores are down, absenteeism is at an all-time high, and educators are working tirelessly to bridge the learning gap. But research shows families believe that everything is back to normal or will be soon. Our new report, written with EdNavigator and Learning Heroes, explores this disconnect by looking at the relationship between attendance, learning, and grades—and the critical signals those grades are sending to families. We partnered with two school districts to analyze their data both before and after the pandemic. Across the board, more students were both chronically absent and not yet on grade level. But their grades, families’ most trusted indicator of academic standing, tended to remain the same, or were even higher.
+
+---
+
+---
+
+### 665. Unlocking Acceleration
+
+```yaml
+url: "https://tntp.org/publication/unlocking-acceleration/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+To catch up after the pandemic, students need opportunities to do grade-level work. New evidence suggests many still aren’t getting those chances. Schools are working urgently to help students catch back up to grade level in the wake of the pandemic. But that can only happen if students get consistent opportunities to do grade-level work. Our previous research has shown that when students fall behind, providing access to grade level work with appropriate support (learning acceleration) is the best way to help them catch up—and that delaying access to grade-level work (remediation) practically guarantees they will fall even farther behind. But are students getting enough opportunities to do grade-level work? We partnered with ReadWorks, a free digital literacy resource used by more than 75,000 schools, to analyze trends in teachers’ use of grade-level assignments on the platform.
+
+---
+
+---
+
+### 666. Accelerate, Don’t Remediate
+
+```yaml
+url: "https://tntp.org/publication/accelerate-dont-remediate/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, math-education]
+```
+
+School systems must decide how to help students catch up from COVID-19. New evidence suggests learning acceleration is the right approach. Research suggests more students have experienced more unfinished learning over the last year than ever before. With the COVID-19 pandemic waning, school systems are facing a critical choice about how to respond. Should they use the traditional approach of reviewing all the content students missed, known as remediation? Or should they start with the current grade’s content and provide “just-in-time” supports when necessary, known as learning acceleration? New data from Zearn, a nonprofit organization whose online math platform is used by one in four elementary students nationwide, provides one of the first direct comparisons of these two approaches—and compelling new evidence that school systems should make learning acceleration the foundation of their academic strategies next year and beyond.
+
+---
+
+---
+
+### 667. Missing Out
+
+```yaml
+url: "https://tntp.org/publication/missing-out/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Every child in Arkansas deserves an effective, qualified teacher in their classroom. Unfortunately, far too many Arkansas students are being taught by teachers who are uncertified in the subject they are teaching. In this report, we analyze the extent and potential causes of Arkansas’ teacher shortage and propose a series of recommendations for state policymakers. We had two primary findings about the shortage:
+
+---
+
+---
+
+### 668. Rising Together
+
+```yaml
+url: "https://tntp.org/publication/rising-together/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Community engagement is critical for students and families. Here’s how four districts approached it. Community, collaboration, and relationships have become more important than ever during the COVID-19 pandemic. Across the country, school districts have embraced this opportunity to rethink how to engage with families and the surrounding community. With strong leadership that treats families, caregivers, and community organizations as full and authentic partners in student learning during the COVID-19 pandemic, school systems have found new ways to help ensure their children are well. In this report, we share insights and lessons from our work with four districts as they responded to the COVID-19 pandemic. While each focused on different initiatives to address their unique challenges, all four districts grounded their work in TNTP’s four key pillars of community engagement — a shared vision, intentional culture and diversity, authentic collaboration, and 360-degree communication:
+
+---
+
+---
+
+### 669. A Broken Pipeline
+
+```yaml
+url: "https://tntp.org/publication/a-broken-pipeline/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [career-readiness, k-12]
+```
+
+We can’t have a diverse teacher workforce without diverse teacher preparation programs. Closing the teacher diversity gap is one of the most important steps we can take to make public education more equitable. But as many school systems across the country have prioritized the issue, one institution has largely escaped scrutiny: teacher preparation programs. In this report, we use data from the U.S. Department of Education to compare the demographics of each state’s teacher preparation program enrollees to that of public school students to calculate a “teacher prep diversity gap.” We also highlight individual teacher preparation programs that are—and are not—recruiting enough teachers of color to match student demographics in their states.
+
+---
+
+---
+
+### 670. A Strong Foundation
+
+```yaml
+url: "https://tntp.org/publication/a-strong-foundation/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+State policies can lay the groundwork for big improvements in teacher hiring and retention. Here’s how. When it comes to ensuring every student gets great teachers, state governments play a crucial and underappreciated role. Without access to the right data, school systems will struggle to match the supply and demand for new teachers. Without certification policies that prioritize student impact over paper credentials, too many talented people will be shut out of the teaching profession. And without pressure to prioritize teacher diversity, many preparation programs simply won’t. In this issue brief, we outline a policy agenda that can help boost the number of great teachers in any state:
+
+---
+
+---
+
+### 671. The Opportunity Myth
+
+```yaml
+url: "https://tntp.org/publication/the-opportunity-myth/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, higher-ed, k-12]
+```
+
+We’ve been telling students that doing well in school creates opportunities—that showing up, doing the work, and meeting teachers’ expectations will prepare them for their futures. Unfortunately, that’s a myth. Far too many students graduate from high school still unprepared for the lives they want to lead. They enroll in college and land in remedial courses, or start jobs and discover they’re missing skills they need. We wanted to understand why. To do this, we followed nearly 4,000 students in five diverse school systems to learn more about their experiences. What we found was unnerving: classroom after classroom filled with A and B students whose big goals for their lives are slipping further away each day, unbeknownst to them and their families—not because they can’t master challenging material, but because they’re rarely given a real chance to try.
+
+---
+
+---
+
+### 672. Walking Together
+
+```yaml
+url: "https://tntp.org/publication/walking-together/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [higher-ed, k-12]
+```
+
+Imagine this: A community comes together to set a vision for its public schools. In local libraries, neighborhood associations, school cafeterias, and places of worship, families sit down together and share their hopes and dreams for their children. They think about what schools need to do to better equip students for college, career, entrepreneurship, and service to their communities. They talk about the need for more teachers who reflect their demographics, and translation resources that help family members communicate with teachers and school staff. They contemplate improving access to sports and arts programs. They imagine more college counselors and challenging courses that help students enter college prepared for success.
+
+---
+
+---
+
+### 673. Room to Run
+
+```yaml
+url: "https://tntp.org/publication/room-to-run/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [higher-ed, k-12]
+```
+
+What’s possible when students are challenged and inspired in school? We don’t hear often enough from the people who know best: students. So we asked. We asked students like Martin, who once thought pre-calculus was out of reach. Now he’s confident he can excel. He plans to be the first in his family to go to college.
+
+---
+
+---
+
+### 674. Accountability Under ESSA
+
+```yaml
+url: "https://tntp.org/publication/accountability-under-essa-how-states-can-design-systems-that-advance-equity/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+ESSA gives states the flexibility they need to build accountability systems that work for their communities. Here’s how they can get started. The Every Student Succeeds Act (ESSA) gives states new flexibility to deliver on the promise of public education in the way that works best for the communities they serve—especially when it comes to building school accountability systems. These systems are among the most powerful tools at a state chief’s disposal to advance ESSA’s goals of “school quality and student success.” They should embody a state’s vision of a great education and definition of a great school, and help monitor whether it’s becoming a reality for students. In this working paper, we offer some guiding principles to help state chiefs build an accountability system that reflects voices from across their communities, advances educational equity, and makes a difference for as many students as possible.
+
+---
+
+---
+
+### 675. The Mirage
+
+```yaml
+url: "https://tntp.org/publication/the-mirage-confronting-the-truth-about-our-quest-for-teacher-development/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+The Mirage challenges the widely held perception among education leaders that we know what works when it comes to teacher development, and if we could just apply that knowledge more widely, we could improve the quality of classroom teaching in short order. Over two years, we looked closely at teacher development in three large school districts and one charter school network. Here’s what we found: But school systems shouldn’t give up on teacher development. And they shouldn’t cut spending on it, either. Rather, we believe it’s time for a new conversation about teacher improvement—one that asks fundamentally different questions about what great teaching means and how to achieve it.
+
+---
+
+---
+
+### 676. Greenhouse Schools in Boston
+
+```yaml
+url: "https://tntp.org/publication/greenhouse-schools-in-boston/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Boston’s public charter school sector has received national attention for student performance. But what makes the schools so effective? Independent studies have found that Boston charter school students, on the whole, are learning at much faster rates than their peers in charter schools across the country. We think the reason may lie in school leadership practices focused on creating environments that promote quality instruction. In Greenhouse Schools in Boston, we partnered with NewSchools Venture Fund to compare Boston charter schools with more than 200 charter schools across the country, and explore what they do differently. In the Boston charter schools we studied, we found school leaders focused on four key practices to ensure student results:
+
+---
+
+---
+
+### 677. Rebalancing Teacher Tenure
+
+```yaml
+url: "https://tntp.org/publication/rebalancing-teacher-tenure-a-post-vergara-guide-for-policymakers/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Fixing teacher tenure doesn’t mean ending it. Many people view changes to teacher tenure as a choice between two extremes: keep existing laws exactly as they are or get rid of tenure entirely. We think that’s a false choice. In Rebalancing Teacher Tenure, we offer eight common-sense changes to existing laws and regulations that will achieve a more balanced tenure system without stripping teachers of due process.
+
+---
+
+---
+
+### 678. Shortchanged
+
+```yaml
+url: "https://tntp.org/publication/shortchanged-the-hidden-costs-of-lockstep-teacher-pay/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Nobody goes into teaching to get rich, but that’s no excuse not to pay teachers as professionals. Compensation is one of the most important factors in determining who enters the teaching profession and how long they stay—yet 90 percent of all U.S. school districts pay teachers without any regard for their actual performance with students, shortchanging our best educators. If we seriously believe in the value of great teaching, we have to not only pay teachers more but also pay them differently. Shortchanged examines why lockstep pay undermines the value of great teaching and hurts students and teachers, making it difficult to recruit and keep top talent, and discouraging high performers from teaching where they’re needed most. It’s time to build smarter compensation systems that actually pay for what really matters: how hard teachers’ jobs are and how well they’re doing them. Schools and districts can—and should—free up existing funds and pay teachers according to three principles:
+
+---
+
+---
+
+### 679. TNTP Core Teaching Rubric
+
+```yaml
+url: "https://tntp.org/publication/tntp-core-teaching-rubric-a-tool-for-conducting-classroom-observations/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12]
+```
+
+We’re introducing a leaner rubric to provide teachers with better feedback. Classroom observations are failing to deliver on their promises of providing teachers with valuable feedback on their performance. Overly complex rubrics are part of the problem, asking observers to do too much in a short amount of time. And the implementation of new Common Core State Standards poses both a challenge and an opportunity, because observers must now assess what is being taught, not just how it’s being taught. The TNTP Core Teaching Rubric streamlines today’s complicated rubrics to bring the same focus and coherence to classroom observations that the Common Core brings to academic standards. Developed by TNTP and field-tested by volunteers across the country, the rubric can help observers more usefully assess teacher performance, by focusing them on a few key factors most critical to performance.
+
+---
+
+---
+
+### 680. Fixing Classroom Observations
+
+```yaml
+url: "https://tntp.org/publication/fixing-classroom-observations-how-common-core-will-change-teaching/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12]
+```
+
+If we want evaluations to deliver valuable feedback for teachers, we have to fix classroom observations. Classroom observations are the foundation of virtually every teacher evaluation system in the country, and they aren’t working. Today’s observation rubrics give observers too much to look for in a short amount of time, creating inflated and inaccurate ratings and leaving many observers struggling to provide useful feedback to teachers. Fixing Classroom Observations outlines a set of ideas for evolving classroom observations based on lessons learned by dozens of states and school districts that have implemented new evaluation systems over the past several years. We propose bringing the same focus and coherence to classroom observations that Common Core brings to academic standards.
+
+---
+
+---
+
+### 681. Perspectives of Irreplaceable Teachers
+
+```yaml
+url: "https://tntp.org/publication/perspectives-of-irreplaceable-teachers-best-teachers-think-about-teaching/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12]
+```
+
+Teachers should have a greater voice in education policy. So what do America’s best ones really think? Today, as schools across the country wrestle with new approaches to teacher training, evaluation, development and compensation, it is critical to consider and understand the views of teachers, especially top-performing ones. But too little is known about the opinions and experiences of these irreplaceable teachers because research rarely focuses specifically on them. That’s why we launched Perspectives of Irreplaceable Teachers, our survey of America’s best teachers, to find out what they think about their classrooms and their careers.
+
+---
+
+---
+
+### 682. Leap Year
+
+```yaml
+url: "https://tntp.org/publication/leap-year-assessing-and-supporting-effective-first-year-teachers/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+The first year is the most important year of a teacher’s career. We need to treat it that way. Teachers who make a strong start are more likely to remain successful over time, but many schools and teacher training programs treat teachers’ first year like a warm-up. We should instead see it as a critical window of opportunity to help teachers develop essential skills and determine whether they can make a successful career teaching. Leap Year describes the major lessons we learned from treating the first year of teaching with the care it deserves through the Assessment of Classroom Effectiveness (ACE), a multiple-measures evaluation system designed to ensure that first-year teachers in our Teaching Fellows and TNTP Academy programs meet a high standard of effectiveness.
+
+---
+
+---
+
+### 683. Keeping Irreplaceables in D.C. Public Schools
+
+```yaml
+url: "https://tntp.org/publication/keeping-irreplaceables-in-d-c-public-schools-smart-teacher-retention/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+D.C. Public Schools takes a dramatically different approach to teacher retention. The Irreplaceables highlighted the real retention crisis in America’s urban schools: a failure to keep highly effective teachers or usher unsuccessful ones out. TNTP’s new case study, Keeping Irreplaceables in D.C. Public Schools, provides a deeper look at retention strategies discussed in The Irreplaceables and how they’re playing out in District of Columbia Public Schools (DCPS). The paper explains how DCPS has moved toward smarter teacher retention, mainly by raising expectations and removing consistently low-performing teachers, and details opportunities to make even more progress. The report recommends tha
+
+---
+
+---
+
+### 684. The Irreplaceables
+
+```yaml
+url: "https://tntp.org/publication/the-irreplaceables-understanding-the-real-retention-crisis/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+America’s schools are losing too many of their best teachers. America’s urban schools are taking a negligent approach to teacher retention; many rarely make a strong effort to keep “Irreplaceables,” teachers so successful at advancing student learning that they are nearly impossible to replace, or usher unsuccessful teachers out. As a result, the best and worst teachers leave urban schools at strikingly similar rates. The Irreplaceables spans four urban school districts encompassing 90,000 teachers, 2,100 schools and 1.4 million students to focus on the experiences of exceptional teachers. From the data we analyzed from these districts, we found three main causes for the destructive retention patterns we saw in schools.
+
+---
+
+---
+
+### 685. Greenhouse Schools
+
+```yaml
+url: "https://tntp.org/publication/greenhouse-schools-how-schools-can-build-cultures-where-teachers-thrive/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Greenhouse schools are able to keep effective teachers and grow students by prioritizing great teaching above all else. We’ve come across schools that are exceptional at accelerating student learning by developing and keeping great teachers. We call them “greenhouse schools”—schools with carefully fostered cultures that help teachers and students reach greater heights. But what is it that they are doing differently? Greenhouse Schools explains what we learned from surveying thousands of teachers in 250 schools nationwide about several dimensions of their schools’ cultures.
+
+---
+
+---
+
+### 686. The Case Against Quality-Blind Teacher Layoffs
+
+```yaml
+url: "https://tntp.org/publication/the-case-against-quality-blind-teacher-layoffs/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Harmful layoff policies have real consequences for both students and teachers. As school districts across the country grapple with massive budget cuts, thousands of great teachers could lose their jobs simply because they have not taught as long as others. That’s because 40 percent of the nation’s teachers (1.25 million) work in one of 14 states where it’s currently illegal for schools to consider job performance in making layoff decisions. The Case Against Quality-Blind Teacher Layoffs summarizes recent research on the effects of quality-blind policies and explains why staffing decisions should be based on what teachers achieve with their students, not when they started teaching.
+
+---
+
+---
+
+### 687. Teacher Evaluation 2.0
+
+```yaml
+url: "https://tntp.org/publication/teacher-evaluation-2-0/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12]
+```
+
+Teacher evaluations need serious fixing. Here’s a guide to get started. In 2009, The Widget Effect documented how poorly designed teacher evaluation systems rate all teachers as “good” or “great” and provide little useful feedback on classroom performance. Since then, states and school districts have begun to revamp outdated systems by passing new legislation and forging groundbreaking collective bargaining agreements with teachers unions. The dilemma education leaders now face is, “How?” How can they avoid the pitfalls of past evaluation systems and create new ones that become useful tools for teachers and school leaders?
+
+---
+
+---
+
+### 688. The Widget Effect
+
+```yaml
+url: "https://tntp.org/publication/the-widget-effect-failure-to-act-on-differences-in-teacher-effectiveness/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12]
+```
+
+If teachers are so important, why do we treat them like widgets? Effective teachers are the key to student success, yet our school systems treat all teachers as interchangeable parts, not professionals. Excellence goes unrecognized and poor performance goes unaddressed. This indifference to performance disrespects teachers and gambles with students’ lives. The Widget Effect is a wide-ranging report that studies teacher evaluation and dismissal in four states and 12 diverse districts and reflects survey responses from approximately 15,000 teachers and 1,300 administrators.
+
+---
+
+---
+
+### 689. Mutual Benefits
+
+```yaml
+url: "https://tntp.org/publication/mutual-benefits-new-york-citys-shift-to-mutual-consent-in-teacher-hiring/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+The excessed teachers pool is costing New York City big time. What should the city do? New York City’s 2005 school staffing reform to end the forced placement of teachers has been highly successful, creating mutual benefits for teachers and schools by offering better choices, increased flexibility and greater transparency throughout the staffing process. But the improvements have also created a new problem: a reserve pool of teachers unable to find principals willing to hire them or schools that meet their needs. Mutual Benefits documents the characteristics and job search patterns of 235 teachers excessed in 2006 who still had not secured new positions a year and a half later and makes recommendations for a smarter policy for supporting excessed teachers while addressing the high costs of the pool.
+
+---
+
+---
+
+### 690. Unintended Consequences
+
+```yaml
+url: "https://tntp.org/publication/unintended-consequences-the-case-for-reforming-staffing-rules/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Two contractual staffing rules put the straightjacket on urban schools’ hiring abilities. Two staffing rules mandated by urban teachers union contracts are having a profound influence on not only new teacher hiring but also the ability of urban schools to staff their classrooms effectively. “Voluntary transfer” and “excessed teacher” rules often require schools to hire incumbent teachers—either ones with seniority rights who want to move between schools or ones who have been cut from their positions due to declines in budget or student enrollment—without any regard for whether these teachers are the right matches for the jobs. Unintended Consequences examines five major urban school districts across the country to quantify the degree to which these collectively-bargained rules hamper the ability of schools to make smart hiring decisions.
+
+---
+
+---
+
+### 691. Missed Opportunities
+
+```yaml
+url: "https://tntp.org/publication/missed-opportunities-how-we-keep-quality-teachers-out-of-urban-classrooms/"
+type: report
+source: "TNTP"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12]
+```
+
+Highly qualified candidates are applying to teach in urban school districts. Why are too few getting hired? It’s been 10 years since TNTP published its first-ever research and policy report, Missed Opportunities. At that time, teacher shortages in urban districts were assumed to be caused by a dearth of qualified applicants. But as we worked in district offices, we discovered that was not true. The problem was that district staffing systems were impossibly dysfunctional: Applicants were treated poorly, hiring took months and offers sometimes arrived the same week school began.
+
+---

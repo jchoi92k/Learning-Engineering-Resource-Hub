@@ -1,0 +1,591 @@
+# Renaissance AI and Education Resource Hub — IES Regional Education Labs (full)
+# 28 entries with descriptions | Last updated: 2026-08-30
+# Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-ies-regional-education-labs.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+
+---
+
+### 334. Examining Implementation and Outcomes of the Project On-Track High-Dosage Tutoring Program
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/examining-implementation-and-outcomes-project-track-high-dosage-tutoring-program"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [coaching, k-12, literacy, professional-development]
+```
+
+REL Appalachia (REL 2024-005) examined how northeastern Tennessee school districts implemented the Niswonger Foundation's Project On-Track literacy tutoring initiative for early elementary students. The program uses Amplify Reading to group students by skill level and generate mini-lessons aligned to the science of reading. After one year, 42% of students who started as most at-risk improved to lower risk categories; rural schools heavily favored in-school delivery (92%) compared to non-rural schools (47%).
+
+---
+
+---
+
+### 335. Effectiveness of Early Literacy Instruction: Summary of 20 Years of Research
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/systematic-literature-review/effectiveness-early-literacy-instruction-summary-20-years-research"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [early-childhood, k-12, literacy, meta-analysis]
+```
+
+REL Southeast (REL 2021-084) synthesized over 74,000 studies published between 1997 and 2017, ultimately identifying 132 evidence-based early literacy interventions across 109 high-quality experimental and quasi-experimental studies. The review found that domain-specific instruction reliably increases performance in that domain, and that combined phonological awareness and print knowledge instruction shows promise for improving decoding and early writing skills. Language-focused instruction was found to be more effective in small group or one-on-one settings.
+
+---
+
+---
+
+### 336. Developing a Measure of Middle School Math Teachers' Pedagogical Content Knowledge for Computational Thinking
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/developing-measure-middle-school-math-teachers-pedagogical-content-knowledge-computational-thinking"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [formative-assessment, k-12, math-education, professional-development]
+```
+
+REL Midwest (REL 2026-007) developed and validated the CT-PCK Survey, a brief instrument measuring middle school teachers' ability to integrate computational thinking into mathematics instruction. Teachers scored approximately 61% correct on average, with those holding traditional certifications and those with five or more years of experience performing significantly higher. The survey is designed for use in professional development evaluation and institutional needs assessment in Midwest urban schools facing declining math achievement.
+
+---
+
+---
+
+### 337. A Pilot Study of Write to Succeed: An Intervention to Enhancing Writing Instruction in New Mexico
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/pilot-study-write-succeed-intervention-enhancing-writing-instruction-new-mexico"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [english-learners, k-12, literacy, professional-development, writing-instruction]
+```
+
+REL Southwest (REL 2025-013) evaluated the Write to Succeed professional learning program in partnership with the New Mexico Public Education Department. The pilot involved 22 teachers across five schools in three districts during the 2023-24 school year, with a focus on scaffolded writing instruction that embeds supports for English learner students. Data collected via coach logs, teacher surveys, and interviews provided the New Mexico PED with implementation evidence for potential expansion.
+
+---
+
+---
+
+### 338. California's Special Education Local Plan Areas: Funding Patterns, Inclusion Rates, and Student Outcomes
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/californias-special-education-local-plan-areas-funding-patterns-inclusion-rates-and-student-outcomes"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, longitudinal, qualitative-research]
+```
+
+REL West (REL 2022-134) analyzed 2016-17 data on California's Special Education Local Plan Areas (SELPAs), examining how funding configurations, inclusion rates, and student outcomes vary across SELPA types. The authors recommend that California investigate which regionalized special education programs benefit students in small districts and gather additional data to support more complex analyses of outcomes attributable to specific SELPA configurations.
+
+---
+
+---
+
+### 339. Implementation of Career- and College-Ready Requirements for High School Graduation in Washington
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/implementation-career-and-college-ready-requirements-high-school-graduation-washington"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12, longitudinal]
+```
+
+REL Northwest (REL 2020-020) examined Washington state's 2014 legislation requiring 24 credits for high school graduation, finding that district implementation grew from 9% for the class of 2018 to 56% for the class of 2019. Only 27% of 2018 graduates statewide met all requirements, with significant gaps among economically disadvantaged students, English learners, and students of color. Increased credit requirements showed minimal impact on student academic outcomes between 2013 and 2018.
+
+---
+
+---
+
+### 340. Additional Certification for Teachers in New York State: Teachers' Experience and Employment Location, Certification Pathways, and Certification Areas
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/additional-certification-teachers-new-york-state-teachers-experience-and-employment-location"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, longitudinal, professional-development]
+```
+
+REL Northeast & Islands (REL 2022-110) studied how New York State teachers with at least one year of experience obtained additional certificates between October 2015 and October 2017. Approximately 5% earned additional certificates during the period; more teachers earned certificates in shortage areas than non-shortage areas, with special education as the most frequently pursued area. Teachers obtaining additional certificates were less experienced on average than those who did not, and over half used traditional in-state certification pathways.
+
+---
+
+---
+
+### 341. Examining the Mentoring Experiences of First-Year Teachers in Missouri
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/examining-mentoring-experiences-first-year-teachers-missouri"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [coaching, k-12, professional-development, qualitative-research]
+```
+
+REL Central (REL 2025-014) examined the frequency, duration, activities, and topics of mentoring received by a sample of first-year teachers in Missouri to provide the state Department of Elementary and Secondary Education with data for strengthening its mentoring initiative. The research used descriptive statistics to analyze mentoring patterns, supporting Missouri's goal of improving new teacher retention through evidence-informed program design.
+
+---
+
+---
+
+### 342. Stabilizing School Performance Indicators in New Jersey to Reduce the Effect of Random Error
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/stabilizing-school-performance-indicators-new-jersey-reduce-effect-random-error"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+REL Mid-Atlantic (REL 2025-009) tested Bayesian hierarchical modeling as a method to reduce the impact of random error on school accountability indicators in New Jersey, particularly for smaller student groups. Stabilization substantially improved reliability for test-based indicators such as proficiency rates and median student growth percentiles, and led to meaningful changes in which schools were designated for support and improvement. Non-test-based indicators such as chronic absenteeism and graduation rates proved less amenable to the approach.
+
+---
+
+---
+
+### 343. Examining the English Language Arts Course Placement System at the College of the Marshall Islands
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/examining-english-language-arts-course-placement-system-college-marshall-islands"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [english-learners, higher-ed, longitudinal]
+```
+
+REL Pacific (REL 2026-006) evaluated a 2021-22 revision to the College of the Marshall Islands' ELA placement system that added a multiple-choice test and a writing component alongside high school GPA. Only 11% of first-time students placed into credit-bearing ELA courses under the new system compared to 22% previously; students in intensive pathways of credit-bearing courses showed the highest passing rates. The writing component did not predict any outcomes, leading the authors to recommend CMI consider removing it and weighting high school GPA more heavily.
+
+---
+
+---
+
+### 344. Evidence and Gap Map of Tier 2 Literacy Interventions for Grades K–3 in the Commonwealth of the Northern Mariana Islands
+
+```yaml
+url: "https://ies.ed.gov/ncee/rel/Products/Region/pacific/Publication/108204"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [early-childhood, k-12, literacy, meta-analysis]
+```
+
+REL Pacific (REL 2025-007) conducted a systematic review of supplemental literacy programs for K–3 students in the Northern Mariana Islands, where in 2019 only 24% of grade 3 students were reading at or above grade level. Of 267 relevant studies identified, 20 met rigorous quality standards; two interventions — Reading Recovery and Literacy First — demonstrated strong evidence under ESSA standards, and Achieve3000 showed moderate evidence. The report includes an evidence gap map and a matrix documenting implementation strategies for each reviewed intervention.
+
+---
+
+---
+
+### 345. Teaching Fractions Toolkit
+
+```yaml
+url: "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/midwest/partnerships/teaching-fractions-toolkit"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, math-education, math-strategies, professional-development]
+```
+
+REL Midwest developed this professional development toolkit in partnership with the Illinois State Board of Education to help grade 6 math teachers implement evidence-based practices for teaching fractions and rational number computation. Grounded in the WWC practice guide Developing Effective Fractions Instruction for Kindergarten Through 8th Grade, the toolkit includes teacher professional development materials, resources for instructional leaders, and supplemental training for state, regional, and district leaders. The initiative aims to strengthen students' conceptual understanding of fractions, ratios, and rates with particular focus on closing achievement gaps.
+
+---
+
+---
+
+### 346. Strategies to Improve Reading
+
+```yaml
+url: "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/midwest/partnerships/strategies-to-improve-reading"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [coaching, early-childhood, k-12, literacy, professional-development]
+```
+
+REL Midwest partnered with Michigan school districts to develop and implement the STIR (Strategies to Improve Reading) approach for grades K–2 literacy instruction, focusing on phonological awareness and phonics practices that help students decode unfamiliar words. The initiative builds educator capacity across three areas: effective instructional practices, data-driven decision-making, and leadership support. Resources, tools, trainings, and coaching are provided to help teachers implement and refine evidence-based early literacy routines.
+
+---
+
+---
+
+### 347. A Toolkit to Support Evidence-Based Writing Instruction in Grades 2 Through 4
+
+```yaml
+url: "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/mid-atlantic/partnerships/a-toolkit-to-support-evidence-based-writing-instruction-in-grades-2-through-4"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [formative-assessment, k-12, literacy, professional-development, writing-instruction]
+```
+
+REL Mid-Atlantic created this free professional development toolkit comprising eight one-hour professional learning community sessions designed for grades 2–4 teachers, school leaders, and PD coaches. Built on the WWC What Works Clearinghouse practice guide on writing instruction and informed by practitioners from four Washington, D.C. charter schools, the toolkit provides a facilitator's guide, teacher's guide, instructional videos, lesson plans, and a school leader's guide. Components include self-reflection tools and goal-setting resources to support ongoing improvement in writing instruction.
+
+---
+
+---
+
+### 348. Toolkit to Support Evidence-Based Algebra Instruction in Middle and High School
+
+```yaml
+url: "https://ies.ed.gov/ncee/rel/algebra-middle-and-high-school/intro"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [formative-assessment, k-12, math-education, math-strategies, professional-development]
+```
+
+REL Central developed this professional development toolkit to help algebra educators implement evidence-based recommendations from the WWC practice guide on improving algebra knowledge in middle and high school students. The toolkit organizes resources around three recommendations — using solved problems, teaching students to recognize algebraic structure, and selecting appropriate solution strategies — and uses a Professional Learning Community model with Plan-Do-Study-Act cycles to lower the barrier to implementation. It includes facilitator guides, participant workbooks, data collection tools, and videos for use by individual educators or school teams.
+
+---
+
+---
+
+### 349. REL Northwest's Guide to Community Engagement Data Collection and Analysis
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/resource/other-resource/rel-northwests-guide-community-engagement-data-collection-and-analysis"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, professional-development, qualitative-research]
+```
+
+REL Northwest published this 2026 guide to help education agency staff collect, analyze, and act on community engagement input from students, families, educators, and community partners. The guide provides 12 supporting resources organized across three phases — before, during, and after engagement — including ready-to-use checklists, tip sheets, and templates for research question design, note-taking, codebook generation, data analysis, and findings dissemination. It emphasizes that agencies that demonstrate genuine responsiveness to community feedback build trust and improve program quality.
+
+---
+
+---
+
+### 350. Exploring Implementation of Trauma-Engaged Practices in Alaska Schools
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/exploring-implementation-trauma-engaged-practices-alaska-schools"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, qualitative-research, sel, student-belonging]
+```
+
+REL Northwest (REL 2025-011) examined how Alaska schools implement trauma-engaged practices using the state's Transforming Schools Framework, drawing on administrative data and surveys. Most schools were at an emerging implementation level; schools with higher awareness of state support resources showed substantially higher implementation. Implementation levels predicted student perceptions on two school climate measures — Caring Others and Cultural Connectedness — but did not significantly affect other measured outcomes. School leaders identified staff buy-in, professional development, dedicated funding, and community partnerships as critical success factors.
+
+---
+
+---
+
+### 352. Principal Retention Patterns in Arizona, Nevada, and Utah
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/principal-retention-patterns-arizona-nevada-and-utah"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, longitudinal, professional-development]
+```
+
+REL West (REL 2021-129) examined principal retention across Arizona, Nevada, and Utah, finding that fewer than half of principals in each state remained at the same school over the four-year period from fall 2016 to fall 2020. Retention rates varied significantly by school performance level, with substantially lower retention at lower-performing schools. When principals left their positions, those who remained in the profession tended to transfer within the same school district rather than to a different district.
+
+---
+
+---
+
+### 353. Student Group Differences in Arkansas' Indicators of Postsecondary Readiness and Success
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/student-group-differences-arkansas-indicators-postsecondary-readiness-and-success"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [career-readiness, college-access, higher-ed, k-12, longitudinal]
+```
+
+REL Southwest (REL 2023-145) analyzed middle and high school indicators predicting postsecondary success in Arkansas using data from grade 6 cohorts from 2008/09–2009/10, examining variation by race/ethnicity, economic status, disability status, and other characteristics. Indicator attainment varied substantially across student groups, with the largest differences between students with and without a designated disability; academic indicators showed greater disparities than behavioral ones. Predictive accuracy of indicators remained largely consistent across demographic groups, though specific indicators — notably ELA and science proficiency in middle school — showed variation in predictive strength for some populations.
+
+---
+
+---
+
+### 355. An Examination of the Costs of Texas Community Colleges
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/examination-costs-texas-community-colleges"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [college-access, higher-ed, longitudinal]
+```
+
+REL Southwest (REL 2023-142) examined whether Texas community colleges have sufficient funding to help all students meet performance-based milestones, using needs analysis, equity analysis, and cost function analysis. Colleges serving higher proportions of first-generation, economically disadvantaged, academically disadvantaged, older, and English learner students earned fewer success point milestones per full-time equivalent student. Current spending levels were found to be insufficient to cover the cost of providing equal opportunity to disadvantaged student populations to achieve outcomes comparable to their peers.
+
+---
+
+---
+
+### 356. Exploring Implementation of Attendance Supports to Reduce Chronic Absenteeism in the Providence Public School District
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/report/descriptive-study/exploring-implementation-attendance-supports-reduce-chronic-absenteeism-providence-public-school"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [attendance, k-12, longitudinal]
+```
+
+REL Northeast & Islands (REL 2021-099) examined attendance support initiatives in Providence Public School District during 2018–19, identifying which supports were most effective at reducing chronic absenteeism. Schools experiencing decreased chronic absenteeism implemented text messaging, phone calls, and mentorship programs with greater fidelity; multilingual text outreach showed particular promise in reaching families. Schools with declining absenteeism rates adopted attendance-related text messaging faster than schools where absenteeism increased.
+
+---
+
+---
+
+### 357. Ask an Expert: College- and Career-Readiness Interventions
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/resource/other-resource/ask-expert-college-and-career-readiness-interventions"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12]
+```
+
+REL Appalachia (published June 2022) compiled this resource identifying 15 college and career readiness interventions that meet ESSA Tier 1, 2, or 3 evidence standards, with particular attention to whether research was conducted in rural areas or with economically disadvantaged students. The resource provides details on each intervention's evidence tier, research context, and outcome domain, helping practitioners in REL Appalachia's region select evidence-based approaches suited to their specific student populations and geographic contexts.
+
+---
+
+---
+
+### 358. High-Quality Early Child Education is Associated With Outcomes
+
+```yaml
+url: "https://ies.ed.gov/use-work/resource-library/resource/fact-sheetinfographicfaq/high-quality-early-child-education-associated"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [early-childhood, k-12, longitudinal, prekindergarten]
+```
+
+REL West published this November 2025 infographic summarizing research-identified outcomes associated with high-quality early childhood education across four domains: kindergarten readiness, educational progress, long-term outcomes including college enrollment and employment, and health benefits. The summary identifies four essential features of high-quality programs: evidence-based curricula with play-based instruction and teacher coaching; educators with bachelor's degrees and K–12 equivalent compensation; small class sizes with low staff-to-child ratios; and full-day formats. Disadvantaged populations — including low-income children and children of color — were found to benefit most substantially.
+
+---
+
+---
+
+### 359. Teacher Certification, Retention, and Recruitment in Palau: Understanding Graduation Patterns of Teacher Education Students at Palau Community College
+
+```yaml
+url: "https://ies.ed.gov/ncee/rel/Products/Region/pacific/Publication/108210"
+type: report
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [higher-ed, k-12, longitudinal, professional-development]
+```
+
+REL Pacific (REL 2025-008, December 2024) examined how long teacher education students take to complete associate's degree programs at Palau Community College, prompted by Public Law 10-32 requiring all teachers to obtain an associate's degree in education or their subject area by end of 2023. The study aimed to support policymakers in understanding teacher certification timelines and help education leaders in Palau develop evidence-based strategies for training, retaining, and recruiting qualified educators across the Pacific region.
+
+---
+
+---
+
+### 360. Building Pathways for Student Success — REL Southwest Arkansas Partnership
+
+```yaml
+url: "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/building-pathways-for-student-success"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [career-readiness, college-access, formative-assessment, k-12]
+```
+
+REL Southwest partners with the Arkansas Department of Education to enhance college and career readiness through high-quality interventions that strengthen student success pathways. Current work includes coaching to support an inclusive application process and rigorous evaluation design for the THRIVE Initiative, as well as formative evaluation best practices coaching for the Arkansas Department of Education's AIIM Initiative. The partnership applies evidence-based frameworks to help Arkansas identify and scale effective programs targeting underserved student populations.
+
+---
+
+---
+
+### 361. Southwest English Learner Literacy (SWELL) Partnership
+
+```yaml
+url: "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/southwest-english-learner-literacy"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [english-learners, k-12, literacy, professional-development, writing-instruction]
+```
+
+REL Southwest collaborates with New Mexico educators through the SWELL partnership to enhance English learner literacy using the Write to Succeed professional learning initiative. The program trains teachers in evidence-based literacy practices emphasizing culturally and linguistically responsive instruction, with peer collaboration and role-play practice before classroom implementation. Resources include teacher peer collaboration tools and professional learning support aligned to the needs of New Mexico's English learner student population.
+
+---
+
+---
+
+### 362. Providing Reading Interventions for Students in Middle School Toolkit
+
+```yaml
+url: "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/providing-reading-interventions-for-students-in-middle-school-toolkit"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, literacy, professional-development, response-to-intervention]
+```
+
+REL Southwest collaborates with the Texas Education Agency and school districts to develop professional development resources and online learning modules for grades 6–8 educators aimed at strengthening literacy instruction and improving reading skills. The toolkit includes professional learning communities for peer collaboration, tools to assess teacher practice and implementation fidelity, and resources for institutionalizing ongoing support. The initiative is grounded in the WWC practice guide on providing reading interventions for students in grades 4–9.
+
+---
+
+---
+
+### 363. Leading Early Childhood Achievement and Development (LEAD) Partnership
+
+```yaml
+url: "https://ies.ed.gov/use-work/regional-educational-laboratories-rel/southwest/partnerships/leading-early-childhood-achievement-and-development"
+type: framework
+source: "IES Regional Education Labs"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [coaching, early-childhood, k-12, prekindergarten, professional-development]
+```
+
+REL Southwest partners with the Oklahoma State Department of Education and local school districts to strengthen educator capacity in research-based early learning practices targeting school leaders and classroom educators. The initiative develops and refines professional learning interventions focused on play-based learning and quality teacher-student interactions to improve academic outcomes. REL Southwest uses an iterative development process to test and refine approaches before broader implementation across Oklahoma.
+
+---

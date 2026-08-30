@@ -1,0 +1,18 @@
+# Renaissance AI and Education Resource Hub — Carnegie Mellon University LearnLab
+
+> 12 entries from Carnegie Mellon University LearnLab.
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-carnegie-mellon-university-learnlab.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 405. [PSLC DataShop KDD Cup 2010 Educational Data Mining Challenge](https://pslcdatashop.web.cmu.edu/KDDCup/) | dataset | cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets
+- 406. [LearnSphere — Education Research Data Infrastructure](https://learnsphere.org/) | dataset | cmu-learnlab, data-sharing, learning-engineering, open-datasets
+- 454. [WPI — ASSISTments Math 2004–2005 (912 Students)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=92) | dataset | assistments, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets
+- 455. [WPI — ASSISTments Math 2005–2006 (3136 Students)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=120) | dataset | assistments, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets
+- 456. [Geometry Area (1996–97)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=76) | dataset | cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets
+- 457. [Physics Course — Andes2 (USNA, 2005–2010)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=126) | dataset | cmu-learnlab, computer-assisted-learning, higher-ed, intelligent-tutoring, learning-engineering, open-datasets
+- 458. [Junyi Academy Math Practicing Log (to January 2015)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198) | dataset | cmu-learnlab, digital-learning-platforms, k-12, learning-engineering, math-education, open-datasets, personalized-learning
+- 459. [Adapterrex — Erroneous Examples Studies (2011–2019)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=495) | dataset | a-b-testing, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets
+- 460. [Blocked vs. Interleaved Instruction — Fraction Arithmetic](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1190) | dataset | a-b-testing, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets
+- 461. [iSnap — Introductory Programming (2015–2018)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1920) | dataset | cmu-learnlab, computer-assisted-learning, higher-ed, k-12, learning-engineering, open-datasets
+- 462. [Virginia Tech OpenDSA — Formal Languages eTextbook (Fall 2019)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=3427) | dataset | cmu-learnlab, computer-assisted-learning, digital-learning-platforms, higher-ed, learning-engineering, open-datasets
+- 463. [Pavlik — Knowledge Tracking: Chinese Vocabulary Studies (2006–2007)](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=107) | dataset | cmu-learnlab, computer-assisted-learning, higher-ed, learning-engineering, longitudinal, open-datasets

@@ -7,7 +7,7 @@
 
 ## What this is
 
-A **referratory** — links + metadata, no content hosting — of evidence-based K-12 and higher education resources, optimized for LLM consumption via WebFetch. The primary file is `docs/llms-full.txt` — all entries with full descriptions and an auto-generated navigation header (tag directory, source/type summaries, usage instructions). A compact index without descriptions lives at `docs/llms.txt`. Human-facing UI at `docs/index.html` (GitHub Pages or local server).
+A **referratory** — links + metadata, no content hosting — of evidence-based K-12 and higher education resources, optimized for LLM consumption via WebFetch. `docs/llms.txt` is the root index for agents that follow links: one line per source pointing to `llms-<source>.txt` (compact lists, parts under 100,000 characters) and `llms-full-<source>.txt` (with descriptions). `docs/llms-full.txt` is the single self-contained file — all entries with descriptions and a navigation header — for clients that can only load one URL. Human-facing UI at `docs/index.html` (GitHub Pages or local server).
 
 **Scope**: All evidence-based K-12 and higher education. Not limited to learning engineering methods. Sources are pre-curated organizations whose editorial judgment we trust: WWC, LPI, EdTrust, NAP, CASEL, JEDM, Evidence for ESSA, etc.
 
@@ -35,8 +35,10 @@ For workflow:
 
 ```
 docs/                          # published output only (GitHub Pages root)
-  llms-full.txt               # primary file — all entries with descriptions + auto-generated nav header
-  llms.txt                    # compact index (titles, URLs, types, tags — no descriptions)
+  llms.txt                    # root index — one line per source, links to the per-source files
+  llms-<source>.txt           # compact per-source lists (num, title, URL, type, tags), parts < 100,000 chars
+  llms-full-<source>.txt      # per-source files with descriptions
+  llms-full.txt               # all entries with descriptions in one self-contained file
   data.json                   # generated; consumed by index.html and MCP worker
   index.html                  # human-facing UI
   tags/                       # generated per-tag markdown files
@@ -284,7 +286,7 @@ After scraping and processing into hub.db:
 1. From repo root: `python scripts/build_from_db.py`
 2. The build reads all active entries from `data/hub.db` and generates:
    - `llms-full.txt` — all entries with descriptions and auto-generated nav header
-   - `llms.txt` — compact index (no descriptions)
+   - `llms.txt` — root index, plus `llms-<source>.txt` compact parts (size-gated at 100,000 characters) and `llms-full-<source>.txt` shards; stale per-source files are removed
    - `data.json` — consumed by index.html, includes `meta.coverage` per-source counts
    - `tags/*.md` — per-tag markdown files
    - `gem-knowledge.txt` — artifact for the Gemini Gem

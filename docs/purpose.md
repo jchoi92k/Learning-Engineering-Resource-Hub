@@ -8,8 +8,8 @@ A **referatory** (not a repository) of evidence-based K-12, higher-education, an
 
 This hub follows the **llms.txt standard** (Jeremy Howard / Answer.AI):
 
-- `llms-full.txt` — primary file: all entries with descriptions + auto-generated navigation header.
-- `llms.txt` — compact index (titles, URLs, types, tags — no descriptions).
+- `llms.txt` — root index: one line per source, linking to compact per-source lists (`llms-<source>.txt`, parts under 100,000 characters) and per-source files with descriptions (`llms-full-<source>.txt`).
+- `llms-full.txt` — all entries with descriptions + navigation header in one self-contained file.
 - `tags/*.md` — per-tag detail files (generated, consumed by the web UI).
 - An MCP server (Cloudflare Worker) exposes the corpus to agents that prefer programmatic queries.
 - A Gemini Gem provides conversational access for users who prefer chat.

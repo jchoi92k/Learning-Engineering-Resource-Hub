@@ -1,0 +1,22 @@
+# Renaissance AI and Education Resource Hub — CREDO at Stanford
+
+> 16 entries from CREDO at Stanford.
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-credo-at-stanford.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 916. [The Impact of Rhode Island's Charter School Performance Review System](https://credo.stanford.edu/reports/item/rhode-island-2025/) | report | k-12, longitudinal, meta-analysis
+- 917. [National Charter School Study III](https://credo.stanford.edu/reports/item/national-charter-school-study-iii/) | report | k-12, longitudinal
+- 918. [Houston – 2022 City Studies](https://credo.stanford.edu/reports/item/houston-tx-2022/) | report | english-learners, k-12, longitudinal
+- 919. [Newark – 2022 City Studies](https://credo.stanford.edu/reports/item/newark-nj-2022/) | report | english-learners, k-12, longitudinal
+- 920. [Fort Worth – 2022 City Studies](https://credo.stanford.edu/reports/item/fort-worth-tx-2022/) | report | english-learners, k-12, longitudinal
+- 921. [Austin – 2022 City Studies](https://credo.stanford.edu/reports/item/austin-tx-2022/) | report | english-learners, k-12, longitudinal
+- 922. [City Studies: Project Meta-Analysis](https://credo.stanford.edu/reports/item/city-studies-project-meta-analysis/) | report | k-12, meta-analysis
+- 923. [2023 Pace of Learning Report](https://credo.stanford.edu/reports/item/2023-pace-of-learning-report/) | report | k-12, longitudinal, meta-analysis, personalized-learning
+- 924. [Charter School Performance in Rhode Island – 2023](https://credo.stanford.edu/reports/item/charter-school-performance-in-rhode-island-2023/) | report | k-12, longitudinal
+- 2432. [Charter Schools’ Response to the Pandemic in California, New York and Washington State](https://credo.stanford.edu/reports/item/charter-schools-response-to-the-pandemic-in-california-new-york-and-washington-state/) | report | 
+- 2433. [NY charter schools: Remote instruction during the COVID crisis (spring 2020)](https://credo.stanford.edu/reports/item/report-3/) | report | 
+- 2434. [Charter School Performance in the State of Washington](https://credo.stanford.edu/reports/item/charter-school-performance-in-the-state-of-washington-2/) | report | english-learners
+- 2435. [Charter School Performance in South Carolina 2019](https://credo.stanford.edu/reports/item/charter-school-performance-in-south-carolina-2019-2/) | report | literacy, math-education
+- 2436. [Charter School Performance in New Mexico](https://credo.stanford.edu/reports/item/charter-school-performance-in-new-mexico-2/) | report | 
+- 2437. [Charter School Performance in Pennsylvania](https://credo.stanford.edu/reports/item/charter-school-performance-in-pennsylvania-2/) | report | computer-assisted-learning
+- 2438. [Charter School Impacts in Idaho](https://credo.stanford.edu/reports/item/charter-school-impacts-in-idaho-2/) | report | 

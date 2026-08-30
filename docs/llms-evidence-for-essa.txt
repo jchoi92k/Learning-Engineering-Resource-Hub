@@ -1,0 +1,227 @@
+# Renaissance AI and Education Resource Hub — Evidence for ESSA
+
+> 221 entries from Evidence for ESSA.
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-evidence-for-essa.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 16. [Lenses on Literature — Evidence for ESSA](https://evidenceforessa.org/program/lenses-on-literature/) | report | carnegie-learning, computer-assisted-learning, formative-assessment, k-12, learning-engineering
+- 201. [Evidence for ESSA: Reading Partners](https://evidenceforessa.org/program/reading-partners/) | report | coaching, k-12, literacy
+- 202. [Evidence for ESSA: Success for All](https://evidenceforessa.org/program/success-for-all-whole-class/) | report | coaching, k-12, literacy, professional-development
+- 203. [Evidence for ESSA: Reading Recovery](https://evidenceforessa.org/program/reading-recovery/) | report | coaching, k-12, literacy
+- 204. [Evidence for ESSA: Peer-Assisted Learning Strategies (PALS) — Reading](https://evidenceforessa.org/program/peer-assisted-learning-strategies-pals-reading-elementary-whole-class/) | report | k-12
+- 205. [Evidence for ESSA: Enhanced Core Reading Instruction (ECRI)](https://evidenceforessa.org/program/enhanced-core-reading-instruction-ecri/) | report | k-12, literacy, professional-development, response-to-intervention
+- 206. [Evidence for ESSA: Reading Corps](https://evidenceforessa.org/program/reading-corps/) | report | coaching, k-12, literacy
+- 207. [Evidence for ESSA: Targeted Reading Instruction (TRI)](https://evidenceforessa.org/program/targeted-reading-instruction-tri/) | report | coaching, computer-assisted-learning, k-12, literacy
+- 208. [Evidence for ESSA: Sound Partners — Struggling Readers](https://evidenceforessa.org/program/sound-partners-struggling-readers/) | report | coaching, k-12, literacy
+- 209. [Evidence for ESSA: QuickReads — Struggling Readers](https://evidenceforessa.org/program/quickreads-struggling-readers/) | report | coaching, k-12, literacy
+- 210. [Evidence for ESSA: Air Reading](https://evidenceforessa.org/program/air-reading/) | report | coaching, computer-assisted-learning, k-12, literacy
+- 211. [Evidence for ESSA: Building Assets Reducing Risks (BARR) — Reading](https://evidenceforessa.org/program/building-assets-reducing-risks-barr-reading/) | report | k-12, literacy, professional-development
+- 212. [Evidence for ESSA: Intelligent Tutoring for the Structure Strategy (ITSS)](https://evidenceforessa.org/program/intelligent-tutoring-for-the-structure-strategy-itss-secondary/) | report | computer-assisted-learning, intelligent-tutoring, k-12, literacy
+- 213. [Evidence for ESSA: Zearn Math](https://evidenceforessa.org/program/zearn-math/) | report | computer-assisted-learning, k-12, math-education, personalized-learning
+- 214. [Evidence for ESSA: ASSISTments](https://evidenceforessa.org/program/assistments/) | report | automated-feedback, computer-assisted-learning, formative-assessment, k-12, math-education
+- 215. [Evidence for ESSA: DreamBox Math](https://evidenceforessa.org/program/dreambox-learning/) | report | computer-assisted-learning, intelligent-tutoring, k-12, math-education, personalized-learning
+- 216. [Evidence for ESSA: ST Math (Spatial Temporal Math)](https://evidenceforessa.org/program/st-math-spatial-temporal-math/) | report | computer-assisted-learning, k-12, math-education
+- 217. [Evidence for ESSA: Math in Focus](https://evidenceforessa.org/program/math-in-focus/) | report | k-12, math-education, math-strategies, professional-development
+- 218. [Evidence for ESSA: IXL Math](https://evidenceforessa.org/program/ixl-math/) | report | computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning
+- 219. [Evidence for ESSA: Saga Math](https://evidenceforessa.org/program/saga-math/) | report | coaching, computer-assisted-learning, k-12, math-education
+- 220. [Evidence for ESSA: Math Corps](https://evidenceforessa.org/program/math-corps/) | report | coaching, k-12, math-education
+- 221. [Evidence for ESSA: OGAP Math Professional Learning System](https://evidenceforessa.org/program/ogap-math-professional-learning-system-the-ongoing-assessment-project/) | report | formative-assessment, k-12, math-education, professional-development
+- 222. [Evidence for ESSA: Graspable Math — From Here to There (FH2T)](https://evidenceforessa.org/program/graspable-math-from-here-to-there-fh2t/) | report | computer-assisted-learning, k-12, math-education, math-strategies
+- 223. [Evidence for ESSA: My Math Academy](https://evidenceforessa.org/program/my-math-academy/) | report | computer-assisted-learning, early-childhood, k-12, math-education, personalized-learning, prekindergarten
+- 224. [Evidence for ESSA: Whole Number Foundations (Roots)](https://evidenceforessa.org/program/roots/) | report | k-12, math-education, response-to-intervention
+- 225. [Evidence for ESSA: Number Rockets](https://evidenceforessa.org/program/number-rockets/) | report | coaching, k-12, math-education
+- 226. [Evidence for ESSA: Fraction Face-Off!](https://evidenceforessa.org/program/fraction-face-off/) | report | coaching, k-12, math-education, math-strategies
+- 227. [Evidence for ESSA: Building Assets Reducing Risks (BARR) — Math](https://evidenceforessa.org/program/building-assets-reducing-risks-barr-math/) | report | k-12, math-education, professional-development
+- 228. [Evidence for ESSA: Second Step — Social-Emotional Learning](https://evidenceforessa.org/program/second-step-social-emotional-learning/) | report | k-12, sel
+- 229. [Evidence for ESSA: Facing History and Ourselves](https://evidenceforessa.org/program/facing-history-and-ourselves/) | report | k-12, professional-development, sel
+- 620. [Lexia Core5 Reading](https://evidenceforessa.org/program/lexia-core5-reading/) | report | computer-assisted-learning, early-childhood, k-12, literacy, personalized-learning, rct
+- 621. [SIPPS (Systematic Instruction in Phonological Awareness, Phonics, and Sight Words)](https://evidenceforessa.org/program/sipps-systematic-instruction-in-phonological-awareness-phonics-and-sight-words-2/) | report | k-12, literacy, rct, response-to-intervention
+- 622. [Expository Reading and Writing Course (ERWC)](https://evidenceforessa.org/program/expository-reading-and-writing-course-erwc/) | report | k-12, literacy, professional-development, rct, writing-instruction
+- 623. [The Superkids Reading Program](https://evidenceforessa.org/program/the-superkids-reading-program/) | report | early-childhood, k-12, literacy, rct
+- 624. [Amira](https://evidenceforessa.org/program/amira/) | report | computer-assisted-learning, early-childhood, intelligent-tutoring, k-12, literacy, personalized-learning, rct
+- 625. [Imagine Español](https://evidenceforessa.org/program/imagine-learning-imagine-espanol/) | report | computer-assisted-learning, early-childhood, english-learners, k-12, literacy, personalized-learning, rct
+- 626. [Heggerty's Bridge to Reading Curriculum](https://evidenceforessa.org/program/heggertys-bridge-to-reading-curriculum/) | report | early-childhood, k-12, literacy, rct
+- 627. [Phonological Awareness Deluxe Package (PA Lessons)](https://evidenceforessa.org/program/phonological-awareness-deluxe-package/) | report | early-childhood, english-learners, k-12, literacy, rct
+- 628. [Exact Path Growth — Reading](https://evidenceforessa.org/program/exact-path-reading/) | report | computer-assisted-learning, formative-assessment, k-12, literacy, personalized-learning, rct
+- 629. [95 Phonics Lesson Library (PLL)](https://evidenceforessa.org/program/phonics-lesson-library-basic-advanced-multisyllable/) | report | k-12, literacy, rct, response-to-intervention
+- 630. [Just Right Reader Take-Everywhere Literacy Packs — Reading](https://evidenceforessa.org/program/just-right-reader-take-everywhere-literacy-packs/) | report | early-childhood, k-12, literacy, rct
+- 631. [Lexia English Language Development](https://evidenceforessa.org/program/lexia-english/) | report | computer-assisted-learning, english-learners, k-12, literacy, personalized-learning, rct
+- 632. [Coursemojo (Mojo)](https://evidenceforessa.org/program/mojo/) | report | computer-assisted-learning, intelligent-tutoring, k-12, literacy, personalized-learning, rct, sel
+- 633. [Reading Go! (Formerly Reading Rescue)](https://evidenceforessa.org/program/reading-rescue/) | report | english-learners, k-12, literacy, professional-development, rct
+- 634. [Exact Path Proficiency + Exact Path Growth — Reading](https://evidenceforessa.org/program/exact-path-proficiency-exact-path-growth-reading/) | report | computer-assisted-learning, formative-assessment, k-12, literacy, personalized-learning, rct
+- 635. [Early Steps](https://evidenceforessa.org/program/early-steps/) | report | k-12, literacy, rct
+- 636. [Magnetic Reading Foundations](https://evidenceforessa.org/program/magnetic-reading-foundations/) | report | early-childhood, k-12, literacy, rct
+- 637. [CAPIT Reading](https://evidenceforessa.org/program/capit-reading/) | report | computer-assisted-learning, early-childhood, k-12, literacy, rct
+- 638. [Magnetic Reading](https://evidenceforessa.org/program/magnetic-reading/) | report | k-12, literacy, rct
+- 639. [i-Ready Personalized Instruction Reading](https://evidenceforessa.org/program/i-ready-personalized-instruction-reading/) | report | computer-assisted-learning, formative-assessment, k-12, literacy, personalized-learning, rct
+- 640. [Peer-Assisted Learning Strategies (PALS) — Reading — Elementary, Struggling Readers](https://evidenceforessa.org/program/peer-assisted-learning-strategies-pals-reading-elementary-struggling-readers/) | report | k-12, literacy, rct
+- 641. [My Reading Academy](https://evidenceforessa.org/program/my-reading-academy/) | report | computer-assisted-learning, early-childhood, k-12, literacy, personalized-learning, rct
+- 642. [Imagine IM](https://evidenceforessa.org/program/imagine-learning-illustrative-mathematics/) | report | computer-assisted-learning, k-12, math-education, rct
+- 643. [engage2learn](https://evidenceforessa.org/program/engage2learn/) | report | coaching, k-12, math-education, professional-development, rct
+- 644. [i-Ready Classroom Mathematics](https://evidenceforessa.org/program/i-ready-classroom-mathematics/) | report | computer-assisted-learning, k-12, math-education, personalized-learning, rct
+- 645. [Math 180](https://evidenceforessa.org/program/math-180-2/) | report | computer-assisted-learning, k-12, math-education, rct, response-to-intervention
+- 646. [i-Ready Personalized Instruction Math](https://evidenceforessa.org/program/i-ready-personalized-instruction-math/) | report | computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, rct
+- 647. [Bridges in Mathematics](https://evidenceforessa.org/program/bridges-in-mathematics/) | report | early-childhood, k-12, math-education, rct
+- 648. [Exact Path Proficiency + Exact Path Growth — Math](https://evidenceforessa.org/program/exact-path-proficiency-exact-path-growth-math/) | report | computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, rct
+- 649. [Core-Plus Mathematics Project](https://evidenceforessa.org/program/core-plus-mathematics-project/) | report | k-12, math-education, rct
+- 650. [Professional Learning Communities at Work (PLC at Work) — Math](https://evidenceforessa.org/program/professional-learning-communities-at-work-plc-at-work/) | report | coaching, formative-assessment, k-12, math-education, professional-development, rct
+- 651. [Catapult Learning's Educational Services](https://evidenceforessa.org/program/catapult-learnings-educational-services/) | report | k-12, literacy, math-education, rct
+- 652. [Exact Path Growth — Math](https://evidenceforessa.org/program/exact-path-math/) | report | computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, rct
+- 653. [PAX Good Behavior Game — Math](https://evidenceforessa.org/program/pax-good-behavior-game-math/) | report | k-12, math-education, rct, sel
+- 654. [Math Recovery Intervention](https://evidenceforessa.org/program/math-recovery-intervention/) | report | formative-assessment, k-12, math-education, rct, response-to-intervention
+- 655. [Just Right Reader Take-Everywhere Literacy Packs — Family Engagement](https://evidenceforessa.org/program/just-right-reader-take-everywhere-literacy-packs-family-engagement/) | report | early-childhood, k-12, literacy, rct
+- 1072. [Really Great Reading's Foundational Literacy Programs](https://evidenceforessa.org/program/really-great-reading/) | review | k-12, literacy, rct
+- 1073. [mCLASS Intervention (formerly BURST Reading)](https://evidenceforessa.org/program/burst-reading/) | review | formative-assessment, k-12, literacy, rct, response-to-intervention
+- 1074. [Reading Apprenticeship Academic Literacy (RAAL)](https://evidenceforessa.org/program/reading-apprenticeship-academic-literacy-raal/) | review | coaching, k-12, literacy, professional-development, rct
+- 1162. [Word Generation](https://evidenceforessa.org/program/word-generation/) | report | k-12, literacy
+- 1163. [The Project Approach](https://evidenceforessa.org/program/the-project-approach/) | report | early-childhood, k-12, literacy, prekindergarten
+- 1164. [PAX Good Behavior Game — Reading](https://evidenceforessa.org/program/pax-good-behavior-game-reading/) | report | k-12, literacy, sel
+- 1165. [REDI (Research-Based, Developmentally Informed)](https://evidenceforessa.org/program/redi-research-based-developmentally-informed/) | report | early-childhood, k-12, literacy, prekindergarten, sel
+- 1166. [IMSE's Orton-Gillingham Plus (OG+)](https://evidenceforessa.org/program/imse-og/) | report | k-12, literacy, response-to-intervention
+- 1167. [Corrective Reading — Elementary](https://evidenceforessa.org/program/corrective-reading-elementary/) | report | k-12, literacy, response-to-intervention
+- 1168. [Every Classroom, Every Day (ECED) — Reading](https://evidenceforessa.org/program/every-classroom-every-day-eced-reading/) | report | k-12, literacy
+- 1169. [Spell Read](https://evidenceforessa.org/program/spell-read/) | report | k-12, literacy, response-to-intervention
+- 1170. [National Geographic Reach](https://evidenceforessa.org/program/reach/) | report | english-learners, k-12, literacy
+- 1171. [Responsive Classroom — Reading](https://evidenceforessa.org/program/responsive-classroom-reading/) | report | k-12, literacy, sel
+- 1483. [Once Early-Reading Program](https://evidenceforessa.org/program/once-early-reading-program/) | report | response-to-intervention
+- 1484. [PeerLearning.net](https://evidenceforessa.org/program/peerlearning-net/) | report | computer-assisted-learning
+- 1485. [Education Corps (Ed Corps)](https://evidenceforessa.org/program/education-corps-ed-corps/) | report | formative-assessment, literacy, response-to-intervention
+- 1486. [Magma Math](https://evidenceforessa.org/program/magma-math/) | report | computer-assisted-learning, math-education, personalized-learning
+- 1487. [Building Assets Reducing Risks (BARR) — Attendance](https://evidenceforessa.org/program/building-assets-reducing-risks-barr-attendance/) | report | attendance, professional-development
+- 1488. [Targeted Skills Instruction (TSI)](https://evidenceforessa.org/program/targeted-skills-instruction-tsi/) | report | computer-assisted-learning, math-education, personalized-learning, response-to-intervention
+- 1489. [STEMscopes Math](https://evidenceforessa.org/program/stemscopes-math-2/) | report | computer-assisted-learning, math-education, personalized-learning, response-to-intervention
+- 1490. [Classtime](https://evidenceforessa.org/program/classtime/) | report | computer-assisted-learning, formative-assessment, k-12, math-education
+- 1492. [Comprehensive Literacy: Making the Connections](https://evidenceforessa.org/program/comprehensive-literacy-making-the-connections/) | report | literacy, writing-instruction
+- 1493. [IMSE’s Morphology+ Program](https://evidenceforessa.org/program/imses-morphology-program/) | report | literacy, professional-development
+- 1494. [GO Tutor Corps High-Impact Math Tutoring](https://evidenceforessa.org/program/go-tutor-corps-high-impact-math-tutoring/) | report | formative-assessment, math-education, response-to-intervention
+- 1495. [Learning Genie – Math](https://evidenceforessa.org/program/learning-genie-math/) | report | early-childhood, inclusive-design, math-education, personalized-learning
+- 1496. [Learning Genie – Reading](https://evidenceforessa.org/program/learning-genie-reading/) | report | early-childhood, inclusive-design, literacy, personalized-learning
+- 1497. [Simple Solutions Learning – Standards-Based Math](https://evidenceforessa.org/program/simple-solutions-learning-standards-based-math/) | report | math-education
+- 1498. [Getting Ready](https://evidenceforessa.org/program/getting-ready/) | report | college-access, early-childhood, professional-development
+- 1499. [Waterford Upstart](https://evidenceforessa.org/program/waterford-upstart/) | report | computer-assisted-learning, literacy, math-education, personalized-learning
+- 1500. [Fueling Brains](https://evidenceforessa.org/program/fueling-brains/) | report | early-childhood
+- 1502. [STEMscopes Science](https://evidenceforessa.org/program/stemscopes-science/) | report | computer-assisted-learning, formative-assessment, k-12
+- 1503. [Twig Science](https://evidenceforessa.org/program/twig-science/) | report | 
+- 1504. [Progress Learning – Science](https://evidenceforessa.org/program/progress-learning-science/) | report | computer-assisted-learning, formative-assessment, math-education
+- 1505. [NEW INSIGHTS into Children’s Temperament (INSIGHTS) – Social-Emotional Learning](https://evidenceforessa.org/program/new-insights-into-childrens-temperament-insights-2/) | report | professional-development, response-to-intervention, sel
+- 1506. [NEW INSIGHTS into Children’s Temperament (INSIGHTS) – Family Engagement](https://evidenceforessa.org/program/new-insights-into-childrens-temperament-insights/) | report | professional-development, response-to-intervention, sel
+- 1507. [Teachers and Parents as Partners (TAPP)](https://evidenceforessa.org/program/teachers-and-parents-as-partners-tapp/) | report | college-access, computer-assisted-learning, response-to-intervention, sel
+- 1508. [Spalding’s The Writing Road to Reading](https://evidenceforessa.org/program/spaldings-the-writing-road-to-reading/) | report | literacy, writing-instruction
+- 1509. [ParentPowered (Ready4K!)](https://evidenceforessa.org/program/parentpowered-ready4k/) | report | early-childhood, personalized-learning
+- 1510. [National Network of Partnership Schools (NNPS)](https://evidenceforessa.org/program/national-network-of-partnership-schools-nnps/) | report | college-access, professional-development
+- 1511. [EveryDay Intervention (Family Engagement)](https://evidenceforessa.org/program/everyday-intervention-family-engagement/) | report | attendance, personalized-learning, response-to-intervention
+- 1512. [PowerSchool Attendance Intervention (Family Engagement)](https://evidenceforessa.org/program/powerschool-attendance-intervention-family-engagement/) | report | attendance, response-to-intervention
+- 1513. [Flashlight360](https://evidenceforessa.org/program/flashlight360/) | report | english-learners, writing-instruction
+- 1514. [Renzulli Learning](https://evidenceforessa.org/program/renzulli-learning-2/) | report | computer-assisted-learning, early-childhood, personalized-learning
+- 1515. [Future Forward Literacy – Family Engagement](https://evidenceforessa.org/program/future-forward-literacy-family-engagement/) | report | literacy, response-to-intervention
+- 1517. [TalkingPoints](https://evidenceforessa.org/program/talkingpoints/) | report | computer-assisted-learning
+- 1518. [OnYourMark](https://evidenceforessa.org/program/onyourmark/) | report | literacy, professional-development, response-to-intervention
+- 1519. [BookNook](https://evidenceforessa.org/program/booknook/) | report | literacy, response-to-intervention
+- 1520. [Springboard Summer](https://evidenceforessa.org/program/springboard-summer/) | report | literacy, professional-development
+- 1522. [ParentCorps](https://evidenceforessa.org/program/parentcorps-2/) | report | college-access, early-childhood, professional-development
+- 1523. [Family Engagement Lab’s Families and Schools Talk (FASTalk)](https://evidenceforessa.org/program/family-engagement-labs-families-and-schools-talk-fastalk-2/) | report | 
+- 1525. [WordFlight](https://evidenceforessa.org/program/wordflight/) | report | formative-assessment, literacy, response-to-intervention
+- 1526. [Edmentum Virtual Tutoring](https://evidenceforessa.org/program/edmentum-virtual-tutoring/) | report | inclusive-design, response-to-intervention
+- 1527. [Hoot Reading – MTSS Tier III](https://evidenceforessa.org/program/hoot-reading/) | report | computer-assisted-learning, literacy, response-to-intervention
+- 1528. [Ignite Reading](https://evidenceforessa.org/program/ignite-reading/) | report | literacy, personalized-learning, response-to-intervention
+- 1529. [Imagine Math Facts](https://evidenceforessa.org/program/imagine-math-facts-2/) | report | computer-assisted-learning, math-education
+- 1530. [Istation Reading – Upper Elementary, Middle School](https://evidenceforessa.org/program/istation-reading-upper-elementary-middle-school/) | report | computer-assisted-learning, early-childhood, formative-assessment, literacy, personalized-learning
+- 1531. [Progress Learning – Math](https://evidenceforessa.org/program/progress-learning-math/) | report | computer-assisted-learning, formative-assessment, math-education
+- 1532. [Progress Learning – Reading](https://evidenceforessa.org/program/progress-learning-reading/) | report | computer-assisted-learning, formative-assessment, literacy, math-education
+- 1533. [Alabama Math, Science, and Technology Initiative – Middle School Science](https://evidenceforessa.org/program/alabama-math-science-and-technology-initiative-middle-school-science/) | report | computer-assisted-learning, math-education, professional-development
+- 1534. [Beable One](https://evidenceforessa.org/program/beable-one/) | report | career-readiness, computer-assisted-learning, literacy, response-to-intervention
+- 1535. [Parent-Teacher Home Visits – SEL](https://evidenceforessa.org/program/parent-teacher-home-visits-sel/) | report | sel
+- 1536. [Scholastic RISE and RISE Up](https://evidenceforessa.org/program/scholastic-rise-and-rise-up/) | report | literacy, response-to-intervention, writing-instruction
+- 1537. [Parent Teacher Home Visits – Attendance](https://evidenceforessa.org/program/parent-teacher-home-visits-attendance/) | report | attendance
+- 1538. [Tutoring with the Lightning Squad](https://evidenceforessa.org/program/tutoring-with-the-lightning-squad/) | report | computer-assisted-learning, literacy, response-to-intervention
+- 1539. [Reading Horizons Discovery](https://evidenceforessa.org/program/reading-horizons-discovery-2/) | report | 
+- 1540. [CharacterStrong’s PurposeFull People Elementary Curriculum](https://evidenceforessa.org/program/characterstrongs-purposefull-people-elementary-curriculum/) | report | sel
+- 1541. [CharacterStrong – Secondary](https://evidenceforessa.org/program/characterstrong/) | report | sel
+- 1542. [Readable English](https://evidenceforessa.org/program/readable-english-2/) | report | computer-assisted-learning, literacy, personalized-learning, writing-instruction
+- 1543. [Strategic Adolescent Reading Intervention (STARI)](https://evidenceforessa.org/program/strategic-adolescent-reading-intervention-stari/) | report | literacy, response-to-intervention
+- 1544. [Imagine Math](https://evidenceforessa.org/program/imagine-math-2/) | report | computer-assisted-learning, math-education, personalized-learning
+- 1547. [The 4Rs (Reading, Writing, Respect & Resolution)](https://evidenceforessa.org/program/the-4rs-reading-writing-respect-resolution/) | report | literacy, sel, writing-instruction
+- 1549. [Incredible Years: Child Dinosaur Curriculum](https://evidenceforessa.org/program/incredible-years-child-dinosaur-curriculum/) | report | early-childhood, literacy, sel
+- 1550. [I Can Problem Solve (ICPS)](https://evidenceforessa.org/program/i-can-problem-solve-icps/) | report | early-childhood, sel
+- 1551. [Getting Along Together](https://evidenceforessa.org/program/getting-along-together/) | report | response-to-intervention, sel
+- 1552. [Emotional ABCs](https://evidenceforessa.org/program/emotional-abcs/) | report | computer-assisted-learning, early-childhood, professional-development, sel
+- 1553. [Reading Plus](https://evidenceforessa.org/program/reading-plus/) | report | computer-assisted-learning, formative-assessment, literacy, personalized-learning
+- 1554. [Collaborative Strategic Reading (CSR)](https://evidenceforessa.org/program/collaborative-strategic-reading-csr/) | report | 
+- 1555. [Talent Development High School (TDHS) — Strategic Reading and Student Team Literature](https://evidenceforessa.org/program/talent-development-high-school-tdhs-strategic-reading-and-student-team-literature/) | report | math-education
+- 1556. [Achieve3000 — Elementary (KidBiz3000)](https://evidenceforessa.org/program/achieve3000-elementary/) | report | career-readiness, college-access, computer-assisted-learning, literacy, personalized-learning, writing-instruction
+- 1557. [Student Success Skills — Reading — Elementary](https://evidenceforessa.org/program/student-success-skills-reading-elementary/) | report | literacy, professional-development, sel
+- 1558. [Imagine Language & Literacy](https://evidenceforessa.org/program/imagine-language-literacy/) | report | literacy, personalized-learning
+- 1559. [Istation Reading — Elementary](https://evidenceforessa.org/program/istation-isip-early-reading-and-isip-advanced-reading-assessments/) | report | computer-assisted-learning, formative-assessment, literacy, personalized-learning
+- 1560. [Classworks Math](https://evidenceforessa.org/program/classworks-math/) | report | computer-assisted-learning, formative-assessment, math-education, response-to-intervention
+- 1561. [Schoolwide Enrichment Model (SEM-R)](https://evidenceforessa.org/program/schoolwide-enrichment-model-sem-r/) | report | 
+- 1562. [Reach for Reading](https://evidenceforessa.org/program/reach-for-reading/) | report | 
+- 1563. [Passport to Literacy/Voyager Passport](https://evidenceforessa.org/program/passport-to-literacy-voyager-passport/) | report | literacy, response-to-intervention
+- 1564. [Journeys](https://evidenceforessa.org/program/journeys/) | report | 
+- 1565. [Children’s Literacy Initiative (CLI)](https://evidenceforessa.org/program/childrens-literacy-initiative-cli/) | report | early-childhood, literacy, personalized-learning, professional-development, writing-instruction
+- 1566. [Wilson Reading System®](https://evidenceforessa.org/program/wilson-reading-system/) | report | literacy, professional-development
+- 1567. [QuickReads — Whole Class](https://evidenceforessa.org/program/quickreads-whole-class/) | report | literacy, response-to-intervention
+- 1568. [Curiosity Corner](https://evidenceforessa.org/program/curiosity-corner/) | report | early-childhood, literacy, professional-development
+- 1569. [Pathblazer](https://evidenceforessa.org/program/pathblazer/) | report | computer-assisted-learning, literacy, math-education, response-to-intervention
+- 1570. [Future Forward Literacy](https://evidenceforessa.org/program/future-forward-literacy-whole-class/) | report | literacy, response-to-intervention
+- 1571. [Leveled Literacy Intervention (LLI)](https://evidenceforessa.org/program/fountas-pinnell-leveled-literacy-intervention-lli/) | report | literacy, response-to-intervention
+- 1572. [Pathway](https://evidenceforessa.org/program/pathway/) | report | english-learners, literacy, professional-development, writing-instruction
+- 1573. [Achieve3000 — Secondary (TeenBiz3000 and Empower3000)](https://evidenceforessa.org/program/achieve3000-secondary/) | report | career-readiness, college-access, computer-assisted-learning, literacy, personalized-learning, writing-instruction
+- 1574. [AARP Foundation Experience Corps Tutoring (Book Buddies)](https://evidenceforessa.org/program/aarp-foundation-experience-corps-tutoring-book-buddies/) | report | early-childhood, literacy, response-to-intervention
+- 1575. [Early Reading Intervention](https://evidenceforessa.org/program/early-reading-intervention/) | report | literacy, response-to-intervention, writing-instruction
+- 1576. [Reading Apprenticeship](https://evidenceforessa.org/program/reading-apprenticeship/) | report | literacy, professional-development
+- 1577. [Raz-Plus](https://evidenceforessa.org/program/raz-plus/) | report | computer-assisted-learning
+- 1578. [Early Literacy and Learning Model/Plus (ELLM/Plus)](https://evidenceforessa.org/program/early-literacy-and-learning-model-plus-ellm-plus/) | report | 
+- 1579. [Content-Focused Coaching — Whole Class](https://evidenceforessa.org/program/content-focused-coaching-whole-class/) | report | literacy, professional-development
+- 1580. [Intelligent Tutoring for the Structure Strategy (ITSS) – Elementary](https://evidenceforessa.org/program/intelligent-tutoring-for-the-structure-strategy-itss-elementary/) | report | computer-assisted-learning, literacy, response-to-intervention
+- 1581. [Literacy First – UT Austin](https://evidenceforessa.org/program/literacy-first-ut-austin/) | report | literacy, response-to-intervention
+- 1582. [Lexia® Core5® Reading Program – Struggling Readers](https://evidenceforessa.org/program/lexia-core5-reading-program-struggling-readers/) | report | early-childhood, formative-assessment, literacy, personalized-learning
+- 1583. [ARC Core (Formerly Zoology One)](https://evidenceforessa.org/program/arc-core-formerly-zoology-one/) | report | literacy, writing-instruction
+- 1584. [SIM: Xtreme Reading — Struggling Readers](https://evidenceforessa.org/program/sim-xtreme-reading-struggling-readers/) | report | college-access
+- 1585. [95 Phonics Core Program](https://evidenceforessa.org/program/95-phonics-core-program/) | report | literacy
+- 1586. [Content-Focused Coaching — English Learners](https://evidenceforessa.org/program/content-focused-coaching-english-learners/) | report | english-learners, literacy, professional-development
+- 1587. [READ 180 – Secondary Reading](https://evidenceforessa.org/program/read-180-secondary-reading/) | report | computer-assisted-learning, formative-assessment, literacy, personalized-learning, professional-development
+- 1588. [Strategic Instruction Model (SIM)](https://evidenceforessa.org/program/strategic-instruction-model-sim/) | report | college-access, literacy, response-to-intervention
+- 1589. [Reading Edge](https://evidenceforessa.org/program/reading-edge-whole-class/) | report | formative-assessment, literacy, writing-instruction
+- 1590. [Incredible Years (IY): Classroom Curriculum + Parent Training Program](https://evidenceforessa.org/program/incredible-years-iy-classroom-curriculum-parent-training-program/) | report | early-childhood, sel
+- 1591. [Positive Action – Social-Emotional Learning](https://evidenceforessa.org/program/positive-action-social-emotional-learning/) | report | sel
+- 1592. [Building Assets Reducing Risks (BARR) – Social-Emotional Learning](https://evidenceforessa.org/program/building-assets-reducing-risks-barr-social-emotional-learning/) | report | professional-development, sel
+- 1593. [Coping Power](https://evidenceforessa.org/program/coping-power/) | report | response-to-intervention, sel
+- 1594. [Check, Connect, and Expect](https://evidenceforessa.org/program/check-connect-and-expect/) | report | response-to-intervention, sel
+- 1595. [Fast Track – Social-Emotional Learning](https://evidenceforessa.org/program/fast-track-social-emotional-learning/) | report | sel
+- 1596. [Incredible Years (IY) – Teacher Classroom Management Program](https://evidenceforessa.org/program/incredible-years-iy-teacher-classroom-management-program/) | report | early-childhood
+- 1597. [Adventures Aboard the S.S. Grin](https://evidenceforessa.org/program/social-skills-group-intervention-s-s-grin/) | report | computer-assisted-learning, sel
+- 1598. [Becoming a Man (BAM)](https://evidenceforessa.org/program/becoming-a-man-bam/) | report | dropout-prevention, professional-development, sel
+- 1599. [Second Step – Attendance](https://evidenceforessa.org/program/second-step-attendance/) | report | attendance, sel
+- 1601. [Talent Development High School (TDHS)- Attendance](https://evidenceforessa.org/program/talent-development-high-school-tdhs-attendance/) | report | attendance, career-readiness, math-education, professional-development
+- 1602. [Big Brothers, Big Sisters (BBBS) School-Based Mentoring (SBM) Program](https://evidenceforessa.org/program/big-brothers-big-sisters-bbbs-school-based-mentoring-sbm-program/) | report | professional-development
+- 1603. [Student Success Skills (Targeted) – Social-Emotional Learning](https://evidenceforessa.org/program/student-success-skills-targeted-social-emotional-learning/) | report | sel
+- 1604. [Tools of the Mind](https://evidenceforessa.org/program/tools-of-the-mind/) | report | early-childhood, literacy, math-education, professional-development, sel, writing-instruction
+- 1605. [Absenteeism and Truancy: Interventions and Universal Procedures (ATI-UP)](https://evidenceforessa.org/program/absenteeism-and-truancy-interventions-and-universal-procedures-ati-up/) | report | attendance, response-to-intervention, sel
+- 1606. [PowerSchool Attendance Intervention](https://evidenceforessa.org/program/powerschool-unified-operations-attendance-intervention-suite-formerly-kinvolved/) | report | attendance, response-to-intervention
+- 1607. [Future Forward Literacy – Attendance](https://evidenceforessa.org/program/future-forward-literacy-attendance/) | report | attendance, literacy, response-to-intervention
+- 1608. [Positive Action – Attendance](https://evidenceforessa.org/program/positive-action-attendance/) | report | attendance, sel
+- 1609. [EveryDay Intervention (Formerly InClass Today and EveryDay Labs)](https://evidenceforessa.org/program/everyday-intervention-formerly-inclass-today-and-everyday-labs/) | report | attendance, personalized-learning, response-to-intervention
+- 1610. [Early Warning Intervention and Monitoring System (EWIMS)](https://evidenceforessa.org/program/early-warning-intervention-and-monitoring-system-ewims/) | report | attendance, response-to-intervention, sel
+- 1611. [Class-Wide Function-Related Intervention Teams (CW-FIT)](https://evidenceforessa.org/program/class-wide-function-related-intervention-teams-cw-fit/) | report | response-to-intervention, sel
+- 1612. [Exemplary Center for Reading Instruction (ECRI)](https://evidenceforessa.org/program/exemplary-center-for-reading-instruction-ecri/) | report | literacy
+- 1613. [Lexia PowerUp Literacy](https://evidenceforessa.org/program/lexia-powerup-literacy/) | report | computer-assisted-learning, literacy, personalized-learning
+- 1614. [Sound Partners — English Learners](https://evidenceforessa.org/program/sound-partners-english-learners/) | report | english-learners, literacy, response-to-intervention
+- 1615. [Lectura Proactiva/ Intervenciones tempranas de la lectura](https://evidenceforessa.org/program/lectura-proactiva-intervenciones-tempranas-de-la-lectura/) | report | english-learners, literacy, response-to-intervention
+- 1616. [Chapter One (Formerly Innovations for Learning High Impact Tutoring)](https://evidenceforessa.org/program/chapter-one-formerly-innovations-for-learning-high-impact-tutoring/) | report | computer-assisted-learning, literacy, personalized-learning, response-to-intervention
+- 1617. [Lindamood Phoneme Sequencing (LiPS)](https://evidenceforessa.org/program/lindamood-phoneme-sequencing-lips/) | report | literacy, response-to-intervention
+- 1618. [A2i Professional Support System (formerly Individualizing Student Instruction (ISI))](https://evidenceforessa.org/program/a2i-professional-support-system-formerly-individualizing-student-instruction-isi/) | report | early-childhood, literacy, personalized-learning
+- 1619. [Symphony Math](https://evidenceforessa.org/program/symphony-math/) | report | computer-assisted-learning, math-education, response-to-intervention
+- 1620. [Alabama Math, Science, and Technology Initiative (AMSTI)](https://evidenceforessa.org/program/alabama-math-science-and-technology-initiative/) | report | computer-assisted-learning, math-education, professional-development
+- 1621. [Early Learning in Mathematics](https://evidenceforessa.org/program/early-learning-in-mathematics/) | report | math-education
+- 1622. [Saxon Math — Elementary](https://evidenceforessa.org/program/saxon-math-elementary/) | report | math-education
+- 1623. [Wolf Trap Arts in Education Model](https://evidenceforessa.org/program/wolf-trap-arts/) | report | early-childhood, math-education, professional-development
+- 1624. [JUMP Math](https://evidenceforessa.org/program/jump-math/) | report | math-education
+- 1625. [Time To Know — Math](https://evidenceforessa.org/program/time-to-know-math/) | report | computer-assisted-learning, math-education, professional-development
+- 1626. [Carnegie Learning High School Math Solution Algebra I](https://evidenceforessa.org/program/carnegie-learning-high-school-math-solution/) | report | computer-assisted-learning, literacy, math-education, personalized-learning, response-to-intervention
+- 1627. [Math Expressions](https://evidenceforessa.org/program/math-expressions/) | report | math-education
+- 1628. [eMINTS](https://evidenceforessa.org/program/emints/) | report | computer-assisted-learning, professional-development
+- 1629. [Every Classroom Every Day (ECED) — Math](https://evidenceforessa.org/program/every-classroom-every-day-eced-math/) | report | math-education
+- 1630. [focusMath](https://evidenceforessa.org/program/focusmath/) | report | formative-assessment
+- 1631. [Galaxy Math](https://evidenceforessa.org/program/galaxy-math/) | report | literacy, math-education, response-to-intervention
+- 1632. [Pirate Math](https://evidenceforessa.org/program/pirate-math/) | report | math-education, response-to-intervention
+- 1634. [Elements of Reading: Comprehension](https://evidenceforessa.org/program/elements-of-reading-comprehension/) | report | literacy, writing-instruction

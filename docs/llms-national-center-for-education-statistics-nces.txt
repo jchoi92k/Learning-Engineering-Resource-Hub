@@ -1,0 +1,35 @@
+# Renaissance AI and Education Resource Hub — National Center for Education Statistics (NCES)
+
+> 29 entries from National Center for Education Statistics (NCES).
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-national-center-for-education-statistics-nces.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 391. [High School Longitudinal Study of 2009 (HSLS:09)](https://nces.ed.gov/surveys/hsls09/) | dataset | career-readiness, college-access, k-12, longitudinal, math-education, open-datasets
+- 392. [Education Longitudinal Study of 2002 (ELS:2002)](https://nces.ed.gov/surveys/els2002/) | dataset | college-access, k-12, longitudinal, open-datasets
+- 393. [National Education Longitudinal Study of 1988 (NELS:88)](https://nces.ed.gov/surveys/nels88/) | dataset | career-readiness, college-access, k-12, longitudinal, open-datasets
+- 394. [Beginning Postsecondary Students Longitudinal Study (BPS)](https://nces.ed.gov/surveys/bps/) | dataset | college-access, dropout-prevention, higher-ed, longitudinal, open-datasets
+- 414. [National Teacher and Principal Survey (NTPS)](https://nces.ed.gov/surveys/ntps/) | dataset | k-12, open-datasets, professional-development
+- 415. [National Household Education Surveys Program (NHES)](https://nces.ed.gov/nhes/) | dataset | early-childhood, k-12, longitudinal, open-datasets
+- 417. [National Assessment of Adult Literacy (NAAL)](https://nces.ed.gov/naal/) | dataset | literacy, longitudinal, open-datasets
+- 418. [Beginning Teacher Longitudinal Study (BTLS)](https://nces.ed.gov/surveys/btls/) | dataset | k-12, longitudinal, open-datasets, professional-development
+- 419. [Career and Technical Education Statistics (CTE Stats)](https://nces.ed.gov/surveys/ctes/) | dataset | career-readiness, higher-ed, k-12, longitudinal, open-datasets
+- 420. [Middle Grades Longitudinal Study of 2017–18 (MGLS:2017)](https://nces.ed.gov/surveys/mgls/) | dataset | formative-assessment, k-12, longitudinal, open-datasets, sel
+- 421. [School Pulse Panel (SPP)](https://nces.ed.gov/surveys/spp/) | dataset | attendance, k-12, open-datasets
+- 422. [National Postsecondary Student Aid Study (NPSAS)](https://nces.ed.gov/surveys/npsas/) | dataset | college-access, higher-ed, longitudinal, open-datasets
+- 423. [Baccalaureate and Beyond Longitudinal Study (B&B)](https://nces.ed.gov/surveys/b&b/) | dataset | career-readiness, college-access, higher-ed, longitudinal, open-datasets
+- 424. [Schools and Staffing Survey (SASS)](https://nces.ed.gov/surveys/sass/) | dataset | k-12, longitudinal, open-datasets, professional-development
+- 425. [Private School Universe Survey (PSS)](https://nces.ed.gov/surveys/pss/) | dataset | k-12, longitudinal, open-datasets
+- 426. [School Survey on Crime and Safety (SSOCS)](https://nces.ed.gov/surveys/ssocs/) | dataset | k-12, open-datasets, school-discipline
+- 427. [High School and Beyond Longitudinal Study (HS&B)](https://nces.ed.gov/surveys/hsb/) | dataset | career-readiness, higher-ed, k-12, longitudinal, open-datasets
+- 428. [National Longitudinal Study of the High School Class of 1972 (NLS-72)](https://nces.ed.gov/surveys/nls72/) | dataset | career-readiness, higher-ed, k-12, longitudinal, open-datasets
+- 429. [High School Transcript Studies (HST)](https://nces.ed.gov/surveys/hst/) | dataset | k-12, longitudinal, open-datasets
+- 430. [ED School Climate Surveys (EDSCLS)](https://nces.ed.gov/surveys/edscls/) | dataset | formative-assessment, k-12, open-datasets, sel
+- 431. [Education Finance Statistics Center (EDFIN)](https://nces.ed.gov/edfin/) | dataset | k-12, longitudinal, open-datasets
+- 432. [Statewide Longitudinal Data Systems (SLDS) Grant Program](https://nces.ed.gov/programs/slds/) | dataset | data-sharing, higher-ed, k-12, longitudinal, open-datasets, pii-privacy
+- 433. [Library Statistics Program](https://nces.ed.gov/surveys/libraries/) | dataset | higher-ed, k-12, longitudinal, open-datasets
+- 434. [International Activities Program (IAP)](https://nces.ed.gov/surveys/international/) | dataset | higher-ed, k-12, longitudinal, open-datasets
+- 435. [Education Across America: Cities, Suburbs, Towns, and Rural Areas (Locale Studies)](https://nces.ed.gov/surveys/annualreports/topical-studies/locale) | dataset | early-childhood, higher-ed, k-12, open-datasets
+- 436. [Current Population Survey (CPS) — Education Supplements](https://nces.ed.gov/surveys/cps/) | dataset | early-childhood, english-learners, higher-ed, k-12, longitudinal, open-datasets
+- 470. [National Training, Education, and Workforce Survey (NTEWS)](https://nces.ed.gov/surveys/ntews/) | dataset | career-readiness, higher-ed, longitudinal, open-datasets
+- 471. [Condition of Education](https://nces.ed.gov/programs/coe) | dataset | early-childhood, higher-ed, k-12, open-datasets
+- 472. [Digest of Education Statistics](https://nces.ed.gov/programs/digest/) | dataset | early-childhood, higher-ed, k-12, open-datasets

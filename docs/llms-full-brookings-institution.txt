@@ -1,0 +1,465 @@
+# Renaissance AI and Education Resource Hub — Brookings Institution (full)
+# 22 entries with descriptions | Last updated: 2026-08-30
+# Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-brookings-institution.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+
+---
+
+### 309. Getting state 'free college' right: Design choices that matter
+
+```yaml
+url: "https://www.brookings.edu/articles/getting-state-free-college-right-design-choices-that-matter/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [college-access, higher-ed, personalized-learning]
+```
+
+This report examines state-level "free college" promise programs and finds they work best when "generous, easy to access, and paired with dedicated advising support." Although roughly one-third of first-year students attend college tuition-free, living expenses remain a heavy burden—low-income families spend about 38% of income on non-tuition costs after aid. The authors recommend states shift from last-dollar to first-dollar aid models and plan for federal funding volatility.
+
+---
+
+---
+
+### 310. The complex ramifications of Students for Fair Admissions v. Harvard
+
+```yaml
+url: "https://www.brookings.edu/articles/the-complex-ramifications-of-students-for-fair-admissions-v-harvard/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [higher-ed, k-12, longitudinal]
+```
+
+This analysis documents a "cascade effect" following the 2023 Supreme Court ruling that ended race-conscious college admissions: underrepresented minority students displaced from elite institutions move to state flagships and less-selective schools, reshaping enrollment patterns across higher education. Black student enrollment has declined most sharply at elite colleges, and standardized testing policy significantly mediates diversity outcomes across institution types.
+
+---
+
+---
+
+### 311. Rebuilding IES to amplify the impact of education research on student outcomes
+
+```yaml
+url: "https://www.brookings.edu/articles/rebuilding-ies-to-amplify-the-impact-of-education-research-on-student-outcomes/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [ai-policy, learning-engineering, professional-development]
+```
+
+This commentary argues for rebuilding the Institute of Education Sciences following roughly $1 billion in federal budget cuts, contending that "policymakers, practitioners, and education leaders value evidence" and need credible data to guide decisions. The authors propose three federal investment priorities: strengthening researcher-practitioner partnerships, funding implementation and cost studies, and maintaining rigorous, independent, publicly accessible research.
+
+---
+
+---
+
+### 312. How immigration enforcement is harming US schools and students
+
+```yaml
+url: "https://www.brookings.edu/articles/how-immigration-enforcement-is-harming-us-schools-and-students/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [attendance, english-learners, k-12, longitudinal]
+```
+
+This article synthesizes research showing that intensified immigration enforcement correlates with increased chronic absenteeism, mental health deterioration, declining test scores, and reduced college enrollment rates among students from immigrant families, with particularly severe effects on Latino and English learner populations. The rescission of sanctuary protections for schools has left educators facing mounting pressures without adequate federal guidance or support systems.
+
+---
+
+---
+
+### 314. Parents are not fully aware of, or concerned about, their children's school attendance
+
+```yaml
+url: "https://www.brookings.edu/articles/parents-are-not-fully-aware-of-or-concerned-about-their-childrens-school-attendance/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [attendance, k-12, qualitative-research]
+```
+
+This research finds that fewer than half of caregivers whose children are at risk of chronic absenteeism report being concerned about it, and reveals a significant gap between actual attendance data and parent-reported absences. Many parents view available online learning as offsetting the importance of in-person attendance, despite expressing belief that classroom presence matters—an attitude that may undermine post-pandemic recovery efforts.
+
+---
+
+---
+
+### 315. School counselors are vital to navigating the FAFSA maze
+
+```yaml
+url: "https://www.brookings.edu/articles/school-counselors-are-vital-to-navigating-the-fafsa-maze/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [college-access, higher-ed, professional-development]
+```
+
+Examining the troubled rollout of the redesigned FAFSA, this piece presents research showing that adding school counselors significantly increases students' receipt of Pell grants and state scholarships. The author makes three recommendations: prioritize counselor time for FAFSA support, have states extend scholarship deadlines, and push college decision day back to June 1 to accommodate delays.
+
+---
+
+---
+
+### 316. Career and technical education is a hidden weak spot in many high schools' teacher workforces
+
+```yaml
+url: "https://www.brookings.edu/articles/career-and-technical-education-is-a-hidden-weak-spot-in-many-high-schools-teacher-workforces/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [career-readiness, k-12, longitudinal, professional-development]
+```
+
+Using Tennessee data, this research finds that CTE teachers in high-growth occupational fields—IT, health sciences, and STEM—leave teaching at significantly higher rates than other educators, with departing instructors earning approximately 20% more in private sector roles. This turnover creates staffing challenges that sometimes result in fewer course offerings for students in career and technical programs.
+
+---
+
+---
+
+### 317. Selective colleges and universities need to do more to enroll low-income students
+
+```yaml
+url: "https://www.brookings.edu/articles/selective-colleges-and-universities-need-to-do-more-to-enroll-low-income-students/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [college-access, higher-ed, personalized-learning]
+```
+
+This study evaluates the Advising Plus program, which used small financial incentives ($50–$100) to encourage low-income high school students to engage with remote college advisors. While the intervention successfully increased advising engagement and college applications, it "had no effect on whether or where students enrolled in college," suggesting behavioral nudges alone cannot overcome systemic admissions and affordability barriers at elite institutions.
+
+---
+
+---
+
+### 318. Long-term solutions for college affordability require congressional and state action
+
+```yaml
+url: "https://www.brookings.edu/articles/long-term-solutions-for-college-affordability-require-congressional-and-state-action/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [college-access, higher-ed]
+```
+
+Analyzing student debt cancellation and FAFSA implementation, this piece argues that meaningful progress on college affordability requires legislative action from Congress and states—not executive initiatives operating within limited authority. The author uses both policy cases to demonstrate how legislative inaction forces executive branch workarounds that leave structural affordability problems unresolved.
+
+---
+
+---
+
+### 320. Many high schools across the United States offer limited civics-focused extracurricular activities
+
+```yaml
+url: "https://www.brookings.edu/articles/many-high-schools-across-the-united-states-offer-limited-civics-focused-extracurricular-activities/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, qualitative-research]
+```
+
+Using a nationally representative survey of approximately 650 high school principals, this research finds that while 80% of schools offer student government, other civic activities—Model UN (19%), mock trials (26%)—remain rare. High-poverty schools provide substantially fewer civics opportunities than low-poverty schools, raising equity concerns about students' access to civic learning experiences that support democratic participation.
+
+---
+
+---
+
+### 321. Early reading tests can aid educational recovery after the pandemic
+
+```yaml
+url: "https://www.brookings.edu/articles/early-reading-tests-can-aid-educational-recovery-after-the-pandemic/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [formative-assessment, k-12, literacy, response-to-intervention]
+```
+
+This study presents Virginia data showing that over one-quarter of kindergarten and first-grade students fell significantly behind in early reading skills in fall 2020—a 10-percentage-point increase from the prior year. The authors emphasize evidence-based interventions aligned with the science of reading to address emerging disparities and prevent long-term academic struggles.
+
+---
+
+---
+
+### 322. School finance reforms made funding more equal by income, but not by race
+
+```yaml
+url: "https://www.brookings.edu/articles/school-finance-reforms-made-funding-more-equal-by-income-but-not-by-race/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, longitudinal, meta-analysis]
+```
+
+Analyzing state school finance reforms since 1990, this research finds that income-based reforms reduced funding disparities between low- and high-income districts by over $1,300 per pupil but "either did not change or widened funding gaps" between districts by racial composition, increasing racial funding inequalities by $740–$1,100 per pupil. The authors argue income-based policies alone cannot address racial disparities without considering school segregation patterns.
+
+---
+
+---
+
+### 323. 2016 Brown Center Report on American Education: How Well Are American Students Learning?
+
+```yaml
+url: "https://www.brookings.edu/articles/2016-brown-center-report-on-american-education-how-well-are-american-students-learning/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [formative-assessment, k-12, literacy, longitudinal, math-education]
+```
+
+This flagship annual report covers three topics: Common Core implementation effects on math and reading instruction (finding no evidence that Common Core caused 2015 test score declines), whether eighth-grade math tracking correlates with AP success (states with more tracked classes produced more high-performing AP students across racial groups), and international variation in school principal leadership. The analysis concludes that high-performing countries show principals are reluctant to offer direct teaching advice.
+
+---
+
+---
+
+### 324. The impact of COVID-19 on student achievement and what it may mean for educators
+
+```yaml
+url: "https://www.brookings.edu/articles/the-impact-of-covid-19-on-student-achievement-and-what-it-may-mean-for-educators/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [formative-assessment, k-12, literacy, longitudinal, math-education]
+```
+
+This study projects pandemic learning losses using historical test score data from millions of students, estimating that students could return to school in fall 2020 with roughly 70% of their prior-year reading gains and less than 50% of math gains. The authors also project increased variability in academic achievement levels, warning that equity gaps will widen across the student population.
+
+---
+
+---
+
+### 325. The pandemic has had devastating impacts on learning. What will it take to help students catch up?
+
+```yaml
+url: "https://www.brookings.edu/articles/the-pandemic-has-had-devastating-impacts-on-learning-what-will-it-take-to-help-students-catch-up/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, literacy, longitudinal, math-education, response-to-intervention]
+```
+
+Measuring fall 2021 test scores for grades 3–8, this research found average math scores were 0.20–0.27 standard deviations below pre-pandemic levels, with reading also declining significantly. The study evaluates whether common recovery interventions—tutoring, summer programs, class-size reductions—are sufficient in scale and evidence base to close pandemic-era learning gaps, noting that equity disparities widened considerably during school closures.
+
+---
+
+---
+
+### 326. A restorative approach to student discipline shows promise in reducing suspensions and arrests
+
+```yaml
+url: "https://www.brookings.edu/articles/a-restorative-approach-to-student-discipline-shows-promise-in-reducing-suspensions-and-arrests/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, longitudinal, rct, school-discipline]
+```
+
+Examining Chicago Public Schools' implementation of restorative practices, this research finds that the program reduced student suspension days by 18% in the four years after rollout, with Black students experiencing double the average reductions. The study provides causal evidence that restorative approaches—emphasizing dialogue and harm reparation over punishment—can meaningfully reduce disciplinary disparities.
+
+---
+
+---
+
+### 327. Reclassifying English Language Learners: What's the effect on Wisconsin high schoolers?
+
+```yaml
+url: "https://www.brookings.edu/articles/reclassifying-english-language-learners-whats-the-effect-on-wisconsin-high-schoolers/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [college-access, english-learners, k-12, longitudinal]
+```
+
+This study finds that reclassifying English Language Learners as fully proficient during high school increases composite ACT scores by about one full point and boosts postsecondary enrollment, particularly at four-year institutions. The results suggest schools should ensure equitable access to college preparation resources for students scoring near proficiency reclassification thresholds.
+
+---
+
+---
+
+### 328. Do teacher expectations matter?
+
+```yaml
+url: "https://www.brookings.edu/articles/do-teacher-expectations-matter/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, longitudinal, qualitative-research]
+```
+
+Analyzing nationally representative data from approximately 6,000 tenth-grade students, this research provides causal evidence that teacher expectations directly affect students' long-term educational attainment. The authors also document that white teachers hold systematically lower expectations for Black students compared to Black teachers, and that this racial bias in expectations has measurable negative effects on Black students' college completion rates.
+
+---
+
+---
+
+### 329. How does student-teacher matching affect suspensions for students of color?
+
+```yaml
+url: "https://www.brookings.edu/articles/how-does-student-teacher-matching-affect-suspensions-for-students-of-color/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [k-12, longitudinal, school-discipline]
+```
+
+Using 10 years of New York City public school data, this study finds that Black, Latino, and Asian American students experience fewer suspensions when assigned to teachers of the same racial or ethnic background. The authors estimate that increasing teacher diversity could prevent thousands of student suspensions annually and keep students in classrooms for thousands more instructional days over a decade.
+
+---
+
+---
+
+### 330. High school computer science impacts college majors and increases earnings
+
+```yaml
+url: "https://www.brookings.edu/articles/high-school-computer-science-impacts-colleg-majors-and-increases-earnings/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [career-readiness, computer-assisted-learning, higher-ed, k-12, longitudinal]
+```
+
+Using Maryland longitudinal data, this research finds that taking a high school computer science course leads to a five-percentage-point increase in students' likelihood of earning a bachelor's degree in CS and improves employment outcomes. Benefits are particularly pronounced for historically underrepresented groups, though these same students show lower enrollment rates when CS courses become available—pointing to access and encouragement gaps.
+
+---
+
+---
+
+### 332. Special education: Beneficial to many, harmful to others
+
+```yaml
+url: "https://www.brookings.edu/articles/special-education-beneficial-to-some-harmful-to-others/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [inclusive-design, k-12, longitudinal]
+```
+
+Examining a 2005 Texas policy capping special education enrollment, this research finds that students who genuinely need special education services benefit significantly from them, while those inappropriately placed experience worse long-term educational outcomes. Notably, reducing racial disproportionality in placement improved outcomes for Black students, suggesting some were previously misclassified into special education rather than supported through general education.
+
+---
+
+---
+
+### 333. Class size: What research says and what it means for state policy
+
+```yaml
+url: "https://www.brookings.edu/articles/class-size-what-research-says-and-what-it-means-for-state-policy/"
+type: report
+source: "Brookings Institution"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-01
+doi: null
+license: null
+tags: [early-childhood, k-12, meta-analysis]
+```
+
+This review of empirical literature finds that reductions of 7–10 fewer students per class can produce meaningful academic gains, particularly for disadvantaged elementary students, but that the magnitude of effect varies considerably across studies and grade levels. The authors conclude that policymakers must weigh class-size reduction against other evidence-based educational investments given the substantial and ongoing fiscal costs involved.
+
+---

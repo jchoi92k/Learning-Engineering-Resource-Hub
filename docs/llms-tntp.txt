@@ -1,0 +1,42 @@
+# Renaissance AI and Education Resource Hub — TNTP
+
+> 36 entries from TNTP.
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-tntp.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 656. [Coherence by Design](https://tntp.org/publication/coherence-by-design/) | report | k-12
+- 657. [Teachers’ Time Use](https://tntp.org/publication/teachers-time-use/) | report | career-readiness, higher-ed, k-12, sel
+- 658. [Unlocking Algebra](https://tntp.org/publication/unlocking-algebra/) | report | higher-ed, k-12, math-education, sel
+- 659. [The Opportunity Makers](https://tntp.org/publication/the-opportunity-makers/) | report | k-12
+- 660. [The Impacts of Teacher Expectations on Student Outcomes](https://tntp.org/publication/the-impacts-of-teacher-expectations-on-student-outcomes/) | report | k-12
+- 661. [Paths of Opportunity](https://tntp.org/publication/paths-of-opportunity/) | report | k-12
+- 662. [Moving Up](https://tntp.org/publication/moving-up/) | report | k-12
+- 663. [Unlocking Learning Acceleration for Multilingual Learners](https://tntp.org/publication/unlocking-learning-acceleration-for-multilingual-learners/) | report | english-learners, k-12
+- 664. [False Signals](https://tntp.org/publication/false-signals/) | report | attendance, k-12, math-education
+- 665. [Unlocking Acceleration](https://tntp.org/publication/unlocking-acceleration/) | report | k-12
+- 666. [Accelerate, Don’t Remediate](https://tntp.org/publication/accelerate-dont-remediate/) | report | k-12, math-education
+- 667. [Missing Out](https://tntp.org/publication/missing-out/) | report | k-12
+- 668. [Rising Together](https://tntp.org/publication/rising-together/) | report | k-12
+- 669. [A Broken Pipeline](https://tntp.org/publication/a-broken-pipeline/) | report | career-readiness, k-12
+- 670. [A Strong Foundation](https://tntp.org/publication/a-strong-foundation/) | report | k-12
+- 671. [The Opportunity Myth](https://tntp.org/publication/the-opportunity-myth/) | report | english-learners, higher-ed, k-12
+- 672. [Walking Together](https://tntp.org/publication/walking-together/) | report | higher-ed, k-12
+- 673. [Room to Run](https://tntp.org/publication/room-to-run/) | report | higher-ed, k-12
+- 674. [Accountability Under ESSA](https://tntp.org/publication/accountability-under-essa-how-states-can-design-systems-that-advance-equity/) | report | k-12
+- 675. [The Mirage](https://tntp.org/publication/the-mirage-confronting-the-truth-about-our-quest-for-teacher-development/) | report | k-12
+- 676. [Greenhouse Schools in Boston](https://tntp.org/publication/greenhouse-schools-in-boston/) | report | k-12
+- 677. [Rebalancing Teacher Tenure](https://tntp.org/publication/rebalancing-teacher-tenure-a-post-vergara-guide-for-policymakers/) | report | k-12
+- 678. [Shortchanged](https://tntp.org/publication/shortchanged-the-hidden-costs-of-lockstep-teacher-pay/) | report | k-12
+- 679. [TNTP Core Teaching Rubric](https://tntp.org/publication/tntp-core-teaching-rubric-a-tool-for-conducting-classroom-observations/) | report | formative-assessment, k-12
+- 680. [Fixing Classroom Observations](https://tntp.org/publication/fixing-classroom-observations-how-common-core-will-change-teaching/) | report | formative-assessment, k-12
+- 681. [Perspectives of Irreplaceable Teachers](https://tntp.org/publication/perspectives-of-irreplaceable-teachers-best-teachers-think-about-teaching/) | report | formative-assessment, k-12
+- 682. [Leap Year](https://tntp.org/publication/leap-year-assessing-and-supporting-effective-first-year-teachers/) | report | formative-assessment, k-12, longitudinal
+- 683. [Keeping Irreplaceables in D.C. Public Schools](https://tntp.org/publication/keeping-irreplaceables-in-d-c-public-schools-smart-teacher-retention/) | report | k-12
+- 684. [The Irreplaceables](https://tntp.org/publication/the-irreplaceables-understanding-the-real-retention-crisis/) | report | k-12
+- 685. [Greenhouse Schools](https://tntp.org/publication/greenhouse-schools-how-schools-can-build-cultures-where-teachers-thrive/) | report | k-12
+- 686. [The Case Against Quality-Blind Teacher Layoffs](https://tntp.org/publication/the-case-against-quality-blind-teacher-layoffs/) | report | k-12
+- 687. [Teacher Evaluation 2.0](https://tntp.org/publication/teacher-evaluation-2-0/) | report | formative-assessment, k-12
+- 688. [The Widget Effect](https://tntp.org/publication/the-widget-effect-failure-to-act-on-differences-in-teacher-effectiveness/) | report | formative-assessment, k-12
+- 689. [Mutual Benefits](https://tntp.org/publication/mutual-benefits-new-york-citys-shift-to-mutual-consent-in-teacher-hiring/) | report | k-12
+- 690. [Unintended Consequences](https://tntp.org/publication/unintended-consequences-the-case-for-reforming-staffing-rules/) | report | k-12
+- 691. [Missed Opportunities](https://tntp.org/publication/missed-opportunities-how-we-keep-quality-teachers-out-of-urban-classrooms/) | report | k-12

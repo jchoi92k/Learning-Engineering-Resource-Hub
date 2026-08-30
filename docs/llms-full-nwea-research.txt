@@ -1,0 +1,1473 @@
+# Renaissance AI and Education Resource Hub — NWEA Research (full)
+# 70 entries with descriptions | Last updated: 2026-08-30
+# Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-nwea-research.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
+
+---
+
+### 1061. Academically Diverse Classrooms, Deeper Needs: What Teachers Face After the Pandemic
+
+```yaml
+url: "https://www.nwea.org/research/publication/academically-diverse-classrooms-deeper-needs-what-teachers-face-after-the-pandemic/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal, professional-development]
+```
+
+The research examines post-COVID classroom composition, analyzing the spread of academic achievement levels. Key findings reveal that "more students are off-track and further behind grade-level proficiency," presenting significant challenges for educators managing increasingly diverse student populations. The study documents how the widened distribution of achievement within classrooms makes differentiated instruction more complex and resource-intensive, with implications for teacher support, professional development, and assessment design. Published April 2026, by Kuhfeld, Morton, Lewis, and Peters (NWEA).
+
+---
+
+---
+
+### 1062. Should Kindergartners Be Redshirted? Costs Likely Outweigh Academic Benefits
+
+```yaml
+url: "https://www.nwea.org/research/publication/should-kindergartners-be-redshirted-costs-likely-outweigh-academic-benefits/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [early-childhood, k-12, longitudinal, prekindergarten]
+```
+
+The research examines data on delaying kindergarten entry — known as redshirting. Using assessment results from over three million kindergartners, the study analyzed trends between 2017–2025 and followed one cohort through third grade to determine whether delayed entry provided academic advantages. The findings indicate that the academic costs of delayed entry likely outweigh any benefits, providing quantitative evidence to inform family and district decisions about kindergarten enrollment timing. Published March 2026, by Kuhfeld et al. (NWEA).
+
+---
+
+---
+
+### 1063. Kindergarten Redshirting: What Families Should Know
+
+```yaml
+url: "https://www.nwea.org/research/publication/kindergarten-redshirting-what-families-should-know/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [early-childhood, k-12, prekindergarten]
+```
+
+This family-facing fact sheet summarizes the data on the practice of delaying kindergarten enrollment, known as redshirting. Designed for schools to use with families considering or seeking information about delayed entry, the resource translates research findings from the companion NWEA study into accessible guidance. The publication highlights key considerations about the academic and social impacts of kindergarten timing decisions. Published March 2026, by Kuhfeld and Postell (NWEA).
+
+---
+
+---
+
+### 1064. A Practical Guide for Considering and Interpreting Test Score Differences Among Student Subgroups
+
+```yaml
+url: "https://www.nwea.org/research/publication/a-practical-guide-for-considering-and-interpreting-test-score-differences-among-student-subgroups/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [ai-ethics, data-sharing, formative-assessment, k-12]
+```
+
+The guide provides recommendations for understanding differences in student group data, offering leaders "structure for how they might consider and interpret those differences" across various demographic subgroups. The resource addresses how to contextualize score gaps without misinterpreting them as fixed or deterministic, supporting more equitable use of assessment data in school and district decision-making. Published April 2026, by NWEA researchers.
+
+---
+
+---
+
+### 1065. The Middle School Science Course Landscape: Course Offerings, Enrollment Patterns, and Implications for Assessment
+
+```yaml
+url: "https://www.nwea.org/research/publication/the-middle-school-science-course-landscape-course-offerings-enrollment-patterns-and-implications-for-assessment/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This research examines middle school science curriculum structures across 2,200 schools. The study finds that "multi-disciplinary course models now dominate versus single-course offerings," while noting disparities in access tied to student demographics. Notably, the research indicates that "students in different course models performed similarly on assessments," suggesting structural course design may not significantly impact achievement outcomes, with implications for science assessment design and equitable course access. Published April 2026, by NWEA researchers.
+
+---
+
+---
+
+### 1075. The COVID-19 Slide: What Summer Learning Loss Can Tell Us About the Potential Impact of School Closures on Student Academic Achievement
+
+```yaml
+url: "https://www.nwea.org/research/publication/the-covid-19-slide-what-summer-learning-loss-can-tell-us-about-the-potential-impact-of-school-closures-on-student-academic-achievement/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This research brief examines how summer learning loss patterns can illuminate potential academic impacts from COVID-19 school closures. The brief helps educators and policymakers understand and prepare for achievement gaps when students return to in-person instruction. The analysis draws on established seasonal learning research to project consequences of the extended instructional pause.
+
+---
+
+---
+
+### 1076. Rethinking Summer Slide: The More You Gain, the More You Lose
+
+```yaml
+url: "https://www.nwea.org/research/publication/rethinking-summer-slide-the-more-you-gain-the-more-you-lose/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal]
+```
+
+This research draws on data from 3.4 million students assessed with NWEA MAP Growth to examine summer learning loss patterns. The study reveals that students experiencing the greatest academic decline during summer were those who had made the most substantial gains during the preceding school year. The findings challenge conventional explanations for summer learning loss such as program access and school year length.
+
+---
+
+---
+
+### 1077. The Development of Racial/Ethnic and Socioeconomic Achievement Gaps During the School Years
+
+```yaml
+url: "https://www.nwea.org/research/publication/the-development-of-racial-ethnic-and-socioeconomic-achievement-gaps-during-the-school-years/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal]
+```
+
+This study examines how achievement gaps between racial/ethnic and socioeconomic groups develop from school entry through middle school. The researchers found that poor White students consistently outperformed poor Black and poor Hispanic students, with gaps widening around ages 7–8. The analysis highlights the importance of examining race and poverty together rather than separately when studying educational disparities.
+
+---
+
+---
+
+### 1078. Seven Successful Strategies for Literate Assessment
+
+```yaml
+url: "https://www.nwea.org/research/publication/seven-successful-strategies-for-literate-assessment/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, professional-development]
+```
+
+This article presents evidence suggesting that principals' knowledge and skills related to assessment leadership — including professional development, data use in classroom planning, and professional collaboration — are fundamental to building assessment literacy among teachers. The research emphasizes that balanced assessment systems encompass diverse evaluation methods beyond traditional testing. Seven evidence-based practices are identified that enhance classroom learning outcomes.
+
+---
+
+---
+
+### 1079. How to Promote Equity in Advanced Coursework Participation: Three Strategies for Closing the Gaps
+
+```yaml
+url: "https://www.nwea.org/research/publication/how-to-promote-equity-in-advanced-coursework-participation-three-strategies-for-closing-the-gaps-and-retaining-students/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [college-access, k-12]
+```
+
+This article examines how district leaders can address opportunity gaps in advanced course enrollment through data-driven approaches, documenting the experience of Gresham-Barlow School District in Oregon. The research focuses on identifying and closing disparities in course-taking patterns while supporting student retention in advanced programs.
+
+---
+
+---
+
+### 1080. Mind the Kinder-Gap: New Data on Children's Math and Reading Skills as They Enter Kindergarten
+
+```yaml
+url: "https://www.nwea.org/research/publication/mind-the-kinder-gap-new-data-on-childrens-math-and-reading-skills-as-they-enter-kindergarten/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [early-childhood, k-12, literacy, math-education, prekindergarten]
+```
+
+This research examines academic preparation at kindergarten entry, presenting data revealing both declining achievement and shrinking achievement gaps between student subgroups. The study analyzes trends in children's math and reading proficiency as they begin formal schooling, providing insights into early learning disparities and achievement patterns across student populations.
+
+---
+
+---
+
+### 1081. When Does Inequality Grow? A Seasonal Analysis of Racial/Ethnic Disparities in Learning in Kindergarten Through Eighth Grade
+
+```yaml
+url: "https://www.nwea.org/research/publication/when-does-inequality-grow-a-seasonal-analysis-of-racial-ethnic-disparities-in-learning-in-kindergarten-through-eighth-grade/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal]
+```
+
+This research examines seasonal patterns of racial/ethnic achievement gaps across K-8 using data from over two million students. The study finds that Black-White achievement gaps widen during school years and shrink during summers, while Asian students advance faster relative to White students during summer break. The findings suggest schools play a significant role in either reproducing or exacerbating educational inequalities across grade levels.
+
+---
+
+---
+
+### 1082. It Matters How You Start: Early Numeracy Mastery Predicts High School Math Course-Taking and College Attendance
+
+```yaml
+url: "https://www.nwea.org/research/publication/it-matters-how-you-start-early-numeracy-mastery-predicts-high-school-math-course-taking-and-college-attendance/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [college-access, early-childhood, k-12, longitudinal, math-education, prekindergarten]
+```
+
+This study examines how early numeracy skills at age 54 months predict later educational outcomes using data from 1,364 children. The researchers measured mastery of counting, concrete representational arithmetic, and abstract arithmetic operations, finding that foundational math competencies in early childhood have significant long-term implications for high school course enrollment and college attendance rates.
+
+---
+
+---
+
+### 1083. What Do Teachers Know About Dyslexia? It's Complicated!
+
+```yaml
+url: "https://www.nwea.org/research/publication/what-do-teachers-know-about-dyslexia-its-complicated/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, literacy, professional-development]
+```
+
+This 2022 study examines teachers' understanding of dyslexia concepts, finding that teachers hold both scientifically-based conceptions and misconceptions about dyslexia. The research surveyed 524 Midwestern teachers using the Dyslexia Knowledge Questionnaire-2, discovering that prior training and confidence predicted dyslexia knowledge, though years of teaching experience did not.
+
+---
+
+---
+
+### 1084. COVID-19 in the Early Elementary Years: A Comparison of Achievement in Spring 2019 and Spring 2022
+
+```yaml
+url: "https://www.nwea.org/research/publication/covid-19-in-the-early-elementary-years-a-comparison-of-achievement-in-spring-2019-and-spring-2022/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [early-childhood, formative-assessment, k-12, longitudinal]
+```
+
+This research brief examines how pandemic-era schooling affected students in early elementary grades by analyzing MAP Growth data from 1.6 million first and second graders tested in spring 2022 and comparing results to a spring 2019 cohort. Reading and math achievement in first and second grade remained substantially lower in 2022 relative to historical data, with particularly pronounced impacts for economically disadvantaged and historically marginalized populations.
+
+---
+
+---
+
+### 1085. Longitudinal Models of Reading and Mathematics Achievement in Deaf and Hard of Hearing Students
+
+```yaml
+url: "https://www.nwea.org/research/publication/longitudinal-models-of-reading-and-mathematics-achievement-in-deaf-and-hard-of-hearing-students/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, literacy, longitudinal, math-education]
+```
+
+This study analyzes longitudinal NWEA MAP Growth data from grades 2–8 across reading and mathematics domains over five years to understand how academic achievement progresses for deaf and hard of hearing (DHH) students. The research reveals that both DHH and hearing students continue building skills throughout this period, challenging prior assumptions that DHH students plateau in the elementary grades. The findings demonstrate the importance of longitudinal data analysis for identifying where DHH students may need additional academic support.
+
+---
+
+---
+
+### 1086. Disparities and Discrimination in Student Discipline by Race and Family Income
+
+```yaml
+url: "https://www.nwea.org/research/publication/disparities-and-discrimination-in-student-discipline-by-race-and-family-income/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, school-discipline]
+```
+
+This study examines racial and socioeconomic disparities in school discipline by comparing punishments given to Black and White students and poor versus nonpoor students involved in the same incidents. The researchers find that Black and poor students are punished more harshly than the students with whom they fight, revealing evidence of discrimination in discipline practices. The research addresses a critical methodological challenge that had previously prevented scholars from identifying discriminatory patterns in student discipline outcomes.
+
+---
+
+---
+
+### 1087. Learning During COVID-19: Initial Findings on Students' Reading and Math Achievement and Growth
+
+```yaml
+url: "https://www.nwea.org/research/publication/learning-during-covid-19-initial-findings-on-students-reading-and-math-achievement-and-growth/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This study analyzed data from approximately 4.4 million students in grades 3–8 who took MAP Growth assessments in fall 2020, finding that math achievement was 5 to 10 percentile points lower than pre-COVID performance and that students demonstrated reduced growth rates compared to the prior year. Demographic shifts in the tested student population suggest the actual impact on vulnerable populations may be underestimated.
+
+---
+
+---
+
+### 1088. Understanding the Initial Educational Impacts of COVID-19 on Communities of Color
+
+```yaml
+url: "https://www.nwea.org/research/publication/understanding-the-initial-educational-impacts-of-covid-19-on-communities-of-color/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This investigation examines how the pandemic affected academic outcomes for Black, Indigenous, and students of color by analyzing math and reading assessments from 2.1 million BIPOC students in grades 3–8. Math achievement was significantly impacted in fall 2020 while reading remained relatively stable, and learning rates during the pandemic fell below pre-pandemic trajectories.
+
+---
+
+---
+
+### 1089. Trends in Children's Academic Skills at School Entry: 2010 to 2017
+
+```yaml
+url: "https://www.nwea.org/research/publication/trends-in-childrens-academic-skills-at-school-entry-2010-to-2017/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [early-childhood, k-12, literacy, longitudinal, math-education, prekindergarten]
+```
+
+This research examines kindergarten entry skills across approximately 2 million students comparing data from 2010 and 2017. The study found that kindergarteners in 2017 had moderately lower math and reading skills than in 2010, while simultaneously revealing that achievement gaps between racial/ethnic groups and schools with different poverty levels narrowed during this period.
+
+---
+
+---
+
+### 1090. Examining the State-Trait Composition of Social-Emotional Learning Constructs: Implications for Practice, Policy, and Evaluation
+
+```yaml
+url: "https://www.nwea.org/research/publication/examining-the-state-trait-composition-of-social-emotional-learning-constructs-implications-for-practice-policy-and-evaluation/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal, sel]
+```
+
+This 2019 study investigates how stable social-emotional learning (SEL) competencies are compared to academic achievement. The researchers found that the four SEL domains seem to be more strongly influenced by contextual factors, while math and reading skills remain highly stable over time. The findings have implications for school accountability systems and intervention design.
+
+---
+
+---
+
+### 1091. The Widening Achievement Divide During COVID-19
+
+```yaml
+url: "https://www.nwea.org/research/publication/the-widening-achievement-divide-during-covid-19/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This study analyzed MAP Growth assessment data from 8 million students in grades 3–8 across 24,000 public schools to examine changes in test score variability during the pandemic. Test scores for lower-achieving students dropped more than declines observed for higher-achieving students, with increased score dispersion concentrated at the bottom of the achievement distribution. The findings emphasize the urgent need for targeted support to help struggling learners close the significantly widened achievement gap.
+
+---
+
+---
+
+### 1092. Student Achievement in 2021-22: Cause for Hope and Continued Urgency
+
+```yaml
+url: "https://www.nwea.org/research/publication/student-achievement-in-2021-22-cause-for-hope-and-continued-urgency/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This analysis examined 8.3 million students' MAP Growth data from grades 3–8 across the 2021–22 school year, revealing encouraging early signs of academic rebounding with stronger gains in math and among younger students, though overall achievement remained below pre-pandemic levels. Achievement disparities remained wider in spring 2022 than prior to the pandemic, with recovery timelines extending beyond federal funding deadlines.
+
+---
+
+---
+
+### 1093. Learning During COVID-19: An Update on Student Achievement and Growth at the Start of the 2021-22 School Year
+
+```yaml
+url: "https://www.nwea.org/research/publication/learning-during-covid-19-an-update-on-student-achievement-and-growth-at-the-start-of-the-2021-22-school-year/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This research examined how the COVID-19 pandemic affected student achievement and growth in reading and math using data from 6 million students in grades 3–8. Achievement was lower for all student groups in fall 2021, but with disproportionately high impacts for historically marginalized students and students in high-poverty schools. Both achievement levels and learning gains lagged behind pre-pandemic trends, particularly in mathematics.
+
+---
+
+---
+
+### 1094. The Forgotten 20 Percent: Achievement and Growth in Rural Schools Across the Nation
+
+```yaml
+url: "https://www.nwea.org/research/publication/the-forgotten-20-percent-achievement-and-growth-in-rural-schools-across-the-nation/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This research examines how achievement and growth patterns differ between rural and nonrural schools using data from 840,000 students across 8,800 public schools. The study reveals that rural students start kindergarten slightly ahead of nonrural students but fall behind by middle school, with larger summer learning losses driving this divergence. The findings underscore the significance of seasonal learning patterns when evaluating rural school performance.
+
+---
+
+---
+
+### 1095. Does Four Equal Five? Implementation and Outcomes of the Four-Day School Week
+
+```yaml
+url: "https://www.nwea.org/research/publication/does-four-equal-five-implementation-and-outcomes-of-the-four-day-school-week/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal]
+```
+
+This large-scale study examined the implementation and outcomes of four-day school weeks compared to traditional five-day schedules across Idaho, New Mexico, and Oklahoma. Cost savings related to the four-day model were relatively small, and students on the four-day schedule had lower scores over time when compared with peers on a five-day schedule. Results overall were mixed, with stakeholders reporting high satisfaction despite modest academic performance differences.
+
+---
+
+---
+
+### 1096. Learning During COVID-19: Reading and Math Achievement in the 2020-2021 School Year
+
+```yaml
+url: "https://www.nwea.org/research/publication/learning-during-covid-19-reading-and-math-achievement-in-the-2020-2021-school-year/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, formative-assessment, k-12, longitudinal]
+```
+
+This study analyzed data from 5.5 million students in grades 3–8 to examine how pandemic disruptions affected reading and math achievement during the 2020–2021 school year. Students across most grades made reading and math gains in 2020–21 but their outcomes remained lower across multiple dimensions compared to pre-pandemic trends. American Indian and Alaska Native, Black, and Latinx students, along with those in high-poverty schools, experienced disproportionately larger achievement declines.
+
+---
+
+---
+
+### 1097. Academic Growth for Students with Disabilities: Lessons from School-Year Learning Gains and Summer Learning Loss
+
+```yaml
+url: "https://www.nwea.org/research/publication/academic-growth-for-students-with-disabilities-lessons-from-school-year-learning-gains-and-summer-learning-loss-implications-for-covid-19-recovery-and-beyond/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This brief examines how schools can support academic progress for students with disabilities who faced disproportionate pandemic-related learning challenges. The resource offers guidance on leveraging federal ESSER and IDEA funding to provide early intervention, extended school year support in the summer, and other evidence-based supports for sustainable academic advancement.
+
+---
+
+---
+
+### 1098. Education's Long COVID: 2022-23 Achievement Data Reveal Stalled Progress Toward Pandemic Recovery
+
+```yaml
+url: "https://www.nwea.org/research/publication/educations-long-covid-2022-23-achievement-data-reveal-stalled-progress-toward-pandemic-recovery/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This study analyzed data from 6.7 million U.S. public school students in grades 3–8 to examine academic progress in the 2022–23 school year, finding that progress toward academic recovery stalled. Students require approximately 4.1 additional months of instruction in reading and 4.5 months in mathematics to catch up to pre-pandemic performance levels, with persistent achievement gaps remaining.
+
+---
+
+---
+
+### 1099. Progress Towards Pandemic Recovery: Continued Signs of Rebounding Achievement at the Start of the 2022-23 School Year
+
+```yaml
+url: "https://www.nwea.org/research/publication/progress-towards-pandemic-recovery-continued-signs-of-rebounding-achievement-at-the-start-of-the-2022-23-school-year/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This research analyzed data from 7 million students in grades 3–8 across 25,000 schools who completed MAP Growth assessments between 2020–21 and fall 2022. The study found that students are rebounding from the impacts of the pandemic with achievement gaps narrowing from their widest point in spring 2021, though student achievement remains lower than in a typical year and full recovery is likely still several years away.
+
+---
+
+---
+
+### 1100. Effects of 4-Day School Weeks on Older Adolescents: Examining Impacts on Academic Achievement, Attendance, and Behavior in High School
+
+```yaml
+url: "https://www.nwea.org/research/publication/effects-of-4-day-school-weeks-on-older-adolescents-examining-impacts-of-the-schedule-on-academic-achievement-attendance-and-behavior-in-high-school/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [attendance, k-12, longitudinal]
+```
+
+This research examined how 4-day school week schedules affect high school students using Oklahoma district data. The study found that 4-day school weeks decrease per-pupil bullying incidents by approximately 39% and fighting incidents by roughly 31%, though no meaningful changes were detected in test scores or attendance rates.
+
+---
+
+---
+
+### 1101. Achievement and Growth for English Learners
+
+```yaml
+url: "https://www.nwea.org/research/publication/achievement-and-growth-for-english-learners/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, formative-assessment, k-12, longitudinal]
+```
+
+This working paper examines academic achievement and growth patterns for English Learners from kindergarten through 4th grade across three distinct groups. All three EL groups had lower test scores than never-ELs throughout K-4, with notably different patterns in math versus reading development. The research indicates that summer academic support is essential, as English Learners experience greater skill loss during break periods compared to non-English learners.
+
+---
+
+---
+
+### 1102. Within-Year Achievement Gains for English Learners
+
+```yaml
+url: "https://www.nwea.org/research/publication/within-year-achievement-gains-for-english-learners/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, formative-assessment, k-12, longitudinal]
+```
+
+This working paper examines fall-to-spring achievement gains across grades K–8 for three groups of English Learners, analyzing data from 186,139 ever-ELs and their never-EL peers in 1,520 schools. The study reveals that ever-ELs and current-ELs make larger gains in the early grades but smaller gains in the middle grades, with findings indicating that better academic support is urgently needed for all multilingual students.
+
+---
+
+---
+
+### 1103. Dual Language Education and Academic Growth
+
+```yaml
+url: "https://www.nwea.org/research/publication/dual-language-education-and-academic-growth/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, formative-assessment, k-12, longitudinal]
+```
+
+This 2020 working paper examines math and reading academic achievement and growth in grades 2 to 8 for Hispanic participants and nonparticipants of a Spanish-English dual language program. While dual language students demonstrated faster math growth in early grades, they did not learn more than their peers in the long run. The research reveals that programs aimed at addressing achievement gaps need to consider summer as well as school-year learning.
+
+---
+
+---
+
+### 1104. Dual Identification? The Effects of English Learner Status on Special Education Placement
+
+```yaml
+url: "https://www.nwea.org/research/publication/dual-identification-the-effects-of-english-learner-status-on-special-education-placement/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, longitudinal]
+```
+
+This study examines the effects of English Learner (EL) status on subsequent special education placement through analysis of seven student cohorts tracked over seven years. The research reveals that EL classification resulted in either null effects or slight under-identification for special education placement, with variation by language group.
+
+---
+
+---
+
+### 1105. Absenteeism and Achievement
+
+```yaml
+url: "https://www.nwea.org/research/publication/absenteeism-and-achievement/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [attendance, formative-assessment, k-12, longitudinal]
+```
+
+This study, conducted in partnership with Santa Ana Unified School District, examines the impact of chronic absenteeism on student achievement over two years. The research investigates whether reaching a 10% absence threshold represents a point where intervention efforts become increasingly ineffective, providing evidence-based guidance for school and district leaders addressing attendance challenges.
+
+---
+
+---
+
+### 1106. Measuring Middle School Achievement Trajectories for College Readiness
+
+```yaml
+url: "https://www.nwea.org/research/publication/measuring-middle-school-achievement-trajectories-for-college-readiness/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [college-access, formative-assessment, k-12, longitudinal]
+```
+
+This study analyzes academic trajectories for over 360,000 students using college readiness benchmarks in math and reading. The research reveals that higher proportions of Black and Hispanic students are consistently off-track throughout middle school compared to White and Asian peers, and demographic factors at both student and school levels significantly influence whether middle schoolers remain on track for college readiness.
+
+---
+
+---
+
+### 1107. Looking Back: How Prior-Year Attendance Impacts Starting Achievement
+
+```yaml
+url: "https://www.nwea.org/research/publication/looking-back-how-prior-year-attendance-impacts-starting-achievement/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [attendance, formative-assessment, k-12, longitudinal]
+```
+
+This working paper examines how the impact of absences carries from one year to the next, focusing on a gap in the chronic absenteeism literature that has largely looked only at end-of-year achievement. The study finds that students with moderate to chronic absenteeism start the following year significantly behind their peers academically, underscoring the compounding nature of attendance problems.
+
+---
+
+---
+
+### 1108. Do High Flyers Maintain Their Altitude? Performance Trends of Top Students
+
+```yaml
+url: "https://www.nwea.org/research/publication/do-high-flyers-maintain-their-altitude-performance-trends-of-top-students/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This 2013 study from the Thomas B. Fordham Institute tracked students who scored at or above the 90th percentile to examine whether high-achieving students maintained their performance levels. Analyzing data from over 91,000 middle and high school students, researchers found that approximately 60% of initially high-achieving students remained in that category, while those who dropped typically stayed at the 70th percentile or above.
+
+---
+
+---
+
+### 1109. Reconciling Recent Evidence on Academic Recovery in the US from 2022 to 2023
+
+```yaml
+url: "https://www.nwea.org/research/publication/reconciling-recent-evidence-on-academic-recovery-in-the-us-from-2022-to-2023/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This analysis compares NWEA and Education Recovery Scorecard results to examine pandemic recovery progress across 2022–2023. The study explores differences and similarities across the two data sources, authored by researchers from NWEA, Harvard, and Stanford, to provide a comprehensive picture of where and how students are recovering academically.
+
+---
+
+---
+
+### 1110. Recovery Still Elusive: 2023-24 Student Achievement Highlights Persistent Achievement Gaps and a Long Road Ahead
+
+```yaml
+url: "https://www.nwea.org/research/publication/recovery-still-elusive-2023-24-student-achievement-highlights-persistent-achievement-gaps-and-a-long-road-ahead/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This July 2024 report reveals that growth during 2023–24 fell short of pre-pandemic trends in nearly all grades. Marginalized students remain furthest from academic recovery, with students requiring approximately 4.8 additional months of schooling in reading and 4.3 months in math to catch up to pre-COVID performance levels.
+
+---
+
+---
+
+### 1111. Effective Summer Programs: Practical Guidance for District Leaders
+
+```yaml
+url: "https://www.nwea.org/research/publication/effective-summer-programs-practical-guidance-for-district-leaders/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, professional-development, sel]
+```
+
+This June 2024 research brief examines research on summer programs, including their implementation, design, and effectiveness for literacy, math, and social-emotional learning outcomes. The publication offers recommendations for district leaders to use as a framework for planning and implementing effective summer programming, synthesizing evidence on program design choices that maximize student impact.
+
+---
+
+---
+
+### 1112. High Dosage Tutoring for Academically At-Risk Students
+
+```yaml
+url: "https://www.nwea.org/research/publication/high-dosage-tutoring-for-academically-at-risk-students/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, personalized-learning]
+```
+
+This research brief examines high dosage tutoring as a strategy to address increased academic risk post-pandemic, noting that if implemented effectively and at proper scale, accelerated academic growth is possible. The brief examines implementation factors including frequency and scheduling, group size, qualified personnel, measurement of outcomes, curriculum, tutor-to-student relationships, and strategies for removing barriers to access.
+
+---
+
+---
+
+### 1113. School's in for Summer: A Scalable and Effective Post-Pandemic Academic Intervention
+
+```yaml
+url: "https://www.nwea.org/research/publication/schools-in-for-summer-a-scalable-and-effective-post-pandemic-academic-intervention/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This December 2025 research report examines the effects of post-pandemic summer school on student achievement and district recovery, how program design and implementation aligned with recommended best practices, and how the scale and impact of summer school compared to other interventions such as tutoring. The study by Morton, Goldhaber, McEachin, and Kane provides large-scale evidence on summer programs as a cost-effective recovery strategy.
+
+---
+
+---
+
+### 1114. Unequal Access to 8th-Grade Algebra: How School Offerings and Placement Practices Limit Opportunity
+
+```yaml
+url: "https://www.nwea.org/research/publication/unequal-access-to-8th-grade-algebra-how-school-offerings-and-placement-practices-limit-opportunity/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, math-education, math-strategies]
+```
+
+This study examines inequitable access to early Algebra across the United States using data from 162,000 eighth-grade students across 22 states. The research analyzes both whether schools offer Algebra in 8th grade and how students are placed when courses are available, finding notable disparities based on school poverty levels, geographic location, and student race/ethnicity.
+
+---
+
+---
+
+### 1115. Post-Pandemic School Closure Trends: Schools Serving Black Students Disproportionately Closed
+
+```yaml
+url: "https://www.nwea.org/research/publication/post-pandemic-school-closure-trends-schools-serving-black-students-disproportionately-closed/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, longitudinal]
+```
+
+This NWEA research examines permanent school closures and their disparate impacts on communities. The analysis reveals that while most districts maintained open schools, closures disproportionately affected institutions serving high-poverty populations and predominantly Black student bodies, highlighting how pandemic-era closure decisions created unequal consequences across different communities.
+
+---
+
+---
+
+### 1116. Boys Regain the Advantage in Middle School STEM Skills: Post-COVID Trends in Gender Achievement Gaps
+
+```yaml
+url: "https://www.nwea.org/research/publication/boys-regain-the-advantage-in-middle-school-stem-skills-post-covid-trends-in-gender-achievement-gaps/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal, math-education]
+```
+
+This study investigates how boys' and girls' achievement in STEM skills were affected during the pandemic by analyzing five years of data from three national assessments. The research examines whether gender gaps widened among low- and high-achieving students, and explores variations in 8th grade algebra enrollment by gender during and after the pandemic.
+
+---
+
+---
+
+### 1117. The COVID-19 School Year: Learning and Recovery Across 2020-2021
+
+```yaml
+url: "https://www.nwea.org/research/publication/the-covid-19-school-year-learning-and-recovery-across-2020-2021/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This study examined student achievement trends before and during the pandemic using test scores from 4.9 million U.S. students in grades 3–8. Students were still behind typical pre-pandemic averages by spring 2021, and while students demonstrated positive gains during 2020–2021, the pandemic simultaneously widened existing educational inequities with much of the academic progress concentrated among higher-performing students.
+
+---
+
+---
+
+### 1118. Test Score Patterns Across Three COVID-19-Impacted School Years
+
+```yaml
+url: "https://www.nwea.org/research/publication/test-score-patterns-across-three-covid-19-impacted-school-years/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This research analyzed data from 5.4 million U.S. students in grades 3–8 to track achievement changes across the pandemic's first two years. Average math test scores in fall 2021 were 0.20–0.27 standard deviations lower compared to 2019, while reading scores declined by 0.09–0.18 standard deviations, with achievement gaps between students in low- and high-poverty schools growing by 0.10–0.20 SD.
+
+---
+
+---
+
+### 1119. Family Engagement as a Long-Term Strategy for Continued COVID Recovery
+
+```yaml
+url: "https://www.nwea.org/research/publication/family-engagement-as-a-long-term-strategy-for-continued-covid-recovery/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, professional-development]
+```
+
+This June 2025 collaborative report examines family engagement as an underutilized approach to supporting student academic growth during COVID recovery. The research provides a broader definition of family engagement, shares insights from recent surveys on family experiences with schools, identifies barriers to engagement, and explains how improved communication strategies can drive more involvement and partnerships with families.
+
+---
+
+---
+
+### 1120. Hot Test Days, Lower Math Scores: How Heat Affects Student Achievement
+
+```yaml
+url: "https://www.nwea.org/research/publication/hot-test-days-lower-math-scores-how-heat-affects-student-achievement/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, math-education]
+```
+
+This study examines how rising temperatures impact student learning by analyzing roughly three million test events from fall 2022, 2023, and 2024. Higher temperatures most strongly affect math scores, with students in high-poverty schools facing the greatest impact, addressing a critical infrastructure challenge as many U.S. schools lack adequate cooling systems during increasingly intense heat waves.
+
+---
+
+---
+
+### 1121. Integrating Literacy and Science: A Powerful Partnership for Student Success
+
+```yaml
+url: "https://www.nwea.org/research/publication/integrating-literacy-and-science-a-powerful-partnership-for-student-success/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, literacy]
+```
+
+This research brief explores the connection between science and literacy instruction, documenting the benefits of integrated science and literacy instruction at the elementary level. The publication highlights advantages of integrating instruction while offering research-based guidance on effective implementation methods for elementary educators.
+
+---
+
+---
+
+### 1122. Practitioner's Guide to Integrating Literacy and Science
+
+```yaml
+url: "https://www.nwea.org/research/publication/practitioners-guide-to-integrating-literacy-and-science/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [k-12, literacy, professional-development]
+```
+
+This practitioner's guide accompanies a research brief on integrating literacy and science instruction at the elementary level, providing sample lessons to demonstrate each component in action in an elementary classroom. The guide addresses four key components of effective literacy and science integration, making research-based practices accessible and actionable for classroom teachers.
+
+---
+
+---
+
+### 1123. Trend Snapshots: Math Recovery Continues, Reading Remains Stalled in Spring 2025
+
+```yaml
+url: "https://www.nwea.org/research/publication/trend-snapshots-math-recovery-continues-reading-remains-stalled-in-spring-2025/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, literacy, math-education]
+```
+
+This brief analyzes recent data from the NWEA MAP Growth National Dashboard, highlighting a modest, incremental recovery post-COVID but stalled progress in reading achievement as of Spring 2025. The analysis examines divergent patterns between mathematics and reading subjects in the ongoing post-pandemic educational landscape across student populations.
+
+---
+
+---
+
+### 1124. Summer Credit Recovery: Impact on Newcomer English Learners
+
+```yaml
+url: "https://www.nwea.org/research/publication/summer-credit-recovery-impact-on-newcomer-english-learners/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, longitudinal]
+```
+
+This research examines a summer credit recovery program for high school newcomer English learners in California. The study finds that credit recovery increased the number of math, English Language Arts, science, and social science classes taken by newcomer EL students, and the findings suggest the program may positively affect English language development.
+
+---
+
+---
+
+### 1125. The Impact of English Learner Reclassification on High School Reading and Academic Progress
+
+```yaml
+url: "https://www.nwea.org/research/publication/the-impact-of-english-learner-reclassification-on-high-school-reading-and-academic-progress/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [english-learners, k-12, literacy, longitudinal]
+```
+
+This research examines how reclassifying English learner students in 8th grade affects their subsequent academic performance using data from a California district. The study found statistically insignificant effects on standardized ELA test scores in grades 9–11, though results on SAT reading showed potentially negative outcomes, suggesting that reclassification timing may not substantially improve high school reading achievement.
+
+---
+
+---
+
+### 1126. Pathways of Mathematics Achievement in Preschool: Examining Executive Function and Task Orientation
+
+```yaml
+url: "https://www.nwea.org/research/publication/pathways-of-mathematics-achievement-in-preschool-examining-executive-function-and-task-orientation/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [early-childhood, longitudinal, math-education, prekindergarten]
+```
+
+This longitudinal study examines how executive function skills in preschoolers predict mathematics achievement growth, exploring whether growth in children's task orientation mediates the connection between executive function and math performance. The study investigates potential sex differences in these associations, finding that task orientation partially explains how executive function relates to math achievement across diverse student populations.
+
+---
+
+---
+
+### 1127. COVID's Impact on Science Achievement: Trends from 2019 Through 2024
+
+```yaml
+url: "https://www.nwea.org/research/publication/covids-impact-on-science-achievement-trends-from-2019-through-2024/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+Building on NWEA's previous research series focused on math and reading, this report represents the first comprehensive large-scale examination of how COVID-19 affected science achievement across U.S. schools. The analysis examines science test scores spanning seven school years to document pandemic impacts on student performance in this subject area.
+
+---
+
+---
+
+### 1128. From Loss to Recovery: Diverging Paths and Uneven Gains Across Schools
+
+```yaml
+url: "https://www.nwea.org/research/publication/from-loss-to-recovery-diverging-paths-and-uneven-gains-across-schools/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This analysis examines school recovery patterns following the COVID-19 pandemic by studying initial achievement declines and subsequent gains across a diverse set of schools. By understanding different recovery patterns, the brief offers insights to policymakers and leaders on where to invest for long-term improvement and how to target support where it is needed most.
+
+---
+
+---
+
+### 1129. MAP Reading Fluency with Coach: Evidence Base
+
+```yaml
+url: "https://www.nwea.org/research/publication/map-reading-fluency-with-coach-evidence-base/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [computer-assisted-learning, formative-assessment, intelligent-tutoring, k-12, literacy]
+```
+
+This July 2024 brief examines the research foundation underlying MAP Reading Fluency with Coach's AI-powered intelligent reading tutor and the research on key elements of early literacy instruction. The document outlines the components of the MAP Reading Fluency with Coach pedagogy and the research base supporting each component, providing transparency about the evidence behind the tool's instructional design.
+
+---
+
+---
+
+### 1130. Identifying Students Who Are Off-Track Academically in 9th Grade: The Role of Social-Emotional Learning Trajectories
+
+```yaml
+url: "https://www.nwea.org/research/publication/identifying-students-who-are-off-track-academically-in-9th-grade-the-role-of-social-emotional-learning-trajectories/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [college-access, dropout-prevention, k-12, longitudinal, sel]
+```
+
+This working paper examines whether a student's initial level of SEL skills at the start of middle school or change in SEL skills over time is a better indicator of academic struggles in high school. Using longitudinal data to analyze three constructs related to successful transitions, the study finds that while baseline social-emotional skills matter, growth in self-management also predicts high school performance independently.
+
+---
+
+---
+
+### 1131. Persistence and Convergence: The End-of-Kindergarten Outcomes of Pre-K Graduates and Their Nonattending Peers
+
+```yaml
+url: "https://www.nwea.org/research/publication/persistence-and-convergence-the-end-of-kindergarten-outcomes-of-pre-k-graduates-and-their-nonattending-peers/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-10
+doi: null
+license: null
+tags: [early-childhood, longitudinal, prekindergarten]
+```
+
+This study examined how pre-K benefits persist through kindergarten for 2,581 low-income children, finding that pre-K graduates outperformed nonattenders in achievement and executive functioning skills at the end of kindergarten, though initial advantages diminished by approximately half during the kindergarten year. The convergence between groups was attributed to nonattenders making greater gains in kindergarten rather than differences in classroom experiences.
+
+---
+
+---
+
+### 1174. Positionality in Teaching: Implications for Advancing Social Justice
+
+```yaml
+url: "https://www.nwea.org/research/publication/positionality-in-teaching-implications-for-advancing-social-justice/"
+type: article
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [k-12, professional-development]
+```
+
+This article examines how educators teaching about justice and equity must model these values through vulnerability and self-reflection, openly discussing their mistakes and struggles regarding power, privilege, and oppression. The authors argue that this teacher positionality creates an environment where students feel safe engaging in critical reflection about their own relationships to issues of justice. Published 2019, the piece addresses professional development implications for educators working in equity-focused contexts.
+
+---
+
+---
+
+### 1175. Three Measures of Test Adaptation Based on Optimal Test Information
+
+```yaml
+url: "https://www.nwea.org/research/publication/three-measures-of-test-adaptation-based-on-optimal-test-information/"
+type: article
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [computer-assisted-learning, formative-assessment, learning-engineering]
+```
+
+This study introduces three new measures designed to evaluate test adaptation by analyzing the information provided to individual test-takers, offering theoretical, engineering, and operational perspectives on adaptation effectiveness. The measures were applied to adaptive, multistage, and fixed-form test simulations to compare their performance. Published 2020, the research contributes to the design and evaluation of computerized adaptive testing systems used in K–12 assessment.
+
+---
+
+---
+
+### 1176. Validating the SEDA Measures of District Educational Opportunities via a Common Assessment
+
+```yaml
+url: "https://www.nwea.org/research/publication/validating-the-seda-measures-of-district-educational-opportunities-via-a-common-assessment/"
+type: article
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [formative-assessment, k-12, longitudinal]
+```
+
+This convergent validity study compares growth estimates from the Stanford Educational Data Archive (SEDA) against NWEA MAP Growth assessments across grades 3–8, finding strong precision-adjusted correlations of .90 in math and .82 in ELA. The research demonstrates substantial agreement between the two measurement approaches for tracking district-level educational opportunities. Published 2019, the study provides evidence supporting the validity of using SEDA as a large-scale proxy for assessment-based growth measures.
+
+---
+
+---
+
+### 1177. A Posterior Predictive Model Checking Method Assuming Posterior Normality for Item Response Theory
+
+```yaml
+url: "https://www.nwea.org/research/publication/a-posterior-predictive-model-checking-method-assuming-posterior-normality-for-item-response-theory/"
+type: article
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [formative-assessment, learning-engineering]
+```
+
+This research investigates violations of local independence assumptions in unidimensional item response theory models and proposes a Bayesian posterior predictive model checking method (PPMC-N) that accounts for parameter uncertainty when evaluating local dependence. The method was estimated through full-information maximum likelihood and addresses a key challenge in ensuring the psychometric integrity of educational assessments. Published 2019, the study supports the technical validity of large-scale adaptive tests used in K–12 education.
+
+---
+
+---
+
+### 1178. The Influence of Rapidly Guessed Item Responses on Teacher Value-Added Estimates: Implications for Policy and Practice
+
+```yaml
+url: "https://www.nwea.org/research/publication/the-influence-of-rapidly-guessed-item-responses-on-teacher-value-added-estimates-implications-for-policy-and-practice/"
+type: article
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [formative-assessment, k-12]
+```
+
+This research examines whether students' low-effort test behaviors (rapid guessing) affect teacher evaluations through value-added estimates, finding that while rapid guessing varies across grades, subjects, and teachers, it did not substantially impact teacher performance assessments. Published 2018, the study provides reassurance to policymakers that teacher value-added models remain robust despite test disengagement. The authors recommend ongoing educator awareness of test effort issues when interpreting student achievement data.
+
+---
+
+---
+
+### 1179. Are Test and Academic Disengagement Related? Implications for Measurement and Practice
+
+```yaml
+url: "https://www.nwea.org/research/publication/are-test-and-academic-disengagement-related-implications-for-measurement-and-practice/"
+type: article
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [formative-assessment, k-12, sel]
+```
+
+This study examines the connection between academic disengagement behaviors (chronic absenteeism, course failures) and test disengagement behaviors (rapid guessing), exploring whether social-emotional factors including low self-efficacy and poor self-management serve as common underlying causes. Published 2018, the research suggests that schools should consider both behavioral and motivational dimensions when interpreting student assessment data. The findings have implications for integrating SEL supports with academic achievement monitoring.
+
+---
+
+---
+
+### 1180. Concurrent Validity of the Independent Reading Level Assessment Framework and a State Assessment
+
+```yaml
+url: "https://www.nwea.org/research/publication/concurrent-validity-of-the-independent-reading-level-assessment-framework-and-a-state-assessment/"
+type: article
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [formative-assessment, k-12, literacy, response-to-intervention]
+```
+
+This study examines the validity of the Independent Reading Level Assessment (IRLA) framework as a screening tool within Response to Intervention models, analyzing how effectively IRLA functions across different grade levels, programs, and demographic categories. Published in the Journal of At-Risk Issues (2016), the findings suggest IRLA may help bridge the gap between initial screening and providing intensive, systematic reading instruction. The research supports the use of IRLA as a diagnostic complement to state accountability assessments.
+
+---
+
+---
+
+### 1181. MAP Growth National Dashboard
+
+```yaml
+url: "https://www.nwea.org/research/publication/map-growth-national-dashboard/"
+type: report
+source: "NWEA Research"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-05-13
+doi: null
+license: null
+tags: [formative-assessment, k-12, open-datasets]
+```
+
+NWEA's MAP Growth National Dashboard provides timely trends and data on U.S. student academic achievement and growth for grades K–8, enabling district leaders, policymakers, and education stakeholders to contextualize local data within broader national and state frameworks. The complimentary public resource reveals areas of strength and highlights disparities across student populations, connecting real-time data to NWEA's 2025 MAP Growth Norms. Published 2025, the dashboard supports data-driven decision-making for pandemic recovery and ongoing accountability monitoring.
+
+---

@@ -1,0 +1,17 @@
+# Renaissance AI and Education Resource Hub — IEA
+
+> 11 entries from IEA.
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-iea.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 399. [TIMSS — Trends in International Mathematics and Science Study (Databases)](https://timssandpirls.bc.edu/databases-landing.html) | dataset | k-12, math-education, open-datasets
+- 400. [PIRLS 2021 — Progress in International Reading Literacy Study (International Database)](https://timssandpirls.bc.edu/pirls2021/international-database/) | dataset | k-12, literacy, open-datasets
+- 437. [International Civic and Citizenship Education Study (ICCS)](https://www.iea.nl/studies/iea/iccs) | dataset | k-12, longitudinal, open-datasets
+- 438. [International Computer and Information Literacy Study (ICILS)](https://www.iea.nl/studies/iea/icils) | dataset | digital-learning-platforms, k-12, longitudinal, open-datasets
+- 439. [Teacher Education and Development Study in Mathematics (TEDS-M)](https://www.iea.nl/data-tools/repository/tedsm) | dataset | math-education, open-datasets, professional-development
+- 440. [Responses to Educational Disruption Survey (REDS)](https://www.iea.nl/data-tools/repository/REDS) | dataset | k-12, longitudinal, open-datasets
+- 445. [Literacy and Numeracy Assessment (LaNA)](https://www.iea.nl/studies/iea/LaNA) | dataset | early-childhood, k-12, literacy, math-education, open-datasets
+- 446. [TIMSS Advanced](https://www.iea.nl/data-tools/repository/timssadvanced) | dataset | k-12, longitudinal, math-education, open-datasets
+- 447. [TIMSS Longitudinal](https://www.iea.nl/data-tools/repository/timsslongitudinal) | dataset | k-12, longitudinal, math-education, open-datasets
+- 448. [CIVED — Civic Education Study](https://www.iea.nl/data-tools/repository/cived) | dataset | k-12, open-datasets
+- 449. [IELS — International Early Learning and Child Well-being Study](https://www.iea.nl/studies/additional/IELS) | dataset | early-childhood, open-datasets

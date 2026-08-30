@@ -1,0 +1,23 @@
+# Renaissance AI and Education Resource Hub — Tools Competition
+
+> 17 entries from Tools Competition.
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-tools-competition.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+
+- 488. [Hunu (Craft Education)](https://crafteducation.io) | platform | early-childhood, inclusive-design, k-12, sel, tools-competition
+- 489. [Journify Learning](https://www.journify-learning.com) | platform | digital-learning-platforms, inclusive-design, k-12, personalized-learning, tools-competition
+- 490. [EdLight](https://www.edlight.com) | platform | automated-feedback, formative-assessment, k-12, math-education, tools-competition
+- 491. [Studio KSL Assessment (eKitabu)](https://ekitabu.com/ksl-assessment) | platform | inclusive-design, k-12, literacy, tools-competition
+- 493. [Sing and Speak 4 Kids](https://singandspeak4kids.com) | platform | early-childhood, inclusive-design, tools-competition
+- 494. [Nova Escola AI Agent for Literacy Teachers](https://novaescola.org.br) | platform | genai, k-12, literacy, llm-application, professional-development, tools-competition
+- 495. [Oral Reading Fluency (Wadhwani AI)](https://wadhwaniai.org/programs/oral-reading-fluency/) | platform | automated-feedback, k-12, literacy, personalized-learning, tools-competition
+- 496. [Corinth](https://corinth3d.com) | platform | digital-learning-platforms, k-12, tools-competition
+- 497. [Lazuli](https://lazuli.design) | platform | digital-learning-platforms, genai, higher-ed, learning-engineering, tools-competition
+- 498. [MyCoach AI](https://mycoachai.beyond12.org) | platform | college-access, genai, higher-ed, personalized-learning, tools-competition
+- 499. [SWBL (ProjectSet)](https://projectset.com) | platform | career-readiness, digital-learning-platforms, genai, higher-ed, tools-competition
+- 500. [Sway](https://swaybeta.ai) | platform | digital-learning-platforms, higher-ed, inclusive-design, tools-competition
+- 501. [CourseWise](https://coursewise.com) | platform | college-access, genai, higher-ed, llm-application, tools-competition
+- 502. [MentorAI](https://mentorpro.com/mentorai/) | platform | genai, higher-ed, llm-application, professional-development, tools-competition
+- 503. [Learner Profile for Personalized Learning](https://factors.world) | dataset | genai, k-12, llm-application, open-datasets, personalized-learning, tools-competition
+- 504. [BLAST Children Bilingual Speech Dataset](https://langinnov.com/blast) | dataset | inclusive-design, k-12, literacy, open-datasets, tools-competition
+- 505. [Kolibri Search Behavior Dataset](https://learningequality.org/kolibri/) | dataset | digital-learning-platforms, inclusive-design, k-12, open-datasets, tools-competition

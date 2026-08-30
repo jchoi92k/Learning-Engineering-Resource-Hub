@@ -54,11 +54,15 @@ EXCLUDE_REASONS = frozenset({
     "out_of_scope",
 })
 BROKEN_URL_RE = re.compile(r"^broken_url_\d{3}$")
+# process_staged.py writes type_filtered:<source type label> for items a
+# config's type_allow list set aside (kept so the scope call can be reversed).
+TYPE_FILTERED_RE = re.compile(r"^type_filtered:\S.*$")
 
 NOW_SQL = "strftime('%Y-%m-%dT%H:%M:%SZ', 'now')"
 SHOW_FIELDS = ("num", "title", "url", "type", "source", "date_added", "excluded", "exclude_reason",
                "description_source", "description_inferred", "url_status", "url_confirmed",
                "doi", "license", "created_at", "updated_at")
+OPTIONAL_FIELDS = ("source_subjects", "raw_item")   # present once process_staged has added them
 
 
 class CurateError(Exception):
@@ -87,7 +91,7 @@ def get_tags(conn, num):
 
 
 def valid_reason(reason):
-    return reason in EXCLUDE_REASONS or bool(BROKEN_URL_RE.match(reason))
+    return reason in EXCLUDE_REASONS or bool(BROKEN_URL_RE.match(reason)) or bool(TYPE_FILTERED_RE.match(reason))
 
 
 def parse_tags(spec):
@@ -121,7 +125,7 @@ def exclude_entry(conn, num, reason):
     """Mark an entry excluded. Returns True if the row changed."""
     if not valid_reason(reason):
         raise CurateError(f"unknown exclude reason '{reason}' — allowed: "
-                          + ", ".join(sorted(EXCLUDE_REASONS)) + ", broken_url_<status>")
+                          + ", ".join(sorted(EXCLUDE_REASONS)) + ", broken_url_<status>, type_filtered:<label>")
     row = get_entry(conn, num)
     if row["excluded"] and row["exclude_reason"] == reason:
         print(f"#{num} already excluded ({reason}); nothing to do")
@@ -201,6 +205,12 @@ def set_tags(conn, num, tags):
 def entry_view(conn, num):
     row = get_entry(conn, num)
     view = {k: row[k] for k in SHOW_FIELDS}
+    for k in OPTIONAL_FIELDS:
+        if k in row:
+            try:
+                view[k] = json.loads(row[k]) if row[k] else None
+            except ValueError:
+                view[k] = row[k]
     view["tags"] = get_tags(conn, num)
     view["description_chars"] = len(row["description"] or "")
     view["description"] = row["description"]
@@ -215,6 +225,11 @@ def show_entry(conn, num, as_json=False):
     for k in SHOW_FIELDS:
         print(f"{k:20s} {view[k]}")
     print(f"{'tags':20s} {', '.join(view['tags']) or '(none)'}")
+    if view.get("source_subjects"):
+        print(f"{'source_subjects':20s} {', '.join(view['source_subjects'])}")
+    if view.get("raw_item"):
+        keys = sorted(view["raw_item"]) if isinstance(view["raw_item"], dict) else []
+        print(f"{'raw_item':20s} ({len(keys)} fields: {', '.join(keys)})")
     print(f"{'description':20s} ({view['description_chars']} chars)")
     print(view["description"] or "")
 

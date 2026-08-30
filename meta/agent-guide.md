@@ -51,6 +51,7 @@ scripts/                       # all Python tooling
   scrape.py                   # config-driven scraper (reads sources/*.json)
   process_staged.py           # processes staged JSON into hub.db
   curate.py                   # single-entry edits (exclude / reactivate / set-description / set-tags)
+                              # scrape.py flags: --backfill (scan all pages, skip known URLs), --audit (request log check)
   verify_urls.py              # domain-aware URL verification
   source_check.py             # pre-flight source accessibility probe
   playwright_scrape.py        # legacy Playwright scraper (optional dependency; no current source needs it)

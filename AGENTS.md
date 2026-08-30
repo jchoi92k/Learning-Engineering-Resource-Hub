@@ -19,6 +19,7 @@ ruff check scripts/ tests/
 ```bash
 bash scripts/update.sh [--dry-run] [--sources "lpi wwc"]   # weekly wrapper: scrape → insert → verify new URLs → build → docs/staging/run-summary.md
 python scripts/scrape.py <source>            # one source; config in sources/<source>.json; output docs/staging/<source>.json
+python scripts/scrape.py <source> --backfill # catch-up: scan every page, still skip known URLs; --audit re-checks the request log
 python scripts/process_staged.py <source>    # insert staged items into hub.db (auto-tagging; backlog items become pending rows)
 python scripts/verify_urls.py --min-num N    # verify rows added this run (num > N)
 python scripts/build_from_db.py              # regenerate docs/ from hub.db; --check verifies docs/ match hub.db
@@ -30,7 +31,8 @@ python scripts/embed_corpus.py               # sync embeddings to Cloudflare Vec
 - **Descriptions come from the source.** Listing blurbs, page abstracts or meta descriptions — never written from a title alone. If a page cannot be fetched, drop the entry. Each row's `description_source` (`listing` / `page-meta` / `page-abstract` / `llm-summary` / `manual`) records which kind of text it holds; see `docs/schema.md`.
 - **Only scripts write `hub.db`.** Do not hand-edit `docs/` (it is regenerated) and do not edit `data/hub.db` outside `process_staged.py` / `verify_urls.py` / `curate.py` / a reviewed one-off script. `curate.py` is the tool for single-entry changes (exclude, reactivate, set-description, set-tags); it validates tags, description sources and exclude reasons and prints the before/after.
 - **UTF-8 everywhere**; always pass `encoding="utf-8"`.
-- **Throttle.** `scrape.py` and `verify_urls.py` already wait ≥ 5 s between requests and honour robots.txt `Crawl-delay`; do not add ad-hoc HTTP calls elsewhere.
+- **Throttle.** `scrape.py` and `verify_urls.py` already wait ≥ 5 s between requests and honour robots.txt `Crawl-delay`; do not add ad-hoc HTTP calls elsewhere. The clock persists per host across processes (`docs/staging/logs/last-request.json`). Every scrape run logs its requests to `docs/staging/logs/<source>-requests.log` and prints an audit (repeated URLs, smallest gap); a warning there means stop and look before running again.
+- **Keep what was fetched.** Rows store the full staged item (`raw_item`) and the publisher's topic labels (`source_subjects`); items a `type_allow` filter rejects become excluded rows (`type_filtered:<label>`), never dropped.
 - **Edit surface for automated runs:** `sources/*.json` (scraper configs) and, through the scripts, `hub.db` and `docs/`. Do not modify `scripts/`, `.github/`, `.claude/`, `AGENTS.md` or `CLAUDE.md` in an unattended run; propose those changes in the PR body instead.
 - **Never push to `main` or merge.** Automated runs open a pull request; a maintainer merges.
 - Run the tests before proposing a code change; run `build_from_db.py --check` before proposing a data change.

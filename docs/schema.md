@@ -88,6 +88,15 @@ Descriptions are **never** written from title alone. The following rules apply:
 | `page-meta` | Verbatim one-sentence teaser from the item page's meta description (e.g. Brookings) |
 | `page-abstract` | Verbatim abstract or opening text from the item page (e.g. NWEA, UChicago Consortium, CASEL `detail_fetch`; the May 2026 TNTP rows, restored to the full opening text in August 2026 except #683) |
 | `llm-summary` | Written by an agent from the fetched page: the May 2026 hand-indexed entries (other than Digital Promise and TNTP), and weekly-run upgrades of `page-meta` teasers. Labels were checked against site text on a per-source sample in August 2026. |
+
+### Database-only columns (not in the published files)
+
+`data/hub.db` keeps two columns that the published outputs do not carry yet:
+
+- `raw_item` — everything the scraper collected for the row, as staged (JSON): listing or API fields such as authors, date and the publisher's type label, evidence fields where a source provides them, and for detail-fetched pages the `page_meta` block (meta description, og:*, published time, canonical URL). Kept so later passes (tagging, type review, description upgrades) never need to fetch the page again. Rows inserted before 2026-08-31 have it only where a later re-scrape filled it.
+- `source_subjects` — the publisher's own topic labels for the item (JSON list), unmapped to the hub's tag vocabulary.
+
+Excluded rows with `exclude_reason = type_filtered:<label>` are items a source's `type_allow` filter set aside (for example Brookings commentary); they keep title, URL, blurb and `raw_item` and can be reactivated with `scripts/curate.py`.
 | `manual` | Written or edited by a maintainer |
 | `null` | Not recorded |
 

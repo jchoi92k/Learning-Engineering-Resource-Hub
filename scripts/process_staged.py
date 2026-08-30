@@ -150,10 +150,50 @@ KEYWORD_TAGS = [
 ]
 
 
+EXTRA_COLUMNS = {
+    # Everything the scraper collected for the row, as staged (JSON): listing
+    # fields, API extras, page_meta from a detail fetch. Kept so later passes
+    # (tagging, type review, description upgrades) never need a re-fetch.
+    "raw_item": "TEXT",
+    # The publisher's own topic labels for the item (JSON list), unmapped.
+    "source_subjects": "TEXT",
+}
+
+
+def ensure_columns(conn):
+    """Add any missing EXTRA_COLUMNS to entries (idempotent)."""
+    have = {r[1] for r in conn.execute("PRAGMA table_info(entries)")}
+    for col, typ in EXTRA_COLUMNS.items():
+        if col not in have:
+            conn.execute(f"ALTER TABLE entries ADD COLUMN {col} {typ}")
+
+
 def get_db():
     conn = sqlite3.connect(DB_PATH)
     conn.execute("PRAGMA foreign_keys=ON")
+    ensure_columns(conn)
     return conn
+
+
+def _raw_json(item):
+    return json.dumps(item, ensure_ascii=False, sort_keys=True)
+
+
+def _subjects_json(item):
+    tags = item.get("tags")
+    if isinstance(tags, list) and tags:
+        return json.dumps([str(t) for t in tags], ensure_ascii=False)
+    if isinstance(tags, str) and tags.strip():
+        return json.dumps([tags.strip()], ensure_ascii=False)
+    return None
+
+
+def _verified_fields(item):
+    """A detail fetch that returned 200 already proves the URL is live: record it
+    so verify_urls.py does not request the same page again."""
+    if item.get("fetched_status") == 200:
+        return ("verified", "200", item.get("fetched_at") or TODAY)
+    return ("unverified", None, None)
 
 
 def get_last_entry_num():
@@ -181,12 +221,48 @@ def insert_backlog_rows(conn, backlog_items, source_name, start_num):
             continue
         existing.add(url)
         title = (item.get("title") or "").strip() or url
+        url_status, http_status, verified_on = _verified_fields(item)
         conn.execute("""
             INSERT INTO entries (num, title, url, type, source, url_confirmed,
                 description_inferred, date_added, doi, license, description,
-                url_status, excluded, exclude_reason)
-            VALUES (?, ?, ?, ?, ?, 0, 0, ?, NULL, NULL, '', 'unverified', 1, ?)
-        """, (num, title, url, infer_type(item), source_name, TODAY, PENDING_REASON))
+                url_status, url_http_status, last_verified, excluded, exclude_reason,
+                raw_item, source_subjects)
+            VALUES (?, ?, ?, ?, ?, 0, 0, ?, NULL, NULL, '', ?, ?, ?, 1, ?, ?, ?)
+        """, (num, title, url, infer_type(item), source_name, TODAY, url_status, http_status,
+              verified_on, PENDING_REASON, _raw_json(item), _subjects_json(item)))
+        num += 1
+        inserted += 1
+    return inserted, num - 1
+
+
+def insert_filtered_rows(conn, filtered_items, source_name, start_num):
+    """Insert items the type filter set aside as excluded rows with reason
+    'type_filtered:<label>', keeping title, URL, any blurb and the raw item, so
+    the scope call can be reversed with curate.py reactivate. Returns
+    (inserted_count, last_num_used)."""
+    existing = {r[0] for r in conn.execute("SELECT url FROM entries")}
+    num = start_num
+    inserted = 0
+    for item in filtered_items:
+        url = (item.get("url") or "").strip()
+        if not url or url in existing:
+            continue
+        existing.add(url)
+        title = (item.get("title") or "").strip() or url
+        blurb = (item.get("blurb") or "").strip()
+        desc_source = item.get("blurb_source") if blurb else None
+        if desc_source not in DESCRIPTION_SOURCES:
+            desc_source = None
+        reason = item.get("filter_reason") or "type_filtered:unknown"
+        url_status, http_status, verified_on = _verified_fields(item)
+        conn.execute("""
+            INSERT INTO entries (num, title, url, type, source, url_confirmed,
+                description_inferred, date_added, doi, license, description,
+                url_status, url_http_status, last_verified, excluded, exclude_reason,
+                description_source, raw_item, source_subjects)
+            VALUES (?, ?, ?, ?, ?, 1, 0, ?, NULL, NULL, ?, ?, ?, ?, 1, ?, ?, ?, ?)
+        """, (num, title, url, infer_type(item), source_name, TODAY, blurb, url_status, http_status,
+              verified_on, reason, desc_source, _raw_json(item), _subjects_json(item)))
         num += 1
         inserted += 1
     return inserted, num - 1
@@ -207,13 +283,16 @@ def insert_items(conn, items, source_slug, source_name, start_num):
         desc_source = item.get("blurb_source")
         if desc_source not in DESCRIPTION_SOURCES:
             desc_source = None
+        url_status, http_status, verified_on = _verified_fields(item)
         conn.execute("""
             INSERT INTO entries (num, title, url, type, source, url_confirmed,
                 description_inferred, date_added, doi, license, description,
-                url_status, description_source)
-            VALUES (?, ?, ?, ?, ?, 1, 0, ?, NULL, NULL, ?, 'unverified', ?)
+                url_status, url_http_status, last_verified, description_source,
+                raw_item, source_subjects)
+            VALUES (?, ?, ?, ?, ?, 1, 0, ?, NULL, NULL, ?, ?, ?, ?, ?, ?, ?)
         """, (num, item["title"].strip(), item["url"].strip(), infer_type(item),
-              source_name, TODAY, blurb, desc_source))
+              source_name, TODAY, blurb, url_status, http_status, verified_on, desc_source,
+              _raw_json(item), _subjects_json(item)))
         for tag in infer_tags(item, source_slug):
             conn.execute("INSERT OR IGNORE INTO entry_tags (entry_num, tag) VALUES (?, ?)", (num, tag))
         inserted += 1
@@ -267,8 +346,9 @@ def main():
 
     items = data.get("items", [])
     backlog = data.get("backlog_items", [])
-    if not items and not backlog:
-        print("No ready or backlog items in staged file.")
+    filtered = data.get("filtered_items", [])
+    if not items and not backlog and not filtered:
+        print("No ready, backlog or filtered items in staged file.")
         return
 
     items = items[args.offset:]
@@ -322,12 +402,16 @@ def main():
     if pending:
         print(f"[process] Backlog: {pending} pending rows ({start_num + inserted}-{pending_end}) "
               f"inserted as excluded ({PENDING_REASON})")
+    filtered_n, filtered_end = insert_filtered_rows(conn, filtered, source_name, start_num + inserted + pending)
+    if filtered_n:
+        print(f"[process] Type filter: {filtered_n} rows ({start_num + inserted + pending}-{filtered_end}) "
+              f"inserted as excluded (type_filtered:<label>)")
     conn.commit()
     conn.close()
 
-    if inserted or pending:
+    if inserted or pending or filtered_n:
         print("[process] Next: run `python scripts/build_from_db.py`")
-        write_log(args.source, data, items, start_num, end_num, pending)
+        write_log(args.source, data, items, start_num, end_num, pending + filtered_n)
 
 
 def write_log(source, staged_data, items, start_num, end_num, pending=0):

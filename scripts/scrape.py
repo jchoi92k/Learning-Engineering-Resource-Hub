@@ -58,6 +58,88 @@ MIN_DELAY = 5  # hard floor: a config's request_delay cannot go below this
 _request_delay = DEFAULT_DELAY
 _last_fetch_time = 0
 BACKOFF_SCHEDULE = [5, 10, 20]  # seconds on 429/503, then give up
+
+# Every HTTP request a run makes is appended to docs/staging/logs/<source>-requests.log
+# (send time, method, status, URL) so a run can be audited for repeated URLs and
+# throttle violations. See audit_request_log() and `--audit`.
+LOGS_DIR = STAGING_DIR / "logs"
+_request_log_path = None
+_run_requests = []   # (sent_epoch, method, status, url, retry) for this process
+
+
+def _start_request_log(source):
+    global _request_log_path
+    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    _request_log_path = LOGS_DIR / f"{source}-requests.log"
+    with open(_request_log_path, "a", encoding="utf-8") as f:
+        f.write(f"# run {time.strftime('%Y-%m-%dT%H:%M:%S')} delay={_request_delay}s\n")
+
+
+def _record(url, status, method="get", sent=None, retry=False):
+    sent = sent if sent is not None else time.time()
+    _run_requests.append((sent, method, str(status), url, retry))
+    if _request_log_path:
+        with open(_request_log_path, "a", encoding="utf-8") as f:
+            f.write(f"{sent:.3f}\t{method}\t{status}\t{'retry' if retry else '-'}\t{url}\n")
+
+
+def audit_request_log(requests_list, expected_delay):
+    """Check a list of (sent, method, status, url, retry) tuples: any URL requested
+    more than once (retries after 429/503 excepted), and the smallest gap between
+    consecutive send times against the expected delay. Returns a dict."""
+    from collections import Counter
+    from urllib.parse import urlsplit
+    reqs = sorted(requests_list, key=lambda r: r[0])
+    urls = Counter(r[3] for r in reqs if not r[4])
+    repeated = {u: n for u, n in urls.items() if n > 1}
+    gaps = [b[0] - a[0] for a, b in zip(reqs, reqs[1:])]
+    by_host = {}
+    for r in reqs:
+        by_host.setdefault(urlsplit(r[3]).netloc, []).append(r[0])
+    host_gaps = {h: min((b - a for a, b in zip(t, t[1:])), default=None) for h, t in by_host.items()}
+    tolerance = 0.25
+    return {
+        "requests": len(reqs),
+        "unique_urls": len(urls),
+        "repeated": repeated,
+        "retries": sum(1 for r in reqs if r[4]),
+        "statuses": dict(Counter(r[2] for r in reqs)),
+        "min_gap": min(gaps) if gaps else None,
+        "min_gap_by_host": host_gaps,
+        "throttle_ok": all(g >= expected_delay - tolerance for g in gaps),
+        "duplicates_ok": not repeated,
+    }
+
+
+def read_request_log(path, last_run_only=True):
+    """Parse a -requests.log file into audit tuples. Runs are separated by
+    "# run ..." header lines; by default only the most recent run is returned."""
+    runs = [[]]
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            if line.startswith("# run"):
+                runs.append([])
+                continue
+            if line.startswith("#") or not line.strip():
+                continue
+            sent, method, status, retry, url = line.rstrip("\n").split("\t", 4)
+            runs[-1].append((float(sent), method, status, url, retry == "retry"))
+    runs = [r for r in runs if r]
+    if not runs:
+        return []
+    return runs[-1] if last_run_only else [r for run in runs for r in run]
+
+
+def print_request_audit(audit, expected_delay):
+    print(f"[scrape] Request audit: {audit['requests']} requests, {audit['unique_urls']} unique URLs, "
+          f"{audit['retries']} retries, statuses {audit['statuses']}, "
+          f"min gap {audit['min_gap']:.2f}s (expected >= {expected_delay}s)" if audit["min_gap"] is not None
+          else f"[scrape] Request audit: {audit['requests']} request(s)")
+    if not audit["duplicates_ok"]:
+        print(f"[scrape] WARNING: URLs requested more than once: {audit['repeated']}", file=sys.stderr)
+    if not audit["throttle_ok"]:
+        print("[scrape] WARNING: throttle violated — a gap between requests was shorter than the delay",
+              file=sys.stderr)
 # Early-stop: stop paginating once a page shows this many already-indexed URLs.
 # Valid only for listings the config declares newest-first ("early_stop": true);
 # with sparse coverage or unknown ordering it silently skips new items.
@@ -106,8 +188,9 @@ def check_robots(config):
     if not url:
         return True
     try:
-        _throttle()  # robots.txt is a request to the host too: start the clock
+        _throttle(url)  # robots.txt is a request to the host too: start the clock
         r = SESSION.get(url, timeout=15)
+        _record(url, r.status_code, "get", sent=_last_fetch_time)
         if r.status_code != 200:
             print(f"  Warning: robots.txt returned {r.status_code}")
             return True
@@ -128,13 +211,55 @@ def check_robots(config):
         return True
 
 
-def _throttle():
-    """Wait to respect the request delay between fetches."""
+LAST_REQUEST_FILE = STAGING_DIR / "logs" / "last-request.json"
+
+
+def _host(url):
+    from urllib.parse import urlsplit
+    return urlsplit(url).netloc.lower() if url else ""
+
+
+def _load_last_request(host):
+    """Send time of the last request this machine made to `host`, from any
+    process (the in-memory clock only covers this process)."""
+    try:
+        with open(LAST_REQUEST_FILE, encoding="utf-8") as f:
+            return float(json.load(f).get(host, 0))
+    except (OSError, ValueError):
+        return 0.0
+
+
+def _save_last_request(host, when):
+    try:
+        LAST_REQUEST_FILE.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with open(LAST_REQUEST_FILE, encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, ValueError):
+            data = {}
+        data[host] = when
+        with open(LAST_REQUEST_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f)
+    except OSError:
+        pass
+
+
+def _throttle(url=None):
+    """Wait to respect the request delay between fetches. The clock is kept in
+    memory for this process and, per host, on disk — so a second invocation
+    right after the first (a --test then a run, or two configs on one host)
+    still waits the full delay."""
     global _last_fetch_time
-    elapsed = time.time() - _last_fetch_time
-    if _last_fetch_time > 0 and elapsed < _request_delay:
+    last = _last_fetch_time
+    host = _host(url)
+    if host:
+        last = max(last, _load_last_request(host))
+    elapsed = time.time() - last
+    if last > 0 and elapsed < _request_delay:
         time.sleep(_request_delay - elapsed)
     _last_fetch_time = time.time()
+    if host:
+        _save_last_request(host, _last_fetch_time)
 
 
 def _handle_rate_limit(status_code, url, method="get", request_kwargs=None):
@@ -149,7 +274,9 @@ def _handle_rate_limit(status_code, url, method="get", request_kwargs=None):
         time.sleep(wait)
         try:
             _last_fetch_time = time.time()  # the retry is a request too: restart the clock
+            _save_last_request(_host(url), _last_fetch_time)
             r = SESSION.request(method, url, timeout=30, **request_kwargs)
+            _record(url, r.status_code, method, sent=_last_fetch_time, retry=True)
             if r.status_code == 200:
                 return r
             if r.status_code not in (429, 503):
@@ -164,9 +291,11 @@ def _handle_rate_limit(status_code, url, method="get", request_kwargs=None):
 def fetch(url, **kwargs):
     """Fetch a URL with throttling, backoff on 429/503, and failure tracking."""
     global CONSECUTIVE_FAILURES
-    _throttle()
+    _throttle(url)
+    sent = _last_fetch_time
     try:
         r = SESSION.get(url, timeout=30, **kwargs)
+        _record(url, r.status_code, "get", sent=sent)
         if r.status_code == 200:
             CONSECUTIVE_FAILURES = 0
             return r
@@ -181,6 +310,7 @@ def fetch(url, **kwargs):
             print(f"  {MAX_CONSECUTIVE_FAILURES} consecutive failures — stopping.", file=sys.stderr)
         return None
     except Exception as e:
+        _record(url, "ERR", sent=sent)
         CONSECUTIVE_FAILURES += 1
         print(f"  Fetch error: {e} — {url}", file=sys.stderr)
         if CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
@@ -191,9 +321,11 @@ def fetch(url, **kwargs):
 def fetch_post(url, headers=None, json_body=None):
     """POST request for API sources, with throttling and backoff."""
     global CONSECUTIVE_FAILURES
-    _throttle()
+    _throttle(url)
+    sent = _last_fetch_time
     try:
         r = SESSION.post(url, headers=headers, json=json_body, timeout=30)
+        _record(url, r.status_code, "post", sent=sent)
         if r.status_code == 200:
             CONSECUTIVE_FAILURES = 0
             return r
@@ -207,6 +339,7 @@ def fetch_post(url, headers=None, json_body=None):
         print(f"  HTTP {r.status_code}: {url}", file=sys.stderr)
         return None
     except Exception as e:
+        _record(url, "ERR", sent=sent)
         CONSECUTIVE_FAILURES += 1
         print(f"  Fetch error: {e} — {url}", file=sys.stderr)
         return None
@@ -794,6 +927,13 @@ def fetch_detail_descriptions(items, config, source):
     gets blurb_source = the config's description_source ('page-meta' for a
     one-sentence teaser, 'page-abstract' for a full abstract); without it,
     meta tags count as page-meta and anything else as page-abstract.
+
+    Optional "extra_fields": {"type": {"selector": ..., "attr": ...}, ...}
+    fills other item fields from the same page (a page-only publication type,
+    a date). Every fetched page also yields item["page_meta"] (common meta
+    tags: description, og:*, article:published_time, canonical) and
+    item["fetched_status"] / item["fetched_at"], so the row records that the
+    URL was live and what the page said, without a second request later.
     """
     detail = config.get("detail_fetch")
     if not detail:
@@ -824,6 +964,15 @@ def fetch_detail_descriptions(items, config, source):
         r = fetch(item["url"])
         if r:
             soup = BeautifulSoup(r.text, "html.parser")
+            items[i]["fetched_status"] = getattr(r, "status_code", None)
+            items[i]["fetched_at"] = time.strftime("%Y-%m-%d")
+            items[i]["page_meta"] = extract_page_meta(soup)
+            for field, spec in (detail.get("extra_fields") or {}).items():
+                fel = soup.select_one(spec["selector"])
+                if fel:
+                    val = clean_text(fel.get(spec.get("attr")) if spec.get("attr") else fel.get_text(" ", strip=True))
+                    if val:
+                        items[i][field] = val
             el = soup.select_one(selector)
             if el:
                 desc = clean_text(el.get(attr) if attr else el.get_text(" ", strip=True))
@@ -837,6 +986,55 @@ def fetch_detail_descriptions(items, config, source):
         _save_progress(source, items)
 
     return items
+
+
+PAGE_META_TAGS = {
+    "description": "meta[name='description']",
+    "og:title": "meta[property='og:title']",
+    "og:description": "meta[property='og:description']",
+    "og:type": "meta[property='og:type']",
+    "article:published_time": "meta[property='article:published_time']",
+    "citation_title": "meta[name='citation_title']",
+    "citation_publication_date": "meta[name='citation_publication_date']",
+    "citation_doi": "meta[name='citation_doi']",
+    "dc.date": "meta[name='dc.date' i]",
+}
+
+
+def extract_page_meta(soup):
+    """Common page-level metadata worth keeping from a detail fetch."""
+    meta = {}
+    for key, sel in PAGE_META_TAGS.items():
+        el = soup.select_one(sel)
+        if el and el.get("content"):
+            meta[key] = clean_text(el.get("content"))
+    canon = soup.select_one("link[rel='canonical']")
+    if canon and canon.get("href"):
+        meta["canonical"] = canon.get("href").strip()
+    t = soup.find("title")
+    if t and t.get_text(strip=True):
+        meta["title"] = clean_text(t.get_text(" ", strip=True))
+    return meta
+
+
+def apply_type_filter(items, config):
+    """Split items by the config's "type_allow" list (source type labels,
+    case-insensitive). Items with no type yet are kept — a later detail fetch
+    may supply one. Rejected items carry filter_reason = "type_filtered:<label>"
+    and are staged (not dropped) so the call can be reversed without re-scraping."""
+    allow = config.get("type_allow")
+    if not allow:
+        return items, []
+    allowed = {a.strip().lower() for a in allow}
+    kept, filtered = [], []
+    for item in items:
+        label = (item.get("type") or "").strip()
+        if not label or label.lower() in allowed:
+            kept.append(item)
+        else:
+            item["filter_reason"] = f"type_filtered:{label}"
+            filtered.append(item)
+    return kept, filtered
 
 
 # ── Main ──
@@ -883,6 +1081,10 @@ def main():
     parser.add_argument("--pages", type=int, default=None, help="Limit pagination to N pages")
     parser.add_argument("--test", action="store_true", help="Test selectors against one page")
     parser.add_argument("--no-diff", action="store_true", help="Skip diff — include already-indexed items")
+    parser.add_argument("--backfill", action="store_true",
+                        help="Scan every page (early-stop off) but still skip already-indexed URLs; use with --pages for a bounded catch-up")
+    parser.add_argument("--audit", action="store_true",
+                        help="Print the request audit (repeated URLs, throttle gaps) for this source's request log and exit; no fetching")
     parser.add_argument("--stdout", action="store_true", help="Output to stdout instead of file")
     parser.add_argument("--fresh", action="store_true", help="Ignore progress file, start from scratch")
     args = parser.parse_args()
@@ -897,6 +1099,15 @@ def main():
 
     print(f"[scrape] Source: {source} ({discovery}, {_request_delay}s delay)")
 
+    if args.audit:
+        log_path = LOGS_DIR / f"{source}-requests.log"
+        if not log_path.exists():
+            print(f"[scrape] No request log at {log_path}")
+            sys.exit(1)
+        print_request_audit(audit_request_log(read_request_log(log_path), _request_delay), _request_delay)
+        sys.exit(0)
+
+    _start_request_log(source)
     check_robots(config)
 
     if args.test:
@@ -911,18 +1122,21 @@ def main():
         already_done = sum(1 for i in items if len(i.get("blurb", "")) >= MIN_BLURB_LENGTH)
         print(f"[scrape] RESUMING from progress file: {len(items)} items, {already_done} with descriptions")
     else:
-        # Known URLs drive both early-stop during pagination and the post-scrape diff
+        # Known URLs drive both early-stop during pagination and the post-scrape diff.
+        # --backfill keeps the diff (known pages are never re-fetched) but turns
+        # early-stop off so every listing page up to --pages is scanned.
         existing = None if args.no_diff else load_existing_urls()
+        stop_urls = None if args.backfill else existing
 
         # Run scrape
         if discovery == "sitemap":
             items = scrape_sitemap(config, args.pages)
         elif discovery == "pagination":
-            items = scrape_pagination(config, args.pages, existing_urls=existing)
+            items = scrape_pagination(config, args.pages, existing_urls=stop_urls)
         elif discovery == "single_page":
             items = scrape_single_page(config, args.pages)
         elif discovery == "api":
-            items = scrape_api(config, args.pages, existing_urls=existing)
+            items = scrape_api(config, args.pages, existing_urls=stop_urls)
         else:
             print(f"Error: unknown discovery type '{discovery}'", file=sys.stderr)
             sys.exit(1)
@@ -953,9 +1167,19 @@ def main():
         if item.get("blurb") and not item.get("blurb_source"):
             item["blurb_source"] = "listing"
 
+    # Type filter, pass 1: items whose listing type is out of scope are set
+    # aside before any page is fetched for them.
+    items, filtered = apply_type_filter(items, config)
+
     # Detail fetch: fill in descriptions from individual pages if configured
     if config.get("detail_fetch"):
         items = fetch_detail_descriptions(items, config, source)
+
+    # Type filter, pass 2: types that only the page supplied (extra_fields)
+    items, filtered_late = apply_type_filter(items, config)
+    filtered.extend(filtered_late)
+    if filtered:
+        print(f"[scrape] Type filter: {len(filtered)} items set aside (kept in staging as filtered_items)")
 
     # Split by blurb quality
     ready, backlog = split_by_blurb(items)
@@ -974,13 +1198,12 @@ def main():
         "total_ready": len(ready),
         "total_backlog": len(backlog),
         "items": ready,
-        # Backlog items travel with the staging file so process_staged.py can
-        # record them as pending rows (dedup + honest "new" counts next run).
-        "backlog_items": [
-            {"title": i.get("title", ""), "url": i["url"], "type": i.get("type", ""),
-             "reason": i.get("backlog_reason", "")}
-            for i in backlog
-        ],
+        # Backlog and filtered items travel with the staging file, as full
+        # item dicts, so process_staged.py can record them as excluded rows
+        # (dedup, honest "new" counts, and nothing fetched is thrown away).
+        "backlog_items": [dict(i, reason=i.get("backlog_reason", "")) for i in backlog],
+        "total_filtered": len(filtered),
+        "filtered_items": filtered,
     }
 
     if args.stdout:
@@ -991,6 +1214,9 @@ def main():
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
         print(f"[scrape] Written to {out_path}")
+
+    if _run_requests:
+        print_request_audit(audit_request_log(_run_requests, _request_delay), _request_delay)
 
 
 if __name__ == "__main__":

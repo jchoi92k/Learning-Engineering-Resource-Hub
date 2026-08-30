@@ -314,7 +314,7 @@ CREATE TABLE entries (
     license TEXT, description TEXT NOT NULL DEFAULT '', url_status TEXT NOT NULL DEFAULT 'unverified',
     url_http_status TEXT, last_verified TEXT, excluded INTEGER NOT NULL DEFAULT 0,
     exclude_reason TEXT, created_at TEXT NOT NULL DEFAULT '', updated_at TEXT NOT NULL DEFAULT '',
-    description_source TEXT
+    description_source TEXT, raw_item TEXT, source_subjects TEXT
 );
 CREATE TABLE entry_tags (entry_num INTEGER, tag TEXT, PRIMARY KEY (entry_num, tag));
 """

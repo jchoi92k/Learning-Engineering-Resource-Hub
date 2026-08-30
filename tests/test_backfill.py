@@ -275,3 +275,12 @@ def test_scrape_api_stops_after_short_page(monkeypatch):
     items = scrape.scrape_api(cfg)
     assert calls == [1, 2], "stopped after the short page instead of running to the cap"
     assert len(items) == 4
+
+
+def test_extract_page_text_honours_selector():
+    from bs4 import BeautifulSoup
+    import scrape
+    html = "<html><body><nav>Menu</nav><div class='txtcol'><h4>Description</h4><p>The abstract.</p></div><div>Elsewhere</div></body></html>"
+    soup = BeautifulSoup(html, "html.parser")
+    assert scrape.extract_page_text(soup, selector="div.txtcol") == "Description The abstract."
+    assert scrape.extract_page_text(soup, selector="div.missing") == "Menu Description The abstract. Elsewhere".replace("Menu ", "")

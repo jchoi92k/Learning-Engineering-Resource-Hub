@@ -75,3 +75,10 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 0 entries (5555-5554)
 - Backlog rows recorded as pending (excluded): 1
 - Tags: keyword auto-tagged
+
+## 2026-08-30 - UChicago Consortium on School Research
+- Source slug: `uchicago-consortium`
+- Scraped: 292 total, 289 ready, 3 backlog
+- Processed: 289 entries (5556-5844)
+- Backlog rows recorded as pending (excluded): 3
+- Tags: keyword auto-tagged

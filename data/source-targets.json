@@ -25,7 +25,7 @@
     "discovery_url": "https://consortium.uchicago.edu/publications",
     "sample_url": "https://consortium.uchicago.edu/publications/5Essentials-2026-malleability-and-student-groups",
     "discovery_check": "publication",
-    "notes": "319 publications. 31 indexed (May 2026 hand pass). Config: sources/uchicago-consortium.json (detail_fetch for og:description abstracts). In the weekly source list."
+    "notes": "319 publications. 320 indexed after the 2026-08-30 backfill (31 from the May 2026 hand pass); 3 pending rows without a page abstract. Config: sources/uchicago-consortium.json (detail_fetch for og:description abstracts). In the weekly source list."
   },
   "Evidence for ESSA": {
     "known_total": 1297,

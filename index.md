@@ -4,7 +4,7 @@
 
 The hub is a **referatory** — a curated index of evidence-based K-12, higher-education, and learning-engineering resources, hosted at GitHub Pages and consumable by both humans and LLM agents (via `llms.txt` and an MCP server). It does not store source content; it stores metadata + descriptions and links out.
 
-**Current state:** 2,395 published entries across 20+ sources (WWC, Mathematica, LPI, Digital Promise, Evidence for ESSA, NWEA, Campbell, AIMS, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `data/source-targets.json`.
+**Current state:** 2,684 published entries across 20+ sources (WWC, Mathematica, LPI, Digital Promise, Evidence for ESSA, NWEA, Campbell, AIMS, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `data/source-targets.json`.
 
 ---
 

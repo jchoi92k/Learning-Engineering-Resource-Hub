@@ -5,6 +5,7 @@
 - **Method:** Paginated HTML listing
 - **URL:** `https://consortium.uchicago.edu/publications?page={N}` (pages 0–31+, 10 items/page, newest first)
 - **Total:** 319 publications confirmed
+- **Indexed:** 320 after the 2026-08-30 backfill (`scrape.py uchicago-consortium --backfill --pages 40`: 32 listing pages + 292 page fetches, 327 requests, every URL once, 5 s gaps; 289 inserted with page abstracts, 3 pending with no abstract on the page). Weekly runs pick up new items from here.
 - **Platform:** Drupal, server-rendered — no JS required
 - **No sitemap** (returns 404). No API (Drupal JSON:API disabled).
 

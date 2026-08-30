@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub — UChicago Consortium on School Research
 
-> 31 entries from UChicago Consortium on School Research.
+> 320 entries from UChicago Consortium on School Research.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-uchicago-consortium-on-school-research.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
@@ -35,3 +35,292 @@
 - 980. [Family Playbook: How Can We Understand Students' Progress in School?](https://consortium.uchicago.edu/publications/family-playbook-how-can-we-understand-students-progress-in-school) | report | attendance, college-access, formative-assessment, k-12
 - 981. [Family Playbook: School Suspensions, Discipline and Restorative Justice](https://consortium.uchicago.edu/publications/family-playbook-school-suspensions-discipline-restorative-justice) | report | k-12, school-discipline, sel, student-belonging
 - 1046. [CCSR: A New Model for the Role of Research in Supporting Urban School Reform](https://consortium.uchicago.edu/publications/ccsr-new-model-role-research-supporting-urban-school-reform) | report | k-12, longitudinal, professional-development
+- 5556. [Classroom Composition Affects Teacher Performance Ratings](https://consortium.uchicago.edu/publications/classroom-composition-affects-teacher-performance-ratings) | paper | sel, writing-instruction
+- 5557. [Infographic: Adopting and Adapting](https://consortium.uchicago.edu/publications/infographic-adopting-and-adapting) | report | literacy
+- 5558. [Family Playbook: Centering Student Voice and Experience](https://consortium.uchicago.edu/publications/family-playbook-centering-student-voice-and-experience) | framework | 
+- 5559. [Change That Matters](https://consortium.uchicago.edu/publications/change-that-matters) | paper | 
+- 5560. [Q&A: Grades & Test Scores](https://consortium.uchicago.edu/publications/q-a-gpa-and-test-scores) | report | 
+- 5561. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2022) | report | college-access, dropout-prevention, math-education
+- 5562. [Forced to Choose](https://consortium.uchicago.edu/publications/forced-to-choose) | paper | inclusive-design
+- 5563. [Moving the Needle on Bullying and Educational Outcomes](https://consortium.uchicago.edu/publications/moving-the-needle-on-bullying-and-educational-outcomes) | report | attendance, dropout-prevention
+- 5564. [Is the Best Teacher the Best for Everyone?](https://consortium.uchicago.edu/publications/is-the-best-teacher-the-best-for-everyone) | report | college-access, professional-development, sel
+- 5565. [Beyond the Student](https://consortium.uchicago.edu/publications/beyond-the-student) | report | dropout-prevention, learning-engineering, sel
+- 5566. [Training and Retaining Effective School Leaders](https://consortium.uchicago.edu/publications/training-retaining-effective-school-leaders) | report | professional-development
+- 5567. [Local Success in the Standards Era](https://consortium.uchicago.edu/publications/local-success-in-the-standards-era) | paper | 
+- 5568. [Lasting Differences](https://consortium.uchicago.edu/publications/lasting-differences) | report | math-education
+- 5569. [How a City Learned to Improve Its Schools](https://consortium.uchicago.edu/publications/how-a-city-learned-to-improve-its-schools) | report | 
+- 5570. [Investing in Adolescents](https://consortium.uchicago.edu/publications/investing-in-adolescents) | report | 
+- 5571. [Exploring Chicago Connected](https://consortium.uchicago.edu/publications/exploring-chicago-connected) | report | computer-assisted-learning, literacy
+- 5572. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/the-educational-attainment-of-chicago-public-schools-students-2021) | report | college-access, dropout-prevention, math-education
+- 5573. [Chicago Public School Principals' Prior Experiences](https://consortium.uchicago.edu/publications/Chicago-Public-School-principals-prior-experiences) | report | career-readiness, college-access
+- 5574. [Learning Conditions Are an Actionable, Early Indicator of Math Learning](https://consortium.uchicago.edu/publication/learning-conditions-are-an-actionable-early-indicator-of-math-learning) | report | learning-engineering, math-education
+- 5575. [Elementary On-Track](https://consortium.uchicago.edu/publications/elementary-on-track) | report | attendance, college-access
+- 5576. [Student Engagement in Learning during COVID-19](https://consortium.uchicago.edu/publications/student-engagement-in-learning-during-COVID-19) | report | attendance, computer-assisted-learning, english-learners, literacy
+- 5577. [Standards-Driven Instructional Improvement](https://consortium.uchicago.edu/publications/standards-driven-instructional-improvement) | report | career-readiness, college-access, math-education
+- 5578. [Reaching for Improvement](https://consortium.uchicago.edu/publications-reaching-for-improvement) | report | 
+- 5579. [Improving School-Family Communication and Engagement](https://consortium.uchicago.edu/publications/improving-school-family-communication-and-engagement) | report | 
+- 5580. [Supporting Change in Instructional Practices to Meet the Common Core Mathematics and Next Generation Science Standards](https://consortium.uchicago.edu/publications/supporting-change-in-instructional-practices-to-meet-the-Common-Core-Mathematics-and-Next-Generation-Science-Standards) | paper | k-12, math-education
+- 5581. [Meeting Families' Needs](https://consortium.uchicago.edu/publications/meeting-families-needs) | report | attendance, early-childhood
+- 5582. [CPS Gradebook Technical Report](https://consortium.uchicago.edu/publications/CPS-gradebook-technical-report) | report | math-education
+- 5583. [How Strong Principals Succeed](https://consortium.uchicago.edu/publications/how-strong-principals-succeed) | paper | sel
+- 5584. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2020) | report | college-access
+- 5585. [5Essentials Survey in CPS](https://consortium.uchicago.edu/publications/5Essentials-survey-in-CPS-2021) | report | attendance, college-access
+- 5586. [Approaching Chicago Student Attainment from a Community Perspective](https://consortium.uchicago.edu/publications/approaching-chicago-student-attainment-from-a-community-perspective) | report | college-access
+- 5587. [The Information Content of Employee Awards](https://consortium.uchicago.edu/publications/the-information-content-of-employee-awards) | paper | personalized-learning
+- 5588. [English Learners in Chicago Public Schools](https://consortium.uchicago.edu/publications/English-learners-in-Chicago-Public-Schools-an-exploration-of-the-influence-of-pre-K) | report | early-childhood, english-learners, sel
+- 5589. [The Preventable Failure](https://consortium.uchicago.edu/publications/the-preventable-failure) | paper | attendance, dropout-prevention, learning-engineering
+- 5590. [Student Experience with the High School Choice Process in Chicago Public Schools](https://consortium.uchicago.edu/publications/student-experience-with-the-high-school-choice-process-in-Chicago-Public-Schools) | report | computer-assisted-learning
+- 5591. [A Path to Equity](https://consortium.uchicago.edu/publications/a-path-to-equity) | report | college-access, early-childhood, literacy, math-education
+- 5592. [Scaling Standards-Aligned Instruction through Teacher Leadership](https://consortium.uchicago.edu/publications/scaling-standards-aligned-instruction-through-teacher-leadership) | paper | career-readiness, college-access, math-education
+- 5593. [Navigating the Maze](https://consortium.uchicago.edu/publications/navigating-the-maze) | report | college-access
+- 5594. [College During the Pandemic](https://consortium.uchicago.edu/publications/college-during-the-pandemic) | report | college-access
+- 5595. [Improvements in Math Instruction and Student Achievement Through Professional Learning Around the Common Core State Standards in Chicago](https://consortium.uchicago.edu/publications/improvements-in-math-instruction-and-student-achievement-through-professional-learning-around-the-common-core-state-standards-in-chicago) | paper | math-education
+- 5596. [Consortium Research Agenda 2021-25](https://consortium.uchicago.edu/publications/Consortium-Research-Agenda-2021-25) | paper | 
+- 5597. [Principal Leadership Practices, Organizational Improvement, and Student Achievement](https://consortium.uchicago.edu/publications/principal-leadership-practices-organizational-improvement-and-student-achievement) | report | sel
+- 5598. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2019) | report | college-access
+- 5599. [Tracking Two-Year College Outcomes](https://consortium.uchicago.edu/publications/tracking-two-year-college-outcomes) | report | college-access
+- 5600. [Supporting Neighborhood Schools from Pre-K through High School](https://consortium.uchicago.edu/publications/supporting-neighborhood-schools-from-pre-k-through-high-school) | report | attendance, early-childhood, formative-assessment, writing-instruction
+- 5601. [Early Warning Indicators in Education](https://consortium.uchicago.edu/publications/early-warning-indicators-in-education) | paper | 
+- 5602. [Measure Learning Environments, Not Just Students, to Support Learning and Development](https://consortium.uchicago.edu/publications/measuring-learning-environments-not-just-students-to-support-learning-and-development) | paper | 
+- 5603. [Linking Social-Emotional Learning to Long-Term Success](https://consortium.uchicago.edu/publications/linking-social-emotional-learning-to-long-term-success) | paper | attendance, college-access, formative-assessment, sel
+- 5604. [Closer to Home](https://consortium.uchicago.edu/publications/closer-to-home) | report | early-childhood
+- 5605. [A New Method for Describing Chicago Neighborhoods](https://consortium.uchicago.edu/publications/a-new-method-for-describing-Chicago-neighborhoods) | report | learning-engineering, sel
+- 5606. [Increasing Access to Selective High Schools through Place-Based Affirmative Action](https://consortium.uchicago.edu/publications/increasing-access-to-selective-high-schools-through-place-based-affirmative-action) | paper | college-access
+- 5607. [The Forgotten Year](https://consortium.uchicago.edu/publications/the-forgotten-year) | report | 
+- 5608. [Supporting School Improvement](https://consortium.uchicago.edu/publications/supporting-school-improvement) | report | attendance, college-access, literacy, math-education
+- 5609. [Trends in Computer Science Education](https://consortium.uchicago.edu/publications/trends-in-computer-science-education) | report | computer-assisted-learning, k-12
+- 5610. [School Practices to Address Student Learning Loss](https://consortium.uchicago.edu/publications/school-practices-to-address-student-learning-loss) | report | college-access, response-to-intervention
+- 5611. [Expanding Visions of Success in Mathematics for Marginalized Students](https://consortium.uchicago.edu/publications/expanding-visions-of-success-in-mathematics-for-marginalized-students) | report | career-readiness, inclusive-design, math-education
+- 5612. [Teacher Evaluation in Chicago Public Schools](https://consortium.uchicago.edu/publications/teacher-evaluation-in-CPS-REACH-five-years-in) | report | 
+- 5613. [School Effects on Socio-emotional Development, School-Based Arrests, and Educational Attainment](https://consortium.uchicago.edu/publications/school-effects-on-socio-emotional-development-school-based-arrests-and-educational-attainment) | paper | attendance, college-access, formative-assessment, math-education, sel
+- 5614. [High School GPAs and ACT Scores as Predictors of College Completion](https://consortium.uchicago.edu/publications/high-school-GPAs-and-ACT-scores-as-predictors-of-college-completion-er-article) | paper | college-access
+- 5615. [How Arts Education Supports Social-Emotional Development](https://consortium.uchicago.edu/publications/how-arts-education-supports-social-emotional-development) | paper | college-access, sel
+- 5616. [English Learners in Chicago Public Schools](https://consortium.uchicago.edu/publications/English-learners-in-Chicago-public-schools) | report | english-learners
+- 5617. [Relational trust in Valparaíso, Chile and Illinois schools](https://consortium.uchicago.edu/publications/relational-trust-in-Valpara%C3%ADso-Chile-and-Illinois-schools) | paper | 
+- 5618. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/the-educationa-attainment-of-chicago-public-schools-students-2018) | report | 
+- 5619. [Do Classroom Environments Matter for Noncognitive Aspects of Student Performance and Students' Course Grades?](https://consortium.uchicago.edu/publications/do-classroom-environments-matter-for-noncognitive-aspects-of-student-performance-and-students-course-grades) | paper | 
+- 5620. [Linking Principal Leadership to Organizational Growth and Student Achievement](https://consortium.uchicago.edu/publications/linking-principal-leadership-to-organizational-growth-and-student-achievement) | paper | 
+- 5621. [High School GPAs and ACT Scores as Predictors of College Completion](https://consortium.uchicago.edu/publications/high-school-GPAs-and-ACT-scores-as-predictors-of-college-completion) | paper | college-access
+- 5622. [Ten Criteria for Describing and Selecting SEL Frameworks](https://consortium.uchicago.edu/publications/ten-criteria-for-describing-and-selecting-SEL-frameworks) | report | early-childhood, formative-assessment, sel
+- 5623. [Arts Education and Social-Emotional Learning Outcomes Among K-12 Students](https://consortium.uchicago.edu/publications/arts-education-and-social-emotional-learning-outcomes) | report | sel
+- 5624. [GoCPS](https://consortium.uchicago.edu/publications/gocps-a-first-look-at-ninth-grade-applications-offers-and-enrollment) | report | computer-assisted-learning
+- 5625. [The Challenges Facing CPS Administrators](https://consortium.uchicago.edu/publications/challenges-facing-cps-administrators) | report | college-access
+- 5626. [Integrating Social, Emotional, and Academic Development (SEAD)](https://consortium.uchicago.edu/publications/integrating-social-emotional-and-academic-development) | report | college-access, sel
+- 5627. [Noncognitive Outcomes of Liberal Arts Education](https://consortium.uchicago.edu/publications/noncognitive-outcomes-of-liberal-arts-education) | paper | attendance, college-access
+- 5628. [Early Education Essentials](https://consortium.uchicago.edu/publications/early-education-essentials-validation-surveys-measuring-early-education-organizational) | paper | attendance, early-childhood
+- 5629. [Early Education Essentials](https://consortium.uchicago.edu/publications/early-education-essentials-illustrations-strong-organizational-practices-programs) | report | early-childhood, learning-engineering
+- 5630. [From High School to the Future](https://consortium.uchicago.edu/publications/high-school-future-delivering-dream-college-graduation) | paper | career-readiness, college-access
+- 5631. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/educational-attainment-chicago-public-schools-students-2017) | report | inclusive-design
+- 5632. [Hidden Risk](https://consortium.uchicago.edu/publications/hidden-risk-changes-gpa-across-transition-high-school) | report | 
+- 5633. [Practice-Driven Data](https://consortium.uchicago.edu/publications/practice-driven-data-lessons-chicagos-approach-research-data-and-practice-education) | report | college-access
+- 5634. [Principal Leadership and School Performance](https://consortium.uchicago.edu/publications/principal-leadership-and-school-performance-examination-instructional-leadership-and) | paper | 
+- 5635. [Changes in Math Instruction and Student Outcomes since the Implementation of Common Core State Standards in Chicago](https://consortium.uchicago.edu/publications/changes-math-instruction-and-student-outcomes-implementation-common-core-state) | paper | math-education, professional-development
+- 5636. [On the Path to Becoming a Teacher](https://consortium.uchicago.edu/publications/path-becoming-teacher-landscape-student-teaching-chicago-public-schools) | report | college-access
+- 5637. [GoCPS: A First Look at Applications and Offers](https://consortium.uchicago.edu/publications/gocps-first-look-applications-and-offers) | paper | computer-assisted-learning
+- 5638. [A Community Effort to Support the Transition from Pre-K to Kindergarten](https://consortium.uchicago.edu/publications/community-effort-support-transition-pre-k-kindergarten) | report | early-childhood
+- 5639. [Online Credit Recovery and the Path to On-Time High School Graduation](https://consortium.uchicago.edu/publications/online-credit-recovery-and-path-time-high-school-graduation) | paper | computer-assisted-learning, dropout-prevention, math-education
+- 5640. [School Closings in Chicago](https://consortium.uchicago.edu/publications/school-closings-chicago-staff-and-student-experiences-and-academic-outcomes) | report | computer-assisted-learning
+- 5641. [Pre-kindergarten Attendance Matters](https://consortium.uchicago.edu/publications/pre-kindergarten-attendance-matters-early-chronic-absence-patterns-and-relationships) | paper | attendance
+- 5642. [Why Do Students Get Good Grades, or Bad Ones? The Influence of the Teacher, Class, School, and Student](https://consortium.uchicago.edu/publications/why-do-students-get-good-grades-or-bad-ones-influence-teacher-class-school-and-student) | paper | writing-instruction
+- 5643. [Are GPAs an Inconsistent Measure of Achievement across High Schools? Examining Assumptions about Grades versus Standardized Test Scores](https://consortium.uchicago.edu/publications/are-gpas-inconsistent-measure-achievement-across-high-schools-examining-assumptions) | paper | college-access, formative-assessment
+- 5644. [High School Graduation and College Readiness Indicator Systems](https://consortium.uchicago.edu/publications/high-school-graduation-and-college-readiness-indicator-systems-what-we-know-what-we) | report | college-access
+- 5645. [Organizing Early Education for Improvement](https://consortium.uchicago.edu/publications/organizing-early-education-improvement-testing-new-survey-tool) | report | early-childhood
+- 5646. [How Do Principals Influence Student Achievement?](https://consortium.uchicago.edu/publications/how-do-principals-influence-student-achievement) | report | 
+- 5647. [Selective Enrollment High Schools in Chicago](https://consortium.uchicago.edu/publications/selective-enrollment-high-schools-chicago-admission-and-impacts) | report | 
+- 5648. [Making Sense out of Incentives](https://consortium.uchicago.edu/publications/making-sense-out-incentives-framework-considering-design-use-and-implementation) | paper | attendance
+- 5649. [Rethinking Universal Suspension for Severe Student Behavior](https://consortium.uchicago.edu/publications/rethinking-universal-suspension-severe-student-behavior) | paper | sel
+- 5650. [Illuminating the Mechanisms of Character Development](https://consortium.uchicago.edu/publications/illuminating-mechanisms-character-development) | paper | sel
+- 5651. [Chicago's Charter High Schools](https://consortium.uchicago.edu/publications/chicago%E2%80%99s-charter-high-schools-organizational-features-enrollment-school-transfers-and) | report | sel
+- 5652. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/educational-attainment-chicago-public-schools-students-2016) | report | inclusive-design
+- 5653. [Patterns of Two-Year and Four-Year College Enrollment Among Chicago Public Schools Graduates](https://consortium.uchicago.edu/publications/patterns-two-year-and-four-year-college-enrollment-among-chicago-public-schools) | report | college-access
+- 5654. [The Success Project](https://consortium.uchicago.edu/publications/success-project-implementation-and-early-outcomes-middle-grade-program) | report | formative-assessment
+- 5655. [The Predictive Power of Ninth-Grade GPA](https://consortium.uchicago.edu/publications/predictive-power-ninth-grade-gpa) | report | 
+- 5656. [The Expansion of High School Choice in Chicago Public Schools](https://consortium.uchicago.edu/publications/expansion-high-school-choice-chicago-public-schools) | paper | writing-instruction
+- 5657. [Examining Integrated Leadership Systems in High Schools](https://consortium.uchicago.edu/publications/examining-integrated-leadership-systems-high-schools-connecting-principal-and-teacher) | paper | 
+- 5658. [Getting Ready for the Common Core State Standards](https://consortium.uchicago.edu/publications/getting-ready-common-core-state-standards-experiences-cps-teachers-and-administrators) | report | math-education
+- 5659. [How the Organization of Schools and Local Communities Shape Educational Improvement](https://consortium.uchicago.edu/publications/how-organization-schools-and-local-communities-shape-educational-improvement) | report | inclusive-design
+- 5660. [Reflections from a Professional Learning Community for Researchers Working in Research Alliances](https://consortium.uchicago.edu/publications/reflections-professional-learning-community-researchers-working-research-alliances) | paper | 
+- 5661. [Beyond Academic Readiness](https://consortium.uchicago.edu/publications/beyond-academic-readiness-building-broader-range-skills-success-college) | paper | college-access
+- 5662. [Foundations for Success](https://consortium.uchicago.edu/publications/foundations-success-young-people-learn-best-through-active-and-reflective-experiences) | paper | sel
+- 5663. [The Role of Selective High Schools in Equalizing Educational Outcomes](https://consortium.uchicago.edu/publications/role-selective-high-schools-equalizing-educational-outcomes-heterogeneous-effects) | paper | college-access
+- 5664. [The Network for College Success](https://consortium.uchicago.edu/publications/network-college-success-capacity-building-model-school-improvement) | paper | college-access, professional-development
+- 5665. [Tackling Absenteeism in Chicago](https://consortium.uchicago.edu/publications/tackling-absenteeism-chicago) | paper | attendance, college-access, dropout-prevention, learning-engineering
+- 5666. [The Role of Teacher Leadership in How Principals Influence Classroom Instruction and Student Learning](https://consortium.uchicago.edu/publications/role-teacher-leadership-how-principals-influence-classroom-instruction-and-student) | paper | professional-development
+- 5667. [The Educational Benefits of Attending Higher Performing Schools](https://consortium.uchicago.edu/publications/educational-benefits-attending-higher-performing-schools-evidence-chicago-high-schools) | paper | dropout-prevention
+- 5668. [The College Match Indicator](https://consortium.uchicago.edu/publications/college-match-indicator-linking-research-practice) | report | college-access
+- 5669. [Teacher Evaluation in Practice](https://consortium.uchicago.edu/publications/teacher-evaluation-practice-year-3-teacher-and-administrator-perceptions-reach) | report | 
+- 5670. [Teachers' Labor Market Responses to Performance Evaluation Reform](https://consortium.uchicago.edu/publications/teachers%E2%80%99-labor-market-responses-performance-evaluation-reform-experimental-evidence) | paper | 
+- 5671. [Navigating the Shift to Intensive Principal Preparation in Illinois](https://consortium.uchicago.edu/publications/navigating-shift-intensive-principal-preparation-illinois-depth-look-stakeholder) | report | computer-assisted-learning
+- 5672. [Essential Organizational Supports for Early Education](https://consortium.uchicago.edu/publications/essential-organizational-supports-early-education-development-new-survey-tool-measure) | report | 
+- 5673. [High School Graduation Rates through Two Decades of District Change](https://consortium.uchicago.edu/publications/high-school-graduation-rates-through-two-decades-district-change-influence-policies) | report | dropout-prevention
+- 5674. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/educational-attainment-chicago-public-schools-students-2015-focus-four-year-college) | report | college-access
+- 5675. [Making a Success of "Algebra for All"](https://consortium.uchicago.edu/publications/making-success-algebra-all-impact-extended-instructional-time-and-classroom-peer-skill) | paper | math-education, writing-instruction
+- 5676. [The Back on Track Study](https://consortium.uchicago.edu/publications/back-track-study-using-online-courses-credit-recovery) | report | computer-assisted-learning, dropout-prevention
+- 5677. [The Struggle to Pass Algebra](https://consortium.uchicago.edu/publications/struggle-pass-algebra-online-vs-face-face-credit-recovery-risk-urban-students) | paper | computer-assisted-learning, dropout-prevention, math-education
+- 5678. [Teacher Evaluation in Chicago](https://consortium.uchicago.edu/publications/teacher-evaluation-chicago-differences-observation-and-value-added-scores-teacher) | report | 
+- 5679. [Teacher Evaluation in Chicago](https://consortium.uchicago.edu/publications/teacher-evaluation-chicago-key-findings-consortium-research) | report | 
+- 5680. [My View](https://consortium.uchicago.edu/publications/my-view-foundations-young-adult-success) | paper | 
+- 5681. [Dropout Prevention](https://consortium.uchicago.edu/publications/dropout-prevention-previously-intractable-problem-addressed-through-systems-monitoring) | report | dropout-prevention
+- 5682. [Does Teacher Evaluation Improve School Performance? Experimental Evidence from Chicago's Excellence in Teaching Project](https://consortium.uchicago.edu/publications/does-teacher-evaluation-improve-school-performance-experimental-evidence-chicagos) | paper | 
+- 5683. [Suspending Chicago's Students](https://consortium.uchicago.edu/publications/suspending-chicagos-students-differences-discipline-practices-across-schools) | report | 
+- 5684. [Restructuring Principal Preparation in Illinois](https://consortium.uchicago.edu/publications/restructuring-principal-preparation-illinois-perspectives-implementation-successes) | report | 
+- 5685. [A First Look at the 5Essentials in Illinois Schools](https://consortium.uchicago.edu/publications/first-look-5essentials-illinois-schools) | report | attendance
+- 5686. [Discipline Practices in Chicago Schools](https://consortium.uchicago.edu/publications/discipline-practices-chicago-schools-trends-use-suspensions-and-arrests) | report | inclusive-design
+- 5687. [Teacher Perspectives on Evaluation Reform](https://consortium.uchicago.edu/publications/teacher-perspectives-evaluation-reform-chicago%E2%80%99s-reach-students) | paper | inclusive-design, sel
+- 5688. [School Closings in Chicago](https://consortium.uchicago.edu/publications/school-closings-chicago-understanding-families-choices-and-constraints-new-school) | report | 
+- 5689. [The Educational Attainment of Chicago Public Schools Students](https://consortium.uchicago.edu/publications/educational-attainment-chicago-public-schools-students-focus-four-year-college-degrees) | report | college-access
+- 5690. [Teacher Evaluation in Practice](https://consortium.uchicago.edu/publications/teacher-evaluation-practice-year-2-teacher-and-administrator-perceptions-reach) | report | 
+- 5691. [Analytic Memo](https://consortium.uchicago.edu/publications/analytic-memo-evaluation-data-first-year-reach) | paper | 
+- 5692. [Does Better Observation Make Better Teachers?](https://consortium.uchicago.edu/publications/does-better-observation-make-better-teachers-new-evidence-teacher-evaluation-pilot) | paper | literacy, response-to-intervention
+- 5693. [Free to Fail or On-Track to College](https://consortium.uchicago.edu/publications/free-fail-or-track-college) | report | attendance, college-access
+- 5694. [College Readiness Indicator Systems Resource Series](https://consortium.uchicago.edu/publications/college-readiness-indicator-systems-resource-series) | report | college-access
+- 5695. [Measuring Up](https://consortium.uchicago.edu/publications/measuring) | paper | 
+- 5696. [Preschool Attendance in Chicago Public Schools](https://consortium.uchicago.edu/publications/preschool-attendance-chicago-public-schools-relationships-learning-outcomes-and-reaso-0) | report | attendance, early-childhood
+- 5697. [The Influence of School Leadership on Classroom Participation](https://consortium.uchicago.edu/publications/influence-school-leadership-classroom-participation-examining-configurations) | paper | 
+- 5698. [Preventable Failure](https://consortium.uchicago.edu/publications/preventable-failure-improvements-long-term-outcomes-when-high-schools-focused-ninth) | report | 
+- 5699. [The Five Essential Supports for School Improvement](https://consortium.uchicago.edu/publications/five-essential-supports-school-improvement-mobilizing-findings) | paper | 
+- 5700. [Skill-Based Sorting in the Era of College Prep for All](https://consortium.uchicago.edu/publications/skill-based-sorting-era-college-prep-all-costs-and-benefits) | report | college-access
+- 5701. [College Readiness Indicator Systems Framework](https://consortium.uchicago.edu/publications/college-readiness-indicator-systems-framework) | paper | college-access
+- 5702. [Readiness for College](https://consortium.uchicago.edu/publications/readiness-college-role-noncognitive-factors-and-context) | paper | college-access
+- 5703. [How Do Secondary Principals Influence Teaching and Learning?](https://consortium.uchicago.edu/publications/how-do-secondary-principals-influence-teaching-and-learning) | paper | professional-development
+- 5704. [Preschool Attendance in Chicago Public Schools](https://consortium.uchicago.edu/publications/preschool-attendance-chicago-public-schools-relationships-learning-outcomes-and-reasons) | report | attendance, early-childhood
+- 5705. [Teacher Evaluation in Practice](https://consortium.uchicago.edu/publications/teacher-evaluation-practice-implementing-chicagos-reach-students) | report | 
+- 5706. [Sorting and Supporting](https://consortium.uchicago.edu/publications/sorting-and-supporting-why-double-dose-algebra-led-better-test-scores-more-course) | paper | math-education
+- 5707. [Teens, Digital Media, and the Chicago Public Library](https://consortium.uchicago.edu/publications/teens-digital-media-and-chicago-public-library) | report | computer-assisted-learning
+- 5708. [The Use of Technology in Chicago Public Schools 2011](https://consortium.uchicago.edu/publications/use-technology-chicago-public-schools-2011-perspectives-students-teachers-and) | report | computer-assisted-learning
+- 5709. [The Use of Ninth-Grade Early Warning Indicators to Improve Chicago Schools](https://consortium.uchicago.edu/publications/use-ninth-grade-early-warning-indicators-improve-chicago-schools) | paper | 
+- 5710. [Turning Around Low-Performing Schools in Chicago](https://consortium.uchicago.edu/publications/turning-around-low-performing-schools-chicago-full-report) | report | literacy, math-education
+- 5711. [From High School to the Future](https://consortium.uchicago.edu/publications/high-school-future-challenge-senior-year-chicago-public-schools) | report | college-access
+- 5712. [The Unintended Consequences of an Algebra-for-All Policy on High-Skill Students](https://consortium.uchicago.edu/publications/unintended-consequences-algebra-all-policy-high-skill-students-effects-instructional) | paper | math-education
+- 5713. [Designing and Implementing the Next Generation of Teacher Evaluation Systems](https://consortium.uchicago.edu/publications/designing-and-implementing-next-generation-teacher-evaluation-systems-lessons-learned) | report | 
+- 5714. [Want to Improve Teaching? Create Collaborative, Supportive Schools](https://consortium.uchicago.edu/publications/want-improve-teaching-create-collaborative-supportive-schools) | paper | inclusive-design
+- 5715. [Teaching Adolescents to Become Learners](https://consortium.uchicago.edu/publications/teaching-adolescents-become-learners-role-noncognitive-factors-shaping-school) | review | sel
+- 5716. [What Matters for Staying On-Track and Graduating in Chicago Public Schools](https://consortium.uchicago.edu/publications/what-matters-staying-track-and-graduating-chicago-public-schools-focus-english-language) | report | 
+- 5717. [Working to My Potential](https://consortium.uchicago.edu/publications/working-my-potential-postsecondary-experiences-cps-students-international-baccalaureate) | report | 
+- 5718. [The Influence of Principal Leadership on Classroom Instruction and Student Learning](https://consortium.uchicago.edu/publications/influence-principal-leadership-classroom-instruction-and-student-learning-study) | paper | college-access, formative-assessment, math-education, professional-development
+- 5719. [Rethinking Teacher Evaluation in Chicago](https://consortium.uchicago.edu/publications/rethinking-teacher-evaluation-chicago-lessons-learned-classroom-observations-principal) | report | 
+- 5720. [Findings from an Investigation into the Culture of Calm Initiative](https://consortium.uchicago.edu/publications/findings-investigation-culture-calm-initiative) | report | 
+- 5721. [Trends in Chicago's Schools Across Three Eras of Reform](https://consortium.uchicago.edu/publications/trends-chicagos-schools-across-three-eras-reform-full-report) | report | dropout-prevention
+- 5722. [Potholes on the Road to College](https://consortium.uchicago.edu/publications/potholes-road-college-high-school-effects-shaping-urban-students-participation-college) | paper | attendance, college-access
+- 5723. [YOUmedia Chicago](https://consortium.uchicago.edu/publications/youmedia-chicago-reimagining-learning-literacies-and-libraries-snapshot-year-1) | report | computer-assisted-learning
+- 5724. [Student and Teacher Safety in Chicago Public Schools](https://consortium.uchicago.edu/publications/student-and-teacher-safety-chicago-public-schools-roles-community-context-and-school) | report | 
+- 5725. [College Prep for All? What We've Learned from Chicago's Efforts](https://consortium.uchicago.edu/publications/college-prep-all-what-weve-learned-chicagos-efforts) | report | college-access
+- 5726. [Are Two Algebra Classes Better Than One? The Effects of Double-Dose Instruction in Chicago](https://consortium.uchicago.edu/publications/are-two-algebra-classes-better-one-effects-double-dose-instruction-chicago) | report | math-education
+- 5727. [Rethinking Teacher Evaluation](https://consortium.uchicago.edu/publications/rethinking-teacher-evaluation-findings-first-year-excellence-teaching-project-chicago) | report | 
+- 5728. [Chicago High School Redesign Initiative](https://consortium.uchicago.edu/publications/chicago-high-school-redesign-initiative-schools-students-and-outcomes) | report | dropout-prevention, sel
+- 5729. [The Effects of Tracking with Supports on Instructional Climate and Student Outcomes in High School Algebra](https://consortium.uchicago.edu/publications/effects-tracking-supports-instructional-climate-and-student-outcomes-high-school) | paper | math-education, sel
+- 5730. [Passing Through Science](https://consortium.uchicago.edu/publications/passing-through-science-effects-raising-graduation-requirements-science-course-taking) | report | college-access
+- 5731. [What Matters for Staying On-Track and Graduating in Chicago Public Schools](https://consortium.uchicago.edu/publications/what-matters-staying-track-and-graduating-chicago-public-schools-focus-students) | report | attendance, inclusive-design, sel
+- 5732. [College Preparatory Curriculum for All](https://consortium.uchicago.edu/publications/college-preparatory-curriculum-all-academic-consequences-requiring-algebra-and-english) | paper | college-access, dropout-prevention, inclusive-design, math-education
+- 5733. [When Schools Close](https://consortium.uchicago.edu/publications/when-schools-close-effects-displaced-students-chicago-public-schools) | report | 
+- 5734. [Evaluation of the Excellence in Teaching Pilot - Year One](https://consortium.uchicago.edu/publications/evaluation-excellence-teaching-pilot-year-one) | paper | formative-assessment
+- 5735. [Reports on High School Reform in Chicago](https://consortium.uchicago.edu/publications/reports-high-school-reform-chicago) | report | 
+- 5736. [The Schools Teachers Leave](https://consortium.uchicago.edu/publications/schools-teachers-leave-teacher-mobility-chicago-public-schools) | report | 
+- 5737. [Renaissance Schools Fund-Supported Schools](https://consortium.uchicago.edu/publications/renaissance-schools-fund-supported-schools-early-outcomes-challenges-and-opportunities) | report | 
+- 5738. [From High School to the Future](https://consortium.uchicago.edu/publications/high-school-future-making-hard-work-pay) | report | college-access, dropout-prevention
+- 5739. [College Readiness for All](https://consortium.uchicago.edu/publications/college-readiness-all-challenge-urban-high-schools) | paper | college-access
+- 5740. ["Double-Dose" Algebra as an Alternative Strategy to Remediation](https://consortium.uchicago.edu/publications/double-dose-algebra-alternative-strategy-remediation-effects-students-academic-outcom-0) | paper | math-education, response-to-intervention
+- 5741. [Changing Schools](https://consortium.uchicago.edu/publications/changing-schools-look-student-mobility-trends-chicago-public-schools-1995) | report | 
+- 5742. [Barriers to College Attainment](https://consortium.uchicago.edu/publications/barriers-college-attainment-lessons-chicago) | paper | college-access
+- 5743. ["Double-Dose" Algebra as an Alternative Strategy to Remediation](https://consortium.uchicago.edu/publications/double-dose-algebra-alternative-strategy-remediation-effects-students-academic-outcomes) | paper | math-education, response-to-intervention
+- 5744. [College Preparatory Curriculum for All](https://consortium.uchicago.edu/publications/college-preparatory-curriculum-all-consequences-ninth-grade-coursetaking-algebra-and) | paper | college-access, dropout-prevention, inclusive-design, math-education
+- 5745. [The Work of Chicago Public Schools' Principals](https://consortium.uchicago.edu/publications/work-chicago-public-schools-principals) | report | 
+- 5746. [Lessons from High Performing Small High Schools in Chicago](https://consortium.uchicago.edu/publications/lessons-high-performing-small-high-schools-chicago) | report | sel
+- 5747. [From High School to the Future](https://consortium.uchicago.edu/publications/high-school-future-pathway-20) | report | college-access
+- 5748. [Teacher and Principal Leadership in Chicago](https://consortium.uchicago.edu/publications/teacher-and-principal-leadership-chicago-ongoing-analyses-preparation-programs) | report | 
+- 5749. [From High School to the Future](https://consortium.uchicago.edu/publications/high-school-future-act-preparation-too-much-too-late) | report | 
+- 5750. [If Small Is Not Enough...?](https://consortium.uchicago.edu/publications/if-small-not-enough-characteristics-successful-small-high-schools-chicago) | report | sel
+- 5751. [From High School to the Future](https://consortium.uchicago.edu/publications/high-school-future-potholes-road-college) | report | college-access, dropout-prevention
+- 5752. [CCSR's 2007 AVID Reports for Chicago Public Schools](https://consortium.uchicago.edu/publications/ccsrs-2007-avid-reports-chicago-public-schools) | report | 
+- 5753. [CCSR's 2007 Survey Reports for Chicago Public Schools](https://consortium.uchicago.edu/publications/ccsrs-2007-survey-reports-chicago-public-schools) | report | professional-development
+- 5754. [Trends in Access to Computing Technology and Its Use in Chicago Public Schools, 2001-2005](https://consortium.uchicago.edu/publications/trends-access-computing-technology-and-its-use-chicago-public-schools-2001-2005) | report | computer-assisted-learning
+- 5755. [Educating for Democracy](https://consortium.uchicago.edu/publications/educating-democracy-lessons-chicago) | report | 
+- 5756. [What Matters for Staying On-Track and Graduating in Chicago Public Schools](https://consortium.uchicago.edu/publications/what-matters-staying-track-and-graduating-chicago-public-schools) | report | dropout-prevention
+- 5757. [2006 ISAT Reading and Math Scores in Chicago and the Rest of the State](https://consortium.uchicago.edu/publications/2006-isat-reading-and-math-scores-chicago-and-rest-state) | report | literacy, math-education
+- 5758. [Keeping New Teachers](https://consortium.uchicago.edu/publications/keeping-new-teachers-first-look-influences-induction-chicago-public-schools) | report | 
+- 5759. [The Essential Supports for School Improvement](https://consortium.uchicago.edu/publications/essential-supports-school-improvement) | report | 
+- 5760. [Principal and Teacher Leadership in Chicago](https://consortium.uchicago.edu/publications/principal-and-teacher-leadership-chicago-continuing-analysis-three-initiatives) | report | formative-assessment
+- 5761. [Small Schools on a Larger Scale](https://consortium.uchicago.edu/publications/small-schools-larger-scale-first-three-years-chicago-high-school-redesign-initiative) | report | college-access
+- 5762. [Promoting Instructional Improvement](https://consortium.uchicago.edu/publications/promoting-instructional-improvement-strategic-human-resource-management-perspective) | report | 
+- 5763. [Sample Individual School Reports](https://consortium.uchicago.edu/publications/sample-individual-school-reports-results-about-postsecondary-preparation) | report | 
+- 5764. [From High School to the Future](https://consortium.uchicago.edu/publications/high-school-future-first-look-chicago-public-school-graduates-college-enrollment) | report | college-access
+- 5765. [Professional Communities and Instructional Improvement Practices](https://consortium.uchicago.edu/publications/professional-communities-and-instructional-improvement-practices-study-small-high) | report | professional-development, response-to-intervention, sel
+- 5766. [Still Crazy after All These Years](https://consortium.uchicago.edu/publications/still-crazy-after-all-these-years-race-chicago-school-system) | paper | 
+- 5767. [Understanding the Prairie State Achievement Exam](https://consortium.uchicago.edu/publications/understanding-prairie-state-achievement-exam-descriptive-report-analysis-student) | report | 
+- 5768. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-sample-elementary-summary-2005) | report | professional-development
+- 5769. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-sample-elementary-details-2005) | report | professional-development
+- 5770. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-sample-high-school-summary-2005) | report | professional-development
+- 5771. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-sample-high-school-details-2005) | report | professional-development
+- 5772. [The On-Track Indicator as a Predictor of High School Graduation](https://consortium.uchicago.edu/publications/track-indicator-predictor-high-school-graduation) | report | sel
+- 5773. [Getting It the Second Time Around](https://consortium.uchicago.edu/publications/getting-it-the-second-time-around) | paper | sel
+- 5774. [Graduation and Dropout Trends in Chicago](https://consortium.uchicago.edu/publications/graduation-and-dropout-trends-chicago-look-cohorts-students-1991-2004) | report | dropout-prevention, math-education
+- 5775. [Notes from the Ground](https://consortium.uchicago.edu/publications/notes-ground-teachers-principals-and-students-perspectives-chicago-high-school-redesign) | report | 
+- 5776. [Selected Indicators from the U.S. Census and Chicago Public Schools Records Related to the Lives and Schooling of Children](https://consortium.uchicago.edu/publications/selected-indicators-us-census-and-chicago-public-schools-records-related-lives-and) | report | 
+- 5777. [Ending Social Promotion](https://consortium.uchicago.edu/publications/ending-social-promotion-effects-retention) | report | dropout-prevention
+- 5778. [Ending Social Promotion](https://consortium.uchicago.edu/publications/ending-social-promotion-dropout-rates-chicago-after-implementation-eighth-grade) | report | dropout-prevention
+- 5779. [Working for School Improvement](https://consortium.uchicago.edu/publications/working-school-improvement-reflections-chicago-annenberg-external-partners) | report | 
+- 5780. [Principal and Teacher Leadership in Chicago](https://consortium.uchicago.edu/publications/principal-and-teacher-leadership-chicago-early-evidence-two-initiatives) | report | 
+- 5781. [Ending Social Promotion](https://consortium.uchicago.edu/publications/ending-social-promotion-response-teachers-and-students) | report | 
+- 5782. [Teacher and Principal Responses to the Grow Network](https://consortium.uchicago.edu/publications/teacher-and-principal-responses-grow-network-preliminary-evaluation-use-chicago-public) | report | 
+- 5783. [Key Measures of School Development](https://consortium.uchicago.edu/publications/key-measures-school-development) | report | computer-assisted-learning
+- 5784. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-torvalds) | report | professional-development
+- 5785. [Research Agenda 2004–2008](https://consortium.uchicago.edu/publications/research-agenda-2004%E2%80%932008) | report | 
+- 5786. [The Chicago Annenberg Challenge](https://consortium.uchicago.edu/publications/chicago-annenberg-challenge-successes-failures-and-lessons-future) | report | professional-development
+- 5787. [External Support to Schools on Probation](https://consortium.uchicago.edu/publications/external-support-schools-probation-getting-leg) | report | 
+- 5788. [Trust in Schools](https://consortium.uchicago.edu/publications/trust-schools-core-resource-school-reform) | paper | 
+- 5789. [Ending Social Promotion](https://consortium.uchicago.edu/publications/ending-social-promotion-results-summer-bridge) | report | 
+- 5790. [How Do They Compare? ITBS and ISAT Reading and Mathematics in the Chicago Public Schools, 1999 to 2002](https://consortium.uchicago.edu/publications/how-do-they-compare-itbs-and-isat-reading-and-mathematics-chicago-public-schools-1999) | report | formative-assessment, literacy, math-education
+- 5791. [How Well Do Vivaldi Students Succeed after Elementary School?](https://consortium.uchicago.edu/publications/how-well-do-vivaldi-students-succeed-after-elementary-school) | report | dropout-prevention, math-education
+- 5792. [Reforming Chicago's High Schools](https://consortium.uchicago.edu/publications/reforming-chicagos-high-schools-research-perspectives-school-and-system-level-change) | report | 
+- 5793. [Educational Technology](https://consortium.uchicago.edu/publications/educational-technology-its-availability-and-use-chicagos-public-schools) | report | computer-assisted-learning
+- 5794. [Documentation of the 1996-2002 Chicago Annenberg Research Project on Authentic Intellectual Demand Exhibited in Assignments and Student Work](https://consortium.uchicago.edu/publications/documentation-1996-2002-chicago-annenberg-research-project-authentic-intellectual) | report | 
+- 5795. [Research and Evaluation in the Chicago Public Schools](https://consortium.uchicago.edu/publications/research-and-evaluation-chicago-public-schools-plan-future) | report | literacy, professional-development
+- 5796. [Trust in Schools](https://consortium.uchicago.edu/publications/trust-schools-core-resource-improvement) | report | 
+- 5797. [Changing Special Education Enrollments](https://consortium.uchicago.edu/publications/changing-special-education-enrollments-causes-and-distribution-among-schools) | report | inclusive-design
+- 5798. [2001 CPS Trend Review](https://consortium.uchicago.edu/publications/2001-cps-trend-review-iowa-tests-basic-skills) | report | 
+- 5799. [Declining High School Enrollment](https://consortium.uchicago.edu/publications/declining-high-school-enrollment-exploration-causes) | report | dropout-prevention
+- 5800. [Student Performance](https://consortium.uchicago.edu/publications/student-performance-course-taking-test-scores-and-outcomes) | report | 
+- 5801. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-pablo-neruda-high-school) | report | professional-development
+- 5802. [Development of Chicago Annenberg Schools](https://consortium.uchicago.edu/publications/development-chicago-annenberg-schools-1996-1999) | report | 
+- 5803. [Calculating a Cohort Dropout Rate for the Chicago Public Schools](https://consortium.uchicago.edu/publications/calculating-cohort-dropout-rate-chicago-public-schools) | report | dropout-prevention, math-education
+- 5804. [Teacher Professional Development in Chicago](https://consortium.uchicago.edu/publications/teacher-professional-development-chicago-supporting-effective-practice) | report | professional-development
+- 5805. [Summary of Presentations on Research on High School Reform Efforts in Chicago](https://consortium.uchicago.edu/publications/summary-presentations-research-high-school-reform-efforts-chicago) | report | 
+- 5806. [Instruction and Achievement in Chicago Elementary Schools](https://consortium.uchicago.edu/publications/instruction-and-achievement-chicago-elementary-schools) | report | literacy, math-education
+- 5807. [Authentic Intellectual Work and Standardized Tests](https://consortium.uchicago.edu/publications/authentic-intellectual-work-and-standardized-tests-conflict-or-coexistence) | report | formative-assessment, literacy, math-education, writing-instruction
+- 5808. [School Instructional Program Coherence](https://consortium.uchicago.edu/publications/school-instructional-program-coherence-benefits-and-challenges) | report | 
+- 5809. [Annual CPS Trend Review, 2000](https://consortium.uchicago.edu/publications/annual-cps-trend-review-2000) | report | 
+- 5810. [Testing and Assessment in Illinois School Districts](https://consortium.uchicago.edu/publications/testing-and-assessment-illinois-school-districts) | report | formative-assessment
+- 5811. [Chicago Classroom Demands for Authentic Intellectual Work](https://consortium.uchicago.edu/publications/chicago-classroom-demands-authentic-intellectual-work-trends-1997-1999) | report | math-education, writing-instruction
+- 5812. [Update](https://consortium.uchicago.edu/publications/update-ending-social-promotion-passing-retention-and-achievement-trends-among-promoted) | report | 
+- 5813. [Access to Magnet Schools in Chicago](https://consortium.uchicago.edu/publications/access-magnet-schools-chicago) | report | 
+- 5814. [School Improvement with External Partners](https://consortium.uchicago.edu/publications/school-improvement-external-partners) | report | college-access
+- 5815. [Annual CPS Test Trend Review, 1999](https://consortium.uchicago.edu/publications/annual-cps-test-trend-review-1999) | report | 
+- 5816. [School Leadership and the Bottom Line in Chicago](https://consortium.uchicago.edu/publications/school-leadership-and-bottom-line-chicago) | paper | sel
+- 5817. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-harding-school) | report | sel
+- 5818. [Social Support, Academic Press, and Student Achievement](https://consortium.uchicago.edu/publications/social-support-academic-press-and-student-achievement-view-middle-grades-chicago) | report | 
+- 5819. [Ending Social Promotion](https://consortium.uchicago.edu/publications/ending-social-promotion-results-first-two-years) | report | literacy, math-education
+- 5820. [How Do Barton Graduates Perform in CPS High Schools?](https://consortium.uchicago.edu/publications/how-do-barton-graduates-perform-cps-high-schools) | report | dropout-prevention
+- 5821. [How Do Kenwood Graduates Perform?](https://consortium.uchicago.edu/publications/how-do-kenwood-graduates-perform) | report | dropout-prevention
+- 5822. [The Chicago Annenberg Challenge](https://consortium.uchicago.edu/publications/chicago-annenberg-challenge-first-three-years) | report | 
+- 5823. [It's About Time](https://consortium.uchicago.edu/publications/its-about-time-opportunities-learn) | report | 
+- 5824. [Adjusting Citywide ITBS Scores for Student Retention in Grades Three, Six, and Eight](https://consortium.uchicago.edu/publications/adjusting-citywide-itbs-scores-student-retention-grades-three-six-and-eight) | report | 
+- 5825. [Setting the Pace](https://consortium.uchicago.edu/publications/setting-pace-opportunities-learn-chicago-public-elementary-schools) | report | math-education
+- 5826. [The Quality of Intellectual Work in Chicago Schools](https://consortium.uchicago.edu/publications/quality-intellectual-work-chicago-schools-baseline-report) | report | math-education, writing-instruction
+- 5827. [Changing Standards, Changing Relationships](https://consortium.uchicago.edu/publications/changing-standards-changing-relationships-building-family-school-relationships-promote) | report | 
+- 5828. [Charting Chicago School Reform](https://consortium.uchicago.edu/publications/charting-chicago-school-reform-democratic-localism-lever-change) | report | 
+- 5829. [Getting Started](https://consortium.uchicago.edu/publications/getting-started-first-look-annenberg-schools-and-networks) | report | sel
+- 5830. [Academic Productivity of Chicago Public Elementary Schools](https://consortium.uchicago.edu/publications/academic-productivity-chicago-public-elementary-schools) | report | 
+- 5831. [Charting Reform](https://consortium.uchicago.edu/publications/charting-reform-lscs%E2%80%94local-leadership-work) | report | 
+- 5832. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-millard-fillmore-school) | report | 
+- 5833. [Improving Chicago's Schools](https://consortium.uchicago.edu/publications/improving-chicagos-schools-john-tyler-high-school) | report | 
+- 5834. [Habits Hard to Break](https://consortium.uchicago.edu/publications/habits-hard-break-new-look-truancy-chicagos-public-high-schools) | report | attendance
+- 5835. [Charting Reform in Chicago](https://consortium.uchicago.edu/publications/charting-reform-chicago-students-speak) | report | 
+- 5836. [Social Trust](https://consortium.uchicago.edu/publications/social-trust-moral-resource-school-improvement) | report | 
+- 5837. [Charting Reform](https://consortium.uchicago.edu/publications/charting-reform-chicago-teachers-take-stock) | report | 
+- 5838. [School Reform, Retention Policy, and Student Achievement Gains](https://consortium.uchicago.edu/publications/school-reform-retention-policy-and-student-achievement-gains) | report | 
+- 5839. [Charting Reform in Asbury School](https://consortium.uchicago.edu/publications/charting-reform-asbury-school-results-student-and-teacher-surveys) | report | 
+- 5840. [Charting Reform in Prairie School](https://consortium.uchicago.edu/publications/charting-reform-prairie-school-results-student-and-teacher-surveys) | report | 
+- 5841. [A View from the Elementary Schools](https://consortium.uchicago.edu/publications/view-elementary-schools-state-reform-chicago) | report | formative-assessment
+- 5842. [Charting Reform](https://consortium.uchicago.edu/publications/charting-reform-principals-perspective) | report | formative-assessment
+- 5843. [Charting Reform](https://consortium.uchicago.edu/publications/charting-reform-teachers-turn) | report | 
+- 5844. [Achieving School Reform in Chicago](https://consortium.uchicago.edu/publications/achieving-school-reform-chicago-what-we-need-know) | report | 

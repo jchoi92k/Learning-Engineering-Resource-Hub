@@ -41,6 +41,9 @@ TAGS_DIR = os.path.join(WIKI_DIR, "tags")
 GENERATED = ["llms-full.txt", "data.json", "gem-knowledge.txt", "sitemap.xml"]
 # llms.txt and the per-source files are compared by glob in --check (see check_against_docs).
 INDEX_CHAR_LIMIT = 100_000   # max characters per index file (the one published cap: Mintlify's)
+DB_SIZE_LIMIT_MIB = 60       # --check fails above this. hub.db is a binary blob in git: GitHub warns at
+                             # 50 MiB and blocks pushes of files over 100 MiB. First move when this trips:
+                             # split raw_item/page_text into a sidecar (decisions 2026-08-30).
 PER_SOURCE_MIN = 10          # sources with fewer entries share llms-other-sources.txt
 OTHER_SLUG = "other-sources"
 MCP_URL = "https://renaissance-hub.joon-96a.workers.dev/mcp"
@@ -665,6 +668,17 @@ def _stable_lines(path):
         return [ln for ln in f if not any(m in ln for m in VOLATILE_MARKERS)]
 
 
+def db_size_check(path=DB_PATH, limit_mib=DB_SIZE_LIMIT_MIB):
+    """Size of the tracked database in MiB, plus an error message when it is
+    over the limit. The limit sits well under GitHub's 100 MiB block so there
+    is time to slim the file before a push is refused."""
+    size_mib = os.path.getsize(path) / (1024 * 1024)
+    if size_mib > limit_mib:
+        return size_mib, (f"data/hub.db is {size_mib:.1f} MiB, over the {limit_mib} MiB limit "
+                          f"(GitHub blocks files over 100 MiB); move raw_item/page_text out of the tracked file")
+    return size_mib, None
+
+
 def check_against_docs(entries):
     """Rebuild into a temp dir and compare with docs/. Returns a list of
     human-readable differences (empty when docs/ is current)."""
@@ -723,14 +737,19 @@ def main():
     for err in errors[:50]:
         print(f"[build] ERROR: {err}")
     print(f"[build] Validation: {len(errors)} errors, {len(warnings)} warnings")
+    size_mib, size_error = db_size_check()
+    print(f"[build] hub.db {size_mib:.1f} MiB (limit {DB_SIZE_LIMIT_MIB} MiB)")
+    if size_error:
+        print(f"[build] {'ERROR' if args.check else 'warning'}: {size_error}")
 
     if args.check:
         diffs = check_against_docs(entries)
         for d in diffs:
             print(f"[build] CHECK: {d}")
-        ok = not errors and not diffs
+        ok = not errors and not diffs and not size_error
         print("[build] Check passed: docs/ is current and entries validate." if ok
-              else f"[build] Check FAILED: {len(errors)} validation errors, {len(diffs)} stale/missing files.")
+              else f"[build] Check FAILED: {len(errors)} validation errors, {len(diffs)} stale/missing files"
+                   + (", hub.db over the size limit" if size_error else "") + ".")
         raise SystemExit(0 if ok else 1)
 
     if errors:

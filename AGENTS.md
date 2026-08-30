@@ -22,7 +22,7 @@ python scripts/scrape.py <source>            # one source; config in sources/<so
 python scripts/scrape.py <source> --backfill # catch-up: scan every page, still skip known URLs; --audit re-checks the request log
 python scripts/process_staged.py <source>    # insert staged items into hub.db (auto-tagging; backlog items become pending rows)
 python scripts/verify_urls.py --min-num N    # verify rows added this run (num > N)
-python scripts/build_from_db.py              # regenerate docs/ from hub.db; --check verifies docs/ match hub.db
+python scripts/build_from_db.py              # regenerate docs/ from hub.db; --check verifies docs/ match hub.db and hub.db stays under 60 MiB
 python scripts/embed_corpus.py               # sync embeddings to Cloudflare Vectorize (needs CLOUDFLARE_* env)
 ```
 

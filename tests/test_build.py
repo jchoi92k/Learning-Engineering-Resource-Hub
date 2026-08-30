@@ -7,13 +7,24 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
-from build_from_db import INDEX_CHAR_LIMIT, OTHER_SLUG, compact_line, group_by_source, source_slug, split_lines  # noqa: E402
+from build_from_db import (  # noqa: E402
+    INDEX_CHAR_LIMIT, OTHER_SLUG, compact_line, db_size_check, group_by_source, source_slug, split_lines,
+)
 
 
 def entry(num, source, title="T", tags=None):
     return {"num": num, "source": source, "title": title, "url": f"https://x.org/{num}", "type": "report",
             "tags": tags or ["k-12"], "desc": "d", "url_confirmed": 1, "description_inferred": 0,
             "doi": None, "license": None, "date_added": "2026-01-01", "description_source": "listing"}
+
+
+def test_db_size_check(tmp_path):
+    db = tmp_path / "hub.db"
+    db.write_bytes(b"x" * 2048)
+    size, err = db_size_check(str(db), limit_mib=60)
+    assert err is None and 0 < size < 0.01
+    size, err = db_size_check(str(db), limit_mib=0.001)
+    assert "over the 0.001 MiB limit" in err and "100 MiB" in err
 
 
 def test_source_slug():

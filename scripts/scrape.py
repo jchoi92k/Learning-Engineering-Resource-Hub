@@ -53,6 +53,7 @@ SESSION.headers.update({
 CONSECUTIVE_FAILURES = 0     # highest current per-host consecutive-failure streak
 MAX_CONSECUTIVE_FAILURES = 3
 _FAILURES_BY_HOST = {}
+DETAIL_FETCH_INCOMPLETE = False   # set when detail_fetch stops early; main then keeps the progress file
 
 
 def _note_success(url):
@@ -1006,8 +1007,11 @@ def fetch_detail_descriptions(items, config, source):
 
     for count, (i, item) in enumerate(need_fetch):
         if CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
-            print(f"[scrape] detail_fetch: stopping due to {MAX_CONSECUTIVE_FAILURES} consecutive failures.")
-            print(f"[scrape] detail_fetch: {count}/{len(need_fetch)} fetched. Progress saved — rerun to resume.")
+            global DETAIL_FETCH_INCOMPLETE
+            DETAIL_FETCH_INCOMPLETE = True
+            print(f"[scrape] detail_fetch: stopping due to {MAX_CONSECUTIVE_FAILURES} consecutive failures from one host.")
+            print(f"[scrape] detail_fetch: {count}/{len(need_fetch)} fetched. Progress kept — rerun (without --fresh) to resume; "
+                  f"do not process the staging file's backlog until the run completes.")
             _save_progress(source, items)
             break
         print(f"  [{count+1}/{len(need_fetch)}] {item['title'][:70]}")
@@ -1321,8 +1325,12 @@ def main():
     # Write backlog
     write_backlog(source, backlog)
 
-    # Clean up progress file on successful completion
-    _clear_progress(source)
+    # Clean up the progress file only when every page was attempted; an early
+    # stop keeps it so a rerun resumes instead of re-fetching everything.
+    if DETAIL_FETCH_INCOMPLETE:
+        print(f"[scrape] Progress file kept for resume: {PROGRESS_DIR / (source + '-progress.json')}")
+    else:
+        _clear_progress(source)
 
     # Output ready items
     output = {

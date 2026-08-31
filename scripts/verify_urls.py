@@ -57,7 +57,9 @@ CONFIRMED_BROKEN_CODES = {"404", "410"}
 
 
 def get_db():
-    conn = sqlite3.connect(DB_PATH)
+    # Writer: BEGIN IMMEDIATE takes the write lock up front so the 30 s busy
+    # timeout applies (a deferred read->write upgrade fails at once instead).
+    conn = sqlite3.connect(DB_PATH, timeout=30, isolation_level="IMMEDIATE")
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -188,8 +190,10 @@ def round_robin_check(entries, conn, auto_exclude=False):
         delay_str = f"{actual_delay:.1f}s" if actual_delay > 0 else "first"
         print(f"  [{checked}/{total}] {symbol} {http_status:>4s} ({method}) [{best_domain}] {delay_str} | {entry['title'][:40]}  ({rate:.1f}/min)")
 
+        # One row per transaction: the write lock must never be held across a network
+        # request (it used to be held for up to 50 throttled requests between commits).
+        conn.commit()
         if checked % 50 == 0:
-            conn.commit()
             print(f"  --- checkpoint: {ok_count} OK, {broken_count} broken, {flagged_count} flagged ---")
 
     conn.commit()

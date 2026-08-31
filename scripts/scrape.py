@@ -807,7 +807,7 @@ def load_existing_urls():
     """Load all URLs from hub.db (includes excluded entries to prevent re-scraping)."""
     import sqlite3
     if DB_PATH.exists():
-        conn = sqlite3.connect(DB_PATH)
+        conn = sqlite3.connect(DB_PATH, timeout=30)  # reader; WAL mode, see AGENTS.md
         urls = {row[0].rstrip("/").lower() for row in conn.execute("SELECT url FROM entries")}
         conn.close()
         return urls

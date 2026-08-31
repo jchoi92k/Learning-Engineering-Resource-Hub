@@ -73,7 +73,9 @@ class CurateError(Exception):
 # ── helpers ──
 
 def get_db(path=DB_PATH):
-    conn = sqlite3.connect(path)
+    # Writer: BEGIN IMMEDIATE takes the write lock up front so the 30 s busy
+    # timeout applies (a deferred read->write upgrade fails at once instead).
+    conn = sqlite3.connect(path, timeout=30, isolation_level="IMMEDIATE")
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys=ON")
     return conn

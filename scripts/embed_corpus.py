@@ -60,7 +60,8 @@ def load_env():
 
 
 def load_entries():
-    conn = sqlite3.connect(DB_PATH)
+    # Reader (WAL mode: never blocked by a writer); the timeout only matters if a writer holds a checkpoint.
+    conn = sqlite3.connect(DB_PATH, timeout=30)
     conn.row_factory = sqlite3.Row
     rows = conn.execute("""
         SELECT num, title, description, type, source

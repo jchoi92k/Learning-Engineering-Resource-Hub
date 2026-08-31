@@ -36,6 +36,7 @@ python scripts/embed_corpus.py               # sync embeddings to Cloudflare Vec
 - **Edit surface for automated runs:** `sources/*.json` (scraper configs) and, through the scripts, `hub.db` and `docs/`. Do not modify `scripts/`, `.github/`, `.claude/`, `AGENTS.md` or `CLAUDE.md` in an unattended run; propose those changes in the PR body instead.
 - **Never push to `main` or merge.** Automated runs open a pull request; a maintainer merges.
 - Run the tests before proposing a code change; run `build_from_db.py --check` before proposing a data change.
+- One pipeline run at a time: `update.sh` holds a lock at `docs/staging/update.lock` and refuses to start while another run is alive. `curate.py` edits during a run are safe — hub.db is in WAL mode, every writer opens immediate transactions, keeps them short (one row per commit in `verify_urls.py`) and waits up to 30 s for the lock. Never `git checkout`, `stash` or `pull` over `data/hub.db` while a script has it open.
 
 ## Where to read more
 

@@ -187,7 +187,9 @@ def ensure_columns(conn):
 
 
 def get_db():
-    conn = sqlite3.connect(DB_PATH)
+    # Writer: BEGIN IMMEDIATE takes the write lock up front so the 30 s busy
+    # timeout applies (a deferred read->write upgrade fails at once instead).
+    conn = sqlite3.connect(DB_PATH, timeout=30, isolation_level="IMMEDIATE")
     conn.execute("PRAGMA foreign_keys=ON")
     ensure_columns(conn)
     return conn

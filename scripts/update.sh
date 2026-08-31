@@ -65,6 +65,25 @@ SUMMARY="${RUN_SUMMARY:-$STAGING/run-summary.md}"
 mkdir -p "$LOG_DIR"
 TODAY="$(date +%Y-%m-%d)"
 
+# One pipeline run at a time: a second run would race this one for the staging
+# files and for hub.db's single writer slot. The lock is a directory because
+# mkdir is atomic everywhere we run (flock is not available in Git Bash).
+LOCK_DIR="$STAGING/update.lock"
+if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+  other_pid="$(cat "$LOCK_DIR/pid" 2>/dev/null || echo '?')"
+  other_start="$(cat "$LOCK_DIR/started" 2>/dev/null || echo '?')"
+  if [[ "$other_pid" =~ ^[0-9]+$ ]] && kill -0 "$other_pid" 2>/dev/null; then
+    echo "[update] another run is active (pid $other_pid, started $other_start); aborting."\
+         "If that run is dead, remove $LOCK_DIR and retry." >&2
+    exit 3
+  fi
+  echo "[update] removing stale lock left by pid $other_pid (started $other_start)"
+  rm -rf "$LOCK_DIR" && mkdir "$LOCK_DIR"
+fi
+echo $$ > "$LOCK_DIR/pid"
+date -u +%Y-%m-%dT%H:%M:%SZ > "$LOCK_DIR/started"
+trap 'rm -rf "$LOCK_DIR"' EXIT
+
 db_max_num() {
   "$PY" -c "import sqlite3; print(sqlite3.connect('data/hub.db').execute('SELECT COALESCE(MAX(num),0) FROM entries').fetchone()[0])"
 }

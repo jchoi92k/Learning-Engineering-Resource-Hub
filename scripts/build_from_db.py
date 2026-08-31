@@ -98,7 +98,8 @@ PRIORITY_ORDER = {"high": 0, "medium": 1, "low": 2}
 
 
 def get_db():
-    conn = sqlite3.connect(DB_PATH)
+    # Reader (WAL mode: never blocked by a writer); the timeout only matters if a writer holds a checkpoint.
+    conn = sqlite3.connect(DB_PATH, timeout=30)
     conn.row_factory = sqlite3.Row
     return conn
 

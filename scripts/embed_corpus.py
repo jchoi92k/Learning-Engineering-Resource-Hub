@@ -101,10 +101,14 @@ def upsert_vectors(session, account, vectors):
     return body["result"]
 
 
+DELETE_BATCH = 100  # Vectorize refuses more ids per delete call (VECTOR_DELETE_ERROR 40007)
+
+
 def delete_vectors(session, account, ids):
     url = f"https://api.cloudflare.com/client/v4/accounts/{account}/vectorize/v2/indexes/{INDEX}/delete_by_ids"
-    r = session.post(url, json={"ids": ids}, timeout=60)
-    r.raise_for_status()
+    for i in range(0, len(ids), DELETE_BATCH):
+        r = session.post(url, json={"ids": ids[i:i + DELETE_BATCH]}, timeout=60)
+        r.raise_for_status()
 
 
 def main():
@@ -171,8 +175,11 @@ def main():
 
     if stale:
         if args.endpoint:
-            r = session.post(args.endpoint, json={"deleteIds": stale}, timeout=60)
-            r.raise_for_status()
+            for i in range(0, len(stale), DELETE_BATCH):
+                r = session.post(args.endpoint, json={"deleteIds": stale[i:i + DELETE_BATCH]}, timeout=60)
+                if r.status_code != 200 or not r.json().get("ok"):
+                    raise RuntimeError(f"populate worker delete error ({r.status_code}): {r.text[:300]}")
+                time.sleep(REQUEST_DELAY)
         else:
             delete_vectors(session, account, stale)
         for k in stale:

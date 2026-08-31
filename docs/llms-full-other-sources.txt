@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Other sources (30 organizations) (full)
-# 71 entries with descriptions | Last updated: 2026-08-30
+# 71 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-other-sources.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

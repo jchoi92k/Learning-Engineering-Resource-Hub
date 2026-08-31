@@ -1,10 +1,12 @@
 # Evidence for ESSA
 
+**Status (2026-08-31):** rated only. Programs rated Strong, Moderate or Promising are published; every program whose API `evidence_rating` is "No Evidence" or "N/A" is held as an excluded `essa_no_evidence` row, description or not (`evidence-for-essa.json` `exclude_when` on `evidence_rating`; the June 2026 load of the same population carries `essa_no_evidence_no_description`). Published: 203 (Strong 82, Promising 82, Moderate 37, plus #1572 and #1586, which the API no longer lists); the four rated programs past page 1 of the newest-first listing were backfilled on 2026-08-31 (rows 8994-8997).
+
 ## Discovery
 
 - **Method:** WordPress REST API
 - **Endpoint:** `https://evidenceforessa.org/wp-json/wp/v2/program?per_page=100&page={N}&_fields=id,slug,title,link,acf`
-- **Total:** 1,297 programs (202 with evidence ratings)
+- **Total:** 1,300 programs (201 with evidence ratings; 2026-08-31 pull)
 - **Platform:** WordPress with ACF (Advanced Custom Fields)
 - **Pages:** 13 (at 100 per page)
 
@@ -21,12 +23,13 @@ Education programs rated by ESSA evidence strength. Four tiers:
 
 | Tier | Count |
 |------|-------|
-| Strong | 84 |
-| Moderate | 36 |
+| Strong | 82 |
+| Moderate | 37 |
 | Promising | 82 |
-| No Evidence | 1,093 |
+| No Evidence | 1,097 |
+| N/A | 2 |
 
-Current indexing: 78 entries (Strong + Moderate). Remaining: 42 from Strong/Moderate, 82 from Promising = 124 new entries with evidence ratings.
+Published: 203 as of 2026-08-31 (see Status): all 201 rated programs on the API plus the two rows the API no longer lists.
 
 Six subject areas: Reading, Math, Social-Emotional, Attendance, Science, Family Engagement.
 
@@ -50,15 +53,17 @@ Six subject areas: Reading, Math, Social-Emotional, Attendance, Science, Family 
 
 ## Exclusion: "No Evidence" programs
 
-Of 1,297 programs, **1,093 have rating "No Evidence"** — the API returns empty `program_description` and `program_summary` for all of them. These are programs ESSA lists but has not reviewed.
+Of 1,300 programs (2026-08-31), **1,097 have rating "No Evidence"** — for most the API returns empty `program_description` and `program_summary`; a few carry a description. These are programs ESSA lists but has not reviewed.
 
 **Decision (2026-06-15):** "No Evidence" programs without descriptions are excluded from published output. They are in hub.db with `excluded=1, exclude_reason='essa_no_evidence_no_description'` for dedup. Future scrapes should not re-index them. See `private/decisions.md` for full rationale.
 
-**Indexable programs:** ~204 with evidence ratings (Strong: 84, Promising: 82, Moderate: 36, N/A: 2). All have API descriptions.
+**Decision (2026-08-31):** rated only, matching WWC. The rule covers every program rated "No Evidence" or "N/A", description or not: the 27 published rows (25 No Evidence, 2 N/A) were excluded as `essa_no_evidence`, and `exclude_when` in the config stages future ones as `filtered_items`, which `process_staged.py` inserts as excluded rows. The same day's `--backfill` pass added the 4 rated programs (8994-8997) and held 4 unrated newcomers (8998-9001). Rationale in `private/decisions.md`.
+
+**Indexable programs:** 201 rated (Strong 82, Promising 82, Moderate 37 on 2026-08-31). All have API descriptions.
 
 ## Scraping instructions
 
-**Single pass via API.** 13 requests at 100/page gets everything. Filter client-side by `acf.evidence_rating` — only index Strong, Moderate, Promising, and N/A tiers. Skip "No Evidence" (excluded by policy). All metadata needed for indexing is in the API response — no individual page fetches required.
+**Single pass via API.** 13 requests at 100/page gets everything. The config's `exclude_when` rule sets aside "No Evidence" and "N/A" programs (staged as `filtered_items`, inserted as excluded `essa_no_evidence` rows); only Strong, Moderate and Promising are published. Weekly runs early-stop on page 1 (newest first); `--backfill` scans all 13 pages. All metadata needed for indexing is in the API response — no individual page fetches required.
 
 ## Quirks
 

@@ -2,7 +2,7 @@
 
 > 39 entries from Journal of Learning Analytics.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-journal-of-learning-analytics.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 259. [Exploring Fairness and Explainability in LLM-Generated Support for Online Learning Discussion Forums](https://learning-analytics.info/index.php/JLA/article/view/8885) | paper | ai-ethics, digital-learning-platforms, genai, higher-ed, jla, learning-engineering, llm-application, nlp
 - 260. [Towards More Transparency in Learning Analytics: Sharing Information with University Students Increases Their Awareness of Data Collection Practices](https://learning-analytics.info/index.php/JLA/article/view/8713) | paper | ai-ethics, data-sharing, digital-learning-platforms, higher-ed, jla, pii-privacy

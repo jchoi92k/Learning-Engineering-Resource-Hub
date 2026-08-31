@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Digital Promise (full)
-# 273 entries with descriptions | Last updated: 2026-08-30
+# 273 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-digital-promise.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

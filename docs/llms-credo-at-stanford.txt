@@ -2,7 +2,7 @@
 
 > 16 entries from CREDO at Stanford.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-credo-at-stanford.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 916. [The Impact of Rhode Island's Charter School Performance Review System](https://credo.stanford.edu/reports/item/rhode-island-2025/) | report | k-12, longitudinal, meta-analysis
 - 917. [National Charter School Study III](https://credo.stanford.edu/reports/item/national-charter-school-study-iii/) | report | k-12, longitudinal

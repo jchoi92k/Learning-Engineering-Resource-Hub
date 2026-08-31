@@ -51,6 +51,7 @@ EXCLUDE_REASONS = frozenset({
     "broken_url",
     "campbell_not_education_group",
     "duplicate_url",
+    "essa_no_evidence",
     "essa_no_evidence_no_description",
     "mathematica_no_description",
     "no_description_pending",

@@ -2,7 +2,7 @@
 
 > 39 entries from Journal of Educational Data Mining.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-journal-of-educational-data-mining.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 17. [The State of Educational Data Mining in 2009: A Review and Future Visions](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/8) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering, meta-analysis
 - 230. [Principled Transformers for Predictive Performance in Knowledge Tracing](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/961) | paper | computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering

@@ -2,7 +2,7 @@
 
 > 912 entries from WestEd; this part lists 432 of them (entry numbers 1047–6265).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 Next part: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-2.txt
 

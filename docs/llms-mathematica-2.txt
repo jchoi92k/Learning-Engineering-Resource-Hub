@@ -2,7 +2,7 @@
 
 > 633 entries from Mathematica; this part lists 251 of them (entry numbers 5142–8989).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-mathematica.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 5142. [No-Deadlines Synthetic Control and Exploratory Outcomes Analysis and Recommendations for a Future Rigorous Evaluation](https://www.mathematica.org/publications/no-deadlines-synthetic-control-and-exploratory-outcomes-analysis-and-recommendations-for-a-future) | report | 
 - 5143. [The BASIE (BAyeSian Interpretation of Estimates) Framework for Interpreting Findings from Impact Evaluations: A Practical Guide for Education Researchers](https://www.mathematica.org/publications/the-basie-bayesian-interpretation-of-estimates-framework-for-interpreting-findings-from-impact) | report | 

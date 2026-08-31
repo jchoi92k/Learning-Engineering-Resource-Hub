@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — CREDO at Stanford (full)
-# 16 entries with descriptions | Last updated: 2026-08-30
+# 16 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-credo-at-stanford.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

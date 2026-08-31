@@ -1,5 +1,5 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in evidence-for-essa.md. orderby/order make the newest-first assumption behind early_stop explicit.",
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in evidence-for-essa.md. orderby/order make the newest-first assumption behind early_stop explicit. Rated only (2026-08-31): programs whose evidence_rating is No Evidence or N/A are staged as filtered_items and inserted as excluded essa_no_evidence rows, description or not.",
   "request_delay": 5,
   "discovery": "api",
   "discovery_url": "https://evidenceforessa.org/wp-json/wp/v2/program",
@@ -32,6 +32,10 @@
       "programs_designed_for": "acf/programs_designed_for"
     }
   },
+  "exclude_when": [
+    {"field": "evidence_rating", "values": ["No Evidence", "N/A"], "reason": "essa_no_evidence"}
+  ],
+
   "robots_txt": "https://evidenceforessa.org/robots.txt",
   "test": {
     "url": "https://evidenceforessa.org/wp-json/wp/v2/program?per_page=5&page=1&_fields=id,slug,title,link,acf",

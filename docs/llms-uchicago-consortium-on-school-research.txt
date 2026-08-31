@@ -2,7 +2,7 @@
 
 > 320 entries from UChicago Consortium on School Research.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-uchicago-consortium-on-school-research.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 952. [Understanding 5Essentials School Averages and School Climate Malleability](https://consortium.uchicago.edu/publications/5Essentials-2026-malleability-and-student-groups) | report | formative-assessment, k-12, longitudinal, sel, student-belonging
 - 953. [Research Agenda 2026–30](https://consortium.uchicago.edu/publications/research-agenda-2026-30) | report | higher-ed, k-12, professional-development

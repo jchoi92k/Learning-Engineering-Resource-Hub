@@ -2,7 +2,7 @@
 
 > 28 entries from IES Regional Education Labs.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-ies-regional-education-labs.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 334. [Examining Implementation and Outcomes of the Project On-Track High-Dosage Tutoring Program](https://ies.ed.gov/use-work/resource-library/report/descriptive-study/examining-implementation-and-outcomes-project-track-high-dosage-tutoring-program) | report | coaching, k-12, literacy, professional-development
 - 335. [Effectiveness of Early Literacy Instruction: Summary of 20 Years of Research](https://ies.ed.gov/use-work/resource-library/report/systematic-literature-review/effectiveness-early-literacy-instruction-summary-20-years-research) | report | early-childhood, k-12, literacy, meta-analysis

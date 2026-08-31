@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Full Index
-# 3918 entries | Last updated: 2026-08-30
+# 3895 entries | Last updated: 2026-08-31
 #
 # HOW TO USE THIS FILE
 # This file contains all entries with full descriptions — everything is here.
@@ -9,14 +9,14 @@
 # Do NOT attempt to fetch other files. This file is self-contained.
 #
 # TAGS
-# Domain: k-12 (865), math-education (521), literacy (426), learning-engineering (300), english-learners (220), early-childhood (217), higher-ed (199), school-discipline (32)
-# Method: computer-assisted-learning (256), longitudinal (201), response-to-intervention (192), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
-# Topic: college-access (424), formative-assessment (410), sel (316), professional-development (283), career-readiness (233), personalized-learning (141), inclusive-design (127), attendance (111), open-datasets (101), dropout-prevention (95), digital-learning-platforms (76), writing-instruction (60), prekindergarten (46), student-belonging (37), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+# Domain: k-12 (861), math-education (520), literacy (423), learning-engineering (300), english-learners (220), early-childhood (211), higher-ed (199), school-discipline (32)
+# Method: computer-assisted-learning (252), longitudinal (201), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+# Topic: college-access (424), formative-assessment (410), sel (293), professional-development (276), career-readiness (233), personalized-learning (140), inclusive-design (126), attendance (111), open-datasets (101), dropout-prevention (94), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
 # Affiliation: lpi (348), edtrust (322), digital-promise (273), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 #
-# TYPES: report (3022), paper (521), framework (168), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
+# TYPES: report (2999), paper (521), framework (168), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
 #
-# SOURCES: WestEd (912), Mathematica (633), Learning Policy Institute (349), The Education Trust (322), UChicago Consortium on School Research (320), NWEA Research (291), Digital Promise (273), Evidence for ESSA (226), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
+# SOURCES: WestEd (912), Mathematica (633), Learning Policy Institute (349), The Education Trust (322), UChicago Consortium on School Research (320), NWEA Research (291), Digital Promise (273), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
 
 ---
 
@@ -4719,48 +4719,6 @@ tags: [k-12, math-education, professional-development]
 ```
 
 BARR is a training and coaching model for K–12 schools that structures teacher team meetings around student relationship data and progress, supplemented by community engagement sessions and professional development, to improve academic outcomes. Evidence for ESSA rates the math component Strong based on three RCTs (n=9,386 students) with an average effect size of +0.09 on NWEA MAP and PSAT/NMSQT math assessments, with a +0.33 effect in one high school cohort.
-
----
-
----
-
-### 228. Evidence for ESSA: Second Step — Social-Emotional Learning
-
-```yaml
-url: "https://evidenceforessa.org/program/second-step-social-emotional-learning/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: llm-summary
-date_added: 2026-05-01
-doi: null
-license: null
-tags: [k-12, sel]
-```
-
-Second Step is a classroom-based SEL curriculum for K–7 that delivers 22–26 weekly lessons per year targeting social-emotional competence and self-regulation, with differentiated content for elementary (K–5) and middle school (6–7) students. Evidence for ESSA rates it Strong in academic and emotional well-being categories based on six qualifying studies (n up to 7,213 elementary and 3,705 middle school students) showing effect sizes of +0.10–+0.11 on learning skills, emotional problems, and hyperactivity measures.
-
----
-
----
-
-### 229. Evidence for ESSA: Facing History and Ourselves
-
-```yaml
-url: "https://evidenceforessa.org/program/facing-history-and-ourselves/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: llm-summary
-date_added: 2026-05-01
-doi: null
-license: null
-tags: [k-12, professional-development, sel]
-```
-
-Facing History and Ourselves provides teacher professional development that uses historical case studies addressing racism, prejudice, and antisemitism to promote students' humane and informed citizenship in grades 7–10. Evidence for ESSA rates it Strong in academic and social relationships categories based on three studies including one large RCT across 62 high schools showing effect sizes of +0.14 to +0.23 on historical understanding, tolerance, civic efficacy, civic engagement, and prosocial behaviors.
 
 ---
 
@@ -26438,27 +26396,6 @@ Once is a school-embedded early literacy tutoring program serving PreK through f
 
 ---
 
-### 1484. PeerLearning.net
-
-```yaml
-url: "https://evidenceforessa.org/program/peerlearning-net/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [computer-assisted-learning]
-```
-
-PeerLearning.net is a web-based platform that helps teachers design and deliver cooperative learning (CL) lessons with fidelity to best practices across any subject and grade level. Teachers use the platform to build structured small-group lessons from their existing curricula using lesson templates such as jigsaw or group projects. During lesson delivery, the platform manages student grouping and lesson logistics, including distributing materials to student devices, directing activities according to a timed sequence, supporting teacher observations of student taskwork and teamwork, and guiding post-lesson group reflection. PeerLearning.net removes the planning and management tasks that typically prevent teachers from implementing CL with fidelity to best practices. PeerLearning.net is designed for use in standard academic instruction in any subject and can be implemented at any grade level as long as students are capable of reading instructions on their devices (typically 4th/5th grade and up). Any teacher can use PeerLearning.net, either on their own or in collaboration with colleagues. Lessons developed within PeerLearning.net can be shared with other teachers through the global library, which has hundreds of lessons created by teachers in various subjects throughout middle and high school, including core subjects (e.g., math, social studies, ELA), as well as social-emotional learning (SEL), organizational/study skills, career preparation, and financial literacy.
-
----
-
----
-
 ### 1485. Education Corps (Ed Corps)
 
 ```yaml
@@ -26837,27 +26774,6 @@ Progress Learning is a comprehensive, state standards-aligned instructional reso
 
 ---
 
-### 1505. NEW INSIGHTS into Children’s Temperament (INSIGHTS) – Social-Emotional Learning
-
-```yaml
-url: "https://evidenceforessa.org/program/new-insights-into-childrens-temperament-insights-2/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [professional-development, response-to-intervention, sel]
-```
-
-INSIGHTS is an evidence-based intervention that helps families, educators and young children identify how young children’s personalities and temperaments affect their behavior. The program has three components that promote student social-emotional development and academic learning. For Educators: NEW INSIGHTS for Elementary School Educators is a professional development program featuring six self-paced lessons, each followed by a remote facilitated session. Designed for teachers, counselors, psychologists and administrators, this program helps educators recognize children’s temperaments/personalities and implement strategies to reduce behavior problems and enhance social skills. For Classrooms: Children participate in 10 weekly 30-minute sessions in their own classrooms led by their teachers to help the class gain empathy and resolve dilemmas through mitten puppets, videos and activities. For Parents: NEW INSIGHTS for Parents offers six self-paced, one-hour lessons, each followed by a remote facilitated session for groups of eight. These sessions help parents recognize their children’s temperaments/personalities and learn strategies to reduce behavior problems and enhance social skills.
-
----
-
----
-
 ### 1506. NEW INSIGHTS into Children’s Temperament (INSIGHTS) – Family Engagement
 
 ```yaml
@@ -27215,27 +27131,6 @@ WordFlight is a literacy assessment and intervention solution for grades 3-8 stu
 
 ---
 
-### 1526. Edmentum Virtual Tutoring
-
-```yaml
-url: "https://evidenceforessa.org/program/edmentum-virtual-tutoring/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [inclusive-design, response-to-intervention]
-```
-
-No studies met inclusion requirements
-
----
-
----
-
 ### 1527. Hoot Reading – MTSS Tier III
 
 ```yaml
@@ -27404,27 +27299,6 @@ Beable provides a K-12 digital platform for literacy recovery. Beable customizes
 
 ---
 
-### 1535. Parent-Teacher Home Visits – SEL
-
-```yaml
-url: "https://evidenceforessa.org/program/parent-teacher-home-visits-sel/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-The Parent Teacher Home Visits model was co-created by parents and educators using the community organizing principles of shared leadership. Participating teachers conduct 30-40 minute home visits in which educators listen, ask questions, and make observations that they can take back to their classrooms to improve instruction for the learner. As a two-visit model, PTHV encourages the first relationship-building visit to occur in the summer or early fall, followed by ongoing communication throughout the year and a second visit that focuses on academics or any other relevant issue to the student or family. The PTHV model has five non-negotiables: Visits are voluntary and arranged in advance Teachers are trained and compensated for visits Visits focus on hopes and dreams Educators visit a cross-section of students (not a targeted intervention) Educators go in pairs and reflect
-
----
-
----
-
 ### 1536. Scholastic RISE and RISE Up
 
 ```yaml
@@ -27509,48 +27383,6 @@ Reading Horizons Discovery, K–3, is a foundational reading program that uses t
 
 ---
 
-### 1540. CharacterStrong’s PurposeFull People Elementary Curriculum
-
-```yaml
-url: "https://evidenceforessa.org/program/characterstrongs-purposefull-people-elementary-curriculum/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-CharacterStrong’s PurposeFull People Elementary Curriculum is an evidence-based PreK - 5th grade curriculum that integrates the teaching of social-emotional competencies and character strengths. PurposeFull People focuses on supporting students to acquire and apply 3 foundational social-emotional competencies: Emotion Regulation Skills, Social Skills, and Executive Functioning Skills. In addition, the social-emotional competencies are integrated with 10 foundational character traits: Kindness, Courage, Respect, Responsibility, Perseverance, Empathy, Cooperation, Creativity, Honesty, and Gratitude. CharacterStrong’s PurposeFull People includes vertically-aligned curricular content with a total of 36 weekly lessons at each grade level. PurposeFull People was built to provide an adaptive and flexible approach to lesson delivery through 3 implementation plan options (flexible, daily, or weekly).
-
----
-
----
-
-### 1541. CharacterStrong – Secondary
-
-```yaml
-url: "https://evidenceforessa.org/program/characterstrong/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-The CharacterStrong curriculum is a universal program designed for students in grades 6 through 12. The curriculum includes vertically-aligned content across each grade that integrates traditional SEL skills-focused instruction (e.g., emotion regulation and interpersonal skills) with character education. CharacterStrong is designed to build social and emotional competence, develop character, and cultivate strong educator-student relationships. CharacterStrong Middle School curriculum consists of 35 lessons per grade level for 6th through 8th grades. CharacterStrong High School curriculum consists of 25 lessons per grade level for 9th through 12th grades. Each lesson is designed to be delivered with minimal preparation needed and no supplies to minimize implementation barriers, as well as with a strong focus on student voice and choice to maximize student responsiveness. Lessons are delivered in approximately 30 minutes with the flexibility to adapt to a variety of timing needs. CharacterStrong was constructed around five primary principles: Emotion Understanding & Regulation, Empathy & Compassion, Values & Purpose, Goals & Habits, and Leadership & Teamwork. Each of these principles focuses on building specific SEL and character competencies that support three proximal outcomes of well-being, belonging, and engagement.
-
----
-
----
-
 ### 1542. Readable English
 
 ```yaml
@@ -27609,111 +27441,6 @@ tags: [computer-assisted-learning, math-education, personalized-learning]
 ```
 
 Imagine Math by Imagine Learning is a digital supplemental mathematics learning solution designed to support Pre-Kindergarten through Geometry students of all backgrounds. The program provides adaptive and developmentally appropriate instruction that focuses on building students’ conceptual understanding of mathematics. To supplement and enhance digital lessons, scaffolded, rigorous instruction by live, certified teachers is available on-demand to ensure that every student receives timely assistance as needed.
-
----
-
----
-
-### 1547. The 4Rs (Reading, Writing, Respect & Resolution)
-
-```yaml
-url: "https://evidenceforessa.org/program/the-4rs-reading-writing-respect-resolution/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [literacy, sel, writing-instruction]
-```
-
-The 4Rs (for Reading, Writing, Respect, and Resolution) is a program intended to improve social emotional learning as well as literacy for students in grades K-5. It uses high-quality literature to help students gain skills such as handling anger, listening, assertiveness, and cooperation, among others. The 4Rs provides teachers with a literacy-based curriculum of 21-35 lessons based on social-emotional issues. Teachers follow lessons with units on skills highlighted in the readings. Teachers receive 25 hours of training plus extensive coaching.
-
----
-
----
-
-### 1549. Incredible Years: Child Dinosaur Curriculum
-
-```yaml
-url: "https://evidenceforessa.org/program/incredible-years-child-dinosaur-curriculum/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood, literacy, sel]
-```
-
-The Incredible Years (IY) is a set of teacher, child and parent programs designed to promote children’s social, emotional and academic competence including prevention and reduction of behavior problems in children ages 3-12. The IY Child Dinosaur Curriculum is designed for children ages 4-8 years and focuses on teaching children emotional literacy and self-regulation, problem solving, anger management and social skills. 60 classroom lessons are delivered 2-3 times a week by teachers for 3 school levels including a curriculum for preschool, kindergarten and grades 1 and 2. Circle time lessons are generally 20-30 minutes and are followed by small group activities designed to practice the skills being taught. Teachers are encouraged to enhance this learning by reinforcing use of social and emotional skills taught throughout the school day and during recess and meal times. Note: There is also a treatment version of this program where students meet in small groups of no more than 6 children, weekly for 2 hours for a minimum of 18 weeks, ideally while their parents are in the parent 2-hour groups. A model exists for offering this small group treatment approach in schools twice weekly for 1 hour.
-
----
-
----
-
-### 1550. I Can Problem Solve (ICPS)
-
-```yaml
-url: "https://evidenceforessa.org/program/i-can-problem-solve-icps/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood, sel]
-```
-
-The I Can Problem Solve (ICPS) program, developed by Dr. Myrna B. Shure, is a prevention program that supports social and emotional learning. ICPS teaches students how to generate alternative solutions, anticipate consequences, and effectively solve problems. It is designed for use in prekindergarten through the elementary grades and is divided into three sets of lessons for prekindergarten (59 lessons), kindergarten and primary grades (83 lessons), and intermediate elementary grades (77 lessons). ICPS can be implemented in large, mid-size and small school districts. It can be implemented as a stand-alone program or combined with other school climate initiatives or social and emotional programs (as was the case in the reviewed research, where a portion of the sample used the parent program Strengthening Families).
-
----
-
----
-
-### 1551. Getting Along Together
-
-```yaml
-url: "https://evidenceforessa.org/program/getting-along-together/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [response-to-intervention, sel]
-```
-
-Getting Along Together, or GAT, is a schoolwide intervention for grades K-3, designed to enhance students’ social, emotional, and self-regulation skills. Getting Along Together was originally designed as a component of the Success for All whole-school reform model, but it is now also disseminated as a stand-alone program. Enhancements to GAT were researched and evaluated by Jacob, Jones, & Morrison (2013) under the name SECURe, for Social, Emotional, and Cognitive Understanding and Regulation in education. GAT provides weekly lessons that focus on skills such as feeling identification and communication, cooperative learning, win-win conflict resolution, self-regulation of attention to enhance learning, and frustration management. Strategies for effective social relationships and coping skills are presented using characters, stories, and videos to provide engaging and memorable models of desired skills for students. For example, a penguin, Chilly, has serious problems controlling his anger when things go wrong, and learns how to give himself a “Chilly Hug” and count to five when he is about to lose his composure. The children then learn how to recognize when they are frustrated and angry, and learn to give themselves “Chilly Hugs.” Animal characters learn to solve interpersonal problems, and lessons for students are built around discussions about how the animals can learn to manage their own behavior. GAT also has a strong emphasis on cooperative learning, and develops schoolwide structures such as a “Peace Path” to set expectation for a positive school climate and conflict resolution. Teachers receive 1 ½ days of training each year and are visited by coaches who give them feedback and new ideas.
-
----
-
----
-
-### 1552. Emotional ABCs
-
-```yaml
-url: "https://evidenceforessa.org/program/emotional-abcs/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [computer-assisted-learning, early-childhood, professional-development, sel]
-```
-
-The Emotional ABCs Program is a sequential, skill-building educational curriculum for children ages 4 -11 developed in collaboration with psychologists, therapists, and educators. The curriculum, which does not require teacher training, includes a set of 20 classroom workshops consisting of short modules for flexible teacher use. Each workshop uses interactive online activities, videos, printables, as well as in-classroom teacher modeling, teacher-student interactions, and student-student interactions. The curriculum is divided into four units, and each workshop builds on skills introduced in previous workshops. All resources needed per workshop are provided by Emotional ABCs either as online content or as downloadable printables, and each workshop includes a clear SEL Teaching Goal, a Teaching Point with suggested modeling ideas, relevant Group Discussion and Group Activities, plus Individual Self-Reflection sections. A main feature of the curriculum is the Emotional ABCs Toolbar, which shows children how to quickly figure out what they are feeling (Pause), why they are having that emotion (Rewind), and how to make a good choice (Play).
 
 ---
 
@@ -28496,195 +28223,6 @@ The Reading Edge, a whole-school cooperative learning approach to reading instru
 
 ---
 
-### 1590. Incredible Years (IY): Classroom Curriculum + Parent Training Program
-
-```yaml
-url: "https://evidenceforessa.org/program/incredible-years-iy-classroom-curriculum-parent-training-program/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood, sel]
-```
-
-The Incredible Years (IY) is a set of teacher, child and parent programs designed to promote children’s social, emotional and academic competence including prevention and reduction of behavior problems in children ages 3-12. The IY Classroom Curriculum + Parent Training Program, as represented in the accepted research, combined a classroom child training curriculum (the Dinosaur Social Skills Program) with a parent program for students targeted due to conduct problems. The Dinosaur Social Skills classroom program focused on classroom management strategies, pro-social behavior, and reducing conduct disorders, presented in 60 class lessons over 2 years (K-1). The parent program provided weekly sessions for parents focused on ways they could improve their children’s social behavior and academic competence. The current Basic Parent Curriculum, available in different versions based on age of child, consists of weekly 2-hour parent groups covering topics such as social, emotional, academic and persistence coaching, child-directed play, praise and incentives, effective limit setting, proactive discipline and problem solving. Themes throughout the parent program include building supportive social networks, emotional regulation and working collaboratively with teachers. Teaching methods for parents include goal setting and using video vignettes to trigger problem solving and practices. Parents are given home activities to read and practice weekly and set short term goals. The treatment version of the program is a minimum of 18-20 weeks and the prevention version is minimum of 14 weeks.
-
----
-
----
-
-### 1591. Positive Action – Social-Emotional Learning
-
-```yaml
-url: "https://evidenceforessa.org/program/positive-action-social-emotional-learning/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-Positive Action is a whole-school reform strategy designed to improve social-emotional and achievement outcomes by building school climate, self-control, goal-setting, problem-solving, persistence, and other skills. Students learn these skills through structured discussions and activities, games, and role plays. Teachers receive detailed manuals and materials to support 140 15-20 minute lessons per year (4 days per week). Parents also receive handbooks that parallel the school lessons.
-
----
-
----
-
-### 1592. Building Assets Reducing Risks (BARR) – Social-Emotional Learning
-
-```yaml
-url: "https://evidenceforessa.org/program/building-assets-reducing-risks-barr-social-emotional-learning/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [professional-development, sel]
-```
-
-Building Assets Reducing Risks (BARR) is a training and coaching model that serves K–12 schools with a structured system and tools to improve student outcomes. Grounded in two core pillars - Relationships and Data - BARR strengthens staff-student, staff-staff, and student-student relationships while embedding the consistent use of academic and non-academic data into daily practice. BARR strategies include teacher teams meeting regularly to discuss each student’s strengths and progress and identify obstacles to learning. Community Connect meetings are designed to implement comprehensive strategies to address the needs of the students who need resources outside of school for enrichment and support. Extensive professional development and coaching are provided to teachers and school leaders. Family engagement is key to BARR implementation.
-
----
-
----
-
-### 1593. Coping Power
-
-```yaml
-url: "https://evidenceforessa.org/program/coping-power/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [response-to-intervention, sel]
-```
-
-Coping Power is a targeted preventive intervention program for upper elementary students showing behavioral problems. Using 50- to 60-minute long weekly cognitive behavioral group sessions, the program aims to promote emotional awareness, emotional management, social problem solving skills, and positive peer relationships. Coping Power can be implemented as a 15- to 18-month full version, or an 8-month hybrid version which fits the length of a school year.
-
----
-
----
-
-### 1594. Check, Connect, and Expect
-
-```yaml
-url: "https://evidenceforessa.org/program/check-connect-and-expect/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [response-to-intervention, sel]
-```
-
-Check, Connect, and Expect is a targeted intervention focused on students with behavior problems. The program combines principles of the Check & Connect program and the Behavior Education Program, emphasizing daily monitoring for school risk factors, positive relationships with adult mentors, regular feedback on behavior, and problem solving to reach daily and weekly behavior goals. The program leverages district-employed coaches and behavior specialists as mentors and support staff.
-
----
-
----
-
-### 1595. Fast Track – Social-Emotional Learning
-
-```yaml
-url: "https://evidenceforessa.org/program/fast-track-social-emotional-learning/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-Fast Track is a program directed primarily at young children at high risk for antisocial behavior. Children are identified as high risk by their kindergarten teachers, but the treatment is applied in first grade. In schools using Fast Track, all students receive an adaptation of the PATHS SEL approach, in lessons delivered 2-3 days each week. Selected students at high risk, the main focus of Fast Track, are then provided additional services. Parents of the at-risk children are offered parent group meetings, and the children receive social skills training and academic tutoring in weekly two-hour enrichment programs, provided after school or on weekends. Parents are paid to attend these sessions. The enrichment activities include discussions, modeling stories and videos, and role-plays in cooperative groups. The activities focus on emotional understanding, friendship building, self-control, and social problem solving. While children are engaged, parent sessions take place, focusing on parenting skills. Home visits were provided bi-weekly.
-
----
-
----
-
-### 1596. Incredible Years (IY) – Teacher Classroom Management Program
-
-```yaml
-url: "https://evidenceforessa.org/program/incredible-years-iy-teacher-classroom-management-program/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood]
-```
-
-Incredible Years Teacher Classroom Management (IY TCM) is a teacher classroom management program designed for pre-K-grade 3. Teachers learn classroom management skills through 6 full day teacher group workshops spread out monthly or bimonthly. During these trainings teachers watch video vignettes of effective classroom management strategies used to trigger discussions, problem solving and to practice the skills through role-play scenarios and participants receive feedback from fellow teachers and trainers. The training includes evidence-based teaching strategies such as social, emotional, persistence, and academic coaching, behavior-specific praise and motivating incentives, clear limit setting and proactive discipline starting with the least intrusive methods. Emphases is placed on building positive student-teacher-parent relationships and developmentally appropriate teaching methods. The training is based on a collaborative and self-reflective process where teachers identify personal goals and develop behavior plans for target children. Teachers are encouraged to actively participate in group discussions, and are given reading and practice assignments between workshop days. During the periods between/after trainings, certified group leaders or teacher coaches observe teachers in the classroom, provide modeling and support and meet to review behavior plans and goals.
-
----
-
----
-
-### 1597. Adventures Aboard the S.S. Grin
-
-```yaml
-url: "https://evidenceforessa.org/program/social-skills-group-intervention-s-s-grin/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [computer-assisted-learning, sel]
-```
-
-Adventures Aboard the S.S. GRIN is an online SEL curriculum that is student led and designed to assist students in grades 3-5, regardless of their social emotional competence. Built around an engaging narrative, Adventures Aboard the S.S. GRIN includes a series of scenes focusing on Respect, Thinking Ahead, Responsibility, Communication, Check it Out, Friendships, and Cooperation. If played once or twice per week, the program can be completed during a semester or a full year. Adventures Aboard the S.S.GRIN can be used in classroom, clinic, and community settings.
-
----
-
----
-
-### 1598. Becoming a Man (BAM)
-
-```yaml
-url: "https://evidenceforessa.org/program/becoming-a-man-bam/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [dropout-prevention, professional-development, sel]
-```
-
-Becoming a Man (BAM) is a school-based group counseling and mentoring program for male identifying students in grades 7-12. BAM targets young men in urban schools that demonstrate risk factors associated with school dropout and justice system involvement. BAM participants engage in a series of one-hour, once-a-week sessions that help them learn, internalize, and practice social-emotional skills, make responsible decisions for their future, and become positive members of their school and community. Students participate in up to 27 curriculum-based group sessions per year (each group averages 10-12 students) that are held during the school day and led by a full-time, trained BAM Counselor. The BAM Curriculum is centered on six core values that include: Integrity, Accountability, Self-Determination, Positive Anger Expression, Respect for Womanhood, and Visionary Goal Setting. Curriculum activities are grounded in principles of clinical practice (i.e. cognitive behavioral therapy), men’s rites of passage work, and incorporate engaging activities to help students see common behaviors and attitudes in new ways. The sessions include in-depth check-ins, role playing, stories, a trust walk, and other activities designed to evoke discussion and new ways of thinking.
-
----
-
----
-
 ### 1599. Second Step – Attendance
 
 ```yaml
@@ -28722,69 +28260,6 @@ tags: [attendance, career-readiness, math-education, professional-development]
 ```
 
 The Talent Development High School is a program intended to improve achievement and attendance for 9th graders in high-poverty urban schools. It provides schools with professional development to help them implement the following: 1) small interdisciplinary learning communities within the 9th grade, 2) curricula in English and mathematics based on “double dose” English and math courses, “freshman seminars” focusing on study skills and time management, career academies, and cooperative learning, 3) extra help for struggling students, and 4) parent and community involvement activities.
-
----
-
----
-
-### 1602. Big Brothers, Big Sisters (BBBS) School-Based Mentoring (SBM) Program
-
-```yaml
-url: "https://evidenceforessa.org/program/big-brothers-big-sisters-bbbs-school-based-mentoring-sbm-program/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [professional-development]
-```
-
-An extension of the Big Brothers Big Sisters (BBBS) community-based mentoring (CBM) program, the school-based monitoring (SBM) program pairs volunteer mentors with youth for school-based meetings with the goal of forging special relationships, decreasing drug and alcohol use, increasing self-control and cooperation, improving teacher-student relationships, and improving academic achievement. BBBS agencies partner with schools nationwide to support students. Children are usually referred to the SBM program by teachers or school staff, and mentors often come from high school, college, or businesses. Meetings between mentors and youth typically take place on school grounds (such as the cafeteria or library) and last 45 minutes or longer each week, either during the school day or after school. There is no set structure for these meetings, but schools can determine a set of recommended or requested activities from which mentors and mentees can choose. There is typically a non-academic focus to these meetings, with creative activities, games, and discussions complementing tutoring and homework assistance.
-
----
-
----
-
-### 1603. Student Success Skills (Targeted) – Social-Emotional Learning
-
-```yaml
-url: "https://evidenceforessa.org/program/student-success-skills-targeted-social-emotional-learning/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [sel]
-```
-
-Student Success Skills (SSS) provides training to students in classroom lessons and through small groups counseling. Both the SSS classroom and small group focus on helping students develop academic, social, and self-management skills associated with improved student performance. Students receive five 45-minute classroom lessons spaced one week apart for middle school and high school. For elementary grades, there are five to eight 30-minute classroom lessons. For students needing additional support there is the SSS group counseling program which consist of eight group sessions spaced one week apart. In both the classroom and small group sessions, teachers or counselors teach learning, social and self-management skills and encouraged students to identify issues of importance to them, set goals, and monitor progress. Peer coaching is used to teach prosocial skills.
-
----
-
----
-
-### 1604. Tools of the Mind
-
-```yaml
-url: "https://evidenceforessa.org/program/tools-of-the-mind/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-06-04
-doi: null
-license: null
-tags: [early-childhood, literacy, math-education, professional-development, sel, writing-instruction]
-```
-
-Tools of the Mind is a professional development and comprehensive early childhood (PreK and Kindergarten) program that embeds development of executive functions and self-regulation into the design of all teaching and learning activities. The program leverages make-believe play and a classroom culture of co-regulation and peer scaffolding to build children’s foundational skills in reading, writing, mathematics, and science while at the same time promoting pro-social behaviors and positive approaches to learning. Tools of the Mind aims to empower teachers with the understandings and tools they need to create positive classroom cultures, facilitate intentional playful learning, and support the development of self-regulated learners who achieve to their full potential––closing the achievement gap for low income, minority and dual language learner students.
 
 ---
 
@@ -81920,48 +81395,6 @@ This field note introduces the 5-Phase user experience (UX) Design Loop as a tra
 
 ---
 
-### 8970. Wyman’s Teen Connection Project (TCP)
-
-```yaml
-url: "https://evidenceforessa.org/program/wymans-teen-connection-project-tcp/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [k-12, sel, student-belonging]
-```
-
-Wyman’s Teen Connection Project (TCP) is an in-person, experiential program designed to strengthen adolescents' peer relationships and increase their ability to view peers as sources of support. High-school aged students participate in 12 small-group, curriculum-based, facilitator-led sessions intended to establish trust and belonging, identify common experiences, encourage appropriate self-disclosure, and develop more supportive relationships with classmates. Sessions progress from establishing a safe peer context, to developing social belonging, to consolidating relationships and helping students recognize their own and others' strengths.
-
----
-
----
-
-### 8971. The Positivity Project (P2)
-
-```yaml
-url: "https://evidenceforessa.org/program/the-positivity-project-p2/"
-type: report
-source: "Evidence for ESSA"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [computer-assisted-learning, k-12, personalized-learning, professional-development, sel]
-```
-
-The Positivity Project is a universal character education program for preK-12 students. Teachers deliver 15-minute daily lessons on 24 character strengths drawn from positive psychology (e.g., kindness, perseverance, gratitude, social intelligence), using a digital library of 32 weeks of grade-differentiated slide presentations provided by the developer. A typical weekly cycle introduces the strength, reinforces it through discussion, has students apply it through an activity, and closes with reflection such as journaling. Teacher training consists of a three-hour staff-wide online session.
-
----
-
----
-
 ### 8972. Thinking Math! by Innovamat
 
 ```yaml
@@ -82293,5 +81726,89 @@ tags: [dropout-prevention, k-12, wwc]
 ```
 
 Geared toward educators, administrators, and policymakers, this guide provides recommendations that focus on reducing high school dropout rates.
+
+---
+
+---
+
+### 8994. Families and Schools Together (FAST)
+
+```yaml
+url: "https://evidenceforessa.org/program/families-and-schools-together-fast/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-31
+doi: null
+license: null
+tags: [professional-development]
+```
+
+Families and Schools Together (FAST) partners with community-based organizations and schools across the U.S. to provide training, support, and technical assistance for their FAST Program and FAST Institute. The FAST Program meets for weekly 2.5-hour in-person or virtual sessions over an 8 - 10-week cycle. During these sessions, a trained FAST Team of local parents, youth (for middle and high school levels only), educators, and mental health and other community professionals facilitates and provides coaching and support to participating families engaging in special play/conversation time with their children and other participating families. The FAST Institute provides training and coaching for family engagement professionals, educators, and staff on best practices in teacher training and family and community engagement through an equity-focused approach. During these sessions, facilitators/coaches and participants review key research, discuss best practices and share tools and strategies school staff can use daily when working with families through group discussions and hands-on approaches.
+
+---
+
+---
+
+### 8995. Parent Teacher Home Visits
+
+```yaml
+url: "https://evidenceforessa.org/program/parent-teacher-home-visits/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-31
+doi: null
+license: null
+tags: [response-to-intervention]
+```
+
+Parent Teacher Home Visits model was co-created by parents and educators using the community organizing principles of shared leadership. Participating teachers conduct 30-40 minute home visits in which educators listen, ask questions, and make observations that they can take back to their classrooms to improve instruction for the learner. As a two-visit model, PTHV encourages the first relationship-building visit to occur in the summer or early fall, followed by ongoing communication throughout the year and a second visit that focuses on academics or any other relevant issue to the student or family. The PTHV model has five non-negotiables: Visits are voluntary and arranged in advance Teachers are trained and compensated for visits Visits focus on hopes and dreams Educators visit a cross-section of students (not a targeted intervention) Educators go in pairs and reflect
+
+---
+
+---
+
+### 8996. Connect Science
+
+```yaml
+url: "https://evidenceforessa.org/program/connect-science/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-31
+doi: null
+license: null
+tags: []
+```
+
+Connect Science is a curricular approach designed to prepare teachers to use Next Generation Science Standards (NGSS) instructional practices, teach social and collaborative skills, and facilitate a service-learning experience in their science class. The sequence of 31 lessons are typically taught over 14 weeks or more; they replace existing fourth grade science units and can be integrated with other content instruction.
+
+---
+
+---
+
+### 8997. SaferSanerSchools Whole-School Change
+
+```yaml
+url: "https://evidenceforessa.org/program/safersanerschools-whole-school-change/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-31
+doi: null
+license: null
+tags: []
+```
+
+The SaferSanerSchools™ Whole-School Change program is disseminated though the International Institute for Restorative Practices (IIRP). It is grounded in 11 essential elements that center around the importance of communication, responsibility, restoration, and separating the “deed” from the “doer.” It requires all school staff to learn how to enact the key elements with an aim of increasing understanding of how one’s actions affect others and more broadly creating a better school climate.
 
 ---

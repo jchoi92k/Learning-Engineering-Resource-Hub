@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — What Works Clearinghouse (full)
-# 174 entries with descriptions | Last updated: 2026-08-30
+# 174 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-what-works-clearinghouse.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

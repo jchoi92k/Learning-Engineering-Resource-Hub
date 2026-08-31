@@ -2,7 +2,7 @@
 
 > 11 entries from IEA.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-iea.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 399. [TIMSS — Trends in International Mathematics and Science Study (Databases)](https://timssandpirls.bc.edu/databases-landing.html) | dataset | k-12, math-education, open-datasets
 - 400. [PIRLS 2021 — Progress in International Reading Literacy Study (International Database)](https://timssandpirls.bc.edu/pirls2021/international-database/) | dataset | k-12, literacy, open-datasets

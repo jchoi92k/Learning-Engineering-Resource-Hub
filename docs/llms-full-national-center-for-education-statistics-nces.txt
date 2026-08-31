@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — National Center for Education Statistics (NCES) (full)
-# 29 entries with descriptions | Last updated: 2026-08-30
+# 29 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-national-center-for-education-statistics-nces.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

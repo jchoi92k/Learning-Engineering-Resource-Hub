@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Carnegie Mellon University LearnLab (full)
-# 12 entries with descriptions | Last updated: 2026-08-30
+# 12 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-carnegie-mellon-university-learnlab.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

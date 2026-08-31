@@ -2,7 +2,7 @@
 
 > 174 entries from What Works Clearinghouse.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-what-works-clearinghouse.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 1. [Organizing Instruction and Study to Improve Student Learning](https://ies.ed.gov/ncee/wwc/PracticeGuide/1) | framework | cognitive-science, formative-assessment, k-12, learning-engineering, math-strategies
 - 2. [Using Student Achievement Data to Support Instructional Decision Making](https://ies.ed.gov/ncee/wwc/PracticeGuide/12) | framework | data-sharing, formative-assessment, k-12, learning-engineering, professional-development

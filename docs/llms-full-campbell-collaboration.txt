@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Campbell Collaboration (full)
-# 51 entries with descriptions | Last updated: 2026-08-30
+# 51 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-campbell-collaboration.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

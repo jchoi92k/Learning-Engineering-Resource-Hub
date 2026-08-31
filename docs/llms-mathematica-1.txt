@@ -2,7 +2,7 @@
 
 > 633 entries from Mathematica; this part lists 382 of them (entry numbers 1066–5139).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-mathematica.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 Next part: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-mathematica-2.txt
 

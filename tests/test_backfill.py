@@ -148,6 +148,7 @@ def test_backlog_rows_keep_raw_item():
 
 def test_curate_accepts_type_filtered_reason():
     from curate import valid_reason
+    assert valid_reason("essa_no_evidence")
     assert valid_reason("type_filtered:Commentary")
     assert valid_reason("type_filtered:Training and Professional Development")
     assert not valid_reason("type_filtered:")

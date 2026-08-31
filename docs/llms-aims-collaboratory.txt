@@ -2,7 +2,7 @@
 
 > 47 entries from AIMS Collaboratory.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-aims-collaboratory.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 506. [Analyzing Strategies in MATHia with BERT](https://link.springer.com/chapter/10.1007/978-3-031-98465-5_15) | paper | aims, carnegie-learning, math-strategies, nlp
 - 507. ["Can A Language Model Represent Math Strategies?": Learning Math Strategies from Big Data using BERT](https://dl.acm.org/doi/10.1145/3706468.3706558) | paper | aims, math-strategies, nlp

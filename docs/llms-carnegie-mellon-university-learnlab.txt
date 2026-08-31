@@ -2,7 +2,7 @@
 
 > 12 entries from Carnegie Mellon University LearnLab.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-carnegie-mellon-university-learnlab.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 405. [PSLC DataShop KDD Cup 2010 Educational Data Mining Challenge](https://pslcdatashop.web.cmu.edu/KDDCup/) | dataset | cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets
 - 406. [LearnSphere — Education Research Data Infrastructure](https://learnsphere.org/) | dataset | cmu-learnlab, data-sharing, learning-engineering, open-datasets

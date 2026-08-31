@@ -2,7 +2,7 @@
 
 > 29 entries from National Center for Education Statistics (NCES).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-national-center-for-education-statistics-nces.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 391. [High School Longitudinal Study of 2009 (HSLS:09)](https://nces.ed.gov/surveys/hsls09/) | dataset | career-readiness, college-access, k-12, longitudinal, math-education, open-datasets
 - 392. [Education Longitudinal Study of 2002 (ELS:2002)](https://nces.ed.gov/surveys/els2002/) | dataset | college-access, k-12, longitudinal, open-datasets

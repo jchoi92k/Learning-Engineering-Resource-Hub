@@ -2,7 +2,7 @@
 
 > 22 entries from Brookings Institution.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-brookings-institution.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 309. [Getting state 'free college' right: Design choices that matter](https://www.brookings.edu/articles/getting-state-free-college-right-design-choices-that-matter/) | report | college-access, higher-ed, personalized-learning
 - 310. [The complex ramifications of Students for Fair Admissions v. Harvard](https://www.brookings.edu/articles/the-complex-ramifications-of-students-for-fair-admissions-v-harvard/) | report | higher-ed, k-12, longitudinal

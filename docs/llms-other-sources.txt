@@ -2,7 +2,7 @@
 
 > 71 entries from Other sources (30 organizations).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-other-sources.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 566. [ADL xAPI Wrapper](https://github.com/adlnet/xAPIWrapper) | code | digital-learning-platforms, learning-engineering
 - 567. [ADL Learning Record Store](https://github.com/adlnet/ADL_LRS) | code | data-sharing, digital-learning-platforms, learning-engineering

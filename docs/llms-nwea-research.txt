@@ -2,7 +2,7 @@
 
 > 291 entries from NWEA Research.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-nwea-research.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 1061. [Academically Diverse Classrooms, Deeper Needs: What Teachers Face After the Pandemic](https://www.nwea.org/research/publication/academically-diverse-classrooms-deeper-needs-what-teachers-face-after-the-pandemic/) | report | formative-assessment, k-12, longitudinal, professional-development
 - 1062. [Should Kindergartners Be Redshirted? Costs Likely Outweigh Academic Benefits](https://www.nwea.org/research/publication/should-kindergartners-be-redshirted-costs-likely-outweigh-academic-benefits/) | report | early-childhood, k-12, longitudinal, prekindergarten

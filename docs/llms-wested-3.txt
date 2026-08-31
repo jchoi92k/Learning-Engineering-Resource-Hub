@@ -2,7 +2,7 @@
 
 > 912 entries from WestEd; this part lists 29 of them (entry numbers 6717–6745).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 6717. [Effects of Problem Based Economics on High School Economics Instruction: Final Report](https://www.wested.org/resource/effects-of-problem-based-economics-on-high-school-economics-instruction-final-report/) | report | 
 - 6718. [Do States Have Certification Requirements for Preparing General Education Teachers to Teach Students with Disabilities? Experience in the Northeast and Islands Region](https://www.wested.org/resource/do-states-have-certification-requirements-for-preparing-general-education-teachers-to-teach-students-with-disabilities-experience-in-the-northeast-and-islands-region/) | report | inclusive-design

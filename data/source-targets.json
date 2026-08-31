@@ -28,13 +28,13 @@
     "notes": "319 publications. 320 indexed after the 2026-08-30 backfill (31 from the May 2026 hand pass); 3 pending rows without a page abstract. Config: sources/uchicago-consortium.json (detail_fetch for og:description abstracts). In the weekly source list."
   },
   "Evidence for ESSA": {
-    "known_total": 1297,
+    "known_total": 1300,
     "priority": "high",
     "status": "active",
     "discovery_url": "https://evidenceforessa.org/wp-json/wp/v2/program",
     "sample_url": "https://evidenceforessa.org/program/lenses-on-literature/",
     "discovery_check": "evidenceforessa.org/program",
-    "notes": "WP REST API. 1,297 programs (202 rated: 84 Strong, 36 Moderate, 82 Promising). 221 indexed. Config: sources/evidence-for-essa.json."
+    "notes": "WP REST API. 1,300 programs on 2026-08-31 (201 rated: 82 Strong, 37 Moderate, 82 Promising). 203 indexed (every rated program, backfilled 2026-08-31); rated only from 2026-08-31 (exclude_when on evidence_rating, reason essa_no_evidence). Config: sources/evidence-for-essa.json."
   },
   "NWEA Research": {
     "known_total": null,
@@ -52,7 +52,7 @@
     "discovery_url": "https://mathematica.org/coveo/rest/search/v2",
     "sample_url": "https://www.mathematica.org/publications/evaluation-of-the-networks-for-school-improvement-initiative-student-outcomes-final-report",
     "discovery_check": "Education",
-    "notes": "Coveo API (no auth needed). ~925 unique education pubs after dedup. 474 indexed. Config: sources/mathematica.json."
+    "notes": "Coveo API (no auth needed). ~925 unique education pubs after dedup; 930 rows in hub.db on 2026-08-31: 753 active (633 published, 120 held for broken URLs), 96 excluded mathematica_no_description, 81 excluded broken_url - everything the index lists is in. Config: sources/mathematica.json."
   },
   "WestEd": {
     "known_total": 1254,

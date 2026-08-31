@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub
 
-> 3918 curated evidence-based K-12 and higher education resources — links with metadata and a description each, from organizations with documented review (What Works Clearinghouse, Learning Policy Institute, Mathematica, Digital Promise, Evidence for ESSA and others). Last updated: 2026-08-30
+> 3895 curated evidence-based K-12 and higher education resources — links with metadata and a description each, from organizations with documented review (What Works Clearinghouse, Learning Policy Institute, Mathematica, Digital Promise, Evidence for ESSA and others). Last updated: 2026-08-31
 
 This is the root index. Each source below links to a compact list of its entries (entry number, title, URL, type, tags); large sources are split into parts under 100,000 characters. Every source also has a file with full descriptions. For the whole corpus in one file see llms-full.txt; for search use the MCP endpoint.
 
@@ -13,7 +13,7 @@ This is the root index. Each source below links to a compact list of its entries
 - [UChicago Consortium on School Research](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-uchicago-consortium-on-school-research.txt): 320 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-uchicago-consortium-on-school-research.txt
 - [NWEA Research](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-nwea-research.txt): 291 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-nwea-research.txt
 - [Digital Promise](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-digital-promise.txt): 273 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-digital-promise.txt
-- [Evidence for ESSA](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-evidence-for-essa.txt): 226 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-evidence-for-essa.txt
+- [Evidence for ESSA](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-evidence-for-essa.txt): 203 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-evidence-for-essa.txt
 - [What Works Clearinghouse](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-what-works-clearinghouse.txt): 174 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-what-works-clearinghouse.txt
 - [Campbell Collaboration](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-campbell-collaboration.txt): 51 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-campbell-collaboration.txt
 - [AIMS Collaboratory](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-aims-collaboratory.txt): 47 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-aims-collaboratory.txt
@@ -31,7 +31,7 @@ This is the root index. Each source below links to a compact list of its entries
 
 ## Whole corpus
 
-- [llms-full.txt](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt): all 3918 entries with descriptions in one self-contained file (large)
+- [llms-full.txt](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt): all 3895 entries with descriptions in one self-contained file (large)
 - [data.json](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/data.json): the same entries as structured JSON
 - [MCP endpoint](https://renaissance-hub.joon-96a.workers.dev/mcp): semantic search over the corpus (tools: search, fetch, search_resources, get_entries_batch, list_tags, list_sources)
 
@@ -39,17 +39,17 @@ This is the root index. Each source below links to a compact list of its entries
 
 Tag vocabulary with entry counts; filter values for the MCP tools.
 
-**Domain:** k-12 (865), math-education (521), literacy (426), learning-engineering (300), english-learners (220), early-childhood (217), higher-ed (199), school-discipline (32)
+**Domain:** k-12 (861), math-education (520), literacy (423), learning-engineering (300), english-learners (220), early-childhood (211), higher-ed (199), school-discipline (32)
 
-**Method:** computer-assisted-learning (256), longitudinal (201), response-to-intervention (192), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+**Method:** computer-assisted-learning (252), longitudinal (201), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
 
-**Topic:** college-access (424), formative-assessment (410), sel (316), professional-development (283), career-readiness (233), personalized-learning (141), inclusive-design (127), attendance (111), open-datasets (101), dropout-prevention (95), digital-learning-platforms (76), writing-instruction (60), prekindergarten (46), student-belonging (37), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+**Topic:** college-access (424), formative-assessment (410), sel (293), professional-development (276), career-readiness (233), personalized-learning (140), inclusive-design (126), attendance (111), open-datasets (101), dropout-prevention (94), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
 
 **Affiliation:** lpi (348), edtrust (322), digital-promise (273), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
-report (3022), paper (521), framework (168), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
+report (2999), paper (521), framework (168), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
 
 ## Optional
 

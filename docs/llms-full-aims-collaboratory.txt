@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — AIMS Collaboratory (full)
-# 47 entries with descriptions | Last updated: 2026-08-30
+# 47 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-aims-collaboratory.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

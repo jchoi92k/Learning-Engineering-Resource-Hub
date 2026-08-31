@@ -2,7 +2,7 @@
 
 > 273 entries from Digital Promise.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-digital-promise.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 18. [Breaking With the Past: Embracing Digital Transformation in Education](https://digitalpromise.dspacedirect.org/items/6559b261-d6d7-4184-9116-16eb93a9c212) | report | digital-learning-platforms, digital-promise, learning-engineering, personalized-learning
 - 19. [Computational Thinking for an Inclusive World](https://digitalpromise.dspacedirect.org/handle/20.500.12265/138) | report | computer-assisted-learning, digital-promise, inclusive-design, k-12, learning-engineering

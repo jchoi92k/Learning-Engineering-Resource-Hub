@@ -2,7 +2,7 @@
 
 > 17 entries from Tools Competition.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-tools-competition.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 488. [Hunu (Craft Education)](https://crafteducation.io) | platform | early-childhood, inclusive-design, k-12, sel, tools-competition
 - 489. [Journify Learning](https://www.journify-learning.com) | platform | digital-learning-platforms, inclusive-design, k-12, personalized-learning, tools-competition

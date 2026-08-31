@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — IEA (full)
-# 11 entries with descriptions | Last updated: 2026-08-30
+# 11 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-iea.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

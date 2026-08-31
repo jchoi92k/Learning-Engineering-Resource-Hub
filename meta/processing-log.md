@@ -170,3 +170,16 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Published: intervention reports with an evidence tier (1–3) and the practice guides; every Tier −1 report is held as an excluded `wwc_tier_minus1_no_evidence` row (`wwc.json` `exclude_when`).
 - `wwc-practice-guides` joins the weekly list (30 guides on the listing).
 - Published entries: 3,918.
+
+## 2026-08-31 - Evidence for ESSA: rated only
+- Published: programs rated Strong, Moderate or Promising; every No Evidence / N/A program is held as an excluded `essa_no_evidence` row (`evidence-for-essa.json` `exclude_when`). The 27 published unrated rows were excluded (ESSA 226 -> 199).
+- URL verification: the 465 published rows never checked (Mathematica, LPI, Campbell, WWC, Digital Promise) all returned 200; every published row now carries a verified status.
+- Published entries: 3,891.
+
+## 2026-08-31 - Evidence for ESSA
+- Source slug: `evidence-for-essa`
+- Scraped: 4 total, 4 ready, 0 backlog
+- Processed: 4 entries (8994-8997)
+- Backlog rows recorded as pending (excluded): 4
+- Tags: keyword auto-tagged
+- Note: the 4 entries are the rated programs past page 1 of the newest-first listing (`--backfill`); the 4 set-aside rows (8998-9001) are `essa_no_evidence` under the rated-only rule. All 4 new URLs verified. Published entries: 3,895.

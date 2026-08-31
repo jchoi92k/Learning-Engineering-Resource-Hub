@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Journal of Learning Analytics (full)
-# 39 entries with descriptions | Last updated: 2026-08-30
+# 39 entries with descriptions | Last updated: 2026-08-31
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-journal-of-learning-analytics.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

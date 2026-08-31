@@ -2,7 +2,7 @@
 
 > 322 entries from The Education Trust.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-the-education-trust.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
 
 - 145. [Engaging First: Supporting Young Learners Through Family Engagement](https://edtrust.org/rti/young-learners-family-engagement/) | report | early-childhood, edtrust, k-12, learning-engineering
 - 146. [Making Assessment Reports More Meaningful for Students & Families](https://edtrust.org/rti/assessment-reports-family-engagement/) | report | edtrust, formative-assessment, k-12, learning-engineering

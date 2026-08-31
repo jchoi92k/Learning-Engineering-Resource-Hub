@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub — NWEA Research
 
-> 309 entries from NWEA Research.
+> 291 entries from NWEA Research.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-nwea-research.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
@@ -97,36 +97,18 @@
 - 7501. [Technical Appendix: Unequal Access to 8th-Grade Algebra: How School Offerings and Placement Practices Limit Opportunity](https://www.nwea.org/research/publication/technical-appendix-unequal-access-to-8th-grade-algebra-how-school-offerings-and-placement-practices-limit-opportunity/) | report | math-education
 - 7502. [Technical Appendix: MAP Growth Specialty School National Dashboard](https://www.nwea.org/research/publication/technical-appendix-map-growth-specialty-school-national-dashboard/) | report | 
 - 7503. [Technical appendix for “Hot test days, lower math scores: How heat affects student achievement”](https://www.nwea.org/research/publication/technical-appendix-for-hot-test-days-lower-math-scores-how-heat-affects-student-achievement/) | report | literacy, math-education
-- 7504. [Introducing the MAP Growth National Dashboard: Your real-time companion to MAP Growth norms](https://www.nwea.org/research/publication/introducing-the-map-growth-national-dashboard-your-real-time-companion-to-map-growth-norms/) | report | 
 - 7505. [User Guide and FAQ: MAP Growth National Dashboard](https://www.nwea.org/research/publication/user-guide-and-faq-map-growth-national-dashboard/) | framework | 
 - 7506. [Technical Appendix: MAP Growth National Dashboard](https://www.nwea.org/research/publication/technical-appendix-map-growth-national-dashboard/) | framework | 
 - 7507. [Specialty Schools National Dashboard](https://www.nwea.org/research/publication/achievement-and-growth-tables-for-private-schools/) | report | formative-assessment
-- 7508. [Responsive leadership in crisis: Lessons from the pandemic for education leaders](https://www.nwea.org/research/publication/responsive-leadership-in-crisis-lessons-from-the-pandemic-for-education-leaders/) | report | 
 - 7509. [MAP Growth Goal Explorer](https://www.nwea.org/research/publication/map-growth-goal-explorer/) | report | 
-- 7510. [Reimagining family engagement: A long-term strategy for COVID recovery](https://www.nwea.org/research/publication/reimagining-family-engagement-a-long-term-strategy-for-covid-recovery/) | report | 
-- 7511. [Getting precise: Why instructional time matters for fair comparisons of student achievement](https://www.nwea.org/research/publication/getting-precise-why-instructional-time-matters-for-fair-comparisons-of-student-achievement/) | report | 
 - 7512. [The Impact of Severe Weather Events on Education: Revisiting Hurricane Katrina While Preparing for the Next Disaster](https://www.nwea.org/research/publication/the-impact-of-severe-weather-events-on-education-revisiting-hurricane-katrina-while-preparing-for-the-next-disaster/) | report | 
-- 7513. [Realistic vs. meaningful growth: Rethinking growth goals with 2025 MAP Growth norms](https://www.nwea.org/research/publication/realistic-vs-meaningful-growth-rethinking-growth-goals-with-2025-map-growth-norms/) | report | 
-- 7514. [What can you do with the 2025 MAP Growth norms? Turning test results into action](https://www.nwea.org/research/publication/what-can-you-do-with-the-2025-map-growth-norms-turning-test-results-into-action/) | report | 
-- 7515. [Same scale, new reference: What’s new in the 2025 MAP Growth norms](https://www.nwea.org/research/publication/same-scale-new-reference-whats-new-in-the-2025-map-growth-norms/) | report | 
-- 7516. [Making sense of standard error of measurement](https://www.nwea.org/research/publication/making-sense-of-standard-error-of-measurement/) | report | formative-assessment
-- 7517. [What the research tells us about four-day school weeks](https://www.nwea.org/research/publication/what-the-research-tells-us-about-four-day-school-weeks/) | report | 
-- 7518. [3 academic interventions policymakers can support to help get students back on track](https://www.nwea.org/research/publication/3-academic-interventions-policymakers-can-support-to-help-get-students-back-on-track/) | report | response-to-intervention
-- 7519. [Every school has advanced learners. Use local norms to find them](https://www.nwea.org/research/publication/every-school-has-advanced-learners-use-local-norms-to-find-them/) | report | 
 - 7520. [Technical appendix for “Boys regain the advantage in middle school STEM skills: Post-COVID trends in gender achievement gaps”](https://www.nwea.org/research/publication/technical-appendix-for-boys-regain-the-advantage-in-middle-school-stem-skills-post-covid-trends-in-gender-achievement-gaps/) | report | formative-assessment, k-12, math-education
 - 7521. [Spanish MAP Reading Fluency content guide](https://www.nwea.org/research/publication/spanish-map-reading-fluency-content-guide/) | report | early-childhood, english-learners, formative-assessment, literacy, personalized-learning
-- 7522. [How to meet student needs following inclement weather-related school closures](https://www.nwea.org/research/publication/how-to-meet-student-needs-following-inclement-weather-related-school-closures/) | report | 
-- 7523. [New research on science learning loss following COVID-19 school closures](https://www.nwea.org/research/publication/new-research-on-science-learning-loss-following-covid-19-school-closures/) | report | 
 - 7524. [Technical Brief – COVID’s impact on science achievement: Trends from 2019 through 2024](https://www.nwea.org/research/publication/technical-brief-covids-impact-on-science-achievement-trends-from-2019-through-2024/) | report | k-12
 - 7525. [English MAP Reading Fluency technical report](https://www.nwea.org/research/publication/english-map-reading-fluency-technical-report/) | report | formative-assessment, literacy
-- 7526. [New data: How far off is COVID academic recovery?](https://www.nwea.org/research/publication/new-data-how-far-off-is-covid-academic-recovery/) | report | literacy, math-education
 - 7527. [Technical Brief Recovery still elusive: 2023-24 student achievement highlights persistent achievement gaps and a long road ahead](https://www.nwea.org/research/publication/technical-brief-recovery-still-elusive-2023-24-student-achievement-highlights-persistent-achievement-gaps-and-a-long-road-ahead/) | report | literacy, math-education
 - 7528. [Predicting Amira Reading Mastery Based on NWEA MAP Reading Fluency Benchmark Assessment Scores](https://www.nwea.org/research/publication/predicting-amira-reading-mastery-based-on-nwea-map-reading-fluency-benchmark-assessment-scores/) | report | formative-assessment, literacy
-- 7529. [When are students “ready” for algebra?](https://www.nwea.org/research/publication/when-are-students-ready-for-algebra/) | report | math-education
-- 7530. [Summer learning loss: What we know and what we’re learning](https://www.nwea.org/research/publication/summer-learning-loss-what-we-know-and-what-were-learning/) | report | 
-- 7531. [3 considerations on chronic absenteeism for education policymakers](https://www.nwea.org/research/publication/3-considerations-on-chronic-absenteeism-for-education-policymakers/) | report | attendance, college-access, sel
 - 7532. [Typical learning for whom? Guidelines for selecting benchmarks to calculate months of learning](https://www.nwea.org/research/publication/73510/) | report | math-education
-- 7533. [MAP-Growth can lower the cost and increase the accuracy of gifted and talented placements](https://www.nwea.org/research/publication/map-growth-can-lower-the-cost-and-increase-the-accuracy-of-gifted-and-talented-placements/) | report | 
 - 7534. [Technical appendix: 2022-23 achievement data reveal stalled progress toward pandemic recovery](https://www.nwea.org/research/publication/technical-appendix-2022-23-achievement-data-reveal-stalled-progress-toward-pandemic-recovery/) | report | 
 - 7535. [Executive Summary: Content proximity spring 2022 pilot study](https://www.nwea.org/research/publication/executive-summary-content-proximity-spring-2022-pilot-study/) | report | formative-assessment
 - 7536. [Content Proximity Spring 2022 Pilot Study Research Report](https://www.nwea.org/research/publication/content-proximity-spring-2022-pilot-study-research-report/) | report | formative-assessment

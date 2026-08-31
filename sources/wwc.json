@@ -1,5 +1,5 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in wwc.md.",
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in wwc.md. Rated only (2026-08-30): intervention reports whose evidence tier is -1 (no studies met WWC standards) are staged as filtered_items and inserted as excluded wwc_tier_minus1_no_evidence rows, description or not. Practice guides: wwc-practice-guides.json.",
 
   "discovery": "single_page",
   "discovery_url": "https://ies.ed.gov/ncee/wwc/Search/Products?productType=2",
@@ -13,6 +13,10 @@
     "grade_level": "td:nth-of-type(2) strong",
     "evidence_tier": "td:nth-of-type(3) span[name='EvidenceTierId']"
   },
+
+  "exclude_when": [
+    {"field": "evidence_tier", "values": ["-1"], "reason": "wwc_tier_minus1_no_evidence"}
+  ],
 
   "robots_txt": "https://ies.ed.gov/robots.txt",
 

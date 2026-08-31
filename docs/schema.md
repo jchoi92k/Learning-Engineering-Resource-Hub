@@ -19,6 +19,8 @@ description_source: string|null  # What kind of text the description is — see 
 tags: list[string]               # Controlled vocabulary (see below)
 ```
 
+`url` identifies a row: hub.db keeps one row per URL across published and excluded entries, compared case-insensitively and without a trailing slash (unique index `idx_entries_url_norm`; `build_from_db.py --check` reports any violation).
+
 ## Resource Types
 
 | Type | Description |
@@ -96,7 +98,7 @@ Descriptions are **never** written from title alone. The following rules apply:
 - `raw_item` — everything the scraper collected for the row, as staged (JSON): listing or API fields such as authors, date and the publisher's type label, evidence fields where a source provides them, and for detail-fetched pages the `page_meta` block (meta description, og:*, published time, canonical URL). Kept so later passes (tagging, type review, description upgrades) never need to fetch the page again. Rows inserted before 2026-08-31 have it only where a later re-scrape filled it.
 - `source_subjects` — the publisher's own topic labels for the item (JSON list), unmapped to the hub's tag vocabulary.
 
-Excluded rows with `exclude_reason = type_filtered:<label>` are items a source's `type_allow` filter set aside (for example Brookings commentary); they keep title, URL, blurb and `raw_item` and can be reactivated with `scripts/curate.py`.
+Excluded rows with `exclude_reason = type_filtered:<label>` are items a source's `type_allow` filter set aside (for example Brookings commentary); they keep title, URL, blurb and `raw_item` and can be reactivated with `scripts/curate.py`. Rows with `source_on_hold` belong to a source whose weekly scraping is paused (Brookings); `out_of_scope` marks a row the review dropped under `docs/purpose.md` § Scope.
 | `manual` | Written or edited by a maintainer |
 | `null` | Not recorded |
 

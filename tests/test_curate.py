@@ -13,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import curate  # noqa: E402
 from curate import (  # noqa: E402
     CurateError, exclude_entry, parse_tags, reactivate_entry, recent_entries, set_description, set_tags,
+    set_type,
 )
 from test_pipeline import ENTRIES_DDL  # noqa: E402
 
@@ -133,6 +134,15 @@ def test_set_tags_replaces_whole_set(conn):
 
 def test_set_tags_same_set_is_noop(conn):
     assert set_tags(conn, 1, [TAG_A]) is False
+
+
+def test_set_type_replaces_validates_and_noops(conn):
+    assert set_type(conn, 1, "paper") is True
+    assert conn.execute("SELECT type FROM entries WHERE num = 1").fetchone()[0] == "paper"
+    assert updated_at(conn, 1) != "2000-01-01T00:00:00Z"
+    assert set_type(conn, 1, "paper") is False
+    with pytest.raises(CurateError, match="unknown type"):
+        set_type(conn, 1, "opinion")
 
 
 # ── reads ──

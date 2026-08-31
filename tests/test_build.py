@@ -8,8 +8,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 from build_from_db import (  # noqa: E402
-    INDEX_CHAR_LIMIT, OTHER_SLUG, compact_line, db_size_check, group_by_source, source_slug, split_lines,
+    INDEX_CHAR_LIMIT, OTHER_SLUG, compact_line, db_size_check, find_duplicate_urls, group_by_source, source_slug,
+    split_lines,
 )
+from test_pipeline import ENTRIES_DDL  # noqa: E402
 
 
 def entry(num, source, title="T", tags=None):
@@ -25,6 +27,24 @@ def test_db_size_check(tmp_path):
     assert err is None and 0 < size < 0.01
     size, err = db_size_check(str(db), limit_mib=0.001)
     assert "over the 0.001 MiB limit" in err and "100 MiB" in err
+
+
+def test_find_duplicate_urls_covers_excluded_rows_and_ignores_markers():
+    import sqlite3
+    conn = sqlite3.connect(":memory:")
+    conn.executescript(ENTRIES_DDL)
+    conn.execute("DROP INDEX idx_entries_url_norm")   # the check exists for databases that predate the index
+    ins = ("INSERT INTO entries (num, title, url, type, source, date_added, excluded, exclude_reason) "
+           "VALUES (?, 'T', ?, 'report', 'S', '2026-01-01', ?, ?)")
+    conn.executemany(ins, [
+        (1, "https://x.org/a", 0, None),
+        (2, "https://x.org/a", 1, "wwc_tier_minus1_no_evidence"),   # exact copy, excluded
+        (3, "https://X.org/A/", 1, "wwc_tier_minus1_no_evidence"),  # case + trailing slash
+        (4, "https://x.org/b", 0, None),
+        (5, "https://x.org/b", 1, "duplicate_url"),                 # deliberate marker: ignored
+        (6, "https://x.org/c", 1, "out_of_scope"),
+    ])
+    assert find_duplicate_urls(conn) == [("https://x.org/a", [1, 2, 3])]
 
 
 def test_source_slug():

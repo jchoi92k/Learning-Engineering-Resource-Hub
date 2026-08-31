@@ -4,7 +4,7 @@
 
 The hub is a **referatory** — a curated index of evidence-based K-12, higher-education, and learning-engineering resources, hosted at GitHub Pages and consumable by both humans and LLM agents (via `llms.txt` and an MCP server). It does not store source content; it stores metadata + descriptions and links out.
 
-**Current state:** 4,988 published entries across 20+ sources (WWC, Mathematica, LPI, Digital Promise, Evidence for ESSA, NWEA, Campbell, AIMS, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `data/source-targets.json`.
+**Current state:** 3,918 published entries across 20+ sources (WWC, Mathematica, LPI, Digital Promise, Evidence for ESSA, NWEA, Campbell, AIMS, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `data/source-targets.json`.
 
 ---
 
@@ -36,6 +36,7 @@ repo-root/
   data/           ← SQLite database + data files
   meta/           ← operational docs, prompts, guides, logs
   worker/         ← Cloudflare Worker (MCP server)
+  .claude/skills/ ← agent skills committed with the repo (weekly-update)
 ```
 
 ### Which folder serves which part of the project
@@ -65,6 +66,7 @@ repo-root/
 - **`tests/`** — pytest suite for the pipeline's pure helpers (tagging, typing, JSON-path). Run `python -m pytest tests/ -q`.
 - **`ruff.toml`** — lint config; run `ruff check scripts/ tests/`.
 - **`.gitignore`** — note: `wiki/`, `docs/legacy/`, `docs/staging/` are gitignored.
+- **`.claude/skills/weekly-update/SKILL.md`** — the `/weekly-update` skill: the agent half of the weekly refresh (runs `update.sh`, repairs a failed source via its `sources/*.json` only, reviews new rows with `curate.py`, verifies, writes `docs/staging/pr-body.md`; never commits or pushes). Same file whether invoked on a laptop or by a cloud runner.
 
 ### `docs/` — the published referatory (GitHub Pages root)
 
@@ -89,7 +91,7 @@ All executable scripts. Run from repo root: `python scripts/{script}.py`.
 - **`update.sh`** — weekly wrapper: scrape → process → verify new URLs → build over the automated source list; writes `docs/staging/run-summary.md`.
 - **`scrape.py`** — config-driven scraper. Reads source configs from `sources/`, outputs to `docs/staging/`.
 - **`process_staged.py`** — processes staged JSON into `data/hub.db`. Handles tagging and DB insertion.
-- **`curate.py`** — single-entry edits to `data/hub.db`: `show`, `recent`, `exclude`, `reactivate`, `set-description`, `set-tags`. Validates against the controlled vocabularies, bumps `updated_at`, prints before/after.
+- **`curate.py`** — single-entry edits to `data/hub.db`: `show`, `recent`, `exclude`, `reactivate`, `set-description`, `set-tags`, `set-type`. Validates against the controlled vocabularies, bumps `updated_at`, prints before/after.
 - **`verify_urls.py`** — domain-aware URL checker with throttling. Writes results to `data/hub.db` and `data/broken-urls.json`.
 - **`source_check.py`** — pre-flight accessibility probe for all sources.
 - **`playwright_scrape.py`** — legacy Playwright scraper; no current source needs it (TNTP and Digital Promise have plain configs). Optional dependency.
@@ -168,7 +170,7 @@ No scripts or data files — just documentation for operators and agents.
 
 ### Weekly automated check
 
-`bash scripts/update.sh` runs scrape → process → verify (new URLs only) → build over the automated source list and writes `docs/staging/run-summary.md` (per-source table: fetched, not-in-DB, ready, backlog, inserted, pending). `--dry-run` scrapes without writing; `--sources "lpi wwc"` limits the run. Backlog items are recorded in hub.db as excluded `no_description_pending` rows so they stop reappearing as new. A cloud workflow that runs this with an LLM review step is in progress; the earlier routine prompt (`meta/automation-prompt.md`) is retired.
+`/weekly-update` (skill in `.claude/skills/weekly-update/`) wraps the whole thing: it runs the script below, triages failed sources, reviews the new rows and leaves a PR body for a maintainer. The script alone: `bash scripts/update.sh` runs scrape → process → verify (new URLs only) → build over the automated source list and writes `docs/staging/run-summary.md` (per-source table: fetched, not-in-DB, ready, backlog, inserted, pending). `--dry-run` scrapes without writing; `--sources "lpi wwc"` limits the run. Backlog items are recorded in hub.db as excluded `no_description_pending` rows so they stop reappearing as new. A cloud workflow that runs this with an LLM review step is in progress; the earlier routine prompt (`meta/automation-prompt.md`) is retired.
 
 ### URL verification
 

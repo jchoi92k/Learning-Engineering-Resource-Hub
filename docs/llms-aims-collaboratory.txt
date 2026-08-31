@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub — AIMS Collaboratory
 
-> 52 entries from AIMS Collaboratory.
+> 47 entries from AIMS Collaboratory.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-aims-collaboratory.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
@@ -13,10 +13,6 @@
 - 512. [Teaching Teachers to Use Computer Assisted Learning Effectively: Experimental and Quasi-Experimental Evidence](https://www.nber.org/papers/w32388) | paper | aims, computer-assisted-learning, k-12, rct
 - 513. [The Promises and Pitfalls of Using Language Models to Measure Instruction Quality in Education](https://aclanthology.org/2024.naacl-long.246/) | paper | aims, llm-application, nlp
 - 515. [UpGrade Resource Center](https://www.upgradeplatform.org/resource-center/) | platform | a-b-testing, aims, upgrade-platform
-- 516. [New Study Finds Every Minute Spent on Khan Academy Can Lead to Learning Gains](https://blog.khanacademy.org/new-study-finds-every-minute-spent-on-khan-academy-can-lead-to-learning-gains/) | blog-post | aims, k-12, khan-academy
-- 517. [Three Research-Backed Strategies Teachers Can Implement on Khan Academy to Boost Student Learning Outcomes](https://blog.khanacademy.org/three-research-backed-strategies-teachers-can-implement-on-khan-academy-to-boost-student-learning-outcomes/) | blog-post | aims, k-12, khan-academy
-- 518. [University of Toronto Randomized Controlled Trial of 11K Students Demonstrates a Meaningful Positive Effect of Khan Academy on Student Learning](https://blog.khanacademy.org/university-of-toronto-randomized-controlled-trial-of-11k-students-demonstrates-a-meaningful-positive-effect-of-khan-academy-on-student-learning/) | blog-post | aims, khan-academy, rct
-- 519. [Why Khan Academy Will Be Using "Skills to Proficient" to Measure Learning Outcomes](https://blog.khanacademy.org/why-khan-academy-will-be-using-skills-to-proficient-to-measure-learning-outcomes/) | blog-post | aims, formative-assessment, khan-academy
 - 520. [RPPL Privacy Toolkit Reference Implementation](https://github.com/learning-data-insights/rppl-privacy-toolkit-ref/) | code | aims, pii-privacy, rppl
 - 521. [RPPL Visualizer and Converter](https://github.com/pcla-code/RPPLVisualizerAndConverter) | code | aims, rppl
 - 522. [UpGrade — Open-Source A/B Testing Platform](https://github.com/CarnegieLearningWeb/UpGrade) | code | a-b-testing, aims, upgrade-platform
@@ -51,7 +47,6 @@
 - 551. [Curriculum & Learning Improvement Project (CLIP)](https://www.norc.org/research/projects/curriculum-and-learning-improvement-project-clip.html) | project-website | aims, data-sharing, norc
 - 925. [Evaluating the Impact of a Mathematics Mastery Learning Platform on Student Achievement](https://link.springer.com/chapter/10.1007/978-3-031-72315-5_32) | paper | aims, carnegie-learning, computer-assisted-learning, k-12, longitudinal, math-education, personalized-learning
 - 926. [GADRRS: Guidance and Agreement for Data Harmony, Responsibility, Retention, and Sharing](https://lastinger.ufl.edu/data-learning-technology/gadrrs-data-sharing-agreement/) | framework | aims, data-sharing, lastinger-center, pii-privacy
-- 927. [Motivation and Engagement in the Mathematics Classroom with Kyron Learning](https://blog.kyronlearning.com/motivation-and-engagement-in-the-mathematics-classroom-with-kyron-learning) | blog-post | aims, english-learners, k-12, llm-application, math-education, math-motivation, qualitative-research
 - 928. [What Kids Have to Say About Math: Results from Focus Groups with Middle Schoolers](https://repository.lsu.edu/srec_reports/27/) | report | aims, k-12, lsu, math-education, math-motivation, qualitative-research
 - 929. [Informing Change: A Final Research Report on the Findings from the Longitudinal R&D Partnership for Math Equity Project](https://repository.lsu.edu/srec_reports/31/) | report | aims, computer-assisted-learning, k-12, longitudinal, lsu, math-education
 - 930. [Improving School Discipline, Climate, and Culture: Interactive Guidance for Schools and Districts](https://repository.lsu.edu/srec_reports/13/) | report | aims, k-12, lsu, school-discipline

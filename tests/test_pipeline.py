@@ -226,6 +226,18 @@ def test_scrape_pagination_stops_early_and_respects_hard_cap(monkeypatch):
     assert len(fetched) == 3, "no early-stop unless the config declares early_stop: true"
 
 
+def test_extract_cards_applies_url_transform():
+    """LPI's listing links one item through Drupal's /index%2Ephp/ front controller;
+    the config's url_transform strips it so the diff sees the canonical path."""
+    import scrape
+    html = ('<div class="c"><a class="t" href="/index%2Ephp/product/x">T</a><p class="b">' + 'x' * 40 + '</p></div>'
+            '<div class="c"><a class="t" href="/product/y">U</a><p class="b">' + 'y' * 40 + '</p></div>')
+    config = {"url_prefix": "https://a.org", "url_transform": {"replace": "/index%2Ephp/", "with": "/"},
+              "selectors": {"item": "div.c", "title": "a.t", "url": "a.t", "blurb": "p.b"}}
+    items = scrape.extract_cards(scrape.BeautifulSoup(html, "html.parser"), config)
+    assert [i["url"] for i in items] == ["https://a.org/product/x", "https://a.org/product/y"]
+
+
 def test_early_stop_requires_config_flag_in_api_path(monkeypatch):
     """scrape_api must scan every page when the config lacks early_stop, even
     if every item on page 0 is already indexed (Digital Promise regression)."""
@@ -317,6 +329,7 @@ CREATE TABLE entries (
     description_source TEXT, raw_item TEXT, source_subjects TEXT
 );
 CREATE TABLE entry_tags (entry_num INTEGER, tag TEXT, PRIMARY KEY (entry_num, tag));
+CREATE UNIQUE INDEX idx_entries_url_norm ON entries(lower(rtrim(url,'/')));
 """
 
 
@@ -328,6 +341,7 @@ def test_insert_backlog_rows_marks_pending_and_dedupes():
                  "VALUES (1, 'Known', 'https://x.org/known', 'report', 'S', '2026-01-01')")
     backlog = [
         {"url": "https://x.org/known", "title": "already in db"},
+        {"url": "https://X.org/KNOWN/", "title": "case and trailing-slash variant of a known row"},
         {"url": "https://x.org/new", "title": "", "type": "Brief"},
         {"url": "https://x.org/new", "title": "repeat in batch"},
         {"url": "", "title": "no url"},

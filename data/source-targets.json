@@ -7,7 +7,7 @@
     "discovery_url": "https://ies.ed.gov/ncee/wwc/Search/Products?productType=2",
     "sample_url": "https://ies.ed.gov/ncee/wwc/InterventionReport/381",
     "discovery_check": "Intervention",
-    "notes": "619 intervention reports + 30 practice guides = 649. 375 indexed. Config: sources/wwc.json."
+    "notes": "619 intervention reports + 30 practice guides = 649. Rated only (2026-08-30): the 144 tier 1-3 reports and all 30 guides are published (174); the 475 Tier -1 reports are held as excluded wwc_tier_minus1_no_evidence rows. Configs: sources/wwc.json (exclude_when on evidence_tier) and sources/wwc-practice-guides.json."
   },
   "Digital Promise": {
     "known_total": 273,
@@ -129,11 +129,11 @@
   "Brookings Institution": {
     "known_total": null,
     "priority": "medium",
-    "status": "active",
+    "status": "frozen",
     "discovery_url": "https://www.brookings.edu/sitemap_index.xml",
     "sample_url": "https://www.brookings.edu/articles/getting-state-free-college-right-design-choices-that-matter/",
     "discovery_check": "sitemap",
-    "notes": "1,252 Brown Center articles in the Algolia index. 858 indexed after the 2026-08-30 backfill (836 with meta-description teasers; 161 pending without one; 231 Commentary kept as excluded type_filtered rows)."
+    "notes": "1,252 Brown Center items in the Algolia index; 23 selected entries published. Weekly scraping off: the Research label mixes reports with analysis and commentary posts and no field separates them."
   },
   "CREDO at Stanford": {
     "known_total": null,

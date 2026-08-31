@@ -50,6 +50,9 @@ MCP_URL = "https://renaissance-hub.joon-96a.workers.dev/mcp"
 MIN_DESCRIPTION_CHARS = 30
 # Provenance of the description text (nullable in hub.db; NULL = not recorded)
 DESCRIPTION_SOURCES = {"listing", "page-meta", "page-abstract", "llm-summary", "manual"}
+# Entry types (docs/schema.md, "type" table); curriculum is reserved, no entry uses it yet
+ENTRY_TYPES = {"paper", "report", "code", "framework", "platform", "tool", "curriculum", "review",
+               "article", "blog-post", "presentation", "project-website", "dataset"}
 
 
 def set_output_dir(path):
@@ -680,6 +683,27 @@ def db_size_check(path=DB_PATH, limit_mib=DB_SIZE_LIMIT_MIB):
     return size_mib, None
 
 
+def find_duplicate_urls(conn=None):
+    """URLs held by more than one hub.db row, compared case-insensitively and
+    without a trailing slash, over every row (published or excluded). Rows
+    excluded as `duplicate_url` are deliberate markers next to a published row
+    and do not count. Returns [(normalized_url, [nums]), ...]."""
+    own = conn is None
+    if own:
+        conn = sqlite3.connect(DB_PATH, timeout=30)
+    try:
+        rows = conn.execute("SELECT num, url, exclude_reason FROM entries").fetchall()
+    finally:
+        if own:
+            conn.close()
+    seen = {}
+    for num, url, reason in rows:
+        if reason == "duplicate_url":
+            continue
+        seen.setdefault((url or "").rstrip("/").lower(), []).append(num)
+    return sorted((k, sorted(v)) for k, v in seen.items() if len(v) > 1)
+
+
 def check_against_docs(entries):
     """Rebuild into a temp dir and compare with docs/. Returns a list of
     human-readable differences (empty when docs/ is current)."""
@@ -742,15 +766,21 @@ def main():
     print(f"[build] hub.db {size_mib:.1f} MiB (limit {DB_SIZE_LIMIT_MIB} MiB)")
     if size_error:
         print(f"[build] {'ERROR' if args.check else 'warning'}: {size_error}")
+    dup_groups = find_duplicate_urls()
+    for key, nums in dup_groups[:20]:
+        print(f"[build] {'ERROR' if args.check else 'warning'}: URL held by rows {nums}: {key[:90]}")
+    if len(dup_groups) > 20:
+        print(f"[build] ... {len(dup_groups) - 20} more duplicate URL groups")
 
     if args.check:
         diffs = check_against_docs(entries)
         for d in diffs:
             print(f"[build] CHECK: {d}")
-        ok = not errors and not diffs and not size_error
+        ok = not errors and not diffs and not size_error and not dup_groups
         print("[build] Check passed: docs/ is current and entries validate." if ok
               else f"[build] Check FAILED: {len(errors)} validation errors, {len(diffs)} stale/missing files"
-                   + (", hub.db over the size limit" if size_error else "") + ".")
+                   + (", hub.db over the size limit" if size_error else "")
+                   + (f", {len(dup_groups)} duplicate URL groups in hub.db" if dup_groups else "") + ".")
         raise SystemExit(0 if ok else 1)
 
     if errors:

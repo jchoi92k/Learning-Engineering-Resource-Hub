@@ -8,11 +8,13 @@
 #   scripts/update.sh --dry-run             # scrape only: no DB writes, no build
 #   scripts/update.sh --sources "wwc lpi"   # limit to given source slugs
 #   scripts/update.sh --skip-verify         # skip verify_urls.py (faster local runs)
+#   scripts/update.sh --scrape-args "--pages 1 --limit 2"   # extra scrape.py flags for every source (pilot runs)
 #
 # Env: PYTHON (default: python), RUN_SUMMARY (default: docs/staging/run-summary.md),
 #      SOURCE_GAP (seconds to pause between sources, default 5).
 #
 # Not in the weekly list on purpose (see meta/operator-guide.md and sources/*.md):
+#   brookings (selected set; its Research label mixes reports with commentary),
 #   casel (60s crawl-delay + detail fetch, run manually), jedm/jla (frozen
 #   selective set), ies-rel (no config), aims/rand/mdrc/nap (blocked or manual).
 #
@@ -27,7 +29,6 @@ cd "$REPO_ROOT"
 
 PY="${PYTHON:-python}"
 WEEKLY_SOURCES=(
-  brookings
   campbell-collaboration
   credo
   digital-promise
@@ -42,10 +43,12 @@ WEEKLY_SOURCES=(
   uchicago-consortium
   wested
   wwc
+  wwc-practice-guides
 )
 
 DRY_RUN=0
 SKIP_VERIFY=0
+SCRAPE_ARGS=()  # extra flags appended to every scrape.py call (--scrape-args)
 SOURCE_GAP="${SOURCE_GAP:-5}"  # back-to-back configs can share a host (the three LPI ones)
 SOURCES=("${WEEKLY_SOURCES[@]}")
 while [[ $# -gt 0 ]]; do
@@ -53,7 +56,8 @@ while [[ $# -gt 0 ]]; do
     --dry-run) DRY_RUN=1 ;;
     --skip-verify) SKIP_VERIFY=1 ;;
     --sources) shift; read -r -a SOURCES <<< "$1" ;;
-    -h|--help) sed -n '2,20p' "$0"; exit 0 ;;
+    --scrape-args) shift; read -r -a SCRAPE_ARGS <<< "$1" ;;
+    -h|--help) sed -n '2,23p' "$0"; exit 0 ;;
     *) echo "Unknown option: $1" >&2; exit 2 ;;
   esac
   shift
@@ -89,7 +93,7 @@ db_max_num() {
 }
 
 START_MAX="$(db_max_num)"
-echo "[update] $TODAY | ${#SOURCES[@]} sources | dry-run=$DRY_RUN | max(num) before run: $START_MAX"
+echo "[update] $TODAY | ${#SOURCES[@]} sources | dry-run=$DRY_RUN | scrape-args: ${SCRAPE_ARGS[*]:-none} | max(num) before run: $START_MAX"
 
 # Per-source results: slug|status|scraped|new|ready|backlog|inserted|pending|range
 RESULTS=()
@@ -109,7 +113,7 @@ for src in "${SOURCES[@]}"; do
   # to process_staged. --fresh: ignore a leftover progress file from an
   # interrupted detail_fetch.
   rm -f "$STAGING/$src.json"
-  if "$PY" scripts/scrape.py "$src" --fresh > "$log" 2>&1; then
+  if "$PY" scripts/scrape.py "$src" --fresh "${SCRAPE_ARGS[@]}" > "$log" 2>&1; then
     scraped="$(sed -n 's/^\[scrape\] Total items extracted: \([0-9]*\).*/\1/p' "$log" | tail -1)"
     new="$(sed -n 's/^\[scrape\] Already indexed: [0-9]*, New: \([0-9]*\).*/\1/p' "$log" | tail -1)"
     ready="$(sed -n 's/^\[scrape\] Ready: \([0-9]*\), Backlog: \([0-9]*\).*/\1/p' "$log" | tail -1)"

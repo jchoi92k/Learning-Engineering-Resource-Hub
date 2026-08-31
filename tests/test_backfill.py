@@ -80,6 +80,18 @@ def test_type_filter_noop_without_config():
     assert apply_type_filter(items, {}) == (items, [])
 
 
+def test_field_filter_sets_aside_matching_values_with_the_rule_reason():
+    from scrape import apply_field_filter
+    cfg = {"exclude_when": [{"field": "evidence_tier", "values": ["-1"], "reason": "wwc_tier_minus1_no_evidence"}]}
+    items = [{"url": "u1", "evidence_tier": "3"}, {"url": "u2", "evidence_tier": "-1"},
+             {"url": "u3"}, {"url": "u4", "evidence_tier": " -1 "}]
+    kept, filtered = apply_field_filter(items, cfg)
+    assert [i["url"] for i in kept] == ["u1", "u3"]
+    assert [(i["url"], i["filter_reason"]) for i in filtered] == [
+        ("u2", "wwc_tier_minus1_no_evidence"), ("u4", "wwc_tier_minus1_no_evidence")]
+    assert apply_field_filter(items, {}) == (items, [])
+
+
 # ── columns and inserts ──
 
 def test_ensure_columns_is_idempotent():
@@ -238,12 +250,17 @@ def test_set_url_replaces_and_refuses_collisions():
     import pytest
     conn = mem_db()
     conn.row_factory = sqlite3.Row
-    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added) VALUES (1, 'A', 'https://x.org/old', 'report', 'S', '2026-01-01')")
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, url_status, url_confirmed) "
+                 "VALUES (1, 'A', 'https://x.org/old', 'report', 'S', '2026-01-01', 'verified', 1)")
     conn.execute("INSERT INTO entries (num, title, url, type, source, date_added) VALUES (2, 'B', 'https://x.org/b', 'report', 'S', '2026-01-01')")
     assert set_url(conn, 1, "https://x.org/new/") is True
     assert conn.execute("SELECT url FROM entries WHERE num = 1").fetchone()[0] == "https://x.org/new/"
+    assert tuple(conn.execute("SELECT url_status, url_confirmed FROM entries WHERE num = 1").fetchone()) == ("unverified", 0), \
+        "a changed URL is unverified until verify_urls.py checks it"
     with pytest.raises(CurateError, match="already used"):
         set_url(conn, 1, "https://x.org/b")
+    with pytest.raises(CurateError, match="already used"):
+        set_url(conn, 1, "https://X.org/B/")   # same row up to case and trailing slash
     with pytest.raises(CurateError, match="not a URL"):
         set_url(conn, 1, "b")
 

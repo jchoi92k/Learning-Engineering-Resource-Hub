@@ -1,5 +1,7 @@
 # What Works Clearinghouse (WWC)
 
+**Status (2026-08-30):** rated only. Intervention reports with an evidence tier (1–3) and the practice guides are published; every Tier −1 report (WWC found no studies meeting its standards) is held as an excluded `wwc_tier_minus1_no_evidence` row, whether or not the listing carries a description. Two configs, both in the weekly list: `wwc.json` (intervention reports, `exclude_when` on `evidence_tier`) and `wwc-practice-guides.json` (`productType=1`, `type_default` Practice Guide).
+
 ## Discovery
 
 - **Method:** Single-page HTML listing (all results on one page)
@@ -46,11 +48,11 @@ Of 619 intervention reports, **475 are evidence tier -1** — meaning WWC search
 
 **Decision (2026-06-15):** Tier -1 entries are excluded from published output. They are in hub.db with `excluded=1, exclude_reason='wwc_tier_minus1_no_evidence'` for dedup purposes. Future scrapes should not re-index them. See `private/decisions.md` for full rationale.
 
-**Indexable entries:** ~144 intervention reports with evidence tiers 1–3 (have descriptions), plus 30 practice guides.
+**Published:** the intervention reports with evidence tiers 1–3 (144 on 2026-08-30) plus the practice guides. Until 2026-08-30 the hold reached only Tier −1 reports without a listing description; 203 with one were published, and were held that day.
 
 ## Scraping instructions
 
-**Pass 1:** Fetch `?productType=2` once for all 619 intervention reports. Fetch `?productType=1` once for all 30 practice guides. Two HTTP requests total. Each result includes title, URL, grade level, evidence tier, and a 2-3 sentence description — usually adequate for indexing without individual page fetches. Skip tier -1 entries (no descriptions, excluded by policy).
+**Pass 1:** `scrape.py wwc` fetches `?productType=2` once for all 619 intervention reports; `scrape.py wwc-practice-guides` fetches `?productType=1` once for all 30 practice guides. Two HTTP requests total (plus robots.txt). Each result includes title, URL, grade level, evidence tier, and a 2-3 sentence description — usually adequate for indexing without individual page fetches. Skip tier -1 entries (no descriptions, excluded by policy).
 
 **Pass 2:** Not needed. Detail pages are JS-rendered (content loaded client-side), so raw fetches return empty containers. The listing page description is the best source. Playwright would be required for detail pages, but tier 1/2/3 entries already have adequate descriptions from the listing.
 

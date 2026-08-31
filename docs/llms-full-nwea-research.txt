@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — NWEA Research (full)
-# 309 entries with descriptions | Last updated: 2026-08-30
+# 291 entries with descriptions | Last updated: 2026-08-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-nwea-research.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -1957,27 +1957,6 @@ This is the technical appendix to “Hot test days, lower math scores: How heat 
 
 ---
 
-### 7504. Introducing the MAP Growth National Dashboard: Your real-time companion to MAP Growth norms
-
-```yaml
-url: "https://www.nwea.org/research/publication/introducing-the-map-growth-national-dashboard-your-real-time-companion-to-map-growth-norms/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-The MAP Growth National Dashboard gives real-time insights into national achievement and growth, helping educators understand local trends.
-
----
-
----
-
 ### 7505. User Guide and FAQ: MAP Growth National Dashboard
 
 ```yaml
@@ -2041,27 +2020,6 @@ This interactive tool provides information about academic achievement and growth
 
 ---
 
-### 7508. Responsive leadership in crisis: Lessons from the pandemic for education leaders
-
-```yaml
-url: "https://www.nwea.org/research/publication/responsive-leadership-in-crisis-lessons-from-the-pandemic-for-education-leaders/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-Responsive leadership practices used by school leaders during COVID-19 closures offer a blueprint for navigating future challenges.
-
----
-
----
-
 ### 7509. MAP Growth Goal Explorer
 
 ```yaml
@@ -2083,48 +2041,6 @@ The MAP Growth Goal Explorer is designed to support and simplify the goal-settin
 
 ---
 
-### 7510. Reimagining family engagement: A long-term strategy for COVID recovery
-
-```yaml
-url: "https://www.nwea.org/research/publication/reimagining-family-engagement-a-long-term-strategy-for-covid-recovery/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-Following COVID-19 school closures, educators have been helping students make academic gains. Family engagement can contribute to recovery.
-
----
-
----
-
-### 7511. Getting precise: Why instructional time matters for fair comparisons of student achievement
-
-```yaml
-url: "https://www.nwea.org/research/publication/getting-precise-why-instructional-time-matters-for-fair-comparisons-of-student-achievement/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-One of the most powerful, but often overlooked, features of the 2025 MAP Growth norms is their precision around instructional time.
-
----
-
----
-
 ### 7512. The Impact of Severe Weather Events on Education: Revisiting Hurricane Katrina While Preparing for the Next Disaster
 
 ```yaml
@@ -2141,153 +2057,6 @@ tags: []
 ```
 
 This research brief raises awareness of the scale and variation of educational impacts from the growing number of weather-related challenges facing U.S. schools. It addresses two critical questions: how does severe weather disrupt schools and affect the people in them; and which schools and communities are at most risk? Findings highlight four key takeaways: 1) Many U.S. schools face major budget and infrastructure challenges related to severe weather; 2) teachers need support to meet students’ varied needs following a weather-related disruptions; 3) a day of school missed after a severe weather event can translate to more than a day of learning lost; and 4) no school is totally “low-risk” from weather-related disruptions. See More
-
----
-
----
-
-### 7513. Realistic vs. meaningful growth: Rethinking growth goals with 2025 MAP Growth norms
-
-```yaml
-url: "https://www.nwea.org/research/publication/realistic-vs-meaningful-growth-rethinking-growth-goals-with-2025-map-growth-norms/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-MAP Growth norms work best when paired with a teacher’s knowledge of individual students, available resources, and instructional priorities.
-
----
-
----
-
-### 7514. What can you do with the 2025 MAP Growth norms? Turning test results into action
-
-```yaml
-url: "https://www.nwea.org/research/publication/what-can-you-do-with-the-2025-map-growth-norms-turning-test-results-into-action/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-When paired with additional evidence, the 2025 MAP Growth norms can help educators ask valuable questions, set goals, and support growth.
-
----
-
----
-
-### 7515. Same scale, new reference: What’s new in the 2025 MAP Growth norms
-
-```yaml
-url: "https://www.nwea.org/research/publication/same-scale-new-reference-whats-new-in-the-2025-map-growth-norms/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-The 2025 MAP Growth norms account for COVID-19 interruptions to learning and provide a more accurate view into how students are doing today.
-
----
-
----
-
-### 7516. Making sense of standard error of measurement
-
-```yaml
-url: "https://www.nwea.org/research/publication/making-sense-of-standard-error-of-measurement/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [formative-assessment]
-```
-
-Understanding standard error of measurement can help you select an assessment designed to track student progress over time.
-
----
-
----
-
-### 7517. What the research tells us about four-day school weeks
-
-```yaml
-url: "https://www.nwea.org/research/publication/what-the-research-tells-us-about-four-day-school-weeks/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-Four-day school weeks are gaining popularity in rural America, but the research on the advantages and disadvantages is mixed.
-
----
-
----
-
-### 7518. 3 academic interventions policymakers can support to help get students back on track
-
-```yaml
-url: "https://www.nwea.org/research/publication/3-academic-interventions-policymakers-can-support-to-help-get-students-back-on-track/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [response-to-intervention]
-```
-
-Policymakers can support specific academic interventions to help students complete their academic recovery following COVID school closures.
-
----
-
----
-
-### 7519. Every school has advanced learners. Use local norms to find them
-
-```yaml
-url: "https://www.nwea.org/research/publication/every-school-has-advanced-learners-use-local-norms-to-find-them/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-Local norms ask how each student is performing compared to peers in the same district or school, making it easier to identify gifted kids.
 
 ---
 
@@ -2335,48 +2104,6 @@ This document presents the test design and specifications for Spanish MAP Readin
 
 ---
 
-### 7522. How to meet student needs following inclement weather-related school closures
-
-```yaml
-url: "https://www.nwea.org/research/publication/how-to-meet-student-needs-following-inclement-weather-related-school-closures/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-Addressing setbacks following inclement weather–related school closures requires balancing immediate strategies with long-term supports.
-
----
-
----
-
-### 7523. New research on science learning loss following COVID-19 school closures
-
-```yaml
-url: "https://www.nwea.org/research/publication/new-research-on-science-learning-loss-following-covid-19-school-closures/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-New research from NWEA shows middle school students have experienced significant science learning loss following COVID-19 school closures.
-
----
-
----
-
 ### 7524. Technical Brief – COVID’s impact on science achievement: Trends from 2019 through 2024
 
 ```yaml
@@ -2414,27 +2141,6 @@ tags: [formative-assessment, literacy]
 ```
 
 This technical report documents the processes and procedures employed by NWEA to build and support the English MAP Reading Fluency assessment.
-
----
-
----
-
-### 7526. New data: How far off is COVID academic recovery?
-
-```yaml
-url: "https://www.nwea.org/research/publication/new-data-how-far-off-is-covid-academic-recovery/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [literacy, math-education]
-```
-
-The latest COVID academic recovery data shows the average student needs more than four months of additional schooling in reading and math.
 
 ---
 
@@ -2482,69 +2188,6 @@ This document presents results from a linking study conducted by NWEA in May 202
 
 ---
 
-### 7529. When are students “ready” for algebra?
-
-```yaml
-url: "https://www.nwea.org/research/publication/when-are-students-ready-for-algebra/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [math-education]
-```
-
-A new guidance document from NWEA can help schools know when students are ready and would benefit from enrolling in Algebra 1.
-
----
-
----
-
-### 7530. Summer learning loss: What we know and what we’re learning
-
-```yaml
-url: "https://www.nwea.org/research/publication/summer-learning-loss-what-we-know-and-what-were-learning/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-In this blog, Megan Kuhfeld shares background on what we know about summer learning loss, and the significant gaps that remain in our understanding that drive her work to take a fresh – and deeper – look at the phenomenon.
-
----
-
----
-
-### 7531. 3 considerations on chronic absenteeism for education policymakers
-
-```yaml
-url: "https://www.nwea.org/research/publication/3-considerations-on-chronic-absenteeism-for-education-policymakers/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [attendance, college-access, sel]
-```
-
-New research indicates academic behaviors—including avoiding chronic absenteeism—are predictive of graduation and college attendance rates.
-
----
-
----
-
 ### 7532. Typical learning for whom? Guidelines for selecting benchmarks to calculate months of learning
 
 ```yaml
@@ -2561,27 +2204,6 @@ tags: [math-education]
 ```
 
 To describe the impact of the COVID-19 pandemic on students, researchers have translated test scores into months of learning to claim how many months/years students are behind in school. Despite its perceived accessibility, there are major downsides to this translation. To inform future uses by researchers and media, we discuss in this brief how to calculate this metric as well as its trade-offs. See More
-
----
-
----
-
-### 7533. MAP-Growth can lower the cost and increase the accuracy of gifted and talented placements
-
-```yaml
-url: "https://www.nwea.org/research/publication/map-growth-can-lower-the-cost-and-increase-the-accuracy-of-gifted-and-talented-placements/"
-type: report
-source: "NWEA Research"
-url_confirmed: true
-description_inferred: false
-description_source: page-abstract
-date_added: 2026-08-30
-doi: null
-license: null
-tags: []
-```
-
-MAP Growth can help identify students during both phases of placement decision-making, including for gifted and talented programs.
 
 ---
 

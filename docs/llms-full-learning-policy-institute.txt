@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 339 entries with descriptions | Last updated: 2026-08-30
+# 349 entries with descriptions | Last updated: 2026-08-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -7118,5 +7118,215 @@ tags: [early-childhood, lpi]
 ```
 
 During the 2015–16 fiscal year, states invested nearly $7 billion in programs for our country’s youngest learners. This fact sheet summarizes the lessons learned by a review and analysis of how states can design, fund, and manage investments to assure high-quality preschool. The original report looked at how four states built quality early education systems with strong outcomes.
+
+---
+
+---
+
+### 8979. Cultivating Math Mindsets: Teaching Practices That Enable Equitable Classroom Learning
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/cultivating-math-mindsets-report"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [k-12, lpi, math-education, student-belonging]
+```
+
+Steep declines in math achievement driven by COVID-19-era school disruptions have renewed interest in improving math instruction. A study of 10 California middle school teachers identifies the classroom conditions needed for students to thrive as math learners: positive relationships, a sense of belonging, growth mindsets, and high-quality instruction.
+
+---
+
+---
+
+### 8980. Adolescence and the Reimagined High School: Scientific Perspectives on Development, Learning, and Civic Reasoning
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-adolescence-reimagined-high-school"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [k-12, lpi]
+```
+
+Research points to adolescence as a critical period of opportunity and development. School design that centers relationships, meaningful inquiry, civic reasoning, and identity development can foster powerful adolescent learning. Policies supporting systemic and structural redesign across California can create environments that honor adolescents’ needs and help develop their full potential.
+
+---
+
+---
+
+### 8981. Multilingual Learners of English: Progress of California's English Learners and the Resources That Support Their Educational Achievements
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-multilingual-learners-english"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [english-learners, lpi]
+```
+
+Over the past two decades, California has implemented policy reforms to support multilingual learners of English. New research provides an overview of the state's progress, examines remaining challenges, and provides policy recommendations for key actors in the state.
+
+---
+
+---
+
+### 8982. California Principals: Trends in Supply, Preparation, Distribution, Retention, and Turnover
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-california-principals-trends"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [lpi, sel]
+```
+
+Research confirms that principal turnover negatively impacts student achievement and teacher retention. A California-focused analysis of statewide data examines trends in principal preparation, experience, and distribution, identifying key school, district, and principal characteristics associated with turnover across the state.
+
+---
+
+---
+
+### 8983. California Schools’ Revenue Sources and Constraints
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-california-schools-revenue"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [k-12, lpi]
+```
+
+California's revenue system critically shapes TK-12 funding for nearly six million students. State and local revenue constraints create instability and limit adequate support. This report examines where education funding comes from, why it fluctuates, how it is allocated, and how it can be improved.
+
+---
+
+---
+
+### 8984. California Community Schools: Past, Present, and Early Impacts of the California Community Schools Partnership Program
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-california-community-schools"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [attendance, english-learners, lpi, school-discipline]
+```
+
+California’s historic investment in community schools is showing promising early results. Participating schools reduced chronic absenteeism and suspensions, improved academic outcomes, and produced particularly strong gains for Black students, English learners, and students from low-income families—offering evidence that community schools can help close long-standing opportunity gaps.
+
+---
+
+---
+
+### 8985. California’s Teacher Shortages: Trends in Supply, Demand, and Turnover
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-californias-teacher-shortages-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, lpi]
+```
+
+California's teacher shortage crisis has tripled the number of teachers practicing with substandard credentials since 2012–13, disproportionately impacting students of color and low-income communities. While recent state investments have increased well-prepared teachers significantly, many programs are sunsetting. Sustained, coordinated policy action is needed to stabilize the state’s workforce.
+
+---
+
+---
+
+### 8986. Teacher Residencies in California: Enrollment, Preparation, and Outcomes of Residency-Prepared Teachers
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/ca-teacher-residencies-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, formative-assessment, lpi]
+```
+
+California’s investment in teacher residencies has led to the recruitment and retention of a racially and ethnically diverse teacher workforce with higher passing rates on the state assessment and higher entry rates into the profession than other preparation pathways. Through residencies, candidates receive financial support and year-long guidance from a mentor in the classroom, while completing coursework.
+
+---
+
+---
+
+### 8987. An Overview of Teacher Shortages: 2026
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/state-teacher-shortages-2026-factsheet"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, lpi]
+```
+
+For three consecutive years, a scan of teacher shortages shows increases in the combined estimated number of unfilled positions and positions filled by teachers who are not fully certified. Learn about the latest trends and evidence-based strategies to build a stronger, more stable teacher workforce.
+
+---
+
+---
+
+### 8988. Preparing and Supporting Early Childhood Educators
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/preparing-supporting-early-childhood-educators-factsheet"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, early-childhood, lpi]
+```
+
+Well-prepared, well-supported early childhood educators are essential to high-quality learning experiences for young children. Building that workforce depends on strong educator preparation, effective recruitment and retention strategies, and supportive state policies.
 
 ---

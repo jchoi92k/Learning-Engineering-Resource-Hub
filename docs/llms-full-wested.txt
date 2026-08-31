@@ -1163,7 +1163,7 @@ Explore four strategies to address chronic absenteeism and its impact on enrollm
 
 ```yaml
 url: "https://www.wested.org/resource/realizing-the-promise-of-modern-postsecondary-math-pathways/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
@@ -1289,7 +1289,7 @@ Explore research on the Mindsets mathematics program showing improved student en
 
 ```yaml
 url: "https://www.wested.org/resource/supporting-student-success-through-aligned-and-coherent-systems/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
@@ -1436,7 +1436,7 @@ Learn how Nevada’s Pupil-Centered Funding Plan uses a machine learning-based a
 
 ```yaml
 url: "https://www.wested.org/resource/shifting-sands-declining-enrollment-in-california-and-how-leaders-can-respond/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
@@ -1793,7 +1793,7 @@ Explore resources and evaluation findings from the Count Play Explore initiative
 
 ```yaml
 url: "https://www.wested.org/resource/realizing-multilingual-learners-immense-promise-in-mathematics/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
@@ -2213,7 +2213,7 @@ To help students—especially English Learners—engage deeply with mathematics,
 
 ```yaml
 url: "https://www.wested.org/resource/faced-with-less-how-coalition-building-can-serve-the-public/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
@@ -2318,7 +2318,7 @@ This brief outlines strategies to address the math educator shortage, and improv
 
 ```yaml
 url: "https://www.wested.org/resource/catalyzing-gen-ai-potential-to-improve-k12-math-education/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
@@ -2486,7 +2486,7 @@ This report summarizes key research findings and provides guidance to School Hea
 
 ```yaml
 url: "https://www.wested.org/resource/strengthen-dual-enrollment-math-increase-postsecondary-access-success/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
@@ -2528,7 +2528,7 @@ This brief offers research-based strategies for redesigning math pathways to bet
 
 ```yaml
 url: "https://www.wested.org/resource/coherent-approaches-early-algebra-advance-high-school-course-taking-opportunities/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
@@ -2549,7 +2549,7 @@ This brief provides guidance on how state and local policymakers can support mor
 
 ```yaml
 url: "https://www.wested.org/resource/strong-early-math-foundation-helps-students-later-academic-achievement/"
-type: blog-post
+type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false

@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub — Evidence for ESSA
 
-> 221 entries from Evidence for ESSA.
+> 226 entries from Evidence for ESSA.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-evidence-for-essa.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
@@ -225,3 +225,8 @@
 - 1631. [Galaxy Math](https://evidenceforessa.org/program/galaxy-math/) | report | literacy, math-education, response-to-intervention
 - 1632. [Pirate Math](https://evidenceforessa.org/program/pirate-math/) | report | math-education, response-to-intervention
 - 1634. [Elements of Reading: Comprehension](https://evidenceforessa.org/program/elements-of-reading-comprehension/) | report | literacy, writing-instruction
+- 8970. [Wyman’s Teen Connection Project (TCP)](https://evidenceforessa.org/program/wymans-teen-connection-project-tcp/) | report | k-12, sel, student-belonging
+- 8971. [The Positivity Project (P2)](https://evidenceforessa.org/program/the-positivity-project-p2/) | report | computer-assisted-learning, k-12, personalized-learning, professional-development, sel
+- 8972. [Thinking Math! by Innovamat](https://evidenceforessa.org/program/innovamat-2/) | report | computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, professional-development
+- 8973. [Edpuzzle Originals](https://evidenceforessa.org/program/edpuzzle-originals/) | report | digital-learning-platforms, formative-assessment, learning-engineering, literacy, math-education, personalized-learning
+- 8974. [Teachers Involve Parents in Schoolwork (TIPS)](https://evidenceforessa.org/program/teachers-involve-parents-in-schoolwork-tips/) | report | k-12, math-education

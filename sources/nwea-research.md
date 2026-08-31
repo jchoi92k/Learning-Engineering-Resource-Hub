@@ -20,7 +20,7 @@
 ## Scope
 
 - **Coverage strategy:** Index all publications
-- **Current indexed:** 309 after the 2026-08-30 backfill via the WordPress REST post type `publications` (`scrape.py nwea-research --backfill`: 4 API pages + 5 taxonomy lookups + 247 page fetches for the abstracts, 250 requests, every URL once, 5 s gaps): 239 inserted with page abstracts (`page-abstract`; two templates — `div.description_wrap` or the paragraph after the Description heading), taxonomies resolved to names (type, themes, products, centers), the page's author line and date captured, publication block kept as `page_text`; 8 pages without an abstract are pending rows. `type_allow` lists all 15 real labels so a new label gets recorded rather than silently indexed. The API replaces the sitemap discovery; the sitemap remains a cross-check.
+- **Current indexed:** 291 after the 2026-08-30 backfill via the WordPress REST post type `publications` (`scrape.py nwea-research --backfill`: 4 API pages + 5 taxonomy lookups + 247 page fetches for the abstracts, 250 requests, every URL once, 5 s gaps): 239 inserted with page abstracts (`page-abstract`; two templates — `div.description_wrap` or the paragraph after the Description heading), taxonomies resolved to names (type, themes, products, centers), the page's author line and date captured, publication block kept as `page_text`; 8 pages without an abstract are pending rows. `type_allow` lists 14 of the 15 real labels (Blog article is set aside as `type_filtered`) so a new label gets recorded rather than silently indexed. The API replaces the sitemap discovery; the sitemap remains a cross-check.
 - **Estimated remaining:** ~477
 - **Filters available on listing page:** Topic (28+), Researcher (26+), Type (13), Center (3), Product (3). URL params work: `?publication_type=journal-article`
 
@@ -63,4 +63,4 @@ Config-driven: `python scripts/scrape.py nwea-research` (config in `nwea-researc
 - Pagination breaks at page 10 — all pages 10+ return 404. This appears to be a WordPress permalink/rewrite rule bug. The sitemap is the only reliable way to get the full inventory.
 - `/research/` is a curated hub page (featured research, team bios, etc.), not a pure listing. Use `/research/all-research/` for the listing or the sitemap for completeness.
 - Type values: Research brief, Technical brief, White paper, Guide, Journal article, Blog article, Technical report, Book, Infographic, Podcast, Webinar, Video, other.
-- 13 publication types across 547 items. Consider filtering out non-research types (Blog article, Podcast, Webinar, Video) if scope tightens.
+- 13 publication types across 547 items. Blog article, Podcast, Webinar and Video are outside `type_allow` and are recorded as `type_filtered` rows.

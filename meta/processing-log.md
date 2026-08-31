@@ -110,3 +110,63 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 836 entries (7728-8563)
 - Backlog rows recorded as pending (excluded): 392
 - Tags: keyword auto-tagged
+
+## 2026-08-30 - Scope: research outputs
+- Out of scope from this date: commentary and opinion pieces, blog posts, podcasts, videos and press releases (`docs/purpose.md`).
+- `brookings`: weekly scraping off; the published set is 23 selected entries (the index's Research label mixes reports with analysis and commentary posts).
+- `nwea-research` `type_allow` without Blog article; `edtrust` `type_allow` without Podcast and Video.
+- Published entries: 4,089.
+
+## 2026-08-30 - Digital Promise
+- Source slug: `digital-promise`
+- Scraped: 14 total, 14 ready, 0 backlog
+- Processed: 14 entries (8956-8969)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-08-30 - Evidence for ESSA
+- Source slug: `evidence-for-essa`
+- Scraped: 9 total, 5 ready, 4 backlog
+- Processed: 5 entries (8970-8974)
+- Backlog rows recorded as pending (excluded): 4
+- Tags: keyword auto-tagged
+
+## 2026-08-30 - Learning Policy Institute
+- Source slug: `lpi`
+- Scraped: 6 total, 6 ready, 0 backlog
+- Processed: 6 entries (8979-8984)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-08-30 - Learning Policy Institute
+- Source slug: `lpi-briefs`
+- Scraped: 2 total, 2 ready, 0 backlog
+- Processed: 2 entries (8985-8986)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-08-30 - Learning Policy Institute
+- Source slug: `lpi-fact-sheets`
+- Scraped: 2 total, 2 ready, 0 backlog
+- Processed: 2 entries (8987-8988)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-08-30 - Mathematica
+- Source slug: `mathematica`
+- Scraped: 1 total, 1 ready, 0 backlog
+- Processed: 1 entries (8989-8989)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-08-30 - What Works Clearinghouse
+- Source slug: `wwc-practice-guides`
+- Scraped: 2 total, 2 ready, 0 backlog
+- Processed: 2 entries (8992-8993)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-08-30 - WWC: rated only
+- Published: intervention reports with an evidence tier (1–3) and the practice guides; every Tier −1 report is held as an excluded `wwc_tier_minus1_no_evidence` row (`wwc.json` `exclude_when`).
+- `wwc-practice-guides` joins the weekly list (30 guides on the listing).
+- Published entries: 3,918.

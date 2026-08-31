@@ -37,6 +37,7 @@ Two audiences, in this order:
 - Individual student-level data (FERPA-protected; this hub indexes metadata only)
 - Resources that cannot be verified via direct page fetch (no-inference policy — descriptions must come from fetched content, never from titles alone)
 - Topics where learning or teaching is not the central activity (military/veteran welfare, adult disability employment, agricultural extension, etc.)
+- Commentary and opinion pieces, blog posts, podcasts, videos and press releases. The hub indexes research outputs: reports, briefs, papers, working papers, datasets and tools.
 
 ## What a querying agent should expect
 

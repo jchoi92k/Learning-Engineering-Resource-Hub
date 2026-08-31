@@ -44,7 +44,7 @@
   ],
   "type_allow": [
     "Journal article", "Research brief", "Research report", "Technical brief", "Working paper",
-    "Blog article", "Presentation", "White paper", "Technical report", "Data visualization",
+    "Presentation", "White paper", "Technical report", "Data visualization",
     "Guide", "Presentation paper", "Book", "Policy brief", "Instructional resource"
   ],
   "detail_fetch": {

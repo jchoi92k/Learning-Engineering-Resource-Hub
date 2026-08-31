@@ -1,12 +1,11 @@
 # Renaissance AI and Education Resource Hub — WestEd (part 2 of 3)
 
-> 912 entries from WestEd; this part lists 451 of them (entry numbers 6265–6715).
+> 912 entries from WestEd; this part lists 451 of them (entry numbers 6266–6716).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
 Next part: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-3.txt
 
-- 6265. [Getting Better at Getting More Equitable: Addressing Racial Inequities in Education Using Equity-Driven Continuous Improvement](https://www.wested.org/resource/equity-driven-continuous-improvement/) | paper | 
 - 6266. [Reimagining Excellence: A Blueprint for Integrating Social and Emotional Well-Being and Academic Excellence in Schools](https://www.wested.org/resource/reimagining-excellence-a-blueprint-for-integrating-social-and-emotional-well-being-and-academic-excellence-in-schools/) | report | sel
 - 6267. [California Statewide Early Math Initiative in Local Communities: Building Educator Math Capacity](https://www.wested.org/resource/california-statewide-early-math-initiative-local-communities/) | report | math-education
 - 6268. [Serving the Whole Person: An Alignment and Coherence Guide for State Education Agencies](https://www.wested.org/resource/serving-the-whole-person-an-alignment-and-coherence-guide-for-state-education-agencies/) | report | 
@@ -457,3 +456,4 @@ Next part: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wes
 - 6713. [Ready to Succeed in the Classroom: Findings from Teacher Discussion Groups on their Experiences and Aspirations Teaching Students in the Foster Care System](https://www.wested.org/resource/ready-to-succeed-in-the-classroom-report/) | report | 
 - 6714. [Ready to Succeed in the Classroom (Summary for Teachers)](https://www.wested.org/resource/ready-to-succeed-in-the-classroom-summary-for-teachers/) | report | 
 - 6715. [One-Shot Deal?: Students’ Perceptions of Assessment and Course Placement in California’s Community Colleges](https://www.wested.org/resource/one-shot-deal-students-perceptions-of-assessment-and-course-placement-in-californias-community-colleges/) | report | college-access, formative-assessment
+- 6716. [Multiple Pathways to Student Success: Envisioning the New California High School](https://www.wested.org/resource/multiple-pathways-to-student-success/) | report | 

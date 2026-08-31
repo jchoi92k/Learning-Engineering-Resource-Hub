@@ -28,10 +28,9 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - What it is: IES's gold-standard evidence reviews. Practice Guides (expert recommendations) + Intervention Reports (program-level evaluations).
 - Why pre-curated: IES applies rigorous inclusion criteria. Every report represents a deliberate editorial decision.
 - Content types: `framework`, `report`
-- Access: Open HTML. Practice Guides at PracticeGuide/[N]. Individual Intervention Reports at Intervention/[slug] — but the listing page is JS-rendered; slugs must be discovered manually or via sitemap.
-- **Indexed:** 207 total entries. All 29 Practice Guides complete. ~178 intervention reports indexed.
-- **Remaining:** ~441 intervention reports (619 total confirmed by page counter). URL pattern `/ncee/wwc/InterventionReport/[ID]` confirmed working; remaining IDs require systematic discovery.
-- Scale: Practice Guides complete. Intervention Reports ~29% coverage.
+- Access: Open HTML. The product search (`Search/Products?productType=1` guides, `=2` intervention reports) lists everything in one server-rendered table; individual report pages are JS-rendered.
+- **Indexed:** 174 published — the 144 intervention reports with an evidence tier (1–3) and all 30 practice guides. The 475 Tier −1 reports (no studies met WWC standards) are held as excluded rows.
+- Scale: complete for the rated set; both listings are scanned weekly (`wwc.json`, `wwc-practice-guides.json`).
 
 **IES Research Summaries / REL Products**
 - URL: https://ies.ed.gov/ncee/rel/
@@ -85,8 +84,8 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Content types: `report`, `paper`
 - Access: ✅ Confirmed — articles load (sitemap at `brookings.edu/sitemap_index.xml`; articles at `brookings.edu/articles/[slug]`). Earlier 403/404 errors were bad URLs, not blocking.
 - Caveat: Sitemap contains all Brookings content (not education-specific); need to curate manually from Brown Center listings.
-- **Indexed:** 22 reports. Coverage: math achievement, reading, curriculum quality, test scores, teacher policy, equity.
-- Scale: Active. Many more Brown Center briefs available; current set is a curated sample.
+- **Indexed:** 23 selected entries. Weekly scraping is off: the Research label mixes reports with analysis and commentary posts, and the index has no finer format field.
+- Scale: On hold. The Algolia index holds about 1,250 Brown Center items; revisit if a format signal turns up.
 
 **Campbell Collaboration**
 - URL: https://campbellcollaboration.org/

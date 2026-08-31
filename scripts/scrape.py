@@ -169,6 +169,13 @@ EARLY_STOP_CONSECUTIVE = 3
 EARLY_STOP_TOTAL = 5
 
 
+def url_key(url):
+    """The identity of a URL for dedup: case-insensitive, no trailing slash.
+    hub.db enforces the same key (unique index idx_entries_url_norm on
+    lower(rtrim(url,'/'))), so every writer must compare with this before inserting."""
+    return (url or "").strip().rstrip("/").lower()
+
+
 def resolve_source(source):
     """Case-insensitive config lookup."""
     exact = SOURCES_DIR / f"{source}.json"
@@ -397,6 +404,7 @@ def extract_cards(soup, config):
     """Extract items from HTML using CSS selectors. Shared by pagination and single_page."""
     sel = config["selectors"]
     url_prefix = config.get("url_prefix", "")
+    url_transform = config.get("url_transform")  # {"replace": ..., "with": ...}, applied before the diff
     cards = soup.select(sel["item"])
     items = []
 
@@ -433,6 +441,8 @@ def extract_cards(soup, config):
         item_url = url_el["href"] if url_el and url_el.has_attr("href") else ""
         if item_url and not item_url.startswith("http"):
             item_url = url_prefix + item_url
+        if item_url and url_transform:
+            item_url = item_url.replace(url_transform["replace"], url_transform["with"])
 
         item = {
             "title": clean_text(title),
@@ -488,7 +498,7 @@ def early_stop_hit(items, existing_urls, max_consecutive=EARLY_STOP_CONSECUTIVE,
         return False
     consecutive = total = 0
     for item in items:
-        if item.get("url", "").rstrip("/").lower() in existing_urls:
+        if url_key(item.get("url", "")) in existing_urls:
             consecutive += 1
             total += 1
             if consecutive >= max_consecutive or total >= max_total:
@@ -808,7 +818,7 @@ def load_existing_urls():
     import sqlite3
     if DB_PATH.exists():
         conn = sqlite3.connect(DB_PATH, timeout=30)  # reader; WAL mode, see AGENTS.md
-        urls = {row[0].rstrip("/").lower() for row in conn.execute("SELECT url FROM entries")}
+        urls = {url_key(row[0]) for row in conn.execute("SELECT url FROM entries")}
         conn.close()
         return urls
     if not LLMS_FULL.exists():
@@ -818,7 +828,7 @@ def load_existing_urls():
         for line in f:
             m = re.match(r'^url:\s*"(.+)"', line.strip())
             if m:
-                urls.add(m.group(1).rstrip("/").lower())
+                urls.add(url_key(m.group(1)))
     return urls
 
 
@@ -827,7 +837,7 @@ def diff_items(items, existing_urls):
     new = []
     existing = []
     for item in items:
-        normalized = item["url"].rstrip("/").lower()
+        normalized = url_key(item["url"])
         if normalized in existing_urls:
             existing.append(item)
         else:
@@ -1155,6 +1165,32 @@ def apply_type_filter(items, config):
     return kept, filtered
 
 
+def apply_field_filter(items, config):
+    """Split items by the config's "exclude_when" rules, a list of
+    {"field", "values", "reason"}: an item whose field value (stripped,
+    case-insensitive) is one of the values is set aside with filter_reason =
+    reason — an exclude reason curate.py accepts (WWC: evidence_tier -1 ->
+    wwc_tier_minus1_no_evidence). Items without the field are kept. Like the
+    type filter, rejects are staged, not dropped."""
+    rules = config.get("exclude_when") or []
+    if not rules:
+        return items, []
+    kept, filtered = [], []
+    for item in items:
+        hit = None
+        for rule in rules:
+            value = str(item.get(rule["field"]) or "").strip().lower()
+            if value and value in {str(v).strip().lower() for v in rule["values"]}:
+                hit = rule["reason"]
+                break
+        if hit:
+            item["filter_reason"] = hit
+            filtered.append(item)
+        else:
+            kept.append(item)
+    return kept, filtered
+
+
 # ── Main ──
 
 
@@ -1272,7 +1308,7 @@ def main():
         seen_urls = set()
         deduped = []
         for item in items:
-            key = item["url"].rstrip("/").lower()
+            key = url_key(item["url"])
             if key not in seen_urls:
                 seen_urls.add(key)
                 deduped.append(item)
@@ -1304,19 +1340,29 @@ def main():
         print(f"[scrape] --limit {args.limit}: keeping the first {args.limit} of {len(items)} new items")
         items = items[:args.limit]
 
-    # Type filter, pass 1: items whose listing type is out of scope are set
-    # aside before any page is fetched for them.
+    # A listing with no type column can label every item (the WWC configs)
+    if config.get("type_default"):
+        for item in items:
+            if not (item.get("type") or "").strip():
+                item["type"] = config["type_default"]
+
+    # Type / field filters, pass 1: items whose listing type or field value is
+    # out of scope are set aside before any page is fetched for them.
     items, filtered = apply_type_filter(items, config)
+    items, filtered_fields = apply_field_filter(items, config)
+    filtered.extend(filtered_fields)
 
     # Detail fetch: fill in descriptions from individual pages if configured
     if config.get("detail_fetch"):
         items = fetch_detail_descriptions(items, config, source)
 
-    # Type filter, pass 2: types that only the page supplied (extra_fields)
+    # Pass 2: types or field values that only the page supplied (extra_fields)
     items, filtered_late = apply_type_filter(items, config)
     filtered.extend(filtered_late)
+    items, filtered_late = apply_field_filter(items, config)
+    filtered.extend(filtered_late)
     if filtered:
-        print(f"[scrape] Type filter: {len(filtered)} items set aside (kept in staging as filtered_items)")
+        print(f"[scrape] Filters: {len(filtered)} items set aside (kept in staging as filtered_items)")
 
     # Split by blurb quality
     ready, backlog = split_by_blurb(items)

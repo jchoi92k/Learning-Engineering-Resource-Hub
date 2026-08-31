@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub — The Education Trust
 
-> 362 entries from The Education Trust.
+> 322 entries from The Education Trust.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-the-education-trust.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
@@ -44,15 +44,7 @@
 - 7116. [Youth Participatory Action Research (YPAR)](https://edtrust.org/rti/youth-participatory-action-research-ypar/) | report | edtrust
 - 7117. [FY27 Federal Budget Proposal Cuts Billions from Education Funding](https://edtrust.org/rti/federal-funding-budget-proposal-cuts-education/) | tool | edtrust
 - 7118. [New Loan Limits Threaten Graduate Education Access and Affordability](https://edtrust.org/rti/new-loan-limits-threaten-graduate-education-access-and-affordability/) | report | edtrust
-- 7119. [Reading & Representation: Confronting America’s Literacy Crisis](https://edtrust.org/rti/reading-representation-confronting-americas-literacy-crisis/) | presentation | edtrust, literacy
-- 7120. [Accurate History vs. Patriotic Education](https://edtrust.org/rti/accurate-history-vs-patriotic-education/) | presentation | edtrust
-- 7121. [AI, Access, and the Educational Divide](https://edtrust.org/rti/ai-access-and-the-educational-divide/) | presentation | career-readiness, edtrust
-- 7122. [Can You Tell Us How to Get to Sesame Street?](https://edtrust.org/rti/can-you-tell-us-how-to-get-to-sesame-street/) | presentation | edtrust
-- 7123. [Unlocking Students’ Pathways to College & Career Part 2](https://edtrust.org/rti/unlocking-students-pathways-to-college-career-part-2/) | presentation | career-readiness, college-access, edtrust
-- 7124. [Unlocking Students’ Pathways to College & Career Part 1](https://edtrust.org/rti/unlocking-students-pathways-to-college-career-part-1/) | presentation | career-readiness, college-access, edtrust
 - 7125. [Ready for Rigor: Expanding Access to Rigorous Coursework in Michigan](https://edtrust.org/rti/ready-for-rigor-expanding-access-to-rigorous-coursework-in-michigan/) | report | college-access, edtrust
-- 7126. [Meet us in the Principal’s Office: What Public Education Leaders Want You to Know Part 2](https://edtrust.org/rti/meet-us-in-the-principals-office-what-public-education-leaders-want-you-to-know-part-2/) | presentation | edtrust
-- 7127. [Meet us in the Principal’s Office: What Public Education Leaders Want You to Know Part 1](https://edtrust.org/rti/meet-us-in-the-principals-office-part-1/) | presentation | edtrust
 - 7128. [How to Strengthen the Emergency Safety Net for Today’s Students](https://edtrust.org/rti/strengthening-the-emergency-student-safety-net/) | report | college-access, edtrust
 - 7129. [Explore the Updated Opportunity for All Website](https://edtrust.org/rti/explore-the-updated-opportunity-for-all-website/) | tool | edtrust
 - 7130. [The Hidden Bias in College ROI Frameworks](https://edtrust.org/rti/hidden-bias-in-college-roi-frameworks/) | report | college-access, edtrust
@@ -67,7 +59,6 @@
 - 7139. [How Land-Grant Institutions Can Better Serve Indigenous Students](https://edtrust.org/rti/how-land-grant-institutions-can-better-serve-indigenous-students/) | report | edtrust
 - 7140. [Protecting Students While Public Education is Under Attack](https://edtrust.org/rti/protecting-students-while-public-education-is-under-attack/) | framework | edtrust
 - 7141. [Federal Rulemaking Recap for Postsecondary Program Accountability: What Changed and What It Means for Higher Education](https://edtrust.org/rti/federal-rulemaking-recap-for-postsecondary-program-accountability-what-changed-and-what-it-means-for-higher-education/) | report | college-access, edtrust
-- 7142. [From First-Gen to First-of-Many: How TRIO Changes What’s Possible](https://edtrust.org/rti/from-first-gen-to-first-of-many-how-trio-changes-whats-possible/) | presentation | college-access, edtrust
 - 7143. [Consensus Reached, Questions Remain: The Workforce Pell Rulemaking Recap](https://edtrust.org/rti/consensus-reached-questions-remain-the-workforce-pell-rulemaking-recap/) | report | career-readiness, edtrust
 - 7144. [How the Elimination of Grad PLUS Loans and Classification of Professional Degrees Harm Women and Students of Color](https://edtrust.org/rti/eliminating-grad-plus-loans-professional-degrees-harms-women-students-of-color/) | report | college-access, edtrust
 - 7145. [The State of Math Instruction: Equity, Access, and Outcomes](https://edtrust.org/rti/the-state-of-math-instruction-equity-access-and-outcomes/) | report | edtrust, math-education
@@ -86,7 +77,6 @@
 - 7158. [Supporting Student-Parents at Two-Year Colleges: Addressing the Affordability Gap](https://edtrust.org/rti/supporting-student-parents-at-two-year-colleges-addressing-the-affordability-gap/) | report | attendance, college-access, edtrust
 - 7159. [An Equitable Approach to Improving Literacy](https://edtrust.org/rti/an-equitable-approach-to-improving-literacy/) | report | edtrust, literacy
 - 7160. [State Fact Sheet: 2025 Budget Reconciliation](https://edtrust.org/rti/state-fact-sheet-2025-budget-reconciliation/) | report | edtrust
-- 7161. [VIDEO: Trump’s Chaotic Carnival Ride for Students](https://edtrust.org/rti/video-trumps-chaotic-carnival-ride-for-students/) | presentation | edtrust
 - 7162. [5 Ways to Create Fair School Funding Formulas](https://edtrust.org/rti/5-ways-to-create-fair-school-funding-formulas/) | report | edtrust
 - 7163. [P-12 School Funding Glossary](https://edtrust.org/rti/p-12-school-funding-glossary/) | framework | edtrust
 - 7164. [New Analyses: Michigan in Bottom Ten in Nation for School Funding Weights for Students from Low-Income Backgrounds Amid Greatest Threat to Public Education in Decades](https://edtrust.org/rti/new-analyses-michigan-in-bottom-ten-in-nation-for-school-funding-weights-for-students-from-low-income-backgrounds-amid-greatest-threat-to-public-education-in-decades/) | report | edtrust
@@ -96,11 +86,9 @@
 - 7168. [The Department of Education’s Newest Broken Promise: Cutting Pandemic Relief Funding](https://edtrust.org/rti/the-department-of-educations-newest-broken-promise-cutting-pandemic-relief-funding/) | tool | edtrust
 - 7169. [Invest in Need-Based Financial Aid to Achieve a Talent Strong Texas](https://edtrust.org/rti/invest-in-need-based-financial-aid-to-achieve-a-talent-strong-texas/) | report | career-readiness, edtrust
 - 7170. [How Emergency Relief Funding Helped Students Stay in College During the Pandemic](https://edtrust.org/rti/how-emergency-relief-funding-helped-students-stay-in-college-during-the-pandemic/) | report | college-access, edtrust
-- 7171. [VIDEO: Explainers on the Attacks on Education](https://edtrust.org/rti/video-explainers-on-the-attacks-on-education/) | presentation | edtrust
 - 7172. [Find Out How Much Federal Education Aid Your State Could Lose](https://edtrust.org/rti/find-out-how-much-federal-education-aid-your-state-could-lose/) | tool | edtrust
 - 7173. [#SaveOurStudents: Advocacy Toolkit to Organize for Success](https://edtrust.org/rti/saving-our-students-communications-toolkit-to-organizing-for-success/) | framework | edtrust
 - 7174. [The Impacts of the Los Angeles Wildfires: Lessons for Schools Nationwide](https://edtrust.org/rti/the-impacts-of-the-los-angeles-wildfires-lessons-for-schools-nationwide/) | report | edtrust
-- 7175. [Press Conference on Dismantling the Department of Education](https://edtrust.org/rti/press-conference-on-dismantling-the-department-of-education/) | presentation | edtrust
 - 7176. [A Scan of State Universal FAFSA Policies](https://edtrust.org/rti/a-scan-of-state-universal-fafsa-policies/) | report | edtrust
 - 7177. [Opening Doors for More Americans – a Toolkit for State Advocates](https://edtrust.org/rti/standing-for-dei-programs-in-your-state/) | framework | college-access, edtrust, inclusive-design
 - 7178. [How District Leaders and Advocates Can Build Parent Support for Statewide Assessments](https://edtrust.org/rti/how-district-leaders-and-advocates-can-build-parent-support-for-statewide-assessments/) | report | edtrust, formative-assessment
@@ -152,10 +140,8 @@
 - 7224. [The Search for More Complex Racial and Ethnic Representation in Grade School Books](https://edtrust.org/rti/the-search-for-more-complex-racial-and-ethnic-representation-in-grade-school-books/) | report | edtrust, sel
 - 7225. [How Colleges’ Anti-DEI Policies Affect Campus Racial Climate](https://edtrust.org/rti/how-colleges-anti-dei-policies-affect-campus-racial-climate/) | framework | college-access, edtrust, inclusive-design
 - 7226. [Advocating for Education Equity as ESSER Spending Winds Down](https://edtrust.org/rti/watch-out-for-the-fiscal-cliff-advocating-for-education-equity-as-esser-spending-winds-down/) | report | edtrust
-- 7227. [VIDEO: Equitable School Spending Using COVID Relief Funds](https://edtrust.org/rti/video-equitable-school-spending-using-covid-relief-funds/) | presentation | edtrust
 - 7228. [A.S.P.I.I.R.E.S: State Policy Review Framework](https://edtrust.org/rti/aspiires-state-policy-review-framework/) | framework | edtrust
 - 7229. [How Certain States Are Supporting Social, Emotional, and Academic Development (SEAD)](https://edtrust.org/rti/how-certain-states-are-supporting-social-emotional-and-academic-development-sead/) | framework | edtrust, sel
-- 7230. [Leading with Excellence Video Series](https://edtrust.org/rti/leading-with-equity-video-series/) | presentation | edtrust
 - 7231. [Affirmative Action in Higher Education: Moving the Conversation Forward](https://edtrust.org/rti/affirmative-action/) | report | college-access, edtrust
 - 7232. [Tool for Representational Balance in Books](https://edtrust.org/rti/tool-for-representational-balance/) | report | edtrust
 - 7233. [5 State Policy Recommendations Fostering STEM Aspirations for Students of Color in Middle School](https://edtrust.org/rti/5-state-policy-recommendations-fostering-stem-aspirations-for-students-of-color-in-middle-school/) | report | edtrust, k-12, math-education
@@ -179,7 +165,6 @@
 - 7251. [Faculty Diversity and Student Success Go Hand in Hand, So Why Are University Faculties So White?](https://edtrust.org/rti/faculty-diversity-and-student-success-go-hand-in-hand-so-why-are-university-faculties-so-white/) | report | college-access, edtrust
 - 7252. [Equal Is Not Good Enough](https://edtrust.org/rti/equal-is-not-good-enough/) | report | edtrust
 - 7253. [Educators of Color Make the Case for Teacher Diversity](https://edtrust.org/rti/educators-of-color-make-the-case-for-teacher-diversity/) | report | edtrust
-- 7254. [ExtraOrdinary Districts: Discussion of Lane, Oklahoma](https://edtrust.org/rti/extraordinary-districts-discussion-of-lane-oklahoma/) | presentation | college-access, edtrust, literacy
 - 7255. [A School District Guide to Advocating for Equity in American Rescue Plan Spending](https://edtrust.org/rti/a-school-district-guide-to-advocating-for-equity-in-american-rescue-plan-spending/) | framework | edtrust
 - 7256. [Holding Colleges Accountable for Advancing Education Equity](https://edtrust.org/rti/holding-colleges-accountable-for-advancing-education-equity/) | report | college-access, edtrust
 - 7257. [Increasing Resource Equity](https://edtrust.org/rti/increasing-resource-equity/) | report | college-access, edtrust
@@ -204,13 +189,10 @@
 - 7276. [Educator Diversity State Profile: California](https://edtrust.org/rti/educator-diversity-state-profile-california/) | report | career-readiness, edtrust
 - 7277. [Educator Diversity State Profile: Illinois](https://edtrust.org/rti/educator-diversity-state-profile-illinois/) | report | career-readiness, edtrust
 - 7278. [Six Pillars of an Equitable Higher Education Nutrition Policy](https://edtrust.org/rti/six-pillars-of-an-equitable-higher-education-nutrition-policy/) | report | college-access, edtrust
-- 7279. [ExtraOrdinary Districts Season 5: Where Are All Those Dollars Going?](https://edtrust.org/rti/extraordinary-districts-season-5/) | presentation | edtrust
 - 7280. [Still Stalled: 2022 State of Michigan Education Report](https://edtrust.org/rti/still-stalled-2022-state-of-michigan-education-report/) | report | edtrust, literacy
-- 7281. [Estudiantes en en la escuela secundario se pueden matricular en cursos del nivel universitario en Luisiana](https://edtrust.org/rti/estudiantes-en-en-la-escuela-secundario-se-pueden-matricular-en-cursos-del-nivel-universitario-en-luisiana/) | presentation | edtrust
 - 7282. [Addressing Teacher Shortages in the Short- & Long-Term](https://edtrust.org/rti/addressing-teacher-shortages-in-the-short-long-term/) | report | edtrust
 - 7283. [EQUITY FIRST: Priorities for Higher Education Partnerships and Investments](https://edtrust.org/rti/equity-first-priorities-for-higher-education-partnerships-and-investments/) | report | college-access, edtrust
 - 7284. [Why Are Black and Latino Students Shut Out of AP STEM Courses?](https://edtrust.org/rti/why-are-black-and-latino-students-shut-out-of-ap-stem-courses/) | report | computer-assisted-learning, edtrust, k-12, math-education
-- 7285. [VIDEO: Shut Out: Why Black and Latino Students Are Under Enrolled in AP STEM Courses](https://edtrust.org/rti/video-shut-out-why-black-and-latino-students-are-under-enrolled-in-ap-stem-courses/) | presentation | career-readiness, college-access, edtrust, k-12
 - 7286. [Beyond the Ban](https://edtrust.org/rti/beyond-the-ban/) | report | edtrust
 - 7287. [A Toolkit for Advancing College Opportunity for Justice-Impacted Students – Texas](https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-texas/) | framework | college-access, edtrust
 - 7288. [A Toolkit for Advancing College Opportunity for Justice-Impacted Students – Tennessee](https://edtrust.org/rti/a-toolkit-for-advancing-college-opportunity-for-justice-impacted-students-tennessee/) | framework | college-access, edtrust
@@ -225,7 +207,6 @@
 - 7297. [Getting Latino Students Better Access to Non-Novice Teachers](https://edtrust.org/rti/getting-latino-students-better-access-to-non-novice-teachers/) | report | edtrust
 - 7298. [5 Things for Advocates to Know About Equitable School Nutrition](https://edtrust.org/rti/5-things-for-advocates-to-know-about-equitable-school-nutrition/) | report | attendance, edtrust, literacy, math-education
 - 7299. [Engine of Inequality: Michigan’s Education System](https://edtrust.org/rti/engine-of-inequality-michigans-education-system/) | report | edtrust
-- 7300. [VIDEO: A Natural Fit: Supporting After-School Staff of Color in Teacher Pipelines](https://edtrust.org/rti/video-a-natural-fit-supporting-after-school-staff-of-color-in-teacher-pipelines/) | presentation | career-readiness, edtrust
 - 7301. [A Natural Fit: Supporting After-School Staff of Color in Teacher Pipelines](https://edtrust.org/rti/a-natural-fit-supporting-after-school-staff-of-color-in-teacher-pipelines/) | report | career-readiness, edtrust
 - 7302. [State Guidance for High-Impact Tutoring](https://edtrust.org/rti/state-guidance-for-high-impact-tutoring/) | report | edtrust, response-to-intervention
 - 7303. [Action Guide: Targeting Resources from the American Rescue Plan to Address the Needs of English Learners](https://edtrust.org/rti/action-guide-targeting-resources-from-the-american-rescue-plan-to-address-the-needs-of-english-learners/) | framework | edtrust, english-learners
@@ -244,7 +225,6 @@
 - 7316. [Using Professional Judgment in Financial Aid to Advance Racial Justice & Equity](https://edtrust.org/rti/using-professional-judgment-in-financial-aid/) | report | college-access, edtrust
 - 7317. [Educator Diversity State Profile: OHIO](https://edtrust.org/rti/educator-diversity-state-profile-ohio/) | report | career-readiness, edtrust
 - 7318. [Educator Diversity State Profile: Massachusetts](https://edtrust.org/rti/educator-diversity-state-profile-massachusetts/) | report | edtrust
-- 7319. [ExtraOrdinary Districts in ExtraOrdinary Times – Season Four](https://edtrust.org/rti/extraordinary-districts-in-extraordinary-times-season-four/) | presentation | edtrust
 - 7320. [Right Direction. Miles to Go.](https://edtrust.org/rti/right-direction-miles-to-go/) | report | edtrust
 - 7321. [Ensuring Safe and Supportive School Climates in Texas](https://edtrust.org/rti/ensuring-safe-and-supportive-school-climates-in-texas/) | framework | edtrust
 - 7322. [Improving Equity In College And Career Readiness Outcomes In Texas](https://edtrust.org/rti/improving-equity-in-college-and-career-readiness-outcomes-in-texas/) | framework | career-readiness, college-access, edtrust
@@ -256,44 +236,30 @@
 - 7328. [COVID-19 Education Equity Guide: Digital Access](https://edtrust.org/rti/covid-19-education-equity-guide-digital-access/) | framework | computer-assisted-learning, edtrust
 - 7329. [COVID-19 Education Equity Guide: School Funding](https://edtrust.org/rti/covid-19-education-equity-guide-school-funding/) | framework | dropout-prevention, edtrust
 - 7330. [A Promise Worth Keeping](https://edtrust.org/rti/a-promise-worth-keeping/) | report | college-access, edtrust
-- 7331. [VIDEO: Stop Criminalizing and Excluding Black, Latina, and Native Girls in Schools](https://edtrust.org/rti/video-stop-criminalizing-and-excluding-black-latina-and-native-girls-in-schools/) | presentation | edtrust
 - 7332. [“And they cared”: How to Create Better, Safer Learning Environments for Girls of Color](https://edtrust.org/rti/and-they-cared-how-to-create-better-safer-learning-environments-for-girls-of-color/) | framework | edtrust
 - 7333. [Segregation Forever?](https://edtrust.org/rti/segregation-forever/) | report | edtrust
-- 7334. [Education Tele-Town Hall: Early Childhood Education – Taking Care of the Caretakers](https://edtrust.org/rti/education-tele-town-hall-early-childhood-education-taking-care-of-the-caretakers/) | presentation | early-childhood, edtrust
-- 7335. [Tele-Townhall Responding & Returning to Schools: Parents’ Perspectives on the Summer and Fall](https://edtrust.org/rti/tele-townhall-responding-returning-to-schools-parents-perspectives-on-the-summer-and-fall/) | presentation | edtrust
-- 7336. [When Schools Close…Harnessing the Power of Summer America’s Students](https://edtrust.org/rti/when-schools-close-harnessing-the-power-of-summer-americas-students/) | presentation | edtrust
 - 7337. [11 Ways Governors Can Use Their Federal Stimulus Funds to Prioritize Education Equity](https://edtrust.org/rti/11-ways-governors-can-use-their-federal-stimulus-funds-to-prioritize-education-equity/) | framework | college-access, edtrust
 - 7338. [10 Questions for Equity Advocates to Ask About Distance Learning](https://edtrust.org/rti/10-questions-for-equity-advocates-to-ask-about-distance-learning/) | framework | edtrust
 - 7339. [A P-12 Education Agenda in Response to COVID-19](https://edtrust.org/rti/a-p-12-education-agenda-in-response-to-covid-19/) | framework | edtrust
 - 7340. [A Higher Education Equity Agenda in Response to COVID-19](https://edtrust.org/rti/a-higher-education-equity-agenda-in-response-to-covid-19/) | framework | college-access, edtrust
-- 7341. [ExtraOrdinary Districts in ExtraOrdinary Times](https://edtrust.org/rti/extraordinary-districts-in-extraordinary-times/) | presentation | edtrust
 - 7342. [Louisiana COVID-19 Supplemental SNAP Benefits](https://edtrust.org/rti/louisiana-covid-19-supplemental-snap-benefits/) | report | edtrust
 - 7343. [The Coronavirus Aid, Relief, and Economic Security (CARES) Act (S. 3548) Education Fact Sheet](https://edtrust.org/rti/the-coronavirus-aid-relief-and-economic-security-cares-act-s-3548/) | report | edtrust
 - 7344. [Child Hunger and the Coronavirus Pandemic](https://edtrust.org/rti/child-hunger-and-the-coronavirus-pandemic/) | report | edtrust
-- 7345. [VIDEO: Why Only Race-Conscious Policies Can Fix Racism in Higher Education](https://edtrust.org/rti/video-why-only-race-conscious-policies-can-fix-racism-in-higher-education/) | presentation | college-access, edtrust
 - 7346. [Advanced Coursework in Your State](https://edtrust.org/rti/advanced-coursework-tool/) | tool | edtrust
-- 7347. [ExtraOrdinary Districts: Discussion of Seaford, Delaware](https://edtrust.org/rti/extraordinary-districts-discussion-of-seaford-delaware/) | presentation | edtrust
 - 7348. [5 Things to Advance Equity in Access to and Success in Advanced Coursework](https://edtrust.org/rti/5-things-to-advance-equity-in-access-to-and-success-in-advanced-coursework/) | framework | edtrust
 - 7349. [5 Things to Advance Equity in State Accountability Systems, School Improvement, and Reporting](https://edtrust.org/rti/5-things-to-advance-equity-in-state-accountability-systems-school-improvement-and-reporting/) | report | edtrust
 - 7350. [5 Things to Advance Equity in Access to Strong and Diverse Educators](https://edtrust.org/rti/5-things-to-advance-equity-in-access-to-strong-and-diverse-educators/) | framework | edtrust
-- 7351. [ExtraOrdinary Districts: Seaford, Delaware](https://edtrust.org/rti/extraordinary-districts-seaford-delaware/) | presentation | edtrust
 - 7352. [5 Things to Advance Equity in State Funding Systems](https://edtrust.org/rti/5-things-to-advance-equity-in-state-funding-systems/) | report | edtrust
-- 7353. [ExtraOrdinary Districts: Lane, Oklahoma](https://edtrust.org/rti/lane-oklahoma/) | presentation | college-access, edtrust
-- 7354. [ExtraOrdinary Districts: Live!](https://edtrust.org/rti/extraordinary-districts-live/) | presentation | college-access, edtrust
 - 7355. [Young Learners, Missed Opportunities](https://edtrust.org/rti/young-learners-missed-opportunities/) | report | early-childhood, edtrust
-- 7356. [ExtraOrdinary Districts Season 2](https://edtrust.org/rti/extraordinary-districts-season-2/) | presentation | edtrust
 - 7357. [Creating Accountability for College Access and Success: Recommendations for the Higher Education Act and Beyond](https://edtrust.org/rti/creating-accountability-for-college-access-and-success-recommendations-for-the-higher-education-act-and-beyond/) | framework | college-access, edtrust
 - 7358. [Broken Mirrors](https://edtrust.org/rti/broken-mirrors-latino-representation-spanish/) | report | edtrust
 - 7359. [Broken Mirrors: Latino Representation at Public Colleges](https://edtrust.org/rti/broken-mirrors-latino-representation-english/) | report | college-access, edtrust
-- 7360. [Special Edition: Segregation, Integration and the Milford 11](https://edtrust.org/rti/special-edition-segregation-integration-and-the-milford-11/) | presentation | edtrust
 - 7361. [Broken Mirrors: Black Representation at Public Colleges](https://edtrust.org/rti/broken-mirrors-black-representation/) | report | college-access, edtrust
 - 7362. [School Counselors Matter](https://edtrust.org/rti/school-counselors-matter/) | report | edtrust, sel
 - 7363. [Aiming for Equity](https://edtrust.org/rti/aiming-for-equity/) | framework | college-access, edtrust
-- 7364. [VIDEO: What is Dual Enrollment?](https://edtrust.org/rti/video-what-is-dual-enrollment/) | presentation | edtrust
 - 7365. [Motivation and Engagement in Student Assignments](https://edtrust.org/rti/motivation-and-engagement-in-student-assignments/) | report | edtrust
 - 7366. [A Promise Fulfilled](https://edtrust.org/rti/a-promise-fulfilled/) | report | college-access, edtrust
 - 7367. [National & State Trends in Degree Attainment for Latino Adults](https://edtrust.org/rti/national-state-trends-in-degree-attainment-latino-adults/) | report | career-readiness, edtrust
-- 7368. [Special Edition: ExtraOrdinary Districts Need Extraordinary School Leaders. How Do We Get More of Them?](https://edtrust.org/rti/special-edition-extraordinary-districts-need-extraordinary-school-leaders-get/) | presentation | edtrust
 - 7369. [Checking In: Are Math Assignments Measuring Up?](https://edtrust.org/rti/checking-math-assignments-measuring-2/) | report | career-readiness, college-access, edtrust, math-education
 - 7370. [Equity-Focused Priorities for a Reauthorized Higher Education Act (HEA)](https://edtrust.org/rti/equity-focused-priorities-for-a-reauthorized-higher-education-act-hea/) | report | college-access, edtrust
 - 7371. [Ed Trust Higher Education Act (HEA) Priorities](https://edtrust.org/rti/ed-trust-higher-education-act-hea-priorities/) | report | college-access, edtrust
@@ -308,12 +274,6 @@
 - 7380. [A Look at Latino Success Tool](https://edtrust.org/rti/look-latino-success-tool/) | tool | college-access, edtrust
 - 7381. [Trends in State ESSA Plans](https://edtrust.org/rti/trends-in-state-essa-plans/) | report | edtrust
 - 7382. [A Look at Latino Student Success](https://edtrust.org/rti/look-latino-student-success/) | report | college-access, edtrust
-- 7383. [ExtraOrdinary Districts: Season 1, Episode 4: Chicago, Illinois](https://edtrust.org/rti/extraordinary-districts-episode-4-chicago-illinois/) | presentation | edtrust
-- 7384. [ExtraOrdinary Districts: Season 1, Episode 3: Steubenville, Ohio](https://edtrust.org/rti/extraordinary-districts-episode-3-steubenville-ohio/) | presentation | edtrust
-- 7385. [ExtraOrdinary Districts: Season 1, Episode 2: Lexington, Massachusetts](https://edtrust.org/rti/extraordinary-districts-episode-2-lexington-massachusetts/) | presentation | edtrust
-- 7386. [ExtraOrdinary Districts: Ordinary School Districts That get Extraordinary Results](https://edtrust.org/rti/extraordinary-districts/) | presentation | edtrust
-- 7387. [ExtraOrdinary Districts: Season 1, Episode 1 – How Do We Know Which Districts are Extra-Ordinary?](https://edtrust.org/rti/episode-1-know-districts-extra-ordinary/) | presentation | edtrust
-- 7388. [ExtraOrdinary Districts Season 1](https://edtrust.org/rti/extraordinary-districts-season-1/) | presentation | edtrust
 - 7389. [Tackling Gaps in Access to Strong Teachers](https://edtrust.org/rti/tackling-gaps-access-strong-teachers/) | framework | edtrust
 - 7390. [Systems for Success: Thinking Beyond Access to AP](https://edtrust.org/rti/systems-success-thinking-beyond-access-ap/) | report | edtrust
 - 7391. [For Equity-Oriented State Leaders: 9 Ideas for Stimulating School Improvement Under ESSA](https://edtrust.org/rti/equity-oriented-state-leaders-9-ideas-stimulating-school-improvement-essa/) | report | edtrust

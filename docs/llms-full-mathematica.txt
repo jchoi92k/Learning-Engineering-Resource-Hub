@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Mathematica (full)
-# 632 entries with descriptions | Last updated: 2026-08-30
+# 633 entries with descriptions | Last updated: 2026-08-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-mathematica-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -13271,5 +13271,26 @@ tags: []
 ```
 
 This paper examines theoretical and empirical issues related to the statistical power of impact estimates for experimental evaluations of education programs.
+
+---
+
+---
+
+### 8989. Evaluation of KIPP Atlanta Schools
+
+```yaml
+url: "https://www.mathematica.org/publications/evaluation-of-kipp-atlanta-schools"
+type: report
+source: "Mathematica"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, college-access]
+```
+
+This evaluation examines how KIPP Atlanta Schools influences academic achievement and long-term student success, including college enrollment, persistence, credential completion, and workforce outcomes.
 
 ---

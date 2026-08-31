@@ -5,8 +5,8 @@ This is the agent-side writer for hub.db: alongside process_staged.py
 (inserts) and verify_urls.py (URL status), it is the only sanctioned way to
 change an existing row. Every write bumps updated_at, prints the before/after
 of the touched fields, and refuses values outside the controlled vocabularies
-(tags: TAG_CATEGORIES; description_source: DESCRIPTION_SOURCES; exclude
-reasons: EXCLUDE_REASONS).
+(tags: TAG_CATEGORIES; type: ENTRY_TYPES; description_source: DESCRIPTION_SOURCES;
+exclude reasons: EXCLUDE_REASONS).
 
 Usage (from repo root):
     python scripts/curate.py show NUM [--json]
@@ -15,6 +15,7 @@ Usage (from repo root):
     python scripts/curate.py reactivate NUM
     python scripts/curate.py set-description NUM --source SRC (--file PATH | --text TEXT)
     python scripts/curate.py set-tags NUM tag1,tag2,...
+    python scripts/curate.py set-type NUM TYPE
     python scripts/curate.py set-url NUM --url NEW_URL
 
     --db PATH   use another database file (default data/hub.db)
@@ -32,8 +33,8 @@ import sys
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPT_DIR)
 
-from build_from_db import DESCRIPTION_SOURCES, MIN_DESCRIPTION_CHARS, TAG_CATEGORIES  # noqa: E402
-from scrape import clean_text  # noqa: E402
+from build_from_db import DESCRIPTION_SOURCES, ENTRY_TYPES, MIN_DESCRIPTION_CHARS, TAG_CATEGORIES  # noqa: E402
+from scrape import clean_text, url_key  # noqa: E402
 
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 DB_PATH = os.path.join(REPO_ROOT, "data", "hub.db")
@@ -42,8 +43,10 @@ TAG_VOCAB = frozenset(t for tags in TAG_CATEGORIES.values() for t in tags)
 
 # Reasons an entry may be excluded from the published outputs. The first
 # block is what the pipeline and the June 2026 clean-ups already wrote;
-# `out_of_scope` is the weekly review's reason for dropping a row whose
-# subject is not education. verify_urls.py also writes `broken_url_<status>`.
+# `out_of_scope` is the review's reason for a row outside docs/purpose.md
+# section Scope (subject or genre). `source_on_hold` marks the rows of a source
+# whose weekly scraping is paused (Brookings, 2026-08-30): they stay for dedup
+# and can be reactivated. verify_urls.py also writes `broken_url_<status>`.
 EXCLUDE_REASONS = frozenset({
     "broken_url",
     "campbell_not_education_group",
@@ -53,7 +56,8 @@ EXCLUDE_REASONS = frozenset({
     "no_description_pending",
     "wwc_tier_minus1_no_evidence",
     "out_of_scope",
-})
+    "source_on_hold",
+})  # duplicate_url: historical only - hub.db now allows one row per URL (idx_entries_url_norm)
 BROKEN_URL_RE = re.compile(r"^broken_url_\d{3}$")
 # process_staged.py writes type_filtered:<source type label> for items a
 # config's type_allow list set aside (kept so the scope call can be reversed).
@@ -188,7 +192,8 @@ def set_description(conn, num, text, source):
 
 def set_url(conn, num, new_url):
     """Replace the entry's URL (site migrations). Refuses a URL already on
-    another row, so dedup stays exact."""
+    another row, so dedup stays exact. Resets the verification fields (url_status
+    back to 'unverified'): the new URL is unchecked until verify_urls.py sees it."""
     new_url = (new_url or "").strip()
     if not new_url.startswith("http"):
         raise CurateError(f"not a URL: {new_url!r}")
@@ -196,13 +201,21 @@ def set_url(conn, num, new_url):
     if row["url"] == new_url:
         print(f"#{num} url unchanged; nothing to do")
         return False
-    other = conn.execute("SELECT num FROM entries WHERE url = ? AND num != ?", (new_url, num)).fetchone()
+    other = conn.execute("SELECT num FROM entries WHERE lower(rtrim(url, '/')) = ? AND num != ?",
+                         (url_key(new_url), num)).fetchone()
     if other:
-        raise CurateError(f"url already used by entry #{other[0]}")
-    with conn:
-        conn.execute(f"UPDATE entries SET url = ?, updated_at = {NOW_SQL} WHERE num = ?", (new_url, num))
+        raise CurateError(f"url already used by entry #{other[0]} (same URL up to case / trailing slash)")
+    try:
+        with conn:
+            conn.execute(f"UPDATE entries SET url = ?, url_status = 'unverified', url_http_status = NULL, "
+                         f"last_verified = NULL, url_confirmed = 0, updated_at = {NOW_SQL} WHERE num = ?",
+                         (new_url, num))
+    except sqlite3.IntegrityError as e:   # the unique index is the last line of defence
+        raise CurateError(f"url refused by hub.db: {e}") from e
     print(f"#{num} url set — {_short(row['title'])}")
     _print_change("url", row["url"], new_url)
+    if row["url_status"] != "unverified":
+        _print_change("url_status", row["url_status"], "unverified")
     return True
 
 
@@ -220,6 +233,21 @@ def set_tags(conn, num, tags):
         conn.execute(f"UPDATE entries SET updated_at = {NOW_SQL} WHERE num = ?", (num,))
     print(f"#{num} tags set — {_short(row['title'])}")
     _print_change("tags", ", ".join(before) or "(none)", ", ".join(sorted(tags)))
+    return True
+
+
+def set_type(conn, num, new_type):
+    """Replace the entry's type (validated against ENTRY_TYPES)."""
+    if new_type not in ENTRY_TYPES:
+        raise CurateError(f"unknown type '{new_type}' — allowed: " + ", ".join(sorted(ENTRY_TYPES)))
+    row = get_entry(conn, num)
+    if row["type"] == new_type:
+        print(f"#{num} type already {new_type}; nothing to do")
+        return False
+    with conn:
+        conn.execute(f"UPDATE entries SET type = ?, updated_at = {NOW_SQL} WHERE num = ?", (new_type, num))
+    print(f"#{num} type set — {_short(row['title'])}")
+    _print_change("type", row["type"], new_type)
     return True
 
 
@@ -319,6 +347,10 @@ def build_parser():
     s.add_argument("num", type=int)
     s.add_argument("tags")
 
+    s = sub.add_parser("set-type", help="replace the entry's type (docs/schema.md vocabulary)")
+    s.add_argument("num", type=int)
+    s.add_argument("type")
+
     s = sub.add_parser("set-url", help="replace the entry's URL (site migrations)")
     s.add_argument("num", type=int)
     s.add_argument("--url", required=True)
@@ -343,6 +375,8 @@ def run(args, conn):
         set_description(conn, args.num, text, args.source)
     elif args.cmd == "set-tags":
         set_tags(conn, args.num, parse_tags(args.tags))
+    elif args.cmd == "set-type":
+        set_type(conn, args.num, args.type)
     elif args.cmd == "set-url":
         set_url(conn, args.num, args.url)
 

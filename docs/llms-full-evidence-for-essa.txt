@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Evidence for ESSA (full)
-# 221 entries with descriptions | Last updated: 2026-08-30
+# 226 entries with descriptions | Last updated: 2026-08-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-evidence-for-essa.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -4640,5 +4640,110 @@ tags: [literacy, writing-instruction]
 ```
 
 Elements of Reading: Comprehension is a supplementary program designed to be used along with ordinary basal textbooks to enhance the comprehension skills of students in the intermediate grades. It uses authentic literature to teach vocabulary, comprehension, and writing skills, in a series of 5-day lesson sequences emphasizing multiple readings, discussions, and practice opportunities. Teachers participate in a 3-hour workshop to learn the program.
+
+---
+
+---
+
+### 8970. Wyman’s Teen Connection Project (TCP)
+
+```yaml
+url: "https://evidenceforessa.org/program/wymans-teen-connection-project-tcp/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [k-12, sel, student-belonging]
+```
+
+Wyman’s Teen Connection Project (TCP) is an in-person, experiential program designed to strengthen adolescents' peer relationships and increase their ability to view peers as sources of support. High-school aged students participate in 12 small-group, curriculum-based, facilitator-led sessions intended to establish trust and belonging, identify common experiences, encourage appropriate self-disclosure, and develop more supportive relationships with classmates. Sessions progress from establishing a safe peer context, to developing social belonging, to consolidating relationships and helping students recognize their own and others' strengths.
+
+---
+
+---
+
+### 8971. The Positivity Project (P2)
+
+```yaml
+url: "https://evidenceforessa.org/program/the-positivity-project-p2/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, k-12, personalized-learning, professional-development, sel]
+```
+
+The Positivity Project is a universal character education program for preK-12 students. Teachers deliver 15-minute daily lessons on 24 character strengths drawn from positive psychology (e.g., kindness, perseverance, gratitude, social intelligence), using a digital library of 32 weeks of grade-differentiated slide presentations provided by the developer. A typical weekly cycle introduces the strength, reinforces it through discussion, has students apply it through an activity, and closes with reflection such as journaling. Teacher training consists of a three-hour staff-wide online session.
+
+---
+
+---
+
+### 8972. Thinking Math! by Innovamat
+
+```yaml
+url: "https://evidenceforessa.org/program/innovamat-2/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, professional-development]
+```
+
+Innovamat’s core curriculum, Thinking Math!, is a PreK-8 mathematics program grounded in socio-constructivist principles. It aims to develop conceptual understanding, mathematical fluency, problem-solving, and mathematical reasoning. The curriculum is built around research-based learning progressions, a Concrete-Pictorial-Abstract model, and rich mathematical activities designed to connect concepts, interleave and space practice for long-term retention, and provide meaningful contexts for learning. Teachers receive detailed lesson guides, access to a digital platform for lesson planning and progress monitoring, a set of manipulative materials, student logbooks, and an adaptive student application for individualized practice. The program includes ongoing professional development and coaching from dedicated math content specialists.
+
+---
+
+---
+
+### 8973. Edpuzzle Originals
+
+```yaml
+url: "https://evidenceforessa.org/program/edpuzzle-originals/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [digital-learning-platforms, formative-assessment, learning-engineering, literacy, math-education, personalized-learning]
+```
+
+Edpuzzle is an interactive learning platform that transforms how educators deliver video-based instruction by turning passive viewing into active learning experiences. The platform enables teachers to make content – including videos, slides, and quizzes – interactive by weaving in questions, commentary, and engaging elements at precise moments throughout the material, or quickly choose ready-to-go standards-aligned content. Teachers have access to customization tools that let them edit their assignments to fit their specific needs, such as adding audio notes or strategically placing different question types like multiple-choice or open-ended prompts. Edpuzzle Originals are ready-made, professionally-developed lessons that align with Common Core standards while still allowing teachers to adapt the lessons to their unique classroom requirements. Edpuzzle provides comprehensive insight into student learning as well. Educators can see exactly how students interact with content by tracking viewing habits, identifying where students struggle, and measuring comprehension through embedded assessments. This data-driven approach supports differentiation and personalized instruction. Edpuzzle is compatible with the flipped classroom model, distance learning, and traditional face-to-face instruction. Teachers can integrate Edpuzzle with existing learning management systems for assigning and grading. Whether used to support elementary math concepts, high school literature analysis, or many other instructional contexts, Edpuzzle can be incorporated by educators as a tool to present content and activities across a range of grade levels and subject areas, allowing teachers to adapt its use based on students’ needs and instructional goals.
+
+---
+
+---
+
+### 8974. Teachers Involve Parents in Schoolwork (TIPS)
+
+```yaml
+url: "https://evidenceforessa.org/program/teachers-involve-parents-in-schoolwork-tips/"
+type: report
+source: "Evidence for ESSA"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [k-12, math-education]
+```
+
+Teachers Involve Parents in Schoolwork (TIPS) is a researcher and educator-designed, implemented and tested partnership process for teachers to regularly keep families involved in their children's education. Through TIPS’ interactive homework, teachers provide students assignments that require them to talk to someone at home about something interesting that they are learning in class; helping to keep school on the agenda at home so that children know their parents believe schoolwork and homework are important and worth talking about. TIPS has interactive homework activities broken out by grade level (i.e., elementary, middle and high school) and subjects (i.e., language arts, math and science).
 
 ---

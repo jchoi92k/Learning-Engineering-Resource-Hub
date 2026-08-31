@@ -3,6 +3,7 @@
   "discovery": "pagination",
   "discovery_url": "https://learningpolicyinstitute.org/products/reports",
   "url_prefix": "https://learningpolicyinstitute.org",
+  "url_transform": {"replace": "/index%2Ephp/", "with": "/"},
   "pagination": {
     "param": "page",
     "start": 0

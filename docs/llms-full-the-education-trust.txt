@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — The Education Trust (full)
-# 362 entries with descriptions | Last updated: 2026-08-30
+# 322 entries with descriptions | Last updated: 2026-08-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -844,132 +844,6 @@ The elimination of Grad PLUS loans will limit access to advanced degrees and dri
 
 ---
 
-### 7119. Reading & Representation: Confronting America’s Literacy Crisis
-
-```yaml
-url: "https://edtrust.org/rti/reading-representation-confronting-americas-literacy-crisis/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust, literacy]
-```
-
-In this episode, we explore the science of reading, the importance of structured literacy, and how culturally responsive literacy instruction can transform the lives of students.
-
----
-
----
-
-### 7120. Accurate History vs. Patriotic Education
-
-```yaml
-url: "https://edtrust.org/rti/accurate-history-vs-patriotic-education/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-The Trump administration is trying to control what’s taught in classrooms
-
----
-
----
-
-### 7121. AI, Access, and the Educational Divide
-
-```yaml
-url: "https://edtrust.org/rti/ai-access-and-the-educational-divide/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [career-readiness, edtrust]
-```
-
-Artificial intelligence (AI) is rapidly reshaping education and the workforce, but at what cost?
-
----
-
----
-
-### 7122. Can You Tell Us How to Get to Sesame Street?
-
-```yaml
-url: "https://edtrust.org/rti/can-you-tell-us-how-to-get-to-sesame-street/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-In this episode, discuss the show’s powerful legacy and its ongoing mission to provide free, high-quality educational content to all children, especially those in under-resourced communities
-
----
-
----
-
-### 7123. Unlocking Students’ Pathways to College & Career Part 2
-
-```yaml
-url: "https://edtrust.org/rti/unlocking-students-pathways-to-college-career-part-2/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [career-readiness, college-access, edtrust]
-```
-
-We dive deeper and explore what it looks like when pathways work
-
----
-
----
-
-### 7124. Unlocking Students’ Pathways to College & Career Part 1
-
-```yaml
-url: "https://edtrust.org/rti/unlocking-students-pathways-to-college-career-part-1/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [career-readiness, college-access, edtrust]
-```
-
-An honest look at how unclear pathways are leaving graduates unprepared for what comes next
-
----
-
----
-
 ### 7125. Ready for Rigor: Expanding Access to Rigorous Coursework in Michigan
 
 ```yaml
@@ -986,48 +860,6 @@ tags: [college-access, edtrust]
 ```
 
 Our report examines where Michigan is falling short in preparing students for postsecondary pathways and what state and district leaders can do to expand access for students
-
----
-
----
-
-### 7126. Meet us in the Principal’s Office: What Public Education Leaders Want You to Know Part 2
-
-```yaml
-url: "https://edtrust.org/rti/meet-us-in-the-principals-office-what-public-education-leaders-want-you-to-know-part-2/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Part 2 of this two-part episode features a principal supervisor, will explore how the principal role has evolved, what’s being asked of school leaders that no one talks about, and what’s at stake if they continue to be unsupported
-
----
-
----
-
-### 7127. Meet us in the Principal’s Office: What Public Education Leaders Want You to Know Part 1
-
-```yaml
-url: "https://edtrust.org/rti/meet-us-in-the-principals-office-part-1/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Part 1 of this two-part episode, two principals offer a behind-the-scenes look at the challenges facing public school principals today in their communities
 
 ---
 
@@ -1322,27 +1154,6 @@ tags: [college-access, edtrust]
 ```
 
 The U.S. Department of Education (ED), signed off on regulations that would require all postsecondary programs to pass a single earnings test to remain eligible for federal student loans
-
----
-
----
-
-### 7142. From First-Gen to First-of-Many: How TRIO Changes What’s Possible
-
-```yaml
-url: "https://edtrust.org/rti/from-first-gen-to-first-of-many-how-trio-changes-whats-possible/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [college-access, edtrust]
-```
-
-TRIO programs open college pathways for students who are first-generation, low-income, and from groups historically excluded from higher education
 
 ---
 
@@ -1726,27 +1537,6 @@ Spending and tax changes proposed in the “One Big Beautiful Bill Act” will h
 
 ---
 
-### 7161. VIDEO: Trump’s Chaotic Carnival Ride for Students
-
-```yaml
-url: "https://edtrust.org/rti/video-trumps-chaotic-carnival-ride-for-students/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Ever since Donald Trump took office on January 20, 2025, he and his administration have enacted harmful education policies that put our nation’s students at risk
-
----
-
----
-
 ### 7162. 5 Ways to Create Fair School Funding Formulas
 
 ```yaml
@@ -1936,27 +1726,6 @@ Two EdTrust briefs paint a clearer picture of how federal emergency relief fundi
 
 ---
 
-### 7171. VIDEO: Explainers on the Attacks on Education
-
-```yaml
-url: "https://edtrust.org/rti/video-explainers-on-the-attacks-on-education/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Watch EdTrust experts explain the complicated education policies being enacted by the White House and hear from teachers who are affected
-
----
-
----
-
 ### 7172. Find Out How Much Federal Education Aid Your State Could Lose
 
 ```yaml
@@ -2015,27 +1784,6 @@ tags: [edtrust]
 ```
 
 Devastating wildfires in Southern California in early January 2025 were historic in scale and impact
-
----
-
----
-
-### 7175. Press Conference on Dismantling the Department of Education
-
-```yaml
-url: "https://edtrust.org/rti/press-conference-on-dismantling-the-department-of-education/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Highlights from a press conference held by EdTrust about a pending Executive Order to dismantle the Department of Education
 
 ---
 
@@ -3112,27 +2860,6 @@ New Ed Trust brief on how school emergency relief fund investments can have long
 
 ---
 
-### 7227. VIDEO: Equitable School Spending Using COVID Relief Funds
-
-```yaml
-url: "https://edtrust.org/rti/video-equitable-school-spending-using-covid-relief-funds/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-State & district leaders have a deadline to spend federal pandemic relief funds (#ESSER) for schools
-
----
-
----
-
 ### 7228. A.S.P.I.I.R.E.S: State Policy Review Framework
 
 ```yaml
@@ -3170,27 +2897,6 @@ tags: [edtrust, sel]
 ```
 
 Social, emotional, and academic development (SEAD) is a holistic approach to supporting students’ development and learning that is integral…
-
----
-
----
-
-### 7230. Leading with Excellence Video Series
-
-```yaml
-url: "https://edtrust.org/rti/leading-with-equity-video-series/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-We have launched this Leading with Excellence video series to amplify the voices of women leaders.
 
 ---
 
@@ -3674,27 +3380,6 @@ tags: [edtrust]
 ```
 
 While the majority of U.S students are children of color, only 20% of teachers are people of color. What’s…
-
----
-
----
-
-### 7254. ExtraOrdinary Districts: Discussion of Lane, Oklahoma
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-discussion-of-lane-oklahoma/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [college-access, edtrust, literacy]
-```
-
-To discuss episode #2, in which we heard from educators in Lane and Cottonwood Oklahoma, are reading researcher Timothy Shanahan, University of Illinois-Chicago’s Steve Tozer, and Todd Hughes of the Choctaw Nation.
 
 ---
 
@@ -4204,27 +3889,6 @@ Between the rising cost of college, insufficient financial assistance, and the o
 
 ---
 
-### 7279. ExtraOrdinary Districts Season 5: Where Are All Those Dollars Going?
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-season-5/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-ExtraOrdinary Districts returns for a fifth season to look at how educators are using the $189 billion the federal government sent to schools to help them cope with the effects of the pandemic.
-
----
-
----
-
 ### 7280. Still Stalled: 2022 State of Michigan Education Report
 
 ```yaml
@@ -4241,27 +3905,6 @@ tags: [edtrust, literacy]
 ```
 
 Michigan’s education performance is projected to position the state’s youngest students farther behind other states’ students for early reading by 2030 if the state does not change its performance trajectory
-
----
-
----
-
-### 7281. Estudiantes en en la escuela secundario se pueden matricular en cursos del nivel universitario en Luisiana
-
-```yaml
-url: "https://edtrust.org/rti/estudiantes-en-en-la-escuela-secundario-se-pueden-matricular-en-cursos-del-nivel-universitario-en-luisiana/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Los estudiantes pueden matricular en cursos del nivel universitario en la escuela secundario por un programa que se llama…
 
 ---
 
@@ -4325,27 +3968,6 @@ tags: [computer-assisted-learning, edtrust, k-12, math-education]
 ```
 
 2 in 5 Black and Latino students say they really enjoy STEM (science, technology, engineering, and math) courses and…
-
----
-
----
-
-### 7285. VIDEO: Shut Out: Why Black and Latino Students Are Under Enrolled in AP STEM Courses
-
-```yaml
-url: "https://edtrust.org/rti/video-shut-out-why-black-and-latino-students-are-under-enrolled-in-ap-stem-courses/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [career-readiness, college-access, edtrust, k-12]
-```
-
-Although many Black and Latino students aspire to go to college and are interested in STEM subjects, very few are actually enrolled in AP STEM courses that would prepare them for college and a STEM career
 
 ---
 
@@ -4640,27 +4262,6 @@ tags: [edtrust]
 ```
 
 Michigan’s education system has served as an engine of inequality when it should be providing opportunities for all kids to learn
-
----
-
----
-
-### 7300. VIDEO: A Natural Fit: Supporting After-School Staff of Color in Teacher Pipelines
-
-```yaml
-url: "https://edtrust.org/rti/video-a-natural-fit-supporting-after-school-staff-of-color-in-teacher-pipelines/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [career-readiness, edtrust]
-```
-
-One underutilized strategy for increasing the racial diversity of the teacher workforce is to recruit those who have experience working in after-school programs
 
 ---
 
@@ -5044,27 +4645,6 @@ Research says that teacher diversity benefits all students, regardless or race o
 
 ---
 
-### 7319. ExtraOrdinary Districts in ExtraOrdinary Times – Season Four
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-in-extraordinary-times-season-four/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-In ExtraOrdinary Districts in Extraordinary Times, Karin Chenoweth interviews expert educators about the problems they face, the solutions they fashion, and what they hope will come out of this time.
-
----
-
----
-
 ### 7320. Right Direction. Miles to Go.
 
 ```yaml
@@ -5296,27 +4876,6 @@ Free college programs have been around for some time, but they have proliferated
 
 ---
 
-### 7331. VIDEO: Stop Criminalizing and Excluding Black, Latina, and Native Girls in Schools
-
-```yaml
-url: "https://edtrust.org/rti/video-stop-criminalizing-and-excluding-black-latina-and-native-girls-in-schools/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Girls of color are excluded from school for subjective offenses, missing out on critical class time and opportunities to learn
-
----
-
----
-
 ### 7332. “And they cared”: How to Create Better, Safer Learning Environments for Girls of Color
 
 ```yaml
@@ -5354,69 +4913,6 @@ tags: [edtrust]
 ```
 
 While the COVID-19 pandemic and the police killings of Breonna Taylor, George Floyd, and Rayshard Brooks have shined a…
-
----
-
----
-
-### 7334. Education Tele-Town Hall: Early Childhood Education – Taking Care of the Caretakers
-
-```yaml
-url: "https://edtrust.org/rti/education-tele-town-hall-early-childhood-education-taking-care-of-the-caretakers/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [early-childhood, edtrust]
-```
-
-As advocates and providers of Early Childhood Education, the Urban League of Louisiana and The Education Trust hosted a…
-
----
-
----
-
-### 7335. Tele-Townhall Responding & Returning to Schools: Parents’ Perspectives on the Summer and Fall
-
-```yaml
-url: "https://edtrust.org/rti/tele-townhall-responding-returning-to-schools-parents-perspectives-on-the-summer-and-fall/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-In April and May 2020, the Urban League of Louisiana and The Education Trust released a survey for parents…
-
----
-
----
-
-### 7336. When Schools Close…Harnessing the Power of Summer America’s Students
-
-```yaml
-url: "https://edtrust.org/rti/when-schools-close-harnessing-the-power-of-summer-americas-students/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-"What will summer hold for America’s students? This virtual press conference, broadcast on May 27, 2020 brought together leading…
 
 ---
 
@@ -5506,27 +5002,6 @@ The federal government responded to the tremendous strain the coronavirus has pu
 
 ---
 
-### 7341. ExtraOrdinary Districts in ExtraOrdinary Times
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-in-extraordinary-times/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-In ExtraOrdinary Districts in Extraordinary Times, Karin Chenoweth interviews expert educators about the problems they face, the solutions they fashion, and what they hope will come out of this time.
-
----
-
----
-
 ### 7342. Louisiana COVID-19 Supplemental SNAP Benefits
 
 ```yaml
@@ -5590,27 +5065,6 @@ Getting Food to Students From Low-Income Backgrounds During School Closures
 
 ---
 
-### 7345. VIDEO: Why Only Race-Conscious Policies Can Fix Racism in Higher Education
-
-```yaml
-url: "https://edtrust.org/rti/video-why-only-race-conscious-policies-can-fix-racism-in-higher-education/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [college-access, edtrust]
-```
-
-Income, the most commonly used substitute for race in policies, does not result in achieving racial justice
-
----
-
----
-
 ### 7346. Advanced Coursework in Your State
 
 ```yaml
@@ -5627,27 +5081,6 @@ tags: [edtrust]
 ```
 
 The data in this tool examines whether Black and Latino students are fairly represented in advanced courses, in each…
-
----
-
----
-
-### 7347. ExtraOrdinary Districts: Discussion of Seaford, Delaware
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-discussion-of-seaford-delaware/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-To talk about the progress Seaford has made in the last few years Ed Trust brought together Sonja Santelises, CEO of Baltimore City Public Schools, author Richard Kahlenberg, and Sharon Brittingham, a Seaford native who is a former principal and today coaches principals throughout Delaware.
 
 ---
 
@@ -5716,27 +5149,6 @@ Set – then meet – clear goals at the state and district level to increase ac
 
 ---
 
-### 7351. ExtraOrdinary Districts: Seaford, Delaware
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-seaford-delaware/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Seaford, Delaware, was the “Nylon Capital of the World” until DuPont closed its plant. Today it has twice the rate of poverty as the rest of the state.
-
----
-
----
-
 ### 7352. 5 Things to Advance Equity in State Funding Systems
 
 ```yaml
@@ -5758,48 +5170,6 @@ equity in state funding systems
 
 ---
 
-### 7353. ExtraOrdinary Districts: Lane, Oklahoma
-
-```yaml
-url: "https://edtrust.org/rti/lane-oklahoma/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [college-access, edtrust]
-```
-
-A small, kindergarten-through-8th-grade district in rural Oklahoma, Lane was identified by Sean Reardon, Professor of Poverty and Inequality at Stanford University, as one of the few districts in the country that “grow” its students almost six academic years in five calendar years.
-
----
-
----
-
-### 7354. ExtraOrdinary Districts: Live!
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-live/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [college-access, edtrust]
-```
-
-To kick off Season 2 of ExtraOrdinary Districts, we brought together an all-star panel to discuss school district improvement. Janice Jackson, CEO of Chicago Public Schools, Harvard University’s Ronald F. Ferguson, and University of Michigan’s Nell Duke.
-
----
-
----
-
 ### 7355. Young Learners, Missed Opportunities
 
 ```yaml
@@ -5816,27 +5186,6 @@ tags: [early-childhood, edtrust]
 ```
 
 High-quality early childhood education (ECE) is important to the rapid development that happens in the first five years of…
-
----
-
----
-
-### 7356. ExtraOrdinary Districts Season 2
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-season-2/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-In season two we travel to two rural districts and one suburban district to talk with thoughtful educators about the hard work they have put in to develop systems and ways of operating to continuously improve the learning of students.
 
 ---
 
@@ -5905,27 +5254,6 @@ As tax-exempt, taxpayer-supported entities, U.S. public colleges and universitie
 
 ---
 
-### 7360. Special Edition: Segregation, Integration and the Milford 11
-
-```yaml
-url: "https://edtrust.org/rti/special-edition-segregation-integration-and-the-milford-11/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-To mark the 65th anniversary of the Brown versus Board of Education ruling, Ed Trust created a special edition of ExtraOrdinary Districts.
-
----
-
----
-
 ### 7361. Broken Mirrors: Black Representation at Public Colleges
 
 ```yaml
@@ -5989,27 +5317,6 @@ A college education has never been more important. Over 99 percent of all jobs c
 
 ---
 
-### 7364. VIDEO: What is Dual Enrollment?
-
-```yaml
-url: "https://edtrust.org/rti/video-what-is-dual-enrollment/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Have you heard about dual enrollment programs for high school students but not sure what they are?
-
----
-
----
-
 ### 7365. Motivation and Engagement in Student Assignments
 
 ```yaml
@@ -6068,27 +5375,6 @@ tags: [career-readiness, edtrust]
 ```
 
 The U.S. requires a well-educated workforce to grow our economy, strengthen our democracy, and solve big problems at home…
-
----
-
----
-
-### 7368. Special Edition: ExtraOrdinary Districts Need Extraordinary School Leaders. How Do We Get More of Them?
-
-```yaml
-url: "https://edtrust.org/rti/special-edition-extraordinary-districts-need-extraordinary-school-leaders-get/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-One of the key lessons that emerged in Education Trust’s podcast, “ExtraOrdinary Districts,” is that improvement requires leadership at the school level.
 
 ---
 
@@ -6383,132 +5669,6 @@ tags: [college-access, edtrust]
 ```
 
 More Latino students are enrolling in four-year colleges and universities than ever before. But what happens to these students…
-
----
-
----
-
-### 7383. ExtraOrdinary Districts: Season 1, Episode 4: Chicago, Illinois
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-episode-4-chicago-illinois/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-One of the districts that surprised Sean Reardon the most is Chicago – the nation’s third largest district with about 400,000 students.
-
----
-
----
-
-### 7384. ExtraOrdinary Districts: Season 1, Episode 3: Steubenville, Ohio
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-episode-3-steubenville-ohio/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-What are they doing in Steubenville do be so high performing in elementary school? And how are they addressing the fact that their students don’t continue to perform at the top of the country as they move into secondary grades?
-
----
-
----
-
-### 7385. ExtraOrdinary Districts: Season 1, Episode 2: Lexington, Massachusetts
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-episode-2-lexington-massachusetts/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-In Episode 2 of Extra-Ordinary Districts, we go to Lexington to find out how it became so high-performing.
-
----
-
----
-
-### 7386. ExtraOrdinary Districts: Ordinary School Districts That get Extraordinary Results
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Across the nation, many school districts are asking themselves, “What can we do to better serve our students of color and those from low-income communities?”
-
----
-
----
-
-### 7387. ExtraOrdinary Districts: Season 1, Episode 1 – How Do We Know Which Districts are Extra-Ordinary?
-
-```yaml
-url: "https://edtrust.org/rti/episode-1-know-districts-extra-ordinary/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Anyone who wants to identify “extra-ordinary districts” has a problem: The United States has more than 14,000 school districts and they vary widely.
-
----
-
----
-
-### 7388. ExtraOrdinary Districts Season 1
-
-```yaml
-url: "https://edtrust.org/rti/extraordinary-districts-season-1/"
-type: presentation
-source: "The Education Trust"
-url_confirmed: true
-description_inferred: false
-description_source: page-meta
-date_added: 2026-08-30
-doi: null
-license: null
-tags: [edtrust]
-```
-
-Anyone who wants to identify “extraordinary districts” has a daunting challenge: The United States has more than 14,000 school districts and they vary widely.
 
 ---
 

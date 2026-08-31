@@ -82,7 +82,7 @@ bash scripts/update.sh                       # weekly run: scrape -> process -> 
 python scripts/scrape.py {source}            # fetch + stage to docs/staging/
 python scripts/process_staged.py {source}    # tag + insert into hub.db
 python scripts/verify_urls.py                # verify unverified URLs
-python scripts/curate.py show {num}          # single-entry edits: exclude / reactivate / set-description / set-tags
+python scripts/curate.py show {num}          # single-entry edits: exclude / reactivate / set-description / set-tags / set-type
 python scripts/build_from_db.py              # rebuild all published files from hub.db
 python scripts/build_from_db.py --check      # validate entries + verify docs/ matches hub.db + hub.db under 60 MiB (CI)
 python scripts/embed_corpus.py               # sync entry embeddings to Vectorize (semantic search)

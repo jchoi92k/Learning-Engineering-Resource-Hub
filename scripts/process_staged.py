@@ -27,6 +27,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
+from scrape import url_key  # same dedup key as hub.db's unique index
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 STAGING_DIR = REPO_ROOT / "docs" / "staging"
@@ -38,6 +40,7 @@ PENDING_REASON = "no_description_pending"
 
 SOURCE_TAG_MAP = {
     "wwc": "wwc",
+    "wwc-practice-guides": "wwc",
     "lpi": "lpi",
     "lpi-briefs": "lpi",
     "lpi-fact-sheets": "lpi",
@@ -58,6 +61,7 @@ SOURCE_TAG_MAP = {
 
 SOURCE_NAME_MAP = {
     "wwc": "What Works Clearinghouse",
+    "wwc-practice-guides": "What Works Clearinghouse",
     "lpi": "Learning Policy Institute",
     "lpi-briefs": "Learning Policy Institute",
     "lpi-fact-sheets": "Learning Policy Institute",
@@ -121,7 +125,7 @@ TYPE_MAP = {
     "tool": "tool",
     "assessment resource": "tool",
     "curriculum": "framework",
-    "wested perspectives": "blog-post",
+    "wested perspectives": "report",  # a brief series, despite the blog-like name (2026-08-30)
     "audiocast": "presentation",
     # EdTrust type-of-content labels (2026-08-30 backfill)
     "compilation": "report",
@@ -232,14 +236,14 @@ def insert_backlog_rows(conn, backlog_items, source_name, start_num):
     """Insert backlog items as excluded, pending rows. Skips URLs already in
     hub.db (active or excluded) and repeats within the batch. Returns
     (inserted_count, last_num_used)."""
-    existing = {r[0] for r in conn.execute("SELECT url FROM entries")}
+    existing = {url_key(r[0]) for r in conn.execute("SELECT url FROM entries")}
     num = start_num
     inserted = 0
     for item in backlog_items:
         url = (item.get("url") or "").strip()
-        if not url or url in existing:
+        if not url or url_key(url) in existing:
             continue
-        existing.add(url)
+        existing.add(url_key(url))
         title = (item.get("title") or "").strip() or url
         url_status, http_status, verified_on = _verified_fields(item)
         conn.execute("""
@@ -260,14 +264,14 @@ def insert_filtered_rows(conn, filtered_items, source_name, start_num):
     'type_filtered:<label>', keeping title, URL, any blurb and the raw item, so
     the scope call can be reversed with curate.py reactivate. Returns
     (inserted_count, last_num_used)."""
-    existing = {r[0] for r in conn.execute("SELECT url FROM entries")}
+    existing = {url_key(r[0]) for r in conn.execute("SELECT url FROM entries")}
     num = start_num
     inserted = 0
     for item in filtered_items:
         url = (item.get("url") or "").strip()
-        if not url or url in existing:
+        if not url or url_key(url) in existing:
             continue
-        existing.add(url)
+        existing.add(url_key(url))
         title = (item.get("title") or "").strip() or url
         blurb = (item.get("blurb") or "").strip()
         desc_source = item.get("blurb_source") if blurb else None
@@ -398,14 +402,14 @@ def main():
     # excluded rows are kept precisely so they aren't re-indexed), and skip
     # within-batch repeats. scrape.py's diff normally handles this, but this
     # guard makes re-running a staging file (or a --no-diff scrape) safe.
-    existing_urls = {r[0] for r in conn.execute("SELECT url FROM entries")}
+    existing_urls = {url_key(r[0]) for r in conn.execute("SELECT url FROM entries")}
     seen_batch = set()
     deduped = []
     for item in items:
         url = item["url"].strip()
-        if url in existing_urls or url in seen_batch:
+        if url_key(url) in existing_urls or url_key(url) in seen_batch:
             continue
-        seen_batch.add(url)
+        seen_batch.add(url_key(url))
         deduped.append(item)
     if len(deduped) < len(items):
         print(f"[process] Skipped {len(items) - len(deduped)} duplicate URLs already in hub.db or repeated in batch")

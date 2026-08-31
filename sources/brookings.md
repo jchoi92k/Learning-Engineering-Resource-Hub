@@ -1,5 +1,7 @@
 # Brookings Institution (Brown Center on Education Policy)
 
+**Status (2026-08-30):** Weekly scraping off; the published set is 23 selected entries. Brookings' index labels every Brown Center item either Research or Commentary, and the Research label covers reports, briefs, analysis posts and event commentary alike. No field separates them, so the source can't be filtered to research outputs mechanically. Revisit if a format signal turns up (a series or program field, or categories in the WP REST API).
+
 ## Discovery
 
 - **Method:** Algolia search API

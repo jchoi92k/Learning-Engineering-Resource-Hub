@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute
 
-> 339 entries from Learning Policy Institute.
+> 349 entries from Learning Policy Institute.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-learning-policy-institute.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
@@ -343,3 +343,13 @@
 - 5096. [Addressing the Teacher Shortage: What Districts Can Do](https://learningpolicyinstitute.org/product/teacher-shortage-what-districts-can-do-factsheet) | report | career-readiness, lpi
 - 5097. [Addressing the Teacher Shortage: What States Can Do](https://learningpolicyinstitute.org/product/teacher-shortage-what-states-can-do-factsheet) | report | english-learners, inclusive-design, lpi, math-education
 - 5098. [The Road to High-Quality Early Learning: Lessons from the States](https://learningpolicyinstitute.org/product/factsheet-road-high-quality-early-learning-lessons-states) | report | early-childhood, lpi
+- 8979. [Cultivating Math Mindsets: Teaching Practices That Enable Equitable Classroom Learning](https://learningpolicyinstitute.org/product/cultivating-math-mindsets-report) | report | k-12, lpi, math-education, student-belonging
+- 8980. [Adolescence and the Reimagined High School: Scientific Perspectives on Development, Learning, and Civic Reasoning](https://learningpolicyinstitute.org/product/gdtf-adolescence-reimagined-high-school) | report | k-12, lpi
+- 8981. [Multilingual Learners of English: Progress of California's English Learners and the Resources That Support Their Educational Achievements](https://learningpolicyinstitute.org/product/gdtf-multilingual-learners-english) | report | english-learners, lpi
+- 8982. [California Principals: Trends in Supply, Preparation, Distribution, Retention, and Turnover](https://learningpolicyinstitute.org/product/gdtf-california-principals-trends) | report | lpi, sel
+- 8983. [California Schools’ Revenue Sources and Constraints](https://learningpolicyinstitute.org/product/gdtf-california-schools-revenue) | report | k-12, lpi
+- 8984. [California Community Schools: Past, Present, and Early Impacts of the California Community Schools Partnership Program](https://learningpolicyinstitute.org/product/gdtf-california-community-schools) | report | attendance, english-learners, lpi, school-discipline
+- 8985. [California’s Teacher Shortages: Trends in Supply, Demand, and Turnover](https://learningpolicyinstitute.org/product/gdtf-californias-teacher-shortages-brief) | report | career-readiness, lpi
+- 8986. [Teacher Residencies in California: Enrollment, Preparation, and Outcomes of Residency-Prepared Teachers](https://learningpolicyinstitute.org/product/ca-teacher-residencies-brief) | report | career-readiness, formative-assessment, lpi
+- 8987. [An Overview of Teacher Shortages: 2026](https://learningpolicyinstitute.org/product/state-teacher-shortages-2026-factsheet) | report | career-readiness, lpi
+- 8988. [Preparing and Supporting Early Childhood Educators](https://learningpolicyinstitute.org/product/preparing-supporting-early-childhood-educators-factsheet) | report | career-readiness, early-childhood, lpi

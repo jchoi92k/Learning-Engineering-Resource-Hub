@@ -1,0 +1,24 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in wwc.md. Added 2026-08-30: the practice-guide half of the WWC product search (productType=1), same table layout as wwc.json's intervention reports. The listing has no type column, so type_default labels every item Practice Guide (process_staged maps it to framework). One request per run.",
+
+  "discovery": "single_page",
+  "discovery_url": "https://ies.ed.gov/ncee/wwc/Search/Products?productType=1",
+  "url_prefix": "https://ies.ed.gov",
+  "type_default": "Practice Guide",
+
+  "selectors": {
+    "item": "#ProductResultsList tbody tr",
+    "title": "td:nth-of-type(4) a",
+    "url": "td:nth-of-type(4) a[href]",
+    "blurb": "td:nth-of-type(4) div",
+    "grade_level": "td:nth-of-type(2) strong",
+    "evidence_tier": "td:nth-of-type(3) span[name='EvidenceTierId']"
+  },
+
+  "robots_txt": "https://ies.ed.gov/robots.txt",
+
+  "test": {
+    "url": "https://ies.ed.gov/ncee/wwc/Search/Products?productType=1",
+    "expected_min_items": 25
+  }
+}

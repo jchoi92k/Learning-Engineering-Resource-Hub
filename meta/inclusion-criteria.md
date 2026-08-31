@@ -55,7 +55,7 @@ A specific resource from a qualified source is included if it meets **all**:
 | `curriculum` | Must have evidence of research-backed development (e.g., OER with efficacy study, IES-funded curriculum) |
 | `dataset` | Must be from a government agency, university, or established research org; must be publicly accessible with a documented access path |
 | `code` | Must be from a recognized research lab or have documented peer-reviewed publication describing the tool |
-| `blog-post` | Only from recognized organizations (IES, EEF, Brookings) on substantive evidence topics; not opinion pieces |
+| `blog-post` | Out of scope as a genre (`docs/purpose.md` § Scope); no published entry carries it. Research briefs published in a blog-style series (WestEd Perspectives) are typed `report` |
 
 ---
 
@@ -109,7 +109,7 @@ Log all non-obvious decisions in `docs/indexing-decisions.md`. Standard edge cas
 | Situation | Decision |
 |---|---|
 | Resource is cited by a qualified source but published by a third party | Use the third-party publisher's page as the URL and source; do not attribute to the citing source |
-| Resource is from a qualified source but is clearly a news/commentary piece | Skip unless from a high-signal source (Brookings) on a substantive evidence topic; flag in indexing-decisions.md |
+| Resource is from a qualified source but is clearly a news/commentary piece | Skip (out of scope, `docs/purpose.md` § Scope) |
 | Resource is a series or collection (e.g., "4 briefs on AI literacy") | One entry per document; collection-level entries acceptable if no individual URLs exist |
 | Resource page is accessible but only shows an abstract | Write description from abstract; set `description_inferred: true` |
 | Resource is a well-known framework (SAMR, Bloom's) not published by an org in our source list | Exclude — we index organizations' output, not the field's general canon |

@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub — Mathematica (part 2 of 2)
 
-> 632 entries from Mathematica; this part lists 250 of them (entry numbers 5142–5434).
+> 633 entries from Mathematica; this part lists 251 of them (entry numbers 5142–8989).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-mathematica.txt
 > Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-30
 
@@ -254,3 +254,4 @@
 - 5432. [Design of an Impact Evaluation of Teacher Induction Programs](https://www.mathematica.org/publications/design-of-an-impact-evaluation-of-teacher-induction-programs) | report | 
 - 5433. [The NIH Intramural Research Loan Repayment Program: Synthesis of Findings from Process and Outcomes Analyses](https://www.mathematica.org/publications/the-nih-intramural-research-loan-repayment-program-synthesis-of-findings-from-process-and-outcomes-analyses) | report | 
 - 5434. [Statistical Power for Random Assignment Evaluations of Education Programs](https://www.mathematica.org/publications/statistical-power-for-random-assignment-evaluations-of-education-programs) | report | 
+- 8989. [Evaluation of KIPP Atlanta Schools](https://www.mathematica.org/publications/evaluation-of-kipp-atlanta-schools) | report | career-readiness, college-access

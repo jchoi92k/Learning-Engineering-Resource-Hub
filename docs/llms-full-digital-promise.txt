@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Digital Promise (full)
-# 259 entries with descriptions | Last updated: 2026-08-30
+# 273 entries with descriptions | Last updated: 2026-08-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-digital-promise.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -5438,5 +5438,299 @@ tags: [digital-promise]
 ```
 
 Education Research and Development (R&D) demands efficient methods to bridge the gap between conceptualization and district-, school-, or classroom-ready solutions. This field note examines how AI-supported prototyping accelerates development, enabling R&D teams to transition from ideas to functional, testable tools. By integrating AI into structured workflows, teams can systematically incorporate real-time educator feedback to uncover usability issues early and iteratively refine designs. The authors outline four critical lessons for leveraging AI effectively: establishing clear team workflows with consistent review cycles, utilizing intentional and well-prompted AI inputs, prioritizing the development of interactive "working" prototypes over static wireframes, and maintaining visible logs of design decisions. These strategies provide a roadmap for teams to minimize costly rework, reduce reliance on opinion, and ensure that AI-enabled educational technologies are grounded in evidence, collaborative structures, and the genuine needs of educators and learners.
+
+---
+
+---
+
+### 8956. ATS Hub Field Note — Essential Practices for Breakthrough R&D in Education
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/27bb689f-dd97-4650-a9d3-dcfd6c20bbdd"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [digital-promise, formative-assessment]
+```
+
+To support the development of a robust, coordinated field of education innovation, this field note outlines the essential practices for Breakthrough R&D in Education. The Accelerate, Transform, Scale (ATS) Hub defines breakthrough solutions as novel advances that fundamentally redefine persistent educational challenges and drive system-level change. By adapting the Bridgespan Group’s Strong Field Framework, this field note emphasizes that codifying agreed-upon methods, standards, and processes is a critical step toward maturing the ecosystem. The authors propose ten essential practices for breakthrough R&D that provide a foundational structure for researchers and innovators to align their efforts, foster interdisciplinary collaboration, and build the capacity needed to achieve scalable, transformative improvements in learning outcomes. This document serves as a starting point for the field to refine these standards, measure implementation, and create the conditions necessary for lasting impact across the U.S. education system.
+
+---
+
+---
+
+### 8957. Digital Fluency: Integrating Future-Forward Skills Into Every Career Pathway
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/2574439a-3a90-422d-80b6-d31caa93636b"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [career-readiness, computer-assisted-learning, digital-promise]
+```
+
+Jobs are shifting. As technology proliferates across the employment landscape from automation to artificial intelligence (AI), every job across every sector—from white collar to blue collar—requires technical capabilities. This paper from Digital Promise's Center for Learner Pathway Innovations explores the concept of digital fluency, as coined by Jennifer Sparrow, and expands its five defined components to include cybersecurity, grounded in their rapidly scaling work to design, implement, and support credentialed cybersecurity pathways across the country. Read to learn why digital fluency is a must have for every career pathway in today’s society.
+
+---
+
+---
+
+### 8958. Pause, Collect, Reflect Protocol
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/12e194a7-3bd6-404c-8ccb-37aa237483d6"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [digital-promise, formative-assessment]
+```
+
+This guide provides suggestions for building effective Pause, Collect, and Reflect routines to support the effective implementation of student portfolios to support Portrait of a Graduate assessment.
+
+---
+
+---
+
+### 8959. K-12 AI Infrastructure: Findings from Educator and Developer Outreach
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/d0b2af67-6d6d-4815-9a34-c7f5f44cb394"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, formative-assessment, k-12]
+```
+
+This report presents findings from the K-12 AI Infrastructure Program's outreach to educators, edtech developers, and other stakeholders, conducted during late 2025 to mid-2026. It examines what educators want from AI tools, where current AI applications fall short, how education technology developers are responding, and what public infrastructure is needed to bridge these gaps. Educators want AI systems grounded in their district's curricula, values, and student populations, capable of supporting formative assessment at scale, and able to return time to overburdened staff. However, generic AI tools can undermine curriculum coherence, and student-facing applications raise concerns about effectiveness, wellbeing, and safety. Existing trust proxies, such as certifications, fail to address underlying privacy and fairness issues, while evaluation standards for AI-based edtech remain immature. The report identifies five priority infrastructure gaps: knowledge graphs supporting ambient assessment, child speech recognition and representative voice datasets, longitudinal and holistic student data systems, shared evaluation benchmarks, and context engineering infrastructure. The authors argue that publicly available, modular infrastructure—rather than proprietary, vendor-specific solutions—is needed to help AI tools better align with pedagogical goals while protecting student privacy and serving historically underserved populations.
+
+---
+
+---
+
+### 8960. Powerful Learning with Emerging Technology: Educator Guide
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/0e5d73f2-5d6b-4546-aa4f-5bb61d130c5f"
+type: presentation
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise]
+```
+
+While research on AI use in the classroom should be an ongoing commitment, this guide provides educators with research-based foundations for exploring the use of AI in the classroom. Educators can explore questions that resonate with them to learn about what the field currently knows and what research can tell us about when and how to use or not use AI in the classroom. This guide explores emerging research on critical thinking, metacognition, accessibility and how they interact with AI.
+
+---
+
+---
+
+### 8961. Powerful Learning: Fostering Agency, Purpose, and Curiosity Through Connection
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/52083095-30f8-4be1-a397-3701fa112d14"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [digital-promise]
+```
+
+This publication introduces the Powerful Learning Framework to establish a shared guidepost for education stakeholders. It defines Powerful Learning by centering connection, alongside agency, purpose, and curiosity. Synthesizing core theories of how people learn, connection serves as a powerful foundation for developing knowledge, skills, and dispositions, while agency, purpose, and curiosity drive long-term well-being and future readiness. The framework highlights a systems perspective to scale this vision, introducing key factors that shape transformation at the instructional level and systems level. Through vignettes, the publication illustrates Powerful Learning across instructional and system levels, demonstrating how they interact as parts of a connected educational system.
+
+---
+
+---
+
+### 8962. Classroom-Based Experimentation in a Digital Learning Platform
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/e653fc0c-e8b0-4698-94bc-e05a70c9b97d"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-learning-platforms, digital-promise, literacy, math-education, personalized-learning, response-to-intervention]
+```
+
+Educational research often struggles to balance laboratory-style control with the real-world scale of authentic classrooms. This paper explores how classroom-embedded, digitally integrated experimentation addresses this tension by generating actionable evidence directly within digital learning environments. Using Carnegie Learning’s MATHia intelligent tutoring system alongside UpGrade—an open-source A/B testing platform—the author highlights three diverse field trials encompassing nearly 100 experiments and hundreds of thousands of students. These include an XPRIZE study on localized personalization, an IES-funded reading readability initiative leveraging Large Language Models (LLMs), and an ongoing project evaluating targeted metacognitive prompts. From these large-scale applications, three foundational insights emerge for optimizing digital education research: seamlessly weaving interventions into daily instruction to eliminate teacher burden, capturing real-time learning metrics through intrinsic system-generated data, and prioritizing small, theory-driven manipulations to isolate specific cognitive mechanisms. While logistical constraints like sequence-dependent timing and varying state curricula present ongoing challenges, the paper concludes that embedding rigorous, focused experiments into adaptive software offers a scalable, non-disruptive framework. This approach simultaneously advances learning science theory and drives iterative, evidence-based development in educational technology.
+
+---
+
+---
+
+### 8963. A Bibliographic Analysis of Digital Learning Platforms as Research Infrastructure
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/93394faf-5284-4c27-aa46-0ecc900b3fe4"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-learning-platforms, digital-promise, learning-engineering, response-to-intervention]
+```
+
+Modern educational research increasingly relies on large-scale data from digital learning platforms (DLPs) to run experiments and reduce data-collection costs, giving rise to an emerging "DLPs-as-research-infrastructure" subfield. Lacking a dedicated journal or scholarly society, this fragmented community is distributed across diverse venues and disciplines. To map its social ties, intellectual foundations, and adjacent research, we conducted an exploratory, multi-level bibliometric analysis. Using the organizers of the Annual Workshop on A/B Testing and Platform-Enabled Learning Research as a seed corpus, we applied three complementary methods: co-authorship networks, bibliographic coupling, and semantic embeddings via advanced language models. Our findings reveal a small, conceptually coherent, but institutionalized and dispersed subcommunity rooted in diverse intellectual lineages like intelligent tutoring systems and learning analytics. Crucially, network simulation demonstrated that workshop publications serve as vital structural bridges, significantly reducing distance across separate research clusters. This work provides a descriptive snapshot of the DLP-as-research-infrastructure movement and offers a replicable methodological framework for other emerging domains to identify, unify, and scale their scholarly communities.
+
+---
+
+---
+
+### 8964. From Fragmented Data to Actionable Insights: The CICS and Innovare Co-Design Approach to AI-Driven Intervention
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/b158eb72-5863-4408-b68b-970c29cfea3a"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, learning-engineering, response-to-intervention]
+```
+
+This report chronicles the rapid-cycle co-design partnership between Chicago International Charter Schools (CICS) and Innovare, aimed at dismantling data silos to better support freshman success. The collaboration replaced fragmented, time-intensive workflows with a unified On-Track dashboard and an AI-assisted intervention planner, demonstrating how technology can streamline administrative tasks while preserving essential educator judgment. By fostering a high-trust environment, the teams successfully aligned technical infrastructure with research-based school practices, transforming the typical vendor relationship into a responsive, co-designed ecosystem. This case study offers a blueprint for leaders to move beyond simple automation, ensuring that AI-enabled tools actively amplify educator expertise and foster sustainable, data-driven student success.
+
+---
+
+---
+
+### 8965. Designing Student Success Systems Intentionally: How Warwick Public Schools and Panorama Bridge the Gap with Co-Designed Technical Solutions
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/0cb2aa05-3e3d-4401-a127-f410cde891aa"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, learning-engineering, response-to-intervention]
+```
+
+This case study examines the collaborative co-design partnership between Warwick Public Schools and Panorama Education to develop more responsive, scalable student success solutions. Recognizing that traditional edtech often fails to align with the unique workflows of educators, the project utilized user-centered design principles to bridge the gap between technological potential and daily classroom practice. By prioritizing equity of voice and shared values, district and vendor teams transformed their relationship from a standard vendor-client transaction into a deep, data-driven partnership focused on actionable insights. The collaboration empowered school staff to more effectively leverage data for targeted interventions, ultimately ensuring that technology serves as a proactive tool rather than a passive administrative burden. This work provides a scalable blueprint for districts nationwide, demonstrating that when educators and providers co-create solutions, they can better prioritize equitable student success and long-term graduation outcomes.
+
+---
+
+---
+
+### 8966. EdTech Procurement Framework
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/a9dc507c-e4a3-47f1-9750-e5d5ed8410bb"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [digital-promise]
+```
+
+The EdTech Procurement Framework provides a six-step process to support education leaders with making informed, evidence-based edtech decisions. The steps—Analyze & Inventory, Discover & Decide, Design & Plan, Mobilize & Implement, Evaluate & Reflect, and Sustain & Scale—guide districts from identifying needs through long-term adoption, providing a structured pathway and supporting resources for improving procurement infrastructure at every stage.
+
+---
+
+---
+
+### 8967. EdTech Quality Indicators Guide: Leveraging the Five EdTech Quality Indicators to save time and money, reduce risk, and improve student outcomes
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/f1e0fd08-9047-42e7-9a2d-190ccb4d10dd"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, learning-engineering, response-to-intervention]
+```
+
+Developed by the EdTech Quality Collaborative, the EdTech Quality Indicators Guide helps education leaders bridge the gap across technology selection, piloting, and procurement to support evidence-based decision making. It centers on five core quality indicators—Safety, Evidence, Inclusivity, Usability, and Interoperability—and leverages third-party validations from the EdTech Index to streamline product vetting. The guide outlines a comprehensive, data-driven six-step framework to analyze district needs, pilot interventions, plan rollouts, and evaluate return on investment. It features practical templates and evaluation rubrics designed to optimize resource allocation, reduce risk, and improve student outcomes.
+
+---
+
+---
+
+### 8968. ATS Hub Field Note — AI Model Evaluation
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/ed855fb2-c4fe-42db-82f6-31cf00b351e4"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, formative-assessment]
+```
+
+The rapid integration of Artificial Intelligence into educational technology necessitates a rigorous approach to model evaluation, as the consequences of unchecked AI systems fall heavily on students, educators, and organizations. When AI tools are deployed to individualize learning, score student work, or generate feedback without robust assessment, they risk undermining learning outcomes, particularly for underresourced populations. This field note emphasizes that effective AI evaluation must be anchored in human judgment and established education measurement standards, specifically focusing on validity, reliability, and fairness. While edtech developers face increasing pressure to demonstrate the efficacy of their tools, many lack shared standards for evaluating AI outputs. This document provides a practical framework for assessing AI quality, synthesizing various approaches including human expert review, custom automated evaluation, and standardized benchmarks.As AI evaluation emerges as a top priority across the sector, adopting these structured, evidence-based practices is essential for building trustworthy educational tools that genuinely support teaching and learning, ultimately ensuring that technological innovation advances rather than hinders student success.
+
+---
+
+---
+
+### 8969. ATS Hub Field Note — The UX Design Loop
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/5790016d-f492-413c-a7c3-92a7a7429b4a"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-08-30
+doi: null
+license: null
+tags: [digital-promise, formative-assessment]
+```
+
+This field note introduces the 5-Phase user experience (UX) Design Loop as a transformative framework for education R&D teams. As AI technologies accelerate development cycles, this methodology helps teams navigate the shift from traditional static design to rapid, code-first prototyping. The loop emphasizes a cyclical, iterative process: aligning on core problems, designing concepts based on user needs, translating ideas into testable interfaces, conducting feedback sessions with real people, and synthesizing insights to drive informed product decisions. By leveraging AI-powered tools like V0 and Cursor, development teams can significantly compress the time from ideation to prototype, allowing greater focus on the critical human-led work of deep understanding and team alignment. The authors further address unique sector-specific challenges, including distinguishing between end-users and purchasers, identifying representative testing environments, and establishing meaningful metrics for small-scale learning.
 
 ---

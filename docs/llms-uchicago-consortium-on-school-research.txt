@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — UChicago Consortium on School Research
 
-> 320 entries from UChicago Consortium on School Research.
+> 323 entries from UChicago Consortium on School Research.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-uchicago-consortium-on-school-research.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-08-31
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-14
 
 - 952. [Understanding 5Essentials School Averages and School Climate Malleability](https://consortium.uchicago.edu/publications/5Essentials-2026-malleability-and-student-groups) | report | formative-assessment, k-12, longitudinal, sel, student-belonging
 - 953. [Research Agenda 2026–30](https://consortium.uchicago.edu/publications/research-agenda-2026-30) | report | higher-ed, k-12, professional-development
@@ -324,3 +324,6 @@
 - 5842. [Charting Reform](https://consortium.uchicago.edu/publications/charting-reform-principals-perspective) | report | formative-assessment
 - 5843. [Charting Reform](https://consortium.uchicago.edu/publications/charting-reform-teachers-turn) | report | 
 - 5844. [Achieving School Reform in Chicago](https://consortium.uchicago.edu/publications/achieving-school-reform-chicago-what-we-need-know) | report | 
+- 9006. [Data for Improvement and Data for Accountability: Considerations for State Boards](https://consortium.uchicago.edu/publications/data-for-improvement-and-data-for-accountability) | paper | dropout-prevention, k-12, learning-engineering
+- 9007. [Identifying Indicators to Support Educational Attainment for Different Groups of English Learners in High School](https://consortium.uchicago.edu/publications/identifying-indicators-to-support-educational-attainment-for-different-groups-of-english-learners-in-high-school) | paper | attendance, college-access, english-learners, k-12, longitudinal
+- 9008. [What We Know About Learning](https://consortium.uchicago.edu/publications/what-we-know-about-learning) | report | math-education

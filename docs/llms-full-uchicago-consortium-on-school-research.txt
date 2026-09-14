@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — UChicago Consortium on School Research (full)
-# 320 entries with descriptions | Last updated: 2026-08-31
+# 323 entries with descriptions | Last updated: 2026-09-14
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-uchicago-consortium-on-school-research.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -6719,5 +6719,68 @@ tags: []
 ```
 
 The UChicago Consortium's five-year research agenda identifies four topical areas for further research: school governance, teaching and learning, the quality of the school as an organization, and systemic change.
+
+---
+
+---
+
+### 9006. Data for Improvement and Data for Accountability: Considerations for State Boards
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/data-for-improvement-and-data-for-accountability"
+type: paper
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [dropout-prevention, k-12, learning-engineering]
+```
+
+State accountability systems are designed with the goal of furthering student learning, but the metrics they rely on often differ fundamentally from the data that actually drives school improvement. This article distinguishes between data used for public accountability and data used for school improvement, to help decision-makers deepen their holistic understanding of indicators of student progress. Effective improvement data must be timely, clear, malleable, and predictive—properties that annual standardized accountability metrics frequently lack. Standardized test scores, for instance, change so slowly that even schools making exceptional gains may appear stagnant, while high-level outcome measures like graduation rates offer little actionable guidance for educators working within a school year. The article examines how malleability and predictive validity should serve as non-negotiable criteria when selecting accountability indicators, and describes the potential risks of bringing school-level improvement data into public accountability frameworks, where the pressure to perform can suppress honest inquiry and incentivize superficial fixes. State boards of education are encouraged to seek evidence of both malleability and predictive power for any proposed indicator, set realistic annual targets grounded in what schools can genuinely achieve, and invest in the data infrastructure and collaborative time that meaningful improvement requires. When state boards treat accountability metrics as tools rather than labels—asking not just whether a number moved, but what it means and what conditions shape it—they can build educational ecosystems that serve both transparency and genuine school improvement.
+
+---
+
+---
+
+### 9007. Identifying Indicators to Support Educational Attainment for Different Groups of English Learners in High School
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/identifying-indicators-to-support-educational-attainment-for-different-groups-of-english-learners-in-high-school"
+type: paper
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [attendance, college-access, english-learners, k-12, longitudinal]
+```
+
+This study examines a broad array of potential indicators for early warning and college readiness indicator systems (e.g., indicators made from English proficiency tests, grades, attendance, discipline records, and standardized test scores) for different groups of English Learners in high school. Using data from 2008 through 2021 from the Chicago Public Schools, the study follows cohorts of students from eighth grade through college graduation, running exploratory analyses through logistic regression analyses and confirmatory analyses with omitted cohorts and machine learning methods. The study identifies ways of modifying indicator systems to better serve particular groups of English Learners and to focus practices so that students are more likely to graduate high school and earn college degrees.
+
+---
+
+---
+
+### 9008. What We Know About Learning
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/what-we-know-about-learning"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [math-education]
+```
+
+Mathematics education is a gatekeeper to academic opportunity that disproportionately affects students from historically marginalized communities. This chapter critiques the dominant research paradigms for understanding mathematics learning and argues for a shift toward interdisciplinary and asset-based approaches. Specific examples, frameworks, and recommendations are offered for researchers and other stakeholders seeking to reimagine the role of research in shaping mathematics education."What We Know About Learning: Taking Responsibility for Interdisciplinary Complexity in Educating Youth in Mathematics" is chapter 7 of Handbook of Race, Equity, and Asset-Based Research in Educational Psychology, edited by Francesca A. López, Jessica T. DeCuir-Gunby, DeLeon L. Gray. The full book is available from Routledge Press.
 
 ---

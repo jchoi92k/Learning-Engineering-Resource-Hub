@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 349 entries with descriptions | Last updated: 2026-08-31
+# 352 entries with descriptions | Last updated: 2026-09-14
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -7328,5 +7328,68 @@ tags: [career-readiness, early-childhood, lpi]
 ```
 
 Well-prepared, well-supported early childhood educators are essential to high-quality learning experiences for young children. Building that workforce depends on strong educator preparation, effective recruitment and retention strategies, and supportive state policies.
+
+---
+
+---
+
+### 9002. Teacher Residencies in California: Enrollment, Preparation, and Outcomes of Residency-Prepared Teachers
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/ca-teacher-residencies-report"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [career-readiness, formative-assessment, lpi, professional-development]
+```
+
+California’s investment in teacher residencies has led to the recruitment and retention of a racially and ethnically diverse teacher workforce with higher passing rates on the state assessment and higher entry rates into the profession than other preparation pathways. Through residencies, candidates receive financial support and year-long guidance from a mentor in the classroom, while completing coursework.
+
+---
+
+---
+
+### 9003. Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-report"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [dropout-prevention, k-12, lpi]
+```
+
+More than 1.5 million U.S. students experienced homelessness in 2023–24, yet federal McKinney-Vento funding, which provides housing and educational protections for people experiencing homelessness, has limited reach. Washington is among the few states that provide funding beyond McKinney-Vento. As a result, the state is seeing improved identification, school stability, and graduation rates.
+
+---
+
+---
+
+### 9004. Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [dropout-prevention, k-12, lpi]
+```
+
+More than 1.5 million U.S. students experienced homelessness in 2023–24, yet federal McKinney-Vento funding, which provides housing and educational protections for people experiencing homelessness, has limited reach. Washington is among the few states that provide funding beyond McKinney-Vento. As a result, the state is seeing improved identification, school stability, and graduation rates.
 
 ---

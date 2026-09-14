@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — WestEd (full)
-# 912 entries with descriptions | Last updated: 2026-08-31
+# 915 entries with descriptions | Last updated: 2026-09-14
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -19151,5 +19151,68 @@ tags: []
 ```
 
 Every teacher knows the special student who overcomes the hazards of a risk-filled environment—poverty, violence, drugs—to become a healthy, competent young adult. This research synthesis...
+
+---
+
+---
+
+### 9009. Building Networks, Sharing Expertise: How Technology-Mediated Lesson Study Connects Rural Science Teachers
+
+```yaml
+url: "https://www.wested.org/resource/building-networks-sharing-expertise/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [computer-assisted-learning, longitudinal, professional-development]
+```
+
+This WestEd brief shows how technology-mediated lesson study builds professional networks among rural science teachers, backed by longitudinal network analysis.
+
+---
+
+---
+
+### 9010. Bridging Geographic Distance: Technology-Mediated Lesson Study for Rural Science Teachers
+
+```yaml
+url: "https://www.wested.org/resource/bridging-geographic-distance/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [computer-assisted-learning, professional-development]
+```
+
+This WestEd brief introduces technology-mediated lesson study, a practical five-step model that helps rural science teachers collaborate across distance.
+
+---
+
+---
+
+### 9013. Charter School Authorizer Practices and Evaluations in Florida: A Report Funded by the MIT Blueprint Charter Research Collaborative
+
+```yaml
+url: "https://www.wested.org/resource/charter-school-authorizer-practices-and-evaluations-in-florida/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-14
+doi: null
+license: null
+tags: [k-12]
+```
+
+This WestEd report examines whether Florida's charter school application evaluation instrument predicts long-term school outcomes, finding stronger links to closure risk than accountability performance.
 
 ---

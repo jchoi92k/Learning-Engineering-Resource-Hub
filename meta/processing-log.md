@@ -183,3 +183,45 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Backlog rows recorded as pending (excluded): 4
 - Tags: keyword auto-tagged
 - Note: the 4 entries are the rated programs past page 1 of the newest-first listing (`--backfill`); the 4 set-aside rows (8998-9001) are `essa_no_evidence` under the rated-only rule. All 4 new URLs verified. Published entries: 3,895.
+
+## 2026-09-14 - Learning Policy Institute
+- Source slug: `lpi`
+- Scraped: 2 total, 2 ready, 0 backlog
+- Processed: 2 entries (9002-9003)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-09-14 - Learning Policy Institute
+- Source slug: `lpi-briefs`
+- Scraped: 1 total, 1 ready, 0 backlog
+- Processed: 1 entries (9004-9004)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-09-14 - TNTP
+- Source slug: `tntp`
+- Scraped: 1 total, 0 ready, 1 backlog
+- Processed: 0 entries
+- Backlog rows recorded as pending (excluded): 1
+- Tags: keyword auto-tagged
+
+## 2026-09-14 - UChicago Consortium on School Research
+- Source slug: `uchicago-consortium`
+- Scraped: 3 total, 3 ready, 0 backlog
+- Processed: 3 entries (9006-9008)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-09-14 - WestEd
+- Source slug: `wested`
+- Scraped: 5 total, 5 ready, 0 backlog
+- Processed: 5 entries (9009-9013)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-09-14 - Evidence for ESSA
+- Source slug: `evidence-for-essa`
+- Scraped: 0 total, 0 ready, 0 backlog
+- Processed: 0 entries
+- Backlog rows recorded as pending (excluded): 4
+- Tags: keyword auto-tagged

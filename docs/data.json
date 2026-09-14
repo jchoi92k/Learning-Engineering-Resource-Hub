@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 3895,
-    "last_updated": "2026-08-31",
+    "total": 3904,
+    "last_updated": "2026-09-14",
     "sources": [
       "ADL Initiative",
       "AI-for-Education.org",
@@ -82,9 +82,9 @@
       },
       {
         "source": "UChicago Consortium on School Research",
-        "indexed": 320,
+        "indexed": 323,
         "known_total": 319,
-        "pct": 100,
+        "pct": 101,
         "priority": "high",
         "status": "active"
       },
@@ -98,7 +98,7 @@
       },
       {
         "source": "WestEd",
-        "indexed": 912,
+        "indexed": 915,
         "known_total": 1254,
         "pct": 73,
         "priority": "medium",
@@ -122,7 +122,7 @@
       },
       {
         "source": "Learning Policy Institute",
-        "indexed": 349,
+        "indexed": 352,
         "known_total": 347,
         "pct": 101,
         "priority": "medium",
@@ -65457,6 +65457,166 @@
       "domain": "research",
       "url_verified": true,
       "last_verified": "2026-08-31"
+    },
+    {
+      "num": 9002,
+      "title": "Teacher Residencies in California: Enrollment, Preparation, and Outcomes of Residency-Prepared Teachers",
+      "url": "https://learningpolicyinstitute.org/product/ca-teacher-residencies-report",
+      "type": "report",
+      "source": "Learning Policy Institute",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "tags": [
+        "career-readiness",
+        "formative-assessment",
+        "lpi",
+        "professional-development"
+      ],
+      "desc": "California’s investment in teacher residencies has led to the recruitment and retention of a racially and ethnically diverse teacher workforce with higher passing rates on the state assessment and higher entry rates into the profession than other preparation pathways. Through residencies, candidates receive financial support and year-long guidance from a mentor in the classroom, while completing coursework.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9003,
+      "title": "Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State",
+      "url": "https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-report",
+      "type": "report",
+      "source": "Learning Policy Institute",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "tags": [
+        "dropout-prevention",
+        "k-12",
+        "lpi"
+      ],
+      "desc": "More than 1.5 million U.S. students experienced homelessness in 2023–24, yet federal McKinney-Vento funding, which provides housing and educational protections for people experiencing homelessness, has limited reach. Washington is among the few states that provide funding beyond McKinney-Vento. As a result, the state is seeing improved identification, school stability, and graduation rates.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9004,
+      "title": "Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State",
+      "url": "https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-brief",
+      "type": "report",
+      "source": "Learning Policy Institute",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "tags": [
+        "dropout-prevention",
+        "k-12",
+        "lpi"
+      ],
+      "desc": "More than 1.5 million U.S. students experienced homelessness in 2023–24, yet federal McKinney-Vento funding, which provides housing and educational protections for people experiencing homelessness, has limited reach. Washington is among the few states that provide funding beyond McKinney-Vento. As a result, the state is seeing improved identification, school stability, and graduation rates.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9006,
+      "title": "Data for Improvement and Data for Accountability: Considerations for State Boards",
+      "url": "https://consortium.uchicago.edu/publications/data-for-improvement-and-data-for-accountability",
+      "type": "paper",
+      "source": "UChicago Consortium on School Research",
+      "url_confirmed": true,
+      "description_source": "page-abstract",
+      "tags": [
+        "dropout-prevention",
+        "k-12",
+        "learning-engineering"
+      ],
+      "desc": "State accountability systems are designed with the goal of furthering student learning, but the metrics they rely on often differ fundamentally from the data that actually drives school improvement. This article distinguishes between data used for public accountability and data used for school improvement, to help decision-makers deepen their holistic understanding of indicators of student progress. Effective improvement data must be timely, clear, malleable, and predictive—properties that annual standardized accountability metrics frequently lack. Standardized test scores, for instance, change so slowly that even schools making exceptional gains may appear stagnant, while high-level outcome measures like graduation rates offer little actionable guidance for educators working within a school year. The article examines how malleability and predictive validity should serve as non-negotiable criteria when selecting accountability indicators, and describes the potential risks of bringing school-level improvement data into public accountability frameworks, where the pressure to perform can suppress honest inquiry and incentivize superficial fixes. State boards of education are encouraged to seek evidence of both malleability and predictive power for any proposed indicator, set realistic annual targets grounded in what schools can genuinely achieve, and invest in the data infrastructure and collaborative time that meaningful improvement requires. When state boards treat accountability metrics as tools rather than labels—asking not just whether a number moved, but what it means and what conditions shape it—they can build educational ecosystems that serve both transparency and genuine school improvement.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-09-14"
+    },
+    {
+      "num": 9007,
+      "title": "Identifying Indicators to Support Educational Attainment for Different Groups of English Learners in High School",
+      "url": "https://consortium.uchicago.edu/publications/identifying-indicators-to-support-educational-attainment-for-different-groups-of-english-learners-in-high-school",
+      "type": "paper",
+      "source": "UChicago Consortium on School Research",
+      "url_confirmed": true,
+      "description_source": "page-abstract",
+      "tags": [
+        "attendance",
+        "college-access",
+        "english-learners",
+        "k-12",
+        "longitudinal"
+      ],
+      "desc": "This study examines a broad array of potential indicators for early warning and college readiness indicator systems (e.g., indicators made from English proficiency tests, grades, attendance, discipline records, and standardized test scores) for different groups of English Learners in high school. Using data from 2008 through 2021 from the Chicago Public Schools, the study follows cohorts of students from eighth grade through college graduation, running exploratory analyses through logistic regression analyses and confirmatory analyses with omitted cohorts and machine learning methods. The study identifies ways of modifying indicator systems to better serve particular groups of English Learners and to focus practices so that students are more likely to graduate high school and earn college degrees.",
+      "domain": "policy",
+      "url_verified": true,
+      "last_verified": "2026-09-14"
+    },
+    {
+      "num": 9008,
+      "title": "What We Know About Learning",
+      "url": "https://consortium.uchicago.edu/publications/what-we-know-about-learning",
+      "type": "report",
+      "source": "UChicago Consortium on School Research",
+      "url_confirmed": true,
+      "description_source": "page-abstract",
+      "tags": [
+        "math-education"
+      ],
+      "desc": "Mathematics education is a gatekeeper to academic opportunity that disproportionately affects students from historically marginalized communities. This chapter critiques the dominant research paradigms for understanding mathematics learning and argues for a shift toward interdisciplinary and asset-based approaches. Specific examples, frameworks, and recommendations are offered for researchers and other stakeholders seeking to reimagine the role of research in shaping mathematics education.\"What We Know About Learning: Taking Responsibility for Interdisciplinary Complexity in Educating Youth in Mathematics\" is chapter 7 of Handbook of Race, Equity, and Asset-Based Research in Educational Psychology, edited by Francesca A. López, Jessica T. DeCuir-Gunby, DeLeon L. Gray. The full book is available from Routledge Press.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-09-14"
+    },
+    {
+      "num": 9009,
+      "title": "Building Networks, Sharing Expertise: How Technology-Mediated Lesson Study Connects Rural Science Teachers",
+      "url": "https://www.wested.org/resource/building-networks-sharing-expertise/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "tags": [
+        "computer-assisted-learning",
+        "longitudinal",
+        "professional-development"
+      ],
+      "desc": "This WestEd brief shows how technology-mediated lesson study builds professional networks among rural science teachers, backed by longitudinal network analysis.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9010,
+      "title": "Bridging Geographic Distance: Technology-Mediated Lesson Study for Rural Science Teachers",
+      "url": "https://www.wested.org/resource/bridging-geographic-distance/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "tags": [
+        "computer-assisted-learning",
+        "professional-development"
+      ],
+      "desc": "This WestEd brief introduces technology-mediated lesson study, a practical five-step model that helps rural science teachers collaborate across distance.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9013,
+      "title": "Charter School Authorizer Practices and Evaluations in Florida: A Report Funded by the MIT Blueprint Charter Research Collaborative",
+      "url": "https://www.wested.org/resource/charter-school-authorizer-practices-and-evaluations-in-florida/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "tags": [
+        "k-12"
+      ],
+      "desc": "This WestEd report examines whether Florida's charter school application evaluation instrument predicts long-term school outcomes, finding stronger links to closure risk than accountability performance.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
     }
   ]
 }

@@ -1,21 +1,21 @@
 # Renaissance AI and Education Resource Hub
-# 3895 curated evidence-based K-12 and higher education resources.
-# Last updated: 2026-08-31
+# 3904 curated evidence-based K-12 and higher education resources.
+# Last updated: 2026-09-14
 
 ## Tag Directory
 
-**Domain:** k-12 (861), math-education (520), literacy (423), learning-engineering (300), english-learners (220), early-childhood (211), higher-ed (199), school-discipline (32)
+**Domain:** k-12 (866), math-education (521), literacy (423), learning-engineering (301), english-learners (221), early-childhood (211), higher-ed (199), school-discipline (32)
 
-**Method:** computer-assisted-learning (252), longitudinal (201), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+**Method:** computer-assisted-learning (254), longitudinal (203), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
 
-**Topic:** college-access (424), formative-assessment (410), sel (293), professional-development (276), career-readiness (233), personalized-learning (140), inclusive-design (126), attendance (111), open-datasets (101), dropout-prevention (94), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+**Topic:** college-access (425), formative-assessment (411), sel (293), professional-development (279), career-readiness (234), personalized-learning (140), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
 
-**Affiliation:** lpi (348), edtrust (322), digital-promise (273), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
+**Affiliation:** lpi (351), edtrust (322), digital-promise (273), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 
 ## Resource Types
 
-- report: 2999 entries
-- paper: 521 entries
+- report: 3006 entries
+- paper: 523 entries
 - framework: 168 entries
 - dataset: 99 entries
 - platform: 29 entries
@@ -28,11 +28,11 @@
 
 ## Sources
 
-- WestEd: 912 entries
+- WestEd: 915 entries
 - Mathematica: 633 entries
-- Learning Policy Institute: 349 entries
+- Learning Policy Institute: 352 entries
+- UChicago Consortium on School Research: 323 entries
 - The Education Trust: 322 entries
-- UChicago Consortium on School Research: 320 entries
 - NWEA Research: 291 entries
 - Digital Promise: 273 entries
 - Evidence for ESSA: 203 entries
@@ -39029,5 +39029,95 @@ Tags:
 URL: https://evidenceforessa.org/program/safersanerschools-whole-school-change/
 
 The SaferSanerSchools™ Whole-School Change program is disseminated though the International Institute for Restorative Practices (IIRP). It is grounded in 11 essential elements that center around the importance of communication, responsibility, restoration, and separating the “deed” from the “doer.” It requires all school staff to learn how to enact the key elements with an aim of increasing understanding of how one’s actions affect others and more broadly creating a better school climate.
+
+---
+
+### 9002. Teacher Residencies in California: Enrollment, Preparation, and Outcomes of Residency-Prepared Teachers
+
+Type: report | Source: Learning Policy Institute
+Tags: career-readiness, formative-assessment, lpi, professional-development
+URL: https://learningpolicyinstitute.org/product/ca-teacher-residencies-report
+
+California’s investment in teacher residencies has led to the recruitment and retention of a racially and ethnically diverse teacher workforce with higher passing rates on the state assessment and higher entry rates into the profession than other preparation pathways. Through residencies, candidates receive financial support and year-long guidance from a mentor in the classroom, while completing coursework.
+
+---
+
+### 9003. Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State
+
+Type: report | Source: Learning Policy Institute
+Tags: dropout-prevention, k-12, lpi
+URL: https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-report
+
+More than 1.5 million U.S. students experienced homelessness in 2023–24, yet federal McKinney-Vento funding, which provides housing and educational protections for people experiencing homelessness, has limited reach. Washington is among the few states that provide funding beyond McKinney-Vento. As a result, the state is seeing improved identification, school stability, and graduation rates.
+
+---
+
+### 9004. Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State
+
+Type: report | Source: Learning Policy Institute
+Tags: dropout-prevention, k-12, lpi
+URL: https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-brief
+
+More than 1.5 million U.S. students experienced homelessness in 2023–24, yet federal McKinney-Vento funding, which provides housing and educational protections for people experiencing homelessness, has limited reach. Washington is among the few states that provide funding beyond McKinney-Vento. As a result, the state is seeing improved identification, school stability, and graduation rates.
+
+---
+
+### 9006. Data for Improvement and Data for Accountability: Considerations for State Boards
+
+Type: paper | Source: UChicago Consortium on School Research
+Tags: dropout-prevention, k-12, learning-engineering
+URL: https://consortium.uchicago.edu/publications/data-for-improvement-and-data-for-accountability
+
+State accountability systems are designed with the goal of furthering student learning, but the metrics they rely on often differ fundamentally from the data that actually drives school improvement. This article distinguishes between data used for public accountability and data used for school improvement, to help decision-makers deepen their holistic understanding of indicators of student progress. Effective improvement data must be timely, clear, malleable, and predictive—properties that annual standardized accountability metrics frequently lack. Standardized test scores, for instance, change so slowly that even schools making exceptional gains may appear stagnant, while high-level outcome measures like graduation rates offer little actionable guidance for educators working within a school year. The article examines how malleability and predictive validity should serve as non-negotiable criteria when selecting accountability indicators, and describes the potential risks of bringing school-level improvement data into public accountability frameworks, where the pressure to perform can suppress honest inquiry and incentivize superficial fixes. State boards of education are encouraged to seek evidence of both malleability and predictive power for any proposed indicator, set realistic annual targets grounded in what schools can genuinely achieve, and invest in the data infrastructure and collaborative time that meaningful improvement requires. When state boards treat accountability metrics as tools rather than labels—asking not just whether a number moved, but what it means and what conditions shape it—they can build educational ecosystems that serve both transparency and genuine school improvement.
+
+---
+
+### 9007. Identifying Indicators to Support Educational Attainment for Different Groups of English Learners in High School
+
+Type: paper | Source: UChicago Consortium on School Research
+Tags: attendance, college-access, english-learners, k-12, longitudinal
+URL: https://consortium.uchicago.edu/publications/identifying-indicators-to-support-educational-attainment-for-different-groups-of-english-learners-in-high-school
+
+This study examines a broad array of potential indicators for early warning and college readiness indicator systems (e.g., indicators made from English proficiency tests, grades, attendance, discipline records, and standardized test scores) for different groups of English Learners in high school. Using data from 2008 through 2021 from the Chicago Public Schools, the study follows cohorts of students from eighth grade through college graduation, running exploratory analyses through logistic regression analyses and confirmatory analyses with omitted cohorts and machine learning methods. The study identifies ways of modifying indicator systems to better serve particular groups of English Learners and to focus practices so that students are more likely to graduate high school and earn college degrees.
+
+---
+
+### 9008. What We Know About Learning
+
+Type: report | Source: UChicago Consortium on School Research
+Tags: math-education
+URL: https://consortium.uchicago.edu/publications/what-we-know-about-learning
+
+Mathematics education is a gatekeeper to academic opportunity that disproportionately affects students from historically marginalized communities. This chapter critiques the dominant research paradigms for understanding mathematics learning and argues for a shift toward interdisciplinary and asset-based approaches. Specific examples, frameworks, and recommendations are offered for researchers and other stakeholders seeking to reimagine the role of research in shaping mathematics education."What We Know About Learning: Taking Responsibility for Interdisciplinary Complexity in Educating Youth in Mathematics" is chapter 7 of Handbook of Race, Equity, and Asset-Based Research in Educational Psychology, edited by Francesca A. López, Jessica T. DeCuir-Gunby, DeLeon L. Gray. The full book is available from Routledge Press.
+
+---
+
+### 9009. Building Networks, Sharing Expertise: How Technology-Mediated Lesson Study Connects Rural Science Teachers
+
+Type: report | Source: WestEd
+Tags: computer-assisted-learning, longitudinal, professional-development
+URL: https://www.wested.org/resource/building-networks-sharing-expertise/
+
+This WestEd brief shows how technology-mediated lesson study builds professional networks among rural science teachers, backed by longitudinal network analysis.
+
+---
+
+### 9010. Bridging Geographic Distance: Technology-Mediated Lesson Study for Rural Science Teachers
+
+Type: report | Source: WestEd
+Tags: computer-assisted-learning, professional-development
+URL: https://www.wested.org/resource/bridging-geographic-distance/
+
+This WestEd brief introduces technology-mediated lesson study, a practical five-step model that helps rural science teachers collaborate across distance.
+
+---
+
+### 9013. Charter School Authorizer Practices and Evaluations in Florida: A Report Funded by the MIT Blueprint Charter Research Collaborative
+
+Type: report | Source: WestEd
+Tags: k-12
+URL: https://www.wested.org/resource/charter-school-authorizer-practices-and-evaluations-in-florida/
+
+This WestEd report examines whether Florida's charter school application evaluation instrument predicts long-term school outcomes, finding stronger links to closure risk than accountability performance.
 
 ---

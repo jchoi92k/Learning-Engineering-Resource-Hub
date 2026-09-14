@@ -52,6 +52,8 @@ data/hub.db-shm
 # Worker build artifacts
 worker/node_modules/
 worker/.wrangler/
+worker-le-resource-hub/node_modules/
+worker-le-resource-hub/.wrangler/
 
 # OS
 .DS_Store

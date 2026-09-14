@@ -36,6 +36,7 @@ repo-root/
   data/           ← SQLite database + data files
   meta/           ← operational docs, prompts, guides, logs
   worker/         ← Cloudflare Worker (MCP server)
+  worker-le-resource-hub/ ← proxy shim: old le-resource-hub URL → renaissance-hub
   .claude/skills/ ← agent skills committed with the repo (weekly-update)
 ```
 
@@ -133,6 +134,9 @@ No scripts or data files — just documentation for operators and agents.
 ### `worker/` — Cloudflare Worker (MCP server)
 - Deployed at `https://renaissance-hub.joon-96a.workers.dev/mcp`. Exposes the hub via MCP so LLM agents can query it directly.
 - Imports `docs/data.json` at build time — redeploy after data updates: `cd worker && npx wrangler deploy`.
+
+### `worker-le-resource-hub/` — legacy endpoint proxy
+- Forwards the old `le-resource-hub.joon-96a.workers.dev` URL to `renaissance-hub` via a service binding, so early agent configs keep working on current data. Holds no data; deploy once with `cd worker-le-resource-hub && npx wrangler deploy`. See its README.
 
 ---
 

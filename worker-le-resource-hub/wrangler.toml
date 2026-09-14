@@ -1,0 +1,10 @@
+name = "le-resource-hub"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Forward all traffic to the current MCP worker over an internal service
+# binding (zero latency, zero extra cost, same account). env.HUB.fetch(request)
+# passes the original request through unchanged.
+[[services]]
+binding = "HUB"
+service = "renaissance-hub"

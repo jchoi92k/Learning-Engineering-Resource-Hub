@@ -119,6 +119,7 @@ No scripts or data files — just documentation for operators and agents.
 
 - **`agent-guide.md`** — master operational reference for cold-starting Claude agents.
 - **`operator-guide.md`** — deployment surfaces, manual deploy steps, after-merge checklist.
+- **`roadmap.md`** — open items and planned work, in rough priority order.
 - **`automation-prompt.md`** — prompt for the weekly automated source-check routine.
 - **`automation-log.md`** — append-only log of weekly automation runs.
 - **`backlog-prompt.md`** — prompt for expanding coverage of a single source.

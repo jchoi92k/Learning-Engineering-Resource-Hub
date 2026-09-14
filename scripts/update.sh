@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 # Weekly corpus update: scrape every automated source, insert new entries into
-# hub.db, verify only the new URLs, rebuild the published files, and write a
-# run summary for the PR body.
+# hub.db, rebuild the published files, and write a run summary for the PR body.
+# URL verification is OFF by default (2026-09-06): repeated per-URL checks from
+# this machine's IP got it edge-blocked by digitalpromise.dspacedirect.org, and
+# that host signals the block with a soft 202 that the verifier reads as a pass,
+# so its 403 circuit-breaker never trips. Opt back in per-run with --verify.
 #
 # Usage (from repo root; Git Bash on Windows, bash on Linux/CI):
-#   scripts/update.sh                       # full run over WEEKLY_SOURCES
+#   scripts/update.sh                       # full run over WEEKLY_SOURCES (no verify)
 #   scripts/update.sh --dry-run             # scrape only: no DB writes, no build
 #   scripts/update.sh --sources "wwc lpi"   # limit to given source slugs
-#   scripts/update.sh --skip-verify         # skip verify_urls.py (faster local runs)
+#   scripts/update.sh --verify              # re-enable verify_urls.py on the new rows
 #   scripts/update.sh --scrape-args "--pages 1 --limit 2"   # extra scrape.py flags for every source (pilot runs)
 #
 # Env: PYTHON (default: python), RUN_SUMMARY (default: docs/staging/run-summary.md),
@@ -16,7 +19,9 @@
 # Not in the weekly list on purpose (see meta/operator-guide.md and sources/*.md):
 #   brookings (selected set; its Research label mixes reports with commentary),
 #   casel (60s crawl-delay + detail fetch, run manually), jedm/jla (frozen
-#   selective set), ies-rel (no config), aims/rand/mdrc/nap (blocked or manual).
+#   selective set), ies-rel (no config), aims/rand/mdrc/nap (blocked or manual),
+#   digital-promise (IP edge-blocked by dspacedirect 2026-09-06; corpus is
+#     near-complete and near-static — scrape/verify only via a different egress).
 #
 # The script never aborts on a single failing source: each source's outcome is
 # recorded in the summary and the run continues. Exit code is non-zero only if
@@ -31,7 +36,6 @@ PY="${PYTHON:-python}"
 WEEKLY_SOURCES=(
   campbell-collaboration
   credo
-  digital-promise
   edtrust
   evidence-for-essa
   lpi
@@ -47,14 +51,15 @@ WEEKLY_SOURCES=(
 )
 
 DRY_RUN=0
-SKIP_VERIFY=0
+SKIP_VERIFY=1  # verification off by default since 2026-09-06 (see header); --verify to opt in
 SCRAPE_ARGS=()  # extra flags appended to every scrape.py call (--scrape-args)
 SOURCE_GAP="${SOURCE_GAP:-5}"  # back-to-back configs can share a host (the three LPI ones)
 SOURCES=("${WEEKLY_SOURCES[@]}")
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --dry-run) DRY_RUN=1 ;;
-    --skip-verify) SKIP_VERIFY=1 ;;
+    --skip-verify) SKIP_VERIFY=1 ;;  # no-op now (verify already off by default); kept for compatibility
+    --verify) SKIP_VERIFY=0 ;;
     --sources) shift; read -r -a SOURCES <<< "$1" ;;
     --scrape-args) shift; read -r -a SCRAPE_ARGS <<< "$1" ;;
     -h|--help) sed -n '2,23p' "$0"; exit 0 ;;

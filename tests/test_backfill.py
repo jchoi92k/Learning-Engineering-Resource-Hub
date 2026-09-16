@@ -624,6 +624,25 @@ def test_page_meta_fallback_fills_date_authors_and_pdf_from_citation_tags():
     assert items[2]["date"] == "2026-05-11T13:21:55Z"
 
 
+def test_from_raw_reads_pages_from_the_sidecar_and_never_fetches(monkeypatch, tmp_path):
+    # 2026-09-16: the Brookings byline selector had matched related-article
+    # inserts; the fix re-ran the selectors over stored pages with no request.
+    import scrape
+
+    monkeypatch.setattr(scrape, "RAW_DIR", tmp_path)
+    monkeypatch.setattr(scrape, "FROM_RAW", True)
+    monkeypatch.setattr(scrape, "fetch", lambda url, **kw: (_ for _ in ()).throw(AssertionError("fetched in --from-raw")))
+    monkeypatch.setattr(scrape, "_save_progress", lambda *a, **kw: None)
+    scrape._start_raw_store("src")
+    scrape._store_raw("https://x.org/a", scrape._RawResponse("https://x.org/a", "<html><span class='name'>Jim Soland</span></html>"))
+    cfg = {"detail_fetch": {"fetch_all": True, "extra_fields": {"authors": {"selector": ".name", "multiple": True}}}}
+    items = [{"title": "A", "url": "https://x.org/a", "blurb": "kept"}, {"title": "B", "url": "https://x.org/b", "blurb": "kept"}]
+    out = scrape.fetch_detail_descriptions(items, cfg, "src")
+    assert out[0]["authors"] == ["Jim Soland"] and out[0]["fetched_status"] == 200
+    assert "authors" not in out[1] and "fetched_status" not in out[1], "a page not in the store is skipped, not fetched"
+    scrape._raw_source = None
+
+
 def test_load_db_items_takes_active_rows_of_the_named_sources(monkeypatch, tmp_path):
     # --from-db (2026-09-16): a metadata pass over already-indexed pages. Only
     # active rows of the named sources, only allowed hosts when host_allow is set.

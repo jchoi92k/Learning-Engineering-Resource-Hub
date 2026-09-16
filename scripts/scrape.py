@@ -159,6 +159,25 @@ def _store_raw(url, r):
         return None
 
 
+FROM_RAW = False   # --from-raw: detail pages come from the sidecar, never the network
+
+
+class _RawResponse:
+    """The stored body of a page, shaped like the requests.Response the
+    detail-fetch loop reads (text, status_code, url)."""
+    def __init__(self, url, text):
+        self.url, self.text, self.status_code = url, text, 200
+        self.headers = {}
+
+
+def _raw_response(source, url):
+    body = read_raw(source, url)
+    if body is None:
+        print("    not in the raw store — skipped (no fetch in --from-raw)")
+        return None
+    return _RawResponse(url, body)
+
+
 def read_raw(source, url):
     """The stored body for a URL fetched under `source`, or None."""
     for ext in ("html", "json"):
@@ -1221,7 +1240,7 @@ def fetch_detail_descriptions(items, config, source):
             _save_progress(source, items)
             break
         print(f"  [{count+1}/{len(need_fetch)}] {item['title'][:70]}")
-        r = fetch(item["url"])
+        r = _raw_response(source, item["url"]) if FROM_RAW else fetch(item["url"])
         if r:
             soup = BeautifulSoup(r.text, "html.parser")
             items[i]["fetched_status"] = getattr(r, "status_code", None)
@@ -1526,6 +1545,9 @@ def main():
                         help="Print the request audit (repeated URLs, throttle gaps) for this source's request log and exit; no fetching")
     parser.add_argument("--stdout", action="store_true", help="Output to stdout instead of file")
     parser.add_argument("--fresh", action="store_true", help="Ignore progress file, start from scratch")
+    parser.add_argument("--from-raw", action="store_true",
+                        help="With --from-db: read each page from the data/raw/<source>/ sidecar instead of "
+                             "fetching it (re-run the config's selectors after a fix; pages not stored are skipped)")
     parser.add_argument("--from-db", action="store_true",
                         help="Skip discovery: take the source's active hub.db rows as the items and run the "
                              "config's detail_fetch over every one (metadata backfill of pages already indexed). "
@@ -1564,6 +1586,11 @@ def main():
     items = None
     if not args.fresh:
         items = _load_progress(source)
+    if args.from_raw:
+        if not args.from_db:
+            parser.error("--from-raw needs --from-db")
+        global FROM_RAW
+        FROM_RAW = True
     if items is None and args.from_db:
         items = load_db_items(config)
         print(f"[scrape] --from-db: {len(items)} active hub.db rows for {config.get('from_db', {}).get('source_names')}")

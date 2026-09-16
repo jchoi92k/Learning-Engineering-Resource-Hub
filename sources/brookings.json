@@ -70,10 +70,11 @@
         "jsonld": "datePublished"
       },
       "authors": {
-        "selector": "p.byline"
+        "selector": ".people-name-and-title-desktop .name",
+        "multiple": true
       }
     },
-    "_comment": "2026-09-16: date from the page's schema.org datePublished, authors from p.byline (comma list); used by --from-db for the 23 published rows."
+    "_comment": "2026-09-16: date from the page's schema.org datePublished; authors from the article-meta people block (one .name per author). p.byline was WRONG: it matches the bylines of related-article inserts, which put other people's names on 20 of 22 rows until the same-day fix (re-run offline with --from-db --from-raw)."
   },
   "robots_txt": "https://www.brookings.edu/robots.txt",
   "robots_disallow": [

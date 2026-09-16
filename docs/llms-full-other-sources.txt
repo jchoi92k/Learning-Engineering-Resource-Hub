@@ -91,7 +91,7 @@ description_source: llm-summary
 date_added: 2026-05-13
 published_date: 2026-05-11
 date_source: page-meta
-authors: ["Katharine Meyer", "Isabel McMullen"]
+authors: ["Isabel McMullen", "Taylor Odle"]
 document_url: null
 doi: null
 license: null

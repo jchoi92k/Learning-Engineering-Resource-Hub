@@ -17,6 +17,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [carnegie-learning, computer-assisted-learning, formative-assessment, k-12, learning-engineering]
@@ -41,6 +42,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, literacy]
@@ -65,6 +67,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, literacy, professional-development]
@@ -89,6 +92,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, literacy]
@@ -113,6 +117,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -137,6 +142,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development, response-to-intervention]
@@ -161,6 +167,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, literacy]
@@ -185,6 +192,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, computer-assisted-learning, k-12, literacy]
@@ -209,6 +217,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, literacy]
@@ -233,6 +242,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, literacy]
@@ -257,6 +267,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, computer-assisted-learning, k-12, literacy]
@@ -281,6 +292,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development]
@@ -305,6 +317,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, k-12, literacy]
@@ -329,6 +342,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, math-education, personalized-learning]
@@ -353,6 +367,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [automated-feedback, computer-assisted-learning, formative-assessment, k-12, math-education]
@@ -377,6 +392,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, k-12, math-education, personalized-learning]
@@ -401,6 +417,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, math-education]
@@ -425,6 +442,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education, math-strategies, professional-development]
@@ -449,6 +467,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning]
@@ -473,6 +492,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, computer-assisted-learning, k-12, math-education]
@@ -497,6 +517,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, math-education]
@@ -521,6 +542,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education, professional-development]
@@ -545,6 +567,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, math-education, math-strategies]
@@ -569,6 +592,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, k-12, math-education, personalized-learning, prekindergarten]
@@ -593,6 +617,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education, response-to-intervention]
@@ -617,6 +642,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, math-education]
@@ -641,6 +667,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, math-education, math-strategies]
@@ -665,6 +692,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education, professional-development]
@@ -689,6 +717,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, k-12, literacy, personalized-learning, rct]
@@ -713,6 +742,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, response-to-intervention]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development, rct, writing-instruction]
@@ -761,6 +792,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, rct]
@@ -785,6 +817,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, intelligent-tutoring, k-12, literacy, personalized-learning, rct]
@@ -809,6 +842,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, english-learners, k-12, literacy, personalized-learning, rct]
@@ -833,6 +867,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, rct]
@@ -857,6 +892,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, english-learners, k-12, literacy, rct]
@@ -881,6 +917,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, literacy, personalized-learning, rct]
@@ -905,6 +942,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, response-to-intervention]
@@ -929,6 +967,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, rct]
@@ -953,6 +992,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, english-learners, k-12, literacy, personalized-learning, rct]
@@ -977,6 +1017,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, k-12, literacy, personalized-learning, rct, sel]
@@ -1001,6 +1042,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, professional-development, rct]
@@ -1025,6 +1067,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, literacy, personalized-learning, rct]
@@ -1049,6 +1092,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, rct]
@@ -1073,6 +1117,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, rct]
@@ -1097,6 +1142,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, k-12, literacy, rct]
@@ -1121,6 +1167,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, rct]
@@ -1145,6 +1192,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, literacy, personalized-learning, rct]
@@ -1169,6 +1217,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, rct]
@@ -1193,6 +1242,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, k-12, literacy, personalized-learning, rct]
@@ -1217,6 +1267,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, math-education, rct]
@@ -1241,6 +1292,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, math-education, professional-development, rct]
@@ -1265,6 +1317,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, math-education, personalized-learning, rct]
@@ -1289,6 +1342,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, math-education, rct, response-to-intervention]
@@ -1313,6 +1367,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, rct]
@@ -1337,6 +1392,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, math-education, rct]
@@ -1361,6 +1417,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, rct]
@@ -1385,6 +1442,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education, rct]
@@ -1409,6 +1467,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, formative-assessment, k-12, math-education, professional-development, rct]
@@ -1433,6 +1492,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, math-education, rct]
@@ -1457,6 +1517,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, rct]
@@ -1481,6 +1542,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education, rct, sel]
@@ -1505,6 +1567,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education, rct, response-to-intervention]
@@ -1529,6 +1592,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, rct]
@@ -1553,6 +1617,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, rct]
@@ -1577,6 +1642,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, rct, response-to-intervention]
@@ -1601,6 +1667,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [coaching, k-12, literacy, professional-development, rct]
@@ -1625,6 +1692,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy]
@@ -1649,6 +1717,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, prekindergarten]
@@ -1673,6 +1742,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, sel]
@@ -1697,6 +1767,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, prekindergarten, sel]
@@ -1721,6 +1792,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, response-to-intervention]
@@ -1745,6 +1817,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, response-to-intervention]
@@ -1769,6 +1842,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy]
@@ -1793,6 +1867,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, response-to-intervention]
@@ -1817,6 +1892,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy]
@@ -1841,6 +1917,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, sel]
@@ -1865,6 +1942,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -1889,6 +1967,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, response-to-intervention]
@@ -1913,6 +1992,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, personalized-learning]
@@ -1937,6 +2017,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, professional-development]
@@ -1961,6 +2042,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, personalized-learning, response-to-intervention]
@@ -1985,6 +2067,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, personalized-learning, response-to-intervention]
@@ -2009,6 +2092,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, math-education]
@@ -2033,6 +2117,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, writing-instruction]
@@ -2057,6 +2142,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development]
@@ -2081,6 +2167,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, math-education, response-to-intervention]
@@ -2105,6 +2192,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, inclusive-design, math-education, personalized-learning]
@@ -2129,6 +2217,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, inclusive-design, literacy, personalized-learning]
@@ -2153,6 +2242,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -2177,6 +2267,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, early-childhood, professional-development]
@@ -2201,6 +2292,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, math-education, personalized-learning]
@@ -2225,6 +2317,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -2249,6 +2342,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12]
@@ -2273,6 +2367,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2297,6 +2392,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, math-education]
@@ -2321,6 +2417,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [professional-development, response-to-intervention, sel]
@@ -2345,6 +2442,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning, response-to-intervention, sel]
@@ -2369,6 +2467,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, writing-instruction]
@@ -2393,6 +2492,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, personalized-learning]
@@ -2417,6 +2517,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, professional-development]
@@ -2441,6 +2542,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, personalized-learning, response-to-intervention]
@@ -2465,6 +2567,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, response-to-intervention]
@@ -2489,6 +2592,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, writing-instruction]
@@ -2513,6 +2617,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, personalized-learning]
@@ -2537,6 +2642,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -2561,6 +2667,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -2585,6 +2692,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development, response-to-intervention]
@@ -2609,6 +2717,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -2633,6 +2742,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development]
@@ -2657,6 +2767,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, early-childhood, professional-development]
@@ -2681,6 +2792,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2705,6 +2817,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, response-to-intervention]
@@ -2729,6 +2842,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, response-to-intervention]
@@ -2753,6 +2867,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, personalized-learning, response-to-intervention]
@@ -2777,6 +2892,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education]
@@ -2801,6 +2917,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, formative-assessment, literacy, personalized-learning]
@@ -2825,6 +2942,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, math-education]
@@ -2849,6 +2967,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, math-education]
@@ -2873,6 +2992,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, professional-development]
@@ -2897,6 +3017,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, computer-assisted-learning, literacy, response-to-intervention]
@@ -2921,6 +3042,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention, writing-instruction]
@@ -2945,6 +3067,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -2969,6 +3092,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, response-to-intervention]
@@ -2993,6 +3117,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3017,6 +3142,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, personalized-learning, writing-instruction]
@@ -3041,6 +3167,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -3065,6 +3192,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, personalized-learning]
@@ -3089,6 +3217,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, personalized-learning]
@@ -3113,6 +3242,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3137,6 +3267,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -3161,6 +3292,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, computer-assisted-learning, literacy, personalized-learning, writing-instruction]
@@ -3185,6 +3317,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development, sel]
@@ -3209,6 +3342,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, personalized-learning]
@@ -3233,6 +3367,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, personalized-learning]
@@ -3257,6 +3392,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, math-education, response-to-intervention]
@@ -3281,6 +3417,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3305,6 +3442,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3329,6 +3467,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -3353,6 +3492,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3377,6 +3517,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, literacy, personalized-learning, professional-development, writing-instruction]
@@ -3401,6 +3542,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development]
@@ -3425,6 +3567,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -3449,6 +3592,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, literacy, professional-development]
@@ -3473,6 +3617,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, math-education, response-to-intervention]
@@ -3497,6 +3642,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -3521,6 +3667,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -3545,6 +3692,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, literacy, professional-development, writing-instruction]
@@ -3569,6 +3717,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, computer-assisted-learning, literacy, personalized-learning, writing-instruction]
@@ -3593,6 +3742,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, literacy, response-to-intervention]
@@ -3617,6 +3767,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention, writing-instruction]
@@ -3641,6 +3792,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development]
@@ -3665,6 +3817,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -3689,6 +3842,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3713,6 +3867,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development]
@@ -3737,6 +3892,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, response-to-intervention]
@@ -3761,6 +3917,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -3785,6 +3942,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, literacy, personalized-learning]
@@ -3809,6 +3967,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, writing-instruction]
@@ -3833,6 +3992,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3857,6 +4017,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -3881,6 +4042,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, literacy, professional-development]
@@ -3905,6 +4067,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, personalized-learning, professional-development]
@@ -3929,6 +4092,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, literacy, response-to-intervention]
@@ -3953,6 +4117,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, writing-instruction]
@@ -3977,6 +4142,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, sel]
@@ -4001,6 +4167,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, career-readiness, math-education, professional-development]
@@ -4025,6 +4192,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, response-to-intervention, sel]
@@ -4049,6 +4217,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, response-to-intervention]
@@ -4073,6 +4242,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, literacy, response-to-intervention]
@@ -4097,6 +4267,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, sel]
@@ -4121,6 +4292,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, personalized-learning, response-to-intervention]
@@ -4145,6 +4317,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, response-to-intervention, sel]
@@ -4169,6 +4342,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention, sel]
@@ -4193,6 +4367,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -4217,6 +4392,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, personalized-learning]
@@ -4241,6 +4417,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, literacy, response-to-intervention]
@@ -4265,6 +4442,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, literacy, response-to-intervention]
@@ -4289,6 +4467,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, personalized-learning, response-to-intervention]
@@ -4313,6 +4492,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -4337,6 +4517,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, literacy, personalized-learning]
@@ -4361,6 +4542,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, response-to-intervention]
@@ -4385,6 +4567,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, professional-development]
@@ -4409,6 +4592,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4433,6 +4617,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4457,6 +4642,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, math-education, professional-development]
@@ -4481,6 +4667,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4505,6 +4692,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, professional-development]
@@ -4529,6 +4717,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, math-education, personalized-learning, response-to-intervention]
@@ -4553,6 +4742,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4577,6 +4767,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, professional-development]
@@ -4601,6 +4792,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4625,6 +4817,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -4649,6 +4842,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education, response-to-intervention]
@@ -4673,6 +4867,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -4697,6 +4892,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, writing-instruction]
@@ -4721,6 +4917,7 @@ date_added: 2026-08-30
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, k-12, math-education, personalized-learning, professional-development]
@@ -4745,6 +4942,7 @@ date_added: 2026-08-30
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, learning-engineering, literacy, math-education, personalized-learning]
@@ -4769,6 +4967,7 @@ date_added: 2026-08-30
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education]
@@ -4793,6 +4992,7 @@ date_added: 2026-08-31
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -4817,6 +5017,7 @@ date_added: 2026-08-31
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -4841,6 +5042,7 @@ date_added: 2026-08-31
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4865,6 +5067,7 @@ date_added: 2026-08-31
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []

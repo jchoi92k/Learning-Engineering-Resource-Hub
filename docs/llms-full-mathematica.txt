@@ -17,6 +17,7 @@ date_added: 2026-05-10
 published_date: 2026-07-17
 date_source: listing
 authors: ["Matthew Johnson", "Naihobe Gonzalez", "Jeffrey Max", "Tareena Musaddiq", "Sophia Seifert", "Michelle Bennett", "Ren Schlosser"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, k-12, longitudinal, professional-development, rct]
@@ -41,6 +42,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, genai, learning-engineering, llm-application]
@@ -65,6 +67,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, longitudinal, professional-development]
@@ -89,6 +92,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, longitudinal, professional-development, rct]
@@ -113,6 +117,7 @@ date_added: 2026-05-10
 published_date: 2026-04-01
 date_source: listing
 authors: ["Jonah Deutsch", "Daniel Kuehn", "Karen Gardiner", "Deborah Reed", "Julia Payne", "Moriah Macklin", "Ariella Spitzer", "Peter Schochet", "Astrid Harnack-Eber", "Peter Kress"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, longitudinal, rct]
@@ -137,6 +142,7 @@ date_added: 2026-05-10
 published_date: 2018-02-22
 date_source: listing
 authors: ["Naihobe Gonzalez", "Sophie MacIntyre", "Pilar Beccar-Varela"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development, rct]
@@ -161,6 +167,7 @@ date_added: 2026-05-10
 published_date: 2009-02-28
 date_source: listing
 authors: ["Larissa Campuzano", "Mark Dynarski", "Roberto Agodini", "Kristina Rall"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, k-12, literacy, math-education, rct]
@@ -185,6 +192,7 @@ date_added: 2026-05-10
 published_date: 2009-02-28
 date_source: listing
 authors: ["Roberto Agodini", "Barbara Harris", "Sally Atkins-Burnett", "Sheila Heaviside", "Timothy Novak", "Robert Murphy"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, math-education, math-strategies, rct]
@@ -209,6 +217,7 @@ date_added: 2026-05-10
 published_date: 2022-03-01
 date_source: listing
 authors: ["Julie Bruch", "Jasmine Forde", "Ijun Lai", "Veronica Sotelo Muñoz"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education, math-motivation, personalized-learning]
@@ -233,6 +242,7 @@ date_added: 2026-05-10
 published_date: 2007-07-03
 date_source: listing
 authors: ["Sally Atkins-Burnett"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, k-12, prekindergarten]
@@ -257,6 +267,7 @@ date_added: 2026-05-10
 published_date: 2023-06-30
 date_source: listing
 authors: ["Kate Place", "Andrew Gothro", "Gregory Chojnacki", "Kara Conroy"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education, math-motivation, personalized-learning, rct, student-belonging]
@@ -281,6 +292,7 @@ date_added: 2026-05-10
 published_date: 2023-07-20
 date_source: listing
 authors: ["Gregory Chojnacki", "Kate Place", "Kara Conroy"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education, math-strategies, professional-development]
@@ -305,6 +317,7 @@ date_added: 2026-05-10
 published_date: 2021-11-30
 date_source: listing
 authors: ["Barbara Harris", "Lindsay Fox"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, math-education, math-strategies]
@@ -329,6 +342,7 @@ date_added: 2026-05-10
 published_date: 2018-11-02
 date_source: listing
 authors: ["Jane Choi", "Scott Richman", "Sarah Dolfin"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development, writing-instruction]
@@ -353,6 +367,7 @@ date_added: 2026-05-10
 published_date: 2021-05-04
 date_source: listing
 authors: ["Jasmine Forde", "Julie Bruch", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, professional-development, qualitative-research, writing-instruction]
@@ -377,6 +392,7 @@ date_added: 2026-05-10
 published_date: 2019-08-27
 date_source: listing
 authors: ["Scott Richman", "Alicia Demers", "Dmitriy Poznyak"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, longitudinal, professional-development]
@@ -401,6 +417,7 @@ date_added: 2026-05-10
 published_date: 2019-01-31
 date_source: listing
 authors: ["Jeff Archer", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, k-12, professional-development]
@@ -425,6 +442,7 @@ date_added: 2026-05-10
 published_date: 2016-08-24
 date_source: listing
 authors: ["Alison Wellington", "Hanley Chiang", "Kristin Hallgren", "Cecilia Speroni", "Mariesa Herrmann", "Paul Burkander"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, professional-development, rct]
@@ -449,6 +467,7 @@ date_added: 2026-05-10
 published_date: 2014-12-30
 date_source: listing
 authors: ["Cassie Pickens Jewell", "Libby Makowsky", "Kristin Hallgren"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, professional-development]
@@ -473,6 +492,7 @@ date_added: 2026-05-10
 published_date: 2018-04-30
 date_source: listing
 authors: ["Margaret Sullivan", "Derek V. Price", "Lindsay Fox", "Ann Person"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, higher-ed, student-belonging]
@@ -497,6 +517,7 @@ date_added: 2026-05-10
 published_date: 2021-05-12
 date_source: listing
 authors: ["Lisbeth Goble", "Ashley Hong", "Veronica Severn"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, higher-ed]
@@ -521,6 +542,7 @@ date_added: 2026-05-10
 published_date: 2008-12-30
 date_source: listing
 authors: ["Joshua Haimson", "James R. Stone,  III", "Donna Pearson"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, k-12, math-education, professional-development]
@@ -545,6 +567,7 @@ date_added: 2026-05-10
 published_date: 2005-07-29
 date_source: listing
 authors: ["Steven Glazerman", "Neil Seftor", "Jesse Gregory"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, longitudinal]
@@ -569,6 +592,7 @@ date_added: 2026-05-10
 published_date: 2019-09-30
 date_source: listing
 authors: ["Johanna Lacoe", "Mikia Manley"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, school-discipline]
@@ -593,6 +617,7 @@ date_added: 2026-05-10
 published_date: 2018-05-15
 date_source: listing
 authors: ["Stephen Lipscomb", "Johanna Lacoe", "Albert Y. Liu", "Joshua Haimson"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, k-12, longitudinal]
@@ -617,6 +642,7 @@ date_added: 2026-05-10
 published_date: 2014-11-30
 date_source: listing
 authors: ["Andrea Boyle", "Laura Golden", "Kerstin Carlson Le Floch", "Jennifer O'Day", "Barbara Harris", "Sarah Wissel"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, k-12, professional-development, qualitative-research]
@@ -641,6 +667,7 @@ date_added: 2026-05-10
 published_date: 2017-12-30
 date_source: listing
 authors: ["Elizabeth Woodburn Cavadel", "Douglas A. Frye"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, longitudinal, prekindergarten, sel]
@@ -665,6 +692,7 @@ date_added: 2026-05-10
 published_date: 2010-06-30
 date_source: listing
 authors: ["Christina Clark Tuttle", "Bing-ru Teh", "Ira Nichols-Barrer", "Brian P. Gill", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, longitudinal, math-education]
@@ -689,6 +717,7 @@ date_added: 2026-05-10
 published_date: 2017-08-22
 date_source: listing
 authors: ["Virginia Knechtel", "Thomas Coen", "Pia Caronongan", "Nickie Fung", "Lisbeth Goble"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, longitudinal, prekindergarten, rct]
@@ -713,6 +742,7 @@ date_added: 2026-05-10
 published_date: 2019-10-01
 date_source: listing
 authors: ["Nan Maxwell", "Scott Richman"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, meta-analysis]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: 2018-06-13
 date_source: listing
 authors: ["Naihobe Gonzalez", "Sophie MacIntyre", "Pilar Beccar-Varela"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, response-to-intervention]
@@ -761,6 +792,7 @@ date_added: 2026-05-10
 published_date: 2015-12-14
 date_source: listing
 authors: ["Lara Hulsey", "Andrea Mraz Esposito", "Kimberly Boller", "Sarah Osborn"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, k-12, sel]
@@ -785,6 +817,7 @@ date_added: 2026-05-10
 published_date: 2008-02-28
 date_source: listing
 authors: ["Kevin Booker", "Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, professional-development]
@@ -809,6 +842,7 @@ date_added: 2026-05-10
 published_date: 2012-07-30
 date_source: listing
 authors: ["Sally Atkins-Burnett", "Camila Fernandez", "Lauren Akers", "Jessica Jacobson", "Claire Smither-Wulsin"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-motivation, sel]
@@ -833,6 +867,7 @@ date_added: 2026-05-10
 published_date: 2008-04-30
 date_source: listing
 authors: ["Kevin Booker", "Duncan Chaplin", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -857,6 +892,7 @@ date_added: 2026-06-04
 published_date: 2026-05-14
 date_source: listing
 authors: ["Jonah Deutsch", "Whitney Kozakowski", "Naihobe Gonzalez", "Jessica Wagner"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -881,6 +917,7 @@ date_added: 2026-06-04
 published_date: 2024-11-19
 date_source: listing
 authors: ["Under 3 DC"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -905,6 +942,7 @@ date_added: 2026-06-04
 published_date: 2024-11-01
 date_source: listing
 authors: ["Riley Stone", "Doug Van Dine", "Jose Aguayo"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -929,6 +967,7 @@ date_added: 2026-06-04
 published_date: 2024-04-26
 date_source: listing
 authors: ["Moira McCullough", "Menbere Shiferaw"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -953,6 +992,7 @@ date_added: 2026-06-04
 published_date: 2024-04-22
 date_source: listing
 authors: ["Alicia Demers", "Jessica Drescher", "Matthew Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access]
@@ -977,6 +1017,7 @@ date_added: 2026-06-04
 published_date: 2024-02-28
 date_source: listing
 authors: ["Jesse Chandler", "Emily Rosen", "Kimberley Raue", "Katlyn Milless", "Danielle Rockman"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -1001,6 +1042,7 @@ date_added: 2026-06-04
 published_date: 2024-01-10
 date_source: listing
 authors: ["Laura Meyer", "Lily Fesler", "Anna Gu", "Caroline Lauver"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, response-to-intervention]
@@ -1025,6 +1067,7 @@ date_added: 2026-06-04
 published_date: 2023-11-30
 date_source: listing
 authors: ["Kate Place", "Kara Conroy", "Gregory Chojnacki"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1049,6 +1092,7 @@ date_added: 2026-06-04
 published_date: 2023-11-01
 date_source: listing
 authors: ["Dan Goldhaber", "Matt Kasman", "Vanessa Quince", "Roddy Theobald", "Malcolm Wolff"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -1073,6 +1117,7 @@ date_added: 2026-06-04
 published_date: 2023-09-12
 date_source: listing
 authors: ["Alicia Demers", "Ira Nichols-Barrer", "Elisa Steele", "Maria Bartlett", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1097,6 +1142,7 @@ date_added: 2026-06-04
 published_date: 2023-08-21
 date_source: listing
 authors: ["REL Central"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -1121,6 +1167,7 @@ date_added: 2026-06-04
 published_date: 2023-08-16
 date_source: listing
 authors: ["Ayesha De Mond", "Melissa Hepburn", "Veena Prakriya", "Benjamin Christensen", "Sara Bernstein", "Jessica Harding"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, math-education]
@@ -1145,6 +1192,7 @@ date_added: 2026-06-04
 published_date: 2023-07-28
 date_source: listing
 authors: ["Connor Rooney", "Adam Dunn"]
+document_url: null
 doi: null
 license: null
 tags: [writing-instruction]
@@ -1169,6 +1217,7 @@ date_added: 2026-06-04
 published_date: 2023-07-28
 date_source: listing
 authors: ["Tareena Musaddiq", "Adam Dunn"]
+document_url: null
 doi: null
 license: null
 tags: [writing-instruction]
@@ -1193,6 +1242,7 @@ date_added: 2026-06-04
 published_date: 2023-07-28
 date_source: listing
 authors: ["Tareena Musaddiq", "Adam Dunn"]
+document_url: null
 doi: null
 license: null
 tags: [writing-instruction]
@@ -1217,6 +1267,7 @@ date_added: 2026-06-04
 published_date: 2023-06-30
 date_source: listing
 authors: ["Kara Conroy", "Kate Place", "Gregory Chojnacki", "Andrew Gothro"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -1241,6 +1292,7 @@ date_added: 2026-06-04
 published_date: 2023-06-27
 date_source: listing
 authors: ["Jennifer Starling", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -1265,6 +1317,7 @@ date_added: 2026-06-04
 published_date: 2023-06-27
 date_source: listing
 authors: ["Carolyn J. Hill", "Lauren Scher", "Joshua Haimson", "Kelly Granito"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -1289,6 +1342,7 @@ date_added: 2026-06-04
 published_date: 2023-03-28
 date_source: listing
 authors: ["Michael Levere", "Jeffrey Hemmeter", "David Wittenburg"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -1313,6 +1367,7 @@ date_added: 2026-06-04
 published_date: 2023-03-16
 date_source: listing
 authors: ["Catherine Pratt", "Kara Conroy", "Lindsay Fox"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1337,6 +1392,7 @@ date_added: 2026-06-04
 published_date: 2023-03-16
 date_source: listing
 authors: ["Breyon Williams", "Connor Rooney", "Gregory Chojnacki"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -1361,6 +1417,7 @@ date_added: 2026-06-04
 published_date: 2023-03-16
 date_source: listing
 authors: ["Catherine Pratt", "Gregory Chojnacki", "Kara Conroy"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -1385,6 +1442,7 @@ date_added: 2026-06-04
 published_date: 2023-03-16
 date_source: listing
 authors: ["Andrew Gothro", "Gregory Chojnacki"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -1409,6 +1467,7 @@ date_added: 2026-06-04
 published_date: 2023-02-06
 date_source: listing
 authors: ["Megan Shoji", "Lindsay Fox", "Ryan Ruggiero", "Mikia Manley", "Kate Place", "Virginia Knechtel"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -1433,6 +1492,7 @@ date_added: 2026-06-04
 published_date: 2023-02-02
 date_source: listing
 authors: ["Ryan Ruggiero", "Mikia Manley", "Virginia Knechtel", "Kate Place", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1457,6 +1517,7 @@ date_added: 2026-06-04
 published_date: 2023-01-09
 date_source: listing
 authors: ["Stephen Lipscomb", "Duncan Chaplin", "Alma Vigil", "Hena Matthias"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, math-education]
@@ -1481,6 +1542,7 @@ date_added: 2026-06-04
 published_date: 2022-12-06
 date_source: listing
 authors: ["Monica Farid", "Karen Katz", "Anna Hill", "Ankita Patnaik"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -1505,6 +1567,7 @@ date_added: 2026-06-04
 published_date: 2022-08-15
 date_source: listing
 authors: ["Margaret Burchinal", "Sarah Krowka", "Rebecca Newman-Gonchar", "Madhavi Jayanthi", "Russell Gersten", "Samantha Wavell", "Julia Lyskawa", "Kelly Haymond", "Karen Bierman", "Jorge Gonzalez", "Megan McClelland", "Kimberly Nelson", "Jill Pentimonti", "David Purpura", "Jason Sachs", "Julie Sarama", "Elizabeth Schlesinger-Devlin", "Julie Washington", "Emily Rosen"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -1529,6 +1592,7 @@ date_added: 2026-06-04
 published_date: 2022-07-22
 date_source: listing
 authors: ["Barbara Harris", "Lindsay Fox"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, math-education]
@@ -1553,6 +1617,7 @@ date_added: 2026-06-04
 published_date: 2022-05-30
 date_source: listing
 authors: ["Alicia Harrington", "Ryan Ruggiero", "Samina Sattar", "Lauren Eyster"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -1577,6 +1642,7 @@ date_added: 2026-06-04
 published_date: 2022-04-26
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Maria Bartlett", "Thomas Coen", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1601,6 +1667,7 @@ date_added: 2026-06-04
 published_date: 2022-03-28
 date_source: listing
 authors: ["Sharon Vaughn", "Russell Gersten", "Joseph Dimino", "Mary Jo Taylor", "Rebecca Newman-Gonchar", "Sarah Krowka", "Michael J. Kieffer", "Margaret McKeown", "Deborah K. Reed", "Michele Sanchez", "Kimberly St. Martin", "Jade Wexler", "Seth Morgan", "Armando Yañez", "Madhavi Jayanthi"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -1625,6 +1692,7 @@ date_added: 2026-06-04
 published_date: 2022-02-08
 date_source: listing
 authors: ["Shuaizhang Feng", "Yujie Han", "James J. Heckman", "Tim Kautz"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention, sel]
@@ -1649,6 +1717,7 @@ date_added: 2026-06-04
 published_date: 2021-12-16
 date_source: listing
 authors: ["Tim Kautz", "Katherine L. Milkman", "Dena Gromet", "Hung Ho", "Joseph S. Kay", "Timothy W. Lee", "Pepi Pandiloski", "Yeji Park", "Aneesh Rai", "Max Bazerman", "John Beshears", "Lauri Bonacorsi", "Colin Camerer", "Edward Chang", "Gretchen Chapman", "Robert Cialdini", "Hengchen Dai", "Lauren Eskreis-Winkler", "Ayelet Fishbach", "James J. Gross", "Samantha Horn", "Alexa Hubbard", "Steven J. Jones", "Dean Karlan", "Erika Kirgios", "Joowon Klusowski", "Ariella Kristal", "Rahul Ladhania", "George Loewenstein", "Jens Ludwig", "Barbara Mellers", "Sendhil Mullainathan", "Silvia Saccardo", "Jann Spiess", "Gaurav Suri", "Joachim H. Talloen", "Jamie Taxer", "Yaacov Trope", "Lyle Ungar", "Kevin G. Volpp", "Ashley Whillans", "Jonathan Zinman", "Angela L. Duckworth"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -1673,6 +1742,7 @@ date_added: 2026-06-04
 published_date: 2021-11-19
 date_source: listing
 authors: ["Emma Pottinger", "Samantha Zepeda", "Allon Kalisher"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -1697,6 +1767,7 @@ date_added: 2026-06-04
 published_date: 2021-11-16
 date_source: listing
 authors: ["Tamara Linkow", "Amanda Parsad", "Alina Martinez", "Hannah Miller"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1721,6 +1792,7 @@ date_added: 2026-06-04
 published_date: 2021-11-16
 date_source: listing
 authors: ["Matthew Johnson", "Alicia Demers"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access]
@@ -1745,6 +1817,7 @@ date_added: 2026-06-04
 published_date: 2021-10-04
 date_source: listing
 authors: ["Brittany Rabb", "Emily Gardner", "Emma Pottinger", "Ramya Tallapragada", "Alexandra Resch", "Theodora Vorias", "Virginia Knechtel"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1769,6 +1842,7 @@ date_added: 2026-06-04
 published_date: 2021-10-04
 date_source: listing
 authors: ["Emily Gardner", "Emma Pottinger", "Ramya Tallapragada", "Alexandra Resch", "Virginia Knechtel"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1793,6 +1867,7 @@ date_added: 2026-06-04
 published_date: 2021-09-18
 date_source: listing
 authors: ["Shira Haderlein"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -1817,6 +1892,7 @@ date_added: 2026-06-04
 published_date: 2021-08-23
 date_source: listing
 authors: ["Jacob Hartog", "Lily Fesler", "Brittany Tabora"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -1841,6 +1917,7 @@ date_added: 2026-06-04
 published_date: 2021-08-19
 date_source: listing
 authors: ["Purvi Sevak", "Kathleen Feeney", "Todd Honeycutt", "Emily Peterson"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, inclusive-design]
@@ -1865,6 +1942,7 @@ date_added: 2026-06-04
 published_date: 2021-08-18
 date_source: listing
 authors: ["Duncan Chaplin"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1889,6 +1967,7 @@ date_added: 2026-06-04
 published_date: 2021-08-12
 date_source: listing
 authors: ["Dallas Dotter", "Duncan Chaplin", "Maria Bartlett"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1913,6 +1992,7 @@ date_added: 2026-06-04
 published_date: 2021-07-26
 date_source: listing
 authors: ["Divya Vohra", "Patricia Rowan", "John Hotchkiss", "Kenneth Lim", "Aimee Lansdale", "So O'Neil"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1937,6 +2017,7 @@ date_added: 2026-06-04
 published_date: 2021-07-01
 date_source: listing
 authors: ["Silvia Robles", "Max Gross", "Robert W. Fairlie"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1961,6 +2042,7 @@ date_added: 2026-06-04
 published_date: 2021-06-30
 date_source: listing
 authors: ["Frank Martin", "Kathleen Feeney", "Todd Honeycutt", "David Mann"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -1985,6 +2067,7 @@ date_added: 2026-06-04
 published_date: 2021-06-30
 date_source: listing
 authors: ["David Mann", "Kathleen Feeney", "Todd Honeycutt", "Marlena Luhr"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -2009,6 +2092,7 @@ date_added: 2026-06-04
 published_date: 2021-06-21
 date_source: listing
 authors: ["Thomas J. Kane", "Angela Boatman", "Whitney Kozakowski", "Christopher Bennett", "Rachel Hitch", "Dana Weisenfeld"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning, math-education, response-to-intervention]
@@ -2033,6 +2117,7 @@ date_added: 2026-06-04
 published_date: 2021-06-02
 date_source: listing
 authors: ["Todd Honeycutt", "Kara Contreary", "Gina Livermore"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -2057,6 +2142,7 @@ date_added: 2026-06-04
 published_date: 2021-04-27
 date_source: listing
 authors: ["Martha Bleeker", "Delara Aharpour"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2081,6 +2167,7 @@ date_added: 2026-06-04
 published_date: 2021-03-31
 date_source: listing
 authors: ["Kristin Hallgren", "Daniel Welsh", "Ashley Hong"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -2105,6 +2192,7 @@ date_added: 2026-06-04
 published_date: 2021-02-24
 date_source: listing
 authors: ["Alina Martinez", "Tamara Linkow", "Hannah Miller", "Amanda Parsad", "Cristofer Price"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, sel]
@@ -2129,6 +2217,7 @@ date_added: 2026-06-04
 published_date: 2020-12-15
 date_source: listing
 authors: ["Jaime Thomas", "Naihobe Gonzalez", "Nora Paxton", "Andrew Wiegand", "Leela Hebbar"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2153,6 +2242,7 @@ date_added: 2026-06-04
 published_date: 2020-12-14
 date_source: listing
 authors: ["Naihobe Gonzalez", "Dan Thal"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, math-education]
@@ -2177,6 +2267,7 @@ date_added: 2026-06-04
 published_date: 2020-12-08
 date_source: listing
 authors: ["Brian Gill", "Christine Ross", "Erin Dillon", "Ann Li", "Patricia Troppe", "Eric Isenberg", "Anthony Milanowski", "Roberta Garrison-Mogren", "Louis Rizzo"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -2201,6 +2292,7 @@ date_added: 2026-06-04
 published_date: 2020-11-13
 date_source: listing
 authors: ["Kevin Kelly", "Lauren Forrow"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -2225,6 +2317,7 @@ date_added: 2026-06-04
 published_date: 2020-11-01
 date_source: listing
 authors: ["Brian Gill", "Emilyn Rubel Whitesell", "Sean P. Corcoran", "Charles Tilley", "Mariel Finucane", "Liz Potamites"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -2249,6 +2342,7 @@ date_added: 2026-06-04
 published_date: 2020-09-28
 date_source: listing
 authors: ["Matthew Johnson", "Dan Thal"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access]
@@ -2273,6 +2367,7 @@ date_added: 2026-06-04
 published_date: 2020-09-16
 date_source: listing
 authors: ["Brian P. Gill", "Ravi Goyal", "John Hotchkiss"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -2297,6 +2392,7 @@ date_added: 2026-06-04
 published_date: 2020-07-21
 date_source: listing
 authors: ["Ellen B. Goldring", "Melissa A. Clark", "Mollie Rubin", "Laura K. Rogers", "Jason A. Grissom", "Brian Gill", "Tim Kautz", "Moira McCullough", "Michael Neel", "Alyson Burnett"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, math-education]
@@ -2321,6 +2417,7 @@ date_added: 2026-06-04
 published_date: 2020-07-06
 date_source: listing
 authors: ["Julie Bruch", "Jonathan Gellar", "Lindsay Cattell", "John Hotchkiss", "Phil Killewald"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -2345,6 +2442,7 @@ date_added: 2026-06-04
 published_date: 2020-06-01
 date_source: listing
 authors: ["Christine Ross"]
+document_url: null
 doi: null
 license: null
 tags: [writing-instruction]
@@ -2369,6 +2467,7 @@ date_added: 2026-06-04
 published_date: 2020-04-30
 date_source: listing
 authors: ["Kevin Kelly", "Veronica Severn", "Ramya Tallapragada", "Matthew Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -2393,6 +2492,7 @@ date_added: 2026-06-04
 published_date: 2020-03-05
 date_source: listing
 authors: ["Jonah Deutsch", "Matthew Johnson", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -2417,6 +2517,7 @@ date_added: 2026-06-04
 published_date: 2020-03-05
 date_source: listing
 authors: ["Jonah Deutsch", "Matthew Johnson", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -2441,6 +2542,7 @@ date_added: 2026-06-04
 published_date: 2020-02-07
 date_source: listing
 authors: ["Gina Livermore", "Todd Honeycutt", "Arif Mamun", "Jacqueline Kauff"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -2465,6 +2567,7 @@ date_added: 2026-06-04
 published_date: 2020-01-15
 date_source: listing
 authors: ["Jaimie Grazi", "Barbara Harris", "Patricia Del Grosso"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -2489,6 +2592,7 @@ date_added: 2026-06-04
 published_date: 2019-11-21
 date_source: listing
 authors: ["Martha Bleeker", "Jaimie Grazi", "Felicia Hurwitz"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -2513,6 +2617,7 @@ date_added: 2026-06-04
 published_date: 2019-11-20
 date_source: listing
 authors: ["Martha Bleeker", "Jaimie Grazi", "Felicia Hurwitz"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -2537,6 +2642,7 @@ date_added: 2026-06-04
 published_date: 2019-11-20
 date_source: listing
 authors: ["Martha Bleeker", "Jaimie Grazi", "Felicia Hurwitz"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -2561,6 +2667,7 @@ date_added: 2026-06-04
 published_date: 2019-11-20
 date_source: listing
 authors: ["Martha Bleeker", "Jaimie Grazi", "Felicia Hurwitz"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -2585,6 +2692,7 @@ date_added: 2026-06-04
 published_date: 2019-11-20
 date_source: listing
 authors: ["Various Authors"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -2609,6 +2717,7 @@ date_added: 2026-06-04
 published_date: 2019-11-20
 date_source: listing
 authors: ["Various Authors"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -2633,6 +2742,7 @@ date_added: 2026-06-04
 published_date: 2019-10-30
 date_source: listing
 authors: ["Mariesa Herrmann", "Melissa Clark", "Susanne James-Burdumy", "Christina Tuttle", "Tim Kautz", "Virginia Knechtel", "Dallas Dotter", "Claire Smither Wulsin", "John Deke"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -2657,6 +2767,7 @@ date_added: 2026-06-04
 published_date: 2019-10-30
 date_source: listing
 authors: ["Jessica F. Harding", "Mariesa Herrmann", "Elias S. Hanno", "Christine Ross"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -2681,6 +2792,7 @@ date_added: 2026-06-04
 published_date: 2019-09-30
 date_source: listing
 authors: ["Philip Gleason", "Sarah Crissey", "Greg Chojnacki", "Marykate Zukiewicz", "Tim Silva", "Sarah Costelloe", "Fran O'Reilly"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -2705,6 +2817,7 @@ date_added: 2026-06-04
 published_date: 2019-09-30
 date_source: listing
 authors: ["Philip Gleason", "Sarah Crissey", "Greg Chojnacki", "Marykate Zukiewicz", "Tim Silva", "Sarah Costelloe", "Fran O'Reilly"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -2729,6 +2842,7 @@ date_added: 2026-06-04
 published_date: 2019-09-30
 date_source: listing
 authors: ["Philip Gleason", "Sarah Crissey", "Greg Chojnacki", "Marykate Zukiewicz", "Tim Silva", "Sarah Costelloe", "Fran O'Reilly"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -2753,6 +2867,7 @@ date_added: 2026-06-04
 published_date: 2019-09-26
 date_source: listing
 authors: ["Thomas Coen", "Ira Nichols-Barrer", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2777,6 +2892,7 @@ date_added: 2026-06-04
 published_date: 2019-09-26
 date_source: listing
 authors: ["Thomas Coen", "Ira Nichols-Barrer", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2801,6 +2917,7 @@ date_added: 2026-06-04
 published_date: 2019-09-11
 date_source: listing
 authors: ["Jeff Archer", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -2825,6 +2942,7 @@ date_added: 2026-06-04
 published_date: 2019-07-26
 date_source: listing
 authors: ["Matthew Johnson", "Alicia Demers"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -2849,6 +2967,7 @@ date_added: 2026-06-04
 published_date: 2019-07-19
 date_source: listing
 authors: ["Naihobe Gonzalez", "Charles Tilley"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2873,6 +2992,7 @@ date_added: 2026-06-04
 published_date: 2019-07-15
 date_source: listing
 authors: ["REL Mid-Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -2897,6 +3017,7 @@ date_added: 2026-06-04
 published_date: 2019-07-03
 date_source: listing
 authors: ["Arif Mamun", "Ankita Patnaik", "Michael Levere", "Gina Livermore", "Todd Honeycutt", "Jacqueline Kauff", "Karen Katz", "AnnaMaria McCutcheon", "Joseph Mastrianni", "Brittney Gionfriddo"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -2921,6 +3042,7 @@ date_added: 2026-06-04
 published_date: 2019-07-03
 date_source: listing
 authors: ["Arif Mamun", "Ankita Patnaik", "Michael Levere", "Gina Livermore", "Todd Honeycutt", "Jacqueline Kauff", "Karen Katz", "AnnaMaria McCutcheon", "Joseph Mastrianni", "Brittney Gionfriddo"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -2945,6 +3067,7 @@ date_added: 2026-06-04
 published_date: 2019-07-03
 date_source: listing
 authors: ["Arif Mamun", "Ankita Patnaik", "Michael Levere", "Gina Livermore", "Todd Honeycutt", "Jacqueline Kauff", "Karen Katz", "AnnaMaria McCutcheon", "Joseph Mastrianni", "Brittney Gionfriddo"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -2969,6 +3092,7 @@ date_added: 2026-06-04
 published_date: 2019-07-02
 date_source: listing
 authors: ["Shannon N. Davis", "Sarah E. Wagner"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2993,6 +3117,7 @@ date_added: 2026-06-04
 published_date: 2019-06-28
 date_source: listing
 authors: ["Sarah Dolfin", "Scott Richman", "Jane Choi", "Andrei Streke", "Cheryl DeSaw", "Alicia Demers", "Dmitriy Poznyak"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, professional-development]
@@ -3017,6 +3142,7 @@ date_added: 2026-06-04
 published_date: 2019-06-19
 date_source: listing
 authors: ["Matthew T. Johnson", "Julie Bruch", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3041,6 +3167,7 @@ date_added: 2026-06-04
 published_date: 2019-04-02
 date_source: listing
 authors: ["Kate Place", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3065,6 +3192,7 @@ date_added: 2026-06-04
 published_date: 2019-04-02
 date_source: listing
 authors: ["Kate Place", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3089,6 +3217,7 @@ date_added: 2026-06-04
 published_date: 2019-03-31
 date_source: listing
 authors: ["Jeff Archer", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development, writing-instruction]
@@ -3113,6 +3242,7 @@ date_added: 2026-06-04
 published_date: 2019-02-28
 date_source: listing
 authors: ["Barbara Harris", "Dana Petersen"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, math-education]
@@ -3137,6 +3267,7 @@ date_added: 2026-06-04
 published_date: 2019-01-23
 date_source: listing
 authors: ["Sean Gallagher", "Nan L. Maxwell"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3161,6 +3292,7 @@ date_added: 2026-06-04
 published_date: 2019-01-10
 date_source: listing
 authors: ["Daniel Kassler", "Ira Nichols-Barrer", "Mariel Finucane"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -3185,6 +3317,7 @@ date_added: 2026-06-04
 published_date: 2019-01-07
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Steve Glazerman", "Jon Valant"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3209,6 +3342,7 @@ date_added: 2026-06-04
 published_date: 2018-10-18
 date_source: listing
 authors: ["Alina Martinez", "Tamara Linkow", "Hannah Miller", "Amanda Parsad"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, personalized-learning]
@@ -3233,6 +3367,7 @@ date_added: 2026-06-04
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, personalized-learning]
@@ -3257,6 +3392,7 @@ date_added: 2026-06-04
 published_date: 2018-09-30
 date_source: listing
 authors: ["Jan Anderson"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -3281,6 +3417,7 @@ date_added: 2026-06-04
 published_date: 2018-06-30
 date_source: listing
 authors: ["Jaime Thomas", "Thomas D. Cook", "Alice Klein", "Prentice Starkey", "Lydia DeFlorio"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -3305,6 +3442,7 @@ date_added: 2026-06-04
 published_date: 2018-06-26
 date_source: listing
 authors: ["Matthew Johnson", "Alicia Demers"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -3329,6 +3467,7 @@ date_added: 2026-06-04
 published_date: 2018-06-06
 date_source: listing
 authors: ["Daniel Kassler", "Ira Nichols-Barrer", "Mariel Finucane"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -3353,6 +3492,7 @@ date_added: 2026-06-04
 published_date: 2018-06-01
 date_source: listing
 authors: ["Mid-Atlantic Regional Educational Laboratory"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering]
@@ -3377,6 +3517,7 @@ date_added: 2026-06-04
 published_date: 2018-04-30
 date_source: listing
 authors: ["Jeff Archer", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, professional-development]
@@ -3401,6 +3542,7 @@ date_added: 2026-06-04
 published_date: 2018-04-15
 date_source: listing
 authors: ["Edward Bein", "Jonah Deutsch", "Guanglei Hong", "Kristin E. Porter", "Xu Qin", "Cheng Yang"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -3425,6 +3567,7 @@ date_added: 2026-06-04
 published_date: 2018-04-01
 date_source: listing
 authors: ["Center for Civic Education", "Jeff Archer", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -3449,6 +3592,7 @@ date_added: 2026-06-04
 published_date: 2018-03-30
 date_source: listing
 authors: ["Johanna Lacoe", "Matthew P. Steinberg"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -3473,6 +3617,7 @@ date_added: 2026-06-04
 published_date: 2018-03-01
 date_source: listing
 authors: ["Mariel McKenzie Finucane", "Ignacio Martinez", "Scott Cody"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -3497,6 +3642,7 @@ date_added: 2026-06-04
 published_date: 2018-02-07
 date_source: listing
 authors: ["Johanna Lacoe", "Stephen Lipscomb", "Joshua Haimson"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, sel]
@@ -3521,6 +3667,7 @@ date_added: 2026-06-04
 published_date: 2018-02-07
 date_source: listing
 authors: ["Albert Y. Liu", "Johanna Lacoe", "Stephen Lipscomb", "Joshua Haimson", "David R. Johnson", "Martha L. Thurlow"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, sel]
@@ -3545,6 +3692,7 @@ date_added: 2026-06-04
 published_date: 2018-01-31
 date_source: listing
 authors: ["Christine Ross", "Emily Sama-Miller", "Lily Roberts"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3569,6 +3717,7 @@ date_added: 2026-06-04
 published_date: 2017-11-01
 date_source: listing
 authors: ["Teresa Eckrich Sommer", "P. Lindsay Chase-Lansdale", "Emily Sama-Miller", "Christine Ross", "Scott Baumgartner"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3593,6 +3742,7 @@ date_added: 2026-06-04
 published_date: 2017-10-30
 date_source: listing
 authors: ["Jane Choi", "Scott Richman", "Sarah Dolfin"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -3617,6 +3767,7 @@ date_added: 2026-06-04
 published_date: 2017-10-16
 date_source: listing
 authors: ["Kristin Hallgren", "Naihobe Gonzalez", "Jane Choi", "Kevin Kelly", "Annie Li", "Lindsay Ochoa", "Breanna Wakar", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -3641,6 +3792,7 @@ date_added: 2026-06-04
 published_date: 2017-10-03
 date_source: listing
 authors: ["John Deke", "Thomas Wei", "Tim Kautz"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -3665,6 +3817,7 @@ date_added: 2026-06-04
 published_date: 2017-10-01
 date_source: listing
 authors: ["James A. Dearden", "Suhui Li", "Chad D. Meyerhoefer", "Muzhe Yang"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, sel]
@@ -3689,6 +3842,7 @@ date_added: 2026-06-04
 published_date: 2017-09-30
 date_source: listing
 authors: ["Albert Y. Liu", "Stephen Lipscomb", "Alexander Johann"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, inclusive-design, sel]
@@ -3713,6 +3867,7 @@ date_added: 2026-06-04
 published_date: 2017-09-27
 date_source: listing
 authors: ["Nan Maxwell", "Sarah Dolfin", "Julie Bruch", "Dara Lee Luca"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -3737,6 +3892,7 @@ date_added: 2026-06-04
 published_date: 2017-09-25
 date_source: listing
 authors: ["Naihobe Gonzalez"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3761,6 +3917,7 @@ date_added: 2026-06-04
 published_date: 2017-09-13
 date_source: listing
 authors: ["Stephanie M. Jones", "Jennifer Kahn"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3785,6 +3942,7 @@ date_added: 2026-06-04
 published_date: 2017-09-01
 date_source: listing
 authors: ["Eric P. Bettinger", "Lindsay Fox", "Susanna Loeb", "Eric S. Taylor"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning]
@@ -3809,6 +3967,7 @@ date_added: 2026-06-04
 published_date: 2017-09-01
 date_source: listing
 authors: ["Matthew Johnson", "Cleo Jacobs Johnson", "Scott B. Richman", "Alicia Demers", "Claudia Gentile", "Eric Lundquist"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3833,6 +3992,7 @@ date_added: 2026-06-04
 published_date: 2017-07-31
 date_source: listing
 authors: ["Hanley Chiang", "Elias Walsh", "Timothy Shanahan", "Claudia Gentile", "Alyssa Maccarone", "Tiffany Waits", "Barbara Carlson", "Samuel Rikoon"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, literacy]
@@ -3857,6 +4017,7 @@ date_added: 2026-06-04
 published_date: 2017-06-01
 date_source: listing
 authors: ["T'Pring R. Westbrook", "Sarah A. Avellar", "Neil Seftor"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3881,6 +4042,7 @@ date_added: 2026-06-04
 published_date: 2017-05-23
 date_source: listing
 authors: ["Matthew Johnson", "Alicia Demers", "Cleo Jacobs Johnson", "Claudia Gentile"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -3905,6 +4067,7 @@ date_added: 2026-06-04
 published_date: 2017-04-01
 date_source: listing
 authors: ["John Deke", "Hanley Chiang"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -3929,6 +4092,7 @@ date_added: 2026-06-04
 published_date: 2017-03-28
 date_source: listing
 authors: ["Stephen Lipscomb", "Joshua Haimson", "Albert Y. Liu", "John Burghardt", "David R. Johnson", "Martha Thurlow"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, sel]
@@ -3953,6 +4117,7 @@ date_added: 2026-06-04
 published_date: 2017-02-09
 date_source: listing
 authors: ["Matthew Johnson", "Julie Bruch", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3977,6 +4142,7 @@ date_added: 2026-06-04
 published_date: 2017-01-30
 date_source: listing
 authors: ["Barbara Harris", "Dana Petersen", "Claire Smither Wulsin"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4001,6 +4167,7 @@ date_added: 2026-06-04
 published_date: 2016-12-08
 date_source: listing
 authors: ["Nan L. Maxwell and Ann E. Person", "editors"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4025,6 +4192,7 @@ date_added: 2026-06-04
 published_date: 2016-11-30
 date_source: listing
 authors: ["Clemencia Cosentino"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, computer-assisted-learning, k-12, math-education]
@@ -4049,6 +4217,7 @@ date_added: 2026-06-04
 published_date: 2016-11-22
 date_source: listing
 authors: ["Deborah Lessne", "Melissa Cidade", "Amy Gerke", "Karlesha Roland", "Michael Sinclair"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4073,6 +4242,7 @@ date_added: 2026-06-04
 published_date: 2016-10-31
 date_source: listing
 authors: ["Ann Person"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -4097,6 +4267,7 @@ date_added: 2026-06-04
 published_date: 2016-10-24
 date_source: listing
 authors: ["Gregory Chojnacki", "Alexandra Resch", "Alma Vigil", "Ignacio Martinez", "Steve Bates"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4121,6 +4292,7 @@ date_added: 2026-06-04
 published_date: 2016-09-30
 date_source: listing
 authors: ["Ann E. Person", "Jaime Thomas", "Lisbeth Goble"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4145,6 +4317,7 @@ date_added: 2026-06-04
 published_date: 2016-09-30
 date_source: listing
 authors: ["Ann E. Person", "Jaime Thomas", "Julie Bruch", "Alexander Johann", "Nikhail Maestas"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4169,6 +4342,7 @@ date_added: 2026-06-04
 published_date: 2016-09-29
 date_source: listing
 authors: ["Hanley Chiang", "Moira McCullough", "Stephen Lipscomb", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4193,6 +4367,7 @@ date_added: 2026-06-04
 published_date: 2016-09-26
 date_source: listing
 authors: ["Jin Sook Lee", "Jane Y. Choi", "Laura Marqués-Pascual"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4217,6 +4392,7 @@ date_added: 2026-06-04
 published_date: 2016-09-01
 date_source: listing
 authors: ["Emilyn Ruble Whitesell"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy]
@@ -4241,6 +4417,7 @@ date_added: 2026-06-04
 published_date: 2016-06-21
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Kate Place", "Erin Dillon", "Brian P. Gill"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4265,6 +4442,7 @@ date_added: 2026-06-04
 published_date: 2016-05-04
 date_source: listing
 authors: ["Mariesa Herrmann", "Elias Walsh", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4289,6 +4467,7 @@ date_added: 2026-06-04
 published_date: 2016-05-03
 date_source: listing
 authors: ["Naihobe Gonzalez", "Matthew Johnson", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4313,6 +4492,7 @@ date_added: 2026-06-04
 published_date: 2016-05-03
 date_source: listing
 authors: ["Albert Y. Liu", "Elias Walsh", "Dallas Dotter"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4337,6 +4517,7 @@ date_added: 2026-06-04
 published_date: 2016-03-16
 date_source: listing
 authors: ["Cleo Jacobs Johnson", "Ava Madoff", "Scott Richman", "Matthew Johnson", "Claudia Gentile"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4361,6 +4542,7 @@ date_added: 2026-06-04
 published_date: 2016-03-02
 date_source: listing
 authors: ["Matthew Johnson", "Cleo Jacobs Johnson", "Scott Richman", "Alicia Demers", "Claudia Gentile", "Eric Lindquist"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, sel]
@@ -4385,6 +4567,7 @@ date_added: 2026-06-04
 published_date: 2016-01-01
 date_source: listing
 authors: ["Brian Gill", "Joshua Furgeson", "Hanley Chiang", "Bing-Ru Teh", "Joshua Haimson", "Natalya Verbitsky-Savitz"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -4409,6 +4592,7 @@ date_added: 2026-06-04
 published_date: 2015-12-04
 date_source: listing
 authors: ["David Blazar", "Matthew A. Kraft"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4433,6 +4617,7 @@ date_added: 2026-06-04
 published_date: 2015-11-23
 date_source: listing
 authors: ["Ann E. Person", "Lisbeth Goble", "Julie Bruch", "Jessie Mazeika"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, computer-assisted-learning]
@@ -4457,6 +4642,7 @@ date_added: 2026-06-04
 published_date: 2015-10-27
 date_source: listing
 authors: ["Mathematica Policy Research"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -4481,6 +4667,7 @@ date_added: 2026-06-04
 published_date: 2015-10-27
 date_source: listing
 authors: ["Brian Gill", "Lucas Walsh", "Claire Smither Wulsin", "Holly Matulewicz", "Veronica Severn", "Eric Grau", "Amanda Lee", "Tess Kerwin"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education]
@@ -4505,6 +4692,7 @@ date_added: 2026-06-04
 published_date: 2015-10-13
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Kate Place", "Erin Dillon", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, formative-assessment, math-education]
@@ -4529,6 +4717,7 @@ date_added: 2026-06-04
 published_date: 2015-10-13
 date_source: listing
 authors: ["Erin Dillon", "Ira Nichols-Barrer", "Brian Gill", "Kate Place"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, formative-assessment, math-education]
@@ -4553,6 +4742,7 @@ date_added: 2026-06-04
 published_date: 2015-10-05
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Kate Place", "Erin Dillon", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, formative-assessment, math-education]
@@ -4577,6 +4767,7 @@ date_added: 2026-06-04
 published_date: 2015-10-02
 date_source: listing
 authors: ["Ali Protik", "Steven Glazerman", "Julie Bruch", "Bing-ru Teh"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4601,6 +4792,7 @@ date_added: 2026-06-04
 published_date: 2015-09-30
 date_source: listing
 authors: ["Shannon Monahan", "Sally Atkins-Burnett", "Barbara A. Wasik", "Lauren Akers", "Felicia Hurwitz", "Judith Carta"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -4625,6 +4817,7 @@ date_added: 2026-06-04
 published_date: 2015-09-30
 date_source: listing
 authors: ["Luke Heinkel", "Kristin Hallgren", "Brian Gill", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4649,6 +4842,7 @@ date_added: 2026-06-04
 published_date: 2015-09-24
 date_source: listing
 authors: ["Hanley Chiang", "Alison Wellington", "Kristin Hallgren", "Cecilia Speroni", "Mariesa Herrmann", "Steven Glazerman", "Jill Constantine"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4673,6 +4867,7 @@ date_added: 2026-06-04
 published_date: 2015-09-21
 date_source: listing
 authors: ["Cecilia Speroni", "Nan Maxwell"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, professional-development, sel]
@@ -4697,6 +4892,7 @@ date_added: 2026-06-04
 published_date: 2015-09-17
 date_source: listing
 authors: ["Christina Clark Tuttle", "Philip Gleason", "Virginia Knechtel", "Ira Nichols-Barrer", "Kevin Booker", "Gregory Chojnacki", "Thomas Coen", "Lisbeth Goble"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4721,6 +4917,7 @@ date_added: 2026-06-04
 published_date: 2015-09-17
 date_source: listing
 authors: ["Christina Clark Tuttle", "Philip Gleason", "Virginia Knechtel", "Ira Nichols-Barrer", "Kevin Booker", "Gregory Chojnacki", "Thomas Coen", "Lisbeth Goble"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4745,6 +4942,7 @@ date_added: 2026-06-04
 published_date: 2015-06-05
 date_source: listing
 authors: ["Mariel McKenzie Finucane", "Ignacio Martinez", "Scott Cody"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -4769,6 +4967,7 @@ date_added: 2026-06-04
 published_date: 2015-05-30
 date_source: listing
 authors: ["Ann Person"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning]
@@ -4793,6 +4992,7 @@ date_added: 2026-06-04
 published_date: 2015-05-13
 date_source: listing
 authors: ["Brian P. Gill", "Jennifer S. Lerner", "Paul Meosky"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4817,6 +5017,7 @@ date_added: 2026-06-04
 published_date: 2015-05-12
 date_source: listing
 authors: ["Christine Ross", "Mariesa Herrmann", "Megan Hague Angus"]
+document_url: null
 doi: null
 license: null
 tags: [personalized-learning]
@@ -4841,6 +5042,7 @@ date_added: 2026-06-04
 published_date: 2015-04-14
 date_source: listing
 authors: ["Matthew Johnson", "Julie Bruch", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4865,6 +5067,7 @@ date_added: 2026-06-04
 published_date: 2015-03-30
 date_source: listing
 authors: ["Oscar A. Barbarin", "Nikki Aikens"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -4889,6 +5092,7 @@ date_added: 2026-06-04
 published_date: 2015-02-28
 date_source: listing
 authors: ["Andrea Mraz Esposito", "Sarah Osborn", "Rebekah Coley", "Lara Hulsey", "Kimberly Boller"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4913,6 +5117,7 @@ date_added: 2026-06-04
 published_date: 2015-01-28
 date_source: listing
 authors: ["Clemencia Cosentino", "Cecilia Speroni", "Margaret Sullivan", "Raúl Torres"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4937,6 +5142,7 @@ date_added: 2026-06-04
 published_date: 2015-01-12
 date_source: listing
 authors: ["Matthew T. Johnson", "Stephen Lipscomb", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4961,6 +5167,7 @@ date_added: 2026-06-04
 published_date: 2014-12-30
 date_source: listing
 authors: ["Hanley Chiang", "Stephen Lipscomb", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -4985,6 +5192,7 @@ date_added: 2026-06-04
 published_date: 2014-12-03
 date_source: listing
 authors: ["Elias Walsh", "Dallas Dotter"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5009,6 +5217,7 @@ date_added: 2026-06-04
 published_date: 2014-10-31
 date_source: listing
 authors: ["Cassie Pickens Jewell", "Kristin Hallgren", "Sarah Wissel"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5033,6 +5242,7 @@ date_added: 2026-06-04
 published_date: 2014-10-29
 date_source: listing
 authors: ["Cassie Pickens Jewell", "Libby Makowsky", "Kristin Hallgren", "Jacob Hartog"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5057,6 +5267,7 @@ date_added: 2026-06-04
 published_date: 2014-10-24
 date_source: listing
 authors: ["Joshua Furgeson", "Moira McCullough", "Clare Wolfendale", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5081,6 +5292,7 @@ date_added: 2026-06-04
 published_date: 2014-10-24
 date_source: listing
 authors: ["Joshua Ferguson", "Moira McCullough", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5105,6 +5317,7 @@ date_added: 2026-06-04
 published_date: 2014-09-09
 date_source: listing
 authors: ["Kimberly Boller", "Ellen Eliason Kisker"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -5129,6 +5342,7 @@ date_added: 2026-06-04
 published_date: 2014-09-05
 date_source: listing
 authors: ["Ann E. Person", "Scott E. Baumgartner", "Kristin Hallgren", "Betsy Santos"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5153,6 +5367,7 @@ date_added: 2026-06-04
 published_date: 2014-07-30
 date_source: listing
 authors: ["Sharon Lohr", "Peter Z. Schochet", "Elizabeth Sanders"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -5177,6 +5392,7 @@ date_added: 2026-06-04
 published_date: 2014-07-08
 date_source: listing
 authors: ["Duncan Chaplin", "Brian Gill", "Allison Thompkins", "Hannah Miller"]
+document_url: null
 doi: null
 license: null
 tags: [personalized-learning]
@@ -5201,6 +5417,7 @@ date_added: 2026-06-04
 published_date: 2014-06-02
 date_source: listing
 authors: ["Brian Gill", "Brandon Coffee-Borden", "Kristin Hallgren"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering, math-education]
@@ -5225,6 +5442,7 @@ date_added: 2026-06-04
 published_date: 2014-05-30
 date_source: listing
 authors: ["Janine T. Remillard", "Barbara Harris", "Roberto Agodini"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5249,6 +5467,7 @@ date_added: 2026-06-04
 published_date: 2014-05-30
 date_source: listing
 authors: ["Amy Berridge"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -5273,6 +5492,7 @@ date_added: 2026-06-04
 published_date: 2014-05-30
 date_source: listing
 authors: ["Hanley S. Chiang", "Melissa A. Clark", "Sheena McConnell"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5297,6 +5517,7 @@ date_added: 2026-06-04
 published_date: 2014-05-22
 date_source: listing
 authors: ["Peter Z. Schochet", "Mike Puma", "John Deke"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -5321,6 +5542,7 @@ date_added: 2026-06-04
 published_date: 2014-05-05
 date_source: listing
 authors: ["Dana Rotz", "Matthew Johnson", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5345,6 +5567,7 @@ date_added: 2026-06-04
 published_date: 2014-04-30
 date_source: listing
 authors: ["Celina Kamler", "Emily Moiduddin", "Lizabeth Malone"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment]
@@ -5369,6 +5592,7 @@ date_added: 2026-06-04
 published_date: 2014-04-30
 date_source: listing
 authors: ["Linda Rosenberg", "Megan Davis Christianson", "Megan Hague Angus", "Emily Rosenthal"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -5393,6 +5617,7 @@ date_added: 2026-06-04
 published_date: 2014-04-30
 date_source: listing
 authors: ["Ann E. Person", "Lisbeth Goble", "Julie Bruch"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -5417,6 +5642,7 @@ date_added: 2026-06-04
 published_date: 2014-04-30
 date_source: listing
 authors: ["Alexandra Resch", "Jillian Berk", "Lauren Akers"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -5441,6 +5667,7 @@ date_added: 2026-06-04
 published_date: 2014-02-07
 date_source: listing
 authors: ["Emily Moiduddin", "Celina Kamler", "Lizabeth Malone", "Kathryn Gonzalez"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5465,6 +5692,7 @@ date_added: 2026-06-04
 published_date: 2014-01-30
 date_source: listing
 authors: ["Kevin Booker", "Brian Gill", "Tim Sass", "Ron Zimmer"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5489,6 +5717,7 @@ date_added: 2026-06-04
 published_date: 2014-01-30
 date_source: listing
 authors: ["Kevin Booker", "Brian Gill", "Tim Sass", "Ron Zimmer"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5513,6 +5742,7 @@ date_added: 2026-06-04
 published_date: 2014-01-30
 date_source: listing
 authors: ["Philip M. Gleason", "Christina Clark Tuttle", "Brian Gill", "Ira Nichols-Barrer", "Bing-ru Teh"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -5537,6 +5767,7 @@ date_added: 2026-06-04
 published_date: 2014-01-30
 date_source: listing
 authors: ["Jeffrey Max", "Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5561,6 +5792,7 @@ date_added: 2026-06-04
 published_date: 2013-12-30
 date_source: listing
 authors: ["Various authors"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering]
@@ -5585,6 +5817,7 @@ date_added: 2026-06-04
 published_date: 2013-12-30
 date_source: listing
 authors: ["Ali Protik", "Steven Glazerman", "Julie Bruch", "Bing-ru Teh"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5609,6 +5842,7 @@ date_added: 2026-06-04
 published_date: 2013-11-30
 date_source: listing
 authors: ["Eric Isenberg", "Jeffrey Max", "Philip Gleason", "Liz Potamites", "Robert Santillano", "Heinrich Hock", "Michael Hansen"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5633,6 +5867,7 @@ date_added: 2026-06-04
 published_date: 2013-11-30
 date_source: listing
 authors: ["Matthew Johnson", "Stephen Lipscomb", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5657,6 +5892,7 @@ date_added: 2026-06-04
 published_date: 2013-11-07
 date_source: listing
 authors: ["Steven Glazerman", "Ali Protik", "Bing-ru Teh", "Julie Bruch", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -5681,6 +5917,7 @@ date_added: 2026-06-04
 published_date: 2013-10-30
 date_source: listing
 authors: ["Brian Gill", "Joshua Furgeson", "Hanley S. Chiang", "Bing-Ru Teh", "Joshua Haimson", "Natalya Verbitsky-Savitz"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -5705,6 +5942,7 @@ date_added: 2026-06-04
 published_date: 2013-10-30
 date_source: listing
 authors: ["Elias Walsh", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5729,6 +5967,7 @@ date_added: 2026-06-04
 published_date: 2013-10-16
 date_source: listing
 authors: ["Kristin Hallgren", "Cassie Pickens Jewell", "Celina Kamler", "Jacob Hartog", "Andrew Gothro"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering, math-education]
@@ -5753,6 +5992,7 @@ date_added: 2026-06-04
 published_date: 2013-10-16
 date_source: listing
 authors: ["Kristin Hallgren", "Cassie Pickens Jewell", "Celina Kamler", "Jacob Hartog", "Andrew Gothro"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering, math-education]
@@ -5777,6 +6017,7 @@ date_added: 2026-06-04
 published_date: 2013-10-01
 date_source: listing
 authors: ["Matthew T. Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5801,6 +6042,7 @@ date_added: 2026-06-04
 published_date: 2013-09-30
 date_source: listing
 authors: ["Douglas H. Clements", "Roberto Agodini", "Barbara Harris"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering, math-education]
@@ -5825,6 +6067,7 @@ date_added: 2026-06-04
 published_date: 2013-09-30
 date_source: listing
 authors: ["Various authors"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -5849,6 +6092,7 @@ date_added: 2026-06-04
 published_date: 2013-09-30
 date_source: listing
 authors: ["Douglas H. Clements", "Roberto Agodini", "Barbara Harris"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5873,6 +6117,7 @@ date_added: 2026-06-04
 published_date: 2013-09-30
 date_source: listing
 authors: ["Roberto Agodini", "Barbara Harris", "Neil Seftor", "Janine Remillard", "Melissa Thomas"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5897,6 +6142,7 @@ date_added: 2026-06-04
 published_date: 2013-09-30
 date_source: listing
 authors: ["Roberto Agodini", "Barbara Harris", "Neil Seftor", "Janine Remillard", "Melissa Thomas"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5921,6 +6167,7 @@ date_added: 2026-06-04
 published_date: 2013-09-30
 date_source: listing
 authors: ["Roberto Agodini", "Barbara Harris", "Neil Seftor", "Janine Remillard", "Melissa Thomas"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5945,6 +6192,7 @@ date_added: 2026-06-04
 published_date: 2013-09-30
 date_source: listing
 authors: ["Brian Gill", "Julie Bruch", "Kevin Booker"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5969,6 +6217,7 @@ date_added: 2026-06-04
 published_date: 2013-09-10
 date_source: listing
 authors: ["Melissa A. Clark", "Hanley S. Chiang", "Tim Silva", "Sheena McConnell", "Kathy Sonnenfeld", "Anastasia Erbe", "Michael Puma"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -5993,6 +6242,7 @@ date_added: 2026-06-04
 published_date: 2013-08-30
 date_source: listing
 authors: ["R. Brian Cobb", "Stephen Lipscomb", "Jennifer Wolgemuth", "Theresa Schulte", "Abigail Veliquette", "Morgen Alwell", "Keriu Batchelder", "Robert Bernard", "Paul Hernandez", "Helen Holmquist-Johnson", "Rebecca Orsi", "Laura Sample McMeeking", "Jun Wang", "Andrea Welnberg"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -6017,6 +6267,7 @@ date_added: 2026-06-04
 published_date: 2013-07-08
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Joshua Haimson"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -6041,6 +6292,7 @@ date_added: 2026-06-04
 published_date: 2013-06-30
 date_source: listing
 authors: ["Matthew T. Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -6065,6 +6317,7 @@ date_added: 2026-06-04
 published_date: 2013-06-30
 date_source: listing
 authors: ["Elizabeth Dhuey", "Stephen Lipscomb"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -6089,6 +6342,7 @@ date_added: 2026-06-04
 published_date: 2013-06-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6113,6 +6367,7 @@ date_added: 2026-06-04
 published_date: 2013-04-12
 date_source: listing
 authors: ["Mariesa Herrmann", "Elias Walsh", "Eric Isenberg", "Alexandra Resch"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6137,6 +6392,7 @@ date_added: 2026-06-04
 published_date: 2013-03-30
 date_source: listing
 authors: ["Ali Protik", "Elias Walsh", "Alexandra Resch", "Eric Isenberg", "Emma Kopa"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6161,6 +6417,7 @@ date_added: 2026-06-04
 published_date: 2013-02-28
 date_source: listing
 authors: ["Various authors"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -6185,6 +6442,7 @@ date_added: 2026-06-04
 published_date: 2013-02-28
 date_source: listing
 authors: ["Jamie Griffin"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6209,6 +6467,7 @@ date_added: 2026-06-04
 published_date: 2013-02-27
 date_source: listing
 authors: ["Christina Clark Tuttle", "Brian Gill", "Philip Gleason", "Virginia Knechtel", "Ira Nichols-Barrer", "Alexandra Resch"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -6233,6 +6492,7 @@ date_added: 2026-06-04
 published_date: 2013-02-04
 date_source: listing
 authors: ["Kristin Hallgren", "Cassie Pickens Jewell", "Celina Kamler"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6257,6 +6517,7 @@ date_added: 2026-06-04
 published_date: 2012-10-30
 date_source: listing
 authors: ["Susanne James-Burdumy", "John Deke", "Russell Gersten", "Julieta Lugo-Gil", "Rebecca Newman-Gonchar", "Joseph Dimino", "Kelly Haymond", "Albert Yung-Hsu Liu"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -6281,6 +6542,7 @@ date_added: 2026-06-04
 published_date: 2012-09-30
 date_source: listing
 authors: ["Jamie Lynn Marincic"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, sel]
@@ -6305,6 +6567,7 @@ date_added: 2026-06-04
 published_date: 2012-05-30
 date_source: listing
 authors: ["John Deke", "Lisa Dragoset", "Karen Bogen", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -6329,6 +6592,7 @@ date_added: 2026-06-04
 published_date: 2012-04-30
 date_source: listing
 authors: ["Philip M. Gleason", "Alexandra M. Resch", "Jillian A. Berk"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -6353,6 +6617,7 @@ date_added: 2026-06-04
 published_date: 2012-04-30
 date_source: listing
 authors: ["Kenneth Fortson", "Natalya Verbitsky-Savitz", "Emma Kopa", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6377,6 +6642,7 @@ date_added: 2026-06-04
 published_date: 2012-04-05
 date_source: listing
 authors: ["Stephen Lipscomb", "Hanley Chiang", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6401,6 +6667,7 @@ date_added: 2026-06-04
 published_date: 2012-03-30
 date_source: listing
 authors: ["Robin Lake", "Melissa Bowen", "Allison Demeritt", "Moira McCullough", "Joshua Haimson", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, professional-development, sel]
@@ -6425,6 +6692,7 @@ date_added: 2026-06-04
 published_date: 2012-03-07
 date_source: listing
 authors: ["Steven Glazerman", "Allison Seifullah"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -6449,6 +6717,7 @@ date_added: 2026-06-04
 published_date: 2011-12-30
 date_source: listing
 authors: ["Cecilia Speroni"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, math-education]
@@ -6473,6 +6742,7 @@ date_added: 2026-06-04
 published_date: 2011-11-30
 date_source: listing
 authors: ["Cecilia Speroni"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -6497,6 +6767,7 @@ date_added: 2026-06-04
 published_date: 2011-10-30
 date_source: listing
 authors: ["Steven Glazerman", "Hanley Chiang", "Alison Wellington", "Jill Constantine", "Dan Player"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, math-education]
@@ -6521,6 +6792,7 @@ date_added: 2026-06-04
 published_date: 2011-09-30
 date_source: listing
 authors: ["Russell Cole", "Joshua Haimson", "Irma Perez-Johnson", "Henry May"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -6545,6 +6817,7 @@ date_added: 2026-06-04
 published_date: 2011-08-31
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -6569,6 +6842,7 @@ date_added: 2026-06-04
 published_date: 2011-06-30
 date_source: listing
 authors: ["Peter Z. Schochet", "Hanley S. Chiang"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -6593,6 +6867,7 @@ date_added: 2026-06-04
 published_date: 2011-04-30
 date_source: listing
 authors: ["Irma Perez-Johnson", "Kirk Walters", "Michael Puma", "Rebecca Herman", "Michael Garet", "Jessica Heppen", "Mariann Lemke", "Daniel Aladjem", "Samia Amin", "John Burghardt"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6617,6 +6892,7 @@ date_added: 2026-06-04
 published_date: 2011-04-30
 date_source: listing
 authors: ["Kevin Booker", "Tim R. Sass", "Brian Gill", "Ron Zimmer"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -6641,6 +6917,7 @@ date_added: 2026-06-04
 published_date: 2011-04-30
 date_source: listing
 authors: ["Elizabeth Dhuey", "Stephen Lipscomb"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -6665,6 +6942,7 @@ date_added: 2026-06-04
 published_date: 2011-02-16
 date_source: listing
 authors: ["Stacy Dale", "Alan B. Krueger"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -6689,6 +6967,7 @@ date_added: 2026-06-04
 published_date: 2011-01-30
 date_source: listing
 authors: ["Dan Goldhaber", "Betheny Gross", "Daniel Player"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -6713,6 +6992,7 @@ date_added: 2026-06-04
 published_date: 2010-11-23
 date_source: listing
 authors: ["Hanley Chiang", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -6737,6 +7017,7 @@ date_added: 2026-06-04
 published_date: 2010-11-15
 date_source: listing
 authors: ["Stephen Lipscomb", "Brian Gill", "Kevin Booker", "Matthew Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6761,6 +7042,7 @@ date_added: 2026-06-04
 published_date: 2010-10-30
 date_source: listing
 authors: ["Elizabeth Dhuey", "Stephen Lipscomb"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -6785,6 +7067,7 @@ date_added: 2026-06-04
 published_date: 2010-10-30
 date_source: listing
 authors: ["Roberto Agodini", "Barbara Harris", "Melissa Thomas", "Robert Murphy", "Lawrence Gallagher"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6809,6 +7092,7 @@ date_added: 2026-06-04
 published_date: 2010-10-30
 date_source: listing
 authors: ["Roberto Agodini", "Barbara Harris", "Melissa Thomas", "Robert Murphy", "Lawrence Gallagher"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6833,6 +7117,7 @@ date_added: 2026-06-04
 published_date: 2010-10-30
 date_source: listing
 authors: ["Allen Ruby and Emily Doolittle (IES)", "Karen Needels", "John A. Burghardt", "Laura M. Kalb", "Heather Koball", "Peter Z. Schochet", "Victor Battistich"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6857,6 +7142,7 @@ date_added: 2026-06-04
 published_date: 2010-08-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -6881,6 +7167,7 @@ date_added: 2026-06-04
 published_date: 2010-08-20
 date_source: listing
 authors: ["Eric Isenberg", "Heinrich Hock"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering]
@@ -6905,6 +7192,7 @@ date_added: 2026-06-04
 published_date: 2010-07-30
 date_source: listing
 authors: ["Roberto Agodini", "Barbara Harris"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6929,6 +7217,7 @@ date_added: 2026-06-04
 published_date: 2010-06-30
 date_source: listing
 authors: ["Jodie Roth", "Lizabeth M. Malone", "Jeanne Brooks-Gunn"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6953,6 +7242,7 @@ date_added: 2026-06-04
 published_date: 2010-06-30
 date_source: listing
 authors: ["P. Schochet", "T. Cook", "J. Deke", "G. Imbens", "J.R. Lockwood", "J. Porter", "J. Smith"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -6977,6 +7267,7 @@ date_added: 2026-06-04
 published_date: 2010-06-30
 date_source: listing
 authors: ["Kevin Booker", "Tim R. Sass", "Brian Gill", "Ron Zimmer"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -7001,6 +7292,7 @@ date_added: 2026-06-04
 published_date: 2010-05-30
 date_source: listing
 authors: ["Susanne James-Burdumy", "John Deke", "Julieta Lugo-Gil", "Nancy Carey", "Alan Hershey", "Russell Gersten", "Rebecca Newman-Gonchar", "Joseph Dimino", "Kelly Haymond", "Bonnie Faddis"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -7025,6 +7317,7 @@ date_added: 2026-06-04
 published_date: 2010-05-17
 date_source: listing
 authors: ["Steven Glazerman", "Allison Seifullah"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -7049,6 +7342,7 @@ date_added: 2026-06-04
 published_date: 2010-04-14
 date_source: listing
 authors: ["Hanley Chiang", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, sel]
@@ -7073,6 +7367,7 @@ date_added: 2026-06-04
 published_date: 2010-04-12
 date_source: listing
 authors: ["Duncan Chaplin", "Martha Bleeker", "Kevin Booker"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -7097,6 +7392,7 @@ date_added: 2026-06-04
 published_date: 2009-12-31
 date_source: listing
 authors: ["David DesRoches", "John Hall", "Betsy Santos"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -7121,6 +7417,7 @@ date_added: 2026-06-04
 published_date: 2009-12-30
 date_source: listing
 authors: ["Amang Sukasih", "Donsig Jang", "Sonya Vartivarian", "Stephen Cohen", "Fan Zhang"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -7145,6 +7442,7 @@ date_added: 2026-06-04
 published_date: 2009-12-30
 date_source: listing
 authors: ["Ann E. Person", "Emily Moiduddin", "Megan Hague-Angus", "Lizabeth M. Malone"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -7169,6 +7467,7 @@ date_added: 2026-06-04
 published_date: 2009-10-31
 date_source: listing
 authors: ["Janice Ballou", "Brian Roff"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7193,6 +7492,7 @@ date_added: 2026-06-04
 published_date: 2009-10-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -7217,6 +7517,7 @@ date_added: 2026-06-04
 published_date: 2009-09-04
 date_source: listing
 authors: ["Christina Clark Tuttle", "Tara Anderson", "Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -7241,6 +7542,7 @@ date_added: 2026-06-04
 published_date: 2009-08-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -7265,6 +7567,7 @@ date_added: 2026-06-04
 published_date: 2009-06-30
 date_source: listing
 authors: ["Nancy Morrow-Howell", "Melissa Jonson-Reid", "Stacey McCrary", "YungSoo Lee", "Ed Spitznagel", "Emily Dwoyer", "Kathy Sonnenfeld", "Susan Sprachman"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, literacy, math-education, response-to-intervention]
@@ -7289,6 +7592,7 @@ date_added: 2026-06-04
 published_date: 2009-06-09
 date_source: listing
 authors: ["Steven Glazerman", "Sarah Dolfin", "Martha Bleeker", "Amy Johnson", "Eric Isenberg", "Julieta Lugo-Gil", "Mary Grider", "Edward Britton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7313,6 +7617,7 @@ date_added: 2026-06-04
 published_date: 2009-05-30
 date_source: listing
 authors: ["Susanne James-Burdumy", "Wendy Mansfield", "John Deke", "Nancy Carey", "Julieta Lugo-Gil", "Alan Hershey", "Aaron Douglas", "Russell Gersten", "Rebecca Newman-Gonchar", "Joseph Dimino", "Bonnie Faddis", "Janice Dole"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -7337,6 +7642,7 @@ date_added: 2026-06-04
 published_date: 2009-05-29
 date_source: listing
 authors: ["Kevin Booker", "Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, literacy, math-education]
@@ -7361,6 +7667,7 @@ date_added: 2026-06-04
 published_date: 2009-05-29
 date_source: listing
 authors: ["Timothy Silman", "Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -7385,6 +7692,7 @@ date_added: 2026-06-04
 published_date: 2009-05-28
 date_source: listing
 authors: ["Kevin Booker", "Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -7409,6 +7717,7 @@ date_added: 2026-06-04
 published_date: 2009-04-27
 date_source: listing
 authors: ["Alicia Robb", "David DesRoches"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -7433,6 +7742,7 @@ date_added: 2026-06-04
 published_date: 2009-04-27
 date_source: listing
 authors: ["Steven Glazerman", "Allison McKie", "Nancy Carey"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -7457,6 +7767,7 @@ date_added: 2026-06-04
 published_date: 2009-03-18
 date_source: listing
 authors: ["Scott Cody", "Alison Wellington", "Margaret Sullivan", "Virginia Knechtel", "Duncan Chaplin"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering, sel]
@@ -7481,6 +7792,7 @@ date_added: 2026-06-04
 published_date: 2009-02-28
 date_source: listing
 authors: ["Jill Constantine", "Daniel Player", "Tim Silva", "Kristin Hallgren", "Mary Grider", "John Deke"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, professional-development]
@@ -7505,6 +7817,7 @@ date_added: 2026-06-04
 published_date: 2009-01-30
 date_source: listing
 authors: ["Amy Stuart Wells", "Jennifer Jellison Holme", "Anita Tijerina Revilla", "Awo Korantemaa Atanda"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -7529,6 +7842,7 @@ date_added: 2026-06-04
 published_date: 2009-01-30
 date_source: listing
 authors: ["Neil S. Seftor", "Arif Mamun", "Allen Schirm"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, math-education]
@@ -7553,6 +7867,7 @@ date_added: 2026-06-04
 published_date: 2009-01-10
 date_source: listing
 authors: ["Nancy Morrow-Howell", "Stacey McCrary", "Yung Soo Lee", "Ed Spitznagel", "Melissa Jonson-Reid"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -7577,6 +7892,7 @@ date_added: 2026-06-04
 published_date: 2008-12-30
 date_source: listing
 authors: ["Burton A. Weisbrod", "Jeffrey P. Ballou", "Evelyn D. Asch"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, literacy]
@@ -7601,6 +7917,7 @@ date_added: 2026-06-04
 published_date: 2008-10-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -7625,6 +7942,7 @@ date_added: 2026-06-04
 published_date: 2008-10-30
 date_source: listing
 authors: ["Steven Glazerman", "Sarah Dolfin", "Martha Bleeker", "Amy Johnson", "Eric Isenberg", "Julieta Lugo-Gil", "Mary Grider", "Edward Britton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7649,6 +7967,7 @@ date_added: 2026-06-04
 published_date: 2008-08-30
 date_source: listing
 authors: ["Kevin Booker", "Tim Sass", "Brian Gill", "Ron Zimmer"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -7673,6 +7992,7 @@ date_added: 2026-06-04
 published_date: 2008-06-11
 date_source: listing
 authors: ["Steven Glazerman", "Elizabeth Seif", "Gail Baxter"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -7697,6 +8017,7 @@ date_added: 2026-06-04
 published_date: 2008-05-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -7721,6 +8042,7 @@ date_added: 2026-06-04
 published_date: 2008-05-30
 date_source: listing
 authors: ["Kevin Booker", "Brian Gill", "Ron Zimmer", "Tim R. Sass"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -7745,6 +8067,7 @@ date_added: 2026-06-04
 published_date: 2008-04-30
 date_source: listing
 authors: ["Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -7769,6 +8092,7 @@ date_added: 2026-06-04
 published_date: 2008-01-30
 date_source: listing
 authors: ["Roberto Agodini", "John Deke", "Sally Atkins-Burnett", "Barbara Harris", "Robert Murphy"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -7793,6 +8117,7 @@ date_added: 2026-06-04
 published_date: 2007-12-31
 date_source: listing
 authors: ["Catherine Nelson", "Julia Kaufman", "Kevin Booker", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -7817,6 +8142,7 @@ date_added: 2026-06-04
 published_date: 2007-12-30
 date_source: listing
 authors: ["Susanne James-Burdumy", "Mark Dynarski", "John Deke"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -7841,6 +8167,7 @@ date_added: 2026-06-04
 published_date: 2007-10-30
 date_source: listing
 authors: ["Joseph Torgesen", "Allen Schirm", "Laura Castner", "Sonya Vartivarian", "Wendy Mansfield", "David Myers", "Fran Stancavage", "Donna Durno", "Rosanne Javorsky", "Cinthia Haan"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, response-to-intervention]
@@ -7865,6 +8192,7 @@ date_added: 2026-06-04
 published_date: 2007-09-30
 date_source: listing
 authors: ["G.P. Baxter", "S. Ahmed", "E. Sikali", "T. Waits", "M. Sloan", "S. Salvucci"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, math-education]
@@ -7889,6 +8217,7 @@ date_added: 2026-06-04
 published_date: 2007-06-21
 date_source: listing
 authors: ["Donsig Jang", "Xiaojing Lin"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -7913,6 +8242,7 @@ date_added: 2026-06-04
 published_date: 2007-06-20
 date_source: listing
 authors: ["Jeffrey Capizzano", "Kendra Bischoff", "Nicola Woodroffe", "Duncan Chaplin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7937,6 +8267,7 @@ date_added: 2026-06-04
 published_date: 2007-05-30
 date_source: listing
 authors: ["Russell Jackson", "Ann McCoy", "Carol Pistorino", "Anna Wilkinson", "John Burghardt", "Melissa Clark", "Christine Ross", "Peter Schochet", "Paul Swank", "Stefanie Schmidt"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, literacy]
@@ -7961,6 +8292,7 @@ date_added: 2026-06-04
 published_date: 2007-04-30
 date_source: listing
 authors: ["Robert B. Olsen", "Neil Seftor", "Tim Silva", "David Myers", "David DesRoches", "Julie Young"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, math-education]
@@ -7985,6 +8317,7 @@ date_added: 2026-06-04
 published_date: 2007-03-30
 date_source: listing
 authors: ["Gail P. Baxter", "Martha Bleeker", "Tiffany L. Waits", "Sameena Salvucci"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, math-education]
@@ -8009,6 +8342,7 @@ date_added: 2026-06-04
 published_date: 2007-03-30
 date_source: listing
 authors: ["Mark Dynarski", "Roberto Agodini", "Sheila Heaviside", "Timothy Novak", "Nancy Carey", "Larissa Campuzano", "Barbara Means", "Robert Murphy", "William Penuel", "Hal Javitz", "Deborah Emery", "Willow Sussex"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, math-education]
@@ -8033,6 +8367,7 @@ date_added: 2026-06-04
 published_date: 2007-03-05
 date_source: listing
 authors: ["Rebecca Maynard", "Nianbo Dong", "Irma Perez-Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, sel]
@@ -8057,6 +8392,7 @@ date_added: 2026-06-04
 published_date: 2007-01-06
 date_source: listing
 authors: ["Melissa Clark", "Jesse Rothstein", "Diane Whitmore Schanzenbach"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -8081,6 +8417,7 @@ date_added: 2026-06-04
 published_date: 2006-12-08
 date_source: listing
 authors: ["Lara Hulsey", "Linda Rosenberg", "Benita Kim"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -8105,6 +8442,7 @@ date_added: 2026-06-04
 published_date: 2006-09-30
 date_source: listing
 authors: ["John Deke", "Joshua Haimson"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -8129,6 +8467,7 @@ date_added: 2026-06-04
 published_date: 2006-09-15
 date_source: listing
 authors: ["John Deke", "Joshua Haimson"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -8153,6 +8492,7 @@ date_added: 2026-06-04
 published_date: 2006-08-30
 date_source: listing
 authors: ["Duncan Chaplin", "Jeffrey Capizzano"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners]
@@ -8177,6 +8517,7 @@ date_added: 2026-06-04
 published_date: 2006-06-30
 date_source: listing
 authors: ["Jill M. Constantine", "Neil S. Seftor", "Emily Sama Martin", "Tim Silva", "David Myers"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -8201,6 +8542,7 @@ date_added: 2026-06-04
 published_date: 2006-05-30
 date_source: listing
 authors: ["Lizabeth M. Malone", "Jerry West", "Kristin Denton Flanagan", "Jennifer Park"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -8225,6 +8567,7 @@ date_added: 2026-06-04
 published_date: 2006-05-01
 date_source: listing
 authors: ["Susanne James-Burdumy", "David Myers", "John Deke", "Wendy Mansfield", "Russell Gersten", "Joseph Dimino", "Janice Dole", "Lauren Liang", "Sharon Vaughn", "Meaghan Edmonds"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -8249,6 +8592,7 @@ date_added: 2026-06-04
 published_date: 2006-02-01
 date_source: listing
 authors: ["Joseph Torgesen", "David Myers", "Allen Schirm", "Elizabeth A. Stuart", "Sonya Vartivarian", "Wendy Mansfield", "Fran Stancavage", "Donna Durno", "Rosanne Javorsky", "Cinthia Haan"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -8273,6 +8617,7 @@ date_added: 2026-06-04
 published_date: 2006-01-30
 date_source: listing
 authors: ["Steven Glazerman", "Daniel Mayer", "Paul Decker"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -8297,6 +8642,7 @@ date_added: 2026-06-04
 published_date: 2005-11-30
 date_source: listing
 authors: ["Steven Glazerman", "Neil Seftor"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness]
@@ -8321,6 +8667,7 @@ date_added: 2026-06-04
 published_date: 2005-10-28
 date_source: listing
 authors: ["Paul Decker", "John Deke", "Amy Johnson", "Daniel Mayer", "John Mullens", "Peter Schochet"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -8345,6 +8692,7 @@ date_added: 2026-06-04
 published_date: 2005-07-30
 date_source: listing
 authors: ["Kenneth W. Jackson", "Scott Peecksen", "Donsig Jang", "Amang Sukasih"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -8369,6 +8717,7 @@ date_added: 2026-06-04
 published_date: 2005-07-29
 date_source: listing
 authors: ["Tim Silva"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -8393,6 +8742,7 @@ date_added: 2026-06-04
 published_date: 2005-04-01
 date_source: listing
 authors: ["Susanne James-Burdumy", "Mark Dynarski", "Mary Moore", "John Deke", "Wendy Mansfield", "Carol Pistorino"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -8417,6 +8767,7 @@ date_added: 2026-06-04
 published_date: 2004-12-30
 date_source: listing
 authors: ["Mark Dynarski"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -8441,6 +8792,7 @@ date_added: 2026-06-04
 published_date: 2004-10-01
 date_source: listing
 authors: ["Mark Dynarski", "Susanne James-Burdumy", "Mary Moore", "Linda Rosenberg", "John Deke", "Wendy Mansfield"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -8465,6 +8817,7 @@ date_added: 2026-06-04
 published_date: 2004-09-30
 date_source: listing
 authors: ["Joshua Haimson", "Michelle VanNoy"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, computer-assisted-learning, math-education]
@@ -8489,6 +8842,7 @@ date_added: 2026-06-15
 published_date: 2026-04-22
 date_source: listing
 authors: ["Under 3 DC"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -8513,6 +8867,7 @@ date_added: 2026-06-15
 published_date: 2024-07-09
 date_source: listing
 authors: ["Alison Wellington", "Melissa Clark", "Alyson Burnett", "Susanne James-Burdumy", "Libby Makowsky", "Stacey Brockman", "Dallas Dotter", "Mariesa Herrmann", "Hanley Chiang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8537,6 +8892,7 @@ date_added: 2026-06-15
 published_date: 2024-04-24
 date_source: listing
 authors: ["Jeffrey Max", "Matthew Johnson"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8561,6 +8917,7 @@ date_added: 2026-06-15
 published_date: 2024-04-24
 date_source: listing
 authors: ["Matthew Johnson", "Jeffrey Max", "Tareena Musaddiq", "Breyon Williams", "Silvia Robles", "Michelle Bennett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8585,6 +8942,7 @@ date_added: 2026-06-15
 published_date: 2024-04-01
 date_source: listing
 authors: ["Whitney Kozakowski", "Sonia Alves", "Michelle Bennett", "Alyson Burnett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8609,6 +8967,7 @@ date_added: 2026-06-15
 published_date: 2024-02-09
 date_source: listing
 authors: ["Regional Educational Laboratory (REL) Central"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8633,6 +8992,7 @@ date_added: 2026-06-15
 published_date: 2023-11-30
 date_source: listing
 authors: ["Kara Conroy", "Kate Place", "Greg Chojnacki"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8657,6 +9017,7 @@ date_added: 2026-06-15
 published_date: 2023-10-31
 date_source: listing
 authors: ["Dana Robinson", "Linda Rosenberg", "Alejandro Espinoza", "Eric Zeidman"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8681,6 +9042,7 @@ date_added: 2026-06-15
 published_date: 2023-08-31
 date_source: listing
 authors: ["Ryan Ruggiero", "Andrew Krantz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8705,6 +9067,7 @@ date_added: 2026-06-15
 published_date: 2023-08-30
 date_source: listing
 authors: ["Naihobe Gonzalez", "Marykate Zukiewicz", "Alicia Demers", "Francisco Yang", "Daniel Welsh"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8729,6 +9092,7 @@ date_added: 2026-06-15
 published_date: 2023-08-11
 date_source: listing
 authors: ["Whitney Kozakowski", "Katlyn Lee Milless", "Sonia Alves", "Michelle Bennett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8753,6 +9117,7 @@ date_added: 2026-06-15
 published_date: 2023-07-28
 date_source: listing
 authors: ["Ryan Ruggiero", "Lindsay Fox", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8777,6 +9142,7 @@ date_added: 2026-06-15
 published_date: 2023-07-28
 date_source: listing
 authors: ["Isabel Callaway", "Lindsay Fox", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8801,6 +9167,7 @@ date_added: 2026-06-15
 published_date: 2023-07-07
 date_source: listing
 authors: ["Lindsay Fox", "Marykate Zukiewicz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8825,6 +9192,7 @@ date_added: 2026-06-15
 published_date: 2023-07-07
 date_source: listing
 authors: ["Lindsay Fox", "Tareena Musaddiq", "Sonia Pace"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8849,6 +9217,7 @@ date_added: 2026-06-15
 published_date: 2023-06-14
 date_source: listing
 authors: ["John Deke"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8873,6 +9242,7 @@ date_added: 2026-06-15
 published_date: 2023-06-01
 date_source: listing
 authors: ["Brian Gill", "Laura Dyer"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8897,6 +9267,7 @@ date_added: 2026-06-15
 published_date: 2023-02-10
 date_source: listing
 authors: ["Ryan Ruggiero", "Mikia Manley", "Virginia Knechtel", "Kate Place", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8921,6 +9292,7 @@ date_added: 2026-06-15
 published_date: 2023-02-10
 date_source: listing
 authors: ["Ryan Ruggiero", "Mikia Manley", "Virginia Knechtel", "Kate Place", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8945,6 +9317,7 @@ date_added: 2026-06-15
 published_date: 2023-02-07
 date_source: listing
 authors: ["Mikia Manley", "Virginia Knechtel", "Gregory Chojnacki"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8969,6 +9342,7 @@ date_added: 2026-06-15
 published_date: 2023-02-07
 date_source: listing
 authors: ["Ryan Ruggiero", "Mikia Manley", "Virginia Knechtel", "Kate Place", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -8993,6 +9367,7 @@ date_added: 2026-06-15
 published_date: 2023-02-06
 date_source: listing
 authors: ["Lindsay Fox", "Megan Shoji", "Ryan Ruggiero", "Mikia Manley", "Virginia Knechtel", "Kate Place"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9017,6 +9392,7 @@ date_added: 2026-06-15
 published_date: 2023-02-06
 date_source: listing
 authors: ["Kate Place", "Gregory Chojnacki", "Virginia Knechtel", "Andy Gothro", "Megan Shoji", "Lindsay Fox"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9041,6 +9417,7 @@ date_added: 2026-06-15
 published_date: 2023-02-06
 date_source: listing
 authors: ["Mikia Manley", "Virginia Knechtel", "Kate Place", "Gregory Chojnacki", "Ryan Ruggiero"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9065,6 +9442,7 @@ date_added: 2026-06-15
 published_date: 2023-02-06
 date_source: listing
 authors: ["Kate Place", "Virginia Knechtel", "Gregory Chojnacki", "Caroline Lauver", "Megan Shoji"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9089,6 +9467,7 @@ date_added: 2026-06-15
 published_date: 2023-02-06
 date_source: listing
 authors: ["Mikia Manley", "Virginia Knechtel", "Kate Place", "Andrew Gothro", "Ryan Ruggiero"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9113,6 +9492,7 @@ date_added: 2026-06-15
 published_date: 2023-01-09
 date_source: listing
 authors: ["Stephen Lipscomb", "Ijun Lai", "Duncan Chaplin", "Alma Vigil", "Hena Matthias"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9137,6 +9517,7 @@ date_added: 2026-06-15
 published_date: 2022-09-30
 date_source: listing
 authors: ["Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9161,6 +9542,7 @@ date_added: 2026-06-15
 published_date: 2022-09-30
 date_source: listing
 authors: ["Elias Walsh", "Alicia Demers", "Jeffrey Terziev", "Erin Boyle", "Elisa Steele", "Ijun Lai"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9185,6 +9567,7 @@ date_added: 2026-06-15
 published_date: 2022-05-31
 date_source: listing
 authors: ["Lily Fesler", "Lindsay Fox"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9209,6 +9592,7 @@ date_added: 2026-06-15
 published_date: 2022-04-29
 date_source: listing
 authors: ["John Deke", "Mariel Finucane", "Dan Thal"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9233,6 +9617,7 @@ date_added: 2026-06-15
 published_date: 2022-03-28
 date_source: listing
 authors: ["Ruth Neild", "Danielle Robinson", "Jacqueline Agufa"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9257,6 +9642,7 @@ date_added: 2026-06-15
 published_date: 2022-02-28
 date_source: listing
 authors: ["Elizabeth Tipton", "Robert B. Olsen"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9281,6 +9667,7 @@ date_added: 2026-06-15
 published_date: 2022-02-01
 date_source: listing
 authors: ["Andrew Gothro", "Elías S. Hanno", "M. C. Bradley"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9305,6 +9692,7 @@ date_added: 2026-06-15
 published_date: 2021-12-16
 date_source: listing
 authors: ["Stephen Lipscomb", "Forest Crigler", "Duncan Chaplin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9329,6 +9717,7 @@ date_added: 2026-06-15
 published_date: 2021-11-23
 date_source: listing
 authors: ["Allison McKie", "Jeffrey Terziev", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9353,6 +9742,7 @@ date_added: 2026-06-15
 published_date: 2021-10-12
 date_source: listing
 authors: ["Sean Tanner", "Jenna Terrell", "Emily Vislosky", "Jonathan Gellar", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9377,6 +9767,7 @@ date_added: 2026-06-15
 published_date: 2021-10-01
 date_source: listing
 authors: ["Emma Pottinger", "Emily Gardner", "Ramya Tallapragada", "Alexandra Resch", "Virginia Knechtel"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9401,6 +9792,7 @@ date_added: 2026-06-15
 published_date: 2021-10-01
 date_source: listing
 authors: ["Emily Gardner", "Emma Pottinger", "Ramya Tallapragada", "Alexandra Resch", "Virginia Knechtel"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9425,6 +9817,7 @@ date_added: 2026-06-15
 published_date: 2021-09-30
 date_source: listing
 authors: ["Kara Conroy", "Annalisa Mastri", "James Wholley"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9449,6 +9842,7 @@ date_added: 2026-06-15
 published_date: 2021-09-30
 date_source: listing
 authors: ["Lindsay Cattell", "Julie Bruch"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9473,6 +9867,7 @@ date_added: 2026-06-15
 published_date: 2021-09-01
 date_source: listing
 authors: ["Max Gross", "Menbere Shiferaw", "Jonah Deutsch", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9497,6 +9892,7 @@ date_added: 2026-06-15
 published_date: 2021-08-26
 date_source: listing
 authors: ["Alyson Burnett", "Moira McCullough", "Breyon Williams"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9521,6 +9917,7 @@ date_added: 2026-06-15
 published_date: 2021-08-12
 date_source: listing
 authors: ["Dallas Dotter", "Duncan Chaplin", "Maria Bartlett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9545,6 +9942,7 @@ date_added: 2026-06-15
 published_date: 2021-08-02
 date_source: listing
 authors: ["Menbere Shiferaw", "Whitney Kozakowski"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9569,6 +9967,7 @@ date_added: 2026-06-15
 published_date: 2021-08-02
 date_source: listing
 authors: ["Whitney Kozakowski", "Brian Gill", "Menbere Shiferaw"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9593,6 +9992,7 @@ date_added: 2026-06-15
 published_date: 2021-07-30
 date_source: listing
 authors: ["Martin R. West", "Robin Lake"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9617,6 +10017,7 @@ date_added: 2026-06-15
 published_date: 2021-07-28
 date_source: listing
 authors: ["Jesse Chandler", "Jacob Hartog", "Erin Lipman", "Jonathan Gellar"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9641,6 +10042,7 @@ date_added: 2026-06-15
 published_date: 2021-06-23
 date_source: listing
 authors: ["Matthew Johnson", "Christina Tuttle", "Susanne James-Burdumy", "Alison Wellington"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9665,6 +10067,7 @@ date_added: 2026-06-15
 published_date: 2021-05-30
 date_source: listing
 authors: ["Regional Educational Laboratory Mid‑Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9689,6 +10092,7 @@ date_added: 2026-06-15
 published_date: 2021-05-18
 date_source: listing
 authors: ["Naihobe Gonzalez", "Nikki Aikens", "Jennah Gosciak"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9713,6 +10117,7 @@ date_added: 2026-06-15
 published_date: 2021-05-04
 date_source: listing
 authors: ["Meg Long", "Wanda Casillas", "James Liou"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9737,6 +10142,7 @@ date_added: 2026-06-15
 published_date: 2021-04-27
 date_source: listing
 authors: ["Kelley Borradaile", "Alina Martinez", "Peter Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9761,6 +10167,7 @@ date_added: 2026-06-15
 published_date: 2021-04-16
 date_source: listing
 authors: ["Meg Long", "Wanda Casillas", "James Liou"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9785,6 +10192,7 @@ date_added: 2026-06-15
 published_date: 2021-04-13
 date_source: listing
 authors: ["Alyson Burnett", "Paul Burkander"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9809,6 +10217,7 @@ date_added: 2026-06-15
 published_date: 2021-03-30
 date_source: listing
 authors: ["Regional Educational Laboratory Mid‑Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9833,6 +10242,7 @@ date_added: 2026-06-15
 published_date: 2021-01-31
 date_source: listing
 authors: ["Divya Vohra", "Patricia Rowan", "Ravi Goyal", "John Hotchkiss", "So O'Neil"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9857,6 +10267,7 @@ date_added: 2026-06-15
 published_date: 2021-01-08
 date_source: listing
 authors: ["Brian Gill", "Danielle DeLisle"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9881,6 +10292,7 @@ date_added: 2026-06-15
 published_date: 2020-10-13
 date_source: listing
 authors: ["Regional Educational Laboratory Mid‑Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9905,6 +10317,7 @@ date_added: 2026-06-15
 published_date: 2020-09-16
 date_source: listing
 authors: ["Erin Dillon", "Steven Malick"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9929,6 +10342,7 @@ date_added: 2026-06-15
 published_date: 2020-09-01
 date_source: listing
 authors: ["Johanna Lacoe"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9953,6 +10367,7 @@ date_added: 2026-06-15
 published_date: 2020-09-01
 date_source: listing
 authors: ["Subuhi Asheer", "Susan Zief", "Ruth Neild"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -9977,6 +10392,7 @@ date_added: 2026-06-15
 published_date: 2020-07-30
 date_source: listing
 authors: ["Regional Educational Laboratory Mid-Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10001,6 +10417,7 @@ date_added: 2026-06-15
 published_date: 2020-07-30
 date_source: listing
 authors: ["Regional Educational Laboratory Mid-Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10025,6 +10442,7 @@ date_added: 2026-06-15
 published_date: 2020-07-30
 date_source: listing
 authors: ["Regional Educational Laboratory Mid-Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10049,6 +10467,7 @@ date_added: 2026-06-15
 published_date: 2020-07-21
 date_source: listing
 authors: ["Ellen B. Goldring", "Laura K. Rogers", "Melissa A. Clark"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10073,6 +10492,7 @@ date_added: 2026-06-15
 published_date: 2020-07-21
 date_source: listing
 authors: ["Regional Educational Laboratory Mid-Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10097,6 +10517,7 @@ date_added: 2026-06-15
 published_date: 2020-07-21
 date_source: listing
 authors: ["Regional Educational Laboratory Mid-Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10121,6 +10542,7 @@ date_added: 2026-06-15
 published_date: 2020-07-21
 date_source: listing
 authors: ["Regional Educational Laboratory Mid-Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10145,6 +10567,7 @@ date_added: 2026-06-15
 published_date: 2020-07-06
 date_source: listing
 authors: ["Julie Bruch", "Jonathan Gellar", "Lindsay Cattell", "John Hotchkiss", "Phil Killewald"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10169,6 +10592,7 @@ date_added: 2026-06-15
 published_date: 2020-07-06
 date_source: listing
 authors: ["Julie Bruch", "Jonathan Gellar", "Lindsay Cattell", "John Hotchkiss", "Phil Killewald"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10193,6 +10617,7 @@ date_added: 2026-06-15
 published_date: 2020-06-29
 date_source: listing
 authors: ["Brian Gill", "Ravi Goyal", "Jacob Hartog", "John Hotchkiss", "Danielle DeLisle"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10217,6 +10642,7 @@ date_added: 2026-06-15
 published_date: 2020-03-06
 date_source: listing
 authors: ["Steven Glazerman", "Ira Nichols-Barrer", "Jon Valant", "Jesse Chandler", "Alyson Burnett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10241,6 +10667,7 @@ date_added: 2026-06-15
 published_date: 2020-02-01
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10265,6 +10692,7 @@ date_added: 2026-06-15
 published_date: 2019-12-30
 date_source: listing
 authors: ["Lisa Dragoset", "Cassandra Baxter", "Dallas Dotter", "Elias Walsh"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10289,6 +10717,7 @@ date_added: 2026-06-15
 published_date: 2019-11-20
 date_source: listing
 authors: ["Jeffrey Max", "Christina Tuttle", "Philip Gleason", "Diana McCallum", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10313,6 +10742,7 @@ date_added: 2026-06-15
 published_date: 2019-11-01
 date_source: listing
 authors: ["Brian Goesling"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10337,6 +10767,7 @@ date_added: 2026-06-15
 published_date: 2019-09-30
 date_source: listing
 authors: ["Johanna Lacoe", "Mikia Manley"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10361,6 +10792,7 @@ date_added: 2026-06-15
 published_date: 2019-09-25
 date_source: listing
 authors: ["Anthea Brady", "Jeffrey Max", "Steven Malick", "Monica Young", "Karla Eslinger"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10385,6 +10817,7 @@ date_added: 2026-06-15
 published_date: 2019-09-23
 date_source: listing
 authors: ["Jeffrey Max", "Jeff Archer"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10409,6 +10842,7 @@ date_added: 2026-06-15
 published_date: 2019-09-19
 date_source: listing
 authors: ["Philip Gleason", "Helen Ladd"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10433,6 +10867,7 @@ date_added: 2026-06-15
 published_date: 2019-04-11
 date_source: listing
 authors: ["Brian P. Gill", "Charles Tilley", "Emilyn Whitesell", "Mariel Finucane", "Liz Potamites", "Sean P. Corcoran"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10457,6 +10892,7 @@ date_added: 2026-06-15
 published_date: 2019-04-04
 date_source: listing
 authors: ["REL Mid-Atlantic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10481,6 +10917,7 @@ date_added: 2026-06-15
 published_date: 2019-03-01
 date_source: listing
 authors: ["Johanna Lacoe", "Matthew P. Steinberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10505,6 +10942,7 @@ date_added: 2026-06-15
 published_date: 2019-02-20
 date_source: listing
 authors: ["Julieta Lugo-Gil", "Dana Jean-Baptiste", "Livia Frasso Jaramillo"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10529,6 +10967,7 @@ date_added: 2026-06-15
 published_date: 2019-02-01
 date_source: listing
 authors: ["Kristin Hallgren", "Naihobe Gonzalez", "Kevin Kelly", "Alicia Demers", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10553,6 +10992,7 @@ date_added: 2026-06-15
 published_date: 2019-01-29
 date_source: listing
 authors: ["REL Mid-Atlantic administered by Mathematica Policy Research"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10577,6 +11017,7 @@ date_added: 2026-06-15
 published_date: 2018-11-30
 date_source: listing
 authors: ["Jeffrey Terziev", "Elias Walsh"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10601,6 +11042,7 @@ date_added: 2026-06-15
 published_date: 2018-11-01
 date_source: listing
 authors: ["Matthew P. Steinberg", "Johanna Lacoe"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10625,6 +11067,7 @@ date_added: 2026-06-15
 published_date: 2018-11-01
 date_source: listing
 authors: ["Steven Glazerman", "Ira Nichols-Barrer", "Jon Valant", "Jesse Chandler", "Alyson Burnett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10649,6 +11092,7 @@ date_added: 2026-06-15
 published_date: 2018-10-30
 date_source: listing
 authors: ["Steven Glazerman", "Ira Nichols-Barrer", "Jon Valant", "Alyson Burnett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10673,6 +11117,7 @@ date_added: 2026-06-15
 published_date: 2018-10-30
 date_source: listing
 authors: ["Steven Glazerman", "Ira Nichols-Barrer", "Jon Valant", "Alyson Burnett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10697,6 +11142,7 @@ date_added: 2026-06-15
 published_date: 2018-10-01
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10721,6 +11167,7 @@ date_added: 2026-06-15
 published_date: 2018-08-16
 date_source: listing
 authors: ["Elias Walsh", "Dallas Dotter", "Albert Y. Liu"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10745,6 +11192,7 @@ date_added: 2026-06-15
 published_date: 2018-07-13
 date_source: listing
 authors: ["Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10769,6 +11217,7 @@ date_added: 2026-06-15
 published_date: 2018-06-30
 date_source: listing
 authors: ["John Deke"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10793,6 +11242,7 @@ date_added: 2026-06-15
 published_date: 2018-04-19
 date_source: listing
 authors: ["Brian Gill", "Charles Tilley", "Emilyn Whitesell", "Mariel Finucane", "Liz Potamites", "Sean Corcoran"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10817,6 +11267,7 @@ date_added: 2026-06-15
 published_date: 2018-04-06
 date_source: listing
 authors: ["Naihobe Gonzalez", "Natasha Nicolai", "Johanna Lacoe", "Armando Yanez", "Ebo Dawson-Andoh", "Sarah Crissey", "Chelsea Mitchell", "Zeyad El Omari", "Esa Eslami", "Raul Torres"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10841,6 +11292,7 @@ date_added: 2026-06-15
 published_date: 2018-04-01
 date_source: listing
 authors: ["Kelly Hallberg", "Thomas D. Cook", "Peter M. Steiner", "M. H. Clark"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10865,6 +11317,7 @@ date_added: 2026-06-15
 published_date: 2018-03-21
 date_source: listing
 authors: ["Andrew Wayne", "Michael Garet", "Alison Wellington", "Hanley Chiang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10889,6 +11342,7 @@ date_added: 2026-06-15
 published_date: 2018-03-15
 date_source: listing
 authors: ["Martha Bleeker", "James Mabli", "Mary Kay Fox", "Betina Jean-Louis", "Marlene Fox"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10913,6 +11367,7 @@ date_added: 2026-06-15
 published_date: 2018-03-15
 date_source: listing
 authors: ["Martha Bleeker", "James Mabli", "Mary Kay Fox", "Betina Jean-Louis", "Marlene Fox"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10937,6 +11392,7 @@ date_added: 2026-06-15
 published_date: 2018-03-01
 date_source: listing
 authors: ["Duncan D. Chaplin", "Thomas D. Cook", "Jelena Zurovac", "Jared S. Coopersmith", "Mariel M. Finucane", "Lauren N. Vollmer", "Rebecca E. Morris"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10961,6 +11417,7 @@ date_added: 2026-06-15
 published_date: 2018-02-28
 date_source: listing
 authors: ["Philip Gleason", "Alexandra Resch", "Jillian Berk"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -10985,6 +11442,7 @@ date_added: 2026-06-15
 published_date: 2018-02-02
 date_source: listing
 authors: ["Mid-Atlantic Regional Educational Laboratory"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11009,6 +11467,7 @@ date_added: 2026-06-15
 published_date: 2018-02-02
 date_source: listing
 authors: ["Mid-Atlantic Regional Educational Laboratory"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11033,6 +11492,7 @@ date_added: 2026-06-15
 published_date: 2018-01-30
 date_source: listing
 authors: ["Johanna Lacoe"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11057,6 +11517,7 @@ date_added: 2026-06-15
 published_date: 2017-12-19
 date_source: listing
 authors: ["Hanley Chiang", "Cecilia Speroni", "Mariesa Herrmann", "Kristin Hallgren", "Paul Burkander", "Alison Wellington"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11081,6 +11542,7 @@ date_added: 2026-06-15
 published_date: 2017-11-27
 date_source: listing
 authors: ["Philip M. Gleason"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11105,6 +11567,7 @@ date_added: 2026-06-15
 published_date: 2017-11-06
 date_source: listing
 authors: ["Michael J. Weiss", "Howard S. Bloom", "Natalya Verbitsky-Savitz", "Himani Gupta", "Alma E. Vigil", "Daniel N. Cullinan"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11129,6 +11592,7 @@ date_added: 2026-06-15
 published_date: 2017-09-01
 date_source: listing
 authors: ["James Mabli", "Martha Bleeker", "Mary Kay Fox"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11153,6 +11617,7 @@ date_added: 2026-06-15
 published_date: 2017-08-01
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11177,6 +11642,7 @@ date_added: 2026-06-15
 published_date: 2017-07-31
 date_source: listing
 authors: ["Tim Kautz", "Peter Z. Schochet", "Charles Tilley"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11201,6 +11667,7 @@ date_added: 2026-06-15
 published_date: 2017-07-31
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11225,6 +11692,7 @@ date_added: 2026-06-15
 published_date: 2017-06-01
 date_source: listing
 authors: ["Neil Seftor"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11249,6 +11717,7 @@ date_added: 2026-06-15
 published_date: 2017-05-31
 date_source: listing
 authors: ["Clemencia Cosentino", "Leslie Foster", "Julia Klebanov"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11273,6 +11742,7 @@ date_added: 2026-06-15
 published_date: 2017-03-28
 date_source: listing
 authors: ["John Burghardt", "Joshua Haimson", "Stephen Lipscomb", "Albert Y. Liu", "Frank Potter", "Tiffany Waits", "Sheng Wang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11297,6 +11767,7 @@ date_added: 2026-06-15
 published_date: 2017-02-08
 date_source: listing
 authors: ["Melissa A. Clark", "Eric Isenberg", "Albert Y. Liu", "Libby Makowsky", "Marykate Zukiewicz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11321,6 +11792,7 @@ date_added: 2026-06-15
 published_date: 2017-02-07
 date_source: listing
 authors: ["Naihobe Gonzalez"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11345,6 +11817,7 @@ date_added: 2026-06-15
 published_date: 2017-01-30
 date_source: listing
 authors: ["Heinrich Hock", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11369,6 +11842,7 @@ date_added: 2026-06-15
 published_date: 2017-01-19
 date_source: listing
 authors: ["Patricia Troppe", "Anthony T. Milanowski", "Camilla Heid", "Brian Gill", "Christine Ross"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11393,6 +11867,7 @@ date_added: 2026-06-15
 published_date: 2016-12-30
 date_source: listing
 authors: ["Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11417,6 +11892,7 @@ date_added: 2026-06-15
 published_date: 2016-12-01
 date_source: listing
 authors: ["Emilyn Ruble Whitesell", "Leanna Stiefel", "Amy Ellen Schwartz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11441,6 +11917,7 @@ date_added: 2026-06-15
 published_date: 2016-11-01
 date_source: listing
 authors: ["Brian Gill", "Megan Shoji", "Thomas Coen", "Kate Place"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11465,6 +11942,7 @@ date_added: 2026-06-15
 published_date: 2016-10-27
 date_source: listing
 authors: ["Neil Seftor"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11489,6 +11967,7 @@ date_added: 2026-06-15
 published_date: 2016-10-27
 date_source: listing
 authors: ["Eric Isenberg", "Jeffrey Max", "Philip Gleason", "Matthew Johnson", "Jonah Deutsch", "Michael Hansen"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11513,6 +11992,7 @@ date_added: 2026-06-15
 published_date: 2016-10-27
 date_source: listing
 authors: ["Eric Isenberg", "Jeffrey Max", "Philip Gleason", "Matthew Johnson", "Jonah Deutsch", "Michael Hansen"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11537,6 +12017,7 @@ date_added: 2026-06-15
 published_date: 2016-10-19
 date_source: listing
 authors: ["Brian P. Gill", "Jennifer S. Lerner", "Paul Meosky"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11561,6 +12042,7 @@ date_added: 2026-06-15
 published_date: 2016-10-17
 date_source: listing
 authors: ["Dana Petersen", "Megan Shoji", "Adam Dunn", "Natasha Nicolai"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11585,6 +12067,7 @@ date_added: 2026-06-15
 published_date: 2016-10-01
 date_source: listing
 authors: ["John Deke"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11609,6 +12092,7 @@ date_added: 2026-06-15
 published_date: 2016-09-29
 date_source: listing
 authors: ["Hanley Chiang", "Moira McCullough", "Stephen Lipscomb", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11633,6 +12117,7 @@ date_added: 2026-06-15
 published_date: 2016-08-30
 date_source: listing
 authors: ["Alyson Burnett", "Moira McCullough", "Christina Clark Tuttle"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11657,6 +12142,7 @@ date_added: 2026-06-15
 published_date: 2016-08-30
 date_source: listing
 authors: ["Mariesa Herrmann", "Christine Ross"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11681,6 +12167,7 @@ date_added: 2026-06-15
 published_date: 2016-08-24
 date_source: listing
 authors: ["Alison Wellington", "Hanley Chiang", "Kristin Hallgren", "Cecilia Speroni", "Mariesa Herrmann", "Paul Burkander"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11705,6 +12192,7 @@ date_added: 2026-06-15
 published_date: 2016-08-24
 date_source: listing
 authors: ["Alison Wellington", "Hanley Chiang", "Kristin Hallgren", "Cecilia Speroni", "Mariesa Herrmann", "Paul Burkander"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11729,6 +12217,7 @@ date_added: 2026-06-15
 published_date: 2016-07-22
 date_source: listing
 authors: ["Philip M. Gleason"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11753,6 +12242,7 @@ date_added: 2026-06-15
 published_date: 2016-06-28
 date_source: listing
 authors: ["Moira McCullough", "Stephen Lipscomb", "Hanley Chiang", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11777,6 +12267,7 @@ date_added: 2026-06-15
 published_date: 2016-06-27
 date_source: listing
 authors: ["Matthew Johnson", "Alicia Demers", "Cleo Jacobs Johnson", "Claudia Gentile"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11801,6 +12292,7 @@ date_added: 2026-06-15
 published_date: 2016-06-21
 date_source: listing
 authors: ["Tim R. Sass", "Ron W. Zimmer", "Brian P. Gill", "Kevin T. Booker"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11825,6 +12317,7 @@ date_added: 2026-06-15
 published_date: 2016-06-21
 date_source: listing
 authors: ["Hanley Chiang", "Stephen Lipscomb", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11849,6 +12342,7 @@ date_added: 2026-06-15
 published_date: 2016-06-15
 date_source: listing
 authors: ["Steven Glazerman", "Dallas Dotter"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11873,6 +12367,7 @@ date_added: 2026-06-15
 published_date: 2016-05-12
 date_source: listing
 authors: ["Moira McCullough", "Betsy Keating", "Luke Heinkel"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11897,6 +12392,7 @@ date_added: 2026-06-15
 published_date: 2016-05-01
 date_source: listing
 authors: ["Mathematica Policy Research"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11921,6 +12417,7 @@ date_added: 2026-06-15
 published_date: 2016-03-02
 date_source: listing
 authors: ["Matthew Johnson", "Eric Lundquist", "Alicia Demers", "Cleo Jacobs Johnson", "Claudia Gentile"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11945,6 +12442,7 @@ date_added: 2026-06-15
 published_date: 2016-03-01
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Philip Gleason", "Brian Gill", "Christina Clark Tuttle"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11969,6 +12467,7 @@ date_added: 2026-06-15
 published_date: 2016-02-24
 date_source: listing
 authors: ["Paul Decker"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -11993,6 +12492,7 @@ date_added: 2026-06-15
 published_date: 2016-01-21
 date_source: listing
 authors: ["Moira McCullough", "Stephen Lipscomb", "Hanley Chiang", "Brian Gill", "Irina Cheban"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12017,6 +12517,7 @@ date_added: 2026-06-15
 published_date: 2016-01-21
 date_source: listing
 authors: ["Moira McCullough", "Stephen Lipscomb", "Hanley Chiang", "Brian Gill", "Irina Cheban"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12041,6 +12542,7 @@ date_added: 2026-06-15
 published_date: 2016-01-04
 date_source: listing
 authors: ["Scott Richman", "Alyson Burnett", "Erin Dillon", "Lisbeth Goble", "Moira McCullough", "Christina Clark Tuttle"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12065,6 +12567,7 @@ date_added: 2026-06-15
 published_date: 2015-12-30
 date_source: listing
 authors: ["Melissa A. Clark", "Philip M. Gleason", "Christina Clark Tuttle", "Marsha K. Silverberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12089,6 +12592,7 @@ date_added: 2026-06-15
 published_date: 2015-11-30
 date_source: listing
 authors: ["Alexandra Resch", "Jonah Deutsch"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12113,6 +12617,7 @@ date_added: 2026-06-15
 published_date: 2015-10-01
 date_source: listing
 authors: ["Cassie Pickens Jewell", "Kristin Hallgren"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12137,6 +12642,7 @@ date_added: 2026-06-15
 published_date: 2015-09-17
 date_source: listing
 authors: ["Virginia Knechtel", "Mary Anne Anderson", "Alyson Burnett", "Thomas Coen", "Margaret Sullivan", "Christina Clark Tuttle", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12161,6 +12667,7 @@ date_added: 2026-06-15
 published_date: 2015-08-31
 date_source: listing
 authors: ["Moira McCullough", "Luke Heinkel", "Betsy Keating"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12185,6 +12692,7 @@ date_added: 2026-06-15
 published_date: 2015-08-31
 date_source: listing
 authors: ["Moira McCullough", "Luke Heinkel", "Betsy Keating"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12209,6 +12717,7 @@ date_added: 2026-06-15
 published_date: 2015-08-19
 date_source: listing
 authors: ["Tim Silva", "Allison McKie", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12233,6 +12742,7 @@ date_added: 2026-06-15
 published_date: 2015-07-21
 date_source: listing
 authors: ["Moira McCullough", "Brittany English", "Megan Hague Angus", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12257,6 +12767,7 @@ date_added: 2026-06-15
 published_date: 2015-06-01
 date_source: listing
 authors: ["Nicholas Beyler", "Susanne James-Burdumy", "Martha Bleeker", "Jane Fortson", "Max Benjamin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12281,6 +12792,7 @@ date_added: 2026-06-15
 published_date: 2015-06-01
 date_source: listing
 authors: ["Guanglei Hong", "Jonah Deutsch", "Heather D. Hill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12305,6 +12817,7 @@ date_added: 2026-06-15
 published_date: 2015-05-22
 date_source: listing
 authors: ["Margaret Sullivan", "Brittany English", "Alyson Burnett", "Jillian Berk"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12329,6 +12842,7 @@ date_added: 2026-06-15
 published_date: 2015-04-30
 date_source: listing
 authors: ["Linda Rosenberg", "Megan Davis Christianson", "Megan Hague Angus"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12353,6 +12867,7 @@ date_added: 2026-06-15
 published_date: 2015-04-23
 date_source: listing
 authors: ["Stephen Lipscomb", "Jeffrey Terziev", "Duncan Chaplin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12377,6 +12892,7 @@ date_added: 2026-06-15
 published_date: 2015-04-03
 date_source: listing
 authors: ["Elias Walsh", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12401,6 +12917,7 @@ date_added: 2026-06-15
 published_date: 2015-03-30
 date_source: listing
 authors: ["Marykate Zukiewicz", "Melissa A. Clark", "Libby Makowsky"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12425,6 +12942,7 @@ date_added: 2026-06-15
 published_date: 2015-03-09
 date_source: listing
 authors: ["Manyee Wong", "Thomas D. Cook", "Peter M. Steinerd"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12449,6 +12967,7 @@ date_added: 2026-06-15
 published_date: 2015-03-01
 date_source: listing
 authors: ["Martha Bleeker", "Nicholas Beyler", "Susanne James-Burdumy", "Jane Fortson"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12473,6 +12992,7 @@ date_added: 2026-06-15
 published_date: 2015-02-28
 date_source: listing
 authors: ["Andrea Mraz Esposito", "Sarah Osborn", "Jessica Zeigler", "Lara Hulsey", "Kimberly Boller"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12497,6 +13017,7 @@ date_added: 2026-06-15
 published_date: 2015-02-28
 date_source: listing
 authors: ["Andrea Mraz Esposito", "Sarah Osborn", "Lara Hulsey", "Kimberly Boller", "Celina Kamler"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12521,6 +13042,7 @@ date_added: 2026-06-15
 published_date: 2015-02-28
 date_source: listing
 authors: ["Kenneth Fortson", "Philip Gleason", "Emma Kopa", "Natalya Verbitsky-Savitz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12545,6 +13067,7 @@ date_added: 2026-06-15
 published_date: 2015-02-28
 date_source: listing
 authors: ["Lara Hulsey", "Kimberly Boller"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12569,6 +13092,7 @@ date_added: 2026-06-15
 published_date: 2015-02-28
 date_source: listing
 authors: ["Lara Hulsey", "Kimberly Boller"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12593,6 +13117,7 @@ date_added: 2026-06-15
 published_date: 2015-02-10
 date_source: listing
 authors: ["Elias Walsh", "Albert Y. Liu", "Dallas Dotter"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12617,6 +13142,7 @@ date_added: 2026-06-15
 published_date: 2015-01-16
 date_source: listing
 authors: ["Eric Isenberg", "Elias Walsh"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12641,6 +13167,7 @@ date_added: 2026-06-15
 published_date: 2015-01-12
 date_source: listing
 authors: ["Dan Goldhaber", "Duncan Dunbar Chaplin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12665,6 +13192,7 @@ date_added: 2026-06-15
 published_date: 2015-01-12
 date_source: listing
 authors: ["Eric Isenberg", "Bing-ru Teh", "Elias Walsh"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12689,6 +13217,7 @@ date_added: 2026-06-15
 published_date: 2014-12-17
 date_source: listing
 authors: ["Bing-ru Teh", "Hanley Chiang", "Stephen Lipscomb", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12713,6 +13242,7 @@ date_added: 2026-06-15
 published_date: 2014-12-16
 date_source: listing
 authors: ["Mathematica Policy Research"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12737,6 +13267,7 @@ date_added: 2026-06-15
 published_date: 2014-11-19
 date_source: listing
 authors: ["Tim Silva", "Allison McKie", "Virginia Knechtel", "Philip Gleason", "Libby Makowsky"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12761,6 +13292,7 @@ date_added: 2026-06-15
 published_date: 2014-10-29
 date_source: listing
 authors: ["Kristin Hallgren", "Alyson Burnett"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12785,6 +13317,7 @@ date_added: 2026-06-15
 published_date: 2014-10-22
 date_source: listing
 authors: ["C. Cosentino", "M.D. Sulivan", "N.T. Gahlawat", "M.W. Ohland", "R.A. Long"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12809,6 +13342,7 @@ date_added: 2026-06-15
 published_date: 2014-09-16
 date_source: listing
 authors: ["Jeffrey Max", "Jill Constantine", "Alison Wellington", "Kristin Hallgren", "Steven Glazerman", "Hanley Chiang", "Cecilia Speroni"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12833,6 +13367,7 @@ date_added: 2026-06-15
 published_date: 2014-09-16
 date_source: listing
 authors: ["Jeffrey Max", "Jill Constantine", "Alison Wellington", "Kristin Hallgren", "Steve Glazerman", "Hanley Chiang", "Cecilia Speroni"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12857,6 +13392,7 @@ date_added: 2026-06-15
 published_date: 2014-09-16
 date_source: listing
 authors: ["Jeffrey Max", "Jill Constantine", "Alison Wellington", "Kristin Hallgren", "Steven Glazerman", "Hanley Chiang", "Cecilia Speroni"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12881,6 +13417,7 @@ date_added: 2026-06-15
 published_date: 2014-09-02
 date_source: listing
 authors: ["Ellen Eliason Kisker", "Kimberly Boller"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12905,6 +13442,7 @@ date_added: 2026-06-15
 published_date: 2014-08-13
 date_source: listing
 authors: ["Alexandra Resch", "Jonah Deutsch"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12929,6 +13467,7 @@ date_added: 2026-06-15
 published_date: 2014-07-30
 date_source: listing
 authors: ["Alexandra Resch", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12953,6 +13492,7 @@ date_added: 2026-06-15
 published_date: 2014-07-08
 date_source: listing
 authors: ["Elias Walsh", "Dallas Dotter"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -12977,6 +13517,7 @@ date_added: 2026-06-15
 published_date: 2014-06-05
 date_source: listing
 authors: ["Joshua Furgeson", "Virginia Knechtel", "Margaret Sullivan", "Christina Clark Tuttle", "Lauren Akers", "Mary Anne Anderson", "Michael Barna", "Ira Nichols-Barrer"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13001,6 +13542,7 @@ date_added: 2026-06-15
 published_date: 2014-06-01
 date_source: listing
 authors: ["Lauren Akers", "Alexandra Resch", "Jillian Berk"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13025,6 +13567,7 @@ date_added: 2026-06-15
 published_date: 2014-05-30
 date_source: listing
 authors: ["Joanne Pfleiderer"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13049,6 +13592,7 @@ date_added: 2026-06-15
 published_date: 2014-05-21
 date_source: listing
 authors: ["Elias Walsh", "Albert Y. Liu", "Dallas Dotter"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13073,6 +13617,7 @@ date_added: 2026-06-15
 published_date: 2014-05-19
 date_source: listing
 authors: ["Kevin Booker", "Jaime Thomas"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13097,6 +13642,7 @@ date_added: 2026-06-15
 published_date: 2014-04-30
 date_source: listing
 authors: ["Brian Gill", "Brittany English", "Joshua Furgeson", "Moira McCullough"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13121,6 +13667,7 @@ date_added: 2026-06-15
 published_date: 2014-04-30
 date_source: listing
 authors: ["John Deke", "Brian Gill", "Lisa Dragoset", "Karen Bogen"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13145,6 +13692,7 @@ date_added: 2026-06-15
 published_date: 2014-03-06
 date_source: listing
 authors: ["Matthew Johnson", "Eric Lundquist", "Cleo Jacobs Johnson", "Claudia Gentile"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13169,6 +13717,7 @@ date_added: 2026-06-15
 published_date: 2014-01-30
 date_source: listing
 authors: ["Jeffrey Max", "Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13193,6 +13742,7 @@ date_added: 2026-06-15
 published_date: 2013-12-30
 date_source: listing
 authors: ["Various authors"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13217,6 +13767,7 @@ date_added: 2026-06-15
 published_date: 2013-12-30
 date_source: listing
 authors: ["Mathematica Policy Research"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13241,6 +13792,7 @@ date_added: 2026-06-15
 published_date: 2013-11-30
 date_source: listing
 authors: ["Steven Glazerman", "Ali Protik", "Bing-ru Teh", "Julie Bruch", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13265,6 +13817,7 @@ date_added: 2026-06-15
 published_date: 2013-10-30
 date_source: listing
 authors: ["Eric Isenberg", "Elias Walsh"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13289,6 +13842,7 @@ date_added: 2026-06-15
 published_date: 2013-10-30
 date_source: listing
 authors: ["Eric Isenberg", "Bing-ru Teh", "Elias Walsh"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13313,6 +13867,7 @@ date_added: 2026-06-15
 published_date: 2013-09-30
 date_source: listing
 authors: ["Joanne Pfleiderer"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13337,6 +13892,7 @@ date_added: 2026-06-15
 published_date: 2013-09-10
 date_source: listing
 authors: ["Melissa Clark", "Sheena McConnell", "Jill Constantine", "Hanley Chiang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13361,6 +13917,7 @@ date_added: 2026-06-15
 published_date: 2013-08-03
 date_source: listing
 authors: ["Nicholas Beyler", "Susanne James-Burdumy", "Martha Bleeker", "Jane Fortson", "Max Benjamin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13385,6 +13942,7 @@ date_added: 2026-06-15
 published_date: 2013-06-30
 date_source: listing
 authors: ["Ron Zimmer", "Brian Gill", "Jonathon Attridge", "Kaitlin Obenauf"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13409,6 +13967,7 @@ date_added: 2026-06-15
 published_date: 2013-05-31
 date_source: listing
 authors: ["Elias Walsh", "Stephen Lipscomb"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13433,6 +13992,7 @@ date_added: 2026-06-15
 published_date: 2013-05-30
 date_source: listing
 authors: ["Jill Constantine"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13457,6 +14017,7 @@ date_added: 2026-06-15
 published_date: 2013-04-30
 date_source: listing
 authors: ["Peter Z. Schochet", "Hanley S. Chiang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13481,6 +14042,7 @@ date_added: 2026-06-15
 published_date: 2013-03-30
 date_source: listing
 authors: ["Kenneth Fortson", "Philip Gleason", "Emma Kopa", "Natalya Verbitsky-Savitz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13505,6 +14067,7 @@ date_added: 2026-06-15
 published_date: 2013-02-27
 date_source: listing
 authors: ["Christina Clark Tuttle", "Brian Gill", "Philip Gleason", "Virginia Knechtel", "Ira Nichols-Barrer", "Alexandra Resch"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13529,6 +14092,7 @@ date_added: 2026-06-15
 published_date: 2012-11-01
 date_source: listing
 authors: ["Martha Bleeker", "Sarah Dolfin", "Amy Johnson", "Steve Glazerman", "Eric Isenberg", "Mary Grider"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13553,6 +14117,7 @@ date_added: 2026-06-15
 published_date: 2012-10-30
 date_source: listing
 authors: ["Susan Zief", "Roberto Agodini"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13577,6 +14142,7 @@ date_added: 2026-06-15
 published_date: 2012-09-01
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Brian P. Gill", "Philip Gleason", "Christina Clark Tuttle"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13601,6 +14167,7 @@ date_added: 2026-06-15
 published_date: 2012-06-30
 date_source: listing
 authors: ["Heinrich Hock", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13625,6 +14192,7 @@ date_added: 2026-06-15
 published_date: 2012-06-30
 date_source: listing
 authors: ["John Deke", "Lisa Dragoset"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13649,6 +14217,7 @@ date_added: 2026-06-15
 published_date: 2012-04-30
 date_source: listing
 authors: ["Ron Zimmer", "Brian Gill", "Kevin Booker", "Stéphane Lavertu", "John Wittle"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13673,6 +14242,7 @@ date_added: 2026-06-15
 published_date: 2012-04-30
 date_source: listing
 authors: ["Steven Glazerman"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13697,6 +14267,7 @@ date_added: 2026-06-15
 published_date: 2012-04-30
 date_source: listing
 authors: ["Steven Glazerman", "Ali Protik", "Bing-ru Teh", "Julie Bruch", "Neil Seftor"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13721,6 +14292,7 @@ date_added: 2026-06-15
 published_date: 2012-04-17
 date_source: listing
 authors: ["Martha Bleeker", "Susanne James-Burdumy", "Nicholas Beyler", "Allison Hedley Dodd", "Rebecca A. London", "Lisa Westrich", "Katie Stokes-Guinan", "Sebastian Castrechini"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13745,6 +14317,7 @@ date_added: 2026-06-15
 published_date: 2012-04-05
 date_source: listing
 authors: ["Stephen Lipscomb", "Hanley Chiang", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13769,6 +14342,7 @@ date_added: 2026-06-15
 published_date: 2012-02-28
 date_source: listing
 authors: ["Matthew Johnson", "Stephen Lipscomb", "Brian Gill", "Kevin Booker", "Julie Bruch"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13793,6 +14367,7 @@ date_added: 2026-06-15
 published_date: 2012-02-28
 date_source: listing
 authors: ["Susanne James-Burdumy", "Brian Goesling", "John Deke", "Eric Einspruch"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13817,6 +14392,7 @@ date_added: 2026-06-15
 published_date: 2012-01-31
 date_source: listing
 authors: ["Dan Goldhaber", "Duncan Chaplin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13841,6 +14417,7 @@ date_added: 2026-06-15
 published_date: 2011-12-30
 date_source: listing
 authors: ["Steven M. Glazerman", "Liz Potamites"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13865,6 +14442,7 @@ date_added: 2026-06-15
 published_date: 2011-12-30
 date_source: listing
 authors: ["Melissa A. Clark", "Philip Gleason", "Christina Clark Tuttle", "Marsha K. Silverberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13889,6 +14467,7 @@ date_added: 2026-06-15
 published_date: 2011-09-08
 date_source: listing
 authors: ["John Engberg", "Brian Gill", "Gema Zamarro", "Ron Zimmer"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13913,6 +14492,7 @@ date_added: 2026-06-15
 published_date: 2011-07-08
 date_source: listing
 authors: ["Christina Clark Tuttle", "Philip Gleason", "Melissa Clark"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13937,6 +14517,7 @@ date_added: 2026-06-15
 published_date: 2011-05-13
 date_source: listing
 authors: ["Eric Isenberg", "Heinrich Hock"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13961,6 +14542,7 @@ date_added: 2026-06-15
 published_date: 2011-04-30
 date_source: listing
 authors: ["Steven Glazerman", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -13985,6 +14567,7 @@ date_added: 2026-06-15
 published_date: 2011-04-30
 date_source: listing
 authors: ["Steven Glazerman", "Jeffrey Max"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14009,6 +14592,7 @@ date_added: 2026-06-15
 published_date: 2011-04-26
 date_source: listing
 authors: ["Steven Glazerman", "Dan Goldhaber", "Susanna Loeb", "Stephen Raudenbush", "Douglas O. Staiger", "Grover J. Whitehurst", "Michelle Croft"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14033,6 +14617,7 @@ date_added: 2026-06-15
 published_date: 2011-04-09
 date_source: listing
 authors: ["Ira Nichols-Barrer", "Christina Clark Tuttle", "Brian Gill", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14057,6 +14642,7 @@ date_added: 2026-06-15
 published_date: 2010-12-30
 date_source: listing
 authors: ["Ron Zimmer", "Brian Gill", "Kaitlin Obenauf"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14081,6 +14667,7 @@ date_added: 2026-06-15
 published_date: 2010-11-17
 date_source: listing
 authors: ["Steven Glazerman", "Susanna Loeb", "Dan Goldhaber", "Douglas Staiger", "Stephen Raudenbush", "Grover Whitehurst"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14105,6 +14692,7 @@ date_added: 2026-06-15
 published_date: 2010-10-30
 date_source: listing
 authors: ["John Deke", "Lisa Dragoset", "Ravaris Moore"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14129,6 +14717,7 @@ date_added: 2026-06-15
 published_date: 2010-09-30
 date_source: listing
 authors: ["Mark Dynarski"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14153,6 +14742,7 @@ date_added: 2026-06-15
 published_date: 2010-09-14
 date_source: listing
 authors: ["Stephen Lipscomb", "Bing-ru Teh", "Brian Gill", "Hanley Chiang", "Antoniya Owens"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14177,6 +14767,7 @@ date_added: 2026-06-15
 published_date: 2010-07-30
 date_source: listing
 authors: ["Peter Z. Schochet", "Hanley S. Chiang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14201,6 +14792,7 @@ date_added: 2026-06-15
 published_date: 2010-07-30
 date_source: listing
 authors: ["Susanne James-Burdumy", "Brian Goesling", "John Deke", "Eric Einspruch"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14225,6 +14817,7 @@ date_added: 2026-06-15
 published_date: 2010-07-30
 date_source: listing
 authors: ["Bing-ru Teh", "Moria McCullough", "Brian P. Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14249,6 +14842,7 @@ date_added: 2026-06-15
 published_date: 2010-07-30
 date_source: listing
 authors: ["Susanne James-Burdumy", "Brian Goesling", "John Deke", "Eric Einspruch"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14273,6 +14867,7 @@ date_added: 2026-06-15
 published_date: 2010-06-30
 date_source: listing
 authors: ["Steven Glazerman", "Eric Isenberg", "Sarah Dolfin", "Martha Bleeker", "Amy Johnson", "Mary Grider", "Matthew Jacobus"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14297,6 +14892,7 @@ date_added: 2026-06-15
 published_date: 2010-06-30
 date_source: listing
 authors: ["Philip Gleason", "Melissa Clark", "Christina Clark Tuttle", "Emily Dwoyer"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14321,6 +14917,7 @@ date_added: 2026-06-15
 published_date: 2010-06-30
 date_source: listing
 authors: ["Robin Lake", "Brianna Dusseault", "Melissa Bowen", "Allison Demeritt", "Paul Hill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14345,6 +14942,7 @@ date_added: 2026-06-15
 published_date: 2010-03-15
 date_source: listing
 authors: ["Steven Glazerman", "Dan Goldhaber", "Susanna Loeb", "Douglas O. Staiger", "Grover J. Whitehurst"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14369,6 +14967,7 @@ date_added: 2026-06-15
 published_date: 2010-01-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14393,6 +14992,7 @@ date_added: 2026-06-15
 published_date: 2009-12-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14417,6 +15017,7 @@ date_added: 2026-06-15
 published_date: 2009-12-30
 date_source: listing
 authors: ["Fan Zhang", "Stephen Cohen", "Donsig Jang", "Amang Sukasih", "Sonya Vartivarian"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14441,6 +15042,7 @@ date_added: 2026-06-15
 published_date: 2009-11-30
 date_source: listing
 authors: ["Henry May", "Irma Perez-Johnson", "Joshua Haimson", "Samina Sattar", "Phil Gleason"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14465,6 +15067,7 @@ date_added: 2026-06-15
 published_date: 2009-11-30
 date_source: listing
 authors: ["Todd Honeycutt"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14489,6 +15092,7 @@ date_added: 2026-06-15
 published_date: 2009-10-30
 date_source: listing
 authors: ["Hanley Chiang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14513,6 +15117,7 @@ date_added: 2026-06-15
 published_date: 2009-10-23
 date_source: listing
 authors: ["Liz Potamites", "Kevin Booker", "Duncan Chaplin", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14537,6 +15142,7 @@ date_added: 2026-06-15
 published_date: 2009-10-23
 date_source: listing
 authors: ["Liz Potamites", "Duncan Chaplin", "Eric Isenberg", "Kevin Booker"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14561,6 +15167,7 @@ date_added: 2026-06-15
 published_date: 2009-08-30
 date_source: listing
 authors: ["Eric Isenberg", "Steven Glazerman", "Martha Bleeker", "Amy Johnson", "Julieta Lugo-Gil", "Mary Grider", "Sarah Dolfin", "Edward Britton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14585,6 +15192,7 @@ date_added: 2026-06-15
 published_date: 2009-08-30
 date_source: listing
 authors: ["Brian Gill", "J.R. Lockwood III", "Francisco Martorell", "Claude Messan Setodji", "Kevin Booker"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14609,6 +15217,7 @@ date_added: 2026-06-15
 published_date: 2009-06-07
 date_source: listing
 authors: ["Jill Constantine"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14633,6 +15242,7 @@ date_added: 2026-06-15
 published_date: 2009-05-14
 date_source: listing
 authors: ["Duncan Chaplin", "Martha Bleeker", "Claire Smither"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14657,6 +15267,7 @@ date_added: 2026-06-15
 published_date: 2009-04-30
 date_source: listing
 authors: ["Peter Z. Schochet", "Hanley Chiang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14681,6 +15292,7 @@ date_added: 2026-06-15
 published_date: 2009-03-30
 date_source: listing
 authors: ["Ron Zimmer", "Brian Gill", "Kevin Booker", "Stephane Lavertu", "Tim Sass", "John Witte"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14705,6 +15317,7 @@ date_added: 2026-06-15
 published_date: 2009-03-30
 date_source: listing
 authors: ["Duncan Chaplin", "Hanley Chiang", "Margaret Sullivan", "Virginia Knechtel", "Dominic Harris", "Shinu Verghese", "Kathy Sonnenfeld", "Barbara Kennen", "John Hall"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14729,6 +15342,7 @@ date_added: 2026-06-15
 published_date: 2009-03-17
 date_source: listing
 authors: ["Scott Cody", "Alison Wellington", "Duncan Chaplin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14753,6 +15367,7 @@ date_added: 2026-06-15
 published_date: 2009-01-30
 date_source: listing
 authors: ["Georges Vernex", "Scott Naftel", "Karen Ross", "Kerstin Carlson Le Floch", "Christopher Beighley", "Brian Gill"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14777,6 +15392,7 @@ date_added: 2026-06-15
 published_date: 2008-12-30
 date_source: listing
 authors: ["Brian Gill", "Jennifer Sloan McCombs", "Scott Naftel", "Karen Ross", "Mengli Song", "Jennifer Harmon", "Georges Vernez"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14801,6 +15417,7 @@ date_added: 2026-06-15
 published_date: 2008-08-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14825,6 +15442,7 @@ date_added: 2026-06-15
 published_date: 2008-06-06
 date_source: listing
 authors: ["Susanne James-Burdumy", "Irma Perez-Johnson", "Sonya Vartivarian"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14849,6 +15467,7 @@ date_added: 2026-06-15
 published_date: 2008-04-22
 date_source: listing
 authors: ["Kevin Booker", "Eric Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14873,6 +15492,7 @@ date_added: 2026-06-15
 published_date: 2008-03-30
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14897,6 +15517,7 @@ date_added: 2026-06-15
 published_date: 2008-03-30
 date_source: listing
 authors: ["Ron Zimmer", "Suzanne Blanc", "Brian Gill", "Jolley Christman"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14921,6 +15542,7 @@ date_added: 2026-06-15
 published_date: 2008-01-23
 date_source: listing
 authors: ["David DesRoches", "Tom Barton", "Janice Ballou", "Frank Potter", "Zhanyun Zhao", "Betsy Santos", "Jaceey Sebastian"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14945,6 +15567,7 @@ date_added: 2026-06-15
 published_date: 2007-11-14
 date_source: listing
 authors: ["Steven Glazerman", "Allison McKie", "Nancy Carey", "Dominic Harris"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14969,6 +15592,7 @@ date_added: 2026-06-15
 published_date: 2007-10-30
 date_source: listing
 authors: ["Kirsten Kainz", "Nikki L. Aikens"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -14993,6 +15617,7 @@ date_added: 2026-06-15
 published_date: 2007-08-30
 date_source: listing
 authors: ["Brian Gill", "P. Mike Timpane", "Karen E. Ross", "Dominic J. Brewer", "Kevin Booker"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -15017,6 +15642,7 @@ date_added: 2026-06-15
 published_date: 2007-07-30
 date_source: listing
 authors: ["Ron Zimmer", "Brian Gill", "Paula Razquin", "Kevin Booker", "J.R. Lockwood,  III"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -15041,6 +15667,7 @@ date_added: 2026-06-15
 published_date: 2007-06-30
 date_source: listing
 authors: ["Eric J. Isenberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -15065,6 +15692,7 @@ date_added: 2026-06-15
 published_date: 2006-06-28
 date_source: listing
 authors: ["Steven Glazerman", "Christina Tuttle", "Gail Baxter"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -15089,6 +15717,7 @@ date_added: 2026-06-15
 published_date: 2006-05-03
 date_source: listing
 authors: ["Steven Glazerman", "Christina Tuttle"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -15113,6 +15742,7 @@ date_added: 2026-06-15
 published_date: 2006-01-11
 date_source: listing
 authors: ["Steven Glazerman", "Sarah Senesky", "Neil Seftor", "Amy Johnson"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -15137,6 +15767,7 @@ date_added: 2026-06-15
 published_date: 2005-11-30
 date_source: listing
 authors: ["Steven Glazerman", "Tim Silva", "Neil Seftor"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -15161,6 +15792,7 @@ date_added: 2026-06-15
 published_date: 2005-06-22
 date_source: listing
 authors: ["Peter Z. Schochet"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -15185,6 +15817,7 @@ date_added: 2026-08-30
 published_date: 2026-06-30
 date_source: listing
 authors: ["Alicia Demers", "Ira Nichols-Barrer", "Maria Bartlett", "Adam Korte", "Philip Gleason"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]

@@ -17,6 +17,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, inclusive-design, k-12, sel, tools-competition]
@@ -41,6 +42,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, inclusive-design, k-12, personalized-learning, tools-competition]
@@ -65,6 +67,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [automated-feedback, formative-assessment, k-12, math-education, tools-competition]
@@ -89,6 +92,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, k-12, literacy, tools-competition]
@@ -113,6 +117,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, inclusive-design, tools-competition]
@@ -137,6 +142,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [genai, k-12, literacy, llm-application, professional-development, tools-competition]
@@ -161,6 +167,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [automated-feedback, k-12, literacy, personalized-learning, tools-competition]
@@ -185,6 +192,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, k-12, tools-competition]
@@ -209,6 +217,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, genai, higher-ed, learning-engineering, tools-competition]
@@ -233,6 +242,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, genai, higher-ed, personalized-learning, tools-competition]
@@ -257,6 +267,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-learning-platforms, genai, higher-ed, tools-competition]
@@ -281,6 +292,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, higher-ed, inclusive-design, tools-competition]
@@ -305,6 +317,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, genai, higher-ed, llm-application, tools-competition]
@@ -329,6 +342,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [genai, higher-ed, llm-application, professional-development, tools-competition]
@@ -353,6 +367,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [genai, k-12, llm-application, open-datasets, personalized-learning, tools-competition]
@@ -377,6 +392,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, k-12, literacy, open-datasets, tools-competition]
@@ -401,6 +417,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, inclusive-design, k-12, open-datasets, tools-competition]

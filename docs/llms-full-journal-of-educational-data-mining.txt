@@ -17,6 +17,7 @@ date_added: 2026-05-01
 published_date: 2009-10-01
 date_source: listing
 authors: ["Baker, Ryan S.J.d", "Yacef, Kalina"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/8/2"
 doi: "10.5281/zenodo.3554657"
 license: "CC BY-NC-ND 4.0"
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering, meta-analysis]
@@ -41,6 +42,7 @@ date_added: 2026-05-01
 published_date: 2026-02-07
 date_source: listing
 authors: ["Neubauer, Kai", "Rudolph, Yannick", "Brefeld, Ulf"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/961/271"
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -65,6 +67,7 @@ date_added: 2026-05-01
 published_date: 2025-09-13
 date_source: listing
 authors: ["Ji, Zilyu", "Shen, Yuntian", "Koedinger, Kenneth R", "Lin, Jionghao"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/936/261"
 doi: null
 license: null
 tags: [cmu-learnlab, jedm, learning-engineering, nlp, pii-privacy]
@@ -89,6 +92,7 @@ date_added: 2026-05-01
 published_date: 2018-10-25
 date_source: listing
 authors: ["Mao, Ye", "Lin, Chen", "Chi, Min"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/318/96"
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -113,6 +117,7 @@ date_added: 2026-05-01
 published_date: 2018-06-30
 date_source: listing
 authors: ["Paassen, Benjamin", "Hammer, Barbara", "Price, Thomas W", "Barnes, Tiffany", "Gross, Sebastian", "Pinkwart, Niels"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/158/93"
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -137,6 +142,7 @@ date_added: 2026-05-01
 published_date: 2018-10-25
 date_source: listing
 authors: ["Pardos, Zachary A", "Dadu, Anant"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/314/97"
 doi: null
 license: null
 tags: [assistments, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -161,6 +167,7 @@ date_added: 2026-05-01
 published_date: 2018-06-30
 date_source: listing
 authors: ["Kai, Shimin", "Almeda, Ma. Victoria", "Baker, Ryan S", "Heffernan, Cristina", "Heffernan, Neil"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/210/88"
 doi: null
 license: null
 tags: [assistments, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -185,6 +192,7 @@ date_added: 2026-05-01
 published_date: 2020-10-24
 date_source: listing
 authors: ["Paquette, Luc", "Ocumpaugh, Jaclyn", "Li, Ziyue", "Andres, Alexandra", "Baker, Ryan"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/404/122"
 doi: null
 license: null
 tags: [jedm, learning-engineering, student-belonging]
@@ -209,6 +217,7 @@ date_added: 2026-05-01
 published_date: 2020-10-24
 date_source: listing
 authors: ["Gervet, Theophile", "Koedinger, Ken", "Schneider, Jeff", "Mitchell, Tom"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/451/123"
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -233,6 +242,7 @@ date_added: 2026-05-01
 published_date: 2019-12-23
 date_source: listing
 authors: ["Berens, Johannes", "Schneider, Kerstin", "Gortz, Simon", "Oster, Simon", "Burghoff, Julian"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/389/111"
 doi: null
 license: null
 tags: [dropout-prevention, higher-ed, jedm, learning-engineering]
@@ -257,6 +267,7 @@ date_added: 2026-05-01
 published_date: 2023-06-21
 date_source: listing
 authors: ["Baker, Ryan S", "Esbenshade, Lief", "Vitale, Jonathan", "Karumbaiah, Shamya"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/619/163"
 doi: null
 license: null
 tags: [jedm, learning-engineering, student-belonging]
@@ -281,6 +292,7 @@ date_added: 2026-05-01
 published_date: 2023-06-21
 date_source: listing
 authors: ["Sales, Adam C", "Prihar, Ethan B", "Gagnon-Bartsch, Johann A", "Heffernan, Neil T"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/646/166"
 doi: null
 license: null
 tags: [a-b-testing, assistments, digital-learning-platforms, jedm, learning-engineering]
@@ -305,6 +317,7 @@ date_added: 2026-05-01
 published_date: 2021-12-28
 date_source: listing
 authors: ["Savi, Alexander O", "Deonovic, Benjamin E", "Bolsinova, Maria", "van der Maas, Han L. J", "Maris, Gunter K. J"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/382/141"
 doi: null
 license: null
 tags: [jedm, k-12, learning-engineering, math-education, personalized-learning]
@@ -329,6 +342,7 @@ date_added: 2026-05-01
 published_date: 2019-06-16
 date_source: listing
 authors: ["Pelaez, Kevin", "Levine, Richard", "Fan, Juanjuan", "Guarcello, Maureen", "Laumakis, Mark"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/283/103"
 doi: null
 license: null
 tags: [dropout-prevention, higher-ed, jedm, learning-engineering]
@@ -353,6 +367,7 @@ date_added: 2026-05-01
 published_date: 2019-06-18
 date_source: listing
 authors: ["Rafferty, Anna", "Ying, Huiji", "Williams, Joseph"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/357/104"
 doi: null
 license: null
 tags: [a-b-testing, digital-learning-platforms, jedm, learning-engineering]
@@ -377,6 +392,7 @@ date_added: 2026-05-01
 published_date: 2019-06-24
 date_source: listing
 authors: ["Cui, Ying", "Chu, Man-Wai", "Chen, Fu"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/397/106"
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -401,6 +417,7 @@ date_added: 2026-05-01
 published_date: 2020-12-29
 date_source: listing
 authors: ["Maniktala, Mehak", "Cody, Christa", "Isvik, Amy", "Lytle, Nicholas", "Chi, Min", "Barnes, Tiffany"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/450/126"
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -425,6 +442,7 @@ date_added: 2026-05-01
 published_date: 2020-12-29
 date_source: listing
 authors: ["Matayoshi, Jeffrey", "Karumbaiah, Shamya"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/478/125"
 doi: null
 license: null
 tags: [computer-assisted-learning, jedm, learning-engineering]
@@ -449,6 +467,7 @@ date_added: 2026-05-01
 published_date: 2020-06-28
 date_source: listing
 authors: ["Guo, Hongwen", "Zhang, Mo", "Deane, Paul", "Bennett, Randy"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/443/115"
 doi: null
 license: null
 tags: [formative-assessment, jedm, learning-engineering, writing-instruction]
@@ -473,6 +492,7 @@ date_added: 2026-05-01
 published_date: 2022-12-18
 date_source: listing
 authors: ["Phan, Vinhthuy", "Wright, Laura", "Decent, Bridgette"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/609/151"
 doi: null
 license: null
 tags: [college-access, higher-ed, jedm, learning-engineering]
@@ -497,6 +517,7 @@ date_added: 2026-05-01
 published_date: 2023-12-26
 date_source: listing
 authors: ["Yanagiura, Takeshi", "Yano, Shiho", "Kihira, Masateru", "Okada, Yukihiko"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/665/173"
 doi: null
 license: null
 tags: [higher-ed, jedm, learning-engineering, student-belonging]
@@ -521,6 +542,7 @@ date_added: 2026-05-01
 published_date: 2024-12-23
 date_source: listing
 authors: ["Tran, Nhat", "Pierce, Benjamin", "Litman, Diane", "Correnti, Richard", "Matsumura, Lindsay Clare"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/831/228"
 doi: null
 license: null
 tags: [formative-assessment, jedm, learning-engineering, llm-application, nlp]
@@ -545,6 +567,7 @@ date_added: 2026-05-01
 published_date: 2024-12-16
 date_source: listing
 authors: ["Cohausz, Lea", "Tschalzev, Andrej", "Bartelt, Christian", "Stuckenschmidt, Heiner"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/718/225"
 doi: null
 license: null
 tags: [jedm, learning-engineering, student-belonging]
@@ -569,6 +592,7 @@ date_added: 2026-05-01
 published_date: 2024-12-17
 date_source: listing
 authors: ["Lu, Wenyi", "Laffey, James", "Sadler, Troy", "Griffin, Joe", "Goggins, Sean"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/761/226"
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, jedm, learning-engineering, personalized-learning]
@@ -593,6 +617,7 @@ date_added: 2026-05-01
 published_date: 2022-12-18
 date_source: listing
 authors: ["Jia, Qinjin", "Young, Mitchell", "Xiao, Yunkai", "Cui, Jialin", "Liu, Chengyuan", "Rashid, Parvez", "Gehringer, Edward"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/612/155"
 doi: null
 license: null
 tags: [automated-feedback, jedm, learning-engineering, nlp]
@@ -617,6 +642,7 @@ date_added: 2026-05-01
 published_date: 2025-01-20
 date_source: listing
 authors: ["Badrinath, Anirudhan", "Pardos, Zachary"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/758/236"
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -641,6 +667,7 @@ date_added: 2026-05-01
 published_date: 2025-12-05
 date_source: listing
 authors: ["Jung, Heeseok", "Yoo, Jaesang", "Yoon, Yohaan", "Jang, Yeonju"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/854/263"
 doi: null
 license: null
 tags: [intelligent-tutoring, jedm, learning-engineering, llm-application]
@@ -665,6 +692,7 @@ date_added: 2026-05-01
 published_date: 2025-09-07
 date_source: listing
 authors: ["Lee, Seiyon", "Baral, Sami", "Li, Hongming", "Cheng, Li", "Zhang, Shan", "Thorp, Carly", "St. John, Jennifer", "Thompson, Tamisha", "Heffernan, Neil", "Botelho, Anthony"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/858/257"
 doi: null
 license: null
 tags: [assistments, automated-feedback, formative-assessment, jedm, learning-engineering, math-education]
@@ -689,6 +717,7 @@ date_added: 2026-05-01
 published_date: 2025-02-21
 date_source: listing
 authors: ["Borchers, Conrad", "Xu, Yinuo", "Pardos, Zachary A"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/826/241"
 doi: null
 license: null
 tags: [cmu-learnlab, dropout-prevention, higher-ed, jedm, learning-engineering]
@@ -713,6 +742,7 @@ date_added: 2026-05-01
 published_date: 2026-03-03
 date_source: listing
 authors: ["Ober, Teresa", "Zhang, Shan", "Zapata-Rivera, Diego", "Schroeder, Noah", "Botelho, Anthony"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1007/278"
 doi: null
 license: null
 tags: [english-learners, jedm, learning-engineering, llm-application, nlp]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: 2026-01-14
 date_source: listing
 authors: ["Zhang, Jihong", "Liang, Xinya", "Anqi, Deng", "Bonge, Nicole", "Tan, Lin", "Zhang, Ling", "Zarrett, Nicole"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/973/265"
 doi: null
 license: null
 tags: [genai, jedm, learning-engineering, llm-application, qualitative-research]
@@ -761,6 +792,7 @@ date_added: 2026-05-10
 published_date: 2026-01-24
 date_source: listing
 authors: ["Zambrano, Andres Felipe", "Wei, Zhanlan", "Zhang, Jiayi", "Baker, Ryan S", "Ocumpaugh, Jaclyn", "Barany, Amanda", "Liu, Xiner", "Zhou, Yiqiu", "Paquette, Luc", "Ginger, Jeffrey", "Borchers, Conrad"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1001/267"
 doi: null
 license: null
 tags: [automated-feedback, genai, jedm, learning-engineering, llm-application, qualitative-research]
@@ -785,6 +817,7 @@ date_added: 2026-05-10
 published_date: 2026-01-30
 date_source: listing
 authors: ["Ye, Cong", "Borman, Trisha", "Borman, Geoffrey"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/974/269"
 doi: null
 license: null
 tags: [automated-feedback, jedm, learning-engineering, llm-application, nlp, student-belonging]
@@ -809,6 +842,7 @@ date_added: 2026-05-10
 published_date: 2026-02-20
 date_source: listing
 authors: ["Potter, Andrew", "Serhan, Zeinab", "Patne, Nishad", "Öncel, Püren", "Ahmed, Ishrat", "Arner, Tracy", "Islam, Rezwana", "Roscoe, Rod", "Allen, Laura", "Crossley, Scott", "McNamara, Danielle"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1023/273"
 doi: null
 license: null
 tags: [genai, jedm, learning-engineering, llm-application, qualitative-research, writing-instruction]
@@ -833,6 +867,7 @@ date_added: 2026-05-10
 published_date: 2026-02-22
 date_source: listing
 authors: ["Ober, Teresa M", "Courey, Karyssa A", "Flor, Michael"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1008/275"
 doi: null
 license: null
 tags: [jedm, learning-engineering, llm-application, nlp, qualitative-research]
@@ -857,6 +892,7 @@ date_added: 2026-05-10
 published_date: 2026-03-03
 date_source: listing
 authors: ["Hur, Paul", "Palaguachi, Chris", "Machaka, Nessrine", "Krist, Christina", "Dyer, Elizabeth", "D’Angelo, Cynthia", "Bosch, Nigel"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1030/277"
 doi: null
 license: null
 tags: [genai, jedm, k-12, learning-engineering, math-education, nlp]
@@ -881,6 +917,7 @@ date_added: 2026-05-10
 published_date: 2026-04-06
 date_source: listing
 authors: ["Keith, Shelley", "Pavlik, Jr., Philip", "Stives, Kristin", "Kerr, Laura"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1034/282"
 doi: null
 license: null
 tags: [automated-feedback, genai, higher-ed, jedm, learning-engineering, llm-application]
@@ -905,6 +942,7 @@ date_added: 2026-05-10
 published_date: 2026-04-05
 date_source: listing
 authors: ["Croteau, Ethan", "Heffernan, Neil"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1088/281"
 doi: null
 license: null
 tags: [genai, intelligent-tutoring, jedm, learning-engineering, llm-application, math-education]
@@ -929,6 +967,7 @@ date_added: 2026-05-10
 published_date: 2025-09-08
 date_source: listing
 authors: ["Borchers, Conrad", "Zhang, Jiayi", "Fleischer, Hendrik", "Schanze, Sascha", "Aleven, Vincent", "Baker, Ryan"]
+document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/856/259"
 doi: null
 license: null
 tags: [cmu-learnlab, intelligent-tutoring, jedm, learning-engineering, llm-application, nlp]

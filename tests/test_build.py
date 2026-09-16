@@ -30,8 +30,10 @@ def test_validate_entries_checks_published_date_and_provenance():
     bad_src.update({"desc": "x" * 40, "published_date": "2026", "date_source": "guess"})
     na = entry(4, "S")
     na.update({"desc": "x" * 40, "published_date": None, "date_source": "n/a"})
-    errors, _ = validate_entries([ok, bad_date, bad_src, na])
-    assert [e.split(":")[0] for e in errors] == ["#2", "#3"], errors
+    bad_doc = entry(5, "S")
+    bad_doc.update({"desc": "x" * 40, "document_url": "/files/report.pdf"})
+    errors, _ = validate_entries([ok, bad_date, bad_src, na, bad_doc])
+    assert [e.split(":")[0] for e in errors] == ["#2", "#3", "#5"], errors
 
 
 def test_date_not_available_by_source_or_non_publication_type():

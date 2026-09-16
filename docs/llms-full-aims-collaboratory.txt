@@ -17,6 +17,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, carnegie-learning, math-strategies, nlp]
@@ -41,6 +42,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, math-strategies, nlp]
@@ -65,6 +67,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, llm-application, pii-privacy]
@@ -89,6 +92,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, genai, llm-application, pii-privacy]
@@ -113,6 +117,7 @@ date_added: 2026-05-06
 published_date: 2025-04-23
 date_source: page-meta
 authors: ["Candace Walkington", "Katie Bainbridge"]
+document_url: "https://socialinnovationsjournal.com/index.php/sij/article/download/9994/8124"
 doi: null
 license: null
 tags: [aims, genai, math-education]
@@ -137,6 +142,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, coaching]
@@ -161,6 +167,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, computer-assisted-learning, k-12, rct]
@@ -185,6 +192,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: ["Paiheng Xu", "Jing Liu", "Nathan Jones", "Julie Cohen", "Wei Ai"]
+document_url: "https://aclanthology.org/2024.naacl-long.246.pdf"
 doi: null
 license: null
 tags: [aims, llm-application, nlp]
@@ -209,6 +217,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [a-b-testing, aims, upgrade-platform]
@@ -233,6 +242,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, pii-privacy, rppl]
@@ -257,6 +267,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, rppl]
@@ -281,6 +292,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [a-b-testing, aims, upgrade-platform]
@@ -305,6 +317,7 @@ date_added: 2026-05-06
 published_date: 2025
 date_source: page-meta
 authors: ["Sinclair, H. Colleen", "Bainbridge, Katie", "Burns, Andrew R"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1017&context=srec_reports"
 doi: null
 license: null
 tags: [aims, lsu, math-education, student-belonging]
@@ -329,6 +342,7 @@ date_added: 2026-05-06
 published_date: 2025-03-17
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, coaching, rppl]
@@ -353,6 +367,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, math-strategies, nlp]
@@ -377,6 +392,7 @@ date_added: 2026-05-06
 published_date: 2025
 date_source: page-meta
 authors: ["Bainbridge, Katie", "Sinclair, H. Colleen", "Burns, Andrew"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1023&context=srec_reports"
 doi: null
 license: null
 tags: [aims, lsu, math-education, student-belonging]
@@ -401,6 +417,7 @@ date_added: 2026-05-06
 published_date: 2024-07-10
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, math-education]
@@ -425,6 +442,7 @@ date_added: 2026-05-06
 published_date: 2025
 date_source: page-meta
 authors: ["Norberg, Kole", "Almoubayyed, Husni", "Fancsali, Stephen"]
+document_url: "https://educationaldatamining.org/edm2025/proceedings/2025.EDM.short-papers.189/2025.EDM.short-papers.189.pdf"
 doi: null
 license: null
 tags: [aims, math-word-problems, nlp]
@@ -449,6 +467,7 @@ date_added: 2026-05-06
 published_date: 2025
 date_source: page-meta
 authors: ["Sinclair, H. Colleen", "Rhodes, Judith Lee Falgout", "Kim, Youn Kyoung", "Terrio, Stacey R"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1024&context=srec_reports"
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -473,6 +492,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [a-b-testing, aims, upgrade-platform]
@@ -497,6 +517,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, data-sharing, norc]
@@ -521,6 +542,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, digital-learning-platforms]
@@ -545,6 +567,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, formative-assessment, rppl]
@@ -569,6 +592,7 @@ date_added: 2026-05-06
 published_date: 2024
 date_source: page-meta
 authors: ["Armour, Nathaniel", "Spears, Alyssa", "Sinclair, H. Colleen", "Rhodes, Judith L. F"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1021&context=srec_reports"
 doi: null
 license: null
 tags: [aims, lsu, math-motivation, qualitative-research]
@@ -593,6 +617,7 @@ date_added: 2026-05-06
 published_date: 2025
 date_source: page-meta
 authors: ["Sinclair, H. Colleen"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1025&context=srec_reports"
 doi: null
 license: null
 tags: [aims, early-childhood, lsu, qualitative-research]
@@ -617,6 +642,7 @@ date_added: 2026-05-06
 published_date: 2024
 date_source: page-meta
 authors: ["Sinclair, H. Colleen", "Armour, Nathaniel", "Rhodes, Judith L. F", "Spears, Alyssa"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1020&context=srec_reports"
 doi: null
 license: null
 tags: [aims, digital-learning-platforms, lsu]
@@ -641,6 +667,7 @@ date_added: 2026-05-06
 published_date: 2024-06-25
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, english-learners, northwestern-e4]
@@ -665,6 +692,7 @@ date_added: 2026-05-06
 published_date: 2024-11-05
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, english-learners, northwestern-e4]
@@ -689,6 +717,7 @@ date_added: 2026-05-06
 published_date: 2025-05-05
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, attendance, northwestern-e4, school-discipline]
@@ -713,6 +742,7 @@ date_added: 2026-05-06
 published_date: 2024
 date_source: page-meta
 authors: ["Do, Bich", "Rhodes, Judith L. F"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1011&context=srec_reports"
 doi: null
 license: null
 tags: [aims, genai, lsu, math-education]
@@ -737,6 +767,7 @@ date_added: 2026-05-06
 published_date: 2024-06-27
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, digital-learning-platforms, math-education, northwestern-e4]
@@ -761,6 +792,7 @@ date_added: 2026-05-06
 published_date: 2025-06-30
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, early-childhood, northwestern-e4, prekindergarten]
@@ -785,6 +817,7 @@ date_added: 2026-05-06
 published_date: 2024
 date_source: page-meta
 authors: ["Sinclair, H. Colleen", "Rhodes, Judith L. F", "Terrio, Stacey R"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1022&context=srec_reports"
 doi: null
 license: null
 tags: [aims, lsu, math-education]
@@ -809,6 +842,7 @@ date_added: 2026-05-06
 published_date: 2024
 date_source: page-meta
 authors: ["Sinclair, H. Colleen", "Terrio, Stacey R", "Kim, Youn Kyoung"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1018&context=srec_reports"
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -833,6 +867,7 @@ date_added: 2026-05-06
 published_date: 2024-12-19
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, k-12, math-education, northwestern-e4]
@@ -857,6 +892,7 @@ date_added: 2026-05-06
 published_date: 2024-06-25
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, k-12, math-education, northwestern-e4]
@@ -881,6 +917,7 @@ date_added: 2026-05-06
 published_date: 2024-06-25
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, k-12, math-education, northwestern-e4]
@@ -905,6 +942,7 @@ date_added: 2026-05-06
 published_date: 2025
 date_source: page-meta
 authors: ["Sinclair, H. Colleen", "Terrio, Stacey R", "Kim, Youn Kyoung"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1015&context=srec_reports"
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -929,6 +967,7 @@ date_added: 2026-05-06
 published_date: 2025-11-12
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, professional-development, rppl]
@@ -953,6 +992,7 @@ date_added: 2026-05-06
 published_date: 2024-08-21
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, northwestern-e4, professional-development, sel]
@@ -977,6 +1017,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, data-sharing, norc]
@@ -1001,6 +1042,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, carnegie-learning, computer-assisted-learning, k-12, longitudinal, math-education, personalized-learning]
@@ -1025,6 +1067,7 @@ date_added: 2026-05-10
 published_date: 2025-12-08
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, data-sharing, lastinger-center, pii-privacy]
@@ -1049,6 +1092,7 @@ date_added: 2026-05-10
 published_date: 2026
 date_source: page-meta
 authors: ["Sinclair, H. Colleen", "Wilson, Kyle", "Ellis, Avery", "Martinez, Norma"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1026&context=srec_reports"
 doi: null
 license: null
 tags: [aims, k-12, lsu, math-education, math-motivation, qualitative-research]
@@ -1073,6 +1117,7 @@ date_added: 2026-05-10
 published_date: 2026
 date_source: page-meta
 authors: ["Sinclair, H. Colleen", "Robison, Samuel", "Kim, Youn Kyoung", "Terrio, Stacey R", "Rhodes, Judith Lee Falgout"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1030&context=srec_reports"
 doi: null
 license: null
 tags: [aims, computer-assisted-learning, k-12, longitudinal, lsu, math-education]
@@ -1097,6 +1142,7 @@ date_added: 2026-05-10
 published_date: 2024
 date_source: page-meta
 authors: ["Murray, Gwendolyn"]
+document_url: "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1012&context=srec_reports"
 doi: null
 license: null
 tags: [aims, k-12, lsu, school-discipline]
@@ -1121,6 +1167,7 @@ date_added: 2026-05-10
 published_date: 2026-02-18
 date_source: url
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [aims, k-12, longitudinal, math-education, northwestern-e4]

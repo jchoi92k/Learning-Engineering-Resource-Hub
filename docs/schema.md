@@ -19,10 +19,11 @@ description_source: string|null  # What kind of text the description is — see 
 published_date: string|null      # The source's own publication date, ISO at the granularity given: YYYY, YYYY-MM or YYYY-MM-DD
 date_source: string|null         # Where published_date came from — see "Structured metadata provenance" below; "n/a" = the source publishes no date
 authors: list[string]|null       # Author names as the source lists them
+document_url: string|null        # Direct link to the report file (PDF or journal galley) where the source offers one; url is the landing page
 tags: list[string]               # Controlled vocabulary (see below)
 ```
 
-Two recency axes are exposed and kept separate: `published_date` (the source's date; filled source by source, so null means "not captured yet" unless `date_source` is `n/a`) and `date_added` (when the hub took the row in). `data.json` `meta.dates` reports the coverage counts and the entry-number range; entry numbers are not contiguous.
+Two recency axes are exposed and kept separate: `published_date` (the source's date; filled source by source, so null means "not captured yet" unless `date_source` is `n/a`) and `date_added` (when the hub took the row in). `data.json` `meta.dates` reports the coverage counts and the entry-number range, and `meta.document_links` how many entries carry a `document_url`; entry numbers are not contiguous.
 
 `url` identifies a row: hub.db keeps one row per URL across published and excluded entries, compared case-insensitively and without a trailing slash (unique index `idx_entries_url_norm`; `build_from_db.py --check` reports any violation).
 
@@ -104,7 +105,7 @@ Descriptions are **never** written from title alone. The following rules apply:
 
 Every structured field extracted from a source carries its own provenance column, mirroring `description_source`. Values: `listing` (the listing page or API record), `page-meta` (the item page: a `detail_fetch` `extra_fields` selector, the page's standard citation / Dublin Core / schema.org tags, or a stored page value mapped by the config's `metadata_map`), `url` (inferred from the URL itself: a WordPress permalink date or a year in the slug, only where a config's `date_from_url` rule says so), `prose` (reserved: a value read out of running text, not used yet), `llm` (reserved: a future LLM extraction pass), `manual`. `n/a` appears only in the published outputs, on `date_source`, when no publication date applies: sources that publish no real date (Evidence for ESSA and Campbell Collaboration, whose API date is the CMS post date) and entries that are not publications (`dataset`, `platform`, `code`, `tool`, `project-website`). Filled by `scripts/process_staged.py --backfill-metadata` (from a staging file, or `--from-db` from the rows' stored raw items), which updates existing rows matched by URL and never guesses: an unparseable date stays empty, and a date is kept at the granularity the source gave. Coverage as of 2026-09-16: 3,305 published entries dated, 392 n/a, 207 undated; `authors` on 2,679. Per-source notes are in each `sources/*.md` profile.
 
-The same registry also holds `document_url` (with `document_url_source`): a direct link to the report file (PDF or journal galley) when the source offers one. Stored in `data/hub.db` on 493 published rows as of 2026-09-16 (WestEd, JEDM, JLA, TNTP, AIMS); published exposure follows.
+The same registry also holds `document_url` (with `document_url_source`): a direct link to the report file (PDF or journal galley) when the source offers one, published in `data.json`, `llms-full.txt` and through the MCP worker. 493 published rows carry one as of 2026-09-16 (WestEd, JEDM, JLA, TNTP, AIMS); the remaining sources are on `meta/roadmap.md`.
 
 ### Database-only columns (not in the published files)
 

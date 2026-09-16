@@ -252,7 +252,10 @@ def validate_entries(entries):
         pd = e.get("published_date")
         if pd is not None and not PUBLISHED_DATE_RE.match(str(pd)):
             errors.append(f"#{num}: published_date is not ISO YYYY[-MM[-DD]]: {pd}")
-        for col in ("date_source", "authors_source"):
+        du = e.get("document_url")
+        if du and not str(du).lower().startswith(("http://", "https://")):
+            errors.append(f"#{num}: document_url is not an absolute http(s) link: {du}")
+        for col in ("date_source", "authors_source", "document_url_source"):
             src = e.get(col)
             if src is not None and src not in METADATA_SOURCES and src != DATE_NOT_AVAILABLE:
                 errors.append(f"#{num}: unknown {col}: {src}")
@@ -309,6 +312,7 @@ def _entry_block(e):
         f"published_date: {e.get('published_date') or 'null'}",
         f"date_source: {e.get('date_source') or 'null'}",
         f"authors: {json.dumps(e['authors'], ensure_ascii=False) if e.get('authors') else 'null'}",
+        f"document_url: {json.dumps(e['document_url']) if e.get('document_url') else 'null'}",
         f"doi: {doi}",
         f"license: {lic}",
         f"tags: [{tags_str}]",
@@ -536,6 +540,7 @@ def build_json(entries):
 
     dated = sum(1 for e in entries if e.get("published_date"))
     no_date = sum(1 for e in entries if e.get("date_source") == DATE_NOT_AVAILABLE)
+    with_doc = sum(1 for e in entries if e.get("document_url"))
     data = {
         "meta": {
             "total": len(entries),
@@ -552,6 +557,9 @@ def build_json(entries):
                 "num_min": min(e["num"] for e in entries) if entries else None,
                 "num_max": max(e["num"] for e in entries) if entries else None,
             },
+            # document_url: a direct link to the report file (PDF or journal
+            # galley) where the source offers one; null elsewhere.
+            "document_links": {"with_document_url": with_doc, "without_document_url": len(entries) - with_doc},
         },
         "entries": [{
             "num": e["num"],
@@ -565,6 +573,7 @@ def build_json(entries):
             "published_date": e.get("published_date"),
             "date_source": e.get("date_source"),
             "authors": e.get("authors"),
+            "document_url": e.get("document_url") or None,
             "tags": e["tags"],
             "desc": e["desc"],
             "domain": e["domain"],
@@ -673,6 +682,17 @@ def build_gem_knowledge(entries):
         lines.append(f"Type: {e['type']} | Source: {e['source']}")
         lines.append(f"Tags: {tags_str}")
         lines.append(f"URL: {e['url']}")
+        # Structured metadata (2026-09-16), only where present, so the Gem can
+        # answer "when" and "who" and hand over the report file.
+        meta_bits = []
+        if e.get("published_date"):
+            meta_bits.append(f"Published: {e['published_date']}")
+        if e.get("authors"):
+            meta_bits.append(f"Authors: {'; '.join(e['authors'])}")
+        if meta_bits:
+            lines.append(" | ".join(meta_bits))
+        if e.get("document_url"):
+            lines.append(f"Report file: {e['document_url']}")
         lines.append("")
         if e["desc"]:
             lines.append(e["desc"])

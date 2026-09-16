@@ -229,6 +229,14 @@ await test("entries carry the metadata fields", async () => {
   assert(f.metadata.published_date === e.published_date && Array.isArray(f.metadata.authors), "fetch metadata carries the same fields");
   const g = await callTool("get_entry", { num: e.num });
   assert(g.published_date === e.published_date, "get_entry carries published_date");
+  // document_url (2026-09-16): null where the source offers no report file, an
+  // absolute link where it does (WestEd's S3 PDFs, journal galleys).
+  assert("document_url" in e && e.document_url === null, "Digital Promise has no report link yet: null, not missing");
+  const w = await callTool("search_resources", { source: "WestEd", sort_by: "date", limit: 30 });
+  const linked = w.entries.find(x => x.document_url);
+  assert(linked && /^https:\/\//.test(linked.document_url), `a WestEd entry carries a report link (${linked?.document_url})`);
+  const wf = await callTool("fetch", { id: String(linked.num) });
+  assert(wf.metadata.document_url === linked.document_url, "fetch metadata carries document_url");
 });
 
 await test("get_stats — num_range and date coverage", async () => {
@@ -236,6 +244,7 @@ await test("get_stats — num_range and date coverage", async () => {
   assert(r.num_range && r.num_range.max > r.total_entries, `num_range.max (${r.num_range?.max}) exceeds the entry count — ids are not contiguous`);
   assert(r.dates && r.dates.with_published_date > 0, `date coverage reported (${r.dates?.with_published_date})`);
   assert(r.dates.with_published_date + r.dates.published_date_not_available + r.dates.without_published_date === r.total_entries, "date buckets sum to the total");
+  assert(r.document_links && r.document_links.with_document_url > 0, `document link coverage reported (${r.document_links?.with_document_url})`);
 });
 
 await test("tools/list — descriptions carry the id and date orientation", async () => {

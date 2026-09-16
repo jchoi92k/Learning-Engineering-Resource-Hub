@@ -17,6 +17,7 @@ date_added: 2026-05-01
 published_date: 2023-04
 date_source: listing
 authors: ["Jean-Claude Brizard"]
+document_url: null
 doi: "10.51388/20.500.12265/176"
 license: null
 tags: [digital-learning-platforms, digital-promise, learning-engineering, personalized-learning]
@@ -41,6 +42,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-promise, inclusive-design, k-12, learning-engineering]
@@ -65,6 +67,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, learning-engineering, personalized-learning, professional-development]
@@ -89,6 +92,7 @@ date_added: 2026-05-02
 published_date: 2026-04
 date_source: listing
 authors: ["Roschelle, Jeremy", "Ruiz, Pati", "Means, Barbara", "Griffiths, Rebecca", "Lee, Keun-woo"]
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, digital-learning-platforms, digital-promise, learning-engineering]
@@ -113,6 +117,7 @@ date_added: 2026-05-02
 published_date: 2026-04
 date_source: listing
 authors: ["Prado, Yenda", "Ruiz, Pati", "Fusco, Judi", "DuVall, Denise", "Hinkel, Danielle", "Perkoff, Margaret", "Rocha, Orchid"]
+document_url: null
 doi: null
 license: null
 tags: [ai-ethics, ai-policy, digital-promise, genai, k-12, professional-development, writing-instruction]
@@ -137,6 +142,7 @@ date_added: 2026-05-02
 published_date: 2026-04
 date_source: listing
 authors: ["Prado, Yenda", "Ruiz, Pati", "Fusco, Judi", "Adler, Katherine", "Falck, Brooke", "Smith, Melissa L."]
+document_url: null
 doi: null
 license: null
 tags: [ai-ethics, ai-policy, digital-promise, genai, k-12, personalized-learning, professional-development]
@@ -161,6 +167,7 @@ date_added: 2026-05-02
 published_date: 2026-01
 date_source: listing
 authors: ["Kimberly Smith", "Joshua Stewart"]
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, digital-promise, k-12, professional-development]
@@ -185,6 +192,7 @@ date_added: 2026-05-02
 published_date: 2026-01
 date_source: listing
 authors: ["Rebecca Griffiths"]
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, digital-learning-platforms, digital-promise, higher-ed, open-datasets, pii-privacy]
@@ -209,6 +217,7 @@ date_added: 2026-05-02
 published_date: 2025-12
 date_source: listing
 authors: ["Vincent Dorie"]
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, digital-learning-platforms, digital-promise, higher-ed, pii-privacy]
@@ -233,6 +242,7 @@ date_added: 2026-05-02
 published_date: 2025-12
 date_source: listing
 authors: ["Ruiz, Pati", "Prado, Yenda", "Roschelle, Jeremy", "Fusco, Judi"]
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, digital-learning-platforms, digital-promise, genai, k-12]
@@ -257,6 +267,7 @@ date_added: 2026-05-02
 published_date: 2025-12
 date_source: listing
 authors: ["Kevin McElhaney", "Nicola M. Hodkowski", "Lauren H. McMahon", "Jennifer Jacobs", "William R. Penuel", "Gabriella Anton", "Kate Henson", "Rochelle Urban", "Daniel Parker"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, math-education, math-strategies, professional-development]
@@ -281,6 +292,7 @@ date_added: 2026-05-02
 published_date: 2025-11
 date_source: listing
 authors: ["Ruiz, Pati", "Pattenhouse, Megan", "Shell, Alison", "Dallas, Dominique", "Liberman, Babe", "Karim, Sana", "Chillmon, Carly", "Gonzales, Lacey"]
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, digital-promise, early-childhood, genai, k-12, professional-development]
@@ -305,6 +317,7 @@ date_added: 2026-05-02
 published_date: 2025-11
 date_source: listing
 authors: ["Zachariah, Isabella", "Peters Hinton, Vanessa", "Ruiz, Pati", "Dallas, Dominique", "Liberman, Babe", "Karim, Sana", "Chillmon, Carly", "Gonzales, Lacey"]
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, digital-promise, genai, higher-ed, professional-development]
@@ -329,6 +342,7 @@ date_added: 2026-05-02
 published_date: 2025-11
 date_source: listing
 authors: ["Ruiz, Pati", "Peters Hinton, Vanessa", "Prado, Yenda", "Noakes, Sierra", "Liberman, Babe", "Chillmon, Carly", "Van Nostrand, Parker", "Shell, Alison", "Karim, Sana", "Dallas, Dominique", "Zachariah, Isabella"]
+document_url: null
 doi: null
 license: null
 tags: [ai-ethics, ai-policy, digital-promise, genai, higher-ed, k-12, personalized-learning, professional-development]
@@ -353,6 +367,7 @@ date_added: 2026-05-02
 published_date: 2025-11
 date_source: listing
 authors: ["Ruiz, Pati", "Noakes, Sierra"]
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, digital-learning-platforms, digital-promise, genai, higher-ed, k-12]
@@ -377,6 +392,7 @@ date_added: 2026-05-02
 published_date: 2025-11
 date_source: listing
 authors: ["Pattenhouse, Megan", "Noakes, Sierra", "Mills, Kelly", "Shell, Alison", "Vollavanh, Andrew"]
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, digital-promise, genai, inclusive-design, learning-engineering, personalized-learning]
@@ -401,6 +417,7 @@ date_added: 2026-05-02
 published_date: 2025-08
 date_source: listing
 authors: ["Wei, Xin", "Roschelle, Jeremy", "Pautz Stephenson, Stefani", "Wortman, Amanda"]
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, data-sharing, digital-learning-platforms, digital-promise, learning-engineering]
@@ -425,6 +442,7 @@ date_added: 2026-05-02
 published_date: 2025-08
 date_source: listing
 authors: ["Pautz Stephenson, Stefani", "Leones, Tiffany", "Kamdar, Danae", "Prado, Yenda"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, genai, genai-tutoring, literacy, personalized-learning, pii-privacy]
@@ -449,6 +467,7 @@ date_added: 2026-05-02
 published_date: 2025-08
 date_source: listing
 authors: ["Ruiz, Pati", "Fusco, Judi"]
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, digital-promise, genai, k-12, professional-development]
@@ -473,6 +492,7 @@ date_added: 2026-05-02
 published_date: 2025-09
 date_source: listing
 authors: ["Kamdar, Danae", "Leones, Tiffany", "LaTasha Armstrong, Amanda", "Daal, Shelton", "Dominguez, Ximena"]
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, digital-promise, early-childhood, english-learners, inclusive-design]
@@ -497,6 +517,7 @@ date_added: 2026-05-02
 published_date: 2025-09
 date_source: listing
 authors: ["Buli, Tarik", "Pautz Stephenson, Stefani", "Banks, Rebecca", "Wortman, Amanda"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-promise, k-12, math-education, math-strategies, professional-development]
@@ -521,6 +542,7 @@ date_added: 2026-05-02
 published_date: 2025-10
 date_source: listing
 authors: ["Dunbar, Kyle", "Wilczak, Katie", "Mills, Kelly", "Mireles, Nick", "Shell, Alison"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, formative-assessment, k-12]
@@ -545,6 +567,7 @@ date_added: 2026-05-02
 published_date: 2025-01
 date_source: listing
 authors: ["Roschelle, Jeremy", "Wortman, Amanda", "Pautz Stephenson, Stefani"]
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, digital-learning-platforms, digital-promise, learning-engineering, pii-privacy]
@@ -569,6 +592,7 @@ date_added: 2026-05-02
 published_date: 2024-11
 date_source: listing
 authors: ["Manai, Jojo", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, digital-learning-platforms, digital-promise, english-learners, learning-engineering]
@@ -593,6 +617,7 @@ date_added: 2026-05-02
 published_date: 2024-12
 date_source: listing
 authors: ["McElhaney, Kevin", "Urban, Rochelle", "Kamdar, Danae", "Baker, Anthony", "Tsai, KellyAnn", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, professional-development]
@@ -617,6 +642,7 @@ date_added: 2026-05-02
 published_date: 2025-05
 date_source: listing
 authors: ["Hampton, Sarah", "Glazer, Kip", "Dragnić-Cindrić, Dalila", "Fusco, Judi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, sel]
@@ -641,6 +667,7 @@ date_added: 2026-05-02
 published_date: 2025-05
 date_source: listing
 authors: ["Schank, Patti", "Barth, Christopher", "Crawford, Valerie", "Fusco, Judi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -665,6 +692,7 @@ date_added: 2026-05-02
 published_date: 2025-05
 date_source: listing
 authors: ["Fusco, Judi", "DiMaria, Sarah", "Yeadon, Beverly", "Kolodner, Janet", "Shell, Alison"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -689,6 +717,7 @@ date_added: 2026-05-02
 published_date: 2025-05
 date_source: listing
 authors: ["Schank, Patti", "Barth, Christopher", "Crawford, Valerie", "Jenks, London", "Powers, Kelly", "Fusco, Judi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, sel]
@@ -713,6 +742,7 @@ date_added: 2026-05-02
 published_date: 2025-02
 date_source: listing
 authors: ["Digital Promise", "Achieving the Dream"]
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, digital-promise, formative-assessment, higher-ed, student-belonging]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: 2019-10-25
 date_source: listing
 authors: ["Roschelle, Jeremy", "Burke, Quinn"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -761,6 +792,7 @@ date_added: 2026-05-10
 published_date: 2023-02
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, sel]
@@ -785,6 +817,7 @@ date_added: 2026-05-10
 published_date: 2022-02
 date_source: listing
 authors: ["Van Nostrand, Parker", "Noakes, Sierra", "Shah, Zohal", "Luke Luna, Christina"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -809,6 +842,7 @@ date_added: 2026-05-10
 published_date: 2020-01
 date_source: listing
 authors: ["Iwatani, Emi", "Means, Barbara", "Romero, Maria R."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -833,6 +867,7 @@ date_added: 2026-05-10
 published_date: 2025-02
 date_source: listing
 authors: ["Achieving the Dream"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -857,6 +892,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Nobles, Susanne"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -881,6 +917,7 @@ date_added: 2026-05-10
 published_date: 2016-02-08
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, early-childhood, k-12]
@@ -905,6 +942,7 @@ date_added: 2026-05-10
 published_date: 2020-11
 date_source: listing
 authors: ["Burke, Quinn", "Iwatani, Emi", "Owens, Aileen", "Tackett, Traci", "May, Payton"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -929,6 +967,7 @@ date_added: 2026-05-10
 published_date: 2018-11
 date_source: listing
 authors: ["Niess, Margaret L.", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, math-education, professional-development]
@@ -953,6 +992,7 @@ date_added: 2026-05-10
 published_date: 2020-07
 date_source: listing
 authors: ["Liberman, Babe", "Young, Viki"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, literacy]
@@ -977,6 +1017,7 @@ date_added: 2026-05-10
 published_date: 2014
 date_source: listing
 authors: ["Morrison, Jennifer", "Ross, Steven", "Corcoran, Roisin", "Reid, A. J."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12, personalized-learning]
@@ -1001,6 +1042,7 @@ date_added: 2026-05-10
 published_date: 2021-07-27
 date_source: listing
 authors: ["Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1025,6 +1067,7 @@ date_added: 2026-05-10
 published_date: 2021-01
 date_source: listing
 authors: ["Tackett, Traci", "Ruiz, Pati", "Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1049,6 +1092,7 @@ date_added: 2026-05-10
 published_date: 2021-12
 date_source: listing
 authors: ["Mills, Kelly", "Coenraad, Merijke", "Ruiz, Pati", "Burke, Quinn", "Weisgrau, Josh"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1073,6 +1117,7 @@ date_added: 2026-05-10
 published_date: 2024-05
 date_source: listing
 authors: ["Sheila Chelimo, Ph.D", "Carmen Cortez", "Jessica K. Jackson", "D'Andre Weaver, Ph.D"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1097,6 +1142,7 @@ date_added: 2026-05-10
 published_date: 2021
 date_source: listing
 authors: ["Coenraad, Merijke", "Hodge, Malliron", "Ruiz, Pati", "Mills, Kelly", "Burke, Quinn"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1121,6 +1167,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1145,6 +1192,7 @@ date_added: 2026-05-10
 published_date: 2026-02
 date_source: listing
 authors: ["Young, Viki M.", "Vang, Mai Chou", "Kasad, Zareen", "Acosta, Isabelle", "Frausto, Alicia", "Graves, Cassie"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -1169,6 +1217,7 @@ date_added: 2026-05-10
 published_date: 2020-10
 date_source: listing
 authors: ["Vang, Mai Chou", "Kasad, Zareen", "Young, Viki M."]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, formative-assessment, k-12, literacy, personalized-learning, professional-development]
@@ -1193,6 +1242,7 @@ date_added: 2026-05-10
 published_date: 2019-04
 date_source: listing
 authors: ["Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners]
@@ -1217,6 +1267,7 @@ date_added: 2026-05-10
 published_date: 2015
 date_source: listing
 authors: ["DeSchryver, David", "Dlugoleski, Deirdre"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -1241,6 +1292,7 @@ date_added: 2026-05-10
 published_date: 2025-04
 date_source: listing
 authors: ["Chioma Aso-Hernandez", "Rita Fennelly-Atkinson", "Nichole Aguirre", "Kate Babineau", "Christina Luke Luna"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -1265,6 +1317,7 @@ date_added: 2026-05-10
 published_date: 2024-04
 date_source: listing
 authors: ["Schellinger, Adam", "Zacamy, Jenna", "Roschelle, Jeremy", "Closser, Avery", "Zepeda, Cristina"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -1289,6 +1342,7 @@ date_added: 2026-05-10
 published_date: 2024-08
 date_source: listing
 authors: ["Shah, Zohal", "Galindo, Marilys", "Aso-Hernandez, Chioma", "Luke Luna, Christina", "Lee, Keun-woo", "Weisgrau, Josh", "Solorzano, Teresa", "Jacobs, Britney"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, higher-ed, k-12]
@@ -1313,6 +1367,7 @@ date_added: 2026-05-10
 published_date: 2024-03
 date_source: listing
 authors: ["Roschelle, Jeremy", "Fusco, Judi", "Ruiz, Pati"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, literacy]
@@ -1337,6 +1392,7 @@ date_added: 2026-05-10
 published_date: 2020-11
 date_source: listing
 authors: ["Tackett, Traci", "Ruiz, Pati", "Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1361,6 +1417,7 @@ date_added: 2026-05-10
 published_date: 2024-05
 date_source: listing
 authors: ["Latia P. White, Ed.D.", "Alexandra Merritt Johnson, Ph.D."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1385,6 +1442,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Ehsanipour, Tina", "Gomez Zaccarelli, Florencia"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, higher-ed, k-12, professional-development]
@@ -1409,6 +1467,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Gross, Kelsey"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1433,6 +1492,7 @@ date_added: 2026-05-10
 published_date: 2019-05
 date_source: listing
 authors: ["Pape, Barbara"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1457,6 +1517,7 @@ date_added: 2026-05-10
 published_date: 2021-05
 date_source: listing
 authors: ["Iwatani, Emi", "Tackett, Traci", "Tackett, Kelsey", "Arnett, Neil", "May, Payton"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12]
@@ -1481,6 +1542,7 @@ date_added: 2026-05-10
 published_date: 2018
 date_source: listing
 authors: ["Pape, Barbara", "Vander Ark, Tom"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -1505,6 +1567,7 @@ date_added: 2026-05-10
 published_date: 2020-07
 date_source: listing
 authors: ["Means, Barbara", "Neisler, Julie", "Langer Research Associates"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -1529,6 +1592,7 @@ date_added: 2026-05-10
 published_date: 2019-05
 date_source: listing
 authors: ["Roschelle, Jeremy", "Shechtman, Nicole", "Feng, Mingyu", "Singleton, Corinne"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, math-education, rct]
@@ -1553,6 +1617,7 @@ date_added: 2026-05-10
 published_date: 2023-02
 date_source: listing
 authors: ["Bernacki, Matthew L.", "Plumley, Robert D."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12, personalized-learning]
@@ -1577,6 +1642,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Berlin, Mike", "Constantakis, Patti", "Laxton, Amber"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -1601,6 +1667,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Luke, Christina", "Noakes, Sierra", "Francisco, Aubrey"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, k-12]
@@ -1625,6 +1692,7 @@ date_added: 2026-05-10
 published_date: 2022-12
 date_source: listing
 authors: ["Weaver, D'Andre J."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, professional-development]
@@ -1649,6 +1717,7 @@ date_added: 2026-05-10
 published_date: 2015
 date_source: listing
 authors: ["Adams-Bass, Valerie", "Atchison, Drew", "Moore, Liza"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -1673,6 +1742,7 @@ date_added: 2026-05-10
 published_date: 2023-08
 date_source: listing
 authors: ["Carter, Bria", "Tinsley, Brian", "Luke Luna, Christina", "LeGrand Dunn, Jhacole", "Shah, Zohal"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -1697,6 +1767,7 @@ date_added: 2026-05-10
 published_date: 2024-10
 date_source: listing
 authors: ["Noakes, Sierra", "Shell, Alison", "Murillo, Alexis M.", "Van Nostrand, Parker", "Ruiz, Pati", "Cornick, Shayla", "Karim, Sana"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, k-12]
@@ -1721,6 +1792,7 @@ date_added: 2026-05-10
 published_date: 2024-05
 date_source: listing
 authors: ["Lauren H. McMahon", "Stefani Pautz Stephenson", "Seth Corrigan"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, math-education]
@@ -1745,6 +1817,7 @@ date_added: 2026-05-10
 published_date: 2025-05
 date_source: listing
 authors: ["Thevenard, Parjest", "Shell, Alison", "Victor, Linette", "Glazer, Kip", "Fusco, Judi", "Tyler, Courtney", "Akanbi, Kerra"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, sel]
@@ -1769,6 +1842,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Luke, Christina", "Francisco, Aubrey"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, k-12, math-education]
@@ -1793,6 +1867,7 @@ date_added: 2026-05-10
 published_date: 2017-10
 date_source: listing
 authors: ["Reconstituted  Mitchell", "Designs for Learning"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1817,6 +1892,7 @@ date_added: 2026-05-10
 published_date: 2023-07
 date_source: listing
 authors: ["Page, Kelly", "Merritt Johnson, Alexandra", "Franklin, Kristen", "Carter, Bria", "Galindo, Marilys", "Solorzano, Teresa", "Lee, Sangyeon", "Shah, Zohal"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -1841,6 +1917,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Crow, Tracy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -1865,6 +1942,7 @@ date_added: 2026-05-10
 published_date: 2019-01
 date_source: listing
 authors: ["Constantakis, Patti", "Noakes, Sierra"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise]
@@ -1889,6 +1967,7 @@ date_added: 2026-05-10
 published_date: 2025-07
 date_source: listing
 authors: ["Carter, Bria", "Jacobs, Britney"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -1913,6 +1992,7 @@ date_added: 2026-05-10
 published_date: 2021-01
 date_source: listing
 authors: ["Iwatani, Emi", "Means, Barbara", "Seylar, John", "Hardy, Angela"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -1937,6 +2017,7 @@ date_added: 2026-05-10
 published_date: 2024-09
 date_source: listing
 authors: ["Noakes, Sierra", "Van Nostrand, Parker", "Shell, Alison"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -1961,6 +2042,7 @@ date_added: 2026-05-10
 published_date: 2020-11
 date_source: listing
 authors: ["Roschelle, Jeremy", "Lester, James", "Fusco, Judi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners]
@@ -1985,6 +2067,7 @@ date_added: 2026-05-10
 published_date: 2020-11
 date_source: listing
 authors: ["Tackett, Traci", "Ruiz, Pati", "Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2009,6 +2092,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Liberman, Babe"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, professional-development]
@@ -2033,6 +2117,7 @@ date_added: 2026-05-10
 published_date: 2024-09
 date_source: listing
 authors: ["Hillary Greene Nolan, Ph.D.", "Merijke Coenraad, Ph.D.", "Viki Young, Ph.D."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, literacy]
@@ -2057,6 +2142,7 @@ date_added: 2026-05-10
 published_date: 2021-08
 date_source: listing
 authors: ["Lopez, Carol", "Younge, Odelia"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, professional-development]
@@ -2081,6 +2167,7 @@ date_added: 2026-05-10
 published_date: 2022-08
 date_source: listing
 authors: ["Zacamy, Jenna", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -2105,6 +2192,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, personalized-learning]
@@ -2129,6 +2217,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Constantakis, Patti"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -2153,6 +2242,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Gadgil, Soniya", "Louw, Marti"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, higher-ed, k-12]
@@ -2177,6 +2267,7 @@ date_added: 2026-05-10
 published_date: 2018
 date_source: listing
 authors: ["Bakhshaei, Mahsa", "Hardy, Angela", "Francisco, Aubrey", "Noakes, Sierra", "Fusco, Judi"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, english-learners, k-12, professional-development]
@@ -2201,6 +2292,7 @@ date_added: 2026-05-10
 published_date: 2021-07
 date_source: listing
 authors: ["Iwatani, Emi", "Burke, Quinn"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2225,6 +2317,7 @@ date_added: 2026-05-10
 published_date: 2020-04
 date_source: listing
 authors: ["Bakhshaei, Mahsa", "Hardy, Angela", "Ravitz, Jason", "Seylar, John"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, k-12, professional-development]
@@ -2249,6 +2342,7 @@ date_added: 2026-05-10
 published_date: 2025-11
 date_source: listing
 authors: ["Ruiz, Pati", "Liberman, Babe", "Karim, Sana", "Dallas, Dominique", "Zachariah, Isabella", "Peters Hinton, Vanessa", "Chillmon, Carly", "Gonzales, Lacey"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, higher-ed, k-12, literacy]
@@ -2273,6 +2367,7 @@ date_added: 2026-05-10
 published_date: 2023-10
 date_source: listing
 authors: ["Daal, Shelton", "Iwatani, Emi", "Leones, Tiffany"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -2297,6 +2392,7 @@ date_added: 2026-05-10
 published_date: 2024-06
 date_source: listing
 authors: ["April Williamson"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, longitudinal, professional-development]
@@ -2321,6 +2417,7 @@ date_added: 2026-05-10
 published_date: 2026-03
 date_source: listing
 authors: ["Noakes, Sierra", "Shell, Alison", "Vollavanh, Andrew"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2345,6 +2442,7 @@ date_added: 2026-05-10
 published_date: 2023-01
 date_source: listing
 authors: ["Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise]
@@ -2369,6 +2467,7 @@ date_added: 2026-05-10
 published_date: 2026-02
 date_source: listing
 authors: ["Kelly McNeil", "Sharin Jacob", "Quinn Burke", "Stefani Pautz Stephenson"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2393,6 +2492,7 @@ date_added: 2026-05-10
 published_date: 2021-11
 date_source: listing
 authors: ["Patz Stephenson, Stefani", "Hardy, Angela", "Seylar, John", "Wayman, Jeff", "Peters, Vanessa", "Bellin, Melissa", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, k-12]
@@ -2417,6 +2517,7 @@ date_added: 2026-05-10
 published_date: 2022-03
 date_source: listing
 authors: ["McElhaney, Kevin", "Baker, Anthony", "Kasad, Zareen", "Roschelle, Jeremy", "Chillmon, Carly"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -2441,6 +2542,7 @@ date_added: 2026-05-10
 published_date: 2024-06
 date_source: listing
 authors: ["Carter, Bria", "Jacobs, Britney", "Shah, Zohal", "Aso-Hernandez, Chioma"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise]
@@ -2465,6 +2567,7 @@ date_added: 2026-05-10
 published_date: 2025-11
 date_source: listing
 authors: ["Uncapher, Melina", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2489,6 +2592,7 @@ date_added: 2026-05-10
 published_date: 2019-06
 date_source: listing
 authors: ["Berry, Barnett", "Byrd, P. Ann"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, k-12]
@@ -2513,6 +2617,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2537,6 +2642,7 @@ date_added: 2026-05-10
 published_date: 2024-10
 date_source: listing
 authors: ["Center for Integrative Research in Computing and Learning Sciences (CIRCLS)"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -2561,6 +2667,7 @@ date_added: 2026-05-10
 published_date: 2019
 date_source: listing
 authors: ["Brown, Dan"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -2585,6 +2692,7 @@ date_added: 2026-05-10
 published_date: 2020-04
 date_source: listing
 authors: ["Roschelle, Jeremy", "Cheng, Britte Haugan", "Hodkowski, Nicola", "Haldar, Lina", "Neisler, Julie"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, math-education]
@@ -2609,6 +2717,7 @@ date_added: 2026-05-10
 published_date: 2024-06
 date_source: listing
 authors: ["Mills, Kelly", "Ruiz, Pati", "Lee, Keun-woo", "Coenraad, Merijke", "Fusco, Judi", "Roschelle, Jeremy", "Weisgrau, Josh"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, literacy]
@@ -2633,6 +2742,7 @@ date_added: 2026-05-10
 published_date: 2023-04
 date_source: listing
 authors: ["Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -2657,6 +2767,7 @@ date_added: 2026-05-10
 published_date: 2025-05
 date_source: listing
 authors: ["Fusco, Judi", "DiMaria, Sarah", "Yeadon, Beverly", "Victor, Linette", "Hampton, Sarah", "Kolodner, Janet", "Yoon, Susan"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2681,6 +2792,7 @@ date_added: 2026-05-10
 published_date: 2022-03
 date_source: listing
 authors: ["Tinsley, Brian", "Cacicio, Sarah", "Shah, Zohal", "Parker, Daniel", "Younge, Odelia", "Luke Luna, Christina"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, english-learners, higher-ed]
@@ -2705,6 +2817,7 @@ date_added: 2026-05-10
 published_date: 2021-08
 date_source: listing
 authors: ["Lopez, Carol", "Younge, Odelia"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, k-12, professional-development]
@@ -2729,6 +2842,7 @@ date_added: 2026-05-10
 published_date: 2021-06
 date_source: listing
 authors: ["Roschelle, Jeremy", "Mazziotti, Claudia", "Means, Barbara"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2753,6 +2867,7 @@ date_added: 2026-05-10
 published_date: 2023-09
 date_source: listing
 authors: ["April Williamson", "Suzanne Cole"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, k-12, literacy, professional-development, sel]
@@ -2777,6 +2892,7 @@ date_added: 2026-05-10
 published_date: 2024-01
 date_source: listing
 authors: ["Kimberly Smith", "Viki Young"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -2801,6 +2917,7 @@ date_added: 2026-05-10
 published_date: 2022-10
 date_source: listing
 authors: ["Pakhira, Deblina", "Fusco, Judi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -2825,6 +2942,7 @@ date_added: 2026-05-10
 published_date: 2021-01
 date_source: listing
 authors: ["Tackett, Traci", "Ruiz, Pati", "Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, early-childhood, k-12]
@@ -2849,6 +2967,7 @@ date_added: 2026-05-10
 published_date: 2024-03
 date_source: listing
 authors: ["Wei, Xin", "Wortman, Amanda", "Cheng, Li", "Heffernan, Neil", "Heffernan, Cristina", "Murphy, April", "Zepeda, Cristina", "Motz, Ben", "Jankowski, Harmony", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, math-education]
@@ -2873,6 +2992,7 @@ date_added: 2026-05-10
 published_date: 2024-04
 date_source: listing
 authors: ["Ruiz, Pati", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, literacy, sel]
@@ -2897,6 +3017,7 @@ date_added: 2026-05-10
 published_date: 2024-09
 date_source: listing
 authors: ["Noakes, Sierra", "Shell, Alison", "Van Nostrand, Parker", "Murillo, Alexis M.", "Ruiz, Pati", "Liberman, Babe"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, math-education]
@@ -2921,6 +3042,7 @@ date_added: 2026-05-10
 published_date: 2020-12
 date_source: listing
 authors: ["Means, Barbara", "Peters, Vanessa", "Neisler, Julie", "Griffiths, Rebecca"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -2945,6 +3067,7 @@ date_added: 2026-05-10
 published_date: 2019-09-04
 date_source: listing
 authors: ["Bakhshaei, Mahsa", "Hardy, Angela", "Ravitz, Jason", "Seylar, John"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, k-12, professional-development]
@@ -2969,6 +3092,7 @@ date_added: 2026-05-10
 published_date: 2022-05
 date_source: listing
 authors: ["Baker, Anthony", "Weisgrau, Josh", "Brister Philyaw, Kristal"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, formative-assessment, k-12]
@@ -2993,6 +3117,7 @@ date_added: 2026-05-10
 published_date: 2018-11
 date_source: listing
 authors: ["Roschelle, Jeremy", "Tipton, Elizabeth", "Shechtman, Nicole", "Vahey, Philip"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, math-education]
@@ -3017,6 +3142,7 @@ date_added: 2026-05-10
 published_date: 2022-12
 date_source: listing
 authors: ["Pautz Stephenson, Stefani", "Banks, Rebecca", "Pakhira, Deblina"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3041,6 +3167,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3065,6 +3192,7 @@ date_added: 2026-05-10
 published_date: 2019-09
 date_source: listing
 authors: ["Noakes, Sierra"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -3089,6 +3217,7 @@ date_added: 2026-05-10
 published_date: 2022-10
 date_source: listing
 authors: ["Ruiz, Pati", "Richard, Eleanor", "Chillmon, Carly", "Shah, Zohal", "Kurth, Adam", "Fekete, Andy", "Glazer, Kip", "Pattenhouse, Megan", "Fusco, Judi", "Fennelly-Atkinson, Rita", "Lin, Lin", "Arriola, Sheryl", "Lockett, David", "Crawford-Meyer, Valerie", "Karim, Sana", "Hampton, Sarah", "Beckford, Belinda"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, formative-assessment, k-12]
@@ -3113,6 +3242,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Luke, Christina", "Simone, Christa", "Francisco, Aubrey"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, k-12]
@@ -3137,6 +3267,7 @@ date_added: 2026-05-10
 published_date: 2024-03
 date_source: listing
 authors: ["Mills, Kelly", "Weisgrau, Josh", "Burke, Quinn", "Lee, Keun-woo", "Solorzano, Teresa", "Coenraad, Merijke"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, literacy]
@@ -3161,6 +3292,7 @@ date_added: 2026-05-10
 published_date: 2023-04
 date_source: listing
 authors: ["Christina A. Russell, Policy Studies Associates, Inc."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, sel]
@@ -3185,6 +3317,7 @@ date_added: 2026-05-10
 published_date: 2020-01
 date_source: listing
 authors: ["Van Ostrand, Kasey", "Seylar, John", "Luke, Christina"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, professional-development]
@@ -3209,6 +3342,7 @@ date_added: 2026-05-10
 published_date: 2023-04
 date_source: listing
 authors: ["Dominguez, Ximena", "Vidiksis, Regan", "Leones, Tiffany", "Kamdar, Danae", "Lewis Presser, Ashley", "Bueno, Marcia", "Orr, Jillian"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, early-childhood, k-12, math-education]
@@ -3233,6 +3367,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Simone, Christa", "Gross, Kelsey"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment]
@@ -3257,6 +3392,7 @@ date_added: 2026-05-10
 published_date: 2023-09
 date_source: listing
 authors: ["Hodge, Malliron", "Shah, Zohal", "Patterson, Marika", "Luke Luna, Christina"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners]
@@ -3281,6 +3417,7 @@ date_added: 2026-05-10
 published_date: 2019-08
 date_source: listing
 authors: ["Tare, Medha", "Ruppel Shell, Alison"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, literacy]
@@ -3305,6 +3442,7 @@ date_added: 2026-05-10
 published_date: 2021-09
 date_source: listing
 authors: ["Iwatani, Emi", "Ruiz, Pati", "Burke, Quinn", "Owens, Aileen", "Tackett, Traci"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3329,6 +3467,7 @@ date_added: 2026-05-10
 published_date: 2022-04
 date_source: listing
 authors: ["Cacicio, Sarah", "Tinsley, Brian", "Miller, Antionette", "Luke Luna, Christina"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, english-learners, higher-ed]
@@ -3353,6 +3492,7 @@ date_added: 2026-05-10
 published_date: 2020-04
 date_source: listing
 authors: ["Roschelle, Jeremy", "Cheng, Britte Haugan", "Hodkowski, Nicola", "Neisler, Julie", "Haldar, Lina"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, math-education, meta-analysis, rct]
@@ -3377,6 +3517,7 @@ date_added: 2026-05-10
 published_date: 2024-05
 date_source: listing
 authors: ["Constance Iloh, Ph.D."]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12]
@@ -3401,6 +3542,7 @@ date_added: 2026-05-10
 published_date: 2014
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3425,6 +3567,7 @@ date_added: 2026-05-10
 published_date: 2023-04
 date_source: listing
 authors: ["Digital Promise", "Education Development Center (EDC)", "WGBH Educational Foundation (GBH)"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, early-childhood, k-12]
@@ -3449,6 +3592,7 @@ date_added: 2026-05-10
 published_date: 2020-10
 date_source: listing
 authors: ["Luke, Christina", "Young, Viki M."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3473,6 +3617,7 @@ date_added: 2026-05-10
 published_date: 2021-05
 date_source: listing
 authors: ["Hardy, Angela", "Bakhshaei, Mahsa"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, k-12, professional-development]
@@ -3497,6 +3642,7 @@ date_added: 2026-05-10
 published_date: 2018
 date_source: listing
 authors: ["Peters, Vanessa"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3521,6 +3667,7 @@ date_added: 2026-05-10
 published_date: 2024-08
 date_source: listing
 authors: ["Marilys Galindo, Ed.D", "Rita Fennelly-Atkinson, Ed.D", "Kristen Franklin", "Christina Luke Luna, Ph.D"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, formative-assessment, higher-ed, professional-development]
@@ -3545,6 +3692,7 @@ date_added: 2026-05-10
 published_date: 2021-06
 date_source: listing
 authors: ["Digital Promise", "The Jim Henson Company", "Concord Evaluation Group", "Curious Media"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners]
@@ -3569,6 +3717,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Nobles, Susanne"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, literacy]
@@ -3593,6 +3742,7 @@ date_added: 2026-05-10
 published_date: 2024-10
 date_source: listing
 authors: ["McElhaney, Kevin", "Kamdar, Danae"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -3617,6 +3767,7 @@ date_added: 2026-05-10
 published_date: 2023-06
 date_source: listing
 authors: ["Noakes, Sierra"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -3641,6 +3792,7 @@ date_added: 2026-05-10
 published_date: 2021-05
 date_source: listing
 authors: ["Ruiz, Pati", "Iwatani, Emi", "Burke, Quinn"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, professional-development]
@@ -3665,6 +3817,7 @@ date_added: 2026-05-10
 published_date: 2025-06
 date_source: listing
 authors: ["Babe Liberman", "Jenny Bradbury", "Andrew Vollavanh", "Sana Karim"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3689,6 +3842,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Gross, Kelsey"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3713,6 +3867,7 @@ date_added: 2026-05-10
 published_date: 2024-05
 date_source: listing
 authors: ["Viki M. Young, Ph.D.", "Alexandra Merritt Johnson, Ph.D."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3737,6 +3892,7 @@ date_added: 2026-05-10
 published_date: 2023-02
 date_source: listing
 authors: ["Wiley, Korah", "Neisler, Julie", "Means, Barbara"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -3761,6 +3917,7 @@ date_added: 2026-05-10
 published_date: 2025-09
 date_source: listing
 authors: ["Nick Schiner"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, literacy]
@@ -3785,6 +3942,7 @@ date_added: 2026-05-10
 published_date: 2019-03
 date_source: listing
 authors: ["Means, Barbara", "Neisler, Julie"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -3809,6 +3967,7 @@ date_added: 2026-05-10
 published_date: 2021-03
 date_source: listing
 authors: ["Means, Barbara", "Peters, Vanessa", "Neisler, Julie", "Wiley, Korah", "Griffiths, Rebecca"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -3833,6 +3992,7 @@ date_added: 2026-05-10
 published_date: 2026-05
 date_source: listing
 authors: ["Jacob, Sharin", "Miceli, Heather", "Schneider, Hannah", "Peters Hinton, Vanessa"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, higher-ed, professional-development]
@@ -3857,6 +4017,7 @@ date_added: 2026-05-10
 published_date: 2014-04-07
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3881,6 +4042,7 @@ date_added: 2026-05-10
 published_date: 2021-05
 date_source: listing
 authors: ["Bakhshaei, Mahsa", "Hardy, Angela"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, k-12, professional-development]
@@ -3905,6 +4067,7 @@ date_added: 2026-05-10
 published_date: 2024-01
 date_source: listing
 authors: ["Roschelle, Jeremy", "Schellinger, Adam"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3929,6 +4092,7 @@ date_added: 2026-05-10
 published_date: 2014
 date_source: listing
 authors: ["Cator, Karen", "Schneider, Carri", "Vander Ark, Tom"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -3953,6 +4117,7 @@ date_added: 2026-05-10
 published_date: 2014
 date_source: listing
 authors: ["Martin, Phil"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12, personalized-learning]
@@ -3977,6 +4142,7 @@ date_added: 2026-05-10
 published_date: 2023-09
 date_source: listing
 authors: ["Dr. Stefani Pautz Stephenson", "Dr. Jeremy Roschelle"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -4001,6 +4167,7 @@ date_added: 2026-05-10
 published_date: 2021-01
 date_source: listing
 authors: ["Gold, Thomas"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12]
@@ -4025,6 +4192,7 @@ date_added: 2026-05-10
 published_date: 2018-10
 date_source: listing
 authors: ["Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners]
@@ -4049,6 +4217,7 @@ date_added: 2026-05-10
 published_date: 2024-02
 date_source: listing
 authors: ["Roschelle, Jeremy", "Fusco, Judi", "Ruiz, Pati"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -4073,6 +4242,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Nobles, Susanne"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, literacy]
@@ -4097,6 +4267,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Angevine, Colin", "Cator, Karen", "Roschelle, Jeremy", "Thomas, Susan A.", "Waite, Chelsea", "Weisgrau, Josh"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12, school-discipline]
@@ -4121,6 +4292,7 @@ date_added: 2026-05-10
 published_date: 2025-03
 date_source: listing
 authors: ["Christina Luke Luna", "Josh Weisgrau"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, higher-ed, k-12]
@@ -4145,6 +4317,7 @@ date_added: 2026-05-10
 published_date: 2025-10
 date_source: listing
 authors: ["Noakes, Sierra", "Shell, Alison", "Karim, Sana"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -4169,6 +4342,7 @@ date_added: 2026-05-10
 published_date: 2020-04
 date_source: listing
 authors: ["Gold, Thomas"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12]
@@ -4193,6 +4367,7 @@ date_added: 2026-05-10
 published_date: 2021-06
 date_source: listing
 authors: ["Dominguez, Ximena", "Rood, Elizabeth", "Kamdar, Danae", "Leones, Tiffany", "Huynh, Kayla"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -4217,6 +4392,7 @@ date_added: 2026-05-10
 published_date: 2024-06
 date_source: listing
 authors: ["April Williamson"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, school-discipline]
@@ -4241,6 +4417,7 @@ date_added: 2026-05-10
 published_date: 2021-06
 date_source: listing
 authors: ["Leones, Tiffany", "Kamdar, Danae", "Huynh, Kayla", "Gedney, Melissa", "Dominguez, Ximena"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -4265,6 +4442,7 @@ date_added: 2026-05-10
 published_date: 2020-03
 date_source: listing
 authors: ["Digital Promise", "Every Learner Everywhere"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, digital-promise, formative-assessment, higher-ed, k-12]
@@ -4289,6 +4467,7 @@ date_added: 2026-05-10
 published_date: 2025-05
 date_source: listing
 authors: ["Babineau, Kate", "Shah, Zohal", "Jacobs, Britney", "Miller, Antionette", "Alvarado, Bianca", "Aguirre, Nichole", "Fennelly-Atkinson, Rita", "Young, Viki"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, higher-ed, k-12]
@@ -4313,6 +4492,7 @@ date_added: 2026-05-10
 published_date: 2021-04
 date_source: listing
 authors: ["Burke, Quinn", "Roschelle, Jeremy", "Ruiz, Pati", "Weisgrau, Josh"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, formative-assessment, higher-ed, k-12]
@@ -4337,6 +4517,7 @@ date_added: 2026-05-10
 published_date: 2022-06
 date_source: listing
 authors: ["Pautz Stephenson, Stefani", "Banks, Rebecca", "Coenraad, Merijke"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, higher-ed, k-12]
@@ -4361,6 +4542,7 @@ date_added: 2026-05-10
 published_date: 2023-10
 date_source: listing
 authors: ["Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -4385,6 +4567,7 @@ date_added: 2026-05-10
 published_date: 2018
 date_source: listing
 authors: ["Noakes, Sierra"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -4409,6 +4592,7 @@ date_added: 2026-05-10
 published_date: 2018
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, higher-ed, k-12]
@@ -4433,6 +4617,7 @@ date_added: 2026-05-10
 published_date: 2023-03
 date_source: listing
 authors: ["Iwatani, Emi", "Simmons, Cortney", "Leones, Tiffany", "Bustillos, Adrian", "Hinds, Fiona", "Scheirman, Silvia"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, formative-assessment, k-12]
@@ -4457,6 +4642,7 @@ date_added: 2026-05-10
 published_date: 2024-03
 date_source: listing
 authors: ["Roschelle, Jeremy", "Fusco, Judi", "Ruiz, Pati"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -4481,6 +4667,7 @@ date_added: 2026-05-10
 published_date: 2023-10
 date_source: listing
 authors: ["Alexandra Merritt Johnson, Ph.D.", "Sherenna Bates", "Kimberly Smith"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -4505,6 +4692,7 @@ date_added: 2026-05-10
 published_date: 2018
 date_source: listing
 authors: ["Pape, Barbara"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12]
@@ -4529,6 +4717,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Sheppard, Shannon"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, literacy]
@@ -4553,6 +4742,7 @@ date_added: 2026-05-10
 published_date: 2024-08
 date_source: listing
 authors: ["Jacobs, Britney", "Babineau, Kate", "Parker, Daniel"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, early-childhood, higher-ed]
@@ -4577,6 +4767,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Constantakis, Patti"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -4601,6 +4792,7 @@ date_added: 2026-05-10
 published_date: 2023-02
 date_source: listing
 authors: ["Bland, Jennifer", "Smith, Kimberly"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12]
@@ -4625,6 +4817,7 @@ date_added: 2026-05-10
 published_date: 2021-09
 date_source: listing
 authors: ["Lopez, Carol", "Younge, Odelia"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, english-learners, k-12, professional-development]
@@ -4649,6 +4842,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -4673,6 +4867,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Riconscente, Michelle", "Designs for Learning"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -4697,6 +4892,7 @@ date_added: 2026-05-10
 published_date: 2024-08
 date_source: listing
 authors: ["Jackson, Jessica K.", "Starr, Jeffrey", "Weaver, D'Andre"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -4721,6 +4917,7 @@ date_added: 2026-05-10
 published_date: 2026-02
 date_source: listing
 authors: ["Smith, Kimberly"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -4745,6 +4942,7 @@ date_added: 2026-05-10
 published_date: 2022-06
 date_source: listing
 authors: ["Tare, Medha", "Shell, Alison R.", "Jackson, Jessica"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -4769,6 +4967,7 @@ date_added: 2026-05-10
 published_date: 2023-10
 date_source: listing
 authors: ["Stefani Pautz Stephenson", "Deblina Pakhira"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -4793,6 +4992,7 @@ date_added: 2026-05-10
 published_date: 2021-03
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, formative-assessment, k-12]
@@ -4817,6 +5017,7 @@ date_added: 2026-05-10
 published_date: 2021
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, higher-ed, k-12]
@@ -4841,6 +5042,7 @@ date_added: 2026-05-10
 published_date: 2020-08
 date_source: listing
 authors: ["Means, Barbara", "Neisler, Julie"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -4865,6 +5067,7 @@ date_added: 2026-05-10
 published_date: 2021-03
 date_source: listing
 authors: ["Burke, Quinn", "Iwatani, Emi", "Ruiz, Pati", "Tackett, Traci", "Owens, Aileen"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, professional-development]
@@ -4889,6 +5092,7 @@ date_added: 2026-05-10
 published_date: 2022-05
 date_source: listing
 authors: ["Chang, Michael Alan", "Magana, Alejandra", "Benes, Bedrich", "Kao, Dominic", "Fusco, Judith"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -4913,6 +5117,7 @@ date_added: 2026-05-10
 published_date: 2025-11
 date_source: listing
 authors: ["Culturally Responsive Assessment Collaborative"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, literacy]
@@ -4937,6 +5142,7 @@ date_added: 2026-05-10
 published_date: 2017-02-01
 date_source: listing
 authors: ["Laxton, Amber", "Berlin, Mike", "Constantakis, Patti"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -4961,6 +5167,7 @@ date_added: 2026-05-10
 published_date: 2023-12
 date_source: listing
 authors: ["Iwatani, Emi", "Hardy, Angela", "Means, Barbara", "Daal, Shelton", "Wei, Xin"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, longitudinal]
@@ -4985,6 +5192,7 @@ date_added: 2026-05-10
 published_date: 2018-11
 date_source: listing
 authors: ["Uncapher, Melina", "Fusco, Judi", "Liberman, Babe"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5009,6 +5217,7 @@ date_added: 2026-05-10
 published_date: 2013
 date_source: listing
 authors: ["Digital Promise", "IDEO"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5033,6 +5242,7 @@ date_added: 2026-05-10
 published_date: 2021-12
 date_source: listing
 authors: ["Mills, Kelly", "Coenraad, Merijke", "Ruiz, Pati", "Burke, Quinn", "Weisgrau, Josh"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5057,6 +5267,7 @@ date_added: 2026-05-10
 published_date: 2019-11-06
 date_source: listing
 authors: ["Angevine, Colin", "Cator, Karen", "Liberman, Babe", "Smith, Kim", "Young, Viki"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -5081,6 +5292,7 @@ date_added: 2026-05-10
 published_date: 2018-11
 date_source: listing
 authors: ["Means, Barbara", "Wang, Haiwen", "Wei, Xin", "Iwatani, Emi", "Peters, Vanessa"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12, math-education]
@@ -5105,6 +5317,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Roschelle, Jeremy", "Martin, Wendy", "Ahn, June", "Schank, Patricia"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5129,6 +5342,7 @@ date_added: 2026-05-10
 published_date: 2023-08
 date_source: listing
 authors: ["Hillary Greene Nolan", "Mai Chou Vang"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12, literacy, longitudinal, personalized-learning]
@@ -5153,6 +5367,7 @@ date_added: 2026-05-10
 published_date: 2025-10
 date_source: listing
 authors: ["Babineau, Kate", "Aso, Chioma", "Ganoo, Kelliann", "Jacobs, Britney", "Lenderman, Kristian", "Shah, Zohal", "Smith, Kimberly", "Young, Viki"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, higher-ed, k-12]
@@ -5177,6 +5392,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment]
@@ -5201,6 +5417,7 @@ date_added: 2026-05-10
 published_date: 2025-10
 date_source: listing
 authors: ["Karim, Sana", "Liberman, Babe", "Trettin, Sara"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, sel]
@@ -5225,6 +5442,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Weisgrau, Josh", "Parker, Jessica", "Romero, Maria"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5249,6 +5467,7 @@ date_added: 2026-05-10
 published_date: 2021-09
 date_source: listing
 authors: ["Jackson, Tanner", "Pakhira, Deblina", "Balajiee Lekshmi Narayanan, Arun", "Ruiz, Pati", "Fusco, Judi", "Glazer, Kip", "Eaglin, Phillip", "Eguchi, Amy"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12, literacy]
@@ -5273,6 +5492,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, professional-development]
@@ -5297,6 +5517,7 @@ date_added: 2026-05-10
 published_date: 2021
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5321,6 +5542,7 @@ date_added: 2026-05-10
 published_date: 2023-04
 date_source: listing
 authors: ["Digital Promise", "Education Development Center", "WGBH Educational Foundation (GBH)"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, early-childhood, k-12]
@@ -5345,6 +5567,7 @@ date_added: 2026-05-10
 published_date: 2018-03
 date_source: listing
 authors: ["Tare, Medha", "Nobles, Susanne", "Xiao, Wendy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, literacy, math-education]
@@ -5369,6 +5592,7 @@ date_added: 2026-05-10
 published_date: 2022-02
 date_source: listing
 authors: ["Noakes, Sierra", "Modica, Allison", "Palazzolo, Kristyn"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, professional-development]
@@ -5393,6 +5617,7 @@ date_added: 2026-05-10
 published_date: 2023-06
 date_source: listing
 authors: ["Rita Fennelly-Atkinson", "April Williamson"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, english-learners, higher-ed, k-12]
@@ -5417,6 +5642,7 @@ date_added: 2026-05-10
 published_date: 2022-08
 date_source: listing
 authors: ["Peters, Vanessa", "Pakhira, Deblina", "White, Latia", "Fennelly-Atkinson, Rita", "Means, Barbara"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12, math-education]
@@ -5441,6 +5667,7 @@ date_added: 2026-05-10
 published_date: 2026-05
 date_source: listing
 authors: ["Jacob, Sharin", "Miceli, Heather", "Schneider, Hannah"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, higher-ed, k-12, literacy]
@@ -5465,6 +5692,7 @@ date_added: 2026-05-10
 published_date: 2025-11
 date_source: listing
 authors: ["Mills, Kelly", "Noakes, Sierra", "Pattenhouse, Megan", "Shell, Alison", "Vollavanh, Andrew"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -5489,6 +5717,7 @@ date_added: 2026-05-10
 published_date: 2020-09
 date_source: listing
 authors: ["Center for Innovative Research in Cyberlearning"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5513,6 +5742,7 @@ date_added: 2026-05-10
 published_date: 2023-07
 date_source: listing
 authors: ["Page, Kelly", "Merritt Johnson, Alexandra", "Franklin, Kristen", "Carter, Bria", "Galindo, Marilys", "Solorzano, Teresa", "Lee, Sangyeon", "Shah, Zohal"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, longitudinal]
@@ -5537,6 +5767,7 @@ date_added: 2026-05-10
 published_date: 2015
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, professional-development]
@@ -5561,6 +5792,7 @@ date_added: 2026-05-10
 published_date: 2020-07
 date_source: listing
 authors: ["Digital Promise and Langer Research Associates"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -5585,6 +5817,7 @@ date_added: 2026-05-10
 published_date: 2021-05-26
 date_source: listing
 authors: ["Ruiz, Pati", "Mills, Kelly", "Burke, Quinn", "Coenraad, Merijke"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, higher-ed, k-12]
@@ -5609,6 +5842,7 @@ date_added: 2026-05-10
 published_date: 2023-03
 date_source: listing
 authors: ["McElhaney, Kevin", "Mills, Kelly", "Kamdar, Danae", "Baker, Anthony", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5633,6 +5867,7 @@ date_added: 2026-05-10
 published_date: 2014-07-07
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5657,6 +5892,7 @@ date_added: 2026-05-10
 published_date: 2021-01
 date_source: listing
 authors: ["Hardy, Angela", "Iwatani, Emi"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -5681,6 +5917,7 @@ date_added: 2026-05-10
 published_date: 2023-08
 date_source: listing
 authors: ["Deblina Pakhira", "Debshila Basu Mallick", "Marianne Bakia"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners]
@@ -5705,6 +5942,7 @@ date_added: 2026-05-10
 published_date: 2014-08-27
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5729,6 +5967,7 @@ date_added: 2026-05-10
 published_date: 2016
 date_source: listing
 authors: ["Gross, Kelsey", "Francisco, Aubrey"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment]
@@ -5753,6 +5992,7 @@ date_added: 2026-05-10
 published_date: 2020-12
 date_source: listing
 authors: ["Roschelle, Jeremy", "Hodkowski, Nicola M."]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5777,6 +6017,7 @@ date_added: 2026-05-10
 published_date: 2021-01
 date_source: listing
 authors: ["Hardy, Angela", "Iwatani, Emi", "Means, Barbara", "Seylar, John"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, k-12]
@@ -5801,6 +6042,7 @@ date_added: 2026-05-10
 published_date: 2018
 date_source: listing
 authors: ["Peters, Vanessa", "Means, Barbara", "Langworthy, Maria", "Neufeld, Phil", "Coe, Ryan", "Meehan, Kenneth", "Smith, Stevin"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, personalized-learning]
@@ -5825,6 +6067,7 @@ date_added: 2026-05-10
 published_date: 2025-11
 date_source: listing
 authors: ["Zachariah, Isabella", "Dallas, Dominique", "Ruiz, Pati", "Liberman, Babe", "Karim, Sana"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, literacy]
@@ -5849,6 +6092,7 @@ date_added: 2026-05-10
 published_date: 2025-12
 date_source: listing
 authors: ["Van Nostrand, Parker", "Noakes, Sierra", "Foster, AJ", "Burstein, Rachel"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment, higher-ed]
@@ -5873,6 +6117,7 @@ date_added: 2026-05-10
 published_date: 2024-11
 date_source: listing
 authors: ["Marilys Galindo, Ed.D", "Rita Fennelly-Atkinson, Ed.D", "Kristen Franklin", "Christina Luke Luna, Ph.D"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, formative-assessment, higher-ed, professional-development]
@@ -5897,6 +6142,7 @@ date_added: 2026-05-10
 published_date: 2018
 date_source: listing
 authors: ["Weisgrau, Josh", "Romero, Maria", "Spicer, Jakki", "Stevens, Keyana"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -5921,6 +6167,7 @@ date_added: 2026-05-10
 published_date: 2024-09
 date_source: listing
 authors: ["Ruiz, Pati", "Karim, Sana", "Armstrong, Amanda LaTasha", "Shell, Alison", "Singmaster, Heather", "Giang, Marci", "Liberman, Babe"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment]
@@ -5945,6 +6192,7 @@ date_added: 2026-05-10
 published_date: 2020-02
 date_source: listing
 authors: ["Iwatani, Emi", "Means, Barbara", "Romero, Maria R.", "Vang, Mai Chou"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, k-12]
@@ -5969,6 +6217,7 @@ date_added: 2026-05-10
 published_date: 2021
 date_source: listing
 authors: ["Digital Promise"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, english-learners, k-12]
@@ -5993,6 +6242,7 @@ date_added: 2026-05-10
 published_date: 2023-11
 date_source: listing
 authors: ["Alexandra Merritt Johnson", "Kristian Lenderman"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12]
@@ -6017,6 +6267,7 @@ date_added: 2026-05-10
 published_date: 2020-08
 date_source: listing
 authors: ["Bakhshaei, Mahsa", "Seylar, John", "Ruiz, Pati", "Vang, Mai Chou"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, digital-promise, k-12, professional-development]
@@ -6041,6 +6292,7 @@ date_added: 2026-05-10
 published_date: 2017
 date_source: listing
 authors: ["Vo, Vina"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, professional-development]
@@ -6065,6 +6317,7 @@ date_added: 2026-05-10
 published_date: 2024-06
 date_source: listing
 authors: ["Wortman, Amanda", "Schiner, Nick"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, digital-promise, k-12, math-education]
@@ -6089,6 +6342,7 @@ date_added: 2026-05-10
 published_date: 2022-03
 date_source: listing
 authors: ["McElhaney, Kevin", "Baker, Anthony", "Chillmon, Carly", "Kasad, Zareen", "Liberman, Babe", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, k-12, professional-development]
@@ -6113,6 +6367,7 @@ date_added: 2026-06-04
 published_date: 2026-05
 date_source: listing
 authors: ["Means, Barbara", "Neisler, Julie", "Parker, Daniel", "Peters Hinton, Vanessa", "Pressler, Emily"]
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, digital-promise, higher-ed, learning-engineering]
@@ -6137,6 +6392,7 @@ date_added: 2026-06-04
 published_date: 2026-05
 date_source: listing
 authors: ["Pautz Stephenson, Stefani", "Bradford, Brittany C.", "Wortman, Amanda", "Robertson, Cheryl", "Sorrells, Chad", "Basu Mallick, Debshila"]
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, digital-promise, higher-ed, k-12, learning-engineering]
@@ -6161,6 +6417,7 @@ date_added: 2026-06-04
 published_date: 2026-05
 date_source: listing
 authors: ["McBride, Cherise", "Wortman, Amanda", "Pautz Stephenson, Stefani", "McNeil, Kelly", "Banks, Rebecca"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, genai, instructional-coaching, k-12, learning-engineering, literacy]
@@ -6185,6 +6442,7 @@ date_added: 2026-06-04
 published_date: 2026-06
 date_source: listing
 authors: ["Friedman, Kerry", "Benge-Steele, Candice", "Woods, Adrienne"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, educational-systems-change, learning-engineering]
@@ -6209,6 +6467,7 @@ date_added: 2026-06-15
 published_date: 2026-06
 date_source: listing
 authors: ["McGurl, Cynthia", "Maisscotte, Bob"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -6233,6 +6492,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: listing
 authors: ["Higgins, Erin", "Griffiths, Rebecca"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment]
@@ -6257,6 +6517,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: listing
 authors: ["Smith, Kimberly", "Young, Viki"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, computer-assisted-learning, digital-promise]
@@ -6281,6 +6542,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: listing
 authors: ["Morris, Mallory", "Dunbar, Kyle"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment]
@@ -6305,6 +6567,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: listing
 authors: ["Griffiths, Rebecca", "Peters Hinton, Vanessa", "Daal, Shelton", "Pattenhouse, Megan"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-promise, formative-assessment, k-12]
@@ -6329,6 +6592,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: listing
 authors: ["Pattenhouse, Megan", "Wegmer, Chris", "Windham, Savannah", "Chou, Nancy", "Vollavahn, Andrew", "Foster, AJ", "Noakes, Sierra"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-promise]
@@ -6353,6 +6617,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: listing
 authors: ["Anton, Gabriella", "Mills, Kelly", "Jacob, Sharin", "Chou, Nancy", "McNeil, Kelly", "Wegemer, Chris"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -6377,6 +6642,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: listing
 authors: ["Murphy, April"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, digital-promise, literacy, math-education, personalized-learning, response-to-intervention]
@@ -6401,6 +6667,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: listing
 authors: ["Risha, Zak", "Roschelle, Jeremy"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, digital-promise, learning-engineering, response-to-intervention]
@@ -6425,6 +6692,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: listing
 authors: ["Cocuzza, Beth", "Noakes, Sierra", "Aso, Chioma", "Goldschmidt, Lisa", "Bennett, Kathleen", "Vollavanh, Andrew"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-promise, learning-engineering, response-to-intervention]
@@ -6449,6 +6717,7 @@ date_added: 2026-08-30
 published_date: 2026-06
 date_source: listing
 authors: ["Cocuzza, Beth", "Noakes, Sierra", "Aso, Chioma", "Goldschmidt, Lisa", "Bennett, Kathleen"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-promise, learning-engineering, response-to-intervention]
@@ -6473,6 +6742,7 @@ date_added: 2026-08-30
 published_date: 2026-06
 date_source: listing
 authors: ["Noakes, Sierra", "Pattenhouse, Megan", "Foster, AJ", "Vollavanh, Andrew"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise]
@@ -6497,6 +6767,7 @@ date_added: 2026-08-30
 published_date: 2026-06
 date_source: listing
 authors: ["Digital Promise", "1EdTech", "CAST", "CoSN", "ISTE", "SETDA"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-promise, learning-engineering, response-to-intervention]
@@ -6521,6 +6792,7 @@ date_added: 2026-08-30
 published_date: 2026-06
 date_source: listing
 authors: ["Li, Warren", "Kurimchak, Melanie", "Whitmer, John"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-promise, formative-assessment]
@@ -6545,6 +6817,7 @@ date_added: 2026-08-30
 published_date: 2026-06
 date_source: listing
 authors: ["Gartrell, James", "Johnson, Erik"]
+document_url: null
 doi: null
 license: null
 tags: [digital-promise, formative-assessment]

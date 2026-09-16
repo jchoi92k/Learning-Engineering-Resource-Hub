@@ -17,6 +17,7 @@ date_added: 2026-05-01
 published_date: 2026-04-30
 date_source: page-meta
 authors: ["Philomena V. Mantella"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, personalized-learning]
@@ -41,6 +42,7 @@ date_added: 2026-05-01
 published_date: 2026-04-27
 date_source: page-meta
 authors: ["Katharine Meyer"]
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal]
@@ -65,6 +67,7 @@ date_added: 2026-05-01
 published_date: 2026-04-14
 date_source: page-meta
 authors: ["Vivian C. Wong", "Elizabeth Tipton", "Jessaca Spybrook"]
+document_url: null
 doi: null
 license: null
 tags: [ai-policy, learning-engineering, professional-development]
@@ -89,6 +92,7 @@ date_added: 2026-05-01
 published_date: 2026-04-14
 date_source: page-meta
 authors: ["Sophia Rodriguez"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, english-learners, k-12, longitudinal]
@@ -113,6 +117,7 @@ date_added: 2026-05-01
 published_date: 2024-03-26
 date_source: page-meta
 authors: ["Paul Bruno", "Haeryun Kim"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, k-12, qualitative-research]
@@ -137,6 +142,7 @@ date_added: 2026-05-01
 published_date: 2024-02-06
 date_source: page-meta
 authors: ["Elizabeth Gellman", "Katharine Meyer"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, professional-development]
@@ -161,6 +167,7 @@ date_added: 2026-05-01
 published_date: 2024-04-09
 date_source: page-meta
 authors: ["Michael Hansen"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, k-12, longitudinal, professional-development]
@@ -185,6 +192,7 @@ date_added: 2026-05-01
 published_date: 2024-04-23
 date_source: page-meta
 authors: ["Dominique J. Baker"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, personalized-learning]
@@ -209,6 +217,7 @@ date_added: 2026-05-01
 published_date: 2024-04-09
 date_source: page-meta
 authors: ["Katharine Meyer"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed]
@@ -233,6 +242,7 @@ date_added: 2026-05-01
 published_date: 2024-03-12
 date_source: page-meta
 authors: ["Todd Grindal", "Anne Partika", "Kirby Chow"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, qualitative-research]
@@ -257,6 +267,7 @@ date_added: 2026-05-01
 published_date: 2021-07-19
 date_source: page-meta
 authors: ["Daphna Bassok", "Pamela A. Morris", "Anna J. Markowitz", "Jenna Conway"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, response-to-intervention]
@@ -281,6 +292,7 @@ date_added: 2026-05-01
 published_date: 2026-01-06
 date_source: page-meta
 authors: ["Todd Grindal", "Anne Partika", "Kirby Chow"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, meta-analysis]
@@ -305,6 +317,7 @@ date_added: 2026-05-01
 published_date: 2016-03-24
 date_source: page-meta
 authors: ["Tom Loveless"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, longitudinal, math-education]
@@ -329,6 +342,7 @@ date_added: 2026-05-01
 published_date: 2020-05-27
 date_source: page-meta
 authors: ["A. Brooks Bowden", "Rebecca Davis"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, longitudinal, math-education]
@@ -353,6 +367,7 @@ date_added: 2026-05-01
 published_date: 2022-03-03
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, longitudinal, math-education, response-to-intervention]
@@ -377,6 +392,7 @@ date_added: 2026-05-01
 published_date: 2025-02-07
 date_source: page-meta
 authors: ["Rachel M. Perera", "Melissa Kay Diliberti"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, rct, school-discipline]
@@ -401,6 +417,7 @@ date_added: 2026-05-01
 published_date: 2016-03-09
 date_source: page-meta
 authors: ["Todd Grindal", "Anne Partika", "Kirby Chow"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, english-learners, k-12, longitudinal]
@@ -425,6 +442,7 @@ date_added: 2026-05-01
 published_date: 2016-09-16
 date_source: page-meta
 authors: ["Seth Gershenson"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, qualitative-research]
@@ -449,6 +467,7 @@ date_added: 2026-05-01
 published_date: 2021-10-11
 date_source: page-meta
 authors: ["Lucy Sorensen"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, school-discipline]
@@ -473,6 +492,7 @@ date_added: 2026-05-01
 published_date: 2024-05-01
 date_source: page-meta
 authors: ["Kelli Bird", "Ben Castleman"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, computer-assisted-learning, higher-ed, k-12, longitudinal]
@@ -497,6 +517,7 @@ date_added: 2026-05-01
 published_date: 2021-05-26
 date_source: page-meta
 authors: ["Elizabeth Setren", "Nora Gordon"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, k-12, longitudinal]
@@ -521,6 +542,7 @@ date_added: 2026-05-01
 published_date: 2011-05-11
 date_source: page-meta
 authors: ["Todd Grindal", "Anne Partika", "Kirby Chow"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, meta-analysis]

@@ -17,6 +17,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal, professional-development]
@@ -41,6 +42,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, longitudinal, prekindergarten]
@@ -65,6 +67,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, prekindergarten]
@@ -89,6 +92,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, formative-assessment, k-12]
@@ -113,6 +117,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -137,6 +142,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -161,6 +167,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal]
@@ -185,6 +192,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal]
@@ -209,6 +217,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, professional-development]
@@ -233,6 +242,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, k-12]
@@ -257,6 +267,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, math-education, prekindergarten]
@@ -281,6 +292,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal]
@@ -305,6 +317,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, early-childhood, k-12, longitudinal, math-education, prekindergarten]
@@ -329,6 +342,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development]
@@ -353,6 +367,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, k-12, longitudinal]
@@ -377,6 +392,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, longitudinal, math-education]
@@ -401,6 +417,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, school-discipline]
@@ -425,6 +442,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -449,6 +467,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -473,6 +492,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, longitudinal, math-education, prekindergarten]
@@ -497,6 +517,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, sel]
@@ -521,6 +542,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -545,6 +567,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -569,6 +592,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -593,6 +617,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -617,6 +642,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal]
@@ -641,6 +667,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, formative-assessment, k-12, longitudinal]
@@ -665,6 +692,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -689,6 +717,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -713,6 +742,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, k-12, longitudinal]
@@ -761,6 +792,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, formative-assessment, k-12, longitudinal]
@@ -785,6 +817,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, formative-assessment, k-12, longitudinal]
@@ -809,6 +842,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, formative-assessment, k-12, longitudinal]
@@ -833,6 +867,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, k-12, longitudinal]
@@ -857,6 +892,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, formative-assessment, k-12, longitudinal]
@@ -881,6 +917,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, formative-assessment, k-12, longitudinal]
@@ -905,6 +942,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, formative-assessment, k-12, longitudinal]
@@ -929,6 +967,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -953,6 +992,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -977,6 +1017,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -1001,6 +1042,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, professional-development, sel]
@@ -1025,6 +1067,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, personalized-learning]
@@ -1049,6 +1092,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -1073,6 +1117,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education, math-strategies]
@@ -1097,6 +1142,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal]
@@ -1121,6 +1167,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal, math-education]
@@ -1145,6 +1192,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -1169,6 +1217,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -1193,6 +1242,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, professional-development]
@@ -1217,6 +1267,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education]
@@ -1241,6 +1292,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy]
@@ -1265,6 +1317,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development]
@@ -1289,6 +1342,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, math-education]
@@ -1313,6 +1367,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, k-12, longitudinal]
@@ -1337,6 +1392,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, longitudinal]
@@ -1361,6 +1417,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, longitudinal, math-education, prekindergarten]
@@ -1385,6 +1442,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -1409,6 +1467,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -1433,6 +1492,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, intelligent-tutoring, k-12, literacy]
@@ -1457,6 +1517,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, k-12, longitudinal, sel]
@@ -1481,6 +1542,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, longitudinal, prekindergarten]
@@ -1505,6 +1567,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, professional-development]
@@ -1529,6 +1592,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, learning-engineering]
@@ -1553,6 +1617,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -1577,6 +1642,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, learning-engineering]
@@ -1601,6 +1667,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12]
@@ -1625,6 +1692,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, sel]
@@ -1649,6 +1717,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, response-to-intervention]
@@ -1673,6 +1742,7 @@ date_added: 2026-05-13
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, open-datasets]
@@ -1697,6 +1767,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -1721,6 +1792,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1745,6 +1817,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1769,6 +1842,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1793,6 +1867,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -1817,6 +1892,7 @@ date_added: 2026-08-30
 published_date: 2026-08
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -1841,6 +1917,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, literacy, math-education]
@@ -1865,6 +1942,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -1889,6 +1967,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1913,6 +1992,7 @@ date_added: 2026-08-30
 published_date: 2026
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1937,6 +2017,7 @@ date_added: 2026-08-30
 published_date: 2026
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1961,6 +2042,7 @@ date_added: 2026-08-30
 published_date: 2026-04
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [writing-instruction]
@@ -1985,6 +2067,7 @@ date_added: 2026-08-30
 published_date: 2026-04
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, literacy, personalized-learning]
@@ -2009,6 +2092,7 @@ date_added: 2026-08-30
 published_date: 2026-04
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -2033,6 +2117,7 @@ date_added: 2026-08-30
 published_date: 2026
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, personalized-learning]
@@ -2057,6 +2142,7 @@ date_added: 2026-08-30
 published_date: 2026-03
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2081,6 +2167,7 @@ date_added: 2026-08-30
 published_date: 2026-03
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2105,6 +2192,7 @@ date_added: 2026-08-30
 published_date: 2026-02
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2129,6 +2217,7 @@ date_added: 2026-08-30
 published_date: 2026-02
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2153,6 +2242,7 @@ date_added: 2026-08-30
 published_date: 2026-01
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2177,6 +2267,7 @@ date_added: 2026-08-30
 published_date: 2025-11
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -2201,6 +2292,7 @@ date_added: 2026-08-30
 published_date: 2025-10
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2225,6 +2317,7 @@ date_added: 2026-08-30
 published_date: 2025-10
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -2249,6 +2342,7 @@ date_added: 2026-08-30
 published_date: 2025-10
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2273,6 +2367,7 @@ date_added: 2026-08-30
 published_date: 2025-10
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2297,6 +2392,7 @@ date_added: 2026-08-30
 published_date: 2025
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -2321,6 +2417,7 @@ date_added: 2026-08-30
 published_date: 2025
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2345,6 +2442,7 @@ date_added: 2026-08-30
 published_date: 2025-08
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2369,6 +2467,7 @@ date_added: 2026-08-30
 published_date: 2025-05
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education]
@@ -2393,6 +2492,7 @@ date_added: 2026-08-30
 published_date: 2025-04
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, english-learners, formative-assessment, literacy, personalized-learning]
@@ -2417,6 +2517,7 @@ date_added: 2026-08-30
 published_date: 2024-09
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -2441,6 +2542,7 @@ date_added: 2026-08-30
 published_date: 2024-08
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -2465,6 +2567,7 @@ date_added: 2026-08-30
 published_date: 2024-07
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -2489,6 +2592,7 @@ date_added: 2026-08-30
 published_date: 2024-07
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -2513,6 +2617,7 @@ date_added: 2026-08-30
 published_date: 2023-11
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -2537,6 +2642,7 @@ date_added: 2026-08-30
 published_date: 2023-07
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2561,6 +2667,7 @@ date_added: 2026-08-30
 published_date: 2023-06
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -2585,6 +2692,7 @@ date_added: 2026-08-30
 published_date: 2023-06
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -2609,6 +2717,7 @@ date_added: 2026-08-30
 published_date: 2023-02
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -2633,6 +2742,7 @@ date_added: 2026-08-30
 published_date: 2022-12
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2657,6 +2767,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -2681,6 +2792,7 @@ date_added: 2026-08-30
 published_date: 2022-10
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2705,6 +2817,7 @@ date_added: 2026-08-30
 published_date: 2022-11
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -2729,6 +2842,7 @@ date_added: 2026-08-30
 published_date: 2022-06
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, personalized-learning]
@@ -2753,6 +2867,7 @@ date_added: 2026-08-30
 published_date: 2022-06
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, formative-assessment, inclusive-design, literacy]
@@ -2777,6 +2892,7 @@ date_added: 2026-08-30
 published_date: 2022-06
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, personalized-learning, sel]
@@ -2801,6 +2917,7 @@ date_added: 2026-08-30
 published_date: 2022-02
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -2825,6 +2942,7 @@ date_added: 2026-08-30
 published_date: 2022
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -2849,6 +2967,7 @@ date_added: 2026-08-30
 published_date: 2022-06
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, inclusive-design, math-education]
@@ -2873,6 +2992,7 @@ date_added: 2026-08-30
 published_date: 2022-06
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, math-education]
@@ -2897,6 +3017,7 @@ date_added: 2026-08-30
 published_date: 2022-07
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2921,6 +3042,7 @@ date_added: 2026-08-30
 published_date: 2022-02
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2945,6 +3067,7 @@ date_added: 2026-08-30
 published_date: 2022-01
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, writing-instruction]
@@ -2969,6 +3092,7 @@ date_added: 2026-08-30
 published_date: 2021-11
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -2993,6 +3117,7 @@ date_added: 2026-08-30
 published_date: 2021-11
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3017,6 +3142,7 @@ date_added: 2026-08-30
 published_date: 2021-11
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -3041,6 +3167,7 @@ date_added: 2026-08-30
 published_date: 2021-12
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -3065,6 +3192,7 @@ date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -3089,6 +3217,7 @@ date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3113,6 +3242,7 @@ date_added: 2026-08-30
 published_date: 2022-03
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -3137,6 +3267,7 @@ date_added: 2026-08-30
 published_date: 2022-02
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, inclusive-design, literacy, math-education]
@@ -3161,6 +3292,7 @@ date_added: 2026-08-30
 published_date: 2021-08
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -3185,6 +3317,7 @@ date_added: 2026-08-30
 published_date: 2022-03
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3209,6 +3342,7 @@ date_added: 2026-08-30
 published_date: 2021-11
 date_source: page-meta
 authors: ["Fang Peng", "Kang Xue", "Carmen Hall", "John Newburn"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3233,6 +3367,7 @@ date_added: 2026-08-30
 published_date: 2022-01
 date_source: page-meta
 authors: ["Fang Peng", "Kang Xue", "Carmen Hall", "John Newburn"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3257,6 +3392,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -3281,6 +3417,7 @@ date_added: 2026-08-30
 published_date: 2019-07
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -3305,6 +3442,7 @@ date_added: 2026-08-30
 published_date: 2020-05
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3329,6 +3467,7 @@ date_added: 2026-08-30
 published_date: 2021-11
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3353,6 +3492,7 @@ date_added: 2026-08-30
 published_date: 2021-12
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3377,6 +3517,7 @@ date_added: 2026-08-30
 published_date: 2020-09
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3401,6 +3542,7 @@ date_added: 2026-08-30
 published_date: 2020-03
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -3425,6 +3567,7 @@ date_added: 2026-08-30
 published_date: 2021-11
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -3449,6 +3592,7 @@ date_added: 2026-08-30
 published_date: 2021-06
 date_source: page-meta
 authors: ["Amy Endo"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, personalized-learning, sel]
@@ -3473,6 +3617,7 @@ date_added: 2026-08-30
 published_date: 2021-09
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -3497,6 +3642,7 @@ date_added: 2026-08-30
 published_date: 2021-06
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3521,6 +3667,7 @@ date_added: 2026-08-30
 published_date: 2021-09
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -3545,6 +3692,7 @@ date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3569,6 +3717,7 @@ date_added: 2026-08-30
 published_date: 2021-08
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3593,6 +3742,7 @@ date_added: 2026-08-30
 published_date: 2021-07
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, inclusive-design, math-education, sel]
@@ -3617,6 +3767,7 @@ date_added: 2026-08-30
 published_date: 2021-07
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -3641,6 +3792,7 @@ date_added: 2026-08-30
 published_date: 2021-07
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3665,6 +3817,7 @@ date_added: 2026-08-30
 published_date: 2023
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3689,6 +3842,7 @@ date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, literacy, math-education]
@@ -3713,6 +3867,7 @@ date_added: 2026-08-30
 published_date: 2021-05
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -3737,6 +3892,7 @@ date_added: 2026-08-30
 published_date: 2019-08
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3761,6 +3917,7 @@ date_added: 2026-08-30
 published_date: 2020-10
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -3785,6 +3942,7 @@ date_added: 2026-08-30
 published_date: 2021-05
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3809,6 +3967,7 @@ date_added: 2026-08-30
 published_date: 2021-04
 date_source: page-meta
 authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, personalized-learning]
@@ -3833,6 +3992,7 @@ date_added: 2026-08-30
 published_date: 2021-02
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -3857,6 +4017,7 @@ date_added: 2026-08-30
 published_date: 2021-06
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, inclusive-design]
@@ -3881,6 +4042,7 @@ date_added: 2026-08-30
 published_date: 2021-05
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3905,6 +4067,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3929,6 +4092,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, personalized-learning]
@@ -3953,6 +4117,7 @@ date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, math-education]
@@ -3977,6 +4142,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -4001,6 +4167,7 @@ date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4025,6 +4192,7 @@ date_added: 2026-08-30
 published_date: 2025-09
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education, response-to-intervention]
@@ -4049,6 +4217,7 @@ date_added: 2026-08-30
 published_date: 2016
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4073,6 +4242,7 @@ date_added: 2026-08-30
 published_date: 2019-08
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4097,6 +4267,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -4121,6 +4292,7 @@ date_added: 2026-08-30
 published_date: 2021-03
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -4145,6 +4317,7 @@ date_added: 2026-08-30
 published_date: 2020-06
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, formative-assessment, math-education]
@@ -4169,6 +4342,7 @@ date_added: 2026-08-30
 published_date: 2016
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, personalized-learning]
@@ -4193,6 +4367,7 @@ date_added: 2026-08-30
 published_date: 2013
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -4217,6 +4392,7 @@ date_added: 2026-08-30
 published_date: 2012
 date_source: page-meta
 authors: ["Fang Peng", "Kang Xue", "Carmen Hall", "John Newburn"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -4241,6 +4417,7 @@ date_added: 2026-08-30
 published_date: 2013
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -4265,6 +4442,7 @@ date_added: 2026-08-30
 published_date: 2013
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -4289,6 +4467,7 @@ date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -4313,6 +4492,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Amy Endo"]
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -4337,6 +4517,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4361,6 +4542,7 @@ date_added: 2026-08-30
 published_date: 2020-09
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -4385,6 +4567,7 @@ date_added: 2026-08-30
 published_date: 2021-03
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -4409,6 +4592,7 @@ date_added: 2026-08-30
 published_date: 2011
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -4433,6 +4617,7 @@ date_added: 2026-08-30
 published_date: 2021-03
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -4457,6 +4642,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -4481,6 +4667,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4505,6 +4692,7 @@ date_added: 2026-08-30
 published_date: 2020-12
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -4529,6 +4717,7 @@ date_added: 2026-08-30
 published_date: 2020-11
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, math-education, sel]
@@ -4553,6 +4742,7 @@ date_added: 2026-08-30
 published_date: 2020-11
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -4577,6 +4767,7 @@ date_added: 2026-08-30
 published_date: 2020-11
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -4601,6 +4792,7 @@ date_added: 2026-08-30
 published_date: 2020-06
 date_source: page-meta
 authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4625,6 +4817,7 @@ date_added: 2026-08-30
 published_date: 2020-10
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, literacy, math-education]
@@ -4649,6 +4842,7 @@ date_added: 2026-08-30
 published_date: 2020-10
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -4673,6 +4867,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -4697,6 +4892,7 @@ date_added: 2026-08-30
 published_date: 2020-09
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -4721,6 +4917,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, response-to-intervention]
@@ -4745,6 +4942,7 @@ date_added: 2026-08-30
 published_date: 2020-09
 date_source: page-meta
 authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, sel]
@@ -4769,6 +4967,7 @@ date_added: 2026-08-30
 published_date: 2020-09
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -4793,6 +4992,7 @@ date_added: 2026-08-30
 published_date: 2020-09
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4817,6 +5017,7 @@ date_added: 2026-08-30
 published_date: 2020-09
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -4841,6 +5042,7 @@ date_added: 2026-08-30
 published_date: 2020-06
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4865,6 +5067,7 @@ date_added: 2026-08-30
 published_date: 2020-07
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -4889,6 +5092,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4913,6 +5117,7 @@ date_added: 2026-08-30
 published_date: 2020-07
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4937,6 +5142,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4961,6 +5167,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4985,6 +5192,7 @@ date_added: 2026-08-30
 published_date: 2020-06
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5009,6 +5217,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, literacy, math-education, response-to-intervention, sel]
@@ -5033,6 +5242,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, english-learners, response-to-intervention]
@@ -5057,6 +5267,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, literacy, math-education, personalized-learning]
@@ -5081,6 +5292,7 @@ date_added: 2026-08-30
 published_date: 2020-04
 date_source: page-meta
 authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -5105,6 +5317,7 @@ date_added: 2026-08-30
 published_date: 2020-04
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5129,6 +5342,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5153,6 +5367,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, math-education]
@@ -5177,6 +5392,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Amy Endo"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5201,6 +5417,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Amy Endo"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, professional-development, response-to-intervention]
@@ -5225,6 +5442,7 @@ date_added: 2026-08-30
 published_date: 2016
 date_source: page-meta
 authors: ["Amy Endo"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5249,6 +5467,7 @@ date_added: 2026-08-30
 published_date: 2017-03
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -5273,6 +5492,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Daniel Long", "Megan Kuhfeld", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5297,6 +5517,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, math-education]
@@ -5321,6 +5542,7 @@ date_added: 2026-08-30
 published_date: 2019-11
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners]
@@ -5345,6 +5567,7 @@ date_added: 2026-08-30
 published_date: 2020-03
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, sel]
@@ -5369,6 +5592,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5393,6 +5617,7 @@ date_added: 2026-08-30
 published_date: 2015
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [personalized-learning, sel]
@@ -5417,6 +5642,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, literacy, math-education, response-to-intervention]
@@ -5441,6 +5667,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Melissa Diliberti", "Andrew McEachin", "Jon Schweig", "Louis T. Mariano"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, sel]
@@ -5465,6 +5692,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -5489,6 +5717,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5513,6 +5742,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, literacy, math-education]
@@ -5537,6 +5767,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -5561,6 +5792,7 @@ date_added: 2026-08-30
 published_date: 2020
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5585,6 +5817,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, literacy, math-education, sel]
@@ -5609,6 +5842,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5633,6 +5867,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners]
@@ -5657,6 +5892,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5681,6 +5917,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Emily Morton", "Megan Kuhfeld", "Ayesha K. Hashim", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5705,6 +5942,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5729,6 +5967,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Amy Endo"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -5753,6 +5992,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5777,6 +6017,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5801,6 +6042,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5825,6 +6067,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5849,6 +6092,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5873,6 +6117,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5897,6 +6142,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5921,6 +6167,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5945,6 +6192,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, sel]
@@ -5969,6 +6217,7 @@ date_added: 2026-08-30
 published_date: 2014
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -5993,6 +6242,7 @@ date_added: 2026-08-30
 published_date: 2015
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -6017,6 +6267,7 @@ date_added: 2026-08-30
 published_date: 2015
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6041,6 +6292,7 @@ date_added: 2026-08-30
 published_date: 2016
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [personalized-learning, sel]
@@ -6065,6 +6317,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, sel]
@@ -6089,6 +6342,7 @@ date_added: 2026-08-30
 published_date: 2016
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -6113,6 +6367,7 @@ date_added: 2026-08-30
 published_date: 2015
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -6137,6 +6392,7 @@ date_added: 2026-08-30
 published_date: 2013
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, sel]
@@ -6161,6 +6417,7 @@ date_added: 2026-08-30
 published_date: 2015
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, inclusive-design, sel]
@@ -6185,6 +6442,7 @@ date_added: 2026-08-30
 published_date: 2019-07
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6209,6 +6467,7 @@ date_added: 2026-08-30
 published_date: 2015
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners, literacy]
@@ -6233,6 +6492,7 @@ date_added: 2026-08-30
 published_date: 2015
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6257,6 +6517,7 @@ date_added: 2026-08-30
 published_date: 2014
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6281,6 +6542,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -6305,6 +6567,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -6329,6 +6592,7 @@ date_added: 2026-08-30
 published_date: 2014
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -6353,6 +6617,7 @@ date_added: 2026-08-30
 published_date: 2015
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -6377,6 +6642,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, learning-engineering]
@@ -6401,6 +6667,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -6425,6 +6692,7 @@ date_added: 2026-08-30
 published_date: 2017
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -6449,6 +6717,7 @@ date_added: 2026-08-30
 published_date: 2014
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6473,6 +6742,7 @@ date_added: 2026-08-30
 published_date: 2013
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6497,6 +6767,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6521,6 +6792,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, sel]
@@ -6545,6 +6817,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6569,6 +6842,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -6593,6 +6867,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Daniel Long", "Megan Kuhfeld", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -6617,6 +6892,7 @@ date_added: 2026-08-30
 published_date: 2010
 date_source: page-meta
 authors: ["Emily Morton", "Megan Kuhfeld", "Ayesha K. Hashim", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [personalized-learning]
@@ -6641,6 +6917,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -6665,6 +6942,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners]
@@ -6689,6 +6967,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, k-12]
@@ -6713,6 +6992,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -6737,6 +7017,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -6761,6 +7042,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, math-education]
@@ -6785,6 +7067,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development, response-to-intervention]
@@ -6809,6 +7092,7 @@ date_added: 2026-08-30
 published_date: 2013
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -6833,6 +7117,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -6857,6 +7142,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Wei He"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -6881,6 +7167,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Ayesha K. Hashim"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -6905,6 +7192,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners]
@@ -6929,6 +7217,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Amy Endo"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -6953,6 +7242,7 @@ date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
 authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, sel]
@@ -6977,6 +7267,7 @@ date_added: 2026-08-30
 published_date: 2018
 date_source: page-meta
 authors: ["Naomi Duran", "Susan Kowalski"]
+document_url: null
 doi: null
 license: null
 tags: []

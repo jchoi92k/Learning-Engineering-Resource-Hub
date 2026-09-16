@@ -17,6 +17,7 @@ date_added: 2026-05-10
 published_date: 2026-05
 date_source: listing
 authors: ["Christopher Young", "Holly Hart", "Luvuyo Magwaza", "Gregory Pollard"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal, sel, student-belonging]
@@ -41,6 +42,7 @@ date_added: 2026-05-10
 published_date: 2026-04
 date_source: listing
 authors: ["Shanette Porter", "Rosa Ramirez Richter", "Marisa de la Torre", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, professional-development]
@@ -65,6 +67,7 @@ date_added: 2026-05-10
 published_date: 2026-04
 date_source: listing
 authors: ["Elaine Allensworth", "Alex Gordon", "Christopher Young"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, english-learners, formative-assessment, k-12, literacy, longitudinal]
@@ -89,6 +92,7 @@ date_added: 2026-05-10
 published_date: 2026-03
 date_source: listing
 authors: ["Faye S. Kroshinsky", "Mary Ann Pitcher", "Jackson Overton-Clark", "Shanette Porter"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, professional-development, qualitative-research, student-belonging]
@@ -113,6 +117,7 @@ date_added: 2026-05-10
 published_date: 2026-03
 date_source: listing
 authors: ["David W. Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, qualitative-research, school-discipline, sel, student-belonging]
@@ -137,6 +142,7 @@ date_added: 2026-05-10
 published_date: 2026-01
 date_source: listing
 authors: ["Elaine Allensworth", "Meril Antony", "William Delgado", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, k-12, longitudinal, sel, student-belonging]
@@ -161,6 +167,7 @@ date_added: 2026-05-10
 published_date: 2025-12
 date_source: listing
 authors: ["Sarah Cashdollar", "Meg Bates", "Jenny Nagaoka", "Erin Mitchell", "Caitlin Clinton"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, dropout-prevention, higher-ed, k-12, longitudinal]
@@ -185,6 +192,7 @@ date_added: 2026-05-10
 published_date: 2025-12
 date_source: listing
 authors: ["Shelby Mahaffie", "Alexandra Usher", "Jenny Nagaoka", "Dominique McKoy"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, higher-ed, k-12, longitudinal]
@@ -209,6 +217,7 @@ date_added: 2026-05-10
 published_date: 2025-11
 date_source: listing
 authors: ["Shanette Porter"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, professional-development, qualitative-research]
@@ -233,6 +242,7 @@ date_added: 2026-05-10
 published_date: 2025-11
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, dropout-prevention, formative-assessment, k-12, professional-development]
@@ -257,6 +267,7 @@ date_added: 2026-05-10
 published_date: 2010-01
 date_source: listing
 authors: ["Anthony S. Bryk", "Elaine Allensworth", "John Q. Easton", "Penny Bender Sebring", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, longitudinal, math-education, professional-development]
@@ -281,6 +292,7 @@ date_added: 2026-05-10
 published_date: 2015-06
 date_source: listing
 authors: ["Jenny Nagaoka", "Camille Farrington", "Stacy B. Ehrlich", "Ryan D. Heath", "David W. Johnson", "Sarah Dickson", "Ashley Cureton Turner", "Ashley Mayo", "Kathleen Hayes"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, early-childhood, k-12, sel, student-belonging]
@@ -305,6 +317,7 @@ date_added: 2026-05-10
 published_date: 2018-10
 date_source: listing
 authors: ["Elaine Allensworth", "Camille Farrington", "Molly F. Gordon", "David W. Johnson", "Kylie Klein", "Bronwyn McDaniel", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, professional-development, sel, student-belonging]
@@ -329,6 +342,7 @@ date_added: 2026-05-10
 published_date: 2025-07
 date_source: listing
 authors: ["Elaine Allensworth", "Marisa de la Torre", "Kaitlyn Franklin", "Jinqing Xu"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, english-learners, formative-assessment, k-12, longitudinal]
@@ -353,6 +367,7 @@ date_added: 2026-05-10
 published_date: 2025-06
 date_source: listing
 authors: ["Roy McKenzie", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal, professional-development]
@@ -377,6 +392,7 @@ date_added: 2026-05-10
 published_date: 2025-06
 date_source: listing
 authors: ["William Delgado"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, professional-development]
@@ -401,6 +417,7 @@ date_added: 2026-05-10
 published_date: 2025-04
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, dropout-prevention, formative-assessment, k-12, longitudinal]
@@ -425,6 +442,7 @@ date_added: 2026-05-10
 published_date: 2025-03
 date_source: listing
 authors: ["Jared N. Schachner", "Nicole P. Marwell", "Marisa de la Torre", "Julia A. Gwynne", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, k-12, longitudinal]
@@ -449,6 +467,7 @@ date_added: 2026-05-10
 published_date: 2025-02
 date_source: listing
 authors: ["Julia A. Gwynne", "Elaine Allensworth", "Christopher Young", "Holly Hart"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, digital-learning-platforms, k-12, longitudinal, sel, student-belonging]
@@ -473,6 +492,7 @@ date_added: 2026-05-10
 published_date: 2025-01
 date_source: listing
 authors: ["Shanette Porter", "Andria Shyjka", "Karina Kling"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, qualitative-research, sel, student-belonging]
@@ -497,6 +517,7 @@ date_added: 2026-05-10
 published_date: 2024-11
 date_source: listing
 authors: ["Marisa de la Torre", "Alyssa Blanchard", "Kaitlyn Franklin", "Carlos Angeles", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, english-learners, k-12, longitudinal]
@@ -521,6 +542,7 @@ date_added: 2026-05-10
 published_date: 2024-10
 date_source: listing
 authors: ["Shelby Mahaffie", "Alexandra Usher", "Jenny Nagaoka", "Dominique McKoy"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, higher-ed, k-12, longitudinal]
@@ -545,6 +567,7 @@ date_added: 2026-05-10
 published_date: 2024-10
 date_source: listing
 authors: ["Shelby Mahaffie", "Jenny Nagaoka", "Alexandra Usher"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, longitudinal]
@@ -569,6 +592,7 @@ date_added: 2026-05-10
 published_date: 2024-06
 date_source: listing
 authors: ["Amy Arneson", "Rebecca Hinze-Pifer", "Kaitlyn Franklin", "David W. Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, school-discipline, student-belonging]
@@ -593,6 +617,7 @@ date_added: 2026-05-10
 published_date: 2024-06
 date_source: listing
 authors: ["David W. Johnson", "Rebecca Hinze-Pifer", "David Orta", "Samantha Guz"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, school-discipline, sel, student-belonging]
@@ -617,6 +642,7 @@ date_added: 2026-05-10
 published_date: 2024-05
 date_source: listing
 authors: ["Kirabo Jackson", "Shanette Porter", "John Q. Easton", "Sebastián Kiguel"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, k-12, longitudinal]
@@ -641,6 +667,7 @@ date_added: 2026-05-10
 published_date: 2023-12
 date_source: listing
 authors: ["Jenny Nagaoka", "Shelby Mahaffie", "Alexandra Usher", "Amy Arneson"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, longitudinal]
@@ -665,6 +692,7 @@ date_added: 2026-05-10
 published_date: 2025-06
 date_source: listing
 authors: ["Rosa Ramirez Richter", "Jessica Tansey"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, professional-development]
@@ -689,6 +717,7 @@ date_added: 2026-05-10
 published_date: 2025-03
 date_source: listing
 authors: ["Rosa Ramirez Richter", "Alexandra Usher", "Jessica Tansey", "Dominique McKoy"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, formative-assessment, k-12]
@@ -713,6 +742,7 @@ date_added: 2026-05-10
 published_date: 2024-06
 date_source: listing
 authors: ["Rosa Ramirez Richter", "Vanessa Gutiérrez", "Jessica Tansey", "Gregory Pollard", "Chen An"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, school-discipline, sel, student-belonging]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: 2009-02
 date_source: listing
 authors: ["John Q. Easton", "Melissa Roderick", "Penny Bender Sebring"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, professional-development]
@@ -761,6 +792,7 @@ date_added: 2026-08-30
 published_date: 2026-07
 date_source: listing
 authors: ["William Delgado", "Lauren Sartain"]
+document_url: null
 doi: null
 license: null
 tags: [sel, writing-instruction]
@@ -785,6 +817,7 @@ date_added: 2026-08-30
 published_date: 2026-06
 date_source: listing
 authors: ["Laura Davis", "Julia A. Gwynne"]
+document_url: null
 doi: null
 license: null
 tags: [literacy]
@@ -809,6 +842,7 @@ date_added: 2026-08-30
 published_date: 2026-06
 date_source: listing
 authors: ["Shanette Porter", "Jessica Tansey", "Nina Ryan", "Rosa Ramirez Richter", "Andria Shyjka", "Vanessa Gutiérrez"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -833,6 +867,7 @@ date_added: 2026-08-30
 published_date: 2024-02
 date_source: listing
 authors: ["Sharon Greenberg", "Anthony S. Bryk"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -857,6 +892,7 @@ date_added: 2026-08-30
 published_date: 2024-01
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -881,6 +917,7 @@ date_added: 2026-08-30
 published_date: 2023-10
 date_source: listing
 authors: ["Alexandra Usher", "Shelby Mahaffie", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, math-education]
@@ -905,6 +942,7 @@ date_added: 2026-08-30
 published_date: 2023-09
 date_source: listing
 authors: ["Jennifer R. Cowhy", "Molly F. Gordon", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -929,6 +967,7 @@ date_added: 2026-08-30
 published_date: 2023-09
 date_source: listing
 authors: ["Sebastián Kiguel"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, dropout-prevention]
@@ -953,6 +992,7 @@ date_added: 2026-08-30
 published_date: 2023-09
 date_source: listing
 authors: ["William Delgado"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, professional-development, sel]
@@ -977,6 +1017,7 @@ date_added: 2026-08-30
 published_date: 2023-09
 date_source: listing
 authors: ["Sireen Irsheid"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, learning-engineering, sel]
@@ -1001,6 +1042,7 @@ date_added: 2026-08-30
 published_date: 2023-09
 date_source: listing
 authors: ["Steven Rivkin", "Lauren Sartain", "Jeffrey Schiman"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -1025,6 +1067,7 @@ date_added: 2026-08-30
 published_date: 2023-08
 date_source: listing
 authors: ["Elaine Allensworth", "Laura M. Desimone", "Latrice Marianno"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1049,6 +1092,7 @@ date_added: 2026-08-30
 published_date: 2023-06
 date_source: listing
 authors: ["John Q. Easton", "Briana Diaz"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1073,6 +1117,7 @@ date_added: 2026-08-30
 published_date: 2023-04
 date_source: listing
 authors: ["Anthony S. Bryk", "Sharon Greenberg", "Albert Bertani", "Penny Bender Sebring", "Steven Tozer", "Timothy Knowles"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1097,6 +1142,7 @@ date_added: 2026-08-30
 published_date: 2023-04
 date_source: listing
 authors: ["Shanette Porter", "Kirabo Jackson", "Sebastián Kiguel", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1121,6 +1167,7 @@ date_added: 2026-08-30
 published_date: 2023-04
 date_source: listing
 authors: ["Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy]
@@ -1145,6 +1192,7 @@ date_added: 2026-08-30
 published_date: 2023-02
 date_source: listing
 authors: ["Shelby Mahaffie", "May Malone", "Alexandra Usher", "Drew Mukherjee", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, math-education]
@@ -1169,6 +1217,7 @@ date_added: 2026-08-30
 published_date: 2023-01
 date_source: listing
 authors: ["Molly F. Gordon", "Angel X. Bohannon", "John Q. Easton", "Alyssa Blanchard", "Lauren Sartain"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -1193,6 +1242,7 @@ date_added: 2026-08-30
 published_date: 2022-12
 date_source: listing
 authors: ["Sarah Gripshover", "Allison Londerée", "Isaac Ahuvia", "Andria Shyjka", "Faye S. Kroshinsky", "Nina Ryan", "Camille Farrington", "David Paunesku"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering, math-education]
@@ -1217,6 +1267,7 @@ date_added: 2026-08-30
 published_date: 2022-10
 date_source: listing
 authors: ["Alex Seeskin", "Thomas Massion", "Alexandra Usher"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access]
@@ -1241,6 +1292,7 @@ date_added: 2026-08-30
 published_date: 2022-09
 date_source: listing
 authors: ["Julia A. Gwynne", "Elaine Allensworth", "Yunzhen (Amy) Liang"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, computer-assisted-learning, english-learners, literacy]
@@ -1265,6 +1317,7 @@ date_added: 2026-08-30
 published_date: 2022-05
 date_source: listing
 authors: ["Elaine Allensworth", "Sarah Cashdollar", "Amy Cassata", "Julia A. Gwynne", "Jeanne Century", "Debbie Leslie", "Lisa Sall", "Nick Tallant"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, math-education]
@@ -1289,6 +1342,7 @@ date_added: 2026-08-30
 published_date: 2022-05
 date_source: listing
 authors: ["Andria Shyjka", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1313,6 +1367,7 @@ date_added: 2026-08-30
 published_date: 2022-04
 date_source: listing
 authors: ["David Orta", "Vanessa Gutiérrez"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1337,6 +1392,7 @@ date_added: 2026-08-30
 published_date: 2022-04
 date_source: listing
 authors: ["Elaine Allensworth", "Sarah Cashdollar", "Amy Cassata"]
+document_url: null
 doi: null
 license: null
 tags: [k-12, math-education]
@@ -1361,6 +1417,7 @@ date_added: 2026-08-30
 published_date: 2022-02
 date_source: listing
 authors: ["Stacy B. Ehrlich", "Elaine Allensworth", "Jessica Tansey"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -1385,6 +1442,7 @@ date_added: 2026-08-30
 published_date: 2022-01
 date_source: listing
 authors: ["Briana Diaz", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1409,6 +1467,7 @@ date_added: 2026-08-30
 published_date: 2022-01
 date_source: listing
 authors: ["Molly F. Gordon", "Holly Hart"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -1433,6 +1492,7 @@ date_added: 2026-08-30
 published_date: 2021-12
 date_source: listing
 authors: ["May Malone", "Shelby Mahaffie", "Gisselle Hernandez", "Alexandra Usher", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1457,6 +1517,7 @@ date_added: 2026-08-30
 published_date: 2021-12
 date_source: listing
 authors: ["Laura Davis", "Andria Shyjka", "Holly Hart", "Vanessa Gutiérrez", "Naureen Kheraj", "Christopher Young", "Alicia Chen", "Elaine Allensworth", "Andrew Zou"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access]
@@ -1481,6 +1542,7 @@ date_added: 2026-08-30
 published_date: 2021-11
 date_source: listing
 authors: ["Dominique McKoy", "Alexandra Usher", "Jenny Nagaoka", "Sanya Khatri"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1505,6 +1567,7 @@ date_added: 2026-08-30
 published_date: 2021-10
 date_source: listing
 authors: ["Jeffrey Schiman"]
+document_url: null
 doi: null
 license: null
 tags: [personalized-learning]
@@ -1529,6 +1592,7 @@ date_added: 2026-08-30
 published_date: 2021-09
 date_source: listing
 authors: ["Marisa de la Torre", "Silvana Freire", "Alyssa Blanchard"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, english-learners, sel]
@@ -1553,6 +1617,7 @@ date_added: 2026-08-30
 published_date: 2021-09
 date_source: listing
 authors: ["Melissa Roderick", "Thomas Kelley-Kemple", "David W. Johnson", "Susan Ryan"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, dropout-prevention, learning-engineering]
@@ -1577,6 +1642,7 @@ date_added: 2026-08-30
 published_date: 2021-07
 date_source: listing
 authors: ["Andria Shyjka"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -1601,6 +1667,7 @@ date_added: 2026-08-30
 published_date: 2021-06
 date_source: listing
 authors: ["Maia C. Connors", "Stacy B. Ehrlich", "Amanda G. Stein", "John Francis", "John Q. Easton", "Sarah E. Kabourek"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, early-childhood, literacy, math-education]
@@ -1625,6 +1692,7 @@ date_added: 2026-08-30
 published_date: 2021-06
 date_source: listing
 authors: ["Amy Cassata", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, math-education]
@@ -1649,6 +1717,7 @@ date_added: 2026-08-30
 published_date: 2021-05
 date_source: listing
 authors: ["Jenny Nagaoka", "Jee Sun Lee", "Alexandra Usher", "Alex Seeskin"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1673,6 +1742,7 @@ date_added: 2026-08-30
 published_date: 2021-04
 date_source: listing
 authors: ["Jenny Nagaoka", "Shelby Mahaffie", "Alexandra Usher", "Alex Seeskin"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1697,6 +1767,7 @@ date_added: 2026-08-30
 published_date: 2021-02
 date_source: listing
 authors: ["Elaine Allensworth", "Sarah Cashdollar", "Julia A. Gwynne"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -1721,6 +1792,7 @@ date_added: 2026-08-30
 published_date: 2021-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1745,6 +1817,7 @@ date_added: 2026-08-30
 published_date: 2020-12
 date_source: listing
 authors: ["Elaine Allensworth", "James Sebastian", "Molly F. Gordon"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -1769,6 +1842,7 @@ date_added: 2026-08-30
 published_date: 2020-12
 date_source: listing
 authors: ["Jenny Nagaoka", "Shelby Mahaffie", "Alexandra Usher", "Alex Seeskin"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1793,6 +1867,7 @@ date_added: 2026-08-30
 published_date: 2020-12
 date_source: listing
 authors: ["Jenny Nagaoka", "Shelby Mahaffie"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1817,6 +1892,7 @@ date_added: 2026-08-30
 published_date: 2020-12
 date_source: listing
 authors: ["Elaine Allensworth", "Andrew Zou"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood, formative-assessment, writing-instruction]
@@ -1841,6 +1917,7 @@ date_added: 2026-08-30
 published_date: 2020-11
 date_source: listing
 authors: ["Laura Wentworth", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1865,6 +1942,7 @@ date_added: 2026-08-30
 published_date: 2020-11
 date_source: listing
 authors: ["David Paunesku", "Camille Farrington"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -1889,6 +1967,7 @@ date_added: 2026-08-30
 published_date: 2020-10
 date_source: listing
 authors: ["Kirabo Jackson", "Shanette Porter", "John Q. Easton", "Alyssa Blanchard", "Sebastián Kiguel"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, formative-assessment, sel]
@@ -1913,6 +1992,7 @@ date_added: 2026-08-30
 published_date: 2020-10
 date_source: listing
 authors: ["Stacy B. Ehrlich", "Maia C. Connors", "Amanda G. Stein", "John Francis", "John Q. Easton", "Sarah E. Kabourek", "Isabel C. Farrar"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -1937,6 +2017,7 @@ date_added: 2026-08-30
 published_date: 2020-10
 date_source: listing
 authors: ["Maia C. Connors", "Isabel C. Farrar", "Amanda G. Stein", "Stacy B. Ehrlich", "John Francis", "Sarah E. Kabourek", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering, sel]
@@ -1961,6 +2042,7 @@ date_added: 2026-08-30
 published_date: 2020-10
 date_source: listing
 authors: ["Lisa Barrow", "Lauren Sartain", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -1985,6 +2067,7 @@ date_added: 2026-08-30
 published_date: 2020-08
 date_source: listing
 authors: ["Alex Seeskin", "Shelby Mahaffie", "Alexandra Usher"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2009,6 +2092,7 @@ date_added: 2026-08-30
 published_date: 2020-08
 date_source: listing
 authors: ["Holly Hart", "Christopher Young", "Alicia Chen", "Andrew Zou", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, literacy, math-education]
@@ -2033,6 +2117,7 @@ date_added: 2026-08-30
 published_date: 2020-06
 date_source: listing
 authors: ["Lisa Barrow", "Silvana Freire", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12]
@@ -2057,6 +2142,7 @@ date_added: 2026-08-30
 published_date: 2020-06
 date_source: listing
 authors: ["Elaine Allensworth", "Nate Schwartz"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, response-to-intervention]
@@ -2081,6 +2167,7 @@ date_added: 2026-08-30
 published_date: 2020-06
 date_source: listing
 authors: ["Nicole Williams Beechum"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, inclusive-design, math-education]
@@ -2105,6 +2192,7 @@ date_added: 2026-08-30
 published_date: 2020-03
 date_source: listing
 authors: ["Lauren Sartain", "Andrew Zou", "Vanessa Gutiérrez", "Andria Shyjka", "Ebony Hinton", "Eric R. Brown", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2129,6 +2217,7 @@ date_added: 2026-08-30
 published_date: 2020-02
 date_source: listing
 authors: ["Kirabo Jackson", "Shanette Porter", "John Q. Easton", "Alyssa Blanchard", "Sebastián Kiguel"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, formative-assessment, math-education, sel]
@@ -2153,6 +2242,7 @@ date_added: 2026-08-30
 published_date: 2020-01
 date_source: listing
 authors: ["Elaine Allensworth", "Kallie Clark"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2177,6 +2267,7 @@ date_added: 2026-08-30
 published_date: 2020-01
 date_source: listing
 authors: ["Camille Farrington", "Steve Shewfelt"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, sel]
@@ -2201,6 +2292,7 @@ date_added: 2026-08-30
 published_date: 2019-12
 date_source: listing
 authors: ["Marisa de la Torre", "Alyssa Blanchard", "Elaine Allensworth", "Silvana Freire"]
+document_url: null
 doi: null
 license: null
 tags: [english-learners]
@@ -2225,6 +2317,7 @@ date_added: 2026-08-30
 published_date: 2019-11
 date_source: listing
 authors: ["Dagmar Raczynski", "Penny Bender Sebring", "José Weinstein", "Molly F. Gordon"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2249,6 +2342,7 @@ date_added: 2026-08-30
 published_date: 2019-11
 date_source: listing
 authors: ["Jenny Nagaoka", "Alex Seeskin"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2273,6 +2367,7 @@ date_added: 2026-08-30
 published_date: 2019-10
 date_source: listing
 authors: ["Camille Farrington", "Shanette Porter", "Joshua Klugman"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2297,6 +2392,7 @@ date_added: 2026-08-30
 published_date: 2019-09
 date_source: listing
 authors: ["James Sebastian", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2321,6 +2417,7 @@ date_added: 2026-08-30
 published_date: 2019-08
 date_source: listing
 authors: ["Elaine Allensworth", "Kallie Clark"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2345,6 +2442,7 @@ date_added: 2026-08-30
 published_date: 2019-08
 date_source: listing
 authors: ["Camille Farrington"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, sel]
@@ -2369,6 +2467,7 @@ date_added: 2026-08-30
 published_date: 2019-06
 date_source: listing
 authors: ["Camille Farrington", "Joseph Maurer", "Meredith R. Aska McBride", "Jenny Nagaoka", "Jessica Puller", "Steve Shewfelt", "Elizabeth Weiss", "Lindsay Wright"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -2393,6 +2492,7 @@ date_added: 2026-08-30
 published_date: 2019-05
 date_source: listing
 authors: ["Lisa Barrow", "Lauren Sartain"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -2417,6 +2517,7 @@ date_added: 2026-08-30
 published_date: 2019-04
 date_source: listing
 authors: ["Anna Bruzgulis", "Holly Hart", "Christopher Young"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2441,6 +2542,7 @@ date_added: 2026-08-30
 published_date: 2019-03
 date_source: listing
 authors: ["Nicole Williams Beechum", "Camille Farrington"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, sel]
@@ -2465,6 +2567,7 @@ date_added: 2026-08-30
 published_date: 2019-01
 date_source: listing
 authors: ["Camille Farrington"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access]
@@ -2489,6 +2592,7 @@ date_added: 2026-08-30
 published_date: 2018-12
 date_source: listing
 authors: ["Stacy B. Ehrlich", "Debra M. Pacchiano", "Amanda G. Stein", "Maureen R. Wagner", "Sangyoon Park", "Elizabeth Frank", "Stuart Luppescu", "Christopher Young"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -2513,6 +2617,7 @@ date_added: 2026-08-30
 published_date: 2018-12
 date_source: listing
 authors: ["Debra M. Pacchiano", "Maureen R. Wagner", "Holly Lewandowski", "Stacy B. Ehrlich", "Amanda G. Stein"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering]
@@ -2537,6 +2642,7 @@ date_added: 2026-08-30
 published_date: 2018-11
 date_source: listing
 authors: ["Melissa Roderick", "Matthew A. Holsapple", "Kallie Clark", "Thomas Kelley-Kemple"]
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -2561,6 +2667,7 @@ date_added: 2026-08-30
 published_date: 2018-10
 date_source: listing
 authors: ["Jenny Nagaoka", "Alex Seeskin"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -2585,6 +2692,7 @@ date_added: 2026-08-30
 published_date: 2018-10
 date_source: listing
 authors: ["Alex Seeskin", "Jenny Nagaoka", "Shelby Mahaffie"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2609,6 +2717,7 @@ date_added: 2026-08-30
 published_date: 2018-10
 date_source: listing
 authors: ["Eliza Moeller", "Alex Seeskin", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2633,6 +2742,7 @@ date_added: 2026-08-30
 published_date: 2018-10
 date_source: listing
 authors: ["James Sebastian", "Elaine Allensworth", "Wolfgang Wiedermann", "Craig Hochbein", "Matthew Cunningham"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2657,6 +2767,7 @@ date_added: 2026-08-30
 published_date: 2018-09
 date_source: listing
 authors: ["Julia A. Gwynne", "Sarah Cashdollar"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, professional-development]
@@ -2681,6 +2792,7 @@ date_added: 2026-08-30
 published_date: 2018-08
 date_source: listing
 authors: ["Molly F. Gordon", "Jennie Y. Jiang", "Kavita Kapadia Matsko", "Matthew Ronfeldt", "Hillary Greene Nolan", "Michelle Reininger"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2705,6 +2817,7 @@ date_added: 2026-08-30
 published_date: 2018-08
 date_source: listing
 authors: ["Lisa Barrow", "Lauren Sartain", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -2729,6 +2842,7 @@ date_added: 2026-08-30
 published_date: 2018-07
 date_source: listing
 authors: ["Angeline K. Spain", "Stacy B. Ehrlich", "Jennifer R. Cowhy", "Denali K. Dasgupta", "Tracey Lockaby"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -2753,6 +2867,7 @@ date_added: 2026-08-30
 published_date: 2018-07
 date_source: listing
 authors: ["Jordan Rickles", "Jessica B. Heppen", "Elaine Allensworth", "Nicholas Sorensen", "Kirk Walters"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, dropout-prevention, math-education]
@@ -2777,6 +2892,7 @@ date_added: 2026-08-30
 published_date: 2018-05
 date_source: listing
 authors: ["Molly F. Gordon", "Marisa de la Torre", "Jennifer R. Cowhy", "Paul T. Moore", "Lauren Sartain", "David Knight"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -2801,6 +2917,7 @@ date_added: 2026-08-30
 published_date: 2018-04
 date_source: listing
 authors: ["Stacy B. Ehrlich", "Julia A. Gwynne", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -2825,6 +2942,7 @@ date_added: 2026-08-30
 published_date: 2018-04
 date_source: listing
 authors: ["Elaine Allensworth", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [writing-instruction]
@@ -2849,6 +2967,7 @@ date_added: 2026-08-30
 published_date: 2018-04
 date_source: listing
 authors: ["Elaine Allensworth", "Kallie Clark"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, formative-assessment]
@@ -2873,6 +2992,7 @@ date_added: 2026-08-30
 published_date: 2018-04
 date_source: listing
 authors: ["Elaine Allensworth", "Jenny Nagaoka", "David W. Johnson"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -2897,6 +3017,7 @@ date_added: 2026-08-30
 published_date: 2018-03
 date_source: listing
 authors: ["Stacy B. Ehrlich", "Debra M. Pacchiano", "Amanda G. Stein", "Maureen R. Wagner", "Stuart Luppescu", "Sangyoon Park", "Elizabeth Frank", "Holly Lewandowski", "Christopher Young"]
+document_url: null
 doi: null
 license: null
 tags: [early-childhood]
@@ -2921,6 +3042,7 @@ date_added: 2026-08-30
 published_date: 2018-03
 date_source: listing
 authors: ["Elaine Allensworth", "Holly Hart"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2945,6 +3067,7 @@ date_added: 2026-08-30
 published_date: 2018-02
 date_source: listing
 authors: ["Lisa Barrow", "Lauren Sartain", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -2969,6 +3092,7 @@ date_added: 2026-08-30
 published_date: 2018-02
 date_source: listing
 authors: ["Rekha Balu", "Stacy B. Ehrlich"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -2993,6 +3117,7 @@ date_added: 2026-08-30
 published_date: 2018-02
 date_source: listing
 authors: ["Rebecca Hinze-Pifer", "Lauren Sartain"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3017,6 +3142,7 @@ date_added: 2026-08-30
 published_date: 2017-12
 date_source: listing
 authors: ["Camille Farrington"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3041,6 +3167,7 @@ date_added: 2026-08-30
 published_date: 2017-11
 date_source: listing
 authors: ["Julia A. Gwynne", "Paul T. Moore"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3065,6 +3192,7 @@ date_added: 2026-08-30
 published_date: 2017-10
 date_source: listing
 authors: ["Jenny Nagaoka", "Alex Seeskin", "Vanessa M. Coca"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -3089,6 +3217,7 @@ date_added: 2026-08-30
 published_date: 2017-10
 date_source: listing
 authors: ["Vanessa M. Coca", "Jenny Nagaoka", "Alex Seeskin"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3113,6 +3242,7 @@ date_added: 2026-08-30
 published_date: 2017-10
 date_source: listing
 authors: ["Jennifer R. Cowhy", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3137,6 +3267,7 @@ date_added: 2026-08-30
 published_date: 2017-09
 date_source: listing
 authors: ["John Q. Easton", "Esperanza Johnson", "Lauren Sartain"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3161,6 +3292,7 @@ date_added: 2026-08-30
 published_date: 2017-07
 date_source: listing
 authors: ["Lauren Sartain", "Lisa Barrow"]
+document_url: null
 doi: null
 license: null
 tags: [writing-instruction]
@@ -3185,6 +3317,7 @@ date_added: 2026-08-30
 published_date: 2017-04
 date_source: listing
 authors: ["Elaine Allensworth", "Haigen Huang", "James Sebastian"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3209,6 +3342,7 @@ date_added: 2026-08-30
 published_date: 2017-03
 date_source: listing
 authors: ["Jennifer R. Cowhy", "Julia A. Gwynne"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -3233,6 +3367,7 @@ date_added: 2026-08-30
 published_date: 2017-03
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -3257,6 +3392,7 @@ date_added: 2026-08-30
 published_date: 2017-03
 date_source: listing
 authors: ["Carrie Scholz", "Stacy B. Ehrlich", "Erin Roth"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3281,6 +3417,7 @@ date_added: 2026-08-30
 published_date: 2017-02
 date_source: listing
 authors: ["Jenny Nagaoka", "Matthew A. Holsapple"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3305,6 +3442,7 @@ date_added: 2026-08-30
 published_date: 2016-12
 date_source: listing
 authors: ["Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -3329,6 +3467,7 @@ date_added: 2026-08-30
 published_date: 2016-11
 date_source: listing
 authors: ["Lauren Sartain", "Lisa Barrow", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3353,6 +3492,7 @@ date_added: 2026-08-30
 published_date: 2016-11
 date_source: listing
 authors: ["Eliza Moeller", "Jenny Nagaoka", "Latesha Dickerson", "Mary Ann Pitcher", "Nicole Williams Beechum", "Sarah J. Duncan"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, professional-development]
@@ -3377,6 +3517,7 @@ date_added: 2026-08-30
 published_date: 2016-10
 date_source: listing
 authors: ["Elaine Allensworth", "Shayne Evans"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, dropout-prevention, learning-engineering]
@@ -3401,6 +3542,7 @@ date_added: 2026-08-30
 published_date: 2016-10
 date_source: listing
 authors: ["Elaine Allensworth", "Haigen Huang", "James Sebastian"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -3425,6 +3567,7 @@ date_added: 2026-08-30
 published_date: 2016-10
 date_source: listing
 authors: ["Elaine Allensworth", "Lauren Sartain", "Marisa de la Torre", "Paul T. Moore"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -3449,6 +3592,7 @@ date_added: 2026-08-30
 published_date: 2016-09
 date_source: listing
 authors: ["Jenny Nagaoka", "Matthew A. Holsapple", "Melissa Roderick"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3473,6 +3617,7 @@ date_added: 2026-08-30
 published_date: 2016-08
 date_source: listing
 authors: ["Susan E. Sporte", "Jennie Y. Jiang"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3497,6 +3642,7 @@ date_added: 2026-08-30
 published_date: 2016-08
 date_source: listing
 authors: ["Lauren Sartain", "Matthew P. Steinberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3521,6 +3667,7 @@ date_added: 2026-08-30
 published_date: 2016-07
 date_source: listing
 authors: ["Amber Stitziel Pareja", "Bradford R. White", "Brenda K. Klostermann", "Holly Hart", "Janet K. Holt", "Mary Frazier-Meyers", "Michelle Hanh Huynh"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -3545,6 +3692,7 @@ date_added: 2026-08-30
 published_date: 2016-07
 date_source: listing
 authors: ["Amanda G. Stein", "Debra M. Pacchiano", "Stacy B. Ehrlich", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3569,6 +3717,7 @@ date_added: 2026-08-30
 published_date: 2016-06
 date_source: listing
 authors: ["Elaine Allensworth", "Julia A. Gwynne", "Kaleen Healey", "René Crespin"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -3593,6 +3742,7 @@ date_added: 2026-08-30
 published_date: 2016-06
 date_source: listing
 authors: ["Jenny Nagaoka", "Kaleen Healey"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3617,6 +3767,7 @@ date_added: 2026-08-30
 published_date: 2016-06
 date_source: listing
 authors: ["Stephen W. Raudenbush", "Takako Nomi"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, writing-instruction]
@@ -3641,6 +3792,7 @@ date_added: 2026-08-30
 published_date: 2016-04
 date_source: listing
 authors: ["Elaine Allensworth", "Jessica B. Heppen", "Jordan Rickles", "Kirk Walters", "Nicholas Sorensen", "Peggy Clements", "Suzanne Stachel Taylor", "Valerie Michelman"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, dropout-prevention]
@@ -3665,6 +3817,7 @@ date_added: 2026-08-30
 published_date: 2016-03
 date_source: listing
 authors: ["Elaine Allensworth", "Jessica B. Heppen", "Jordan Rickles", "Kirk Walters", "Nicholas Sorensen", "Suzanne Stachel Taylor", "Valerie Michelman"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, dropout-prevention, math-education]
@@ -3689,6 +3842,7 @@ date_added: 2026-08-30
 published_date: 2016-01
 date_source: listing
 authors: ["Jennie Y. Jiang", "Susan E. Sporte"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3713,6 +3867,7 @@ date_added: 2026-08-30
 published_date: 2016-01
 date_source: listing
 authors: ["Jennie Y. Jiang", "Susan E. Sporte"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3737,6 +3892,7 @@ date_added: 2026-08-30
 published_date: 2015-12
 date_source: listing
 authors: ["Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3761,6 +3917,7 @@ date_added: 2026-08-30
 published_date: 2015-11
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -3785,6 +3942,7 @@ date_added: 2026-08-30
 published_date: 2015-10
 date_source: listing
 authors: ["Lauren Sartain", "Matthew P. Steinberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3809,6 +3967,7 @@ date_added: 2026-08-30
 published_date: 2015-09
 date_source: listing
 authors: ["Lauren Sartain", "Elaine Allensworth", "Shanette Porter", "Rachel Levenstein", "David W. Johnson", "Michelle Hanh Huynh", "Eleanor Anderson", "Nick Mader", "Matthew P. Steinberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3833,6 +3992,7 @@ date_added: 2026-08-30
 published_date: 2015-09
 date_source: listing
 authors: ["Amber Stitziel Pareja", "Bradford R. White", "Brenda K. Klostermann", "Holly Hart", "Michelle Hanh Huynh"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3857,6 +4017,7 @@ date_added: 2026-08-30
 published_date: 2015-06
 date_source: listing
 authors: ["Joshua Klugman", "Molly F. Gordon", "Penny Bender Sebring", "Susan E. Sporte"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -3881,6 +4042,7 @@ date_added: 2026-08-30
 published_date: 2015-03
 date_source: listing
 authors: ["Elaine Allensworth", "Lauren Sartain", "Michelle Hanh Huynh", "Nick Mader", "Rachel Levenstein", "Shanette Porter", "Shannon Guiltinan", "W. David Stevens"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -3905,6 +4067,7 @@ date_added: 2026-08-30
 published_date: 2015-03
 date_source: listing
 authors: ["Jennie Y. Jiang", "Susan E. Sporte", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design, sel]
@@ -3929,6 +4092,7 @@ date_added: 2026-08-30
 published_date: 2015-01
 date_source: listing
 authors: ["Jennifer R. Cowhy", "Marisa de la Torre", "Michelle Hanh Huynh", "Molly F. Gordon", "Paul T. Moore", "Sanja Jagesic"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -3953,6 +4117,7 @@ date_added: 2026-08-30
 published_date: 2014-12
 date_source: listing
 authors: ["Jenny Nagaoka", "Kaleen Healey", "Valerie Michelman"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -3977,6 +4142,7 @@ date_added: 2026-08-30
 published_date: 2014-11
 date_source: listing
 authors: ["Jennie Y. Jiang", "Susan E. Sporte"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4001,6 +4167,7 @@ date_added: 2026-08-30
 published_date: 2014-11
 date_source: listing
 authors: ["Jennie Y. Jiang", "Susan E. Sporte", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4025,6 +4192,7 @@ date_added: 2026-08-30
 published_date: 2014-11
 date_source: listing
 authors: ["Lauren Sartain", "Matthew P. Steinberg"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, response-to-intervention]
@@ -4049,6 +4217,7 @@ date_added: 2026-08-30
 published_date: 2014-09
 date_source: listing
 authors: ["Amber Stitziel Pareja", "Elaine Allensworth", "James Sebastian", "Julia A. Gwynne", "Marisa de la Torre", "Todd Rosenkranz", "W. David Stevens"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access]
@@ -4073,6 +4242,7 @@ date_added: 2026-08-30
 published_date: 2014-05
 date_source: listing
 authors: ["Annenberg Institute for School Reform at Brown University", "John W. Gardner Center for Youth", "Their Communities", "University of Chicago Consortium on Chicago School Research"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4097,6 +4267,7 @@ date_added: 2026-08-30
 published_date: 2014-05
 date_source: listing
 authors: ["Holly Hart", "Kaleen Healey", "Susan E. Sporte"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4121,6 +4292,7 @@ date_added: 2026-08-30
 published_date: 2014-05
 date_source: listing
 authors: ["Stacy B. Ehrlich", "Julia A. Gwynne", "Amber Stitziel Pareja", "Elaine Allensworth", "Paul T. Moore", "Sanja Jagesic", "Elizabeth Sorice"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -4145,6 +4317,7 @@ date_added: 2026-08-30
 published_date: 2014-05
 date_source: listing
 authors: ["Elaine Allensworth", "James Sebastian", "W. David Stevens"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4169,6 +4342,7 @@ date_added: 2026-08-30
 published_date: 2014-04
 date_source: listing
 authors: ["Melissa Roderick", "Thomas Kelley-Kemple", "David W. Johnson", "Nicole Williams Beechum"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4193,6 +4367,7 @@ date_added: 2026-08-30
 published_date: 2014-04
 date_source: listing
 authors: ["Penny Bender Sebring", "Nicholas Montgomery"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4217,6 +4392,7 @@ date_added: 2026-08-30
 published_date: 2014-03
 date_source: listing
 authors: ["Elaine Allensworth", "Takako Nomi"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4241,6 +4417,7 @@ date_added: 2026-08-30
 published_date: 2013-11
 date_source: listing
 authors: ["Ellen Foley", "Graciela N. Borsato", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4265,6 +4442,7 @@ date_added: 2026-08-30
 published_date: 2013-11
 date_source: listing
 authors: ["Camille Farrington", "David W. Johnson", "Elaine Allensworth", "Jenny Nagaoka", "Melissa Roderick", "Nicole Williams Beechum", "Tasha Seneca Keyes"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4289,6 +4467,7 @@ date_added: 2026-08-30
 published_date: 2013-10
 date_source: listing
 authors: ["Elaine Allensworth", "James Sebastian"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -4313,6 +4492,7 @@ date_added: 2026-08-30
 published_date: 2013-09
 date_source: listing
 authors: ["Amber Stitziel Pareja", "Elaine Allensworth", "Elizabeth Sorice", "Julia A. Gwynne", "Paul T. Moore", "Sanja Jagesic", "Stacy B. Ehrlich"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -4337,6 +4517,7 @@ date_added: 2026-08-30
 published_date: 2013-09
 date_source: listing
 authors: ["Susan E. Sporte", "W. David Stevens", "Kaleen Healey", "Jennie Y. Jiang", "Holly Hart"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4361,6 +4542,7 @@ date_added: 2026-08-30
 published_date: 2013-08
 date_source: listing
 authors: ["Elaine Allensworth", "Takako Nomi"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4385,6 +4567,7 @@ date_added: 2026-08-30
 published_date: 2013-05
 date_source: listing
 authors: ["Eric R. Brown", "Erin Bradley", "Kate M. Julian", "Lisa Meyer", "Penny Bender Sebring", "Stacy B. Ehrlich", "Susan E. Sporte"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -4409,6 +4592,7 @@ date_added: 2026-08-30
 published_date: 2013-04
 date_source: listing
 authors: ["Stacy B. Ehrlich", "Susan E. Sporte", "Penny Bender Sebring"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -4433,6 +4617,7 @@ date_added: 2026-08-30
 published_date: 2013-02
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4457,6 +4642,7 @@ date_added: 2026-08-30
 published_date: 2013-02
 date_source: listing
 authors: ["Coby Meyers", "Elaine Allensworth", "James Sebastian", "Marisa de la Torre", "Michael Salmonowicz", "R. Dean Gerdeman", "Sanja Jagesic"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -4481,6 +4667,7 @@ date_added: 2026-08-30
 published_date: 2013-02
 date_source: listing
 authors: ["Melissa Roderick", "Vanessa M. Coca", "Eliza Moeller", "Thomas Kelley-Kemple"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4505,6 +4692,7 @@ date_added: 2026-08-30
 published_date: 2012-12
 date_source: listing
 authors: ["Takako Nomi"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4529,6 +4717,7 @@ date_added: 2026-08-30
 published_date: 2012-11
 date_source: listing
 authors: ["Bradford R. White", "Jennifer R. Cowhy", "W. David Stevens", "Susan E. Sporte"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4553,6 +4742,7 @@ date_added: 2026-08-30
 published_date: 2012-10
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -4577,6 +4767,7 @@ date_added: 2026-08-30
 published_date: 2012-06
 date_source: listing
 authors: ["Camille Farrington", "David W. Johnson", "Elaine Allensworth", "Jenny Nagaoka", "Melissa Roderick", "Nicole Williams Beechum", "Tasha Seneca Keyes"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -4601,6 +4792,7 @@ date_added: 2026-08-30
 published_date: 2012-05
 date_source: listing
 authors: ["Amber Stitziel Pareja", "Elaine Allensworth", "Julia A. Gwynne", "Stacy B. Ehrlich"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4625,6 +4817,7 @@ date_added: 2026-08-30
 published_date: 2012-03
 date_source: listing
 authors: ["Vanessa M. Coca", "David W. Johnson", "Thomas Kelley-Kemple", "Melissa Roderick", "Eliza Moeller", "Nicole Williams Beechum", "Kafi Moragne"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4649,6 +4842,7 @@ date_added: 2026-08-30
 published_date: 2012-02
 date_source: listing
 authors: ["Elaine Allensworth", "James Sebastian"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, formative-assessment, math-education, professional-development]
@@ -4673,6 +4867,7 @@ date_added: 2026-08-30
 published_date: 2011-11
 date_source: listing
 authors: ["Claire Durwood", "Danielle Glazer", "Eric R. Brown", "Frances K. Miller", "Jennie Y. Jiang", "Kavita Kapadia Matsko", "Lauren Sartain", "Sara Ray Stoelinga", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4697,6 +4892,7 @@ date_added: 2026-08-30
 published_date: 2011-10
 date_source: listing
 authors: ["Elaine Allensworth", "Rachel Levenstein"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4721,6 +4917,7 @@ date_added: 2026-08-30
 published_date: 2011-09
 date_source: listing
 authors: ["Elaine Allensworth", "James Murphy", "Marisa de la Torre", "Paul T. Moore", "Sanja Jagesic", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -4745,6 +4942,7 @@ date_added: 2026-08-30
 published_date: 2011-07
 date_source: listing
 authors: ["Melissa Roderick", "Vanessa M. Coca", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access]
@@ -4769,6 +4967,7 @@ date_added: 2026-08-30
 published_date: 2011-05
 date_source: listing
 authors: ["Kimberly Austin", "Stacy B. Ehrlich", "Cassidy Puckett", "Judi Singleton", "Susan E. Sporte", "Penny Bender Sebring", "Denise C. Nacu", "Eric R. Brown"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -4793,6 +4992,7 @@ date_added: 2026-08-30
 published_date: 2011-05
 date_source: listing
 authors: ["David W. Johnson", "Elaine Allensworth", "Matthew P. Steinberg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4817,6 +5017,7 @@ date_added: 2026-08-30
 published_date: 2010-08
 date_source: listing
 authors: ["Christopher Mazzeo"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4841,6 +5042,7 @@ date_added: 2026-08-30
 published_date: 2010-08
 date_source: listing
 authors: ["Christopher Mazzeo", "Claire Durwood", "Emily Krone"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -4865,6 +5067,7 @@ date_added: 2026-08-30
 published_date: 2010-06
 date_source: listing
 authors: ["Emily Krone", "Lauren Sartain", "Sara Ray Stoelinga"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -4889,6 +5092,7 @@ date_added: 2026-08-30
 published_date: 2010-06
 date_source: listing
 authors: ["Susan E. Sporte", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, sel]
@@ -4913,6 +5117,7 @@ date_added: 2026-08-30
 published_date: 2010-05
 date_source: listing
 authors: ["Elaine Allensworth", "Takako Nomi"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, sel]
@@ -4937,6 +5142,7 @@ date_added: 2026-08-30
 published_date: 2010-03
 date_source: listing
 authors: ["Elaine Allensworth", "Macarena Correa", "Nicholas Montgomery"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -4961,6 +5167,7 @@ date_added: 2026-08-30
 published_date: 2009-12
 date_source: listing
 authors: ["Elaine Allensworth", "Holly Hart", "Joy Lesnick", "Julia A. Gwynne"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, inclusive-design, sel]
@@ -4985,6 +5192,7 @@ date_added: 2026-08-30
 published_date: 2009-12
 date_source: listing
 authors: ["Elaine Allensworth", "Nicholas Montgomery", "Takako Nomi", "Valerie E. Lee"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, inclusive-design, math-education]
@@ -5009,6 +5217,7 @@ date_added: 2026-08-30
 published_date: 2009-10
 date_source: listing
 authors: ["Julia A. Gwynne", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5033,6 +5242,7 @@ date_added: 2026-08-30
 published_date: 2009-08
 date_source: listing
 authors: ["Eric R. Brown", "Lauren Sartain", "Sara Ray Stoelinga"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5057,6 +5267,7 @@ date_added: 2026-08-30
 published_date: 2009-08
 date_source: listing
 authors: ["SRI International and the Consortium on Chicago School Research", "Macarena Correa", "Holly Hart", "Joy Lesnick", "Lauren Sartain", "Susan E. Sporte", "Sara Ray Stoelinga"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5081,6 +5292,7 @@ date_added: 2026-08-30
 published_date: 2009-06
 date_source: listing
 authors: ["Christopher Mazzeo", "Elaine Allensworth", "Stephen M. Ponisciak"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5105,6 +5317,7 @@ date_added: 2026-08-30
 published_date: 2009-04
 date_source: listing
 authors: ["SRI International and the Consortium on Chicago School Research"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5129,6 +5342,7 @@ date_added: 2026-08-30
 published_date: 2009-04
 date_source: listing
 authors: ["Melissa Roderick", "Jenny Nagaoka", "Vanessa M. Coca", "Eliza Moeller"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention]
@@ -5153,6 +5367,7 @@ date_added: 2026-08-30
 published_date: 2009-04
 date_source: listing
 authors: ["Melissa Roderick", "Jenny Nagaoka", "Vanessa M. Coca"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5177,6 +5392,7 @@ date_added: 2026-08-30
 published_date: 2009-04
 date_source: listing
 authors: ["Elaine Allensworth", "Takako Nomi"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -5201,6 +5417,7 @@ date_added: 2026-08-30
 published_date: 2009-01
 date_source: listing
 authors: ["Julia A. Gwynne", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5225,6 +5442,7 @@ date_added: 2026-08-30
 published_date: 2009-01
 date_source: listing
 authors: ["Jenny Nagaoka", "Melissa Roderick", "Vanessa M. Coca"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5249,6 +5467,7 @@ date_added: 2026-08-30
 published_date: 2008-12
 date_source: listing
 authors: ["Elaine Allensworth", "Takako Nomi"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, response-to-intervention]
@@ -5273,6 +5492,7 @@ date_added: 2026-08-30
 published_date: 2008-12
 date_source: listing
 authors: ["Elaine Allensworth", "Nicholas Montgomery", "Takako Nomi", "Valerie E. Lee"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, inclusive-design, math-education]
@@ -5297,6 +5517,7 @@ date_added: 2026-08-30
 published_date: 2008-12
 date_source: listing
 authors: ["David Schalliol", "Holly Hart", "Sara Ray Stoelinga"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5321,6 +5542,7 @@ date_added: 2026-08-30
 published_date: 2008-11
 date_source: listing
 authors: ["Alissa Bolz", "Sara Ray Stoelinga", "W. David Stevens"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5345,6 +5567,7 @@ date_added: 2026-08-30
 published_date: 2008-10
 date_source: listing
 authors: ["John Q. Easton", "Stephen M. Ponisciak", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5369,6 +5592,7 @@ date_added: 2026-08-30
 published_date: 2008-06
 date_source: listing
 authors: ["Alissa Bolz", "Holly Hart", "Stephen M. Ponisciak", "W. David Stevens"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5393,6 +5617,7 @@ date_added: 2026-08-30
 published_date: 2008-05
 date_source: listing
 authors: ["Elaine Allensworth", "Macarena Correa", "Stephen M. Ponisciak"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5417,6 +5642,7 @@ date_added: 2026-08-30
 published_date: 2008-04
 date_source: listing
 authors: ["W. David Stevens"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5441,6 +5667,7 @@ date_added: 2026-08-30
 published_date: 2008-03
 date_source: listing
 authors: ["Melissa Roderick", "Jenny Nagaoka", "Vanessa M. Coca", "Eliza Moeller", "Karen Roddie", "Jamiliyah Gilliam", "Desmond Patton"]
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention]
@@ -5465,6 +5692,7 @@ date_added: 2026-08-30
 published_date: 2008-01
 date_source: listing
 authors: ["Jenny Nagaoka", "Jonah Deutsch", "Andy Brake", "Melissa Roderick"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5489,6 +5717,7 @@ date_added: 2026-08-30
 published_date: 2007-12
 date_source: listing
 authors: ["Stuart Luppescu", "Holly Hart", "Todd Rosenkranz", "Nicholas Montgomery", "Susan E. Sporte", "Penny Bender Sebring", "Christopher Mazzeo"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -5513,6 +5742,7 @@ date_added: 2026-08-30
 published_date: 2007-11
 date_source: listing
 authors: ["Elaine Allensworth", "Vanessa M. Coca"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -5537,6 +5767,7 @@ date_added: 2026-08-30
 published_date: 2007-08
 date_source: listing
 authors: ["Susan E. Sporte", "Joseph E. Kahne"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5561,6 +5792,7 @@ date_added: 2026-08-30
 published_date: 2007-07
 date_source: listing
 authors: ["Elaine Allensworth", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -5585,6 +5817,7 @@ date_added: 2026-08-30
 published_date: 2007-06
 date_source: listing
 authors: ["John Q. Easton", "Stuart Luppescu", "Todd Rosenkranz"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -5609,6 +5842,7 @@ date_added: 2026-08-30
 published_date: 2007-01
 date_source: listing
 authors: ["John Q. Easton", "Kavita Kapadia Matsko", "Vanessa M. Coca"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5633,6 +5867,7 @@ date_added: 2026-08-30
 published_date: 2006-09
 date_source: listing
 authors: ["Penny Bender Sebring", "Elaine Allensworth", "Anthony S. Bryk", "John Q. Easton", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5657,6 +5892,7 @@ date_added: 2026-08-30
 published_date: 2006-09
 date_source: listing
 authors: ["Holly Hart", "Stephen M. Ponisciak", "Susan E. Sporte", "W. David Stevens"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5681,6 +5917,7 @@ date_added: 2026-08-30
 published_date: 2006-07
 date_source: listing
 authors: ["John Q. Easton", "Joseph E. Kahne", "Marisa de la Torre"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5705,6 +5942,7 @@ date_added: 2026-08-30
 published_date: 2006-07
 date_source: listing
 authors: ["Mark A. Smylie", "Stacy A. Wenzel"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5729,6 +5967,7 @@ date_added: 2026-08-30
 published_date: 2006-04
 date_source: listing
 authors: ["Jenny Nagaoka", "Ginger Stoker", "Vanessa M. Coca", "Melissa Roderick"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5753,6 +5992,7 @@ date_added: 2026-08-30
 published_date: 2006-04
 date_source: listing
 authors: ["Melissa Roderick", "Jenny Nagaoka", "Elaine Allensworth", "Vanessa M. Coca", "Macarena Correa", "Ginger Stoker"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -5777,6 +6017,7 @@ date_added: 2026-08-30
 published_date: 2006-01
 date_source: listing
 authors: ["Joseph E. Kahne", "W. David Stevens"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development, response-to-intervention, sel]
@@ -5801,6 +6042,7 @@ date_added: 2026-08-30
 published_date: 2005-09
 date_source: listing
 authors: ["Charles Payne"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5825,6 +6067,7 @@ date_added: 2026-08-30
 published_date: 2005-09
 date_source: listing
 authors: ["Stephen M. Ponisciak"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -5849,6 +6092,7 @@ date_added: 2026-08-30
 published_date: 2005-09
 date_source: listing
 authors: ["Holly Hart", "Lura Forcum", "Sandra Jennings", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -5873,6 +6117,7 @@ date_added: 2026-08-30
 published_date: 2005-09
 date_source: listing
 authors: ["Holly Hart", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -5897,6 +6142,7 @@ date_added: 2026-08-30
 published_date: 2005-09
 date_source: listing
 authors: ["Holly Hart", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -5921,6 +6167,7 @@ date_added: 2026-08-30
 published_date: 2005-09
 date_source: listing
 authors: ["Holly Hart", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -5945,6 +6192,7 @@ date_added: 2026-08-30
 published_date: 2005-06
 date_source: listing
 authors: ["Elaine Allensworth", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5969,6 +6217,7 @@ date_added: 2026-08-30
 published_date: 2005-05
 date_source: listing
 authors: ["Susan Stone", "Mimi Engel", "Jenny Nagaoka", "Melissa Roderick"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -5993,6 +6242,7 @@ date_added: 2026-08-30
 published_date: 2005-01
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, math-education]
@@ -6017,6 +6267,7 @@ date_added: 2026-08-30
 published_date: 2004-09
 date_source: listing
 authors: ["Susan E. Sporte", "Joseph E. Kahne", "Macarena Correa"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6041,6 +6292,7 @@ date_added: 2026-08-30
 published_date: 2004-05
 date_source: listing
 authors: ["John Q. Easton", "Macarena Correa", "Odis Johnson", "Stephen M. Ponisciak", "Todd Rosenkranz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6065,6 +6317,7 @@ date_added: 2026-08-30
 published_date: 2004-04
 date_source: listing
 authors: ["Jenny Nagaoka", "Melissa Roderick"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -6089,6 +6342,7 @@ date_added: 2026-08-30
 published_date: 2004-04
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -6113,6 +6367,7 @@ date_added: 2026-08-30
 published_date: 2004-03
 date_source: listing
 authors: ["Karen Sconzert", "Mark A. Smylie", "Stacy A. Wenzel"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6137,6 +6392,7 @@ date_added: 2026-08-30
 published_date: 2004-03
 date_source: listing
 authors: ["Penny Bender Sebring", "Susan E. Sporte", "Stephen M. Ponisciak", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6161,6 +6417,7 @@ date_added: 2026-08-30
 published_date: 2004-02
 date_source: listing
 authors: ["Robin Tepper Jacob", "Susan Stone", "Melissa Roderick"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6185,6 +6442,7 @@ date_added: 2026-08-30
 published_date: 2004-01
 date_source: listing
 authors: ["John Q. Easton", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6209,6 +6467,7 @@ date_added: 2026-08-30
 published_date: 2004-01
 date_source: listing
 authors: ["Susan E. Sporte", "Stuart Luppescu", "Kumail Nanjiani"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -6233,6 +6492,7 @@ date_added: 2026-08-30
 published_date: 2003-09
 date_source: listing
 authors: ["Holly Hart", "Melissa Dean", "Sandra Jennings", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -6257,6 +6517,7 @@ date_added: 2026-08-30
 published_date: 2003-09
 date_source: listing
 authors: ["Penny Bender Sebring"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6281,6 +6542,7 @@ date_added: 2026-08-30
 published_date: 2003-08
 date_source: listing
 authors: ["Carol Fendt", "Elaine Allensworth", "Jenny Nagaoka", "Mark A. Smylie", "Sara Hallman", "Stacy A. Wenzel", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -6305,6 +6567,7 @@ date_added: 2026-08-30
 published_date: 2003-07
 date_source: listing
 authors: ["David Wakelyn", "Jennifer O'Day", "Kara Finnigan"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6329,6 +6592,7 @@ date_added: 2026-08-30
 published_date: 2003-03
 date_source: listing
 authors: ["Anthony S. Bryk", "Barbara Schneider"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6353,6 +6617,7 @@ date_added: 2026-08-30
 published_date: 2003-02
 date_source: listing
 authors: ["Melissa Roderick", "Mimi Engel", "Jenny Nagaoka", "Brian A. Jacob", "Alex Orfei", "Sophie Degener", "Susan Stone", "Jen Bacon"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6377,6 +6642,7 @@ date_added: 2026-08-30
 published_date: 2003-02
 date_source: listing
 authors: ["John Q. Easton", "Macarena Correa", "Stuart Luppescu", "Hye-Sook Park", "Stephen M. Ponisciak", "Todd Rosenkranz", "Susan E. Sporte"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -6401,6 +6667,7 @@ date_added: 2026-08-30
 published_date: 2003-01
 date_source: listing
 authors: ["Macarena Correa", "Shazia Rafiullah Miller", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, math-education]
@@ -6425,6 +6692,7 @@ date_added: 2026-08-30
 published_date: 2002-11
 date_source: listing
 authors: ["Valerie E. Lee"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6449,6 +6717,7 @@ date_added: 2026-08-30
 published_date: 2002-09
 date_source: listing
 authors: ["Holly Hart", "Elaine Allensworth", "Douglas L. Lauen", "Robert M. Gladden"]
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -6473,6 +6742,7 @@ date_added: 2026-08-30
 published_date: 2002-08
 date_source: listing
 authors: ["Stacy A. Wenzel", "Jenny Nagaoka", "Loretta Morris", "Sabrina Billings", "Carol Fendt"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6497,6 +6767,7 @@ date_added: 2026-08-30
 published_date: 2002-08
 date_source: listing
 authors: ["John Q. Easton", "Laurence Stanton"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, professional-development]
@@ -6521,6 +6792,7 @@ date_added: 2026-08-30
 published_date: 2002-08
 date_source: listing
 authors: ["Anthony S. Bryk", "Barbara Schneider"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6545,6 +6817,7 @@ date_added: 2026-08-30
 published_date: 2002-06
 date_source: listing
 authors: ["Robert M. Gladden", "Shazia Rafiullah Miller"]
+document_url: null
 doi: null
 license: null
 tags: [inclusive-design]
@@ -6569,6 +6842,7 @@ date_added: 2026-08-30
 published_date: 2002-06
 date_source: listing
 authors: ["Todd Rosenkranz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6593,6 +6867,7 @@ date_added: 2026-08-30
 published_date: 2002-05
 date_source: listing
 authors: ["Elaine Allensworth", "Shazia Rafiullah Miller"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -6617,6 +6892,7 @@ date_added: 2026-08-30
 published_date: 2002-05
 date_source: listing
 authors: ["Elaine Allensworth", "Julie Reed Kochanek", "Shazia Rafiullah Miller"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6641,6 +6917,7 @@ date_added: 2026-08-30
 published_date: 2001-09
 date_source: listing
 authors: ["Holly Hart", "Jenny Nagaoka", "John Q. Easton", "Rose E. Sweeney", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -6665,6 +6942,7 @@ date_added: 2026-08-30
 published_date: 2001-07
 date_source: listing
 authors: ["Stacy A. Wenzel", "Mark A. Smylie", "Penny Bender Sebring", "Elaine Allensworth", "Tania Gutierrez", "Sara Ray Stoelinga", "Stuart Luppescu", "Shazia Rafiullah Miller"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6689,6 +6967,7 @@ date_added: 2026-08-30
 published_date: 2001-06
 date_source: listing
 authors: ["Elaine Allensworth", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, math-education]
@@ -6713,6 +6992,7 @@ date_added: 2026-08-30
 published_date: 2001-04
 date_source: listing
 authors: ["Elaine Allensworth", "Mark A. Smylie", "Rebecca C. Greenberg", "Rodney Harris", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [professional-development]
@@ -6737,6 +7017,7 @@ date_added: 2026-08-30
 published_date: 2001-03
 date_source: listing
 authors: ["Carol D. Lee", "Connie A. Bridge", "Connie Yowell", "Elaine Allensworth", "G. Alfred Hess, Jr", "Hector Morales", "James O'Brien", "Joseph E. Kahne", "Nicole E. Holland", "Richard G. Gelb", "Rochelle Guitérrez", "Shazia Rafiullah Miller", "Soloman Cytrnbaum", "Steven Tozer"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6761,6 +7042,7 @@ date_added: 2026-08-30
 published_date: 2001-01
 date_source: listing
 authors: ["Fred M. Newmann", "Julia B. Smith", "Valerie E. Lee"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -6785,6 +7067,7 @@ date_added: 2026-08-30
 published_date: 2001-01
 date_source: listing
 authors: ["Fred M. Newmann", "Anthony S. Bryk", "Jenny Nagaoka"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education, writing-instruction]
@@ -6809,6 +7092,7 @@ date_added: 2026-08-30
 published_date: 2001-01
 date_source: listing
 authors: ["Fred M. Newmann", "BetsAnn Smith", "Elaine Allensworth", "Anthony S. Bryk"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6833,6 +7117,7 @@ date_added: 2026-08-30
 published_date: 2001-01
 date_source: listing
 authors: ["John Q. Easton", "Todd Rosenkranz", "Anthony S. Bryk"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6857,6 +7142,7 @@ date_added: 2026-08-30
 published_date: 2000-11
 date_source: listing
 authors: ["John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -6881,6 +7167,7 @@ date_added: 2026-08-30
 published_date: 2000-10
 date_source: listing
 authors: ["Anthony S. Bryk", "Jenny Nagaoka", "Fred M. Newmann"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, writing-instruction]
@@ -6905,6 +7192,7 @@ date_added: 2026-08-30
 published_date: 2000-09
 date_source: listing
 authors: ["Melissa Roderick", "Jenny Nagaoka", "Jen Bacon", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6929,6 +7217,7 @@ date_added: 2026-08-30
 published_date: 2000-08
 date_source: listing
 authors: ["Elaine Allensworth", "Todd Rosenkranz"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -6953,6 +7242,7 @@ date_added: 2026-08-30
 published_date: 2000-06
 date_source: listing
 authors: ["Fred M. Newmann", "Karen Sconzert"]
+document_url: null
 doi: null
 license: null
 tags: [college-access]
@@ -6977,6 +7267,7 @@ date_added: 2026-08-30
 published_date: 2000-05
 date_source: listing
 authors: ["John Q. Easton", "Todd Rosenkranz", "Anthony S. Bryk", "Brian A. Jacob", "Stuart Luppescu", "Melissa Roderick"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7001,6 +7292,7 @@ date_added: 2026-08-30
 published_date: 2000-02
 date_source: listing
 authors: ["Penny Bender Sebring", "Anthony S. Bryk"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -7025,6 +7317,7 @@ date_added: 2026-08-30
 published_date: 2000-01
 date_source: listing
 authors: ["Stuart Luppescu", "Anthony S. Bryk", "Jenny Nagaoka", "John Q. Easton", "Shazia Rafiullah Miller", "Lara L. Cohen"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -7049,6 +7342,7 @@ date_added: 2026-08-30
 published_date: 1999-10
 date_source: listing
 authors: ["Julia B. Smith", "Mark A. Smylie", "Tamara E. Perry", "Valerie E. Lee"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7073,6 +7367,7 @@ date_added: 2026-08-30
 published_date: 1999-10
 date_source: listing
 authors: ["Melissa Roderick", "Anthony S. Bryk", "Brian A. Jacob", "John Q. Easton", "Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -7097,6 +7392,7 @@ date_added: 2026-08-30
 published_date: 1999-08
 date_source: listing
 authors: ["John Q. Easton", "Robert M. Gladden", "Shazia Rafiullah Miller", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -7121,6 +7417,7 @@ date_added: 2026-08-30
 published_date: 1999-08
 date_source: listing
 authors: ["John Q. Easton", "Robert M. Gladden", "Shazia Rafiullah Miller", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention]
@@ -7145,6 +7442,7 @@ date_added: 2026-08-30
 published_date: 1999-03
 date_source: listing
 authors: ["Dorothy Shipps", "Holly Swyers", "Karen Sconzert"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7169,6 +7467,7 @@ date_added: 2026-08-30
 published_date: 1998-12
 date_source: listing
 authors: ["BetsAnn Smith"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7193,6 +7492,7 @@ date_added: 2026-08-30
 published_date: 1998-12
 date_source: listing
 authors: ["John Q. Easton", "Brian A. Jacob", "Stuart Luppescu", "Melissa Roderick"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7217,6 +7517,7 @@ date_added: 2026-08-30
 published_date: 1998-11
 date_source: listing
 authors: ["Julia B. Smith", "BetsAnn Smith", "Anthony S. Bryk"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]
@@ -7241,6 +7542,7 @@ date_added: 2026-08-30
 published_date: 1998-10
 date_source: listing
 authors: ["Fred M. Newmann", "Gudelia Lopez", "Anthony S. Bryk"]
+document_url: null
 doi: null
 license: null
 tags: [math-education, writing-instruction]
@@ -7265,6 +7567,7 @@ date_added: 2026-08-30
 published_date: 1998-08
 date_source: listing
 authors: ["Melissa Roderick", "Susan Stone", "Michael Arney", "James Chiong", "Kneia DaCosta", "Elaine Waxman"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7289,6 +7592,7 @@ date_added: 2026-08-30
 published_date: 1998-08
 date_source: listing
 authors: ["Anthony S. Bryk", "Penny Bender Sebring", "David Kerbow", "Sharon G. Rollow", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7313,6 +7617,7 @@ date_added: 2026-08-30
 published_date: 1998-06
 date_source: listing
 authors: ["Diane King Bilcer", "Dorothy Shipps", "Holly Swyers", "Julie Kochanek", "Karen Sconzert", "Mark A. Smylie"]
+document_url: null
 doi: null
 license: null
 tags: [sel]
@@ -7337,6 +7642,7 @@ date_added: 2026-08-30
 published_date: 1998-03
 date_source: listing
 authors: ["Anthony S. Bryk", "Yeow M. Thum", "John Q. Easton", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7361,6 +7667,7 @@ date_added: 2026-08-30
 published_date: 1997-12
 date_source: listing
 authors: ["Susan Ryan", "Anthony S. Bryk", "Gudelia Lopez", "Kimberly P. Williams", "Kathleen Hall", "Stuart Luppescu"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7385,6 +7692,7 @@ date_added: 2026-08-30
 published_date: 1997-08
 date_source: listing
 authors: ["Anthony S. Bryk", "Stuart Luppescu", "Diane King Bilcer", "Gudelia Lopez", "Jenny Nagaoka", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7409,6 +7717,7 @@ date_added: 2026-08-30
 published_date: 1997-08
 date_source: listing
 authors: ["Anthony S. Bryk", "Stuart Luppescu", "Diane King Bilcer", "Gudelia Lopez", "Jenny Nagaoka", "John Q. Easton"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7433,6 +7742,7 @@ date_added: 2026-08-30
 published_date: 1997-07
 date_source: listing
 authors: ["Melissa Roderick", "Michael Arney", "Michael Axelman", "Kneia DaCosta", "Cheryl Stelger", "Susan Stone", "Leticia Villarreal-Sosa", "Elaine Waxman"]
+document_url: null
 doi: null
 license: null
 tags: [attendance]
@@ -7457,6 +7767,7 @@ date_added: 2026-08-30
 published_date: 1996-07
 date_source: listing
 authors: ["Penny Bender Sebring", "Anthony S. Bryk", "Melissa Roderick", "Eric Camburn", "Stuart Luppescu", "Yeow M. Thum", "BetsAnn Smith", "Joseph E. Kahne"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7481,6 +7792,7 @@ date_added: 2026-08-30
 published_date: 1996-01
 date_source: listing
 authors: ["Anthony S. Bryk", "Barbara Schneider"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7505,6 +7817,7 @@ date_added: 2026-08-30
 published_date: 1995-08
 date_source: listing
 authors: ["Penny Bender Sebring", "Anthony S. Bryk", "John Q. Easton", "Stuart Luppescu", "Yeow M. Thum", "Winifred A. Lopez", "BetsAnn Smith"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7529,6 +7842,7 @@ date_added: 2026-08-30
 published_date: 1995-04
 date_source: listing
 authors: ["Stuart Luppescu", "Anthony S. Bryk", "Paul Deabster", "John Q. Easton", "Yeow M. Thum"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7553,6 +7867,7 @@ date_added: 2026-08-30
 published_date: 1995-02
 date_source: listing
 authors: ["Penny Bender Sebring", "Anthony S. Bryk", "Stuart Luppescu", "Yeow M. Thum"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7577,6 +7892,7 @@ date_added: 2026-08-30
 published_date: 1995-01
 date_source: listing
 authors: ["Penny Bender Sebring", "Anthony S. Bryk", "Stuart Luppescu", "Yeow M. Thum"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7601,6 +7917,7 @@ date_added: 2026-08-30
 published_date: 1993-07
 date_source: listing
 authors: ["Anthony S. Bryk", "John Q. Easton", "David Kerbow", "Sharon G. Rollow", "Penny Bender Sebring"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -7625,6 +7942,7 @@ date_added: 2026-08-30
 published_date: 1992-12
 date_source: listing
 authors: ["Albert L. Bennett", "Anthony S. Bryk", "John Q. Easton", "David Kerbow", "Stuart Luppescu", "Penny Bender Sebring"]
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment]
@@ -7649,6 +7967,7 @@ date_added: 2026-08-30
 published_date: 1991-01
 date_source: listing
 authors: ["John Q. Easton", "Anthony S. Bryk", "Mary E. Driscoll", "John G. Kotsakis", "Penny Bender Sebring", "Arie J. van der Ploeg"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7673,6 +7992,7 @@ date_added: 2026-08-30
 published_date: 1991-01
 date_source: listing
 authors: ["Anthony S. Bryk", "Penny Bender Sebring"]
+document_url: null
 doi: null
 license: null
 tags: []
@@ -7697,6 +8017,7 @@ date_added: 2026-09-14
 published_date: 2026-09
 date_source: listing
 authors: ["Elaine Allensworth"]
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, k-12, learning-engineering]
@@ -7721,6 +8042,7 @@ date_added: 2026-09-14
 published_date: 2026-08
 date_source: listing
 authors: ["Elaine Allensworth", "Marisa de la Torre", "Kaitlyn Franklin", "Jinqing Xu"]
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, english-learners, k-12, longitudinal]
@@ -7745,6 +8067,7 @@ date_added: 2026-09-14
 published_date: 2026-06
 date_source: listing
 authors: ["Shanette Porter", "Maisie Gholson"]
+document_url: null
 doi: null
 license: null
 tags: [math-education]

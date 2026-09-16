@@ -17,6 +17,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, k-12, longitudinal, math-education, open-datasets]
@@ -41,6 +42,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, k-12, longitudinal, open-datasets]
@@ -65,6 +67,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, k-12, longitudinal, open-datasets]
@@ -89,6 +92,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, higher-ed, longitudinal, open-datasets]
@@ -113,6 +117,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, open-datasets, professional-development]
@@ -137,6 +142,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, longitudinal, open-datasets]
@@ -161,6 +167,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [literacy, longitudinal, open-datasets]
@@ -185,6 +192,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, open-datasets, professional-development]
@@ -209,6 +217,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, k-12, longitudinal, open-datasets]
@@ -233,6 +242,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal, open-datasets, sel]
@@ -257,6 +267,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, k-12, open-datasets]
@@ -281,6 +292,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, longitudinal, open-datasets]
@@ -305,6 +317,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, higher-ed, longitudinal, open-datasets]
@@ -329,6 +342,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, open-datasets, professional-development]
@@ -353,6 +367,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, open-datasets]
@@ -377,6 +392,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, open-datasets, school-discipline]
@@ -401,6 +417,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, k-12, longitudinal, open-datasets]
@@ -425,6 +442,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, k-12, longitudinal, open-datasets]
@@ -449,6 +467,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, open-datasets]
@@ -473,6 +492,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, open-datasets, sel]
@@ -497,6 +517,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, open-datasets]
@@ -521,6 +542,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, higher-ed, k-12, longitudinal, open-datasets, pii-privacy]
@@ -545,6 +567,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, open-datasets]
@@ -569,6 +592,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, open-datasets]
@@ -593,6 +617,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, higher-ed, k-12, open-datasets]
@@ -617,6 +642,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, english-learners, higher-ed, k-12, longitudinal, open-datasets]
@@ -641,6 +667,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, longitudinal, open-datasets]
@@ -665,6 +692,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, higher-ed, k-12, open-datasets]
@@ -689,6 +717,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, higher-ed, k-12, open-datasets]

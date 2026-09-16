@@ -17,6 +17,7 @@ date_added: 2026-05-01
 published_date: 2025-09-03
 date_source: listing
 authors: ["Liu, Zifeng", "Xing, Wanli", "Jiao, Xinyue", "Li, Chenglu"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8885/7931"
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, genai, higher-ed, jla, learning-engineering, llm-application, nlp]
@@ -41,6 +42,7 @@ date_added: 2026-05-01
 published_date: 2025-11-24
 date_source: listing
 authors: ["Sepp, Stoo"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8713/7935"
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, digital-learning-platforms, higher-ed, jla, pii-privacy]
@@ -65,6 +67,7 @@ date_added: 2026-05-01
 published_date: 2025-11-26
 date_source: listing
 authors: ["Cheng, Alison", "Pei, Bo", "Liu, Cheng"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8761/7937"
 doi: null
 license: null
 tags: [ai-ethics, computer-assisted-learning, dropout-prevention, formative-assessment, higher-ed, jla, personalized-learning]
@@ -89,6 +92,7 @@ date_added: 2026-05-01
 published_date: 2024-12-25
 date_source: listing
 authors: ["Rundquist, Rebecka", "Holmberg, Kristina", "Rack, John", "Mohseni, Zeynab", "Masiello, Italo"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8299/7847"
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, math-education, meta-analysis]
@@ -113,6 +117,7 @@ date_added: 2026-05-01
 published_date: 2024-11-13
 date_source: listing
 authors: ["Jin, Yueqiao", "Echeverria, Vanessa", "Yan, Lixiang", "Zhao, Linxuan", "Alfredo, Riordan", "Tsai, Yi-Shan", "Gašević, Dragan", "Martinez-Maldonado, Roberto"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8351/7833"
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, higher-ed, inclusive-design, jla, learning-engineering, qualitative-research]
@@ -137,6 +142,7 @@ date_added: 2026-05-01
 published_date: 2024-10-30
 date_source: listing
 authors: ["Ferreira, Rafael", "Freitas, Elyda", "Cabral, Luciano", "Dawn, Filipe", "Rodrigues, Luiz", "Rakovic, Mladen", "Raniel, Jackson", "Gasevic, Dragan"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8403/7829"
 doi: null
 license: null
 tags: [automated-feedback, digital-learning-platforms, formative-assessment, jla, learning-engineering, nlp, writing-instruction]
@@ -161,6 +167,7 @@ date_added: 2026-05-01
 published_date: 2023-12-12
 date_source: listing
 authors: ["Francis, Mary", "Avoseh, Mejai", "Card, Karen", "Newland, Lisa", "Streff, Kevin"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/7975/7751"
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, digital-learning-platforms, higher-ed, jla, pii-privacy, qualitative-research]
@@ -185,6 +192,7 @@ date_added: 2026-05-01
 published_date: 2023-12-12
 date_source: listing
 authors: ["Ramaswami, Gomathy", "Susnjak, Teo", "Mathrani, Anuradha"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/7935/7753"
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, personalized-learning]
@@ -209,6 +217,7 @@ date_added: 2026-05-01
 published_date: 2022-12-16
 date_source: listing
 authors: ["Viberg, Olga", "Mutimukwe, Chantal", "Grönlund, Åke"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/7751/7679"
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, jla, learning-engineering, meta-analysis, pii-privacy]
@@ -233,6 +242,7 @@ date_added: 2026-05-01
 published_date: 2022-12-16
 date_source: listing
 authors: ["Weidlich, Joshua", "Gašević, Dragan", "Drachsler, Hendrik"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/7577/7677"
 doi: null
 license: null
 tags: [ai-ethics, jla, learning-engineering, longitudinal]
@@ -257,6 +267,7 @@ date_added: 2026-05-01
 published_date: 2025-07-08
 date_source: listing
 authors: ["Herodotou, Christothea", "Shrestha, Sagun", "Comfort, Catherine", "Andrews, Heshan", "Mulholland, Paul", "Bayer, Vaclav", "Maguire, Claire", "Lee, John", "Fernandez, Miriam"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8481/7903"
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, higher-ed, inclusive-design, jla, learning-engineering, personalized-learning]
@@ -281,6 +292,7 @@ date_added: 2026-05-01
 published_date: 2025-07-31
 date_source: listing
 authors: ["Opoku, Raymond A", "Pei, Bo", "Xing, Wanli"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8543/7911"
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, dropout-prevention, higher-ed, jla, learning-engineering, personalized-learning]
@@ -305,6 +317,7 @@ date_added: 2026-05-01
 published_date: 2025-07-09
 date_source: listing
 authors: ["Kaliisa, Rogers", "Baker, Ryan Shaun", "Wasson, Barbara", "Prinsloo, Paul"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8495/7905"
 doi: null
 license: null
 tags: [ai-ethics, ai-policy, data-sharing, jla, learning-engineering, pii-privacy]
@@ -329,6 +342,7 @@ date_added: 2026-05-01
 published_date: 2024-12-25
 date_source: listing
 authors: ["Dang, Belle", "Nguyen, Andy", "Järvelä, Sanna"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8393/7849"
 doi: null
 license: null
 tags: [computer-assisted-learning, jla, k-12, learning-engineering, nlp, qualitative-research]
@@ -353,6 +367,7 @@ date_added: 2026-05-01
 published_date: 2024-03-07
 date_source: listing
 authors: ["Er, Erkan", "Silik, Safak", "Cansiz, Sergen"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8133/7769"
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, jla, k-12, learning-engineering, personalized-learning]
@@ -377,6 +392,7 @@ date_added: 2026-05-01
 published_date: 2022-12-16
 date_source: listing
 authors: ["Saar, Merike", "Rodríguez-Triana, María Jesús", "Prieto Santos", "Luis Pablo"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/7505/7659"
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, jla, learning-engineering, professional-development, qualitative-research]
@@ -401,6 +417,7 @@ date_added: 2026-05-01
 published_date: 2024-10-12
 date_source: listing
 authors: ["de Vreugd, Lars", "van Leeuwen, Anouschka", "Jansen, Renée", "van der Schaaf, Marieke"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8529/7825"
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, personalized-learning]
@@ -425,6 +442,7 @@ date_added: 2026-05-01
 published_date: 2025-06-10
 date_source: listing
 authors: ["Esterhazy, Rachelle", "Kaliisa, Rogers", "Sanchez, Daniel", "Langford, Malcolm", "Damsa, Crina"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8625/7899"
 doi: null
 license: null
 tags: [digital-learning-platforms, jla, learning-engineering, meta-analysis, qualitative-research]
@@ -449,6 +467,7 @@ date_added: 2026-05-01
 published_date: 2022-12-16
 date_source: listing
 authors: ["Yu, Jiaqi", "Ma, Wenchao", "Moon, Jewoong", "Denham, André"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/7639/7671"
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, formative-assessment, intelligent-tutoring, jla, k-12, math-education]
@@ -473,6 +492,7 @@ date_added: 2026-05-01
 published_date: 2023-11-02
 date_source: listing
 authors: ["Rakovic, Mladen", "Ahmad Uzir, Nora'ayu", "Matcha, Wannisa", "Eagan, Brendan", "Jovanović, Jelena", "Williamson Shaffer, David", "Pardo, Abelardo", "Gašević, Dragan"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/7843/7747"
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, longitudinal]
@@ -497,6 +517,7 @@ date_added: 2026-05-01
 published_date: 2024-03-06
 date_source: listing
 authors: ["Raza, Ali", "Sumner, Tamara", "Penuel, William R"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8199/7773"
 doi: null
 license: null
 tags: [ai-ethics, formative-assessment, inclusive-design, jla, k-12, learning-engineering, professional-development]
@@ -521,6 +542,7 @@ date_added: 2026-05-01
 published_date: 2025-11-26
 date_source: listing
 authors: ["Yu, Linyu", "Halpin, Peter F", "Bernacki, Matthew L", "Ren, Sirui", "Plumley, Robert D", "Greene, Jeffrey A"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8865/7939"
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, longitudinal, math-education]
@@ -545,6 +567,7 @@ date_added: 2026-05-01
 published_date: 2025-07-10
 date_source: listing
 authors: ["Caskurlu, Secil", "Ocak, Ceren", "Dai, Chih-Pu"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8505/7907"
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, jla, k-12, learning-engineering, meta-analysis, pii-privacy]
@@ -569,6 +592,7 @@ date_added: 2026-05-01
 published_date: 2024-11-21
 date_source: listing
 authors: ["Marrone, Rebecca", "Lam, Benjamin", "Barthakur, Abhinava", "Brinkman, Sally", "Dawson, Shane", "Gabriel, Florence"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8357/7835"
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, longitudinal, sel]
@@ -593,6 +617,7 @@ date_added: 2026-05-01
 published_date: 2025-10-04
 date_source: listing
 authors: ["Michos, Konstantinos", "Schmitz, Maria-Luisa", "Petko, Dominik"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8567/7933"
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, professional-development, qualitative-research]
@@ -617,6 +642,7 @@ date_added: 2026-05-10
 published_date: 2026-02-25
 date_source: listing
 authors: ["Xu, Zhen", "Guan, Xin", "Shi, Chenxi", "Chen, Qinhao", "Yu, Renzhe"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/9127/7951"
 doi: null
 license: null
 tags: [formative-assessment, genai, higher-ed, learning-engineering, llm-application]
@@ -641,6 +667,7 @@ date_added: 2026-05-10
 published_date: 2026-03-14
 date_source: listing
 authors: ["Chichekian, Tanya", "Cutumisu, Maria", "Savard, Annie", "Zhang, Yi-Mei"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/9077/7953"
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, professional-development]
@@ -665,6 +692,7 @@ date_added: 2026-05-10
 published_date: 2026-03-15
 date_source: listing
 authors: ["Barthakur, Abhinava", "Jovanović, Jelena", "Baker, Ryan", "Kovanović, Vitomir", "Deneen, Christopher C", "Dawson, Shane"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/9035/7961"
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, longitudinal]
@@ -689,6 +717,7 @@ date_added: 2026-05-10
 published_date: 2026-03-15
 date_source: listing
 authors: ["Hernández-Campos, Mónica", "Hilliger, Isabel", "García-Peñalvo, Francisco-José"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/9131/7957"
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, qualitative-research]
@@ -713,6 +742,7 @@ date_added: 2026-05-10
 published_date: 2026-03-15
 date_source: listing
 authors: ["Hilliger, Isabel", "Pérez-Sanagustín, Mar", "González, Carlos", "Villalobos, Esteban", "Celis, Sergio"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/9143/7959"
 doi: null
 license: null
 tags: [genai, genai-tutoring, higher-ed, learning-engineering, llm-application, personalized-learning]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: 2026-03-14
 date_source: listing
 authors: ["Xu, Alice", "Zhang, Yunyi", "Blake, Adam", "Stigler, James"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/9099/7955"
 doi: null
 license: null
 tags: [digital-learning-platforms, higher-ed, learning-engineering, personalized-learning]
@@ -761,6 +792,7 @@ date_added: 2026-05-10
 published_date: 2026-03-18
 date_source: listing
 authors: ["V. Sargent, Paul", "Hilliger, Isabel", "A. Baier, Jorge"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8725/7963"
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, longitudinal]
@@ -785,6 +817,7 @@ date_added: 2026-05-10
 published_date: 2026-03-20
 date_source: listing
 authors: ["Harrington, Susan", "Sellberg, Charlott"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/9141/7965"
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, professional-development]
@@ -809,6 +842,7 @@ date_added: 2026-05-10
 published_date: 2026-02-25
 date_source: listing
 authors: ["Albuquerque, Josmario", "Rienties, Bart", "Hlosta, Martin", "Holmes, Wayne"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8905/7949"
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, inclusive-design, learning-engineering, nlp]
@@ -833,6 +867,7 @@ date_added: 2026-05-10
 published_date: 2026-03-22
 date_source: listing
 authors: ["Joarder, Shoeb", "Chatti, Mohamed Amine"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8921/7969"
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, higher-ed, learning-engineering, pii-privacy]
@@ -857,6 +892,7 @@ date_added: 2026-05-10
 published_date: 2026-03-22
 date_source: listing
 authors: ["Ohsaki, Ayano", "Tan, Yuanru", "Eagan, Brendan", "Shaffer, David Williamson", "Swiecki, Zachari"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8959/7967"
 doi: null
 license: null
 tags: [higher-ed, learning-engineering, qualitative-research]
@@ -881,6 +917,7 @@ date_added: 2026-05-10
 published_date: 2026-03-30
 date_source: listing
 authors: ["Bautista, Guillermo", "Cacuyong, Roderick", "Lavicza, Zsolt", "Sabitzer, Barbara", "Emara, Mona"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/9037/7971"
 doi: null
 license: null
 tags: [digital-learning-platforms, k-12, learning-engineering, math-education]
@@ -905,6 +942,7 @@ date_added: 2026-05-10
 published_date: 2025-11-30
 date_source: listing
 authors: ["Dai, Wei", "Lin, Jionghao", "Jin, Flora Ji-Yoon", "Tsai, Yi-Shan", "Srivastava, Namrata", "Le Bodic, Pierre", "Gašević, Dragan", "Chen, Guanliang"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8735/7943"
 doi: null
 license: null
 tags: [automated-feedback, dropout-prevention, higher-ed, learning-engineering, personalized-learning]
@@ -929,6 +967,7 @@ date_added: 2026-05-10
 published_date: 2025-12-15
 date_source: listing
 authors: ["Singh, Manjeet", "Bangay, Shaun", "Sajjanhar, Atul"]
+document_url: "https://learning-analytics.info/index.php/JLA/article/view/8447/7945"
 doi: null
 license: null
 tags: [digital-learning-platforms, higher-ed, k-12, learning-engineering, meta-analysis]

@@ -17,6 +17,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -41,6 +42,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cmu-learnlab, data-sharing, learning-engineering, open-datasets]
@@ -65,6 +67,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [assistments, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -89,6 +92,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [assistments, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -113,6 +117,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -137,6 +142,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, higher-ed, intelligent-tutoring, learning-engineering, open-datasets]
@@ -161,6 +167,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cmu-learnlab, digital-learning-platforms, k-12, learning-engineering, math-education, open-datasets, personalized-learning]
@@ -185,6 +192,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [a-b-testing, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -209,6 +217,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [a-b-testing, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -233,6 +242,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, higher-ed, k-12, learning-engineering, open-datasets]
@@ -257,6 +267,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, digital-learning-platforms, higher-ed, learning-engineering, open-datasets]
@@ -281,6 +292,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, higher-ed, learning-engineering, longitudinal, open-datasets]

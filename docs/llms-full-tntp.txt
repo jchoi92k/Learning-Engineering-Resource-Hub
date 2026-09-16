@@ -17,6 +17,7 @@ date_added: 2026-05-10
 published_date: 2026-03-04
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2026/03/coherence-by-design-message-from-CEO.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -41,6 +42,7 @@ date_added: 2026-05-10
 published_date: 2025-07-01
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, k-12, sel]
@@ -65,6 +67,7 @@ date_added: 2026-05-10
 published_date: 2025-05-13
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, math-education, sel]
@@ -89,6 +92,7 @@ date_added: 2026-05-10
 published_date: 2024-09-25
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -113,6 +117,7 @@ date_added: 2026-05-10
 published_date: 2024-08-28
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -137,6 +142,7 @@ date_added: 2026-05-10
 published_date: 2024-08-08
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -161,6 +167,7 @@ date_added: 2026-05-10
 published_date: 2024-04-25
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -185,6 +192,7 @@ date_added: 2026-05-10
 published_date: 2024-03-04
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [english-learners, k-12]
@@ -209,6 +217,7 @@ date_added: 2026-05-10
 published_date: 2023-11-08
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, k-12, math-education]
@@ -233,6 +242,7 @@ date_added: 2026-05-10
 published_date: 2022-08-15
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/Learning_Acceleration_for_All_2021.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -257,6 +267,7 @@ date_added: 2026-05-10
 published_date: 2021-05-23
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/Learning_Acceleration_for_All_2021.pdf"
 doi: null
 license: null
 tags: [k-12, math-education]
@@ -281,6 +292,7 @@ date_added: 2026-05-10
 published_date: 2021-03-08
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_MissingOut_ExecutiveSummary_FINAL_web_1.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -305,6 +317,7 @@ date_added: 2026-05-10
 published_date: 2021-01-26
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -329,6 +342,7 @@ date_added: 2026-05-10
 published_date: 2020-12-08
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, k-12]
@@ -353,6 +367,7 @@ date_added: 2026-05-10
 published_date: 2020-01-27
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/Arkansas_State_Profile-1.20.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -377,6 +392,7 @@ date_added: 2026-05-10
 published_date: 2018-09-25
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_Opportunity-Myth_Executive-Summary_WEB.pdf"
 doi: null
 license: null
 tags: [english-learners, higher-ed, k-12]
@@ -401,6 +417,7 @@ date_added: 2026-05-10
 published_date: 2017-09-25
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12]
@@ -425,6 +442,7 @@ date_added: 2026-05-10
 published_date: 2016-08-11
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12]
@@ -449,6 +467,7 @@ date_added: 2026-05-10
 published_date: 2016-07-28
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -473,6 +492,7 @@ date_added: 2026-05-10
 published_date: 2015-08-04
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_Mirage_Executive_Summary_2015.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -497,6 +517,7 @@ date_added: 2026-05-10
 published_date: 2015-02-24
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_Greenhouse_Schools_in_Boston_Technical_Appendix_2015.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -521,6 +542,7 @@ date_added: 2026-05-10
 published_date: 2014-09-09
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -545,6 +567,7 @@ date_added: 2026-05-10
 published_date: 2014-07-15
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_RethinkingTeacherPay_2014.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -569,6 +592,7 @@ date_added: 2026-05-10
 published_date: 2014-02-18
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_Core_Norming_Guidelines_2014.pdf"
 doi: null
 license: null
 tags: [formative-assessment, k-12]
@@ -593,6 +617,7 @@ date_added: 2026-05-10
 published_date: 2013-11-12
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_RatingATeacherObservationTool_Feb2011.pdf"
 doi: null
 license: null
 tags: [formative-assessment, k-12]
@@ -617,6 +642,7 @@ date_added: 2026-05-10
 published_date: 2013-08-13
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12]
@@ -641,6 +667,7 @@ date_added: 2026-05-10
 published_date: 2013-04-17
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_LeapYear_PrincipalGuide_2013.pdf"
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -665,6 +692,7 @@ date_added: 2026-05-10
 published_date: 2012-11-08
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]
@@ -689,6 +717,7 @@ date_added: 2026-05-10
 published_date: 2012-07-30
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_Irreplaceables_ExecSum_2012.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -713,6 +742,7 @@ date_added: 2026-05-10
 published_date: 2012-03-27
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_Greenhouse_Schools_ExecSum_2012.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: 2011-02-24
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_Smarter_Teacher_Layoffs_Mar10.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -761,6 +792,7 @@ date_added: 2026-05-10
 published_date: 2010-10-05
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_METMadeSimple_2012.pdf"
 doi: null
 license: null
 tags: [formative-assessment, k-12]
@@ -785,6 +817,7 @@ date_added: 2026-05-10
 published_date: 2009-06-08
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TheWidgetEffect_execsummary_2nd_ed.pdf"
 doi: null
 license: null
 tags: [formative-assessment, k-12]
@@ -809,6 +842,7 @@ date_added: 2026-05-10
 published_date: 2008-04-29
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/OpenLetter_MutualBenefits_091908.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -833,6 +867,7 @@ date_added: 2026-05-10
 published_date: 2005-04-06
 date_source: page-meta
 authors: null
+document_url: "https://tntp.org/wp-content/uploads/2023/02/TNTP_SFUSD_Full_Report_020509F.pdf"
 doi: null
 license: null
 tags: [k-12]
@@ -857,6 +892,7 @@ date_added: 2026-05-10
 published_date: 2003-11-07
 date_source: page-meta
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12]

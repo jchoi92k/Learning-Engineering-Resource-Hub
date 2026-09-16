@@ -140,13 +140,14 @@ function formatEntry(e) {
     published_date: e.published_date || null,
     date_source: e.date_source || null,
     authors: e.authors || null,
+    document_url: e.document_url || null,
     date_added: e.date_added || null,
   };
 }
 
 // Orientation shared by the tool descriptions: what the ids and dates mean.
 const ID_NOTE = "Entry numbers (num / id) are stable but NOT contiguous — they run past 9,000 for about 3,900 entries, so never assume a 1..N range; take ids from search results, list tools or get_stats.num_range.";
-const DATE_NOTE = "Two recency axes: published_date is the source's own publication date (partial ISO: YYYY, YYYY-MM or YYYY-MM-DD; filled source by source, null where not yet captured, date_source \"n/a\" where the source publishes no date), and date_added is when the hub took the entry in. Use sort_by \"date\" for newest publications and \"recently_added\" for what the hub added most recently.";
+const DATE_NOTE = "Two recency axes: published_date is the source's own publication date (partial ISO: YYYY, YYYY-MM or YYYY-MM-DD; filled source by source, null where not yet captured, date_source \"n/a\" where the source publishes no date or the entry is not a publication), and date_added is when the hub took the entry in. Use sort_by \"date\" for newest publications and \"recently_added\" for what the hub added most recently. document_url, where present, is a direct link to the report file (PDF or journal galley); url is the landing page.";
 
 // Results that carry both a text block and structuredContent (MCP spec:
 // "a tool that returns structured content SHOULD also return the serialized
@@ -357,7 +358,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "fetch",
     description:
-      "Fetch one hub entry by the id returned from search (the entry number as a string): its title, canonical URL, description and metadata (type, source organization, tags, description provenance, published_date with its provenance, authors, date_added).",
+      "Fetch one hub entry by the id returned from search (the entry number as a string): its title, canonical URL, description and metadata (type, source organization, tags, description provenance, published_date with its provenance, authors, document_url where the source offers a report file, date_added).",
     inputSchema: {
       type: "object",
       properties: {
@@ -458,6 +459,7 @@ async function handleToolCall(name, args, env) {
               without_published_date: data.meta.dates.without_published_date,
               sort_options: { newest_published: "sort_by: \"date\"", recently_added: "sort_by: \"recently_added\"" },
             } : undefined,
+            document_links: data.meta.document_links || undefined,
             sources: getSourceCounts(),
             types: getTypeCounts(),
             top_tags: topTags,
@@ -535,6 +537,7 @@ async function handleToolCall(name, args, env) {
           published_date: entry.published_date || null,
           date_source: entry.date_source || null,
           authors: entry.authors || null,
+          document_url: entry.document_url || null,
           date_added: entry.date_added || null,
         },
       });
@@ -674,6 +677,7 @@ function formatMarkdown({ results, total, limited }) {
     lines.push(`- **Source:** ${e.source}`);
     if (e.published_date) lines.push(`- **Published:** ${e.published_date}`);
     if (e.authors && e.authors.length) lines.push(`- **Authors:** ${e.authors.join("; ")}`);
+    if (e.document_url) lines.push(`- **Report file:** ${e.document_url}`);
     lines.push(`- **Tags:** ${e.tags.join(", ")}`);
     lines.push("");
     if (e.desc) {

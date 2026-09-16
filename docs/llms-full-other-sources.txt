@@ -17,6 +17,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, learning-engineering]
@@ -41,6 +42,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, digital-learning-platforms, learning-engineering]
@@ -65,6 +67,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, learning-engineering]
@@ -89,6 +92,7 @@ date_added: 2026-05-13
 published_date: 2026-05-11
 date_source: page-meta
 authors: ["Katharine Meyer", "Isabel McMullen"]
+document_url: null
 doi: null
 license: null
 tags: [coaching, college-access, higher-ed]
@@ -113,6 +117,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [cognitive-science, inclusive-design, k-12, learning-engineering]
@@ -137,6 +142,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [carnegie-learning, cmu-learnlab, k-12, learning-engineering, longitudinal, math-education, math-strategies]
@@ -161,6 +167,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [casel, inclusive-design, k-12, learning-engineering, sel]
@@ -185,6 +192,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [duolingo, english-learners, learning-engineering, longitudinal, nlp, open-datasets]
@@ -209,6 +217,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, duolingo, english-learners, learning-engineering, longitudinal, nlp, open-datasets]
@@ -233,6 +242,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [genai, intelligent-tutoring, math-education]
@@ -257,6 +267,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, longitudinal, open-datasets]
@@ -281,6 +292,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, longitudinal, open-datasets]
@@ -305,6 +317,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, longitudinal, open-datasets]
@@ -329,6 +342,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, longitudinal, open-datasets]
@@ -353,6 +367,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, open-datasets]
@@ -377,6 +392,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, open-datasets]
@@ -401,6 +417,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, longitudinal, open-datasets]
@@ -425,6 +442,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, open-datasets]
@@ -449,6 +467,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, longitudinal, open-datasets]
@@ -473,6 +492,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, higher-ed, k-12, open-datasets]
@@ -497,6 +517,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, open-datasets]
@@ -521,6 +542,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [genai, k-12, learning-engineering, math-education]
@@ -545,6 +567,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [genai-tutoring, k-12, khan-academy, learning-engineering, math-education]
@@ -569,6 +592,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [intelligent-tutoring, k-12, learning-engineering, math-education]
@@ -593,6 +617,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, personalized-learning]
@@ -617,6 +642,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [carnegie-learning, genai, k-12, learning-engineering, math-education]
@@ -641,6 +667,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [intelligent-tutoring, k-12, learning-engineering, math-education]
@@ -665,6 +692,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [genai-tutoring, k-12, learning-engineering, math-education]
@@ -689,6 +717,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, genai, learning-engineering]
@@ -713,6 +742,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, open-datasets]
@@ -737,6 +767,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, open-datasets]
@@ -761,6 +792,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, nap]
@@ -785,6 +817,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, learning-engineering, nap]
@@ -809,6 +842,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, higher-ed, longitudinal, open-datasets]
@@ -833,6 +867,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, higher-ed, k-12, longitudinal, open-datasets]
@@ -857,6 +892,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, higher-ed, longitudinal, open-datasets]
@@ -881,6 +917,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, literacy, longitudinal, math-education, open-datasets]
@@ -905,6 +942,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, open-datasets, professional-development]
@@ -929,6 +967,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, longitudinal, open-datasets]
@@ -953,6 +992,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, higher-ed, k-12, open-datasets]
@@ -977,6 +1017,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, open-datasets]
@@ -1001,6 +1042,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, open-datasets, professional-development]
@@ -1025,6 +1067,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, open-datasets]
@@ -1049,6 +1092,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, open-datasets]
@@ -1073,6 +1117,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, intelligent-tutoring, k-12, learning-engineering, open-datasets]
@@ -1097,6 +1142,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [genai, intelligent-tutoring]
@@ -1121,6 +1167,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, math-education, open-datasets]
@@ -1145,6 +1192,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, open-datasets]
@@ -1169,6 +1217,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, longitudinal, open-datasets]
@@ -1193,6 +1242,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [learning-engineering, tla]
@@ -1217,6 +1267,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [digital-learning-platforms, higher-ed, learning-engineering, longitudinal, open-datasets]
@@ -1241,6 +1292,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, k-12, open-datasets]
@@ -1265,6 +1317,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, higher-ed, longitudinal, open-datasets]
@@ -1289,6 +1342,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, open-datasets]
@@ -1313,6 +1367,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, k-12, open-datasets]
@@ -1337,6 +1392,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, english-learners, k-12, open-datasets, school-discipline]
@@ -1361,6 +1417,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [intelligent-tutoring, learning-engineering]
@@ -1385,6 +1442,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [intelligent-tutoring, k-12, personalized-learning]
@@ -1409,6 +1467,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [ai-ethics, ai-policy, higher-ed, k-12]
@@ -1433,6 +1492,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [ai-ethics, ai-policy, higher-ed, k-12, llm-application]
@@ -1457,6 +1517,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [ai-ethics, ai-policy, higher-ed, k-12, llm-application, professional-development]
@@ -1481,6 +1542,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [formative-assessment, learning-engineering]
@@ -1505,6 +1567,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [data-sharing, higher-ed, k-12, open-datasets]
@@ -1529,6 +1592,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, open-datasets]
@@ -1553,6 +1617,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [assistments, formative-assessment, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -1577,6 +1642,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [assistments, computer-assisted-learning, digital-learning-platforms, formative-assessment, intelligent-tutoring, k-12, learning-engineering, open-datasets, wpi]
@@ -1601,6 +1667,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [assistments, computer-assisted-learning, formative-assessment, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets, wpi]
@@ -1625,6 +1692,7 @@ date_added: 2026-05-02
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, k-12, open-datasets]
@@ -1649,6 +1717,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [higher-ed, open-datasets]
@@ -1673,6 +1742,7 @@ date_added: 2026-05-03
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [k-12, open-datasets]
@@ -1697,6 +1767,7 @@ date_added: 2026-05-06
 published_date: null
 date_source: n/a
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [intelligent-tutoring, learning-engineering]

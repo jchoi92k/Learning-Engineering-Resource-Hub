@@ -17,6 +17,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, edtrust, k-12, learning-engineering]
@@ -41,6 +42,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment, k-12, learning-engineering]
@@ -65,6 +67,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, learning-engineering, sel]
@@ -89,6 +92,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, learning-engineering]
@@ -113,6 +117,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, english-learners, k-12, math-education]
@@ -137,6 +142,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, sel, student-belonging]
@@ -161,6 +167,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed]
@@ -185,6 +192,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, professional-development]
@@ -209,6 +217,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed, longitudinal]
@@ -233,6 +242,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, k-12]
@@ -257,6 +267,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed, longitudinal]
@@ -281,6 +292,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, personalized-learning, response-to-intervention]
@@ -305,6 +317,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, school-discipline, sel]
@@ -329,6 +342,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, edtrust, k-12]
@@ -353,6 +367,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, sel, student-belonging]
@@ -377,6 +392,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment, k-12, qualitative-research]
@@ -401,6 +417,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, response-to-intervention]
@@ -425,6 +442,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed]
@@ -449,6 +467,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment, k-12]
@@ -473,6 +492,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed]
@@ -497,6 +517,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed, qualitative-research]
@@ -521,6 +542,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, edtrust, higher-ed]
@@ -545,6 +567,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, professional-development]
@@ -569,6 +592,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12]
@@ -593,6 +617,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, longitudinal]
@@ -617,6 +642,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed, qualitative-research]
@@ -641,6 +667,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, higher-ed, qualitative-research, student-belonging]
@@ -665,6 +692,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, higher-ed, student-belonging]
@@ -689,6 +717,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed]
@@ -713,6 +742,7 @@ date_added: 2026-05-01
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, higher-ed]
@@ -737,6 +767,7 @@ date_added: 2026-05-10
 published_date: null
 date_source: null
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment, k-12, sel]
@@ -761,6 +792,7 @@ date_added: 2026-08-30
 published_date: 2026-08-26
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -785,6 +817,7 @@ date_added: 2026-08-30
 published_date: 2026-08-24
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -809,6 +842,7 @@ date_added: 2026-08-30
 published_date: 2026-08-03
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -833,6 +867,7 @@ date_added: 2026-08-30
 published_date: 2026-07-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -857,6 +892,7 @@ date_added: 2026-08-30
 published_date: 2026-07-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -881,6 +917,7 @@ date_added: 2026-08-30
 published_date: 2026-07-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, literacy]
@@ -905,6 +942,7 @@ date_added: 2026-08-30
 published_date: 2026-07-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -929,6 +967,7 @@ date_added: 2026-08-30
 published_date: 2026-07-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -953,6 +992,7 @@ date_added: 2026-08-30
 published_date: 2026-06-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -977,6 +1017,7 @@ date_added: 2026-08-30
 published_date: 2026-05-18
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1001,6 +1042,7 @@ date_added: 2026-08-30
 published_date: 2026-04-30
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1025,6 +1067,7 @@ date_added: 2026-08-30
 published_date: 2026-04-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1049,6 +1092,7 @@ date_added: 2026-08-30
 published_date: 2026-04-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1073,6 +1117,7 @@ date_added: 2026-08-30
 published_date: 2026-04-02
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1097,6 +1142,7 @@ date_added: 2026-08-30
 published_date: 2026-04-02
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -1121,6 +1167,7 @@ date_added: 2026-08-30
 published_date: 2026-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1145,6 +1192,7 @@ date_added: 2026-08-30
 published_date: 2026-03-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -1169,6 +1217,7 @@ date_added: 2026-08-30
 published_date: 2026-03-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, edtrust]
@@ -1193,6 +1242,7 @@ date_added: 2026-08-30
 published_date: 2026-03-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1217,6 +1267,7 @@ date_added: 2026-08-30
 published_date: 2026-03-12
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1241,6 +1292,7 @@ date_added: 2026-08-30
 published_date: 2026-03-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, professional-development]
@@ -1265,6 +1317,7 @@ date_added: 2026-08-30
 published_date: 2026-02-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1289,6 +1342,7 @@ date_added: 2026-08-30
 published_date: 2026-02-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1313,6 +1367,7 @@ date_added: 2026-08-30
 published_date: 2026-01-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1337,6 +1392,7 @@ date_added: 2026-08-30
 published_date: 2025-12-19
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -1361,6 +1417,7 @@ date_added: 2026-08-30
 published_date: 2025-12-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1385,6 +1442,7 @@ date_added: 2026-08-30
 published_date: 2025-12-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, math-education]
@@ -1409,6 +1467,7 @@ date_added: 2026-08-30
 published_date: 2025-12-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -1433,6 +1492,7 @@ date_added: 2026-08-30
 published_date: 2025-11-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1457,6 +1517,7 @@ date_added: 2026-08-30
 published_date: 2025-11-06
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1481,6 +1542,7 @@ date_added: 2026-08-30
 published_date: 2025-11-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, professional-development]
@@ -1505,6 +1567,7 @@ date_added: 2026-08-30
 published_date: 2025-10-30
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1529,6 +1592,7 @@ date_added: 2026-08-30
 published_date: 2025-10-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -1553,6 +1617,7 @@ date_added: 2026-08-30
 published_date: 2025-10-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1577,6 +1642,7 @@ date_added: 2026-08-30
 published_date: 2025-10-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1601,6 +1667,7 @@ date_added: 2026-08-30
 published_date: 2025-10-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, edtrust]
@@ -1625,6 +1692,7 @@ date_added: 2026-08-30
 published_date: 2025-10-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1649,6 +1717,7 @@ date_added: 2026-08-30
 published_date: 2025-09-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1673,6 +1742,7 @@ date_added: 2026-08-30
 published_date: 2025-09-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1697,6 +1767,7 @@ date_added: 2026-08-30
 published_date: 2025-09-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, college-access, edtrust]
@@ -1721,6 +1792,7 @@ date_added: 2026-08-30
 published_date: 2025-07-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, literacy]
@@ -1745,6 +1817,7 @@ date_added: 2026-08-30
 published_date: 2025-06-25
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1769,6 +1842,7 @@ date_added: 2026-08-30
 published_date: 2025-05-20
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1793,6 +1867,7 @@ date_added: 2026-08-30
 published_date: 2025-05-20
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1817,6 +1892,7 @@ date_added: 2026-08-30
 published_date: 2025-05-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1841,6 +1917,7 @@ date_added: 2026-08-30
 published_date: 2025-04-24
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust, learning-engineering, math-education]
@@ -1865,6 +1942,7 @@ date_added: 2026-08-30
 published_date: 2025-04-22
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1889,6 +1967,7 @@ date_added: 2026-08-30
 published_date: 2025-04-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1913,6 +1992,7 @@ date_added: 2026-08-30
 published_date: 2025-04-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -1937,6 +2017,7 @@ date_added: 2026-08-30
 published_date: 2025-04-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -1961,6 +2042,7 @@ date_added: 2026-08-30
 published_date: 2025-04-03
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -1985,6 +2067,7 @@ date_added: 2026-08-30
 published_date: 2025-03-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2009,6 +2092,7 @@ date_added: 2026-08-30
 published_date: 2025-03-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2033,6 +2117,7 @@ date_added: 2026-08-30
 published_date: 2025-03-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2057,6 +2142,7 @@ date_added: 2026-08-30
 published_date: 2025-02-26
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2081,6 +2167,7 @@ date_added: 2026-08-30
 published_date: 2025-02-12
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, inclusive-design]
@@ -2105,6 +2192,7 @@ date_added: 2026-08-30
 published_date: 2025-02-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment]
@@ -2129,6 +2217,7 @@ date_added: 2026-08-30
 published_date: 2025-01-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2153,6 +2242,7 @@ date_added: 2026-08-30
 published_date: 2025-01-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2177,6 +2267,7 @@ date_added: 2026-08-30
 published_date: 2025-01-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2201,6 +2292,7 @@ date_added: 2026-08-30
 published_date: 2024-12-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2225,6 +2317,7 @@ date_added: 2026-08-30
 published_date: 2024-12-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment]
@@ -2249,6 +2342,7 @@ date_added: 2026-08-30
 published_date: 2024-12-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment]
@@ -2273,6 +2367,7 @@ date_added: 2026-08-30
 published_date: 2024-11-19
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2297,6 +2392,7 @@ date_added: 2026-08-30
 published_date: 2024-11-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, professional-development]
@@ -2321,6 +2417,7 @@ date_added: 2026-08-30
 published_date: 2024-10-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -2345,6 +2442,7 @@ date_added: 2026-08-30
 published_date: 2024-10-24
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment, sel]
@@ -2369,6 +2467,7 @@ date_added: 2026-08-30
 published_date: 2024-10-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2393,6 +2492,7 @@ date_added: 2026-08-30
 published_date: 2024-09-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -2417,6 +2517,7 @@ date_added: 2026-08-30
 published_date: 2024-08-07
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -2441,6 +2542,7 @@ date_added: 2026-08-30
 published_date: 2024-07-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2465,6 +2567,7 @@ date_added: 2026-08-30
 published_date: 2024-06-25
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -2489,6 +2592,7 @@ date_added: 2026-08-30
 published_date: 2024-06-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2513,6 +2617,7 @@ date_added: 2026-08-30
 published_date: 2024-05-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2537,6 +2642,7 @@ date_added: 2026-08-30
 published_date: 2024-05-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2561,6 +2667,7 @@ date_added: 2026-08-30
 published_date: 2024-05-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -2585,6 +2692,7 @@ date_added: 2026-08-30
 published_date: 2024-04-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2609,6 +2717,7 @@ date_added: 2026-08-30
 published_date: 2024-04-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -2633,6 +2742,7 @@ date_added: 2026-08-30
 published_date: 2024-04-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment]
@@ -2657,6 +2767,7 @@ date_added: 2026-08-30
 published_date: 2024-04-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2681,6 +2792,7 @@ date_added: 2026-08-30
 published_date: 2024-04-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -2705,6 +2817,7 @@ date_added: 2026-08-30
 published_date: 2024-04-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -2729,6 +2842,7 @@ date_added: 2026-08-30
 published_date: 2024-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, literacy]
@@ -2753,6 +2867,7 @@ date_added: 2026-08-30
 published_date: 2024-03-21
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2777,6 +2892,7 @@ date_added: 2026-08-30
 published_date: 2024-03-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, literacy]
@@ -2801,6 +2917,7 @@ date_added: 2026-08-30
 published_date: 2024-02-28
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -2825,6 +2942,7 @@ date_added: 2026-08-30
 published_date: 2024-02-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2849,6 +2967,7 @@ date_added: 2026-08-30
 published_date: 2024-02-12
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2873,6 +2992,7 @@ date_added: 2026-08-30
 published_date: 2024-02-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2897,6 +3017,7 @@ date_added: 2026-08-30
 published_date: 2024-02-06
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment, inclusive-design]
@@ -2921,6 +3042,7 @@ date_added: 2026-08-30
 published_date: 2024-01-30
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2945,6 +3067,7 @@ date_added: 2026-08-30
 published_date: 2024-01-30
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2969,6 +3092,7 @@ date_added: 2026-08-30
 published_date: 2023-12-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -2993,6 +3117,7 @@ date_added: 2026-08-30
 published_date: 2023-12-12
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3017,6 +3142,7 @@ date_added: 2026-08-30
 published_date: 2023-12-07
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3041,6 +3167,7 @@ date_added: 2026-08-30
 published_date: 2023-11-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -3065,6 +3192,7 @@ date_added: 2026-08-30
 published_date: 2023-11-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -3089,6 +3217,7 @@ date_added: 2026-08-30
 published_date: 2023-11-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3113,6 +3242,7 @@ date_added: 2026-08-30
 published_date: 2023-10-24
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3137,6 +3267,7 @@ date_added: 2026-08-30
 published_date: 2023-10-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -3161,6 +3292,7 @@ date_added: 2026-08-30
 published_date: 2023-10-06
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3185,6 +3317,7 @@ date_added: 2026-08-30
 published_date: 2023-09-21
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -3209,6 +3342,7 @@ date_added: 2026-08-30
 published_date: 2023-09-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -3233,6 +3367,7 @@ date_added: 2026-08-30
 published_date: 2023-08-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust, inclusive-design]
@@ -3257,6 +3392,7 @@ date_added: 2026-08-30
 published_date: 2023-08-22
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3281,6 +3417,7 @@ date_added: 2026-08-30
 published_date: 2023-07-21
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3305,6 +3442,7 @@ date_added: 2026-08-30
 published_date: 2023-06-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -3329,6 +3467,7 @@ date_added: 2026-08-30
 published_date: 2023-06-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -3353,6 +3492,7 @@ date_added: 2026-08-30
 published_date: 2023-06-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3377,6 +3517,7 @@ date_added: 2026-08-30
 published_date: 2023-05-31
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, k-12, math-education]
@@ -3401,6 +3542,7 @@ date_added: 2026-08-30
 published_date: 2023-05-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3425,6 +3567,7 @@ date_added: 2026-08-30
 published_date: 2023-05-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -3449,6 +3592,7 @@ date_added: 2026-08-30
 published_date: 2023-05-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -3473,6 +3617,7 @@ date_added: 2026-08-30
 published_date: 2023-05-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3497,6 +3642,7 @@ date_added: 2026-08-30
 published_date: 2023-04-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -3521,6 +3667,7 @@ date_added: 2026-08-30
 published_date: 2023-04-12
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -3545,6 +3692,7 @@ date_added: 2026-08-30
 published_date: 2023-04-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -3569,6 +3717,7 @@ date_added: 2026-08-30
 published_date: 2023-04-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3593,6 +3742,7 @@ date_added: 2026-08-30
 published_date: 2023-03-02
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning, edtrust, k-12]
@@ -3617,6 +3767,7 @@ date_added: 2026-08-30
 published_date: 2023-02-22
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -3641,6 +3792,7 @@ date_added: 2026-08-30
 published_date: 2023-01-19
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3665,6 +3817,7 @@ date_added: 2026-08-30
 published_date: 2023-01-19
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -3689,6 +3842,7 @@ date_added: 2026-08-30
 published_date: 2023-01-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3713,6 +3867,7 @@ date_added: 2026-08-30
 published_date: 2023-01-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3737,6 +3892,7 @@ date_added: 2026-08-30
 published_date: 2022-12-19
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3761,6 +3917,7 @@ date_added: 2026-08-30
 published_date: 2022-12-19
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3785,6 +3942,7 @@ date_added: 2026-08-30
 published_date: 2022-12-07
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3809,6 +3967,7 @@ date_added: 2026-08-30
 published_date: 2022-12-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -3833,6 +3992,7 @@ date_added: 2026-08-30
 published_date: 2022-11-30
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3857,6 +4017,7 @@ date_added: 2026-08-30
 published_date: 2022-11-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3881,6 +4042,7 @@ date_added: 2026-08-30
 published_date: 2022-10-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -3905,6 +4067,7 @@ date_added: 2026-08-30
 published_date: 2022-10-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -3929,6 +4092,7 @@ date_added: 2026-08-30
 published_date: 2022-10-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -3953,6 +4117,7 @@ date_added: 2026-08-30
 published_date: 2022-10-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -3977,6 +4142,7 @@ date_added: 2026-08-30
 published_date: 2022-10-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, edtrust]
@@ -4001,6 +4167,7 @@ date_added: 2026-08-30
 published_date: 2022-10-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4025,6 +4192,7 @@ date_added: 2026-08-30
 published_date: 2022-10-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -4049,6 +4217,7 @@ date_added: 2026-08-30
 published_date: 2022-10-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4073,6 +4242,7 @@ date_added: 2026-08-30
 published_date: 2022-10-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4097,6 +4267,7 @@ date_added: 2026-08-30
 published_date: 2022-10-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -4121,6 +4292,7 @@ date_added: 2026-08-30
 published_date: 2022-10-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4145,6 +4317,7 @@ date_added: 2026-08-30
 published_date: 2022-10-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, edtrust, response-to-intervention]
@@ -4169,6 +4342,7 @@ date_added: 2026-08-30
 published_date: 2022-10-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust, math-education]
@@ -4193,6 +4367,7 @@ date_added: 2026-08-30
 published_date: 2022-10-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, english-learners, formative-assessment, inclusive-design]
@@ -4217,6 +4392,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4241,6 +4417,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4265,6 +4442,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -4289,6 +4467,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4313,6 +4492,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -4337,6 +4517,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -4361,6 +4542,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -4385,6 +4567,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -4409,6 +4592,7 @@ date_added: 2026-08-30
 published_date: 2022-07-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -4433,6 +4617,7 @@ date_added: 2026-08-30
 published_date: 2022-07-18
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4457,6 +4642,7 @@ date_added: 2026-08-30
 published_date: 2022-05-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, literacy]
@@ -4481,6 +4667,7 @@ date_added: 2026-08-30
 published_date: 2022-04-28
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4505,6 +4692,7 @@ date_added: 2026-08-30
 published_date: 2022-04-25
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4529,6 +4717,7 @@ date_added: 2026-08-30
 published_date: 2022-04-21
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, edtrust, k-12, math-education]
@@ -4553,6 +4742,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4577,6 +4767,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4601,6 +4792,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4625,6 +4817,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4649,6 +4842,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4673,6 +4867,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4697,6 +4892,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4721,6 +4917,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4745,6 +4942,7 @@ date_added: 2026-08-30
 published_date: 2022-03-08
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -4769,6 +4967,7 @@ date_added: 2026-08-30
 published_date: 2022-02-22
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4793,6 +4992,7 @@ date_added: 2026-08-30
 published_date: 2021-12-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4817,6 +5017,7 @@ date_added: 2026-08-30
 published_date: 2021-12-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4841,6 +5042,7 @@ date_added: 2026-08-30
 published_date: 2021-11-30
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [attendance, edtrust, literacy, math-education]
@@ -4865,6 +5067,7 @@ date_added: 2026-08-30
 published_date: 2021-09-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -4889,6 +5092,7 @@ date_added: 2026-08-30
 published_date: 2021-07-21
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -4913,6 +5117,7 @@ date_added: 2026-08-30
 published_date: 2021-05-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, response-to-intervention]
@@ -4937,6 +5142,7 @@ date_added: 2026-08-30
 published_date: 2021-05-26
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, english-learners]
@@ -4961,6 +5167,7 @@ date_added: 2026-08-30
 published_date: 2021-05-25
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, inclusive-design, response-to-intervention]
@@ -4985,6 +5192,7 @@ date_added: 2026-08-30
 published_date: 2021-05-18
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5009,6 +5217,7 @@ date_added: 2026-08-30
 published_date: 2021-05-06
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5033,6 +5242,7 @@ date_added: 2026-08-30
 published_date: 2021-04-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5057,6 +5267,7 @@ date_added: 2026-08-30
 published_date: 2021-04-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -5081,6 +5292,7 @@ date_added: 2026-08-30
 published_date: 2021-03-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -5105,6 +5317,7 @@ date_added: 2026-08-30
 published_date: 2021-03-22
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5129,6 +5342,7 @@ date_added: 2026-08-30
 published_date: 2021-03-18
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5153,6 +5367,7 @@ date_added: 2026-08-30
 published_date: 2021-03-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, response-to-intervention]
@@ -5177,6 +5392,7 @@ date_added: 2026-08-30
 published_date: 2021-03-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5201,6 +5417,7 @@ date_added: 2026-08-30
 published_date: 2021-03-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5225,6 +5442,7 @@ date_added: 2026-08-30
 published_date: 2021-01-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5249,6 +5467,7 @@ date_added: 2026-08-30
 published_date: 2020-12-03
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -5273,6 +5492,7 @@ date_added: 2026-08-30
 published_date: 2020-12-02
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -5297,6 +5517,7 @@ date_added: 2026-08-30
 published_date: 2020-12-02
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5321,6 +5542,7 @@ date_added: 2026-08-30
 published_date: 2020-11-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5345,6 +5567,7 @@ date_added: 2026-08-30
 published_date: 2020-11-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5369,6 +5592,7 @@ date_added: 2026-08-30
 published_date: 2020-11-10
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -5393,6 +5617,7 @@ date_added: 2026-08-30
 published_date: 2020-10-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5417,6 +5642,7 @@ date_added: 2026-08-30
 published_date: 2020-10-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -5441,6 +5667,7 @@ date_added: 2026-08-30
 published_date: 2020-10-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5465,6 +5692,7 @@ date_added: 2026-08-30
 published_date: 2020-10-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5489,6 +5717,7 @@ date_added: 2026-08-30
 published_date: 2020-10-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -5513,6 +5742,7 @@ date_added: 2026-08-30
 published_date: 2020-10-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [computer-assisted-learning, edtrust]
@@ -5537,6 +5767,7 @@ date_added: 2026-08-30
 published_date: 2020-10-29
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, edtrust]
@@ -5561,6 +5792,7 @@ date_added: 2026-08-30
 published_date: 2020-10-21
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -5585,6 +5817,7 @@ date_added: 2026-08-30
 published_date: 2020-08-20
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5609,6 +5842,7 @@ date_added: 2026-08-30
 published_date: 2020-07-21
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5633,6 +5867,7 @@ date_added: 2026-08-30
 published_date: 2020-05-18
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -5657,6 +5892,7 @@ date_added: 2026-08-30
 published_date: 2020-05-07
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5681,6 +5917,7 @@ date_added: 2026-08-30
 published_date: 2020-04-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5705,6 +5942,7 @@ date_added: 2026-08-30
 published_date: 2020-04-15
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -5729,6 +5967,7 @@ date_added: 2026-08-30
 published_date: 2020-04-06
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5753,6 +5992,7 @@ date_added: 2026-08-30
 published_date: 2020-04-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5777,6 +6017,7 @@ date_added: 2026-08-30
 published_date: 2020-03-24
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5801,6 +6042,7 @@ date_added: 2026-08-30
 published_date: 2020-01-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5825,6 +6067,7 @@ date_added: 2026-08-30
 published_date: 2019-12-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5849,6 +6092,7 @@ date_added: 2026-08-30
 published_date: 2019-12-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5873,6 +6117,7 @@ date_added: 2026-08-30
 published_date: 2019-12-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5897,6 +6142,7 @@ date_added: 2026-08-30
 published_date: 2019-12-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5921,6 +6167,7 @@ date_added: 2026-08-30
 published_date: 2019-11-06
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [early-childhood, edtrust]
@@ -5945,6 +6192,7 @@ date_added: 2026-08-30
 published_date: 2019-09-19
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -5969,6 +6217,7 @@ date_added: 2026-08-30
 published_date: 2019-09-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -5993,6 +6242,7 @@ date_added: 2026-08-30
 published_date: 2019-09-11
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6017,6 +6267,7 @@ date_added: 2026-08-30
 published_date: 2019-03-06
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6041,6 +6292,7 @@ date_added: 2026-08-30
 published_date: 2019-02-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, sel]
@@ -6065,6 +6317,7 @@ date_added: 2026-08-30
 published_date: 2019-01-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6089,6 +6342,7 @@ date_added: 2026-08-30
 published_date: 2018-11-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6113,6 +6367,7 @@ date_added: 2026-08-30
 published_date: 2018-09-06
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6137,6 +6392,7 @@ date_added: 2026-08-30
 published_date: 2018-06-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -6161,6 +6417,7 @@ date_added: 2026-08-30
 published_date: 2018-04-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust, math-education]
@@ -6185,6 +6442,7 @@ date_added: 2026-08-30
 published_date: 2018-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6209,6 +6467,7 @@ date_added: 2026-08-30
 published_date: 2018-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6233,6 +6492,7 @@ date_added: 2026-08-30
 published_date: 2018-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6257,6 +6517,7 @@ date_added: 2026-08-30
 published_date: 2018-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6281,6 +6542,7 @@ date_added: 2026-08-30
 published_date: 2018-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6305,6 +6567,7 @@ date_added: 2026-08-30
 published_date: 2018-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6329,6 +6592,7 @@ date_added: 2026-08-30
 published_date: 2018-03-27
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6353,6 +6617,7 @@ date_added: 2026-08-30
 published_date: 2018-02-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6377,6 +6642,7 @@ date_added: 2026-08-30
 published_date: 2018-02-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -6401,6 +6667,7 @@ date_added: 2026-08-30
 published_date: 2018-01-30
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6425,6 +6692,7 @@ date_added: 2026-08-30
 published_date: 2018-01-19
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6449,6 +6717,7 @@ date_added: 2026-08-30
 published_date: 2017-12-18
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6473,6 +6742,7 @@ date_added: 2026-08-30
 published_date: 2017-12-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6497,6 +6767,7 @@ date_added: 2026-08-30
 published_date: 2017-10-03
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6521,6 +6792,7 @@ date_added: 2026-08-30
 published_date: 2017-07-26
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6545,6 +6817,7 @@ date_added: 2026-08-30
 published_date: 2017-03-21
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6569,6 +6842,7 @@ date_added: 2026-08-30
 published_date: 2017-03-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6593,6 +6867,7 @@ date_added: 2026-08-30
 published_date: 2016-11-03
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, edtrust]
@@ -6617,6 +6892,7 @@ date_added: 2026-08-30
 published_date: 2016-08-04
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6641,6 +6917,7 @@ date_added: 2026-08-30
 published_date: 2016-05-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6665,6 +6942,7 @@ date_added: 2026-08-30
 published_date: 2016-03-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [dropout-prevention, edtrust]
@@ -6689,6 +6967,7 @@ date_added: 2026-08-30
 published_date: 2016-01-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6713,6 +6992,7 @@ date_added: 2026-08-30
 published_date: 2015-12-02
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, edtrust]
@@ -6737,6 +7017,7 @@ date_added: 2026-08-30
 published_date: 2015-09-24
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6761,6 +7042,7 @@ date_added: 2026-08-30
 published_date: 2015-09-02
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [career-readiness, college-access, edtrust]
@@ -6785,6 +7067,7 @@ date_added: 2026-08-30
 published_date: 2015-04-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6809,6 +7092,7 @@ date_added: 2026-08-30
 published_date: 2014-10-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6833,6 +7117,7 @@ date_added: 2026-08-30
 published_date: 2014-06-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6857,6 +7142,7 @@ date_added: 2026-08-30
 published_date: 2014-03-22
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6881,6 +7167,7 @@ date_added: 2026-08-30
 published_date: 2014-01-16
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -6905,6 +7192,7 @@ date_added: 2026-08-30
 published_date: 2013-09-23
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -6929,6 +7217,7 @@ date_added: 2026-08-30
 published_date: 2013-07-17
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, edtrust]
@@ -6953,6 +7242,7 @@ date_added: 2026-08-30
 published_date: 2013-07-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, formative-assessment]
@@ -6977,6 +7267,7 @@ date_added: 2026-08-30
 published_date: 2013-06-05
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7001,6 +7292,7 @@ date_added: 2026-08-30
 published_date: 2013-05-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7025,6 +7317,7 @@ date_added: 2026-08-30
 published_date: 2013-02-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -7049,6 +7342,7 @@ date_added: 2026-08-30
 published_date: 2013-02-07
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7073,6 +7367,7 @@ date_added: 2026-08-30
 published_date: 2012-09-20
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, edtrust]
@@ -7097,6 +7392,7 @@ date_added: 2026-08-30
 published_date: 2012-09-20
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, edtrust]
@@ -7121,6 +7417,7 @@ date_added: 2026-08-30
 published_date: 2012-06-26
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7145,6 +7442,7 @@ date_added: 2026-08-30
 published_date: 2011-11-14
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7169,6 +7467,7 @@ date_added: 2026-08-30
 published_date: 2011-09-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7193,6 +7492,7 @@ date_added: 2026-08-30
 published_date: 2011-06-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -7217,6 +7517,7 @@ date_added: 2026-08-30
 published_date: 2011-01-03
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7241,6 +7542,7 @@ date_added: 2026-08-30
 published_date: 2010-11-22
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -7265,6 +7567,7 @@ date_added: 2026-08-30
 published_date: 2010-04-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7289,6 +7592,7 @@ date_added: 2026-08-30
 published_date: 2010-01-28
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning, edtrust]
@@ -7313,6 +7617,7 @@ date_added: 2026-08-30
 published_date: 2010-01-28
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning, dropout-prevention, edtrust]
@@ -7337,6 +7642,7 @@ date_added: 2026-08-30
 published_date: 2010-01-13
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7361,6 +7667,7 @@ date_added: 2026-08-30
 published_date: 2009-12-03
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7385,6 +7692,7 @@ date_added: 2026-08-30
 published_date: 2009-11-09
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7409,6 +7717,7 @@ date_added: 2026-08-30
 published_date: 2009-06-26
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7433,6 +7742,7 @@ date_added: 2026-08-30
 published_date: 2009-01-03
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7457,6 +7767,7 @@ date_added: 2026-08-30
 published_date: 2006-09-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7481,6 +7792,7 @@ date_added: 2026-08-30
 published_date: 2004-01-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7505,6 +7817,7 @@ date_added: 2026-08-30
 published_date: 2003-10-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7529,6 +7842,7 @@ date_added: 2026-08-30
 published_date: 2003-10-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7553,6 +7867,7 @@ date_added: 2026-08-30
 published_date: 2003-09-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7577,6 +7892,7 @@ date_added: 2026-08-30
 published_date: 2003-01-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7601,6 +7917,7 @@ date_added: 2026-08-30
 published_date: 2003-01-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7625,6 +7942,7 @@ date_added: 2026-08-30
 published_date: 2002-05-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust, math-education]
@@ -7649,6 +7967,7 @@ date_added: 2026-08-30
 published_date: 2000-06-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7673,6 +7992,7 @@ date_added: 2026-08-30
 published_date: 1999-09-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [college-access, edtrust]
@@ -7697,6 +8017,7 @@ date_added: 2026-08-30
 published_date: 1999-05-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]
@@ -7721,6 +8042,7 @@ date_added: 2026-08-30
 published_date: 1998-06-01
 date_source: listing
 authors: null
+document_url: null
 doi: null
 license: null
 tags: [edtrust]

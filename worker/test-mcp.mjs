@@ -232,9 +232,11 @@ await test("entries carry the metadata fields", async () => {
   // document_url (2026-09-16): null where the source offers no report file, an
   // absolute link where it does (WestEd's S3 PDFs, journal galleys).
   assert("document_url" in e && e.document_url === null, "Digital Promise has no report link yet: null, not missing");
-  const w = await callTool("search_resources", { source: "WestEd", sort_by: "date", limit: 30 });
+  // JEDM: every indexed paper has an OAI galley link (WestEd's newest pages
+  // predate its selector, so they are not a safe fixture).
+  const w = await callTool("search_resources", { source: "Journal of Educational Data Mining", limit: 5 });
   const linked = w.entries.find(x => x.document_url);
-  assert(linked && /^https:\/\//.test(linked.document_url), `a WestEd entry carries a report link (${linked?.document_url})`);
+  assert(linked && /^https:\/\//.test(linked.document_url), `a JEDM entry carries a report link (${linked?.document_url})`);
   const wf = await callTool("fetch", { id: String(linked.num) });
   assert(wf.metadata.document_url === linked.document_url, "fetch metadata carries document_url");
 });

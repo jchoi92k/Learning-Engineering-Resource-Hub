@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — CREDO at Stanford (full)
-# 16 entries with descriptions | Last updated: 2026-09-15
+# 16 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-credo-at-stanford.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,8 +14,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2025
+date_source: url
 authors: null
 doi: null
 license: null
@@ -38,8 +38,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2023-06-06
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -62,8 +62,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2022
+date_source: url
 authors: null
 doi: null
 license: null
@@ -86,8 +86,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2022
+date_source: url
 authors: null
 doi: null
 license: null
@@ -110,8 +110,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2022
+date_source: url
 authors: null
 doi: null
 license: null
@@ -134,8 +134,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2022
+date_source: url
 authors: null
 doi: null
 license: null
@@ -182,8 +182,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2023
+date_source: url
 authors: null
 doi: null
 license: null
@@ -206,8 +206,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2023-01-13
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -230,8 +230,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2022-02-15
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -254,8 +254,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2020-12-12
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -278,8 +278,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2020-08-30
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -302,8 +302,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2019-08-30
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -326,8 +326,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2019-08-29
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -350,8 +350,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2019-08-28
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -374,8 +374,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2019-08-26
+date_source: listing
 authors: null
 doi: null
 license: null

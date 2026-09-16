@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Tools Competition (full)
-# 17 entries with descriptions | Last updated: 2026-09-15
+# 17 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-tools-competition.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -15,7 +15,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -39,7 +39,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -63,7 +63,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -87,7 +87,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -111,7 +111,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -135,7 +135,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -159,7 +159,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -183,7 +183,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -207,7 +207,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -231,7 +231,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -255,7 +255,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -279,7 +279,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -303,7 +303,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -327,7 +327,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -351,7 +351,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -375,7 +375,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -399,7 +399,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null

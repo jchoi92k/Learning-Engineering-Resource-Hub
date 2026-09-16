@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Journal of Learning Analytics (full)
-# 39 entries with descriptions | Last updated: 2026-09-15
+# 39 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-journal-of-learning-analytics.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,9 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09-03
+date_source: listing
+authors: ["Liu, Zifeng", "Xing, Wanli", "Jiao, Xinyue", "Li, Chenglu"]
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, genai, higher-ed, jla, learning-engineering, llm-application, nlp]
@@ -38,9 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11-24
+date_source: listing
+authors: ["Sepp, Stoo"]
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, digital-learning-platforms, higher-ed, jla, pii-privacy]
@@ -62,9 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11-26
+date_source: listing
+authors: ["Cheng, Alison", "Pei, Bo", "Liu, Cheng"]
 doi: null
 license: null
 tags: [ai-ethics, computer-assisted-learning, dropout-prevention, formative-assessment, higher-ed, jla, personalized-learning]
@@ -86,9 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-25
+date_source: listing
+authors: ["Rundquist, Rebecka", "Holmberg, Kristina", "Rack, John", "Mohseni, Zeynab", "Masiello, Italo"]
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, math-education, meta-analysis]
@@ -110,9 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-11-13
+date_source: listing
+authors: ["Jin, Yueqiao", "Echeverria, Vanessa", "Yan, Lixiang", "Zhao, Linxuan", "Alfredo, Riordan", "Tsai, Yi-Shan", "Gašević, Dragan", "Martinez-Maldonado, Roberto"]
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, higher-ed, inclusive-design, jla, learning-engineering, qualitative-research]
@@ -134,9 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-10-30
+date_source: listing
+authors: ["Ferreira, Rafael", "Freitas, Elyda", "Cabral, Luciano", "Dawn, Filipe", "Rodrigues, Luiz", "Rakovic, Mladen", "Raniel, Jackson", "Gasevic, Dragan"]
 doi: null
 license: null
 tags: [automated-feedback, digital-learning-platforms, formative-assessment, jla, learning-engineering, nlp, writing-instruction]
@@ -158,9 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-12-12
+date_source: listing
+authors: ["Francis, Mary", "Avoseh, Mejai", "Card, Karen", "Newland, Lisa", "Streff, Kevin"]
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, digital-learning-platforms, higher-ed, jla, pii-privacy, qualitative-research]
@@ -182,9 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-12-12
+date_source: listing
+authors: ["Ramaswami, Gomathy", "Susnjak, Teo", "Mathrani, Anuradha"]
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, personalized-learning]
@@ -206,9 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-12-16
+date_source: listing
+authors: ["Viberg, Olga", "Mutimukwe, Chantal", "Grönlund, Åke"]
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, jla, learning-engineering, meta-analysis, pii-privacy]
@@ -230,9 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-12-16
+date_source: listing
+authors: ["Weidlich, Joshua", "Gašević, Dragan", "Drachsler, Hendrik"]
 doi: null
 license: null
 tags: [ai-ethics, jla, learning-engineering, longitudinal]
@@ -254,9 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-07-08
+date_source: listing
+authors: ["Herodotou, Christothea", "Shrestha, Sagun", "Comfort, Catherine", "Andrews, Heshan", "Mulholland, Paul", "Bayer, Vaclav", "Maguire, Claire", "Lee, John", "Fernandez, Miriam"]
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, higher-ed, inclusive-design, jla, learning-engineering, personalized-learning]
@@ -278,9 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-07-31
+date_source: listing
+authors: ["Opoku, Raymond A", "Pei, Bo", "Xing, Wanli"]
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, dropout-prevention, higher-ed, jla, learning-engineering, personalized-learning]
@@ -302,9 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-07-09
+date_source: listing
+authors: ["Kaliisa, Rogers", "Baker, Ryan Shaun", "Wasson, Barbara", "Prinsloo, Paul"]
 doi: null
 license: null
 tags: [ai-ethics, ai-policy, data-sharing, jla, learning-engineering, pii-privacy]
@@ -326,9 +326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-25
+date_source: listing
+authors: ["Dang, Belle", "Nguyen, Andy", "Järvelä, Sanna"]
 doi: null
 license: null
 tags: [computer-assisted-learning, jla, k-12, learning-engineering, nlp, qualitative-research]
@@ -350,9 +350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-03-07
+date_source: listing
+authors: ["Er, Erkan", "Silik, Safak", "Cansiz, Sergen"]
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, jla, k-12, learning-engineering, personalized-learning]
@@ -374,9 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-12-16
+date_source: listing
+authors: ["Saar, Merike", "Rodríguez-Triana, María Jesús", "Prieto Santos", "Luis Pablo"]
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, jla, learning-engineering, professional-development, qualitative-research]
@@ -398,9 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-10-12
+date_source: listing
+authors: ["de Vreugd, Lars", "van Leeuwen, Anouschka", "Jansen, Renée", "van der Schaaf, Marieke"]
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, personalized-learning]
@@ -422,9 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-06-10
+date_source: listing
+authors: ["Esterhazy, Rachelle", "Kaliisa, Rogers", "Sanchez, Daniel", "Langford, Malcolm", "Damsa, Crina"]
 doi: null
 license: null
 tags: [digital-learning-platforms, jla, learning-engineering, meta-analysis, qualitative-research]
@@ -446,9 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-12-16
+date_source: listing
+authors: ["Yu, Jiaqi", "Ma, Wenchao", "Moon, Jewoong", "Denham, André"]
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, formative-assessment, intelligent-tutoring, jla, k-12, math-education]
@@ -470,9 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-11-02
+date_source: listing
+authors: ["Rakovic, Mladen", "Ahmad Uzir, Nora'ayu", "Matcha, Wannisa", "Eagan, Brendan", "Jovanović, Jelena", "Williamson Shaffer, David", "Pardo, Abelardo", "Gašević, Dragan"]
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, longitudinal]
@@ -494,9 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-03-06
+date_source: listing
+authors: ["Raza, Ali", "Sumner, Tamara", "Penuel, William R"]
 doi: null
 license: null
 tags: [ai-ethics, formative-assessment, inclusive-design, jla, k-12, learning-engineering, professional-development]
@@ -518,9 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11-26
+date_source: listing
+authors: ["Yu, Linyu", "Halpin, Peter F", "Bernacki, Matthew L", "Ren, Sirui", "Plumley, Robert D", "Greene, Jeffrey A"]
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, formative-assessment, higher-ed, jla, learning-engineering, longitudinal, math-education]
@@ -542,9 +542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-07-10
+date_source: listing
+authors: ["Caskurlu, Secil", "Ocak, Ceren", "Dai, Chih-Pu"]
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, jla, k-12, learning-engineering, meta-analysis, pii-privacy]
@@ -566,9 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-11-21
+date_source: listing
+authors: ["Marrone, Rebecca", "Lam, Benjamin", "Barthakur, Abhinava", "Brinkman, Sally", "Dawson, Shane", "Gabriel, Florence"]
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, longitudinal, sel]
@@ -590,9 +590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-10-04
+date_source: listing
+authors: ["Michos, Konstantinos", "Schmitz, Maria-Luisa", "Petko, Dominik"]
 doi: null
 license: null
 tags: [digital-learning-platforms, formative-assessment, jla, k-12, learning-engineering, professional-development, qualitative-research]
@@ -614,9 +614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02-25
+date_source: listing
+authors: ["Xu, Zhen", "Guan, Xin", "Shi, Chenxi", "Chen, Qinhao", "Yu, Renzhe"]
 doi: null
 license: null
 tags: [formative-assessment, genai, higher-ed, learning-engineering, llm-application]
@@ -638,9 +638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-14
+date_source: listing
+authors: ["Chichekian, Tanya", "Cutumisu, Maria", "Savard, Annie", "Zhang, Yi-Mei"]
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, professional-development]
@@ -662,9 +662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-15
+date_source: listing
+authors: ["Barthakur, Abhinava", "Jovanović, Jelena", "Baker, Ryan", "Kovanović, Vitomir", "Deneen, Christopher C", "Dawson, Shane"]
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, longitudinal]
@@ -686,9 +686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-15
+date_source: listing
+authors: ["Hernández-Campos, Mónica", "Hilliger, Isabel", "García-Peñalvo, Francisco-José"]
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, qualitative-research]
@@ -710,9 +710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-15
+date_source: listing
+authors: ["Hilliger, Isabel", "Pérez-Sanagustín, Mar", "González, Carlos", "Villalobos, Esteban", "Celis, Sergio"]
 doi: null
 license: null
 tags: [genai, genai-tutoring, higher-ed, learning-engineering, llm-application, personalized-learning]
@@ -734,9 +734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-14
+date_source: listing
+authors: ["Xu, Alice", "Zhang, Yunyi", "Blake, Adam", "Stigler, James"]
 doi: null
 license: null
 tags: [digital-learning-platforms, higher-ed, learning-engineering, personalized-learning]
@@ -758,9 +758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-18
+date_source: listing
+authors: ["V. Sargent, Paul", "Hilliger, Isabel", "A. Baier, Jorge"]
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, longitudinal]
@@ -782,9 +782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-20
+date_source: listing
+authors: ["Harrington, Susan", "Sellberg, Charlott"]
 doi: null
 license: null
 tags: [formative-assessment, higher-ed, learning-engineering, professional-development]
@@ -806,9 +806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02-25
+date_source: listing
+authors: ["Albuquerque, Josmario", "Rienties, Bart", "Hlosta, Martin", "Holmes, Wayne"]
 doi: null
 license: null
 tags: [ai-ethics, digital-learning-platforms, inclusive-design, learning-engineering, nlp]
@@ -830,9 +830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-22
+date_source: listing
+authors: ["Joarder, Shoeb", "Chatti, Mohamed Amine"]
 doi: null
 license: null
 tags: [ai-ethics, data-sharing, higher-ed, learning-engineering, pii-privacy]
@@ -854,9 +854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-22
+date_source: listing
+authors: ["Ohsaki, Ayano", "Tan, Yuanru", "Eagan, Brendan", "Shaffer, David Williamson", "Swiecki, Zachari"]
 doi: null
 license: null
 tags: [higher-ed, learning-engineering, qualitative-research]
@@ -878,9 +878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-30
+date_source: listing
+authors: ["Bautista, Guillermo", "Cacuyong, Roderick", "Lavicza, Zsolt", "Sabitzer, Barbara", "Emara, Mona"]
 doi: null
 license: null
 tags: [digital-learning-platforms, k-12, learning-engineering, math-education]
@@ -902,9 +902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11-30
+date_source: listing
+authors: ["Dai, Wei", "Lin, Jionghao", "Jin, Flora Ji-Yoon", "Tsai, Yi-Shan", "Srivastava, Namrata", "Le Bodic, Pierre", "Gašević, Dragan", "Chen, Guanliang"]
 doi: null
 license: null
 tags: [automated-feedback, dropout-prevention, higher-ed, learning-engineering, personalized-learning]
@@ -926,9 +926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-15
+date_source: listing
+authors: ["Singh, Manjeet", "Bangay, Shaun", "Sajjanhar, Atul"]
 doi: null
 license: null
 tags: [digital-learning-platforms, higher-ed, k-12, learning-engineering, meta-analysis]

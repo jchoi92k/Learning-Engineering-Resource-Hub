@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub
 
-> 3904 curated evidence-based K-12 and higher education resources — links with metadata and a description each, from organizations with documented review (What Works Clearinghouse, Learning Policy Institute, Mathematica, Digital Promise, Evidence for ESSA and others). Last updated: 2026-09-15
+> 3904 curated evidence-based K-12 and higher education resources — links with metadata and a description each, from organizations with documented review (What Works Clearinghouse, Learning Policy Institute, Mathematica, Digital Promise, Evidence for ESSA and others). Last updated: 2026-09-16
 
 This is the root index. Each source below links to a compact list of its entries (entry number, title, URL, type, tags); large sources are split into parts under 100,000 characters. Every source also has a file with full descriptions. For the whole corpus in one file see llms-full.txt; for search use the MCP endpoint.
 

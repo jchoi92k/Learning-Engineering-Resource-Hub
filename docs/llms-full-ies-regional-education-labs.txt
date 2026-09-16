@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — IES Regional Education Labs (full)
-# 28 entries with descriptions | Last updated: 2026-09-15
+# 28 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-ies-regional-education-labs.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,9 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-08
+date_source: page-meta
+authors: ["Aliya Pilchen", "Mary Klute", "Marta Mielicki", "Hannah Kumbroch"]
 doi: null
 license: null
 tags: [coaching, k-12, literacy, professional-development]
@@ -38,9 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-07
+date_source: page-meta
+authors: ["Sarah Herrera", "Beth M. Phillips", "Yi-Chieh Newton", "Jennifer L. Dombek", "James A. Hernandez"]
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, meta-analysis]
@@ -62,9 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04
+date_source: page-meta
+authors: ["Eben Witherspoon", "Maria Dracopoli", "Katie Dahlke", "Mariesa Hawkins"]
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education, professional-development]
@@ -86,9 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-02
+date_source: page-meta
+authors: ["Rachel Garrett"]
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, professional-development, writing-instruction]
@@ -110,9 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-12
+date_source: page-meta
+authors: ["Sara Menlove Doutre", "Tyson Barrett", "John Rice"]
 doi: null
 license: null
 tags: [k-12, longitudinal, qualitative-research]
@@ -134,9 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-07
+date_source: page-meta
+authors: ["Traci Fantz", "Havala Hanson"]
 doi: null
 license: null
 tags: [career-readiness, college-access, k-12, longitudinal]
@@ -158,8 +158,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
+published_date: 2021-12
+date_source: page-meta
 authors: null
 doi: null
 license: null
@@ -182,9 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-06
+date_source: page-meta
+authors: ["Marc Brodersen", "Hanley Chiang", "Jane Li", "Kathryn Coleman", "Gary Ritter", "Collin Hitt", "Jennifer Weston-Sementelli"]
 doi: null
 license: null
 tags: [coaching, k-12, professional-development, qualitative-research]
@@ -206,9 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-10
+date_source: page-meta
+authors: ["Morgan Rosendahl", "Brian Gill", "Jennifer Starling"]
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -230,9 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02
+date_source: page-meta
+authors: ["Lisa Shannon", "Jennifer Gruber", "Bradley Rentz", "Cheryl Vila", "Kristen Erichsen", "Jess Nastasi"]
 doi: null
 license: null
 tags: [english-learners, higher-ed, longitudinal]
@@ -254,9 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-11
+date_source: page-meta
+authors: ["Allan Porowski", "Supriya Tamang", "John Westall", "Kyla Brown", "Megan Bogia"]
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, meta-analysis]
@@ -374,9 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05
+date_source: page-meta
+authors: ["Lilla Pivnick"]
 doi: null
 license: null
 tags: [k-12, professional-development, qualitative-research]
@@ -398,9 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-02
+date_source: page-meta
+authors: ["Ashley Boal", "Shannon McCullough", "Angela Chin"]
 doi: null
 license: null
 tags: [k-12, qualitative-research, sel, student-belonging]
@@ -422,9 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-12
+date_source: page-meta
+authors: ["Reino Makkonen", "Karina Jaquet"]
 doi: null
 license: null
 tags: [k-12, longitudinal, professional-development]
@@ -446,9 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-11
+date_source: page-meta
+authors: ["Candace Hester", "Valeriy Lazarev", "Jenna Zacamy", "Chelsey Nardi", "Amy Feygin"]
 doi: null
 license: null
 tags: [career-readiness, college-access, higher-ed, k-12, longitudinal]
@@ -470,9 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-10
+date_source: page-meta
+authors: ["Jesse Levin", "Bruce Baker", "Jason Lee", "Drew Atchison", "Robert Kelchen"]
 doi: null
 license: null
 tags: [college-access, higher-ed, longitudinal]
@@ -494,9 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-09
+date_source: page-meta
+authors: ["Heather Lavigne", "Meg Caven", "Georgia Bock", "Xinxin Zhang", "Emily Braham"]
 doi: null
 license: null
 tags: [attendance, k-12, longitudinal]
@@ -518,9 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06
+date_source: page-meta
+authors: ["The Regional Educational Laboratory (REL) Program"]
 doi: null
 license: null
 tags: [career-readiness, college-access, k-12]
@@ -542,9 +542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11
+date_source: page-meta
+authors: ["REL West"]
 doi: null
 license: null
 tags: [early-childhood, k-12, longitudinal, prekindergarten]
@@ -566,9 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12
+date_source: page-meta
+authors: ["Bradley Rentz", "Sinton Soalablai", "Natasha Saelua", "Avalloy McCarthy"]
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, professional-development]

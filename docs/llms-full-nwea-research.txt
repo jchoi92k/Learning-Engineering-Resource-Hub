@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — NWEA Research (full)
-# 291 entries with descriptions | Last updated: 2026-09-15
+# 291 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-nwea-research.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -1694,9 +1694,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-08
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -1718,9 +1718,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-08
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [math-education]
@@ -1742,9 +1742,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-08
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [math-education]
@@ -1766,9 +1766,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-07
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -1790,9 +1790,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-08
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [literacy]
@@ -1814,9 +1814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-08
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -1838,9 +1838,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-07
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [attendance, literacy, math-education]
@@ -1862,9 +1862,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-07
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [attendance]
@@ -1886,9 +1886,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-07
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -1910,9 +1910,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -1934,9 +1934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -1958,9 +1958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [writing-instruction]
@@ -1982,9 +1982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, literacy, personalized-learning]
@@ -2006,9 +2006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -2030,9 +2030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, personalized-learning]
@@ -2054,9 +2054,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -2078,9 +2078,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2102,9 +2102,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2126,9 +2126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2150,9 +2150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-01
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2174,9 +2174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [math-education]
@@ -2198,9 +2198,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-10
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2222,9 +2222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-10
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -2246,9 +2246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-10
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2270,9 +2270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-10
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2294,9 +2294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -2318,9 +2318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2342,9 +2342,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-08
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -2366,9 +2366,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-05
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education]
@@ -2390,9 +2390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-04
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [early-childhood, english-learners, formative-assessment, literacy, personalized-learning]
@@ -2414,9 +2414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-09
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [k-12]
@@ -2438,9 +2438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-08
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -2462,9 +2462,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-07
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -2486,9 +2486,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-07
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -2510,9 +2510,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-11
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [math-education]
@@ -2534,9 +2534,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-07
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: []
@@ -2558,9 +2558,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-06
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -2582,9 +2582,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-06
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -2606,9 +2606,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-02
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [math-education]
@@ -2630,9 +2630,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-12
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: []
@@ -2654,9 +2654,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -2678,9 +2678,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-10
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [college-access]
@@ -2702,9 +2702,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-11
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -2726,9 +2726,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [formative-assessment, personalized-learning]
@@ -2750,9 +2750,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [english-learners, formative-assessment, inclusive-design, literacy]
@@ -2774,9 +2774,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [formative-assessment, personalized-learning, sel]
@@ -2798,9 +2798,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-02
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -2822,9 +2822,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [literacy]
@@ -2846,9 +2846,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, inclusive-design, math-education]
@@ -2870,9 +2870,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, math-education]
@@ -2894,9 +2894,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-07
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: []
@@ -2918,9 +2918,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-02
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -2942,9 +2942,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-01
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, writing-instruction]
@@ -2966,9 +2966,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-11
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -2990,9 +2990,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-11
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -3014,9 +3014,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-11
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -3038,9 +3038,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-12
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [math-education]
@@ -3062,9 +3062,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -3086,9 +3086,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [sel]
@@ -3110,9 +3110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-03
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -3134,9 +3134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-02
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [english-learners, inclusive-design, literacy, math-education]
@@ -3158,9 +3158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-08
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [literacy]
@@ -3182,9 +3182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-03
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3206,9 +3206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-11
+date_source: page-meta
+authors: ["Fang Peng", "Kang Xue", "Carmen Hall", "John Newburn"]
 doi: null
 license: null
 tags: []
@@ -3230,9 +3230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-01
+date_source: page-meta
+authors: ["Fang Peng", "Kang Xue", "Carmen Hall", "John Newburn"]
 doi: null
 license: null
 tags: []
@@ -3254,9 +3254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [math-education]
@@ -3278,9 +3278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-07
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [math-education]
@@ -3302,9 +3302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-05
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -3326,9 +3326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-11
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -3350,9 +3350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-12
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: []
@@ -3374,9 +3374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-09
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -3398,9 +3398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-03
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -3422,9 +3422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-11
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [response-to-intervention]
@@ -3446,9 +3446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-06
+date_source: page-meta
+authors: ["Amy Endo"]
 doi: null
 license: null
 tags: [formative-assessment, literacy, personalized-learning, sel]
@@ -3470,9 +3470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-09
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -3494,9 +3494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-06
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -3518,9 +3518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-09
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [attendance, early-childhood]
@@ -3542,8 +3542,8 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
+published_date: 2021
+date_source: page-meta
 authors: null
 doi: null
 license: null
@@ -3566,9 +3566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-08
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3590,9 +3590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-07
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, inclusive-design, math-education, sel]
@@ -3614,9 +3614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-07
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -3638,9 +3638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-07
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: []
@@ -3662,9 +3662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2023
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3686,9 +3686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [inclusive-design, literacy, math-education]
@@ -3710,9 +3710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-05
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [inclusive-design]
@@ -3734,9 +3734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-08
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -3758,9 +3758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -3782,9 +3782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-05
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -3806,9 +3806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-04
+date_source: page-meta
+authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, personalized-learning]
@@ -3830,9 +3830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-02
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -3854,9 +3854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-06
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [formative-assessment, inclusive-design]
@@ -3878,9 +3878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-05
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -3902,9 +3902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -3926,9 +3926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, personalized-learning]
@@ -3950,9 +3950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, math-education]
@@ -3974,9 +3974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -3998,9 +3998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4022,9 +4022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education, response-to-intervention]
@@ -4046,9 +4046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2016
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4070,9 +4070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-08
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4094,9 +4094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -4118,9 +4118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-03
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -4142,9 +4142,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-06
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [english-learners, formative-assessment, math-education]
@@ -4166,9 +4166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2016
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, personalized-learning]
@@ -4190,9 +4190,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2013
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -4214,9 +4214,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2012
+date_source: page-meta
+authors: ["Fang Peng", "Kang Xue", "Carmen Hall", "John Newburn"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -4238,9 +4238,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2013
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -4262,9 +4262,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2013
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -4286,9 +4286,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -4310,9 +4310,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Amy Endo"]
 doi: null
 license: null
 tags: [k-12]
@@ -4334,9 +4334,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4358,9 +4358,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-09
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -4382,9 +4382,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-03
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -4406,9 +4406,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2011
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -4430,9 +4430,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-03
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [early-childhood]
@@ -4454,9 +4454,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -4478,9 +4478,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4502,9 +4502,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-12
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [early-childhood]
@@ -4526,9 +4526,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-11
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [formative-assessment, math-education, sel]
@@ -4550,9 +4550,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-11
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [literacy, math-education]
@@ -4574,9 +4574,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-11
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -4598,9 +4598,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-06
+date_source: page-meta
+authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
 doi: null
 license: null
 tags: []
@@ -4622,9 +4622,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [attendance, literacy, math-education]
@@ -4646,9 +4646,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [literacy]
@@ -4670,9 +4670,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [attendance]
@@ -4694,9 +4694,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-09
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -4718,9 +4718,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [inclusive-design, response-to-intervention]
@@ -4742,9 +4742,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-09
+date_source: page-meta
+authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
 doi: null
 license: null
 tags: [english-learners, sel]
@@ -4766,9 +4766,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-09
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -4790,9 +4790,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-09
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4814,9 +4814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-09
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -4838,9 +4838,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-06
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [sel]
@@ -4862,9 +4862,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-07
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -4886,9 +4886,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4910,9 +4910,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-07
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -4934,9 +4934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4958,9 +4958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -4982,9 +4982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-06
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -5006,9 +5006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [college-access, literacy, math-education, response-to-intervention, sel]
@@ -5030,9 +5030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [attendance, college-access, english-learners, response-to-intervention]
@@ -5054,9 +5054,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [attendance, literacy, math-education, personalized-learning]
@@ -5078,9 +5078,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-04
+date_source: page-meta
+authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -5102,9 +5102,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-04
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: []
@@ -5126,9 +5126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: []
@@ -5150,9 +5150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, math-education]
@@ -5174,9 +5174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Amy Endo"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5198,9 +5198,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Amy Endo"]
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, professional-development, response-to-intervention]
@@ -5222,9 +5222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2016
+date_source: page-meta
+authors: ["Amy Endo"]
 doi: null
 license: null
 tags: []
@@ -5246,9 +5246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-03
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Naomi Duran", "Karyn Lewis", "Carrie Phillips", "Samantha Musacchia"]
 doi: null
 license: null
 tags: [formative-assessment, literacy]
@@ -5270,9 +5270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Daniel Long", "Megan Kuhfeld", "Scott J. Peters"]
 doi: null
 license: null
 tags: [college-access]
@@ -5294,9 +5294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, literacy, math-education]
@@ -5318,9 +5318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-11
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [english-learners]
@@ -5342,9 +5342,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-03
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [literacy, sel]
@@ -5366,9 +5366,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -5390,9 +5390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2015
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [personalized-learning, sel]
@@ -5414,9 +5414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [college-access, literacy, math-education, response-to-intervention]
@@ -5438,9 +5438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Melissa Diliberti", "Andrew McEachin", "Jon Schweig", "Louis T. Mariano"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, sel]
@@ -5462,9 +5462,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: [formative-assessment, literacy, math-education]
@@ -5486,9 +5486,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Steven Wise", "Megan Kuhfeld", "John Cronin"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5510,9 +5510,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [early-childhood, literacy, math-education]
@@ -5534,9 +5534,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -5558,9 +5558,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2020
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5582,9 +5582,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [english-learners, literacy, math-education, sel]
@@ -5606,9 +5606,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: []
@@ -5630,9 +5630,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [english-learners]
@@ -5654,9 +5654,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: []
@@ -5678,9 +5678,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Emily Morton", "Megan Kuhfeld", "Ayesha K. Hashim", "Scott J. Peters"]
 doi: null
 license: null
 tags: [sel]
@@ -5702,9 +5702,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -5726,9 +5726,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Amy Endo"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -5750,9 +5750,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -5774,9 +5774,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -5798,9 +5798,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -5822,9 +5822,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: []
@@ -5846,9 +5846,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -5870,9 +5870,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -5894,9 +5894,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -5918,9 +5918,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: []
@@ -5942,9 +5942,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [math-education, sel]
@@ -5966,9 +5966,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2014
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -5990,9 +5990,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2015
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -6014,9 +6014,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2015
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -6038,9 +6038,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2016
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [personalized-learning, sel]
@@ -6062,9 +6062,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, sel]
@@ -6086,9 +6086,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2016
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -6110,9 +6110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2015
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [math-education]
@@ -6134,9 +6134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2013
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, literacy, sel]
@@ -6158,9 +6158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2015
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [formative-assessment, inclusive-design, sel]
@@ -6182,9 +6182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-07
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: []
@@ -6206,9 +6206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2015
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [english-learners, literacy]
@@ -6230,9 +6230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2015
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -6254,9 +6254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2014
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -6278,9 +6278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [college-access]
@@ -6302,9 +6302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -6326,9 +6326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2014
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -6350,9 +6350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2015
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, personalized-learning]
@@ -6374,9 +6374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [college-access, learning-engineering]
@@ -6398,9 +6398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -6422,9 +6422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2017
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -6446,9 +6446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2014
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: []
@@ -6470,9 +6470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2013
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [sel]
@@ -6494,9 +6494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [sel]
@@ -6518,9 +6518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, sel]
@@ -6542,9 +6542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: []
@@ -6566,9 +6566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, sel]
@@ -6590,9 +6590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Daniel Long", "Megan Kuhfeld", "Scott J. Peters"]
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -6614,9 +6614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2010
+date_source: page-meta
+authors: ["Emily Morton", "Megan Kuhfeld", "Ayesha K. Hashim", "Scott J. Peters"]
 doi: null
 license: null
 tags: [personalized-learning]
@@ -6638,9 +6638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning]
@@ -6662,9 +6662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [english-learners]
@@ -6686,9 +6686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: [college-access, k-12]
@@ -6710,9 +6710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [sel]
@@ -6734,9 +6734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, personalized-learning]
@@ -6758,9 +6758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: [dropout-prevention, math-education]
@@ -6782,9 +6782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [literacy, professional-development, response-to-intervention]
@@ -6806,9 +6806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2013
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [career-readiness, college-access]
@@ -6830,9 +6830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [formative-assessment]
@@ -6854,9 +6854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Wei He"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -6878,9 +6878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Ayesha K. Hashim"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment]
@@ -6902,9 +6902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: [english-learners]
@@ -6926,9 +6926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Amy Endo"]
 doi: null
 license: null
 tags: [formative-assessment, sel]
@@ -6950,9 +6950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2019
+date_source: page-meta
+authors: ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
 doi: null
 license: null
 tags: [computer-assisted-learning, math-education, sel]
@@ -6974,9 +6974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: page-abstract
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2018
+date_source: page-meta
+authors: ["Naomi Duran", "Susan Kowalski"]
 doi: null
 license: null
 tags: []

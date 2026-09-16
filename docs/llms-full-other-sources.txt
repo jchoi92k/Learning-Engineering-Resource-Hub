@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Other sources (30 organizations) (full)
-# 71 entries with descriptions | Last updated: 2026-09-15
+# 71 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-other-sources.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -15,7 +15,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -39,7 +39,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -63,7 +63,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -86,9 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-13
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-11
+date_source: page-meta
+authors: ["Katharine Meyer", "Isabel McMullen"]
 doi: null
 license: null
 tags: [coaching, college-access, higher-ed]
@@ -183,7 +183,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -207,7 +207,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -231,7 +231,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -255,7 +255,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -279,7 +279,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -303,7 +303,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -327,7 +327,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -351,7 +351,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -375,7 +375,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -399,7 +399,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -423,7 +423,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -447,7 +447,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -471,7 +471,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -495,7 +495,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -519,7 +519,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -543,7 +543,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -567,7 +567,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -591,7 +591,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -615,7 +615,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -639,7 +639,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -663,7 +663,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -687,7 +687,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -711,7 +711,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -735,7 +735,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -807,7 +807,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -831,7 +831,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -855,7 +855,7 @@ description_inferred: true
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -879,7 +879,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -903,7 +903,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -927,7 +927,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -951,7 +951,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -975,7 +975,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -999,7 +999,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1023,7 +1023,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1047,7 +1047,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1071,7 +1071,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1095,7 +1095,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1119,7 +1119,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1143,7 +1143,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1167,7 +1167,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1191,7 +1191,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1215,7 +1215,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1239,7 +1239,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1263,7 +1263,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1287,7 +1287,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1311,7 +1311,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1335,7 +1335,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1359,7 +1359,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1383,7 +1383,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1479,7 +1479,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1503,7 +1503,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1527,7 +1527,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1551,7 +1551,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1575,7 +1575,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1599,7 +1599,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1623,7 +1623,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1647,7 +1647,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1671,7 +1671,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1695,7 +1695,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null

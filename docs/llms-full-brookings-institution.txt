@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Brookings Institution (full)
-# 22 entries with descriptions | Last updated: 2026-09-15
+# 22 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-brookings-institution.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,9 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-30
+date_source: page-meta
+authors: ["Philomena V. Mantella"]
 doi: null
 license: null
 tags: [college-access, higher-ed, personalized-learning]
@@ -38,9 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-27
+date_source: page-meta
+authors: ["Katharine Meyer"]
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal]
@@ -62,9 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-14
+date_source: page-meta
+authors: ["Vivian C. Wong", "Elizabeth Tipton", "Jessaca Spybrook"]
 doi: null
 license: null
 tags: [ai-policy, learning-engineering, professional-development]
@@ -86,9 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-14
+date_source: page-meta
+authors: ["Sophia Rodriguez"]
 doi: null
 license: null
 tags: [attendance, english-learners, k-12, longitudinal]
@@ -110,9 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-03-26
+date_source: page-meta
+authors: ["Paul Bruno", "Haeryun Kim"]
 doi: null
 license: null
 tags: [attendance, k-12, qualitative-research]
@@ -134,9 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-02-06
+date_source: page-meta
+authors: ["Elizabeth Gellman", "Katharine Meyer"]
 doi: null
 license: null
 tags: [college-access, higher-ed, professional-development]
@@ -158,9 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-04-09
+date_source: page-meta
+authors: ["Michael Hansen"]
 doi: null
 license: null
 tags: [career-readiness, k-12, longitudinal, professional-development]
@@ -182,9 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-04-23
+date_source: page-meta
+authors: ["Dominique J. Baker"]
 doi: null
 license: null
 tags: [college-access, higher-ed, personalized-learning]
@@ -206,9 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-04-09
+date_source: page-meta
+authors: ["Katharine Meyer"]
 doi: null
 license: null
 tags: [college-access, higher-ed]
@@ -230,9 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-03-12
+date_source: page-meta
+authors: ["Todd Grindal", "Anne Partika", "Kirby Chow"]
 doi: null
 license: null
 tags: [k-12, qualitative-research]
@@ -254,9 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-07-19
+date_source: page-meta
+authors: ["Daphna Bassok", "Pamela A. Morris", "Anna J. Markowitz", "Jenna Conway"]
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, response-to-intervention]
@@ -278,9 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-01-06
+date_source: page-meta
+authors: ["Todd Grindal", "Anne Partika", "Kirby Chow"]
 doi: null
 license: null
 tags: [k-12, longitudinal, meta-analysis]
@@ -302,9 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-03-24
+date_source: page-meta
+authors: ["Tom Loveless"]
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, longitudinal, math-education]
@@ -326,9 +326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-05-27
+date_source: page-meta
+authors: ["A. Brooks Bowden", "Rebecca Davis"]
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, longitudinal, math-education]
@@ -350,8 +350,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
+published_date: 2022-03-03
+date_source: page-meta
 authors: null
 doi: null
 license: null
@@ -374,9 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-02-07
+date_source: page-meta
+authors: ["Rachel M. Perera", "Melissa Kay Diliberti"]
 doi: null
 license: null
 tags: [k-12, longitudinal, rct, school-discipline]
@@ -398,9 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-03-09
+date_source: page-meta
+authors: ["Todd Grindal", "Anne Partika", "Kirby Chow"]
 doi: null
 license: null
 tags: [college-access, english-learners, k-12, longitudinal]
@@ -422,9 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-09-16
+date_source: page-meta
+authors: ["Seth Gershenson"]
 doi: null
 license: null
 tags: [k-12, longitudinal, qualitative-research]
@@ -446,9 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-10-11
+date_source: page-meta
+authors: ["Lucy Sorensen"]
 doi: null
 license: null
 tags: [k-12, longitudinal, school-discipline]
@@ -470,9 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-05-01
+date_source: page-meta
+authors: ["Kelli Bird", "Ben Castleman"]
 doi: null
 license: null
 tags: [career-readiness, computer-assisted-learning, higher-ed, k-12, longitudinal]
@@ -494,9 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-05-26
+date_source: page-meta
+authors: ["Elizabeth Setren", "Nora Gordon"]
 doi: null
 license: null
 tags: [inclusive-design, k-12, longitudinal]
@@ -518,9 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2011-05-11
+date_source: page-meta
+authors: ["Todd Grindal", "Anne Partika", "Kirby Chow"]
 doi: null
 license: null
 tags: [early-childhood, k-12, meta-analysis]

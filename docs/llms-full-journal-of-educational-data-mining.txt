@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Journal of Educational Data Mining (full)
-# 39 entries with descriptions | Last updated: 2026-09-15
+# 39 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-journal-of-educational-data-mining.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,9 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2009-10-01
+date_source: listing
+authors: ["Baker, Ryan S.J.d", "Yacef, Kalina"]
 doi: "10.5281/zenodo.3554657"
 license: "CC BY-NC-ND 4.0"
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering, meta-analysis]
@@ -38,9 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02-07
+date_source: listing
+authors: ["Neubauer, Kai", "Rudolph, Yannick", "Brefeld, Ulf"]
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -62,9 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09-13
+date_source: listing
+authors: ["Ji, Zilyu", "Shen, Yuntian", "Koedinger, Kenneth R", "Lin, Jionghao"]
 doi: null
 license: null
 tags: [cmu-learnlab, jedm, learning-engineering, nlp, pii-privacy]
@@ -86,9 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-25
+date_source: listing
+authors: ["Mao, Ye", "Lin, Chen", "Chi, Min"]
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -110,9 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-06-30
+date_source: listing
+authors: ["Paassen, Benjamin", "Hammer, Barbara", "Price, Thomas W", "Barnes, Tiffany", "Gross, Sebastian", "Pinkwart, Niels"]
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -134,9 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-25
+date_source: listing
+authors: ["Pardos, Zachary A", "Dadu, Anant"]
 doi: null
 license: null
 tags: [assistments, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -158,9 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-06-30
+date_source: listing
+authors: ["Kai, Shimin", "Almeda, Ma. Victoria", "Baker, Ryan S", "Heffernan, Cristina", "Heffernan, Neil"]
 doi: null
 license: null
 tags: [assistments, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -182,9 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-24
+date_source: listing
+authors: ["Paquette, Luc", "Ocumpaugh, Jaclyn", "Li, Ziyue", "Andres, Alexandra", "Baker, Ryan"]
 doi: null
 license: null
 tags: [jedm, learning-engineering, student-belonging]
@@ -206,9 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-24
+date_source: listing
+authors: ["Gervet, Theophile", "Koedinger, Ken", "Schneider, Jeff", "Mitchell, Tom"]
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -230,9 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-12-23
+date_source: listing
+authors: ["Berens, Johannes", "Schneider, Kerstin", "Gortz, Simon", "Oster, Simon", "Burghoff, Julian"]
 doi: null
 license: null
 tags: [dropout-prevention, higher-ed, jedm, learning-engineering]
@@ -254,9 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-06-21
+date_source: listing
+authors: ["Baker, Ryan S", "Esbenshade, Lief", "Vitale, Jonathan", "Karumbaiah, Shamya"]
 doi: null
 license: null
 tags: [jedm, learning-engineering, student-belonging]
@@ -278,9 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-06-21
+date_source: listing
+authors: ["Sales, Adam C", "Prihar, Ethan B", "Gagnon-Bartsch, Johann A", "Heffernan, Neil T"]
 doi: null
 license: null
 tags: [a-b-testing, assistments, digital-learning-platforms, jedm, learning-engineering]
@@ -302,9 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-12-28
+date_source: listing
+authors: ["Savi, Alexander O", "Deonovic, Benjamin E", "Bolsinova, Maria", "van der Maas, Han L. J", "Maris, Gunter K. J"]
 doi: null
 license: null
 tags: [jedm, k-12, learning-engineering, math-education, personalized-learning]
@@ -326,9 +326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-06-16
+date_source: listing
+authors: ["Pelaez, Kevin", "Levine, Richard", "Fan, Juanjuan", "Guarcello, Maureen", "Laumakis, Mark"]
 doi: null
 license: null
 tags: [dropout-prevention, higher-ed, jedm, learning-engineering]
@@ -350,9 +350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-06-18
+date_source: listing
+authors: ["Rafferty, Anna", "Ying, Huiji", "Williams, Joseph"]
 doi: null
 license: null
 tags: [a-b-testing, digital-learning-platforms, jedm, learning-engineering]
@@ -374,9 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-06-24
+date_source: listing
+authors: ["Cui, Ying", "Chu, Man-Wai", "Chen, Fu"]
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -398,9 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-12-29
+date_source: listing
+authors: ["Maniktala, Mehak", "Cody, Christa", "Isvik, Amy", "Lytle, Nicholas", "Chi, Min", "Barnes, Tiffany"]
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -422,9 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-12-29
+date_source: listing
+authors: ["Matayoshi, Jeffrey", "Karumbaiah, Shamya"]
 doi: null
 license: null
 tags: [computer-assisted-learning, jedm, learning-engineering]
@@ -446,9 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-06-28
+date_source: listing
+authors: ["Guo, Hongwen", "Zhang, Mo", "Deane, Paul", "Bennett, Randy"]
 doi: null
 license: null
 tags: [formative-assessment, jedm, learning-engineering, writing-instruction]
@@ -470,9 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-12-18
+date_source: listing
+authors: ["Phan, Vinhthuy", "Wright, Laura", "Decent, Bridgette"]
 doi: null
 license: null
 tags: [college-access, higher-ed, jedm, learning-engineering]
@@ -494,9 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-12-26
+date_source: listing
+authors: ["Yanagiura, Takeshi", "Yano, Shiho", "Kihira, Masateru", "Okada, Yukihiko"]
 doi: null
 license: null
 tags: [higher-ed, jedm, learning-engineering, student-belonging]
@@ -518,9 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-23
+date_source: listing
+authors: ["Tran, Nhat", "Pierce, Benjamin", "Litman, Diane", "Correnti, Richard", "Matsumura, Lindsay Clare"]
 doi: null
 license: null
 tags: [formative-assessment, jedm, learning-engineering, llm-application, nlp]
@@ -542,9 +542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-16
+date_source: listing
+authors: ["Cohausz, Lea", "Tschalzev, Andrej", "Bartelt, Christian", "Stuckenschmidt, Heiner"]
 doi: null
 license: null
 tags: [jedm, learning-engineering, student-belonging]
@@ -566,9 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-17
+date_source: listing
+authors: ["Lu, Wenyi", "Laffey, James", "Sadler, Troy", "Griffin, Joe", "Goggins, Sean"]
 doi: null
 license: null
 tags: [computer-assisted-learning, formative-assessment, jedm, learning-engineering, personalized-learning]
@@ -590,9 +590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-12-18
+date_source: listing
+authors: ["Jia, Qinjin", "Young, Mitchell", "Xiao, Yunkai", "Cui, Jialin", "Liu, Chengyuan", "Rashid, Parvez", "Gehringer, Edward"]
 doi: null
 license: null
 tags: [automated-feedback, jedm, learning-engineering, nlp]
@@ -614,9 +614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-01-20
+date_source: listing
+authors: ["Badrinath, Anirudhan", "Pardos, Zachary"]
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering]
@@ -638,9 +638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-05
+date_source: listing
+authors: ["Jung, Heeseok", "Yoo, Jaesang", "Yoon, Yohaan", "Jang, Yeonju"]
 doi: null
 license: null
 tags: [intelligent-tutoring, jedm, learning-engineering, llm-application]
@@ -662,9 +662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09-07
+date_source: listing
+authors: ["Lee, Seiyon", "Baral, Sami", "Li, Hongming", "Cheng, Li", "Zhang, Shan", "Thorp, Carly", "St. John, Jennifer", "Thompson, Tamisha", "Heffernan, Neil", "Botelho, Anthony"]
 doi: null
 license: null
 tags: [assistments, automated-feedback, formative-assessment, jedm, learning-engineering, math-education]
@@ -686,9 +686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-02-21
+date_source: listing
+authors: ["Borchers, Conrad", "Xu, Yinuo", "Pardos, Zachary A"]
 doi: null
 license: null
 tags: [cmu-learnlab, dropout-prevention, higher-ed, jedm, learning-engineering]
@@ -710,9 +710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-03
+date_source: listing
+authors: ["Ober, Teresa", "Zhang, Shan", "Zapata-Rivera, Diego", "Schroeder, Noah", "Botelho, Anthony"]
 doi: null
 license: null
 tags: [english-learners, jedm, learning-engineering, llm-application, nlp]
@@ -734,9 +734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-01-14
+date_source: listing
+authors: ["Zhang, Jihong", "Liang, Xinya", "Anqi, Deng", "Bonge, Nicole", "Tan, Lin", "Zhang, Ling", "Zarrett, Nicole"]
 doi: null
 license: null
 tags: [genai, jedm, learning-engineering, llm-application, qualitative-research]
@@ -758,9 +758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-01-24
+date_source: listing
+authors: ["Zambrano, Andres Felipe", "Wei, Zhanlan", "Zhang, Jiayi", "Baker, Ryan S", "Ocumpaugh, Jaclyn", "Barany, Amanda", "Liu, Xiner", "Zhou, Yiqiu", "Paquette, Luc", "Ginger, Jeffrey", "Borchers, Conrad"]
 doi: null
 license: null
 tags: [automated-feedback, genai, jedm, learning-engineering, llm-application, qualitative-research]
@@ -782,9 +782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-01-30
+date_source: listing
+authors: ["Ye, Cong", "Borman, Trisha", "Borman, Geoffrey"]
 doi: null
 license: null
 tags: [automated-feedback, jedm, learning-engineering, llm-application, nlp, student-belonging]
@@ -806,9 +806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02-20
+date_source: listing
+authors: ["Potter, Andrew", "Serhan, Zeinab", "Patne, Nishad", "Öncel, Püren", "Ahmed, Ishrat", "Arner, Tracy", "Islam, Rezwana", "Roscoe, Rod", "Allen, Laura", "Crossley, Scott", "McNamara, Danielle"]
 doi: null
 license: null
 tags: [genai, jedm, learning-engineering, llm-application, qualitative-research, writing-instruction]
@@ -830,9 +830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02-22
+date_source: listing
+authors: ["Ober, Teresa M", "Courey, Karyssa A", "Flor, Michael"]
 doi: null
 license: null
 tags: [jedm, learning-engineering, llm-application, nlp, qualitative-research]
@@ -854,9 +854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-03
+date_source: listing
+authors: ["Hur, Paul", "Palaguachi, Chris", "Machaka, Nessrine", "Krist, Christina", "Dyer, Elizabeth", "D’Angelo, Cynthia", "Bosch, Nigel"]
 doi: null
 license: null
 tags: [genai, jedm, k-12, learning-engineering, math-education, nlp]
@@ -878,9 +878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-06
+date_source: listing
+authors: ["Keith, Shelley", "Pavlik, Jr., Philip", "Stives, Kristin", "Kerr, Laura"]
 doi: null
 license: null
 tags: [automated-feedback, genai, higher-ed, jedm, learning-engineering, llm-application]
@@ -902,9 +902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-05
+date_source: listing
+authors: ["Croteau, Ethan", "Heffernan, Neil"]
 doi: null
 license: null
 tags: [genai, intelligent-tutoring, jedm, learning-engineering, llm-application, math-education]
@@ -926,9 +926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09-08
+date_source: listing
+authors: ["Borchers, Conrad", "Zhang, Jiayi", "Fleischer, Hendrik", "Schanze, Sascha", "Aleven, Vincent", "Baker, Ryan"]
 doi: null
 license: null
 tags: [cmu-learnlab, intelligent-tutoring, jedm, learning-engineering, llm-application, nlp]

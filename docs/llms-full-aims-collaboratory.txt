@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — AIMS Collaboratory (full)
-# 47 entries with descriptions | Last updated: 2026-09-15
+# 47 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-aims-collaboratory.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -110,9 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-04-23
+date_source: page-meta
+authors: ["Candace Walkington", "Katie Bainbridge"]
 doi: null
 license: null
 tags: [aims, genai, math-education]
@@ -184,7 +184,7 @@ description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
 date_source: null
-authors: null
+authors: ["Paiheng Xu", "Jing Liu", "Nathan Jones", "Julie Cohen", "Wei Ai"]
 doi: null
 license: null
 tags: [aims, llm-application, nlp]
@@ -207,7 +207,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -231,7 +231,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -255,7 +255,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -279,7 +279,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -302,9 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2025
+date_source: page-meta
+authors: ["Sinclair, H. Colleen", "Bainbridge, Katie", "Burns, Andrew R"]
 doi: null
 license: null
 tags: [aims, lsu, math-education, student-belonging]
@@ -326,8 +326,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2025-03-17
+date_source: page-meta
 authors: null
 doi: null
 license: null
@@ -374,9 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2025
+date_source: page-meta
+authors: ["Bainbridge, Katie", "Sinclair, H. Colleen", "Burns, Andrew"]
 doi: null
 license: null
 tags: [aims, lsu, math-education, student-belonging]
@@ -398,8 +398,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2024-07-10
+date_source: page-meta
 authors: null
 doi: null
 license: null
@@ -422,9 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2025
+date_source: page-meta
+authors: ["Norberg, Kole", "Almoubayyed, Husni", "Fancsali, Stephen"]
 doi: null
 license: null
 tags: [aims, math-word-problems, nlp]
@@ -446,9 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2025
+date_source: page-meta
+authors: ["Sinclair, H. Colleen", "Rhodes, Judith Lee Falgout", "Kim, Youn Kyoung", "Terrio, Stacey R"]
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -471,7 +471,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -519,7 +519,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -566,9 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2024
+date_source: page-meta
+authors: ["Armour, Nathaniel", "Spears, Alyssa", "Sinclair, H. Colleen", "Rhodes, Judith L. F"]
 doi: null
 license: null
 tags: [aims, lsu, math-motivation, qualitative-research]
@@ -590,9 +590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2025
+date_source: page-meta
+authors: ["Sinclair, H. Colleen"]
 doi: null
 license: null
 tags: [aims, early-childhood, lsu, qualitative-research]
@@ -614,9 +614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2024
+date_source: page-meta
+authors: ["Sinclair, H. Colleen", "Armour, Nathaniel", "Rhodes, Judith L. F", "Spears, Alyssa"]
 doi: null
 license: null
 tags: [aims, digital-learning-platforms, lsu]
@@ -638,8 +638,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2024-06-25
+date_source: url
 authors: null
 doi: null
 license: null
@@ -662,8 +662,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2024-11-05
+date_source: url
 authors: null
 doi: null
 license: null
@@ -686,8 +686,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2025-05-05
+date_source: url
 authors: null
 doi: null
 license: null
@@ -710,9 +710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2024
+date_source: page-meta
+authors: ["Do, Bich", "Rhodes, Judith L. F"]
 doi: null
 license: null
 tags: [aims, genai, lsu, math-education]
@@ -734,8 +734,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2024-06-27
+date_source: url
 authors: null
 doi: null
 license: null
@@ -758,8 +758,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2025-06-30
+date_source: url
 authors: null
 doi: null
 license: null
@@ -782,9 +782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2024
+date_source: page-meta
+authors: ["Sinclair, H. Colleen", "Rhodes, Judith L. F", "Terrio, Stacey R"]
 doi: null
 license: null
 tags: [aims, lsu, math-education]
@@ -806,9 +806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2024
+date_source: page-meta
+authors: ["Sinclair, H. Colleen", "Terrio, Stacey R", "Kim, Youn Kyoung"]
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -830,8 +830,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2024-12-19
+date_source: url
 authors: null
 doi: null
 license: null
@@ -854,8 +854,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2024-06-25
+date_source: url
 authors: null
 doi: null
 license: null
@@ -878,8 +878,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2024-06-25
+date_source: url
 authors: null
 doi: null
 license: null
@@ -902,9 +902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
-authors: null
+published_date: 2025
+date_source: page-meta
+authors: ["Sinclair, H. Colleen", "Terrio, Stacey R", "Kim, Youn Kyoung"]
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -926,8 +926,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2025-11-12
+date_source: page-meta
 authors: null
 doi: null
 license: null
@@ -950,8 +950,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
-published_date: null
-date_source: null
+published_date: 2024-08-21
+date_source: url
 authors: null
 doi: null
 license: null
@@ -975,7 +975,7 @@ description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
 published_date: null
-date_source: null
+date_source: n/a
 authors: null
 doi: null
 license: null
@@ -1022,8 +1022,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2025-12-08
+date_source: page-meta
 authors: null
 doi: null
 license: null
@@ -1046,9 +1046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026
+date_source: page-meta
+authors: ["Sinclair, H. Colleen", "Wilson, Kyle", "Ellis, Avery", "Martinez, Norma"]
 doi: null
 license: null
 tags: [aims, k-12, lsu, math-education, math-motivation, qualitative-research]
@@ -1070,9 +1070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026
+date_source: page-meta
+authors: ["Sinclair, H. Colleen", "Robison, Samuel", "Kim, Youn Kyoung", "Terrio, Stacey R", "Rhodes, Judith Lee Falgout"]
 doi: null
 license: null
 tags: [aims, computer-assisted-learning, k-12, longitudinal, lsu, math-education]
@@ -1094,9 +1094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2024
+date_source: page-meta
+authors: ["Murray, Gwendolyn"]
 doi: null
 license: null
 tags: [aims, k-12, lsu, school-discipline]
@@ -1118,8 +1118,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
+published_date: 2026-02-18
+date_source: url
 authors: null
 doi: null
 license: null

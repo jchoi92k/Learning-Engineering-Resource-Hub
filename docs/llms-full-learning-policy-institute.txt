@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 352 entries with descriptions | Last updated: 2026-09-15
+# 352 entries with descriptions | Last updated: 2026-09-16
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -62,9 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-17
+date_source: listing
+authors: ["Tiffany S. Tan", "Wesley Wei", "Desiree Carver-Thomas", "Emma García"]
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, professional-development]
@@ -86,9 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-01
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Melanie Leung-Gagné", "Emma García"]
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, professional-development]
@@ -110,9 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-01-31
+date_source: listing
+authors: ["Beth Meloy", "Madelyn Gardner", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [early-childhood, lpi, meta-analysis, prekindergarten]
@@ -134,9 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-12-14
+date_source: listing
+authors: ["Anna Maier", "Julia Daniel", "Jeannie Oakes", "Livia Lam"]
 doi: null
 license: null
 tags: [k-12, lpi, meta-analysis, sel, student-belonging]
@@ -158,9 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-06-04
+date_source: listing
+authors: ["Abby Schachner", "Cathy Yun", "Hanna Melnick", "Jessica Barajas"]
 doi: null
 license: null
 tags: [coaching, early-childhood, lpi, professional-development]
@@ -182,9 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-08-26
+date_source: listing
+authors: ["Emily Germain", "Laura E. Hernández", "Sarah Klevan", "Rebecca S. Levine", "Anna Maier"]
 doi: null
 license: null
 tags: [attendance, k-12, lpi, student-belonging]
@@ -206,9 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11-20
+date_source: listing
+authors: ["Melanie Leung-Gagné", "Maria Maria Castillo", "Susan Kemper Patrick", "Desiree Carver-Thomas", "Tara Kini", "Cicely Bingener", "María Virginia Giani"]
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, professional-development]
@@ -230,9 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-08-05
+date_source: listing
+authors: ["Cathy Yun", "Hanna Melnick", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, lpi, prekindergarten]
@@ -254,9 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-04-20
+date_source: listing
+authors: ["Marjorie Wechsler", "Hanna Melnick", "Anna Maier", "Joseph Bishop"]
 doi: null
 license: null
 tags: [early-childhood, english-learners, lpi, prekindergarten, professional-development]
@@ -278,9 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09-16
+date_source: listing
+authors: ["Walker Swain", "Melanie Leung-Gagné", "Anna Maier", "Cassandra Rubinstein"]
 doi: null
 license: null
 tags: [attendance, k-12, longitudinal, lpi, student-belonging]
@@ -302,9 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-22
+date_source: listing
+authors: ["Steve Wojcikiewicz", "Kimberlee Ralph", "Jon Snyder", "Jennifer A. Bland", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [coaching, k-12, lpi, professional-development]
@@ -326,9 +326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-04-19
+date_source: listing
+authors: ["Desiree Carver-Thomas"]
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, professional-development]
@@ -350,9 +350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-07-23
+date_source: listing
+authors: ["Linda Darling-Hammond", "Maria E. Hyler", "Steve Wojcikiewicz", "Joy Rushing"]
 doi: null
 license: null
 tags: [k-12, lpi, professional-development, sel]
@@ -374,9 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-03-15
+date_source: listing
+authors: ["Karin Garver", "G. G. Weisenfeld", "Lori Connors-Tadros", "Katherine Hodges", "Hanna Melnick", "Sara Plasencia"]
 doi: null
 license: null
 tags: [early-childhood, lpi, prekindergarten, professional-development]
@@ -398,9 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-04-19
+date_source: listing
+authors: ["Aneesha Badrinarayan", "Linda Darling-Hammond", "Michael A. DiNapoli Jr.", "Tara Kini", "Tiffany Miller", "Julie Woods"]
 doi: null
 license: null
 tags: [ai-policy, formative-assessment, k-12, lpi]
@@ -422,9 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-08-29
+date_source: listing
+authors: ["Rucker Johnson"]
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi]
@@ -446,9 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-01
+date_source: listing
+authors: ["Daniel J. Losen", "Paul Martinez"]
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, school-discipline]
@@ -470,9 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-04
+date_source: listing
+authors: ["Heather Price", "Dion Burns", "Stacy Loewe", "Patrick M. Shields", "Jonathan Kaplan", "Hyeonjeong Lee"]
 doi: null
 license: null
 tags: [english-learners, k-12, longitudinal, lpi]
@@ -494,9 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-04-09
+date_source: listing
+authors: ["Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi]
@@ -518,9 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-06-02
+date_source: listing
+authors: ["Janel George", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [k-12, lpi, school-discipline, student-belonging]
@@ -542,9 +542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-06-30
+date_source: listing
+authors: ["Aneesha Badrinarayan"]
 doi: null
 license: null
 tags: [formative-assessment, k-12, lpi, professional-development]
@@ -566,9 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-01-18
+date_source: listing
+authors: ["Roneeta Guha", "Tony Wagner", "Linda Darling-Hammond", "Terri Taylor", "Diane Curtis"]
 doi: null
 license: null
 tags: [college-access, formative-assessment, higher-ed, k-12, lpi]
@@ -590,9 +590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-12-10
+date_source: listing
+authors: ["Madelyn Gardner", "Hanna Melnick", "Beth Meloy", "Jessica Barajas"]
 doi: null
 license: null
 tags: [coaching, early-childhood, lpi, professional-development]
@@ -614,9 +614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-06
+date_source: listing
+authors: ["Emily Germain", "Sarah Klevan", "Daniel Espinoza"]
 doi: null
 license: null
 tags: [attendance, k-12, lpi, professional-development]
@@ -638,9 +638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-04-18
+date_source: listing
+authors: ["Anna Maier", "Adrian Rivera-Rodriguez"]
 doi: null
 license: null
 tags: [k-12, lpi, sel, student-belonging]
@@ -662,9 +662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-06-29
+date_source: listing
+authors: ["Marjorie Wechsler", "David L. Kirp", "Titilayo Tinubu Ali", "Madelyn Gardner", "Anna Maier", "Hanna Melnick", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [coaching, early-childhood, lpi, prekindergarten, professional-development]
@@ -686,9 +686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02-27
+date_source: listing
+authors: ["Hanna Melnick", "Marjorie Wechsler", "Victoria Wang", "Sara Plasencia"]
 doi: null
 license: null
 tags: [early-childhood, k-12, lpi, prekindergarten, professional-development]
@@ -710,9 +710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-02-06
+date_source: listing
+authors: ["Laura E. Hernández", "Emily Germain"]
 doi: null
 license: null
 tags: [attendance, college-access, k-12, lpi, professional-development]
@@ -734,9 +734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-08
+date_source: listing
+authors: ["Emma García", "Henry Levin"]
 doi: null
 license: null
 tags: [career-readiness, college-access, early-childhood, higher-ed, k-12, lpi]
@@ -758,9 +758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-04
+date_source: listing
+authors: ["Abby Schachner", "Victoria Wang", "Cathy Yun", "Sara Plasencia", "Chris Mauerman", "Cordy McJunkins", "Deborah Stipek"]
 doi: null
 license: null
 tags: [early-childhood, lpi, prekindergarten, professional-development]
@@ -782,9 +782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11-17
+date_source: listing
+authors: ["Jennifer A. Bland", "Kimberlee Ralph", "Wesley Wei", "Victoria Wang", "Steve Wojcikiewicz", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [coaching, k-12, longitudinal, lpi, professional-development]
@@ -806,9 +806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-13
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-12
+date_source: listing
+authors: ["Susan Kemper Patrick", "Chazz Higginbotham", "Ryan Saunders", "Tiffany S. Tan", "Steve Wojcikiewicz"]
 doi: null
 license: null
 tags: [k-12, professional-development]
@@ -830,9 +830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-21
+date_source: listing
+authors: ["Sarah Klevan", "Natalie Spitzer", "Laura E. Hernández", "Cassandra Rubinstein", "Walker Swain"]
 doi: null
 license: null
 tags: [attendance, inclusive-design, lpi]
@@ -854,9 +854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-20
+date_source: listing
+authors: ["Victoria Wang"]
 doi: null
 license: null
 tags: [early-childhood, lpi, sel]
@@ -878,9 +878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-18
+date_source: listing
+authors: ["Linda Darling-Hammond", "Julie Fitz", "María Virginia Giani", "Molly F. Gordon", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [attendance, career-readiness, lpi]
@@ -902,9 +902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-10-07
+date_source: listing
+authors: ["Jennifer DePaoli", "Stacy Loewe"]
 doi: null
 license: null
 tags: [formative-assessment, lpi, sel]
@@ -926,9 +926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-08-13
+date_source: listing
+authors: ["Emily Germain", "Anna Maier", "Daniel Espinoza", "Jeannie Oakes"]
 doi: null
 license: null
 tags: [lpi]
@@ -950,9 +950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-08-13
+date_source: listing
+authors: ["Emily Germain", "Sarah Klevan"]
 doi: null
 license: null
 tags: [lpi]
@@ -974,9 +974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-08-01
+date_source: listing
+authors: ["Anne Podolsky", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -998,9 +998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-07-02
+date_source: listing
+authors: ["Julie Fitz", "Cathy Yun"]
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -1022,9 +1022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-06-12
+date_source: listing
+authors: ["Victoria Wang", "Melanie Leung-Gagné", "Hanna Melnick", "Shaakira Parker", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -1046,9 +1046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-06-06
+date_source: listing
+authors: ["Julie Fitz", "Heather Price"]
 doi: null
 license: null
 tags: [lpi, math-education]
@@ -1070,9 +1070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-05-06
+date_source: listing
+authors: ["Cathy Yun", "Julie Fitz"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -1094,9 +1094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-03-10
+date_source: listing
+authors: ["Cathy Yun", "Julie Fitz"]
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning, lpi, professional-development]
@@ -1118,9 +1118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-03-03
+date_source: listing
+authors: ["Cathy Yun", "Julie Fitz", "Chris Mauerman"]
 doi: null
 license: null
 tags: [learning-engineering, lpi]
@@ -1142,8 +1142,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2025-02-13
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -1166,9 +1166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-02-11
+date_source: listing
+authors: ["Jonathan Kaplan"]
 doi: null
 license: null
 tags: [lpi]
@@ -1190,9 +1190,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-01-28
+date_source: listing
+authors: ["Michael Griffith", "Dion Burns"]
 doi: null
 license: null
 tags: [lpi]
@@ -1214,9 +1214,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-01-15
+date_source: listing
+authors: ["Julie Fitz", "Julie Woods", "Naomi Duran", "Jennifer McCombs"]
 doi: null
 license: null
 tags: [lpi]
@@ -1238,9 +1238,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-31
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Melanie Leung-Gagné", "Danielle Jeannite"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -1262,9 +1262,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-10-31
+date_source: listing
+authors: ["Sarah Klevan", "Melanie Leung-Gagné"]
 doi: null
 license: null
 tags: [attendance, dropout-prevention, lpi, sel]
@@ -1286,9 +1286,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-10-31
+date_source: listing
+authors: ["Michael W. Kirst"]
 doi: null
 license: null
 tags: [lpi]
@@ -1310,9 +1310,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-10-17
+date_source: listing
+authors: ["Aneesha Badrinarayan"]
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -1334,9 +1334,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-09-17
+date_source: listing
+authors: ["Linda Darling-Hammond", "Matt Alexander", "Laura E. Hernández"]
 doi: null
 license: null
 tags: [lpi]
@@ -1358,9 +1358,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-08-15
+date_source: listing
+authors: ["Marjorie Wechsler", "Susan Kemper Patrick", "Charlie Thompson", "Stephanie Levin"]
 doi: null
 license: null
 tags: [formative-assessment, lpi, professional-development]
@@ -1382,9 +1382,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-08-02
+date_source: listing
+authors: ["Ryan Saunders", "Julie Fitz", "Michael A. DiNapoli Jr.", "Tara Kini"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -1406,9 +1406,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-07-29
+date_source: listing
+authors: ["Sarah Novicoff", "sean reardon", "Rucker Johnson"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -1430,9 +1430,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-07-09
+date_source: listing
+authors: ["Victoria Wang", "Melanie Leung-Gagné", "Hanna Melnick", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [career-readiness, early-childhood, formative-assessment, lpi]
@@ -1454,9 +1454,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-05-23
+date_source: listing
+authors: ["Julie Fitz", "Marjorie Wechsler", "Stephanie Levin"]
 doi: null
 license: null
 tags: [lpi]
@@ -1478,9 +1478,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-05-14
+date_source: listing
+authors: ["Julie Fitz", "Stephanie Levin", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [lpi]
@@ -1502,9 +1502,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-04-18
+date_source: listing
+authors: ["Susan Kemper Patrick"]
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -1526,9 +1526,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-02-23
+date_source: listing
+authors: ["Sara Plasencia", "Hanna Melnick"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -1550,9 +1550,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-02-12
+date_source: listing
+authors: ["Michael Griffith", "Dion Burns"]
 doi: null
 license: null
 tags: [lpi]
@@ -1574,9 +1574,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-12-26
+date_source: listing
+authors: ["Emma García", "Wesley Wei", "Susan Kemper Patrick", "Melanie Leung-Gagné", "Michael A. DiNapoli Jr."]
 doi: null
 license: null
 tags: [lpi]
@@ -1598,9 +1598,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-11-10
+date_source: listing
+authors: ["Laura E. Hernández", "Eddie Rivero"]
 doi: null
 license: null
 tags: [lpi]
@@ -1622,9 +1622,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-10-25
+date_source: listing
+authors: ["Karen Hunter Quartz"]
 doi: null
 license: null
 tags: [dropout-prevention, lpi]
@@ -1646,9 +1646,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-09-14
+date_source: listing
+authors: ["Charlie Thompson"]
 doi: null
 license: null
 tags: [lpi]
@@ -1670,9 +1670,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-08-16
+date_source: listing
+authors: ["Linda Darling-Hammond", "Michael A. DiNapoli Jr.", "Tara Kini"]
 doi: null
 license: null
 tags: [lpi]
@@ -1694,9 +1694,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-08-09
+date_source: listing
+authors: ["Jennifer DePaoli", "Jennifer McCombs"]
 doi: null
 license: null
 tags: [lpi]
@@ -1718,9 +1718,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-07-11
+date_source: listing
+authors: ["Stephen Kostyo", "Tiffany Miller"]
 doi: null
 license: null
 tags: [lpi]
@@ -1742,8 +1742,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2023-06-30
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -1766,9 +1766,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-05-18
+date_source: listing
+authors: ["Sean Darling-Hammond"]
 doi: null
 license: null
 tags: [dropout-prevention, lpi, sel]
@@ -1790,9 +1790,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-05-18
+date_source: listing
+authors: ["Sarah Klevan", "Julia Daniel", "Kendra Fehrer", "Anna Maier"]
 doi: null
 license: null
 tags: [lpi]
@@ -1814,9 +1814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-05-09
+date_source: listing
+authors: ["Susan Kemper Patrick", "Linda Darling-Hammond", "Tara Kini"]
 doi: null
 license: null
 tags: [career-readiness, lpi, professional-development]
@@ -1838,9 +1838,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-05-03
+date_source: listing
+authors: ["Charlie Thompson"]
 doi: null
 license: null
 tags: [lpi]
@@ -1862,9 +1862,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-04-19
+date_source: listing
+authors: ["Melanie Leung-Gagné", "Victoria Wang", "Hanna Melnick", "Chris Mauerman"]
 doi: null
 license: null
 tags: [career-readiness, early-childhood, formative-assessment, lpi]
@@ -1886,9 +1886,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-03-06
+date_source: listing
+authors: ["Mark T. Greenberg"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -1910,9 +1910,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-03-06
+date_source: listing
+authors: ["Daniel Espinoza", "Michael Griffith", "Dion Burns", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [lpi]
@@ -1934,9 +1934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-02-22
+date_source: listing
+authors: ["Jennifer A. Bland", "Steve Wojcikiewicz", "Linda Darling-Hammond", "Wesley Wei"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -1958,9 +1958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-01-12
+date_source: listing
+authors: ["Larkin Willis", "Monica Martinez"]
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -1982,9 +1982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-10-03
+date_source: listing
+authors: ["Stephanie Levin", "Daniel Espinoza", "Michael Griffith"]
 doi: null
 license: null
 tags: [lpi]
@@ -2006,9 +2006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-09-30
+date_source: listing
+authors: ["Melanie Leung-Gagné", "Jennifer McCombs", "Caitlin Scott", "Daniel J. Losen"]
 doi: null
 license: null
 tags: [inclusive-design, lpi, math-education]
@@ -2030,9 +2030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-09-15
+date_source: listing
+authors: ["Ayana Campoli", "Linda Darling-Hammond", "Anne Podolsky", "Stephanie Levin"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -2054,9 +2054,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-08-24
+date_source: listing
+authors: ["Laura E. Hernández", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -2078,9 +2078,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-08-09
+date_source: listing
+authors: ["Myron Orfield"]
 doi: null
 license: null
 tags: [lpi]
@@ -2102,9 +2102,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-07-27
+date_source: listing
+authors: ["Joshua Sussman", "Hanna Melnick", "Emily Newton", "Kerry Kriener-Althen", "Karen Draney", "Peter Mangione", "Perman Gochyyev"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -2126,9 +2126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-07-26
+date_source: listing
+authors: ["Dion Burns", "Daniel Espinoza", "Julie Adams", "Naomi Ondrasek"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -2150,9 +2150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06-27
+date_source: listing
+authors: ["Hanna Melnick", "Emma García", "Melanie Leung-Gagné"]
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -2174,9 +2174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-05-25
+date_source: listing
+authors: ["Peter W. Cookson, Jr.", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -2198,8 +2198,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2022-05-25
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -2222,9 +2222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-05-23
+date_source: listing
+authors: ["Linda Darling-Hammond", "Marjorie Wechsler", "Stephanie Levin", "Melanie Leung-Gagné", "Steve Tozer"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -2246,9 +2246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-03-04
+date_source: listing
+authors: ["Steve Wojcikiewicz"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2270,9 +2270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-01-26
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Dion Burns", "Melanie Leung-Gagné", "Naomi Ondrasek"]
 doi: null
 license: null
 tags: [lpi]
@@ -2294,9 +2294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-01-24
+date_source: listing
+authors: ["Linda Darling-Hammond", "Lisa Flook", "Abby Schachner", "Steve Wojcikiewicz", "Pamela Cantor", "David Osher"]
 doi: null
 license: null
 tags: [lpi]
@@ -2318,9 +2318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-12-27
+date_source: listing
+authors: ["Kimberly Jenkins Robinson"]
 doi: null
 license: null
 tags: [lpi]
@@ -2342,9 +2342,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-10-06
+date_source: listing
+authors: ["Ryan Saunders"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2366,9 +2366,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-06-14
+date_source: listing
+authors: ["Dion Burns", "Daniel Espinoza", "Naomi Ondrasek", "Man Yang"]
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -2390,9 +2390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-06-08
+date_source: listing
+authors: ["Linda Darling-Hammond", "Pamela Cantor", "Laura E. Hernández", "Abby Schachner", "Sara Plasencia", "Christina Theokas", "Elizabeth Tijerina"]
 doi: null
 license: null
 tags: [lpi]
@@ -2414,9 +2414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-05-18
+date_source: listing
+authors: ["Melanie Leung-Gagné", "Jessica Cardichon", "Caitlin Scott", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [college-access, lpi, math-education]
@@ -2438,9 +2438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-05-10
+date_source: listing
+authors: ["Marisa Saunders", "Lorea Martínez", "Lisa Flook", "Laura E. Hernández"]
 doi: null
 license: null
 tags: [lpi]
@@ -2462,9 +2462,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-05-05
+date_source: listing
+authors: ["Megan Bang", "Leah Bricker", "Linda Darling-Hammond", "Adam K. Edgerton", "Pam Grossman", "Kris D. Gutiérrez", "Ann Ishimaru", "Sarah Klevan", "Carol D. Lee", "David Miyashiro", "Na'ilah Suad Nasir", "Pedro A. Noguera", "Charles Payne", "Bill Penuel", "Sara Plasencia", "Shirin Vossoughi"]
 doi: null
 license: null
 tags: [lpi, response-to-intervention, sel]
@@ -2486,8 +2486,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2021-05-03
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -2510,9 +2510,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-03-04
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Melanie Leung-Gagné", "Dion Burns"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2534,9 +2534,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-02-19
+date_source: listing
+authors: ["Gary Hoachlander"]
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -2558,9 +2558,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-01-12
+date_source: listing
+authors: ["Jeannie Oakes", "Daniel Espinoza"]
 doi: null
 license: null
 tags: [lpi]
@@ -2582,8 +2582,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
+published_date: 2020-12-31
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -2606,9 +2606,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-12-01
+date_source: listing
+authors: ["Jeannie Oakes", "Daniel Espinoza", "Linda Darling-Hammond", "Carmen Gonzales", "Jennifer DePaoli", "Tara Kini", "Gary Hoachlander", "Dion Burns", "Michael Griffith", "Melanie Leung-Gagné"]
 doi: null
 license: null
 tags: [lpi]
@@ -2630,9 +2630,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-11-12
+date_source: listing
+authors: ["Cathy Yun", "Karen DeMoss"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2654,9 +2654,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-27
+date_source: listing
+authors: ["Stephanie Levin", "Melanie Leung-Gagné", "Adam K. Edgerton", "Caitlin Scott"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -2678,9 +2678,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-23
+date_source: listing
+authors: ["Channa Cook-Harvey", "Lisa Flook", "Emily Efland", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -2702,9 +2702,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-15
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Tara Kini", "Dion Burns"]
 doi: null
 license: null
 tags: [lpi]
@@ -2726,9 +2726,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-13
+date_source: listing
+authors: ["Anna Maier", "Julie Adams", "Dion Burns", "Maya Kaul", "Marisa Saunders", "Charlie Thompson"]
 doi: null
 license: null
 tags: [career-readiness, college-access, formative-assessment, lpi]
@@ -2750,9 +2750,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-08-25
+date_source: listing
+authors: ["Linda Darling-Hammond", "Abby Schachner", "Adam K. Edgerton", "Aneesha Badrinarayan", "Jessica Cardichon", "Peter W. Cookson, Jr.", "Michael Griffith", "Sarah Klevan", "Anna Maier", "Monica Martinez", "Hanna Melnick", "Natalie Truong", "Steve Wojcikiewicz"]
 doi: null
 license: null
 tags: [lpi]
@@ -2774,9 +2774,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-07-21
+date_source: listing
+authors: ["Michelle Fine", "Karyna Pryiomka"]
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -2798,9 +2798,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-06-25
+date_source: listing
+authors: ["Peter W. Cookson, Jr."]
 doi: null
 license: null
 tags: [lpi]
@@ -2822,9 +2822,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-05-14
+date_source: listing
+authors: ["Stephanie Levin", "Caitlin Scott", "Man Yang", "Melanie Leung-Gagné", "Kathryn Bradley"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2846,9 +2846,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-02-18
+date_source: listing
+authors: ["Naomi Ondrasek", "Desiree Carver-Thomas", "Caitlin Scott", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -2870,9 +2870,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-02-12
+date_source: listing
+authors: ["Jessica Cardichon", "Linda Darling-Hammond", "Man Yang", "Caitlin Scott", "Patrick M. Shields", "Dion Burns"]
 doi: null
 license: null
 tags: [lpi]
@@ -2894,9 +2894,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-21
+date_source: listing
+authors: ["Laura E. Hernández", "Linda Darling-Hammond", "Julie Adams", "Kathryn Bradley", "DeAnna Duncan Grand", "Martens Roc", "Peter Ross"]
 doi: null
 license: null
 tags: [lpi]
@@ -2918,9 +2918,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-21
+date_source: listing
+authors: ["Rachel A. Lotan", "Dion Burns"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -2942,9 +2942,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-21
+date_source: listing
+authors: ["Julie Adams", "DeAnna Duncan Grand"]
 doi: null
 license: null
 tags: [lpi]
@@ -2966,9 +2966,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-21
+date_source: listing
+authors: ["Martens Roc", "Peter Ross", "Laura E. Hernández"]
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -2990,9 +2990,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-21
+date_source: listing
+authors: ["Kathryn Bradley", "Laura E. Hernández"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -3014,9 +3014,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-15
+date_source: listing
+authors: ["Beth Meloy", "Abby Schachner"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -3038,9 +3038,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-01
+date_source: listing
+authors: ["Jacqueline Ancess", "Bethany L. Rogers", "DeAnna Duncan Grand", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [college-access, dropout-prevention, lpi, sel]
@@ -3062,9 +3062,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-09-10
+date_source: listing
+authors: ["Dion Burns", "Linda Darling-Hammond", "Caitlin Scott", "Taylor Allbright", "Desiree Carver-Thomas", "Eupha Jeanne Daramola", "Jane L. David", "Laura E. Hernández", "Kate E. Kennedy", "Julie A. Marsh", "Crystal A. Moore", "Anne Podolsky", "Patrick M. Shields", "Joan Talbert"]
 doi: null
 license: null
 tags: [lpi]
@@ -3086,9 +3086,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-05-21
+date_source: listing
+authors: ["Hanna Melnick", "Lorea Martínez"]
 doi: null
 license: null
 tags: [college-access, dropout-prevention, lpi, professional-development, sel]
@@ -3110,9 +3110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-05-16
+date_source: listing
+authors: ["Anne Podolsky", "Linda Darling-Hammond", "Christopher Doss", "sean reardon"]
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -3134,9 +3134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-05-01
+date_source: listing
+authors: ["Jessica Cardichon", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -3158,9 +3158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-03-19
+date_source: listing
+authors: ["Stephanie Levin", "Kathryn Bradley"]
 doi: null
 license: null
 tags: [lpi]
@@ -3182,9 +3182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-02-28
+date_source: listing
+authors: ["John Brittain", "Larkin Willis", "Peter W. Cookson, Jr."]
 doi: null
 license: null
 tags: [lpi]
@@ -3206,9 +3206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-02-28
+date_source: listing
+authors: ["Janel George", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [computer-assisted-learning, lpi]
@@ -3230,9 +3230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-02-21
+date_source: listing
+authors: ["Rachel A. Lotan", "Dion Burns", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -3254,9 +3254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-02-21
+date_source: listing
+authors: ["Roberta C. Furger", "Laura E. Hernández", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -3278,9 +3278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-12-05
+date_source: listing
+authors: ["David Hinojosa"]
 doi: null
 license: null
 tags: [lpi]
@@ -3302,9 +3302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-25
+date_source: listing
+authors: ["Peter W. Cookson, Jr.", "Linda Darling-Hammond", "Robert Rothman", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [lpi]
@@ -3326,9 +3326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-09-07
+date_source: listing
+authors: ["Linda Darling-Hammond", "Channa Cook-Harvey"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -3350,9 +3350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-09-05
+date_source: listing
+authors: ["Stephen Kostyo", "Jessica Cardichon", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -3374,9 +3374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-08-29
+date_source: listing
+authors: ["Daniel Espinoza", "Ryan Saunders", "Tara Kini", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3398,9 +3398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-01-23
+date_source: listing
+authors: ["Hanna Melnick", "Beth Meloy", "Madelyn Gardner", "Marjorie Wechsler", "Anna Maier"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -3422,9 +3422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-12-14
+date_source: listing
+authors: ["Linda Darling-Hammond", "Robert Rothman", "Peter W. Cookson, Jr."]
 doi: null
 license: null
 tags: [lpi]
@@ -3446,9 +3446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-12-13
+date_source: listing
+authors: ["Bruce D. Baker"]
 doi: null
 license: null
 tags: [lpi]
@@ -3470,9 +3470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-09-13
+date_source: listing
+authors: ["Pedro A. Noguera"]
 doi: null
 license: null
 tags: [lpi]
@@ -3494,9 +3494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-08-28
+date_source: listing
+authors: ["Richard M. Ingersoll", "Henry May", "Greg Collins"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3518,9 +3518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-08-16
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -3542,9 +3542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-06-05
+date_source: listing
+authors: ["Linda Darling-Hammond", "Maria E. Hyler", "Madelyn Gardner"]
 doi: null
 license: null
 tags: [english-learners, lpi, professional-development]
@@ -3566,9 +3566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-06-01
+date_source: listing
+authors: ["Hanna Melnick", "Titilayo Tinubu Ali", "Madelyn Gardner", "Anna Maier", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [early-childhood, literacy, lpi, math-education, sel]
@@ -3590,9 +3590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-04-18
+date_source: listing
+authors: ["Hanna Melnick", "Channa Cook-Harvey", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -3614,9 +3614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-03-17
+date_source: listing
+authors: ["Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -3638,9 +3638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-02-27
+date_source: listing
+authors: ["Leib Sutcher", "Anne Podolsky", "Daniel Espinoza"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -3662,9 +3662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-02-23
+date_source: listing
+authors: ["Jessica Cardichon", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -3686,9 +3686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-02-23
+date_source: listing
+authors: ["Curt M. Adams", "Timothy G. Ford", "Patrick B. Forsyth", "Jordan K. Ware", "Jentre J. Olsen", "John A. Lepine", "Laura L.B. Barnes", "Jam Khojasteh", "Mwarumba Mwavita"]
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -3710,9 +3710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-02-08
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [inclusive-design, lpi, math-education]
@@ -3734,9 +3734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-12-07
+date_source: listing
+authors: ["Channa Cook-Harvey", "Linda Darling-Hammond", "Livia Lam", "Charmaine Mercer", "Martens Roc"]
 doi: null
 license: null
 tags: [lpi]
@@ -3758,9 +3758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-09-15
+date_source: listing
+authors: ["Anne Podolsky", "Tara Kini", "Joseph Bishop", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -3782,9 +3782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-09-15
+date_source: listing
+authors: ["Leib Sutcher", "Linda Darling-Hammond", "Desiree Carver-Thomas"]
 doi: null
 license: null
 tags: [lpi]
@@ -3806,9 +3806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-09-15
+date_source: listing
+authors: ["Roneeta Guha", "Maria E. Hyler", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -3830,9 +3830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-06-03
+date_source: listing
+authors: ["Tara Kini", "Anne Podolsky"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3854,9 +3854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-04-20
+date_source: listing
+authors: ["Linda Darling-Hammond", "Soung Bae", "Channa Cook-Harvey", "Livia Lam", "Charmaine Mercer", "Anne Podolsky", "Elizabeth Leisy Stosich"]
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -3878,9 +3878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-04-09
+date_source: listing
+authors: ["Channa Cook-Harvey", "Elizabeth Leisy Stosich"]
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -3902,9 +3902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-01-19
+date_source: listing
+authors: ["Linda Darling-Hammond", "Roberta C. Furger", "Patrick M. Shields", "Leib Sutcher"]
 doi: null
 license: null
 tags: [lpi]
@@ -3926,9 +3926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-06-10
+date_source: listing
+authors: ["Heather Price", "Julie Fitz"]
 doi: null
 license: null
 tags: [lpi, math-education]
@@ -3950,9 +3950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-18
+date_source: listing
+authors: ["Linda Darling-Hammond", "Julie Fitz", "María Virginia Giani", "Molly F. Gordon", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [attendance, career-readiness, lpi]
@@ -3974,9 +3974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-17
+date_source: listing
+authors: ["Susan Kemper Patrick", "Chazz Higginbotham", "Ryan Saunders", "Tiffany S. Tan", "Steve Wojcikiewicz"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3998,9 +3998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-04-08
+date_source: listing
+authors: ["Charlie Thompson"]
 doi: null
 license: null
 tags: [dropout-prevention, lpi]
@@ -4022,9 +4022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-27
+date_source: listing
+authors: ["Sarah Klevan", "Laura E. Hernández", "Natalie Spitzer", "Cassandra Rubinstein", "Walker Swain"]
 doi: null
 license: null
 tags: [attendance, inclusive-design, lpi]
@@ -4046,9 +4046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-23
+date_source: listing
+authors: ["Hanna Melnick", "Emma García"]
 doi: null
 license: null
 tags: [early-childhood, lpi, math-education]
@@ -4070,9 +4070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-03-17
+date_source: listing
+authors: ["Tiffany S. Tan", "Wesley Wei", "Desiree Carver-Thomas", "Emma García"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -4094,9 +4094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-04
+date_source: listing
+authors: ["Abby Schachner", "Victoria Wang", "Cathy Yun", "Sara Plasencia", "Chris Mauerman", "Cordy McJunkins", "Deborah Stipek", "Madelyn Gardner", "Hanna Melnick", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [college-access, early-childhood, lpi, professional-development]
@@ -4118,9 +4118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-04
+date_source: listing
+authors: ["Abby Schachner", "Victoria Wang", "Cathy Yun", "Sara Plasencia", "Chris Mauerman", "Cordy McJunkins", "Deborah Stipek", "Hanna Melnick", "Marjorie Wechsler", "Madelyn Gardner"]
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -4142,9 +4142,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-12-01
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Melanie Leung-Gagné", "Emma García"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -4166,9 +4166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11-19
+date_source: listing
+authors: ["Laura E. Hernández", "Sarah Klevan", "Emily Germain"]
 doi: null
 license: null
 tags: [lpi]
@@ -4190,9 +4190,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-11-04
+date_source: listing
+authors: ["Linda Darling-Hammond", "Larkin Willis", "Desiree Carver-Thomas"]
 doi: null
 license: null
 tags: [learning-engineering, lpi]
@@ -4214,9 +4214,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-10-16
+date_source: listing
+authors: ["Aneesha Badrinarayan"]
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -4238,9 +4238,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-10-14
+date_source: listing
+authors: ["Jennifer DePaoli", "Stacy Loewe"]
 doi: null
 license: null
 tags: [formative-assessment, lpi, sel]
@@ -4262,9 +4262,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09-26
+date_source: listing
+authors: ["Charlie Thompson"]
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -4286,9 +4286,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09-16
+date_source: listing
+authors: ["Walker Swain", "Melanie Leung-Gagné", "Anna Maier", "Cassandra Rubinstein"]
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -4310,9 +4310,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-09-04
+date_source: listing
+authors: ["Linda Darling-Hammond", "Matt Alexander", "Laura E. Hernández", "Cheryl Jones-Walker"]
 doi: null
 license: null
 tags: [lpi]
@@ -4334,9 +4334,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-08-08
+date_source: listing
+authors: ["Steve Wojcikiewicz"]
 doi: null
 license: null
 tags: [lpi]
@@ -4358,9 +4358,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-06-30
+date_source: listing
+authors: ["Julie Fitz", "Heather Price"]
 doi: null
 license: null
 tags: [lpi, math-education]
@@ -4382,9 +4382,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-04-04
+date_source: listing
+authors: ["Larkin Willis", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi, math-education, professional-development]
@@ -4406,9 +4406,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-02-07
+date_source: listing
+authors: ["Emily Germain", "Anna Maier", "Daniel Espinoza"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -4430,9 +4430,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-02-04
+date_source: listing
+authors: ["Wesley Wei", "Emma García", "Michael A. DiNapoli Jr.", "Susan Kemper Patrick", "Melanie Leung-Gagné"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -4454,9 +4454,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2025-01-15
+date_source: listing
+authors: ["Julie Fitz", "Julie Woods", "Naomi Duran", "Jennifer McCombs"]
 doi: null
 license: null
 tags: [lpi]
@@ -4478,9 +4478,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-13
+date_source: listing
+authors: ["Steve Wojcikiewicz", "Wesley Wei"]
 doi: null
 license: null
 tags: [career-readiness, lpi, professional-development]
@@ -4502,9 +4502,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-12-13
+date_source: listing
+authors: ["Kimberlee Ralph", "Jennifer A. Bland"]
 doi: null
 license: null
 tags: [lpi]
@@ -4526,9 +4526,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-11-21
+date_source: listing
+authors: ["Laura E. Hernández", "Linda Darling-Hammond", "Natalie Nielson"]
 doi: null
 license: null
 tags: [lpi]
@@ -4550,9 +4550,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-11-21
+date_source: listing
+authors: ["Laura E. Hernández", "Linda Darling-Hammond", "Natalie Nielson"]
 doi: null
 license: null
 tags: [lpi]
@@ -4574,9 +4574,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-10-18
+date_source: listing
+authors: ["Hanna Melnick", "Emma García"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -4598,9 +4598,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-09-25
+date_source: listing
+authors: ["Daniel Espinoza"]
 doi: null
 license: null
 tags: [lpi]
@@ -4622,9 +4622,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-09-25
+date_source: listing
+authors: ["Anna Maier"]
 doi: null
 license: null
 tags: [attendance, dropout-prevention, lpi]
@@ -4646,9 +4646,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-09-25
+date_source: listing
+authors: ["Emily Germain"]
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -4670,9 +4670,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-08-21
+date_source: listing
+authors: ["Sarah Novicoff", "sean reardon", "Rucker Johnson"]
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -4694,9 +4694,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-08-06
+date_source: listing
+authors: ["Marjorie Wechsler", "Steve Wojcikiewicz"]
 doi: null
 license: null
 tags: [lpi]
@@ -4718,9 +4718,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-07-31
+date_source: listing
+authors: ["Melanie Leung-Gagné", "Susan Kemper Patrick", "Emma García"]
 doi: null
 license: null
 tags: [lpi]
@@ -4742,9 +4742,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-05-10
+date_source: listing
+authors: ["Susan Kemper Patrick", "Lillie Ko-Wong"]
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -4766,9 +4766,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-04-01
+date_source: listing
+authors: ["Julie Fitz", "Cathy Yun"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -4790,9 +4790,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-03-01
+date_source: listing
+authors: ["Hanna Melnick"]
 doi: null
 license: null
 tags: [lpi]
@@ -4814,9 +4814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2024-02-13
+date_source: listing
+authors: ["Laura E. Hernández", "Eddie Rivero"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -4838,9 +4838,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-10-11
+date_source: listing
+authors: ["Linda Darling-Hammond", "Marjorie Wechsler", "Stephanie Levin", "Melanie Leung-Gagné", "Steve Tozer"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -4862,9 +4862,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-09-27
+date_source: listing
+authors: ["Jennifer DePaoli", "Jennifer McCombs"]
 doi: null
 license: null
 tags: [lpi]
@@ -4886,9 +4886,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-08-29
+date_source: listing
+authors: ["Rucker Johnson"]
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -4910,9 +4910,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-06-08
+date_source: listing
+authors: ["Dion Burns", "Michael Griffith", "Anna Maier"]
 doi: null
 license: null
 tags: [lpi]
@@ -4934,9 +4934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-05-24
+date_source: listing
+authors: ["Sean Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -4958,9 +4958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-05-23
+date_source: listing
+authors: ["Sarah Klevan", "Kendra Fehrer"]
 doi: null
 license: null
 tags: [lpi]
@@ -4982,9 +4982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-05-18
+date_source: listing
+authors: ["Sarah Klevan", "Julia Daniel", "Kendra Fehrer", "Anna Maier"]
 doi: null
 license: null
 tags: [lpi]
@@ -5006,9 +5006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-05-12
+date_source: listing
+authors: ["Daniel Espinoza", "Michael Griffith", "Dion Burns", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [lpi]
@@ -5030,9 +5030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-04-19
+date_source: listing
+authors: ["Aneesha Badrinarayan", "Linda Darling-Hammond", "Michael A. DiNapoli Jr.", "Tara Kini", "Tiffany Miller", "Julie Woods"]
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -5054,9 +5054,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-03-24
+date_source: listing
+authors: ["Karin Garver", "G. G. Weisenfeld", "Lori Connors-Tadros", "Katherine Hodges", "Hanna Melnick", "Sara Plasencia"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -5078,9 +5078,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-03-06
+date_source: listing
+authors: ["Mark T. Greenberg"]
 doi: null
 license: null
 tags: [lpi, response-to-intervention, sel]
@@ -5102,9 +5102,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-03-02
+date_source: listing
+authors: ["Susan Kemper Patrick", "Linda Darling-Hammond", "Tara Kini"]
 doi: null
 license: null
 tags: [lpi]
@@ -5126,9 +5126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-02-22
+date_source: listing
+authors: ["Jennifer A. Bland", "Steve Wojcikiewicz", "Linda Darling-Hammond", "Wesley Wei"]
 doi: null
 license: null
 tags: [career-readiness, lpi, response-to-intervention]
@@ -5150,9 +5150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-02-15
+date_source: listing
+authors: ["Janel George", "Linda Darling-Hammond", "Sara Plasencia"]
 doi: null
 license: null
 tags: [lpi]
@@ -5174,9 +5174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-01-11
+date_source: listing
+authors: ["Stephanie Levin", "Daniel Espinoza", "Michael Griffith"]
 doi: null
 license: null
 tags: [lpi]
@@ -5198,9 +5198,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-09-30
+date_source: listing
+authors: ["Ayana Campoli", "Linda Darling-Hammond", "Anne Podolsky", "Stephanie Levin"]
 doi: null
 license: null
 tags: [lpi]
@@ -5222,9 +5222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-09-12
+date_source: listing
+authors: ["Dion Burns", "Daniel Espinoza", "Julie Adams", "Naomi Ondrasek"]
 doi: null
 license: null
 tags: [lpi]
@@ -5246,9 +5246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-08-22
+date_source: listing
+authors: ["Kia Darling-Hammond", "Linda Darling-Hammond", "Eliza Byard"]
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -5270,9 +5270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-08-09
+date_source: listing
+authors: ["Anna Maier"]
 doi: null
 license: null
 tags: [lpi]
@@ -5294,9 +5294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-08-09
+date_source: listing
+authors: ["Hanna Melnick", "Emma García", "Melanie Leung-Gagné"]
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -5318,9 +5318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06-16
+date_source: listing
+authors: ["Cathy Yun"]
 doi: null
 license: null
 tags: [career-readiness, college-access, early-childhood, lpi]
@@ -5342,9 +5342,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-06-01
+date_source: listing
+authors: ["Lorea Martínez", "Laura E. Hernández", "Marisa Saunders", "Lisa Flook"]
 doi: null
 license: null
 tags: [college-access, inclusive-design, lpi, sel]
@@ -5366,9 +5366,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-04-14
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Susan Kemper Patrick"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -5390,9 +5390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2022-01-14
+date_source: listing
+authors: ["Linda Darling-Hammond", "Kevin C. Bastian", "Barnett Berry", "Desiree Carver-Thomas", "Tara Kini", "Stephanie Levin", "G. Williamson McDiarmid"]
 doi: null
 license: null
 tags: [career-readiness, lpi, professional-development]
@@ -5414,9 +5414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-10-28
+date_source: listing
+authors: ["Sarah Klevan"]
 doi: null
 license: null
 tags: [inclusive-design, lpi, sel]
@@ -5438,9 +5438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-10-22
+date_source: listing
+authors: ["Anna Maier", "Deanna Niebuhr"]
 doi: null
 license: null
 tags: [lpi]
@@ -5462,9 +5462,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-10-11
+date_source: listing
+authors: ["Naomi Ondrasek", "Adam K. Edgerton", "Jennifer A. Bland"]
 doi: null
 license: null
 tags: [lpi]
@@ -5486,9 +5486,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-08-26
+date_source: listing
+authors: ["Charlie Thompson"]
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -5510,9 +5510,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-08-18
+date_source: listing
+authors: ["Jennifer A. Bland", "Adam K. Edgerton", "Desiree O'Neal", "Naomi Ondrasek"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -5534,9 +5534,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-08-05
+date_source: listing
+authors: ["Cathy Yun", "Hanna Melnick", "Marjorie Wechsler"]
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, lpi]
@@ -5558,9 +5558,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-07-01
+date_source: listing
+authors: ["Melanie Leung-Gagné", "Desiree O'Neal", "Naomi Ondrasek", "Hanna Melnick"]
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -5582,9 +5582,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-06-18
+date_source: listing
+authors: ["Jeannie Oakes", "Peter W. Cookson, Jr.", "Janel George", "Stephanie Levin", "Desiree Carver-Thomas", "Fred Frelow", "Barnett Berry"]
 doi: null
 license: null
 tags: [lpi]
@@ -5606,9 +5606,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-04-13
+date_source: listing
+authors: ["Hanna Melnick", "Sara Plasencia"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -5630,9 +5630,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-03-23
+date_source: listing
+authors: ["Adam K. Edgerton", "Naomi Ondrasek", "Natalie Truong", "Desiree O'Neal"]
 doi: null
 license: null
 tags: [lpi]
@@ -5654,9 +5654,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-03-16
+date_source: listing
+authors: ["Jennifer DePaoli", "Laura E. Hernández", "Roberta C. Furger", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -5678,8 +5678,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2021-03-04
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -5702,9 +5702,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-02-11
+date_source: listing
+authors: ["Naomi Ondrasek", "Natalie Truong", "Adam K. Edgerton"]
 doi: null
 license: null
 tags: [lpi]
@@ -5726,9 +5726,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2021-01-04
+date_source: listing
+authors: ["Barnett Berry", "Kevin C. Bastian", "Linda Darling-Hammond", "Tara Kini"]
 doi: null
 license: null
 tags: [lpi]
@@ -5750,9 +5750,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-11-12
+date_source: listing
+authors: ["Cathy Yun", "Karen DeMoss"]
 doi: null
 license: null
 tags: [lpi]
@@ -5774,9 +5774,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-11-11
+date_source: listing
+authors: ["Stephanie Levin", "Melanie Leung-Gagné", "Adam K. Edgerton", "Caitlin Scott"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -5798,9 +5798,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-11-10
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Tara Kini", "Dion Burns"]
 doi: null
 license: null
 tags: [lpi]
@@ -5822,9 +5822,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-27
+date_source: listing
+authors: ["Caitlin Scott", "Linda Darling-Hammond", "Dion Burns"]
 doi: null
 license: null
 tags: [formative-assessment, lpi, math-education]
@@ -5846,9 +5846,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-15
+date_source: listing
+authors: ["Dion Burns", "Linda Darling-Hammond", "Caitlin Scott"]
 doi: null
 license: null
 tags: [lpi]
@@ -5870,9 +5870,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-10-13
+date_source: listing
+authors: ["Anna Maier", "Julie Adams", "Dion Burns", "Maya Kaul", "Marisa Saunders", "Charlie Thompson"]
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -5894,8 +5894,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2020-08-28
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -5918,9 +5918,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-07-17
+date_source: listing
+authors: ["Anna Maier", "Sarah Klevan", "Naomi Ondrasek"]
 doi: null
 license: null
 tags: [lpi]
@@ -5942,9 +5942,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-05-15
+date_source: listing
+authors: ["Hanna Melnick", "Linda Darling-Hammond", "Melanie Leung-Gagné", "Cathy Yun", "Abby Schachner", "Sara Plasencia", "Naomi Ondrasek"]
 doi: null
 license: null
 tags: [lpi]
@@ -5966,9 +5966,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-05-14
+date_source: listing
+authors: ["Stephanie Levin", "Caitlin Scott", "Man Yang", "Melanie Leung-Gagné", "Kathryn Bradley"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -5990,9 +5990,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2020-02-18
+date_source: listing
+authors: ["Naomi Ondrasek", "Desiree Carver-Thomas", "Caitlin Scott", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [inclusive-design, lpi, professional-development]
@@ -6014,9 +6014,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-12-10
+date_source: listing
+authors: ["Madelyn Gardner", "Beth Meloy", "Hanna Melnick", "Jessica Barajas"]
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -6038,9 +6038,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-12-10
+date_source: listing
+authors: ["Madelyn Gardner", "Hanna Melnick", "Beth Meloy", "Jessica Barajas"]
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -6062,9 +6062,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-21
+date_source: listing
+authors: ["Laura E. Hernández", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi, personalized-learning]
@@ -6086,9 +6086,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-09-10
+date_source: listing
+authors: ["Dion Burns", "Linda Darling-Hammond", "Caitlin Scott"]
 doi: null
 license: null
 tags: [career-readiness, lpi, professional-development, sel]
@@ -6110,9 +6110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-08-05
+date_source: listing
+authors: ["Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -6134,9 +6134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-07-18
+date_source: listing
+authors: ["Stephanie Levin", "Kathryn Bradley", "Caitlin Scott"]
 doi: null
 license: null
 tags: [lpi]
@@ -6158,9 +6158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-06-10
+date_source: listing
+authors: ["Linda Darling-Hammond", "Jeannie Oakes", "Steve Wojcikiewicz", "Maria E. Hyler", "Roneeta Guha", "Anne Podolsky", "Tara Kini", "Channa Cook-Harvey", "Charmaine Mercer", "Akeelah Harrell"]
 doi: null
 license: null
 tags: [lpi, personalized-learning]
@@ -6182,9 +6182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-05-16
+date_source: listing
+authors: ["Anne Podolsky", "Linda Darling-Hammond", "Christopher Doss", "sean reardon"]
 doi: null
 license: null
 tags: [formative-assessment, lpi, math-education]
@@ -6206,9 +6206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-02-28
+date_source: listing
+authors: ["John Brittain", "Larkin Willis", "Peter W. Cookson, Jr."]
 doi: null
 license: null
 tags: [lpi]
@@ -6230,9 +6230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-02-21
+date_source: listing
+authors: ["Roberta C. Furger", "Laura E. Hernández", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -6254,9 +6254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-02-21
+date_source: listing
+authors: ["Rachel A. Lotan", "Dion Burns", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -6278,9 +6278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-01-31
+date_source: listing
+authors: ["Beth Meloy", "Madelyn Gardner", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -6302,9 +6302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-12-05
+date_source: listing
+authors: ["David Hinojosa"]
 doi: null
 license: null
 tags: [lpi]
@@ -6326,9 +6326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-15
+date_source: listing
+authors: ["Linda Darling-Hammond", "Leib Sutcher", "Desiree Carver-Thomas"]
 doi: null
 license: null
 tags: [lpi]
@@ -6350,9 +6350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-15
+date_source: listing
+authors: ["Leib Sutcher", "Anne Podolsky", "Tara Kini", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [lpi, professional-development, sel]
@@ -6374,9 +6374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-03
+date_source: listing
+authors: ["Stephen Kostyo", "Jessica Cardichon", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [dropout-prevention, lpi]
@@ -6398,9 +6398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-03
+date_source: listing
+authors: ["Stephen Kostyo", "Jessica Cardichon", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -6422,9 +6422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-03
+date_source: listing
+authors: ["Stephen Kostyo", "Jessica Cardichon", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -6446,9 +6446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-03
+date_source: listing
+authors: ["Stephen Kostyo", "Jessica Cardichon", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -6470,9 +6470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-10-03
+date_source: listing
+authors: ["Stephen Kostyo", "Jessica Cardichon", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -6494,9 +6494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-09-07
+date_source: listing
+authors: ["Linda Darling-Hammond", "Channa Cook-Harvey"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -6518,9 +6518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-07-17
+date_source: listing
+authors: ["Bruce D. Baker"]
 doi: null
 license: null
 tags: [lpi]
@@ -6542,8 +6542,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2018-06-15
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -6566,9 +6566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-04-19
+date_source: listing
+authors: ["Desiree Carver-Thomas"]
 doi: null
 license: null
 tags: [lpi]
@@ -6590,9 +6590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-02-27
+date_source: listing
+authors: ["Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -6614,9 +6614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-02-05
+date_source: listing
+authors: ["Leib Sutcher", "Desiree Carver-Thomas", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -6638,9 +6638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-02-02
+date_source: listing
+authors: ["Rucker Johnson", "Sean Tanner"]
 doi: null
 license: null
 tags: [dropout-prevention, lpi]
@@ -6662,9 +6662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-01-23
+date_source: listing
+authors: ["Hanna Melnick", "Beth Meloy", "Madelyn Gardner", "Marjorie Wechsler", "Anna Maier"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -6686,9 +6686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-01-18
+date_source: listing
+authors: ["Roneeta Guha", "Tony Wagner", "Linda Darling-Hammond", "Terri Taylor", "Diane Curtis"]
 doi: null
 license: null
 tags: [college-access, formative-assessment, lpi]
@@ -6710,9 +6710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-12-14
+date_source: listing
+authors: ["Anna Maier", "Julia Daniel", "Jeannie Oakes"]
 doi: null
 license: null
 tags: [lpi]
@@ -6734,9 +6734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-08-16
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [k-12, lpi, professional-development]
@@ -6758,9 +6758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-06-13
+date_source: listing
+authors: ["Daniel Espinoza", "Jessica Cardichon"]
 doi: null
 license: null
 tags: [lpi]
@@ -6782,9 +6782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-06-13
+date_source: listing
+authors: ["Linda Darling-Hammond", "Jessica Cardichon", "Hanna Melnick"]
 doi: null
 license: null
 tags: [lpi, response-to-intervention]
@@ -6806,9 +6806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-06-05
+date_source: listing
+authors: ["Linda Darling-Hammond", "Maria E. Hyler", "Madelyn Gardner"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -6830,9 +6830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-06-05
+date_source: listing
+authors: ["Jeannie Oakes", "Anna Maier", "Julia Daniel"]
 doi: null
 license: null
 tags: [lpi, response-to-intervention]
@@ -6854,9 +6854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-04-18
+date_source: listing
+authors: ["Hanna Melnick", "Channa Cook-Harvey", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -6878,8 +6878,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2017-02-27
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -6902,8 +6902,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2017-02-08
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -6926,9 +6926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-02-08
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -6950,9 +6950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-11-30
+date_source: listing
+authors: ["Anne Podolsky", "Leib Sutcher"]
 doi: null
 license: null
 tags: [lpi]
@@ -6974,9 +6974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-09-15
+date_source: listing
+authors: ["Leib Sutcher", "Linda Darling-Hammond", "Desiree Carver-Thomas"]
 doi: null
 license: null
 tags: [career-readiness, english-learners, inclusive-design, lpi, math-education]
@@ -6998,9 +6998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-09-15
+date_source: listing
+authors: ["Anne Podolsky", "Tara Kini", "Joseph Bishop", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi]
@@ -7022,9 +7022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-09-15
+date_source: listing
+authors: ["Richard M. Ingersoll", "Henry May"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -7046,9 +7046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-06-29
+date_source: listing
+authors: ["Marjorie Wechsler", "David L. Kirp", "Titilayo Tinubu Ali", "Madelyn Gardner", "Anna Maier", "Hanna Melnick", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [lpi]
@@ -7070,9 +7070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-06-03
+date_source: listing
+authors: ["Tara Kini", "Anne Podolsky"]
 doi: null
 license: null
 tags: [lpi]
@@ -7094,9 +7094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-04-26
+date_source: listing
+authors: ["Anne Podolsky", "Tara Kini"]
 doi: null
 license: null
 tags: [lpi]
@@ -7118,9 +7118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-03-31
+date_source: listing
+authors: ["Livia Lam", "Charmaine Mercer", "Anne Podolsky", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [lpi, response-to-intervention]
@@ -7142,9 +7142,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-02-29
+date_source: listing
+authors: ["Marjorie Wechsler", "Hanna Melnick", "Anna Maier", "Joseph Bishop"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -7166,9 +7166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-01-19
+date_source: listing
+authors: ["Linda Darling-Hammond", "Roberta C. Furger", "Patrick M. Shields", "Leib Sutcher"]
 doi: null
 license: null
 tags: [lpi]
@@ -7190,9 +7190,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-01-19
+date_source: listing
+authors: ["Roneeta Guha", "Tara Kini"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -7214,8 +7214,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2016-01-19
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7238,8 +7238,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2016-01-18
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7262,8 +7262,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2026-05-21
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7286,8 +7286,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2026-05-18
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7310,8 +7310,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2026-03-17
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7334,8 +7334,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-11-20
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7358,8 +7358,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-09-16
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7382,8 +7382,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-07-16
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7406,8 +7406,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-07-15
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7430,8 +7430,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-07-09
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7454,8 +7454,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-07-09
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7478,8 +7478,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-06-24
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7502,8 +7502,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-04-08
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7526,8 +7526,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-04-04
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7550,8 +7550,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-02-12
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7574,8 +7574,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-02-04
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7598,8 +7598,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-01-27
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7622,8 +7622,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2025-01-15
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7646,8 +7646,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2024-12-13
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7670,8 +7670,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2024-12-04
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7694,8 +7694,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2024-11-07
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7718,8 +7718,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2024-09-18
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7742,8 +7742,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2024-08-28
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7766,8 +7766,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2024-08-13
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7790,8 +7790,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2023-10-18
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7814,9 +7814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2023-04-27
+date_source: listing
+authors: ["Susan Kemper Patrick", "Linda Darling-Hammond", "Tara Kini"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -7838,8 +7838,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2021-07-07
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7862,8 +7862,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2021-07-07
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7886,8 +7886,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2021-07-07
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7910,8 +7910,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2021-06-16
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -7934,9 +7934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2019-10-15
+date_source: listing
+authors: ["Beth Meloy", "Abby Schachner"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -7958,9 +7958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2018-01-11
+date_source: listing
+authors: ["Linda Darling-Hammond", "Maria E. Hyler", "Robert Sheffield", "Madelyn Gardner"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -7982,9 +7982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-06-05
+date_source: listing
+authors: ["Linda Darling-Hammond", "Maria E. Hyler", "Madelyn Gardner"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -8006,9 +8006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-02-27
+date_source: listing
+authors: ["Leib Sutcher", "Anne Podolsky", "Daniel Espinoza"]
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -8030,9 +8030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2017-02-08
+date_source: listing
+authors: ["Desiree Carver-Thomas", "Linda Darling-Hammond"]
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -8054,8 +8054,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2017-01-26
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -8078,8 +8078,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2016-11-30
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -8102,8 +8102,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
+published_date: 2016-10-26
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -8126,9 +8126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
-published_date: null
-date_source: null
-authors: null
+published_date: 2016-06-29
+date_source: listing
+authors: ["Marjorie Wechsler", "David L. Kirp", "Titilayo Tinubu Ali", "Madelyn Gardner", "Anna Maier", "Hanna Melnick", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -8150,9 +8150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-06-10
+date_source: listing
+authors: ["Heather Price", "Julie Fitz"]
 doi: null
 license: null
 tags: [k-12, lpi, math-education, student-belonging]
@@ -8174,9 +8174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-07
+date_source: listing
+authors: ["Mary Helen Immordino-Yang", "Linda Darling-Hammond", "Douglas Knecht"]
 doi: null
 license: null
 tags: [k-12, lpi]
@@ -8198,9 +8198,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-07
+date_source: listing
+authors: ["Dion Burns", "Heather Price"]
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -8222,9 +8222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-07
+date_source: listing
+authors: ["Nicole Arshan", "Linda Darling-Hammond", "Wesley Wei"]
 doi: null
 license: null
 tags: [lpi, sel]
@@ -8246,9 +8246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-07
+date_source: listing
+authors: ["Jonathan Kaplan", "Efrain Mercado Jr."]
 doi: null
 license: null
 tags: [k-12, lpi]
@@ -8270,9 +8270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-05-07
+date_source: listing
+authors: ["Laura E. Hernández", "Walker Swain", "Anna Maier"]
 doi: null
 license: null
 tags: [attendance, english-learners, lpi, school-discipline]
@@ -8294,9 +8294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-06-30
+date_source: listing
+authors: ["Melanie Leung-Gagné", "Lucy Sorensen", "Tara Kini", "Susan Kemper Patrick", "Desiree Carver-Thomas", "Tiffany S. Tan", "Linda Darling-Hammond", "Thomas M. Smith", "Yiwang Li"]
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -8318,9 +8318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-06-22
+date_source: listing
+authors: ["Susan Kemper Patrick", "Tiffany S. Tan", "Julie Fitz", "Cathy Yun"]
 doi: null
 license: null
 tags: [career-readiness, formative-assessment, lpi]
@@ -8342,8 +8342,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
+published_date: 2026-07-13
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -8366,8 +8366,8 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
-published_date: null
-date_source: null
+published_date: 2026-06-22
+date_source: listing
 authors: null
 doi: null
 license: null
@@ -8390,9 +8390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-14
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-09-09
+date_source: listing
+authors: ["Susan Kemper Patrick", "Tiffany S. Tan", "Julie Fitz", "Cathy Yun"]
 doi: null
 license: null
 tags: [career-readiness, formative-assessment, lpi, professional-development]
@@ -8414,9 +8414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-14
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-09-08
+date_source: listing
+authors: ["Dion Burns", "Jennifer A. Bland", "Jonathan Kaplan", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [dropout-prevention, k-12, lpi]
@@ -8438,9 +8438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-14
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-09-08
+date_source: listing
+authors: ["Dion Burns", "Jennifer A. Bland", "Jonathan Kaplan", "Patrick M. Shields"]
 doi: null
 license: null
 tags: [dropout-prevention, k-12, lpi]

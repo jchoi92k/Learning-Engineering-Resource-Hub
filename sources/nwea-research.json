@@ -36,33 +36,72 @@
     }
   },
   "lookups": [
-    {"field": "type", "url": "https://www.nwea.org/wp-json/wp/v2/research_type?per_page=100"},
-    {"field": "tags", "url": "https://www.nwea.org/wp-json/wp/v2/research_theme?per_page=100"},
-    {"field": "products", "url": "https://www.nwea.org/wp-json/wp/v2/research_product?per_page=100"},
-    {"field": "centers", "url": "https://www.nwea.org/wp-json/wp/v2/research_center?per_page=100"},
-    {"field": "authors", "url": "https://www.nwea.org/wp-json/wp/v2/bio_link?per_page=100"}
+    {
+      "field": "type",
+      "url": "https://www.nwea.org/wp-json/wp/v2/research_type?per_page=100"
+    },
+    {
+      "field": "tags",
+      "url": "https://www.nwea.org/wp-json/wp/v2/research_theme?per_page=100"
+    },
+    {
+      "field": "products",
+      "url": "https://www.nwea.org/wp-json/wp/v2/research_product?per_page=100"
+    },
+    {
+      "field": "centers",
+      "url": "https://www.nwea.org/wp-json/wp/v2/research_center?per_page=100"
+    },
+    {
+      "field": "authors",
+      "url": "https://www.nwea.org/wp-json/wp/v2/bio_link?per_page=100"
+    }
   ],
   "type_allow": [
-    "Journal article", "Research brief", "Research report", "Technical brief", "Working paper",
-    "Presentation", "White paper", "Technical report", "Data visualization",
-    "Guide", "Presentation paper", "Book", "Policy brief", "Instructional resource"
+    "Journal article",
+    "Research brief",
+    "Research report",
+    "Technical brief",
+    "Working paper",
+    "Presentation",
+    "White paper",
+    "Technical report",
+    "Data visualization",
+    "Guide",
+    "Presentation paper",
+    "Book",
+    "Policy brief",
+    "Instructional resource"
   ],
   "detail_fetch": {
     "selector": "div.description_wrap, h4.description + p",
     "description_source": "page-abstract",
     "text_selector": "div.txtcol",
     "extra_fields": {
-      "authors_page": {"selector": ".author"},
-      "date_page": {"selector": "[class*='date']"},
-      "type_page": {"selector": ".publication-type"}
+      "authors_page": {
+        "selector": ".author"
+      },
+      "date_page": {
+        "selector": "[class*='date']"
+      },
+      "type_page": {
+        "selector": ".publication-type"
+      }
     }
   },
   "robots_txt": "https://www.nwea.org/robots.txt",
-  "robots_disallow": ["/wp/wp-admin/"],
+  "robots_disallow": [
+    "/wp/wp-admin/"
+  ],
   "test": {
     "url": "https://www.nwea.org/wp-json/wp/v2/publications?per_page=5&orderby=date&order=desc",
     "expected_min_results": 50,
     "_note": "The api test path runs scrape_api with the config's own params (per_page=100), so use a minimum count."
   },
-  "early_stop": true
+  "early_stop": true,
+  "metadata_map": {
+    "date": "date_page",
+    "authors": "authors_page"
+  },
+  "_metadata_map_comment": "2026-09-16: the API post date disagrees with the page's displayed month on 170/221 rows and bio_link is never returned, so published_date and authors come from the detail fetch's date_page / authors_page (page-meta)."
 }

@@ -52,12 +52,23 @@ MIN_DESCRIPTION_CHARS = 30
 DESCRIPTION_SOURCES = {"listing", "page-meta", "page-abstract", "llm-summary", "manual"}
 # Provenance of a structured field (published_date, authors): where the value
 # was read from. `n/a` is a build-time marker, not a hub.db value.
-METADATA_SOURCES = {"listing", "page-meta", "prose", "llm", "manual"}
+METADATA_SOURCES = {"listing", "page-meta", "prose", "url", "llm", "manual"}
 DATE_NOT_AVAILABLE = "n/a"
 # Sources that publish no real publication date (their API date is the CMS post
 # date, checked 2026-09-15): published_date is null with date_source "n/a", so
 # a reader can tell "the source has no date" from "not backfilled yet".
 NO_PUBLISHED_DATE_SOURCES = {"Evidence for ESSA", "Campbell Collaboration"}
+# Entry types that are not publications (a survey programme, a benchmark, a code
+# repository, a platform): a publication date does not apply, so they are marked
+# "n/a" the same way (2026-09-16). A dated row keeps its date.
+NO_PUBLISHED_DATE_TYPES = {"dataset", "platform", "code", "tool", "project-website"}
+
+
+def date_not_available(e):
+    """True when an undated entry should read as 'the source states no date'
+    rather than 'not backfilled yet'."""
+    return not e.get("published_date") and (e.get("source") in NO_PUBLISHED_DATE_SOURCES
+                                            or e.get("type") in NO_PUBLISHED_DATE_TYPES)
 # ISO date at the granularity the source gave: YYYY, YYYY-MM or YYYY-MM-DD
 PUBLISHED_DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 # Entry types (docs/schema.md, "type" table); curriculum is reserved, no entry uses it yet
@@ -150,7 +161,7 @@ def load_entries():
             e["domain"] = "research"
         e["desc"] = e.pop("description", "")
         e["authors"] = _authors_list(e.get("authors"))
-        if not e.get("published_date") and e["source"] in NO_PUBLISHED_DATE_SOURCES:
+        if date_not_available(e):
             e["published_date"] = None
             e["date_source"] = DATE_NOT_AVAILABLE
         entries.append(e)

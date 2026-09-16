@@ -1,0 +1,33 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in aims-collaboratory.md. The AIMS site itself blocks AI crawlers and is not scraped (decision 2026-06-15); its indexed entries live on third-party hosts. This config exists only for `--from-db` metadata passes over those hosts: no discovery, one page per row, date / authors / PDF taken from the pages' standard citation meta tags (process_staged page-meta fallback). host_allow keeps the pass to repositories and organisations whose pages we have read; commercial publishers (Springer, ACM, Sage, Emerald, MDPI, NBER) and code/platform hosts are left out.",
+  "request_delay": 12,
+  "discovery": "db",
+  "from_db": {
+    "source_names": [
+      "AIMS Collaboratory"
+    ],
+    "host_allow": [
+      "repository.lsu.edu",
+      "e4.northwestern.edu",
+      "educationaldatamining.org",
+      "rpplpartnership.org",
+      "norc.org",
+      "menloedu.org",
+      "edinstruments.org",
+      "lastinger.ufl.edu",
+      "aclanthology.org",
+      "socialinnovationsjournal.com"
+    ]
+  },
+  "detail_fetch": {
+    "extra_fields": {}
+  },
+  "robots_txt": "https://repository.lsu.edu/robots.txt",
+  "date_from_url": [
+    {
+      "_comment": "e4.northwestern.edu posts carry the date only in the WordPress permalink path; stamped date_source 'url' (2026-09-16).",
+      "host": "e4.northwestern.edu",
+      "regex": "/(\\d{4})/(\\d{2})/(\\d{2})/"
+    }
+  ]
+}

@@ -1,18 +1,36 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in tntp.md.",
-
   "discovery": "sitemap",
   "discovery_url": "https://tntp.org/publication-sitemap.xml",
   "sitemap": {
     "url_pattern": "/publication/"
   },
-
   "robots_txt": "https://tntp.org/robots.txt",
-  "robots_disallow": ["/wp-admin/", "/wp-login.php"],
-
+  "robots_disallow": [
+    "/wp-admin/",
+    "/wp-login.php"
+  ],
   "test": {
     "url": "https://tntp.org/publication-sitemap.xml",
     "expected_url_contains": "/publication/",
     "expected_min_urls": 30
+  },
+  "request_delay": 12,
+  "from_db": {
+    "source_names": [
+      "TNTP"
+    ]
+  },
+  "detail_fetch": {
+    "_comment": "2026-09-16 metadata backfill (run with --from-db): the publication date is the header <time>, the report PDF is the first uploads link; no description selector, the blurb is left alone.",
+    "extra_fields": {
+      "date": {
+        "selector": "time.single-publication-date"
+      },
+      "document_url": {
+        "selector": "a[href*='/wp-content/uploads/'][href$='.pdf']",
+        "attr": "href"
+      }
+    }
   }
 }

@@ -61,3 +61,8 @@ Thumbs.db
 
 # Local embedding cache (embed_corpus.py incremental state)
 data/embed-cache.json
+
+# Raw-response sidecar — every 200 response a scrape run receives, gzipped per
+# source (scrape.py _store_raw). Local only: too large for hub.db / GitHub,
+# re-derivable by a crawl. A later field is backfilled from here without requests.
+data/raw/

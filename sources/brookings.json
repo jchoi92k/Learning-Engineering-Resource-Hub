@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in brookings.md. Rewritten 2026-08-30: the Algolia 'content' field is the article body truncated mid-sentence, so it is no longer used as the description — every kept item's page is fetched for its meta description (page-meta) and readable text; the truncated body is kept as page_text until then. Two date windows work around Algolia's 1,000-result cap (1,252 Brown Center articles: 727 before 2019, 525 after; re-check the split if either side nears 1,000). type_allow keeps Research; Commentary items become excluded type_filtered rows with the Algolia metadata and no page fetch (user decision 2026-08-30). No early_stop: Algolia's default ranking is not date-ordered.",
-  "request_delay": 5,
+  "request_delay": 12,
   "discovery": "api",
   "discovery_url": "https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query",
   "description_source": "page-meta",
@@ -27,8 +27,16 @@
       ]
     },
     "windows": [
-      {"numericFilters": ["post_date < 1546300800"]},
-      {"numericFilters": ["post_date >= 1546300800"]}
+      {
+        "numericFilters": [
+          "post_date < 1546300800"
+        ]
+      },
+      {
+        "numericFilters": [
+          "post_date >= 1546300800"
+        ]
+      }
     ],
     "pagination": {
       "param": "page",
@@ -50,11 +58,22 @@
       "page_text": "content"
     }
   },
-  "type_allow": ["Research"],
+  "type_allow": [
+    "Research"
+  ],
   "detail_fetch": {
     "selector": "meta[name='description']",
     "attr": "content",
-    "description_source": "page-meta"
+    "description_source": "page-meta",
+    "extra_fields": {
+      "date": {
+        "jsonld": "datePublished"
+      },
+      "authors": {
+        "selector": "p.byline"
+      }
+    },
+    "_comment": "2026-09-16: date from the page's schema.org datePublished, authors from p.byline (comma list); used by --from-db for the 23 published rows."
   },
   "robots_txt": "https://www.brookings.edu/robots.txt",
   "robots_disallow": [
@@ -65,5 +84,11 @@
   "test": {
     "url": "https://XGC391W2WE-dsn.algolia.net/1/indexes/prod_searchable_posts/query",
     "expected_min_results": 100
+  },
+  "from_db": {
+    "source_names": [
+      "Brookings Institution",
+      "Brookings Institution (Brown Center on Education Policy)"
+    ]
   }
 }

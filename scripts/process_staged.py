@@ -24,8 +24,9 @@ import json
 import re
 import sqlite3
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from scrape import url_key  # same dedup key as hub.db's unique index
 
@@ -71,6 +72,7 @@ SOURCE_NAME_MAP = {
     "nwea-research": "NWEA Research",
     "brookings": "Brookings Institution",
     "tntp": "TNTP",
+    "aims-collaboratory": "AIMS Collaboratory",
     "uchicago-consortium": "UChicago Consortium on School Research",
     "campbell-collaboration": "Campbell Collaboration",
     "evidence-for-essa": "Evidence for ESSA",
@@ -190,6 +192,8 @@ EXTRA_COLUMNS = {
     "authors_source": "TEXT",
     "grade_level": "TEXT",          # plain string when the source states one
     "grade_level_source": "TEXT",
+    "document_url": "TEXT",         # direct link to the report file (PDF) when the source offers one
+    "document_url_source": "TEXT",
 }
 
 
@@ -231,6 +235,9 @@ _MONTHS = {
 }
 
 
+EPOCH_TZ = ZoneInfo("America/New_York")  # calendar day for epoch-ms dates
+
+
 def _norm_date(val):
     """Normalise a publisher date to ISO, keeping only the granularity given:
     'YYYY', 'YYYY-MM', or 'YYYY-MM-DD'. Returns None when unparseable — a date
@@ -238,7 +245,13 @@ def _norm_date(val):
     if not val:
         return None
     s = str(val).strip()
-    m = re.match(r"^(\d{4})-(\d{2})(?:-(\d{2}))?", s)
+    if re.match(r"^\d{12,13}$", s):
+        # Epoch milliseconds (Mathematica's Coveo index). The publisher enters
+        # the date in US Eastern time and the index stores it as UTC, so an
+        # evening entry reads as the next UTC day; take the Eastern calendar
+        # day, which is what the item page displays (checked 2026-09-15).
+        return datetime.fromtimestamp(int(s) / 1000, EPOCH_TZ).strftime("%Y-%m-%d")
+    m = re.match(r"^(\d{4})[-/](\d{2})(?:[-/](\d{2}))?", s)   # ISO, or OJS's 2025/04/23
     if m:
         return _iso(m.group(1), m.group(2), m.group(3))
     m = re.match(r"^([A-Za-z]+)\.?\s+(?:(\d{1,2}),?\s+)?(\d{4})$", s)
@@ -247,6 +260,11 @@ def _norm_date(val):
     m = re.match(r"^(\d{4})$", s)
     if m:
         return m.group(1)
+    m = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})$", s)
+    if m:
+        # US-style MM/DD/YYYY (CREDO's listing, 2026-09-16); every source that
+        # emits this shape is US-based. A day > 12 in the first slot is not a date.
+        return _iso(m.group(3), m.group(1), m.group(2))
     return None
 
 
@@ -258,14 +276,119 @@ def _iso(year, month, day=None):
     return f"{year}-{month:02d}-{day:02d}" if day else f"{year}-{month:02d}"
 
 
+_BYLINE_PREFIX = re.compile(r"^\s*(?:by|authors?)\s*:?\s+", re.I)
+MAX_AUTHOR_CHARS = 80   # longer than any name: a paragraph the selector caught
+
+
+def _split_byline(text):
+    """'By: A, B, and C' -> ['A', 'B', 'C']. A string without a By/Authors
+    prefix is one name; anything longer than a name is rejected (NWEA's
+    .author selector once matched an abstract paragraph, 2026-09-16)."""
+    text = text.strip()
+    if _BYLINE_PREFIX.match(text):
+        text = _BYLINE_PREFIX.sub("", text)
+        parts = re.split(r"\s*,\s*|\s+and\s+|\s*;\s*|\s*&\s*", text)
+    elif "," in text and all(_looks_like_name(p) for p in re.split(r"\s*,\s*|\s+and\s+", text) if p.strip()):
+        # "Katharine Meyer, Isabel McMullen" (Brookings byline, no prefix):
+        # every comma-separated piece is shaped like a full name, so it is a
+        # list. "Doe, Jane" has a one-word piece and stays one name; a
+        # sentence with commas fails the shape test and stays one (rejected
+        # below for length).
+        parts = re.split(r"\s*,\s*|\s+and\s+", text)
+    else:
+        parts = [text]
+    names = [p.strip().rstrip(".").strip() for p in parts]
+    return [n for n in names if n and len(n) <= MAX_AUTHOR_CHARS and not _CREDENTIAL.match(n)]
+
+
+_NAME_PARTICLES = {"de", "da", "del", "della", "di", "du", "la", "le", "van", "von", "der", "den", "y", "e", "bin", "al"}
+
+
+def _looks_like_name(piece):
+    """2-4 words, each capitalised (or a particle like 'van'), no sentence
+    punctuation: 'Isabel McMullen', 'Scott J. Peters', 'Maria del Rosario'."""
+    words = piece.strip().split()
+    if not 2 <= len(words) <= 4:
+        return False
+    return all(w[:1].isupper() or w.lower() in _NAME_PARTICLES for w in words) and not re.search(r"[()=:;]", piece)
+
+
+# A comma-split token that is a credential, not a person ("Naomi Duran, PhD")
+_CREDENTIAL = re.compile(r"^(?:ph\.?\s?d|ed\.?\s?d|m\.?\s?[aes]d?|m\.?p\.?[ah]|m\.?s\.?w|psy\.?d|j\.?d|dr|jr|sr|iii?|iv)\.?$", re.I)
+
+
 def _authors_json(val):
     """Normalise an author value (list or string) to a JSON list of names."""
     if not val:
         return None
     if isinstance(val, str):
         val = [val]
-    names = [str(a).strip() for a in val if str(a).strip()]
+    names = [n for a in val for n in _split_byline(str(a))]
     return json.dumps(names, ensure_ascii=False) if names else None
+
+
+def apply_metadata_map(items, config):
+    """A config's "metadata_map" {field: raw key} copies a value the scrape
+    stored under another key (NWEA's detail fetch kept the page byline as
+    authors_page and the page date as date_page while the API's own fields
+    were empty or wrong, 2026-09-16) onto the field the registry reads.
+    The mapped key is authoritative: it replaces whatever the field held (the
+    NWEA API's post date is exactly the value to override). A key that the
+    config's detail_fetch extra_fields supplied is recorded in detail_fields
+    so it labels page-meta."""
+    mapping = (config or {}).get("metadata_map") or {}
+    page_keys = set(((config or {}).get("detail_fetch") or {}).get("extra_fields") or {})
+    for item in items:
+        for field, key in mapping.items():
+            if not item.get(key):
+                continue
+            item[field] = item[key]
+            if key in page_keys:
+                item.setdefault("detail_fields", [])
+                if field not in item["detail_fields"]:
+                    item["detail_fields"].append(field)
+    return items
+
+
+PAGE_META_DATE_KEYS = ("citation_publication_date", "citation_date", "bepress_citation_date",
+                       "dc.date.issued", "dc.date", "citation_online_date", "bepress_citation_online_date",
+                       "article:published_time", "jsonld:datePublished")
+PAGE_META_AUTHOR_KEYS = ("citation_author", "bepress_citation_author", "dc.creator")
+PAGE_META_PDF_KEYS = ("citation_pdf_url", "bepress_citation_pdf_url")
+
+
+def apply_page_meta_fallback(items):
+    """Fill date / authors / document_url from the page's standard metadata
+    tags (scrape.py's page_meta: citation_*, bepress_*, DC.*, article:*,
+    schema.org datePublished) when no selector supplied them (2026-09-16:
+    AIMS entries spread over 20 repository and journal hosts). Page-supplied,
+    so the field is recorded in detail_fields and labels page-meta."""
+    for item in items:
+        meta = item.get("page_meta") or {}
+        if not meta:
+            continue
+        for field, keys in (("date", PAGE_META_DATE_KEYS), ("authors", PAGE_META_AUTHOR_KEYS),
+                            ("document_url", PAGE_META_PDF_KEYS)):
+            if item.get(field):
+                continue
+            val = next((meta[k] for k in keys if meta.get(k)), None)
+            if not val:
+                continue
+            item[field] = val
+            item.setdefault("detail_fields", [])
+            if field not in item["detail_fields"]:
+                item["detail_fields"].append(field)
+    return items
+
+
+def load_source_config(slug):
+    """The source's sources/<slug>.json, or {} when there is none (hand-curated
+    sources have no config)."""
+    path = REPO_ROOT / "sources" / f"{slug}.json"
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
 
 
 def _grade_level(val):
@@ -284,9 +407,48 @@ METADATA_FIELDS = {
     "authors": ("authors_source", ("authors",), lambda it: _authors_json(it.get("authors"))),
     "grade_level": ("grade_level_source", ("grade", "grade_level"),
                     lambda it: _grade_level(it.get("grade") or it.get("grade_level"))),
+    "document_url": ("document_url_source", ("document_url", "pdf_url"),
+                     lambda it: _document_url(it.get("document_url") or it.get("pdf_url"))),
 }
 
-METADATA_SOURCES = ("listing", "page-meta", "prose", "llm", "manual")
+
+def _document_url(val):
+    """An absolute http(s) link to the report file, or None (2026-09-16)."""
+    if not val:
+        return None
+    if isinstance(val, list):
+        val = val[0] if val else None
+    s = str(val or "").strip()
+    return s if s.lower().startswith(("http://", "https://")) else None
+
+METADATA_SOURCES = ("listing", "page-meta", "prose", "url", "llm", "manual")
+
+
+def apply_url_date_inference(items, config):
+    """A config's "date_from_url" rules infer a date from the URL itself when
+    nothing else supplied one (2026-09-16, user: inference is fine if flagged):
+    [{"host": "e4.northwestern.edu", "regex": "/(\\d{4})/(\\d{2})/(\\d{2})/"},
+     {"regex": "-(20\\d{2})(?:-\\d)?/?$"}]. The regex groups are year[, month[,
+    day]]; the value is stamped date_source "url" via item["field_sources"]."""
+    rules = (config or {}).get("date_from_url") or []
+    for item in items:
+        if item.get("date") or not item.get("url"):
+            continue
+        for rule in rules:
+            if rule.get("host") and _host_of(item["url"]) != rule["host"].lower():
+                continue
+            m = re.search(rule["regex"], item["url"])
+            if not m:
+                continue
+            item["date"] = "-".join(g for g in m.groups() if g)
+            item.setdefault("field_sources", {})["date"] = "url"
+            break
+    return items
+
+
+def _host_of(url):
+    m = re.match(r"^https?://(?:www\.)?([^/]+)", url or "")
+    return m.group(1).lower() if m else ""
 
 
 def _meta_source_label(item, raw_keys=()):
@@ -295,6 +457,10 @@ def _meta_source_label(item, raw_keys=()):
     filled in item['detail_fields']), otherwise 'listing' — the listing page or
     API. Independent of blurb_source, which describes the description only.
     The LLM fallback path stamps 'llm' explicitly on the fields it fills."""
+    explicit = (item.get("field_sources") or {})
+    for k in raw_keys:
+        if explicit.get(k) in METADATA_SOURCES:
+            return explicit[k]          # an inference stamped its own label ("url", "prose")
     detail_fields = item.get("detail_fields") or ()
     return "page-meta" if any(k in detail_fields for k in raw_keys) else "listing"
 
@@ -303,12 +469,15 @@ def backfill_metadata(conn, items, overwrite=False):
     """Fill METADATA_FIELDS (+ source_subjects) on EXISTING rows matched by URL.
     Never inserts, never touches description / tags / excluded, and does not
     bump updated_at. By default only empty fields are filled; overwrite=True
-    replaces them. Returns (counts_by_field, matched, unmatched)."""
+    replaces them. The staged item itself is kept as raw_item under the same
+    rule, so a field mapped later can be derived locally instead of by another
+    fetch (2026-09-15). Returns (counts_by_field, matched, unmatched)."""
     ensure_columns(conn)
     rows = {url_key(u): num for num, u in conn.execute("SELECT num, url FROM entries")}
     fields = list(METADATA_FIELDS)
     counts = {f: 0 for f in fields}
     counts["source_subjects"] = 0
+    counts["raw_item"] = 0
     matched = unmatched = 0
     for item in items:
         url = (item.get("url") or "").strip()
@@ -318,9 +487,9 @@ def backfill_metadata(conn, items, overwrite=False):
             continue
         matched += 1
         row = conn.execute(
-            f"SELECT {', '.join(fields)}, source_subjects FROM entries WHERE num=?", (num,)
+            f"SELECT {', '.join(fields)}, source_subjects, raw_item FROM entries WHERE num=?", (num,)
         ).fetchone()
-        current = dict(zip(fields + ["source_subjects"], row))
+        current = dict(zip(fields + ["source_subjects", "raw_item"], row))
         sets, vals = [], []
         for field, (src_col, raw_keys, extract) in METADATA_FIELDS.items():
             value = extract(item)
@@ -334,10 +503,36 @@ def backfill_metadata(conn, items, overwrite=False):
             sets.append("source_subjects=?")
             vals.append(subjects)
             counts["source_subjects"] += 1
+        if (overwrite or not current["raw_item"]) and not item.get("_stub"):
+            sets.append("raw_item=?")
+            vals.append(_raw_json(item))
+            counts["raw_item"] += 1
         if sets:
             vals.append(num)
             conn.execute(f"UPDATE entries SET {', '.join(sets)} WHERE num=?", vals)
     return counts, matched, unmatched
+
+
+def items_from_db(conn, source_name):
+    """The stored raw listing records of a source's rows, as staged-style items,
+    so a field mapped after the scrape can be backfilled without a request
+    (2026-09-15: EdTrust/UChicago/NWEA dates already sat in raw_item)."""
+    items = []
+    for url, raw in conn.execute(
+            "SELECT url, raw_item FROM entries WHERE source=? AND excluded=0", (source_name,)):
+        if not raw:
+            # No stored record: a URL-only stub, so URL-based inference can
+            # still run; never written back as raw_item.
+            items.append({"url": url, "_stub": True})
+            continue
+        try:
+            item = json.loads(raw)
+        except (TypeError, ValueError):
+            continue
+        if isinstance(item, dict):
+            item.setdefault("url", url)
+            items.append(item)
+    return items
 
 
 def _verified_fields(item):
@@ -490,7 +685,29 @@ def main():
                         help="Update EXISTING rows' date/authors/grade/subjects from the staged file (no inserts)")
     parser.add_argument("--overwrite", action="store_true",
                         help="With --backfill-metadata, replace existing values instead of filling only empties")
+    parser.add_argument("--from-db", action="store_true",
+                        help="With --backfill-metadata, take the items from the rows' stored raw_item "
+                             "instead of the staged file (no staging file, no requests)")
     args = parser.parse_args()
+
+    if args.from_db:
+        if not args.backfill_metadata:
+            parser.error("--from-db only makes sense with --backfill-metadata")
+        conn = get_db()
+        source_name = SOURCE_NAME_MAP.get(args.source, args.source)
+        source_config = load_source_config(args.source)
+        items = apply_url_date_inference(apply_page_meta_fallback(
+            apply_metadata_map(items_from_db(conn, source_name), source_config)), source_config)
+        print(f"[process] Source: {args.source} ({source_name}), {len(items)} stored raw items")
+        counts, matched, unmatched = backfill_metadata(conn, items, overwrite=args.overwrite)
+        conn.commit()
+        conn.close()
+        print(f"[process] Backfill metadata from db ({'overwrite' if args.overwrite else 'fill-empty'}): "
+              f"matched {matched} rows; {unmatched} raw items had no row")
+        for field, n in counts.items():
+            print(f"    {field}: {n} rows filled")
+        print("[process] Next: run `python scripts/build_from_db.py`")
+        return
 
     staged_path = STAGING_DIR / f"{args.source}.json"
     if not staged_path.exists():
@@ -510,10 +727,16 @@ def main():
     items = items[args.offset:]
     if args.limit:
         items = items[:args.limit]
+    source_config = load_source_config(args.source)
+    for lst in (items, backlog, filtered):
+        apply_url_date_inference(apply_page_meta_fallback(apply_metadata_map(lst, source_config)), source_config)
 
     print(f"[process] Source: {args.source}, {len(items)} items to process")
 
     if args.backfill_metadata:
+        # Backlog and filtered items match existing (excluded) rows too; their
+        # metadata is just as real, so a backfill covers all three lists.
+        items = items + backlog + filtered
         conn = get_db()
         counts, matched, unmatched = backfill_metadata(conn, items, overwrite=args.overwrite)
         conn.commit()

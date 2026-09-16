@@ -1,5 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in wested.md. Library listing is newest-first, so early_stop is declared. type_allow (2026-08-30 backfill call): research outputs plus guides, collections, perspectives and audiocasts; Training and Professional Development, Tool, Curriculum and Assessment Resource items are recorded as type_filtered rows, not indexed.",
+  "request_delay": 12,
   "discovery": "pagination",
   "discovery_url": "https://www.wested.org/resources/library/",
   "pagination": {
@@ -12,6 +13,24 @@
     "url": "h2 a[href]",
     "type": ".tax-term",
     "blurb": ".excerpt"
+  },
+  "detail_fetch": {
+    "_comment": "2026-09-15 metadata backfill: item pages carry the author list and a copyright year; the listing blurb stays the description (no selector). fetch_all makes every item fetch. document_url (2026-09-16): the 'Get This Resource' button's S3 file link.",
+    "fetch_all": true,
+    "extra_fields": {
+      "authors": {
+        "selector": ".resource-ctbs-exp-sections .ctb-item .ctb-name",
+        "multiple": true
+      },
+      "date": {
+        "selector": "p.res-copyright",
+        "regex": "Copyright:\\s*(\\d{4})"
+      },
+      "document_url": {
+        "selector": "a.wp-block-button__link[href*='/wp-content/uploads/']",
+        "attr": "href"
+      }
+    }
   },
   "robots_txt": "https://www.wested.org/robots.txt",
   "robots_disallow": [

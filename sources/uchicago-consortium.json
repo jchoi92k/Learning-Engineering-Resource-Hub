@@ -17,7 +17,15 @@
   "detail_fetch": {
     "selector": "meta[property='og:description']",
     "attr": "content",
-    "description_source": "page-abstract"
+    "description_source": "page-abstract",
+    "fetch_all": true,
+    "extra_fields": {
+      "authors": {
+        "selector": ".content-authors .authors-name",
+        "multiple": true
+      }
+    },
+    "_comment": "2026-09-16 metadata backfill: fetch_all + the page's author block (one .authors-name per author, page-meta). The item's own date comes from the listing column; the dates on the page are related resources."
   },
   "robots_txt": "https://consortium.uchicago.edu/robots.txt",
   "robots_disallow": [
@@ -30,5 +38,6 @@
     "expected_item_count": 10,
     "expected_first_title_contains": ""
   },
-  "early_stop": true
+  "early_stop": true,
+  "request_delay": 12
 }

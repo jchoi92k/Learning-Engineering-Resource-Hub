@@ -34,6 +34,18 @@ def test_validate_entries_checks_published_date_and_provenance():
     assert [e.split(":")[0] for e in errors] == ["#2", "#3"], errors
 
 
+def test_date_not_available_by_source_or_non_publication_type():
+    # 2026-09-16: datasets, platforms and code repositories have no publication
+    # date to find; they read "n/a" like ESSA/Campbell, while a dated dataset
+    # or an undated report is left alone.
+    from build_from_db import date_not_available
+    assert date_not_available({"source": "Evidence for ESSA", "type": "report", "published_date": None})
+    assert date_not_available({"source": "NCES", "type": "dataset", "published_date": None})
+    assert date_not_available({"source": "Riiid", "type": "code", "published_date": ""})
+    assert not date_not_available({"source": "NCES", "type": "dataset", "published_date": "2024"})
+    assert not date_not_available({"source": "TNTP", "type": "report", "published_date": None})
+
+
 def test_authors_list_parses_json_or_returns_none():
     from build_from_db import _authors_list
     assert _authors_list('["Doe, Jane", "Roe, R"]') == ["Doe, Jane", "Roe, R"]

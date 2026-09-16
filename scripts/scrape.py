@@ -22,6 +22,8 @@ order until a sort param was added (2026-08-28).
 Output goes to docs/staging/{source}.json (or stdout with --stdout).
 """
 import argparse
+import gzip
+import hashlib
 import html
 import json
 import re
@@ -115,6 +117,56 @@ def _start_request_log(source):
     _request_log_path = LOGS_DIR / f"{source}-requests.log"
     with open(_request_log_path, "a", encoding="utf-8") as f:
         f.write(f"# run {time.strftime('%Y-%m-%dT%H:%M:%S')} delay={_request_delay}s\n")
+
+
+# Raw-response sidecar (2026-09-16): every 200 response a run receives is kept
+# gzipped under data/raw/<source>/ (gitignored; hub.db has a 60 MiB ceiling),
+# keyed by the URL's dedup hash, with an index.tsv (hash, fetched_at, status,
+# content type, url). A field mapped later is then a local pass over the
+# stored pages or API records instead of a fresh crawl.
+RAW_DIR = REPO_ROOT / "data" / "raw"
+_raw_source = None
+
+
+def _start_raw_store(source):
+    global _raw_source
+    _raw_source = source
+    (RAW_DIR / source).mkdir(parents=True, exist_ok=True)
+
+
+def raw_key(url):
+    return hashlib.sha1(url_key(url).encode("utf-8")).hexdigest()[:20]
+
+
+def _store_raw(url, r):
+    """Write one 200 response to the sidecar. Never raises: a full disk must not
+    stop a crawl that is otherwise fine."""
+    if not _raw_source or r is None:
+        return None
+    try:
+        ctype = (r.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+        body = r.text or ""
+        ext = "json" if ("json" in ctype or body.lstrip()[:1] in "{[") else "html"
+        key = raw_key(r.url or url)
+        path = RAW_DIR / _raw_source / f"{key}.{ext}.gz"
+        with gzip.open(path, "wt", encoding="utf-8") as f:
+            f.write(body)
+        with open(RAW_DIR / _raw_source / "index.tsv", "a", encoding="utf-8") as f:
+            f.write(f"{key}\t{time.strftime('%Y-%m-%dT%H:%M:%S')}\t{r.status_code}\t{ctype}\t{r.url or url}\n")
+        return path
+    except Exception as e:   # noqa: BLE001 - sidecar failure is logged, not fatal
+        print(f"  raw store failed for {url}: {e}", file=sys.stderr)
+        return None
+
+
+def read_raw(source, url):
+    """The stored body for a URL fetched under `source`, or None."""
+    for ext in ("html", "json"):
+        path = RAW_DIR / source / f"{raw_key(url)}.{ext}.gz"
+        if path.exists():
+            with gzip.open(path, "rt", encoding="utf-8") as f:
+                return f.read()
+    return None
 
 
 def _record(url, status, method="get", sent=None, retry=False):
@@ -352,11 +404,13 @@ def fetch(url, **kwargs):
         _record(r.url or url, r.status_code, "get", sent=sent)   # r.url carries the query params
         if r.status_code == 200:
             _note_success(url)
+            _store_raw(url, r)
             return r
         if r.status_code in (429, 503):
             result = _handle_rate_limit(r.status_code, url, "get", kwargs)
             if result:
                 _note_success(url)
+                _store_raw(url, result)
                 return result
         _note_failure(url, r.status_code)
         print(f"  HTTP {r.status_code}: {url}", file=sys.stderr)
@@ -383,12 +437,14 @@ def fetch_post(url, headers=None, json_body=None):
         _record(url, r.status_code, "post", sent=sent)
         if r.status_code == 200:
             _note_success(url)
+            _store_raw(url, r)
             return r
         if r.status_code in (429, 503):
             result = _handle_rate_limit(r.status_code, url, "post",
                                         {"headers": headers, "json": json_body})
             if result:
                 _note_success(url)
+                _store_raw(url, result)
                 return result
         _note_failure(url, r.status_code)
         print(f"  HTTP {r.status_code}: {url}", file=sys.stderr)
@@ -424,6 +480,15 @@ def scrape_sitemap(config, max_pages=None):
     return items
 
 
+def apply_url_transform(url, url_transform):
+    """Apply a config's {"replace", "with"} URL rewrite, case-insensitively.
+    LPI emits its /index.php/ prefix as both %2E and %2e (seen 2026-09-15),
+    and either spelling must collapse to the same stored URL."""
+    if not url or not url_transform:
+        return url
+    return re.sub(re.escape(url_transform["replace"]), url_transform["with"], url, flags=re.IGNORECASE)
+
+
 def extract_cards(soup, config):
     """Extract items from HTML using CSS selectors. Shared by pagination and single_page."""
     sel = config["selectors"]
@@ -436,6 +501,24 @@ def extract_cards(soup, config):
         title_el = card.select_one(sel["title"])
         url_el = card.select_one(sel["url"])
         type_el = card.select_one(sel.get("type", "NONE"))
+
+        # Extra fields (grade_level, evidence_tier, authors, date) are read
+        # BEFORE the blurb step: the blurb_parent strategy decomposes every
+        # <span> in the container, which on LPI deleted the <time> inside
+        # span.teaser__details and left every date empty (found 2026-09-15).
+        extras = {}
+        for extra in ("grade_level", "evidence_tier", "authors", "date"):
+            if extra in sel:
+                el = card.select_one(sel[extra])
+                if el:
+                    if extra == "date" and el.has_attr("datetime"):
+                        extras[extra] = el["datetime"]
+                    else:
+                        extras[extra] = clean_text(el.get_text(" ", strip=True))
+        if "authors" in sel:
+            author_els = card.select(sel["authors"])
+            if author_els:
+                extras["authors"] = [clean_text(a.get_text(" ", strip=True)) for a in author_els]
 
         # Blurb extraction: three strategies
         blurb = ""
@@ -459,14 +542,18 @@ def extract_cards(soup, config):
         # get_text(" ") keeps a space between adjacent inline elements
         # (e.g. <em>ThinkerTools</em>is); clean_text collapses the doubles.
         title = title_el.get_text(" ", strip=True) if title_el else ""
-        # Strip trailing date in parens, e.g. "Good Behavior Game (October 2024)"
-        title = re.sub(r'\s*\([A-Z][a-z]+ \d{4}\)\s*$', '', title)
+        # Strip a trailing date in parens, e.g. "Good Behavior Game (October 2024)",
+        # and keep it as the item's date when no date selector supplied one
+        # (WWC's release month lives only here, 2026-09-16).
+        title_date = re.search(r'\s*\(([A-Z][a-z]+ \d{4})\)\s*$', title)
+        if title_date:
+            title = title[:title_date.start()]
+            extras.setdefault("date", title_date.group(1))
 
         item_url = url_el["href"] if url_el and url_el.has_attr("href") else ""
         if item_url and not item_url.startswith("http"):
             item_url = url_prefix + item_url
-        if item_url and url_transform:
-            item_url = item_url.replace(url_transform["replace"], url_transform["with"])
+        item_url = apply_url_transform(item_url, url_transform)
 
         item = {
             "title": clean_text(title),
@@ -475,24 +562,76 @@ def extract_cards(soup, config):
             "blurb": clean_text(blurb),
         }
 
-        # Extra fields (grade_level, evidence_tier, authors, date)
-        for extra in ("grade_level", "evidence_tier", "authors", "date"):
-            if extra in sel:
-                el = card.select_one(sel[extra])
-                if el:
-                    if extra == "date" and el.has_attr("datetime"):
-                        item[extra] = el["datetime"]
-                    else:
-                        item[extra] = clean_text(el.get_text(" ", strip=True))
-
-        # Authors as list (multiple elements)
-        if "authors" in sel:
-            author_els = card.select(sel["authors"])
-            if author_els:
-                item["authors"] = [clean_text(a.get_text(" ", strip=True)) for a in author_els]
-
+        item.update(extras)
         items.append(item)
 
+    return items
+
+
+OAI_NS = {"oai": "http://www.openarchives.org/OAI/2.0/",
+          "oai_dc": "http://www.openarchives.org/OAI/2.0/oai_dc/",
+          "dc": "http://purl.org/dc/elements/1.1/"}
+
+
+def parse_oai_records(xml_text, url_prefix=""):
+    """(items, resumption_token) from one OAI-PMH ListRecords response in
+    oai_dc. Each record becomes a staged item: article URL (the http
+    dc:identifier under url_prefix), title, description, dc:date, dc:creator
+    list, dc:subject list, DOI (the 10.x identifier) and document_url (the
+    first http dc:relation, OJS's galley link). Deleted records are skipped."""
+    root = ET.fromstring(xml_text)
+    items = []
+    for rec in root.iterfind(".//oai:record", OAI_NS):
+        header = rec.find("oai:header", OAI_NS)
+        if header is not None and header.get("status") == "deleted":
+            continue
+        dc = rec.find(".//oai_dc:dc", OAI_NS)
+        if dc is None:
+            continue
+        def vals(tag):
+            return [clean_text(el.text or "") for el in dc.findall(f"dc:{tag}", OAI_NS) if (el.text or "").strip()]
+        idents = vals("identifier")
+        url = next((i for i in idents if i.startswith("http") and (not url_prefix or i.startswith(url_prefix))), "")
+        if not url:
+            continue
+        doi = next((i for i in idents if re.match(r"^10\.\d{4,}/", i)), "")
+        relations = [r for r in vals("relation") if r.startswith("http")]
+        items.append({
+            "title": (vals("title") or [""])[0],
+            "url": url,
+            "type": "paper",
+            "blurb": (vals("description") or [""])[0],
+            "blurb_source": "listing",
+            "date": (vals("date") or [""])[0],
+            "authors": vals("creator"),
+            "tags": vals("subject"),
+            "doi": doi,
+            "document_url": relations[0] if relations else "",
+        })
+    token_el = root.find(".//oai:resumptionToken", OAI_NS)
+    token = (token_el.text or "").strip() if token_el is not None else ""
+    return items, token
+
+
+def scrape_oai(config, max_pages=None):
+    """OAI-PMH ListRecords discovery (OJS journals: JEDM, JLA), following
+    resumptionToken pages. One request per 100 records."""
+    base = config["discovery_url"]
+    url = base
+    items, page = [], 0
+    while url:
+        page += 1
+        print(f"  Fetching OAI page {page}: {url[:100]}")
+        r = fetch(url)
+        if not r:
+            break
+        got, token = parse_oai_records(r.text, config.get("url_prefix", ""))
+        print(f"  Parsed {len(got)} records")
+        items.extend(got)
+        if not token or (max_pages and page >= max_pages):
+            break
+        url = f"{base.split('?')[0]}?verb=ListRecords&resumptionToken={token}"
+    print(f"  OAI total: {len(items)} records over {page} page(s)")
     return items
 
 
@@ -784,8 +923,7 @@ def scrape_api(config, max_pages=None, existing_urls=None):
             url_template = config.get("url_template")
             if url_template:
                 url_str = url_template.replace("{url}", url_str)
-            if url_transform:
-                url_str = url_str.replace(url_transform["replace"], url_transform["with"])
+            url_str = apply_url_transform(url_str, url_transform)
 
             item_dict = {
                 "title": title,
@@ -835,6 +973,31 @@ def scrape_api(config, max_pages=None, existing_urls=None):
 
 
 DB_PATH = REPO_ROOT / "data" / "hub.db"
+
+
+def load_db_items(config):
+    """The source's active hub.db rows as staged-style items, for --from-db
+    (2026-09-16): a metadata pass over pages already indexed, with no
+    discovery. config["from_db"] = {"source_names": [...], "host_allow":
+    [...]} - source names as stored in entries.source; host_allow, when given,
+    keeps only URLs on those hosts (a source whose entries live on many
+    third-party hosts is fetched only where we know the host allows it)."""
+    import sqlite3
+    spec = config.get("from_db") or {}
+    names = spec.get("source_names") or []
+    if not names:
+        print("Error: --from-db needs config[\"from_db\"][\"source_names\"]", file=sys.stderr)
+        sys.exit(1)
+    hosts = {h.lower() for h in spec.get("host_allow") or []}
+    conn = sqlite3.connect(DB_PATH, timeout=30)
+    q = f"SELECT title, url, type, description FROM entries WHERE excluded=0 AND source IN ({','.join('?' * len(names))}) ORDER BY num"
+    items = []
+    for title, url, typ, desc in conn.execute(q, names):
+        if hosts and _host(url).lower().removeprefix("www.") not in hosts:
+            continue
+        items.append({"title": title or "", "url": url, "type": typ or "", "blurb": desc or "", "blurb_source": "manual"})
+    conn.close()
+    return items
 
 
 def load_existing_urls():
@@ -1024,13 +1187,22 @@ def fetch_detail_descriptions(items, config, source):
     if not detail:
         return items
 
-    selector = detail["selector"]
+    # "selector" is optional (2026-09-15): a metadata-only detail fetch (WestEd
+    # dates/authors) leaves the listing blurb alone.
+    selector = detail.get("selector")
     attr = detail.get("attr")
     label = detail.get("description_source") or (
-        "page-meta" if selector.lstrip().startswith("meta") else "page-abstract")
+        "page-meta" if (selector or "").lstrip().startswith("meta") else "page-abstract")
 
-    need_fetch = [(i, item) for i, item in enumerate(items)
-                  if len(item.get("blurb", "")) < MIN_BLURB_LENGTH]
+    # "fetch_all": true fetches every item, not only those with short blurbs -
+    # for sources whose date/authors exist only on the item page.
+    if detail.get("fetch_all"):
+        # A resumed run (progress file) skips pages already fetched; a page
+        # whose fetch failed has no fetched_status and is tried again.
+        need_fetch = [(i, item) for i, item in enumerate(items) if not item.get("fetched_status")]
+    else:
+        need_fetch = [(i, item) for i, item in enumerate(items)
+                      if len(item.get("blurb", "")) < MIN_BLURB_LENGTH]
 
     if not need_fetch:
         print("[scrape] detail_fetch: all items already have descriptions, skipping")
@@ -1059,29 +1231,81 @@ def fetch_detail_descriptions(items, config, source):
             if len(page_text) > len(item.get("page_text") or ""):
                 items[i]["page_text"] = page_text   # keep the richer text (an API may have supplied more)
             for field, spec in (detail.get("extra_fields") or {}).items():
-                fel = soup.select_one(spec["selector"])
-                if fel:
-                    val = clean_text(fel.get(spec.get("attr")) if spec.get("attr") else fel.get_text(" ", strip=True))
-                    if val:
-                        items[i][field] = val
-                        # Record which fields the item page (not the listing)
-                        # supplied, so their provenance can be labelled.
-                        items[i].setdefault("detail_fields", [])
-                        if field not in items[i]["detail_fields"]:
-                            items[i]["detail_fields"].append(field)
-            el = soup.select_one(selector)
+                val = extract_extra_field(soup, spec)
+                if val:
+                    items[i][field] = val
+                    # Record which fields the item page (not the listing)
+                    # supplied, so their provenance can be labelled.
+                    items[i].setdefault("detail_fields", [])
+                    if field not in items[i]["detail_fields"]:
+                        items[i]["detail_fields"].append(field)
+            el = soup.select_one(selector) if selector else None
             if el:
                 desc = clean_text(el.get(attr) if attr else el.get_text(" ", strip=True))
                 items[i]["blurb"] = desc
                 items[i]["blurb_source"] = label
                 print(f"    OK ({len(desc)} chars)")
-            else:
+            elif selector:
                 print(f"    No match for selector: {selector}")
         else:
             print("    Fetch failed")
         _save_progress(source, items)
 
     return items
+
+
+def jsonld_values(soup, keys):
+    """{key: first value} for the given keys across the page's schema.org
+    JSON-LD blocks (top level, @graph nodes, and one nesting level for
+    'author'). Strings only; an author object yields its 'name'."""
+    found = {}
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.get_text() or "")
+        except (TypeError, ValueError):
+            continue
+        nodes = data if isinstance(data, list) else [data]
+        nodes = [n for d in nodes if isinstance(d, dict) for n in (d.get("@graph") or [d])]
+        for node in nodes:
+            if not isinstance(node, dict):
+                continue
+            for key in keys:
+                if key in found or key not in node:
+                    continue
+                val = node[key]
+                if isinstance(val, dict):
+                    val = val.get("name")
+                elif isinstance(val, list):
+                    val = [v.get("name") if isinstance(v, dict) else v for v in val]
+                    val = [v for v in val if isinstance(v, str) and v.strip()]
+                if val:
+                    found[key] = val
+    return found
+
+
+def extract_extra_field(soup, spec):
+    """One detail_fetch extra_fields value from a fetched page.
+    spec: {"selector": css, "attr": attribute name (else text),
+           "multiple": true -> list of every match (authors),
+           "regex": pattern whose group 1 is the value ("Copyright: (\\d{4})"),
+           "jsonld": key -> that key from the page's schema.org JSON-LD instead}.
+    Returns a string, a list, or None when nothing usable matched."""
+    if spec.get("jsonld"):
+        val = jsonld_values(soup, (spec["jsonld"],)).get(spec["jsonld"])
+        return val or None
+
+    def one(el):
+        raw = el.get(spec.get("attr")) if spec.get("attr") else el.get_text(" ", strip=True)
+        val = clean_text(raw or "")
+        if val and spec.get("regex"):
+            m = re.search(spec["regex"], val)
+            val = clean_text(m.group(1)) if m else ""
+        return val or None
+    if spec.get("multiple"):
+        vals = [v for v in (one(el) for el in soup.select(spec["selector"])) if v]
+        return vals or None
+    el = soup.select_one(spec["selector"])
+    return one(el) if el else None
 
 
 PAGE_META_TAGS = {
@@ -1094,6 +1318,22 @@ PAGE_META_TAGS = {
     "citation_publication_date": "meta[name='citation_publication_date']",
     "citation_doi": "meta[name='citation_doi']",
     "dc.date": "meta[name='dc.date' i]",
+    # 2026-09-16: repository / journal pages (bepress, OJS, DSpace) state the
+    # publication date, authors and PDF in standard tags; kept so a metadata
+    # backfill can fall back on them (process_staged.apply_page_meta_fallback).
+    "citation_date": "meta[name='citation_date']",
+    "citation_online_date": "meta[name='citation_online_date']",
+    "bepress_citation_date": "meta[name='bepress_citation_date']",
+    "bepress_citation_online_date": "meta[name='bepress_citation_online_date']",
+    "dc.date.issued": "meta[name='DC.Date.issued' i]",
+    "citation_pdf_url": "meta[name='citation_pdf_url']",
+    "bepress_citation_pdf_url": "meta[name='bepress_citation_pdf_url']",
+}
+# Tags that repeat once per value (one meta element per author)
+PAGE_META_MULTI = {
+    "citation_author": "meta[name='citation_author']",
+    "bepress_citation_author": "meta[name='bepress_citation_author']",
+    "dc.creator": "meta[name='DC.Creator.PersonalName' i], meta[name='DC.Creator' i]",
 }
 
 
@@ -1124,9 +1364,16 @@ def extract_page_meta(soup):
         el = soup.select_one(sel)
         if el and el.get("content"):
             meta[key] = clean_text(el.get("content"))
+    for key, sel in PAGE_META_MULTI.items():
+        vals = [clean_text(el.get("content")) for el in soup.select(sel) if el.get("content")]
+        if vals:
+            meta[key] = vals
     canon = soup.select_one("link[rel='canonical']")
     if canon and canon.get("href"):
         meta["canonical"] = canon.get("href").strip()
+    ld = jsonld_values(soup, ("datePublished",))
+    if ld.get("datePublished"):
+        meta["jsonld:datePublished"] = ld["datePublished"]
     t = soup.find("title")
     if t and t.get_text(strip=True):
         meta["title"] = clean_text(t.get_text(" ", strip=True))
@@ -1279,6 +1526,10 @@ def main():
                         help="Print the request audit (repeated URLs, throttle gaps) for this source's request log and exit; no fetching")
     parser.add_argument("--stdout", action="store_true", help="Output to stdout instead of file")
     parser.add_argument("--fresh", action="store_true", help="Ignore progress file, start from scratch")
+    parser.add_argument("--from-db", action="store_true",
+                        help="Skip discovery: take the source's active hub.db rows as the items and run the "
+                             "config's detail_fetch over every one (metadata backfill of pages already indexed). "
+                             "Config: \"from_db\": {\"source_names\": [...], \"host_allow\": [...]}; type filters are skipped")
     args = parser.parse_args()
 
     source = resolve_source(args.source)
@@ -1302,6 +1553,7 @@ def main():
         sys.exit(0)
 
     _start_request_log(source)
+    _start_raw_store(source)
     check_robots(config)
 
     if args.test:
@@ -1312,6 +1564,13 @@ def main():
     items = None
     if not args.fresh:
         items = _load_progress(source)
+    if items is None and args.from_db:
+        items = load_db_items(config)
+        print(f"[scrape] --from-db: {len(items)} active hub.db rows for {config.get('from_db', {}).get('source_names')}")
+        if not config.get("detail_fetch"):
+            print("Error: --from-db needs a detail_fetch block in the config", file=sys.stderr)
+            sys.exit(1)
+        config = dict(config, detail_fetch=dict(config["detail_fetch"], fetch_all=True))
     if items is not None:
         already_done = sum(1 for i in items if len(i.get("blurb", "")) >= MIN_BLURB_LENGTH)
         print(f"[scrape] RESUMING from progress file: {len(items)} items, {already_done} with descriptions")
@@ -1331,6 +1590,8 @@ def main():
             items = scrape_single_page(config, args.pages)
         elif discovery == "api":
             items = scrape_api(config, args.pages, existing_urls=stop_urls)
+        elif discovery == "oai":
+            items = scrape_oai(config, args.pages)
         else:
             print(f"Error: unknown discovery type '{discovery}'", file=sys.stderr)
             sys.exit(1)
@@ -1378,20 +1639,24 @@ def main():
                 item["type"] = config["type_default"]
 
     # Type / field filters, pass 1: items whose listing type or field value is
-    # out of scope are set aside before any page is fetched for them.
-    items, filtered = apply_type_filter(items, config)
-    items, filtered_fields = apply_field_filter(items, config)
-    filtered.extend(filtered_fields)
+    # out of scope are set aside before any page is fetched for them. A
+    # --from-db run works on rows already accepted, so the filters are skipped.
+    filtered = []
+    if not args.from_db:
+        items, filtered = apply_type_filter(items, config)
+        items, filtered_fields = apply_field_filter(items, config)
+        filtered.extend(filtered_fields)
 
     # Detail fetch: fill in descriptions from individual pages if configured
     if config.get("detail_fetch"):
         items = fetch_detail_descriptions(items, config, source)
 
     # Pass 2: types or field values that only the page supplied (extra_fields)
-    items, filtered_late = apply_type_filter(items, config)
-    filtered.extend(filtered_late)
-    items, filtered_late = apply_field_filter(items, config)
-    filtered.extend(filtered_late)
+    if not args.from_db:
+        items, filtered_late = apply_type_filter(items, config)
+        filtered.extend(filtered_late)
+        items, filtered_late = apply_field_filter(items, config)
+        filtered.extend(filtered_late)
     if filtered:
         print(f"[scrape] Filters: {len(filtered)} items set aside (kept in staging as filtered_items)")
 

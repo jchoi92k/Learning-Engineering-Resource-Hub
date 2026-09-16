@@ -194,6 +194,69 @@ def test_detail_fetch_records_page_meta_extra_fields_and_status(monkeypatch):
     assert kept == [] and filtered[0]["filter_reason"] == "type_filtered:Podcast"
 
 
+def test_detail_fetch_metadata_only_with_list_and_regex_fields(monkeypatch):
+    # WestEd (2026-09-15): dates and authors exist only on the item page; the
+    # listing blurb is fine and must survive. fetch_all forces the fetch,
+    # "multiple" collects one author per element, "regex" pulls the year out of
+    # "Copyright: 2026", and no description selector means no blurb change.
+    import scrape
+
+    class Resp:
+        status_code = 200
+        text = ("<html><body><p class='byline'>By A. One and B. Two</p>"
+                "<div class='ctb-item'><p class='ctb-name'>A. One</p></div>"
+                "<div class='ctb-item'><p class='ctb-name'>B. Two</p></div>"
+                "<p class='res-copyright'>Copyright: 2026</p></body></html>")
+
+    monkeypatch.setattr(scrape, "fetch", lambda url, **kw: Resp())
+    monkeypatch.setattr(scrape, "_save_progress", lambda *a, **kw: None)
+    cfg = {"detail_fetch": {"fetch_all": True, "extra_fields": {
+        "authors": {"selector": ".ctb-item .ctb-name", "multiple": True},
+        "date": {"selector": "p.res-copyright", "regex": r"Copyright:\s*(\d{4})"}}}}
+    item = {"title": "T", "url": "https://x.org/t", "blurb": "A listing blurb long enough to keep.", "blurb_source": "listing"}
+    done = {"title": "D", "url": "https://x.org/d", "blurb": "Fetched earlier.", "fetched_status": 200, "authors": ["Kept"]}
+    out, kept = scrape.fetch_detail_descriptions([item, done], cfg, "x")
+    assert out["authors"] == ["A. One", "B. Two"]
+    assert out["date"] == "2026"
+    assert sorted(out["detail_fields"]) == ["authors", "date"]
+    assert out["blurb"] == "A listing blurb long enough to keep." and out["blurb_source"] == "listing"
+    # A resumed run (2026-09-16 DNS outage) must not re-fetch pages it already has.
+    assert kept["authors"] == ["Kept"] and "date" not in kept
+
+
+def test_fetch_stores_every_200_response_in_the_raw_sidecar(monkeypatch, tmp_path):
+    # 2026-09-16: a field mapped after a crawl (WestEd's PDF link) must be a
+    # local pass over stored pages, not another 900-page fetch. Only 200s are
+    # kept; the index names the URL; read_raw finds the body by URL.
+    import scrape
+
+    class Resp:
+        def __init__(self, status, text, ctype, url):
+            self.status_code, self.text, self.url = status, text, url
+            self.headers = {"Content-Type": ctype}
+
+    calls = iter([Resp(200, "<html>page</html>", "text/html; charset=utf-8", "https://x.org/p"),
+                  Resp(200, '{"a": 1}', "application/json", "https://x.org/api?q=1"),
+                  Resp(404, "nope", "text/html", "https://x.org/missing")])
+    monkeypatch.setattr(scrape.SESSION, "get", lambda url, **kw: next(calls))
+    monkeypatch.setattr(scrape, "_throttle", lambda url: None)
+    monkeypatch.setattr(scrape, "RAW_DIR", tmp_path)
+    monkeypatch.setattr(scrape, "_request_log_path", None)
+    monkeypatch.setattr(scrape, "CONSECUTIVE_FAILURES", 0)
+    scrape._start_raw_store("src")
+    assert scrape.fetch("https://x.org/p").status_code == 200
+    assert scrape.fetch("https://x.org/api?q=1").status_code == 200
+    assert scrape.fetch("https://x.org/missing") is None
+    files = sorted(p.name for p in (tmp_path / "src").iterdir())
+    assert len([f for f in files if f.endswith(".html.gz")]) == 1
+    assert len([f for f in files if f.endswith(".json.gz")]) == 1
+    index = (tmp_path / "src" / "index.tsv").read_text(encoding="utf-8").splitlines()
+    assert len(index) == 2 and index[0].endswith("https://x.org/p")
+    assert scrape.read_raw("src", "https://x.org/p/") == "<html>page</html>", "same dedup key as hub.db"
+    assert scrape.read_raw("src", "https://x.org/missing") is None
+    scrape._raw_source = None
+
+
 # ── persistent per-host throttle ──
 
 def test_throttle_waits_after_previous_process_request(monkeypatch, tmp_path):
@@ -426,6 +489,19 @@ def test_norm_date_keeps_given_granularity():
     assert _norm_date("2026-13") is None, "month out of range is not a date"
     assert _norm_date("2026-02-31") == "2026-02-31", "day range is 1-31 only (calendar not checked)"
     assert _norm_date("2026-02-00") is None
+    assert _norm_date("2025/04/23") == "2025-04-23", "OJS citation_date uses slashes (2026-09-16)"
+    assert _norm_date("06/06/2023") == "2023-06-06" and _norm_date("12/12/2020") == "2020-12-12", "CREDO listing, US order"
+    assert _norm_date("13/06/2023") is None
+    assert _norm_date("2026-03-04T12:50:00+00:00") == "2026-03-04"
+
+
+def test_norm_date_epoch_ms_takes_the_eastern_calendar_day():
+    # Mathematica's Coveo index (2026-09-15): the page shows "Published: Jul 17, 2026"
+    # for 1784264400000 (2026-07-17 05:00 UTC), and an entry made at 22:10 EDT on
+    # 2024-11-01 is stored as 1730513400000 = 2024-11-02 02:10 UTC.
+    assert _norm_date(1784264400000) == "2026-07-17"
+    assert _norm_date("1730513400000") == "2024-11-01", "evening entry must not roll to the UTC day"
+    assert _norm_date(1732074720000) == "2024-11-19"
 
 
 def test_metadata_provenance_follows_where_the_field_came_from():
@@ -487,3 +563,158 @@ def test_backfill_metadata_does_not_bump_updated_at():
                  "VALUES (1, 'A', 'https://x.org/a', 'report', 'S', '2026-01-01', 'ORIGINAL')")
     backfill_metadata(conn, [{"url": "https://x.org/a", "date": "2026-08", "blurb_source": "listing"}])
     assert conn.execute("SELECT updated_at FROM entries WHERE num=1").fetchone()[0] == "ORIGINAL"
+
+
+def test_document_url_is_a_registry_field_with_provenance():
+    # 2026-09-16: the direct report link (WestEd's "Get This Resource" S3 file)
+    # replaces grade level as the next universal field; page-supplied -> page-meta.
+    from process_staged import _document_url
+    assert _document_url("https://x.org/f.pdf") == "https://x.org/f.pdf"
+    assert _document_url(["https://x.org/a.pdf", "https://x.org/b.pdf"]) == "https://x.org/a.pdf"
+    assert _document_url("/relative/f.pdf") is None and _document_url("") is None
+    conn = mem_db()
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added) "
+                 "VALUES (1, 'A', 'https://x.org/a', 'report', 'S', '2026-01-01')")
+    item = {"url": "https://x.org/a", "document_url": "https://cdn.x.org/a.pdf", "detail_fields": ["document_url"]}
+    counts, _, _ = backfill_metadata(conn, [item])
+    assert counts["document_url"] == 1
+    assert conn.execute("SELECT document_url, document_url_source FROM entries WHERE num=1").fetchone() == \
+        ("https://cdn.x.org/a.pdf", "page-meta")
+
+
+def test_url_date_inference_is_flagged_url_and_never_overrides():
+    # 2026-09-16 (user: inference is fine if flagged): WordPress permalink dates
+    # and CREDO's slug year are taken from the URL and stamped date_source "url";
+    # a date from anywhere else wins; a URL-only stub row never gets a raw_item.
+    from process_staged import apply_url_date_inference, _meta_source_label
+    cfg = {"date_from_url": [{"host": "e4.northwestern.edu", "regex": r"/(\d{4})/(\d{2})/(\d{2})/"},
+                             {"regex": r"-(20\d{2})(?:-\d)?/?$"}]}
+    items = [{"url": "https://e4.northwestern.edu/2024/06/25/some-post/"},
+             {"url": "https://credo.stanford.edu/reports/item/rhode-island-2025/", "_stub": True},
+             {"url": "https://credo.stanford.edu/reports/item/report-3/", "_stub": True},
+             {"url": "https://e4.northwestern.edu/2024/06/25/other/", "date": "March 2024"}]
+    apply_url_date_inference(items, cfg)
+    assert items[0]["date"] == "2024-06-25" and _meta_source_label(items[0], ("date",)) == "url"
+    assert items[1]["date"] == "2025"
+    assert "date" not in items[2]
+    assert items[3]["date"] == "March 2024" and _meta_source_label(items[3], ("date",)) == "listing"
+    conn = mem_db()
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added) "
+                 "VALUES (1, 'A', 'https://credo.stanford.edu/reports/item/rhode-island-2025/', 'report', 'S', '2026-01-01')")
+    counts, _, _ = backfill_metadata(conn, [items[1]])
+    assert conn.execute("SELECT published_date, date_source, raw_item FROM entries WHERE num=1").fetchone() == ("2025", "url", None)
+
+
+def test_page_meta_fallback_fills_date_authors_and_pdf_from_citation_tags():
+    # 2026-09-16: AIMS entries on bepress / OJS / DSpace hosts state date,
+    # authors and PDF in standard meta tags; with no selector mapped, the
+    # fallback uses them and labels the fields page-meta. A value a selector
+    # already supplied is left alone.
+    from process_staged import apply_page_meta_fallback, _meta_source_label
+    items = [{"url": "https://r.edu/x", "page_meta": {"bepress_citation_date": "2025",
+              "bepress_citation_author": ["Burns, Andrew R"], "bepress_citation_pdf_url": "https://r.edu/x.pdf"}},
+             {"url": "https://j.org/y", "date": "2020-01", "page_meta": {"citation_date": "2019/05/01"}},
+             {"url": "https://n.org/z", "page_meta": {"jsonld:datePublished": "2026-05-11T13:21:55Z"}}]
+    apply_page_meta_fallback(items)
+    assert items[0]["date"] == "2025" and items[0]["authors"] == ["Burns, Andrew R"]
+    assert items[0]["document_url"] == "https://r.edu/x.pdf"
+    assert sorted(items[0]["detail_fields"]) == ["authors", "date", "document_url"]
+    assert _meta_source_label(items[0], ("date",)) == "page-meta"
+    assert items[1]["date"] == "2020-01" and "detail_fields" not in items[1]
+    assert items[2]["date"] == "2026-05-11T13:21:55Z"
+
+
+def test_load_db_items_takes_active_rows_of_the_named_sources(monkeypatch, tmp_path):
+    # --from-db (2026-09-16): a metadata pass over already-indexed pages. Only
+    # active rows of the named sources, only allowed hosts when host_allow is set.
+    import sqlite3
+    import scrape
+    db = tmp_path / "hub.db"
+    conn = sqlite3.connect(db)
+    conn.executescript(ENTRIES_DDL)
+    conn.executemany("INSERT INTO entries (num, title, url, type, source, date_added, excluded) VALUES (?,?,?,?,?,?,?)", [
+        (1, "A", "https://repository.lsu.edu/a", "report", "AIMS Collaboratory", "2026-01-01", 0),
+        (2, "B", "https://link.springer.com/b", "paper", "AIMS Collaboratory", "2026-01-01", 0),
+        (3, "C", "https://repository.lsu.edu/c", "report", "AIMS Collaboratory", "2026-01-01", 1),
+        (4, "D", "https://tntp.org/d", "report", "TNTP", "2026-01-01", 0)])
+    conn.commit()
+    conn.close()
+    monkeypatch.setattr(scrape, "DB_PATH", db)
+    cfg = {"from_db": {"source_names": ["AIMS Collaboratory"], "host_allow": ["repository.lsu.edu"]}}
+    assert [i["url"] for i in scrape.load_db_items(cfg)] == ["https://repository.lsu.edu/a"]
+    cfg = {"from_db": {"source_names": ["AIMS Collaboratory", "TNTP"]}}
+    assert [i["url"] for i in scrape.load_db_items(cfg)] == ["https://repository.lsu.edu/a", "https://link.springer.com/b", "https://tntp.org/d"]
+
+
+def test_authors_json_splits_bylines_and_rejects_paragraphs():
+    from process_staged import _authors_json
+    assert json.loads(_authors_json("By: Megan Kuhfeld, Daniel Long, Scott J. Peters")) == \
+        ["Megan Kuhfeld", "Daniel Long", "Scott J. Peters"]
+    assert json.loads(_authors_json("By A. One and B. Two.")) == ["A. One", "B. Two"]
+    assert json.loads(_authors_json(["Doe, Jane"])) == ["Doe, Jane"], "a list element is one name, commas kept"
+    assert json.loads(_authors_json("By: Naomi Duran, PhD, Karyn Lewis, Ed.D.")) == ["Naomi Duran", "Karyn Lewis"]
+    # Brookings byline: a comma list of full names without a prefix is a list
+    assert json.loads(_authors_json("Katharine Meyer, Isabel McMullen")) == ["Katharine Meyer", "Isabel McMullen"]
+    assert _authors_json("In this prospective longitudinal study (N = 1094), the authors examined family "
+                         "factors associated with school mobility and asked whether moves matter.") is None
+
+
+def test_metadata_map_copies_page_keys_with_page_meta_provenance():
+    # NWEA (2026-09-16): the API post date is wrong on most rows and bio_link is
+    # empty, but the detail fetch stored date_page / authors_page. The map fills
+    # the registry fields and, because those keys came from the item page,
+    # labels them page-meta. The mapped key overrides a value already in the
+    # field (the wrong API date is the point); an empty key changes nothing.
+    from process_staged import apply_metadata_map, _meta_source_label
+    cfg = {"metadata_map": {"date": "date_page", "authors": "authors_page"},
+           "detail_fetch": {"extra_fields": {"date_page": {"selector": "x"}, "authors_page": {"selector": "y"}}}}
+    items = [{"date": "2022-10-11", "date_page": "June 2022", "authors": [], "authors_page": "By: A. One"},
+             {"date": "2020-01-01", "date_page": ""}]
+    apply_metadata_map(items, cfg)
+    assert items[0]["date"] == "June 2022" and items[0]["authors"] == "By: A. One"
+    assert sorted(items[0]["detail_fields"]) == ["authors", "date"]
+    assert _meta_source_label(items[0], ("date",)) == "page-meta"
+    assert items[1]["date"] == "2020-01-01" and "detail_fields" not in items[1]
+
+
+def test_items_from_db_feeds_stored_raw_items_to_the_backfill():
+    # 2026-09-15: EdTrust's stored raw items already carry the post date; a
+    # from-db pass must date the row without a staging file and leave rows of
+    # other sources and rows without a raw item alone.
+    from process_staged import items_from_db
+    conn = mem_db()
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, raw_item) VALUES "
+                 "(1, 'A', 'https://x.org/a', 'report', 'S', '2026-01-01', "
+                 "'{\"date\": \"2026-08-26T12:42:49\", \"blurb_source\": \"page-meta\"}')")
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, raw_item) VALUES "
+                 "(2, 'B', 'https://x.org/b', 'report', 'S', '2026-01-01', NULL)")
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, raw_item) VALUES "
+                 "(3, 'C', 'https://y.org/c', 'report', 'Other', '2026-01-01', '{\"date\": \"2020-01\"}')")
+    items = items_from_db(conn, "S")
+    # Row 2 has no raw item: it comes back as a URL-only stub (so URL inference
+    # can run) and contributes nothing else.
+    assert [(i["url"], i.get("_stub", False)) for i in items] == [("https://x.org/a", False), ("https://x.org/b", True)]
+    counts, matched, unmatched = backfill_metadata(conn, items)
+    assert (matched, unmatched, counts["published_date"]) == (2, 0, 1)
+    assert conn.execute("SELECT published_date, date_source FROM entries WHERE num=1").fetchone() == ("2026-08-26", "listing")
+    assert conn.execute("SELECT published_date FROM entries WHERE num IN (2, 3)").fetchall() == [(None,), (None,)]
+
+
+def test_backfill_metadata_keeps_the_staged_item_as_raw_item():
+    # 2026-09-15: rows inserted before raw_item existed (May/June) have none, and
+    # a backfill that discarded the staged item would force a re-fetch for any
+    # field mapped later. Fill-empty stores it; an existing raw_item is kept
+    # unless overwrite=True.
+    conn = mem_db()
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, raw_item) "
+                 "VALUES (1, 'A', 'https://x.org/a', 'report', 'S', '2026-01-01', NULL)")
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, raw_item) "
+                 "VALUES (2, 'B', 'https://x.org/b', 'report', 'S', '2026-01-01', '{\"old\": true}')")
+    items = [{"url": "https://x.org/a", "date": "2026-08", "category": "Brief", "blurb_source": "listing"},
+             {"url": "https://x.org/b", "date": "2026-07", "blurb_source": "listing"}]
+    counts, _, _ = backfill_metadata(conn, items)
+    assert json.loads(conn.execute("SELECT raw_item FROM entries WHERE num=1").fetchone()[0])["category"] == "Brief"
+    assert conn.execute("SELECT raw_item FROM entries WHERE num=2").fetchone()[0] == '{"old": true}'
+    assert counts["raw_item"] == 1
+    backfill_metadata(conn, items, overwrite=True)
+    assert "date" in json.loads(conn.execute("SELECT raw_item FROM entries WHERE num=2").fetchone()[0])

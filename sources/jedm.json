@@ -1,0 +1,8 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in jedm.md. OAI-PMH ListRecords (oai_dc) over the OJS instance: one request per 100 records gives date, authors, subjects, DOI and the galley link for every article. Added 2026-09-16 for the metadata backfill; the 39 indexed JEDM papers are a frozen selective set (see private decisions), so this config is for backfills, not the weekly list.",
+  "request_delay": 12,
+  "discovery": "oai",
+  "discovery_url": "https://jedm.educationaldatamining.org/index.php/JEDM/oai?verb=ListRecords&metadataPrefix=oai_dc",
+  "url_prefix": "https://jedm.educationaldatamining.org",
+  "robots_txt": "https://jedm.educationaldatamining.org/robots.txt"
+}

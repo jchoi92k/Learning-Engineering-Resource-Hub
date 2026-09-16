@@ -1,0 +1,22 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in ies-rel.md. The REL Products listing is a JS app (no discovery here); this config serves --from-db metadata passes over the 30 indexed resource-library pages, which are server-rendered with a publication-date value pair and one span.author per author (checked 2026-09-16).",
+  "request_delay": 12,
+  "discovery": "db",
+  "from_db": {
+    "source_names": [
+      "IES Regional Education Labs"
+    ]
+  },
+  "detail_fetch": {
+    "extra_fields": {
+      "date": {
+        "selector": ".ies-hero__value-pair--publication-date .ies-hero__value"
+      },
+      "authors": {
+        "selector": ".ies-hero__value-pair--authors span.author, .ies-asset-builder-attachments__authors span.author",
+        "multiple": true
+      }
+    }
+  },
+  "robots_txt": "https://ies.ed.gov/robots.txt"
+}

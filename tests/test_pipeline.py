@@ -238,6 +238,17 @@ def test_extract_cards_applies_url_transform():
     assert [i["url"] for i in items] == ["https://a.org/product/x", "https://a.org/product/y"]
 
 
+def test_url_transform_is_case_insensitive():
+    """2026-09-15: LPI started emitting /index%2ephp/ (lowercase e); two briefs
+    then failed to match their stored rows. Either spelling must collapse."""
+    import scrape
+    t = {"replace": "/index%2Ephp/", "with": "/"}
+    assert scrape.apply_url_transform("https://a.org/index%2ephp/product/x", t) == "https://a.org/product/x"
+    assert scrape.apply_url_transform("https://a.org/index%2Ephp/product/x", t) == "https://a.org/product/x"
+    assert scrape.apply_url_transform("https://a.org/product/x", t) == "https://a.org/product/x"
+    assert scrape.apply_url_transform("", t) == ""
+
+
 def test_early_stop_requires_config_flag_in_api_path(monkeypatch):
     """scrape_api must scan every page when the config lacks early_stop, even
     if every item on page 0 is already indexed (Digital Promise regression)."""
@@ -314,6 +325,62 @@ def test_extract_cards_keeps_space_between_inline_elements():
     [item] = extract_cards(soup, config)
     assert item["title"] == "Project SEED is"
     assert item["blurb"] == "ThinkerTools is a computer-based program. It has two parts."
+
+
+def test_parse_oai_records_maps_dublin_core_to_staged_items():
+    # JEDM / JLA (2026-09-16): OAI-PMH oai_dc is the one-request path to date,
+    # authors, DOI and galley link; deleted records and records with no
+    # article URL are skipped; the resumption token drives the next page.
+    from scrape import parse_oai_records
+    xml = ('<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"><ListRecords>'
+           '<record><header><identifier>oai:x:article/6</identifier></header><metadata>'
+           '<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">'
+           '<dc:title>Editorial Welcome</dc:title><dc:creator>Baker, Ryan S.J.d.</dc:creator><dc:creator>Yacef, Kalina</dc:creator>'
+           '<dc:subject>data mining</dc:subject><dc:description>We are delighted.</dc:description><dc:date>2009-10-01</dc:date>'
+           '<dc:identifier>https://j.org/index.php/JEDM/article/view/6</dc:identifier><dc:identifier>10.5281/zenodo.3554655</dc:identifier>'
+           '<dc:relation>https://j.org/index.php/JEDM/article/view/6/1</dc:relation></oai_dc:dc></metadata></record>'
+           '<record><header status="deleted"><identifier>oai:x:article/7</identifier></header></record>'
+           '<resumptionToken completeListSize="200">tok123</resumptionToken></ListRecords></OAI-PMH>')
+    items, token = parse_oai_records(xml, "https://j.org")
+    assert token == "tok123" and len(items) == 1
+    it = items[0]
+    assert it["url"] == "https://j.org/index.php/JEDM/article/view/6" and it["date"] == "2009-10-01"
+    assert it["authors"] == ["Baker, Ryan S.J.d.", "Yacef, Kalina"] and it["doi"] == "10.5281/zenodo.3554655"
+    assert it["document_url"] == "https://j.org/index.php/JEDM/article/view/6/1" and it["tags"] == ["data mining"]
+
+
+def test_extract_cards_keeps_the_title_date_as_the_item_date():
+    # WWC (2026-09-16): the release month is only in the listing title, which
+    # the scraper already trimmed; it must become item["date"] rather than be lost.
+    from bs4 import BeautifulSoup
+    from scrape import extract_cards
+    html_doc = ('<div class="c"><a class="t" href="/x">Good Behavior Game (October 2024)</a>'
+                '<p class="b">' + 'x' * 40 + '</p></div>')
+    config = {"selectors": {"item": "div.c", "title": "a.t", "url": "a.t", "blurb": "p.b"}}
+    [item] = extract_cards(BeautifulSoup(html_doc, "html.parser"), config)
+    assert item["title"] == "Good Behavior Game"
+    assert item["date"] == "October 2024"
+
+
+def test_extract_cards_reads_date_inside_blurb_parent():
+    # Guards the 2026-09-15 LPI finding: the blurb_parent strategy decomposes
+    # every <span> in the container, so a date selector pointing inside that
+    # span returned nothing on every LPI row ever scraped. Extras must be read
+    # before the blurb step.
+    from bs4 import BeautifulSoup
+    from scrape import extract_cards
+    html_doc = ('<div class="c"><h3><a href="/x">Title</a></h3>'
+                '<div class="sub"><span class="author">A. One</span><span class="author">B. Two</span></div>'
+                '<div class="body"><span class="details"><time datetime="2026-09-09T12:00:00Z">September 9, 2026</time></span>'
+                ' | The blurb text.</div></div>')
+    soup = BeautifulSoup(html_doc, "html.parser")
+    config = {"selectors": {"item": "div.c", "title": "h3 a", "url": "h3 a",
+                            "blurb_parent": "span.details", "authors": "span.author",
+                            "date": "span.details time"}}
+    [item] = extract_cards(soup, config)
+    assert item["date"] == "2026-09-09T12:00:00Z"
+    assert item["authors"] == ["A. One", "B. Two"]
+    assert item["blurb"] == "The blurb text."
 
 
 # ── backlog rows (pending, excluded) ──

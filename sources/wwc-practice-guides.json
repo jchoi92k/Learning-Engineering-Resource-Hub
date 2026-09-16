@@ -1,5 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in wwc.md. Added 2026-08-30: the practice-guide half of the WWC product search (productType=1), same table layout as wwc.json's intervention reports. The listing has no type column, so type_default labels every item Practice Guide (process_staged maps it to framework). One request per run.",
+  "request_delay": 12,
 
   "discovery": "single_page",
   "discovery_url": "https://ies.ed.gov/ncee/wwc/Search/Products?productType=1",

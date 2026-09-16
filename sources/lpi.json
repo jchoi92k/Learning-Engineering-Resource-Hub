@@ -1,5 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in lpi.md. Listing is newest-first (site default), so early_stop is declared.",
+  "request_delay": 12,
   "discovery": "pagination",
   "discovery_url": "https://learningpolicyinstitute.org/products/reports",
   "url_prefix": "https://learningpolicyinstitute.org",

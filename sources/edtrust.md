@@ -56,3 +56,7 @@ Config-driven: `python scripts/scrape.py edtrust` (config in `edtrust.json`, rew
 - WP REST API hard-caps responses at ~6 items regardless of `per_page`. Unreliable for full enumeration.
 - The "1,903" resource count includes all post types across the site (blog, press-room, news, RTI). The RTI-specific sitemap has 582.
 - Four regional subdomains exist (midwest, west, newyork) with their own sitemaps — currently out of scope.
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: `published_date` on 291/322 rows from the stored API post date (`date`), which matches the displayed date ("August 26, 2026 by EdTrust" on the page checked) and predates the CMS `modified` stamp on most rows, so it is the publication date. Authors deliberately left empty: EdTrust's Co-Authors Plus taxonomy (668 terms) exposes login handles (`wdelpilar`, `edtrust`), not names, and a byline pass over 322 pages was judged not worth it for a largely institutional byline. The 31 May rows with no stored record are undated.

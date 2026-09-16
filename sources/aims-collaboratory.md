@@ -42,3 +42,7 @@ Learning engineering project teams and resources: code/algorithms, tools, whitep
 - Squarespace pagination uses Unix timestamp offsets, not page numbers
 - No REST API — Squarespace doesn't expose one for content
 - Resources and project teams are separate content types with different structures
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: `sources/aims-collaboratory.json` (`discovery: db`, `from_db.host_allow`) fetched the 34 rows on open repository / organisation hosts once (35 requests, one dropped connection); the AIMS site itself is still not scraped. Dates, authors and PDF links come from the pages' citation / bepress / Dublin Core meta tags (`page-meta`): 19 rows; ten e4.northwestern.edu posts are dated from their permalink path (`date_source: url`). 29/48 dated in all; the rest are code / platform entries (date n/a) or pages without metadata (EDM proceedings, ACL Anthology, NORC event, EdInstruments toolkit). Commercial-publisher hosts (Springer, ACM, Sage, Emerald, MDPI, NBER) were left out.

@@ -66,3 +66,7 @@ Config-driven: `python scripts/scrape.py brookings` (config in `brookings.json`,
 - Sitemaps contain ALL ~54,000 Brookings articles across all centers. There is no Brown Center-specific sitemap. Do not use sitemaps for discovery.
 - Topic/center filtering is only available via Algolia (tax_ids.center_tax:24). The WP REST API article endpoint has no taxonomy filter params.
 - Top experts: Michael Hansen (119), Jon Valant (88), Katharine Meyer (39), Rachel Perera (35), Douglas Harris (28).
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: `--from-db` pass over the 23 published rows (both `Brookings Institution` source names; 24 requests). Date from schema.org `datePublished` (day) on all 23, authors from `p.byline` (comma list) on 22. The `detail_fetch.extra_fields` block serves that pass; the Algolia discovery and weekly status are unchanged (off).

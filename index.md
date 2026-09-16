@@ -105,10 +105,12 @@ Each source has a `.json` config (consumed by `scrape.py`) and a `.md` profile (
 - **`{source}.json`** — scraping config (discovery URL, selectors, API params, pagination).
 - **`{source}.md`** — source profile (discovery method, access notes, scope, scraping instructions).
 - **`{source}-backlog.txt`** — URLs/items that need manual review or are missing descriptions.
+- Backfill-only configs (no weekly discovery): `jedm.json` and `jla.json` (OAI-PMH over the two frozen journal sets), `aims-collaboratory.json` and `ies-rel.json` (`discovery: "db"`, used with `scrape.py --from-db` to re-read pages already indexed). Config options are documented in `sources/README.md`.
 
 ### `data/` — database and data files
 
 - **`hub.db`** — SQLite database. Single source of truth for all entries. All published files are generated from this.
+- **`raw/`** (gitignored) — every 200 response a scrape run received, gzipped per source with an `index.tsv`; re-derivable by a crawl, kept so a field mapped later is a local pass.
 - **`source-targets.json`** — coverage targets per source (known totals, priority, status).
 - **`broken-urls.json`** — known broken/flagged URLs from `verify_urls.py`.
 - **`url-verification.json`** — URL verification results.

@@ -55,3 +55,7 @@ Research publications: reports, briefs, and fact sheets. Topics include communit
 - Slug conventions vary by type: `-report`, `-brief`, `-factsheet` suffixes
 - `/research` is equivalent to `/products/reports` (same content, same pagination)
 - Sitemap is severely incomplete — do not rely on it
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-15: all three listings re-walked at 12 s (44 requests). 350/352 rows dated at day precision from `span.teaser__details time[datetime]` (listing), authors on 306 (fact sheets are mostly unsigned). A scraper ordering bug had discarded the date until then (the blurb step removed the `<time>`); fixed. The listing now emits `/index%2ephp/` (lowercase) on some links; `url_transform` is case-insensitive. Two rows (#138, #141) are no longer on the listings and stay undated.

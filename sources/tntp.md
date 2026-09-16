@@ -49,3 +49,7 @@ Config-driven: `python scripts/scrape.py tntp` (config in `tntp.json`): sitemap 
 
 - The listing page (`/publications/`) only shows 30 of 36 publications. Always use the sitemap for the complete inventory.
 - Topic filter pages (`/search-results-publications/?topic=*`) return zero results via static fetch — they're JS-rendered. Irrelevant since the sitemap is complete.
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: `--from-db` pass over the 36 indexed pages (37 requests). Date from the page's schema.org `datePublished` / header `<time>` (day, `page-meta`) on all 36; the report PDF (`/wp-content/uploads/...pdf`) as `document_url` on 19. TNTP pages carry no author byline.

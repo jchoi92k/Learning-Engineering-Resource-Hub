@@ -53,3 +53,7 @@ Applied research, technical assistance, and data analysis produced by the 10 Reg
 - ERIC is the authoritative proxy but URL mapping is imperfect — some ERIC records link to PDFs, not REL product pages
 - 10 regional labs produce content independently — no single editorial standard
 - Product count (1,134 via ERIC) spans many years; not all may still have live pages
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: the resource-library item pages are server-rendered after all — `.ies-hero__value-pair--publication-date` holds "Month YYYY" and `span.author` repeats per author. `sources/ies-rel.json` (`discovery: db`) ran a `--from-db` pass over the 30 indexed pages (31 requests; two pages now 404): 20 dated (month, `page-meta`), 19 authored. The undated ten are partnership / toolkit pages without the date block. Discovery of new REL products still needs the ERIC API route above.

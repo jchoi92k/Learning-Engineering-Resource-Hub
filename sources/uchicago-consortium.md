@@ -55,3 +55,7 @@ Access re-checked 2026-08-28: robots.txt standard Drupal (no `/publications` blo
 - URL slugs preserve some capitalization (e.g., `Chicago`, `COVID-19`)
 - No sitemap — pagination is the only discovery mechanism
 - Type labels are inconsistent — not every listing item shows one
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: dates from the listing's `date published` column ("Jul 2026", month precision, `listing`) via the stored raw items and one listing re-walk; authors from the item page's `.content-authors .authors-name` (one per author, `page-meta`) over a 327-page `fetch_all` pass at 12 s. 323/323 rows dated, 322 authored. Some item pages have no `og:description` (the blurb is kept). The page's other dates are related resources, not the item's.

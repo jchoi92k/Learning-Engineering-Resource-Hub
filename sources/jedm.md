@@ -44,3 +44,7 @@ Filter out editorials and acknowledgements by checking `dc:title` — research a
 - Article IDs are non-sequential (5, 6, 8, ... up to 1171) — OJS internal numbering includes drafts/deleted items
 - Journal started in 2009 but OAI earliest datestamp is 2013 (records migrated to OJS later)
 - All articles have Zenodo DOIs, not publisher DOIs
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: `sources/jedm.json` (`discovery: oai`) pulls `ListRecords` in `oai_dc` — 2 requests, 198 records. All 39 indexed papers now carry `dc:date` (day), the creator list, subjects, DOI and the galley link as `document_url`. Backfill-only config: the set stays frozen and off the weekly list.

@@ -53,3 +53,7 @@ Many older/state-level reports have thin descriptions — expect significant bac
 - Descriptions on individual pages range from ~27 words to ~200 words; some have only CREDO boilerplate
 - No named authors — all institutional
 - source-targets.json had ~9; actual count is ~88
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: the charter-studies listing (`p.report-date em`, MM/DD/YYYY) dated 9 rows at day precision (`listing`, 2 requests); six more take the year from the report slug (`rhode-island-2025`, `2023-pace-of-learning-report`) with `date_source: url`. 15/16 dated; the item pages themselves state no publication date (only a modified stamp).

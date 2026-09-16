@@ -50,3 +50,7 @@ OJS standard `<meta>` tags (`citation_title`, `citation_author`, `citation_doi`,
 - Issue IDs are non-sequential (307, 485, 515, 517, ...)
 - Some issue IDs return login page rather than 404
 - "Early Access" issue contains pre-publication articles
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: `sources/jla.json` (`discovery: oai`) pulls `ListRecords` in `oai_dc` at the robots.txt 60 s crawl delay — 5 requests, 433 records. All 39 indexed papers now carry `dc:date` (day), the creator list, subjects, DOI and the galley link as `document_url`. Backfill-only config: the set stays frozen and off the weekly list.

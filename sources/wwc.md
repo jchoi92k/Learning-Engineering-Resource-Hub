@@ -63,3 +63,7 @@ Of 619 intervention reports, **475 are evidence tier -1** — meaning WWC search
 - Invalid IDs return HTTP 500, not 404.
 - Practice guide count is 30 (source-targets.json says 29 — a 30th was added Dec 2024, ID 31).
 - URL case: path uses `/WWC/` (uppercase) in individual report URLs.
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: no detail fetch needed — the listing title carries the release month ("... (October 2024)"), which `scrape.py` now keeps as the item date instead of discarding it, and grade level / evidence tier were already mapped. Two listing requests (plus robots) dated all 174 published rows (month, `listing`) and the 475 held Tier −1 rows, and filled `grade_level` on 245 rows. Item pages are JavaScript-rendered, so their PDF links are out of reach for `document_url`.

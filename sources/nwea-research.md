@@ -64,3 +64,7 @@ Config-driven: `python scripts/scrape.py nwea-research` (config in `nwea-researc
 - `/research/` is a curated hub page (featured research, team bios, etc.), not a pure listing. Use `/research/all-research/` for the listing or the sitemap for completeness.
 - Type values: Research brief, Technical brief, White paper, Guide, Journal article, Blog article, Technical report, Book, Infographic, Podcast, Webinar, Video, other.
 - 13 publication types across 547 items. Blog article, Podcast, Webinar and Video are outside `type_allow` and are recorded as `type_filtered` rows.
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-16: `published_date` and `authors` come from the detail fetch's page values (`date_page` "August 2026" / a bare year, `authors_page` "By: ...") via `metadata_map`, provenance `page-meta`; 221/291 rows dated (128 month, 93 year), 220 authored. The API's post `date` disagrees with the page month on 170/221 rows (bulk-import stamps) and `bio_link` is never returned, so neither is used. "PhD"-style credential tokens are stripped from bylines. The 70 May rows with no stored record are undated.

@@ -31,7 +31,7 @@ Current indexing: 832 active entries, 97 excluded (no description in API or on p
 | URL | `raw.mprrelativeurl` | Uses staging domain — replace `staginginter.mathematica.net` with `mathematica.org` |
 | Authors | `raw.mprauthors` | Array |
 | Summary | `raw.mprsummary` | Paragraph-length abstract |
-| Date | `raw.mprcomputedcontentdate` | Epoch milliseconds |
+| Date | `raw.mprcomputedcontentdate` | Epoch milliseconds. This is the publication date the item page displays ("Published: Jul 17, 2026" matched the field on 2026-09-15), not a CMS created/updated stamp (those are separate keys: `created`, `updated`, `indexeddate`). Entered in US Eastern and stored as UTC, so take the Eastern calendar day (`process_staged._norm_date` does). |
 | Sub-topics | `raw.mprhseducationtopicsv2` | Array |
 | Category | `raw.mprpublicationcategories` | e.g., "Project Report", "Journal Article" |
 | PDF link | `raw.mprpublicationurl` | External URL or media item ID |
@@ -54,3 +54,7 @@ All metadata needed for indexing is in the API response — no individual page f
 - URLs use staging domain (`staginginter.mathematica.net`) — must transform to `mathematica.org`
 - "Education" is a sub-topic under "Human Services" focus area, not a top-level category
 - Date is epoch milliseconds, not ISO string
+
+## Metadata backfill (2026-09-16)
+
+Metadata backfill 2026-09-15/16: full Coveo walk (148 requests, 927 records). 749/753 published rows dated (day) from `mprcomputedcontentdate`, authors on 749, topic labels restored on 681 (`source_subjects`). Observation: the index returns no item dated 2025 and no title mentions 2025 (2024: 21 items, 2026: 6) — that is the index's content, not a conversion artefact. `mprpublicationurl` (the report file) is in the API record and is the next `document_url` pass; the full records are now kept in `data/raw/mathematica/`.

@@ -50,6 +50,16 @@ MCP_URL = "https://renaissance-hub.joon-96a.workers.dev/mcp"
 MIN_DESCRIPTION_CHARS = 30
 # Provenance of the description text (nullable in hub.db; NULL = not recorded)
 DESCRIPTION_SOURCES = {"listing", "page-meta", "page-abstract", "llm-summary", "manual"}
+# Provenance of a structured field (published_date, authors): where the value
+# was read from. `n/a` is a build-time marker, not a hub.db value.
+METADATA_SOURCES = {"listing", "page-meta", "prose", "llm", "manual"}
+DATE_NOT_AVAILABLE = "n/a"
+# Sources that publish no real publication date (their API date is the CMS post
+# date, checked 2026-09-15): published_date is null with date_source "n/a", so
+# a reader can tell "the source has no date" from "not backfilled yet".
+NO_PUBLISHED_DATE_SOURCES = {"Evidence for ESSA", "Campbell Collaboration"}
+# ISO date at the granularity the source gave: YYYY, YYYY-MM or YYYY-MM-DD
+PUBLISHED_DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 # Entry types (docs/schema.md, "type" table); curriculum is reserved, no entry uses it yet
 ENTRY_TYPES = {"paper", "report", "code", "framework", "platform", "tool", "curriculum", "review",
                "article", "blog-post", "presentation", "project-website", "dataset"}
@@ -139,9 +149,24 @@ def load_entries():
         else:
             e["domain"] = "research"
         e["desc"] = e.pop("description", "")
+        e["authors"] = _authors_list(e.get("authors"))
+        if not e.get("published_date") and e["source"] in NO_PUBLISHED_DATE_SOURCES:
+            e["published_date"] = None
+            e["date_source"] = DATE_NOT_AVAILABLE
         entries.append(e)
     conn.close()
     return entries
+
+
+def _authors_list(val):
+    """hub.db stores authors as a JSON list; publish a list or None."""
+    if not val:
+        return None
+    try:
+        names = json.loads(val)
+    except (TypeError, ValueError):
+        return None
+    return [str(n) for n in names] or None
 
 
 def load_targets():
@@ -187,8 +212,10 @@ def validate_entries(entries):
     """Sanity checks on what is about to be published. Returns (errors, warnings)
     as lists of strings. Errors: missing title/description, description shorter
     than MIN_DESCRIPTION_CHARS, non-http URL, duplicate URL (case/trailing-slash
-    insensitive), description_source outside DESCRIPTION_SOURCES. Warnings:
-    tags outside TAG_CATEGORIES."""
+    insensitive), description_source outside DESCRIPTION_SOURCES, a
+    published_date that is not YYYY / YYYY-MM / YYYY-MM-DD, a date_source or
+    authors_source outside METADATA_SOURCES (plus the build-time "n/a").
+    Warnings: tags outside TAG_CATEGORIES."""
     errors, warnings = [], []
     vocab = {t for tags in TAG_CATEGORIES.values() for t in tags}
     seen = {}
@@ -211,6 +238,13 @@ def validate_entries(entries):
         ds = e.get("description_source")
         if ds is not None and ds not in DESCRIPTION_SOURCES:
             errors.append(f"#{num}: unknown description_source: {ds}")
+        pd = e.get("published_date")
+        if pd is not None and not PUBLISHED_DATE_RE.match(str(pd)):
+            errors.append(f"#{num}: published_date is not ISO YYYY[-MM[-DD]]: {pd}")
+        for col in ("date_source", "authors_source"):
+            src = e.get(col)
+            if src is not None and src not in METADATA_SOURCES and src != DATE_NOT_AVAILABLE:
+                errors.append(f"#{num}: unknown {col}: {src}")
         for t in e["tags"]:
             if t not in vocab:
                 warnings.append(f"#{num}: tag not in vocabulary: {t}")
@@ -261,6 +295,9 @@ def _entry_block(e):
         f"description_inferred: {desc_inferred}",
         f"description_source: {e.get('description_source') or 'null'}",
         f"date_added: {e['date_added']}",
+        f"published_date: {e.get('published_date') or 'null'}",
+        f"date_source: {e.get('date_source') or 'null'}",
+        f"authors: {json.dumps(e['authors'], ensure_ascii=False) if e.get('authors') else 'null'}",
         f"doi: {doi}",
         f"license: {lic}",
         f"tags: [{tags_str}]",
@@ -486,12 +523,24 @@ def build_json(entries):
     sources = sorted(set(e["source"] for e in entries if e["source"]))
     coverage = load_coverage()
 
+    dated = sum(1 for e in entries if e.get("published_date"))
+    no_date = sum(1 for e in entries if e.get("date_source") == DATE_NOT_AVAILABLE)
     data = {
         "meta": {
             "total": len(entries),
             "last_updated": date.today().isoformat(),
             "sources": sources,
             "coverage": coverage,
+            # Two recency axes: published_date (the source's own date, partial
+            # ISO, filled source by source) and date_added (when the hub took
+            # the row in). Entry numbers are not contiguous.
+            "dates": {
+                "with_published_date": dated,
+                "published_date_not_available": no_date,
+                "without_published_date": len(entries) - dated - no_date,
+                "num_min": min(e["num"] for e in entries) if entries else None,
+                "num_max": max(e["num"] for e in entries) if entries else None,
+            },
         },
         "entries": [{
             "num": e["num"],
@@ -501,6 +550,10 @@ def build_json(entries):
             "source": e["source"],
             "url_confirmed": bool(e["url_confirmed"]),
             "description_source": e.get("description_source"),
+            "date_added": e["date_added"],
+            "published_date": e.get("published_date"),
+            "date_source": e.get("date_source"),
+            "authors": e.get("authors"),
             "tags": e["tags"],
             "desc": e["desc"],
             "domain": e["domain"],

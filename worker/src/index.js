@@ -32,6 +32,25 @@ async function semanticCandidates(env, query) {
   }
 }
 
+// Newest publication first. published_date is partial ISO (YYYY, YYYY-MM or
+// YYYY-MM-DD); comparing the strings keeps that order, and a bare year sorts
+// before any month of the same year. Entries without a date go last (both
+// "not backfilled yet" and the sources that publish no date), newest-added
+// first among themselves.
+function byPublishedDateDesc(a, b) {
+  const da = a.published_date || "", db = b.published_date || "";
+  if (da && db) return db.localeCompare(da) || byRecentlyAddedDesc(a, b);
+  if (da) return -1;
+  if (db) return 1;
+  return byRecentlyAddedDesc(a, b);
+}
+
+// Most recently taken into the hub first: date_added desc, then entry number
+// desc (numbers are assigned in insertion order but are not contiguous).
+function byRecentlyAddedDesc(a, b) {
+  return (b.date_added || "").localeCompare(a.date_added || "") || b.num - a.num;
+}
+
 function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], query = "", limit = 20, offset = 0, sort_by = "index", candidates = null }) {
   // `candidates` (from semantic search) replaces the corpus as the result
   // pool and carries its own relevance order; keyword `query` matching is
@@ -66,6 +85,10 @@ function filterEntries({ tags = [], tagMode = "all", types = [], sources = [], q
     results = [...results].sort((a, b) => a.source.localeCompare(b.source));
   } else if (sort_by === "type") {
     results = [...results].sort((a, b) => a.type.localeCompare(b.type));
+  } else if (sort_by === "date") {
+    results = [...results].sort(byPublishedDateDesc);
+  } else if (sort_by === "recently_added") {
+    results = [...results].sort(byRecentlyAddedDesc);
   }
 
   const total = results.length;
@@ -114,8 +137,16 @@ function formatEntry(e) {
     tags: e.tags,
     description: e.desc,
     description_source: e.description_source || null,
+    published_date: e.published_date || null,
+    date_source: e.date_source || null,
+    authors: e.authors || null,
+    date_added: e.date_added || null,
   };
 }
+
+// Orientation shared by the tool descriptions: what the ids and dates mean.
+const ID_NOTE = "Entry numbers (num / id) are stable but NOT contiguous — they run past 9,000 for about 3,900 entries, so never assume a 1..N range; take ids from search results, list tools or get_stats.num_range.";
+const DATE_NOTE = "Two recency axes: published_date is the source's own publication date (partial ISO: YYYY, YYYY-MM or YYYY-MM-DD; filled source by source, null where not yet captured, date_source \"n/a\" where the source publishes no date), and date_added is when the hub took the entry in. Use sort_by \"date\" for newest publications and \"recently_added\" for what the hub added most recently.";
 
 // Results that carry both a text block and structuredContent (MCP spec:
 // "a tool that returns structured content SHOULD also return the serialized
@@ -159,7 +190,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "search_resources",
     description:
-      `Search the Renaissance AI and Education Resource Hub — ${data.entries.length} curated evidence-based K-12 and higher education resources. Natural-language queries use semantic search by default; combine with tag, type, and source filters. Call list_tags first to see available filter values.`,
+      `Search the Renaissance AI and Education Resource Hub — ${data.entries.length} curated evidence-based K-12 and higher education resources. Natural-language queries use semantic search by default; combine with tag, type, and source filters. Call list_tags first to see available filter values. ${DATE_NOTE} ${ID_NOTE}`,
     inputSchema: {
       type: "object",
       properties: {
@@ -198,8 +229,8 @@ const TOOL_DEFINITIONS = [
         },
         sort_by: {
           type: "string",
-          enum: ["index", "title", "source", "type"],
-          description: "Sort results by field. Default: index (entry number order).",
+          enum: ["index", "title", "source", "type", "date", "recently_added"],
+          description: "Sort results. Default: index (entry number order; with a semantic query, relevance order). 'date': newest published_date first, undated entries last. 'recently_added': most recently added to the hub first (date_added, then entry number). Sorting replaces relevance order, so pair it with filters or a keyword query.",
         },
         limit: {
           type: "number",
@@ -237,7 +268,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "get_stats",
     description:
-      "Get a summary of the Renaissance AI and Education Resource Hub: total entries, entries per source, per type, top tags, and last updated date.",
+      `Get a summary of the Renaissance AI and Education Resource Hub: total entries, entries per source, per type, top tags, last updated date, the entry-number range (num_range) and publication-date coverage (dates). ${ID_NOTE}`,
     inputSchema: {
       type: "object",
       properties: {},
@@ -246,13 +277,13 @@ const TOOL_DEFINITIONS = [
   {
     name: "get_entry",
     description:
-      "Get full details of a specific entry by its number.",
+      `Get full details of a specific entry by its number. ${ID_NOTE}`,
     inputSchema: {
       type: "object",
       properties: {
         num: {
           type: "number",
-          description: `Entry number (1–${data.entries.length})`,
+          description: `Entry number, as returned by search results (not contiguous; current range ${data.meta.dates ? `${data.meta.dates.num_min}–${data.meta.dates.num_max}` : "see get_stats"})`,
         },
       },
       required: ["num"],
@@ -326,7 +357,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "fetch",
     description:
-      "Fetch one hub entry by the id returned from search (the entry number as a string): its title, canonical URL, description and metadata (type, source organization, tags, description provenance).",
+      "Fetch one hub entry by the id returned from search (the entry number as a string): its title, canonical URL, description and metadata (type, source organization, tags, description provenance, published_date with its provenance, authors, date_added).",
     inputSchema: {
       type: "object",
       properties: {
@@ -420,6 +451,13 @@ async function handleToolCall(name, args, env) {
           text: JSON.stringify({
             total_entries: data.entries.length,
             last_updated: data.meta.last_updated,
+            num_range: data.meta.dates ? { min: data.meta.dates.num_min, max: data.meta.dates.num_max, note: "entry numbers are not contiguous" } : undefined,
+            dates: data.meta.dates ? {
+              with_published_date: data.meta.dates.with_published_date,
+              published_date_not_available: data.meta.dates.published_date_not_available,
+              without_published_date: data.meta.dates.without_published_date,
+              sort_options: { newest_published: "sort_by: \"date\"", recently_added: "sort_by: \"recently_added\"" },
+            } : undefined,
             sources: getSourceCounts(),
             types: getTypeCounts(),
             top_tags: topTags,
@@ -494,6 +532,10 @@ async function handleToolCall(name, args, env) {
           source: entry.source,
           tags: entry.tags,
           description_source: entry.description_source || null,
+          published_date: entry.published_date || null,
+          date_source: entry.date_source || null,
+          authors: entry.authors || null,
+          date_added: entry.date_added || null,
         },
       });
     }
@@ -630,6 +672,8 @@ function formatMarkdown({ results, total, limited }) {
     lines.push(`- **URL:** ${e.url}`);
     lines.push(`- **Type:** ${e.type}`);
     lines.push(`- **Source:** ${e.source}`);
+    if (e.published_date) lines.push(`- **Published:** ${e.published_date}`);
+    if (e.authors && e.authors.length) lines.push(`- **Authors:** ${e.authors.join("; ")}`);
     lines.push(`- **Tags:** ${e.tags.join(", ")}`);
     lines.push("");
     if (e.desc) {

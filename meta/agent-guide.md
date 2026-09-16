@@ -114,7 +114,7 @@ This file no longer maintains a hand-curated per-source entry table — it drift
 2. `python scripts/process_staged.py {source}` — inserts entries into hub.db with auto-tagging, logs to `processing-log.md`
 3. `python scripts/build_from_db.py` — rebuilds all published files (`llms-full.txt`, `llms.txt`, `data.json`, `tags/`, `gem-knowledge.txt`) from hub.db
 
-scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption, early-stop (opt-in per config with `"early_stop": true` for listings known to be newest-first: stop after 3 consecutive or 5 total already-indexed URLs on a page; `--pages` is the hard cap, `--no-diff` disables). Backlog items are written into the staging JSON and recorded by `process_staged.py` as excluded `no_description_pending` rows. Each inserted row records `description_source` (`listing`, or the `detail_fetch` label `page-meta` / `page-abstract`; see `docs/schema.md`). `request_delay` has a 5 s floor.
+scrape.py features: `url_filter` (filter API results by a listing page), `detail_fetch` (fetch individual pages for descriptions), path-based pagination, progress save/resume on interruption, early-stop (opt-in per config with `"early_stop": true` for listings known to be newest-first: stop after 3 consecutive or 5 total already-indexed URLs on a page; `--pages` is the hard cap, `--no-diff` disables). Backlog items are written into the staging JSON and recorded by `process_staged.py` as excluded `no_description_pending` rows. Each inserted row records `description_source` (`listing`, or the `detail_fetch` label `page-meta` / `page-abstract`; see `docs/schema.md`). `request_delay` has a 5 s floor; two consecutive 403/451 responses from the source's own host stop the run (likely IP/WAF block; switch egress before retrying). Structured metadata (`published_date`, `authors`, `grade_level`, each with a provenance column) is filled on existing rows by `python scripts/process_staged.py {source} --backfill-metadata` after a `scrape.py {source} --no-diff` pass; as of 2026-09-15 only Digital Promise has it, and the per-source order is on `roadmap.md`.
 
 When a source's state materially changes (new source added, indexed count crosses a hundred-mark, access method changes), update the right canonical file — `source-targets.json` for coverage, `source-audit.md` for access, `sources-log.md` for attempt history — and let `docs/data.json` regenerate. Don't try to maintain a parallel table here.
 
@@ -166,6 +166,9 @@ tags: [tag1, tag2, affiliation-tag]
 | `description_inferred` | `true` / `false` | `true` = summarized from fetched content; `false` = written from full readable page |
 | `description_source` | `listing`, `page-meta`, `page-abstract`, `llm-summary`, `manual`, `null` | What kind of text the description is (`docs/schema.md`); set by `process_staged.py` from the staged item |
 | `date_added` | ISO date | Use today's date (ISO format: YYYY-MM-DD) |
+| `published_date` | `YYYY`, `YYYY-MM`, `YYYY-MM-DD`, `null` | The source's own publication date at the granularity given; never guessed from prose. Filled by `process_staged.py --backfill-metadata` |
+| `date_source` | `listing`, `page-meta`, `prose`, `llm`, `manual`, `null`; `n/a` in published outputs only | Provenance of `published_date` (`docs/schema.md`); `n/a` = the source publishes no date (Evidence for ESSA, Campbell) |
+| `authors` | list of names, `null` | As the source lists them; provenance in `authors_source` (same values as `date_source`) |
 
 ---
 

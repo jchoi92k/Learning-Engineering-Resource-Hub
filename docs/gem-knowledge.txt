@@ -1,6 +1,6 @@
 # Renaissance AI and Education Resource Hub
 # 3904 curated evidence-based K-12 and higher education resources.
-# Last updated: 2026-09-14
+# Last updated: 2026-09-15
 
 ## Tag Directory
 

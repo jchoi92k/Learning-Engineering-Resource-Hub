@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — IES Regional Education Labs (full)
-# 28 entries with descriptions | Last updated: 2026-09-14
+# 28 entries with descriptions | Last updated: 2026-09-15
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-ies-regional-education-labs.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,6 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, k-12, literacy, professional-development]
@@ -35,6 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, meta-analysis]
@@ -56,6 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education, professional-development]
@@ -77,6 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, professional-development, writing-instruction]
@@ -98,6 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, qualitative-research]
@@ -119,6 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, k-12, longitudinal]
@@ -140,6 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, professional-development]
@@ -161,6 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, k-12, professional-development, qualitative-research]
@@ -182,6 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, longitudinal]
@@ -203,6 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, higher-ed, longitudinal]
@@ -224,6 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, literacy, meta-analysis]
@@ -245,6 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, math-education, math-strategies, professional-development]
@@ -266,6 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, early-childhood, k-12, literacy, professional-development]
@@ -287,6 +326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, professional-development, writing-instruction]
@@ -308,6 +350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, math-education, math-strategies, professional-development]
@@ -329,6 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, professional-development, qualitative-research]
@@ -350,6 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, qualitative-research, sel, student-belonging]
@@ -371,6 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, professional-development]
@@ -392,6 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, higher-ed, k-12, longitudinal]
@@ -413,6 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, longitudinal]
@@ -434,6 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, k-12, longitudinal]
@@ -455,6 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, k-12]
@@ -476,6 +542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, longitudinal, prekindergarten]
@@ -497,6 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [higher-ed, k-12, longitudinal, professional-development]
@@ -518,6 +590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, formative-assessment, k-12]
@@ -539,6 +614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, professional-development, writing-instruction]
@@ -560,6 +638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development, response-to-intervention]
@@ -581,6 +662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, early-childhood, k-12, prekindergarten, professional-development]

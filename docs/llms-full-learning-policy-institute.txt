@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 352 entries with descriptions | Last updated: 2026-09-14
+# 352 entries with descriptions | Last updated: 2026-09-15
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,6 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [learning-engineering, lpi, professional-development]
@@ -35,6 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, lpi, professional-development]
@@ -56,6 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, professional-development]
@@ -77,6 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, professional-development]
@@ -98,6 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi, meta-analysis, prekindergarten]
@@ -119,6 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, lpi, meta-analysis, sel, student-belonging]
@@ -140,6 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, early-childhood, lpi, professional-development]
@@ -161,6 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, k-12, lpi, student-belonging]
@@ -182,6 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, professional-development]
@@ -203,6 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, lpi, prekindergarten]
@@ -224,6 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, english-learners, lpi, prekindergarten, professional-development]
@@ -245,6 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, k-12, longitudinal, lpi, student-belonging]
@@ -266,6 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, k-12, lpi, professional-development]
@@ -287,6 +326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, professional-development]
@@ -308,6 +350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, lpi, professional-development, sel]
@@ -329,6 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi, prekindergarten, professional-development]
@@ -350,6 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [ai-policy, formative-assessment, k-12, lpi]
@@ -371,6 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi]
@@ -392,6 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi, school-discipline]
@@ -413,6 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, longitudinal, lpi]
@@ -434,6 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, longitudinal, lpi]
@@ -455,6 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, lpi, school-discipline, student-belonging]
@@ -476,6 +542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, lpi, professional-development]
@@ -497,6 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, formative-assessment, higher-ed, k-12, lpi]
@@ -518,6 +590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, early-childhood, lpi, professional-development]
@@ -539,6 +614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, k-12, lpi, professional-development]
@@ -560,6 +638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, lpi, sel, student-belonging]
@@ -581,6 +662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, early-childhood, lpi, prekindergarten, professional-development]
@@ -602,6 +686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, lpi, prekindergarten, professional-development]
@@ -623,6 +710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, college-access, k-12, lpi, professional-development]
@@ -644,6 +734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, early-childhood, higher-ed, k-12, lpi]
@@ -665,6 +758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi, prekindergarten, professional-development]
@@ -686,6 +782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, k-12, longitudinal, lpi, professional-development]
@@ -707,6 +806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-13
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, professional-development]
@@ -728,6 +830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, inclusive-design, lpi]
@@ -749,6 +854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi, sel]
@@ -770,6 +878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, career-readiness, lpi]
@@ -791,6 +902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi, sel]
@@ -812,6 +926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -833,6 +950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -854,6 +974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -875,6 +998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -896,6 +1022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -917,6 +1046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, math-education]
@@ -938,6 +1070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -959,6 +1094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, computer-assisted-learning, lpi, professional-development]
@@ -980,6 +1118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [learning-engineering, lpi]
@@ -1001,6 +1142,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1022,6 +1166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1043,6 +1190,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1064,6 +1214,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1085,6 +1238,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -1106,6 +1262,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, dropout-prevention, lpi, sel]
@@ -1127,6 +1286,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1148,6 +1310,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -1169,6 +1334,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1190,6 +1358,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi, professional-development]
@@ -1211,6 +1382,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -1232,6 +1406,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -1253,6 +1430,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, early-childhood, formative-assessment, lpi]
@@ -1274,6 +1454,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1295,6 +1478,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1316,6 +1502,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -1337,6 +1526,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -1358,6 +1550,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1379,6 +1574,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1400,6 +1598,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1421,6 +1622,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, lpi]
@@ -1442,6 +1646,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1463,6 +1670,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1484,6 +1694,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1505,6 +1718,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1526,6 +1742,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1547,6 +1766,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, lpi, sel]
@@ -1568,6 +1790,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1589,6 +1814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi, professional-development]
@@ -1610,6 +1838,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1631,6 +1862,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, early-childhood, formative-assessment, lpi]
@@ -1652,6 +1886,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -1673,6 +1910,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1694,6 +1934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -1715,6 +1958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -1736,6 +1982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1757,6 +2006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi, math-education]
@@ -1778,6 +2030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -1799,6 +2054,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1820,6 +2078,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1841,6 +2102,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -1862,6 +2126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -1883,6 +2150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -1904,6 +2174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1925,6 +2198,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -1946,6 +2222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -1967,6 +2246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -1988,6 +2270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2009,6 +2294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2030,6 +2318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2051,6 +2342,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2072,6 +2366,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -2093,6 +2390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2114,6 +2414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, lpi, math-education]
@@ -2135,6 +2438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2156,6 +2462,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, response-to-intervention, sel]
@@ -2177,6 +2486,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [literacy, lpi]
@@ -2198,6 +2510,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2219,6 +2534,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -2240,6 +2558,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2261,6 +2582,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2282,6 +2606,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2303,6 +2630,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2324,6 +2654,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -2345,6 +2678,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2366,6 +2702,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2387,6 +2726,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, formative-assessment, lpi]
@@ -2408,6 +2750,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2429,6 +2774,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -2450,6 +2798,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2471,6 +2822,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2492,6 +2846,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -2513,6 +2870,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2534,6 +2894,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2555,6 +2918,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -2576,6 +2942,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2597,6 +2966,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -2618,6 +2990,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -2639,6 +3014,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -2660,6 +3038,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, lpi, sel]
@@ -2681,6 +3062,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2702,6 +3086,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, lpi, professional-development, sel]
@@ -2723,6 +3110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -2744,6 +3134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2765,6 +3158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2786,6 +3182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2807,6 +3206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, lpi]
@@ -2828,6 +3230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -2849,6 +3254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2870,6 +3278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2891,6 +3302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -2912,6 +3326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -2933,6 +3350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -2954,6 +3374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -2975,6 +3398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -2996,6 +3422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3017,6 +3446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3038,6 +3470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3059,6 +3494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3080,6 +3518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3101,6 +3542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi, professional-development]
@@ -3122,6 +3566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, literacy, lpi, math-education, sel]
@@ -3143,6 +3590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -3164,6 +3614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -3185,6 +3638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -3206,6 +3662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3227,6 +3686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -3248,6 +3710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi, math-education]
@@ -3269,6 +3734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3290,6 +3758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3311,6 +3782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3332,6 +3806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3353,6 +3830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3374,6 +3854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -3395,6 +3878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -3416,6 +3902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3437,6 +3926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, math-education]
@@ -3458,6 +3950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, career-readiness, lpi]
@@ -3479,6 +3974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3500,6 +3998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, lpi]
@@ -3521,6 +4022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, inclusive-design, lpi]
@@ -3542,6 +4046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi, math-education]
@@ -3563,6 +4070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3584,6 +4094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, early-childhood, lpi, professional-development]
@@ -3605,6 +4118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -3626,6 +4142,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3647,6 +4166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3668,6 +4190,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [learning-engineering, lpi]
@@ -3689,6 +4214,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -3710,6 +4238,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi, sel]
@@ -3731,6 +4262,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -3752,6 +4286,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -3773,6 +4310,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3794,6 +4334,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3815,6 +4358,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, math-education]
@@ -3836,6 +4382,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, math-education, professional-development]
@@ -3857,6 +4406,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -3878,6 +4430,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -3899,6 +4454,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3920,6 +4478,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi, professional-development]
@@ -3941,6 +4502,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3962,6 +4526,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -3983,6 +4550,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4004,6 +4574,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -4025,6 +4598,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4046,6 +4622,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, dropout-prevention, lpi]
@@ -4067,6 +4646,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -4088,6 +4670,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -4109,6 +4694,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4130,6 +4718,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4151,6 +4742,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -4172,6 +4766,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -4193,6 +4790,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4214,6 +4814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -4235,6 +4838,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -4256,6 +4862,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4277,6 +4886,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, lpi]
@@ -4298,6 +4910,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4319,6 +4934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4340,6 +4958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4361,6 +4982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4382,6 +5006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4403,6 +5030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -4424,6 +5054,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -4445,6 +5078,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, response-to-intervention, sel]
@@ -4466,6 +5102,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4487,6 +5126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi, response-to-intervention]
@@ -4508,6 +5150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4529,6 +5174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4550,6 +5198,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4571,6 +5222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4592,6 +5246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -4613,6 +5270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4634,6 +5294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -4655,6 +5318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, early-childhood, lpi]
@@ -4676,6 +5342,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, inclusive-design, lpi, sel]
@@ -4697,6 +5366,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -4718,6 +5390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi, professional-development]
@@ -4739,6 +5414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi, sel]
@@ -4760,6 +5438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4781,6 +5462,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4802,6 +5486,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -4823,6 +5510,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -4844,6 +5534,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, lpi]
@@ -4865,6 +5558,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -4886,6 +5582,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4907,6 +5606,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -4928,6 +5630,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4949,6 +5654,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -4970,6 +5678,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, inclusive-design, lpi]
@@ -4991,6 +5702,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5012,6 +5726,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5033,6 +5750,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5054,6 +5774,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -5075,6 +5798,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5096,6 +5822,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi, math-education]
@@ -5117,6 +5846,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5138,6 +5870,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi]
@@ -5159,6 +5894,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5180,6 +5918,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5201,6 +5942,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5222,6 +5966,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -5243,6 +5990,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi, professional-development]
@@ -5264,6 +6014,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -5285,6 +6038,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -5306,6 +6062,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, personalized-learning]
@@ -5327,6 +6086,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi, professional-development, sel]
@@ -5348,6 +6110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5369,6 +6134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5390,6 +6158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, personalized-learning]
@@ -5411,6 +6182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, lpi, math-education]
@@ -5432,6 +6206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5453,6 +6230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5474,6 +6254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -5495,6 +6278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -5516,6 +6302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5537,6 +6326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5558,6 +6350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development, sel]
@@ -5579,6 +6374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, lpi]
@@ -5600,6 +6398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, lpi]
@@ -5621,6 +6422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -5642,6 +6446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5663,6 +6470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5684,6 +6494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -5705,6 +6518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5726,6 +6542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -5747,6 +6566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5768,6 +6590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -5789,6 +6614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5810,6 +6638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, lpi]
@@ -5831,6 +6662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -5852,6 +6686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, formative-assessment, lpi]
@@ -5873,6 +6710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5894,6 +6734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, lpi, professional-development]
@@ -5915,6 +6758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -5936,6 +6782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, response-to-intervention]
@@ -5957,6 +6806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -5978,6 +6830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, response-to-intervention]
@@ -5999,6 +6854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -6020,6 +6878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6041,6 +6902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6062,6 +6926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi]
@@ -6083,6 +6950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6104,6 +6974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, english-learners, inclusive-design, lpi, math-education]
@@ -6125,6 +6998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6146,6 +7022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6167,6 +7046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6188,6 +7070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6209,6 +7094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6230,6 +7118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, response-to-intervention]
@@ -6251,6 +7142,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -6272,6 +7166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6293,6 +7190,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6314,6 +7214,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6335,6 +7238,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6356,6 +7262,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6377,6 +7286,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, career-readiness, lpi]
@@ -6398,6 +7310,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6419,6 +7334,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -6440,6 +7358,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -6461,6 +7382,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6482,6 +7406,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, lpi, math-education]
@@ -6503,6 +7430,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6524,6 +7454,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6545,6 +7478,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -6566,6 +7502,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6587,6 +7526,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6608,6 +7550,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6629,6 +7574,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -6650,6 +7598,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6671,6 +7622,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6692,6 +7646,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6713,6 +7670,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi, sel]
@@ -6734,6 +7694,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, dropout-prevention, lpi, sel]
@@ -6755,6 +7718,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6776,6 +7742,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, lpi]
@@ -6797,6 +7766,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -6818,6 +7790,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -6839,6 +7814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6860,6 +7838,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6881,6 +7862,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -6902,6 +7886,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -6923,6 +7910,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -6944,6 +7934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -6965,6 +7958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -6986,6 +7982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -7007,6 +8006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, professional-development]
@@ -7028,6 +8030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -7049,6 +8054,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi]
@@ -7070,6 +8078,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -7091,6 +8102,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, inclusive-design, lpi, math-education]
@@ -7112,6 +8126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-15
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, lpi]
@@ -7133,6 +8150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, lpi, math-education, student-belonging]
@@ -7154,6 +8174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, lpi]
@@ -7175,6 +8198,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, lpi]
@@ -7196,6 +8222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [lpi, sel]
@@ -7217,6 +8246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, lpi]
@@ -7238,6 +8270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, english-learners, lpi, school-discipline]
@@ -7259,6 +8294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -7280,6 +8318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, formative-assessment, lpi]
@@ -7301,6 +8342,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, lpi]
@@ -7322,6 +8366,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, early-childhood, lpi]
@@ -7343,6 +8390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-14
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, formative-assessment, lpi, professional-development]
@@ -7364,6 +8414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-14
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, k-12, lpi]
@@ -7385,6 +8438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-14
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, k-12, lpi]

@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — What Works Clearinghouse (full)
-# 174 entries with descriptions | Last updated: 2026-09-14
+# 174 entries with descriptions | Last updated: 2026-09-15
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-what-works-clearinghouse.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,6 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cognitive-science, formative-assessment, k-12, learning-engineering, math-strategies]
@@ -35,6 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [data-sharing, formative-assessment, k-12, learning-engineering, professional-development]
@@ -56,6 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, math-strategies, math-word-problems]
@@ -77,6 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, learning-engineering, math-education, prekindergarten]
@@ -98,6 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, learning-engineering, professional-development]
@@ -119,6 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, math-strategies]
@@ -140,6 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [digital-learning-platforms, higher-ed, learning-engineering, personalized-learning]
@@ -161,6 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [intelligent-tutoring, k-12, learning-engineering, math-education, math-strategies]
@@ -182,6 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, learning-engineering, prekindergarten]
@@ -203,6 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, math-strategies, response-to-intervention, wwc]
@@ -224,6 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -245,6 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, sel, wwc]
@@ -266,6 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, wwc]
@@ -287,6 +326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, learning-engineering, literacy, wwc]
@@ -308,6 +350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, wwc]
@@ -329,6 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, wwc]
@@ -350,6 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, personalized-learning, wwc]
@@ -371,6 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, learning-engineering, wwc]
@@ -392,6 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, learning-engineering, literacy, wwc]
@@ -413,6 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, math-strategies, wwc]
@@ -434,6 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, writing-instruction, wwc]
@@ -455,6 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, learning-engineering, literacy, wwc]
@@ -476,6 +542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, writing-instruction, wwc]
@@ -497,6 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, learning-engineering, personalized-learning, wwc]
@@ -518,6 +590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, k-12, learning-engineering, personalized-learning, wwc]
@@ -539,6 +614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, learning-engineering, wwc]
@@ -560,6 +638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, learning-engineering, professional-development, wwc]
@@ -581,6 +662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -602,6 +686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, wwc]
@@ -623,6 +710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [carnegie-learning, computer-assisted-learning, intelligent-tutoring, k-12, learning-engineering, math-education, wwc]
@@ -644,6 +734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, intelligent-tutoring, k-12, learning-engineering, literacy, wwc]
@@ -665,6 +758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, digital-learning-platforms, higher-ed, learning-engineering, wwc]
@@ -686,6 +782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, math-education, personalized-learning, wwc]
@@ -707,6 +806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, literacy, wwc]
@@ -728,6 +830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, literacy, personalized-learning, wwc]
@@ -749,6 +854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -770,6 +878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, writing-instruction, wwc]
@@ -791,6 +902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [higher-ed, learning-engineering, student-belonging, wwc]
@@ -812,6 +926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, learning-engineering, wwc]
@@ -833,6 +950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, learning-engineering, wwc]
@@ -854,6 +974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, prekindergarten, wwc]
@@ -875,6 +998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -896,6 +1022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, wwc]
@@ -917,6 +1046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, school-discipline, sel, wwc]
@@ -938,6 +1070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, learning-engineering, math-education, wwc]
@@ -959,6 +1094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, dropout-prevention, k-12, learning-engineering, wwc]
@@ -980,6 +1118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, dropout-prevention, k-12, learning-engineering, wwc]
@@ -1001,6 +1142,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, professional-development, wwc]
@@ -1022,6 +1166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, k-12, learning-engineering, professional-development, wwc]
@@ -1043,6 +1190,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, professional-development, wwc]
@@ -1064,6 +1214,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, learning-engineering, literacy, wwc]
@@ -1085,6 +1238,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, math-strategies, response-to-intervention, wwc]
@@ -1106,6 +1262,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, learning-engineering, wwc]
@@ -1127,6 +1286,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, learning-engineering, wwc]
@@ -1148,6 +1310,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, higher-ed, learning-engineering, wwc]
@@ -1169,6 +1334,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, sel, wwc]
@@ -1190,6 +1358,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -1211,6 +1382,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, learning-engineering, wwc]
@@ -1232,6 +1406,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -1253,6 +1430,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, professional-development, wwc]
@@ -1274,6 +1454,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, professional-development, wwc]
@@ -1295,6 +1478,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, learning-engineering, math-education, prekindergarten, wwc]
@@ -1316,6 +1502,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [higher-ed, learning-engineering, math-education, personalized-learning, wwc]
@@ -1337,6 +1526,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, k-12, learning-engineering, wwc]
@@ -1358,6 +1550,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, learning-engineering, wwc]
@@ -1379,6 +1574,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, math-education, personalized-learning, wwc]
@@ -1400,6 +1598,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, school-discipline, sel, wwc]
@@ -1421,6 +1622,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, literacy, prekindergarten, wwc]
@@ -1442,6 +1646,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, literacy, wwc]
@@ -1463,6 +1670,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, learning-engineering, literacy, wwc]
@@ -1484,6 +1694,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, literacy, wwc]
@@ -1505,6 +1718,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, college-access, higher-ed, learning-engineering, wwc]
@@ -1526,6 +1742,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, learning-engineering, wwc]
@@ -1547,6 +1766,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, math-education, prekindergarten, wwc]
@@ -1568,6 +1790,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, school-discipline, sel, wwc]
@@ -1589,6 +1814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, dropout-prevention, k-12, learning-engineering, wwc]
@@ -1610,6 +1838,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [coaching, college-access, higher-ed, learning-engineering, wwc]
@@ -1631,6 +1862,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, k-12, learning-engineering, wwc]
@@ -1652,6 +1886,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, wwc]
@@ -1673,6 +1910,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, learning-engineering, literacy, wwc]
@@ -1694,6 +1934,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, literacy, wwc]
@@ -1715,6 +1958,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, school-discipline, sel, wwc]
@@ -1736,6 +1982,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -1757,6 +2006,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, k-12, learning-engineering, wwc]
@@ -1778,6 +2030,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, wwc]
@@ -1799,6 +2054,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, wwc]
@@ -1820,6 +2078,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -1841,6 +2102,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, literacy, response-to-intervention, wwc]
@@ -1862,6 +2126,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, literacy, wwc]
@@ -1883,6 +2150,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -1904,6 +2174,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -1925,6 +2198,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, learning-engineering, literacy, wwc]
@@ -1946,6 +2222,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, math-education, wwc]
@@ -1967,6 +2246,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, higher-ed, learning-engineering, wwc]
@@ -1988,6 +2270,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, professional-development, wwc]
@@ -2009,6 +2294,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, learning-engineering, literacy, writing-instruction, wwc]
@@ -2030,6 +2318,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, literacy, wwc]
@@ -2051,6 +2342,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -2072,6 +2366,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, literacy, prekindergarten, wwc]
@@ -2093,6 +2390,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, dropout-prevention, k-12, learning-engineering, wwc]
@@ -2114,6 +2414,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -2135,6 +2438,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, prekindergarten, wwc]
@@ -2156,6 +2462,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, literacy, personalized-learning, wwc]
@@ -2177,6 +2486,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, learning-engineering, prekindergarten, wwc]
@@ -2198,6 +2510,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -2219,6 +2534,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, learning-engineering, literacy, wwc]
@@ -2240,6 +2558,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, professional-development, wwc]
@@ -2261,6 +2582,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, school-discipline, sel, wwc]
@@ -2282,6 +2606,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, k-12, learning-engineering, wwc]
@@ -2303,6 +2630,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, wwc]
@@ -2324,6 +2654,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, school-discipline, sel, wwc]
@@ -2345,6 +2678,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, wwc]
@@ -2366,6 +2702,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, writing-instruction, wwc]
@@ -2387,6 +2726,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, math-education, prekindergarten, wwc]
@@ -2408,6 +2750,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, literacy, prekindergarten, wwc]
@@ -2429,6 +2774,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, dropout-prevention, k-12, learning-engineering, wwc]
@@ -2450,6 +2798,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, prekindergarten, sel, wwc]
@@ -2471,6 +2822,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, math-education, personalized-learning, wwc]
@@ -2492,6 +2846,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, wwc]
@@ -2513,6 +2870,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, wwc]
@@ -2534,6 +2894,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, learning-engineering, literacy, wwc]
@@ -2555,6 +2918,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, learning-engineering, literacy, response-to-intervention, wwc]
@@ -2576,6 +2942,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, learning-engineering, literacy, wwc]
@@ -2597,6 +2966,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, dropout-prevention, higher-ed, learning-engineering, wwc]
@@ -2618,6 +2990,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, learning-engineering, wwc]
@@ -2639,6 +3014,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-01
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, k-12, learning-engineering, wwc]
@@ -2660,6 +3038,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, math-education, prekindergarten, rct, wwc]
@@ -2681,6 +3062,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, english-learners, literacy, prekindergarten, rct, wwc]
@@ -2702,6 +3086,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, literacy, prekindergarten, rct, wwc]
@@ -2723,6 +3110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, wwc]
@@ -2744,6 +3134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, wwc]
@@ -2765,6 +3158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, wwc]
@@ -2786,6 +3182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, rct, wwc]
@@ -2807,6 +3206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, wwc]
@@ -2828,6 +3230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, professional-development, rct, wwc]
@@ -2849,6 +3254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, wwc]
@@ -2870,6 +3278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, rct, response-to-intervention, wwc]
@@ -2891,6 +3302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, math-education, rct, wwc]
@@ -2912,6 +3326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, english-learners, k-12, wwc]
@@ -2933,6 +3350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [digital-learning-platforms, early-childhood, english-learners, k-12, literacy, wwc]
@@ -2954,6 +3374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, sel, wwc]
@@ -2975,6 +3398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, digital-learning-platforms, early-childhood, literacy, prekindergarten, wwc]
@@ -2996,6 +3422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [inclusive-design, k-12, literacy, response-to-intervention, wwc]
@@ -3017,6 +3446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, response-to-intervention, wwc]
@@ -3038,6 +3470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, response-to-intervention, wwc]
@@ -3059,6 +3494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [formative-assessment, k-12, literacy, wwc]
@@ -3080,6 +3518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, formative-assessment, k-12, literacy, wwc]
@@ -3101,6 +3542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, literacy, writing-instruction, wwc]
@@ -3122,6 +3566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, sel, wwc]
@@ -3143,6 +3590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, sel, wwc]
@@ -3164,6 +3614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, literacy, wwc]
@@ -3185,6 +3638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, k-12, literacy, wwc]
@@ -3206,6 +3662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, k-12, sel, wwc]
@@ -3227,6 +3686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [college-access, dropout-prevention, k-12, professional-development, wwc]
@@ -3248,6 +3710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, literacy, prekindergarten, wwc]
@@ -3269,6 +3734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, response-to-intervention, writing-instruction, wwc]
@@ -3290,6 +3758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [career-readiness, college-access, dropout-prevention, k-12, response-to-intervention, wwc]
@@ -3311,6 +3782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [attendance, dropout-prevention, k-12, wwc]
@@ -3332,6 +3806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, literacy, prekindergarten, wwc]
@@ -3353,6 +3830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [early-childhood, literacy, prekindergarten, wwc]
@@ -3374,6 +3854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, k-12, math-education, wwc]
@@ -3395,6 +3878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, wwc]
@@ -3416,6 +3902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, writing-instruction, wwc]
@@ -3437,6 +3926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, sel, wwc]
@@ -3458,6 +3950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, wwc]
@@ -3479,6 +3974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, professional-development, sel, wwc]
@@ -3500,6 +3998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, sel, writing-instruction, wwc]
@@ -3521,6 +4022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, sel, wwc]
@@ -3542,6 +4046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, early-childhood, literacy, prekindergarten, wwc]
@@ -3563,6 +4070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, sel, wwc]
@@ -3584,6 +4094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [computer-assisted-learning, english-learners, k-12, literacy, wwc]
@@ -3605,6 +4118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-06-04
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [english-learners, k-12, literacy, response-to-intervention, wwc]
@@ -3626,6 +4142,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [k-12, rct, response-to-intervention, sel, wwc]
@@ -3647,6 +4166,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-08-30
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [dropout-prevention, k-12, wwc]

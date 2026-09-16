@@ -6,7 +6,7 @@
  * no bash-only chaining, works on Windows and POSIX alike.
  * To test against an already-running server: node test-mcp.mjs --no-spawn
  */
-import { spawn } from "node:child_process";
+import { spawn, spawnSync } from "node:child_process";
 import process from "node:process";
 
 const PORT = 8787;
@@ -41,11 +41,31 @@ async function startServer() {
 }
 
 function stopServer() {
-  if (server) server.kill();
+  if (!server) return;
+  // On Windows `server` is the cmd/npx shell; killing it leaves the workerd
+  // children running and holding the port, so kill the whole tree.
+  if (process.platform === "win32") {
+    // Synchronous, so the kill completes before this script exits.
+    spawnSync("taskkill", ["/PID", String(server.pid), "/T", "/F"], { stdio: "ignore", shell: true });
+  } else {
+    server.kill();
+  }
+}
+
+// The worker rate-limits each IP to 100 requests per 60 s and the local dev
+// worker enforces it too; this suite makes more than that, so a 429 means
+// "wait", not "fail". Back off and retry a few times.
+async function fetchWithBackoff(url, init) {
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(url, init);
+    if (res.status !== 429 || attempt >= 6) return res;
+    console.log("  (rate limited — waiting 15 s)");
+    await new Promise((r) => setTimeout(r, 15_000));
+  }
 }
 
 async function rpc(method, params = {}, id = 1) {
-  const res = await fetch(BASE, {
+  const res = await fetchWithBackoff(BASE, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -167,6 +187,64 @@ await test("search_resources — sort_by title", async () => {
   const titles = r.entries.map(e => e.title);
   const sorted = [...titles].sort((a, b) => a.localeCompare(b));
   assert(JSON.stringify(titles) === JSON.stringify(sorted), "entries are sorted by title");
+});
+
+await test("search_resources — sort_by date puts newest published first, undated last", async () => {
+  const r = await callTool("search_resources", { source: "Digital Promise", sort_by: "date", limit: 30 });
+  assert(r.entries.length > 10, `Digital Promise entries returned (${r.entries.length})`);
+  const dates = r.entries.map(e => e.published_date);
+  const dated = dates.filter(Boolean);
+  assert(dated.length > 10, `dated DP entries present (${dated.length})`);
+  const sortedDesc = [...dated].sort((a, b) => b.localeCompare(a));
+  assert(JSON.stringify(dated) === JSON.stringify(sortedDesc), "dated entries are in descending date order");
+  const firstUndated = dates.findIndex(d => !d);
+  assert(firstUndated === -1 || dates.slice(firstUndated).every(d => !d), "undated entries all come after dated ones");
+  assert(/^\d{4}(-\d{2}(-\d{2})?)?$/.test(dated[0]), `dates are partial ISO (${dated[0]})`);
+  assert(r.entries[0].date_source === "listing", `date_source carried on results (${r.entries[0].date_source})`);
+});
+
+await test("search_resources — sort_by date across the corpus: n/a sources sort last, not first", async () => {
+  const r = await callTool("search_resources", { sort_by: "date", limit: 20 });
+  assert(r.entries.every(e => e.published_date), "first page of a corpus-wide date sort is all dated entries");
+  const essa = await callTool("search_resources", { source: "Evidence for ESSA", limit: 1 });
+  assert(essa.entries[0].published_date === null && essa.entries[0].date_source === "n/a", "ESSA carries the n/a marker");
+});
+
+await test("search_resources — sort_by recently_added puts the newest rows first", async () => {
+  const r = await callTool("search_resources", { sort_by: "recently_added", limit: 20 });
+  const added = r.entries.map(e => e.date_added);
+  const sortedDesc = [...added].sort((a, b) => b.localeCompare(a));
+  assert(JSON.stringify(added) === JSON.stringify(sortedDesc), "date_added is descending");
+  const nums = r.entries.map(e => e.num);
+  assert(nums[0] === Math.max(...nums), `highest entry number first among the newest day (${nums[0]})`);
+  assert(nums[0] > 9000, `newest rows are the 9000-series weekly inserts (${nums[0]})`);
+});
+
+await test("entries carry the metadata fields", async () => {
+  const r = await callTool("search_resources", { source: "Digital Promise", sort_by: "date", limit: 1 });
+  const e = r.entries[0];
+  assert("published_date" in e && "authors" in e && "date_added" in e && "date_source" in e, "search_resources entries expose the fields");
+  assert(Array.isArray(e.authors) && e.authors.length > 0, `authors is a list (${JSON.stringify(e.authors)})`);
+  const f = await callTool("fetch", { id: String(e.num) });
+  assert(f.metadata.published_date === e.published_date && Array.isArray(f.metadata.authors), "fetch metadata carries the same fields");
+  const g = await callTool("get_entry", { num: e.num });
+  assert(g.published_date === e.published_date, "get_entry carries published_date");
+});
+
+await test("get_stats — num_range and date coverage", async () => {
+  const r = await callTool("get_stats");
+  assert(r.num_range && r.num_range.max > r.total_entries, `num_range.max (${r.num_range?.max}) exceeds the entry count — ids are not contiguous`);
+  assert(r.dates && r.dates.with_published_date > 0, `date coverage reported (${r.dates?.with_published_date})`);
+  assert(r.dates.with_published_date + r.dates.published_date_not_available + r.dates.without_published_date === r.total_entries, "date buckets sum to the total");
+});
+
+await test("tools/list — descriptions carry the id and date orientation", async () => {
+  const res = await rpc("tools/list");
+  const search = res.result.tools.find(t => t.name === "search_resources");
+  assert(search.description.includes("NOT contiguous"), "search_resources warns about the id scheme");
+  assert(search.inputSchema.properties.sort_by.enum.includes("date") && search.inputSchema.properties.sort_by.enum.includes("recently_added"), "sort_by enum has the two recency sorts");
+  const getEntry = res.result.tools.find(t => t.name === "get_entry");
+  assert(!getEntry.inputSchema.properties.num.description.includes("(1–"), "get_entry no longer claims a 1..N range");
 });
 
 await test("search_resources — pagination via cursor", async () => {
@@ -352,14 +430,14 @@ await test("unknown tool — lists current tools", async () => {
 });
 
 await test("HTTP /search endpoint", async () => {
-  const res = await fetch(`${ORIGIN}/search?q=tutoring&limit=5`);
+  const res = await fetchWithBackoff(`${ORIGIN}/search?q=tutoring&limit=5`);
   assert(res.ok, `/search returns 200 (${res.status})`);
   const body = await res.text();
   assert(body.includes("Search Results"), "returns markdown results");
 });
 
 await test("HTTP / help page", async () => {
-  const res = await fetch(ORIGIN);
+  const res = await fetchWithBackoff(ORIGIN);
   assert(res.ok, `/ returns 200 (${res.status})`);
   const body = await res.text();
   assert(body.includes("MCP"), "help page mentions MCP");

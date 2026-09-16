@@ -10,7 +10,16 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
-from process_staged import EXTRA_COLUMNS, ensure_columns, insert_backlog_rows, insert_filtered_rows, insert_items  # noqa: E402
+from process_staged import (  # noqa: E402
+    EXTRA_COLUMNS,
+    _authors_json,
+    _norm_date,
+    backfill_metadata,
+    ensure_columns,
+    insert_backlog_rows,
+    insert_filtered_rows,
+    insert_items,
+)
 from scrape import apply_type_filter, audit_request_log, read_request_log  # noqa: E402
 from test_pipeline import ENTRIES_DDL  # noqa: E402
 
@@ -367,3 +376,114 @@ def test_failure_streaks_count_per_host(monkeypatch):
     assert scrape.CONSECUTIVE_FAILURES == 3, "one host failing three times in a row is"
     scrape._note_success("https://a.org/4")
     assert scrape.CONSECUTIVE_FAILURES == 1, "a success clears that host's streak; b.org still has one"
+
+
+def test_403_from_primary_host_trips_block_stop(monkeypatch):
+    import scrape
+    monkeypatch.setattr(scrape, "_FAILURES_BY_HOST", {})
+    monkeypatch.setattr(scrape, "_BLOCK_BY_HOST", {})
+    monkeypatch.setattr(scrape, "CONSECUTIVE_FAILURES", 0)
+    monkeypatch.setattr(scrape, "HOST_BLOCKED", None)
+    monkeypatch.setattr(scrape, "PRIMARY_HOST", "primary.org")
+
+    # A single 403 from the primary host is not yet a block.
+    scrape._note_failure("https://primary.org/a", status=403)
+    assert scrape.HOST_BLOCKED is None
+    # Two consecutive 403s from the primary host trip the fast stop (< the
+    # generic 3-failure threshold).
+    scrape._note_failure("https://primary.org/b", status=403)
+    assert scrape.HOST_BLOCKED == "primary.org"
+    # A 200 from the primary host clears the block.
+    scrape._note_success("https://primary.org/c")
+    assert scrape.HOST_BLOCKED is None
+
+
+def test_403_from_external_host_does_not_trip_block_stop(monkeypatch):
+    # Outbound paywall 403s (e.g. CASEL -> tandfonline) must never halt a run.
+    import scrape
+    monkeypatch.setattr(scrape, "_FAILURES_BY_HOST", {})
+    monkeypatch.setattr(scrape, "_BLOCK_BY_HOST", {})
+    monkeypatch.setattr(scrape, "CONSECUTIVE_FAILURES", 0)
+    monkeypatch.setattr(scrape, "HOST_BLOCKED", None)
+    monkeypatch.setattr(scrape, "PRIMARY_HOST", "casel.org")
+
+    scrape._note_failure("https://tandfonline.com/x", status=403)
+    scrape._note_failure("https://tandfonline.com/y", status=403)
+    assert scrape.HOST_BLOCKED is None, "external-host 403s are not a block of our source"
+
+
+# ── metadata backfill (dates / authors / subjects on existing rows) ──
+
+def test_norm_date_keeps_given_granularity():
+    assert _norm_date("2026-09") == "2026-09"
+    assert _norm_date("2026-09-14") == "2026-09-14"
+    assert _norm_date("September 9, 2026") == "2026-09-09"
+    assert _norm_date("August 2026") == "2026-08"
+    assert _norm_date("Sept 2026") == "2026-09"
+    assert _norm_date("2026") == "2026"
+    assert _norm_date("") is None
+    assert _norm_date("no date here") is None
+    assert _norm_date("2026-13") is None, "month out of range is not a date"
+    assert _norm_date("2026-02-31") == "2026-02-31", "day range is 1-31 only (calendar not checked)"
+    assert _norm_date("2026-02-00") is None
+
+
+def test_metadata_provenance_follows_where_the_field_came_from():
+    from process_staged import _meta_source_label
+    listing_item = {"date": "2026-08", "blurb_source": "page-abstract"}
+    assert _meta_source_label(listing_item, ("date",)) == "listing", \
+        "a detail-fetched description does not make the listing date page-derived"
+    page_item = {"date": "2026-08", "detail_fields": ["date"]}
+    assert _meta_source_label(page_item, ("date",)) == "page-meta"
+    assert _meta_source_label(page_item, ("authors",)) == "listing"
+
+
+def test_authors_json_normalises_list_and_string():
+    assert json.loads(_authors_json(["White, Latia", "Gaviria, Grecia"])) == ["White, Latia", "Gaviria, Grecia"]
+    assert json.loads(_authors_json("Solo, Han")) == ["Solo, Han"]
+    assert _authors_json([]) is None
+    assert _authors_json(None) is None
+
+
+def test_backfill_metadata_fills_only_empty_by_default():
+    conn = mem_db()
+    # An existing row with no date/authors, and one that already has a date.
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, published_date, date_source) "
+                 "VALUES (1, 'A', 'https://x.org/a', 'report', 'S', '2026-01-01', NULL, NULL)")
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, published_date, date_source) "
+                 "VALUES (2, 'B', 'https://x.org/b', 'report', 'S', '2026-01-01', '1999-01', 'manual')")
+    items = [
+        {"url": "https://X.org/a/", "date": "August 2026", "authors": ["Doe, Jane"],
+         "tags": ["equity"], "blurb_source": "listing"},
+        {"url": "https://x.org/b", "date": "2026-07", "authors": ["Roe, R"]},
+        {"url": "https://x.org/missing", "date": "2026-01"},   # no matching row
+    ]
+    counts, matched, unmatched = backfill_metadata(conn, items)
+    assert (matched, unmatched) == (2, 1)
+    a = conn.execute("SELECT published_date, date_source, authors, source_subjects FROM entries WHERE num=1").fetchone()
+    assert a[0] == "2026-08" and a[1] == "listing"
+    assert json.loads(a[2]) == ["Doe, Jane"]
+    assert json.loads(a[3]) == ["equity"]
+    # Row 2 already had a date from 'manual' — not overwritten by default.
+    b = conn.execute("SELECT published_date, date_source, authors FROM entries WHERE num=2").fetchone()
+    assert b[0] == "1999-01" and b[1] == "manual"
+    assert json.loads(b[2]) == ["Roe, R"]   # authors was empty, so it fills
+    assert counts["published_date"] == 1 and counts["authors"] == 2
+
+
+def test_backfill_metadata_overwrite_replaces_values():
+    conn = mem_db()
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, published_date, date_source) "
+                 "VALUES (1, 'A', 'https://x.org/a', 'report', 'S', '2026-01-01', '1999-01', 'manual')")
+    counts, matched, _ = backfill_metadata(
+        conn, [{"url": "https://x.org/a", "date": "2026-08", "blurb_source": "listing"}], overwrite=True)
+    row = conn.execute("SELECT published_date, date_source FROM entries WHERE num=1").fetchone()
+    assert row == ("2026-08", "listing")
+
+
+def test_backfill_metadata_does_not_bump_updated_at():
+    conn = mem_db()
+    conn.execute("INSERT INTO entries (num, title, url, type, source, date_added, updated_at) "
+                 "VALUES (1, 'A', 'https://x.org/a', 'report', 'S', '2026-01-01', 'ORIGINAL')")
+    backfill_metadata(conn, [{"url": "https://x.org/a", "date": "2026-08", "blurb_source": "listing"}])
+    assert conn.execute("SELECT updated_at FROM entries WHERE num=1").fetchone()[0] == "ORIGINAL"

@@ -20,6 +20,28 @@ def entry(num, source, title="T", tags=None):
             "doi": None, "license": None, "date_added": "2026-01-01", "description_source": "listing"}
 
 
+def test_validate_entries_checks_published_date_and_provenance():
+    from build_from_db import validate_entries
+    ok = entry(1, "S")
+    ok.update({"desc": "x" * 40, "published_date": "2026-08", "date_source": "listing", "authors": ["A"]})
+    bad_date = entry(2, "S")
+    bad_date.update({"desc": "x" * 40, "published_date": "August 2026"})
+    bad_src = entry(3, "S")
+    bad_src.update({"desc": "x" * 40, "published_date": "2026", "date_source": "guess"})
+    na = entry(4, "S")
+    na.update({"desc": "x" * 40, "published_date": None, "date_source": "n/a"})
+    errors, _ = validate_entries([ok, bad_date, bad_src, na])
+    assert [e.split(":")[0] for e in errors] == ["#2", "#3"], errors
+
+
+def test_authors_list_parses_json_or_returns_none():
+    from build_from_db import _authors_list
+    assert _authors_list('["Doe, Jane", "Roe, R"]') == ["Doe, Jane", "Roe, R"]
+    assert _authors_list(None) is None
+    assert _authors_list("[]") is None
+    assert _authors_list("not json") is None
+
+
 def test_db_size_check(tmp_path):
     db = tmp_path / "hub.db"
     db.write_bytes(b"x" * 2048)

@@ -53,24 +53,46 @@ SESSION.headers.update({
 CONSECUTIVE_FAILURES = 0     # highest current per-host consecutive-failure streak
 MAX_CONSECUTIVE_FAILURES = 3
 _FAILURES_BY_HOST = {}
+# A 403/451 from the source's own primary host is a likely IP/WAF block, a
+# stronger signal than a generic failure — trip a faster stop so we bail before
+# earning a reputation ban (the Digital Promise edge-block, 2026-06-04). Scoped
+# to PRIMARY_HOST so outbound paywall 403s (e.g. CASEL -> tandfonline) never
+# halt a run.
+_BLOCK_BY_HOST = {}
+MAX_CONSECUTIVE_BLOCKS = 2
+HOST_BLOCKED = None          # primary host that tripped the block-stop, or None
+PRIMARY_HOST = None          # the source's discovery-URL host, set per run in main()
 DETAIL_FETCH_INCOMPLETE = False   # set when detail_fetch stops early; main then keeps the progress file
 
 
 def _note_success(url):
-    """A 200 from a host clears that host's failure streak."""
-    global CONSECUTIVE_FAILURES
-    _FAILURES_BY_HOST[_host(url)] = 0
+    """A 200 from a host clears that host's failure and block streaks."""
+    global CONSECUTIVE_FAILURES, HOST_BLOCKED
+    host = _host(url)
+    _FAILURES_BY_HOST[host] = 0
+    _BLOCK_BY_HOST[host] = 0
     CONSECUTIVE_FAILURES = max(_FAILURES_BY_HOST.values(), default=0)
+    if HOST_BLOCKED == host:
+        HOST_BLOCKED = None
 
 
-def _note_failure(url):
+def _note_failure(url, status=None):
     """Failures count per host: three dead external links in a row say nothing
     about the primary site, but three consecutive failures from one host mean
-    stop. Returns the failing host's streak."""
-    global CONSECUTIVE_FAILURES
+    stop. A 403/451 from the source's own primary host is a stronger signal — a
+    likely IP/WAF block — and trips a faster stop (MAX_CONSECUTIVE_BLOCKS) so we
+    bail before earning a reputation ban. Returns the failing host's streak."""
+    global CONSECUTIVE_FAILURES, HOST_BLOCKED
     host = _host(url)
     _FAILURES_BY_HOST[host] = _FAILURES_BY_HOST.get(host, 0) + 1
     CONSECUTIVE_FAILURES = max(_FAILURES_BY_HOST.values(), default=0)
+    if status in (403, 451) and host and host == PRIMARY_HOST:
+        _BLOCK_BY_HOST[host] = _BLOCK_BY_HOST.get(host, 0) + 1
+        if _BLOCK_BY_HOST[host] >= MAX_CONSECUTIVE_BLOCKS and HOST_BLOCKED != host:
+            HOST_BLOCKED = host
+            print(f"  {_BLOCK_BY_HOST[host]} consecutive HTTP {status} from {host} — "
+                  f"likely an IP/WAF block. Stopping this source; switch egress "
+                  f"(hotspot/VPN) or request an unblock before retrying.", file=sys.stderr)
     return _FAILURES_BY_HOST[host]
 MIN_BLURB_LENGTH = 30
 DEFAULT_DELAY = 5  # seconds between requests (no-policy default)
@@ -336,9 +358,11 @@ def fetch(url, **kwargs):
             if result:
                 _note_success(url)
                 return result
-        _note_failure(url)
+        _note_failure(url, r.status_code)
         print(f"  HTTP {r.status_code}: {url}", file=sys.stderr)
-        if CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
+        if HOST_BLOCKED:
+            print(f"  Block-stop on {HOST_BLOCKED} — stopping.", file=sys.stderr)
+        elif CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
             print(f"  {MAX_CONSECUTIVE_FAILURES} consecutive failures — stopping.", file=sys.stderr)
         return None
     except Exception as e:
@@ -366,7 +390,7 @@ def fetch_post(url, headers=None, json_body=None):
             if result:
                 _note_success(url)
                 return result
-        _note_failure(url)
+        _note_failure(url, r.status_code)
         print(f"  HTTP {r.status_code}: {url}", file=sys.stderr)
         return None
     except Exception as e:
@@ -546,7 +570,7 @@ def scrape_pagination(config, max_pages=None, existing_urls=None):
         print(f"  Fetching page {page_num}: {url}")
         r = fetch(url)
         if not r:
-            if CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
+            if HOST_BLOCKED or CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
                 break
             page_num += 1
             continue
@@ -719,7 +743,7 @@ def scrape_api(config, max_pages=None, existing_urls=None):
             r = fetch(url, params=params)
 
         if not r:
-            if CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
+            if HOST_BLOCKED or CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
                 break
             page_num += page_step
             pages_fetched += 1
@@ -1016,7 +1040,7 @@ def fetch_detail_descriptions(items, config, source):
     print(f"[scrape] detail_fetch: {len(need_fetch)} items need descriptions (est. ~{est_minutes} min)...")
 
     for count, (i, item) in enumerate(need_fetch):
-        if CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
+        if HOST_BLOCKED or CONSECUTIVE_FAILURES >= MAX_CONSECUTIVE_FAILURES:
             global DETAIL_FETCH_INCOMPLETE
             DETAIL_FETCH_INCOMPLETE = True
             print(f"[scrape] detail_fetch: stopping due to {MAX_CONSECUTIVE_FAILURES} consecutive failures from one host.")
@@ -1040,6 +1064,11 @@ def fetch_detail_descriptions(items, config, source):
                     val = clean_text(fel.get(spec.get("attr")) if spec.get("attr") else fel.get_text(" ", strip=True))
                     if val:
                         items[i][field] = val
+                        # Record which fields the item page (not the listing)
+                        # supplied, so their provenance can be labelled.
+                        items[i].setdefault("detail_fields", [])
+                        if field not in items[i]["detail_fields"]:
+                            items[i]["detail_fields"].append(field)
             el = soup.select_one(selector)
             if el:
                 desc = clean_text(el.get(attr) if attr else el.get_text(" ", strip=True))
@@ -1257,8 +1286,10 @@ def main():
     discovery = config["discovery"]
 
     # Per-source delay override, never below MIN_DELAY (robots.txt may raise it)
-    global _request_delay
+    global _request_delay, PRIMARY_HOST
     _request_delay = effective_delay(config)
+    # The source's own host — a 403/451 streak here trips the block-stop
+    PRIMARY_HOST = _host(config.get("discovery_url", ""))
 
     print(f"[scrape] Source: {source} ({discovery}, {_request_delay}s delay)")
 

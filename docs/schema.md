@@ -16,8 +16,13 @@ date_added: date                 # When entry was added to the hub
 last_verified: date              # When source URL was last checked
 description_inferred: boolean    # true = description derived from title/context; false = fetched directly
 description_source: string|null  # What kind of text the description is — see "Description provenance" below
+published_date: string|null      # The source's own publication date, ISO at the granularity given: YYYY, YYYY-MM or YYYY-MM-DD
+date_source: string|null         # Where published_date came from — see "Structured metadata provenance" below; "n/a" = the source publishes no date
+authors: list[string]|null       # Author names as the source lists them
 tags: list[string]               # Controlled vocabulary (see below)
 ```
+
+Two recency axes are exposed and kept separate: `published_date` (the source's date; filled source by source, so null means "not captured yet" unless `date_source` is `n/a`) and `date_added` (when the hub took the row in). `data.json` `meta.dates` reports the coverage counts and the entry-number range; entry numbers are not contiguous.
 
 `url` identifies a row: hub.db keeps one row per URL across published and excluded entries, compared case-insensitively and without a trailing slash (unique index `idx_entries_url_norm`; `build_from_db.py --check` reports any violation).
 
@@ -90,16 +95,21 @@ Descriptions are **never** written from title alone. The following rules apply:
 | `page-meta` | Verbatim one-sentence teaser from the item page's meta description (e.g. Brookings) |
 | `page-abstract` | Verbatim abstract or opening text from the item page (e.g. NWEA, UChicago Consortium, CASEL `detail_fetch`; the May 2026 TNTP rows, restored to the full opening text in August 2026 except #683) |
 | `llm-summary` | Written by an agent from the fetched page: the May 2026 hand-indexed entries (other than Digital Promise and TNTP), and weekly-run upgrades of `page-meta` teasers. Labels were checked against site text on a per-source sample in August 2026. |
-
-### Database-only columns (not in the published files)
-
-`data/hub.db` keeps two columns that the published outputs do not carry yet:
-
-- `raw_item` — everything the scraper collected for the row, as staged (JSON): listing or API fields such as authors, date and the publisher's type label, evidence fields where a source provides them, and for detail-fetched pages the `page_meta` block (meta description, og:*, published time, canonical URL). Kept so later passes (tagging, type review, description upgrades) never need to fetch the page again. Rows inserted before 2026-08-31 have it only where a later re-scrape filled it.
-- `source_subjects` — the publisher's own topic labels for the item (JSON list), unmapped to the hub's tag vocabulary.
-
-Excluded rows with `exclude_reason = type_filtered:<label>` are items a source's `type_allow` filter set aside (for example Brookings commentary); they keep title, URL, blurb and `raw_item` and can be reactivated with `scripts/curate.py`. Rows with `source_on_hold` belong to a source whose weekly scraping is paused (Brookings); `out_of_scope` marks a row the review dropped under `docs/purpose.md` § Scope. Rated-only rules: `wwc_tier_minus1_no_evidence` holds WWC intervention reports whose evidence tier is −1, and `essa_no_evidence` holds Evidence for ESSA programs whose API rating is "No Evidence" or "N/A" (from 2026-08-31; the June 2026 load of the same population carries `essa_no_evidence_no_description`).
 | `manual` | Written or edited by a maintainer |
 | `null` | Not recorded |
 
 `description_source` says what kind of text the description is. `description_inferred` keeps the meaning in the table above. New rows get the value from the staged item (`listing`, or the `detail_fetch` label); only `scripts/process_staged.py` and `scripts/curate.py` set it.
+
+### Structured metadata provenance (`date_source`, `authors_source`)
+
+Every structured field extracted from a source carries its own provenance column, mirroring `description_source`. Values: `listing` (the listing page or API), `page-meta` (the item page, through a `detail_fetch` `extra_fields` selector), `prose` (reserved: a value read out of running text, not used yet), `llm` (reserved: a future LLM extraction pass), `manual`. `n/a` appears only in the published outputs, on `date_source`, for sources that publish no real date (Evidence for ESSA and Campbell Collaboration, whose API date is the CMS post date). Filled by `scripts/process_staged.py --backfill-metadata`, which updates existing rows matched by URL and never guesses: an unparseable date stays empty. Only Digital Promise rows carry values as of 2026-09-15; the per-source backfill is on `meta/roadmap.md`.
+
+### Database-only columns (not in the published files)
+
+`data/hub.db` keeps columns that the published outputs do not carry:
+
+- `raw_item` — everything the scraper collected for the row, as staged (JSON): listing or API fields such as authors, date and the publisher's type label, evidence fields where a source provides them, and for detail-fetched pages the `page_meta` block (meta description, og:*, published time, canonical URL). Kept so later passes (tagging, type review, description upgrades) never need to fetch the page again. Rows inserted before 2026-08-31 have it only where a later re-scrape filled it.
+- `source_subjects` — the publisher's own topic labels for the item (JSON list), unmapped to the hub's tag vocabulary.
+- `authors_source`, `grade_level`, `grade_level_source` — provenance for `authors`, and a grade / education level with its provenance where a source states one (WWC, Evidence for ESSA); `grade_level` is not published yet.
+
+Excluded rows with `exclude_reason = type_filtered:<label>` are items a source's `type_allow` filter set aside (for example Brookings commentary); they keep title, URL, blurb and `raw_item` and can be reactivated with `scripts/curate.py`. Rows with `source_on_hold` belong to a source whose weekly scraping is paused (Brookings); `out_of_scope` marks a row the review dropped under `docs/purpose.md` § Scope. Rated-only rules: `wwc_tier_minus1_no_evidence` holds WWC intervention reports whose evidence tier is −1, and `essa_no_evidence` holds Evidence for ESSA programs whose API rating is "No Evidence" or "N/A" (from 2026-08-31; the June 2026 load of the same population carries `essa_no_evidence_no_description`).

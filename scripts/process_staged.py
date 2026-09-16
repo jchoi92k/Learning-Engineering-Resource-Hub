@@ -179,6 +179,17 @@ EXTRA_COLUMNS = {
     "raw_item": "TEXT",
     # The publisher's own topic labels for the item (JSON list), unmapped.
     "source_subjects": "TEXT",
+    # Structured metadata + a per-field provenance column each, mirroring
+    # description_source. Provenance records whether a value came from the
+    # source of truth (listing / page-meta) or was LLM-extracted. See
+    # METADATA_FIELDS; add a field by adding its two columns here plus one
+    # registry entry.
+    "published_date": "TEXT",       # ISO, granularity as given (YYYY / YYYY-MM / YYYY-MM-DD)
+    "date_source": "TEXT",
+    "authors": "TEXT",              # JSON list of names
+    "authors_source": "TEXT",
+    "grade_level": "TEXT",          # plain string when the source states one
+    "grade_level_source": "TEXT",
 }
 
 
@@ -210,6 +221,123 @@ def _subjects_json(item):
     if isinstance(tags, str) and tags.strip():
         return json.dumps([tags.strip()], ensure_ascii=False)
     return None
+
+
+_MONTHS = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6, "jul": 7, "aug": 8,
+    "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+
+def _norm_date(val):
+    """Normalise a publisher date to ISO, keeping only the granularity given:
+    'YYYY', 'YYYY-MM', or 'YYYY-MM-DD'. Returns None when unparseable — a date
+    we can't trust for sorting is better absent than guessed."""
+    if not val:
+        return None
+    s = str(val).strip()
+    m = re.match(r"^(\d{4})-(\d{2})(?:-(\d{2}))?", s)
+    if m:
+        return _iso(m.group(1), m.group(2), m.group(3))
+    m = re.match(r"^([A-Za-z]+)\.?\s+(?:(\d{1,2}),?\s+)?(\d{4})$", s)
+    if m and m.group(1).lower() in _MONTHS:
+        return _iso(m.group(3), _MONTHS[m.group(1).lower()], m.group(2))
+    m = re.match(r"^(\d{4})$", s)
+    if m:
+        return m.group(1)
+    return None
+
+
+def _iso(year, month, day=None):
+    """Assemble YYYY-MM[-DD], or None when the month or day is out of range."""
+    month, day = int(month), (int(day) if day else None)
+    if not 1 <= month <= 12 or (day is not None and not 1 <= day <= 31):
+        return None
+    return f"{year}-{month:02d}-{day:02d}" if day else f"{year}-{month:02d}"
+
+
+def _authors_json(val):
+    """Normalise an author value (list or string) to a JSON list of names."""
+    if not val:
+        return None
+    if isinstance(val, str):
+        val = [val]
+    names = [str(a).strip() for a in val if str(a).strip()]
+    return json.dumps(names, ensure_ascii=False) if names else None
+
+
+def _grade_level(val):
+    """Grade / education level as a plain string, when the source states one."""
+    if not val:
+        return None
+    return str(val).strip() or None
+
+
+# Structured metadata backfilled from a staged item. Each field is paired with
+# the column that records its provenance, the raw item keys the value is read
+# from, and the extractor. Add a field by adding one entry here plus its two
+# EXTRA_COLUMNS.
+METADATA_FIELDS = {
+    "published_date": ("date_source", ("date",), lambda it: _norm_date(it.get("date"))),
+    "authors": ("authors_source", ("authors",), lambda it: _authors_json(it.get("authors"))),
+    "grade_level": ("grade_level_source", ("grade", "grade_level"),
+                    lambda it: _grade_level(it.get("grade") or it.get("grade_level"))),
+}
+
+METADATA_SOURCES = ("listing", "page-meta", "prose", "llm", "manual")
+
+
+def _meta_source_label(item, raw_keys=()):
+    """Where a structured field's value came from: 'page-meta' when the item
+    page supplied it (scrape.py's detail_fetch extra_fields records the keys it
+    filled in item['detail_fields']), otherwise 'listing' — the listing page or
+    API. Independent of blurb_source, which describes the description only.
+    The LLM fallback path stamps 'llm' explicitly on the fields it fills."""
+    detail_fields = item.get("detail_fields") or ()
+    return "page-meta" if any(k in detail_fields for k in raw_keys) else "listing"
+
+
+def backfill_metadata(conn, items, overwrite=False):
+    """Fill METADATA_FIELDS (+ source_subjects) on EXISTING rows matched by URL.
+    Never inserts, never touches description / tags / excluded, and does not
+    bump updated_at. By default only empty fields are filled; overwrite=True
+    replaces them. Returns (counts_by_field, matched, unmatched)."""
+    ensure_columns(conn)
+    rows = {url_key(u): num for num, u in conn.execute("SELECT num, url FROM entries")}
+    fields = list(METADATA_FIELDS)
+    counts = {f: 0 for f in fields}
+    counts["source_subjects"] = 0
+    matched = unmatched = 0
+    for item in items:
+        url = (item.get("url") or "").strip()
+        num = rows.get(url_key(url)) if url else None
+        if num is None:
+            unmatched += 1
+            continue
+        matched += 1
+        row = conn.execute(
+            f"SELECT {', '.join(fields)}, source_subjects FROM entries WHERE num=?", (num,)
+        ).fetchone()
+        current = dict(zip(fields + ["source_subjects"], row))
+        sets, vals = [], []
+        for field, (src_col, raw_keys, extract) in METADATA_FIELDS.items():
+            value = extract(item)
+            if value is None or (current[field] and not overwrite):
+                continue
+            sets += [f"{field}=?", f"{src_col}=?"]
+            vals += [value, _meta_source_label(item, raw_keys)]
+            counts[field] += 1
+        subjects = _subjects_json(item)
+        if subjects and (overwrite or not current["source_subjects"]):
+            sets.append("source_subjects=?")
+            vals.append(subjects)
+            counts["source_subjects"] += 1
+        if sets:
+            vals.append(num)
+            conn.execute(f"UPDATE entries SET {', '.join(sets)} WHERE num=?", vals)
+    return counts, matched, unmatched
 
 
 def _verified_fields(item):
@@ -358,6 +486,10 @@ def main():
     parser.add_argument("--limit", type=int, default=None, help="Process only the first N items")
     parser.add_argument("--offset", type=int, default=0, help="Skip the first N items")
     parser.add_argument("--preview", action="store_true", help="Show entries without writing to DB")
+    parser.add_argument("--backfill-metadata", action="store_true",
+                        help="Update EXISTING rows' date/authors/grade/subjects from the staged file (no inserts)")
+    parser.add_argument("--overwrite", action="store_true",
+                        help="With --backfill-metadata, replace existing values instead of filling only empties")
     args = parser.parse_args()
 
     staged_path = STAGING_DIR / f"{args.source}.json"
@@ -380,6 +512,18 @@ def main():
         items = items[:args.limit]
 
     print(f"[process] Source: {args.source}, {len(items)} items to process")
+
+    if args.backfill_metadata:
+        conn = get_db()
+        counts, matched, unmatched = backfill_metadata(conn, items, overwrite=args.overwrite)
+        conn.commit()
+        conn.close()
+        print(f"[process] Backfill metadata ({'overwrite' if args.overwrite else 'fill-empty'}): "
+              f"matched {matched} existing rows; {unmatched} staged items had no row")
+        for field, n in counts.items():
+            print(f"    {field}: {n} rows filled")
+        print("[process] Next: run `python scripts/build_from_db.py`")
+        return
 
     start_num = get_last_entry_num() + 1
     source_name = SOURCE_NAME_MAP.get(args.source, args.source)

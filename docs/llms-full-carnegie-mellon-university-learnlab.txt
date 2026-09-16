@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Carnegie Mellon University LearnLab (full)
-# 12 entries with descriptions | Last updated: 2026-09-14
+# 12 entries with descriptions | Last updated: 2026-09-15
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-carnegie-mellon-university-learnlab.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,6 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -35,6 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-02
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, data-sharing, learning-engineering, open-datasets]
@@ -56,6 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [assistments, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -77,6 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [assistments, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -98,6 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -119,6 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, higher-ed, intelligent-tutoring, learning-engineering, open-datasets]
@@ -140,6 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, digital-learning-platforms, k-12, learning-engineering, math-education, open-datasets, personalized-learning]
@@ -161,6 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [a-b-testing, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -182,6 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [a-b-testing, cmu-learnlab, intelligent-tutoring, k-12, learning-engineering, math-education, open-datasets]
@@ -203,6 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, higher-ed, k-12, learning-engineering, open-datasets]
@@ -224,6 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, digital-learning-platforms, higher-ed, learning-engineering, open-datasets]
@@ -245,6 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-03
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [cmu-learnlab, computer-assisted-learning, higher-ed, learning-engineering, longitudinal, open-datasets]

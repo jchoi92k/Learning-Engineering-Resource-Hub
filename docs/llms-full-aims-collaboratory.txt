@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — AIMS Collaboratory (full)
-# 47 entries with descriptions | Last updated: 2026-09-14
+# 47 entries with descriptions | Last updated: 2026-09-15
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-aims-collaboratory.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -14,6 +14,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, carnegie-learning, math-strategies, nlp]
@@ -35,6 +38,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, math-strategies, nlp]
@@ -56,6 +62,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, llm-application, pii-privacy]
@@ -77,6 +86,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, genai, llm-application, pii-privacy]
@@ -98,6 +110,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, genai, math-education]
@@ -119,6 +134,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, coaching]
@@ -140,6 +158,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, computer-assisted-learning, k-12, rct]
@@ -161,6 +182,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, llm-application, nlp]
@@ -182,6 +206,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [a-b-testing, aims, upgrade-platform]
@@ -203,6 +230,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, pii-privacy, rppl]
@@ -224,6 +254,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, rppl]
@@ -245,6 +278,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [a-b-testing, aims, upgrade-platform]
@@ -266,6 +302,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, lsu, math-education, student-belonging]
@@ -287,6 +326,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, coaching, rppl]
@@ -308,6 +350,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, math-strategies, nlp]
@@ -329,6 +374,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, lsu, math-education, student-belonging]
@@ -350,6 +398,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, math-education]
@@ -371,6 +422,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, math-word-problems, nlp]
@@ -392,6 +446,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -413,6 +470,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [a-b-testing, aims, upgrade-platform]
@@ -434,6 +494,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, data-sharing, norc]
@@ -455,6 +518,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, digital-learning-platforms]
@@ -476,6 +542,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, formative-assessment, rppl]
@@ -497,6 +566,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, lsu, math-motivation, qualitative-research]
@@ -518,6 +590,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, early-childhood, lsu, qualitative-research]
@@ -539,6 +614,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, digital-learning-platforms, lsu]
@@ -560,6 +638,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, english-learners, northwestern-e4]
@@ -581,6 +662,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, english-learners, northwestern-e4]
@@ -602,6 +686,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, attendance, northwestern-e4, school-discipline]
@@ -623,6 +710,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, genai, lsu, math-education]
@@ -644,6 +734,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, digital-learning-platforms, math-education, northwestern-e4]
@@ -665,6 +758,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, early-childhood, northwestern-e4, prekindergarten]
@@ -686,6 +782,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, lsu, math-education]
@@ -707,6 +806,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -728,6 +830,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, k-12, math-education, northwestern-e4]
@@ -749,6 +854,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, k-12, math-education, northwestern-e4]
@@ -770,6 +878,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, k-12, math-education, northwestern-e4]
@@ -791,6 +902,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, lsu, math-motivation]
@@ -812,6 +926,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, professional-development, rppl]
@@ -833,6 +950,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, northwestern-e4, professional-development, sel]
@@ -854,6 +974,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-06
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, data-sharing, norc]
@@ -875,6 +998,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, carnegie-learning, computer-assisted-learning, k-12, longitudinal, math-education, personalized-learning]
@@ -896,6 +1022,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, data-sharing, lastinger-center, pii-privacy]
@@ -917,6 +1046,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, k-12, lsu, math-education, math-motivation, qualitative-research]
@@ -938,6 +1070,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, computer-assisted-learning, k-12, longitudinal, lsu, math-education]
@@ -959,6 +1094,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, k-12, lsu, school-discipline]
@@ -980,6 +1118,9 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-05-10
+published_date: null
+date_source: null
+authors: null
 doi: null
 license: null
 tags: [aims, k-12, longitudinal, math-education, northwestern-e4]

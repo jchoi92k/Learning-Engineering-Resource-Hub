@@ -1,0 +1,233 @@
+# Weekly corpus update, run in the cloud.
+#
+# Job "update": scripts/update.sh runs as a plain shell step (scrape, insert,
+# build), then the /weekly-update skill (.claude/skills/weekly-update/) triages
+# the sources and reviews the new rows. The job has a read-only GitHub token
+# and no access to the key that can open a pull request. A guard step then
+# discards any change outside the paths a weekly run may touch and re-runs the
+# checks.
+# Job "publish": takes the changed files as an artifact, commits them to the
+# fixed branch auto/weekly as the updater GitHub App, and opens or updates the
+# pull request. A maintainer merges; nothing reaches main without that.
+#
+# Manual trigger only for now. The cron is added after a clean real run.
+name: Weekly update
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run: scrape only, no database writes, no pull request'
+        type: boolean
+        default: true
+      sources:
+        description: 'Space-separated source slugs (blank = the weekly list)'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+env:
+  # Paths a weekly run may change. Anything else is restored by the guard step.
+  ALLOWED_PATHS: 'data/hub.db docs meta/processing-log.md sources'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    outputs:
+      has_changes: ${{ steps.guard.outputs.has_changes }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+
+      - run: pip install -r requirements.txt pytest ruff
+
+      - name: Pipeline (scripts/update.sh)
+        id: pipeline
+        continue-on-error: true  # a failed pipeline step is for the agent to report; the guard fails the job
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          SOURCES: ${{ inputs.sources }}
+        run: |
+          args=()
+          [[ "$DRY_RUN" == "true" ]] && args+=(--dry-run)
+          [[ -n "$SOURCES" ]] && args+=(--sources "$SOURCES")
+          bash scripts/update.sh "${args[@]}"
+
+      - name: Run /weekly-update
+        id: agent
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: /weekly-update --already-run
+          claude_args: |
+            --model claude-opus-5
+            --max-turns 150
+
+      - name: Guard
+        id: guard
+        if: always()
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          PIPELINE_OUTCOME: ${{ steps.pipeline.outcome }}
+          AGENT_OUTCOME: ${{ steps.agent.outcome }}
+        run: |
+          set -uo pipefail
+          # 1. Discard every change outside the allowed paths (tracked and untracked).
+          mapfile -t changed < <(git status --porcelain --untracked-files=all | cut -c4-)
+          reverted=()
+          for f in "${changed[@]}"; do
+            ok=0
+            for p in $ALLOWED_PATHS; do
+              [[ "$f" == "$p" || "$f" == "$p"/* ]] && ok=1
+            done
+            [[ "$f" == sources/* && "$f" != sources/*.json ]] && ok=0
+            if [[ $ok -eq 0 ]]; then
+              reverted+=("$f")
+              if git ls-files --error-unmatch -- "$f" >/dev/null 2>&1; then
+                git checkout -- "$f"
+              else
+                rm -f -- "$f"
+              fi
+            fi
+          done
+
+          # 2. Re-run the checks on what is left.
+          checks=pass
+          python scripts/build_from_db.py --check || checks=fail
+          python -m pytest tests/ -q || checks=fail
+          ruff check scripts/ tests/ || checks=fail
+
+          # 3. Decide whether there is anything to publish. Nothing is published
+          #    from a dry run, after a failed check, or when the pipeline or the
+          #    review step did not finish (unreviewed rows stay off the branch).
+          publishable=false
+          if [[ "$DRY_RUN" != "true" && "$checks" == "pass" && "$PIPELINE_OUTCOME" == "success" && "$AGENT_OUTCOME" == "success" ]]; then
+            publishable=true
+          fi
+          has_changes=false
+          if [[ "$publishable" == "true" ]]; then
+            if ! git diff --quiet || [[ -n "$(git ls-files --others --exclude-standard -- sources docs)" ]]; then
+              has_changes=true
+            fi
+          fi
+          echo "has_changes=$has_changes" >> "$GITHUB_OUTPUT"
+
+          # 4. Report.
+          {
+            echo "## Weekly update"
+            echo
+            echo "- Dry run: $DRY_RUN"
+            echo "- Pipeline step: $PIPELINE_OUTCOME"
+            echo "- Review step: $AGENT_OUTCOME"
+            echo "- Checks after the review step: $checks"
+            echo "- Changes to publish: $has_changes"
+            if [[ ${#reverted[@]} -gt 0 ]]; then
+              echo "- **Changes outside the allowed paths were discarded:** ${reverted[*]}"
+            fi
+            echo
+            for f in docs/staging/pr-body.md docs/staging/run-summary.md; do
+              if [[ -f "$f" ]]; then echo "### $f"; echo; cat "$f"; echo; fi
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          # 5. Bundle the changed files for the publish job.
+          if [[ "$has_changes" == "true" ]]; then
+            { git diff --name-only; git ls-files --others --exclude-standard -- sources docs; } | sort -u > "$RUNNER_TEMP/changed.txt"
+            git diff --name-only --diff-filter=D > "$RUNNER_TEMP/deleted.txt"
+            grep -v -x -F -f "$RUNNER_TEMP/deleted.txt" "$RUNNER_TEMP/changed.txt" > "$RUNNER_TEMP/present.txt" || true
+            mkdir -p "$RUNNER_TEMP/bundle"
+            if [[ -s "$RUNNER_TEMP/present.txt" ]]; then
+              tar -cf "$RUNNER_TEMP/bundle/files.tar" -T "$RUNNER_TEMP/present.txt"
+            fi
+            cp "$RUNNER_TEMP/deleted.txt" "$RUNNER_TEMP/bundle/deleted.txt"
+            if [[ -f docs/staging/pr-body.md ]]; then
+              cp docs/staging/pr-body.md "$RUNNER_TEMP/bundle/pr-body.md"
+            else
+              cp docs/staging/run-summary.md "$RUNNER_TEMP/bundle/pr-body.md"
+            fi
+          fi
+          [[ "$checks" == "pass" && "$PIPELINE_OUTCOME" == "success" && "$AGENT_OUTCOME" == "success" ]]
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-update-logs
+          path: |
+            docs/staging/run-summary.md
+            docs/staging/pr-body.md
+            docs/staging/logs/
+          if-no-files-found: warn
+
+      - name: Upload changes
+        if: steps.guard.outputs.has_changes == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-update-bundle
+          path: ${{ runner.temp }}/bundle/
+          retention-days: 7
+
+  publish:
+    needs: update
+    if: needs.update.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Mint the updater App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: weekly-update-bundle
+          path: ${{ runner.temp }}/bundle
+
+      - name: Commit to auto/weekly and open or update the pull request
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
+          BUNDLE: ${{ runner.temp }}/bundle
+        run: |
+          set -euo pipefail
+          bot="${APP_SLUG}[bot]"
+          bot_id="$(gh api "/users/${bot}" --jq .id)"
+          git config user.name "$bot"
+          git config user.email "${bot_id}+${bot}@users.noreply.github.com"
+
+          git checkout -B auto/weekly
+          if [[ -f "$BUNDLE/files.tar" ]]; then tar -xf "$BUNDLE/files.tar"; fi
+          while IFS= read -r f; do [[ -n "$f" ]] && git rm -q --ignore-unmatch -- "$f"; done < "$BUNDLE/deleted.txt"
+          git add -A -- data/hub.db docs meta/processing-log.md sources
+          if git diff --cached --quiet; then echo "Nothing to commit."; exit 0; fi
+
+          today="$(date -u +%F)"
+          git commit -q -m "Add the $today weekly update"
+          git push --force origin auto/weekly
+
+          if [[ -n "$(gh pr list --head auto/weekly --state open --json number --jq '.[0].number')" ]]; then
+            gh pr edit auto/weekly --title "Weekly update $today" --body-file "$BUNDLE/pr-body.md"
+          else
+            gh pr create --base main --head auto/weekly --title "Weekly update $today" --body-file "$BUNDLE/pr-body.md"
+          fi

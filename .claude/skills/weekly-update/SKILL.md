@@ -1,7 +1,7 @@
 ---
 name: weekly-update
 description: Weekly corpus refresh for the Renaissance hub. Runs scripts/update.sh, repairs a failed source by editing its sources/*.json only, reviews the new rows with curate.py (scope, tags, description upgrades from stored page text), verifies the build, and writes docs/staging/pr-body.md. Never commits, pushes or opens a pull request.
-argument-hint: '[--sources "lpi wwc ..."] [--dry-run]'
+argument-hint: '[--sources "lpi wwc ..."] [--dry-run] | --already-run'
 allowed-tools: Read, Grep, Glob, Edit(sources/**), Write(docs/staging/**), Bash(bash scripts/update.sh*), Bash(python scripts/*), Bash(python -m pytest*), Bash(ruff check*), Bash(git status*), Bash(git diff*), Bash(git log*), Bash(ls*), Bash(cat docs/staging/*), Bash(head*), Bash(tail*)
 ---
 
@@ -23,6 +23,8 @@ You are the review step of the weekly update. The mechanics are all in scripts; 
 ## Procedure
 
 ### 0. Preconditions
+
+**Called with `--already-run`** (the cloud workflow does this): `scripts/update.sh` has already run in this checkout, as a shell step, just before you started. Skip the checks below and step 1, and start at step 2 with the `docs/staging/run-summary.md` it wrote. The tree will show the run's own changes (`data/hub.db`, `docs/`, `meta/processing-log.md`); that is expected. Do not run `update.sh` again. If `run-summary.md` is missing, the pipeline died before writing it: say so in `docs/staging/pr-body.md`, quote the tail of any log under `docs/staging/logs/`, and stop.
 
 1. `git status --short`: the tree should be clean apart from files under `docs/staging/`. Anything else is a maintainer's work in progress — report it and stop.
 2. `ls docs/staging/update.lock` must fail (no lock).

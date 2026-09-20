@@ -76,6 +76,40 @@ jobs:
             --model claude-opus-5
             --max-turns 150
 
+      # Diagnostics: which tool calls did the review step have refused? Only that
+      # list is kept (tool name + what it tried, cut to 300 characters), never the
+      # transcript. The file is dropped if anything in it looks like a credential.
+      - name: Refused tool calls
+        id: denials
+        if: always() && steps.agent.outputs.execution_file != ''
+        env:
+          EXECUTION_FILE: ${{ steps.agent.outputs.execution_file }}
+        run: |
+          # docs/staging/ is gitignored, so the guard step leaves this file alone.
+          mkdir -p docs/staging
+          out="docs/staging/refused-tool-calls.json"
+          filter='[.[] | select(.type == "result") | (.permission_denials // [])[] | {tool: .tool_name, tried: (.tool_input | tostring | .[0:300])}]'
+          if ! jq "$filter" "$EXECUTION_FILE" > "$out"; then
+            echo "Could not read the execution file."
+            rm -f "$out"
+            exit 0
+          fi
+          if grep -q -E 'sk-ant-|gh[pousr]_[A-Za-z0-9]{20,}|github_pat_|PRIVATE KEY' "$out"; then
+            rm -f "$out"
+            echo "::error::The refused-tool-calls extract matched a credential pattern. It was deleted and not uploaded."
+            exit 1
+          fi
+          echo "Refused tool calls recorded: $(jq length "$out")"
+
+      - name: Upload refused tool calls
+        if: always() && steps.denials.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: refused-tool-calls
+          path: docs/staging/refused-tool-calls.json
+          retention-days: 1
+          if-no-files-found: ignore
+
       - name: Guard
         id: guard
         if: always()
@@ -111,10 +145,13 @@ jobs:
           ruff check scripts/ tests/ || checks=fail
 
           # 3. Decide whether there is anything to publish. Nothing is published
-          #    from a dry run, after a failed check, or when the pipeline or the
-          #    review step did not finish (unreviewed rows stay off the branch).
+          #    from a dry run, after a failed check, when the pipeline or the
+          #    review step did not finish, or when the review left no summary
+          #    (unreviewed rows stay off the branch; the fix is to run again).
+          summary=missing
+          [[ -s docs/staging/pr-body.md ]] && summary=present
           publishable=false
-          if [[ "$DRY_RUN" != "true" && "$checks" == "pass" && "$PIPELINE_OUTCOME" == "success" && "$AGENT_OUTCOME" == "success" ]]; then
+          if [[ "$DRY_RUN" != "true" && "$checks" == "pass" && "$PIPELINE_OUTCOME" == "success" && "$AGENT_OUTCOME" == "success" && "$summary" == "present" ]]; then
             publishable=true
           fi
           has_changes=false
@@ -132,6 +169,7 @@ jobs:
             echo "- Dry run: $DRY_RUN"
             echo "- Pipeline step: $PIPELINE_OUTCOME"
             echo "- Review step: $AGENT_OUTCOME"
+            echo "- Review summary (docs/staging/pr-body.md): $summary"
             echo "- Checks after the review step: $checks"
             echo "- Changes to publish: $has_changes"
             if [[ ${#reverted[@]} -gt 0 ]]; then
@@ -153,13 +191,12 @@ jobs:
               tar -cf "$RUNNER_TEMP/bundle/files.tar" -T "$RUNNER_TEMP/present.txt"
             fi
             cp "$RUNNER_TEMP/deleted.txt" "$RUNNER_TEMP/bundle/deleted.txt"
-            if [[ -f docs/staging/pr-body.md ]]; then
-              cp docs/staging/pr-body.md "$RUNNER_TEMP/bundle/pr-body.md"
-            else
-              cp docs/staging/run-summary.md "$RUNNER_TEMP/bundle/pr-body.md"
-            fi
+            cp docs/staging/pr-body.md "$RUNNER_TEMP/bundle/pr-body.md"
           fi
-          [[ "$checks" == "pass" && "$PIPELINE_OUTCOME" == "success" && "$AGENT_OUTCOME" == "success" ]]
+          if [[ "$summary" == "missing" ]]; then
+            echo "::error::The review step did not write docs/staging/pr-body.md. Nothing was published; run the workflow again."
+          fi
+          [[ "$checks" == "pass" && "$PIPELINE_OUTCOME" == "success" && "$AGENT_OUTCOME" == "success" && "$summary" == "present" ]]
 
       - name: Upload logs
         if: always()

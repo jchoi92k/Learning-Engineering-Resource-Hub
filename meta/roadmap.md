@@ -17,7 +17,6 @@
 
 ## Weekly update
 
-- **Skill refinements surfaced by the 2026-09-14 run:** restate the research-outputs genre rule inside the row-review step of `/weekly-update` (a webinar series and an "impact story" slipped through as `report`); add a rule for removing unsupported pipeline tags, or say explicitly that removal waits for the bulk revision; extend the description-upgrade rule from `page-meta` teasers to one-sentence `listing` blurbs when page text is stored on the row.
 - **Move the run to a cloud cron** (GitHub Actions running `scripts/update.sh`, then `claude-code-action` invoking `/weekly-update`, then a publish job that opens the PR). Preconditions: local runs judged stable, a read-only dispatch workflow proving the runner's IP can reach every source, and a model choice for the cron.
 - **Retire `sources/*-backlog.txt`** — `scrape.py` still writes these on every run; pending rows in hub.db carry that role now.
 

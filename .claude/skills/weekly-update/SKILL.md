@@ -61,9 +61,10 @@ python scripts/curate.py recent --since-num <A-1> --json
 Rows with `excluded = 1` and reason `no_description_pending` are backlog items (the listing had no blurb); count them and move on. For each active row, in this order:
 
 1. **Scope** — the test is `docs/purpose.md` § Scope: learning or teaching must be the central activity. Exclude only a clear miss (`python scripts/curate.py exclude <num> --reason out_of_scope`); the published examples are military/veteran welfare, adult disability employment, agricultural extension. When unsure, keep the row and list it under "Needs a human" in the PR body.
-2. **Description** — read it. It must be the publisher's text (`description_source` = `listing`, `page-meta` or `page-abstract`). If it is boilerplate ("Read more", cookie text, the title repeated) or cut mid-sentence, that is a *config* problem: do not rewrite it; note the row and the likely selector in the PR body.
-3. **Tags** — the vocabulary is the list in `docs/schema.md`; `set-tags` refuses anything else. Add a tag only when the description makes it obvious (a randomized trial without `rct`, a mathematics study without `math-education`, a K-12 study without `k-12`). `python scripts/curate.py set-tags <num> "tag1,tag2,…"` replaces the whole set, so pass the existing tags plus the additions. In doubt, leave the tags alone.
-4. **`page-meta` teasers** (today: EdTrust) — a one-sentence meta description is thin. Run `python scripts/curate.py show <num> --json` and look at `raw_item.page_text`. If it holds at least a few paragraphs of the article, write two or three sentences that say what the piece examines, for whom, and its main finding or argument as stated in that text — nothing that is not in `page_text`. Save it to `docs/staging/desc-<num>.txt` and apply `python scripts/curate.py set-description <num> --source llm-summary --file docs/staging/desc-<num>.txt`. No `page_text`, or only a stub: leave the teaser as it is.
+2. **Genre** — a separate test from topic, and a lenient one. The hub indexes research outputs (`docs/purpose.md` § Scope), but most genre filtering already happens in the source configs (`type_allow`), so here you only catch what slipped past a misleading source label. Exclude (`--reason out_of_scope`) only an item that is unmistakably a non-research format from its title or description: a webinar or event page or registration, a webinar series, a podcast episode, a video, a press release, a newsletter. Keep anything that may plausibly carry findings or analysis — briefs, stories with data, collections of reports, perspectives, toolkits — and keep it without comment; use "Needs a human" only when you are truly torn. Judge from the title, description and `raw_item`, not from the `type` column: the pipeline maps unknown source labels to `report`, and a source's own label can mislead (a WestEd "Collection" was a webinar series). A wrongly dropped report costs more than a published webinar.
+3. **Description** — read it. It must be the publisher's text (`description_source` = `listing`, `page-meta` or `page-abstract`). If it is boilerplate ("Read more", cookie text, the title repeated) or cut mid-sentence, that is a *config* problem: do not rewrite it; note the row and the likely selector in the PR body.
+4. **Tags** — the vocabulary is the list in `docs/schema.md`; `set-tags` refuses anything else. Add a tag only when the description makes it obvious (a randomized trial without `rct`, a mathematics study without `math-education`, a K-12 study without `k-12`). `python scripts/curate.py set-tags <num> "tag1,tag2,…"` replaces the whole set, so pass the existing tags plus the additions. In doubt, leave the tags alone. Do not remove tags. The pipeline's keyword tags are known to be noisy and are revised in one bulk pass (`meta/roadmap.md`), not row by row; if a tag on a new row is plainly wrong, list it under "Review" in the PR body (`#num -tag, reason`) so the bulk pass can use it.
+5. **Thin descriptions** — a `page-meta` teaser (today: EdTrust) or a `listing` blurb of a single sentence says too little. Run `python scripts/curate.py show <num> --json` and look at `raw_item.page_text`. If it holds at least a few paragraphs of the article, write two or three sentences that say what the piece examines, for whom, and its main finding or argument as stated in that text — nothing that is not in `page_text`. Save it to `docs/staging/desc-<num>.txt` and apply `python scripts/curate.py set-description <num> --source llm-summary --file docs/staging/desc-<num>.txt`. No `page_text`, or only a stub: leave the description as it is. A description of two or more sentences is never replaced, whatever its source.
 
 Every `curate.py` write prints the before/after; keep those for the PR body.
 
@@ -96,12 +97,14 @@ Write `docs/staging/pr-body.md`:
 
 ### Review
 - Out of scope (excluded): #num — title — one-line reason (or "none")
+- Out of genre (excluded): #num — title — what it is (or "none")
 - Tags added: #num +tag (or "none")
-- Descriptions upgraded (page-meta → llm-summary): #num (or "none")
+- Pipeline tags that look wrong (left in place): #num -tag — reason (or "none")
+- Descriptions upgraded (→ llm-summary): #num, previous source (or "none")
 
 ### Needs a human
 - Sources still failing after one attempt, with the error
-- Rows you were unsure about (scope, boilerplate descriptions, suspected selector drift)
+- Rows you were unsure about (scope, genre, boilerplate descriptions, suspected selector drift)
 - Throttle audit warnings, if any
 - Anything that would need a change outside sources/*.json
 

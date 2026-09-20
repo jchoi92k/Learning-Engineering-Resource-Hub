@@ -1,0 +1,40 @@
+# Checks on every push to main and every pull request: unit tests, lint, and
+# build_from_db.py --check (entries validate, docs/ matches hub.db, one row per
+# URL, hub.db under the size limit). No network access to sources, no secrets.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+
+      - run: pip install -r requirements.txt pytest ruff
+
+      - name: Unit tests
+        run: python -m pytest tests/ -q
+
+      - name: Lint
+        run: ruff check scripts/ tests/
+
+      - name: Published files match hub.db
+        run: python scripts/build_from_db.py --check

@@ -38,6 +38,7 @@ repo-root/
   worker/         ← Cloudflare Worker (MCP server)
   worker-le-resource-hub/ ← proxy shim: old le-resource-hub URL → renaissance-hub
   .claude/skills/ ← agent skills committed with the repo (weekly-update)
+  .github/workflows/ ← GitHub Actions workflows (runner-access-check)
 ```
 
 ### Which folder serves which part of the project
@@ -68,6 +69,7 @@ repo-root/
 - **`ruff.toml`** — lint config; run `ruff check scripts/ tests/`.
 - **`.gitignore`** — note: `wiki/`, `docs/legacy/`, `docs/staging/` are gitignored.
 - **`.claude/skills/weekly-update/SKILL.md`** — the `/weekly-update` skill: the agent half of the weekly refresh (runs `update.sh`, repairs a failed source via its `sources/*.json` only, reviews new rows with `curate.py`, verifies, writes `docs/staging/pr-body.md`; never commits or pushes). Same file whether invoked on a laptop or by a cloud runner.
+- **`.github/workflows/runner-access-check.yml`** — manual, read-only workflow: runs `scripts/update.sh --dry-run` on a GitHub-hosted runner to check that every weekly source is reachable from there; no database writes, no secrets, nothing committed. The run summary and per-source logs are in the job summary and artifact.
 
 ### `docs/` — the published referatory (GitHub Pages root)
 

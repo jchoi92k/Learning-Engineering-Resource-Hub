@@ -1,0 +1,69 @@
+# Read-only check: can a GitHub-hosted runner reach every weekly source?
+# Runs scripts/update.sh --dry-run (scrape only: no hub.db writes, no build,
+# nothing committed) and uploads the run summary and per-source logs.
+# Manual trigger only. No secrets, no model call.
+name: Runner access check
+
+on:
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: 'Space-separated source slugs (blank = the weekly list)'
+        required: false
+        default: ''
+      scrape_args:
+        description: 'Extra scrape.py flags for every source'
+        required: false
+        default: '--pages 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: runner-access-check
+  cancel-in-progress: false
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+
+      - run: pip install -r requirements.txt
+
+      - name: Dry run
+        env:
+          SOURCES: ${{ inputs.sources }}
+          SCRAPE_ARGS: ${{ inputs.scrape_args }}
+        run: |
+          args=(--dry-run)
+          [[ -n "$SOURCES" ]] && args+=(--sources "$SOURCES")
+          [[ -n "$SCRAPE_ARGS" ]] && args+=(--scrape-args "$SCRAPE_ARGS")
+          bash scripts/update.sh "${args[@]}"
+
+      - name: Summary
+        if: always()
+        run: |
+          [[ -f docs/staging/run-summary.md ]] && cat docs/staging/run-summary.md >> "$GITHUB_STEP_SUMMARY"
+          {
+            echo '### Request audit per source'
+            echo '```'
+            grep -H -E 'Request audit|HOST_BLOCKED' docs/staging/logs/*.log || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: runner-access-check
+          path: |
+            docs/staging/run-summary.md
+            docs/staging/logs/
+          if-no-files-found: warn

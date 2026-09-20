@@ -53,3 +53,7 @@ Config-driven: `python scripts/scrape.py digital-promise` (config in `digital-pr
 - The `/server/api/core/items` endpoint (list all) returns 401 — only the discovery/search endpoint works anonymously.
 - Sitemaps return HTTP 202 with empty bodies — broken/async. Do not rely on them.
 - 19 collections exist (Artificial Intelligence, Learner Variability Project, Micro-credentials, etc.) — usable for topic filtering via `scope={collection-uuid}` param if needed.
+
+## Where it runs (2026-09-20)
+
+In the weekly list again, for cloud runs. `digitalpromise.dspacedirect.org` edge-blocked the maintainer's home IP on 2026-09-06 after repeated per-URL link verification (not scraping); a GitHub-hosted runner got normal 200 responses on 2026-09-20 (robots.txt + one API page). Do not run `verify_urls.py` or `update.sh --verify` against this host. From a blocked IP the scrape stops after two refusals.

@@ -1,5 +1,6 @@
 {
   "_comment": "Machine-readable config for scripts/scrape.py. Human context in campbell-collaboration.md. orderby/order make the newest-first assumption behind early_stop explicit.",
+  "skip_on_cloud_runner": "campbellcollaboration.org answered every request from GitHub-hosted runners with HTTP 202 and no content (2 of 2 runs on 2026-09-20); it loads normally from a home connection",
   "discovery": "api",
   "discovery_url": "https://www.campbellcollaboration.org/wp-json/wp/v2/review",
   "url_filter": {

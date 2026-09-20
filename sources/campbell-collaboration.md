@@ -53,3 +53,7 @@ The scraper paginates the full API (4 pages, 307 reviews), then applies the URL 
 - Individual review pages are plain-language summaries, not full systematic reviews (those are on Wiley)
 - No author bylines or DOIs on Campbell's own pages
 - 11 coordinating groups serve as informal taxonomy
+
+## Where it runs (2026-09-20)
+
+Laptop only. From GitHub-hosted runners `campbellcollaboration.org` answered every request (robots.txt, the education listing, the API) with HTTP 202 and no content in two dry runs on 2026-09-20, after answering 200 earlier the same day; it loads normally from a home connection. The config carries `skip_on_cloud_runner`, so the cloud weekly run lists it as skipped and makes no request. Run it by hand: `bash scripts/update.sh --sources "campbell-collaboration"`.

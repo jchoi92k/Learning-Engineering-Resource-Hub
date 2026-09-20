@@ -45,6 +45,7 @@ Read `docs/staging/run-summary.md`. For every row whose Status is not `ok`, read
 | Status | What to do |
 |---|---|
 | `ok` | Nothing. |
+| `skipped (laptop only)` | Nothing to fix: the source's config opts out of cloud runners (`skip_on_cloud_runner`) and no request was made. Copy the summary's "Skipped on this cloud runner" line under "Needs a human" so the maintainer remembers the laptop run. |
 | `partial (fetch failures)` | Read the request log. HTTP 403 / 429 or connection errors from the source: report, do not retry (the throttle clock and robots delay are already applied). A transient error on one page: nothing — next week's run picks it up. |
 | `empty (0 items extracted …)` | Selector drift or a block. Run `python scripts/scrape.py <src> --test`. If the page loads but yields no items, compare the selectors in `sources/<src>.json` with the test output and the `## Entry metadata` section of `sources/<src>.md`; make **one** config edit; run `--test` again. If it passes: `python scripts/scrape.py <src>` then `python scripts/process_staged.py <src>` and add the source's inserts to your review in step 3. If it still fails, revert and report. If the request log shows 403 / 429: report, no retry. |
 | `scrape failed (exit N)` | Read the traceback in the log. A config problem (invalid JSON, missing key, bad URL) gets the same one-attempt treatment. A code error is not yours to fix: report it with the traceback. |

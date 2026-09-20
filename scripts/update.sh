@@ -19,9 +19,14 @@
 # Not in the weekly list on purpose (see meta/operator-guide.md and sources/*.md):
 #   brookings (selected set; its Research label mixes reports with commentary),
 #   casel (60s crawl-delay + detail fetch, run manually), jedm/jla (frozen
-#   selective set), ies-rel (no config), aims/rand/mdrc/nap (blocked or manual),
-#   digital-promise (IP edge-blocked by dspacedirect 2026-09-06; corpus is
-#     near-complete and near-static — scrape/verify only via a different egress).
+#   selective set), ies-rel (no config), aims/rand/mdrc/nap (blocked or manual).
+#
+# digital-promise is back in the list (2026-09-20) for cloud runs: dspacedirect
+# edge-blocked the maintainer's home IP on 2026-09-06 after per-URL verification,
+# but answers GitHub-hosted runners normally. From a blocked IP the scrape stops
+# after two refusals. Never run --verify against it.
+# campbell-collaboration opts out of cloud runners in its config
+# (skip_on_cloud_runner): it is scraped from a laptop only.
 #
 # The script never aborts on a single failing source: each source's outcome is
 # recorded in the summary and the run continues. Exit code is non-zero only if
@@ -36,6 +41,7 @@ PY="${PYTHON:-python}"
 WEEKLY_SOURCES=(
   campbell-collaboration
   credo
+  digital-promise
   edtrust
   evidence-for-essa
   lpi
@@ -107,6 +113,7 @@ PIPELINE_FAILED=0
 TOTAL_INSERTED=0
 TOTAL_PENDING=0
 TOTAL_FILTERED=0
+CLOUD_SKIPPED=()   # sources whose config opts out of cloud runners (skip_on_cloud_runner)
 RECON_WARNINGS=()  # per-source counts that do not add up (see the reconciliation checks below)
 
 for src in "${SOURCES[@]}"; do
@@ -115,6 +122,19 @@ for src in "${SOURCES[@]}"; do
   log="$LOG_DIR/$src.log"
   status="ok"
   scraped=0; new=0; ready=0; backlog=0; filtered=0; inserted=0; pending=0; held=0; range="-"
+
+  # A config can opt out of cloud runners ("skip_on_cloud_runner": "<reason>"):
+  # some hosts answer datacenter IPs with a challenge page. On GitHub Actions the
+  # source is listed as skipped, with no request made; anywhere else it runs.
+  if [[ "${GITHUB_ACTIONS:-}" == "true" && -f "sources/$src.json" ]]; then
+    skip_reason="$("$PY" -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8")).get("skip_on_cloud_runner") or "")' "sources/$src.json" 2>/dev/null)"
+    if [[ -n "$skip_reason" ]]; then
+      echo "  skipped on this cloud runner: $skip_reason"
+      CLOUD_SKIPPED+=("$src")
+      RESULTS+=("$src|skipped (laptop only)|0|0|0|0|0|0|0|-")
+      continue
+    fi
+  fi
 
   # Remove any stale staging file so a failed scrape can't feed last run's items
   # to process_staged. --fresh: ignore a leftover progress file from an
@@ -257,6 +277,10 @@ fi
   if [[ ${#FAILED_SOURCES[@]} -gt 0 ]]; then
     echo
     echo "**Sources needing attention:** ${FAILED_SOURCES[*]}"
+  fi
+  if [[ ${#CLOUD_SKIPPED[@]} -gt 0 ]]; then
+    echo
+    echo "**Skipped on this cloud runner (run from a laptop: \`bash scripts/update.sh --sources \"${CLOUD_SKIPPED[*]}\"\`):** ${CLOUD_SKIPPED[*]}"
   fi
   if [[ ${#RECON_WARNINGS[@]} -gt 0 ]]; then
     echo

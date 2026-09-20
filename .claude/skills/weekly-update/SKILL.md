@@ -20,6 +20,16 @@ You are the review step of the weekly update. The mechanics are all in scripts; 
 - **A throttle warning stops you.** Each scrape log ends with a request audit; a repeated URL or a gap below the delay means: no more requests this run, report it.
 - **Descriptions come from the source.** Never write one from a title. The only description you may write is the `llm-summary` upgrade in step 3, grounded in the row's stored `page_text`.
 
+## How to use your tools here
+
+In the cloud nobody can approve a prompt: a tool call outside the allowed list is refused, and every refusal wastes a turn. The 2026-09-20 dry runs lost a third of their turns this way.
+
+- **Read files with Read, Grep and Glob**, not with the shell. No `for` loops over logs, no `cat a; cat b` chains.
+- **One plain command per Bash call, run from the repository root.** No `cd`, no `git -C`, no `&&` / `;` chains, no pipes. `python scripts/curate.py …`, `git status --short`, `ls docs/staging` each pass as they are; wrapped in `cd /path && …` they are refused.
+- **No inline or scratch scripts** (`python - <<EOF`, a throwaway `.py` file). If a script in `scripts/` does not give you what you need, read the file with Read instead.
+- **You may create and change files only in `sources/*.json` and under `docs/staging/`.** Give paths relative to the repository root (`docs/staging/pr-body.md`). If one file tool is refused, try the other (Write, then Edit) once; do not retry the same call. Do not delete files.
+- **In a dry run there are no new rows**, so skip step 3: report the run-summary table and the triage, and do not dig through the staged JSON to preview items.
+
 ## Procedure
 
 ### 0. Preconditions

@@ -85,6 +85,11 @@ jobs:
         env:
           EXECUTION_FILE: ${{ steps.agent.outputs.execution_file }}
         run: |
+          # Size of the review, for the job summary: turns, refused calls, and the
+          # API-price equivalent Claude Code reports (not billed on a subscription token).
+          metrics='[.[] | select(.type == "result")][-1] | "turns=\(.num_turns // "?")", "cost=\(.total_cost_usd // "?")", "refused=\((.permission_denials // []) | length)"'
+          jq -r "$metrics" "$EXECUTION_FILE" >> "$GITHUB_OUTPUT" || true
+
           # docs/staging/ is gitignored, so the guard step leaves this file alone.
           mkdir -p docs/staging
           out="docs/staging/refused-tool-calls.json"
@@ -117,8 +122,18 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run }}
           PIPELINE_OUTCOME: ${{ steps.pipeline.outcome }}
           AGENT_OUTCOME: ${{ steps.agent.outcome }}
+          REVIEW_TURNS: ${{ steps.denials.outputs.turns }}
+          REVIEW_COST: ${{ steps.denials.outputs.cost }}
+          REVIEW_REFUSED: ${{ steps.denials.outputs.refused }}
+          REFUSED_WARN_ABOVE: 5
         run: |
           set -uo pipefail
+          cost="?"
+          [[ "${REVIEW_COST:-}" =~ ^[0-9.]+$ ]] && cost="$(printf '%.2f' "$REVIEW_COST")"
+          review_line="Review step: ${REVIEW_TURNS:-?} turns, ${REVIEW_REFUSED:-?} refused tool calls, API-price equivalent \$$cost (not billed)"
+          if [[ "${REVIEW_REFUSED:-0}" =~ ^[0-9]+$ && "${REVIEW_REFUSED:-0}" -gt "$REFUSED_WARN_ABOVE" ]]; then
+            review_line="$review_line. **More than $REFUSED_WARN_ABOVE refused calls: the review is wasting effort; see the refused-tool-calls artifact.**"
+          fi
           # 1. Discard every change outside the allowed paths (tracked and untracked).
           mapfile -t changed < <(git status --porcelain --untracked-files=all | cut -c4-)
           reverted=()
@@ -170,6 +185,7 @@ jobs:
             echo "- Pipeline step: $PIPELINE_OUTCOME"
             echo "- Review step: $AGENT_OUTCOME"
             echo "- Review summary (docs/staging/pr-body.md): $summary"
+            echo "- $review_line"
             echo "- Checks after the review step: $checks"
             echo "- Changes to publish: $has_changes"
             if [[ ${#reverted[@]} -gt 0 ]]; then
@@ -192,6 +208,7 @@ jobs:
             fi
             cp "$RUNNER_TEMP/deleted.txt" "$RUNNER_TEMP/bundle/deleted.txt"
             cp docs/staging/pr-body.md "$RUNNER_TEMP/bundle/pr-body.md"
+            printf '\n---\n%s\n' "$review_line" >> "$RUNNER_TEMP/bundle/pr-body.md"
           fi
           if [[ "$summary" == "missing" ]]; then
             echo "::error::The review step did not write docs/staging/pr-body.md. Nothing was published; run the workflow again."

@@ -2,7 +2,7 @@
 name: weekly-update
 description: Weekly corpus refresh for the Renaissance hub. Runs scripts/update.sh, repairs a failed source by editing its sources/*.json only, reviews the new rows with curate.py (scope, tags, description upgrades from stored page text), verifies the build, and writes docs/staging/pr-body.md. Never commits, pushes or opens a pull request.
 argument-hint: '[--sources "lpi wwc ..."] [--dry-run] | --already-run'
-allowed-tools: Read, Grep, Glob, Edit(sources/**), Write(docs/staging/**), Bash(bash scripts/update.sh*), Bash(python scripts/*), Bash(python -m pytest*), Bash(ruff check*), Bash(git status*), Bash(git diff*), Bash(git log*), Bash(ls*), Bash(cat docs/staging/*), Bash(head*), Bash(tail*)
+allowed-tools: Read, Grep, Glob, Edit(sources/**), Edit(docs/staging/**), Bash(bash scripts/update.sh*), Bash(python scripts/*), Bash(python -m pytest*), Bash(ruff check*), Bash(git status*), Bash(git diff*), Bash(git log*), Bash(ls*), Bash(cat docs/staging/*), Bash(head*), Bash(tail*)
 ---
 
 # /weekly-update

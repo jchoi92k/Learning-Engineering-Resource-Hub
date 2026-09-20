@@ -107,6 +107,7 @@ PIPELINE_FAILED=0
 TOTAL_INSERTED=0
 TOTAL_PENDING=0
 TOTAL_FILTERED=0
+RECON_WARNINGS=()  # per-source counts that do not add up (see the reconciliation checks below)
 
 for src in "${SOURCES[@]}"; do
   echo
@@ -142,6 +143,19 @@ for src in "${SOURCES[@]}"; do
     FAILED_SOURCES+=("$src")
   fi
 
+  # Reconciliation, scrape side: every item not in the DB must land in one of
+  # the three piles. A remainder means items were dropped without a record, so
+  # next week's run would find them again (the 2026-09-14 filtered-items gap).
+  # --limit cuts the new items before they are sorted, so compare against the cut.
+  if [[ "$status" == "ok" || "$status" == partial* ]]; then
+    expected="$new"
+    limited="$(sed -n 's/^\[scrape\] --limit [0-9]*: keeping the first \([0-9]*\) of.*/\1/p' "$log" | tail -1)"
+    if [[ -n "$limited" ]]; then expected="$limited"; fi
+    if [[ $(( ready + backlog + filtered )) -ne $expected ]]; then
+      RECON_WARNINGS+=("$src: scrape found $expected items not in the DB but sorted $(( ready + backlog + filtered )) (ready $ready + backlog $backlog + filtered $filtered)")
+    fi
+  fi
+
   if [[ $DRY_RUN -eq 0 && ( "$ready" != "0" || "$backlog" != "0" || "$filtered" != "0" ) && -f "$STAGING/$src.json" ]]; then
     if "$PY" scripts/process_staged.py "$src" >> "$log" 2>&1; then
       inserted="$(sed -n 's/^\[process\] Inserted \([0-9]*\) entries (\([0-9-]*\)).*/\1/p' "$log" | tail -1)"
@@ -155,6 +169,13 @@ for src in "${SOURCES[@]}"; do
       TOTAL_PENDING=$(( TOTAL_PENDING + pending ))
       TOTAL_FILTERED=$(( TOTAL_FILTERED + held ))
       echo "  [process] inserted $inserted ($range), pending backlog rows $pending, config-filtered rows recorded $held"
+      # Reconciliation, DB side: every sorted item must become a row or be a
+      # logged duplicate skip.
+      dupes="$(sed -n 's/^\[process\] Skipped \([0-9]*\) duplicate URLs.*/\1/p' "$log" | tail -1)"
+      dupes="${dupes:-0}"
+      if [[ $(( inserted + pending + held + dupes )) -ne $(( ready + backlog + filtered )) ]]; then
+        RECON_WARNINGS+=("$src: $(( ready + backlog + filtered )) items staged but $(( inserted + pending + held + dupes )) recorded (inserted $inserted + pending $pending + filtered $held + duplicate skips $dupes)")
+      fi
     else
       status="process_staged failed"
       PIPELINE_FAILED=1
@@ -236,6 +257,12 @@ fi
   if [[ ${#FAILED_SOURCES[@]} -gt 0 ]]; then
     echo
     echo "**Sources needing attention:** ${FAILED_SOURCES[*]}"
+  fi
+  if [[ ${#RECON_WARNINGS[@]} -gt 0 ]]; then
+    echo
+    echo "**Counts that do not add up (items may have been dropped without a record — see the source's log):**"
+    echo
+    for w in "${RECON_WARNINGS[@]}"; do echo "- $w"; done
   fi
   if [[ -n "$HELD_OUT" ]]; then
     echo

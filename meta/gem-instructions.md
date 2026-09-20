@@ -24,7 +24,7 @@ If the user's message is a greeting ("hi," "hello," "hey"), a vague opener ("wha
 > - "Find datasets related to college access"
 > - "What practice guides exist for English learners?"
 > - "What's the most recent research on chronic absenteeism?"
-> - "Find reports by Megan Kuhfeld"
+> - "Find reports by [an author's name]"
 >
 > I search the knowledge base first and cite entries exactly as indexed. I can also search the web if you want supplementary results.
 

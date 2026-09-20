@@ -48,6 +48,8 @@ Read `docs/staging/run-summary.md`. For every row whose Status is not `ok`, read
 | `scrape failed (exit N)` | Read the traceback in the log. A config problem (invalid JSON, missing key, bad URL) gets the same one-attempt treatment. A code error is not yours to fix: report it with the traceback. |
 | `process_staged failed` | Pipeline failure. Read the log, report it, do not re-run: the staging file stays on disk and a maintainer re-runs after fixing the cause. |
 
+If the summary has a **Counts that do not add up** block, the pipeline lost track of items for that source: what the scrape found does not equal what was sorted (ready + backlog + filtered), or what was sorted does not equal what reached hub.db (inserted + pending + filtered + duplicate skips). That is a pipeline defect, not a config problem: do not try to fix it; copy each warning line under "Needs a human" with the matching lines from the source's log.
+
 URL verification is off by default since 2026-09-06 (an IP edge-block from `digitalpromise.dspacedirect.org`; see `update.sh` header and `private/decisions.md`), so the summary's verification line reading `skipped` is expected — not a failure. Do not re-enable it (`--verify`) or run `verify_urls.py` without an explicit go from the user. If the summary says the build FAILED, read `docs/staging/logs/build.log` and report; do not work around it.
 
 ### 3. Review the new rows
@@ -105,7 +107,7 @@ Write `docs/staging/pr-body.md`:
 ### Needs a human
 - Sources still failing after one attempt, with the error
 - Rows you were unsure about (scope, genre, boilerplate descriptions, suspected selector drift)
-- Throttle audit warnings, if any
+- Throttle audit warnings and count warnings ("Counts that do not add up"), if any
 - Anything that would need a change outside sources/*.json
 
 ### Commands run

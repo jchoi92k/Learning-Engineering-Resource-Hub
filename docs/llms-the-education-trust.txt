@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — The Education Trust
 
-> 322 entries from The Education Trust.
+> 324 entries from The Education Trust.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-the-education-trust.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-16
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-20
 
 - 145. [Engaging First: Supporting Young Learners Through Family Engagement](https://edtrust.org/rti/young-learners-family-engagement/) | report | early-childhood, edtrust, k-12, learning-engineering
 - 146. [Making Assessment Reports More Meaningful for Students & Families](https://edtrust.org/rti/assessment-reports-family-engagement/) | report | edtrust, formative-assessment, k-12, learning-engineering
@@ -326,3 +326,5 @@
 - 7438. [Ticket to Nowhere: The Gap Between Leaving High School and Entering College and High-Performance Jobs](https://edtrust.org/rti/ticket-to-nowhere-the-gap-between-leaving-high-school-and-entering-college-and-high-performance-jobs/) | report | college-access, edtrust
 - 7439. [Not Good Enough: A Content Analysis of Teacher Licensing Examinations](https://edtrust.org/rti/not-good-enough-a-content-analysis-of-teacher-licensing-examinations/) | report | edtrust
 - 7440. [Good Teaching Matters: How Well-Qualified Teachers Can Close the Gap](https://edtrust.org/rti/good-teaching-matters-how-well-qualified-teachers-can-close-the-gap/) | report | edtrust
+- 9022. [Falling Short on Newcomers: A Report Card on How Well States Support Newly Arrived Immigrant Students](https://edtrust.org/rti/falling-short-on-newcomers-a-report-card/) | report | edtrust, k-12
+- 9023. [An Educator’s Checklist for Supporting Immigrant Students in Schools](https://edtrust.org/rti/an-educators-checklist-for-supporting-immigrant-students/) | framework | edtrust, k-12

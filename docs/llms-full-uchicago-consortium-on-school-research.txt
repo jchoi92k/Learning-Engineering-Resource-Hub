@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — UChicago Consortium on School Research (full)
-# 323 entries with descriptions | Last updated: 2026-09-16
+# 324 entries with descriptions | Last updated: 2026-09-20
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-uchicago-consortium-on-school-research.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8074,5 +8074,30 @@ tags: [math-education]
 ```
 
 Mathematics education is a gatekeeper to academic opportunity that disproportionately affects students from historically marginalized communities. This chapter critiques the dominant research paradigms for understanding mathematics learning and argues for a shift toward interdisciplinary and asset-based approaches. Specific examples, frameworks, and recommendations are offered for researchers and other stakeholders seeking to reimagine the role of research in shaping mathematics education."What We Know About Learning: Taking Responsibility for Interdisciplinary Complexity in Educating Youth in Mathematics" is chapter 7 of Handbook of Race, Equity, and Asset-Based Research in Educational Psychology, edited by Francesca A. López, Jessica T. DeCuir-Gunby, DeLeon L. Gray. The full book is available from Routledge Press.
+
+---
+
+---
+
+### 9027. The Landscape of Career Readiness Opportunities in Chicago Public Schools
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/the-landscape-of-career-readiness-opportunities-in-chicago-public-schools"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12]
+```
+
+This is the first report from a two-phase study of career readiness opportunities in Chicago Public Schools (CPS) by the Illinois Workforce and Education Research Collaborative (IWERC) and the University of Chicago Consortium on School Research. This report lays the groundwork for understanding equity of access to career readiness opportunities in Chicago. Forthcoming reports from this series will look at the outcomes related to participation.This landscape study describes CPS’s vision and enactment of “career-connected learning” (CCL), a framework initiated in 2017, which aims to unify college preparatory and career readiness activities districtwide. Chicago is one of many districts in Illinois and nationally working to establish and implement a modern CCL framework. These efforts have largely outpaced research and community knowledge on the current state of career readiness opportunities in high schools. Our study begins to fill these gaps using novel district data which includes, not only student participation in career and technical education (CTE), but also on work-based learning (WBL) and advising activities, including the district’s Learn.Plan.Succeed. (LPS) Initiative, combined with interviews, document reviews, and student responses to the 5Essentials Survey.
 
 ---

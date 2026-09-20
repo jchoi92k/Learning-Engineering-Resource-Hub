@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Digital Promise (full)
-# 273 entries with descriptions | Last updated: 2026-09-16
+# 277 entries with descriptions | Last updated: 2026-09-20
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-digital-promise.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -6824,5 +6824,105 @@ tags: [digital-promise, formative-assessment]
 ```
 
 This field note introduces the 5-Phase user experience (UX) Design Loop as a transformative framework for education R&D teams. As AI technologies accelerate development cycles, this methodology helps teams navigate the shift from traditional static design to rapid, code-first prototyping. The loop emphasizes a cyclical, iterative process: aligning on core problems, designing concepts based on user needs, translating ideas into testable interfaces, conducting feedback sessions with real people, and synthesizing insights to drive informed product decisions. By leveraging AI-powered tools like V0 and Cursor, development teams can significantly compress the time from ideation to prototype, allowing greater focus on the critical human-led work of deep understanding and team alignment. The authors further address unique sector-specific challenges, including distinguishing between end-users and purchasers, identifying representative testing environments, and establishing meaningful metrics for small-scale learning.
+
+---
+
+---
+
+### 9018. Performing Is Not Teaching: What the Evidence Says About Reading Fluency Practices for Emergent Bilinguals
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/15a5fbd1-f9eb-4ba5-a160-4d17c12dfe74"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [digital-promise, english-learners, k-12, literacy]
+```
+
+This paper synthesizes evidence from eleven research studies to evaluate reading fluency practices for emergent bilinguals in elementary grades. The most consistently supported practices across the literature are repeated reading, fluent reading modeling or assisted reading, and immediate corrective or progress feedback. These practices are most effective when instruction is explicit, structured, and delivered using appropriately challenging, meaningful texts. For emergent bilinguals specifically, the evidence supports integrating oral reading practice with vocabulary and oral-language support and, where appropriate, primary-language scaffolding. The review also highlights a notable mismatch regarding Readers’ Theater: while widely used in classrooms, the limited research base makes it difficult to isolate benefits attributable specifically to its performance elements beyond the repeated reading and other supports embedded within the routine. Additionally, the paper identifies a widespread “prosody gap,” with limited explicit instructional guidance in phrasing, rhythm, and expression for multilingual learners. Ultimately, the authors advocate for scaffolded repeated reading routines paired with meaningful, appropriately challenging texts and innovative technologies to foster equitable reading development for emergent bilinguals.
+
+---
+
+---
+
+### 9019. Beyond Participation: The Capacities That Shape Engagement in Collaborative Innovation
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/e933ec0e-f153-4046-842b-61b696b00ba2"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [digital-promise]
+```
+
+Meaningful participation in education research and development requires more than inviting students, families, educators, and community members to contribute. This study examines the capacities and conditions that supported full participation in Collaborative Innovation, the Center for Learner Innovation Pathway’s (CLPI) structured approach to co-research and co-design. Drawing on structured reflections from CLPI researchers and program designers, the study identifies the skills, knowledge, and dispositions demonstrated by partners and the CLPI team and examines how program design and project conditions shaped engagement. Findings show that meaningful participation depended on complementary forms of expertise, opportunities for partners to take on substantive roles, staff facilitation that scaffolded rather than displaced partner leadership, and conditions such as protected time, clear expectations, trusted relationships, and flexible structures. The study also finds that capacity building emerged less as a discrete activity than as an outcome of participating in inquiry, reflection, decision-making, and co-design. The report offers practical lessons for researchers, designers, facilitators, and organizations seeking to move beyond representation toward shared ownership and co-leadership.
+
+---
+
+---
+
+### 9020. Participatory Evaluation: The Capacities That Shape Engagement
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/6a19cbce-04f2-4a90-a5cc-d4eeb4f8b152"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise]
+```
+
+Participatory evaluation offers a powerful approach to program evaluation by engaging partners as active contributors to inquiry rather than passive data sources. Yet little is known about what capacities — on the part of both partners and researchers — make meaningful participation possible in formal evaluation contexts. This study draws on structured reflections from Digital Promise’s Center for Learner Pathway Innovations researchers and evaluators across several educational program evaluations to examine the skills, knowledge, and dispositions that shaped engagement in participatory evaluation. Findings reveal that partner capacities are centered on data engagement, contextual expertise, and improvement orientation, while researcher capacities are centered on relational groundwork, facilitation, and emergent programmatic knowledge. Analysis of how the Collaborative Innovation core tenets appeared across projects suggests that participatory evaluation most readily supports engagement and interpretation, while deeper shifts in co-ownership and in the definition of progress remain areas for continued development. Implications for evaluation design and researcher practice are discussed.
+
+---
+
+---
+
+### 9021. Equity-Focused High School Alumni Connections: A Design Guide for Alumni Surveys
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/ad6d75e6-2c32-463b-9554-1e8260f2da48"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, k-12]
+```
+
+Developed by Digital Promise in partnership with SAP and the Learner-Centered Collaborative, this design guide serves as a practical toolkit for K-12 school and district leaders seeking to launch equity-focused alumni surveys. The guide details a collaborative co-design approach piloted and refined with multiple school and district partners between 2021 and 2025. Utilizing this Alumni Survey model leverages the lived experiences of students, staff, families, and graduates shifting educational research from designing for communities to designing with them. Central to the resource is a comprehensive nine-step technical roadmap that navigates teams through the survey design and launch so that their efforts translate into genuine institutional change. Real-world impact stories from partner districts illustrate how they have used their alumni data to transform their programs, address educational equity, and improve student outcomes. This guide concludes with strategic recommendations for educational leaders and researchers interested in maximizing the value of alumni feedback.
 
 ---

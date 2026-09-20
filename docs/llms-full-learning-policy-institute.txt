@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 352 entries with descriptions | Last updated: 2026-09-16
+# 353 entries with descriptions | Last updated: 2026-09-20
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8799,5 +8799,30 @@ tags: [dropout-prevention, k-12, lpi]
 ```
 
 More than 1.5 million U.S. students experienced homelessness in 2023–24, yet federal McKinney-Vento funding, which provides housing and educational protections for people experiencing homelessness, has limited reach. Washington is among the few states that provide funding beyond McKinney-Vento. As a result, the state is seeing improved identification, school stability, and graduation rates.
+
+---
+
+---
+
+### 9025. Cultivating Math Mindsets: State and District Policies That Support Teachers and Student Learning
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/cultivating-math-mindsets-policy-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [k-12, lpi, math-education]
+```
+
+The United States persistently falls behind other countries in math achievement, and students are increasingly disengaged. As states adopt new instructional materials, supporting teachers in cultivating classroom environments is essential. This brief examines case studies of 10 middle school math teachers and the school- and district-level factors that enabled or impeded efforts.
 
 ---

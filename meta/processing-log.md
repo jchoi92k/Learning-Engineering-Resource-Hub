@@ -225,3 +225,45 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 0 entries
 - Backlog rows recorded as pending (excluded): 4
 - Tags: keyword auto-tagged
+
+## 2026-09-20 - Digital Promise
+- Source slug: `digital-promise`
+- Scraped: 4 total, 4 ready, 0 backlog
+- Processed: 4 entries (9018-9021)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-09-20 - The Education Trust
+- Source slug: `edtrust`
+- Scraped: 2 total, 2 ready, 0 backlog
+- Processed: 2 entries (9022-9023)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-09-20 - Evidence for ESSA
+- Source slug: `evidence-for-essa`
+- Scraped: 0 total, 0 ready, 0 backlog
+- Processed: 0 entries
+- Backlog rows recorded as pending (excluded): 1
+- Tags: keyword auto-tagged
+
+## 2026-09-20 - Learning Policy Institute
+- Source slug: `lpi-briefs`
+- Scraped: 1 total, 1 ready, 0 backlog
+- Processed: 1 entries (9025-9025)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-09-20 - NWEA Research
+- Source slug: `nwea-research`
+- Scraped: 0 total, 0 ready, 0 backlog
+- Processed: 0 entries
+- Backlog rows recorded as pending (excluded): 1
+- Tags: keyword auto-tagged
+
+## 2026-09-20 - UChicago Consortium on School Research
+- Source slug: `uchicago-consortium`
+- Scraped: 1 total, 1 ready, 0 backlog
+- Processed: 1 entries (9027-9027)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged

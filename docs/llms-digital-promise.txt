@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — Digital Promise
 
-> 273 entries from Digital Promise.
+> 277 entries from Digital Promise.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-digital-promise.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-16
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-20
 
 - 18. [Breaking With the Past: Embracing Digital Transformation in Education](https://digitalpromise.dspacedirect.org/items/6559b261-d6d7-4184-9116-16eb93a9c212) | report | digital-learning-platforms, digital-promise, learning-engineering, personalized-learning
 - 19. [Computational Thinking for an Inclusive World](https://digitalpromise.dspacedirect.org/handle/20.500.12265/138) | report | computer-assisted-learning, digital-promise, inclusive-design, k-12, learning-engineering
@@ -277,3 +277,7 @@
 - 8967. [EdTech Quality Indicators Guide: Leveraging the Five EdTech Quality Indicators to save time and money, reduce risk, and improve student outcomes](https://digitalpromise.dspacedirect.org/items/f1e0fd08-9047-42e7-9a2d-190ccb4d10dd) | report | computer-assisted-learning, digital-promise, learning-engineering, response-to-intervention
 - 8968. [ATS Hub Field Note — AI Model Evaluation](https://digitalpromise.dspacedirect.org/items/ed855fb2-c4fe-42db-82f6-31cf00b351e4) | report | computer-assisted-learning, digital-promise, formative-assessment
 - 8969. [ATS Hub Field Note — The UX Design Loop](https://digitalpromise.dspacedirect.org/items/5790016d-f492-413c-a7c3-92a7a7429b4a) | report | digital-promise, formative-assessment
+- 9018. [Performing Is Not Teaching: What the Evidence Says About Reading Fluency Practices for Emergent Bilinguals](https://digitalpromise.dspacedirect.org/items/15a5fbd1-f9eb-4ba5-a160-4d17c12dfe74) | report | digital-promise, english-learners, k-12, literacy
+- 9019. [Beyond Participation: The Capacities That Shape Engagement in Collaborative Innovation](https://digitalpromise.dspacedirect.org/items/e933ec0e-f153-4046-842b-61b696b00ba2) | report | digital-promise
+- 9020. [Participatory Evaluation: The Capacities That Shape Engagement](https://digitalpromise.dspacedirect.org/items/6a19cbce-04f2-4a90-a5cc-d4eeb4f8b152) | report | computer-assisted-learning, digital-promise
+- 9021. [Equity-Focused High School Alumni Connections: A Design Guide for Alumni Surveys](https://digitalpromise.dspacedirect.org/items/ad6d75e6-2c32-463b-9554-1e8260f2da48) | report | computer-assisted-learning, digital-promise, k-12

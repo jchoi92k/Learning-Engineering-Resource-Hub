@@ -26,7 +26,7 @@
 # but answers GitHub-hosted runners normally. From a blocked IP the scrape stops
 # after two refusals. Never run --verify against it.
 # campbell-collaboration opts out of cloud runners in its config
-# (skip_on_cloud_runner): it is scraped from a laptop only.
+# (skip_on_cloud_runner): it is scraped from a local run only.
 #
 # The script never aborts on a single failing source: each source's outcome is
 # recorded in the summary and the run continues. Exit code is non-zero only if
@@ -131,7 +131,7 @@ for src in "${SOURCES[@]}"; do
     if [[ -n "$skip_reason" ]]; then
       echo "  skipped on this cloud runner: $skip_reason"
       CLOUD_SKIPPED+=("$src")
-      RESULTS+=("$src|skipped (laptop only)|0|0|0|0|0|0|0|-")
+      RESULTS+=("$src|skipped (local run only)|0|0|0|0|0|0|0|-")
       continue
     fi
   fi
@@ -280,7 +280,7 @@ fi
   fi
   if [[ ${#CLOUD_SKIPPED[@]} -gt 0 ]]; then
     echo
-    echo "**Skipped on this cloud runner (run from a laptop: \`bash scripts/update.sh --sources \"${CLOUD_SKIPPED[*]}\"\`):** ${CLOUD_SKIPPED[*]}"
+    echo "**Skipped on this cloud runner (run locally: \`bash scripts/update.sh --sources \"${CLOUD_SKIPPED[*]}\"\`):** ${CLOUD_SKIPPED[*]}"
   fi
   if [[ ${#RECON_WARNINGS[@]} -gt 0 ]]; then
     echo

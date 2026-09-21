@@ -1,7 +1,7 @@
 {
   "meta": {
     "total": 3912,
-    "last_updated": "2026-09-20",
+    "last_updated": "2026-09-21",
     "sources": [
       "ADL Initiative",
       "AI-for-Education.org",
@@ -210,9 +210,9 @@
       }
     ],
     "dates": {
-      "with_published_date": 3305,
+      "with_published_date": 3313,
       "published_date_not_available": 392,
-      "without_published_date": 215,
+      "without_published_date": 207,
       "num_min": 1,
       "num_max": 9027
     },
@@ -96605,9 +96605,14 @@
       "url_confirmed": true,
       "description_source": "listing",
       "date_added": "2026-09-20",
-      "published_date": null,
-      "date_source": null,
-      "authors": null,
+      "published_date": "2026-09",
+      "date_source": "listing",
+      "authors": [
+        "Taboada Barber, Ana",
+        "Urbano Aguilar, Sonia",
+        "Lopez Rodriguez, Alexandra",
+        "Pan, Yuanke"
+      ],
       "document_url": null,
       "tags": [
         "digital-promise",
@@ -96629,9 +96634,11 @@
       "url_confirmed": true,
       "description_source": "listing",
       "date_added": "2026-09-20",
-      "published_date": null,
-      "date_source": null,
-      "authors": null,
+      "published_date": "2026-09",
+      "date_source": "listing",
+      "authors": [
+        "White, Latia"
+      ],
       "document_url": null,
       "tags": [
         "digital-promise"
@@ -96650,12 +96657,15 @@
       "url_confirmed": true,
       "description_source": "listing",
       "date_added": "2026-09-20",
-      "published_date": null,
-      "date_source": null,
-      "authors": null,
+      "published_date": "2026-09",
+      "date_source": "listing",
+      "authors": [
+        "White, Latia",
+        "Gaviria, Grecia",
+        "Frausto, Alicia"
+      ],
       "document_url": null,
       "tags": [
-        "computer-assisted-learning",
         "digital-promise"
       ],
       "desc": "Participatory evaluation offers a powerful approach to program evaluation by engaging partners as active contributors to inquiry rather than passive data sources. Yet little is known about what capacities — on the part of both partners and researchers — make meaningful participation possible in formal evaluation contexts. This study draws on structured reflections from Digital Promise’s Center for Learner Pathway Innovations researchers and evaluators across several educational program evaluations to examine the skills, knowledge, and dispositions that shaped engagement in participatory evaluation. Findings reveal that partner capacities are centered on data engagement, contextual expertise, and improvement orientation, while researcher capacities are centered on relational groundwork, facilitation, and emergent programmatic knowledge. Analysis of how the Collaborative Innovation core tenets appeared across projects suggests that participatory evaluation most readily supports engagement and interpretation, while deeper shifts in co-ownership and in the definition of progress remain areas for continued development. Implications for evaluation design and researcher practice are discussed.",
@@ -96672,12 +96682,15 @@
       "url_confirmed": true,
       "description_source": "listing",
       "date_added": "2026-09-20",
-      "published_date": null,
-      "date_source": null,
-      "authors": null,
+      "published_date": "2026-09",
+      "date_source": "listing",
+      "authors": [
+        "Daal, Shelton",
+        "Leones, Tiffany",
+        "Iwatani, Emi"
+      ],
       "document_url": null,
       "tags": [
-        "computer-assisted-learning",
         "digital-promise",
         "k-12"
       ],
@@ -96695,8 +96708,8 @@
       "url_confirmed": true,
       "description_source": "llm-summary",
       "date_added": "2026-09-20",
-      "published_date": null,
-      "date_source": null,
+      "published_date": "2025-08-21",
+      "date_source": "listing",
       "authors": null,
       "document_url": null,
       "tags": [
@@ -96717,8 +96730,8 @@
       "url_confirmed": true,
       "description_source": "llm-summary",
       "date_added": "2026-09-20",
-      "published_date": null,
-      "date_source": null,
+      "published_date": "2025-08-06",
+      "date_source": "listing",
       "authors": null,
       "document_url": null,
       "tags": [
@@ -96739,9 +96752,12 @@
       "url_confirmed": true,
       "description_source": "listing",
       "date_added": "2026-09-20",
-      "published_date": null,
-      "date_source": null,
-      "authors": null,
+      "published_date": "2026-09-18",
+      "date_source": "listing",
+      "authors": [
+        "Julie Fitz",
+        "Heather Price"
+      ],
       "document_url": null,
       "tags": [
         "k-12",
@@ -96762,9 +96778,17 @@
       "url_confirmed": true,
       "description_source": "page-abstract",
       "date_added": "2026-09-20",
-      "published_date": null,
-      "date_source": null,
-      "authors": null,
+      "published_date": "2026-09",
+      "date_source": "listing",
+      "authors": [
+        "Sarah Cashdollar",
+        "Laura Davis",
+        "Amy Arneson",
+        "Gertrude Bakalus",
+        "Raisa Blazquez",
+        "Kaitlyn Franklin",
+        "Mahnoor Arif"
+      ],
       "document_url": null,
       "tags": [
         "career-readiness",

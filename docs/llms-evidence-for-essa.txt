@@ -2,7 +2,7 @@
 
 > 203 entries from Evidence for ESSA.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-evidence-for-essa.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-20
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-21
 
 - 16. [Lenses on Literature — Evidence for ESSA](https://evidenceforessa.org/program/lenses-on-literature/) | report | carnegie-learning, computer-assisted-learning, formative-assessment, k-12, learning-engineering
 - 201. [Evidence for ESSA: Reading Partners](https://evidenceforessa.org/program/reading-partners/) | report | coaching, k-12, literacy

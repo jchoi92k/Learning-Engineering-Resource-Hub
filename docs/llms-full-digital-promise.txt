@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Digital Promise (full)
-# 277 entries with descriptions | Last updated: 2026-09-20
+# 277 entries with descriptions | Last updated: 2026-09-21
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-digital-promise.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -6839,9 +6839,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-20
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-09
+date_source: listing
+authors: ["Taboada Barber, Ana", "Urbano Aguilar, Sonia", "Lopez Rodriguez, Alexandra", "Pan, Yuanke"]
 document_url: null
 doi: null
 license: null
@@ -6864,9 +6864,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-20
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-09
+date_source: listing
+authors: ["White, Latia"]
 document_url: null
 doi: null
 license: null
@@ -6889,13 +6889,13 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-20
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-09
+date_source: listing
+authors: ["White, Latia", "Gaviria, Grecia", "Frausto, Alicia"]
 document_url: null
 doi: null
 license: null
-tags: [computer-assisted-learning, digital-promise]
+tags: [digital-promise]
 ```
 
 Participatory evaluation offers a powerful approach to program evaluation by engaging partners as active contributors to inquiry rather than passive data sources. Yet little is known about what capacities — on the part of both partners and researchers — make meaningful participation possible in formal evaluation contexts. This study draws on structured reflections from Digital Promise’s Center for Learner Pathway Innovations researchers and evaluators across several educational program evaluations to examine the skills, knowledge, and dispositions that shaped engagement in participatory evaluation. Findings reveal that partner capacities are centered on data engagement, contextual expertise, and improvement orientation, while researcher capacities are centered on relational groundwork, facilitation, and emergent programmatic knowledge. Analysis of how the Collaborative Innovation core tenets appeared across projects suggests that participatory evaluation most readily supports engagement and interpretation, while deeper shifts in co-ownership and in the definition of progress remain areas for continued development. Implications for evaluation design and researcher practice are discussed.
@@ -6914,13 +6914,13 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-20
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-09
+date_source: listing
+authors: ["Daal, Shelton", "Leones, Tiffany", "Iwatani, Emi"]
 document_url: null
 doi: null
 license: null
-tags: [computer-assisted-learning, digital-promise, k-12]
+tags: [digital-promise, k-12]
 ```
 
 Developed by Digital Promise in partnership with SAP and the Learner-Centered Collaborative, this design guide serves as a practical toolkit for K-12 school and district leaders seeking to launch equity-focused alumni surveys. The guide details a collaborative co-design approach piloted and refined with multiple school and district partners between 2021 and 2025. Utilizing this Alumni Survey model leverages the lived experiences of students, staff, families, and graduates shifting educational research from designing for communities to designing with them. Central to the resource is a comprehensive nine-step technical roadmap that navigates teams through the survey design and launch so that their efforts translate into genuine institutional change. Real-world impact stories from partner districts illustrate how they have used their alumni data to transform their programs, address educational equity, and improve student outcomes. This guide concludes with strategic recommendations for educational leaders and researchers interested in maximizing the value of alumni feedback.

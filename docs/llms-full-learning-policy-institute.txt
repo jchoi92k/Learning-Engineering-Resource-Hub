@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 353 entries with descriptions | Last updated: 2026-09-20
+# 353 entries with descriptions | Last updated: 2026-09-21
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8814,9 +8814,9 @@ url_confirmed: true
 description_inferred: false
 description_source: listing
 date_added: 2026-09-20
-published_date: null
-date_source: null
-authors: null
+published_date: 2026-09-18
+date_source: listing
+authors: ["Julie Fitz", "Heather Price"]
 document_url: null
 doi: null
 license: null

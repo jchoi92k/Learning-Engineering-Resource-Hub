@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — The Education Trust (full)
-# 324 entries with descriptions | Last updated: 2026-09-20
+# 324 entries with descriptions | Last updated: 2026-09-21
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8064,8 +8064,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-09-20
-published_date: null
-date_source: null
+published_date: 2025-08-21
+date_source: listing
 authors: null
 document_url: null
 doi: null
@@ -8089,8 +8089,8 @@ url_confirmed: true
 description_inferred: false
 description_source: llm-summary
 date_added: 2026-09-20
-published_date: null
-date_source: null
+published_date: 2025-08-06
+date_source: listing
 authors: null
 document_url: null
 doi: null

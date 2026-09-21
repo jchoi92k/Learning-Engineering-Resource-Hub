@@ -737,3 +737,31 @@ def test_backfill_metadata_keeps_the_staged_item_as_raw_item():
     assert counts["raw_item"] == 1
     backfill_metadata(conn, items, overwrite=True)
     assert "date" in json.loads(conn.execute("SELECT raw_item FROM entries WHERE num=2").fetchone()[0])
+
+
+def test_a_normal_run_dates_the_rows_it_inserts(monkeypatch, tmp_path):
+    # 2026-09-21: the first cloud weekly run merged ten rows with empty
+    # published_date / authors although every staged item carried both; only
+    # --backfill-metadata wrote those columns. A plain run now fills them.
+    import process_staged
+
+    db = tmp_path / "hub.db"
+    seed = sqlite3.connect(db)
+    seed.executescript(ENTRIES_DDL)
+    seed.commit()
+    seed.close()
+    staged = {"items": [{"title": "New report", "url": "https://x.org/new", "blurb": LONG,
+                         "blurb_source": "listing", "date": "2026-09-18", "authors": ["A. Author", "B. Author"]}],
+              "backlog_items": [{"title": "Thin one", "url": "https://x.org/thin", "blurb": "", "date": "Sep 2026"}]}
+    (tmp_path / "s.json").write_text(json.dumps(staged), encoding="utf-8")
+    monkeypatch.setattr(process_staged, "DB_PATH", db)
+    monkeypatch.setattr(process_staged, "STAGING_DIR", tmp_path)
+    monkeypatch.setattr(process_staged, "write_log", lambda *a, **k: None)
+    monkeypatch.setattr(sys, "argv", ["process_staged.py", "s"])
+    process_staged.main()
+
+    conn = sqlite3.connect(db)
+    rows = conn.execute("SELECT published_date, date_source, authors, authors_source, excluded "
+                        "FROM entries ORDER BY num").fetchall()
+    assert rows[0] == ("2026-09-18", "listing", '["A. Author", "B. Author"]', "listing", 0)
+    assert rows[1][:2] == ("2026-09", "listing") and rows[1][4] == 1

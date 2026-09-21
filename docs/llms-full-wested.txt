@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — WestEd (full)
-# 915 entries with descriptions | Last updated: 2026-09-20
+# 915 entries with descriptions | Last updated: 2026-09-21
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---

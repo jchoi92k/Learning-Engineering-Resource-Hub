@@ -797,6 +797,13 @@ def main():
     if filtered_n:
         print(f"[process] Type filter: {filtered_n} rows ({start_num + inserted + pending}-{filtered_end}) "
               f"inserted as excluded (type_filtered:<label>)")
+    # The insert statements carry no structured metadata; fill it here from the
+    # same items so a new row is dated on arrival (2026-09-21: the first cloud
+    # run's rows came in with empty published_date / authors). Fill-empty only.
+    if inserted or pending or filtered_n:
+        meta_counts, _, _ = backfill_metadata(conn, items + backlog + filtered)
+        filled = ", ".join(f"{f} {meta_counts[f]}" for f in METADATA_FIELDS if meta_counts[f])
+        print(f"[process] Metadata on the new rows: {filled or 'none supplied by the source'}")
     conn.commit()
     conn.close()
 

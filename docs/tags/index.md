@@ -15,7 +15,7 @@
 
 ## Method
 
-- [computer-assisted-learning](computer-assisted-learning.md) — 256 entries
+- [computer-assisted-learning](computer-assisted-learning.md) — 254 entries
 - [longitudinal](longitudinal.md) — 203 entries
 - [response-to-intervention](response-to-intervention.md) — 188 entries
 - [rct](rct.md) — 85 entries

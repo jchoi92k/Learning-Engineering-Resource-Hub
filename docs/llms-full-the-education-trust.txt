@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — The Education Trust (full)
-# 322 entries with descriptions | Last updated: 2026-09-16
+# 324 entries with descriptions | Last updated: 2026-09-20
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8049,5 +8049,55 @@ tags: [edtrust]
 ```
 
 This report marshals findings from several recent large-scale studies of student achievement to argue that policy makers hoping to…
+
+---
+
+---
+
+### 9022. Falling Short on Newcomers: A Report Card on How Well States Support Newly Arrived Immigrant Students
+
+```yaml
+url: "https://edtrust.org/rti/falling-short-on-newcomers-a-report-card/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust, k-12]
+```
+
+A fifty-state scan of the policies that shape the education of newcomer students — youth new to the U.S. school system, a group that includes refugees, asylees, unaccompanied minors and students with limited or interrupted formal education. Each state education agency and the District of Columbia is graded on three criteria: the terminology used to define and identify newcomers, the data collected about them, and state-level funding beyond federal Title III grants. No agency scored higher than a C+ and the large majority received a D+ or below, with Minnesota, Massachusetts, Oregon and Washington the only states at C or above and five states earning an F; the report closes with recommendations for state leaders on definitions, data collection and dedicated funding.
+
+---
+
+---
+
+### 9023. An Educator’s Checklist for Supporting Immigrant Students in Schools
+
+```yaml
+url: "https://edtrust.org/rti/an-educators-checklist-for-supporting-immigrant-students/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust, k-12]
+```
+
+A guide for educators and advocates, produced by The Century Foundation with the National Education Association, the American Federation of Teachers, the National Immigration Law Center and other partners, setting out five actions to request of school leadership in order to protect the learning environment from fear and unnecessary immigration enforcement. It argues that the removal of school-based protections against immigration enforcement, and the presence or even the rumor of immigration agents near schools, can keep students home and deter families from engaging in their child's learning, despite federal law protecting the right to a free public education regardless of citizenship status.
 
 ---

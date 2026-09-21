@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Full Index
-# 3904 entries | Last updated: 2026-09-16
+# 3912 entries | Last updated: 2026-09-20
 #
 # HOW TO USE THIS FILE
 # This file contains all entries with full descriptions — everything is here.
@@ -9,14 +9,14 @@
 # Do NOT attempt to fetch other files. This file is self-contained.
 #
 # TAGS
-# Domain: k-12 (866), math-education (521), literacy (423), learning-engineering (301), english-learners (221), early-childhood (211), higher-ed (199), school-discipline (32)
-# Method: computer-assisted-learning (254), longitudinal (203), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
-# Topic: college-access (425), formative-assessment (411), sel (293), professional-development (279), career-readiness (234), personalized-learning (140), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
-# Affiliation: lpi (351), edtrust (322), digital-promise (273), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
+# Domain: k-12 (872), math-education (522), literacy (424), learning-engineering (301), english-learners (222), early-childhood (211), higher-ed (199), school-discipline (32)
+# Method: computer-assisted-learning (256), longitudinal (203), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+# Topic: college-access (426), formative-assessment (411), sel (293), professional-development (279), career-readiness (235), personalized-learning (140), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+# Affiliation: lpi (352), edtrust (324), digital-promise (277), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 #
-# TYPES: report (3006), paper (523), framework (168), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
+# TYPES: report (3013), paper (523), framework (169), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
 #
-# SOURCES: WestEd (915), Mathematica (633), Learning Policy Institute (352), UChicago Consortium on School Research (323), The Education Trust (322), NWEA Research (291), Digital Promise (273), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
+# SOURCES: WestEd (915), Mathematica (633), Learning Policy Institute (353), The Education Trust (324), UChicago Consortium on School Research (324), NWEA Research (291), Digital Promise (277), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
 
 ---
 
@@ -97615,5 +97615,205 @@ tags: [k-12]
 ```
 
 This WestEd report examines whether Florida's charter school application evaluation instrument predicts long-term school outcomes, finding stronger links to closure risk than accountability performance.
+
+---
+
+---
+
+### 9018. Performing Is Not Teaching: What the Evidence Says About Reading Fluency Practices for Emergent Bilinguals
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/15a5fbd1-f9eb-4ba5-a160-4d17c12dfe74"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [digital-promise, english-learners, k-12, literacy]
+```
+
+This paper synthesizes evidence from eleven research studies to evaluate reading fluency practices for emergent bilinguals in elementary grades. The most consistently supported practices across the literature are repeated reading, fluent reading modeling or assisted reading, and immediate corrective or progress feedback. These practices are most effective when instruction is explicit, structured, and delivered using appropriately challenging, meaningful texts. For emergent bilinguals specifically, the evidence supports integrating oral reading practice with vocabulary and oral-language support and, where appropriate, primary-language scaffolding. The review also highlights a notable mismatch regarding Readers’ Theater: while widely used in classrooms, the limited research base makes it difficult to isolate benefits attributable specifically to its performance elements beyond the repeated reading and other supports embedded within the routine. Additionally, the paper identifies a widespread “prosody gap,” with limited explicit instructional guidance in phrasing, rhythm, and expression for multilingual learners. Ultimately, the authors advocate for scaffolded repeated reading routines paired with meaningful, appropriately challenging texts and innovative technologies to foster equitable reading development for emergent bilinguals.
+
+---
+
+---
+
+### 9019. Beyond Participation: The Capacities That Shape Engagement in Collaborative Innovation
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/e933ec0e-f153-4046-842b-61b696b00ba2"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [digital-promise]
+```
+
+Meaningful participation in education research and development requires more than inviting students, families, educators, and community members to contribute. This study examines the capacities and conditions that supported full participation in Collaborative Innovation, the Center for Learner Innovation Pathway’s (CLPI) structured approach to co-research and co-design. Drawing on structured reflections from CLPI researchers and program designers, the study identifies the skills, knowledge, and dispositions demonstrated by partners and the CLPI team and examines how program design and project conditions shaped engagement. Findings show that meaningful participation depended on complementary forms of expertise, opportunities for partners to take on substantive roles, staff facilitation that scaffolded rather than displaced partner leadership, and conditions such as protected time, clear expectations, trusted relationships, and flexible structures. The study also finds that capacity building emerged less as a discrete activity than as an outcome of participating in inquiry, reflection, decision-making, and co-design. The report offers practical lessons for researchers, designers, facilitators, and organizations seeking to move beyond representation toward shared ownership and co-leadership.
+
+---
+
+---
+
+### 9020. Participatory Evaluation: The Capacities That Shape Engagement
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/6a19cbce-04f2-4a90-a5cc-d4eeb4f8b152"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise]
+```
+
+Participatory evaluation offers a powerful approach to program evaluation by engaging partners as active contributors to inquiry rather than passive data sources. Yet little is known about what capacities — on the part of both partners and researchers — make meaningful participation possible in formal evaluation contexts. This study draws on structured reflections from Digital Promise’s Center for Learner Pathway Innovations researchers and evaluators across several educational program evaluations to examine the skills, knowledge, and dispositions that shaped engagement in participatory evaluation. Findings reveal that partner capacities are centered on data engagement, contextual expertise, and improvement orientation, while researcher capacities are centered on relational groundwork, facilitation, and emergent programmatic knowledge. Analysis of how the Collaborative Innovation core tenets appeared across projects suggests that participatory evaluation most readily supports engagement and interpretation, while deeper shifts in co-ownership and in the definition of progress remain areas for continued development. Implications for evaluation design and researcher practice are discussed.
+
+---
+
+---
+
+### 9021. Equity-Focused High School Alumni Connections: A Design Guide for Alumni Surveys
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/ad6d75e6-2c32-463b-9554-1e8260f2da48"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, k-12]
+```
+
+Developed by Digital Promise in partnership with SAP and the Learner-Centered Collaborative, this design guide serves as a practical toolkit for K-12 school and district leaders seeking to launch equity-focused alumni surveys. The guide details a collaborative co-design approach piloted and refined with multiple school and district partners between 2021 and 2025. Utilizing this Alumni Survey model leverages the lived experiences of students, staff, families, and graduates shifting educational research from designing for communities to designing with them. Central to the resource is a comprehensive nine-step technical roadmap that navigates teams through the survey design and launch so that their efforts translate into genuine institutional change. Real-world impact stories from partner districts illustrate how they have used their alumni data to transform their programs, address educational equity, and improve student outcomes. This guide concludes with strategic recommendations for educational leaders and researchers interested in maximizing the value of alumni feedback.
+
+---
+
+---
+
+### 9022. Falling Short on Newcomers: A Report Card on How Well States Support Newly Arrived Immigrant Students
+
+```yaml
+url: "https://edtrust.org/rti/falling-short-on-newcomers-a-report-card/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust, k-12]
+```
+
+A fifty-state scan of the policies that shape the education of newcomer students — youth new to the U.S. school system, a group that includes refugees, asylees, unaccompanied minors and students with limited or interrupted formal education. Each state education agency and the District of Columbia is graded on three criteria: the terminology used to define and identify newcomers, the data collected about them, and state-level funding beyond federal Title III grants. No agency scored higher than a C+ and the large majority received a D+ or below, with Minnesota, Massachusetts, Oregon and Washington the only states at C or above and five states earning an F; the report closes with recommendations for state leaders on definitions, data collection and dedicated funding.
+
+---
+
+---
+
+### 9023. An Educator’s Checklist for Supporting Immigrant Students in Schools
+
+```yaml
+url: "https://edtrust.org/rti/an-educators-checklist-for-supporting-immigrant-students/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust, k-12]
+```
+
+A guide for educators and advocates, produced by The Century Foundation with the National Education Association, the American Federation of Teachers, the National Immigration Law Center and other partners, setting out five actions to request of school leadership in order to protect the learning environment from fear and unnecessary immigration enforcement. It argues that the removal of school-based protections against immigration enforcement, and the presence or even the rumor of immigration agents near schools, can keep students home and deter families from engaging in their child's learning, despite federal law protecting the right to a free public education regardless of citizenship status.
+
+---
+
+---
+
+### 9025. Cultivating Math Mindsets: State and District Policies That Support Teachers and Student Learning
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/cultivating-math-mindsets-policy-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [k-12, lpi, math-education]
+```
+
+The United States persistently falls behind other countries in math achievement, and students are increasingly disengaged. As states adopt new instructional materials, supporting teachers in cultivating classroom environments is essential. This brief examines case studies of 10 middle school math teachers and the school- and district-level factors that enabled or impeded efforts.
+
+---
+
+---
+
+### 9027. The Landscape of Career Readiness Opportunities in Chicago Public Schools
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/the-landscape-of-career-readiness-opportunities-in-chicago-public-schools"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-09-20
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12]
+```
+
+This is the first report from a two-phase study of career readiness opportunities in Chicago Public Schools (CPS) by the Illinois Workforce and Education Research Collaborative (IWERC) and the University of Chicago Consortium on School Research. This report lays the groundwork for understanding equity of access to career readiness opportunities in Chicago. Forthcoming reports from this series will look at the outcomes related to participation.This landscape study describes CPS’s vision and enactment of “career-connected learning” (CCL), a framework initiated in 2017, which aims to unify college preparatory and career readiness activities districtwide. Chicago is one of many districts in Illinois and nationally working to establish and implement a modern CCL framework. These efforts have largely outpaced research and community knowledge on the current state of career readiness opportunities in high schools. Our study begins to fill these gaps using novel district data which includes, not only student participation in career and technical education (CTE), but also on work-based learning (WBL) and advising activities, including the district’s Learn.Plan.Succeed. (LPS) Initiative, combined with interviews, document reviews, and student responses to the 5Essentials Survey.
 
 ---

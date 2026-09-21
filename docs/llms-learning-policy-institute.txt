@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute
 
-> 352 entries from Learning Policy Institute.
+> 353 entries from Learning Policy Institute.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-learning-policy-institute.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-16
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-20
 
 - 138. [Effective Teacher Professional Development](https://learningpolicyinstitute.org/product/effective-teacher-professional-development) | report | learning-engineering, lpi, professional-development
 - 141. [The State of the Teacher Workforce](https://learningpolicyinstitute.org/product/state-of-teacher-workforce-interactive-0) | report | k-12, learning-engineering, lpi, professional-development
@@ -356,3 +356,4 @@
 - 9002. [Teacher Residencies in California: Enrollment, Preparation, and Outcomes of Residency-Prepared Teachers](https://learningpolicyinstitute.org/product/ca-teacher-residencies-report) | report | career-readiness, formative-assessment, lpi, professional-development
 - 9003. [Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State](https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-report) | report | dropout-prevention, k-12, lpi
 - 9004. [Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State](https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-brief) | report | dropout-prevention, k-12, lpi
+- 9025. [Cultivating Math Mindsets: State and District Policies That Support Teachers and Student Learning](https://learningpolicyinstitute.org/product/cultivating-math-mindsets-policy-brief) | report | k-12, lpi, math-education

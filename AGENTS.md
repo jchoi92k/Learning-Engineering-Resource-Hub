@@ -17,7 +17,7 @@ ruff check scripts/ tests/
 ## The pipeline (all mechanics live in scripts; never re-implement them in prose)
 
 ```bash
-bash scripts/update.sh [--dry-run] [--sources "lpi wwc"]   # weekly wrapper: scrape → insert → verify new URLs → build → docs/staging/run-summary.md
+bash scripts/update.sh [--dry-run] [--sources "lpi wwc"]   # weekly wrapper: scrape → insert → build (--verify adds URL checks) → docs/staging/run-summary.md
 python scripts/scrape.py <source>            # one source; config in sources/<source>.json; output docs/staging/<source>.json
 python scripts/scrape.py <source> --backfill # catch-up: scan every page, still skip known URLs; --audit re-checks the request log
 python scripts/process_staged.py <source>    # insert staged items into hub.db (auto-tagging; backlog items become pending rows)

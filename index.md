@@ -4,7 +4,7 @@
 
 The hub is a **referatory** — a curated index of evidence-based K-12, higher-education, and learning-engineering resources, hosted at GitHub Pages and consumable by both humans and LLM agents (via `llms.txt` and an MCP server). It does not store source content; it stores metadata + descriptions and links out.
 
-**Current state:** 3,904 published entries across 20+ sources (WWC, Mathematica, LPI, Digital Promise, Evidence for ESSA, NWEA, Campbell, AIMS, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `data/source-targets.json`.
+**Current state:** 3,912 published entries across 20+ sources (WWC, Mathematica, LPI, Digital Promise, Evidence for ESSA, NWEA, Campbell, AIMS, and more). Coverage tracked in `docs/data.json` (`meta.coverage`) and `data/source-targets.json`.
 
 ---
 
@@ -38,7 +38,7 @@ repo-root/
   worker/         ← Cloudflare Worker (MCP server)
   worker-le-resource-hub/ ← proxy shim: old le-resource-hub URL → renaissance-hub
   .claude/skills/ ← agent skills committed with the repo (weekly-update)
-  .github/workflows/ ← GitHub Actions workflows (ci, runner-access-check, weekly-update)
+  .github/workflows/ ← GitHub Actions workflows (ci, deploy, runner-access-check, weekly-update)
 ```
 
 ### Which folder serves which part of the project
@@ -71,6 +71,7 @@ repo-root/
 - **`.claude/skills/weekly-update/SKILL.md`** — the `/weekly-update` skill: the agent half of the weekly refresh (runs `update.sh`, repairs a failed source via its `sources/*.json` only, reviews new rows with `curate.py`, verifies, writes `docs/staging/pr-body.md`; never commits or pushes). Same file whether invoked on a laptop or by a cloud runner.
 - **`.github/workflows/ci.yml`** — checks on every push to `main` and every pull request: pytest, ruff and `build_from_db.py --check`. No secrets, no requests to sources.
 - **`.github/workflows/weekly-update.yml`** — the weekly update in the cloud (manual trigger for now): runs `scripts/update.sh`, then the `/weekly-update` skill with a read-only token; a guard step discards any change outside `data/hub.db`, `docs/`, `meta/processing-log.md` and `sources/*.json` and re-runs the checks; a separate job commits to the `auto/weekly` branch as the updater GitHub App and opens or updates the pull request. A maintainer merges.
+- **`.github/workflows/deploy.yml`** — deploys `main` to the MCP worker and its Vectorize index (manual trigger for now; dry run by default): full re-embed with stale-vector pruning, `wrangler deploy`, then `scripts/check_deploy.py`.
 - **`.github/workflows/runner-access-check.yml`** — manual, read-only workflow: runs `scripts/update.sh --dry-run` on a GitHub-hosted runner to check that every weekly source is reachable from there; no database writes, no secrets, nothing committed. The run summary and per-source logs are in the job summary and artifact.
 
 ### `docs/` — the published referatory (GitHub Pages root)
@@ -93,12 +94,14 @@ Only published output lives here — no scripts, no build tooling.
 All executable scripts. Run from repo root: `python scripts/{script}.py`.
 
 - **`build_from_db.py`** — builds all published outputs (llms-full.txt, llms.txt, data.json, tags/, gem-knowledge.txt) from `data/hub.db`. **Run after every data change.** `--check` validates entries and verifies `docs/` matches a fresh build (for CI).
-- **`update.sh`** — weekly wrapper: scrape → process → verify new URLs → build over the automated source list; writes `docs/staging/run-summary.md`.
+- **`update.sh`** — weekly wrapper: scrape → process → build (`--verify` adds URL checks) over the automated source list; writes `docs/staging/run-summary.md`.
 - **`scrape.py`** — config-driven scraper. Reads source configs from `sources/`, outputs to `docs/staging/`.
 - **`process_staged.py`** — processes staged JSON into `data/hub.db`. Handles tagging and DB insertion.
 - **`curate.py`** — single-entry edits to `data/hub.db`: `show`, `recent`, `exclude`, `reactivate`, `set-description`, `set-tags`, `set-type`. Validates against the controlled vocabularies, bumps `updated_at`, prints before/after.
 - **`verify_urls.py`** — domain-aware URL checker with throttling. Writes results to `data/hub.db` and `data/broken-urls.json`.
 - **`source_check.py`** — pre-flight accessibility probe for all sources.
+- **`embed_corpus.py`** — syncs entry embeddings into the Vectorize index behind semantic search (incremental via a local cache; `--full --prune` for a cache-free run that also deletes vectors of unpublished entries).
+- **`check_deploy.py`** — after a deploy: checks that the live MCP worker's entry count, semantic search and the Vectorize vector count match `docs/data.json`; exits non-zero on a mismatch.
 - **`playwright_scrape.py`** — legacy Playwright scraper; no current source needs it (TNTP and Digital Promise have plain configs). Optional dependency.
 - **`list_sources.py`** — utility for listing sources from hub.db.
 
@@ -126,8 +129,8 @@ No scripts or data files — just documentation for operators and agents.
 - **`agent-guide.md`** — master operational reference for cold-starting Claude agents.
 - **`operator-guide.md`** — deployment surfaces, manual deploy steps, after-merge checklist.
 - **`roadmap.md`** — open items and planned work, in rough priority order.
-- **`automation-prompt.md`** — prompt for the weekly automated source-check routine.
-- **`automation-log.md`** — append-only log of weekly automation runs.
+- **`automation-prompt.md`** — prompt of the retired claude.ai weekly routine (history).
+- **`automation-log.md`** — run log of the retired weekly routine (history).
 - **`backlog-prompt.md`** — prompt for expanding coverage of a single source.
 - **`new-source-prompt.md`** — prompt for onboarding a brand-new source.
 - **`inclusion-criteria.md`** — what qualifies for inclusion (source-level + resource-level rules).
@@ -181,7 +184,7 @@ No scripts or data files — just documentation for operators and agents.
 
 ### Weekly automated check
 
-`/weekly-update` (skill in `.claude/skills/weekly-update/`) wraps the whole thing: it runs the script below, triages failed sources, reviews the new rows and leaves a PR body for a maintainer. The script alone: `bash scripts/update.sh` runs scrape → process → build over the automated source list (URL verification of the new rows is opt-in with `--verify`) and writes `docs/staging/run-summary.md` (per-source table: fetched, not-in-DB, ready, backlog, inserted, pending, filtered). `--dry-run` scrapes without writing; `--sources "lpi wwc"` limits the run. Backlog items are recorded in hub.db as excluded `no_description_pending` rows so they stop reappearing as new; items set aside by a config rule (`type_allow`, `exclude_when`) are recorded as excluded rows for the same reason. A cloud workflow that runs this with an LLM review step is in progress; the earlier routine prompt (`meta/automation-prompt.md`) is retired.
+`/weekly-update` (skill in `.claude/skills/weekly-update/`) wraps the whole thing: it runs the script below, triages failed sources, reviews the new rows and leaves a PR body for a maintainer. The script alone: `bash scripts/update.sh` runs scrape → process → build over the automated source list (URL verification of the new rows is opt-in with `--verify`) and writes `docs/staging/run-summary.md` (per-source table: fetched, not-in-DB, ready, backlog, inserted, pending, filtered). `--dry-run` scrapes without writing; `--sources "lpi wwc"` limits the run. Backlog items are recorded in hub.db as excluded `no_description_pending` rows so they stop reappearing as new; items set aside by a config rule (`type_allow`, `exclude_when`) are recorded as excluded rows for the same reason. In the cloud, `.github/workflows/weekly-update.yml` runs the script and the skill and opens a PR from `auto/weekly` (manual trigger for now; see `meta/operator-guide.md`). The earlier routine prompt (`meta/automation-prompt.md`) is retired.
 
 ### URL verification
 

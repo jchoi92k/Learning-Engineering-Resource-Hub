@@ -17,7 +17,10 @@
 
 ## Weekly update
 
-- **Move the run to a cloud cron** (GitHub Actions running `scripts/update.sh`, then `claude-code-action` invoking `/weekly-update`, then a publish job that opens the PR). Preconditions: local runs judged stable, a read-only dispatch workflow proving the runner's IP can reach every source, and a model choice for the cron.
+- **Schedule the cloud run.** The workflow (`.github/workflows/weekly-update.yml`) runs on manual dispatch and opened its first PR on 2026-09-20. Left: a `schedule` trigger. A scheduled run should be a real run (the `dry_run` input is empty on a schedule); GitHub disables schedules in public repos after 60 days without activity.
+- **Deploy on merge.** `.github/workflows/deploy.yml` (manual trigger) re-embeds, prunes stale vectors, deploys the worker and checks the live result. Left: a clean manual run, then a trigger on merges that change `docs/data.json`, then a scheduled weekly run tested end to end.
+- **Per-source cadence.** Compute each source's publication cadence from `published_date`, record a `cadence` in its config, and let the weekly run check a source only when it is due. The review agent proposes cadence changes in the PR and a maintainer approves them. It would also give an anomaly signal when a source that usually publishes goes quiet for several weeks. Sources run by hand (Campbell) would fit a monthly or quarterly tier.
+- **Campbell Collaboration, local runs.** Off the weekly list since 2026-09-21 because it answers GitHub-hosted runners with HTTP 202 and no content; run it by hand from time to time (`bash scripts/update.sh --sources "campbell-collaboration"`).
 - **Retire `sources/*-backlog.txt`** — `scrape.py` still writes these on every run; pending rows in hub.db carry that role now.
 
 ## Test suites

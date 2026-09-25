@@ -24,7 +24,7 @@ The same underlying corpus (`data/hub.db`) feeds four consumer surfaces. **Updat
 ```
 data/hub.db          ← canonical source of truth (SQLite). Written by process_staged.py / verify_urls.py / curate.py.
         |
-        | `python scripts/build_from_db.py`  (run automatically by the routine; also runnable manually)
+        | `python scripts/build_from_db.py`  (run by `scripts/update.sh`; also runnable manually)
         ↓
 docs/llms-full.txt     ← full index with descriptions
 docs/data.json         ← consumed by web UI; bundled into the MCP worker at deploy time
@@ -44,7 +44,7 @@ docs/gem-knowledge.txt ← knowledge file uploaded to the Gemini Gem
 Hosting: GitHub Pages, sourced from `docs/` on `main`.
 
 Update flow:
-- Merge anything to `main` (routine PR, manual commit, new-source PR, etc.).
+- Merge anything to `main` (weekly update PR, manual commit, new-source PR, etc.).
 - GitHub rebuilds the Pages site within ~1 minute.
 - No action needed.
 
@@ -56,7 +56,7 @@ Hosted at: `https://renaissance-hub.joon-96a.workers.dev`. Code in `worker/`. Co
 
 The worker **bundles `docs/data.json` at deploy time** (via `import rawData from "../../docs/data.json"` in `worker/src/index.js` — no copy step needed). This means the worker serves a frozen snapshot of data.json from whenever it was last deployed — it does *not* fetch live from GitHub Pages.
 
-**After a routine PR or any corpus change merges to `main`, the MCP server returns stale data until you redeploy.**
+**After a weekly update PR or any corpus change merges to `main`, the MCP server returns stale data until you redeploy.**
 
 Update flow:
 
@@ -70,7 +70,7 @@ python scripts/embed_corpus.py --endpoint http://localhost:8788   # after starti
 Semantic search: the search tool embeds queries via Workers AI (`@cf/baai/bge-base-en-v1.5`) and ranks against the `renaissance-hub-entries` Vectorize index (768d, cosine). `embed_corpus.py` keeps that index in sync with hub.db — run it after any corpus change (incremental: unchanged entries are skipped via `data/embed-cache.json`). Two auth options: the local populate worker (`worker/populate.toml`, uses wrangler's OAuth — no token needed) or a `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` in `.env` for direct REST calls. If the index is empty or a binding fails, the worker silently falls back to keyword search — check the `search_mode` field in responses to confirm which path served a query.
 
 Recommended cadence:
-- After every routine PR merge (or batch a couple of weeks together if you're not under demo pressure).
+- After every weekly update PR merge (or batch a couple of weeks together if you're not under demo pressure).
 - Before any presentation, demo, or external stakeholder check-in.
 - After adding a new source (so MCP clients see the new entries).
 
@@ -112,42 +112,51 @@ Updates flow with GitHub Pages — same as the web UI. No action needed.
 
 ---
 
-## The weekly automation routine
+## The weekly update (GitHub Actions)
 
-Hosted at: claude.ai/code/routines. Account: the maintainer's claude.ai account. Configuration is **snapshotted in the routine** — *not* read live from the repo.
+Workflow: `.github/workflows/weekly-update.yml`. Since 2026-09-20 it replaces the claude.ai routine (its prompt, `meta/automation-prompt.md`, is kept for history only). Everything it runs is read from the repo at run time, so there is no separate copy of the instructions to keep in sync.
 
-What it does (full flow documented in `meta/automation-prompt.md`):
-- Reads `meta/source-audit.md`'s "Routine source access matrix" (Step 0).
-- Checks the 14 sources in its source list for new publications.
-- Stages → merges → rebuilds → branches → commits → pushes → opens a PR.
-- Appends a run summary to `meta/automation-log.md` and (if anything new) to `meta/sources-log.md`.
+Trigger: manual only for now (Actions tab → Weekly update → Run workflow). `dry_run` defaults to on: a dry run scrapes and reviews but writes nothing and opens no PR. A schedule has not been added yet.
 
-Update flow for the routine itself:
+What a run does:
+
+1. **Job `update`** (read-only GitHub token):
+   - `scripts/update.sh` scrapes the weekly source list (`WEEKLY_SOURCES` in the script), inserts new rows into `data/hub.db` and rebuilds `docs/`.
+   - The `/weekly-update` skill (`.claude/skills/weekly-update/SKILL.md`) runs through `anthropics/claude-code-action` with `--already-run`: it triages failed sources, reviews the new rows with `scripts/curate.py` and writes the PR text to `docs/staging/pr-body.md`.
+   - A guard step discards any change outside `data/hub.db`, `docs/`, `meta/processing-log.md` and `sources/*.json`, re-runs the checks (`build_from_db.py --check`, pytest, ruff) and writes a job summary. Nothing is published from a dry run, after a failed check, or when the review left no `pr-body.md`; the fix for a missing summary is to run again.
+2. **Job `publish`**: commits the changes to the fixed branch `auto/weekly` as the GitHub App `renaissance-hub-updater` (force-push) and opens or updates the pull request. A maintainer reviews and merges; nothing reaches `main` without that. Weekly PRs are squash-merged by convention.
+
+The job summary also reports the size of the review step (turns, refused tool calls, and an API-price equivalent in dollars). The review runs on a subscription token, so that dollar figure is an estimate and is not billed.
+
+Related workflows:
+
+- `.github/workflows/ci.yml` — pytest, ruff and `build_from_db.py --check` on every push to `main` and every PR.
+- `.github/workflows/deploy.yml` — deploys `main` to the MCP worker and Vectorize (see the after-merge checklist).
+- `.github/workflows/runner-access-check.yml` — manual, read-only dry run (`sources` input) to test whether a GitHub-hosted runner can reach a source.
+
+Sources that cannot run from GitHub-hosted runners carry `skip_on_cloud_runner` in their `sources/*.json` config (see `sources/README.md`). Campbell Collaboration is one: it answered runners with HTTP 202 and no content, so it is off the weekly list and scraped by hand from a local run (`bash scripts/update.sh --sources "campbell-collaboration"`).
+
+Update flow for the workflow itself:
 
 | If you change… | You need to… |
 |---|---|
-| `meta/automation-prompt.md` body | Paste new content between `PROMPT START` / `PROMPT END` into the routine's **Instructions** field on claude.ai/code/routines |
-| Setup script (Playwright deps, `gh` install) | Update the routine's **Setup script** field on the web UI |
-| Network access policy or env vars (e.g., `GH_TOKEN` rotated) | Update the routine's **Environment** on the web UI |
-| Schedule cadence | Update the routine's **Trigger** on the web UI |
-| Source list (added a new source) | Update the **Instructions** field — same as above |
-
-**The repo edit alone does NOT propagate to the routine.** This is a footgun — the prompt in the repo and the prompt in the routine can drift. The PR body of any `[New source]` or follow-up change should remind the reviewer to sync the routine.
-
-To see past runs, status, and click "Run now" for ad-hoc fires: claude.ai/code/routines → click the routine → Runs.
+| The skill, `update.sh`, a source config | Commit to `main`; the next run picks it up |
+| The source list | Edit `WEEKLY_SOURCES` in `scripts/update.sh` |
+| The Claude token or the App key | Replace the repo secret (see Accounts and access) |
 
 ---
 
-## After-merge checklist (for routine PRs and new-source PRs)
+## After-merge checklist (for weekly update PRs and new-source PRs)
 
 When a corpus-changing PR merges to `main`, run through this:
 
 1. ✅ **GitHub Pages** — auto-updates in ~1 minute. Verify by loading the Pages URL and checking the entry count on the home page.
-2. ⚠️ **MCP worker** — `cd worker && cp ../docs/data.json data.json && npx wrangler deploy`. Verify count via curl.
-3. ⚠️ **Gemini Gem** — upload new `docs/gem-knowledge.txt` to the Gem on gemini.google.com.
-4. ⚠️ **Routine prompt** (only if `automation-prompt.md` changed) — paste updated body into the routine's Instructions field.
+2. ⚠️ **Local copy** — `git pull` (the PR changes `data/hub.db`, which the next two steps read).
+3. ⚠️ **Vectorize + MCP worker** — run the **Deploy** workflow (Actions tab → Deploy → Run workflow, untick dry run). It re-embeds every published entry, deletes vectors of unpublished ones, runs `wrangler deploy` and then `scripts/check_deploy.py`, which fails the run if the live worker or the index does not match `docs/data.json`. It uses the repo secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`; a full re-embed is roughly 3,000 Workers AI neurons (estimate) against a free allowance of 10,000 per day.
+4. **By hand instead** (no workflow): `python scripts/embed_corpus.py --endpoint http://localhost:8788` with the populate worker running (see section 2 above), then `cd worker && npx wrangler deploy`, then `python scripts/check_deploy.py --skip-index`. The worker imports `docs/data.json` directly; no copy step.
+5. ⚠️ **Gemini Gem** — upload the new `docs/gem-knowledge.txt` to the Gem on gemini.google.com.
 
-Items 2, 3, 4 are all manual. If you skip them, downstream consumers stay on stale data without warning.
+Steps 2, 3 and 5 are started by hand (step 4 is the fallback for step 3). If you skip them, downstream consumers stay on stale data without warning.
 
 ---
 
@@ -158,79 +167,69 @@ Items 2, 3, 4 are all manual. If you skip them, downstream consumers stay on sta
 | GitHub | github.com/jchoi92k | Repo write access |
 | GitHub Pages | (Repo settings) | Already configured to serve `docs/` from `main` |
 | Cloudflare Workers | Cloudflare account that deployed `renaissance-hub` | `npx wrangler login` from `worker/` directory |
-| claude.ai routines | Maintainer's claude.ai Pro/Max account | Pro/Max subscription with Claude Code on the web enabled |
+| Claude Code token for the weekly run | Maintainer's Claude subscription | Repo secret `CLAUDE_CODE_OAUTH_TOKEN`, created with `claude setup-token`; lasts one year |
+| Updater GitHub App (`renaissance-hub-updater`) | Installed on the repo; Contents and Pull requests write | Repo secret `APP_PRIVATE_KEY`, repo variable `APP_CLIENT_ID` |
 | Gemini Gem | gemini.google.com | The account that owns the Gem |
-| `GH_TOKEN` | Fine-grained PAT, scoped to the repo (Contents: R/W, Pull requests: R/W) | Stored only in the routine's env vars on claude.ai — not in any local file or repo |
 
 Secrets:
-- **Never commit a `GH_TOKEN` or PAT to the repo.** `.env` is gitignored; the routine reads from its own env-var store on claude.ai.
-- If a token leaks (pasted into chat, committed by mistake), rotate it at github.com/settings/tokens immediately, then update the routine's env var.
+- **Never commit a token or key to the repo.** `.env` is gitignored.
+- List repo secrets and variables by name only: `gh secret list --json name`, `gh variable list --json name`. A bare `gh variable list` prints values.
+- If a secret leaks, revoke or rotate it at the issuer first (a new App private key in the App settings, a new `claude setup-token`), then replace the repo secret.
 
 ---
 
 ## Things that can drift (and how to detect)
 
-The hub has four data surfaces. They can each drift from the canonical `docs/llms-full.txt`:
+The hub has four data surfaces. They can each drift from the canonical `data/hub.db`:
 
 | Drift | How to detect | Fix |
 |---|---|---|
-| `worker/data.json` < `docs/data.json` | `python -c "import json; print(json.load(open('worker/data.json'))['meta']['total'], json.load(open('docs/data.json'))['meta']['total'])"` | `cp docs/data.json worker/data.json && cd worker && npx wrangler deploy` |
+| MCP worker behind `docs/data.json` | Compare `get_stats` total with `meta.total` in `docs/data.json` | `cd worker && npx wrangler deploy` |
+| Vectorize behind the corpus | `python scripts/embed_corpus.py --dry-run --prune` reports pending upserts or deletes; `python scripts/check_deploy.py` compares the vector count | Run the Deploy workflow (after-merge step 3) |
 | Gem knowledge file out of date | Ask the Gem a question whose answer requires a recent entry — if it whiffs, the knowledge is stale | Re-upload `docs/gem-knowledge.txt` |
-| Routine prompt out of date | Compare the routine's Instructions field on claude.ai vs. `meta/automation-prompt.md` body | Paste updated content into the routine |
-| `meta/agent-guide.md` Current state count vs. actual | Compare to `grep -c "^### " docs/llms-full.txt` | Update both `agent-guide.md` and `CLAUDE.md` per the hygiene rule |
+| `meta/agent-guide.md` Current state count vs. actual | Compare to `meta.total` in `docs/data.json` | Update `agent-guide.md` per the hygiene rule |
 
-The first one — worker drift — is the most easily forgotten and the most user-visible (LLM agents querying the MCP get wrong counts and miss entries). Make it a habit to redeploy after each routine PR.
+The first one — worker drift — is the most easily forgotten and the most user-visible (LLM agents querying the MCP get wrong counts and miss entries). Make it a habit to redeploy after each weekly update PR.
 
 ---
 
 ## Common operations
 
-### "I just merged a routine PR — what do I do?"
+### "I just merged a weekly update PR — what do I do?"
 
-```bash
-# 1. Sync the worker data
-cd worker
-cp ../docs/data.json data.json
-npx wrangler deploy
-
-# 2. Re-upload Gem knowledge
-# Go to gemini.google.com → Gems → [your hub Gem] → upload docs/gem-knowledge.txt
-
-# 3. Done — GitHub Pages auto-updated
-```
+Run the after-merge checklist above: pull, embed, deploy the worker, re-upload the Gem file. GitHub Pages updates on its own.
 
 ### "I want to add a new source"
 
 1. File a GitHub issue using the `[New source]` template.
 2. After scope-check, run `meta/new-source-prompt.md` (interactive in Claude Code).
 3. Review and merge the resulting PR.
-4. **Update the routine's Instructions field** so next week's run includes the new source.
-5. Run the after-merge checklist (worker deploy + Gem upload).
+4. Add the source's slug to `WEEKLY_SOURCES` in `scripts/update.sh` so the weekly run includes it. If the host refuses GitHub-hosted runners, test with `runner-access-check.yml` first; a source that cannot run there gets `skip_on_cloud_runner` in its config and a local run instead.
+5. Run the after-merge checklist.
 
-### "Want to check source accessibility before running automation manually"
+### "Want to check source accessibility before a run"
 
 ```bash
 python scripts/source_check.py
 ```
 
-Probes each source's discovery URL + a sample publication URL. Classifies each as OK / PARTIAL / DEGRADED / JS-RENDERED / BLOCKED. Good sanity-check before a manual `automation-prompt.md` run from local Claude Code (the cloud routine doesn't need this — it'll just log failures in the PR body).
+Probes each source's discovery URL + a sample publication URL. Classifies each as OK / PARTIAL / DEGRADED / JS-RENDERED / BLOCKED. For reachability from GitHub-hosted runners specifically, run the `runner-access-check.yml` workflow instead.
 
 The script reads its source list from `data/source-targets.json`, so it stays in sync automatically when sources are added or removed.
 
-### "The routine didn't fire this week"
+### "The weekly run failed or opened no PR"
 
-- Check claude.ai/code/routines → click the routine → Runs tab.
-- If you blew quota that week, it'll resume at the next reset window. No action.
-- If runs are showing "failed," click into one to read the transcript.
-- If the routine is paused (manual toggle), re-enable.
-- If still nothing, your subscription may have lapsed — check claude.ai/settings.
+- Open the run in the Actions tab and read the job summary: it lists the pipeline and review outcomes, whether `pr-body.md` was written, the checks, and any changes the guard discarded.
+- No PR after a green run usually means nothing new was found, or it was a dry run.
+- "Review summary: missing" means the review step did not finish its write-up; run the workflow again.
+- A single source failing does not fail the run; it is reported in the PR text for a human.
+- The `weekly-update-logs` artifact holds `run-summary.md` and the per-source logs.
 
-### "I rotated the GH_TOKEN"
+### "The Claude token expired or was rotated"
 
-1. Generate new PAT at github.com/settings/tokens (fine-grained, scoped to this repo, Contents R/W + Pull requests R/W).
-2. Go to claude.ai/code/routines → edit the routine → Environment.
-3. Replace `GH_TOKEN` value with the new token. Save.
-4. Run "Run now" once to confirm.
+1. Run `claude setup-token` locally.
+2. Replace the repo secret `CLAUDE_CODE_OAUTH_TOKEN` (Settings → Secrets and variables → Actions).
+3. Start a dry run of the weekly workflow to confirm.
 
 ### "Worker deploy is failing"
 
@@ -246,11 +245,10 @@ The script reads its source list from `data/source-targets.json`, so it stays in
 A new operator needs:
 - Write access to github.com/jchoi92k/Learning-Engineering-Resource-Hub
 - Cloudflare account access (so they can `wrangler deploy` to the existing worker — or accept moving the worker to their account)
-- A claude.ai Pro/Max account (their own routines, not transferable)
+- Their own Claude subscription token in `CLAUDE_CODE_OAUTH_TOKEN` for the weekly run
+- Admin access to the `renaissance-hub-updater` GitHub App (or a replacement App with Contents and Pull requests write)
 - The Gemini Gem (transferable or recreate-able — instructions in `meta/gem-instructions.md`)
-- This file + `meta/agent-guide.md` + `meta/automation-prompt.md` + `index.md` to onboard
-
-Routines specifically are NOT shareable across claude.ai accounts. A new operator would create their own routine in their account using the prompt + setup script + env vars documented in `meta/automation-prompt.md`'s "Routine configuration" appendix. Past run history on the previous account stays on that account; new runs accumulate on the new one.
+- This file + `meta/agent-guide.md` + `index.md` to onboard
 
 ---
 
@@ -258,8 +256,8 @@ Routines specifically are NOT shareable across claude.ai accounts. A new operato
 
 - `index.md` — public repo navigation
 - `meta/agent-guide.md` — operational reference for indexing work
-- `meta/automation-prompt.md` — the weekly routine's prompt
+- `.claude/skills/weekly-update/SKILL.md` — the review step of the weekly run
+- `meta/automation-prompt.md` — the retired routine prompt (history)
 - `meta/backlog-prompt.md` — single-source backlog expansion
 - `meta/new-source-prompt.md` — onboarding a brand-new source
 - `meta/source-audit.md` — per-source access matrix
-- `private/decisions.md` — major decisions log (gitignored)

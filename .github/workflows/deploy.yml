@@ -1,0 +1,74 @@
+# Deploy the corpus on main to the MCP worker and its Vectorize index.
+#
+# 1. Embed: re-embeds every published entry into Vectorize and deletes any
+#    vector whose entry is no longer published (embed_corpus.py --full --prune;
+#    a runner has no embed cache, so stale vectors are found by listing the index).
+# 2. Deploy: wrangler deploy (the worker bundles docs/data.json).
+# 3. Check: the live worker and the index must match docs/data.json
+#    (scripts/check_deploy.py); a mismatch fails the run.
+# A dry run reads the index and builds the worker bundle, and changes nothing.
+#
+# Manual trigger only for now. Deploying on merge to main is added after a
+# clean manual run.
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run: report what would be embedded and build the bundle, change nothing'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      DRY_RUN: ${{ inputs.dry_run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+
+      - run: pip install -r requirements.txt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install wrangler
+        working-directory: worker
+        run: npm ci
+
+      - name: Embed (Vectorize)
+        run: |
+          args=(--full --prune)
+          [[ "$DRY_RUN" == "true" ]] && args+=(--dry-run)
+          python scripts/embed_corpus.py "${args[@]}"
+
+      - name: Deploy the worker
+        working-directory: worker
+        run: |
+          if [[ "$DRY_RUN" == "true" ]]; then
+            npx wrangler deploy --dry-run --outdir "$RUNNER_TEMP/worker-bundle"
+          else
+            npx wrangler deploy
+          fi
+
+      - name: Check the live worker and index
+        if: inputs.dry_run != true
+        run: python scripts/check_deploy.py

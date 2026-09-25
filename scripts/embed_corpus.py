@@ -7,6 +7,7 @@ Usage (from repo root):
     python scripts/embed_corpus.py            # embed new/changed entries only
     python scripts/embed_corpus.py --full     # re-embed everything
     python scripts/embed_corpus.py --dry-run  # show what would be embedded
+    python scripts/embed_corpus.py --full --prune   # cloud deploy: no cache needed
 
 Requires in .env (or the environment):
     CLOUDFLARE_API_TOKEN   - token with Workers AI (read/run) + Vectorize (edit) permissions
@@ -19,6 +20,8 @@ created with `wrangler vectorize create renaissance-hub-entries
 Incremental behavior: a local cache (data/embed-cache.json, gitignored)
 stores a hash of each entry's embedded text. Unchanged entries are skipped.
 Entries excluded or de-published since the last run are deleted from the index.
+--prune also asks the index which ids it holds and deletes any that are not
+published, so a run with no cache (a cloud runner) still clears stale vectors.
 """
 import argparse
 import hashlib
@@ -111,16 +114,49 @@ def delete_vectors(session, account, ids):
         r.raise_for_status()
 
 
+LIST_PAGE = 1000  # Vectorize's maximum page size for list-vectors
+
+
+def list_index_ids(session, account):
+    """Every vector id in the index, via the paginated list-vectors REST call."""
+    url = f"https://api.cloudflare.com/client/v4/accounts/{account}/vectorize/v2/indexes/{INDEX}/list"
+    ids, cursor = [], None
+    while True:
+        params = {"count": LIST_PAGE}
+        if cursor:
+            params["cursor"] = cursor
+        r = session.get(url, params=params, timeout=60)
+        r.raise_for_status()
+        body = r.json()
+        if not body.get("success"):
+            raise RuntimeError(f"Vectorize list error: {body.get('errors')}")
+        result = body["result"]
+        ids.extend(v["id"] for v in result.get("vectors", []))
+        cursor = result.get("nextCursor")
+        if not result.get("isTruncated") or not cursor:
+            return ids
+
+
+def stale_ids(cache_ids, index_ids, current_ids):
+    """Ids to delete: in the cache or the index but no longer published."""
+    return sorted((set(cache_ids) | set(index_ids)) - set(current_ids), key=lambda k: (len(k), k))
+
+
 def main():
     parser = argparse.ArgumentParser(description="Embed hub entries into Vectorize")
     parser.add_argument("--full", action="store_true", help="Re-embed everything, ignore cache")
     parser.add_argument("--dry-run", action="store_true", help="Report work without calling the API")
     parser.add_argument("--endpoint", help="Use a local populate worker (wrangler dev --remote --config populate.toml) "
                                            "instead of the REST API — no API token needed")
+    parser.add_argument("--prune", action="store_true",
+                        help="Also delete every id the index holds that is not published (REST API; "
+                             "reads the index even with --dry-run)")
     args = parser.parse_args()
+    if args.prune and args.endpoint:
+        parser.error("--prune uses the REST API; it cannot be combined with --endpoint")
 
     token = account = None
-    if not args.endpoint and not args.dry_run:
+    if args.prune or (not args.endpoint and not args.dry_run):
         token, account = load_env()
     entries = load_entries()
     print(f"[embed] {len(entries)} published entries in hub.db")
@@ -136,8 +172,16 @@ def main():
         if cache.get(str(e["num"])) != h:
             todo.append(e)
 
+    session = requests.Session()
+    if token:
+        session.headers.update({"Authorization": f"Bearer {token}"})
+
     current_ids = {str(e["num"]) for e in entries}
-    stale = [k for k in cache if k not in current_ids]
+    index_ids = []
+    if args.prune:
+        index_ids = list_index_ids(session, account)
+        print(f"[embed] Index holds {len(index_ids)} vectors")
+    stale = stale_ids(cache, index_ids, current_ids)
 
     print(f"[embed] To embed: {len(todo)} new/changed | unchanged: {len(entries) - len(todo)} | stale to delete: {len(stale)}")
     if args.dry_run:
@@ -145,10 +189,6 @@ def main():
     if not todo and not stale:
         print("[embed] Nothing to do.")
         return
-
-    session = requests.Session()
-    if not args.endpoint:
-        session.headers.update({"Authorization": f"Bearer {token}"})
 
     done = 0
     for i in range(0, len(todo), BATCH):

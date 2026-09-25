@@ -4,7 +4,7 @@
 
 ## Domain
 
-- [k-12](k-12.md) — 872 entries
+- [k-12](k-12.md) — 879 entries
 - [math-education](math-education.md) — 522 entries
 - [literacy](literacy.md) — 424 entries
 - [learning-engineering](learning-engineering.md) — 301 entries
@@ -32,11 +32,11 @@
 
 ## Topic
 
-- [college-access](college-access.md) — 426 entries
+- [college-access](college-access.md) — 430 entries
 - [formative-assessment](formative-assessment.md) — 411 entries
-- [sel](sel.md) — 293 entries
-- [professional-development](professional-development.md) — 279 entries
-- [career-readiness](career-readiness.md) — 235 entries
+- [sel](sel.md) — 294 entries
+- [professional-development](professional-development.md) — 280 entries
+- [career-readiness](career-readiness.md) — 241 entries
 - [personalized-learning](personalized-learning.md) — 140 entries
 - [inclusive-design](inclusive-design.md) — 126 entries
 - [attendance](attendance.md) — 112 entries
@@ -59,7 +59,7 @@
 
 ## Affiliation
 
-- [lpi](lpi.md) — 352 entries
+- [lpi](lpi.md) — 353 entries
 - [edtrust](edtrust.md) — 324 entries
 - [digital-promise](digital-promise.md) — 277 entries
 - [wwc](wwc.md) — 165 entries

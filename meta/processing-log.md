@@ -267,3 +267,24 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 1 entries (9027-9027)
 - Backlog rows recorded as pending (excluded): 0
 - Tags: keyword auto-tagged
+
+## 2026-09-25 - Evidence for ESSA
+- Source slug: `evidence-for-essa`
+- Scraped: 0 total, 0 ready, 0 backlog
+- Processed: 0 entries
+- Backlog rows recorded as pending (excluded): 1
+- Tags: keyword auto-tagged
+
+## 2026-09-25 - Learning Policy Institute
+- Source slug: `lpi-briefs`
+- Scraped: 1 total, 1 ready, 0 backlog
+- Processed: 1 entries (9029-9029)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-09-25 - WestEd
+- Source slug: `wested`
+- Scraped: 6 total, 6 ready, 0 backlog
+- Processed: 6 entries (9030-9035)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged

@@ -25,8 +25,10 @@
 # edge-blocked the maintainer's home IP on 2026-09-06 after per-URL verification,
 # but answers GitHub-hosted runners normally. From a blocked IP the scrape stops
 # after two refusals. Never run --verify against it.
-# campbell-collaboration opts out of cloud runners in its config
-# (skip_on_cloud_runner): it is scraped from a local run only.
+# campbell-collaboration is off the list since 2026-09-21: it answered
+# GitHub-hosted runners with HTTP 202 and no content in 2 of 2 workflow runs.
+# Its config keeps skip_on_cloud_runner, so a manual --sources run on a cloud
+# runner is still skipped; a local run works.
 #
 # The script never aborts on a single failing source: each source's outcome is
 # recorded in the summary and the run continues. Exit code is non-zero only if
@@ -39,7 +41,6 @@ cd "$REPO_ROOT"
 
 PY="${PYTHON:-python}"
 WEEKLY_SOURCES=(
-  campbell-collaboration
   credo
   digital-promise
   edtrust

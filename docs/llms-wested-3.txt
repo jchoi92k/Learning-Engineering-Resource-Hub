@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — WestEd (part 3 of 3)
 
-> 915 entries from WestEd; this part lists 32 of them (entry numbers 6717–9013).
+> 921 entries from WestEd; this part lists 38 of them (entry numbers 6717–9035).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-21
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-25
 
 - 6717. [Effects of Problem Based Economics on High School Economics Instruction: Final Report](https://www.wested.org/resource/effects-of-problem-based-economics-on-high-school-economics-instruction-final-report/) | report | 
 - 6718. [Do States Have Certification Requirements for Preparing General Education Teachers to Teach Students with Disabilities? Experience in the Northeast and Islands Region](https://www.wested.org/resource/do-states-have-certification-requirements-for-preparing-general-education-teachers-to-teach-students-with-disabilities-experience-in-the-northeast-and-islands-region/) | report | inclusive-design
@@ -36,3 +36,9 @@
 - 9009. [Building Networks, Sharing Expertise: How Technology-Mediated Lesson Study Connects Rural Science Teachers](https://www.wested.org/resource/building-networks-sharing-expertise/) | report | computer-assisted-learning, longitudinal, professional-development
 - 9010. [Bridging Geographic Distance: Technology-Mediated Lesson Study for Rural Science Teachers](https://www.wested.org/resource/bridging-geographic-distance/) | report | computer-assisted-learning, professional-development
 - 9013. [Charter School Authorizer Practices and Evaluations in Florida: A Report Funded by the MIT Blueprint Charter Research Collaborative](https://www.wested.org/resource/charter-school-authorizer-practices-and-evaluations-in-florida/) | report | k-12
+- 9030. [District Profile of Broward County Public Schools: Evaluating Operational Readiness for Career- and College-Focused Schools](https://www.wested.org/resource/district-profile-of-broward-county-public-schools/) | report | career-readiness, college-access, k-12
+- 9031. [District Profile of Orange County Public Schools: Making Career and College Readiness Visible in Specialized School Models](https://www.wested.org/resource/district-profile-of-orange-county-public-schools/) | report | career-readiness, college-access, k-12
+- 9032. [District Profile of Palm Beach County: Monitoring Pathway Quality, Workforce Alignment, and Student Outcomes in Career- and College-Focused Charter Schools](https://www.wested.org/resource/district-profile-of-palm-beach-county/) | report | career-readiness, college-access, k-12
+- 9033. [Pillar 3: Experiential Learning, A Pathways to Prosperity Brief](https://www.wested.org/resource/pillar-3-experiential-learning/) | report | career-readiness, k-12
+- 9034. [Pillar 2: Professional Learning Communities for Student-Centered Support, A Pathways to Prosperity Brief](https://www.wested.org/resource/pillar-2-professional-learning-communities-for-student-centered-support/) | report | k-12, professional-development
+- 9035. [Pillar 1: College and Career Readiness, A Pathways to Prosperity Brief](https://www.wested.org/resource/pillar-1-college-and-career-readiness/) | report | career-readiness, college-access, k-12

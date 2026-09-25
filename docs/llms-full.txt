@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Full Index
-# 3912 entries | Last updated: 2026-09-21
+# 3919 entries | Last updated: 2026-09-25
 #
 # HOW TO USE THIS FILE
 # This file contains all entries with full descriptions — everything is here.
@@ -9,14 +9,14 @@
 # Do NOT attempt to fetch other files. This file is self-contained.
 #
 # TAGS
-# Domain: k-12 (872), math-education (522), literacy (424), learning-engineering (301), english-learners (222), early-childhood (211), higher-ed (199), school-discipline (32)
+# Domain: k-12 (879), math-education (522), literacy (424), learning-engineering (301), english-learners (222), early-childhood (211), higher-ed (199), school-discipline (32)
 # Method: computer-assisted-learning (254), longitudinal (203), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
-# Topic: college-access (426), formative-assessment (411), sel (293), professional-development (279), career-readiness (235), personalized-learning (140), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
-# Affiliation: lpi (352), edtrust (324), digital-promise (277), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
+# Topic: college-access (430), formative-assessment (411), sel (294), professional-development (280), career-readiness (241), personalized-learning (140), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+# Affiliation: lpi (353), edtrust (324), digital-promise (277), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 #
-# TYPES: report (3013), paper (523), framework (169), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
+# TYPES: report (3020), paper (523), framework (169), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
 #
-# SOURCES: WestEd (915), Mathematica (633), Learning Policy Institute (353), The Education Trust (324), UChicago Consortium on School Research (324), NWEA Research (291), Digital Promise (277), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
+# SOURCES: WestEd (921), Mathematica (633), Learning Policy Institute (354), The Education Trust (324), UChicago Consortium on School Research (324), NWEA Research (291), Digital Promise (277), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
 
 ---
 
@@ -97815,5 +97815,180 @@ tags: [career-readiness, college-access, k-12]
 ```
 
 This is the first report from a two-phase study of career readiness opportunities in Chicago Public Schools (CPS) by the Illinois Workforce and Education Research Collaborative (IWERC) and the University of Chicago Consortium on School Research. This report lays the groundwork for understanding equity of access to career readiness opportunities in Chicago. Forthcoming reports from this series will look at the outcomes related to participation.This landscape study describes CPS’s vision and enactment of “career-connected learning” (CCL), a framework initiated in 2017, which aims to unify college preparatory and career readiness activities districtwide. Chicago is one of many districts in Illinois and nationally working to establish and implement a modern CCL framework. These efforts have largely outpaced research and community knowledge on the current state of career readiness opportunities in high schools. Our study begins to fill these gaps using novel district data which includes, not only student participation in career and technical education (CTE), but also on work-based learning (WBL) and advising activities, including the district’s Learn.Plan.Succeed. (LPS) Initiative, combined with interviews, document reviews, and student responses to the 5Essentials Survey.
+
+---
+
+---
+
+### 9029. California’s Principal Workforce: Trends in Supply and Turnover
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-california-principals-trends-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-09-25
+published_date: 2026-09-22
+date_source: listing
+authors: ["Nicole Arshan", "Linda Darling-Hammond", "Wesley Wei"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, k-12, lpi, sel]
+```
+
+Research confirms that principal turnover negatively impacts student achievement and teacher retention. A California-focused analysis of statewide data examines trends in principal preparation, experience, and distribution, identifying key school, district, and principal characteristics associated with turnover across the state.
+
+---
+
+---
+
+### 9030. District Profile of Broward County Public Schools: Evaluating Operational Readiness for Career- and College-Focused Schools
+
+```yaml
+url: "https://www.wested.org/resource/district-profile-of-broward-county-public-schools/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-25
+published_date: 2026
+date_source: page-meta
+authors: ["Florida Association of Charter School Authorizers (FACSA)", "WestEd", "Career Academy Network of Public Schools (CANOPS)"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/23153505/Broward-Case-Study_FINAL-ADA-0918.pdf"
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12]
+```
+
+A profile from the Florida Association of Charter School Authorizers (FACSA) and WestEd of how Broward County Public Schools evaluates the operational readiness of career- and college-focused charter schools. It argues that a compelling pathway on paper means little if a school cannot run it, and that traditional authorizing tools may not reveal whether the instructors, equipment, budgets and partnerships are in place. Drawing on district-reported practices, the case study gives authorizers, state agency leaders and applicants concrete moves for application review, pre-opening readiness checks and ongoing monitoring, from pathway maps and equipment lists to safety, staffing and postsecondary outcomes.
+
+---
+
+---
+
+### 9031. District Profile of Orange County Public Schools: Making Career and College Readiness Visible in Specialized School Models
+
+```yaml
+url: "https://www.wested.org/resource/district-profile-of-orange-county-public-schools/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-25
+published_date: 2026
+date_source: page-meta
+authors: ["Florida Association of Charter School Authorizers (FACSA)", "WestEd", "Career Academy Network of Public Schools (CANOPS)"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/23153509/Orange-Case-Study_FINAL-ADA-0918.pdf"
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12]
+```
+
+A profile from the Florida Association of Charter School Authorizers (FACSA) and WestEd of how Orange County Public Schools makes career- and college-focused promises visible in specialized school models. It starts from the observation that a charter school can post strong academic results and still fall short on the STEM, college-readiness or workforce opportunities its mission promises, so authorizers need a way to see past overall test scores. Drawing on district-reported practices, it offers guidance on curriculum coherence, staffing, budgets and partnerships, plus expanded indicators such as pathway participation, credentials and postsecondary plans, giving authorizers, state agency leaders and applicants a lens for judging pathway quality rather than school performance alone.
+
+---
+
+---
+
+### 9032. District Profile of Palm Beach County: Monitoring Pathway Quality, Workforce Alignment, and Student Outcomes in Career- and College-Focused Charter Schools
+
+```yaml
+url: "https://www.wested.org/resource/district-profile-of-palm-beach-county/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-25
+published_date: 2026
+date_source: page-meta
+authors: ["Florida Association of Charter School Authorizers (FACSA)", "WestEd", "Career Academy Network of Public Schools (CANOPS)"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/23153507/Palm-Beach-Case-Study_FINAL-ADA-0918.pdf"
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12]
+```
+
+A profile from the Florida Association of Charter School Authorizers (FACSA) and WestEd of how the School District of Palm Beach County monitors pathway quality, workforce alignment and student outcomes in more mature career- and college-focused charter schools. It argues that strong overall school performance does not prove a pathway is working: students can graduate at high rates while pathway access, completion and credential value go unexamined. Drawing on district-reported practices, it pairs traditional academic indicators with pathway-specific evidence such as concentrator and completer data, certifications, dual enrollment and work-based learning, for authorizers, state agency leaders and school boards spotting warning signs and supporting long-term sustainability.
+
+---
+
+---
+
+### 9033. Pillar 3: Experiential Learning, A Pathways to Prosperity Brief
+
+```yaml
+url: "https://www.wested.org/resource/pillar-3-experiential-learning/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-25
+published_date: 2026
+date_source: page-meta
+authors: null
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/21145537/Pillar-3-Experiential-Learning-ADA-FINAL.pdf"
+doi: null
+license: null
+tags: [career-readiness, k-12]
+```
+
+A brief from WestEd and the Career Academy Network of Public Schools (CANOPS) on designing experiential learning that connects academic content to authentic problems, career pathways, reflective practice, iterative improvement and public demonstrations of learning. It argues that without intentional design schools stall at one-time or symbolic experiences, such as guest speakers or brief job shadowing, that spark interest but drift from instruction, vary in quality, or reach only a subset of students. For program designers and practitioners it provides classroom examples, practical guidance, implementation considerations and indicators for assessing whether these experiences promote transferable and visible learning.
+
+---
+
+---
+
+### 9034. Pillar 2: Professional Learning Communities for Student-Centered Support, A Pathways to Prosperity Brief
+
+```yaml
+url: "https://www.wested.org/resource/pillar-2-professional-learning-communities-for-student-centered-support/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-25
+published_date: null
+date_source: null
+authors: ["Career Academy Network of Public Schools (CANOPS)", "WestEd"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/21145531/Pillar-2-PLCs-ADA-FINAL.pdf"
+doi: null
+license: null
+tags: [k-12, professional-development]
+```
+
+A brief from WestEd and the Career Academy Network of Public Schools (CANOPS) on using professional learning communities as an adult response system that coordinates instruction, intervention, enrichment and student support within a multi-tiered system of supports (MTSS). It argues that career academy models depend on consistent attendance, engagement and academic readiness, yet many schools try to meet student needs through fragmented, opt-in services that operate separately from core instruction and often fail to reach the students who need them most. Instructional leaders, counselors and teachers are given concrete examples, implementation guidance, common risks and indicators for assessing whether supports are reaching every student.
+
+---
+
+---
+
+### 9035. Pillar 1: College and Career Readiness, A Pathways to Prosperity Brief
+
+```yaml
+url: "https://www.wested.org/resource/pillar-1-college-and-career-readiness/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-09-25
+published_date: 2026
+date_source: page-meta
+authors: ["Career Academy Network of Public Schools (CANOPS)", "WestEd"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/21145534/Pillar-1-College-and-Career-ADA-IP.pdf"
+doi: null
+license: null
+tags: [career-readiness, college-access, k-12]
+```
+
+A brief from WestEd and the Career Academy Network of Public Schools (CANOPS) describing how a K–12 readiness system supports students in exploring careers, reflecting on their interests and strengths, receiving guidance, and making informed pathway decisions over time. It argues that CTE models treating academic instruction and career preparation as separate tracks force a false choice between being college ready and career ready, leaving students with less support for planning their futures and schools less able to build the talent pipeline employers need. Education leaders, program designers and practitioners will find practical guidance, implementation examples, discussions of potential risks and indicators of program effectiveness for career-connected learning initiatives.
 
 ---

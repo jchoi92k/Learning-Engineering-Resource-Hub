@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 3912,
-    "last_updated": "2026-09-21",
+    "total": 3919,
+    "last_updated": "2026-09-25",
     "sources": [
       "ADL Initiative",
       "AI-for-Education.org",
@@ -98,7 +98,7 @@
       },
       {
         "source": "WestEd",
-        "indexed": 915,
+        "indexed": 921,
         "known_total": 1254,
         "pct": 73,
         "priority": "medium",
@@ -122,7 +122,7 @@
       },
       {
         "source": "Learning Policy Institute",
-        "indexed": 353,
+        "indexed": 354,
         "known_total": 347,
         "pct": 102,
         "priority": "medium",
@@ -210,15 +210,15 @@
       }
     ],
     "dates": {
-      "with_published_date": 3313,
+      "with_published_date": 3319,
       "published_date_not_available": 392,
-      "without_published_date": 207,
+      "without_published_date": 208,
       "num_min": 1,
-      "num_max": 9027
+      "num_max": 9035
     },
     "document_links": {
-      "with_document_url": 493,
-      "without_document_url": 3419
+      "with_document_url": 499,
+      "without_document_url": 3420
     }
   },
   "entries": [
@@ -96799,6 +96799,188 @@
       "domain": "policy",
       "url_verified": true,
       "last_verified": "2026-09-20"
+    },
+    {
+      "num": 9029,
+      "title": "California’s Principal Workforce: Trends in Supply and Turnover",
+      "url": "https://learningpolicyinstitute.org/product/gdtf-california-principals-trends-brief",
+      "type": "report",
+      "source": "Learning Policy Institute",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-09-25",
+      "published_date": "2026-09-22",
+      "date_source": "listing",
+      "authors": [
+        "Nicole Arshan",
+        "Linda Darling-Hammond",
+        "Wesley Wei"
+      ],
+      "document_url": null,
+      "tags": [
+        "career-readiness",
+        "k-12",
+        "lpi",
+        "sel"
+      ],
+      "desc": "Research confirms that principal turnover negatively impacts student achievement and teacher retention. A California-focused analysis of statewide data examines trends in principal preparation, experience, and distribution, identifying key school, district, and principal characteristics associated with turnover across the state.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9030,
+      "title": "District Profile of Broward County Public Schools: Evaluating Operational Readiness for Career- and College-Focused Schools",
+      "url": "https://www.wested.org/resource/district-profile-of-broward-county-public-schools/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-09-25",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Florida Association of Charter School Authorizers (FACSA)",
+        "WestEd",
+        "Career Academy Network of Public Schools (CANOPS)"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/23153505/Broward-Case-Study_FINAL-ADA-0918.pdf",
+      "tags": [
+        "career-readiness",
+        "college-access",
+        "k-12"
+      ],
+      "desc": "A profile from the Florida Association of Charter School Authorizers (FACSA) and WestEd of how Broward County Public Schools evaluates the operational readiness of career- and college-focused charter schools. It argues that a compelling pathway on paper means little if a school cannot run it, and that traditional authorizing tools may not reveal whether the instructors, equipment, budgets and partnerships are in place. Drawing on district-reported practices, the case study gives authorizers, state agency leaders and applicants concrete moves for application review, pre-opening readiness checks and ongoing monitoring, from pathway maps and equipment lists to safety, staffing and postsecondary outcomes.",
+      "domain": "policy",
+      "url_verified": true,
+      "last_verified": "2026-09-25"
+    },
+    {
+      "num": 9031,
+      "title": "District Profile of Orange County Public Schools: Making Career and College Readiness Visible in Specialized School Models",
+      "url": "https://www.wested.org/resource/district-profile-of-orange-county-public-schools/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-09-25",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Florida Association of Charter School Authorizers (FACSA)",
+        "WestEd",
+        "Career Academy Network of Public Schools (CANOPS)"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/23153509/Orange-Case-Study_FINAL-ADA-0918.pdf",
+      "tags": [
+        "career-readiness",
+        "college-access",
+        "k-12"
+      ],
+      "desc": "A profile from the Florida Association of Charter School Authorizers (FACSA) and WestEd of how Orange County Public Schools makes career- and college-focused promises visible in specialized school models. It starts from the observation that a charter school can post strong academic results and still fall short on the STEM, college-readiness or workforce opportunities its mission promises, so authorizers need a way to see past overall test scores. Drawing on district-reported practices, it offers guidance on curriculum coherence, staffing, budgets and partnerships, plus expanded indicators such as pathway participation, credentials and postsecondary plans, giving authorizers, state agency leaders and applicants a lens for judging pathway quality rather than school performance alone.",
+      "domain": "policy",
+      "url_verified": true,
+      "last_verified": "2026-09-25"
+    },
+    {
+      "num": 9032,
+      "title": "District Profile of Palm Beach County: Monitoring Pathway Quality, Workforce Alignment, and Student Outcomes in Career- and College-Focused Charter Schools",
+      "url": "https://www.wested.org/resource/district-profile-of-palm-beach-county/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-09-25",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Florida Association of Charter School Authorizers (FACSA)",
+        "WestEd",
+        "Career Academy Network of Public Schools (CANOPS)"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/23153507/Palm-Beach-Case-Study_FINAL-ADA-0918.pdf",
+      "tags": [
+        "career-readiness",
+        "college-access",
+        "k-12"
+      ],
+      "desc": "A profile from the Florida Association of Charter School Authorizers (FACSA) and WestEd of how the School District of Palm Beach County monitors pathway quality, workforce alignment and student outcomes in more mature career- and college-focused charter schools. It argues that strong overall school performance does not prove a pathway is working: students can graduate at high rates while pathway access, completion and credential value go unexamined. Drawing on district-reported practices, it pairs traditional academic indicators with pathway-specific evidence such as concentrator and completer data, certifications, dual enrollment and work-based learning, for authorizers, state agency leaders and school boards spotting warning signs and supporting long-term sustainability.",
+      "domain": "policy",
+      "url_verified": true,
+      "last_verified": "2026-09-25"
+    },
+    {
+      "num": 9033,
+      "title": "Pillar 3: Experiential Learning, A Pathways to Prosperity Brief",
+      "url": "https://www.wested.org/resource/pillar-3-experiential-learning/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-09-25",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": null,
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/21145537/Pillar-3-Experiential-Learning-ADA-FINAL.pdf",
+      "tags": [
+        "career-readiness",
+        "k-12"
+      ],
+      "desc": "A brief from WestEd and the Career Academy Network of Public Schools (CANOPS) on designing experiential learning that connects academic content to authentic problems, career pathways, reflective practice, iterative improvement and public demonstrations of learning. It argues that without intentional design schools stall at one-time or symbolic experiences, such as guest speakers or brief job shadowing, that spark interest but drift from instruction, vary in quality, or reach only a subset of students. For program designers and practitioners it provides classroom examples, practical guidance, implementation considerations and indicators for assessing whether these experiences promote transferable and visible learning.",
+      "domain": "policy",
+      "url_verified": true,
+      "last_verified": "2026-09-25"
+    },
+    {
+      "num": 9034,
+      "title": "Pillar 2: Professional Learning Communities for Student-Centered Support, A Pathways to Prosperity Brief",
+      "url": "https://www.wested.org/resource/pillar-2-professional-learning-communities-for-student-centered-support/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-09-25",
+      "published_date": null,
+      "date_source": null,
+      "authors": [
+        "Career Academy Network of Public Schools (CANOPS)",
+        "WestEd"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/21145531/Pillar-2-PLCs-ADA-FINAL.pdf",
+      "tags": [
+        "k-12",
+        "professional-development"
+      ],
+      "desc": "A brief from WestEd and the Career Academy Network of Public Schools (CANOPS) on using professional learning communities as an adult response system that coordinates instruction, intervention, enrichment and student support within a multi-tiered system of supports (MTSS). It argues that career academy models depend on consistent attendance, engagement and academic readiness, yet many schools try to meet student needs through fragmented, opt-in services that operate separately from core instruction and often fail to reach the students who need them most. Instructional leaders, counselors and teachers are given concrete examples, implementation guidance, common risks and indicators for assessing whether supports are reaching every student.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-09-25"
+    },
+    {
+      "num": 9035,
+      "title": "Pillar 1: College and Career Readiness, A Pathways to Prosperity Brief",
+      "url": "https://www.wested.org/resource/pillar-1-college-and-career-readiness/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-09-25",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Career Academy Network of Public Schools (CANOPS)",
+        "WestEd"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/21145534/Pillar-1-College-and-Career-ADA-IP.pdf",
+      "tags": [
+        "career-readiness",
+        "college-access",
+        "k-12"
+      ],
+      "desc": "A brief from WestEd and the Career Academy Network of Public Schools (CANOPS) describing how a K–12 readiness system supports students in exploring careers, reflecting on their interests and strengths, receiving guidance, and making informed pathway decisions over time. It argues that CTE models treating academic instruction and career preparation as separate tracks force a false choice between being college ready and career ready, leaving students with less support for planning their futures and schools less able to build the talent pipeline employers need. Education leaders, program designers and practitioners will find practical guidance, implementation examples, discussions of potential risks and indicators of program effectiveness for career-connected learning initiatives.",
+      "domain": "policy",
+      "url_verified": true,
+      "last_verified": "2026-09-25"
     }
   ]
 }

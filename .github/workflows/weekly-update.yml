@@ -10,10 +10,17 @@
 # fixed branch auto/weekly as the updater GitHub App, and opens or updates the
 # pull request. A maintainer merges; nothing reaches main without that.
 #
-# Manual trigger only for now. The cron is added after a clean real run.
+# Runs on a schedule and by hand. A scheduled run is always a real run (the
+# dry_run input is empty on a schedule event). GitHub may start a scheduled
+# run late when Actions is busy.
+# The schedule below is a one-off end-to-end test (2026-09-25 11:27 UTC); it
+# would fire again on the same date each year, so it is replaced with the
+# weekly slot after the test.
 name: Weekly update
 
 on:
+  schedule:
+    - cron: '27 11 25 9 *'
   workflow_dispatch:
     inputs:
       dry_run:

@@ -8,11 +8,14 @@
 #    (scripts/check_deploy.py); a mismatch fails the run.
 # A dry run reads the index and builds the worker bundle, and changes nothing.
 #
-# Manual trigger only for now. Deploying on merge to main is added after a
-# clean manual run.
+# Runs on every push to main that changes docs/data.json (a merged weekly
+# update PR, or any rebuild), and by hand. A push run is always a real run.
 name: Deploy
 
 on:
+  push:
+    branches: [main]
+    paths: ['docs/data.json']
   workflow_dispatch:
     inputs:
       dry_run:

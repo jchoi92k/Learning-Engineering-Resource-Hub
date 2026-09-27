@@ -15,10 +15,13 @@
 - **Publisher type label.** Expose the source's own type string ("Brief", "Practice Guide", "Research and Evaluation"), already in most raw items, alongside the coarse `type` enum.
 - **Per-source access policy.** A per-source table of each source's agent-access posture — robots.txt stance, `llms.txt` present y/n, and whether an agent can fetch the resource/PDF directly (some 403, some allow) — grounded in the robots URLs already in the configs and our own fetch logs. Fold the fields into the existing `list_sources` MCP tool output and mirror them in a static table (e.g. `meta/source-access.md`); no separate endpoint needed. Needs periodic re-checking since policies drift, and publish only what we've verified.
 
+## Human-facing browsing
+
+- **Taxonomy of big questions.** A curated layer over the tag vocabulary: a small set of plain-language questions (for example, what reduces chronic absenteeism), each with a page of the strongest matching entries, practice guides and systematic reviews first, plus sample prompts to use with one's own AI agent. Suggested in external feedback (2026-09-25) as a way into the corpus for readers who do not know the field's vocabulary. Needs an owner for the question list and a way to keep each page current as weekly updates add entries; the `evidence_rating` field above would strengthen it.
+- **Research lineages (exploratory).** Show how work within a subfield builds on earlier work. Needs citation data the corpus does not hold; OpenAlex could supply references for journal papers, but most entries are reports and briefs with little citation record, so a first step is checking coverage for one subfield before building anything.
+
 ## Weekly update
 
-- **Schedule the cloud run.** The workflow (`.github/workflows/weekly-update.yml`) runs on manual dispatch and opened its first PR on 2026-09-20. Left: a `schedule` trigger. A scheduled run should be a real run (the `dry_run` input is empty on a schedule); GitHub disables schedules in public repos after 60 days without activity.
-- **Deploy on merge.** `.github/workflows/deploy.yml` (manual trigger) re-embeds, prunes stale vectors, deploys the worker and checks the live result. Left: a clean manual run, then a trigger on merges that change `docs/data.json`, then a scheduled weekly run tested end to end.
 - **Per-source cadence.** Compute each source's publication cadence from `published_date`, record a `cadence` in its config, and let the weekly run check a source only when it is due. The review agent proposes cadence changes in the PR and a maintainer approves them. It would also give an anomaly signal when a source that usually publishes goes quiet for several weeks. Sources run by hand (Campbell) would fit a monthly or quarterly tier.
 - **Campbell Collaboration, local runs.** Off the weekly list since 2026-09-21 because it answers GitHub-hosted runners with HTTP 202 and no content; run it by hand from time to time (`bash scripts/update.sh --sources "campbell-collaboration"`).
 - **Retire `sources/*-backlog.txt`** — `scrape.py` still writes these on every run; pending rows in hub.db carry that role now.

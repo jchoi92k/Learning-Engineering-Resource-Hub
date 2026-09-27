@@ -116,7 +116,7 @@ Updates flow with GitHub Pages — same as the web UI. No action needed.
 
 Workflow: `.github/workflows/weekly-update.yml`. Since 2026-09-20 it replaces the claude.ai routine (its prompt, `meta/automation-prompt.md`, is kept for history only). Everything it runs is read from the repo at run time, so there is no separate copy of the instructions to keep in sync.
 
-Trigger: manual only for now (Actions tab → Weekly update → Run workflow). `dry_run` defaults to on: a dry run scrapes and reviews but writes nothing and opens no PR. A schedule has not been added yet.
+Trigger: every Friday at 16:07 UTC (9:07 AM Pacific in daylight time, 8:07 AM in standard time), and by hand (Actions tab → Weekly update → Run workflow). A scheduled run is always a real run. On a manual run `dry_run` defaults to on: a dry run scrapes and reviews but writes nothing and opens no PR. GitHub may start a scheduled run late when Actions is busy, and disables schedules in public repos after 60 days without repository activity.
 
 What a run does:
 
@@ -152,11 +152,11 @@ When a corpus-changing PR merges to `main`, run through this:
 
 1. ✅ **GitHub Pages** — auto-updates in ~1 minute. Verify by loading the Pages URL and checking the entry count on the home page.
 2. ⚠️ **Local copy** — `git pull` (the PR changes `data/hub.db`, which the next two steps read).
-3. ⚠️ **Vectorize + MCP worker** — run the **Deploy** workflow (Actions tab → Deploy → Run workflow, untick dry run). It re-embeds every published entry, deletes vectors of unpublished ones, runs `wrangler deploy` and then `scripts/check_deploy.py`, which fails the run if the live worker or the index does not match `docs/data.json`. It uses the repo secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`; a full re-embed is roughly 3,000 Workers AI neurons (estimate) against a free allowance of 10,000 per day.
+3. ✅ **Vectorize + MCP worker** — the **Deploy** workflow starts on its own when a push to `main` changes `docs/data.json` (it can also be run by hand: Actions tab → Deploy → Run workflow, untick dry run). Check that the run passed. It re-embeds every published entry, deletes vectors of unpublished ones, runs `wrangler deploy` and then `scripts/check_deploy.py`, which fails the run if the live worker or the index does not match `docs/data.json`. It uses the repo secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`; a full re-embed is roughly 3,000 Workers AI neurons (estimate) against a free allowance of 10,000 per day.
 4. **By hand instead** (no workflow): `python scripts/embed_corpus.py --endpoint http://localhost:8788` with the populate worker running (see section 2 above), then `cd worker && npx wrangler deploy`, then `python scripts/check_deploy.py --skip-index`. The worker imports `docs/data.json` directly; no copy step.
 5. ⚠️ **Gemini Gem** — upload the new `docs/gem-knowledge.txt` to the Gem on gemini.google.com.
 
-Steps 2, 3 and 5 are started by hand (step 4 is the fallback for step 3). If you skip them, downstream consumers stay on stale data without warning.
+Steps 2 and 5 are done by hand (step 4 is the fallback for step 3). If you skip them, downstream consumers stay on stale data without warning.
 
 ---
 

@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — NWEA Research
 
-> 291 entries from NWEA Research.
+> 290 entries from NWEA Research.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-nwea-research.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-25
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-28
 
 - 1061. [Academically Diverse Classrooms, Deeper Needs: What Teachers Face After the Pandemic](https://www.nwea.org/research/publication/academically-diverse-classrooms-deeper-needs-what-teachers-face-after-the-pandemic/) | report | formative-assessment, k-12, longitudinal, professional-development
 - 1062. [Should Kindergartners Be Redshirted? Costs Likely Outweigh Academic Benefits](https://www.nwea.org/research/publication/should-kindergartners-be-redshirted-costs-likely-outweigh-academic-benefits/) | report | early-childhood, k-12, longitudinal, prekindergarten
@@ -288,7 +288,6 @@
 - 7710. [Modeling academic achievement and self-efficacy as joint developmental processes: Evidence for education, counseling, and policy](https://www.nwea.org/research/publication/modeling-academic-achievement-and-self-efficacy-as-joint-developmental-processes-evidence-for-education-counseling-and-policy/) | paper | dropout-prevention, math-education
 - 7711. [Advancing educational quality in Rwanda: Improving teachers’ literacy pedagogy and print environments](https://www.nwea.org/research/publication/advancing-educational-quality-in-rwanda-improving-teachers-literacy-pedagogy-and-print-environments/) | paper | literacy, professional-development, response-to-intervention
 - 7712. [A level playing field: College readiness standards](https://www.nwea.org/research/publication/a-level-playing-field-college-readiness-standards-whitepaper/) | report | career-readiness, college-access
-- 7713. [The prevalence of parent-teacher interaction in developing countries and its effect on student outcomes](https://www.nwea.org/research/publication/the-prevalence-of-parent-teacher-interaction-in-developing-countries-and-its-effect-on-student-outcomes/) | paper | formative-assessment
 - 7714. [Using assessment metadata to quantify the impact of test disengagement on estimates of educational effectiveness](https://www.nwea.org/research/publication/using-assessment-metadata-to-quantify-the-impact-of-test-disengagement-on-estimates-of-educational-effectiveness/) | paper | computer-assisted-learning, formative-assessment
 - 7715. [The changing landscape of assessment and accommodation policies](https://www.nwea.org/research/publication/the-changing-landscape-of-assessment-and-accommodation-policies/) | paper | computer-assisted-learning, formative-assessment
 - 7716. [A matter of time: variations in high school course-taking by years-as-EL subgroup](https://www.nwea.org/research/publication/a-matter-of-time-variations-in-high-school-course-taking-by-years-as-el-subgroup/) | paper | english-learners

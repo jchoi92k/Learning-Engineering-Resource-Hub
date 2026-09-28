@@ -72,3 +72,4 @@ Of 1,300 programs (2026-08-31), **1,097 have rating "No Evidence"** — for most
 - The site homepage shows "down for improvements" but API and all pages work fine
 - HTML listing pages have unreliable URL-based filtering (GET params don't work) — use API instead
 - `_fields` parameter works to reduce payload size
+- Known issue (2026-09-28): some programs carry word-for-word identical descriptions across their per-outcome listings (e.g. Future Forward Literacy x3, Progress Learning x3, PowerSchool Attendance Intervention, EveryDay Intervention, Achieve3000, Learning Genie; near-identical for Parent Teacher Home Visits and AMSTI). The source publishes one program description per outcome area, so these rows share the same summary. Nothing to fix on our side for now.

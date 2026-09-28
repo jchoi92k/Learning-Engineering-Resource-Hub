@@ -13,14 +13,15 @@
 # Runs on a schedule and by hand. A scheduled run is always a real run (the
 # dry_run input is empty on a schedule event). GitHub may start a scheduled
 # run late when Actions is busy.
-# The schedule below is a one-off end-to-end test (2026-09-25 11:27 UTC); it
-# would fire again on the same date each year, so it is replaced with the
-# weekly slot after the test.
+# Weekly slot: Fridays 16:07 UTC, which is 9:07 AM Pacific in daylight time and
+# 8:07 AM in standard time (cron runs in UTC). Minute 7 avoids the top-of-hour
+# queue. GitHub disables schedules in public repos after 60 days without
+# repository activity; the weekly PR merges count as activity.
 name: Weekly update
 
 on:
   schedule:
-    - cron: '27 11 25 9 *'
+    - cron: '7 16 * * 5'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -50,11 +51,11 @@ jobs:
     outputs:
       has_changes: ${{ steps.guard.outputs.has_changes }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version-file: .python-version
 
@@ -80,7 +81,7 @@ jobs:
           github_token: ${{ github.token }}
           prompt: /weekly-update --already-run
           claude_args: |
-            --model claude-opus-5
+            --model claude-opus-5-5
             --max-turns 150
 
       # Diagnostics: which tool calls did the review step have refused? Only that
@@ -115,7 +116,7 @@ jobs:
 
       - name: Upload refused tool calls
         if: always() && steps.denials.outcome == 'success'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: refused-tool-calls
           path: docs/staging/refused-tool-calls.json
@@ -224,7 +225,7 @@ jobs:
 
       - name: Upload logs
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: weekly-update-logs
           path: |
@@ -235,7 +236,7 @@ jobs:
 
       - name: Upload changes
         if: steps.guard.outputs.has_changes == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: weekly-update-bundle
           path: ${{ runner.temp }}/bundle/
@@ -256,11 +257,11 @@ jobs:
           permission-contents: write
           permission-pull-requests: write
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           token: ${{ steps.app-token.outputs.token }}
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: weekly-update-bundle
           path: ${{ runner.temp }}/bundle

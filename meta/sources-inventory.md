@@ -75,7 +75,7 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 - Content types: `report` (each page is an evidence review of a program)
 - Access: ✅ Confirmed — open HTML. URL pattern: `evidenceforessa.org/program/[slug]`. Sitemap at `evidenceforessa.org/sitemap.xml` lists 400+ program slugs. Category listings (`/programs/reading`, `/programs/math`) filter to rated programs only.
 - **Indexed:** 203 program reviews (rated only from 2026-08-31: Strong, Moderate and Promising; "No Evidence" and "N/A" programs are held as excluded `essa_no_evidence` rows). Coverage: reading/literacy, math, SEL, attendance, science, family engagement.
-- Scale: Active, in the weekly list. 1,300 programs on the API (201 rated, all indexed).
+- Scale: Off the weekly list since 2026-09-27 (terms of use bar automated retrieval; see `sources/evidence-for-essa.md`). 1,300 programs on the API (201 rated, all indexed).
 
 **Brookings Brown Center on Education Policy**
 - URL: https://www.brookings.edu/ (filter to Brown Center content via sitemap)

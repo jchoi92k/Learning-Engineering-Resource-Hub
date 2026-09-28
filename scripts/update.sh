@@ -30,6 +30,11 @@
 # Its config keeps skip_on_cloud_runner, so a manual --sources run on a cloud
 # runner is still skipped; a local run works.
 #
+# evidence-for-essa, nwea-research and tntp are off the list since 2026-09-27:
+# robots.txt (and TNTP's llms.txt) allow the crawl, but each site's terms of
+# use bar automated retrieval or indexing of its content. Paused until that is
+# resolved; see the Access section of each sources/*.md profile.
+#
 # The script never aborts on a single failing source: each source's outcome is
 # recorded in the summary and the run continues. Exit code is non-zero only if
 # a pipeline step (process/verify/build) fails.
@@ -44,13 +49,10 @@ WEEKLY_SOURCES=(
   credo
   digital-promise
   edtrust
-  evidence-for-essa
   lpi
   lpi-briefs
   lpi-fact-sheets
   mathematica
-  nwea-research
-  tntp
   uchicago-consortium
   wested
   wwc

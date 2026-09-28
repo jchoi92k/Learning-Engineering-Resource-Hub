@@ -15,6 +15,7 @@
 - **Playwright:** Not needed. Topic filter pages at `/search-results-publications/?topic=*` are JS-rendered, but they're unnecessary — sitemap covers everything.
 - **robots.txt:** Very permissive. Only `/wp-admin/` and one specific PDF blocked. No AI restrictions.
 - **llms.txt:** Exists at `https://tntp.org/llms.txt`. Explicitly encourages AI indexing of publications.
+- **Terms of use:** https://tntp.org/terms-of-use/, "Last updated: September 1, 2022". Prohibited Uses bar using "any robot, spider, site search/retrieval application or other manual or automatic device or process to retrieve, index, "data mine" or in any way reproduce" the site or its contents; the linking section limits links to the homepage and bars deep linking. No search-engine exception. The llms.txt (written 2024 or later) invites AI indexing but says nothing on reuse or the terms. Read 2026-09-27, after the source was indexed; weekly scraping paused the same day.
 - **Rate limits:** None observed
 
 ## Scope

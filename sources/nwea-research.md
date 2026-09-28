@@ -15,6 +15,7 @@
 - **Playwright:** Not needed
 - **robots.txt:** Very permissive. Only `/wp/wp-admin/` blocked. Yoast block allows everything.
 - **llms.txt:** Not found
+- **Terms of use:** HMH website terms of use (https://www.nwea.org/policy/privacy-and-terms/ serves https://www.hmhco.com/policy/web-terms-of-use), "Last Updated: March 4, 2022". Content Use Restrictions bar monitoring, gathering, copying or distributing content by "any robot, rover, "bot", spider, scraper, crawler" or other automatic device, "except as may be a result of standard search engine activity or use of a standard browser"; the terms do not define standard search engine activity. Read 2026-09-27, after the source was indexed; weekly scraping paused the same day.
 - **Rate limits:** None observed
 
 ## Scope

@@ -1,5 +1,5 @@
 {
-  "_comment": "Machine-readable config for scripts/scrape.py. Human context in tntp.md.",
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in tntp.md. Off the weekly list since 2026-09-27: the site's terms of use bar automated retrieval or indexing (see the Access section of tntp.md). Do not run this config until that is resolved.",
   "discovery": "sitemap",
   "discovery_url": "https://tntp.org/publication-sitemap.xml",
   "sitemap": {

@@ -16,9 +16,9 @@ You are expanding coverage for the **Renaissance AI and Education Resource Hub**
 
 ## Step 0 — Pre-flight checks
 
-### 0a. Robots.txt / llms.txt
+### 0a. Robots.txt / llms.txt / terms of use
 
-Before scraping, fetch the target source's `robots.txt` and `llms.txt`. Respect `Disallow` rules, `Crawl-delay`, and AI bot blocks. If restrictions have changed since the source's `.md` profile was written, stop and report. See `meta/agent-guide.md` "Robots.txt / llms.txt pre-check" for full policy.
+Before scraping, fetch the target source's `robots.txt` and `llms.txt`, and re-read its terms of use (URL in the source's `.md` profile). Respect `Disallow` rules, `Crawl-delay`, and AI bot blocks. If restrictions have changed since the source's `.md` profile was written, or the terms bar scraping, automated access or indexing, stop and report. See `meta/agent-guide.md` "Robots.txt / llms.txt / terms-of-use pre-check" for full policy.
 
 ### 0b. Read the source access matrix
 

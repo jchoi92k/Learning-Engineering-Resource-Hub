@@ -60,6 +60,20 @@ If the source passes: continue.
 
 ---
 
+## Step 1b — Robots.txt, llms.txt and terms of use
+
+Follow `meta/agent-guide.md` "Robots.txt / llms.txt / terms-of-use pre-check" before any other request to the source:
+
+1. Fetch `robots.txt`; respect `Disallow`, `Crawl-delay` and AI user-agent blocks.
+2. Fetch `llms.txt` if present and note what it says.
+3. Find and read the terms of use. Note any clause on scraping or automated access, indexing or information retrieval systems, compiling databases, copying content, and linking or deep linking. Save the page text under `private/research/`.
+
+If robots.txt blocks the paths you need, or the terms explicitly bar scraping, automated access or indexing: **abort.** Open a PR (Step 9) whose body says `BLOCKED: <robots.txt | terms of use> — <the clause, quoted>`, with no entry changes, and ask the maintainer. A permissive `llms.txt` does not override the terms; if the two disagree, abort and ask.
+
+Record all three results for the profile's Access section (Step 6).
+
+---
+
 ## Step 2 — Discover the access method
 
 Try these in order. Stop at the first one that yields a usable list of publication URLs:

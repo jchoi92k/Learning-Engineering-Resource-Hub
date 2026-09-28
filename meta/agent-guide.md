@@ -174,15 +174,17 @@ tags: [tag1, tag2, affiliation-tag]
 
 ---
 
-## Robots.txt / llms.txt pre-check
+## Robots.txt / llms.txt / terms-of-use pre-check
 
-**Before scraping any source, check its `robots.txt` and `llms.txt` first.** This applies to both automated pipeline runs and manual agent scraping.
+**Before scraping any source, check its `robots.txt`, `llms.txt` and terms of use first.** This applies to both automated pipeline runs and manual agent scraping.
 
 1. Fetch `{domain}/robots.txt`. Respect `Disallow` rules for the paths you intend to crawl. If a `Crawl-delay` is specified, use it (scrape.py does this automatically via `check_robots()`). If the site blocks AI user-agents (e.g., AIMS blocks `GPTBot`, `anthropic-ai`), do not scrape — document the block in the source `.md` profile and stop.
 2. Fetch `{domain}/llms.txt`. If it exists, check for any access restrictions or preferred interaction patterns. Note findings in the source `.md` profile.
-3. Document both results in the source's `.md` profile under the Access section (`robots.txt: ...`, `llms.txt: ...`). This is already the convention — make sure it's done for every new source.
+3. Find the site's terms of use (footer links such as "Terms of Use", "Terms & Conditions", "Legal", "Copyright", "Permissions"; a web search if the footer has none) and read it. Note any clause on scraping, robots or automated access, indexing or "information retrieval systems", compiling databases, copying or reproducing content, and linking or deep linking. If the site has no terms page, record that and the footer's copyright line. Save the page text under `private/research/` so the reading can be checked later.
+4. **An explicit bar on scraping, automated access or indexing counts as a block, like a robots.txt `Disallow`:** do not scrape the source, record the clause in its profile, and ask the maintainer. A permissive `llms.txt` does not override the terms page; record both and ask.
+5. Document all three results in the source's `.md` profile under the Access section (`robots.txt: ...`, `llms.txt: ...`, `terms of use: <URL, date as stated, one-line summary of the relevant clauses>`). Make sure it's done for every new source.
 
-These checks are non-negotiable. A source that was open last month may have added restrictions since. Re-check on each new scraping session, not just the first time.
+These checks are non-negotiable. A source that was open last month may have added restrictions since. Re-check on each new scraping session, not just the first time. `scrape.py` re-reads robots.txt on every run; terms pages are read by an agent or the maintainer, so re-read them whenever a source's profile or config is revisited.
 
 ---
 

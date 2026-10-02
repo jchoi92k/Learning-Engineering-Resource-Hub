@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Full Index
-# 3918 entries | Last updated: 2026-09-28
+# 3927 entries | Last updated: 2026-10-02
 #
 # HOW TO USE THIS FILE
 # This file contains all entries with full descriptions — everything is here.
@@ -9,14 +9,14 @@
 # Do NOT attempt to fetch other files. This file is self-contained.
 #
 # TAGS
-# Domain: k-12 (879), math-education (522), literacy (424), learning-engineering (301), english-learners (222), early-childhood (211), higher-ed (199), school-discipline (32)
-# Method: computer-assisted-learning (254), longitudinal (203), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), intelligent-tutoring (41), genai (40), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
-# Topic: college-access (430), formative-assessment (410), sel (294), professional-development (280), career-readiness (241), personalized-learning (140), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (18), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
-# Affiliation: lpi (353), edtrust (324), digital-promise (277), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
+# Domain: k-12 (885), math-education (525), literacy (425), learning-engineering (301), english-learners (224), early-childhood (211), higher-ed (200), school-discipline (32)
+# Method: computer-assisted-learning (255), longitudinal (203), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), genai (41), intelligent-tutoring (41), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+# Topic: college-access (431), formative-assessment (410), sel (294), professional-development (282), career-readiness (243), personalized-learning (140), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (19), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+# Affiliation: lpi (355), edtrust (324), digital-promise (279), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 #
-# TYPES: report (3020), paper (522), framework (169), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
+# TYPES: report (3028), paper (522), framework (170), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
 #
-# SOURCES: WestEd (921), Mathematica (633), Learning Policy Institute (354), The Education Trust (324), UChicago Consortium on School Research (324), NWEA Research (290), Digital Promise (277), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
+# SOURCES: WestEd (926), Mathematica (633), Learning Policy Institute (356), The Education Trust (324), UChicago Consortium on School Research (324), NWEA Research (290), Digital Promise (279), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
 
 ---
 
@@ -97965,5 +97965,230 @@ tags: [career-readiness, college-access, k-12]
 ```
 
 A brief from WestEd and the Career Academy Network of Public Schools (CANOPS) describing how a K–12 readiness system supports students in exploring careers, reflecting on their interests and strengths, receiving guidance, and making informed pathway decisions over time. It argues that CTE models treating academic instruction and career preparation as separate tracks force a false choice between being college ready and career ready, leaving students with less support for planning their futures and schools less able to build the talent pipeline employers need. Education leaders, program designers and practitioners will find practical guidance, implementation examples, discussions of potential risks and indicators of program effectiveness for career-connected learning initiatives.
+
+---
+
+---
+
+### 9036. Navigating Research Approvals for EdTech Research and Evaluation: A Practical Guide
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/a9a121e4-d9e2-449f-9754-8a63c2823c0f"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-02
+published_date: 2026-09
+date_source: listing
+authors: ["Wise Younger, Jessica"]
+document_url: null
+doi: null
+license: null
+tags: [digital-promise, k-12, pii-privacy]
+```
+
+Edtech research in K-12 settings can involve multiple layers of oversight including Institutional Review Board (IRB) review, school district approval, parental permission, and student data privacy requirements. This practical guide helps edtech teams anticipate these requirements and make study design decisions that support efficient, ethical research. It explains common IRB pathways and examines how factors such as researcher access to identifiable student data, research activities, survey data, and data architecture can affect the likely review pathway. The guide also highlights how parental permission and child assent, student data sharing requirements, and school district policies can shape the approval and implementation of research conducted in K-12 settings. Through practical examples and study-design scenarios, it helps teams identify potential approval requirements early and design evaluations that balance research rigor, participant protections, and operational feasibility.
+
+---
+
+---
+
+### 9037. Task Automation, Worker Augmentation: Opportunities for Career and Technical Education in the Heartland
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/5b629431-ecfe-456f-b696-08b6ee81e500"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-02
+published_date: 2026-09
+date_source: listing
+authors: ["Jacobs, Britney"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, computer-assisted-learning, digital-promise, literacy]
+```
+
+This research brief, the first in a three-part series from Digital Promise's Center for Learner Pathway Innovations (CLPI), examines what AI exposure and adoption data mean for career and technical education (CTE) in the 19-state Heartland region. Drawing on the Anthropic Economic Index and the U.S. Census Bureau's Business Trends and Outlook Survey, the brief explores how Heartland occupations (concentrated in agriculture, skilled trades, and production) show both lower technical exposure to AI and lower employer adoption than the national average. Rather than signaling safety from AI, this gap represents a limited window in which CTE programs can shape how the technology is introduced, rather than simply reacting once adoption arrives. The brief empowers Heartland CTE leaders, districts, and policymakers with recommendations to use over the next several years to build AI task literacy into curricula, prioritize augmentation-friendly occupations, and fund local data collection that tracks adoption as it happens.
+
+---
+
+---
+
+### 9038. California’s Academic Criterion for English Learner Reclassification: Implementation and Impacts
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-english-learner-reclassification-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-02
+published_date: 2026-09-30
+date_source: listing
+authors: ["Ilana Umansky", "Havisha Khurana"]
+document_url: null
+doi: null
+license: null
+tags: [english-learners, k-12, lpi]
+```
+
+Before California simplified its rules, English learners had to pass a locally set "basic skills" test to reclassify as English-proficient—on top of meeting language proficiency benchmarks. A review of 76 districts found that these local rules varied widely, held back rural and middle-grade students, and had no clear effect on achievement.
+
+---
+
+---
+
+### 9039. Teacher Residencies in Arkansas: Early Lessons From Pioneering Universities
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/ar-teacher-residencies-early-lessons-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-02
+published_date: 2026-09-25
+date_source: listing
+authors: ["Julie Fitz", "Jennifer Robinson", "Jennifer A. Bland"]
+document_url: null
+doi: null
+license: null
+tags: [lpi]
+```
+
+Arkansas is requiring all educator preparation programs (EPPs) to prepare candidates through a teacher residency by Spring 2027, prompting large-scale program redesign across the state. Case studies of two EPPs that undertook early residency redesign illuminate effective practices and challenges encountered, and the findings offer actionable lessons for high-quality residency implementation.
+
+---
+
+---
+
+### 9040. Listening to Students First: What California Community College Learners Are Telling Us About GenAI, Equity, and Learning
+
+```yaml
+url: "https://www.wested.org/resource/listening-to-students-first/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Tracy Huebner", "Valentin Pedroza"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/30093919/Listening_to_Students_First_Report_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [college-access, genai, higher-ed]
+```
+
+This WestEd report surveys 3,595 California Community College students about generative AI, a group largely missing from research that has centered on 4-year universities. It finds students approaching GenAI with caution rather than wholesale adoption, higher use among older students than younger ones, and barriers such as unclear or inconsistent instructor policies, low trust in GenAI outputs and uneven access to paid tools. Students ask more clearly for course-level policy and guidance than for discounted premium tools, and the report offers this evidence to faculty, administrators, system leaders, policymakers, funders and researchers.
+
+---
+
+---
+
+### 9041. Materials, Measures, and What Matters: How District Leaders Are Building Coherent Systems for HQIM Implementation
+
+```yaml
+url: "https://www.wested.org/resource/materials-measures-and-what-matters/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Maggie Hannan", "Drew Nucci", "Rebecca Perry"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/30092731/IM-HQIM_remediation_260924_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [k-12, math-education, professional-development]
+```
+
+Drawing on interviews with math leaders in 11 districts across seven states, this WestEd brief examines how districts are building systems to implement high-quality instructional materials (HQIM) in middle school mathematics, on the premise that strong materials alone do not guarantee strong implementation. It reports what is working: materials that support overstretched teachers and shift classrooms toward conceptual understanding, together with implementation data, pacing supports and curriculum-anchored professional development that make practice visible and aligned. The brief offers district and system leaders practical guidance and shared measures for stronger implementation.
+
+---
+
+---
+
+### 9042. Quality Algebra Learning for English Learners and Latino Students: A Scan of State Outcomes and Initiatives
+
+```yaml
+url: "https://www.wested.org/resource/quality-algebra-learning-for-english-learners-and-latino-students/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Haiwen Chu", "David Lopez", "Saroja Warner"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/29144659/Quality-Algebra-Learning-for-English-Learners-and-Latinos_FINAL-ADA-1.pdf"
+doi: null
+license: null
+tags: [english-learners, k-12, math-education]
+```
+
+English Learner and Latino enrollments are growing, yet NAEP 8th-grade mathematics scores for both groups declined over the past decade, and efforts to improve algebra learning often keep mathematics and Multilingual Learner work in separate silos. This WestEd report scans initiatives in 13 state education agencies with large or growing English Learner and Latino populations against five research-based principles for quality algebra learning: rigorous mathematics, a purposeful language focus, participation, identity-affirming pedagogy and critical awareness. It presents achievement data, cross-state patterns and recommendations for state leaders and policymakers on aligning initiatives and building networks.
+
+---
+
+---
+
+### 9043. Pathways to Prosperity Model Blueprint: A K–12 Implementation Guide for Career-Connected School Design
+
+```yaml
+url: "https://www.wested.org/resource/pathways-to-prosperity-model-blueprint/"
+type: framework
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Career Academy Network of Public Schools (CANOPS)", "WestEd", "Florida Association of Charter School Authorizers (FACSA)"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/29142841/Pathways-to-Prosperity-Model-Blueprint-ADA-FINAL-1.pdf"
+doi: null
+license: null
+tags: [career-readiness, k-12]
+```
+
+This implementation guide from WestEd, the Career Academy Network of Public Schools (CANOPS) and the Florida Association of Charter School Authorizers helps schools, networks, districts and system leaders consider how CANOPS career academy practices might be adapted in their own contexts. Rather than a replication manual or checklist, it explains the design logic behind a coherent K–12 career-connected school model and covers readiness, sequencing, enabling conditions, common risks and implementation health. It is organized around three pillars: College and Career Readiness, Professional Learning Communities for Student-Centered Support, and Experiential Learning.
+
+---
+
+---
+
+### 9044. A Snapshot of Oakland Unified School District’s Comprehensive Professional Learning to Implement Illustrative Mathematics
+
+```yaml
+url: "https://www.wested.org/resource/a-snapshot-of-oakland-unified-school-districts-comprehensive-professional-learning-to-implement-illustrative-mathematics/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Haiwen Chu", "Sarah Rainier", "Rebecca Perry"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/25114502/IM-OUSD-PL_260916-ADA-FINAL-1.pdf"
+doi: null
+license: null
+tags: [k-12, math-education, professional-development]
+```
+
+This WestEd brief offers a snapshot of how Oakland Unified School District supports middle-grade teachers implementing the Illustrative Mathematics curriculum, starting from the point that high-quality instructional materials alone do not guarantee strong teaching. It shows how a shared, ambitious vision and experienced staff make implementation possible, and how multiple structures give math teachers regular time to collaborate and connect professional learning to classroom practice. District teams adopting such materials get reflection questions for weighing their current conditions and strengthening their professional learning.
 
 ---

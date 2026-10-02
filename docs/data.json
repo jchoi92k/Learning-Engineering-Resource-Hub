@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 3918,
-    "last_updated": "2026-09-28",
+    "total": 3927,
+    "last_updated": "2026-10-02",
     "sources": [
       "ADL Initiative",
       "AI-for-Education.org",
@@ -74,9 +74,9 @@
       },
       {
         "source": "Digital Promise",
-        "indexed": 277,
+        "indexed": 279,
         "known_total": 273,
-        "pct": 101,
+        "pct": 102,
         "priority": "high",
         "status": "active"
       },
@@ -98,9 +98,9 @@
       },
       {
         "source": "WestEd",
-        "indexed": 921,
+        "indexed": 926,
         "known_total": 1254,
-        "pct": 73,
+        "pct": 74,
         "priority": "medium",
         "status": "active"
       },
@@ -122,9 +122,9 @@
       },
       {
         "source": "Learning Policy Institute",
-        "indexed": 354,
+        "indexed": 356,
         "known_total": 347,
-        "pct": 102,
+        "pct": 103,
         "priority": "medium",
         "status": "active"
       },
@@ -210,15 +210,15 @@
       }
     ],
     "dates": {
-      "with_published_date": 3318,
+      "with_published_date": 3327,
       "published_date_not_available": 392,
       "without_published_date": 208,
       "num_min": 1,
-      "num_max": 9035
+      "num_max": 9044
     },
     "document_links": {
-      "with_document_url": 499,
-      "without_document_url": 3419
+      "with_document_url": 504,
+      "without_document_url": 3423
     }
   },
   "entries": [
@@ -96956,6 +96956,241 @@
       "domain": "policy",
       "url_verified": true,
       "last_verified": "2026-09-25"
+    },
+    {
+      "num": 9036,
+      "title": "Navigating Research Approvals for EdTech Research and Evaluation: A Practical Guide",
+      "url": "https://digitalpromise.dspacedirect.org/items/a9a121e4-d9e2-449f-9754-8a63c2823c0f",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-10-02",
+      "published_date": "2026-09",
+      "date_source": "listing",
+      "authors": [
+        "Wise Younger, Jessica"
+      ],
+      "document_url": null,
+      "tags": [
+        "digital-promise",
+        "k-12",
+        "pii-privacy"
+      ],
+      "desc": "Edtech research in K-12 settings can involve multiple layers of oversight including Institutional Review Board (IRB) review, school district approval, parental permission, and student data privacy requirements. This practical guide helps edtech teams anticipate these requirements and make study design decisions that support efficient, ethical research. It explains common IRB pathways and examines how factors such as researcher access to identifiable student data, research activities, survey data, and data architecture can affect the likely review pathway. The guide also highlights how parental permission and child assent, student data sharing requirements, and school district policies can shape the approval and implementation of research conducted in K-12 settings. Through practical examples and study-design scenarios, it helps teams identify potential approval requirements early and design evaluations that balance research rigor, participant protections, and operational feasibility.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9037,
+      "title": "Task Automation, Worker Augmentation: Opportunities for Career and Technical Education in the Heartland",
+      "url": "https://digitalpromise.dspacedirect.org/items/5b629431-ecfe-456f-b696-08b6ee81e500",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-10-02",
+      "published_date": "2026-09",
+      "date_source": "listing",
+      "authors": [
+        "Jacobs, Britney"
+      ],
+      "document_url": null,
+      "tags": [
+        "career-readiness",
+        "computer-assisted-learning",
+        "digital-promise",
+        "literacy"
+      ],
+      "desc": "This research brief, the first in a three-part series from Digital Promise's Center for Learner Pathway Innovations (CLPI), examines what AI exposure and adoption data mean for career and technical education (CTE) in the 19-state Heartland region. Drawing on the Anthropic Economic Index and the U.S. Census Bureau's Business Trends and Outlook Survey, the brief explores how Heartland occupations (concentrated in agriculture, skilled trades, and production) show both lower technical exposure to AI and lower employer adoption than the national average. Rather than signaling safety from AI, this gap represents a limited window in which CTE programs can shape how the technology is introduced, rather than simply reacting once adoption arrives. The brief empowers Heartland CTE leaders, districts, and policymakers with recommendations to use over the next several years to build AI task literacy into curricula, prioritize augmentation-friendly occupations, and fund local data collection that tracks adoption as it happens.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9038,
+      "title": "California’s Academic Criterion for English Learner Reclassification: Implementation and Impacts",
+      "url": "https://learningpolicyinstitute.org/product/gdtf-english-learner-reclassification-brief",
+      "type": "report",
+      "source": "Learning Policy Institute",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-10-02",
+      "published_date": "2026-09-30",
+      "date_source": "listing",
+      "authors": [
+        "Ilana Umansky",
+        "Havisha Khurana"
+      ],
+      "document_url": null,
+      "tags": [
+        "english-learners",
+        "k-12",
+        "lpi"
+      ],
+      "desc": "Before California simplified its rules, English learners had to pass a locally set \"basic skills\" test to reclassify as English-proficient—on top of meeting language proficiency benchmarks. A review of 76 districts found that these local rules varied widely, held back rural and middle-grade students, and had no clear effect on achievement.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9039,
+      "title": "Teacher Residencies in Arkansas: Early Lessons From Pioneering Universities",
+      "url": "https://learningpolicyinstitute.org/product/ar-teacher-residencies-early-lessons-brief",
+      "type": "report",
+      "source": "Learning Policy Institute",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-10-02",
+      "published_date": "2026-09-25",
+      "date_source": "listing",
+      "authors": [
+        "Julie Fitz",
+        "Jennifer Robinson",
+        "Jennifer A. Bland"
+      ],
+      "document_url": null,
+      "tags": [
+        "lpi"
+      ],
+      "desc": "Arkansas is requiring all educator preparation programs (EPPs) to prepare candidates through a teacher residency by Spring 2027, prompting large-scale program redesign across the state. Case studies of two EPPs that undertook early residency redesign illuminate effective practices and challenges encountered, and the findings offer actionable lessons for high-quality residency implementation.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9040,
+      "title": "Listening to Students First: What California Community College Learners Are Telling Us About GenAI, Equity, and Learning",
+      "url": "https://www.wested.org/resource/listening-to-students-first/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-02",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Tracy Huebner",
+        "Valentin Pedroza"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/30093919/Listening_to_Students_First_Report_FINAL-ADA.pdf",
+      "tags": [
+        "college-access",
+        "genai",
+        "higher-ed"
+      ],
+      "desc": "This WestEd report surveys 3,595 California Community College students about generative AI, a group largely missing from research that has centered on 4-year universities. It finds students approaching GenAI with caution rather than wholesale adoption, higher use among older students than younger ones, and barriers such as unclear or inconsistent instructor policies, low trust in GenAI outputs and uneven access to paid tools. Students ask more clearly for course-level policy and guidance than for discounted premium tools, and the report offers this evidence to faculty, administrators, system leaders, policymakers, funders and researchers.",
+      "domain": "policy",
+      "url_verified": true,
+      "last_verified": "2026-10-02"
+    },
+    {
+      "num": 9041,
+      "title": "Materials, Measures, and What Matters: How District Leaders Are Building Coherent Systems for HQIM Implementation",
+      "url": "https://www.wested.org/resource/materials-measures-and-what-matters/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-02",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Maggie Hannan",
+        "Drew Nucci",
+        "Rebecca Perry"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/30092731/IM-HQIM_remediation_260924_FINAL-ADA.pdf",
+      "tags": [
+        "k-12",
+        "math-education",
+        "professional-development"
+      ],
+      "desc": "Drawing on interviews with math leaders in 11 districts across seven states, this WestEd brief examines how districts are building systems to implement high-quality instructional materials (HQIM) in middle school mathematics, on the premise that strong materials alone do not guarantee strong implementation. It reports what is working: materials that support overstretched teachers and shift classrooms toward conceptual understanding, together with implementation data, pacing supports and curriculum-anchored professional development that make practice visible and aligned. The brief offers district and system leaders practical guidance and shared measures for stronger implementation.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-10-02"
+    },
+    {
+      "num": 9042,
+      "title": "Quality Algebra Learning for English Learners and Latino Students: A Scan of State Outcomes and Initiatives",
+      "url": "https://www.wested.org/resource/quality-algebra-learning-for-english-learners-and-latino-students/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-02",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Haiwen Chu",
+        "David Lopez",
+        "Saroja Warner"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/29144659/Quality-Algebra-Learning-for-English-Learners-and-Latinos_FINAL-ADA-1.pdf",
+      "tags": [
+        "english-learners",
+        "k-12",
+        "math-education"
+      ],
+      "desc": "English Learner and Latino enrollments are growing, yet NAEP 8th-grade mathematics scores for both groups declined over the past decade, and efforts to improve algebra learning often keep mathematics and Multilingual Learner work in separate silos. This WestEd report scans initiatives in 13 state education agencies with large or growing English Learner and Latino populations against five research-based principles for quality algebra learning: rigorous mathematics, a purposeful language focus, participation, identity-affirming pedagogy and critical awareness. It presents achievement data, cross-state patterns and recommendations for state leaders and policymakers on aligning initiatives and building networks.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-10-02"
+    },
+    {
+      "num": 9043,
+      "title": "Pathways to Prosperity Model Blueprint: A K–12 Implementation Guide for Career-Connected School Design",
+      "url": "https://www.wested.org/resource/pathways-to-prosperity-model-blueprint/",
+      "type": "framework",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-02",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Career Academy Network of Public Schools (CANOPS)",
+        "WestEd",
+        "Florida Association of Charter School Authorizers (FACSA)"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/29142841/Pathways-to-Prosperity-Model-Blueprint-ADA-FINAL-1.pdf",
+      "tags": [
+        "career-readiness",
+        "k-12"
+      ],
+      "desc": "This implementation guide from WestEd, the Career Academy Network of Public Schools (CANOPS) and the Florida Association of Charter School Authorizers helps schools, networks, districts and system leaders consider how CANOPS career academy practices might be adapted in their own contexts. Rather than a replication manual or checklist, it explains the design logic behind a coherent K–12 career-connected school model and covers readiness, sequencing, enabling conditions, common risks and implementation health. It is organized around three pillars: College and Career Readiness, Professional Learning Communities for Student-Centered Support, and Experiential Learning.",
+      "domain": "policy",
+      "url_verified": true,
+      "last_verified": "2026-10-02"
+    },
+    {
+      "num": 9044,
+      "title": "A Snapshot of Oakland Unified School District’s Comprehensive Professional Learning to Implement Illustrative Mathematics",
+      "url": "https://www.wested.org/resource/a-snapshot-of-oakland-unified-school-districts-comprehensive-professional-learning-to-implement-illustrative-mathematics/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-02",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Haiwen Chu",
+        "Sarah Rainier",
+        "Rebecca Perry"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/25114502/IM-OUSD-PL_260916-ADA-FINAL-1.pdf",
+      "tags": [
+        "k-12",
+        "math-education",
+        "professional-development"
+      ],
+      "desc": "This WestEd brief offers a snapshot of how Oakland Unified School District supports middle-grade teachers implementing the Illustrative Mathematics curriculum, starting from the point that high-quality instructional materials alone do not guarantee strong teaching. It shows how a shared, ambitious vision and experienced staff make implementation possible, and how multiple structures give math teachers regular time to collaborate and connect professional learning to classroom practice. District teams adopting such materials get reflection questions for weighing their current conditions and strengthening their professional learning.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-10-02"
     }
   ]
 }

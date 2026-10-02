@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — Digital Promise
 
-> 277 entries from Digital Promise.
+> 279 entries from Digital Promise.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-digital-promise.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-28
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-02
 
 - 18. [Breaking With the Past: Embracing Digital Transformation in Education](https://digitalpromise.dspacedirect.org/items/6559b261-d6d7-4184-9116-16eb93a9c212) | report | digital-learning-platforms, digital-promise, learning-engineering, personalized-learning
 - 19. [Computational Thinking for an Inclusive World](https://digitalpromise.dspacedirect.org/handle/20.500.12265/138) | report | computer-assisted-learning, digital-promise, inclusive-design, k-12, learning-engineering
@@ -281,3 +281,5 @@
 - 9019. [Beyond Participation: The Capacities That Shape Engagement in Collaborative Innovation](https://digitalpromise.dspacedirect.org/items/e933ec0e-f153-4046-842b-61b696b00ba2) | report | digital-promise
 - 9020. [Participatory Evaluation: The Capacities That Shape Engagement](https://digitalpromise.dspacedirect.org/items/6a19cbce-04f2-4a90-a5cc-d4eeb4f8b152) | report | digital-promise
 - 9021. [Equity-Focused High School Alumni Connections: A Design Guide for Alumni Surveys](https://digitalpromise.dspacedirect.org/items/ad6d75e6-2c32-463b-9554-1e8260f2da48) | report | digital-promise, k-12
+- 9036. [Navigating Research Approvals for EdTech Research and Evaluation: A Practical Guide](https://digitalpromise.dspacedirect.org/items/a9a121e4-d9e2-449f-9754-8a63c2823c0f) | report | digital-promise, k-12, pii-privacy
+- 9037. [Task Automation, Worker Augmentation: Opportunities for Career and Technical Education in the Heartland](https://digitalpromise.dspacedirect.org/items/5b629431-ecfe-456f-b696-08b6ee81e500) | report | career-readiness, computer-assisted-learning, digital-promise, literacy

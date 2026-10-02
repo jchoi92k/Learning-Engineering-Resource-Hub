@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — WestEd (part 3 of 3)
 
-> 921 entries from WestEd; this part lists 38 of them (entry numbers 6717–9035).
+> 926 entries from WestEd; this part lists 43 of them (entry numbers 6717–9044).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-28
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-02
 
 - 6717. [Effects of Problem Based Economics on High School Economics Instruction: Final Report](https://www.wested.org/resource/effects-of-problem-based-economics-on-high-school-economics-instruction-final-report/) | report | 
 - 6718. [Do States Have Certification Requirements for Preparing General Education Teachers to Teach Students with Disabilities? Experience in the Northeast and Islands Region](https://www.wested.org/resource/do-states-have-certification-requirements-for-preparing-general-education-teachers-to-teach-students-with-disabilities-experience-in-the-northeast-and-islands-region/) | report | inclusive-design
@@ -42,3 +42,8 @@
 - 9033. [Pillar 3: Experiential Learning, A Pathways to Prosperity Brief](https://www.wested.org/resource/pillar-3-experiential-learning/) | report | career-readiness, k-12
 - 9034. [Pillar 2: Professional Learning Communities for Student-Centered Support, A Pathways to Prosperity Brief](https://www.wested.org/resource/pillar-2-professional-learning-communities-for-student-centered-support/) | report | k-12, professional-development
 - 9035. [Pillar 1: College and Career Readiness, A Pathways to Prosperity Brief](https://www.wested.org/resource/pillar-1-college-and-career-readiness/) | report | career-readiness, college-access, k-12
+- 9040. [Listening to Students First: What California Community College Learners Are Telling Us About GenAI, Equity, and Learning](https://www.wested.org/resource/listening-to-students-first/) | report | college-access, genai, higher-ed
+- 9041. [Materials, Measures, and What Matters: How District Leaders Are Building Coherent Systems for HQIM Implementation](https://www.wested.org/resource/materials-measures-and-what-matters/) | report | k-12, math-education, professional-development
+- 9042. [Quality Algebra Learning for English Learners and Latino Students: A Scan of State Outcomes and Initiatives](https://www.wested.org/resource/quality-algebra-learning-for-english-learners-and-latino-students/) | report | english-learners, k-12, math-education
+- 9043. [Pathways to Prosperity Model Blueprint: A K–12 Implementation Guide for Career-Connected School Design](https://www.wested.org/resource/pathways-to-prosperity-model-blueprint/) | framework | career-readiness, k-12
+- 9044. [A Snapshot of Oakland Unified School District’s Comprehensive Professional Learning to Implement Illustrative Mathematics](https://www.wested.org/resource/a-snapshot-of-oakland-unified-school-districts-comprehensive-professional-learning-to-implement-illustrative-mathematics/) | report | k-12, math-education, professional-development

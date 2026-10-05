@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 354 entries with descriptions | Last updated: 2026-09-28
+# 356 entries with descriptions | Last updated: 2026-10-02
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8849,5 +8849,55 @@ tags: [career-readiness, k-12, lpi, sel]
 ```
 
 Research confirms that principal turnover negatively impacts student achievement and teacher retention. A California-focused analysis of statewide data examines trends in principal preparation, experience, and distribution, identifying key school, district, and principal characteristics associated with turnover across the state.
+
+---
+
+---
+
+### 9038. California’s Academic Criterion for English Learner Reclassification: Implementation and Impacts
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/gdtf-english-learner-reclassification-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-02
+published_date: 2026-09-30
+date_source: listing
+authors: ["Ilana Umansky", "Havisha Khurana"]
+document_url: null
+doi: null
+license: null
+tags: [english-learners, k-12, lpi]
+```
+
+Before California simplified its rules, English learners had to pass a locally set "basic skills" test to reclassify as English-proficient—on top of meeting language proficiency benchmarks. A review of 76 districts found that these local rules varied widely, held back rural and middle-grade students, and had no clear effect on achievement.
+
+---
+
+---
+
+### 9039. Teacher Residencies in Arkansas: Early Lessons From Pioneering Universities
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/ar-teacher-residencies-early-lessons-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-02
+published_date: 2026-09-25
+date_source: listing
+authors: ["Julie Fitz", "Jennifer Robinson", "Jennifer A. Bland"]
+document_url: null
+doi: null
+license: null
+tags: [lpi]
+```
+
+Arkansas is requiring all educator preparation programs (EPPs) to prepare candidates through a teacher residency by Spring 2027, prompting large-scale program redesign across the state. Case studies of two EPPs that undertook early residency redesign illuminate effective practices and challenges encountered, and the findings offer actionable lessons for high-quality residency implementation.
 
 ---

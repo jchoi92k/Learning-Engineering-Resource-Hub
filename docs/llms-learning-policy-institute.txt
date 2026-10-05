@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute
 
-> 354 entries from Learning Policy Institute.
+> 356 entries from Learning Policy Institute.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-learning-policy-institute.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-09-28
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-02
 
 - 138. [Effective Teacher Professional Development](https://learningpolicyinstitute.org/product/effective-teacher-professional-development) | report | learning-engineering, lpi, professional-development
 - 141. [The State of the Teacher Workforce](https://learningpolicyinstitute.org/product/state-of-teacher-workforce-interactive-0) | report | k-12, learning-engineering, lpi, professional-development
@@ -358,3 +358,5 @@
 - 9004. [Investments to Support Students Experiencing Homelessness: A Decade of Policy, A Decade of Progress in Washington State](https://learningpolicyinstitute.org/product/wa-state-policy-support-students-homelessness-brief) | report | dropout-prevention, k-12, lpi
 - 9025. [Cultivating Math Mindsets: State and District Policies That Support Teachers and Student Learning](https://learningpolicyinstitute.org/product/cultivating-math-mindsets-policy-brief) | report | k-12, lpi, math-education
 - 9029. [California’s Principal Workforce: Trends in Supply and Turnover](https://learningpolicyinstitute.org/product/gdtf-california-principals-trends-brief) | report | career-readiness, k-12, lpi, sel
+- 9038. [California’s Academic Criterion for English Learner Reclassification: Implementation and Impacts](https://learningpolicyinstitute.org/product/gdtf-english-learner-reclassification-brief) | report | english-learners, k-12, lpi
+- 9039. [Teacher Residencies in Arkansas: Early Lessons From Pioneering Universities](https://learningpolicyinstitute.org/product/ar-teacher-residencies-early-lessons-brief) | report | lpi

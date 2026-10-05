@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — WestEd (full)
-# 921 entries with descriptions | Last updated: 2026-09-28
+# 926 entries with descriptions | Last updated: 2026-10-02
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -23024,5 +23024,130 @@ tags: [career-readiness, college-access, k-12]
 ```
 
 A brief from WestEd and the Career Academy Network of Public Schools (CANOPS) describing how a K–12 readiness system supports students in exploring careers, reflecting on their interests and strengths, receiving guidance, and making informed pathway decisions over time. It argues that CTE models treating academic instruction and career preparation as separate tracks force a false choice between being college ready and career ready, leaving students with less support for planning their futures and schools less able to build the talent pipeline employers need. Education leaders, program designers and practitioners will find practical guidance, implementation examples, discussions of potential risks and indicators of program effectiveness for career-connected learning initiatives.
+
+---
+
+---
+
+### 9040. Listening to Students First: What California Community College Learners Are Telling Us About GenAI, Equity, and Learning
+
+```yaml
+url: "https://www.wested.org/resource/listening-to-students-first/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Tracy Huebner", "Valentin Pedroza"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/30093919/Listening_to_Students_First_Report_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [college-access, genai, higher-ed]
+```
+
+This WestEd report surveys 3,595 California Community College students about generative AI, a group largely missing from research that has centered on 4-year universities. It finds students approaching GenAI with caution rather than wholesale adoption, higher use among older students than younger ones, and barriers such as unclear or inconsistent instructor policies, low trust in GenAI outputs and uneven access to paid tools. Students ask more clearly for course-level policy and guidance than for discounted premium tools, and the report offers this evidence to faculty, administrators, system leaders, policymakers, funders and researchers.
+
+---
+
+---
+
+### 9041. Materials, Measures, and What Matters: How District Leaders Are Building Coherent Systems for HQIM Implementation
+
+```yaml
+url: "https://www.wested.org/resource/materials-measures-and-what-matters/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Maggie Hannan", "Drew Nucci", "Rebecca Perry"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/30092731/IM-HQIM_remediation_260924_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [k-12, math-education, professional-development]
+```
+
+Drawing on interviews with math leaders in 11 districts across seven states, this WestEd brief examines how districts are building systems to implement high-quality instructional materials (HQIM) in middle school mathematics, on the premise that strong materials alone do not guarantee strong implementation. It reports what is working: materials that support overstretched teachers and shift classrooms toward conceptual understanding, together with implementation data, pacing supports and curriculum-anchored professional development that make practice visible and aligned. The brief offers district and system leaders practical guidance and shared measures for stronger implementation.
+
+---
+
+---
+
+### 9042. Quality Algebra Learning for English Learners and Latino Students: A Scan of State Outcomes and Initiatives
+
+```yaml
+url: "https://www.wested.org/resource/quality-algebra-learning-for-english-learners-and-latino-students/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Haiwen Chu", "David Lopez", "Saroja Warner"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/29144659/Quality-Algebra-Learning-for-English-Learners-and-Latinos_FINAL-ADA-1.pdf"
+doi: null
+license: null
+tags: [english-learners, k-12, math-education]
+```
+
+English Learner and Latino enrollments are growing, yet NAEP 8th-grade mathematics scores for both groups declined over the past decade, and efforts to improve algebra learning often keep mathematics and Multilingual Learner work in separate silos. This WestEd report scans initiatives in 13 state education agencies with large or growing English Learner and Latino populations against five research-based principles for quality algebra learning: rigorous mathematics, a purposeful language focus, participation, identity-affirming pedagogy and critical awareness. It presents achievement data, cross-state patterns and recommendations for state leaders and policymakers on aligning initiatives and building networks.
+
+---
+
+---
+
+### 9043. Pathways to Prosperity Model Blueprint: A K–12 Implementation Guide for Career-Connected School Design
+
+```yaml
+url: "https://www.wested.org/resource/pathways-to-prosperity-model-blueprint/"
+type: framework
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Career Academy Network of Public Schools (CANOPS)", "WestEd", "Florida Association of Charter School Authorizers (FACSA)"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/29142841/Pathways-to-Prosperity-Model-Blueprint-ADA-FINAL-1.pdf"
+doi: null
+license: null
+tags: [career-readiness, k-12]
+```
+
+This implementation guide from WestEd, the Career Academy Network of Public Schools (CANOPS) and the Florida Association of Charter School Authorizers helps schools, networks, districts and system leaders consider how CANOPS career academy practices might be adapted in their own contexts. Rather than a replication manual or checklist, it explains the design logic behind a coherent K–12 career-connected school model and covers readiness, sequencing, enabling conditions, common risks and implementation health. It is organized around three pillars: College and Career Readiness, Professional Learning Communities for Student-Centered Support, and Experiential Learning.
+
+---
+
+---
+
+### 9044. A Snapshot of Oakland Unified School District’s Comprehensive Professional Learning to Implement Illustrative Mathematics
+
+```yaml
+url: "https://www.wested.org/resource/a-snapshot-of-oakland-unified-school-districts-comprehensive-professional-learning-to-implement-illustrative-mathematics/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-02
+published_date: 2026
+date_source: page-meta
+authors: ["Haiwen Chu", "Sarah Rainier", "Rebecca Perry"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/25114502/IM-OUSD-PL_260916-ADA-FINAL-1.pdf"
+doi: null
+license: null
+tags: [k-12, math-education, professional-development]
+```
+
+This WestEd brief offers a snapshot of how Oakland Unified School District supports middle-grade teachers implementing the Illustrative Mathematics curriculum, starting from the point that high-quality instructional materials alone do not guarantee strong teaching. It shows how a shared, ambitious vision and experienced staff make implementation possible, and how multiple structures give math teachers regular time to collaborate and connect professional learning to classroom practice. District teams adopting such materials get reflection questions for weighing their current conditions and strengthening their professional learning.
 
 ---

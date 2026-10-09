@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — The Education Trust (full)
-# 324 entries with descriptions | Last updated: 2026-10-02
+# 325 entries with descriptions | Last updated: 2026-10-09
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8099,5 +8099,30 @@ tags: [edtrust, k-12]
 ```
 
 A guide for educators and advocates, produced by The Century Foundation with the National Education Association, the American Federation of Teachers, the National Immigration Law Center and other partners, setting out five actions to request of school leadership in order to protect the learning environment from fear and unnecessary immigration enforcement. It argues that the removal of school-based protections against immigration enforcement, and the presence or even the rumor of immigration agents near schools, can keep students home and deter families from engaging in their child's learning, despite federal law protecting the right to a free public education regardless of citizenship status.
+
+---
+
+---
+
+### 9049. EdTrust’s 5 Principles for Higher Education Accountability to Meet the Moment
+
+```yaml
+url: "https://edtrust.org/rti/edtrusts-5-principles-for-higher-education-accountability-to-meet-the-moment/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-09
+published_date: 2026-10-08
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [college-access, edtrust, higher-ed]
+```
+
+This EdTrust piece responds to growing public doubts about the value of a college degree, high costs and student debt by setting out five principles for federal higher education accountability. It argues that the do-no-harm earnings test created by the 2025 One Big Beautiful Bill Act, which requires programs with access to federal loans to show that their graduates out-earn working adults without that credential, is a step in the right direction but not enough. It calls for a more comprehensive accountability system that puts students first and restores public trust in higher education as an affordable, equitable path to economic mobility.
 
 ---

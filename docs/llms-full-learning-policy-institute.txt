@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 356 entries with descriptions | Last updated: 2026-10-02
+# 357 entries with descriptions | Last updated: 2026-10-09
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8899,5 +8899,30 @@ tags: [lpi]
 ```
 
 Arkansas is requiring all educator preparation programs (EPPs) to prepare candidates through a teacher residency by Spring 2027, prompting large-scale program redesign across the state. Case studies of two EPPs that undertook early residency redesign illuminate effective practices and challenges encountered, and the findings offer actionable lessons for high-quality residency implementation.
+
+---
+
+---
+
+### 9050. Linked Learning in a Community School: Connecting to College, Career, and Community at the School of Business and Tourism
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/ca-linked-learning-community-schools-los-angeles-unified-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-09
+published_date: 2026-10-07
+date_source: listing
+authors: ["Sarah Klevan", "Laura E. Hernández"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, college-access, formative-assessment, k-12, lpi, sel]
+```
+
+The School of Business and Tourism is a Los Angeles high school redesigned as a community school using Linked Learning pathways, project-based learning, updated site roles, and a self-regulation space. Despite serving a higher-need population, the school outperformed the district on state assessments, offering a model for secondary school redesign.
 
 ---

@@ -309,3 +309,31 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 5 entries (9040-9044)
 - Backlog rows recorded as pending (excluded): 1
 - Tags: keyword auto-tagged
+
+## 2026-10-09 - Digital Promise
+- Source slug: `digital-promise`
+- Scraped: 3 total, 3 ready, 0 backlog
+- Processed: 3 entries (9046-9048)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-10-09 - The Education Trust
+- Source slug: `edtrust`
+- Scraped: 1 total, 1 ready, 0 backlog
+- Processed: 1 entries (9049-9049)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-10-09 - Learning Policy Institute
+- Source slug: `lpi-briefs`
+- Scraped: 1 total, 1 ready, 0 backlog
+- Processed: 1 entries (9050-9050)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-10-09 - WestEd
+- Source slug: `wested`
+- Scraped: 5 total, 5 ready, 0 backlog
+- Processed: 5 entries (9051-9055)
+- Backlog rows recorded as pending (excluded): 1
+- Tags: keyword auto-tagged

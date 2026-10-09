@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Digital Promise (full)
-# 279 entries with descriptions | Last updated: 2026-10-02
+# 282 entries with descriptions | Last updated: 2026-10-09
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-digital-promise.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -6974,5 +6974,80 @@ tags: [career-readiness, computer-assisted-learning, digital-promise, literacy]
 ```
 
 This research brief, the first in a three-part series from Digital Promise's Center for Learner Pathway Innovations (CLPI), examines what AI exposure and adoption data mean for career and technical education (CTE) in the 19-state Heartland region. Drawing on the Anthropic Economic Index and the U.S. Census Bureau's Business Trends and Outlook Survey, the brief explores how Heartland occupations (concentrated in agriculture, skilled trades, and production) show both lower technical exposure to AI and lower employer adoption than the national average. Rather than signaling safety from AI, this gap represents a limited window in which CTE programs can shape how the technology is introduced, rather than simply reacting once adoption arrives. The brief empowers Heartland CTE leaders, districts, and policymakers with recommendations to use over the next several years to build AI task literacy into curricula, prioritize augmentation-friendly occupations, and fund local data collection that tracks adoption as it happens.
+
+---
+
+---
+
+### 9046. Cultivating a Strong Field: Reengineering Education R&D for Speed, Scale, and Impact
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/fe085f8b-78f3-46db-a8fb-b3d9b98dd744"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-09
+published_date: 2026-10
+date_source: listing
+authors: ["Griffiths, Rebecca", "Higgins, Erin"]
+document_url: null
+doi: null
+license: null
+tags: [digital-promise, formative-assessment]
+```
+
+Education research and development (R&D) too rarely translates discoveries into classroom change, and traditional research cycles struggle to keep pace with urgent needs and rapid technological shifts such as generative AI. The Institute of Education Sciences' Accelerate, Transform, Scale (ATS) Initiative, modeled on DARPA's high-reward, responsible risk-taking approach, seeks to build a subfield of education R&D capable of producing breakthrough solutions to persistent challenges. To bring coherence to this work, we adapt the Bridgespan Group's (2009) "strong field" framework into five interlocking, measurable conditions: shared language and identity, essential practices, a knowledge base, leadership and ecosystem, and pathways to success. For each condition, we offer a definition specific to breakthrough-oriented education R&D and propose assessment approaches using methods such as network and bibliometric analyses, arguing that the process of measuring these conditions can lead to actionable insights. We identify pathways to success as the field's weakest condition, given decentralized procurement and a severe "valley of death" between pilot and scale. We present the framework as a starting point and invite the field to refine these indicators to guide investment in the infrastructure and capacity needed for breakthroughs.
+
+---
+
+---
+
+### 9047. Digital Promise Yourway: Findings from a Mixed-Methods Pilot Study with K-12 Educators
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/0a24a08a-bfc6-42fc-b609-5731bc0c6e42"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-09
+published_date: 2026-10
+date_source: listing
+authors: ["Stephenson, Stefani Pautz"]
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, k-12, personalized-learning]
+```
+
+This pilot study evaluates Digital Promise Yourway—an artificial intelligence (AI) suite of tools developed in collaboration with Yourway Learning—which pairs trusted educational research with actionable tools to help K-12 educators plan for learner variability while maintaining their instructional goals. The study investigated the tools' usability, their integration into daily teaching practices, and their ability to address genuine classroom needs. Findings indicate that grounding AI tools in established educational research offers practical support for personalized instruction, demonstrating how technology can be seamlessly adopted to meet diverse student needs without disrupting established educator workflows.
+
+---
+
+---
+
+### 9048. Building a Complete Picture: How Skyline High School Redesigned Information Flow to Better Support Ninth-Grade Students
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/bf65117b-573f-4a95-a2f3-5d26d426c629"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-09
+published_date: 2026-10
+date_source: listing
+authors: ["Cocuzza, Beth", "Noakes, Sierra", "Aso, Chioma", "Goldschmidt, Lisa", "Bennett, Kathleen"]
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, k-12, response-to-intervention]
+```
+
+This report chronicles Skyline High School’s participation in a cross-district co-design initiative facilitated by Digital Promise, aimed at strengthening information-sharing and intervention workflows for ninth-grade students. Facing fragmented data, inconsistent system permissions, and disconnected tracking tools, Skyline developed practical, school-led solutions to strengthen communication and coordination among key support staff. These workflows demonstrate how strong human infrastructure can strengthen coordination and enable earlier intervention even when existing technology does not fully support educators’ needs, while surfacing broader challenges related to system configuration, governance, and ownership that school staff could not resolve alone. This case study offers a blueprint for leaders to move beyond reliance on individual workarounds, demonstrating how local innovation can illuminate systemic needs and how shared ownership among schools, districts, technology providers, and technical assistance partners can create more sustainable student success systems.
 
 ---

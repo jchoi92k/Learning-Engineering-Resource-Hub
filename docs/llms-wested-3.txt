@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — WestEd (part 3 of 3)
 
-> 926 entries from WestEd; this part lists 43 of them (entry numbers 6717–9044).
+> 931 entries from WestEd; this part lists 48 of them (entry numbers 6717–9055).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-02
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-09
 
 - 6717. [Effects of Problem Based Economics on High School Economics Instruction: Final Report](https://www.wested.org/resource/effects-of-problem-based-economics-on-high-school-economics-instruction-final-report/) | report | 
 - 6718. [Do States Have Certification Requirements for Preparing General Education Teachers to Teach Students with Disabilities? Experience in the Northeast and Islands Region](https://www.wested.org/resource/do-states-have-certification-requirements-for-preparing-general-education-teachers-to-teach-students-with-disabilities-experience-in-the-northeast-and-islands-region/) | report | inclusive-design
@@ -47,3 +47,8 @@
 - 9042. [Quality Algebra Learning for English Learners and Latino Students: A Scan of State Outcomes and Initiatives](https://www.wested.org/resource/quality-algebra-learning-for-english-learners-and-latino-students/) | report | english-learners, k-12, math-education
 - 9043. [Pathways to Prosperity Model Blueprint: A K–12 Implementation Guide for Career-Connected School Design](https://www.wested.org/resource/pathways-to-prosperity-model-blueprint/) | framework | career-readiness, k-12
 - 9044. [A Snapshot of Oakland Unified School District’s Comprehensive Professional Learning to Implement Illustrative Mathematics](https://www.wested.org/resource/a-snapshot-of-oakland-unified-school-districts-comprehensive-professional-learning-to-implement-illustrative-mathematics/) | report | k-12, math-education, professional-development
+- 9051. [Barriers to Using California Proposition 28 Arts and Music Funding Guarantee and Accountability Act Funds: Initial Reports From County Offices of Education, Districts, and Schools](https://www.wested.org/resource/barriers-to-using-california-proposition-28-arts-and-music-funding-guarantee-and-accountability-act-funds/) | report | k-12
+- 9052. [How California Proposition 28 Arts and Music Funding Guarantee and Accountability Act Funds Are Being Used: Initial Reports From County Offices of Education, Districts, and Schools](https://www.wested.org/resource/how-california-proposition-28-arts-and-music-funding-guarantee-and-accountability-act-funds-are-being-used/) | report | k-12
+- 9053. [Arts Disciplines, Courses Offered, and FTE Changes From the Proposition 28 Arts and Music Funding Guarantee and Accountability Act: Initial Reports From Districts and Schools](https://www.wested.org/resource/arts-disciplines-courses-offered-and-fte-changes-from-the-proposition-28-arts-and-music-funding-guarantee-and-accountability-act/) | report | k-12
+- 9054. [Needs of the Field to Ensure Access to an Arts Education: Perspectives From County Offices of Education, Districts, and Schools](https://www.wested.org/resource/needs-of-the-field-to-ensure-access-to-an-arts-education/) | report | k-12
+- 9055. [Preliminary Outcomes of California’s Proposition 28 Arts and Music Funding Guarantee and Accountability Act: Initial Reports From County Offices of Education, Districts, and Schools](https://www.wested.org/resource/preliminary-outcomes-of-californias-proposition-28-arts-and-music-funding-guarantee-and-accountability-act/) | report | k-12

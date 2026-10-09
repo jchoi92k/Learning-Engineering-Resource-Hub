@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — Digital Promise
 
-> 279 entries from Digital Promise.
+> 282 entries from Digital Promise.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-digital-promise.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-02
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-09
 
 - 18. [Breaking With the Past: Embracing Digital Transformation in Education](https://digitalpromise.dspacedirect.org/items/6559b261-d6d7-4184-9116-16eb93a9c212) | report | digital-learning-platforms, digital-promise, learning-engineering, personalized-learning
 - 19. [Computational Thinking for an Inclusive World](https://digitalpromise.dspacedirect.org/handle/20.500.12265/138) | report | computer-assisted-learning, digital-promise, inclusive-design, k-12, learning-engineering
@@ -283,3 +283,6 @@
 - 9021. [Equity-Focused High School Alumni Connections: A Design Guide for Alumni Surveys](https://digitalpromise.dspacedirect.org/items/ad6d75e6-2c32-463b-9554-1e8260f2da48) | report | digital-promise, k-12
 - 9036. [Navigating Research Approvals for EdTech Research and Evaluation: A Practical Guide](https://digitalpromise.dspacedirect.org/items/a9a121e4-d9e2-449f-9754-8a63c2823c0f) | report | digital-promise, k-12, pii-privacy
 - 9037. [Task Automation, Worker Augmentation: Opportunities for Career and Technical Education in the Heartland](https://digitalpromise.dspacedirect.org/items/5b629431-ecfe-456f-b696-08b6ee81e500) | report | career-readiness, computer-assisted-learning, digital-promise, literacy
+- 9046. [Cultivating a Strong Field: Reengineering Education R&D for Speed, Scale, and Impact](https://digitalpromise.dspacedirect.org/items/fe085f8b-78f3-46db-a8fb-b3d9b98dd744) | report | digital-promise, formative-assessment
+- 9047. [Digital Promise Yourway: Findings from a Mixed-Methods Pilot Study with K-12 Educators](https://digitalpromise.dspacedirect.org/items/0a24a08a-bfc6-42fc-b609-5731bc0c6e42) | report | computer-assisted-learning, digital-promise, k-12, personalized-learning
+- 9048. [Building a Complete Picture: How Skyline High School Redesigned Information Flow to Better Support Ninth-Grade Students](https://digitalpromise.dspacedirect.org/items/bf65117b-573f-4a95-a2f3-5d26d426c629) | report | computer-assisted-learning, digital-promise, k-12, response-to-intervention

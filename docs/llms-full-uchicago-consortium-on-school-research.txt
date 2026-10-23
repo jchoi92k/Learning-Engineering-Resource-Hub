@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — UChicago Consortium on School Research (full)
-# 324 entries with descriptions | Last updated: 2026-10-02
+# 325 entries with descriptions | Last updated: 2026-10-23
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-uchicago-consortium-on-school-research.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8099,5 +8099,30 @@ tags: [career-readiness, college-access, k-12]
 ```
 
 This is the first report from a two-phase study of career readiness opportunities in Chicago Public Schools (CPS) by the Illinois Workforce and Education Research Collaborative (IWERC) and the University of Chicago Consortium on School Research. This report lays the groundwork for understanding equity of access to career readiness opportunities in Chicago. Forthcoming reports from this series will look at the outcomes related to participation.This landscape study describes CPS’s vision and enactment of “career-connected learning” (CCL), a framework initiated in 2017, which aims to unify college preparatory and career readiness activities districtwide. Chicago is one of many districts in Illinois and nationally working to establish and implement a modern CCL framework. These efforts have largely outpaced research and community knowledge on the current state of career readiness opportunities in high schools. Our study begins to fill these gaps using novel district data which includes, not only student participation in career and technical education (CTE), but also on work-based learning (WBL) and advising activities, including the district’s Learn.Plan.Succeed. (LPS) Initiative, combined with interviews, document reviews, and student responses to the 5Essentials Survey.
+
+---
+
+---
+
+### 9056. The Educational Attainment of Chicago Public Schools Students
+
+```yaml
+url: "https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2025"
+type: report
+source: "UChicago Consortium on School Research"
+url_confirmed: true
+description_inferred: false
+description_source: page-abstract
+date_added: 2026-10-23
+published_date: 2026-10
+date_source: listing
+authors: ["Alexandra Usher", "Shelby Mahaffie", "Jenny Nagaoka", "Dominique McKoy"]
+document_url: null
+doi: null
+license: null
+tags: [college-access, computer-assisted-learning, math-education]
+```
+
+This annual report looks closely at how CPS students are progressing on the path to and through high school and college. In particular, we examine three key milestones: high school graduation, college enrollment, and college completion, and track how rates on these milestones have changed across time. These rates are then used to calculate an updated Post-secondary Attainment Index (PAI) which represents the proportion of current CPS ninth-graders who would complete any degree or certificate from a two-year or four-year college within 10 years, if current rates of attainment were to hold constant over the next decade.Read this year’s interactive report and explore more of the data through the To&Through Project’s online data tool.
 
 ---

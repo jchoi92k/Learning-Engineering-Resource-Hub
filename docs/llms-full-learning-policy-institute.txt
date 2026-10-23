@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 356 entries with descriptions | Last updated: 2026-10-02
+# 358 entries with descriptions | Last updated: 2026-10-23
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8899,5 +8899,55 @@ tags: [lpi]
 ```
 
 Arkansas is requiring all educator preparation programs (EPPs) to prepare candidates through a teacher residency by Spring 2027, prompting large-scale program redesign across the state. Case studies of two EPPs that undertook early residency redesign illuminate effective practices and challenges encountered, and the findings offer actionable lessons for high-quality residency implementation.
+
+---
+
+---
+
+### 9054. Who Benefits From Universal Prekindergarten? Examining the Complementary Effects of Three California Education Reforms
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/universal-prek-california-education-reforms-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-23
+published_date: 2026-10-21
+date_source: listing
+authors: ["Rucker Johnson", "Austin Land"]
+document_url: null
+doi: null
+license: null
+tags: [early-childhood, literacy, lpi, math-education, prekindergarten]
+```
+
+Between 2009 and 2019, California made major changes to key educational investments for preschool and elementary school students that led to equity-enhancing gains in math and reading achievement, with benefits increasing across the early years. This brief examines the impacts of the CSPP, TK, and LCFF policies and programs.
+
+---
+
+---
+
+### 9055. Linked Learning in a Community School: Connecting to College, Career, and Community at the School of Business and Tourism
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/ca-linked-learning-community-schools-los-angeles-unified-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-23
+published_date: 2026-10-07
+date_source: listing
+authors: ["Sarah Klevan", "Laura E. Hernández"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, college-access, formative-assessment, k-12, lpi, sel]
+```
+
+The School of Business and Tourism is a Los Angeles high school redesigned as a community school using Linked Learning pathways, project-based learning, updated site roles, and a self-regulation space. Despite serving a higher-need population, the school outperformed the district on state assessments, offering a model for secondary school redesign.
 
 ---

@@ -489,6 +489,20 @@ def test_insert_items_records_description_source():
     assert conn.execute("SELECT COUNT(*) FROM entry_tags WHERE entry_num = 10 AND tag = 'wwc'").fetchone()[0] == 1
 
 
+def test_insert_items_records_the_config_license():
+    # 2026-10-27: a source config's "license" (Frontiers: CC BY 4.0) lands on
+    # every inserted row; without one the column stays NULL.
+    import sqlite3
+    conn = sqlite3.connect(":memory:")
+    conn.executescript(ENTRIES_DDL)
+    item = {"title": "A", "url": "https://x.org/a", "type": "Original Research", "blurb": "Abstract",
+            "blurb_source": "listing"}
+    insert_items(conn, [item], "frontiers-education", "Frontiers in Education", 1, license="CC BY 4.0")
+    insert_items(conn, [dict(item, url="https://x.org/b")], "wwc", "What Works Clearinghouse", 2)
+    rows = conn.execute("SELECT num, type, license FROM entries ORDER BY num").fetchall()
+    assert rows == [(1, "paper", "CC BY 4.0"), (2, "paper", None)]
+
+
 def test_detail_fetch_labels_description_source(monkeypatch):
     import scrape
 

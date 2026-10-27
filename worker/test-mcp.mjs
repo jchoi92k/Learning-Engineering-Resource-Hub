@@ -77,7 +77,7 @@ async function rpc(method, params = {}, id = 1) {
   const json = await res.json();
   if (method === "tools/call" && json.result) {
     const chars = JSON.stringify(json.result).length;
-    if (chars > largestResponse.chars) largestResponse = { chars, tool: params.name };
+    if (chars > largestResponse.chars) largestResponse = { chars, tool: params.name, args: JSON.stringify(params.arguments || {}).slice(0, 160) };
   }
   return json;
 }
@@ -239,6 +239,29 @@ await test("entries carry the metadata fields", async () => {
   assert(linked && /^https:\/\//.test(linked.document_url), `a JEDM entry carries a report link (${linked?.document_url})`);
   const wf = await callTool("fetch", { id: String(linked.num) });
   assert(wf.metadata.document_url === linked.document_url, "fetch metadata carries document_url");
+});
+
+await test("license and attribution travel with openly licensed descriptions", async () => {
+  // 2026-10-27: Frontiers abstracts are CC BY 4.0. List results carry the short
+  // licence per entry plus one license_notice per response; get_entry and fetch
+  // carry the full attribution line.
+  const r = await callTool("search_resources", { source: "Frontiers in Education", limit: 5 });
+  const e = r.entries[0];
+  assert(e.license === "CC BY 4.0" && !("attribution" in e), `list entry carries only the licence (${e.license})`);
+  const n = (r.license_notice || []).find(x => x.license === "CC BY 4.0");
+  assert(n && n.entries.includes(e.num) && n.license_url === "https://creativecommons.org/licenses/by/4.0/", "license_notice lists the entry and links the deed");
+  assert(/abstract by its listed authors/.test(n?.notice || ""), "notice states what the text is and who wrote it");
+  const f = await callTool("fetch", { id: String(e.num) });
+  assert(/CC BY 4\.0 \(https:\/\/creativecommons\.org\/licenses\/by\/4\.0\/\)/.test(f.metadata.attribution || ""), "fetch metadata carries the full attribution");
+  const g = await callTool("get_entry", { num: e.num });
+  assert(g.attribution === f.metadata.attribution && g.license === "CC BY 4.0", "get_entry carries the full attribution");
+  const b = await callTool("get_entries_batch", { nums: [e.num, 17] });
+  const bn = (b.license_notice || []).flatMap(x => x.entries);
+  assert(bn.includes(e.num) && !bn.includes(17), "batch notice covers the abstract, not #17 (licensed resource, our own summary)");
+  const dp = await callTool("search_resources", { source: "Digital Promise", limit: 1 });
+  assert(!("license" in dp.entries[0]) && !("license_notice" in dp), "no licence, no notice");
+  const df = await callTool("fetch", { id: String(dp.entries[0].num) });
+  assert(df.metadata.license === null && df.metadata.attribution === null, "fetch metadata: null, not missing");
 });
 
 await test("get_stats — num_range and date coverage", async () => {
@@ -456,7 +479,7 @@ await test("HTTP / help page", async () => {
 
 await test("response size — every tool response stayed under the cap", async () => {
   assert(largestResponse.chars > 0, "at least one tool response was measured");
-  assert(largestResponse.chars < MAX_RESPONSE_CHARS, `largest response ${largestResponse.chars} chars from ${largestResponse.tool} (cap ${MAX_RESPONSE_CHARS})`);
+  assert(largestResponse.chars < MAX_RESPONSE_CHARS, `largest response ${largestResponse.chars} chars from ${largestResponse.tool} ${largestResponse.args} (cap ${MAX_RESPONSE_CHARS})`);
 });
 
 } finally {

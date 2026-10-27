@@ -54,6 +54,15 @@ DESCRIPTION_SOURCES = {"listing", "page-meta", "page-abstract", "llm-summary", "
 # was read from. `n/a` is a build-time marker, not a hub.db value.
 METADATA_SOURCES = {"listing", "page-meta", "prose", "url", "llm", "manual"}
 DATE_NOT_AVAILABLE = "n/a"
+# The resource's licence (hub.db `license`), as the source states it, with the
+# licence deed it links to. A value outside this table fails the build.
+LICENSES = {
+    "CC BY 4.0": "https://creativecommons.org/licenses/by/4.0/",
+    "CC BY-NC-ND 4.0": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+}
+# Description kinds that are the publisher's own text: under an open licence
+# these carry the attribution line; our own summaries (llm-summary, manual) do not.
+PUBLISHER_TEXT_SOURCES = {"listing", "page-meta", "page-abstract"}
 # Sources that publish no real publication date (their API date is the CMS post
 # date, checked 2026-09-15): published_date is null with date_source "n/a", so
 # a reader can tell "the source has no date" from "not backfilled yet".
@@ -169,6 +178,18 @@ def load_entries():
     return entries
 
 
+def attribution(e):
+    """The licence notice for a description that is the publisher's own text
+    under an open licence (2026-10-27: Frontiers abstracts, CC BY 4.0), or
+    None. Derived from license + description_source, so replacing the text
+    with our own summary drops the notice without a second edit."""
+    lic = e.get("license")
+    if lic not in LICENSES or e.get("description_source") not in PUBLISHER_TEXT_SOURCES:
+        return None
+    return (f"Description is the abstract by the article's authors, first published in "
+            f"{e['source']}; licensed {lic} ({LICENSES[lic]}).")
+
+
 def _authors_list(val):
     """hub.db stores authors as a JSON list; publish a list or None."""
     if not val:
@@ -225,7 +246,8 @@ def validate_entries(entries):
     than MIN_DESCRIPTION_CHARS, non-http URL, duplicate URL (case/trailing-slash
     insensitive), description_source outside DESCRIPTION_SOURCES, a
     published_date that is not YYYY / YYYY-MM / YYYY-MM-DD, a date_source or
-    authors_source outside METADATA_SOURCES (plus the build-time "n/a").
+    authors_source outside METADATA_SOURCES (plus the build-time "n/a"), a
+    license outside LICENSES.
     Warnings: tags outside TAG_CATEGORIES."""
     errors, warnings = [], []
     vocab = {t for tags in TAG_CATEGORIES.values() for t in tags}
@@ -255,6 +277,9 @@ def validate_entries(entries):
         du = e.get("document_url")
         if du and not str(du).lower().startswith(("http://", "https://")):
             errors.append(f"#{num}: document_url is not an absolute http(s) link: {du}")
+        lic = e.get("license")
+        if lic is not None and lic not in LICENSES:
+            errors.append(f"#{num}: unknown license: {lic}")
         for col in ("date_source", "authors_source", "document_url_source"):
             src = e.get(col)
             if src is not None and src not in METADATA_SOURCES and src != DATE_NOT_AVAILABLE:
@@ -315,6 +340,7 @@ def _entry_block(e):
         f"document_url: {json.dumps(e['document_url']) if e.get('document_url') else 'null'}",
         f"doi: {doi}",
         f"license: {lic}",
+        *([f"attribution: {json.dumps(attribution(e), ensure_ascii=False)}"] if attribution(e) else []),
         f"tags: [{tags_str}]",
         "```",
         "",
@@ -560,6 +586,9 @@ def build_json(entries):
             # document_url: a direct link to the report file (PDF or journal
             # galley) where the source offers one; null elsewhere.
             "document_links": {"with_document_url": with_doc, "without_document_url": len(entries) - with_doc},
+            # Licence deeds for the `license` values in use; the MCP worker
+            # builds its once-per-response licence notice from these.
+            "licenses": {lic: url for lic, url in LICENSES.items() if any(e.get("license") == lic for e in entries)},
         },
         "entries": [{
             "num": e["num"],
@@ -574,6 +603,8 @@ def build_json(entries):
             "date_source": e.get("date_source"),
             "authors": e.get("authors"),
             "document_url": e.get("document_url") or None,
+            "license": e.get("license") or None,
+            "attribution": attribution(e),
             "tags": e["tags"],
             "desc": e["desc"],
             "domain": e["domain"],
@@ -693,6 +724,8 @@ def build_gem_knowledge(entries):
             lines.append(" | ".join(meta_bits))
         if e.get("document_url"):
             lines.append(f"Report file: {e['document_url']}")
+        if attribution(e):
+            lines.append(f"Licence: {attribution(e)}")
         lines.append("")
         if e["desc"]:
             lines.append(e["desc"])

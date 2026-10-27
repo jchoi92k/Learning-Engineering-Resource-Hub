@@ -10,7 +10,8 @@ type: string                     # See types below
 url: string                      # Direct URL to resource
 url_confirmed: boolean           # true if URL was fetched and verified; false if inferred from scrape
 doi: string|null                 # DOI for papers, if known
-license: string|null             # License if stated (e.g. BSD-3-Clause, MIT, CC-BY, open-access)
+license: string|null             # The resource's licence as the source states it; one of: CC BY 4.0, CC BY-NC-ND 4.0 (the build rejects others)
+attribution: string|null         # Derived at build time: licence notice shown when license is set and the description is the publisher's own text (listing / page-meta / page-abstract); keep it with the description when quoting
 source: string               # Producing organization or index source (e.g. "What Works Clearinghouse", "Learning Policy Institute", "Digital Promise")
 date_added: date                 # When entry was added to the hub
 last_verified: date              # When source URL was last checked

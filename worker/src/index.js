@@ -127,7 +127,12 @@ function getTagCounts() { return TAG_COUNTS; }
 function getTypeCounts() { return TYPE_COUNTS; }
 function getSourceCounts() { return SOURCE_COUNTS; }
 
-function formatEntry(e) {
+// List results (search_resources, get_entries_batch, find_related) carry only
+// the short `license`; the attribution line rides once per response in
+// licenseNotice(). get_entry and fetch return one entry, so they carry the full
+// line (full = true). 2026-10-27: a 20-entry page of long CC BY abstracts with a
+// per-entry line passed the 100,000-character response cap.
+function formatEntry(e, full = false) {
   return {
     num: e.num,
     title: e.title,
@@ -141,6 +146,8 @@ function formatEntry(e) {
     date_source: e.date_source || null,
     authors: e.authors || null,
     document_url: e.document_url || null,
+    ...(e.license ? { license: e.license } : {}),
+    ...(full ? { license: e.license || null, attribution: e.attribution || null } : {}),
     date_added: e.date_added || null,
   };
 }
@@ -148,6 +155,26 @@ function formatEntry(e) {
 // Orientation shared by the tool descriptions: what the ids and dates mean.
 const ID_NOTE = "Entry numbers (num / id) are stable but NOT contiguous — they run past 9,000 for about 3,900 entries, so never assume a 1..N range; take ids from search results, list tools or get_stats.num_range.";
 const DATE_NOTE = "Two recency axes: published_date is the source's own publication date (partial ISO: YYYY, YYYY-MM or YYYY-MM-DD; filled source by source, null where not yet captured, date_source \"n/a\" where the source publishes no date or the entry is not a publication), and date_added is when the hub took the entry in. Use sort_by \"date\" for newest publications and \"recently_added\" for what the hub added most recently. document_url, where present, is a direct link to the report file (PDF or journal galley); url is the landing page.";
+
+// One attribution notice per list response: for each licence, the entries whose
+// description is the publisher's abstract under it (the build sets attribution
+// only on those). Undefined when no returned entry needs one.
+function licenseNotice(entries) {
+  const byLicense = new Map();
+  for (const e of entries) {
+    if (!e.attribution || !e.license) continue;
+    if (!byLicense.has(e.license)) byLicense.set(e.license, []);
+    byLicense.get(e.license).push(e.num);
+  }
+  if (byLicense.size === 0) return undefined;
+  const deeds = (data.meta && data.meta.licenses) || {};
+  return [...byLicense].map(([license, nums]) => ({
+    license,
+    license_url: deeds[license] || null,
+    entries: nums,
+    notice: `The description of each listed entry is the abstract by its listed authors, first published in its named source; licensed ${license}${deeds[license] ? ` (${deeds[license]})` : ""}. Keep this attribution with the text when quoting it.`,
+  }));
+}
 
 // Results that carry both a text block and structuredContent (MCP spec:
 // "a tool that returns structured content SHOULD also return the serialized
@@ -191,7 +218,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "search_resources",
     description:
-      `Search the Renaissance AI and Education Resource Hub — ${data.entries.length} curated evidence-based K-12 and higher education resources. Natural-language queries use semantic search by default; combine with tag, type, and source filters. Call list_tags first to see available filter values. ${DATE_NOTE} ${ID_NOTE}`,
+      `Search the Renaissance AI and Education Resource Hub — ${data.entries.length} curated evidence-based K-12 and higher education resources. Natural-language queries use semantic search by default; combine with tag, type, and source filters. Call list_tags first to see available filter values. Entries under an open licence carry \`license\`; the response's license_notice gives the attribution to keep with their descriptions. ${DATE_NOTE} ${ID_NOTE}`,
     inputSchema: {
       type: "object",
       properties: {
@@ -358,7 +385,7 @@ const TOOL_DEFINITIONS = [
   {
     name: "fetch",
     description:
-      "Fetch one hub entry by the id returned from search (the entry number as a string): its title, canonical URL, description and metadata (type, source organization, tags, description provenance, published_date with its provenance, authors, document_url where the source offers a report file, date_added).",
+      "Fetch one hub entry by the id returned from search (the entry number as a string): its title, canonical URL, description and metadata (type, source organization, tags, description provenance, published_date with its provenance, authors, document_url where the source offers a report file, license and attribution where the description is openly licensed publisher text, date_added). Keep the attribution with the description when quoting it.",
     inputSchema: {
       type: "object",
       properties: {
@@ -405,8 +432,10 @@ async function handleToolCall(name, args, env) {
         return structured({ total_matches: total });
       }
 
-      const response = { total_matches: total, showing: results.length, limited, search_mode: query ? modeUsed : undefined, entries: results.map(formatEntry) };
+      const response = { total_matches: total, showing: results.length, limited, search_mode: query ? modeUsed : undefined, entries: results.map((e) => formatEntry(e)) };
       if (nextCursor !== null) response.next_cursor = nextCursor;
+      const notice = licenseNotice(results);
+      if (notice) response.license_notice = notice;
       return structured(response);
     }
 
@@ -473,18 +502,20 @@ async function handleToolCall(name, args, env) {
       if (!entry) {
         return { content: [{ type: "text", text: `No entry with number ${args.num}` }], isError: true };
       }
-      return { content: [{ type: "text", text: JSON.stringify(formatEntry(entry), null, 2) }] };
+      return { content: [{ type: "text", text: JSON.stringify(formatEntry(entry, true), null, 2) }] };
     }
 
     case "get_entries_batch": {
       const nums = (args.nums || []).slice(0, 50);
-      const entries = nums
+      const found = nums
         .map((n) => data.entries.find((e) => e.num === n))
-        .filter(Boolean)
-        .map(formatEntry);
+        .filter(Boolean);
+      const entries = found.map((e) => formatEntry(e));
       const missing = nums.filter((n) => !data.entries.find((e) => e.num === n));
       const response = { found: entries.length, entries };
       if (missing.length > 0) response.missing = missing;
+      const notice = licenseNotice(found);
+      if (notice) response.license_notice = notice;
       return { content: [{ type: "text", text: JSON.stringify(response, null, 2) }] };
     }
 
@@ -497,7 +528,10 @@ async function handleToolCall(name, args, env) {
       return {
         content: [{
           type: "text",
-          text: JSON.stringify({ entry: args.num, related_count: related.length, related }, null, 2),
+          text: JSON.stringify({
+            entry: args.num, related_count: related.length, related,
+            license_notice: licenseNotice(related.map((r) => data.entries.find((e) => e.num === r.num))),
+          }, null, 2),
         }],
       };
     }
@@ -538,6 +572,8 @@ async function handleToolCall(name, args, env) {
           date_source: entry.date_source || null,
           authors: entry.authors || null,
           document_url: entry.document_url || null,
+          license: entry.license || null,
+          attribution: entry.attribution || null,
           date_added: entry.date_added || null,
         },
       });
@@ -678,6 +714,7 @@ function formatMarkdown({ results, total, limited }) {
     if (e.published_date) lines.push(`- **Published:** ${e.published_date}`);
     if (e.authors && e.authors.length) lines.push(`- **Authors:** ${e.authors.join("; ")}`);
     if (e.document_url) lines.push(`- **Report file:** ${e.document_url}`);
+    if (e.attribution) lines.push(`- **Licence:** ${e.attribution}`);
     lines.push(`- **Tags:** ${e.tags.join(", ")}`);
     lines.push("");
     if (e.desc) {

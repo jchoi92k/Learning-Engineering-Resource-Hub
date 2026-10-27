@@ -36,6 +36,22 @@ def test_validate_entries_checks_published_date_and_provenance():
     assert [e.split(":")[0] for e in errors] == ["#2", "#3", "#5"], errors
 
 
+def test_license_is_validated_and_attribution_follows_description_source():
+    # 2026-10-27: one license column; the attribution line is derived, shown only
+    # when the description is the publisher's own text under a known licence.
+    from build_from_db import attribution, validate_entries
+    cc = entry(1, "Frontiers in Education")
+    cc.update({"desc": "x" * 40, "license": "CC BY 4.0"})
+    ours = dict(cc, num=2, url="https://x.org/2", description_source="llm-summary")
+    bad = dict(cc, num=3, url="https://x.org/3", license='"CC BY 4.0"')
+    errors, _ = validate_entries([cc, ours, bad])
+    assert [e.split(":")[0] for e in errors] == ["#3"], errors
+    assert "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)" in attribution(cc)
+    assert "Frontiers in Education" in attribution(cc)
+    assert attribution(ours) is None
+    assert attribution(entry(4, "S")) is None
+
+
 def test_date_not_available_by_source_or_non_publication_type():
     # 2026-09-16: datasets, platforms and code repositories have no publication
     # date to find; they read "n/a" like ESSA/Campbell, while a dated dataset

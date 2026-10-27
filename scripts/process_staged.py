@@ -58,6 +58,7 @@ SOURCE_TAG_MAP = {
     "jedm": "jedm",
     "jla": "jla",
     "casel": None,
+    "frontiers-education": None,
 }
 
 SOURCE_NAME_MAP = {
@@ -81,6 +82,7 @@ SOURCE_NAME_MAP = {
     "jedm": "Journal of Educational Data Mining",
     "jla": "Journal of Learning Analytics",
     "casel": "CASEL",
+    "frontiers-education": "Frontiers in Education",
 }
 
 TYPE_MAP = {
@@ -118,6 +120,13 @@ TYPE_MAP = {
     "family playbook": "framework",
     "model paper": "paper",
     "literature review": "review",
+    # Frontiers article types (2026-10-27, one-time selected set)
+    "original research": "paper",
+    "brief research report": "paper",
+    "methods": "paper",
+    "systematic review": "review",
+    "review": "review",
+    "mini review": "review",
     # WestEd library labels (2026-08-30 backfill)
     "research and evaluation": "report",
     "case study": "report",
@@ -618,11 +627,13 @@ def insert_filtered_rows(conn, filtered_items, source_name, start_num):
 DESCRIPTION_SOURCES = ("listing", "page-meta", "page-abstract", "llm-summary", "manual")
 
 
-def insert_items(conn, items, source_slug, source_name, start_num):
+def insert_items(conn, items, source_slug, source_name, start_num, license=None):
     """Insert ready items as active rows numbered from start_num; returns the
     count inserted. description_source comes from the item's blurb_source
     (scrape.py writes 'listing' or the detail_fetch label); a staging file
-    without it, or with an unknown value, gets NULL rather than a guess."""
+    without it, or with an unknown value, gets NULL rather than a guess.
+    license is the source config's "license" (the licence every item page
+    states, checked before the config declares it), or NULL."""
     inserted = 0
     for i, item in enumerate(items):
         num = start_num + i
@@ -636,9 +647,9 @@ def insert_items(conn, items, source_slug, source_name, start_num):
                 description_inferred, date_added, doi, license, description,
                 url_status, url_http_status, last_verified, description_source,
                 raw_item, source_subjects)
-            VALUES (?, ?, ?, ?, ?, 1, 0, ?, NULL, NULL, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, 1, 0, ?, NULL, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (num, item["title"].strip(), item["url"].strip(), infer_type(item),
-              source_name, TODAY, blurb, url_status, http_status, verified_on, desc_source,
+              source_name, TODAY, license, blurb, url_status, http_status, verified_on, desc_source,
               _raw_json(item), _subjects_json(item)))
         for tag in infer_tags(item, source_slug):
             conn.execute("INSERT OR IGNORE INTO entry_tags (entry_num, tag) VALUES (?, ?)", (num, tag))
@@ -782,7 +793,8 @@ def main():
         print(f"[process] Skipped {len(items) - len(deduped)} duplicate URLs already in hub.db or repeated in batch")
     items = deduped
 
-    inserted = insert_items(conn, items, args.source, source_name, start_num)
+    inserted = insert_items(conn, items, args.source, source_name, start_num,
+                            license=source_config.get("license"))
     end_num = start_num + inserted - 1
     if inserted:
         print(f"[process] Inserted {inserted} entries ({start_num}-{end_num}) into hub.db")

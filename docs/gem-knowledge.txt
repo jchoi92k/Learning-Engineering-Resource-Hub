@@ -1,20 +1,20 @@
 # Renaissance AI and Education Resource Hub
-# 3927 curated evidence-based K-12 and higher education resources.
-# Last updated: 2026-10-02
+# 3944 curated evidence-based K-12 and higher education resources.
+# Last updated: 2026-10-23
 
 ## Tag Directory
 
-**Domain:** k-12 (885), math-education (525), literacy (425), learning-engineering (301), english-learners (224), early-childhood (211), higher-ed (200), school-discipline (32)
+**Domain:** k-12 (893), math-education (528), literacy (429), learning-engineering (301), english-learners (224), early-childhood (212), higher-ed (201), school-discipline (32)
 
-**Method:** computer-assisted-learning (255), longitudinal (203), response-to-intervention (188), rct (85), meta-analysis (61), coaching (45), genai (41), intelligent-tutoring (41), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+**Method:** computer-assisted-learning (259), longitudinal (203), response-to-intervention (189), rct (85), meta-analysis (61), coaching (45), genai (41), intelligent-tutoring (41), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
 
-**Topic:** college-access (431), formative-assessment (410), sel (294), professional-development (282), career-readiness (243), personalized-learning (140), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (46), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (19), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+**Topic:** college-access (434), formative-assessment (412), sel (296), professional-development (284), career-readiness (244), personalized-learning (141), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (47), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (19), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
 
-**Affiliation:** lpi (355), edtrust (324), digital-promise (279), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
+**Affiliation:** lpi (357), edtrust (325), digital-promise (286), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 
 ## Resource Types
 
-- report: 3028 entries
+- report: 3045 entries
 - paper: 522 entries
 - framework: 170 entries
 - dataset: 99 entries
@@ -28,13 +28,13 @@
 
 ## Sources
 
-- WestEd: 926 entries
+- WestEd: 932 entries
 - Mathematica: 633 entries
-- Learning Policy Institute: 356 entries
-- The Education Trust: 324 entries
-- UChicago Consortium on School Research: 324 entries
+- Learning Policy Institute: 358 entries
+- The Education Trust: 325 entries
+- UChicago Consortium on School Research: 325 entries
 - NWEA Research: 290 entries
-- Digital Promise: 279 entries
+- Digital Promise: 286 entries
 - Evidence for ESSA: 203 entries
 - What Works Clearinghouse: 174 entries
 - Campbell Collaboration: 51 entries
@@ -43215,5 +43215,198 @@ Published: 2026 | Authors: Haiwen Chu; Sarah Rainier; Rebecca Perry
 Report file: https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/09/25114502/IM-OUSD-PL_260916-ADA-FINAL-1.pdf
 
 This WestEd brief offers a snapshot of how Oakland Unified School District supports middle-grade teachers implementing the Illustrative Mathematics curriculum, starting from the point that high-quality instructional materials alone do not guarantee strong teaching. It shows how a shared, ambitious vision and experienced staff make implementation possible, and how multiple structures give math teachers regular time to collaborate and connect professional learning to classroom practice. District teams adopting such materials get reflection questions for weighing their current conditions and strengthening their professional learning.
+
+---
+
+### 9046. ATS Hub Field Note — Understanding the Science of Team Science for Accelerated Research in Education
+
+Type: report | Source: Digital Promise
+Tags: digital-promise, professional-development, sel
+URL: https://digitalpromise.dspacedirect.org/items/1c0a73fc-483f-4017-94d2-47b28a091619
+Published: 2026-10 | Authors: Fiore, Stephen; Griffiths, Rebecca
+
+Teamwork, not just technical expertise, determines whether interdisciplinary education research succeeds. The Learning Sciences have always been interdisciplinary, bringing together researchers, educators, and developers who hold different epistemologies, values, and standards of evidence. These differences often show up as teamwork problems that weaken trust, communication, and knowledge integration. This field note introduces the Science of Team Science (SciTS), a cross-disciplinary field that emerged in the early 2000s to develop evidence-based ways of improving scientific collaboration. Drawing on SciTS, the authors distinguish taskwork, the discipline-specific scientific activity of a team, from teamwork, the attitudes, behaviors, and cognition that make coordination possible. They note that most scientific training addresses taskwork alone. The note then describes core teamwork competencies in three areas. Knowledge-based competencies are transactive memory systems, shared mental models, and team metacognition. Skill-based competencies are active listening, performance monitoring, and shared leadership. Attitudinal competencies are psychological safety, trust, and cohesion. The authors argue that initiatives such as Accelerate, Transform, and Scale need professional development that builds both kinds of competence, so that diverse teams can achieve breakthrough discoveries and translate them into practice.
+
+---
+
+### 9047. Using AI to support Learning and AI Literacy: Session Workbook
+
+Type: report | Source: Digital Promise
+Tags: computer-assisted-learning, digital-promise, literacy
+URL: https://digitalpromise.dspacedirect.org/items/fef8fa28-7d8a-4766-a799-933f14e5a64c
+Published: 2026-10 | Authors: Wegemer, Christopher; Famaye, Tolulope; El-Awar, Nadine; Windham, Savannah
+
+This workbook accompanies Digital Promise’s AI Interaction Routines professional learning sessions and helps educators integrate student-AI interactions into classroom instruction. Through a series of interactive exercises, educators explore how to design AI-mediated learning experiences that support student learning while cultivating AI literacy. Activities guide participants through identifying appropriate opportunities for AI use, developing instructional scaffolds, exploring eight AI Interaction Routines, using an AI coach to support lesson design, creating student thinking records to make learning processes visible, and embedding brief AI literacy moments into instruction. The workbook includes practical examples, reflection prompts, collaborative exercises, instructional design templates, and resources to support classroom implementation. A culminating lesson design activity helps educators apply these concepts to an existing learning activity.
+
+---
+
+### 9048. AI Interaction Routines: Routine Cards
+
+Type: report | Source: Digital Promise
+Tags: digital-promise, literacy, professional-development
+URL: https://digitalpromise.dspacedirect.org/items/6d3c47bb-84cd-4257-90ab-2bf2f1c60e8a
+Published: 2026-10 | Authors: Wegemer, Christopher; Windham, Savannah
+
+This resource presents AI Interaction Routines as a shareable set of cards intended to help teachers integrate AI into classroom learning activities while preserving students’ cognitive engagement, agency, and critical thinking. Each routine provides a flexible, repeatable sequence of steps that structures interactions among students, teachers, and AI. Co-designed with teachers and district leaders, the eight routines address distinct learning goals and opportunities for AI-supported instruction: Practice, Reflection, Feedback, Evaluation and Validation, Brainstorming, Learning Support, Dialogue, and AI as the Subject of Inquiry. Each routine card identifies appropriate instructional contexts, the cognitive processes to protect, suggested roles for AI, key teacher decisions, a sequence of learning activities, and observable indicators of student thinking and learning. Collectively, the routines support educators in designing scaffolded AI-mediated learning experiences that promote both disciplinary learning and AI literacy. The resource is intended as a practical instructional design tool that can be utilized in teacher professional development sessions and adapted to diverse student learning activities across grade levels, subject areas, and classroom contexts.
+
+---
+
+### 9049. What Are AI Interaction Routines and Why Should We Use Them?
+
+Type: report | Source: Digital Promise
+Tags: digital-promise, literacy
+URL: https://digitalpromise.dspacedirect.org/items/2571ea48-0b4a-4f52-9aa7-583928d898bb
+Published: 2026-10 | Authors: Wegemer, Christopher; Windham, Savannah; Pattenhouse, Megan; Mills, Kelly
+
+This resource introduces AI Interaction Routines as a practical tool to help educators scaffold learning opportunities for students to productively engage with AI. AI Interaction Routines are short, repeatable sequences of actions that structure interactions among students, teachers, and AI to support disciplinary learning and AI literacy development. Five core components of AI Interaction Routines are outlined: (1) learning activity, (2) AI role, (3) routine steps, (4) student thinking record, and (5) AI literacy moments. Together, these components guide educators to structure classroom activities that protect students’ thinking, make their cognitive processes visible, and foster deeper understanding of AI. The routines are designed for flexible implementation across subjects, grade levels, and instructional settings.
+
+---
+
+### 9050. Cultivating a Strong Field: Reengineering Education R&D for Speed, Scale, and Impact
+
+Type: report | Source: Digital Promise
+Tags: digital-promise, formative-assessment
+URL: https://digitalpromise.dspacedirect.org/items/fe085f8b-78f3-46db-a8fb-b3d9b98dd744
+Published: 2026-10 | Authors: Griffiths, Rebecca; Higgins, Erin
+
+Education research and development (R&D) too rarely translates discoveries into classroom change, and traditional research cycles struggle to keep pace with urgent needs and rapid technological shifts such as generative AI. The Institute of Education Sciences' Accelerate, Transform, Scale (ATS) Initiative, modeled on DARPA's high-reward, responsible risk-taking approach, seeks to build a subfield of education R&D capable of producing breakthrough solutions to persistent challenges. To bring coherence to this work, we adapt the Bridgespan Group's (2009) "strong field" framework into five interlocking, measurable conditions: shared language and identity, essential practices, a knowledge base, leadership and ecosystem, and pathways to success. For each condition, we offer a definition specific to breakthrough-oriented education R&D and propose assessment approaches using methods such as network and bibliometric analyses, arguing that the process of measuring these conditions can lead to actionable insights. We identify pathways to success as the field's weakest condition, given decentralized procurement and a severe "valley of death" between pilot and scale. We present the framework as a starting point and invite the field to refine these indicators to guide investment in the infrastructure and capacity needed for breakthroughs.
+
+---
+
+### 9051. Digital Promise Yourway: Findings from a Mixed-Methods Pilot Study with K-12 Educators
+
+Type: report | Source: Digital Promise
+Tags: computer-assisted-learning, digital-promise, k-12, personalized-learning
+URL: https://digitalpromise.dspacedirect.org/items/0a24a08a-bfc6-42fc-b609-5731bc0c6e42
+Published: 2026-10 | Authors: Stephenson, Stefani Pautz
+
+This pilot study evaluates Digital Promise Yourway—an artificial intelligence (AI) suite of tools developed in collaboration with Yourway Learning—which pairs trusted educational research with actionable tools to help K-12 educators plan for learner variability while maintaining their instructional goals. The study investigated the tools' usability, their integration into daily teaching practices, and their ability to address genuine classroom needs. Findings indicate that grounding AI tools in established educational research offers practical support for personalized instruction, demonstrating how technology can be seamlessly adopted to meet diverse student needs without disrupting established educator workflows.
+
+---
+
+### 9052. Building a Complete Picture: How Skyline High School Redesigned Information Flow to Better Support Ninth-Grade Students
+
+Type: report | Source: Digital Promise
+Tags: computer-assisted-learning, digital-promise, k-12, response-to-intervention
+URL: https://digitalpromise.dspacedirect.org/items/bf65117b-573f-4a95-a2f3-5d26d426c629
+Published: 2026-10 | Authors: Cocuzza, Beth; Noakes, Sierra; Aso, Chioma; Goldschmidt, Lisa; Bennett, Kathleen
+
+This report chronicles Skyline High School’s participation in a cross-district co-design initiative facilitated by Digital Promise, aimed at strengthening information-sharing and intervention workflows for ninth-grade students. Facing fragmented data, inconsistent system permissions, and disconnected tracking tools, Skyline developed practical, school-led solutions to strengthen communication and coordination among key support staff. These workflows demonstrate how strong human infrastructure can strengthen coordination and enable earlier intervention even when existing technology does not fully support educators’ needs, while surfacing broader challenges related to system configuration, governance, and ownership that school staff could not resolve alone. This case study offers a blueprint for leaders to move beyond reliance on individual workarounds, demonstrating how local innovation can illuminate systemic needs and how shared ownership among schools, districts, technology providers, and technical assistance partners can create more sustainable student success systems.
+
+---
+
+### 9053. EdTrust’s 5 Principles for Higher Education Accountability to Meet the Moment
+
+Type: report | Source: The Education Trust
+Tags: college-access, edtrust, higher-ed
+URL: https://edtrust.org/rti/edtrusts-5-principles-for-higher-education-accountability-to-meet-the-moment/
+Published: 2026-10-08
+
+This EdTrust piece examines federal accountability for colleges at a time of growing public doubt about the value of a degree, rising costs and student debt. It notes that the 2025 One Big Beautiful Bill Act created a "do-no-harm" earnings test requiring programs with access to federal loans to show that their graduates out-earn working adults without that credential. EdTrust calls this a step in the right direction but argues for a more comprehensive, student-centred accountability system, which it sets out as five principles.
+
+---
+
+### 9054. Who Benefits From Universal Prekindergarten? Examining the Complementary Effects of Three California Education Reforms
+
+Type: report | Source: Learning Policy Institute
+Tags: early-childhood, literacy, lpi, math-education, prekindergarten
+URL: https://learningpolicyinstitute.org/product/universal-prek-california-education-reforms-brief
+Published: 2026-10-21 | Authors: Rucker Johnson; Austin Land
+
+Between 2009 and 2019, California made major changes to key educational investments for preschool and elementary school students that led to equity-enhancing gains in math and reading achievement, with benefits increasing across the early years. This brief examines the impacts of the CSPP, TK, and LCFF policies and programs.
+
+---
+
+### 9055. Linked Learning in a Community School: Connecting to College, Career, and Community at the School of Business and Tourism
+
+Type: report | Source: Learning Policy Institute
+Tags: career-readiness, college-access, formative-assessment, k-12, lpi, sel
+URL: https://learningpolicyinstitute.org/product/ca-linked-learning-community-schools-los-angeles-unified-brief
+Published: 2026-10-07 | Authors: Sarah Klevan; Laura E. Hernández
+
+The School of Business and Tourism is a Los Angeles high school redesigned as a community school using Linked Learning pathways, project-based learning, updated site roles, and a self-regulation space. Despite serving a higher-need population, the school outperformed the district on state assessments, offering a model for secondary school redesign.
+
+---
+
+### 9056. The Educational Attainment of Chicago Public Schools Students
+
+Type: report | Source: UChicago Consortium on School Research
+Tags: college-access, computer-assisted-learning, math-education
+URL: https://consortium.uchicago.edu/publications/the-educational-attainment-of-Chicago-Public-Schools-students-2025
+Published: 2026-10 | Authors: Alexandra Usher; Shelby Mahaffie; Jenny Nagaoka; Dominique McKoy
+
+This annual report looks closely at how CPS students are progressing on the path to and through high school and college. In particular, we examine three key milestones: high school graduation, college enrollment, and college completion, and track how rates on these milestones have changed across time. These rates are then used to calculate an updated Post-secondary Attainment Index (PAI) which represents the proportion of current CPS ninth-graders who would complete any degree or certificate from a two-year or four-year college within 10 years, if current rates of attainment were to hold constant over the next decade.Read this year’s interactive report and explore more of the data through the To&Through Project’s online data tool.
+
+---
+
+### 9057. Build Coherent HQIM Systems to Improve Math Learning
+
+Type: report | Source: WestEd
+Tags: math-education
+URL: https://www.wested.org/resource/build-coherent-hqim-systems-to-improve-math-learning/
+Published: 2026 | Authors: Kirk Walters; Sola Takahashi
+Report file: https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/20110656/Perspectives-Coherent-HQIM-Systems-ADA-FINAL.pdf
+
+This WestEd Perspectives brief argues that adopting high-quality instructional materials (HQIM) is not enough to improve math learning: states and districts need coherent systems that align materials, assessments, professional learning and leadership practices around a shared vision for student learning. It explains why HQIM implementation calls for a systemwide, data-guided approach to continuous improvement, built on collaboration among state and district leaders, educators, curriculum developers and researchers. It also presents evidence that meaningful gains take time and require long-term commitment. The brief is written for state, district and school leaders, curriculum developers and researchers.
+
+---
+
+### 9058. Barriers to Using California Proposition 28 Arts and Music Funding Guarantee and Accountability Act Funds: Initial Reports From County Offices of Education, Districts, and Schools
+
+Type: report | Source: WestEd
+Tags: k-12
+URL: https://www.wested.org/resource/barriers-to-using-california-proposition-28-arts-and-music-funding-guarantee-and-accountability-act-funds/
+Published: 2026 | Authors: Sharon Herpin; Kelly Wynveen
+Report file: https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141324/Prop-28_Barriers-re-Funds_FINAL-ADA.pdf
+
+This WestEd brief reports what 224 leaders and practitioners from California county offices of education, districts and schools said in 2025 about barriers to implementing and using Proposition 28 Arts and Music in Schools funds. The barriers most often concerned implementation rather than interest in arts education, and they differed by level. Counties cited shortages of credentialed arts educators and difficulty hiring them; districts cited competing academic priorities, budget concerns and limited facilities; schools cited limited knowledge of Prop 28 and insufficient leadership support. Respondents suggested clarifying allowable uses of funds, better training and guidance for administrators, stronger accountability and oversight, and adjusted funding approaches for rural and small districts.
+
+---
+
+### 9059. How California Proposition 28 Arts and Music Funding Guarantee and Accountability Act Funds Are Being Used: Initial Reports From County Offices of Education, Districts, and Schools
+
+Type: report | Source: WestEd
+Tags: k-12
+URL: https://www.wested.org/resource/how-california-proposition-28-arts-and-music-funding-guarantee-and-accountability-act-funds-are-being-used/
+Published: 2026 | Authors: Sharon Herpin; Kelly Wynveen
+Report file: https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141322/Prop-28_Use-of-Funds_FINAL-ADA.pdf
+
+This WestEd brief reports how California's Proposition 28 Arts and Music in Schools funds are being used, drawing on what 224 leaders and practitioners from county offices of education, districts and schools shared in 2025. More than 80 percent of schools and districts initially prioritized immediate instructional needs, especially arts supplies and materials. Funds are also expanding access through staffing, such as hiring new arts teachers, and through arts-based field trips. About one third of respondents reported that funds had not yet been spent or allocated, which suggests that many agencies were still planning in the early stages of implementation.
+
+---
+
+### 9060. Arts Disciplines, Courses Offered, and FTE Changes From the Proposition 28 Arts and Music Funding Guarantee and Accountability Act: Initial Reports From Districts and Schools
+
+Type: report | Source: WestEd
+Tags: k-12
+URL: https://www.wested.org/resource/arts-disciplines-courses-offered-and-fte-changes-from-the-proposition-28-arts-and-music-funding-guarantee-and-accountability-act/
+Published: 2026 | Authors: Sharon Herpin; Kelly Wynveen
+Report file: https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141320/Prop-28_Courses-FTE_FINAL-ADA.pdf
+
+This WestEd brief draws on 2025 reports from 203 leaders and practitioners in California county offices of education, districts and schools to examine which arts disciplines were offered, and how many arts courses and full-time equivalent arts staff were added, with Proposition 28 Arts and Music in Schools funds. The share of responding districts offering all five disciplines (visual arts, media arts, music, theatre and dance) rose from 56 to 62 percent, and the share of schools rose from 38 to 48 percent; dance and theatre saw the largest increases. Responding districts reported adding about 500 arts courses and 305 arts educator FTE positions, and schools reported adding more than 225 courses and 90 FTE positions.
+
+---
+
+### 9061. Needs of the Field to Ensure Access to an Arts Education: Perspectives From County Offices of Education, Districts, and Schools
+
+Type: report | Source: WestEd
+Tags: k-12
+URL: https://www.wested.org/resource/needs-of-the-field-to-ensure-access-to-an-arts-education/
+Published: 2026 | Authors: Sharon Herpin; Kelly Wynveen
+Report file: https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141318/Prop-28_Needs-of-Field_FINAL-ADA.pdf
+
+This WestEd brief reports what 225 leaders and practitioners from California county offices of education, districts and schools said in 2025 is needed to maximize the impact of Proposition 28 Arts and Music in Schools funding and expand access to high-quality arts education. Respondents named improved arts facilities, professional development for arts educators, adequate supplies and stronger support for the value of the arts. Priorities differed: counties emphasized arts integration training, partnerships and recruitment; districts emphasized facilities, professional development and supplies; schools emphasized strategic planning and information about Prop 28. Respondents consistently stressed strategic arts education plans, designated arts coordinators, community partnerships, and recruiting and retaining qualified arts educators.
+
+---
+
+### 9062. Preliminary Outcomes of California’s Proposition 28 Arts and Music Funding Guarantee and Accountability Act: Initial Reports From County Offices of Education, Districts, and Schools
+
+Type: report | Source: WestEd
+Tags: k-12
+URL: https://www.wested.org/resource/preliminary-outcomes-of-californias-proposition-28-arts-and-music-funding-guarantee-and-accountability-act/
+Published: 2026 | Authors: Sharon Herpin; Kelly Wynveen
+Report file: https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141315/Prop-28_Prelim-Outcomes_FINAL-ADA.pdf
+
+This WestEd brief examines early outcomes of California's Proposition 28 Arts and Music in Schools funding, based on what 203 staff members from county offices of education, districts and schools reported. Nearly two thirds of respondents reported increased student participation in arts education, and many said the funding let schools introduce, restore or expand arts programs, hire arts educators, improve access to materials and remove barriers to participation. Ongoing challenges include staffing capacity, accountability and funding administration. The brief concludes that sustained support and strategic planning will be essential to realizing the program's long-term promise.
 
 ---

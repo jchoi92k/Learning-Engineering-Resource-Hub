@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — WestEd (full)
-# 926 entries with descriptions | Last updated: 2026-10-02
+# 932 entries with descriptions | Last updated: 2026-10-23
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -23149,5 +23149,155 @@ tags: [k-12, math-education, professional-development]
 ```
 
 This WestEd brief offers a snapshot of how Oakland Unified School District supports middle-grade teachers implementing the Illustrative Mathematics curriculum, starting from the point that high-quality instructional materials alone do not guarantee strong teaching. It shows how a shared, ambitious vision and experienced staff make implementation possible, and how multiple structures give math teachers regular time to collaborate and connect professional learning to classroom practice. District teams adopting such materials get reflection questions for weighing their current conditions and strengthening their professional learning.
+
+---
+
+---
+
+### 9057. Build Coherent HQIM Systems to Improve Math Learning
+
+```yaml
+url: "https://www.wested.org/resource/build-coherent-hqim-systems-to-improve-math-learning/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-23
+published_date: 2026
+date_source: page-meta
+authors: ["Kirk Walters", "Sola Takahashi"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/20110656/Perspectives-Coherent-HQIM-Systems-ADA-FINAL.pdf"
+doi: null
+license: null
+tags: [math-education]
+```
+
+This WestEd Perspectives brief argues that adopting high-quality instructional materials (HQIM) is not enough to improve math learning: states and districts need coherent systems that align materials, assessments, professional learning and leadership practices around a shared vision for student learning. It explains why HQIM implementation calls for a systemwide, data-guided approach to continuous improvement, built on collaboration among state and district leaders, educators, curriculum developers and researchers. It also presents evidence that meaningful gains take time and require long-term commitment. The brief is written for state, district and school leaders, curriculum developers and researchers.
+
+---
+
+---
+
+### 9058. Barriers to Using California Proposition 28 Arts and Music Funding Guarantee and Accountability Act Funds: Initial Reports From County Offices of Education, Districts, and Schools
+
+```yaml
+url: "https://www.wested.org/resource/barriers-to-using-california-proposition-28-arts-and-music-funding-guarantee-and-accountability-act-funds/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-23
+published_date: 2026
+date_source: page-meta
+authors: ["Sharon Herpin", "Kelly Wynveen"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141324/Prop-28_Barriers-re-Funds_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [k-12]
+```
+
+This WestEd brief reports what 224 leaders and practitioners from California county offices of education, districts and schools said in 2025 about barriers to implementing and using Proposition 28 Arts and Music in Schools funds. The barriers most often concerned implementation rather than interest in arts education, and they differed by level. Counties cited shortages of credentialed arts educators and difficulty hiring them; districts cited competing academic priorities, budget concerns and limited facilities; schools cited limited knowledge of Prop 28 and insufficient leadership support. Respondents suggested clarifying allowable uses of funds, better training and guidance for administrators, stronger accountability and oversight, and adjusted funding approaches for rural and small districts.
+
+---
+
+---
+
+### 9059. How California Proposition 28 Arts and Music Funding Guarantee and Accountability Act Funds Are Being Used: Initial Reports From County Offices of Education, Districts, and Schools
+
+```yaml
+url: "https://www.wested.org/resource/how-california-proposition-28-arts-and-music-funding-guarantee-and-accountability-act-funds-are-being-used/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-23
+published_date: 2026
+date_source: page-meta
+authors: ["Sharon Herpin", "Kelly Wynveen"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141322/Prop-28_Use-of-Funds_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [k-12]
+```
+
+This WestEd brief reports how California's Proposition 28 Arts and Music in Schools funds are being used, drawing on what 224 leaders and practitioners from county offices of education, districts and schools shared in 2025. More than 80 percent of schools and districts initially prioritized immediate instructional needs, especially arts supplies and materials. Funds are also expanding access through staffing, such as hiring new arts teachers, and through arts-based field trips. About one third of respondents reported that funds had not yet been spent or allocated, which suggests that many agencies were still planning in the early stages of implementation.
+
+---
+
+---
+
+### 9060. Arts Disciplines, Courses Offered, and FTE Changes From the Proposition 28 Arts and Music Funding Guarantee and Accountability Act: Initial Reports From Districts and Schools
+
+```yaml
+url: "https://www.wested.org/resource/arts-disciplines-courses-offered-and-fte-changes-from-the-proposition-28-arts-and-music-funding-guarantee-and-accountability-act/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-23
+published_date: 2026
+date_source: page-meta
+authors: ["Sharon Herpin", "Kelly Wynveen"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141320/Prop-28_Courses-FTE_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [k-12]
+```
+
+This WestEd brief draws on 2025 reports from 203 leaders and practitioners in California county offices of education, districts and schools to examine which arts disciplines were offered, and how many arts courses and full-time equivalent arts staff were added, with Proposition 28 Arts and Music in Schools funds. The share of responding districts offering all five disciplines (visual arts, media arts, music, theatre and dance) rose from 56 to 62 percent, and the share of schools rose from 38 to 48 percent; dance and theatre saw the largest increases. Responding districts reported adding about 500 arts courses and 305 arts educator FTE positions, and schools reported adding more than 225 courses and 90 FTE positions.
+
+---
+
+---
+
+### 9061. Needs of the Field to Ensure Access to an Arts Education: Perspectives From County Offices of Education, Districts, and Schools
+
+```yaml
+url: "https://www.wested.org/resource/needs-of-the-field-to-ensure-access-to-an-arts-education/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-23
+published_date: 2026
+date_source: page-meta
+authors: ["Sharon Herpin", "Kelly Wynveen"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141318/Prop-28_Needs-of-Field_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [k-12]
+```
+
+This WestEd brief reports what 225 leaders and practitioners from California county offices of education, districts and schools said in 2025 is needed to maximize the impact of Proposition 28 Arts and Music in Schools funding and expand access to high-quality arts education. Respondents named improved arts facilities, professional development for arts educators, adequate supplies and stronger support for the value of the arts. Priorities differed: counties emphasized arts integration training, partnerships and recruitment; districts emphasized facilities, professional development and supplies; schools emphasized strategic planning and information about Prop 28. Respondents consistently stressed strategic arts education plans, designated arts coordinators, community partnerships, and recruiting and retaining qualified arts educators.
+
+---
+
+---
+
+### 9062. Preliminary Outcomes of California’s Proposition 28 Arts and Music Funding Guarantee and Accountability Act: Initial Reports From County Offices of Education, Districts, and Schools
+
+```yaml
+url: "https://www.wested.org/resource/preliminary-outcomes-of-californias-proposition-28-arts-and-music-funding-guarantee-and-accountability-act/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-23
+published_date: 2026
+date_source: page-meta
+authors: ["Sharon Herpin", "Kelly Wynveen"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/05141315/Prop-28_Prelim-Outcomes_FINAL-ADA.pdf"
+doi: null
+license: null
+tags: [k-12]
+```
+
+This WestEd brief examines early outcomes of California's Proposition 28 Arts and Music in Schools funding, based on what 203 staff members from county offices of education, districts and schools reported. Nearly two thirds of respondents reported increased student participation in arts education, and many said the funding let schools introduce, restore or expand arts programs, hire arts educators, improve access to materials and remove barriers to participation. Ongoing challenges include staffing capacity, accountability and funding administration. The brief concludes that sustained support and strategic planning will be essential to realizing the program's long-term promise.
 
 ---

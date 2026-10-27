@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — The Education Trust (full)
-# 324 entries with descriptions | Last updated: 2026-10-02
+# 325 entries with descriptions | Last updated: 2026-10-23
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8099,5 +8099,30 @@ tags: [edtrust, k-12]
 ```
 
 A guide for educators and advocates, produced by The Century Foundation with the National Education Association, the American Federation of Teachers, the National Immigration Law Center and other partners, setting out five actions to request of school leadership in order to protect the learning environment from fear and unnecessary immigration enforcement. It argues that the removal of school-based protections against immigration enforcement, and the presence or even the rumor of immigration agents near schools, can keep students home and deter families from engaging in their child's learning, despite federal law protecting the right to a free public education regardless of citizenship status.
+
+---
+
+---
+
+### 9053. EdTrust’s 5 Principles for Higher Education Accountability to Meet the Moment
+
+```yaml
+url: "https://edtrust.org/rti/edtrusts-5-principles-for-higher-education-accountability-to-meet-the-moment/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-23
+published_date: 2026-10-08
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [college-access, edtrust, higher-ed]
+```
+
+This EdTrust piece examines federal accountability for colleges at a time of growing public doubt about the value of a degree, rising costs and student debt. It notes that the 2025 One Big Beautiful Bill Act created a "do-no-harm" earnings test requiring programs with access to federal loans to show that their graduates out-earn working adults without that credential. EdTrust calls this a step in the right direction but argues for a more comprehensive, student-centred accountability system, which it sets out as five principles.
 
 ---

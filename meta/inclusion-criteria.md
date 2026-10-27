@@ -32,6 +32,10 @@ A source organization qualifies for systematic indexing if it meets **all three*
 - Sources that explicitly block automated access (Child Trends, RAND robots.txt)
 - Sources where no individual resource pages are fetchable (description cannot be verified)
 
+### Journals
+
+Journals are indexed selectively: a small curated set of methods papers (JEDM, JLA) and articles that users request. The journal must meet the three criteria above, and each article must meet the Level 2 criteria below: peer-reviewed, open access, in scope, a research output, and a fetchable page.
+
 ---
 
 ## Level 2 — Resource inclusion criteria (per entry)

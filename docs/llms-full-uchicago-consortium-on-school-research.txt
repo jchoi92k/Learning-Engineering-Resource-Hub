@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — UChicago Consortium on School Research (full)
-# 325 entries with descriptions | Last updated: 2026-10-23
+# 325 entries with descriptions | Last updated: 2026-10-27
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-uchicago-consortium-on-school-research.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8120,9 +8120,9 @@ authors: ["Alexandra Usher", "Shelby Mahaffie", "Jenny Nagaoka", "Dominique McKo
 document_url: null
 doi: null
 license: null
-tags: [college-access, computer-assisted-learning, math-education]
+tags: [college-access]
 ```
 
-This annual report looks closely at how CPS students are progressing on the path to and through high school and college. In particular, we examine three key milestones: high school graduation, college enrollment, and college completion, and track how rates on these milestones have changed across time. These rates are then used to calculate an updated Post-secondary Attainment Index (PAI) which represents the proportion of current CPS ninth-graders who would complete any degree or certificate from a two-year or four-year college within 10 years, if current rates of attainment were to hold constant over the next decade.Read this year’s interactive report and explore more of the data through the To&Through Project’s online data tool.
+This annual report looks closely at how CPS students are progressing on the path to and through high school and college. In particular, we examine three key milestones: high school graduation, college enrollment, and college completion, and track how rates on these milestones have changed across time. These rates are then used to calculate an updated Post-secondary Attainment Index (PAI) which represents the proportion of current CPS ninth-graders who would complete any degree or certificate from a two-year or four-year college within 10 years, if current rates of attainment were to hold constant over the next decade.
 
 ---

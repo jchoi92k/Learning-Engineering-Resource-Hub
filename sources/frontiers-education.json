@@ -1,0 +1,33 @@
+{
+  "_comment": "Machine-readable config for scripts/scrape.py. Human context in frontiers-education.md. One-time selected set (issue #7, 2026-10-27): the requested articles plus the most-cited research articles since 2021 in three sections, fixed by article ID in api.body.ArticleIds. Not on the weekly list. The search API is the one the journal's own listing pages call; abstracts are CC BY 4.0 (Frontiers terms §7). detail_fetch reads each article page once for citation_* metadata (publication date, PDF link, authors: the ID lookup returns none) and records the URL as verified. license: all 30 pages state 'distributed under the terms of the Creative Commons Attribution License (CC BY)' linking to CC BY 4.0 (checked 2026-10-27 against data/raw/frontiers-education/).",
+  "request_delay": 12,
+  "license": "CC BY 4.0",
+  "discovery": "api",
+  "discovery_url": "https://www.frontiersin.org/api/v3/journals/search/articles",
+  "robots_txt": "https://www.frontiersin.org/robots.txt",
+  "url_template": "https://www.frontiersin.org/journals/education/articles/{url}/full",
+  "api": {
+    "method": "POST",
+    "body": {
+      "Skip": 0,
+      "Top": 30,
+      "Search": "",
+      "StartDate": "2006/12/31",
+      "EndDate": "2026/10/27",
+      "Filter": {"DomainId": 0, "JournalId": 1239, "SectionId": 0, "VolumeId": 0, "ArticleType": 0, "Sort": 3, "PartOfResearchTopic": 0},
+      "ArticleIds": [1493356, 1441720, 1518602, 710296, 1151641, 1647573, 693221, 1142556, 646909, 1331312, 1150190, 1541031, 757285, 1466926, 1367317, 570229, 1568744, 994739, 604825, 836165, 1206936, 785163, 639814, 678692, 1006811, 1225834, 1139987, 965640, 822958, 1414758]
+    },
+    "pagination": {"param": "PageNumber", "start": 0, "pages": 1},
+    "json_paths": {
+      "items": "articles",
+      "title": "title",
+      "url": "doi",
+      "description": "abstract",
+      "type": "articleType/name",
+      "authors": "authors/*/fullName"
+    }
+  },
+  "detail_fetch": {
+    "fetch_all": true
+  }
+}

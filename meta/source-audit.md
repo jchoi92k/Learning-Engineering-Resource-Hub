@@ -18,6 +18,7 @@ The weekly automation prompt at `meta/automation-prompt.md` walks these 14 sourc
 | Evidence for ESSA | sitemap.xml | ✅ | ✅ | No | Sitemap is non-chronological — early-stop heuristic less effective. ~300+ program entries; ~5 secondary sitemaps (program-sitemap2.xml etc.) hold older entries. Drop programs whose page reads "No studies met inclusion requirements" (no usable content per no-inference policy). |
 | JEDM | issue/archive | ✅ | ✅ | No | OJS journal. Walk Vol N → article view pages. Reliable. |
 | JLA | issue/archive | ✅ | ❌ **403** | **Try Playwright** | Cloud session got 403 on issue and article view pages (2026-05-13). Local Claude Code WebFetch works. Suspected: Anthropic WebFetch proxy IP blocked by OJS host. Playwright with real Chromium headers is the likely fix. |
+| Frontiers in Education | journals/education/articles (search API) | ✅ | untested | No | One-time selected set (2026-10-27), not on the weekly list. Listing and article pages server-rendered; terms page needs Playwright. API by article ID omits authors (page citation_author fills them). |
 | Campbell Collaboration | education/reviews/ | ✅ | ❌ **JS-rendered** | **Yes** | Listing page is JS-rendered. WebFetch returns blank. Use Playwright to render the listing, then individual review pages are usually static HTML and WebFetch works. |
 | LPI | research/ | ✅ | ✅ | No | Listing reliable. Product pages reliable. |
 | EdTrust | research/ | ✅ | ✅ | No | URL pattern: `edtrust.org/resource/[slug]` (note: legacy `/rti/` mentioned below; current is `/resource/`). |

@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — WestEd (part 1 of 3)
 
-> 932 entries from WestEd; this part lists 432 of them (entry numbers 1047–6265).
+> 929 entries from WestEd; this part lists 432 of them (entry numbers 1047–6268).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-23
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-27
 
 Next part: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-2.txt
 
@@ -39,7 +39,6 @@ Next part: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wes
 - 5864. [Reading to Learn: A 7-Step Framework for Optimizing Comprehension, Pre-K–12](https://www.wested.org/resource/reading-to-learn/) | framework | early-childhood, literacy
 - 5865. [Beyond Curriculum Adoption: What District Leaders Are Saying About Using Illustrative Mathematics](https://www.wested.org/resource/beyond-curriculum-adoption/) | report | math-education
 - 5866. [Integrated Statistics and Quantitative Reasoning: A New Rigorous and Relevant Mathematics Course for 3rd- and 4th-Year High School Students](https://www.wested.org/resource/isqr-webinar/) | report | math-education
-- 5867. [Advancing Student Assessment: NCSA 2026 Related Resources](https://www.wested.org/resource/advancing-student-assessment-ncsa-2026-related-resources/) | report | formative-assessment
 - 5868. [The Arc of Dual Enrollment: Access, Struggle, and What Makes Success Possible](https://www.wested.org/resource/the-arc-of-dual-enrollment/) | report | 
 - 5869. [The Impact of the Illustrative Math Curriculum in Oakland Unified: Math Achievement 5 Years After Adoption](https://www.wested.org/resource/the-impact-of-the-illustrative-math-curriculum-in-oakland-unified-math-achievement/) | report | math-education
 - 5870. [Making Dual Enrollment Work: Solving the Access–Success Paradox With OUSD’s Point Person Model](https://www.wested.org/resource/making-dual-enrollment-work-solving-the-access-success-paradox-with-ousds-point-person-model/) | report | 
@@ -182,8 +181,6 @@ Next part: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wes
 - 6007. [Strengthening English Learner Reclassification in California](https://www.wested.org/resource/strengthening-english-learner-reclassification-in-california/) | report | english-learners
 - 6008. [Mapping Assets for Charter Schools: A Guide for Charter Authorizers](https://www.wested.org/resource/mapping-assets-guide-for-charter-authorizers/) | framework | 
 - 6009. [Listening to Rural Voices: Supporting State Education Agencies to Shape Policies That Support Rural Schools](https://www.wested.org/resource/supporting-state-education-agencies-to-shape-policies-that-support-rural-schools/) | report | 
-- 6010. [Leadership, Advocacy, and Building Data Capacity Tribal Data Collection and Governance Webinar Series, Session 2](https://www.wested.org/resource/leadership-advocacy-and-building-data-capacity-tribal-data-collection-and-governance-webinar-series-session-2/) | report | college-access
-- 6011. [Principles of Practice and Partnerships Tribal Data Collection and Governance Webinar Series, Session 1](https://www.wested.org/resource/principles-of-practice-and-partnerships-tribal-data-collection-and-governance-webinar-series-session-1/) | report | college-access
 - 6012. [Addressing Critical Challenges in the Teacher Workforce: A Collaborative Approach in California](https://www.wested.org/resource/addressing-critical-challenges-in-teacher-workforce-collaborative-approach-in-california/) | report | career-readiness
 - 6013. [Superintendent Christie Abeyta of the Santa Fe Indian School: A Cultural and Community-Driven Approach to Improving Graduation Rates](https://www.wested.org/resource/superintendent-christie-abeyta-santa-fe-indian-school-improving-graduation-rates/) | report | dropout-prevention
 - 6014. [Recommendations to Support Awareness, Use, and Perceptions of State School Safety Centers: A Framework](https://www.wested.org/resource/recommendations-to-support-awareness-use-and-perceptions-of-state-school-safety-centers-a-framework/) | framework | computer-assisted-learning
@@ -438,3 +435,6 @@ Next part: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wes
 - 6263. [Identifying Indicators of Distress in Charter Schools: Tools to Support Authorizer Data Collection](https://www.wested.org/resource/identifying-indicators-of-distress-in-charter-schools-toolkit/) | report | 
 - 6264. [Parental Involvement and Family Engagement: A Snapshot of California’s 2019 Local Indicator Data](https://www.wested.org/resource/parental-involvement-and-family-engagement-a-snapshot-of-californias-2019-local-indicator-data/) | report | 
 - 6265. [Getting Better at Getting More Equitable: Addressing Racial Inequities in Education Using Equity-Driven Continuous Improvement](https://www.wested.org/resource/equity-driven-continuous-improvement/) | paper | 
+- 6266. [Reimagining Excellence: A Blueprint for Integrating Social and Emotional Well-Being and Academic Excellence in Schools](https://www.wested.org/resource/reimagining-excellence-a-blueprint-for-integrating-social-and-emotional-well-being-and-academic-excellence-in-schools/) | report | sel
+- 6267. [California Statewide Early Math Initiative in Local Communities: Building Educator Math Capacity](https://www.wested.org/resource/california-statewide-early-math-initiative-local-communities/) | report | math-education
+- 6268. [Serving the Whole Person: An Alignment and Coherence Guide for State Education Agencies](https://www.wested.org/resource/serving-the-whole-person-an-alignment-and-coherence-guide-for-state-education-agencies/) | report | 

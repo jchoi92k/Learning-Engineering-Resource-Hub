@@ -384,12 +384,13 @@ This is how Will Rinehart built policyhub.us: he didn't query academic databases
 
 ### Field journals (selective indexing only)
 
-Index landmark or highly-cited papers only — do not attempt systematic indexing.
+Index landmark or highly-cited papers and articles users request — do not attempt systematic indexing.
 
 | Journal | Access | URL pattern | Confirmed? | Best use |
 |---|---|---|---|---|
 | Journal of Educational Data Mining (JEDM) | Fully open access | jedm.educationaldatamining.org/index.php/JEDM/article/view/[ID] | ✅ | **39 indexed**. Vols 10–18 (2018–2026). BKT, hint-seeking, dropout, fairness, LLMs, affect, A/B testing. |
 | Journal of Learning Analytics (JLA) | Fully open access, CC BY 4.0 | learning-analytics.info/index.php/JLA/article/view/[ID] | ✅ | **44 indexed**. Vols 9–12 (2022–2025). LA dashboards, temporal modeling, NLP, fairness, writing analytics, collaborative learning. |
+| Frontiers in Education | Fully open access; articles and abstracts CC BY, metadata CC0 | frontiersin.org/journals/education/articles/10.3389/feduc.[YEAR].[ID]/full | ✅ | Requested articles (issue #7, 2026-10-14). Initial set in progress; not on the weekly list. ~8,700 articles in the journal. |
 | npj Science of Learning | Fully open access (Nature) | nature.com/npjscilearn/articles | ⚠️ 303 redirect — verify URL | High-quality cognitive/neuro/learning science |
 | Computers & Education | Paywalled | — | — | Use DOI + Unpaywall/Semantic Scholar |
 | Educational Technology Research & Development | Paywalled | — | — | Same |

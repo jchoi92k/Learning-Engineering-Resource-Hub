@@ -6,6 +6,12 @@ Tracks every source attempted for the Renaissance AI and Education Resource Hub.
 
 ---
 
+## 2026-10-27 — Frontiers in Education (issue #7)
+
+| Source | URL | Success | Type | Priority | Notes | Entries | Date |
+|---|---|---|---|---|---|---|---|
+| Frontiers in Education | frontiersin.org/journals/education | Yes | Journal (selected set) | Low | Requested via issue #7. robots.txt open, llms.txt present, terms §14 permit text and data mining for enriching scientific-literature collections; abstracts CC BY 4.0. Search API (the listing's own) by article ID + one page fetch each at 12 s: 32 requests, all 200. One-time set: requested articles + most-cited research articles since 2021 in STEM, Teacher and Higher Education. | 9065-9094 | 2026-10-27 |
+
 ## 2026-05-13 — First cloud routine run findings
 
 The weekly automation routine fired in a Claude Code cloud session for the first time today. Discoveries about source access from the cloud environment (which differs from local Claude Code WebFetch in IP range and proxy):

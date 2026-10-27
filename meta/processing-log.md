@@ -344,3 +344,10 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 6 entries (9057-9062)
 - Backlog rows recorded as pending (excluded): 2
 - Tags: keyword auto-tagged
+
+## 2026-10-27 - Frontiers in Education
+- Source slug: `frontiers-education`
+- Scraped: 30 total, 30 ready, 0 backlog
+- Processed: 30 entries (9065-9094)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged

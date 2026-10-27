@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — WestEd (full)
-# 932 entries with descriptions | Last updated: 2026-10-23
+# 929 entries with descriptions | Last updated: 2026-10-27
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -462,7 +462,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2026
 date_source: page-meta
@@ -473,7 +473,7 @@ license: null
 tags: [sel]
 ```
 
-School behavioral health supports often fall short for the students who need them most, particularly young people whose lives are shaped by trauma, housing and...
+School behavioral health supports often fall short for the students who need them most, particularly young people whose lives are shaped by trauma, housing and food insecurity, and contact with the justice system. Understanding what these students experience, and what would actually help, requires centering their own perspectives rather than designing supports for them from a distance. Produced by WestEd with the Office of Youth and Community Restoration Youth Advisory Board, this report analyzes California Healthy Kids Survey data from grades 6 through 12 and pairs it with the insights of youth with lived justice-system experience. The findings reveal stark disparities: Students most likely to be impacted by justice systems report substantially lower school connectedness, adult support, and well-being, along with higher rates of social–emotional distress and mental-health-related absences. Drawing on youth voices, the report offers priority recommendations, including building belonging, shifting from punitive to restorative practices, expanding timely and confidential behavioral health services, and designing supports responsive to students’ lived experience.
 
 ---
 
@@ -824,31 +824,6 @@ tags: [math-education]
 ```
 
 In this webinar, WestEd and the Charles A. Dana Center introduce Integrated Statistics and Quantitative Reasoning (ISQR), a new 3rd- and 4th-year high school math course developed with the Charles A. Dana Center. Learn how ISQR is being piloted in districts across multiple states and how it can support students in their own context.
-
----
-
----
-
-### 5867. Advancing Student Assessment: NCSA 2026 Related Resources
-
-```yaml
-url: "https://www.wested.org/resource/advancing-student-assessment-ncsa-2026-related-resources/"
-type: report
-source: "WestEd"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
-document_url: null
-doi: null
-license: null
-tags: [formative-assessment]
-```
-
-WestEd assessment experts are heading to the 2026 National Conference on Student Assessment (NCSA) in...
 
 ---
 
@@ -1612,7 +1587,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2025
 date_source: page-meta
@@ -1623,7 +1598,7 @@ license: null
 tags: [attendance]
 ```
 
-Chronic absenteeism remains a pressing national concern, with nearly one in four public school students missing significant instructional time in the 2023–24 school year. To...
+Chronic absenteeism remains a pressing national concern, with nearly one in four public school students missing significant instructional time in the 2023–24 school year. To help address the barriers students and families face, the Compass Care program offers a promising, family-centered wraparound approach. Early evidence shows Compass Care positively influences students’ social-emotional well-being, academic achievement, and attendance, demonstrating the potential of holistic, strengths-based supports to reengage students in school. This brief further highlights how targeted, collaborative interventions like Compass Care can help schools foster connection, resilience, and consistent attendance among students.
 
 ---
 
@@ -2162,7 +2137,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: null
 date_source: null
@@ -2173,7 +2148,7 @@ license: null
 tags: []
 ```
 
-A group of teachers in eight California school districts and two charter management organizations engaged in...
+A group of teachers in eight California school districts and two charter management organizations engaged in intensive professional learning and actively implemented Next Generation Science Standards in grades K–8. The Initiative spanned from 2014 to 2020. These NGSS Early Implementers were supported by the K–12 Alliance at WestEd, and work in partnership with the California Department of Education, the California State Board of Education, and Achieve. The S. D. Bechtel, Jr. Foundation commissioned WestEd’s STEM Evaluation Unit independently of the K–12 Alliance to evaluate the Initiative in the eight public school districts. Evaluators investigated three main aspects of the Initiative’s NGSS implementation 1) districts’ local implementation, 2) implementation support provided by K–12 Alliance, and 3) the resulting science teaching and leadership growth of teachers and administrators, as well as student outcomes. Extensive data collection over the six-year project included observations, surveys, interviews, focus groups, and document analysis. Hundreds of teachers and dozens of educational leaders were involved in the project.
 
 ---
 
@@ -4062,7 +4037,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -4073,7 +4048,7 @@ license: null
 tags: [formative-assessment]
 ```
 
-This essential guide for California assists educators in preparing for the integration of science performance data into the California School Dashboard. Starting with the 2025...
+This essential guide for California assists educators in preparing for the integration of science performance data into the California School Dashboard. Starting with the 2025 Dashboard release, student results from the California Science Test (CAST) and the California Alternate Assessment for Science will join English language arts and literacy and mathematics as key accountability indicators. Unlike the Smarter Balanced assessments, CAST is administered at select grades, offering unique insights into students’ science learning. This resource highlights proactive steps that administrators, school leaders, assessment coordinators, and data analysts can take now to leverage CAST data effectively, ensuring readiness for this significant change in accountability reporting.
 
 ---
 
@@ -4404,56 +4379,6 @@ This brief offers three actions state educational agencies can take to address t
 
 ---
 
-### 6010. Leadership, Advocacy, and Building Data Capacity Tribal Data Collection and Governance Webinar Series, Session 2
-
-```yaml
-url: "https://www.wested.org/resource/leadership-advocacy-and-building-data-capacity-tribal-data-collection-and-governance-webinar-series-session-2/"
-type: report
-source: "WestEd"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
-document_url: null
-doi: null
-license: null
-tags: [college-access]
-```
-
-The Western Educational Equity Assistance Center and the Region 13 and 15 Comprehensive Centers partnered with the National Indian Education Association and the University of...
-
----
-
----
-
-### 6011. Principles of Practice and Partnerships Tribal Data Collection and Governance Webinar Series, Session 1
-
-```yaml
-url: "https://www.wested.org/resource/principles-of-practice-and-partnerships-tribal-data-collection-and-governance-webinar-series-session-1/"
-type: report
-source: "WestEd"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
-document_url: null
-doi: null
-license: null
-tags: [college-access]
-```
-
-The Western Educational Equity Assistance Center and the Region 13 and 15 Comprehensive Centers partnered with the National Indian Education Association and the University of...
-
----
-
----
-
 ### 6012. Addressing Critical Challenges in the Teacher Workforce: A Collaborative Approach in California
 
 ```yaml
@@ -4537,7 +4462,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: null
 date_source: null
@@ -4548,7 +4473,7 @@ license: null
 tags: [math-education]
 ```
 
-Too often, the value of culturally responsive and sustaining education (CRSE) is limited to addressing student motivation and engagement rather than being seen as valuable...
+Too often, the value of culturally responsive and sustaining education (CRSE) is limited to addressing student motivation and engagement rather than being seen as valuable for academic achievement and rigorous student learning. This brief calls on education leaders to prioritize a broader range of outcomes, including students’ development of mathematical identity, practice, and empowerment, which are fundamental but often undervalued drivers of student learning and success.
 
 ---
 
@@ -4662,7 +4587,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -4673,7 +4598,7 @@ license: null
 tags: []
 ```
 
-New science standards outline an inspiring vision for rigorous science learning that builds on students’ natural curiosity and wonder. Realizing this vision will require that...
+New science standards outline an inspiring vision for rigorous science learning that builds on students’ natural curiosity and wonder. Realizing this vision will require that many educators receive sustained, practice-based professional learning (PL) that helps them shift their science instructional practice to place students at the center. But states and districts often cite lack of adequate time and resources to address this professional learning need. An emerging approach, the Building Science Leaders model, developed by WestEd’s SCALE Science and K–12 Alliance teams, addressed these needs and constraints across New Mexico by creating a statewide community of practice made up of district teams, including school and district administrators, instructional coaches, and teacher leaders. This infographic describes the Building Science Leaders model, shares key data points that underscore the model’s impact, and offers insights for education leaders seeking to advance science education in their schools and districts.
 
 ---
 
@@ -4687,7 +4612,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -4698,7 +4623,7 @@ license: null
 tags: [english-learners]
 ```
 
-State and local leaders must establish clear goals for dual language immersion (DLI) programs to align interest holders, guide curricula and teaching, and ensure accountability...
+State and local leaders must establish clear goals for dual language immersion (DLI) programs to align interest holders, guide curricula and teaching, and ensure accountability for sustainable improvement. Research identifies the following critical elements for DLI program goals: leadership and advocacy, strategic program development, inclusivity, and expectations. Together, these elements form a robust foundation for DLI programs. This brief unpacks those elements and shares key takeaways for state and local education leaders.
 
 ---
 
@@ -4712,7 +4637,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -4723,7 +4648,7 @@ license: null
 tags: [english-learners]
 ```
 
-Researchers from the Region 15 Comprehensive Center at WestEd reviewed recent literature on dual language immersion (DLI) programs, identifying common methods, settings, and program implementation...
+Researchers from the Region 15 Comprehensive Center at WestEd reviewed recent literature on dual language immersion (DLI) programs, identifying common methods, settings, and program implementation practices. The findings, summarized in this brief, can inform efforts related to state and local DLI programs.
 
 ---
 
@@ -4737,7 +4662,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -4748,7 +4673,7 @@ license: null
 tags: [inclusive-design]
 ```
 
-The Region 15 Comprehensive Center and the National Center for Systemic Improvement, both led by WestEd, collaborated to support Arizona in facilitating the state’s Special Education...
+The Region 15 Comprehensive Center and the National Center for Systemic Improvement, both led by WestEd, collaborated to support Arizona in facilitating the state’s Special Education Evaluations Ad Hoc Subcommittee’s review of current state special education policy and regulations. This brief describes that collaboration, which ultimately resulted in making recommendations to the Arizona State Board of Education.
 
 ---
 
@@ -8937,7 +8862,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2022
 date_source: page-meta
@@ -8948,7 +8873,7 @@ license: null
 tags: [literacy, writing-instruction]
 ```
 
-This report presents the findings from an independent evaluation conducted by WestEd on the Expository Reading and Writing Curriculum (ERWC). Funded by an Investing in...
+This report presents the findings from an independent evaluation conducted by WestEd on the Expository Reading and Writing Curriculum (ERWC). Funded by an Investing in Innovation (i3) Validation grant, the ERWC is a grade 11 and grade 12 English language arts (ELA) curriculum developed by the California State University. The independent evaluation includes an evaluation of the fidelity of implementation of the curriculum and an impact evaluation that took place during the 2020/21 school year. The fidelity of implementation evaluation found that a high percentage of teachers participated in the professional learning with fidelity but that few teachers taught the full curriculum with fidelity, and these results were due to many factors, including time constraints and shifts in instruction due to the COVID-19 pandemic. The grade 11 impact evaluation found that assignment to the ERWC had a positive and statistically significant impact on student achievement as measured by the Non-Performance Task Interim Comprehensive Assessment; however, no statistically significant impact was detected among the students who took the Smarter Balanced Summative Assessment. In the grade 12 impact evaluation, there was no statistically significant difference in achievement between students who had enrolled in the ERWC and students who had enrolled in the comparison English course. Further evaluation of the ERWC in a non-pandemic year during which schooling takes place in person is recommended.
 
 ---
 
@@ -8962,7 +8887,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2022
 date_source: page-meta
@@ -8973,7 +8898,7 @@ license: null
 tags: []
 ```
 
-As part of a body of work that focuses on the role of community needs and interests in charter authorizing, this brief provides guidance to...
+As part of a body of work that focuses on the role of community needs and interests in charter authorizing, this brief provides guidance to charter school operators and authorizers about promising practices for assessing community needs. The brief begins by summarizing how other fields assess community needs, reviewing documentation and practices from the social services, health care, and education sectors. It then provides suggested steps for assessing community needs. Finally, to showcase what this work can look like on the ground, the brief provides examples of strategies that two charter schools and two authorizers have used for assessing community needs.
 
 ---
 
@@ -9012,7 +8937,7 @@ type: framework
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2022
 date_source: page-meta
@@ -9023,7 +8948,7 @@ license: null
 tags: [sel]
 ```
 
-This tip sheet for educators offers several high-level principles that educators can consider, followed by nine self-reflection questions. These allow individuals or teams to evaluate...
+This tip sheet for educators offers several high-level principles that educators can consider, followed by nine self-reflection questions. These allow individuals or teams to evaluate their practices along a continuum: A high rating may indicate that social and emotional well-being practices are already anchored in equity, whereas a low score may indicate that well-intended practices are actually working at cross-purposes with equity.
 
 ---
 
@@ -9762,7 +9687,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
@@ -9773,7 +9698,7 @@ license: null
 tags: [english-learners, inclusive-design]
 ```
 
-There is a need to design learning resources that allow a diverse range of students access to instructional content, including students with disabilities, dual-language learners,...
+There is a need to design learning resources that allow a diverse range of students access to instructional content, including students with disabilities, dual-language learners, and socioeconomically disadvantaged students. Designers of digital and blended science-learning resources are recognizing the value of (a) incorporating design features into their products that support equitable access to instructional content and (b) enabling educators to adapt resources to provide maximum access to the learning content for their students. This report describes a case study that examines the design and use of PBS KIDS Hero Elementary science learning resources with diverse groups of K–2 students. Hero Elementary resources include PBS KIDS television episodes, digital and analog games, e-readers, hands-on activities, a tablet-based science notebook, and educator professional development and resources. The report provides rich examples of design strategies that can guide researchers, resource designers, and educators as they seek to create and use learning resources that can engage diverse learners in science and other content areas. In addition, the study provides evidence of how educator professional development focused on equity and accessibility can prompt educators to use research-based practices to provide further access to the learning content with their students.
 
 ---
 
@@ -10812,7 +10737,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
@@ -10823,7 +10748,7 @@ license: null
 tags: [sel]
 ```
 
-Just as constructing a well-designed school building requires a blueprint, so does designing an effective and equitable learning program that addresses the needs of the...
+Just as constructing a well-designed school building requires a blueprint, so does designing an effective and equitable learning program that addresses the needs of the whole child. Success occurs through a cycle of strong planning, action, and continuous monitoring. This blueprint developed by the National Center for Social and Emotional Learning and School Safety highlights key indicators of learning programs that successfully integrate equity, well-being, and academics. It leverages an asset-based approach that values diversity in race, culture, language, ability, and ways of interacting with the world, rather than characterizing students and families by what they may need or lack.
 
 ---
 
@@ -13387,7 +13312,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
@@ -13398,7 +13323,7 @@ license: null
 tags: [formative-assessment]
 ```
 
-Previous efforts to identify promising practices in charter schools have often relied on self-reported practices from high-performing schools, with little assessment of local context, generalizability,...
+Previous efforts to identify promising practices in charter schools have often relied on self-reported practices from high-performing schools, with little assessment of local context, generalizability, or scalability of the specific practice. Using that approach, states have typically identified the high-performing schools first (based on school performance) and then asked the schools to identify practices to highlight. This brief, developed by the Mid-Atlantic Comprehensive Center at WestEd, presents states and their charter schools with an alternative — an evidence-based framework for identifying innovations and promising practices that can be reported on and shared with the broader education community, including other charter schools and traditional schools and districts. Individual charter schools can also use this framework to examine their own practices for impact and effectiveness. In an era when states and districts are increasingly focused on using improvement science and implementing evidence-based initiatives, the processes and protocols included in the brief are intended to extend those same concepts to the charter sector.
 
 ---
 
@@ -19437,7 +19362,7 @@ type: paper
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2013
 date_source: page-meta
@@ -19448,7 +19373,7 @@ license: null
 tags: [college-access]
 ```
 
-“The nation’s 10 regional Equity Assistance Centers (EACs) are committed to the successful implementation of the Common Core State Standards (Common Core)….” In this new...
+“The nation’s 10 regional Equity Assistance Centers (EACs) are committed to the successful implementation of the Common Core State Standards (Common Core)….” In this new position paper issued collectively by the EAC directors, the authors quickly underscore this commitment by identifying the critical equity issues that must be addressed if the new standards are to be implemented in a way that helps ensure that every student will succeed, especially those who have long been underserved. This paper outlines six equity goals, along with key questions that educators should consider if the needs of all learners are to be appropriately and adequately met. The paper concludes with a set of recommendations to help educators ensure equity as they continue implementing the new standards.
 
 ---
 
@@ -22712,7 +22637,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2000
 date_source: page-meta
@@ -22723,7 +22648,7 @@ license: null
 tags: []
 ```
 
-As classrooms around the United States continue to become more and more culturally and linguistically diverse, educators need to understand the deep value orientations underlying...
+As classrooms around the United States continue to become more and more culturally and linguistically diverse, educators need to understand the deep value orientations underlying beliefs and behaviors of different cultures and see how their own cultural values operate in the classroom. This is a critical step in making schools places where all children can learn. This widely read Knowledge Brief provides a useful, theoretical framework for understanding how teachers’ culturally driven—and often unconsciously held—values influence classroom practice and expectations, and, when in conflict with the values of immigrant and other parents from more collectivistic societies, can interfere with parent-teacher communication. Teachers can use this framework to generate their own solutions to problems, develop methods for effective teaching, and work with parents as authentic partners. The book, Bridging Cultures Between Home and School: A Guide for Teachers, is also available.
 
 ---
 
@@ -22762,7 +22687,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 1995
 date_source: page-meta
@@ -22773,7 +22698,7 @@ license: null
 tags: [k-12, math-education]
 ```
 
-This publication reviews theory and research on approaches to mathematics and science education for Native students in the context of national standards-based reform. Ethnomathematics and...
+This publication reviews theory and research on approaches to mathematics and science education for Native students in the context of national standards-based reform. Ethnomathematics and ethnoscience as a basis for instruction are discussed, and examples of culturally responsive pedagogy are cited.
 
 ---
 
@@ -22787,7 +22712,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 1991
 date_source: page-meta
@@ -22798,7 +22723,7 @@ license: null
 tags: []
 ```
 
-Every teacher knows the special student who overcomes the hazards of a risk-filled environment—poverty, violence, drugs—to become a healthy, competent young adult. This research synthesis...
+Every teacher knows the special student who overcomes the hazards of a risk-filled environment—poverty, violence, drugs—to become a healthy, competent young adult. This research synthesis discusses how such resiliency can be fostered in school by looking beyond the deficits of a child’s life to capitalize on strengths.
 
 ---
 

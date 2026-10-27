@@ -112,7 +112,7 @@ Each source has a `.json` config (consumed by `scrape.py`) and a `.md` profile (
 - **`{source}.json`** — scraping config (discovery URL, selectors, API params, pagination).
 - **`{source}.md`** — source profile (discovery method, access notes, scope, scraping instructions).
 - **`{source}-backlog.txt`** — URLs/items that need manual review or are missing descriptions.
-- Backfill-only configs (no weekly discovery): `jedm.json` and `jla.json` (OAI-PMH over the two frozen journal sets), `aims-collaboratory.json` and `ies-rel.json` (`discovery: "db"`, used with `scrape.py --from-db` to re-read pages already indexed). Config options are documented in `sources/README.md`.
+- Backfill-only configs (no weekly discovery): `jedm.json` and `jla.json` (OAI-PMH over the two frozen journal sets), `frontiers-education.json` (one-time selected set by article ID, 2026-10-27), `aims-collaboratory.json` and `ies-rel.json` (`discovery: "db"`, used with `scrape.py --from-db` to re-read pages already indexed). Config options are documented in `sources/README.md`.
 
 ### `data/` — database and data files
 

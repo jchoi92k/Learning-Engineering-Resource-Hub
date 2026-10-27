@@ -1,11 +1,9 @@
 # Renaissance AI and Education Resource Hub — WestEd (part 3 of 3)
 
-> 932 entries from WestEd; this part lists 49 of them (entry numbers 6717–9062).
+> 929 entries from WestEd; this part lists 47 of them (entry numbers 6719–9062).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-23
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-27
 
-- 6717. [Effects of Problem Based Economics on High School Economics Instruction: Final Report](https://www.wested.org/resource/effects-of-problem-based-economics-on-high-school-economics-instruction-final-report/) | report | 
-- 6718. [Do States Have Certification Requirements for Preparing General Education Teachers to Teach Students with Disabilities? Experience in the Northeast and Islands Region](https://www.wested.org/resource/do-states-have-certification-requirements-for-preparing-general-education-teachers-to-teach-students-with-disabilities-experience-in-the-northeast-and-islands-region/) | report | inclusive-design
 - 6719. [Accommodations for English Language Learner Students: The Effect of Linguistic Modification of Math Test Item Sets](https://www.wested.org/resource/accommodations-for-english-language-learner-students-the-effect-of-linguistic-modification-of-math-test-item-sets/) | report | english-learners, formative-assessment, math-education
 - 6720. [Decentralizing Resources in Los Angeles High Schools: California’s Quality Education Investment Act](https://www.wested.org/resource/decentralizing-resources-in-los-angeles-high-schools-californias-quality-education-investment-act/) | paper | 
 - 6721. [STEM Teachers in Professional Learning Communities: A Knowledge Synthesis](https://www.wested.org/resource/stem-teachers-in-professional-learning-communities-a-knowledge-synthesis/) | report | computer-assisted-learning, k-12, math-education

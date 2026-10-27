@@ -90,6 +90,15 @@
     "discovery_check": "Volume",
     "notes": "Selective methods-paper set (39 entries), reinstated 2026-08-28. Not scraped systematically; excluded from the weekly run."
   },
+  "Frontiers in Education": {
+    "known_total": 8733,
+    "priority": "low",
+    "status": "frozen",
+    "discovery_url": "https://www.frontiersin.org/journals/education/articles",
+    "sample_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1493356/full",
+    "discovery_check": "articles",
+    "notes": "One-time selected set (30 entries, issue #7, 2026-10-27): requested articles plus the most-cited research articles since 2021 in three sections. Not scraped systematically; excluded from the weekly run. Abstracts CC BY 4.0."
+  },
   "Campbell Collaboration": {
     "known_total": 52,
     "priority": "medium",

@@ -1,12 +1,12 @@
 # Renaissance AI and Education Resource Hub
 
-> 3944 curated evidence-based K-12 and higher education resources — links with metadata and a description each, from organizations with documented review (What Works Clearinghouse, Learning Policy Institute, Mathematica, Digital Promise, Evidence for ESSA and others). Last updated: 2026-10-23
+> 3971 curated evidence-based K-12 and higher education resources — links with metadata and a description each, from organizations with documented review (What Works Clearinghouse, Learning Policy Institute, Mathematica, Digital Promise, Evidence for ESSA and others). Last updated: 2026-10-27
 
 This is the root index. Each source below links to a compact list of its entries (entry number, title, URL, type, tags); large sources are split into parts under 100,000 characters. Every source also has a file with full descriptions. For the whole corpus in one file see llms-full.txt; for search use the MCP endpoint.
 
 ## Sources
 
-- [WestEd](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt): 932 entries, 3 parts; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
+- [WestEd](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt): 929 entries, 3 parts; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
 - [Mathematica](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-mathematica-1.txt): 633 entries, 2 parts; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-mathematica.txt
 - [Learning Policy Institute](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt): 358 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-learning-policy-institute.txt
 - [The Education Trust](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt): 325 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-the-education-trust.txt
@@ -20,6 +20,7 @@ This is the root index. Each source below links to a compact list of its entries
 - [Journal of Educational Data Mining](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-journal-of-educational-data-mining.txt): 39 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-journal-of-educational-data-mining.txt
 - [Journal of Learning Analytics](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-journal-of-learning-analytics.txt): 39 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-journal-of-learning-analytics.txt
 - [TNTP](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-tntp.txt): 36 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-tntp.txt
+- [Frontiers in Education](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-frontiers-in-education.txt): 30 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-frontiers-in-education.txt
 - [National Center for Education Statistics (NCES)](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-national-center-for-education-statistics-nces.txt): 29 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-national-center-for-education-statistics-nces.txt
 - [IES Regional Education Labs](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-ies-regional-education-labs.txt): 28 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-ies-regional-education-labs.txt
 - [Brookings Institution](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-brookings-institution.txt): 22 entries; with descriptions: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-brookings-institution.txt
@@ -31,7 +32,7 @@ This is the root index. Each source below links to a compact list of its entries
 
 ## Whole corpus
 
-- [llms-full.txt](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt): all 3944 entries with descriptions in one self-contained file (large)
+- [llms-full.txt](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full.txt): all 3971 entries with descriptions in one self-contained file (large)
 - [data.json](https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/data.json): the same entries as structured JSON
 - [MCP endpoint](https://renaissance-hub.joon-96a.workers.dev/mcp): semantic search over the corpus (tools: search, fetch, search_resources, get_entries_batch, list_tags, list_sources)
 
@@ -39,17 +40,17 @@ This is the root index. Each source below links to a compact list of its entries
 
 Tag vocabulary with entry counts; filter values for the MCP tools.
 
-**Domain:** k-12 (893), math-education (528), literacy (429), learning-engineering (301), english-learners (224), early-childhood (212), higher-ed (201), school-discipline (32)
+**Domain:** k-12 (904), math-education (533), literacy (426), learning-engineering (302), english-learners (225), higher-ed (215), early-childhood (212), school-discipline (32)
 
-**Method:** computer-assisted-learning (259), longitudinal (203), response-to-intervention (189), rct (85), meta-analysis (61), coaching (45), genai (41), intelligent-tutoring (41), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+**Method:** computer-assisted-learning (260), longitudinal (203), response-to-intervention (189), rct (85), meta-analysis (61), coaching (45), genai (44), intelligent-tutoring (42), qualitative-research (35), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
 
-**Topic:** college-access (434), formative-assessment (412), sel (296), professional-development (284), career-readiness (244), personalized-learning (141), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (47), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (19), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+**Topic:** college-access (432), formative-assessment (409), sel (295), professional-development (287), career-readiness (245), personalized-learning (141), inclusive-design (127), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (79), writing-instruction (58), prekindergarten (47), student-belonging (37), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (19), math-motivation (9), genai-tutoring (4), cognitive-science (3), math-word-problems (2), educational-systems-change (1)
 
 **Affiliation:** lpi (357), edtrust (325), digital-promise (286), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 
 ## Types
 
-report (3045), paper (522), framework (170), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
+report (3042), paper (538), framework (170), dataset (99), review (38), platform (29), presentation (27), tool (10), code (9), article (8), project-website (1)
 
 ## Optional
 

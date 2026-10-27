@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Full Index
-# 3944 entries | Last updated: 2026-10-23
+# 3971 entries | Last updated: 2026-10-27
 #
 # HOW TO USE THIS FILE
 # This file contains all entries with full descriptions — everything is here.
@@ -9,14 +9,14 @@
 # Do NOT attempt to fetch other files. This file is self-contained.
 #
 # TAGS
-# Domain: k-12 (893), math-education (528), literacy (429), learning-engineering (301), english-learners (224), early-childhood (212), higher-ed (201), school-discipline (32)
-# Method: computer-assisted-learning (259), longitudinal (203), response-to-intervention (189), rct (85), meta-analysis (61), coaching (45), genai (41), intelligent-tutoring (41), qualitative-research (34), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
-# Topic: college-access (434), formative-assessment (412), sel (296), professional-development (284), career-readiness (244), personalized-learning (141), inclusive-design (126), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (76), writing-instruction (58), prekindergarten (47), student-belonging (36), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (19), math-motivation (9), genai-tutoring (4), math-word-problems (2), cognitive-science (2), educational-systems-change (1)
+# Domain: k-12 (904), math-education (533), literacy (426), learning-engineering (302), english-learners (225), higher-ed (215), early-childhood (212), school-discipline (32)
+# Method: computer-assisted-learning (260), longitudinal (203), response-to-intervention (189), rct (85), meta-analysis (61), coaching (45), genai (44), intelligent-tutoring (42), qualitative-research (35), llm-application (24), nlp (19), automated-feedback (10), a-b-testing (7), instructional-coaching (1)
+# Topic: college-access (432), formative-assessment (409), sel (295), professional-development (287), career-readiness (245), personalized-learning (141), inclusive-design (127), attendance (112), open-datasets (101), dropout-prevention (97), digital-learning-platforms (79), writing-instruction (58), prekindergarten (47), student-belonging (37), ai-ethics (24), data-sharing (23), math-strategies (22), ai-policy (21), pii-privacy (19), math-motivation (9), genai-tutoring (4), cognitive-science (3), math-word-problems (2), educational-systems-change (1)
 # Affiliation: lpi (357), edtrust (325), digital-promise (286), wwc (165), aims (47), jedm (39), campbell-collaboration (27), jla (25), cmu-learnlab (18), tools-competition (17), lsu (13), northwestern-e4 (10), assistments (9), carnegie-learning (6), rppl (5), upgrade-platform (3), norc (2), duolingo (2), nap (2), wpi (2), khan-academy (1), lastinger-center (1), tla (1), casel (1)
 #
-# TYPES: report (3045), paper (522), framework (170), dataset (99), platform (29), presentation (27), review (24), tool (10), code (9), article (8), project-website (1)
+# TYPES: report (3042), paper (538), framework (170), dataset (99), review (38), platform (29), presentation (27), tool (10), code (9), article (8), project-website (1)
 #
-# SOURCES: WestEd (932), Mathematica (633), Learning Policy Institute (358), The Education Trust (325), UChicago Consortium on School Research (325), NWEA Research (290), Digital Promise (286), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
+# SOURCES: WestEd (929), Mathematica (633), Learning Policy Institute (358), The Education Trust (325), UChicago Consortium on School Research (325), NWEA Research (290), Digital Promise (286), Evidence for ESSA (203), What Works Clearinghouse (174), Campbell Collaboration (51), AIMS Collaboratory (47), Journal of Educational Data Mining (39), Journal of Learning Analytics (39), TNTP (36), Frontiers in Education (30), National Center for Education Statistics (NCES) (29), IES Regional Education Labs (28), Brookings Institution (22), Tools Competition (17), CREDO at Stanford (16), Carnegie Mellon University LearnLab (12), IEA (11), Harvard University (9), OECD (8), LEVI Math (7), U.S. Department of Education (4), UNESCO (3), National Student Clearinghouse (3), World Bank (3), Stanford CEPA (3), Worcester Polytechnic Institute (3), National Academies of Sciences, Engineering, and Medicine (2), Urban Institute (2), ICPSR (U. Michigan) (2), Duolingo (2), NBER (2), UC Berkeley CAHLR (2), ADL Initiative (2), CAST (1), Carnegie Mellon University / Educational Testing Service (1), Collaborative for Academic, Social, and Emotional Learning (CASEL) (1), U.S. Department of Education Office for Civil Rights (1), The Open University (1), Riiid (1), The Learning Agency (1), AI-for-Education.org (1), Scale AI (1), ETH Zurich (1), pyKT Team (1), University of Notre Dame (1), Learning Commons (1), Brookings Institution (Brown Center on Education Policy) (1)
 
 ---
 
@@ -410,7 +410,7 @@ date_source: listing
 authors: ["Baker, Ryan S.J.d", "Yacef, Kalina"]
 document_url: "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/8/2"
 doi: "10.5281/zenodo.3554657"
-license: "CC BY-NC-ND 4.0"
+license: CC BY-NC-ND 4.0
 tags: [computer-assisted-learning, intelligent-tutoring, jedm, learning-engineering, meta-analysis]
 ```
 
@@ -61403,7 +61403,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2026
 date_source: page-meta
@@ -61414,7 +61414,7 @@ license: null
 tags: [sel]
 ```
 
-School behavioral health supports often fall short for the students who need them most, particularly young people whose lives are shaped by trauma, housing and...
+School behavioral health supports often fall short for the students who need them most, particularly young people whose lives are shaped by trauma, housing and food insecurity, and contact with the justice system. Understanding what these students experience, and what would actually help, requires centering their own perspectives rather than designing supports for them from a distance. Produced by WestEd with the Office of Youth and Community Restoration Youth Advisory Board, this report analyzes California Healthy Kids Survey data from grades 6 through 12 and pairs it with the insights of youth with lived justice-system experience. The findings reveal stark disparities: Students most likely to be impacted by justice systems report substantially lower school connectedness, adult support, and well-being, along with higher rates of social–emotional distress and mental-health-related absences. Drawing on youth voices, the report offers priority recommendations, including building belonging, shifting from punitive to restorative practices, expanding timely and confidential behavioral health services, and designing supports responsive to students’ lived experience.
 
 ---
 
@@ -61765,31 +61765,6 @@ tags: [math-education]
 ```
 
 In this webinar, WestEd and the Charles A. Dana Center introduce Integrated Statistics and Quantitative Reasoning (ISQR), a new 3rd- and 4th-year high school math course developed with the Charles A. Dana Center. Learn how ISQR is being piloted in districts across multiple states and how it can support students in their own context.
-
----
-
----
-
-### 5867. Advancing Student Assessment: NCSA 2026 Related Resources
-
-```yaml
-url: "https://www.wested.org/resource/advancing-student-assessment-ncsa-2026-related-resources/"
-type: report
-source: "WestEd"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
-document_url: null
-doi: null
-license: null
-tags: [formative-assessment]
-```
-
-WestEd assessment experts are heading to the 2026 National Conference on Student Assessment (NCSA) in...
 
 ---
 
@@ -62553,7 +62528,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2025
 date_source: page-meta
@@ -62564,7 +62539,7 @@ license: null
 tags: [attendance]
 ```
 
-Chronic absenteeism remains a pressing national concern, with nearly one in four public school students missing significant instructional time in the 2023–24 school year. To...
+Chronic absenteeism remains a pressing national concern, with nearly one in four public school students missing significant instructional time in the 2023–24 school year. To help address the barriers students and families face, the Compass Care program offers a promising, family-centered wraparound approach. Early evidence shows Compass Care positively influences students’ social-emotional well-being, academic achievement, and attendance, demonstrating the potential of holistic, strengths-based supports to reengage students in school. This brief further highlights how targeted, collaborative interventions like Compass Care can help schools foster connection, resilience, and consistent attendance among students.
 
 ---
 
@@ -63103,7 +63078,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: null
 date_source: null
@@ -63114,7 +63089,7 @@ license: null
 tags: []
 ```
 
-A group of teachers in eight California school districts and two charter management organizations engaged in...
+A group of teachers in eight California school districts and two charter management organizations engaged in intensive professional learning and actively implemented Next Generation Science Standards in grades K–8. The Initiative spanned from 2014 to 2020. These NGSS Early Implementers were supported by the K–12 Alliance at WestEd, and work in partnership with the California Department of Education, the California State Board of Education, and Achieve. The S. D. Bechtel, Jr. Foundation commissioned WestEd’s STEM Evaluation Unit independently of the K–12 Alliance to evaluate the Initiative in the eight public school districts. Evaluators investigated three main aspects of the Initiative’s NGSS implementation 1) districts’ local implementation, 2) implementation support provided by K–12 Alliance, and 3) the resulting science teaching and leadership growth of teachers and administrators, as well as student outcomes. Extensive data collection over the six-year project included observations, surveys, interviews, focus groups, and document analysis. Hundreds of teachers and dozens of educational leaders were involved in the project.
 
 ---
 
@@ -65003,7 +64978,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -65014,7 +64989,7 @@ license: null
 tags: [formative-assessment]
 ```
 
-This essential guide for California assists educators in preparing for the integration of science performance data into the California School Dashboard. Starting with the 2025...
+This essential guide for California assists educators in preparing for the integration of science performance data into the California School Dashboard. Starting with the 2025 Dashboard release, student results from the California Science Test (CAST) and the California Alternate Assessment for Science will join English language arts and literacy and mathematics as key accountability indicators. Unlike the Smarter Balanced assessments, CAST is administered at select grades, offering unique insights into students’ science learning. This resource highlights proactive steps that administrators, school leaders, assessment coordinators, and data analysts can take now to leverage CAST data effectively, ensuring readiness for this significant change in accountability reporting.
 
 ---
 
@@ -65345,56 +65320,6 @@ This brief offers three actions state educational agencies can take to address t
 
 ---
 
-### 6010. Leadership, Advocacy, and Building Data Capacity Tribal Data Collection and Governance Webinar Series, Session 2
-
-```yaml
-url: "https://www.wested.org/resource/leadership-advocacy-and-building-data-capacity-tribal-data-collection-and-governance-webinar-series-session-2/"
-type: report
-source: "WestEd"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
-document_url: null
-doi: null
-license: null
-tags: [college-access]
-```
-
-The Western Educational Equity Assistance Center and the Region 13 and 15 Comprehensive Centers partnered with the National Indian Education Association and the University of...
-
----
-
----
-
-### 6011. Principles of Practice and Partnerships Tribal Data Collection and Governance Webinar Series, Session 1
-
-```yaml
-url: "https://www.wested.org/resource/principles-of-practice-and-partnerships-tribal-data-collection-and-governance-webinar-series-session-1/"
-type: report
-source: "WestEd"
-url_confirmed: true
-description_inferred: false
-description_source: listing
-date_added: 2026-08-30
-published_date: null
-date_source: null
-authors: null
-document_url: null
-doi: null
-license: null
-tags: [college-access]
-```
-
-The Western Educational Equity Assistance Center and the Region 13 and 15 Comprehensive Centers partnered with the National Indian Education Association and the University of...
-
----
-
----
-
 ### 6012. Addressing Critical Challenges in the Teacher Workforce: A Collaborative Approach in California
 
 ```yaml
@@ -65478,7 +65403,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: null
 date_source: null
@@ -65489,7 +65414,7 @@ license: null
 tags: [math-education]
 ```
 
-Too often, the value of culturally responsive and sustaining education (CRSE) is limited to addressing student motivation and engagement rather than being seen as valuable...
+Too often, the value of culturally responsive and sustaining education (CRSE) is limited to addressing student motivation and engagement rather than being seen as valuable for academic achievement and rigorous student learning. This brief calls on education leaders to prioritize a broader range of outcomes, including students’ development of mathematical identity, practice, and empowerment, which are fundamental but often undervalued drivers of student learning and success.
 
 ---
 
@@ -65603,7 +65528,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -65614,7 +65539,7 @@ license: null
 tags: []
 ```
 
-New science standards outline an inspiring vision for rigorous science learning that builds on students’ natural curiosity and wonder. Realizing this vision will require that...
+New science standards outline an inspiring vision for rigorous science learning that builds on students’ natural curiosity and wonder. Realizing this vision will require that many educators receive sustained, practice-based professional learning (PL) that helps them shift their science instructional practice to place students at the center. But states and districts often cite lack of adequate time and resources to address this professional learning need. An emerging approach, the Building Science Leaders model, developed by WestEd’s SCALE Science and K–12 Alliance teams, addressed these needs and constraints across New Mexico by creating a statewide community of practice made up of district teams, including school and district administrators, instructional coaches, and teacher leaders. This infographic describes the Building Science Leaders model, shares key data points that underscore the model’s impact, and offers insights for education leaders seeking to advance science education in their schools and districts.
 
 ---
 
@@ -65628,7 +65553,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -65639,7 +65564,7 @@ license: null
 tags: [english-learners]
 ```
 
-State and local leaders must establish clear goals for dual language immersion (DLI) programs to align interest holders, guide curricula and teaching, and ensure accountability...
+State and local leaders must establish clear goals for dual language immersion (DLI) programs to align interest holders, guide curricula and teaching, and ensure accountability for sustainable improvement. Research identifies the following critical elements for DLI program goals: leadership and advocacy, strategic program development, inclusivity, and expectations. Together, these elements form a robust foundation for DLI programs. This brief unpacks those elements and shares key takeaways for state and local education leaders.
 
 ---
 
@@ -65653,7 +65578,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -65664,7 +65589,7 @@ license: null
 tags: [english-learners]
 ```
 
-Researchers from the Region 15 Comprehensive Center at WestEd reviewed recent literature on dual language immersion (DLI) programs, identifying common methods, settings, and program implementation...
+Researchers from the Region 15 Comprehensive Center at WestEd reviewed recent literature on dual language immersion (DLI) programs, identifying common methods, settings, and program implementation practices. The findings, summarized in this brief, can inform efforts related to state and local DLI programs.
 
 ---
 
@@ -65678,7 +65603,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2024
 date_source: page-meta
@@ -65689,7 +65614,7 @@ license: null
 tags: [inclusive-design]
 ```
 
-The Region 15 Comprehensive Center and the National Center for Systemic Improvement, both led by WestEd, collaborated to support Arizona in facilitating the state’s Special Education...
+The Region 15 Comprehensive Center and the National Center for Systemic Improvement, both led by WestEd, collaborated to support Arizona in facilitating the state’s Special Education Evaluations Ad Hoc Subcommittee’s review of current state special education policy and regulations. This brief describes that collaboration, which ultimately resulted in making recommendations to the Arizona State Board of Education.
 
 ---
 
@@ -69878,7 +69803,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2022
 date_source: page-meta
@@ -69889,7 +69814,7 @@ license: null
 tags: [literacy, writing-instruction]
 ```
 
-This report presents the findings from an independent evaluation conducted by WestEd on the Expository Reading and Writing Curriculum (ERWC). Funded by an Investing in...
+This report presents the findings from an independent evaluation conducted by WestEd on the Expository Reading and Writing Curriculum (ERWC). Funded by an Investing in Innovation (i3) Validation grant, the ERWC is a grade 11 and grade 12 English language arts (ELA) curriculum developed by the California State University. The independent evaluation includes an evaluation of the fidelity of implementation of the curriculum and an impact evaluation that took place during the 2020/21 school year. The fidelity of implementation evaluation found that a high percentage of teachers participated in the professional learning with fidelity but that few teachers taught the full curriculum with fidelity, and these results were due to many factors, including time constraints and shifts in instruction due to the COVID-19 pandemic. The grade 11 impact evaluation found that assignment to the ERWC had a positive and statistically significant impact on student achievement as measured by the Non-Performance Task Interim Comprehensive Assessment; however, no statistically significant impact was detected among the students who took the Smarter Balanced Summative Assessment. In the grade 12 impact evaluation, there was no statistically significant difference in achievement between students who had enrolled in the ERWC and students who had enrolled in the comparison English course. Further evaluation of the ERWC in a non-pandemic year during which schooling takes place in person is recommended.
 
 ---
 
@@ -69903,7 +69828,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2022
 date_source: page-meta
@@ -69914,7 +69839,7 @@ license: null
 tags: []
 ```
 
-As part of a body of work that focuses on the role of community needs and interests in charter authorizing, this brief provides guidance to...
+As part of a body of work that focuses on the role of community needs and interests in charter authorizing, this brief provides guidance to charter school operators and authorizers about promising practices for assessing community needs. The brief begins by summarizing how other fields assess community needs, reviewing documentation and practices from the social services, health care, and education sectors. It then provides suggested steps for assessing community needs. Finally, to showcase what this work can look like on the ground, the brief provides examples of strategies that two charter schools and two authorizers have used for assessing community needs.
 
 ---
 
@@ -69953,7 +69878,7 @@ type: framework
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2022
 date_source: page-meta
@@ -69964,7 +69889,7 @@ license: null
 tags: [sel]
 ```
 
-This tip sheet for educators offers several high-level principles that educators can consider, followed by nine self-reflection questions. These allow individuals or teams to evaluate...
+This tip sheet for educators offers several high-level principles that educators can consider, followed by nine self-reflection questions. These allow individuals or teams to evaluate their practices along a continuum: A high rating may indicate that social and emotional well-being practices are already anchored in equity, whereas a low score may indicate that well-intended practices are actually working at cross-purposes with equity.
 
 ---
 
@@ -70703,7 +70628,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
@@ -70714,7 +70639,7 @@ license: null
 tags: [english-learners, inclusive-design]
 ```
 
-There is a need to design learning resources that allow a diverse range of students access to instructional content, including students with disabilities, dual-language learners,...
+There is a need to design learning resources that allow a diverse range of students access to instructional content, including students with disabilities, dual-language learners, and socioeconomically disadvantaged students. Designers of digital and blended science-learning resources are recognizing the value of (a) incorporating design features into their products that support equitable access to instructional content and (b) enabling educators to adapt resources to provide maximum access to the learning content for their students. This report describes a case study that examines the design and use of PBS KIDS Hero Elementary science learning resources with diverse groups of K–2 students. Hero Elementary resources include PBS KIDS television episodes, digital and analog games, e-readers, hands-on activities, a tablet-based science notebook, and educator professional development and resources. The report provides rich examples of design strategies that can guide researchers, resource designers, and educators as they seek to create and use learning resources that can engage diverse learners in science and other content areas. In addition, the study provides evidence of how educator professional development focused on equity and accessibility can prompt educators to use research-based practices to provide further access to the learning content with their students.
 
 ---
 
@@ -71753,7 +71678,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2021
 date_source: page-meta
@@ -71764,7 +71689,7 @@ license: null
 tags: [sel]
 ```
 
-Just as constructing a well-designed school building requires a blueprint, so does designing an effective and equitable learning program that addresses the needs of the...
+Just as constructing a well-designed school building requires a blueprint, so does designing an effective and equitable learning program that addresses the needs of the whole child. Success occurs through a cycle of strong planning, action, and continuous monitoring. This blueprint developed by the National Center for Social and Emotional Learning and School Safety highlights key indicators of learning programs that successfully integrate equity, well-being, and academics. It leverages an asset-based approach that values diversity in race, culture, language, ability, and ways of interacting with the world, rather than characterizing students and families by what they may need or lack.
 
 ---
 
@@ -74328,7 +74253,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2019
 date_source: page-meta
@@ -74339,7 +74264,7 @@ license: null
 tags: [formative-assessment]
 ```
 
-Previous efforts to identify promising practices in charter schools have often relied on self-reported practices from high-performing schools, with little assessment of local context, generalizability,...
+Previous efforts to identify promising practices in charter schools have often relied on self-reported practices from high-performing schools, with little assessment of local context, generalizability, or scalability of the specific practice. Using that approach, states have typically identified the high-performing schools first (based on school performance) and then asked the schools to identify practices to highlight. This brief, developed by the Mid-Atlantic Comprehensive Center at WestEd, presents states and their charter schools with an alternative — an evidence-based framework for identifying innovations and promising practices that can be reported on and shared with the broader education community, including other charter schools and traditional schools and districts. Individual charter schools can also use this framework to examine their own practices for impact and effectiveness. In an era when states and districts are increasingly focused on using improvement science and implementing evidence-based initiatives, the processes and protocols included in the brief are intended to extend those same concepts to the charter sector.
 
 ---
 
@@ -80378,7 +80303,7 @@ type: paper
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2013
 date_source: page-meta
@@ -80389,7 +80314,7 @@ license: null
 tags: [college-access]
 ```
 
-“The nation’s 10 regional Equity Assistance Centers (EACs) are committed to the successful implementation of the Common Core State Standards (Common Core)….” In this new...
+“The nation’s 10 regional Equity Assistance Centers (EACs) are committed to the successful implementation of the Common Core State Standards (Common Core)….” In this new position paper issued collectively by the EAC directors, the authors quickly underscore this commitment by identifying the critical equity issues that must be addressed if the new standards are to be implemented in a way that helps ensure that every student will succeed, especially those who have long been underserved. This paper outlines six equity goals, along with key questions that educators should consider if the needs of all learners are to be appropriately and adequately met. The paper concludes with a set of recommendations to help educators ensure equity as they continue implementing the new standards.
 
 ---
 
@@ -83653,7 +83578,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 2000
 date_source: page-meta
@@ -83664,7 +83589,7 @@ license: null
 tags: []
 ```
 
-As classrooms around the United States continue to become more and more culturally and linguistically diverse, educators need to understand the deep value orientations underlying...
+As classrooms around the United States continue to become more and more culturally and linguistically diverse, educators need to understand the deep value orientations underlying beliefs and behaviors of different cultures and see how their own cultural values operate in the classroom. This is a critical step in making schools places where all children can learn. This widely read Knowledge Brief provides a useful, theoretical framework for understanding how teachers’ culturally driven—and often unconsciously held—values influence classroom practice and expectations, and, when in conflict with the values of immigrant and other parents from more collectivistic societies, can interfere with parent-teacher communication. Teachers can use this framework to generate their own solutions to problems, develop methods for effective teaching, and work with parents as authentic partners. The book, Bridging Cultures Between Home and School: A Guide for Teachers, is also available.
 
 ---
 
@@ -83703,7 +83628,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 1995
 date_source: page-meta
@@ -83714,7 +83639,7 @@ license: null
 tags: [k-12, math-education]
 ```
 
-This publication reviews theory and research on approaches to mathematics and science education for Native students in the context of national standards-based reform. Ethnomathematics and...
+This publication reviews theory and research on approaches to mathematics and science education for Native students in the context of national standards-based reform. Ethnomathematics and ethnoscience as a basis for instruction are discussed, and examples of culturally responsive pedagogy are cited.
 
 ---
 
@@ -83728,7 +83653,7 @@ type: report
 source: "WestEd"
 url_confirmed: true
 description_inferred: false
-description_source: listing
+description_source: page-abstract
 date_added: 2026-08-30
 published_date: 1991
 date_source: page-meta
@@ -83739,7 +83664,7 @@ license: null
 tags: []
 ```
 
-Every teacher knows the special student who overcomes the hazards of a risk-filled environment—poverty, violence, drugs—to become a healthy, competent young adult. This research synthesis...
+Every teacher knows the special student who overcomes the hazards of a risk-filled environment—poverty, violence, drugs—to become a healthy, competent young adult. This research synthesis discusses how such resiliency can be fostered in school by looking beyond the deficits of a child’s life to capitalize on strengths.
 
 ---
 
@@ -98211,7 +98136,7 @@ authors: ["Fiore, Stephen", "Griffiths, Rebecca"]
 document_url: null
 doi: null
 license: null
-tags: [digital-promise, professional-development, sel]
+tags: [digital-promise, professional-development]
 ```
 
 Teamwork, not just technical expertise, determines whether interdisciplinary education research succeeds. The Learning Sciences have always been interdisciplinary, bringing together researchers, educators, and developers who hold different epistemologies, values, and standards of evidence. These differences often show up as teamwork problems that weaken trust, communication, and knowledge integration. This field note introduces the Science of Team Science (SciTS), a cross-disciplinary field that emerged in the early 2000s to develop evidence-based ways of improving scientific collaboration. Drawing on SciTS, the authors distinguish taskwork, the discipline-specific scientific activity of a team, from teamwork, the attitudes, behaviors, and cognition that make coordination possible. They note that most scientific training addresses taskwork alone. The note then describes core teamwork competencies in three areas. Knowledge-based competencies are transactive memory systems, shared mental models, and team metacognition. Skill-based competencies are active listening, performance monitoring, and shared leadership. Attitudinal competencies are psychological safety, trust, and cohesion. The authors argue that initiatives such as Accelerate, Transform, and Scale need professional development that builds both kinds of competence, so that diverse teams can achieve breakthrough discoveries and translate them into practice.
@@ -98236,7 +98161,7 @@ authors: ["Wegemer, Christopher", "Famaye, Tolulope", "El-Awar, Nadine", "Windha
 document_url: null
 doi: null
 license: null
-tags: [computer-assisted-learning, digital-promise, literacy]
+tags: [computer-assisted-learning, digital-promise]
 ```
 
 This workbook accompanies Digital Promise’s AI Interaction Routines professional learning sessions and helps educators integrate student-AI interactions into classroom instruction. Through a series of interactive exercises, educators explore how to design AI-mediated learning experiences that support student learning while cultivating AI literacy. Activities guide participants through identifying appropriate opportunities for AI use, developing instructional scaffolds, exploring eight AI Interaction Routines, using an AI coach to support lesson design, creating student thinking records to make learning processes visible, and embedding brief AI literacy moments into instruction. The workbook includes practical examples, reflection prompts, collaborative exercises, instructional design templates, and resources to support classroom implementation. A culminating lesson design activity helps educators apply these concepts to an existing learning activity.
@@ -98261,7 +98186,7 @@ authors: ["Wegemer, Christopher", "Windham, Savannah"]
 document_url: null
 doi: null
 license: null
-tags: [digital-promise, literacy, professional-development]
+tags: [digital-promise, professional-development]
 ```
 
 This resource presents AI Interaction Routines as a shareable set of cards intended to help teachers integrate AI into classroom learning activities while preserving students’ cognitive engagement, agency, and critical thinking. Each routine provides a flexible, repeatable sequence of steps that structures interactions among students, teachers, and AI. Co-designed with teachers and district leaders, the eight routines address distinct learning goals and opportunities for AI-supported instruction: Practice, Reflection, Feedback, Evaluation and Validation, Brainstorming, Learning Support, Dialogue, and AI as the Subject of Inquiry. Each routine card identifies appropriate instructional contexts, the cognitive processes to protect, suggested roles for AI, key teacher decisions, a sequence of learning activities, and observable indicators of student thinking and learning. Collectively, the routines support educators in designing scaffolded AI-mediated learning experiences that promote both disciplinary learning and AI literacy. The resource is intended as a practical instructional design tool that can be utilized in teacher professional development sessions and adapted to diverse student learning activities across grade levels, subject areas, and classroom contexts.
@@ -98286,7 +98211,7 @@ authors: ["Wegemer, Christopher", "Windham, Savannah", "Pattenhouse, Megan", "Mi
 document_url: null
 doi: null
 license: null
-tags: [digital-promise, literacy]
+tags: [digital-promise]
 ```
 
 This resource introduces AI Interaction Routines as a practical tool to help educators scaffold learning opportunities for students to productively engage with AI. AI Interaction Routines are short, repeatable sequences of actions that structure interactions among students, teachers, and AI to support disciplinary learning and AI literacy development. Five core components of AI Interaction Routines are outlined: (1) learning activity, (2) AI role, (3) routine steps, (4) student thinking record, and (5) AI literacy moments. Together, these components guide educators to structure classroom activities that protect students’ thinking, make their cognitive processes visible, and foster deeper understanding of AI. The routines are designed for flexible implementation across subjects, grade levels, and instructional settings.
@@ -98311,7 +98236,7 @@ authors: ["Griffiths, Rebecca", "Higgins, Erin"]
 document_url: null
 doi: null
 license: null
-tags: [digital-promise, formative-assessment]
+tags: [digital-promise]
 ```
 
 Education research and development (R&D) too rarely translates discoveries into classroom change, and traditional research cycles struggle to keep pace with urgent needs and rapid technological shifts such as generative AI. The Institute of Education Sciences' Accelerate, Transform, Scale (ATS) Initiative, modeled on DARPA's high-reward, responsible risk-taking approach, seeks to build a subfield of education R&D capable of producing breakthrough solutions to persistent challenges. To bring coherence to this work, we adapt the Bridgespan Group's (2009) "strong field" framework into five interlocking, measurable conditions: shared language and identity, essential practices, a knowledge base, leadership and ecosystem, and pathways to success. For each condition, we offer a definition specific to breakthrough-oriented education R&D and propose assessment approaches using methods such as network and bibliometric analyses, arguing that the process of measuring these conditions can lead to actionable insights. We identify pathways to success as the field's weakest condition, given decentralized procurement and a severe "valley of death" between pilot and scale. We present the framework as a starting point and invite the field to refine these indicators to guide investment in the infrastructure and capacity needed for breakthroughs.
@@ -98361,7 +98286,7 @@ authors: ["Cocuzza, Beth", "Noakes, Sierra", "Aso, Chioma", "Goldschmidt, Lisa",
 document_url: null
 doi: null
 license: null
-tags: [computer-assisted-learning, digital-promise, k-12, response-to-intervention]
+tags: [digital-promise, k-12, response-to-intervention]
 ```
 
 This report chronicles Skyline High School’s participation in a cross-district co-design initiative facilitated by Digital Promise, aimed at strengthening information-sharing and intervention workflows for ninth-grade students. Facing fragmented data, inconsistent system permissions, and disconnected tracking tools, Skyline developed practical, school-led solutions to strengthen communication and coordination among key support staff. These workflows demonstrate how strong human infrastructure can strengthen coordination and enable earlier intervention even when existing technology does not fully support educators’ needs, while surfacing broader challenges related to system configuration, governance, and ownership that school staff could not resolve alone. This case study offers a blueprint for leaders to move beyond reliance on individual workarounds, demonstrating how local innovation can illuminate systemic needs and how shared ownership among schools, districts, technology providers, and technical assistance partners can create more sustainable student success systems.
@@ -98436,7 +98361,7 @@ authors: ["Sarah Klevan", "Laura E. Hernández"]
 document_url: null
 doi: null
 license: null
-tags: [career-readiness, college-access, formative-assessment, k-12, lpi, sel]
+tags: [career-readiness, college-access, k-12, lpi, sel]
 ```
 
 The School of Business and Tourism is a Los Angeles high school redesigned as a community school using Linked Learning pathways, project-based learning, updated site roles, and a self-regulation space. Despite serving a higher-need population, the school outperformed the district on state assessments, offering a model for secondary school redesign.
@@ -98461,10 +98386,10 @@ authors: ["Alexandra Usher", "Shelby Mahaffie", "Jenny Nagaoka", "Dominique McKo
 document_url: null
 doi: null
 license: null
-tags: [college-access, computer-assisted-learning, math-education]
+tags: [college-access]
 ```
 
-This annual report looks closely at how CPS students are progressing on the path to and through high school and college. In particular, we examine three key milestones: high school graduation, college enrollment, and college completion, and track how rates on these milestones have changed across time. These rates are then used to calculate an updated Post-secondary Attainment Index (PAI) which represents the proportion of current CPS ninth-graders who would complete any degree or certificate from a two-year or four-year college within 10 years, if current rates of attainment were to hold constant over the next decade.Read this year’s interactive report and explore more of the data through the To&Through Project’s online data tool.
+This annual report looks closely at how CPS students are progressing on the path to and through high school and college. In particular, we examine three key milestones: high school graduation, college enrollment, and college completion, and track how rates on these milestones have changed across time. These rates are then used to calculate an updated Post-secondary Attainment Index (PAI) which represents the proportion of current CPS ninth-graders who would complete any degree or certificate from a two-year or four-year college within 10 years, if current rates of attainment were to hold constant over the next decade.
 
 ---
 
@@ -98615,5 +98540,785 @@ tags: [k-12]
 ```
 
 This WestEd brief examines early outcomes of California's Proposition 28 Arts and Music in Schools funding, based on what 203 staff members from county offices of education, districts and schools reported. Nearly two thirds of respondents reported increased student participation in arts education, and many said the funding let schools introduce, restore or expand arts programs, hire arts educators, improve access to materials and remove barriers to participation. Ongoing challenges include staffing capacity, accountability and funding administration. The brief concludes that sustained support and strategic planning will be essential to realizing the program's long-term promise.
+
+---
+
+---
+
+### 9065. Redefining learning: student-centered strategies for academic and personal growth
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1518602/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2025-02-21
+date_source: page-meta
+authors: ["Bhardwaj, Vipul", "Zhang, Shuwei", "Tan, Yan Qin", "Pandey, Vijay"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1518602/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [higher-ed]
+```
+
+As the landscape of higher education continues to evolve, institutions must adapt to meet the changing needs of prospective graduate students. This article explores the implications of student-centered strategies on the academic and personal growth of graduate science students. The traditional teacher-centered approach, while effective in conveying foundational knowledge, has been criticized for hindering the development of critical thinking, creativity, and problem-solving skills. In contrast, the student-centered approach shifts the focus to learners, encouraging active participation and fostering essential skills needed to address modern scientific challenges. The teaching concepts, “for the student,” “of the student,” and “by the student” emphasize inclusivity, peer collaboration, and encouraging students to take ownership of their education. A prime example of the success of this approach is the ‘’Molecular Basis of Cancer’’ course, which transitioned from a traditional teacher-centered model to a student-centered one. This shift has allowed students to engage more deeply with complex scientific concepts, fostering independent learning, peer-led discussions, and collaborative research. The results of this transition are evident not only in improved academic performance but also in significant scientific outputs, such as published research articles co-authored by students. By encouraging critical inquiry, creativity, and a professional attitude, the course enables graduate students to navigate real-world scientific challenges more effectively. This case study highlights the accomplishments of student-centered model while identifying areas for further improvement in teaching practices and curriculum design. It underscores the importance of student-centered teaching in shaping future scientific leaders by providing a more balanced, dynamic, and inclusive learning environment for graduate students in science-education. As education continues to evolve, blending traditional methods with student-centered approaches will be key to creating engaging and empowering educational experiences that meet the demands of both students and the ever-advancing fields of science and technology.
+
+---
+
+---
+
+### 9066. Educational practices in motion: a scoping review of embodied learning approaches in school
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1568744/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2025-05-08
+date_source: page-meta
+authors: ["Faella, Pierluigi", "Digennaro, Simone", "Iannaccone, Alice"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1568744/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [cognitive-science, inclusive-design, k-12]
+```
+
+IntroductionEmbodied learning integrates physical activity, cognition, and environmental interaction within educational practices, challenging traditional dichotomies between mind and body. In the context of physical education (PE), embodied approaches are particularly promising for fostering physical literacy, embodied identity, and interdisciplinary learning, thereby promoting more inclusive and holistic pedagogical models.MethodsA scoping review was conducted in accordance with the Joanna Briggs Institute guidelines and the PRISMA checklist. A systematic search across Web of Science, Scopus, and PubMed databases was performed from January to November 2024. Studies were included if they empirically explored embodied learning within school-based PE contexts. Twenty-one studies met the inclusion criteria and were analyzed thematically. The methodological quality of the studies was assessed using the Mixed Methods Appraisal Tool (MMAT).ResultsThree major thematic cores emerged: physical literacy, embodied identity, and multidisciplinarity. Embodied learning interventions consistently enhanced student motivation, body awareness, cognitive engagement, and interdisciplinary integration, particularly in STEM-related areas. Furthermore, several studies reported improvements in students’ self-perception, social competence, and critical engagement with body ideals. Despite these positive outcomes, limitations were noted, including cultural homogeneity of samples, age-related research gaps, and methodological inconsistencies across studies.DiscussionEmbodied learning holds substantial potential to enrich educational environments by bridging physical, cognitive, and emotional domains of student experience. It facilitates deeper engagement, inclusivity, and academic integration across disciplines. However, future research should focus on diversifying cultural contexts, including broader age ranges, and conducting longitudinal studies to explore the sustained impact of embodied learning interventions.
+
+---
+
+---
+
+### 9067. A systematic review on the impact of teacher professional development on digital instructional integration and teaching practices
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1541031/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2025-05-12
+date_source: page-meta
+authors: ["Amemasor, Stephen Kwashie", "Oppong, Stephen Opoku", "Ghansah, Benjamin", "Benuwa, Ben-Bright", "Essel, Daniel Danso"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1541031/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [computer-assisted-learning, professional-development]
+```
+
+This systematic review examines the influence of teacher professional development (TPD) programs on teachers’ attitudes toward digital instructional integration (DII). By analyzing 23 peer-reviewed studies published between 2020 and 2024, this study explores the key components of effective TPD programs and their impact on digital instructional practices. The review follows the PRISMA framework, detailing a structured selection process, including database searches, inclusion and exclusion criteria, and a rigorous qualitative synthesis of findings. Results indicate that effective TPD programs share key characteristics, including collaborative learning environments, hands-on digital training, ongoing mentorship, and institutional support. These elements foster positive shifts in teachers’ attitudes, confidence, and competencies regarding DII. The study highlights the need for sustained and context-specific professional development initiatives beyond one-time training sessions to ensure meaningful and long-term integration of digital tools in education. This review contributes to the field by providing evidence-based insights into designing and implementing impactful TPD programs. Its findings inform policymakers, educators, and professional development providers on structuring TPD to maximize digital instructional integration. Future research should explore the longitudinal impacts of TPD on teaching efficacy and student outcomes in technology-enhanced learning environments.
+
+---
+
+---
+
+### 9068. ChatGPT usage and attitudes are driven by perceptions of usefulness, ease of use, risks, and psycho-social impact: a study among university students in the UAE
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1414758/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2024-08-07
+date_source: page-meta
+authors: ["Sallam, Malik", "Elsayed, Walid", "Al-Shorbagy, Muhammad", "Barakat, Muna", "El Khatib, Sami", "Ghach, Wissam", "Alwan, Nisreen", "Hallit, Souheil", "Malaeb, Diana"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1414758/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [genai, higher-ed]
+```
+
+Background: The use of ChatGPT among university students has gained a recent popularity. The current study aimed to assess the factors driving the attitude and usage of ChatGPT as an example of generative artificial intelligence (genAI) among university students in the United Arab Emirates (UAE). Methods: This cross-sectional study was based on a previously validated Technology Acceptance Model (TAM)-based survey instrument termed TAME-ChatGPT. The self-administered e-survey was distributed by emails for students enrolled in UAE universities during September–December 2023 using a convenience-based approach. Assessment of the demographic and academic variables, and the TAME-ChatGPT constructs’ roles in ChatGPT attitude and usage was conducted using univariate followed by multivariate analyses. Results: The final study sample comprised 608 participants, 91.0% of whom heard of ChatGPT while 85.4% used ChatGPT before the study. Univariate analysis indicated that a positive attitude to ChatGPT was associated with the three TAME-ChatGPT attitude constructs namely, lower perceived risks, lower anxiety, and higher scores on the attitude to technology/social influence. For the ChatGPT usage, univariate analysis indicated that positive attitude to ChatGPT use was associated with being male, Arab in nationality, and lower point grade average (GPA) as well as the four ChatGPT usage constructs namely, higher perceived usefulness, lower perceived risks of use, higher scores on the behavior/cognitive construct and higher scores on the ease-of-use construct. In multivariate analysis, only TAME-ChatGPT constructs explained the variance in attitude towards ChatGPT (80.8%) and its usage (76.9%). Conclusions: The findings indicated that ChatGPT usage is commonplace among university students in the UAE. The determinants of use included the perceived usefulness, lower perceived risks, cognitive and behavioral factors, perceived ease of use, while the attitude was determined by lower perceived risks, lower anxiety, and higher scores for attitude to technology/social influence. These factors should be considered for understanding the motivators for successful adoption of genAI including ChatGPT in higher education.
+
+---
+
+---
+
+### 9069. Impact of the COVID-19 pandemic on online learning in higher education: a bibliometric analysis
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1225834/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2023-08-03
+date_source: page-meta
+authors: ["Aristovnik, Aleksander", "Karampelas, Konstantinos", "Umek, Lan", "Ravšelj, Dejan"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1225834/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [digital-learning-platforms, higher-ed]
+```
+
+The outbreak of the COVID-19 pandemic significantly disrupted higher education by forcing the transition to online learning, which became a mandatory teaching process during the lockdowns. Although the epidemiological situation has gradually improved since then, online learning is becoming ever more popular as it provides new learning opportunities. Therefore, the paper aims to present recent research trends concerning online learning in higher education during the COVID-19 pandemic by using selected bibliometric approaches. The bibliometric analysis is based on 8,303 documents from the Scopus database published between January 2020 and March 2022, when repeated lockdowns meant most countries were experiencing constant disruptions to the educational process. The results show that the COVID-19 pandemic increased interest in online learning research, notably in English-speaking and Asian countries, with most research being published in open-access scientific journals. Moreover, the topics most frequently discussed in the online learning research during the COVID-19 pandemic were ICT and pedagogy, technology-enhanced education, mental health and well-being, student experience and curriculum and professional development. Finally, the COVID-19 pandemic encouraged explorations of emergency remote learning approaches like e-learning, distance learning and virtual learning, which are intended to limit physical contact between teachers and students, where the specific requirements of a given field of study often guide which online learning approach is the most suitable. The findings add to the existing body of scientific knowledge and support the evidence-based policymaking needed to ensure sustainable higher education in the future.
+
+---
+
+---
+
+### 9070. Distance Learning in Higher Education During Covid-19
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.822958/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2022-03-03
+date_source: page-meta
+authors: ["Masalimova, Alfiya R", "Khvatova, Maria A", "Chikileva, Lyudmila S", "Zvyagintseva, Elena P", "Stepanova, Valentina V", "Melnik, Mariya V"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.822958/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [digital-learning-platforms, higher-ed]
+```
+
+The mini-review aims to ascertain students' attitudes about distant learning during COVID-19. To accomplish the objective, articles were retrieved from the ERIC database. We utilize the search phrases "Distance learning" AND "University" AND "COVID" We compiled a list of 139 articles. We chose papers with "full text" and "peer reviewed only" sections. Following the exclusion, 58 articles persisted. Then, using content analysis, publications relating to students' perspectives on distance learning were identified. There were 27 articles in the final list. Students' perspectives on distant education are classified into four categories: perception and attitudes, advantages of distance learning, disadvantages of distance learning, and challenges for distance learning. In all studies, due of pandemic constraints, online data gathering methods were selected. Surveys and questionnaires were utilized as data collection tools. When students are asked to compare face-to-face and online learning techniques, they assert that online learning has the potential to compensate for any limitations caused by pandemic conditions. Students' perspectives and degrees of satisfaction range widely, from good to negative. Distance learning is advantageous since it allows for learning at any time and from any location. Distance education benefits both accomplishment and learning. Staying at home is safer and less stressful for students during pandemics. Distance education contributes to a variety of physical and psychological health concerns, including fear, anxiety, stress, and attention problems.
+
+---
+
+---
+
+### 9071. The Positive Influence of Inquiry-Based Learning Teacher Professional Learning and Industry Partnerships on Student Engagement With STEM
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.693221/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-08-16
+date_source: page-meta
+authors: ["Attard, Catherine", "Berger, Nathan", "Mackenzie, Erin"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.693221/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [k-12, professional-development]
+```
+
+School teachers in science, technology, engineering and mathematics (STEM) face challenges in developing and maintaining high levels of student engagement and achievement in those disciplines. Consequently, declining numbers of students are electing these subjects beyond the compulsory years of schooling. A major factor in student engagement often is curriculum content being relevant to the lives of students outside the classroom. Two key ways teachers can enhance the real-world relevance of their lessons are inquiry-based learning and localizing the curriculum to provide an authentic context for teaching and learning. In this paper, we report a qualitative multiple case study into the perceived influences of inquiry-based learning on student engagement, as facilitated through teacher professional learning in the context of two major infrastructure programs in Sydney, Australia. Semi-structured interviews and focus groups were conducted with primary and secondary teachers who participated in professional learning about inquiry-based pedagogies, as well as with their students who undertook inquiry-based learning projects based on the infrastructure programs in their local community. Inductive and deductive content analyses using Attard’s Framework for Engagement with STEM illustrated how the combination of teacher professional learning, student inquiry-based learning, and localised industry-school partnerships enhanced student engagement across operative, cognitive, and affective domains. Another significant finding was the extent to which professional learning as the vehicle for inquiry-based learning and industry connections enhanced teachers’ pedagogical relationships and pedagogical repertoires in ways not possible with more conventional approaches to industry-school partnerships.
+
+---
+
+---
+
+### 9072. Impact of teaching quality on student achievement: student evidence
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1367317/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2024-07-24
+date_source: page-meta
+authors: ["Engida, Mengistu Anagaw", "Iyasu, Ashagrie Sharew", "Fentie, Yalemwork Mossu"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1367317/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [k-12, math-education]
+```
+
+Studies indicate that students who have access to highly qualified teachers achieve at a higher rate, regardless of other factors though the essence of quality teaching and teacher quality has not been adequately established. Nonetheless, three strands of teaching quality research focusing on observations via professional standards, value-added measures and student evaluations have been underway with recent developments favoring integrations. This study explores how the quality of mathematics and English language teachers is associated with students' achievement using a professional standard observation tool for student evaluation. A representative multistage sample of students and teachers selected from high schools in the East Gojjam Administrative Zone participated in the study. Using the domains in the Framework for Teaching (FfT) (Danielson, 2014)as indicators of teaching quality, the study identified the indicators that are associated with the academic achievement of students in mathematics and English subjects. Multiple linear regression analysis was used to study the relationships between the independent variables (teachers' quality indicators) and the dependent variable (students' grade 10 exam scores). Of the four domains of FfT, the delivery of instruction revealed a positive and significant association (sig= 016) with students' scores in the English language. The delivery of instruction encompasses communicating with students, using questioning and discussion techniques, and demonstrating flexibility and responsiveness, which are positively associated with students' scores in the English language. Conversely, managing classroom procedures was the only subdomain associated (sig=014) with an increase in students' mathematics scores. Accordingly, suggestions are made for research and practice.
+
+---
+
+---
+
+### 9073. Advantages and challenges of using digital technologies in mathematical modelling education – a descriptive systematic literature review
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1142556/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2023-04-11
+date_source: page-meta
+authors: ["Cevikbas, Mustafa", "Greefrath, Gilbert", "Siller, Hans-Stefan"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1142556/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [computer-assisted-learning, math-education]
+```
+
+Mathematical modelling is essential for teaching and learning of mathematics aimed at improving students’ competence in solving real-world problems with mathematical means. Innovative technology-rich approaches can provide new paradigms for mathematical modelling education, which may produce new opportunities for the learning and teaching of mathematical modelling. On the other hand, there may be a few challenges to the successful use of technology in modelling. Although several studies have focused on the use of digital technologies in modelling education, there is a lack of research on the educational potential of digital technologies in mathematical modelling. To close this research gap, we decided to conduct a descriptive systematic literature review on the advantages and challenges of using digital technologies for learners and instructors in mathematical modelling. The literature on mathematical modelling education was searched via three recognized databases. Literature search revealed 38 papers that were eligible for analysis. Based on empirical evidence, this paper describes the educational opportunities offered by digital technologies (e.g., academic, emotional/psychological, cognitive, social, and instructional/pedagogical enhancements) and challenges to their effectiveness (e.g., learners’ and instructors’ lack of competence or experience in using technology and "black-box" threats). The results of the study reveal that the advantages of the use of digital technologies in the modelling process outweigh the emerging challenges, which is a promising result discussed in detail.
+
+---
+
+---
+
+### 9074. Practical work in science education: a systematic literature review
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1151641/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2023-05-25
+date_source: page-meta
+authors: ["Oliveira, Hugo", "Bonito, Jorge"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1151641/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [k-12]
+```
+
+Practical work has taken a leading role in science teaching, particularly since the 1960s. 16 Its goals are mainly oriented towards the development of sensitivity and taste for the 17 study of physical and natural phenomena, bringing students closer to the daily reality 18 experienced by researchers working in these areas of knowledge, while promoting 19 educational success. However, these purposes have not always been achieved so, over 20 time, limitations to the way that practical work has been developed have also been 21 identified. In order to recognize the current state of the art on the development of the 22 practical work in the teaching of sciences, a systematic literature review was designed, 23 especially focused on the definition of the concept of practical work, its advantages, 24 evaluation methodologies, and the criticism/limitations attributed to its implementation. 25 To this end, four databases and one aggregator were used, to identify 53 international 26 scientific publications. Analysis of this corpus allowed the identification of 8 categories 27 associated to the concept of practical work, 5 categories associated to its advantages, 6 28 categories with the types/methodologies of evaluation and 5 categories associated with 29 the limitations of this methodology. (From this analysis) it is concluded that most 30 authors considers that the main idea integrative idea of the concept of practical work 31 should be the manipulation of materials in practical activities (hands-on style), and the 32 main advantage of this methodology comes from the fusion between the development of 33 practical skills and the conceptual understanding (minds-on). In the evaluation methods, 34 the context, procedures and specific instruments are favored and the main limitation 35 pointed to this methodology is that the way practical work is implemented, is often not 36 in agreement with the methods and techniques used by scientists and researchers.
+
+---
+
+---
+
+### 9075. The critical thinking-oriented adaptations of problem-based learning models: a systematic review
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1139987/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2023-05-24
+date_source: page-meta
+authors: ["Yu, Ling", "Zin, Zuhana Mohamed"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1139987/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [higher-ed]
+```
+
+Critical thinking is a significant 21st-century skill that is prioritized by higher education. Problem-based learning is becoming widely accepted as an effective way to enhance critical thinking. However, as the results of studies that use PBL to develop CT have had mixed success, PBL models need to be modified to guarantee positive outcomes. This study is a systematic review that analyzed how studies have adapted Problem-Based Learning (PBL) to become more Critical Thinking (CT)-oriented, evaluated the effectiveness of these adaptations, and determined why certain adaptations were successful. The review was conducted in accordance with PRISMA(Preferred Reporting Items for Systematic Reviews and Meta-Analyses) by searching the scientific databases Scopus and Web of Science. Twenty journal articles were chosen based on their adherence to the inclusion criteria established by PICo (Population, Phenomenon of Interest, and Context). In these studies, PBL adaptations were categorized into five classifications, with activities centred on CT development being the most prevalent approach. Researchers utilized a variety of analytical methodologies to assess the effectiveness of these adaptations and derive significant insights and formulate valid conclusions. An analysis of all selected studies revealed positive outcomes, indicating that incorporating CT elements into PBL was effective in enhancing students’ CT. These findings were categorized into nine factors that contribute to the successful adaptation of PBL to be CT-oriented.
+
+---
+
+---
+
+### 9076. Conceptualizing and measuring instructional quality in mathematics education: A systematic literature review
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.994739/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2022-10-25
+date_source: page-meta
+authors: ["Mu, Jin", "Bayrak, Aslihan", "Ufer, Stefan"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.994739/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [k-12, math-education]
+```
+
+Conceptualizing and measuring instructional quality is important to understand what can be understood as “good teaching” and develop approaches to improve instruction. There is a consensus in teaching effectiveness research that instructional quality should be considered multidimensional with at least three basic dimensions rather than a unitary construct: student support, cognitive activation, and classroom management. Many studies have used this or similar frameworks as a foundation for empirical research. The purpose of this paper is to investigate the relation between the conceptual indicators underlying the conceptual definitions of the quality dimensions in the literature, and the various operational indicators used to operationalize these factors in empirical studies. We examined (a) which conceptual indicators are used to conceptualize the basic dimensions theoretically, (b) to which extent the operational indicator in the literature cover these conceptual indicators, and (c) if which additional indicators are addressed by the measurement instruments, which are not part of the theoretical conceptualization. We conducted a systematic literature review on the conceptualization and operationalization of Instructional Quality in Primary and Secondary Mathematics Education based on PRISMA procedures. We describe the span of conceptual indicators connected to the three basic dimensions over all articles (a) and analyze to which extent the measurement instruments are in line with these conceptual indicators (b, c). For each measurement dimension, the identified quality dimensions identified are, taken together, largely representative of the conceptual indicators connected to the core factor, but also a number of critical misconceptions occurred. Our review provides a comprehensive overview of the three basic dimensions of instructional quality in mathematics based on theoretical conceptualizations and measurement instruments in the literature. Beyond this, we observed that the descriptions of a substantial amount of quality dimensions and their conceptualizations did not clearly specify if the intended measurement referred to the learning opportunities orchestrated by the teacher, or the utilization of these opportunities by students. It remains a challenge to differentiate measures of instructional quality (as orchestrated by the teacher) from (perceived) teacher competencies/knowledge, and students’ reactions to the instruction. Recommendations are made for measurement practice, as well as directions for future research.
+
+---
+
+---
+
+### 9077. The Research Competence: Acquisition and Development Among Undergraduates in Education Sciences
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.836165/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2022-05-18
+date_source: page-meta
+authors: ["Ciraso-Calí, Anna", "Martínez-Fernández, J. Reinaldo", "París-Mañas, Georgina", "Sánchez-Martí, Angelina", "García-Ravidá, Laura B"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.836165/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [higher-ed]
+```
+
+Called as one of the competences of the 21st century, research competence should help students navigate through the complexities of a continuously shifting world. The aim of this study is to analyse the acquisition and development of the research competence in a sample of 154 undergraduate students of two bachelor’s degrees of Education Sciences (Social Education and Pedagogy) at the Universitat Autònoma de Barcelona (Spain). We conducted a three-phase study, in which 1) the learning outcomes related to research competences declared in the syllabi were identified and mapped, through content analysis; 2) students’ perceptions about the development of these learning outcomes were gathered through a questionnaire; and 3) guidelines to foster research competences among these undergraduates were explored, through Delphi panel technique. The results show that communicative skills and state-of-art reviewing skills are the least present across the different courses of both degrees. In addition, the design of research competency acquisition across courses is uneven and does not seem clearly articulated. The students’ perception is consistent with the shortcomings -or disarticulation- observed in the curriculum analysis. They consider that the most poorly acquired competencies are the state-of-the-art reviewing, content knowledge and communicative skills. It seems that more emphasis is given to reflective thinking and communicative skills; but it appears necessary to strengthen the acquisition of scientific content, the search for trustworthy information. These results were discussed in two panels of experts and certain guidelines have been defined to improve the acquisition, development, and evaluation of the research competence through university training in Education Sciences.
+
+---
+
+---
+
+### 9078. “Fake News” or Real Science? Critical Thinking to Assess Information on COVID-19
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.646909/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-05-03
+date_source: page-meta
+authors: ["Puig, Blanca", "Blanco-Anaya, Paloma", "Pérez-Maceira, Jorge J"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.646909/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [k-12, qualitative-research]
+```
+
+Few people question the important role of critical thinking for students becoming active citizens, however the way science is taught in schools continues to be more oriented towards ‘what to think’ rather to ‘how to think’. Researchers understand critical thinking as a tool and a higher order thinking skill necessary for being an active citizen when dealing with socio-scientific information and making decisions that affect human life, as the pandemic of COVID-19 manifests. The outbreak of COVID-19 has been accompanied by what the World Health Organization (WHO) has described as a “massive infodemic”. Fake news regarding the disease were spread through the social media creating confusion and disinformation. This paper reports on an empirical study carried out during the lockdown in Spain (March-May 2020) with a group of secondary students (N=20) engaged in diverse online activities that required them to practice critical thinking and argumentation for dealing with coronavirus information and disinformation. The main goal is to examine students' competence to engage in argumentation as critical assessment in this context. Discourse analysis allows exploring the arguments and criteria appealed by students to assess COVID-19 news headlines. The results show that participants were capable to identify true and false headlines and assess the credibility of headlines appealing to different criteria; although most arguments were coded as basic epistemic level of assessment and only a few in the high level appealing to the criterion of scientific procedure when assessing the news headlines.
+
+---
+
+---
+
+### 9079. Impact of gamification on school engagement: a systematic review
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1466926/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2024-12-06
+date_source: page-meta
+authors: ["Ruiz, Judy Julieth Ramírez", "Sanchez, Ana Dolores Vargas", "Figueredo, Oscar Rafael Boude"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1466926/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [k-12]
+```
+
+School engagement is defined as students’ dedication to activities empirically linked to desired outcomes. This concept encompasses all dimensions of being: academic, emotional, and behavioral. Gamification is presented as an innovative strategy in the field of education because using game design elements can engage students in the learning process. This systematic review sought to analyze the development of research in the academic literature on gamification as a strategy to favor school engagement in primary and secondary education, conducted between 2013 and 2023. A total of n = 90 interventions that met the inclusion criteria were identified using the PRISMA methodology guidelines. The results show that there is a need to evaluate school engagement from a broader perspective when using the gamification strategy and to identify other elements that are necessary to achieve the proposed objectives in the teaching and learning process. Findings also demonstrate that it is important to consider a more holistic view that includes not only motivation and participation, but also other factors and dimensions of school engagement.
+
+---
+
+---
+
+### 9080. Insights on mapping Industry 4.0 and Education 4.0
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1150190/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2023-04-20
+date_source: page-meta
+authors: ["Chakraborty, Sourojeet", "Gonzalez-Triana, Yris", "Mendoza, Jorge", "Galatro, Daniela"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1150190/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [career-readiness, higher-ed]
+```
+
+The fourth industrial revolution, or Industry 4.0 (I.D. 4.0), has radically empowered professionals to revamp skills and technologies, to match ever-evolving industry demands. Education 4.0 (E.D. 4.0) is an integral education framework, strategically designed to align with I.D. 4.0 needs. The present work presents high-level insights on mapping I.D. 4.0 to E.D. 4.0, by successfully analyzing the four key existing components of E.D. 4.0, namely, learning methods, competencies, infrastructure and information and communication technologies (ICT). Research questions are formulated along themes aiming to standardize the E.D. 4.0 framework and identify effectiveness and implementation challenges. These posed questions are addressed by performing an exhaustive bibliometric analysis on the associated literature, by clustering relevant publications by field, year, and geography. Our results demonstrate a lack of any currently existent, standardized, and universally accepted framework for mapping I.D. 4.0 to E.D. 4.0, despite trends showing a sharp rise towards incorporating E.D. 4.0 initiatives recently into university curricula. Our analysis procedure can serve as a protocol to define E.D. 4.0 in a more specific context, in an ever-changing global workspace. While unbalanced implementation attempts on how extensively E.D. 4.0 components have been defined and adopted (including discrepancies in implementation policies among countries, and across disciplines), further rigorous assessments are needed to critically assess the necessary requirements and effectiveness, for standardization and implementation a global mapping framework.
+
+---
+
+---
+
+### 9081. Competencies for Advancing Transformations Towards Sustainability
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.785163/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-11-30
+date_source: page-meta
+authors: ["Redman, Aaron", "Wiek, Arnim"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.785163/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [higher-ed]
+```
+
+Advancing transformations towards sustainability calls for change agents equipped with a new set of competencies. Such sustainability competencies have been articulated with multiplicity and ambiguity, which is counterproductive to joint and accelerated progress. A unified framework of sustainability learning objectives would provide guidance to students, educators, and administrators of sustainability programs. To this end, we carried out a systematic review of the relevant literature. After scanning thousands of publications, we identified over 270 peer-reviewed articles of highest relevance, spanning two decades. Despite appearance otherwise, we found that there is a high level of agreement among scholars over the sustainability competencies that students should be trained in. Expanding on the five key competencies, namely, systems-thinking, anticipatory, normative, strategic, and interpersonal competence, that have gained widespread use, this article synthesizes the new suggestions made over the past decade into a unified framework. It centers on 8 key competencies in sustainability (the 5 established and 3 emerging—intrapersonal, implementation, and integration competence), which are complemented by separate disciplinary, general, and other professional competencies. This comprehensive framework of key competencies in sustainability is applicable across disciplines and can guide faculty, students, and practitioners in their joint efforts to advance transformations towards sustainability.
+
+---
+
+---
+
+### 9082. Academic Integrity in Online Assessment: A Research Review
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.639814/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-07-14
+date_source: page-meta
+authors: ["Holden, Olivia L", "Norris, Meghan E", "Kuhlmeier, Valerie A"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.639814/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [higher-ed]
+```
+
+This paper provides a review of current research on academic integrity in higher education, with a focus on its application to assessment practices in online courses. Understanding the types and causes of academic dishonesty can inform the suite of methods that might be used to most effectively promote academic integrity. Thus, the paper first addresses the question of why students engage in academically dishonest behaviours. Then, a review of current methods to reduce academically dishonest behaviours is presented. Acknowledging the increasing use of online courses within the postsecondary curriculum, it is our hope that this review will aid instructors and administrators in their decision-making process regarding online evaluations and encourage future study that will form the foundation of evidence-based practices.
+
+---
+
+---
+
+### 9083. Teaching and Learning Continuity Amid and Beyond the Pandemic
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.678692/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-07-23
+date_source: page-meta
+authors: ["Dayagbil, Filomena T", "Palompon, Daisy R", "Garcia, Laurence L", "Olvido, Michelle Mae J"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.678692/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [digital-learning-platforms, higher-ed]
+```
+
+The study explored the challenges and issues in teaching and learning continuity of public higher education in the Philippines as a result of the COVID-19 pandemic. The study employed the exploratory mixed-method triangulation design and analyzed the data gathered from 3, 989 respondents composed of students and faculty members. It was found out that during school lockdowns, the teachers made adjustments in teaching and learning designs guided by the policies implemented by the institution. Most of the students had difficulty complying with the learning activities and requirements due to limited or no internet connectivity. Emerging themes were identified from the qualitative responses to include the trajectory for flexible learning delivery, the role of technology, the teaching and learning environment, and the prioritization of safety and security. Scenario analysis provided the contextual basis for strategic actions amid and beyond the pandemic. To ensure teaching and learning continuity, it is concluded that higher education institutions have to migrate to flexible teaching and learning modality recalibrate the curriculum, capacitate the faculty, upgrade the infrastructure, implement a strategic plan and assess all aspects of the plan.
+
+---
+
+---
+
+### 9084. Service-Learning in Europe. Dimensions and Understanding From Academic Publication
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.604825/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-03-12
+date_source: page-meta
+authors: ["Sotelino-Losada, Alexandre", "Arbués-Radigales, Elena", "García-Docampo, Laura", "González-Geraldo, José L"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.604825/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [higher-ed]
+```
+
+Service-Learning began within the framework of the New School in which constructivist experiential methodologies were particularly important following various studies, such as those by John Dewey and his “Learning by Doing” approach. From then on, this pedagogical practice has spread all over the world at varying rates. In Europe it was slower to spread than in the Americas, however it has been no less productive. In this regard it is especially interesting to look at the current state of the matter. The object of this study was to analyze the scientific publication in Europe since the year 2000 with a detailed bibliographic review of publications with roots in Europe. We examined the main databases and used an analysis matrix with various content levels. We found that Service-Learning has different names in Europe, and that there has been uneven epistemological advances depending on the countries examined. We also noted that it was about higher education that most literature had been published. One of our significant conclusions was the exponential growth of contributions over the last 20 years, particularly in Spain, which produced the most scientific literature on this topic. We believe that Service-Learning faces the challenge of effective consolidation based on educational quality criteria, and which includes combining elements of virtuality, reality, and academic rigor.
+
+---
+
+---
+
+### 9085. Progress in English Language Teaching Through Continuous Professional Development—Teachers’ Self-Awareness, Perception, and Feedback
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.757285/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-11-19
+date_source: page-meta
+authors: ["Vadivel, Balachandran", "Namaziandost, Ehsan", "Saeedian, Abdulbaset"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.757285/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [english-learners, professional-development]
+```
+
+This research aimed to investigate the various aspects of ESL teachers' professional development through Continuous Professional Development (CPD). Hence a study involving 83 ESL teachers from different socio-economic, multi-cultural, educational and disciplinary backgrounds was conducted to ascertain their attitudes, perceptions, and feedback on CPD. The sample population was random, and the data collection was through a questionnaire. The results showed that teachers take charge of their CPD, but for better outcomes, they need professional development through shared experience, reflective teaching, and have a sense of community among them to stay at par with the global standards of the education system. Through this research, the concept of CPD and its significance in teaching English are made available. This study also proposes higher achievement in education through teacher professional development programmes. Moreover, the analysis demonstrated that teachers are confident in what they do because of their positive belief in their own CPD. From the results, it was clear that every ESL teacher should take charge of their professional development to become better teachers and help students achieve their goals.
+
+---
+
+---
+
+### 9086. Generative AI use in K-12 education: a systematic review
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647573/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2025-09-23
+date_source: page-meta
+authors: ["Alfarwan, Abdullah"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647573/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [genai, k-12]
+```
+
+As generative artificial intelligence (GenAI) continues to generate interest and impact all levels of the educational system, including K-12, it is essential to understand how GenAI has been utilized at the K-12 level. This study explored the literature to understand what GenAI has been used for in K-12 and the reported impacts of its use. By investigating two prominent databases, Scopus and Web of Science, and employing snowballing techniques, this study included 30 papers after a rigorous search and applying inclusion and exclusion criteria. The findings indicate that most existing works focused on high school and preservice teachers. Researchers have explored various subject domains or areas of interest where GenAI has been used, with a significant focus on STEM-related subjects. The quasi-experimental approach emerged as the most commonly used design technique for implementing GenAI ideas in the classroom. Psychological variables were the primary measures used to gauge learning outcomes. This study further aggregates recommendations from prior works and suggests areas for future research. This paper contributes to efforts in creating frameworks and building resources needed to realize the full potential of GenAI in shaping the educational landscape, especially within the school system.
+
+---
+
+---
+
+### 9087. Game-Based Learning experiences in primary mathematics education
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1331312/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2024-03-08
+date_source: page-meta
+authors: ["Debrenti, Edith"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1331312/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [computer-assisted-learning, k-12, math-education]
+```
+
+Using game-based learning (GBL), especially digital game-based learning (DGBL), as a teaching and learning environment can be a pedagogical resource and a good strategy in the classroom to support mathematical learning. Effective manipulatives and games play a crucial role in promoting mathematical understanding. They support students in building, reinforcing and connecting varied representations of mathematical concepts. High-quality games are particularly valuable for learners as they provide them with control and adaptability. These games have properties that are adapted to cognitive and mathematical structures, facilitating the development of connections between different pieces and forms of knowledge. Digital games can help to achieve the same effects. In this paper, we conduct a quasi-experiment using games developed for this purpose. Our aim is to investigate whether non-digital games versus digital games yield different results. Our results indicate that while students enjoyed themselves and found the task-solving enjoyable during both types of game-based learning, the use of non-digital games versus digital games can sometimes lead to different outcomes. Our results confirmed that game-based learning in general can contribute to a more successful mathematical learning.
+
+---
+
+---
+
+### 9088. Synthetic biology education and pedagogy: a review of evolving practices in a growing discipline
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1441720/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2024-10-07
+date_source: page-meta
+authors: ["Menard, Jyler", "Diep, Patrick", "Sheikh, Fatima", "Escobar, Andres", "Dykstra, Christien B", "Sajtovich, Victoria A", "Ahmadi, Atiyeh", "Bodyreva, Elena", "Boucinha, Austin", "Chandrasekharan, Saranya", "Duan, Jin", "Emond, Christian", "Lu, Tianyu", "McLean, Ian", "Morse, Lauren", "Serra, Danielle", "Stancescu, Albert", "Suresh, Smriti", "Ingalls, Brian P"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1441720/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: []
+```
+
+Synthetic biology is a growing field with an increasing number of successful applications. Yet, synthetic biology (SynBio) education initiatives are underreported and disconnected from each other. In this review we survey the literature on SynBio education and stratify this body of work into three categories: classroom activities, course designs, and program-level curricula-planning. For each category, we discuss the methods used to assess students' experiences and achievement of learning objectives. Throughout, we identify trends and opportunities for further development in SynBio education. We determined that the design of low-cost education kits is a growing opportunity to support student learning at the level of classroom activities. In support of that work, we present a mapping of published education kits onto Bloom's taxonomy, taking into account increasing accumulation of knowledge through continued experience. We further found that project-based learning is used widely and has proven effective in course designs. To facilitate such activities, we provide a high-level guide for the conversion of a didactic course into a project-based learning course. Further, we note that, currently, programs are delivered primarily at the graduate level, taking inspiration from traditional degree programs while incorporating interdisciplinary training. Finally, we find that design-based research may provide an effective framework for an iterative, mixed-method study design. To support such efforts, we provide a schematic overview of design-based research and its application to a learning progression for interdisciplinary skills. We conclude with a discussion of specific learning concepts that may be useful to SynBio educators and education researchers.
+
+---
+
+---
+
+### 9089. Strengthening the STEM pipeline: impact of project-based synthetic biology program on high school students’ science identity and competency
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1493356/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2025-02-14
+date_source: page-meta
+authors: ["Mims, Pamela J", "Lee, Lindsay E", "Kuldell, Natalie", "Franklin, Chloe"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1493356/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [k-12]
+```
+
+This study investigates the impact of a project-based science education intervention, BioBuilderClub, on high school students’ science identity, self-beliefs, and content knowledge in synthetic biology. Addressing the critical “leaky pipeline” issue in biotechnology education, this intervention focused on fostering scientific engagement and competency through hands-on, interdisciplinary projects. Using descriptive and correlational statistics (i.e., paired t-tests, residual change regression), we found that the project-based intervention resulted in significant improvements in students’ self-perceived scientific engagement, competency, and content knowledge regardless of gender, locale, and first generation status. Across expert raters, we also found an improvement in the understanding of synthetic biology and students reported an increased interest in biotechnology and related fields. These findings underscore the potential of project-based learning to enhance STEM retention by building strong science identities, particularly among underrepresented groups. Future research should explore the long-term impacts of such interventions and their integration into standard curricula to further bolster the biotechnology pipeline.
+
+---
+
+---
+
+### 9090. The impact of ChatGPT on higher education
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1206936/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2023-09-08
+date_source: page-meta
+authors: ["Dempere, Juan", "Modugu, Kennedy", "Hesham, Allam", "Ramasamy, Lakshmana Kumar"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1206936/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [genai, higher-ed]
+```
+
+This study explores the effects of Artificial Intelligence (AI) chatbots, notably OpenAI's ChatGPT, on Higher Education Institutions (HEIs), employing a scoping review to determine trends and research gaps. The paper highlights ChatGPT's transformative architecture and versatile applications. The literature review presents diverse perspectives on ChatGPT's educational potential, with benefits like research support, automated grading, and enhanced human-computer interaction. Simultaneously, concerns arise about misuse, including online testing security and plagiarism. The research also examines the chatbots' broader societal and economic impacts, from job displacement to the digital literacy gap and AI-induced anxiety. It acknowledges AI's global expansion and the need for balanced regulation. Faculty members are urged to use AI tools proactively and ethically, to prevent academic fraud. The paper discusses potential advantages such as streamlined enrollment, improved student services, teaching enhancements, research aid, increased student retention, and risks, including privacy breaches, misuse, bias, misinformation, decreased human interaction, and accessibility issues. Despite its limitations, such as an incomplete representation of AI's effects on education and lack of concrete integration guidelines, the study concludes that AI technologies like ChatGPT offer significant benefits and risks, advocating for thoughtful, responsible integration within HEIs.
+
+---
+
+---
+
+### 9091. Mathematical Problem-Solving Through Cooperative Learning—The Importance of Peer Acceptance and Friendships
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.710296/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-08-24
+date_source: page-meta
+authors: ["Klang, Nina", "Karlsson, Natalia", "Kilborn, Wiggo", "Eriksson, Pia", "Karlberg, Martin"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.710296/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [k-12, math-education, student-belonging]
+```
+
+Mathematical problem-solving constitutes an important area of mathematics instruction, and there is a need for research on instructional approaches supporting student learning in this area. This study aims to contribute to previous research by studying the effects of an instructional approach of cooperative learning on students’ mathematical problem-solving in heterogeneous classrooms in grade five, in which students with special needs are educated alongside with their peers. The intervention combined a cooperative learning approach with instruction in problem-solving strategies including mathematical models of multiplication/division, proportionality, and geometry. The teachers in the experimental group received training in cooperative learning and mathematical problem-solving, and implemented the intervention for 15 weeks. The teachers in the control group received training in mathematical problem-solving and provided instruction as they would usually. Students (269 in the intervention and 312 in the control group) participated in tests of mathematical problem-solving in the areas of multiplication/division, proportionality, and geometry before and after the intervention. The results revealed significant effects of the intervention on student performance in overall problem-solving and problem-solving in geometry. The students who received higher scores on social acceptance and friendships for the pre-test also received higher scores on the selected tests of mathematical problem-solving. Thus, the cooperative learning approach may lead to gains in mathematical problem-solving in heterogeneous classrooms, but social acceptance and friendships may also greatly impact students’ results.
+
+---
+
+---
+
+### 9092. Impact of virtual reality use on the teaching and learning of vectors
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.965640/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2022-09-27
+date_source: page-meta
+authors: ["Campos, Esmeralda", "Hidrogo, Irving", "Zavala, Genaro"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.965640/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [higher-ed, math-education]
+```
+
+The use of virtual reality in education has enabled the possibility of representing abstract concepts and virtually manipulating them, providing a suitable platform for understanding mathematical concepts and their relation with the physical world. In this contribution, we present a study that aims to evaluate the students' experience using a virtual reality (VR) tool and their learning of three-dimensional vectors in an introductory physics university course. We followed an experimental research design, with a control and an experimental group, for measuring students' performance in a pre-post 3D vectors questionnaire. We surveyed the experimental group about their perception of VR use regarding their learning objectives, their experience using VR as a learning tool during the sessions, and the value of using VR in class. We found that on the items in which visualization was important, students in the experimental group outperformed the students in the control group. Students evaluated the VR tool as having a positive impact on their course contents learning and as a valuable tool to enhance their learning experience. We identified four hierarchical categories in which students perceived the use of virtual reality helped them learn the course contents: Visualization, 3D Visualization, Identification, and Understanding. Overall, this study's findings contribute to the knowledge of using virtual reality for education at the university level. We encourage university instructors to think about incorporating VR in their classes.
+
+---
+
+---
+
+### 9093. Exploring the potential of micro-credentials: A systematic literature review
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.1006811/full"
+type: review
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2023-01-09
+date_source: page-meta
+authors: ["Tamoliune, Giedre", "Greenspon, Rasa", "Tereseviciene, Margarita", "Volungeviciene, Airina", "Trepule, Elena", "Dauksiene, Estela"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.1006811/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [higher-ed]
+```
+
+Micro-credentials have recently become a huge research interest, as they play an important role in the social, economic, and higher education sectors. Mindful of growing critique in some circles and recent publications, this paper offers an informed analysis of the potential of micro-credentials to foster post-COVID-19 pandemic recovery across a spectrum of dimensions, including supporting innovation in higher education institutions (HEIs). It reports a systematic literature review analysis of scientific articles published between 2015 and January 2022 on micro-credential research in the field of higher education. Results of a bibliometric and qualitative content analysis from 32 scientific articles provided insights into the potential of micro-credentials to foster post-pandemic recovery through social, economic, and higher education innovations. The findings suggest that the potential can be unfolded through multiple dimensions, like offering more possibilities for individuals to up-skill, re-skill and enter the labor market (economic context), enhancing lifelong learning by developing flexible personal learning pathways (social context), extending services in assessment and recognition of non-formal and informal learning, and introducing stackable credits and previous qualifications (higher education context). Even though the paper analyses scientific articles from the pre-pandemic and pandemic period, this study aims to systematize the results of other researchers and to offer sound insights into how further development in micro-credentials could contribute to the post-pandemic recovery.
+
+---
+
+---
+
+### 9094. A Theoretical and Evidence-Based Conceptual Design of MetaDash: An Intelligent Teacher Dashboard to Support Teachers' Decision Making and Students’ Self-Regulated Learning
+
+```yaml
+url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.570229/full"
+type: paper
+source: "Frontiers in Education"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-27
+published_date: 2021-02-19
+date_source: page-meta
+authors: ["Wiedbusch, Megan D", "Kite, Vance", "Yang, Xi", "Park, Soonhye", "Chi, Min", "Taub, Michelle", "Azevedo, Roger"]
+document_url: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.570229/pdf"
+doi: null
+license: CC BY 4.0
+attribution: "Description is the abstract by the article's authors, first published in Frontiers in Education; licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+tags: [intelligent-tutoring, learning-engineering]
+```
+
+Teachers' ability to self-regulate their own learning is closely related to their competency to enhance self-regulated learning (SRL) in their students. Accordingly, there is emerging research for the design of teacher dashboards that empower instructors by providing access to quantifiable evidence of student performance and SRL processes. Typically, they capture evidence of student learning and performance to be visualized through activity traces (e.g., bar charts showing correct and incorrect response rates, etc.) and SRL data (e.g., eye -tracking on content, log files capturing feature selection, etc.) in order to provide teachers with monitoring and instructional tools. Critics of the current research on dashboards used in conjunction with advanced learning technologies (ALTs) such as simulations, intelligent tutoring systems, and serious games, argue that the state of the field is immature and has (1) focused on exploratory or proof-of-concept projects, (2) investigated data visualizations of performance metrics or simplistic learning behaviors, and (3) neglected most theoretical aspects of SRL including teachers’ general lack of understanding their students' SRL within their students. Additionally, the work is mostly anecdotal, lacks methodological rigor, and does not collect critical process data (e.g. frequency, duration, timing, or fluctuations of cognitive, affective, metacognitive, and motivational (CAMM) SRL processes) during learning with ALTs used in the classroom. No known research in the areas of learning analytics, teacher dashboards, or teachers’ perceptions of students’ SRL and CAMM engagement has systematically and simultaneously examined the deployment, temporal unfolding, regulation, and impact of all these key processes during complex learning. In this manuscript, we (1) review the current state of ALTs designed using SRL theoretical frameworks and the current state of teacher dashboard design and research, (2) report the important design features and elements within intelligent dashboards that provide teachers with real-time data visualizations of their students’ SRL processes and engagement while using ALTs in classrooms, as revealed from the analysis of surveys and focus groups with teachers, and (3) propose a conceptual system design for integrating reinforcement learning into a teacher dashboard to help guide the utilization of multimodal data collected on students’ and teachers’ CAMM SRL processes during complex learning.
 
 ---

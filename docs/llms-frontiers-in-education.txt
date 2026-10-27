@@ -1,0 +1,36 @@
+# Renaissance AI and Education Resource Hub — Frontiers in Education
+
+> 30 entries from Frontiers in Education.
+> Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-frontiers-in-education.txt
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-27
+
+- 9065. [Redefining learning: student-centered strategies for academic and personal growth](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1518602/full) | review | higher-ed
+- 9066. [Educational practices in motion: a scoping review of embodied learning approaches in school](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1568744/full) | review | cognitive-science, inclusive-design, k-12
+- 9067. [A systematic review on the impact of teacher professional development on digital instructional integration and teaching practices](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1541031/full) | review | computer-assisted-learning, professional-development
+- 9068. [ChatGPT usage and attitudes are driven by perceptions of usefulness, ease of use, risks, and psycho-social impact: a study among university students in the UAE](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1414758/full) | paper | genai, higher-ed
+- 9069. [Impact of the COVID-19 pandemic on online learning in higher education: a bibliometric analysis](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1225834/full) | paper | digital-learning-platforms, higher-ed
+- 9070. [Distance Learning in Higher Education During Covid-19](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.822958/full) | review | digital-learning-platforms, higher-ed
+- 9071. [The Positive Influence of Inquiry-Based Learning Teacher Professional Learning and Industry Partnerships on Student Engagement With STEM](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.693221/full) | paper | k-12, professional-development
+- 9072. [Impact of teaching quality on student achievement: student evidence](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1367317/full) | paper | k-12, math-education
+- 9073. [Advantages and challenges of using digital technologies in mathematical modelling education – a descriptive systematic literature review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1142556/full) | review | computer-assisted-learning, math-education
+- 9074. [Practical work in science education: a systematic literature review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1151641/full) | review | k-12
+- 9075. [The critical thinking-oriented adaptations of problem-based learning models: a systematic review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1139987/full) | review | higher-ed
+- 9076. [Conceptualizing and measuring instructional quality in mathematics education: A systematic literature review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.994739/full) | paper | k-12, math-education
+- 9077. [The Research Competence: Acquisition and Development Among Undergraduates in Education Sciences](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.836165/full) | paper | higher-ed
+- 9078. [“Fake News” or Real Science? Critical Thinking to Assess Information on COVID-19](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.646909/full) | paper | k-12, qualitative-research
+- 9079. [Impact of gamification on school engagement: a systematic review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1466926/full) | review | k-12
+- 9080. [Insights on mapping Industry 4.0 and Education 4.0](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1150190/full) | paper | career-readiness, higher-ed
+- 9081. [Competencies for Advancing Transformations Towards Sustainability](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.785163/full) | review | higher-ed
+- 9082. [Academic Integrity in Online Assessment: A Research Review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.639814/full) | review | higher-ed
+- 9083. [Teaching and Learning Continuity Amid and Beyond the Pandemic](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.678692/full) | paper | digital-learning-platforms, higher-ed
+- 9084. [Service-Learning in Europe. Dimensions and Understanding From Academic Publication](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.604825/full) | paper | higher-ed
+- 9085. [Progress in English Language Teaching Through Continuous Professional Development—Teachers’ Self-Awareness, Perception, and Feedback](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.757285/full) | paper | english-learners, professional-development
+- 9086. [Generative AI use in K-12 education: a systematic review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647573/full) | review | genai, k-12
+- 9087. [Game-Based Learning experiences in primary mathematics education](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1331312/full) | paper | computer-assisted-learning, k-12, math-education
+- 9088. [Synthetic biology education and pedagogy: a review of evolving practices in a growing discipline](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1441720/full) | review | 
+- 9089. [Strengthening the STEM pipeline: impact of project-based synthetic biology program on high school students’ science identity and competency](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1493356/full) | paper | k-12
+- 9090. [The impact of ChatGPT on higher education](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1206936/full) | review | genai, higher-ed
+- 9091. [Mathematical Problem-Solving Through Cooperative Learning—The Importance of Peer Acceptance and Friendships](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.710296/full) | paper | k-12, math-education, student-belonging
+- 9092. [Impact of virtual reality use on the teaching and learning of vectors](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.965640/full) | paper | higher-ed, math-education
+- 9093. [Exploring the potential of micro-credentials: A systematic literature review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.1006811/full) | review | higher-ed
+- 9094. [A Theoretical and Evidence-Based Conceptual Design of MetaDash: An Intelligent Teacher Dashboard to Support Teachers' Decision Making and Students’ Self-Regulated Learning](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.570229/full) | paper | intelligent-tutoring, learning-engineering

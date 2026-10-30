@@ -351,3 +351,31 @@ Auto-appended by `process_staged.py` on every non-preview run. Each entry record
 - Processed: 30 entries (9065-9094)
 - Backlog rows recorded as pending (excluded): 0
 - Tags: keyword auto-tagged
+
+## 2026-10-30 - Digital Promise
+- Source slug: `digital-promise`
+- Scraped: 1 total, 1 ready, 0 backlog
+- Processed: 1 entries (9095-9095)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-10-30 - The Education Trust
+- Source slug: `edtrust`
+- Scraped: 4 total, 4 ready, 0 backlog
+- Processed: 4 entries (9096-9099)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-10-30 - Mathematica
+- Source slug: `mathematica`
+- Scraped: 2 total, 2 ready, 0 backlog
+- Processed: 2 entries (9100-9101)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged
+
+## 2026-10-30 - WestEd
+- Source slug: `wested`
+- Scraped: 2 total, 2 ready, 0 backlog
+- Processed: 2 entries (9102-9103)
+- Backlog rows recorded as pending (excluded): 0
+- Tags: keyword auto-tagged

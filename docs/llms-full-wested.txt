@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — WestEd (full)
-# 929 entries with descriptions | Last updated: 2026-10-27
+# 931 entries with descriptions | Last updated: 2026-10-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -23224,5 +23224,55 @@ tags: [k-12]
 ```
 
 This WestEd brief examines early outcomes of California's Proposition 28 Arts and Music in Schools funding, based on what 203 staff members from county offices of education, districts and schools reported. Nearly two thirds of respondents reported increased student participation in arts education, and many said the funding let schools introduce, restore or expand arts programs, hire arts educators, improve access to materials and remove barriers to participation. Ongoing challenges include staffing capacity, accountability and funding administration. The brief concludes that sustained support and strategic planning will be essential to realizing the program's long-term promise.
+
+---
+
+---
+
+### 9102. Proposition 28 in Practice
+
+```yaml
+url: "https://www.wested.org/resource/proposition-28-in-practice/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-30
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [k-12]
+```
+
+This series of WestEd briefs offers an early look at how California's Proposition 28, the Arts and Music Funding Guarantee and Accountability Act, is being implemented, drawing on reports from county offices of education, districts, and schools. The briefs examine how the funds are being spent, which arts disciplines and courses are offered, changes in staffing, the barriers educators face in using the funds, and what the field says is needed to ensure students have access to arts education. Respondents report that the investment is beginning to produce expanded arts programming, increased student access to instruction, and greater participation in the arts.
+
+---
+
+---
+
+### 9103. Building Science Leaders Network: Fostering Systems That Support Science HQIM Implementation
+
+```yaml
+url: "https://www.wested.org/resource/building-science-leaders-network/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-30
+published_date: 2026
+date_source: page-meta
+authors: ["Jill A. Wertheim", "Jill Grace"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/27131423/10.20.2026_NM-Building-Science-Leaders-Network-Y2_FINAL-ADA-1.pdf"
+doi: null
+license: null
+tags: [k-12, professional-development]
+```
+
+This WestEd infographic shows how state and district leaders can build sustained supports that help teachers turn science HQIM into effective classroom instruction.
 
 ---

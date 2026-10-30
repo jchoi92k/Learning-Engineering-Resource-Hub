@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 3971,
-    "last_updated": "2026-10-27",
+    "total": 3980,
+    "last_updated": "2026-10-30",
     "sources": [
       "ADL Initiative",
       "AI-for-Education.org",
@@ -83,7 +83,7 @@
       },
       {
         "source": "Digital Promise",
-        "indexed": 286,
+        "indexed": 287,
         "known_total": 273,
         "pct": 105,
         "priority": "high",
@@ -91,15 +91,15 @@
       },
       {
         "source": "Mathematica",
-        "indexed": 633,
+        "indexed": 635,
         "known_total": 925,
-        "pct": 68,
+        "pct": 69,
         "priority": "medium",
         "status": "active"
       },
       {
         "source": "WestEd",
-        "indexed": 929,
+        "indexed": 931,
         "known_total": 1254,
         "pct": 74,
         "priority": "medium",
@@ -155,7 +155,7 @@
       },
       {
         "source": "The Education Trust",
-        "indexed": 325,
+        "indexed": 329,
         "known_total": null,
         "pct": null,
         "priority": "medium",
@@ -219,15 +219,15 @@
       }
     ],
     "dates": {
-      "with_published_date": 3374,
+      "with_published_date": 3382,
       "published_date_not_available": 392,
-      "without_published_date": 205,
+      "without_published_date": 206,
       "num_min": 1,
-      "num_max": 9094
+      "num_max": 9103
     },
     "document_links": {
-      "with_document_url": 540,
-      "without_document_url": 3431
+      "with_document_url": 541,
+      "without_document_url": 3439
     },
     "licenses": {
       "CC BY 4.0": "https://creativecommons.org/licenses/by/4.0/",
@@ -106322,6 +106322,240 @@
       "domain": "le-practice",
       "url_verified": true,
       "last_verified": "2026-10-27"
+    },
+    {
+      "num": 9095,
+      "title": "ATS Hub Field Note — Exploring AI Tools for Accessible Scientific Documents",
+      "url": "https://digitalpromise.dspacedirect.org/items/8c568518-9659-4fd7-9aef-c8bc12540f76",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-10-30",
+      "published_date": "2026-10",
+      "date_source": "listing",
+      "authors": [
+        "Power, Christopher",
+        "Vasquez III, Eleazar"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "computer-assisted-learning",
+        "digital-promise",
+        "inclusive-design",
+        "literacy",
+        "llm-application",
+        "math-education"
+      ],
+      "desc": "This field note addresses the critical challenge of accessing mathematical content in PDF documents for students using screenreader technology. Standard PDF exports often discard structural tags and fail to convey the complex meaning of mathematical notation, hindering full student participation in learning activities. To overcome these barriers, this exploratory project investigates improved document-production workflows that preserve mathematical structure from source code to final output. Utilizing Large Language Models (LLMs) like Anthropic’s Claude Code, the project prototyped methods for embedding structural information within LaTeX source code to generate inherently accessible PDFs and HTML documents featuring MathML. Furthermore, the note outlines a comprehensive future evaluation framework involving subject experts, accessibility specialists, and skilled screenreader users to rigorously validate these prototypes against real-world educational tasks. Ultimately, by both human expertise and AI, this initiative aims to develop an authoring toolchain for educators. This approach ensures mathematical documents are accessible upon creation, thereby enabling independent and more equitable participation for all students in mathematics education.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9096,
+      "title": "The State of Funding Equity Data Tool",
+      "url": "https://edtrust.org/rti/the-state-of-funding-equity-data-tool/",
+      "type": "tool",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "page-meta",
+      "date_added": "2026-10-30",
+      "published_date": "2026-10-28",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust"
+      ],
+      "desc": "Understanding where funding gaps persist in your state is the first step toward holding leaders accountable for shortchanging students. Use this tool to explore EdTrust’s latest analysis of school funding equity across the country",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9097,
+      "title": "Funding Gaps 2026 – Technical Appendix",
+      "url": "https://edtrust.org/rti/funding-gaps-technical-appendix/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-30",
+      "published_date": "2026-10-28",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust"
+      ],
+      "desc": "This technical appendix documents the data sources and methodology behind EdTrust's Funding Gaps 2026 analysis of state and local revenue disparities across 12,927 regular public school districts serving 45.9 million students. It draws on Census school finance and poverty data, NCES enrollment and English learner data, and BLS inflation data, using three-year (FY 2022–2024) per-student revenue averages adjusted for inflation and regional labor costs. Funding gaps are calculated by comparing quartiles of districts serving the most and fewest students in poverty, students of color, and English learners, nationally and within states.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9098,
+      "title": "Funding Gaps Glossary",
+      "url": "https://edtrust.org/rti/funding-gaps-glossary/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-30",
+      "published_date": "2026-10-28",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust"
+      ],
+      "desc": "This glossary defines the school finance terms used in EdTrust's Funding Gaps report and State of Funding Equity data tool, such as funding formula, local fiscal capacity, per-pupil revenue, and tax effort. It also defines how the analysis classifies state funding as progressive (the highest-need districts receive at least 10% more state and local funding), neutral, or regressive.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9099,
+      "title": "Funding for Fairness: Revenue Inequities for States’ Highest-Need Districts",
+      "url": "https://edtrust.org/rti/funding-gaps/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-30",
+      "published_date": "2026-10-28",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust",
+        "english-learners",
+        "k-12"
+      ],
+      "desc": "The latest edition of EdTrust's Funding Gaps analysis compares state and local school funding between districts serving the most and fewest students from low-income backgrounds, students of color, and English learners, nationally and state by state. Nationally, high-poverty districts receive only about 1% more per student than low-poverty districts, while districts serving the most students of color receive 7% less (about $1,300 per student) and those serving the most English learners 5% less (about $900 per student). The report recommends that states fund schools adequately, equitably and transparently, make local funding fairer, and keep public funds in public schools.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9100,
+      "title": "Making Early Literacy Ed Tech Work in K-2 Classrooms",
+      "url": "https://www.mathematica.org/publications/making-early-literacy-ed-tech-work-in-k-2-classrooms",
+      "type": "report",
+      "source": "Mathematica",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-10-30",
+      "published_date": "2026-10-30",
+      "date_source": "listing",
+      "authors": [
+        "Michelle Bennett",
+        "Tareena Musaddiq",
+        "Kate Place"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "computer-assisted-learning",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "This brief provides insights for educators and educational technology developers on supporting the implementation of early literacy technology in K-2 classrooms, based on lessons from a study of Magpie Literacy’s Reading Foundations tool.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9101,
+      "title": "Implementing a Digital Literacy Tool in the Early Grades: Findings from a Study of Magpie Literacy",
+      "url": "https://www.mathematica.org/publications/implementing-a-digital-literacy-tool-in-the-early-grades-findings-from-a-study-of-magpie-literacy",
+      "type": "report",
+      "source": "Mathematica",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-10-30",
+      "published_date": "2026-10-30",
+      "date_source": "listing",
+      "authors": [
+        "Tareena Musaddiq",
+        "Michelle Bennett",
+        "Kate Place"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "computer-assisted-learning",
+        "k-12",
+        "literacy",
+        "math-education"
+      ],
+      "desc": "Mathematica conducted an implementation study to explore the use of Magpie Literacy’s Reading Foundations Edtech tool in K–2 classrooms across two school districts during the 2025-26 school year. The study examined how educators and students interacted with the tool, educators’ perceptions of the tool, and factors that supported or limited its use.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9102,
+      "title": "Proposition 28 in Practice",
+      "url": "https://www.wested.org/resource/proposition-28-in-practice/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-10-30",
+      "published_date": null,
+      "date_source": null,
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "k-12"
+      ],
+      "desc": "This series of WestEd briefs offers an early look at how California's Proposition 28, the Arts and Music Funding Guarantee and Accountability Act, is being implemented, drawing on reports from county offices of education, districts, and schools. The briefs examine how the funds are being spent, which arts disciplines and courses are offered, changes in staffing, the barriers educators face in using the funds, and what the field says is needed to ensure students have access to arts education. Respondents report that the investment is beginning to produce expanded arts programming, increased student access to instruction, and greater participation in the arts.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-10-30"
+    },
+    {
+      "num": 9103,
+      "title": "Building Science Leaders Network: Fostering Systems That Support Science HQIM Implementation",
+      "url": "https://www.wested.org/resource/building-science-leaders-network/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-10-30",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Jill A. Wertheim",
+        "Jill Grace"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/27131423/10.20.2026_NM-Building-Science-Leaders-Network-Y2_FINAL-ADA-1.pdf",
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "k-12",
+        "professional-development"
+      ],
+      "desc": "This WestEd infographic shows how state and district leaders can build sustained supports that help teachers turn science HQIM into effective classroom instruction.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-10-30"
     }
   ]
 }

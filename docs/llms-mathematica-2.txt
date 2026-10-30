@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — Mathematica (part 2 of 2)
 
-> 633 entries from Mathematica; this part lists 251 of them (entry numbers 5142–8989).
+> 635 entries from Mathematica; this part lists 253 of them (entry numbers 5142–9101).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-mathematica.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-27
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-30
 
 - 5142. [No-Deadlines Synthetic Control and Exploratory Outcomes Analysis and Recommendations for a Future Rigorous Evaluation](https://www.mathematica.org/publications/no-deadlines-synthetic-control-and-exploratory-outcomes-analysis-and-recommendations-for-a-future) | report | 
 - 5143. [The BASIE (BAyeSian Interpretation of Estimates) Framework for Interpreting Findings from Impact Evaluations: A Practical Guide for Education Researchers](https://www.mathematica.org/publications/the-basie-bayesian-interpretation-of-estimates-framework-for-interpreting-findings-from-impact) | report | 
@@ -255,3 +255,5 @@
 - 5433. [The NIH Intramural Research Loan Repayment Program: Synthesis of Findings from Process and Outcomes Analyses](https://www.mathematica.org/publications/the-nih-intramural-research-loan-repayment-program-synthesis-of-findings-from-process-and-outcomes-analyses) | report | 
 - 5434. [Statistical Power for Random Assignment Evaluations of Education Programs](https://www.mathematica.org/publications/statistical-power-for-random-assignment-evaluations-of-education-programs) | report | 
 - 8989. [Evaluation of KIPP Atlanta Schools](https://www.mathematica.org/publications/evaluation-of-kipp-atlanta-schools) | report | career-readiness, college-access
+- 9100. [Making Early Literacy Ed Tech Work in K-2 Classrooms](https://www.mathematica.org/publications/making-early-literacy-ed-tech-work-in-k-2-classrooms) | report | computer-assisted-learning, k-12, literacy
+- 9101. [Implementing a Digital Literacy Tool in the Early Grades: Findings from a Study of Magpie Literacy](https://www.mathematica.org/publications/implementing-a-digital-literacy-tool-in-the-early-grades-findings-from-a-study-of-magpie-literacy) | report | computer-assisted-learning, k-12, literacy, math-education

@@ -4,18 +4,18 @@
 
 ## Domain
 
-- [k-12](k-12.md) — 904 entries
-- [math-education](math-education.md) — 533 entries
-- [literacy](literacy.md) — 426 entries
+- [k-12](k-12.md) — 909 entries
+- [math-education](math-education.md) — 535 entries
+- [literacy](literacy.md) — 429 entries
 - [learning-engineering](learning-engineering.md) — 302 entries
-- [english-learners](english-learners.md) — 225 entries
+- [english-learners](english-learners.md) — 226 entries
 - [higher-ed](higher-ed.md) — 215 entries
 - [early-childhood](early-childhood.md) — 212 entries
 - [school-discipline](school-discipline.md) — 32 entries
 
 ## Method
 
-- [computer-assisted-learning](computer-assisted-learning.md) — 260 entries
+- [computer-assisted-learning](computer-assisted-learning.md) — 263 entries
 - [longitudinal](longitudinal.md) — 203 entries
 - [response-to-intervention](response-to-intervention.md) — 189 entries
 - [rct](rct.md) — 85 entries
@@ -24,7 +24,7 @@
 - [genai](genai.md) — 44 entries
 - [intelligent-tutoring](intelligent-tutoring.md) — 42 entries
 - [qualitative-research](qualitative-research.md) — 35 entries
-- [llm-application](llm-application.md) — 24 entries
+- [llm-application](llm-application.md) — 25 entries
 - [nlp](nlp.md) — 19 entries
 - [automated-feedback](automated-feedback.md) — 10 entries
 - [a-b-testing](a-b-testing.md) — 7 entries
@@ -35,10 +35,10 @@
 - [college-access](college-access.md) — 432 entries
 - [formative-assessment](formative-assessment.md) — 409 entries
 - [sel](sel.md) — 295 entries
-- [professional-development](professional-development.md) — 287 entries
+- [professional-development](professional-development.md) — 288 entries
 - [career-readiness](career-readiness.md) — 245 entries
 - [personalized-learning](personalized-learning.md) — 141 entries
-- [inclusive-design](inclusive-design.md) — 127 entries
+- [inclusive-design](inclusive-design.md) — 128 entries
 - [attendance](attendance.md) — 112 entries
 - [open-datasets](open-datasets.md) — 101 entries
 - [dropout-prevention](dropout-prevention.md) — 97 entries
@@ -60,8 +60,8 @@
 ## Affiliation
 
 - [lpi](lpi.md) — 357 entries
-- [edtrust](edtrust.md) — 325 entries
-- [digital-promise](digital-promise.md) — 286 entries
+- [edtrust](edtrust.md) — 329 entries
+- [digital-promise](digital-promise.md) — 287 entries
 - [wwc](wwc.md) — 165 entries
 - [aims](aims.md) — 47 entries
 - [jedm](jedm.md) — 39 entries

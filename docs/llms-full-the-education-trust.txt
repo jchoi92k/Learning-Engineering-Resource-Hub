@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — The Education Trust (full)
-# 325 entries with descriptions | Last updated: 2026-10-27
+# 329 entries with descriptions | Last updated: 2026-10-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8124,5 +8124,105 @@ tags: [college-access, edtrust, higher-ed]
 ```
 
 This EdTrust piece examines federal accountability for colleges at a time of growing public doubt about the value of a degree, rising costs and student debt. It notes that the 2025 One Big Beautiful Bill Act created a "do-no-harm" earnings test requiring programs with access to federal loans to show that their graduates out-earn working adults without that credential. EdTrust calls this a step in the right direction but argues for a more comprehensive, student-centred accountability system, which it sets out as five principles.
+
+---
+
+---
+
+### 9096. The State of Funding Equity Data Tool
+
+```yaml
+url: "https://edtrust.org/rti/the-state-of-funding-equity-data-tool/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-10-30
+published_date: 2026-10-28
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Understanding where funding gaps persist in your state is the first step toward holding leaders accountable for shortchanging students. Use this tool to explore EdTrust’s latest analysis of school funding equity across the country
+
+---
+
+---
+
+### 9097. Funding Gaps 2026 – Technical Appendix
+
+```yaml
+url: "https://edtrust.org/rti/funding-gaps-technical-appendix/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-30
+published_date: 2026-10-28
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This technical appendix documents the data sources and methodology behind EdTrust's Funding Gaps 2026 analysis of state and local revenue disparities across 12,927 regular public school districts serving 45.9 million students. It draws on Census school finance and poverty data, NCES enrollment and English learner data, and BLS inflation data, using three-year (FY 2022–2024) per-student revenue averages adjusted for inflation and regional labor costs. Funding gaps are calculated by comparing quartiles of districts serving the most and fewest students in poverty, students of color, and English learners, nationally and within states.
+
+---
+
+---
+
+### 9098. Funding Gaps Glossary
+
+```yaml
+url: "https://edtrust.org/rti/funding-gaps-glossary/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-30
+published_date: 2026-10-28
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This glossary defines the school finance terms used in EdTrust's Funding Gaps report and State of Funding Equity data tool, such as funding formula, local fiscal capacity, per-pupil revenue, and tax effort. It also defines how the analysis classifies state funding as progressive (the highest-need districts receive at least 10% more state and local funding), neutral, or regressive.
+
+---
+
+---
+
+### 9099. Funding for Fairness: Revenue Inequities for States’ Highest-Need Districts
+
+```yaml
+url: "https://edtrust.org/rti/funding-gaps/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-10-30
+published_date: 2026-10-28
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust, english-learners, k-12]
+```
+
+The latest edition of EdTrust's Funding Gaps analysis compares state and local school funding between districts serving the most and fewest students from low-income backgrounds, students of color, and English learners, nationally and state by state. Nationally, high-poverty districts receive only about 1% more per student than low-poverty districts, while districts serving the most students of color receive 7% less (about $1,300 per student) and those serving the most English learners 5% less (about $900 per student). The report recommends that states fund schools adequately, equitably and transparently, make local funding fairer, and keep public funds in public schools.
 
 ---

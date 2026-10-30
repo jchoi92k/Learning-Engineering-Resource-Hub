@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — The Education Trust
 
-> 325 entries from The Education Trust.
+> 329 entries from The Education Trust.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-the-education-trust.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-27
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-30
 
 - 145. [Engaging First: Supporting Young Learners Through Family Engagement](https://edtrust.org/rti/young-learners-family-engagement/) | report | early-childhood, edtrust, k-12, learning-engineering
 - 146. [Making Assessment Reports More Meaningful for Students & Families](https://edtrust.org/rti/assessment-reports-family-engagement/) | report | edtrust, formative-assessment, k-12, learning-engineering
@@ -329,3 +329,7 @@
 - 9022. [Falling Short on Newcomers: A Report Card on How Well States Support Newly Arrived Immigrant Students](https://edtrust.org/rti/falling-short-on-newcomers-a-report-card/) | report | edtrust, k-12
 - 9023. [An Educator’s Checklist for Supporting Immigrant Students in Schools](https://edtrust.org/rti/an-educators-checklist-for-supporting-immigrant-students/) | framework | edtrust, k-12
 - 9053. [EdTrust’s 5 Principles for Higher Education Accountability to Meet the Moment](https://edtrust.org/rti/edtrusts-5-principles-for-higher-education-accountability-to-meet-the-moment/) | report | college-access, edtrust, higher-ed
+- 9096. [The State of Funding Equity Data Tool](https://edtrust.org/rti/the-state-of-funding-equity-data-tool/) | tool | edtrust
+- 9097. [Funding Gaps 2026 – Technical Appendix](https://edtrust.org/rti/funding-gaps-technical-appendix/) | report | edtrust
+- 9098. [Funding Gaps Glossary](https://edtrust.org/rti/funding-gaps-glossary/) | report | edtrust
+- 9099. [Funding for Fairness: Revenue Inequities for States’ Highest-Need Districts](https://edtrust.org/rti/funding-gaps/) | report | edtrust, english-learners, k-12

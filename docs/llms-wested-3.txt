@@ -1,8 +1,8 @@
 # Renaissance AI and Education Resource Hub — WestEd (part 3 of 3)
 
-> 929 entries from WestEd; this part lists 47 of them (entry numbers 6719–9062).
+> 931 entries from WestEd; this part lists 49 of them (entry numbers 6719–9103).
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-wested.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-27
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-30
 
 - 6719. [Accommodations for English Language Learner Students: The Effect of Linguistic Modification of Math Test Item Sets](https://www.wested.org/resource/accommodations-for-english-language-learner-students-the-effect-of-linguistic-modification-of-math-test-item-sets/) | report | english-learners, formative-assessment, math-education
 - 6720. [Decentralizing Resources in Los Angeles High Schools: California’s Quality Education Investment Act](https://www.wested.org/resource/decentralizing-resources-in-los-angeles-high-schools-californias-quality-education-investment-act/) | paper | 
@@ -51,3 +51,5 @@
 - 9060. [Arts Disciplines, Courses Offered, and FTE Changes From the Proposition 28 Arts and Music Funding Guarantee and Accountability Act: Initial Reports From Districts and Schools](https://www.wested.org/resource/arts-disciplines-courses-offered-and-fte-changes-from-the-proposition-28-arts-and-music-funding-guarantee-and-accountability-act/) | report | k-12
 - 9061. [Needs of the Field to Ensure Access to an Arts Education: Perspectives From County Offices of Education, Districts, and Schools](https://www.wested.org/resource/needs-of-the-field-to-ensure-access-to-an-arts-education/) | report | k-12
 - 9062. [Preliminary Outcomes of California’s Proposition 28 Arts and Music Funding Guarantee and Accountability Act: Initial Reports From County Offices of Education, Districts, and Schools](https://www.wested.org/resource/preliminary-outcomes-of-californias-proposition-28-arts-and-music-funding-guarantee-and-accountability-act/) | report | k-12
+- 9102. [Proposition 28 in Practice](https://www.wested.org/resource/proposition-28-in-practice/) | report | k-12
+- 9103. [Building Science Leaders Network: Fostering Systems That Support Science HQIM Implementation](https://www.wested.org/resource/building-science-leaders-network/) | report | k-12, professional-development

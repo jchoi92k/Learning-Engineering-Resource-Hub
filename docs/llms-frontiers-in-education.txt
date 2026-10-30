@@ -2,7 +2,7 @@
 
 > 30 entries from Frontiers in Education.
 > Compact form: entry number, title, URL, type, tags. Descriptions for these entries: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-full-frontiers-in-education.txt
-> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-27
+> Root index of all sources: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt · Last updated: 2026-10-30
 
 - 9065. [Redefining learning: student-centered strategies for academic and personal growth](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1518602/full) | review | higher-ed
 - 9066. [Educational practices in motion: a scoping review of embodied learning approaches in school](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1568744/full) | review | cognitive-science, inclusive-design, k-12

@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Mathematica (full)
-# 633 entries with descriptions | Last updated: 2026-10-27
+# 635 entries with descriptions | Last updated: 2026-10-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-mathematica-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -15824,5 +15824,55 @@ tags: [career-readiness, college-access]
 ```
 
 This evaluation examines how KIPP Atlanta Schools influences academic achievement and long-term student success, including college enrollment, persistence, credential completion, and workforce outcomes.
+
+---
+
+---
+
+### 9100. Making Early Literacy Ed Tech Work in K-2 Classrooms
+
+```yaml
+url: "https://www.mathematica.org/publications/making-early-literacy-ed-tech-work-in-k-2-classrooms"
+type: report
+source: "Mathematica"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-30
+published_date: 2026-10-30
+date_source: listing
+authors: ["Michelle Bennett", "Tareena Musaddiq", "Kate Place"]
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, k-12, literacy]
+```
+
+This brief provides insights for educators and educational technology developers on supporting the implementation of early literacy technology in K-2 classrooms, based on lessons from a study of Magpie Literacy’s Reading Foundations tool.
+
+---
+
+---
+
+### 9101. Implementing a Digital Literacy Tool in the Early Grades: Findings from a Study of Magpie Literacy
+
+```yaml
+url: "https://www.mathematica.org/publications/implementing-a-digital-literacy-tool-in-the-early-grades-findings-from-a-study-of-magpie-literacy"
+type: report
+source: "Mathematica"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-30
+published_date: 2026-10-30
+date_source: listing
+authors: ["Tareena Musaddiq", "Michelle Bennett", "Kate Place"]
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, k-12, literacy, math-education]
+```
+
+Mathematica conducted an implementation study to explore the use of Magpie Literacy’s Reading Foundations Edtech tool in K–2 classrooms across two school districts during the 2025-26 school year. The study examined how educators and students interacted with the tool, educators’ perceptions of the tool, and factors that supported or limited its use.
 
 ---

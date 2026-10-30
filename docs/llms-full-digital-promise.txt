@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Digital Promise (full)
-# 286 entries with descriptions | Last updated: 2026-10-27
+# 287 entries with descriptions | Last updated: 2026-10-30
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-digital-promise.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -7149,5 +7149,30 @@ tags: [digital-promise, k-12, response-to-intervention]
 ```
 
 This report chronicles Skyline High School’s participation in a cross-district co-design initiative facilitated by Digital Promise, aimed at strengthening information-sharing and intervention workflows for ninth-grade students. Facing fragmented data, inconsistent system permissions, and disconnected tracking tools, Skyline developed practical, school-led solutions to strengthen communication and coordination among key support staff. These workflows demonstrate how strong human infrastructure can strengthen coordination and enable earlier intervention even when existing technology does not fully support educators’ needs, while surfacing broader challenges related to system configuration, governance, and ownership that school staff could not resolve alone. This case study offers a blueprint for leaders to move beyond reliance on individual workarounds, demonstrating how local innovation can illuminate systemic needs and how shared ownership among schools, districts, technology providers, and technical assistance partners can create more sustainable student success systems.
+
+---
+
+---
+
+### 9095. ATS Hub Field Note — Exploring AI Tools for Accessible Scientific Documents
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/8c568518-9659-4fd7-9aef-c8bc12540f76"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-10-30
+published_date: 2026-10
+date_source: listing
+authors: ["Power, Christopher", "Vasquez III, Eleazar"]
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, inclusive-design, literacy, llm-application, math-education]
+```
+
+This field note addresses the critical challenge of accessing mathematical content in PDF documents for students using screenreader technology. Standard PDF exports often discard structural tags and fail to convey the complex meaning of mathematical notation, hindering full student participation in learning activities. To overcome these barriers, this exploratory project investigates improved document-production workflows that preserve mathematical structure from source code to final output. Utilizing Large Language Models (LLMs) like Anthropic’s Claude Code, the project prototyped methods for embedding structural information within LaTeX source code to generate inherently accessible PDFs and HTML documents featuring MathML. Furthermore, the note outlines a comprehensive future evaluation framework involving subject experts, accessibility specialists, and skilled screenreader users to rigorously validate these prototypes against real-world educational tasks. Ultimately, by both human expertise and AI, this initiative aims to develop an authoring toolchain for educators. This approach ensures mathematical documents are accessible upon creation, thereby enabling independent and more equitable participation for all students in mathematics education.
 
 ---

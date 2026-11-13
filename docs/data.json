@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 3971,
-    "last_updated": "2026-10-27",
+    "total": 4003,
+    "last_updated": "2026-11-13",
     "sources": [
       "ADL Initiative",
       "AI-for-Education.org",
@@ -83,25 +83,25 @@
       },
       {
         "source": "Digital Promise",
-        "indexed": 286,
+        "indexed": 297,
         "known_total": 273,
-        "pct": 105,
+        "pct": 109,
         "priority": "high",
         "status": "active"
       },
       {
         "source": "Mathematica",
-        "indexed": 633,
+        "indexed": 638,
         "known_total": 925,
-        "pct": 68,
+        "pct": 69,
         "priority": "medium",
         "status": "active"
       },
       {
         "source": "WestEd",
-        "indexed": 929,
+        "indexed": 935,
         "known_total": 1254,
-        "pct": 74,
+        "pct": 75,
         "priority": "medium",
         "status": "active"
       },
@@ -123,9 +123,9 @@
       },
       {
         "source": "Learning Policy Institute",
-        "indexed": 358,
+        "indexed": 360,
         "known_total": 347,
-        "pct": 103,
+        "pct": 104,
         "priority": "medium",
         "status": "active"
       },
@@ -155,7 +155,7 @@
       },
       {
         "source": "The Education Trust",
-        "indexed": 325,
+        "indexed": 333,
         "known_total": null,
         "pct": null,
         "priority": "medium",
@@ -219,15 +219,15 @@
       }
     ],
     "dates": {
-      "with_published_date": 3374,
+      "with_published_date": 3405,
       "published_date_not_available": 392,
-      "without_published_date": 205,
+      "without_published_date": 206,
       "num_min": 1,
-      "num_max": 9094
+      "num_max": 9134
     },
     "document_links": {
-      "with_document_url": 540,
-      "without_document_url": 3431
+      "with_document_url": 545,
+      "without_document_url": 3458
     },
     "licenses": {
       "CC BY 4.0": "https://creativecommons.org/licenses/by/4.0/",
@@ -106322,6 +106322,870 @@
       "domain": "le-practice",
       "url_verified": true,
       "last_verified": "2026-10-27"
+    },
+    {
+      "num": 9095,
+      "title": "From Classroom to Credential: Integrating Industry-Valued Credentials into High Schools",
+      "url": "https://digitalpromise.dspacedirect.org/items/2229d3f9-1691-4fc8-8c83-ba48ff0ad08f",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "computer-assisted-learning",
+        "digital-promise",
+        "formative-assessment",
+        "k-12"
+      ],
+      "desc": "This toolkit helps high school educators and administrators integrate industry-aligned credentials into courses so students can build and demonstrate skills valued by employers. It introduces digital credential types, workforce competencies, and competency-based education, then offers credential examples and guiding questions to help educators choose options that fit their curriculum and students’ goals. Educators learn to align instruction and assessment, track progress, and prepare students to submit evidence of their skills. The toolkit also shows students how to share credentials on resumes and LinkedIn, outlines how administrators can support implementation, and gives families strategies to support students as they earn credentials.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9096,
+      "title": "Educator Implementation Toolkit: Complete Guide Set",
+      "url": "https://digitalpromise.dspacedirect.org/items/9bedc5c8-87a0-4ea4-bf95-f897d16c7768",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "digital-promise",
+        "literacy"
+      ],
+      "desc": "The Educator Implementation Toolkit brings together seven resources that connect classroom learning to workforce skills and career opportunities. Each resource pairs a brief overview with a tool educators, school leaders, or families can put to use. Educators can identify workforce competencies in classroom activities, select industry-aligned credentials, collect evidence of student learning that meets issuer requirements, and integrate AI literacy into lessons. Students learn to showcase their credentials on resumes, on LinkedIn, and in interviews. School leaders can assess readiness and plan for equitable implementation, while families use guided conversations and action planning to help students explore careers and credentials.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9097,
+      "title": "Family Guide to Industry-Aligned Credentials",
+      "url": "https://digitalpromise.dspacedirect.org/items/110f2715-1363-4693-8a20-125b7e23e32a",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "computer-assisted-learning",
+        "digital-promise"
+      ],
+      "desc": "This resource helps families understand industry-aligned credentials and support students as they explore careers. It explains how students demonstrate job skills through exams, hands-on projects, or portfolios and describes how credentials can build confidence and prepare students for future opportunities. Families learn why employer recognition and state-approved credential lists matter and how they can help students explore careers and organize digital credentials.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9098,
+      "title": "Administrator Quick-Start Guide",
+      "url": "https://digitalpromise.dspacedirect.org/items/26f0375c-efeb-4d89-a704-4e715adcd039",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "computer-assisted-learning",
+        "digital-promise"
+      ],
+      "desc": "This resource helps school and district administrators plan and sustain industry-aligned credential programs. It outlines leadership priorities for setting a vision, selecting credentials that match curriculum and workforce needs, supporting educator learning, expanding equitable access, building partnerships, monitoring progress, and celebrating student achievements. The School Readiness Framework helps leaders document evidence, identify gaps, and record next steps across areas such as staffing, technology, student supports, family communication, and testing logistics.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9099,
+      "title": "Supporting Each Learner’s Journey to Career Readiness",
+      "url": "https://digitalpromise.dspacedirect.org/items/8926bbe6-dc07-4cdb-b616-9d2f5939d21c",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "digital-promise"
+      ],
+      "desc": "This resource helps educators coach students to explain how industry-aligned credentials demonstrate their career readiness. It connects verified credentials to the knowledge, durable skills, and technical skills students need in the workplace and in education. Students learn to link credentials in the Licenses and Certifications section of a resume, add them to a LinkedIn profile, and discuss them in interviews. The Career Readiness Conversation Planner provides scenarios, guiding questions, starter language, and next steps.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9100,
+      "title": "Integrating AI Literacy in Any Classroom",
+      "url": "https://digitalpromise.dspacedirect.org/items/0965c429-3af5-491c-a142-3e13ca1972b9",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "computer-assisted-learning",
+        "digital-promise",
+        "formative-assessment",
+        "literacy"
+      ],
+      "desc": "This resource helps educators integrate AI literacy into existing lessons across subject areas. It introduces the Digital Promise AI Literacy Framework and its three modes of engagement: Understand, Evaluate, and Use. Six practices cover data privacy, ethics, digital communication, information integrity, data analysis, and algorithmic thinking. The AI Lesson Design Canvas guides educators in setting academic and AI literacy goals, identifying workforce competencies and credentials, and designing authentic tasks that model responsible AI use. Educators plan evidence, such as AI prompt logs, alongside assessment and reflection. The resource connects AI literacy with durable skills including critical thinking, communication, and decision-making.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9101,
+      "title": "Collecting Authentic Evidence",
+      "url": "https://digitalpromise.dspacedirect.org/items/b694a955-c072-4f78-900f-15d0f2532cd7",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "digital-promise",
+        "formative-assessment"
+      ],
+      "desc": "This resource helps educators collect verifiable evidence that students can apply workforce competencies in real-world contexts. It explains how to align classroom tasks with credential issuers’ rubrics and evidence requirements using examples such as portfolios, engineering designs, simulations, and team projects. Educators learn to connect assessment with course outcomes, share criteria, provide feedback during revisions, and collect evidence over time.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9102,
+      "title": "Introduction to Industry-Aligned Credentials",
+      "url": "https://digitalpromise.dspacedirect.org/items/ca78a1f4-db45-4f9b-ada7-d3b93ec94324",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "computer-assisted-learning",
+        "digital-promise",
+        "formative-assessment"
+      ],
+      "desc": "This resource helps educators and school leaders select credentials that fit their programs. It introduces certifications, certificates, and digital badges, and distinguishes credentials aligned with industry standards from those employers value for hiring and promotion. It outlines three pillars for evaluating options, covering curriculum integration, workforce relevance, and assessment quality. The Industry-Aligned Credential Selection Protocol guides educators in defining learning goals and competencies, checking employer recognition and state credential lists, reviewing labor market information, and verifying that assessments require students to demonstrate skills.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9103,
+      "title": "What Are Workforce Competencies?",
+      "url": "https://digitalpromise.dspacedirect.org/items/dfcd23fd-d3fe-46c3-bef9-58455b948741",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Aguirre, Nichole",
+        "Galindo, Dr. Marilys"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "digital-promise",
+        "sel"
+      ],
+      "desc": "This resource equips educators to identify workforce competencies in their current curriculum and design pathways for students to demonstrate them. It defines these competencies as the core knowledge, skills, abilities, and behaviors learners apply across academic and professional settings. Grounded in the America Succeeds Durable Skills Advantage Framework, the guide connects these durable skills to modern skills-based hiring practices across four core categories. Through the Educator Planning Framework, teachers learn to select key competencies, map them to classroom activities, assess student mastery, align outcomes with industry credentials, and embed Universal Design for Learning strategies.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9104,
+      "title": "Mosaic of Neuro-Affirmative Environments: How Educators and Systems are Centering Neurodiversity",
+      "url": "https://digitalpromise.dspacedirect.org/items/b4681075-311a-4166-8a47-299b1e4d76d8",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11",
+      "date_source": "listing",
+      "authors": [
+        "Scott, Sarah",
+        "Wortman, Amanda",
+        "Pautz Stephenson, Stefani",
+        "Cotone, Liz"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "computer-assisted-learning",
+        "digital-promise",
+        "inclusive-design"
+      ],
+      "desc": "Although inclusive education has expanded and evidence shows neutral to positive outcomes for neurodivergent students without harm to neurotypical peers, more research is needed to understand the school- and program-wide conditions or approaches that facilitate inclusion. Meanwhile, neurodivergent learners, especially those at the intersection of multiple marginalized identities, continue to face systemic barriers, such as exclusionary placements, punitive discipline, and pressure to mask or conform. Research reveals much more about these barriers to inclusion than the system features that sustain it. This research agenda, led by Digital Promise’s Learner Variability Project, asks what works, for whom, and under what conditions. It proposes a multi-phase approach, including a landscape scan of system and policy features linked to inclusion and a case study exploration of programs and schools nominated as neuro-affirming and centering neurodivergent students. Through synthesis and subsequent participatory action research leveraging those findings with a cohort of new sites, programs, and schools, the research aims to assemble a mosaic of neuro-affirming practices for sites can adapt to their own contexts to support neurodivergent learners.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9105,
+      "title": "ATS Hub Field Note — Exploring AI Tools for Accessible Scientific Documents",
+      "url": "https://digitalpromise.dspacedirect.org/items/8c568518-9659-4fd7-9aef-c8bc12540f76",
+      "type": "report",
+      "source": "Digital Promise",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-10",
+      "date_source": "listing",
+      "authors": [
+        "Power, Christopher",
+        "Vasquez III, Eleazar"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "computer-assisted-learning",
+        "digital-promise",
+        "genai",
+        "literacy",
+        "llm-application",
+        "math-education"
+      ],
+      "desc": "This field note addresses the critical challenge of accessing mathematical content in PDF documents for students using screenreader technology. Standard PDF exports often discard structural tags and fail to convey the complex meaning of mathematical notation, hindering full student participation in learning activities. To overcome these barriers, this exploratory project investigates improved document-production workflows that preserve mathematical structure from source code to final output. Utilizing Large Language Models (LLMs) like Anthropic’s Claude Code, the project prototyped methods for embedding structural information within LaTeX source code to generate inherently accessible PDFs and HTML documents featuring MathML. Furthermore, the note outlines a comprehensive future evaluation framework involving subject experts, accessibility specialists, and skilled screenreader users to rigorously validate these prototypes against real-world educational tasks. Ultimately, by both human expertise and AI, this initiative aims to develop an authoring toolchain for educators. This approach ensures mathematical documents are accessible upon creation, thereby enabling independent and more equitable participation for all students in mathematics education.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9114,
+      "title": "How Colleges Can Build Better Emergency Aid Programs",
+      "url": "https://edtrust.org/rti/how-colleges-can-build-better-emergency-aid-programs/",
+      "type": "framework",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-12",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "college-access",
+        "edtrust",
+        "higher-ed"
+      ],
+      "desc": "This EdTrust guide examines why college emergency aid programs, which can help students facing financial crises such as medical bills, car repairs or housing emergencies stay enrolled, are often hard to access. Drawing on an analysis of 111 college and university websites and insights from higher education practitioners, it identifies barriers including complicated applications, burdensome documentation, unclear eligibility rules and punitive-sounding language. It recommends simplifying applications, improving transparency, reducing administrative barriers and integrating emergency aid into broader student success and basic needs strategies to support persistence and completion.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9115,
+      "title": "Higher Education Student Survey: National and State Findings on Student Perceptions of Access, Opportunity, and Success",
+      "url": "https://edtrust.org/rti/higher-education-student-survey/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-10",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "college-access",
+        "edtrust",
+        "higher-ed"
+      ],
+      "desc": "EdTrust commissioned a national survey of college students, with a targeted look at Texas, Tennessee and Louisiana, to understand how anti-DEI laws and policies are affecting students' learning experiences, sense of belonging and access to campus supports. 83% of surveyed students said support programs, scholarships or a sense of community factored into their choice of school, yet 74% of them report that these programs have been reduced, discontinued, restructured or renamed. The findings also show that 63% of students believe they can influence decisions at their institutions, underscoring students as critical voices in shaping campus conditions.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9116,
+      "title": "Going for Gold: Setting the Standard for Michigan Achievement",
+      "url": "https://edtrust.org/rti/going-for-gold-setting-the-standard-for-michigan-achievement/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-10",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust",
+        "k-12"
+      ],
+      "desc": "EdTrust-Midwest's State of Michigan Education Report analyzes 23 measures across five indicators — academic outcomes, college readiness and success, student well-being, opportunity to learn and fair funding — to assess where Michigan's public education system stands. It finds progress in graduation rates and college affordability but persistent challenges: only 38.2% of third graders are proficient in reading and 33.3% of seventh graders in math, chronic absenteeism remains high, and the highest-poverty districts receive about $1,728 less per pupil than the lowest-poverty districts. The report sets out five policy priorities, including protecting fair funding, strengthening evidence-based literacy efforts and building equitable pathways to postsecondary opportunity.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9117,
+      "title": "How Data Can Solve the Chronic Absenteeism Crisis",
+      "url": "https://edtrust.org/rti/how-data-can-solve-the-chronic-absenteeism-crisis/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-05",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "attendance",
+        "edtrust",
+        "k-12"
+      ],
+      "desc": "This EdTrust brief examines how strong attendance data tools can help states address chronic absenteeism — missing more than 10% of school days — which falls hardest on students of color, students from low-income backgrounds, immigrant and undocumented students, and students with disabilities. It outlines five strategies state leaders and policymakers can use to strengthen attendance data systems, improve transparency and equip schools with the information they need to reduce chronic absenteeism, and highlights practices worth state investment.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9118,
+      "title": "The State of Funding Equity Data Tool",
+      "url": "https://edtrust.org/rti/the-state-of-funding-equity-data-tool/",
+      "type": "tool",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "page-meta",
+      "date_added": "2026-11-13",
+      "published_date": "2026-10-28",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust"
+      ],
+      "desc": "Understanding where funding gaps persist in your state is the first step toward holding leaders accountable for shortchanging students. Use this tool to explore EdTrust’s latest analysis of school funding equity across the country",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9119,
+      "title": "Funding Gaps 2026 – Technical Appendix",
+      "url": "https://edtrust.org/rti/funding-gaps-technical-appendix/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026-10-28",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust"
+      ],
+      "desc": "This technical appendix documents the data sources and methodology behind EdTrust's Funding Gaps 2026 report, which compares state and local revenues per student between districts serving the most and fewest students in poverty, students of color and English learners. The analysis covers 12,927 regular public school districts serving 45.9 million students, using Census finance and poverty data, NCES enrollment data and EdFacts English learner counts, with three-year average revenues adjusted for inflation and regional labor costs. It explains district exclusions, how districts are sorted into enrollment-weighted quartiles within states and nationally, and how funding gaps are calculated.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9120,
+      "title": "Funding Gaps Glossary",
+      "url": "https://edtrust.org/rti/funding-gaps-glossary/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026-10-28",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust"
+      ],
+      "desc": "This glossary defines the school finance terms used in EdTrust's Funding Gaps report and data tool. It covers concepts such as funding formulas, local fiscal capacity, per-pupil revenue, tax effort, and state and local revenue, and defines progressive, neutral and regressive funding by how much more or less state and local funding the highest-need districts receive than the lowest-need districts.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9121,
+      "title": "Funding for Fairness: Revenue Inequities for States’ Highest-Need Districts",
+      "url": "https://edtrust.org/rti/funding-gaps/",
+      "type": "report",
+      "source": "The Education Trust",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026-10-28",
+      "date_source": "listing",
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "edtrust",
+        "english-learners",
+        "k-12"
+      ],
+      "desc": "The latest edition of EdTrust's Funding Gaps analysis compares state and local school funding between districts serving the most and fewest students from low-income backgrounds, students of color and English learners. Nationally, high-poverty districts receive about the same funding as low-poverty districts (1% more, about $200 per student), while districts serving the most students of color receive 7% less (about $1,300 per student) and those serving the most English learners receive 5% less (about $900 per student). The report compares states, explains why these gaps matter, and recommends that states fund schools adequately, equitably and transparently, make local funding fairer and keep public funds in public schools.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9122,
+      "title": "Texas Teacher Workforce Policy: Evolving from Short-Term Solutions to Comprehensive Investment",
+      "url": "https://learningpolicyinstitute.org/product/tx-teacher-workforce-policy-brief",
+      "type": "report",
+      "source": "Learning Policy Institute",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-06",
+      "date_source": "listing",
+      "authors": [
+        "Victoria Wang"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "career-readiness",
+        "lpi",
+        "professional-development"
+      ],
+      "desc": "After decades of addressing teacher shortages through for-profit alternative certification and uncertified hires, Texas has shifted toward comprehensive, interconnected investments in teacher recruitment, preparation, certification, mentoring, and compensation, culminating in landmark 2025 legislation. The arc of Texas’ teacher workforce policy offers lessons to states facing teacher shortages.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9123,
+      "title": "Student Achievement Gains and California’s Residency-Prepared Teachers",
+      "url": "https://learningpolicyinstitute.org/product/ca-student-achievement-gains-residency-prepared-teachers-brief",
+      "type": "report",
+      "source": "Learning Policy Institute",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-03",
+      "date_source": "listing",
+      "authors": [
+        "Susan Kemper Patrick",
+        "Tiffany S. Tan"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "k-12",
+        "lpi",
+        "math-education",
+        "professional-development"
+      ],
+      "desc": "California’s investment in teacher residencies is yielding measurable benefits for students, teachers, and districts, with students of residency-prepared teachers in grades 4–8 showing gains in math and elementary students showing gains in English language arts. Residencies offer a comprehensive teacher preparation model and a path to achievement growth for students.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9124,
+      "title": "Turning Opportunity into Action: How Direct Admissions Programs Can Reach Students",
+      "url": "https://www.mathematica.org/publications/turning-opportunity-into-action-how-direct-admissions-programs-can-reach-students",
+      "type": "report",
+      "source": "Mathematica",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-06",
+      "date_source": "listing",
+      "authors": [
+        "Briana Starks",
+        "Elizabeth Gellman",
+        "Julie Bruch",
+        "Lisbeth Goble",
+        "Ijun Lai"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "college-access"
+      ],
+      "desc": "Drawing on students’ experiences with direct admissions programs in Georgia, Idaho, and Minnesota, this brief identifies strategies for helping students notice, understand, and act on college admission opportunities through clear, timely communications and support from trusted school staff.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9125,
+      "title": "Expanding Possibilities: How Direct Admissions Programs Shape Students’ College Choices",
+      "url": "https://www.mathematica.org/publications/expanding-possibilities-how-direct-admissions-programs-shape-students-college-choices",
+      "type": "report",
+      "source": "Mathematica",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-06",
+      "date_source": "listing",
+      "authors": [
+        "Elizabeth Gellman",
+        "Julie Bruch",
+        "Ijun Lai",
+        "Briana Starks",
+        "Lisbeth Goble"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "college-access"
+      ],
+      "desc": "Drawing on student experiences with direct admissions programs in Georgia, Idaho, and Minnesota and administrative data on college enrollment, this brief explores how the programs shape the colleges students consider, students’ confidence in their college plans, and the college pathways they pursue.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9126,
+      "title": "From Application to Enrollment: How Direct Admissions Programs Reduce Barriers to College",
+      "url": "https://www.mathematica.org/publications/from-application-to-enrollment-how-direct-admissions-programs-reduce-barriers-to-college",
+      "type": "report",
+      "source": "Mathematica",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-11-06",
+      "date_source": "listing",
+      "authors": [
+        "Elizabeth Gellman",
+        "Julie Bruch",
+        "Ijun Lai",
+        "Briana Starks",
+        "Lisbeth Goble"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "college-access"
+      ],
+      "desc": "Drawing on student experiences with direct admissions programs in Georgia, Idaho, and Minnesota and administrative data on college enrollment, this brief explores how program features can reduce barriers to applying to college and how enrollment patterns vary across states with different approaches.",
+      "domain": "policy",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9127,
+      "title": "Making Early Literacy Ed Tech Work in K-2 Classrooms",
+      "url": "https://www.mathematica.org/publications/making-early-literacy-ed-tech-work-in-k-2-classrooms",
+      "type": "report",
+      "source": "Mathematica",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-10-30",
+      "date_source": "listing",
+      "authors": [
+        "Michelle Bennett",
+        "Tareena Musaddiq",
+        "Kate Place"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "computer-assisted-learning",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "This brief provides insights for educators and educational technology developers on supporting the implementation of early literacy technology in K-2 classrooms, based on lessons from a study of Magpie Literacy’s Reading Foundations tool.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9128,
+      "title": "Implementing a Digital Literacy Tool in the Early Grades: Findings from a Study of Magpie Literacy",
+      "url": "https://www.mathematica.org/publications/implementing-a-digital-literacy-tool-in-the-early-grades-findings-from-a-study-of-magpie-literacy",
+      "type": "report",
+      "source": "Mathematica",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026-10-30",
+      "date_source": "listing",
+      "authors": [
+        "Tareena Musaddiq",
+        "Michelle Bennett",
+        "Kate Place"
+      ],
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "computer-assisted-learning",
+        "k-12",
+        "literacy",
+        "math-education"
+      ],
+      "desc": "Mathematica conducted an implementation study to explore the use of Magpie Literacy’s Reading Foundations Edtech tool in K–2 classrooms across two school districts during the 2025-26 school year. The study examined how educators and students interacted with the tool, educators’ perceptions of the tool, and factors that supported or limited its use.",
+      "domain": "research",
+      "url_verified": null,
+      "last_verified": null
+    },
+    {
+      "num": 9129,
+      "title": "Early Literacy Screening Falls Short Without a Coherent Assessment System",
+      "url": "https://www.wested.org/resource/early-literacy-screening-falls-short-without-a-coherent-assessment-system/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "listing",
+      "date_added": "2026-11-13",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Matt Brunetti"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/11/12125005/WE-Perspectives_Early-Literacy-Screening-Falls-Short-ADA-FINAL-1.pdf",
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "formative-assessment",
+        "k-12",
+        "literacy"
+      ],
+      "desc": "More than 30 states now require early literacy screeners in grades K–3. Without a coherent assessment system, though, screeners are often used for things they...",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-11-13"
+    },
+    {
+      "num": 9130,
+      "title": "Strengthening Outreach and Services for Out-of-School Youth",
+      "url": "https://www.wested.org/resource/strengthening-outreach-and-services-for-out-of-school-youth/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Lorena Rodriguez",
+        "Zujaila Ornelas"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/11/10143518/Outreach-for-OSY_remediation-ADA-FINAL.pdf",
+      "license": null,
+      "attribution": null,
+      "tags": [],
+      "desc": "This WestEd brief addresses migratory out-of-school youth, among the most underserved young people in the Migrant Education Program, who often balance work, family responsibilities, language barriers, housing instability and frequent moves and are missed by school-based identification systems. It offers practical guidance for extending recruitment into workplaces and community spaces, building referral partnerships, adapting outreach to youth schedules, and sustaining engagement through trust, consistent follow-through and flexible, coordinated services informed by youth feedback. It is written for state and local program leaders, recruitment staff, coordinators, educators and service providers.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-11-13"
+    },
+    {
+      "num": 9131,
+      "title": "Richmond Fund for Children and Youth: Evaluation Report (FY 2025)",
+      "url": "https://www.wested.org/resource/richmond-fund-for-children-and-youth-evaluation-report-fy-2025/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "WestEd"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/11/09112417/RFCY-2025-Report_FINAL-ADA-2.2.pdf",
+      "license": null,
+      "attribution": null,
+      "tags": [],
+      "desc": "This WestEd evaluation report covers the Richmond Fund for Children and Youth, which invests in community-based organizations supporting the health, well-being, safety, learning and long-term success of children, youth and families in Richmond and Unincorporated North Richmond, California. It examines program implementation, participant experiences, emerging outcomes, and organizational and community-level outcomes associated with the fund's investments, presenting findings from calendar year 2025, the first year of the 2025–27 funding cycle.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-11-13"
+    },
+    {
+      "num": 9132,
+      "title": "Educator and Student Perspectives From the Silicon Valley Artificial Intelligence Project (SVAIP) Study: Krause Center for Innovation",
+      "url": "https://www.wested.org/resource/educator-and-student-perspectives-from-the-silicon-valley-artificial-intelligence-project-svaip-study-krause-center-for-innovation/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Tony Fong",
+        "Anne Porterfield",
+        "Catherine Diercks"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/08/03102950/SVAIP-Report_10-01-26_added-logos-2-ADA-FINAL.pdf",
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "genai",
+        "k-12",
+        "professional-development"
+      ],
+      "desc": "This WestEd study evaluates the Krause Center for Innovation's AI Capstone, a professional learning program for TK–12 educators, and examines how their high school students use generative AI for schoolwork. The Capstone produced statistically significant gains across nearly every measured skill, with the largest gains in assessment design and in ethics and privacy practices, and graduates went on to lead professional development and shape district AI policy. Students, however, used AI constantly amid inconsistent policies, and the study concludes that educator professional development works best when paired with clear, written, subject-consistent AI policies.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-11-13"
+    },
+    {
+      "num": 9133,
+      "title": "Proposition 28 in Practice",
+      "url": "https://www.wested.org/resource/proposition-28-in-practice/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": null,
+      "date_source": null,
+      "authors": null,
+      "document_url": null,
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "k-12"
+      ],
+      "desc": "This WestEd series of briefs offers an early look at implementation of California's Proposition 28, which dedicates annual funding to expand arts and music education in public schools, drawing on reports from county offices of education, districts and schools. The briefs examine how the funds are being spent, which arts disciplines and courses are offered, how staffing levels have changed, the barriers educators face in using the funds, and what the field says is needed to ensure all students can access a quality arts education. A brief on preliminary outcomes reports what 203 staff members shared about expanded arts programming, increased student access to instruction and greater participation in the arts.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-11-13"
+    },
+    {
+      "num": 9134,
+      "title": "Building Science Leaders Network: Fostering Systems That Support Science HQIM Implementation",
+      "url": "https://www.wested.org/resource/building-science-leaders-network/",
+      "type": "report",
+      "source": "WestEd",
+      "url_confirmed": true,
+      "description_source": "llm-summary",
+      "date_added": "2026-11-13",
+      "published_date": "2026",
+      "date_source": "page-meta",
+      "authors": [
+        "Jill A. Wertheim",
+        "Jill Grace"
+      ],
+      "document_url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/27131423/10.20.2026_NM-Building-Science-Leaders-Network-Y2_FINAL-ADA-1.pdf",
+      "license": null,
+      "attribution": null,
+      "tags": [
+        "k-12"
+      ],
+      "desc": "This WestEd infographic, a collaboration between the K–12 Alliance and SCALE Science, argues that adopting high-quality instructional materials (HQIM) for science is not enough on its own: teachers need robust, sustained support to shift their instructional practice. Drawing on the New Mexico Building Science Leaders Network, it shows how tools such as the Framework for Supporting Student Sensemaking anchor efforts toward shared goals, why planning needs diverse stakeholder perspectives, and how strengthening leaders' capacity in science also improves their support for mathematics and English language arts.",
+      "domain": "research",
+      "url_verified": true,
+      "last_verified": "2026-11-13"
     }
   ]
 }

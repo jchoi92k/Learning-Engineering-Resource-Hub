@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — The Education Trust (full)
-# 325 entries with descriptions | Last updated: 2026-10-27
+# 333 entries with descriptions | Last updated: 2026-11-13
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-the-education-trust.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8124,5 +8124,205 @@ tags: [college-access, edtrust, higher-ed]
 ```
 
 This EdTrust piece examines federal accountability for colleges at a time of growing public doubt about the value of a degree, rising costs and student debt. It notes that the 2025 One Big Beautiful Bill Act created a "do-no-harm" earnings test requiring programs with access to federal loans to show that their graduates out-earn working adults without that credential. EdTrust calls this a step in the right direction but argues for a more comprehensive, student-centred accountability system, which it sets out as five principles.
+
+---
+
+---
+
+### 9114. How Colleges Can Build Better Emergency Aid Programs
+
+```yaml
+url: "https://edtrust.org/rti/how-colleges-can-build-better-emergency-aid-programs/"
+type: framework
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026-11-12
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [college-access, edtrust, higher-ed]
+```
+
+This EdTrust guide examines why college emergency aid programs, which can help students facing financial crises such as medical bills, car repairs or housing emergencies stay enrolled, are often hard to access. Drawing on an analysis of 111 college and university websites and insights from higher education practitioners, it identifies barriers including complicated applications, burdensome documentation, unclear eligibility rules and punitive-sounding language. It recommends simplifying applications, improving transparency, reducing administrative barriers and integrating emergency aid into broader student success and basic needs strategies to support persistence and completion.
+
+---
+
+---
+
+### 9115. Higher Education Student Survey: National and State Findings on Student Perceptions of Access, Opportunity, and Success
+
+```yaml
+url: "https://edtrust.org/rti/higher-education-student-survey/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026-11-10
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [college-access, edtrust, higher-ed]
+```
+
+EdTrust commissioned a national survey of college students, with a targeted look at Texas, Tennessee and Louisiana, to understand how anti-DEI laws and policies are affecting students' learning experiences, sense of belonging and access to campus supports. 83% of surveyed students said support programs, scholarships or a sense of community factored into their choice of school, yet 74% of them report that these programs have been reduced, discontinued, restructured or renamed. The findings also show that 63% of students believe they can influence decisions at their institutions, underscoring students as critical voices in shaping campus conditions.
+
+---
+
+---
+
+### 9116. Going for Gold: Setting the Standard for Michigan Achievement
+
+```yaml
+url: "https://edtrust.org/rti/going-for-gold-setting-the-standard-for-michigan-achievement/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026-11-10
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust, k-12]
+```
+
+EdTrust-Midwest's State of Michigan Education Report analyzes 23 measures across five indicators — academic outcomes, college readiness and success, student well-being, opportunity to learn and fair funding — to assess where Michigan's public education system stands. It finds progress in graduation rates and college affordability but persistent challenges: only 38.2% of third graders are proficient in reading and 33.3% of seventh graders in math, chronic absenteeism remains high, and the highest-poverty districts receive about $1,728 less per pupil than the lowest-poverty districts. The report sets out five policy priorities, including protecting fair funding, strengthening evidence-based literacy efforts and building equitable pathways to postsecondary opportunity.
+
+---
+
+---
+
+### 9117. How Data Can Solve the Chronic Absenteeism Crisis
+
+```yaml
+url: "https://edtrust.org/rti/how-data-can-solve-the-chronic-absenteeism-crisis/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026-11-05
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [attendance, edtrust, k-12]
+```
+
+This EdTrust brief examines how strong attendance data tools can help states address chronic absenteeism — missing more than 10% of school days — which falls hardest on students of color, students from low-income backgrounds, immigrant and undocumented students, and students with disabilities. It outlines five strategies state leaders and policymakers can use to strengthen attendance data systems, improve transparency and equip schools with the information they need to reduce chronic absenteeism, and highlights practices worth state investment.
+
+---
+
+---
+
+### 9118. The State of Funding Equity Data Tool
+
+```yaml
+url: "https://edtrust.org/rti/the-state-of-funding-equity-data-tool/"
+type: tool
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: page-meta
+date_added: 2026-11-13
+published_date: 2026-10-28
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust]
+```
+
+Understanding where funding gaps persist in your state is the first step toward holding leaders accountable for shortchanging students. Use this tool to explore EdTrust’s latest analysis of school funding equity across the country
+
+---
+
+---
+
+### 9119. Funding Gaps 2026 – Technical Appendix
+
+```yaml
+url: "https://edtrust.org/rti/funding-gaps-technical-appendix/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026-10-28
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This technical appendix documents the data sources and methodology behind EdTrust's Funding Gaps 2026 report, which compares state and local revenues per student between districts serving the most and fewest students in poverty, students of color and English learners. The analysis covers 12,927 regular public school districts serving 45.9 million students, using Census finance and poverty data, NCES enrollment data and EdFacts English learner counts, with three-year average revenues adjusted for inflation and regional labor costs. It explains district exclusions, how districts are sorted into enrollment-weighted quartiles within states and nationally, and how funding gaps are calculated.
+
+---
+
+---
+
+### 9120. Funding Gaps Glossary
+
+```yaml
+url: "https://edtrust.org/rti/funding-gaps-glossary/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026-10-28
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust]
+```
+
+This glossary defines the school finance terms used in EdTrust's Funding Gaps report and data tool. It covers concepts such as funding formulas, local fiscal capacity, per-pupil revenue, tax effort, and state and local revenue, and defines progressive, neutral and regressive funding by how much more or less state and local funding the highest-need districts receive than the lowest-need districts.
+
+---
+
+---
+
+### 9121. Funding for Fairness: Revenue Inequities for States’ Highest-Need Districts
+
+```yaml
+url: "https://edtrust.org/rti/funding-gaps/"
+type: report
+source: "The Education Trust"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026-10-28
+date_source: listing
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [edtrust, english-learners, k-12]
+```
+
+The latest edition of EdTrust's Funding Gaps analysis compares state and local school funding between districts serving the most and fewest students from low-income backgrounds, students of color and English learners. Nationally, high-poverty districts receive about the same funding as low-poverty districts (1% more, about $200 per student), while districts serving the most students of color receive 7% less (about $1,300 per student) and those serving the most English learners receive 5% less (about $900 per student). The report compares states, explains why these gaps matter, and recommends that states fund schools adequately, equitably and transparently, make local funding fairer and keep public funds in public schools.
 
 ---

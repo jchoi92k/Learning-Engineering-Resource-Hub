@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — WestEd (full)
-# 929 entries with descriptions | Last updated: 2026-10-27
+# 935 entries with descriptions | Last updated: 2026-11-13
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-wested-1.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -23224,5 +23224,155 @@ tags: [k-12]
 ```
 
 This WestEd brief examines early outcomes of California's Proposition 28 Arts and Music in Schools funding, based on what 203 staff members from county offices of education, districts and schools reported. Nearly two thirds of respondents reported increased student participation in arts education, and many said the funding let schools introduce, restore or expand arts programs, hire arts educators, improve access to materials and remove barriers to participation. Ongoing challenges include staffing capacity, accountability and funding administration. The brief concludes that sustained support and strategic planning will be essential to realizing the program's long-term promise.
+
+---
+
+---
+
+### 9129. Early Literacy Screening Falls Short Without a Coherent Assessment System
+
+```yaml
+url: "https://www.wested.org/resource/early-literacy-screening-falls-short-without-a-coherent-assessment-system/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026
+date_source: page-meta
+authors: ["Matt Brunetti"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/11/12125005/WE-Perspectives_Early-Literacy-Screening-Falls-Short-ADA-FINAL-1.pdf"
+doi: null
+license: null
+tags: [formative-assessment, k-12, literacy]
+```
+
+More than 30 states now require early literacy screeners in grades K–3. Without a coherent assessment system, though, screeners are often used for things they...
+
+---
+
+---
+
+### 9130. Strengthening Outreach and Services for Out-of-School Youth
+
+```yaml
+url: "https://www.wested.org/resource/strengthening-outreach-and-services-for-out-of-school-youth/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026
+date_source: page-meta
+authors: ["Lorena Rodriguez", "Zujaila Ornelas"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/11/10143518/Outreach-for-OSY_remediation-ADA-FINAL.pdf"
+doi: null
+license: null
+tags: []
+```
+
+This WestEd brief addresses migratory out-of-school youth, among the most underserved young people in the Migrant Education Program, who often balance work, family responsibilities, language barriers, housing instability and frequent moves and are missed by school-based identification systems. It offers practical guidance for extending recruitment into workplaces and community spaces, building referral partnerships, adapting outreach to youth schedules, and sustaining engagement through trust, consistent follow-through and flexible, coordinated services informed by youth feedback. It is written for state and local program leaders, recruitment staff, coordinators, educators and service providers.
+
+---
+
+---
+
+### 9131. Richmond Fund for Children and Youth: Evaluation Report (FY 2025)
+
+```yaml
+url: "https://www.wested.org/resource/richmond-fund-for-children-and-youth-evaluation-report-fy-2025/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026
+date_source: page-meta
+authors: ["WestEd"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/11/09112417/RFCY-2025-Report_FINAL-ADA-2.2.pdf"
+doi: null
+license: null
+tags: []
+```
+
+This WestEd evaluation report covers the Richmond Fund for Children and Youth, which invests in community-based organizations supporting the health, well-being, safety, learning and long-term success of children, youth and families in Richmond and Unincorporated North Richmond, California. It examines program implementation, participant experiences, emerging outcomes, and organizational and community-level outcomes associated with the fund's investments, presenting findings from calendar year 2025, the first year of the 2025–27 funding cycle.
+
+---
+
+---
+
+### 9132. Educator and Student Perspectives From the Silicon Valley Artificial Intelligence Project (SVAIP) Study: Krause Center for Innovation
+
+```yaml
+url: "https://www.wested.org/resource/educator-and-student-perspectives-from-the-silicon-valley-artificial-intelligence-project-svaip-study-krause-center-for-innovation/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026
+date_source: page-meta
+authors: ["Tony Fong", "Anne Porterfield", "Catherine Diercks"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/08/03102950/SVAIP-Report_10-01-26_added-logos-2-ADA-FINAL.pdf"
+doi: null
+license: null
+tags: [genai, k-12, professional-development]
+```
+
+This WestEd study evaluates the Krause Center for Innovation's AI Capstone, a professional learning program for TK–12 educators, and examines how their high school students use generative AI for schoolwork. The Capstone produced statistically significant gains across nearly every measured skill, with the largest gains in assessment design and in ethics and privacy practices, and graduates went on to lead professional development and shape district AI policy. Students, however, used AI constantly amid inconsistent policies, and the study concludes that educator professional development works best when paired with clear, written, subject-consistent AI policies.
+
+---
+
+---
+
+### 9133. Proposition 28 in Practice
+
+```yaml
+url: "https://www.wested.org/resource/proposition-28-in-practice/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: null
+date_source: null
+authors: null
+document_url: null
+doi: null
+license: null
+tags: [k-12]
+```
+
+This WestEd series of briefs offers an early look at implementation of California's Proposition 28, which dedicates annual funding to expand arts and music education in public schools, drawing on reports from county offices of education, districts and schools. The briefs examine how the funds are being spent, which arts disciplines and courses are offered, how staffing levels have changed, the barriers educators face in using the funds, and what the field says is needed to ensure all students can access a quality arts education. A brief on preliminary outcomes reports what 203 staff members shared about expanded arts programming, increased student access to instruction and greater participation in the arts.
+
+---
+
+---
+
+### 9134. Building Science Leaders Network: Fostering Systems That Support Science HQIM Implementation
+
+```yaml
+url: "https://www.wested.org/resource/building-science-leaders-network/"
+type: report
+source: "WestEd"
+url_confirmed: true
+description_inferred: false
+description_source: llm-summary
+date_added: 2026-11-13
+published_date: 2026
+date_source: page-meta
+authors: ["Jill A. Wertheim", "Jill Grace"]
+document_url: "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/10/27131423/10.20.2026_NM-Building-Science-Leaders-Network-Y2_FINAL-ADA-1.pdf"
+doi: null
+license: null
+tags: [k-12]
+```
+
+This WestEd infographic, a collaboration between the K–12 Alliance and SCALE Science, argues that adopting high-quality instructional materials (HQIM) for science is not enough on its own: teachers need robust, sustained support to shift their instructional practice. Drawing on the New Mexico Building Science Leaders Network, it shows how tools such as the Framework for Supporting Student Sensemaking anchor efforts toward shared goals, why planning needs diverse stakeholder perspectives, and how strengthening leaders' capacity in science also improves their support for mathematics and English language arts.
 
 ---

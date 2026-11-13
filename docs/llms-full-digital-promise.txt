@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Digital Promise (full)
-# 286 entries with descriptions | Last updated: 2026-10-27
+# 297 entries with descriptions | Last updated: 2026-11-13
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-digital-promise.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -7149,5 +7149,280 @@ tags: [digital-promise, k-12, response-to-intervention]
 ```
 
 This report chronicles Skyline High School’s participation in a cross-district co-design initiative facilitated by Digital Promise, aimed at strengthening information-sharing and intervention workflows for ninth-grade students. Facing fragmented data, inconsistent system permissions, and disconnected tracking tools, Skyline developed practical, school-led solutions to strengthen communication and coordination among key support staff. These workflows demonstrate how strong human infrastructure can strengthen coordination and enable earlier intervention even when existing technology does not fully support educators’ needs, while surfacing broader challenges related to system configuration, governance, and ownership that school staff could not resolve alone. This case study offers a blueprint for leaders to move beyond reliance on individual workarounds, demonstrating how local innovation can illuminate systemic needs and how shared ownership among schools, districts, technology providers, and technical assistance partners can create more sustainable student success systems.
+
+---
+
+---
+
+### 9095. From Classroom to Credential: Integrating Industry-Valued Credentials into High Schools
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/2229d3f9-1691-4fc8-8c83-ba48ff0ad08f"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, computer-assisted-learning, digital-promise, formative-assessment, k-12]
+```
+
+This toolkit helps high school educators and administrators integrate industry-aligned credentials into courses so students can build and demonstrate skills valued by employers. It introduces digital credential types, workforce competencies, and competency-based education, then offers credential examples and guiding questions to help educators choose options that fit their curriculum and students’ goals. Educators learn to align instruction and assessment, track progress, and prepare students to submit evidence of their skills. The toolkit also shows students how to share credentials on resumes and LinkedIn, outlines how administrators can support implementation, and gives families strategies to support students as they earn credentials.
+
+---
+
+---
+
+### 9096. Educator Implementation Toolkit: Complete Guide Set
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/9bedc5c8-87a0-4ea4-bf95-f897d16c7768"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, digital-promise, literacy]
+```
+
+The Educator Implementation Toolkit brings together seven resources that connect classroom learning to workforce skills and career opportunities. Each resource pairs a brief overview with a tool educators, school leaders, or families can put to use. Educators can identify workforce competencies in classroom activities, select industry-aligned credentials, collect evidence of student learning that meets issuer requirements, and integrate AI literacy into lessons. Students learn to showcase their credentials on resumes, on LinkedIn, and in interviews. School leaders can assess readiness and plan for equitable implementation, while families use guided conversations and action planning to help students explore careers and credentials.
+
+---
+
+---
+
+### 9097. Family Guide to Industry-Aligned Credentials
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/110f2715-1363-4693-8a20-125b7e23e32a"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, computer-assisted-learning, digital-promise]
+```
+
+This resource helps families understand industry-aligned credentials and support students as they explore careers. It explains how students demonstrate job skills through exams, hands-on projects, or portfolios and describes how credentials can build confidence and prepare students for future opportunities. Families learn why employer recognition and state-approved credential lists matter and how they can help students explore careers and organize digital credentials.
+
+---
+
+---
+
+### 9098. Administrator Quick-Start Guide
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/26f0375c-efeb-4d89-a704-4e715adcd039"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, computer-assisted-learning, digital-promise]
+```
+
+This resource helps school and district administrators plan and sustain industry-aligned credential programs. It outlines leadership priorities for setting a vision, selecting credentials that match curriculum and workforce needs, supporting educator learning, expanding equitable access, building partnerships, monitoring progress, and celebrating student achievements. The School Readiness Framework helps leaders document evidence, identify gaps, and record next steps across areas such as staffing, technology, student supports, family communication, and testing logistics.
+
+---
+
+---
+
+### 9099. Supporting Each Learner’s Journey to Career Readiness
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/8926bbe6-dc07-4cdb-b616-9d2f5939d21c"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, digital-promise]
+```
+
+This resource helps educators coach students to explain how industry-aligned credentials demonstrate their career readiness. It connects verified credentials to the knowledge, durable skills, and technical skills students need in the workplace and in education. Students learn to link credentials in the Licenses and Certifications section of a resume, add them to a LinkedIn profile, and discuss them in interviews. The Career Readiness Conversation Planner provides scenarios, guiding questions, starter language, and next steps.
+
+---
+
+---
+
+### 9100. Integrating AI Literacy in Any Classroom
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/0965c429-3af5-491c-a142-3e13ca1972b9"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, computer-assisted-learning, digital-promise, formative-assessment, literacy]
+```
+
+This resource helps educators integrate AI literacy into existing lessons across subject areas. It introduces the Digital Promise AI Literacy Framework and its three modes of engagement: Understand, Evaluate, and Use. Six practices cover data privacy, ethics, digital communication, information integrity, data analysis, and algorithmic thinking. The AI Lesson Design Canvas guides educators in setting academic and AI literacy goals, identifying workforce competencies and credentials, and designing authentic tasks that model responsible AI use. Educators plan evidence, such as AI prompt logs, alongside assessment and reflection. The resource connects AI literacy with durable skills including critical thinking, communication, and decision-making.
+
+---
+
+---
+
+### 9101. Collecting Authentic Evidence
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/b694a955-c072-4f78-900f-15d0f2532cd7"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, digital-promise, formative-assessment]
+```
+
+This resource helps educators collect verifiable evidence that students can apply workforce competencies in real-world contexts. It explains how to align classroom tasks with credential issuers’ rubrics and evidence requirements using examples such as portfolios, engineering designs, simulations, and team projects. Educators learn to connect assessment with course outcomes, share criteria, provide feedback during revisions, and collect evidence over time.
+
+---
+
+---
+
+### 9102. Introduction to Industry-Aligned Credentials
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/ca78a1f4-db45-4f9b-ada7-d3b93ec94324"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, computer-assisted-learning, digital-promise, formative-assessment]
+```
+
+This resource helps educators and school leaders select credentials that fit their programs. It introduces certifications, certificates, and digital badges, and distinguishes credentials aligned with industry standards from those employers value for hiring and promotion. It outlines three pillars for evaluating options, covering curriculum integration, workforce relevance, and assessment quality. The Industry-Aligned Credential Selection Protocol guides educators in defining learning goals and competencies, checking employer recognition and state credential lists, reviewing labor market information, and verifying that assessments require students to demonstrate skills.
+
+---
+
+---
+
+### 9103. What Are Workforce Competencies?
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/dfcd23fd-d3fe-46c3-bef9-58455b948741"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Aguirre, Nichole", "Galindo, Dr. Marilys"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, digital-promise, sel]
+```
+
+This resource equips educators to identify workforce competencies in their current curriculum and design pathways for students to demonstrate them. It defines these competencies as the core knowledge, skills, abilities, and behaviors learners apply across academic and professional settings. Grounded in the America Succeeds Durable Skills Advantage Framework, the guide connects these durable skills to modern skills-based hiring practices across four core categories. Through the Educator Planning Framework, teachers learn to select key competencies, map them to classroom activities, assess student mastery, align outcomes with industry credentials, and embed Universal Design for Learning strategies.
+
+---
+
+---
+
+### 9104. Mosaic of Neuro-Affirmative Environments: How Educators and Systems are Centering Neurodiversity
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/b4681075-311a-4166-8a47-299b1e4d76d8"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11
+date_source: listing
+authors: ["Scott, Sarah", "Wortman, Amanda", "Pautz Stephenson, Stefani", "Cotone, Liz"]
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, inclusive-design]
+```
+
+Although inclusive education has expanded and evidence shows neutral to positive outcomes for neurodivergent students without harm to neurotypical peers, more research is needed to understand the school- and program-wide conditions or approaches that facilitate inclusion. Meanwhile, neurodivergent learners, especially those at the intersection of multiple marginalized identities, continue to face systemic barriers, such as exclusionary placements, punitive discipline, and pressure to mask or conform. Research reveals much more about these barriers to inclusion than the system features that sustain it. This research agenda, led by Digital Promise’s Learner Variability Project, asks what works, for whom, and under what conditions. It proposes a multi-phase approach, including a landscape scan of system and policy features linked to inclusion and a case study exploration of programs and schools nominated as neuro-affirming and centering neurodivergent students. Through synthesis and subsequent participatory action research leveraging those findings with a cohort of new sites, programs, and schools, the research aims to assemble a mosaic of neuro-affirming practices for sites can adapt to their own contexts to support neurodivergent learners.
+
+---
+
+---
+
+### 9105. ATS Hub Field Note — Exploring AI Tools for Accessible Scientific Documents
+
+```yaml
+url: "https://digitalpromise.dspacedirect.org/items/8c568518-9659-4fd7-9aef-c8bc12540f76"
+type: report
+source: "Digital Promise"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-10
+date_source: listing
+authors: ["Power, Christopher", "Vasquez III, Eleazar"]
+document_url: null
+doi: null
+license: null
+tags: [computer-assisted-learning, digital-promise, genai, literacy, llm-application, math-education]
+```
+
+This field note addresses the critical challenge of accessing mathematical content in PDF documents for students using screenreader technology. Standard PDF exports often discard structural tags and fail to convey the complex meaning of mathematical notation, hindering full student participation in learning activities. To overcome these barriers, this exploratory project investigates improved document-production workflows that preserve mathematical structure from source code to final output. Utilizing Large Language Models (LLMs) like Anthropic’s Claude Code, the project prototyped methods for embedding structural information within LaTeX source code to generate inherently accessible PDFs and HTML documents featuring MathML. Furthermore, the note outlines a comprehensive future evaluation framework involving subject experts, accessibility specialists, and skilled screenreader users to rigorously validate these prototypes against real-world educational tasks. Ultimately, by both human expertise and AI, this initiative aims to develop an authoring toolchain for educators. This approach ensures mathematical documents are accessible upon creation, thereby enabling independent and more equitable participation for all students in mathematics education.
 
 ---

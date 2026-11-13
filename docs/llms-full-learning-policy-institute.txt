@@ -1,5 +1,5 @@
 # Renaissance AI and Education Resource Hub — Learning Policy Institute (full)
-# 358 entries with descriptions | Last updated: 2026-10-27
+# 360 entries with descriptions | Last updated: 2026-11-13
 # Compact list: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms-learning-policy-institute.txt · Root index: https://jchoi92k.github.io/Learning-Engineering-Resource-Hub/llms.txt
 
 ---
@@ -8949,5 +8949,55 @@ tags: [career-readiness, college-access, k-12, lpi, sel]
 ```
 
 The School of Business and Tourism is a Los Angeles high school redesigned as a community school using Linked Learning pathways, project-based learning, updated site roles, and a self-regulation space. Despite serving a higher-need population, the school outperformed the district on state assessments, offering a model for secondary school redesign.
+
+---
+
+---
+
+### 9122. Texas Teacher Workforce Policy: Evolving from Short-Term Solutions to Comprehensive Investment
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/tx-teacher-workforce-policy-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11-06
+date_source: listing
+authors: ["Victoria Wang"]
+document_url: null
+doi: null
+license: null
+tags: [career-readiness, lpi, professional-development]
+```
+
+After decades of addressing teacher shortages through for-profit alternative certification and uncertified hires, Texas has shifted toward comprehensive, interconnected investments in teacher recruitment, preparation, certification, mentoring, and compensation, culminating in landmark 2025 legislation. The arc of Texas’ teacher workforce policy offers lessons to states facing teacher shortages.
+
+---
+
+---
+
+### 9123. Student Achievement Gains and California’s Residency-Prepared Teachers
+
+```yaml
+url: "https://learningpolicyinstitute.org/product/ca-student-achievement-gains-residency-prepared-teachers-brief"
+type: report
+source: "Learning Policy Institute"
+url_confirmed: true
+description_inferred: false
+description_source: listing
+date_added: 2026-11-13
+published_date: 2026-11-03
+date_source: listing
+authors: ["Susan Kemper Patrick", "Tiffany S. Tan"]
+document_url: null
+doi: null
+license: null
+tags: [k-12, lpi, math-education, professional-development]
+```
+
+California’s investment in teacher residencies is yielding measurable benefits for students, teachers, and districts, with students of residency-prepared teachers in grades 4–8 showing gains in math and elementary students showing gains in English language arts. Residencies offer a comprehensive teacher preparation model and a path to achievement growth for students.
 
 ---
